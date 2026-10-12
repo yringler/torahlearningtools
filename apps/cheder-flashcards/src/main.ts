@@ -1,18 +1,11 @@
 import "./style.css";
-import { WEEKS } from "./words";
-import type { Word } from "./words";
+import { COURSES, cardsForTest, courseById, testsFor } from "./courses";
+import type { Card, Course, TestUnit } from "./courses";
 import { isCorrect } from "./check";
+import { bestScore, isLearned, lastCourse, markLearned, recordScore, rememberCourse } from "./progress";
 
-const MIX = "mix";
-const COUNT_OPTIONS = [5, 10, 15, 20] as const;
-type Source = typeof MIX | number;
-
-interface Settings {
-  source: Source;
-  count: number | "all";
-}
 interface Answer {
-  word: Word;
+  card: Card;
   typed: string;
   correct: boolean;
 }
@@ -30,11 +23,6 @@ function shuffle<T>(items: readonly T[]): T[] {
     a[j] = tmp;
   }
   return a;
-}
-
-function poolFor(source: Source): Word[] {
-  if (source === MIX) return WEEKS.flatMap((w) => w.words);
-  return WEEKS.find((w) => w.id === source)?.words ?? [];
 }
 
 function el<K extends keyof HTMLElementTagNameMap>(
@@ -58,129 +46,169 @@ function button(label: string, cls: string, onClick: () => void): HTMLButtonElem
 
 function mount(...nodes: Node[]): void {
   root.replaceChildren(...nodes);
+  window.scrollTo(0, 0);
 }
 
-// ---------- Saved settings (localStorage, per device) ----------
-const SETTINGS_KEY = "cheder-flashcards:settings";
+function hebrewCard(card: Card, ...extra: Node[]): HTMLDivElement {
+  const box = el("div", { class: "hebrew", dir: "rtl", lang: "he" }, card.hebrew);
+  if (card.sub) box.append(el("div", { class: "hebrew-sub" }, card.sub));
+  box.append(...extra);
+  return box;
+}
 
-function loadSettings(): Settings | null {
-  try {
-    const raw = localStorage.getItem(SETTINGS_KEY);
-    if (!raw) return null;
-    const data: unknown = JSON.parse(raw);
-    if (typeof data !== "object" || data === null) return null;
-    const { source, count } = data as Record<string, unknown>;
-    const validSource =
-      source === MIX || (typeof source === "number" && WEEKS.some((w) => w.id === source));
-    const validCount = count === "all" || (typeof count === "number" && count > 0);
-    return validSource && validCount ? { source: source as Source, count: count as number | "all" } : null;
-  } catch {
-    return null;
+function progressBar(done: number, total: number, text: string): HTMLDivElement {
+  const pct = total === 0 ? 0 : (done / total) * 100;
+  const bar = el(
+    "div",
+    { class: "bar", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(total), "aria-valuenow": String(done) },
+    el("div", { style: `width:${pct}%` }),
+  );
+  return el("div", { class: "progress" }, bar, el("div", { class: "progress-text" }, text));
+}
+
+// ---------- Home: pick a list ----------
+function showHome(): void {
+  const choices = el("div", { class: "stack" });
+  for (const c of COURSES) {
+    const words = c.weeks.reduce((n, w) => n + w.cards.length, 0);
+    const b = button("", "course", () => showCourse(c));
+    b.append(el("span", { class: "course-title" }, c.title), el("span", { class: "course-sub" }, `${c.weeks.length} weeks · ${words} words`));
+    choices.append(b);
   }
+  mount(el("h1", {}, "Word Quiz ⭐"), el("h2", {}, "Which words?"), choices);
 }
 
-function saveSettings(settings: Settings): void {
-  try {
-    localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
-  } catch {
-    // storage unavailable (private mode etc.) — just don't remember
-  }
-}
+// ---------- Course: weeks + tests ----------
+function showCourse(course: Course): void {
+  rememberCourse(course.id);
+  const list = el("div", { class: "stack" });
+  let firstOpen: HTMLElement | null = null;
 
-// ---------- Start ----------
-let lastSettings: Settings | null = null;
-
-function showStart(): void {
-  const saved = loadSettings();
-  let source: Source | null = saved?.source ?? null;
-  let count: number | "all" | null = saved?.count ?? null;
-
-  const weekBox = el("div", { class: "row" });
-  const countBox = el("div", { class: "row" });
-  const countHeading = el("h2", {}, "How many?");
-  const goBtn = button("Start!", "go", () => {
-    if (source === null || count === null) return;
-    startQuiz({ source, count });
-  });
-
-  function renderCounts(): void {
-    countBox.replaceChildren();
-    const has = source !== null;
-    countHeading.hidden = !has;
-    countBox.hidden = !has;
-    if (source === null) return;
-    const size = poolFor(source).length;
-    const opts: (number | "all")[] = COUNT_OPTIONS.filter((n) => n < size);
-    opts.push("all");
-    if (count !== null && !opts.includes(count)) count = null;
-    for (const o of opts) {
-      const label = o === "all" ? `All (${size})` : String(o);
-      const b = button(label, "choice", () => {
-        count = o;
-        renderCounts();
-      });
-      b.setAttribute("aria-pressed", String(count === o));
-      countBox.append(b);
+  for (const test of testsFor(course)) {
+    const unit = el("section", { class: "unit" });
+    for (const wi of test.weeks) {
+      const week = course.weeks[wi];
+      if (!week) continue;
+      const learned = isLearned(course.id, wi);
+      const row = el("div", { class: "week-row" }, el("span", { class: "week-name" }, `${week.label}${learned ? " ✅" : ""}`));
+      row.append(button("📖 Learn", "learn", () => runLearn(course, wi)));
+      unit.append(row);
+      if (!learned && !firstOpen) firstOpen = unit;
     }
+    const best = bestScore(course.id, test.index);
+    const testBtn = button(`🏆 ${test.label}`, "test", () => startTest(course, test));
+    unit.append(testBtn);
+    if (best) unit.append(el("div", { class: "best" }, `Best: ${best.score} / ${best.total}`));
+    list.append(unit);
   }
-
-  function renderWeeks(): void {
-    weekBox.replaceChildren();
-    const choices: { label: string; value: Source; cls: string }[] = [
-      ...WEEKS.map((w) => ({ label: w.label, value: w.id as Source, cls: "choice" })),
-      { label: "Mix them all!", value: MIX, cls: "choice" },
-    ];
-    for (const c of choices) {
-      const b = button(c.label, c.cls, () => {
-        source = c.value;
-        renderWeeks();
-        renderCounts();
-        updateGo();
-      });
-      b.setAttribute("aria-pressed", String(source === c.value));
-      weekBox.append(b);
-    }
-  }
-
-  function updateGo(): void {
-    goBtn.disabled = source === null || count === null;
-  }
-  // keep Start state in sync when count changes
-  countBox.addEventListener("click", updateGo);
 
   mount(
-    el("h1", {}, "Word Quiz ⭐"),
-    el("h2", {}, "Pick a week"),
-    weekBox,
-    countHeading,
-    countBox,
-    goBtn,
+    button("← Change list", "quit back", showHome),
+    el("h1", {}, course.title),
+    list,
   );
-  renderWeeks();
-  renderCounts();
-  updateGo();
+  const target: HTMLElement | null = firstOpen;
+  if (target) target.scrollIntoView({ block: "center" });
 }
 
-// ---------- Quiz ----------
-function startQuiz(settings: Settings): void {
-  lastSettings = settings;
-  saveSettings(settings);
-  const pool = shuffle(poolFor(settings.source));
-  const n = settings.count === "all" ? pool.length : Math.min(settings.count, pool.length);
-  runQuiz(pool.slice(0, n));
+// ---------- Learn: flashcards ----------
+function runLearn(course: Course, weekIndex: number): void {
+  const week = course.weeks[weekIndex];
+  if (!week) return showCourse(course);
+  const total = week.cards.length;
+  let queue = shuffle(week.cards);
+  let known = 0;
+
+  function showCard(): void {
+    const card = queue[0];
+    if (!card) return finish();
+    let flipped = false;
+
+    const back = el("div", { class: "flip-answer" });
+    back.hidden = true;
+    back.textContent = card.english.join(", ");
+    const front = hebrewCard(card, back);
+    front.classList.add("flashcard");
+    front.setAttribute("role", "button");
+    front.setAttribute("tabindex", "0");
+    front.setAttribute("aria-label", "Flip card");
+
+    const flipBtn = button("Flip 🔄", "go flip", () => flip());
+    const gotIt = button("I knew it ✅", "go", () => {
+      known++;
+      queue = queue.slice(1);
+      showCard();
+    });
+    const again = button("Again 🔁", "warn", () => {
+      // Put it back a few cards later so it comes around again.
+      const rest = queue.slice(1);
+      const at = Math.min(rest.length, 3);
+      queue = [...rest.slice(0, at), card, ...rest.slice(at)];
+      showCard();
+    });
+    const answerBtns = el("div", { class: "row answer-btns" }, again, gotIt);
+    answerBtns.hidden = true;
+
+    function flip(): void {
+      if (flipped) return;
+      flipped = true;
+      back.hidden = false;
+      flipBtn.hidden = true;
+      answerBtns.hidden = false;
+      gotIt.focus();
+    }
+    front.addEventListener("click", flip);
+    front.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        flip();
+      }
+    });
+
+    mount(
+      el("h2", { class: "center" }, `📖 ${week?.label ?? ""}`),
+      front,
+      flipBtn,
+      answerBtns,
+      progressBar(known, total, `${known} / ${total} learned`),
+      button("Back", "quit", () => showCourse(course)),
+    );
+    flipBtn.focus();
+  }
+
+  function finish(): void {
+    markLearned(course.id, weekIndex);
+    const test = testsFor(course).find((t) => t.weeks.includes(weekIndex));
+    const isLastOfUnit = test !== undefined && test.weeks[test.weeks.length - 1] === weekIndex;
+    const next = course.weeks[weekIndex + 1];
+    const buttons = el("div", { class: "stack" });
+    if (test && isLastOfUnit) buttons.append(button(`🏆 ${test.label}`, "go", () => startTest(course, test)));
+    else if (next) buttons.append(button(`📖 Learn ${next.label}`, "go", () => runLearn(course, weekIndex + 1)));
+    buttons.append(button("Learn again", "", () => runLearn(course, weekIndex)));
+    buttons.append(button("Back", "choice", () => showCourse(course)));
+    mount(el("h1", {}, `${week?.label ?? ""} learned! 🎉`), el("p", { class: "msg" }, `You learned all ${total} words.`), buttons);
+  }
+
+  showCard();
 }
 
-function runQuiz(words: Word[]): void {
+// ---------- Test: type the English ----------
+interface TestContext {
+  course: Course;
+  test: TestUnit;
+}
+
+function startTest(course: Course, test: TestUnit): void {
+  runQuiz(shuffle(cardsForTest(course, test)), { course, test });
+}
+
+function runQuiz(cards: Card[], ctx: TestContext, practice = false): void {
   const answers: Answer[] = [];
   let index = 0;
 
   function showQuestion(): void {
-    const word = words[index];
-    if (!word) {
-      showResults(answers);
-      return;
-    }
-    const hebrew = el("div", { class: "hebrew", dir: "rtl", lang: "he" }, word.hebrew);
+    const card = cards[index];
+    if (!card) return showResults(answers, ctx, practice);
     const input = el("input", {
       type: "text",
       autocomplete: "off",
@@ -191,42 +219,33 @@ function runQuiz(words: Word[]): void {
       placeholder: "English…",
       enterkeyhint: "next",
     });
-    input.autofocus = true;
 
-    const submit = (): void => {
+    const form = el("form", { class: "stack", novalidate: "" }, input);
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
       const typed = input.value.trim();
       if (typed === "") {
         input.focus();
         return;
       }
-      answers.push({ word, typed, correct: isCorrect(typed, word.english) });
+      answers.push({ card, typed, correct: isCorrect(typed, card.english) });
       index++;
       showQuestion();
-    };
-    const form = el("form", { class: "stack", novalidate: "" }, input);
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      submit();
     });
-    const next = el("button", { type: "submit", class: "go", style: "margin-top:0" }, "Next");
-
-    form.append(next);
-    const pct = (index / words.length) * 100;
-    const bar = el("div", { class: "bar", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(words.length), "aria-valuenow": String(index + 1) }, el("div", { style: `width:${pct + 100 / words.length}%` }));
-    const quit = button("Quit", "quit", showStart);
+    form.append(el("button", { type: "submit", class: "go", style: "margin-top:0" }, "Next"));
 
     mount(
-      hebrew,
+      el("h2", { class: "center" }, practice ? "💪 Practice" : `🏆 ${ctx.test.label}`),
+      hebrewCard(card),
       form,
-      el("div", { class: "progress" }, bar, el("div", { class: "progress-text" }, `${index + 1} / ${words.length}`)),
-      quit,
+      progressBar(index + 1, cards.length, `${index + 1} / ${cards.length}`),
+      button("Quit", "quit", () => showCourse(ctx.course)),
     );
     input.focus();
   }
   showQuestion();
 }
 
-// ---------- Results ----------
 function messageFor(score: number, total: number): string {
   const r = total === 0 ? 0 : score / total;
   if (r === 1) return "🌟🌟🌟 Perfect! Amazing!";
@@ -235,40 +254,41 @@ function messageFor(score: number, total: number): string {
   return "💪 Nice try! Practice makes perfect!";
 }
 
-function showResults(answers: Answer[]): void {
+function showResults(answers: Answer[], ctx: TestContext, practice: boolean): void {
   const score = answers.filter((a) => a.correct).length;
   const wrong = answers.filter((a) => !a.correct);
+  if (!practice) recordScore(ctx.course.id, ctx.test.index, { score, total: answers.length });
 
   const list = el("ul", { class: "results" });
   for (const a of answers) {
     const li = el("li", { class: a.correct ? "right" : "wrong" });
     li.append(
-      el("span", { class: "hebrew-sm", dir: "rtl", lang: "he" }, a.word.hebrew),
+      el("span", { class: "hebrew-sm", dir: "rtl", lang: "he" }, a.card.hebrew),
       el("span", { class: "typed" }, a.typed),
       el("span", { class: "mark", "aria-label": a.correct ? "correct" : "wrong" }, a.correct ? "✅" : "❌"),
     );
-    if (!a.correct) li.append(el("span", { class: "answer" }, `Answer: ${a.word.english.join(", ")}`));
+    if (!a.correct) li.append(el("span", { class: "answer" }, `Answer: ${a.card.english.join(", ")}`));
     list.append(li);
   }
 
   const buttons = el("div", { class: "stack" });
-  if (lastSettings) {
-    const s = lastSettings;
-    buttons.append(button("Try again", "", () => startQuiz(s)));
-  }
   if (wrong.length > 0) {
-    buttons.append(button("Practice my mistakes", "warn", () => runQuiz(shuffle(wrong.map((a) => a.word)))));
+    buttons.append(button("Practice my mistakes", "warn", () => runQuiz(shuffle(wrong.map((a) => a.card)), ctx, true)));
   }
-  buttons.append(button("Home", "choice", showStart));
+  buttons.append(button("Take the test again", "", () => startTest(ctx.course, ctx.test)));
+  buttons.append(button("Back to weeks", "choice", () => showCourse(ctx.course)));
 
   mount(
-    el("h1", {}, "All done!"),
+    el("h1", {}, practice ? "Practice done!" : "Test done!"),
     el("p", { class: "score" }, `${score} / ${answers.length}`),
     el("p", { class: "msg" }, messageFor(score, answers.length)),
     list,
     buttons,
   );
-  window.scrollTo(0, 0);
 }
 
-showStart();
+// Open the last-used list directly; otherwise ask.
+const saved = lastCourse();
+const savedCourse = saved ? courseById(saved) : undefined;
+if (savedCourse) showCourse(savedCourse);
+else showHome();

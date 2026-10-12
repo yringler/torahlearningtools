@@ -96,3 +96,24 @@ input[type="text"] {
 .results .typed small { display: block; font-size: .95rem; opacity: .8; }
 .results .mark { font-size: 1.8rem; }
 .results .answer { grid-column: 1 / -1; color: var(--red); font-size: 1.1rem; }
+
+.center { text-align: center; }
+.hebrew-sub { font-size: 2.2rem; line-height: 1.3; opacity: .75; }
+.flashcard { cursor: pointer; user-select: none; }
+.flip-answer { font-family: "Nunito", "Trebuchet MS", system-ui, sans-serif; font-weight: 900; font-size: 2.2rem; direction: ltr; color: var(--green-dark); border-top: 3px dashed var(--track); margin-top: 12px; padding-top: 12px; }
+button.flip { margin-top: 0; }
+.answer-btns > button { font-size: 1.4rem; min-height: 80px; margin-top: 0; }
+[hidden] { display: none !important; }
+
+button.course { display: flex; flex-direction: column; align-items: center; gap: 4px; min-height: 110px; }
+button.course:nth-child(2) { background: var(--purple); border-color: #5420c4; box-shadow: 0 5px 0 #5420c4; }
+.course-title { font-size: 1.9rem; }
+.course-sub { font-size: 1.05rem; opacity: .9; }
+button.back { text-align: left; margin-top: 0; width: auto; }
+
+.unit { background: var(--card); border: 4px solid var(--track); border-radius: 24px; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+.week-row { display: flex; align-items: center; gap: 12px; }
+.week-name { flex: 1; font-size: 1.4rem; }
+button.learn { min-height: 56px; padding: 8px 16px; }
+button.test { background: var(--green); border-color: var(--green-dark); box-shadow: 0 5px 0 var(--green-dark); }
+.best { text-align: center; font-size: 1.1rem; color: var(--green-dark); }

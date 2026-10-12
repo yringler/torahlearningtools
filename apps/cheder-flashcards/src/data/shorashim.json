@@ -1,0 +1,429 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "words": [
+        { "root": "אמר", "example": "אָמַר", "english": ["say", "said", "speak"] },
+        { "root": "הלך", "example": "הָלַךְ", "english": ["go", "went", "walk"] },
+        { "root": "ראה", "example": "רָאָה", "english": ["see", "saw", "look"] },
+        { "root": "שמע", "example": "שָׁמַע", "english": ["hear", "heard", "listen"] },
+        { "root": "בוא", "example": "בָּא", "english": ["come", "came", "enter"] },
+        { "root": "נתן", "example": "נָתַן", "english": ["give", "gave"] },
+        { "root": "עשה", "example": "עָשָׂה", "english": ["do", "make", "did", "made"] },
+        { "root": "ישב", "example": "יָשַׁב", "english": ["sit", "sat", "dwell"] },
+        { "root": "אכל", "example": "אָכַל", "english": ["eat", "ate"] },
+        { "root": "קום", "example": "קָם", "english": ["get up", "rise", "stand up", "arise"] },
+        { "root": "כתב", "example": "כָּתַב", "english": ["write", "wrote"] },
+        { "root": "שמר", "example": "שָׁמַר", "english": ["guard", "keep", "watch", "protect"] }
+      ]
+    },
+    {
+      "week": 2,
+      "words": [
+        { "root": "היה", "example": "הָיָה", "english": ["be", "was", "become"] },
+        { "root": "דבר", "example": "דִּבֶּר", "english": ["speak", "spoke", "talk", "say"] },
+        { "root": "יצא", "example": "יָצָא", "english": ["go out", "went out", "leave", "exit"] },
+        { "root": "לקח", "example": "לָקַח", "english": ["take", "took"] },
+        { "root": "ידע", "example": "יָדַע", "english": ["know", "knew"] },
+        { "root": "עלה", "example": "עָלָה", "english": ["go up", "went up", "ascend", "climb"] },
+        { "root": "ירד", "example": "יָרַד", "english": ["go down", "went down", "descend"] },
+        { "root": "שלח", "example": "שָׁלַח", "english": ["send", "sent"] },
+        { "root": "קרא", "example": "קָרָא", "english": ["call", "called", "read"] },
+        { "root": "ברך", "example": "בֵּרַךְ", "english": ["bless", "blessed"] },
+        { "root": "שוב", "example": "שָׁב", "english": ["return", "go back", "come back"] },
+        { "root": "מות", "example": "מֵת", "english": ["die", "died"] }
+      ]
+    },
+    {
+      "week": 3,
+      "words": [
+        { "root": "שתה", "example": "שָׁתָה", "english": ["drink", "drank"] },
+        { "root": "שכב", "example": "שָׁכַב", "english": ["lie down", "lay down", "sleep"] },
+        { "root": "עמד", "example": "עָמַד", "english": ["stand", "stood"] },
+        { "root": "נפל", "example": "נָפַל", "english": ["fall", "fell"] },
+        { "root": "ילד", "example": "יָלַד", "english": ["give birth", "bear", "beget"] },
+        { "root": "בנה", "example": "בָּנָה", "english": ["build", "built"] },
+        { "root": "שים", "example": "שָׂם", "english": ["put", "place", "set"] },
+        { "root": "מצא", "example": "מָצָא", "english": ["find", "found"] },
+        { "root": "נשא", "example": "נָשָׂא", "english": ["carry", "lift", "bear"] },
+        { "root": "צוה", "example": "צִוָּה", "english": ["command", "commanded", "order"] },
+        { "root": "חיה", "example": "חָיָה", "english": ["live", "lived"] },
+        { "root": "אהב", "example": "אָהַב", "english": ["love", "loved"] }
+      ]
+    },
+    {
+      "week": 4,
+      "words": [
+        { "root": "יכל", "example": "יָכֹל", "english": ["be able", "can", "could"] },
+        { "root": "בכה", "example": "בָּכָה", "english": ["cry", "cried", "weep"] },
+        { "root": "שאל", "example": "שָׁאַל", "english": ["ask", "asked"] },
+        { "root": "ענה", "example": "עָנָה", "english": ["answer", "reply"] },
+        { "root": "רוץ", "example": "רָץ", "english": ["run", "ran"] },
+        { "root": "פתח", "example": "פָּתַח", "english": ["open", "opened"] },
+        { "root": "סגר", "example": "סָגַר", "english": ["close", "shut"] },
+        { "root": "ספר", "example": "סִפֵּר", "english": ["tell", "told", "count"] },
+        { "root": "נסע", "example": "נָסַע", "english": ["travel", "journey", "set out"] },
+        { "root": "חנה", "example": "חָנָה", "english": ["camp", "encamp"] },
+        { "root": "זכר", "example": "זָכַר", "english": ["remember"] },
+        { "root": "שכח", "example": "שָׁכַח", "english": ["forget", "forgot"] }
+      ]
+    },
+    {
+      "week": 5,
+      "words": [
+        { "root": "ירא", "example": "יָרֵא", "english": ["fear", "be afraid", "afraid"] },
+        { "root": "נגע", "example": "נָגַע", "english": ["touch", "touched"] },
+        { "root": "שלך", "example": "הִשְׁלִיךְ", "english": ["throw", "threw", "cast"] },
+        { "root": "קבר", "example": "קָבַר", "english": ["bury", "buried"] },
+        { "root": "חפר", "example": "חָפַר", "english": ["dig", "dug"] },
+        { "root": "רחץ", "example": "רָחַץ", "english": ["wash", "washed", "bathe"] },
+        { "root": "לבש", "example": "לָבַשׁ", "english": ["wear", "put on", "dress"] },
+        { "root": "רכב", "example": "רָכַב", "english": ["ride", "rode"] },
+        { "root": "שבר", "example": "שָׁבַר", "english": ["break", "broke"] },
+        { "root": "שרף", "example": "שָׂרַף", "english": ["burn", "burned"] },
+        { "root": "בחר", "example": "בָּחַר", "english": ["choose", "chose", "select"] },
+        { "root": "עבר", "example": "עָבַר", "english": ["pass", "cross", "pass over"] }
+      ]
+    },
+    {
+      "week": 6,
+      "words": [
+        { "root": "סור", "example": "סָר", "english": ["turn aside", "remove", "depart"] },
+        { "root": "נגד", "example": "הִגִּיד", "english": ["tell", "told", "declare"] },
+        { "root": "עבד", "example": "עָבַד", "english": ["serve", "work", "worship"] },
+        { "root": "מלך", "example": "מָלַךְ", "english": ["reign", "rule", "be king"] },
+        { "root": "שפט", "example": "שָׁפַט", "english": ["judge", "judged"] },
+        { "root": "ישע", "example": "הוֹשִׁיעַ", "english": ["save", "saved", "rescue"] },
+        { "root": "נצל", "example": "הִצִּיל", "english": ["save", "rescue", "deliver"] },
+        { "root": "בקש", "example": "בִּקֵּשׁ", "english": ["seek", "ask", "look for", "request"] },
+        { "root": "לחם", "example": "נִלְחַם", "english": ["fight", "fought", "battle"] },
+        { "root": "כרת", "example": "כָּרַת", "english": ["cut", "cut off", "make covenant"] },
+        { "root": "זבח", "example": "זָבַח", "english": ["sacrifice", "slaughter"] },
+        { "root": "קרב", "example": "קָרַב", "english": ["come near", "approach", "draw near"] }
+      ]
+    },
+    {
+      "week": 7,
+      "words": [
+        { "root": "נגש", "example": "נִגַּשׁ", "english": ["approach", "come near", "draw near"] },
+        { "root": "חלם", "example": "חָלַם", "english": ["dream", "dreamed"] },
+        { "root": "פחד", "example": "פָּחַד", "english": ["fear", "be afraid", "tremble"] },
+        { "root": "שמח", "example": "שָׂמַח", "english": ["rejoice", "be happy", "be glad"] },
+        { "root": "צחק", "example": "צָחַק", "english": ["laugh", "laughed"] },
+        { "root": "שנא", "example": "שָׂנֵא", "english": ["hate", "hated"] },
+        { "root": "חטא", "example": "חָטָא", "english": ["sin", "sinned"] },
+        { "root": "גנב", "example": "גָּנַב", "english": ["steal", "stole"] },
+        { "root": "רדף", "example": "רָדַף", "english": ["chase", "pursue", "chased"] },
+        { "root": "ברח", "example": "בָּרַח", "english": ["flee", "fled", "run away"] },
+        { "root": "נוס", "example": "נָס", "english": ["flee", "fled", "run away"] },
+        { "root": "מכר", "example": "מָכַר", "english": ["sell", "sold"] }
+      ]
+    },
+    {
+      "week": 8,
+      "words": [
+        { "root": "קנה", "example": "קָנָה", "english": ["buy", "bought", "acquire"] },
+        { "root": "חפץ", "example": "חָפֵץ", "english": ["want", "desire", "delight"] },
+        { "root": "שקה", "example": "הִשְׁקָה", "english": ["give drink", "water"] },
+        { "root": "רעה", "example": "רָעָה", "english": ["shepherd", "graze", "tend", "feed"] },
+        { "root": "זרע", "example": "זָרַע", "english": ["sow", "plant", "seed"] },
+        { "root": "קצר", "example": "קָצַר", "english": ["harvest", "reap"] },
+        { "root": "נטע", "example": "נָטַע", "english": ["plant", "planted"] },
+        { "root": "בשל", "example": "בִּשֵּׁל", "english": ["cook", "boil"] },
+        { "root": "אפה", "example": "אָפָה", "english": ["bake", "baked"] },
+        { "root": "כבס", "example": "כִּבֵּס", "english": ["wash clothes", "launder", "wash"] },
+        { "root": "טהר", "example": "טָהֵר", "english": ["be pure", "purify", "be clean", "clean"] },
+        { "root": "טמא", "example": "טָמֵא", "english": ["be impure", "be unclean", "defile"] }
+      ]
+    },
+    {
+      "week": 9,
+      "words": [
+        { "root": "קדש", "example": "קִדֵּשׁ", "english": ["sanctify", "make holy", "holy"] },
+        { "root": "חלל", "example": "חִלֵּל", "english": ["profane", "desecrate", "begin"] },
+        { "root": "שבע", "example": "נִשְׁבַּע", "english": ["swear", "swore", "take oath", "promise"] },
+        { "root": "שבת", "example": "שָׁבַת", "english": ["rest", "stop", "cease"] },
+        { "root": "נוח", "example": "נָח", "english": ["rest", "settle"] },
+        { "root": "ישן", "example": "יָשֵׁן", "english": ["sleep", "slept"] },
+        { "root": "יקץ", "example": "וַיִּיקַץ", "english": ["wake up", "woke up", "awake"] },
+        { "root": "חבש", "example": "חָבַשׁ", "english": ["saddle", "bind", "tie"] },
+        { "root": "קשר", "example": "קָשַׁר", "english": ["tie", "bind", "conspire"] },
+        { "root": "אסר", "example": "אָסַר", "english": ["bind", "tie", "imprison"] },
+        { "root": "פקד", "example": "פָּקַד", "english": ["count", "remember", "appoint", "visit"] },
+        { "root": "מנה", "example": "מָנָה", "english": ["count", "number"] }
+      ]
+    },
+    {
+      "week": 10,
+      "words": [
+        { "root": "מלא", "example": "מָלֵא", "english": ["fill", "be full", "filled"] },
+        { "root": "שפך", "example": "שָׁפַךְ", "english": ["pour", "spill", "poured"] },
+        { "root": "נשק", "example": "נָשַׁק", "english": ["kiss", "kissed"] },
+        { "root": "חבק", "example": "חִבֵּק", "english": ["hug", "embrace"] },
+        { "root": "רחם", "example": "רִחֵם", "english": ["have mercy", "pity", "compassion"] },
+        { "root": "עזר", "example": "עָזַר", "english": ["help", "helped"] },
+        { "root": "נסה", "example": "נִסָּה", "english": ["test", "try", "tested"] },
+        { "root": "בטח", "example": "בָּטַח", "english": ["trust", "rely"] },
+        { "root": "אמן", "example": "הֶאֱמִין", "english": ["believe", "trust"] },
+        { "root": "הלל", "example": "הִלֵּל", "english": ["praise", "praised"] },
+        { "root": "שיר", "example": "שָׁר", "english": ["sing", "sang"] },
+        { "root": "זמר", "example": "זִמֵּר", "english": ["sing", "sing praise"] }
+      ]
+    },
+    {
+      "week": 11,
+      "words": [
+        { "root": "ירה", "example": "יָרָה", "english": ["shoot", "throw", "teach"] },
+        { "root": "למד", "example": "לָמַד", "english": ["learn", "teach", "study"] },
+        { "root": "חזק", "example": "חָזַק", "english": ["be strong", "strengthen", "hold", "strong"] },
+        { "root": "אחז", "example": "אָחַז", "english": ["hold", "grab", "seize"] },
+        { "root": "תפש", "example": "תָּפַשׂ", "english": ["catch", "seize", "grab"] },
+        { "root": "משך", "example": "מָשַׁךְ", "english": ["pull", "draw", "drag"] },
+        { "root": "הרג", "example": "הָרַג", "english": ["kill", "killed", "slay"] },
+        { "root": "נכה", "example": "הִכָּה", "english": ["hit", "strike", "smite"] },
+        { "root": "מחה", "example": "מָחָה", "english": ["wipe out", "erase", "blot out"] },
+        { "root": "שחת", "example": "הִשְׁחִית", "english": ["destroy", "ruin", "corrupt"] },
+        { "root": "אבד", "example": "אָבַד", "english": ["perish", "be lost", "lose", "destroy"] },
+        { "root": "גדל", "example": "גָּדַל", "english": ["grow", "grow up", "be great"] }
+      ]
+    },
+    {
+      "week": 12,
+      "words": [
+        { "root": "רבה", "example": "רָבָה", "english": ["increase", "multiply", "grow"] },
+        { "root": "פרה", "example": "פָּרָה", "english": ["be fruitful", "multiply", "bear fruit"] },
+        { "root": "ברא", "example": "בָּרָא", "english": ["create", "created"] },
+        { "root": "הפך", "example": "הָפַךְ", "english": ["turn", "overturn", "change"] },
+        { "root": "פנה", "example": "פָּנָה", "english": ["turn", "face", "turn to"] },
+        { "root": "נטה", "example": "נָטָה", "english": ["stretch", "extend", "turn aside", "pitch"] },
+        { "root": "סבב", "example": "סָבַב", "english": ["surround", "go around", "turn"] },
+        { "root": "נבט", "example": "הִבִּיט", "english": ["look", "gaze", "behold"] },
+        { "root": "חשב", "example": "חָשַׁב", "english": ["think", "plan", "consider"] },
+        { "root": "בין", "example": "הֵבִין", "english": ["understand", "discern"] },
+        { "root": "שכל", "example": "הִשְׂכִּיל", "english": ["understand", "be wise", "succeed"] },
+        { "root": "חכם", "example": "חָכַם", "english": ["be wise", "wise"] }
+      ]
+    },
+    {
+      "week": 13,
+      "words": [
+        { "root": "יעץ", "example": "יָעַץ", "english": ["advise", "counsel"] },
+        { "root": "נבא", "example": "נִבָּא", "english": ["prophesy"] },
+        { "root": "גלה", "example": "גָּלָה", "english": ["reveal", "uncover", "exile"] },
+        { "root": "כסה", "example": "כִּסָּה", "english": ["cover", "covered", "hide"] },
+        { "root": "סתר", "example": "הִסְתִּיר", "english": ["hide", "conceal"] },
+        { "root": "חבא", "example": "נֶחְבָּא", "english": ["hide", "hid"] },
+        { "root": "בקע", "example": "בָּקַע", "english": ["split", "divide", "break open"] },
+        { "root": "חלק", "example": "חָלַק", "english": ["divide", "share", "split"] },
+        { "root": "בדל", "example": "הִבְדִּיל", "english": ["separate", "divide", "distinguish"] },
+        { "root": "אסף", "example": "אָסַף", "english": ["gather", "collect", "gathered"] },
+        { "root": "קבץ", "example": "קִבֵּץ", "english": ["gather", "collect"] },
+        { "root": "לקט", "example": "לָקַט", "english": ["gather", "pick up", "glean"] }
+      ]
+    },
+    {
+      "week": 14,
+      "words": [
+        { "root": "פוץ", "example": "הֵפִיץ", "english": ["scatter", "spread", "disperse"] },
+        { "root": "שאר", "example": "נִשְׁאַר", "english": ["remain", "be left", "stay"] },
+        { "root": "יתר", "example": "נוֹתַר", "english": ["remain", "be left"] },
+        { "root": "גור", "example": "גָּר", "english": ["live", "sojourn", "dwell"] },
+        { "root": "שכן", "example": "שָׁכַן", "english": ["dwell", "live", "settle"] },
+        { "root": "לון", "example": "לָן", "english": ["lodge", "stay overnight", "sleep over"] },
+        { "root": "חרה", "example": "חָרָה", "english": ["be angry", "burn", "angry"] },
+        { "root": "כעס", "example": "כָּעַס", "english": ["be angry", "anger", "angry"] },
+        { "root": "קצף", "example": "קָצַף", "english": ["be angry", "rage"] },
+        { "root": "בהל", "example": "נִבְהַל", "english": ["be scared", "be terrified", "panic"] },
+        { "root": "צעק", "example": "צָעַק", "english": ["cry out", "shout", "scream"] },
+        { "root": "זעק", "example": "זָעַק", "english": ["cry out", "shout", "call"] }
+      ]
+    },
+    {
+      "week": 15,
+      "words": [
+        { "root": "רוע", "example": "הֵרִיעַ", "english": ["shout", "cheer"] },
+        { "root": "תקע", "example": "תָּקַע", "english": ["blow", "thrust", "pitch"] },
+        { "root": "שחט", "example": "שָׁחַט", "english": ["slaughter", "kill"] },
+        { "root": "קטר", "example": "הִקְטִיר", "english": ["burn incense", "offer", "burn"] },
+        { "root": "כפר", "example": "כִּפֶּר", "english": ["atone", "forgive", "cover"] },
+        { "root": "סלח", "example": "סָלַח", "english": ["forgive", "pardon"] },
+        { "root": "משח", "example": "מָשַׁח", "english": ["anoint", "smear"] },
+        { "root": "כהן", "example": "כִּהֵן", "english": ["be priest", "serve", "minister"] },
+        { "root": "שרת", "example": "שֵׁרֵת", "english": ["serve", "minister", "attend"] },
+        { "root": "נדר", "example": "נָדַר", "english": ["vow", "promise"] },
+        { "root": "נדב", "example": "הִתְנַדֵּב", "english": ["volunteer", "donate", "give freely"] },
+        { "root": "רום", "example": "רָם", "english": ["be high", "raise", "lift", "rise"] }
+      ]
+    },
+    {
+      "week": 16,
+      "words": [
+        { "root": "סמך", "example": "סָמַךְ", "english": ["lean", "lay hands", "support"] },
+        { "root": "זרק", "example": "זָרַק", "english": ["sprinkle", "throw", "toss"] },
+        { "root": "נזה", "example": "הִזָּה", "english": ["sprinkle", "splash"] },
+        { "root": "גבה", "example": "גָּבַהּ", "english": ["be high", "be tall", "proud"] },
+        { "root": "נסך", "example": "נָסַךְ", "english": ["pour", "pour out"] },
+        { "root": "רחק", "example": "רָחַק", "english": ["be far", "go far", "distance"] },
+        { "root": "קרה", "example": "קָרָה", "english": ["happen", "occur", "meet"] },
+        { "root": "פגע", "example": "פָּגַע", "english": ["meet", "encounter", "hit", "strike"] },
+        { "root": "פגש", "example": "פָּגַשׁ", "english": ["meet", "met"] },
+        { "root": "חלה", "example": "חָלָה", "english": ["be sick", "sick", "ill"] },
+        { "root": "רפא", "example": "רָפָא", "english": ["heal", "cure"] },
+        { "root": "שלם", "example": "שִׁלֵּם", "english": ["pay", "repay", "complete"] }
+      ]
+    },
+    {
+      "week": 17,
+      "words": [
+        { "root": "כלה", "example": "כִּלָּה", "english": ["finish", "complete", "end"] },
+        { "root": "תמם", "example": "תַּם", "english": ["finish", "be complete", "end"] },
+        { "root": "חדל", "example": "חָדַל", "english": ["stop", "cease", "quit"] },
+        { "root": "יסף", "example": "הוֹסִיף", "english": ["add", "continue", "again"] },
+        { "root": "יטב", "example": "הֵיטִיב", "english": ["do good", "be good", "be well"] },
+        { "root": "רעע", "example": "הֵרַע", "english": ["do bad", "do evil", "harm"] },
+        { "root": "גרש", "example": "גֵּרַשׁ", "english": ["drive out", "expel", "chase away"] },
+        { "root": "ירש", "example": "יָרַשׁ", "english": ["inherit", "possess", "take possession"] },
+        { "root": "נחל", "example": "נָחַל", "english": ["inherit", "possess"] },
+        { "root": "כבש", "example": "כָּבַשׁ", "english": ["conquer", "subdue"] },
+        { "root": "שבה", "example": "שָׁבָה", "english": ["capture", "take captive"] },
+        { "root": "לכד", "example": "לָכַד", "english": ["capture", "catch", "seize"] }
+      ]
+    },
+    {
+      "week": 18,
+      "words": [
+        { "root": "צור", "example": "צָר", "english": ["besiege", "attack", "siege"] },
+        { "root": "אמץ", "example": "אָמֵץ", "english": ["be strong", "be brave", "courage"] },
+        { "root": "נחם", "example": "נִחַם", "english": ["comfort", "console", "regret", "be sorry"] },
+        { "root": "בוש", "example": "בּוֹשׁ", "english": ["be ashamed", "ashamed", "shame"] },
+        { "root": "כבד", "example": "כִּבֵּד", "english": ["honor", "respect", "be heavy"] },
+        { "root": "קלל", "example": "קִלֵּל", "english": ["curse", "cursed"] },
+        { "root": "ארר", "example": "אָרַר", "english": ["curse", "cursed"] },
+        { "root": "בזה", "example": "בָּזָה", "english": ["despise", "scorn"] },
+        { "root": "לעג", "example": "לָעַג", "english": ["mock", "laugh at", "scorn"] },
+        { "root": "רצח", "example": "רָצַח", "english": ["murder", "kill"] },
+        { "root": "חמד", "example": "חָמַד", "english": ["desire", "covet", "want"] },
+        { "root": "אוה", "example": "הִתְאַוָּה", "english": ["desire", "crave", "want"] }
+      ]
+    },
+    {
+      "week": 19,
+      "words": [
+        { "root": "רצה", "example": "רָצָה", "english": ["want", "desire", "accept", "be pleased"] },
+        { "root": "מאן", "example": "מֵאֵן", "english": ["refuse", "refused"] },
+        { "root": "מאס", "example": "מָאַס", "english": ["reject", "despise"] },
+        { "root": "קנא", "example": "קִנֵּא", "english": ["be jealous", "envy", "jealous"] },
+        { "root": "עתר", "example": "עָתַר", "english": ["pray", "plead", "entreat"] },
+        { "root": "פלל", "example": "הִתְפַּלֵּל", "english": ["pray", "prayed"] },
+        { "root": "שחה", "example": "הִשְׁתַּחֲוָה", "english": ["bow", "bow down", "worship"] },
+        { "root": "כרע", "example": "כָּרַע", "english": ["kneel", "bow", "bend"] },
+        { "root": "קדד", "example": "וַיִּקֹּד", "english": ["bow", "bow down"] },
+        { "root": "שקל", "example": "שָׁקַל", "english": ["weigh", "weighed"] },
+        { "root": "מדד", "example": "מָדַד", "english": ["measure", "measured"] },
+        { "root": "ספד", "example": "סָפַד", "english": ["mourn", "lament", "eulogize"] }
+      ]
+    },
+    {
+      "week": 20,
+      "words": [
+        { "root": "אבל", "example": "הִתְאַבֵּל", "english": ["mourn", "grieve"] },
+        { "root": "צום", "example": "צָם", "english": ["fast", "fasted"] },
+        { "root": "יגע", "example": "יָגַע", "english": ["be tired", "tire", "labor", "weary"] },
+        { "root": "נוע", "example": "נָע", "english": ["move", "shake", "wander"] },
+        { "root": "רעש", "example": "רָעַשׁ", "english": ["quake", "shake", "tremble"] },
+        { "root": "טבל", "example": "טָבַל", "english": ["dip", "immerse", "dipped"] },
+        { "root": "שטף", "example": "שָׁטַף", "english": ["flood", "rinse", "wash"] },
+        { "root": "זרח", "example": "זָרַח", "english": ["shine", "rise", "dawn"] },
+        { "root": "אור", "example": "הֵאִיר", "english": ["shine", "light", "give light"] },
+        { "root": "חשך", "example": "חָשַׁךְ", "english": ["be dark", "darken", "dark"] },
+        { "root": "בער", "example": "בָּעַר", "english": ["burn", "kindle"] },
+        { "root": "צמח", "example": "צָמַח", "english": ["grow", "sprout"] }
+      ]
+    },
+    {
+      "week": 21,
+      "words": [
+        { "root": "פרח", "example": "פָּרַח", "english": ["bloom", "blossom", "flower", "sprout"] },
+        { "root": "יבש", "example": "יָבֵשׁ", "english": ["dry", "dry up", "wither"] },
+        { "root": "מטר", "example": "הִמְטִיר", "english": ["rain", "make rain"] },
+        { "root": "עוף", "example": "עָף", "english": ["fly", "flew"] },
+        { "root": "רמש", "example": "רָמַשׂ", "english": ["creep", "crawl", "swarm"] },
+        { "root": "שרץ", "example": "שָׁרַץ", "english": ["swarm", "teem", "creep"] },
+        { "root": "צוד", "example": "צָד", "english": ["hunt", "hunted"] },
+        { "root": "דרך", "example": "דָּרַךְ", "english": ["tread", "step", "walk", "march"] },
+        { "root": "צעד", "example": "צָעַד", "english": ["march", "step", "walk"] },
+        { "root": "עזב", "example": "עָזַב", "english": ["leave", "abandon", "forsake"] },
+        { "root": "נטש", "example": "נָטַשׁ", "english": ["leave", "abandon"] },
+        { "root": "שכם", "example": "הִשְׁכִּים", "english": ["rise early", "wake early", "get up"] }
+      ]
+    },
+    {
+      "week": 22,
+      "words": [
+        { "root": "אחר", "example": "אֵחַר", "english": ["delay", "be late", "linger"] },
+        { "root": "מהר", "example": "מִהֵר", "english": ["hurry", "hurry up", "rush"] },
+        { "root": "חכה", "example": "חִכָּה", "english": ["wait", "waited"] },
+        { "root": "קוה", "example": "קִוָּה", "english": ["hope", "wait"] },
+        { "root": "צפה", "example": "צָפָה", "english": ["watch", "look out", "observe"] },
+        { "root": "תעה", "example": "תָּעָה", "english": ["wander", "go astray", "get lost"] },
+        { "root": "גלח", "example": "גִּלַּח", "english": ["shave", "shaved"] },
+        { "root": "גזז", "example": "גָּזַז", "english": ["shear", "cut"] },
+        { "root": "ארג", "example": "אָרַג", "english": ["weave", "wove"] },
+        { "root": "פסל", "example": "פָּסַל", "english": ["carve", "hew", "sculpt"] },
+        { "root": "חרש", "example": "חָרַשׁ", "english": ["plow", "engrave"] },
+        { "root": "יצר", "example": "יָצַר", "english": ["form", "shape", "create"] }
+      ]
+    },
+    {
+      "week": 23,
+      "words": [
+        { "root": "שמד", "example": "הִשְׁמִיד", "english": ["destroy", "wipe out"] },
+        { "root": "נגף", "example": "נָגַף", "english": ["strike", "plague", "hit"] },
+        { "root": "נשך", "example": "נָשַׁךְ", "english": ["bite", "bit"] },
+        { "root": "טרף", "example": "טָרַף", "english": ["tear", "tear apart", "devour"] },
+        { "root": "בלע", "example": "בָּלַע", "english": ["swallow", "swallowed"] },
+        { "root": "רעב", "example": "רָעֵב", "english": ["be hungry", "hungry", "starve"] },
+        { "root": "צמא", "example": "צָמֵא", "english": ["be thirsty", "thirsty"] },
+        { "root": "טעם", "example": "טָעַם", "english": ["taste", "tasted"] },
+        { "root": "ריח", "example": "הֵרִיחַ", "english": ["smell", "smelled"] },
+        { "root": "שאב", "example": "שָׁאַב", "english": ["draw water", "draw"] },
+        { "root": "חגר", "example": "חָגַר", "english": ["gird", "put on", "wrap"] },
+        { "root": "פשט", "example": "פָּשַׁט", "english": ["take off", "strip", "spread out"] }
+      ]
+    },
+    {
+      "week": 24,
+      "words": [
+        { "root": "פרש", "example": "פָּרַשׂ", "english": ["spread", "spread out"] },
+        { "root": "חתם", "example": "חָתַם", "english": ["seal", "sign"] },
+        { "root": "מנע", "example": "מָנַע", "english": ["hold back", "withhold", "prevent", "refuse"] },
+        { "root": "עצר", "example": "עָצַר", "english": ["stop", "hold back", "restrain"] },
+        { "root": "משל", "example": "מָשַׁל", "english": ["rule", "govern"] },
+        { "root": "רדה", "example": "רָדָה", "english": ["rule", "dominate"] },
+        { "root": "נהג", "example": "נָהַג", "english": ["lead", "drive", "guide"] },
+        { "root": "נחה", "example": "נָחָה", "english": ["lead", "guide"] },
+        { "root": "קהל", "example": "הִקְהִיל", "english": ["gather", "assemble"] },
+        { "root": "נצב", "example": "נִצַּב", "english": ["stand", "be stationed", "stand up"] },
+        { "root": "יצב", "example": "הִתְיַצֵּב", "english": ["stand", "stand firm", "present oneself"] },
+        { "root": "תלה", "example": "תָּלָה", "english": ["hang", "hanged"] }
+      ]
+    },
+    {
+      "week": 25,
+      "words": [
+        { "root": "זהר", "example": "הִזְהִיר", "english": ["warn", "caution"] },
+        { "root": "שית", "example": "שָׁת", "english": ["put", "set", "place"] },
+        { "root": "ערך", "example": "עָרַךְ", "english": ["arrange", "prepare", "set up"] },
+        { "root": "כון", "example": "הֵכִין", "english": ["prepare", "establish", "set up"] },
+        { "root": "יסד", "example": "יָסַד", "english": ["found", "establish"] },
+        { "root": "חגג", "example": "חָגַג", "english": ["celebrate", "dance"] },
+        { "root": "צלח", "example": "צָלַח", "english": ["succeed", "prosper"] },
+        { "root": "גאל", "example": "גָּאַל", "english": ["redeem", "rescue"] },
+        { "root": "פדה", "example": "פָּדָה", "english": ["redeem", "ransom"] },
+        { "root": "חנן", "example": "חָנַן", "english": ["be gracious", "have mercy", "pity"] },
+        { "root": "צדק", "example": "צָדַק", "english": ["be righteous", "be right", "be just"] },
+        { "root": "רשע", "example": "הִרְשִׁיעַ", "english": ["be wicked", "condemn", "act wickedly"] }
+      ]
+    }
+  ]
+}
