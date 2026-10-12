@@ -1,0 +1,98 @@
+:root {
+  --bg: #fff7e0;
+  --ink: #1d2340;
+  --card: #ffffff;
+  --blue: #1e6bff;
+  --blue-dark: #1450c4;
+  --green: #12a150;
+  --green-dark: #0c7a3b;
+  --orange: #ff8a00;
+  --orange-dark: #c76a00;
+  --pink: #e8328c;
+  --purple: #7a3cff;
+  --red: #d61f3c;
+  --track: #d9dcf0;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; overflow-x: hidden; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Nunito", "Trebuchet MS", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  min-height: 100vh;
+}
+#app { max-width: 640px; margin: 0 auto; padding: 20px 16px 40px; }
+h1 { font-size: 2.2rem; text-align: center; margin: 8px 0 20px; font-weight: 900; }
+h2 { font-size: 1.4rem; margin: 22px 0 10px; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; }
+.row > * { flex: 1 1 130px; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+
+button {
+  font: inherit;
+  font-weight: 900;
+  min-height: 64px;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: 4px solid var(--blue-dark);
+  background: var(--blue);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 0 var(--blue-dark);
+  touch-action: manipulation;
+}
+button:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--blue-dark); }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 4px solid var(--pink); outline-offset: 2px; }
+button.choice { background: #fff; color: var(--ink); border-color: var(--blue); box-shadow: 0 5px 0 var(--blue); }
+button.choice[aria-pressed="true"] { background: var(--orange); color: #1d2340; border-color: var(--orange-dark); box-shadow: 0 5px 0 var(--orange-dark); }
+button.go { background: var(--green); border-color: var(--green-dark); box-shadow: 0 5px 0 var(--green-dark); font-size: 1.8rem; min-height: 80px; width: 100%; margin-top: 28px; }
+button.go:disabled { background: #9aa0b8; border-color: #6f7590; box-shadow: 0 5px 0 #6f7590; cursor: not-allowed; }
+button.mix { background: var(--purple); border-color: #5420c4; box-shadow: 0 5px 0 #5420c4; }
+button.warn { background: var(--orange); border-color: var(--orange-dark); box-shadow: 0 5px 0 var(--orange-dark); color: #1d2340; }
+
+.hebrew {
+  direction: rtl;
+  text-align: center;
+  font-family: "SBL Hebrew", "Noto Serif Hebrew", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 5.5rem;
+  line-height: 1.5;
+  background: var(--card);
+  border: 4px solid var(--purple);
+  border-radius: 28px;
+  padding: 16px 8px;
+  margin: 16px 0 20px;
+  overflow-wrap: anywhere;
+}
+.hebrew-sm { font-family: "SBL Hebrew", "Noto Serif Hebrew", "Times New Roman", serif; font-weight: 400; font-size: 2rem; direction: rtl; }
+
+input[type="text"] {
+  width: 100%;
+  font: inherit;
+  font-size: 2rem;
+  min-height: 72px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 4px solid var(--blue);
+  color: var(--ink);
+  background: #fff;
+  text-align: center;
+}
+.progress { margin-top: 28px; }
+.bar { height: 22px; background: var(--track); border-radius: 12px; overflow: hidden; }
+.bar > div { height: 100%; background: var(--green); border-radius: 12px; transition: width .3s; }
+.progress-text { text-align: center; margin-top: 8px; font-size: 1.4rem; }
+.quit { display: block; text-align: center; margin-top: 24px; color: var(--ink); font-size: 1.1rem; background: none; border: 0; box-shadow: none; min-height: 64px; text-decoration: underline; width: 100%; }
+
+.score { text-align: center; font-size: 4.5rem; font-weight: 900; margin: 0; color: var(--blue-dark); }
+.msg { text-align: center; font-size: 1.7rem; margin: 6px 0 20px; }
+.results { list-style: none; padding: 0; margin: 0 0 24px; display: flex; flex-direction: column; gap: 10px; }
+.results li { background: #fff; border-radius: 18px; border: 3px solid var(--track); padding: 10px 14px; display: grid; grid-template-columns: auto 1fr auto; gap: 4px 12px; align-items: center; }
+.results li.wrong { border-color: var(--red); }
+.results li.right { border-color: var(--green); }
+.results .typed { overflow-wrap: anywhere; }
+.results .typed small { display: block; font-size: .95rem; opacity: .8; }
+.results .mark { font-size: 1.8rem; }
+.results .answer { grid-column: 1 / -1; color: var(--red); font-size: 1.1rem; }
