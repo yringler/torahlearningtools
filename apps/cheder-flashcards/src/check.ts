@@ -11,14 +11,18 @@ function basicNormalize(s: string): string {
     .trim();
 }
 
-/** Normalize an answer; strips a leading "to " when that leaves something and the answer isn't "to". */
-export function normalize(s: string): string {
-  const n = basicNormalize(s);
-  if (n !== "to" && n.startsWith("to ")) {
-    const rest = n.slice(3).trim();
+/** Drop a leading word (e.g. "to", "be") when something is left after it. */
+function stripLead(n: string, word: string): string {
+  if (n.startsWith(word + " ")) {
+    const rest = n.slice(word.length + 1).trim();
     if (rest.length > 0) return rest;
   }
   return n;
+}
+
+/** Normalize an answer; strips a leading "to " and/or "be " (so "to be afraid" = "afraid"), but keeps bare "to"/"be". */
+export function normalize(s: string): string {
+  return stripLead(stripLead(basicNormalize(s), "to"), "be");
 }
 
 export function levenshtein(a: string, b: string): number {

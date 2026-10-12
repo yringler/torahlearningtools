@@ -8,6 +8,12 @@ describe("normalize", () => {
   it("strips a leading 'to '", () => {
     expect(normalize("to eat")).toBe("eat");
   });
+  it("strips a leading 'be ' (after 'to ')", () => {
+    expect(normalize("be afraid")).toBe("afraid");
+    expect(normalize("to be afraid")).toBe("afraid");
+    expect(normalize("be")).toBe("be");
+    expect(normalize("to be")).toBe("be");
+  });
   it("keeps bare 'to'", () => {
     expect(normalize("to")).toBe("to");
     expect(normalize(" To ")).toBe("to");
@@ -60,6 +66,11 @@ describe("isCorrect", () => {
   it("strips leading 'to' on either side", () => {
     expect(isCorrect("to eat", ["eat"])).toBe(true);
     expect(isCorrect("eat", ["to eat"])).toBe(true);
+  });
+  it("'be' adjectives match without 'be'", () => {
+    expect(isCorrect("afraid", ["be afraid", "fear"])).toBe(true);
+    expect(isCorrect("to be strong", ["be strong"])).toBe(true);
+    expect(isCorrect("be", ["be", "was"])).toBe(true);
   });
   it("'to' itself is only matched by 'to'", () => {
     expect(isCorrect("to", ["to"])).toBe(true);

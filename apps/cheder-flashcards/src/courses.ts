@@ -36,7 +36,7 @@ export interface Course {
 export const WEEKS_PER_TEST = 2;
 
 interface ShorashJson {
-  weeks: { week: number; words: { root: string; example?: string; english: string[] }[] }[];
+  weeks: { week: number; words: { root: string; example: string; english: string[] }[] }[];
 }
 
 const shorashimData: ShorashJson = shorashim;
@@ -48,8 +48,8 @@ export const COURSES: readonly Course[] = [
     weeks: shorashimData.weeks.map((w) => ({
       label: `Week ${w.week}`,
       cards: w.words.map((s) => ({
-        hebrew: s.root,
-        ...(s.example ? { sub: s.example } : {}),
+        // Always show Hebrew with nikud: the voweled example form, not the bare root.
+        hebrew: s.example,
         english: s.english,
       })),
     })),

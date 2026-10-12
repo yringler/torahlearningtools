@@ -13,12 +13,12 @@ describe("shorashim course", () => {
   it("has 25 weeks of 12 = 300 unique roots", () => {
     expect(c.weeks).toHaveLength(25);
     for (const w of c.weeks) expect(w.cards).toHaveLength(12);
-    const roots = c.weeks.flatMap((w) => w.cards.map((x) => x.hebrew));
-    expect(new Set(roots).size).toBe(300);
+    const words = c.weeks.flatMap((w) => w.cards.map((x) => x.hebrew));
+    expect(new Set(words).size).toBe(300);
   });
   it("every card has Hebrew letters and an English answer", () => {
     for (const card of c.weeks.flatMap((w) => w.cards)) {
-      expect(card.hebrew).toMatch(/^[א-ת]+$/);
+      expect(card.hebrew).toMatch(/^[ְ-ת־ ]+$/);
       expect(card.english.length).toBeGreaterThan(0);
       for (const e of card.english) expect(e.trim().length).toBeGreaterThan(0);
     }
@@ -41,6 +41,12 @@ describe("cheder course", () => {
     expect(tests.flatMap((t) => t.weeks)).toEqual(c.weeks.map((_, i) => i));
     expect(tests.every((t) => t.weeks.length <= 2)).toBe(true);
   });
+});
+
+it("all Hebrew is shown with nikud", () => {
+  for (const c of COURSES) {
+    for (const card of c.weeks.flatMap((w) => w.cards)) expect(card.hebrew).toMatch(/[\u05B0-\u05C7]/);
+  }
 });
 
 it("course ids are unique", () => {
