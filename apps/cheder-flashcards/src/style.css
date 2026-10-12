@@ -96,6 +96,11 @@ input[type="text"] {
 .results .typed small { display: block; font-size: .95rem; opacity: .8; }
 .results .mark { font-size: 1.8rem; }
 .results .answer { grid-column: 1 / -1; color: var(--red); font-size: 1.1rem; }
+.results li.check { border-color: var(--purple); }
+.results li.check.right { border-color: var(--green); background: #eefaf2; }
+.results .answer.neutral { color: var(--ink); }
+button.spell { grid-column: 1 / -1; min-height: 60px; font-size: 1.2rem; background: #fff; color: var(--ink); border-color: var(--purple); box-shadow: 0 5px 0 var(--purple); }
+button.spell[aria-pressed="true"] { background: var(--green); color: #fff; border-color: var(--green-dark); box-shadow: 0 5px 0 var(--green-dark); }
 
 .center { text-align: center; }
 .hebrew-sub { font-size: 2.2rem; line-height: 1.3; opacity: .75; }
