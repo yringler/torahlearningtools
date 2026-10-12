@@ -8,6 +8,8 @@ interface Answer {
   card: Card;
   typed: string;
   correct: boolean;
+  /** Marked right by the kid on the check screen: it only had a spelling mistake. */
+  spelling?: boolean;
 }
 
 const app = document.getElementById("app");
@@ -208,7 +210,7 @@ function runQuiz(cards: Card[], ctx: TestContext, practice = false): void {
 
   function showQuestion(): void {
     const card = cards[index];
-    if (!card) return showResults(answers, ctx, practice);
+    if (!card) return showCheck(answers, ctx, practice);
     const input = el("input", {
       type: "text",
       autocomplete: "off",
@@ -254,20 +256,63 @@ function messageFor(score: number, total: number): string {
   return "💪 Nice try! Practice makes perfect!";
 }
 
+// ---------- Check: kid marks answers that were only spelled wrong ----------
+function showCheck(answers: Answer[], ctx: TestContext, practice: boolean): void {
+  const toCheck = answers.filter((a) => !a.correct);
+  if (toCheck.length === 0) return showResults(answers, ctx, practice);
+
+  const list = el("ul", { class: "results" });
+  for (const a of toCheck) {
+    const li = el("li", { class: "check" });
+    const fix = button("", "spell", () => {
+      a.spelling = !a.spelling;
+      paint();
+    });
+    function paint(): void {
+      li.classList.toggle("right", a.spelling === true);
+      fix.textContent = a.spelling ? "✅ Right! (tap to undo)" : "✏️ I knew it, just spelling";
+      fix.setAttribute("aria-pressed", a.spelling ? "true" : "false");
+    }
+    li.append(
+      el("span", { class: "hebrew-sm", dir: "rtl", lang: "he" }, a.card.hebrew),
+      el("span", { class: "typed" }, a.typed),
+      el("span", { class: "mark", "aria-hidden": "true" }, "🤔"),
+      el("span", { class: "answer neutral" }, `Answer: ${a.card.english.join(", ")}`),
+      fix,
+    );
+    paint();
+    list.append(li);
+  }
+
+  mount(
+    el("h1", {}, "Let's check! 🔍"),
+    el("p", { class: "msg" }, "Did you know it, but spell it a bit wrong? Tap ✏️"),
+    list,
+    button("See my score ⭐", "go", () => showResults(answers, ctx, practice)),
+  );
+}
+
+function isRight(a: Answer): boolean {
+  return a.correct || a.spelling === true;
+}
+
 function showResults(answers: Answer[], ctx: TestContext, practice: boolean): void {
-  const score = answers.filter((a) => a.correct).length;
-  const wrong = answers.filter((a) => !a.correct);
+  const score = answers.filter(isRight).length;
+  const wrong = answers.filter((a) => !isRight(a));
   if (!practice) recordScore(ctx.course.id, ctx.test.index, { score, total: answers.length });
 
   const list = el("ul", { class: "results" });
   for (const a of answers) {
-    const li = el("li", { class: a.correct ? "right" : "wrong" });
+    const right = isRight(a);
+    const li = el("li", { class: right ? "right" : "wrong" });
+    const typed = el("span", { class: "typed" }, a.typed);
+    if (a.spelling) typed.append(el("small", {}, `✏️ ${a.card.english.join(", ")}`));
     li.append(
       el("span", { class: "hebrew-sm", dir: "rtl", lang: "he" }, a.card.hebrew),
-      el("span", { class: "typed" }, a.typed),
-      el("span", { class: "mark", "aria-label": a.correct ? "correct" : "wrong" }, a.correct ? "✅" : "❌"),
+      typed,
+      el("span", { class: "mark", "aria-label": right ? "correct" : "wrong" }, right ? "✅" : "❌"),
     );
-    if (!a.correct) li.append(el("span", { class: "answer" }, `Answer: ${a.card.english.join(", ")}`));
+    if (!right) li.append(el("span", { class: "answer" }, `Answer: ${a.card.english.join(", ")}`));
     list.append(li);
   }
 
