@@ -1,4 +1,5 @@
 // The one course: the cheder Word List pages, one column (א/ב/ג) per week.
+// Lists with a single column (1 and 2) are one week each, labelled without a letter.
 // Every two weeks form one test unit.
 import { COLUMN_LETTERS, WORD_LISTS } from "./words";
 
@@ -12,9 +13,10 @@ export interface Card {
 }
 
 export interface CourseWeek {
-  /** e.g. "List 3 א" */
+  /** e.g. "List 3 א", or "List 1" for a single-column list */
   label: string;
   list: number;
+  /** "" for a single-column list */
   column: string;
   cards: Card[];
 }
@@ -47,9 +49,9 @@ export const COURSE: Course = {
   title: "Word Lists",
   weeks: WORD_LISTS.flatMap((l) =>
     l.columns.map((words, i) => {
-      const column = COLUMN_LETTERS[i] ?? "";
+      const column = l.columns.length > 1 ? (COLUMN_LETTERS[i] ?? "") : "";
       return {
-        label: `List ${l.list} ${heb(column)}`,
+        label: column ? `List ${l.list} ${heb(column)}` : `List ${l.list}`,
         list: l.list,
         column,
         cards: words.map((x) => ({ hebrew: x.hebrew, english: x.english })),
@@ -58,10 +60,10 @@ export const COURSE: Course = {
   ),
 };
 
-/** "List 3 א–ב", or "List 3 ג – List 4 א" when a test spans two pages. */
+/** "List 3 א–ב", or "List 1 – List 2" when a test spans two pages. */
 function rangeLabel(first: CourseWeek, last: CourseWeek): string {
   if (first === last) return first.label;
-  if (first.list === last.list) return `List ${first.list} ${heb(first.column)}–${heb(last.column)}`;
+  if (first.list === last.list && first.column && last.column) return `List ${first.list} ${heb(first.column)}–${heb(last.column)}`;
   return `${first.label} – ${last.label}`;
 }
 

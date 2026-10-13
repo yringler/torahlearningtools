@@ -1,5 +1,6 @@
-// The cheder "Word List" pages, in book order. Each page has three columns, א ב ג;
-// each column is one week of 12 words, learned in that order (3א, 3ב, 3ג, 4א, …).
+// The cheder "Word List" pages, in book order. Lists 1 and 2 are one week each; from list 3
+// on, each page has three columns, א ב ג, and each column is one week of 12 words,
+// learned in that order (1, 2, 3א, 3ב, 3ג, 4א, …).
 // `english` holds every accepted answer; the first is shown as the "correct answer".
 
 export interface Word {
@@ -10,8 +11,8 @@ export interface Word {
 export interface WordList {
   /** The number printed on the page ("Word List 3"). */
   list: number;
-  /** Columns in order א, ב, ג. */
-  columns: [Word[], Word[], Word[]];
+  /** Columns in order א, ב, ג (lists 1 and 2 have a single column). */
+  columns: Word[][];
 }
 
 export const COLUMN_LETTERS = ["א", "ב", "ג"] as const;
@@ -21,6 +22,44 @@ function w(hebrew: string, ...english: string[]): Word {
 }
 
 export const WORD_LISTS: WordList[] = [
+  {
+    list: 1,
+    columns: [
+      [
+        w("כָּל", "all", "every"),
+        w("כִּי", "because", "that", "when"),
+        w("עַל", "on"),
+        w("אַל", "not", "don't"),
+        w("לֹא", "not", "don't"),
+        w("אֶל", "to"),
+        w("עִם", "with"),
+        w("אִם", "if"),
+        w("גַּם", "also"),
+        w("כֵּן", "so", "thus"),
+        w("שָׁם", "there"),
+        w("עַד", "until"),
+      ],
+    ],
+  },
+  {
+    list: 2,
+    columns: [
+      [
+        w("עַם", "people", "nation"),
+        w("שֵׁם", "name"),
+        w("יָד", "hand"),
+        w("מִן", "from"),
+        w("מָה", "what"),
+        w("אוֹ", "or"),
+        w("מִי", "who"),
+        w("נָא", "please"),
+        w("הַר", "mountain"),
+        w("אַךְ", "but", "only"),
+        w("לֵב", "heart"),
+        w("אֵשׁ", "fire"),
+      ],
+    ],
+  },
   {
     list: 3,
     columns: [

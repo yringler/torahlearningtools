@@ -1,6 +1,6 @@
 # Cheder Flashcards
 
-Hebrew to English vocabulary for kids, from the cheder **Word List** pages. Each page has three columns (א, ב, ג); each column is one week of 12 words, in book order: List 3 א, List 3 ב, List 3 ג, List 4 א, …
+Hebrew to English vocabulary for kids, from the cheder **Word List** pages. Each page has three columns (א, ב, ג); each column is one week of 12 words, in book order: List 1, List 2 (one week each), then List 3 א, List 3 ב, List 3 ג, List 4 א, …
 
 Each week has **Learn** (flashcards: flip, then "I knew it" / "Again"). Every two weeks there's a **Test** (type the English). Progress and best scores are saved on the device.
 
