@@ -33,4 +33,11 @@ Open `src/words.ts` and add an entry to `WORD_LISTS` (in page order):
 
 ## Deploy
 
-Pushing to `main` builds and deploys `dist` to GitHub Pages (set Pages source to "GitHub Actions" in repo settings).
+Hosted as a static-assets Cloudflare Worker (`cheder-flashcards`), configured in `wrangler.jsonc`.
+
+```
+npx wrangler login   # once
+npm run deploy       # test, build, upload dist/
+```
+
+To deploy on every push instead, connect the repo in the Cloudflare dashboard (Workers & Pages → `cheder-flashcards` → Settings → Builds) with build command `npm run build` and deploy command `npx wrangler deploy`.
