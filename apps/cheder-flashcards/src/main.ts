@@ -1,8 +1,8 @@
 import "./style.css";
-import { COURSES, cardsForTest, courseById, testsFor } from "./courses";
+import { COURSE, cardsForTest, testsFor } from "./courses";
 import type { Card, Course, TestUnit } from "./courses";
 import { isCorrect } from "./check";
-import { bestScore, isLearned, lastCourse, markLearned, recordScore, rememberCourse } from "./progress";
+import { bestScore, isLearned, markLearned, recordScore } from "./progress";
 
 interface Answer {
   card: Card;
@@ -68,21 +68,8 @@ function progressBar(done: number, total: number, text: string): HTMLDivElement 
   return el("div", { class: "progress" }, bar, el("div", { class: "progress-text" }, text));
 }
 
-// ---------- Home: pick a list ----------
-function showHome(): void {
-  const choices = el("div", { class: "stack" });
-  for (const c of COURSES) {
-    const words = c.weeks.reduce((n, w) => n + w.cards.length, 0);
-    const b = button("", "course", () => showCourse(c));
-    b.append(el("span", { class: "course-title" }, c.title), el("span", { class: "course-sub" }, `${c.weeks.length} weeks · ${words} words`));
-    choices.append(b);
-  }
-  mount(el("h1", {}, "Word Quiz ⭐"), el("h2", {}, "Which words?"), choices);
-}
-
 // ---------- Course: weeks + tests ----------
 function showCourse(course: Course): void {
-  rememberCourse(course.id);
   const list = el("div", { class: "stack" });
   let firstOpen: HTMLElement | null = null;
 
@@ -105,8 +92,7 @@ function showCourse(course: Course): void {
   }
 
   mount(
-    button("← Change list", "quit back", showHome),
-    el("h1", {}, course.title),
+    el("h1", {}, `${course.title} ⭐`),
     list,
   );
   const target: HTMLElement | null = firstOpen;
@@ -332,8 +318,4 @@ function showResults(answers: Answer[], ctx: TestContext, practice: boolean): vo
   );
 }
 
-// Open the last-used list directly; otherwise ask.
-const saved = lastCourse();
-const savedCourse = saved ? courseById(saved) : undefined;
-if (savedCourse) showCourse(savedCourse);
-else showHome();
+showCourse(COURSE);

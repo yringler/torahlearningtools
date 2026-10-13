@@ -9,7 +9,7 @@ The app is used by a 7–8 year old on their own. Keep it easy for a 7 year old 
 
 ## Code
 - TypeScript, strict. Vanilla DOM (no framework), Vite build, Vitest tests (`npm test`, `npm run build`).
-- Word data: `src/data/shorashim.json` (300 roots, 25 weeks × 12) and `src/words.ts` (cheder-paper weeks).
-  Courses and the every-2-weeks test grouping live in `src/courses.ts`.
-- Hebrew is always displayed with nikud. For shorashim, show the voweled `example` form
-  (Qal 3ms past like אָמַר, or the binyan the root is mostly used in, like דִּבֶּר) — never the bare root.
+- Word data: `src/words.ts` — the cheder "Word List" pages (lists 3–8 so far). Each page has columns
+  א ב ג; each column is one week of 12 words, in order 3א, 3ב, 3ג, 4א, … This is the only word list.
+  The course and the every-2-weeks test grouping live in `src/courses.ts`.
+- Hebrew is always displayed with nikud.

@@ -1,9 +1,6 @@
 # Cheder Flashcards
 
-Hebrew to English vocabulary for kids. Pick a list:
-
-- **300 Shorashim** — 300 basic Biblical Hebrew roots, most common first, 12 a week (25 weeks).
-- **Cheder papers** — the weekly word sheets from cheder.
+Hebrew to English vocabulary for kids, from the cheder **Word List** pages. Each page has three columns (א, ב, ג); each column is one week of 12 words, in book order: List 3 א, List 3 ב, List 3 ג, List 4 א, …
 
 Each week has **Learn** (flashcards: flip, then "I knew it" / "Again"). Every two weeks there's a **Test** (type the English). Progress and best scores are saved on the device.
 
@@ -17,23 +14,22 @@ npm run build    # type-check + build to dist/
 npm run preview  # serve the built site
 ```
 
-## Add a cheder week
+## Add a word list
 
-Open `src/words.ts` and append an entry to `WEEKS`:
+Open `src/words.ts` and add an entry to `WORD_LISTS` (in page order):
 
 ```ts
 {
-  id: 3,
-  label: "Week 3",
-  words: [
-    { hebrew: "בַּיִת", english: ["house", "home"] },
+  list: 9,
+  columns: [
+    [w("בַּיִת", "house", "home"), /* …12 words of column א */],
+    [/* column ב */],
+    [/* column ג */],
   ],
 },
 ```
 
-`english` lists every accepted answer (the first is shown as the correct answer). No other code changes are needed. Tests are grouped automatically, two weeks each.
-
-The shorashim list lives in `src/data/shorashim.json`.
+`w(hebrew, ...english)` lists every accepted answer (the first is shown as the correct answer). Always include nikud. No other code changes are needed. Tests are grouped automatically, two weeks (columns) each.
 
 ## Deploy
 
