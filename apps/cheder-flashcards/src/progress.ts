@@ -66,21 +66,3 @@ export function recordScore(id: CourseId, test: number, s: Score): void {
   p[id] = c;
   save(p);
 }
-
-const COURSE_KEY = "cheder-flashcards:course";
-
-export function lastCourse(): string | null {
-  try {
-    return localStorage.getItem(COURSE_KEY);
-  } catch {
-    return null;
-  }
-}
-
-export function rememberCourse(id: CourseId): void {
-  try {
-    localStorage.setItem(COURSE_KEY, id);
-  } catch {
-    // ignore
-  }
-}
