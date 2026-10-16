@@ -78,13 +78,13 @@ function showCourse(course: Course): void {
     for (const wi of test.weeks) {
       const week = course.weeks[wi];
       if (!week) continue;
-      const learned = isLearned(course.id, wi);
+      const learned = isLearned(course.id, week.key);
       const row = el("div", { class: "week-row" }, el("span", { class: "week-name" }, `${week.label}${learned ? " ✅" : ""}`));
       row.append(button("📖 Learn", "learn", () => runLearn(course, wi)));
       unit.append(row);
       if (!learned && !firstOpen) firstOpen = unit;
     }
-    const best = bestScore(course.id, test.index);
+    const best = bestScore(course.id, test.key);
     const testBtn = button(`🏆 ${test.label}`, "test", () => startTest(course, test));
     unit.append(testBtn);
     if (best) unit.append(el("div", { class: "best" }, `Best: ${best.score} / ${best.total}`));
@@ -165,7 +165,7 @@ function runLearn(course: Course, weekIndex: number): void {
   }
 
   function finish(): void {
-    markLearned(course.id, weekIndex);
+    if (week) markLearned(course.id, week.key);
     const test = testsFor(course).find((t) => t.weeks.includes(weekIndex));
     const isLastOfUnit = test !== undefined && test.weeks[test.weeks.length - 1] === weekIndex;
     const next = course.weeks[weekIndex + 1];
@@ -285,7 +285,7 @@ function isRight(a: Answer): boolean {
 function showResults(answers: Answer[], ctx: TestContext, practice: boolean): void {
   const score = answers.filter(isRight).length;
   const wrong = answers.filter((a) => !isRight(a));
-  if (!practice) recordScore(ctx.course.id, ctx.test.index, { score, total: answers.length });
+  if (!practice) recordScore(ctx.course.id, ctx.test.key, { score, total: answers.length });
 
   const list = el("ul", { class: "results" });
   for (const a of answers) {

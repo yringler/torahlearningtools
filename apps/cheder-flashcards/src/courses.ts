@@ -1,6 +1,5 @@
 // The one course: the cheder Word List pages, one column (א/ב/ג) per week.
-// Lists with a single column (1 and 2) are one week each, labelled without a letter.
-// Every two weeks form one test unit.
+// Each list (page) is one test unit: learn its columns, then take its test.
 import { COLUMN_LETTERS, WORD_LISTS } from "./words";
 
 export interface Card {
@@ -13,17 +12,21 @@ export interface Card {
 }
 
 export interface CourseWeek {
-  /** e.g. "List 3 א", or "List 1" for a single-column list */
+  /** Stable id for saved progress, e.g. "3א". */
+  key: string;
+  /** e.g. "List 3 א" */
   label: string;
   list: number;
-  /** "" for a single-column list */
+  /** "" only for a list with a single column */
   column: string;
   cards: Card[];
 }
 
 export interface TestUnit {
-  /** 0-based index of the test within its course. */
-  index: number;
+  /** Stable id for saved scores, e.g. "list3". */
+  key: string;
+  /** The Word List number this test covers. */
+  list: number;
   label: string;
   /** 0-based indices into Course.weeks. */
   weeks: number[];
@@ -37,11 +40,17 @@ export interface Course {
   weeks: CourseWeek[];
 }
 
-export const WEEKS_PER_TEST = 2;
-
 /** Wrap a Hebrew letter in a bidi isolate so it sits in place inside English text. */
 function heb(s: string): string {
   return `⁨${s}⁩`;
+}
+
+export function weekKey(list: number, column: string): string {
+  return `${list}${column}`;
+}
+
+export function testKey(list: number): string {
+  return `list${list}`;
 }
 
 export const COURSE: Course = {
@@ -51,6 +60,7 @@ export const COURSE: Course = {
     l.columns.map((words, i) => {
       const column = l.columns.length > 1 ? (COLUMN_LETTERS[i] ?? "") : "";
       return {
+        key: weekKey(l.list, column),
         label: column ? `List ${l.list} ${heb(column)}` : `List ${l.list}`,
         list: l.list,
         column,
@@ -60,24 +70,14 @@ export const COURSE: Course = {
   ),
 };
 
-/** "List 3 א–ב", or "List 1 – List 2" when a test spans two pages. */
-function rangeLabel(first: CourseWeek, last: CourseWeek): string {
-  if (first === last) return first.label;
-  if (first.list === last.list && first.column && last.column) return `List ${first.list} ${heb(first.column)}–${heb(last.column)}`;
-  return `${first.label} – ${last.label}`;
-}
-
-/** Group a course's weeks into tests of WEEKS_PER_TEST weeks (the last may be shorter). */
+/** One test per Word List, covering all of that list's columns. */
 export function testsFor(course: Course): TestUnit[] {
   const tests: TestUnit[] = [];
-  for (let start = 0; start < course.weeks.length; start += WEEKS_PER_TEST) {
-    const weeks: number[] = [];
-    for (let i = start; i < Math.min(start + WEEKS_PER_TEST, course.weeks.length); i++) weeks.push(i);
-    const first = course.weeks[weeks[0] ?? start];
-    const last = course.weeks[weeks[weeks.length - 1] ?? start];
-    const range = first && last ? ` (${rangeLabel(first, last)})` : "";
-    tests.push({ index: tests.length, label: `Test ${tests.length + 1}${range}`, weeks });
-  }
+  course.weeks.forEach((week, i) => {
+    const last = tests[tests.length - 1];
+    if (last && last.list === week.list) last.weeks.push(i);
+    else tests.push({ key: testKey(week.list), list: week.list, label: `List ${week.list} Test`, weeks: [i] });
+  });
   return tests;
 }
 

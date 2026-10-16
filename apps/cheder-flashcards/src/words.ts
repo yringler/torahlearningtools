@@ -1,6 +1,5 @@
-// The cheder "Word List" pages, in book order. Lists 1 and 2 are one week each; from list 3
-// on, each page has three columns, א ב ג, and each column is one week of 12 words,
-// learned in that order (1, 2, 3א, 3ב, 3ג, 4א, …).
+// The cheder "Word List" pages, in book order. Each page has three columns, א ב ג, and each
+// column is one week of 12 words, learned in that order (1א, 1ב, 1ג, 2א, …).
 // `english` holds every accepted answer; the first is shown as the "correct answer".
 
 export interface Word {
@@ -11,7 +10,7 @@ export interface Word {
 export interface WordList {
   /** The number printed on the page ("Word List 3"). */
   list: number;
-  /** Columns in order א, ב, ג (lists 1 and 2 have a single column). */
+  /** Columns in order א, ב, ג. */
   columns: Word[][];
 }
 
@@ -39,11 +38,6 @@ export const WORD_LISTS: WordList[] = [
         w("שָׁם", "there"),
         w("עַד", "until"),
       ],
-    ],
-  },
-  {
-    list: 2,
-    columns: [
       [
         w("עַם", "people", "nation"),
         w("שֵׁם", "name"),
@@ -57,6 +51,67 @@ export const WORD_LISTS: WordList[] = [
         w("אַךְ", "but", "only"),
         w("לֵב", "heart"),
         w("אֵשׁ", "fire"),
+      ],
+      [
+        w("רַק", "only"),
+        w("עֵד", "witness"),
+        w("בַּת", "daughter"),
+        w("בֵּן", "son"),
+        w("בֵּין", "between"),
+        w("זֶה", "this"),
+        w("זֹאת", "this"),
+        w("אָז", "then"),
+        w("עֵץ", "tree", "wood"),
+        w("אֶבֶן", "stone"),
+        w("מֵת", "dead"),
+        w("קַח", "take"),
+      ],
+    ],
+  },
+  {
+    list: 2,
+    columns: [
+      [
+        w("אִישׁ", "man"),
+        w("אִשָּׁה", "woman"),
+        w("מְאֹד", "very"),
+        w("תַּחַת", "under"),
+        w("לִפְנֵי", "before"),
+        w("אַחֲרֵי", "after"),
+        w("עַתָּה", "now"),
+        w("אַתָּה", "you"),
+        w("הִנֵּה", "behold"),
+        w("אֲשֶׁר", "that", "which"),
+        w("דָּם", "blood"),
+        w("בּוֹ, בָּה", "in it", "in him", "in her"),
+      ],
+      [
+        w("יוֹם", "day"),
+        w("לַיְלָה", "night"),
+        w("הַיּוֹם", "today"),
+        w("מָחָר", "tomorrow"),
+        w("שָׁנָה", "year"),
+        w("אֶרֶץ", "land"),
+        w("שָׁמַיִם", "heaven", "sky"),
+        w("מַיִם", "water"),
+        w("לָמָּה", "why"),
+        w("מֶלֶךְ", "king"),
+        w("כֹּחַ", "strength"),
+        w("פֶּה", "mouth"),
+      ],
+      [
+        w("חֵן", "favor"),
+        w("כֹּה", "so", "thus"),
+        w("עוֹד", "yet", "more"),
+        w("כֶּסֶף", "silver", "money"),
+        w("זָהָב", "gold"),
+        w("אוֹת", "sign"),
+        w("אָח", "brother"),
+        w("יָם", "sea"),
+        w("עֵת", "a time", "time"),
+        w("דֶּרֶךְ", "a way", "way"),
+        w("הָיָה", "it was", "was"),
+        w("וְהָיָה", "and it will be", "it will be"),
       ],
     ],
   },

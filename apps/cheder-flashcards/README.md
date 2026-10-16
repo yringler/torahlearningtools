@@ -1,8 +1,8 @@
 # Cheder Flashcards
 
-Hebrew to English vocabulary for kids, from the cheder **Word List** pages. Each page has three columns (א, ב, ג); each column is one week of 12 words, in book order: List 1, List 2 (one week each), then List 3 א, List 3 ב, List 3 ג, List 4 א, …
+Hebrew to English vocabulary for kids, from the cheder **Word List** pages. Each page has three columns (א, ב, ג); each column is one week of 12 words, in book order: List 1 א, List 1 ב, List 1 ג, List 2 א, …
 
-Each week has **Learn** (flashcards: flip, then "I knew it" / "Again"). Every two weeks there's a **Test** (type the English). Progress and best scores are saved on the device.
+Each week has **Learn** (flashcards: flip, then "I knew it" / "Again"). Each list has one **Test** (type the English) covering all three of its columns. Progress and best scores are saved on the device.
 
 ## Run locally
 
@@ -29,7 +29,7 @@ Open `src/words.ts` and add an entry to `WORD_LISTS` (in page order):
 },
 ```
 
-`w(hebrew, ...english)` lists every accepted answer (the first is shown as the correct answer). Always include nikud. No other code changes are needed. Tests are grouped automatically, two weeks (columns) each.
+`w(hebrew, ...english)` lists every accepted answer (the first is shown as the correct answer). Always include nikud. No other code changes are needed. Tests are grouped automatically, one per list.
 
 ## Deploy
 
