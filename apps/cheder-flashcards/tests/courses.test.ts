@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { COURSE, cardsForTest, testsFor } from "../src/courses";
+import { COURSE, cardsForTest, dealParts, partsFromSaved, testForWeek, testsFor } from "../src/courses";
 import { isCorrect } from "../src/check";
 import { WORD_LISTS } from "../src/words";
 import { legacyWeekKey, migrateLearned } from "../src/progress";
@@ -63,5 +63,39 @@ describe("word lists course", () => {
     expect(isCorrect("and he said", find("וַיֹּאמֶר").english)).toBe(true);
     expect(isCorrect("you", find("אַתֶּם").english)).toBe(true);
     expect(isCorrect("with you", find("אִתְּכֶם").english)).toBe(true);
+  });
+
+  it("finds the whole list a week belongs to, for View all", () => {
+    expect(testForWeek(COURSE, 0)?.key).toBe("list1");
+    expect(testForWeek(COURSE, 4)?.weeks).toEqual([3, 4, 5]);
+    expect(testForWeek(COURSE, 99)).toBeUndefined();
+  });
+
+  it("deals a big test into 3 parts of 12, with 4 words from each column in every part", () => {
+    const test = testsFor(COURSE)[2]!;
+    const parts = dealParts(COURSE, test);
+    expect(parts.map((p) => p.length)).toEqual([12, 12, 12]);
+    const all = parts.flat().map((c) => c.hebrew);
+    expect(new Set(all)).toEqual(new Set(cardsForTest(COURSE, test).map((c) => c.hebrew)));
+    for (const part of parts) {
+      for (const wi of test.weeks) {
+        const col = new Set(COURSE.weeks[wi]!.cards.map((c) => c.hebrew));
+        expect(part.filter((c) => col.has(c.hebrew))).toHaveLength(4);
+      }
+    }
+  });
+
+  it("restores a saved mix, and refuses one that no longer matches the list", () => {
+    const test = testsFor(COURSE)[0]!;
+    const saved = dealParts(COURSE, test).map((p) => p.map((c) => c.hebrew));
+    expect(partsFromSaved(COURSE, test, saved)?.map((p) => p.map((c) => c.hebrew))).toEqual(saved);
+    expect(partsFromSaved(COURSE, test, undefined)).toBeUndefined();
+    expect(partsFromSaved(COURSE, test, saved.slice(0, 2))).toBeUndefined();
+    const dup = saved.map((p) => [...p]);
+    dup[1]![0] = dup[0]![0]!;
+    expect(partsFromSaved(COURSE, test, dup)).toBeUndefined();
+    const changed = saved.map((p) => [...p]);
+    changed[2]![3] = "שָׁלוֹם";
+    expect(partsFromSaved(COURSE, test, changed)).toBeUndefined();
   });
 });

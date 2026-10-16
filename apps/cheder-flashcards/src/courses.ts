@@ -84,3 +84,60 @@ export function testsFor(course: Course): TestUnit[] {
 export function cardsForTest(course: Course, test: TestUnit): Card[] {
   return test.weeks.flatMap((i) => course.weeks[i]?.cards ?? []);
 }
+
+/** The test (Word List) a week belongs to. */
+export function testForWeek(course: Course, weekIndex: number): TestUnit | undefined {
+  return testsFor(course).find((t) => t.weeks.includes(weekIndex));
+}
+
+/** Saved score key for the test on one column (week), e.g. "test:3א". */
+export function weekTestKey(weekKey: string): string {
+  return `test:${weekKey}`;
+}
+
+export function shuffle<T>(items: readonly T[], rand: () => number = Math.random): T[] {
+  const a = [...items];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    const tmp = a[i] as T;
+    a[i] = a[j] as T;
+    a[j] = tmp;
+  }
+  return a;
+}
+
+/**
+ * Split a whole list's test into short parts, one per column, each a mix of every column:
+ * each column is shuffled and dealt out like cards, so every part gets an even share of
+ * א, ב and ג (4 + 4 + 4 for a 36-word list).
+ */
+export function dealParts(course: Course, test: TestUnit, rand: () => number = Math.random): Card[][] {
+  const parts: Card[][] = test.weeks.map(() => []);
+  for (const wi of test.weeks) {
+    shuffle(course.weeks[wi]?.cards ?? [], rand).forEach((card, i) => parts[i % parts.length]?.push(card));
+  }
+  return parts.map((p) => shuffle(p, rand));
+}
+
+/**
+ * Rebuild a saved mix (Hebrew words per part). Undefined if it no longer matches the list
+ * exactly, e.g. after a word was fixed in words.ts, so a fresh mix gets dealt instead.
+ */
+export function partsFromSaved(course: Course, test: TestUnit, saved: unknown): Card[][] | undefined {
+  if (!Array.isArray(saved) || saved.length !== test.weeks.length) return undefined;
+  const byHebrew = new Map(cardsForTest(course, test).map((c) => [c.hebrew, c]));
+  const used = new Set<string>();
+  const parts: Card[][] = [];
+  for (const part of saved) {
+    if (!Array.isArray(part) || part.length === 0) return undefined;
+    const cards: Card[] = [];
+    for (const h of part) {
+      const card = typeof h === "string" ? byHebrew.get(h) : undefined;
+      if (!card || used.has(card.hebrew)) return undefined;
+      used.add(card.hebrew);
+      cards.push(card);
+    }
+    parts.push(cards);
+  }
+  return used.size === byHebrew.size ? parts : undefined;
+}
