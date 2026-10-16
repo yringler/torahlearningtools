@@ -1,4 +1,6 @@
 // Per-device progress (localStorage): which weeks were learned and best test scores.
+// Weeks and tests are saved by their stable keys ("3א", "list3"), so adding lists never
+// moves anyone's checkmarks.
 import type { CourseId } from "./courses";
 
 export interface Score {
@@ -7,13 +9,36 @@ export interface Score {
 }
 
 interface CourseProgress {
-  learned: number[];
+  learned: string[];
   best: Record<string, Score>;
 }
 
 const KEY = "cheder-flashcards:progress";
 
 type Progress = Partial<Record<CourseId, CourseProgress>>;
+
+const LETTERS = ["א", "ב", "ג"];
+
+/**
+ * Old saves stored week *indices* in a course that began with two single-week lists:
+ * 0 = old list 1 (now 1א), 1 = old list 2 (now 1ב), then 3א, 3ב, 3ג, 4א, …
+ */
+export function legacyWeekKey(index: number): string | undefined {
+  if (!Number.isInteger(index) || index < 0) return undefined;
+  if (index < 2) return `1${LETTERS[index]}`;
+  const i = index - 2;
+  return `${3 + Math.floor(i / 3)}${LETTERS[i % 3]}`;
+}
+
+export function migrateLearned(raw: unknown): string[] {
+  if (!Array.isArray(raw)) return [];
+  const out: string[] = [];
+  for (const x of raw) {
+    const k = typeof x === "string" ? x : typeof x === "number" ? legacyWeekKey(x) : undefined;
+    if (k && !out.includes(k)) out.push(k);
+  }
+  return out;
+}
 
 function load(): Progress {
   try {
@@ -36,17 +61,19 @@ function save(p: Progress): void {
 
 function course(p: Progress, id: CourseId): CourseProgress {
   const c = p[id];
-  return {
-    learned: Array.isArray(c?.learned) ? c.learned : [],
-    best: typeof c?.best === "object" && c.best !== null ? c.best : {},
-  };
+  const best: Record<string, Score> = {};
+  if (typeof c?.best === "object" && c.best !== null) {
+    // Old saves keyed scores by test number ("0", "1", …) for two-week tests that no longer exist.
+    for (const [k, v] of Object.entries(c.best)) if (k.startsWith("list")) best[k] = v;
+  }
+  return { learned: migrateLearned(c?.learned), best };
 }
 
-export function isLearned(id: CourseId, week: number): boolean {
+export function isLearned(id: CourseId, week: string): boolean {
   return course(load(), id).learned.includes(week);
 }
 
-export function markLearned(id: CourseId, week: number): void {
+export function markLearned(id: CourseId, week: string): void {
   const p = load();
   const c = course(p, id);
   if (!c.learned.includes(week)) c.learned.push(week);
@@ -54,15 +81,15 @@ export function markLearned(id: CourseId, week: number): void {
   save(p);
 }
 
-export function bestScore(id: CourseId, test: number): Score | undefined {
-  return course(load(), id).best[String(test)];
+export function bestScore(id: CourseId, test: string): Score | undefined {
+  return course(load(), id).best[test];
 }
 
-export function recordScore(id: CourseId, test: number, s: Score): void {
+export function recordScore(id: CourseId, test: string, s: Score): void {
   const p = load();
   const c = course(p, id);
-  const prev = c.best[String(test)];
-  if (!prev || s.score / s.total > prev.score / prev.total) c.best[String(test)] = s;
+  const prev = c.best[test];
+  if (!prev || s.score / s.total > prev.score / prev.total) c.best[test] = s;
   p[id] = c;
   save(p);
 }
