@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { COURSE, cardsForTest, testsFor } from "../src/courses";
+import { COURSE, cardsForTest, testForWeek, testsFor } from "../src/courses";
 import { isCorrect } from "../src/check";
 import { WORD_LISTS } from "../src/words";
 import { legacyWeekKey, migrateLearned } from "../src/progress";
@@ -63,5 +63,11 @@ describe("word lists course", () => {
     expect(isCorrect("and he said", find("וַיֹּאמֶר").english)).toBe(true);
     expect(isCorrect("you", find("אַתֶּם").english)).toBe(true);
     expect(isCorrect("with you", find("אִתְּכֶם").english)).toBe(true);
+  });
+
+  it("finds the whole list a week belongs to, for View all", () => {
+    expect(testForWeek(COURSE, 0)?.key).toBe("list1");
+    expect(testForWeek(COURSE, 4)?.weeks).toEqual([3, 4, 5]);
+    expect(testForWeek(COURSE, 99)).toBeUndefined();
   });
 });

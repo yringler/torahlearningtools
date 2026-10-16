@@ -84,3 +84,8 @@ export function testsFor(course: Course): TestUnit[] {
 export function cardsForTest(course: Course, test: TestUnit): Card[] {
   return test.weeks.flatMap((i) => course.weeks[i]?.cards ?? []);
 }
+
+/** The test (Word List) a week belongs to. */
+export function testForWeek(course: Course, weekIndex: number): TestUnit | undefined {
+  return testsFor(course).find((t) => t.weeks.includes(weekIndex));
+}

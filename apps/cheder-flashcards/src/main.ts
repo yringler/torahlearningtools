@@ -1,5 +1,5 @@
 import "./style.css";
-import { COURSE, cardsForTest, testsFor } from "./courses";
+import { COURSE, cardsForTest, testForWeek, testsFor } from "./courses";
 import type { Card, Course, TestUnit } from "./courses";
 import { isCorrect } from "./check";
 import { bestScore, isLearned, markLearned, recordScore } from "./progress";
@@ -80,7 +80,10 @@ function showCourse(course: Course): void {
       if (!week) continue;
       const learned = isLearned(course.id, week.key);
       const row = el("div", { class: "week-row" }, el("span", { class: "week-name" }, `${week.label}${learned ? " ✅" : ""}`));
-      row.append(button("📖 Learn", "learn", () => runLearn(course, wi)));
+      row.append(
+        button("🔍 All", "learn view", () => showWordList(course, wi, () => showCourse(course))),
+        button("📖 Learn", "learn", () => runLearn(course, wi)),
+      );
       unit.append(row);
       if (!learned && !firstOpen) firstOpen = unit;
     }
@@ -97,6 +100,41 @@ function showCourse(course: Course): void {
   );
   const target: HTMLElement | null = firstOpen;
   if (target) target.scrollIntoView({ block: "center" });
+}
+
+// ---------- View all: the whole Word List, every column ----------
+/** Show every word and its meaning for the list that `weekIndex` is in, scrolled to that week. */
+function showWordList(course: Course, weekIndex: number, onBack: () => void): void {
+  const test = testForWeek(course, weekIndex);
+  if (!test) return onBack();
+
+  const sections = test.weeks.map((wi) => {
+    const week = course.weeks[wi];
+    const section = el("section", { class: wi === weekIndex ? "word-list here" : "word-list" });
+    if (!week) return section;
+    const rows = el("ul", { class: "words" });
+    for (const card of week.cards) {
+      rows.append(
+        el(
+          "li",
+          {},
+          el("span", { class: "hebrew-sm", dir: "rtl", lang: "he" }, card.hebrew),
+          el("span", { class: "meaning" }, card.english.join(", ")),
+        ),
+      );
+    }
+    section.append(el("h2", {}, week.label), rows);
+    return section;
+  });
+
+  mount(
+    button("⬅️ Back", "choice back", onBack),
+    el("h1", {}, `🔍 List ${test.list}`),
+    ...sections,
+    button("⬅️ Back", "go", onBack),
+  );
+  const here = sections[test.weeks.indexOf(weekIndex)];
+  if (here && test.weeks[0] !== weekIndex) here.scrollIntoView({ block: "start" });
 }
 
 // ---------- Learn: flashcards ----------
@@ -120,6 +158,13 @@ function runLearn(course: Course, weekIndex: number): void {
     front.setAttribute("role", "button");
     front.setAttribute("tabindex", "0");
     front.setAttribute("aria-label", "Flip card");
+
+    // Peek at the whole list, then come back to this same card.
+    const peek = button("🔍", "peek", () => showWordList(course, weekIndex, showCard));
+    peek.setAttribute("aria-label", "See all the words");
+    peek.addEventListener("click", (e) => e.stopPropagation());
+    peek.addEventListener("keydown", (e) => e.stopPropagation());
+    front.prepend(peek);
 
     const flipBtn = button("Flip 🔄", "go flip", () => flip());
     const gotIt = button("I knew it ✅", "go", () => {
@@ -166,7 +211,7 @@ function runLearn(course: Course, weekIndex: number): void {
 
   function finish(): void {
     if (week) markLearned(course.id, week.key);
-    const test = testsFor(course).find((t) => t.weeks.includes(weekIndex));
+    const test = testForWeek(course, weekIndex);
     const isLastOfUnit = test !== undefined && test.weeks[test.weeks.length - 1] === weekIndex;
     const next = course.weeks[weekIndex + 1];
     const buttons = el("div", { class: "stack" });
