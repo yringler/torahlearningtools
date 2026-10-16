@@ -83,7 +83,7 @@ export const WORD_LISTS: WordList[] = [
         w("הִנֵּה", "behold"),
         w("אֲשֶׁר", "that", "which"),
         w("דָּם", "blood"),
-        w("בּוֹ, בָּהּ", "in it", "in him", "in her"),
+        w("בּוֹ, בָּה", "in it", "in him", "in her"),
       ],
       [
         w("יוֹם", "day"),
