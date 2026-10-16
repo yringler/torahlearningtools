@@ -1,6 +1,6 @@
-// Per-device progress (localStorage): which weeks were learned and best test scores.
-// Weeks and tests are saved by their stable keys ("3א", "list3"), so adding lists never
-// moves anyone's checkmarks.
+// Per-device progress (localStorage): which weeks were learned, best test scores, and the
+// current mix of each list's big test. Weeks and tests are saved by their stable keys
+// ("3א", "test:3א", "list3"), so adding lists never moves anyone's checkmarks.
 import type { CourseId } from "./courses";
 
 export interface Score {
@@ -8,9 +8,17 @@ export interface Score {
   total: number;
 }
 
+/** A list's big test, split into mixed-up parts. Words are saved by their Hebrew. */
+export interface SavedMix {
+  parts: string[][];
+  /** Best score on each part since this mix was dealt; null = not taken yet. */
+  scores: (Score | null)[];
+}
+
 interface CourseProgress {
   learned: string[];
   best: Record<string, Score>;
+  mix?: Record<string, SavedMix>;
 }
 
 const KEY = "cheder-flashcards:progress";
@@ -64,9 +72,10 @@ function course(p: Progress, id: CourseId): CourseProgress {
   const best: Record<string, Score> = {};
   if (typeof c?.best === "object" && c.best !== null) {
     // Old saves keyed scores by test number ("0", "1", …) for two-week tests that no longer exist.
-    for (const [k, v] of Object.entries(c.best)) if (k.startsWith("list")) best[k] = v;
+    for (const [k, v] of Object.entries(c.best)) if (!/^\d+$/.test(k)) best[k] = v;
   }
-  return { learned: migrateLearned(c?.learned), best };
+  const mix = typeof c?.mix === "object" && c.mix !== null ? c.mix : {};
+  return { learned: migrateLearned(c?.learned), best, mix };
 }
 
 export function isLearned(id: CourseId, week: string): boolean {
@@ -90,6 +99,18 @@ export function recordScore(id: CourseId, test: string, s: Score): void {
   const c = course(p, id);
   const prev = c.best[test];
   if (!prev || s.score / s.total > prev.score / prev.total) c.best[test] = s;
+  p[id] = c;
+  save(p);
+}
+
+export function getMix(id: CourseId, test: string): SavedMix | undefined {
+  return course(load(), id).mix?.[test];
+}
+
+export function setMix(id: CourseId, test: string, mix: SavedMix): void {
+  const p = load();
+  const c = course(p, id);
+  c.mix = { ...c.mix, [test]: mix };
   p[id] = c;
   save(p);
 }

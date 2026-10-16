@@ -2,7 +2,9 @@
 
 Hebrew to English vocabulary for kids, from the cheder **Word List** pages. Each page has three columns (א, ב, ג); each column is one week of 12 words, in book order: List 1 א, List 1 ב, List 1 ג, List 2 א, …
 
-Each week has **Learn** (flashcards: flip, then "I knew it" / "Again"). Each list has one **Test** (type the English) covering all three of its columns. Progress and best scores are saved on the device.
+Each week has **🔍 All** (see every word of the list with its meaning), **Learn** (flashcards: flip, then "I knew it" / "Again") and **Test** (type the English for that week's 12 words).
+
+Each list also has a big **List Test** covering all three columns. So it isn't 36 questions in a row, it is split into 3 parts of 12, each part a mix of 4 words from each column. The mix is saved on the device, so the parts stay the same until **🔀 New mix** deals them again. Finishing all 3 parts saves the list's total score. Progress, best scores and mixes are saved on the device.
 
 ## Run locally
 

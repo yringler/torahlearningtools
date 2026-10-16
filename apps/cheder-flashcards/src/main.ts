@@ -1,8 +1,9 @@
 import "./style.css";
-import { COURSE, cardsForTest, testForWeek, testsFor } from "./courses";
+import { COURSE, dealParts, partsFromSaved, shuffle, testForWeek, testsFor, weekTestKey } from "./courses";
 import type { Card, Course, TestUnit } from "./courses";
 import { isCorrect } from "./check";
-import { bestScore, isLearned, markLearned, recordScore } from "./progress";
+import { bestScore, getMix, isLearned, markLearned, recordScore, setMix } from "./progress";
+import type { Score } from "./progress";
 
 interface Answer {
   card: Card;
@@ -15,17 +16,6 @@ interface Answer {
 const app = document.getElementById("app");
 if (!app) throw new Error("#app missing");
 const root: HTMLElement = app;
-
-function shuffle<T>(items: readonly T[]): T[] {
-  const a = [...items];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const tmp = a[i] as T;
-    a[i] = a[j] as T;
-    a[j] = tmp;
-  }
-  return a;
-}
 
 function el<K extends keyof HTMLElementTagNameMap>(
   tag: K,
@@ -79,17 +69,27 @@ function showCourse(course: Course): void {
       const week = course.weeks[wi];
       if (!week) continue;
       const learned = isLearned(course.id, week.key);
-      const row = el("div", { class: "week-row" }, el("span", { class: "week-name" }, `${week.label}${learned ? " ✅" : ""}`));
-      row.append(
-        button("🔍 All", "learn view", () => showWordList(course, wi, () => showCourse(course))),
-        button("📖 Learn", "learn", () => runLearn(course, wi)),
+      const best = bestScore(course.id, weekTestKey(week.key));
+      const name = el("div", { class: "week-name" }, `${week.label}${learned ? " ✅" : ""}`);
+      if (best) name.append(el("span", { class: "week-best" }, `🏆 ${best.score} / ${best.total}`));
+      unit.append(
+        el(
+          "div",
+          { class: "week" },
+          name,
+          el(
+            "div",
+            { class: "week-btns" },
+            button("🔍 All", "small view", () => showWordList(course, wi, () => showCourse(course))),
+            button("📖 Learn", "small", () => runLearn(course, wi)),
+            button("🏆 Test", "small test", () => startWeekTest(course, wi)),
+          ),
+        ),
       );
-      unit.append(row);
       if (!learned && !firstOpen) firstOpen = unit;
     }
     const best = bestScore(course.id, test.key);
-    const testBtn = button(`🏆 ${test.label}`, "test", () => startTest(course, test));
-    unit.append(testBtn);
+    unit.append(button(`🏆 ${test.label}`, "test big-test", () => showMix(course, test)));
     if (best) unit.append(el("div", { class: "best" }, `Best: ${best.score} / ${best.total}`));
     list.append(unit);
   }
@@ -211,31 +211,179 @@ function runLearn(course: Course, weekIndex: number): void {
 
   function finish(): void {
     if (week) markLearned(course.id, week.key);
-    const test = testForWeek(course, weekIndex);
-    const isLastOfUnit = test !== undefined && test.weeks[test.weeks.length - 1] === weekIndex;
-    const next = course.weeks[weekIndex + 1];
-    const buttons = el("div", { class: "stack" });
-    if (test && isLastOfUnit) buttons.append(button(`🏆 ${test.label}`, "go", () => startTest(course, test)));
-    else if (next) buttons.append(button(`📖 Learn ${next.label}`, "go", () => runLearn(course, weekIndex + 1)));
-    buttons.append(button("Learn again", "", () => runLearn(course, weekIndex)));
-    buttons.append(button("Back", "choice", () => showCourse(course)));
-    mount(el("h1", {}, `${week?.label ?? ""} learned! 🎉`), el("p", { class: "msg" }, `You learned all ${total} words.`), buttons);
+    mount(
+      el("h1", {}, `${week?.label ?? ""} learned! 🎉`),
+      el("p", { class: "msg" }, `You learned all ${total} words.`),
+      el(
+        "div",
+        { class: "stack" },
+        button(`🏆 Test ${week?.label ?? ""}`, "go", () => startWeekTest(course, weekIndex)),
+        button("Learn again", "", () => runLearn(course, weekIndex)),
+        button("Back", "choice", () => showCourse(course)),
+      ),
+    );
   }
 
   showCard();
 }
 
-// ---------- Test: type the English ----------
-interface TestContext {
-  course: Course;
-  test: TestUnit;
+// ---------- Tests ----------
+interface NextStep {
+  label: string;
+  go: () => void;
 }
 
-function startTest(course: Course, test: TestUnit): void {
-  runQuiz(shuffle(cardsForTest(course, test)), { course, test });
+/** Everything a quiz needs to know about the test it's running. */
+interface QuizContext {
+  title: string;
+  /** Save the score (not called for practice). */
+  record: (s: Score) => void;
+  /** Take the same test again. */
+  restart: () => void;
+  /** Where to go next, worked out after the score is saved. */
+  next: () => NextStep | undefined;
+  back: () => void;
 }
 
-function runQuiz(cards: Card[], ctx: TestContext, practice = false): void {
+/** Test on one column (week): its 12 words. */
+function startWeekTest(course: Course, weekIndex: number): void {
+  const week = course.weeks[weekIndex];
+  if (!week) return showCourse(course);
+  runQuiz(shuffle(week.cards), {
+    title: `🏆 ${week.label} Test`,
+    record: (s) => recordScore(course.id, weekTestKey(week.key), s),
+    restart: () => startWeekTest(course, weekIndex),
+    next: () => {
+      const test = testForWeek(course, weekIndex);
+      if (test && test.weeks[test.weeks.length - 1] === weekIndex) {
+        return { label: `🏆 ${test.label}`, go: () => showMix(course, test) };
+      }
+      const nextWeek = course.weeks[weekIndex + 1];
+      if (nextWeek) return { label: `📖 Learn ${nextWeek.label}`, go: () => runLearn(course, weekIndex + 1) };
+      return undefined;
+    },
+    back: () => showCourse(course),
+  });
+}
+
+// ---------- Big test: the whole list, in short mixed-up parts ----------
+interface Mix {
+  parts: Card[][];
+  scores: (Score | null)[];
+}
+
+function saveMix(course: Course, test: TestUnit, mix: Mix): void {
+  setMix(course.id, test.key, { parts: mix.parts.map((p) => p.map((c) => c.hebrew)), scores: mix.scores });
+}
+
+function newMix(course: Course, test: TestUnit): Mix {
+  const parts = dealParts(course, test);
+  const mix: Mix = { parts, scores: parts.map(() => null) };
+  saveMix(course, test, mix);
+  return mix;
+}
+
+/** The saved mix for this list, or a fresh one if there is none (or it no longer fits the list). */
+function currentMix(course: Course, test: TestUnit): Mix {
+  const saved = getMix(course.id, test.key);
+  const parts = partsFromSaved(course, test, saved?.parts);
+  if (!parts) return newMix(course, test);
+  const scores = Array.isArray(saved?.scores) ? saved.scores : [];
+  return { parts, scores: parts.map((_, i) => scores[i] ?? null) };
+}
+
+function total(scores: (Score | null)[]): Score {
+  return scores.reduce<Score>((t, s) => ({ score: t.score + (s?.score ?? 0), total: t.total + (s?.total ?? 0) }), {
+    score: 0,
+    total: 0,
+  });
+}
+
+function columnLetters(course: Course, test: TestUnit): string {
+  // Each letter isolated, so they read א ב ג left to right inside the English sentence.
+  return test.weeks
+    .map((wi) => course.weeks[wi]?.column ?? "")
+    .filter(Boolean)
+    .map((c) => `\u2068${c}\u2069`)
+    .join(" ");
+}
+
+function showMix(course: Course, test: TestUnit, note?: string): void {
+  const mix = currentMix(course, test);
+  const done = mix.scores.filter((s) => s !== null).length;
+  const allDone = done === mix.parts.length;
+  const nextPart = mix.scores.findIndex((s) => s === null);
+
+  const parts = el("div", { class: "stack" });
+  mix.parts.forEach((cards, i) => {
+    const s = mix.scores[i];
+    const label = s ? `Part ${i + 1}  ✅ ${s.score} / ${s.total}` : `Part ${i + 1}  (${cards.length} words)`;
+    parts.append(button(label, i === nextPart ? "go part" : "choice part", () => startPart(course, test, i)));
+  });
+
+  const letters = columnLetters(course, test);
+  const nodes: Node[] = [
+    el("h1", {}, `🏆 ${test.label}`),
+    el("p", { class: "msg" }, letters ? `Words from ${letters} all mixed up!` : "All the words, mixed up!"),
+  ];
+  if (note) nodes.push(el("p", { class: "note" }, note));
+  nodes.push(parts);
+  if (allDone) {
+    const t = total(mix.scores);
+    nodes.push(
+      el("p", { class: "score" }, `${t.score} / ${t.total}`),
+      el("p", { class: "msg" }, messageFor(t.score, t.total)),
+    );
+  }
+
+  const reshuffle = (): void => {
+    newMix(course, test);
+    showMix(course, test, "🔀 All mixed up! New words in each part.");
+  };
+  // Mixing again starts the parts over, so ask first if some (but not all) are done.
+  const mixBtn = button("🔀 New mix", "mix", () => (done > 0 && !allDone ? confirmNewMix(course, test, reshuffle) : reshuffle()));
+  nodes.push(el("div", { class: "stack mix-btns" }, mixBtn, button("Back", "quit", () => showCourse(course))));
+  mount(...nodes);
+}
+
+function confirmNewMix(course: Course, test: TestUnit, reshuffle: () => void): void {
+  mount(
+    el("h1", {}, "New mix? 🔀"),
+    el("p", { class: "msg" }, "Your ✅ parts will start over."),
+    el(
+      "div",
+      { class: "stack" },
+      button("Yes, mix it!", "mix", reshuffle),
+      button("No, keep it", "choice", () => showMix(course, test)),
+    ),
+  );
+}
+
+function startPart(course: Course, test: TestUnit, part: number): void {
+  const cards = currentMix(course, test).parts[part];
+  if (!cards) return showMix(course, test);
+  runQuiz(shuffle(cards), {
+    title: `🏆 ${test.label} · Part ${part + 1}`,
+    record: (s) => {
+      const mix = currentMix(course, test);
+      const prev = mix.scores[part];
+      if (!prev || s.score / s.total > prev.score / prev.total) mix.scores[part] = s;
+      saveMix(course, test, mix);
+      if (mix.scores.every((x) => x !== null)) recordScore(course.id, test.key, total(mix.scores));
+    },
+    restart: () => startPart(course, test, part),
+    next: () => {
+      const mix = currentMix(course, test);
+      const n = mix.scores.findIndex((x) => x === null);
+      if (n >= 0) return { label: `🏆 Part ${n + 1}`, go: () => startPart(course, test, n) };
+      return { label: "See my total 🌟", go: () => showMix(course, test) };
+    },
+    back: () => showMix(course, test),
+  });
+}
+
+// ---------- Quiz: type the English ----------
+function runQuiz(cards: Card[], ctx: QuizContext, practice = false): void {
   const answers: Answer[] = [];
   let index = 0;
 
@@ -268,11 +416,11 @@ function runQuiz(cards: Card[], ctx: TestContext, practice = false): void {
     form.append(el("button", { type: "submit", class: "go", style: "margin-top:0" }, "Next"));
 
     mount(
-      el("h2", { class: "center" }, practice ? "💪 Practice" : `🏆 ${ctx.test.label}`),
+      el("h2", { class: "center" }, practice ? "💪 Practice" : ctx.title),
       hebrewCard(card),
       form,
       progressBar(index + 1, cards.length, `${index + 1} / ${cards.length}`),
-      button("Quit", "quit", () => showCourse(ctx.course)),
+      button("Quit", "quit", ctx.back),
     );
     input.focus();
   }
@@ -288,7 +436,7 @@ function messageFor(score: number, total: number): string {
 }
 
 // ---------- Check: kid marks answers that were only spelled wrong ----------
-function showCheck(answers: Answer[], ctx: TestContext, practice: boolean): void {
+function showCheck(answers: Answer[], ctx: QuizContext, practice: boolean): void {
   const toCheck = answers.filter((a) => !a.correct);
   if (toCheck.length === 0) return showResults(answers, ctx, practice);
 
@@ -327,10 +475,10 @@ function isRight(a: Answer): boolean {
   return a.correct || a.spelling === true;
 }
 
-function showResults(answers: Answer[], ctx: TestContext, practice: boolean): void {
+function showResults(answers: Answer[], ctx: QuizContext, practice: boolean): void {
   const score = answers.filter(isRight).length;
   const wrong = answers.filter((a) => !isRight(a));
-  if (!practice) recordScore(ctx.course.id, ctx.test.key, { score, total: answers.length });
+  if (!practice) ctx.record({ score, total: answers.length });
 
   const list = el("ul", { class: "results" });
   for (const a of answers) {
@@ -348,11 +496,13 @@ function showResults(answers: Answer[], ctx: TestContext, practice: boolean): vo
   }
 
   const buttons = el("div", { class: "stack" });
+  const next = practice ? undefined : ctx.next();
+  if (next) buttons.append(button(next.label, "go", next.go));
   if (wrong.length > 0) {
     buttons.append(button("Practice my mistakes", "warn", () => runQuiz(shuffle(wrong.map((a) => a.card)), ctx, true)));
   }
-  buttons.append(button("Take the test again", "", () => startTest(ctx.course, ctx.test)));
-  buttons.append(button("Back to weeks", "choice", () => showCourse(ctx.course)));
+  buttons.append(button("Take the test again", "", ctx.restart));
+  buttons.append(button("Back", "choice", ctx.back));
 
   mount(
     el("h1", {}, practice ? "Practice done!" : "Test done!"),
