@@ -1,8 +1,6 @@
-import "@fontsource/nunito/latin-600.css";
 import "@fontsource/nunito/latin-800.css";
 import "@fontsource/nunito/latin-900.css";
 import "@fontsource/noto-serif-hebrew/hebrew-400.css";
-import "@fontsource/noto-serif-hebrew/hebrew-600.css";
 import "./style.css";
 import { COURSE, dealParts, partsFromSaved, shuffle, testForWeek, testsFor, weekTestKey } from "./courses";
 import type { Card, Course, TestUnit } from "./courses";

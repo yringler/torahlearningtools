@@ -12,7 +12,8 @@ const updateSW = registerSW({
   },
   onRegisteredSW(_url, registration) {
     document.addEventListener("visibilitychange", () => {
-      if (document.visibilityState === "visible") void registration?.update();
+      // Offline, the check fails; that is fine, it tries again next time.
+      if (document.visibilityState === "visible") registration?.update().catch(() => {});
     });
   },
 });
