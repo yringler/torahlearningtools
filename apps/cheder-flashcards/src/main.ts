@@ -1,9 +1,13 @@
+import "@fontsource/nunito/latin-800.css";
+import "@fontsource/nunito/latin-900.css";
+import "@fontsource/noto-serif-hebrew/hebrew-400.css";
 import "./style.css";
 import { COURSE, dealParts, partsFromSaved, shuffle, testForWeek, testsFor, weekTestKey } from "./courses";
 import type { Card, Course, TestUnit } from "./courses";
 import { isCorrect } from "./check";
 import { bestScore, getMix, isLearned, markLearned, recordScore, setMix } from "./progress";
 import type { Score } from "./progress";
+import { setSafeToUpdate } from "./pwa";
 
 interface Answer {
   card: Card;
@@ -36,7 +40,9 @@ function button(label: string, cls: string, onClick: () => void): HTMLButtonElem
   return b;
 }
 
+/** Every screen goes through here. Only the course home is safe to reload for an app update. */
 function mount(...nodes: Node[]): void {
+  setSafeToUpdate(false);
   root.replaceChildren(...nodes);
   window.scrollTo(0, 0);
 }
@@ -98,6 +104,7 @@ function showCourse(course: Course): void {
     el("h1", {}, `${course.title} ⭐`),
     list,
   );
+  setSafeToUpdate(true);
   const target: HTMLElement | null = firstOpen;
   if (target) target.scrollIntoView({ block: "center" });
 }
