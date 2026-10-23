@@ -14,7 +14,14 @@ npm run dev      # dev server
 npm test         # unit tests for the answer checker
 npm run build    # type-check + build to dist/
 npm run preview  # serve the built site
+npm run test:e2e # build, then check in a real browser that the app works offline
 ```
+
+## Works offline
+
+Open the app once with internet (and add it to the home screen if you like). After that it works with no internet. When a new version is out, it is installed in the background and switches on by itself after the child leaves the app while on the home screen, never in the middle of a quiz.
+
+To re-make the icons: `node scripts/make-icons.mjs`.
 
 ## Add a word list
 
