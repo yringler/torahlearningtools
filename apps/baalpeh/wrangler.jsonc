@@ -30,7 +30,7 @@
 	"vars": {
 		"APP_ORIGIN": "https://mishnah.example.com", // OWNER: your domain, no trailing slash
 		"EMAIL_FROM": "Mishnah Ba'al Peh <login@mishnah.example.com>", // OWNER: an address on the Resend-verified domain
-		"TURNSTILE_SITE_KEY": "1x00000000000000000000AA" // OWNER: real site key (this is the always-pass test key)
+		"TURNSTILE_SITE_KEY": "0x4AAAAAAFv5WMamRZzjSeic" // OWNER: real site key (this is the always-pass test key)
 	},
 	// Secrets (set with `wrangler secret put NAME`, never committed):
 	//   AUTH_SECRET, TURNSTILE_SECRET_KEY, RESEND_API_KEY
