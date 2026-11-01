@@ -16,6 +16,13 @@ def clean(t: str) -> str:
     t = t.replace("־", "־")  # keep maqaf
     return re.sub(r"\s+", " ", t).strip()
 
+def steinsaltz_markup(t: str) -> str:
+    """Keep only <b>…</b> (Steinsaltz's translation); plain text is his explanation."""
+    t = t.replace("<strong>", "<b>").replace("</strong>", "</b>").replace("<br>", " ")
+    t = re.sub(r"<(?!/?b>)[^>]+>", "", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t.replace("</b> <b>", " ").replace("<b></b>", "")
+
 def clauses(text: str) -> list[list[str]]:
     parts = re.findall(r"[^.,:;?!]+[.,:;?!]*", text)
     return [p.split() for p in (x.strip() for x in parts) if p]
@@ -51,8 +58,8 @@ for f in sorted(raw.glob("berakhot_*.json"), key=lambda p: int(p.stem.split("_")
         result.append({
             "perek": perek, "mishnah": m,
             "chunks": chunk(clean(he)),
-            "steinsaltz": clean(d["steinsaltz"][m - 1]),
-            "kulp": clean(d["kulp"][m - 1]),
+            "steinsaltz": steinsaltz_markup(d["steinsaltz"][m - 1]),
+            "bartenura": clean(d["bartenura"][m - 1]) if len(d["bartenura"]) >= m else "",
         })
 out.write_text(json.dumps(result, ensure_ascii=False, indent=1))
 lens = [len(c.split()) for r in result for c in r["chunks"]]

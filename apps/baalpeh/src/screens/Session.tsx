@@ -238,7 +238,16 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
       <div className="task">
         {header}
         {phase === "read" ? (
-          <ReadPhase key={`read${attempt}`} chunk={chunk} tts={profile.settings.tts} onDone={() => setPhase("recall")} />
+          <ReadPhase
+            key={`read${attempt}`}
+            chunk={chunk}
+            tts={profile.settings.tts}
+            perek={perek}
+            mishnah={mishnah}
+            view={profile.settings.meaningView ?? "simple"}
+            onView={(v) => onProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
+            onDone={() => setPhase("recall")}
+          />
         ) : (
           <Recite
             key={`rec${attempt}`}

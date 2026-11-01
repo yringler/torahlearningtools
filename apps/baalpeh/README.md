@@ -42,17 +42,34 @@ The design spec this was built from is in [`docs/DESIGN.md`](docs/DESIGN.md).
 ## Data pipeline
 
 ```
-scripts/fetch_sefaria.py     → data/raw/berakhot_N.json   (Sefaria v3 API: Hebrew Torat Emet, Steinsaltz, Kulp)
+scripts/fetch_sefaria.py     → data/raw/berakhot_N.json   (Sefaria v3 API: Hebrew Torat Emet, Steinsaltz, Bartenura/Silverstein)
 scripts/chunk.py             → data/chunks.json           (mechanical phrase chunking)
 (LLM pass, brief in scripts/GLOSS_PROMPT.md)
                              → data/gloss/perek_N.json    (refined chunks + kid-level meaning per piece and per word)
-scripts/validate_gloss.py    checks the Hebrew is byte-identical to the source, and every word has a gloss
+scripts/validate_gloss.py    checks that the Hebrew matches the source byte for byte, that the Steinsaltz excerpts rebuild
+                             Steinsaltz exactly (text and bold), and that every word has a gloss and every piece names its sources
 scripts/build_data.py        → src/data/berakhot.json     (what the app bundles)
 ```
 
-The meanings were simplified by an AI from the Steinsaltz and Mishnah Yomit translations, so **a parent should check
-them**. Known soft spots flagged during generation: 3:4–3:6 (tumah topics are kept vague on purpose), 4:4 פָּרָשַׁת הָעִבּוּר,
-4:7 חֶבֶר עִיר, 6:3 נוֹבְלוֹת, 9:3 מֵעֵין, 9:5 הַמִּינִין.
+### Meanings and sources
+
+There are two views of each piece's meaning. The child or parent can switch between them, and the parent sets the default.
+
+- **Simple** is one short line for a young reader, sometimes with a short explanation. An AI wrote it by
+  simplifying Steinsaltz's bold translation and checking it against Bartenura. Each piece records which source(s) it was
+  based on (`basis`), plus a note wherever it follows Bartenura instead of Steinsaltz.
+- **Steinsaltz** is quoted word for word from the Koren Noé / William Davidson translation. **Bold** is the
+  translation and the lighter text is his explanation. Longer explanations sit behind "more…". The validator
+  guarantees the excerpts, put back together, are exactly Steinsaltz's text.
+
+Word meanings (tap a word) follow Steinsaltz's bold translation. Sources show up only through a small ⓘ next to each meaning
+(source names and a link to the mishnah on Sefaria), so there are no footnotes.
+
+Translations used: Steinsaltz (primary) and Bartenura translated by R. Shraga Silverstein (secondary).
+Not used: Open Mishnah (a community translation), Mishnah Yomit (Kulp), and De Sola & Raphall (on Sefaria it covers
+only perek 1 of Brachos).
+
+The simple lines are still AI-written, so **a parent should check them**.
 
 To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline, and generate gloss files.
 
@@ -72,5 +89,5 @@ On iPad/iPhone, open the site and use "Add to Home Screen". Safari can clear sav
 ## Sources & licenses
 
 Hebrew text: Torat Emet 357 via [Sefaria](https://www.sefaria.org) (public domain). English: William Davidson
-Edition (Steinsaltz, CC-BY-NC) and Mishnah Yomit by Dr. Joshua Kulp (CC-BY), via Sefaria. This project is for
+Edition (Steinsaltz, CC-BY-NC) and The Mishna with Obadiah Bartenura by R. Shraga Silverstein (CC-BY), via Sefaria. This project is for
 non-commercial use, in keeping with the CC-BY-NC source.

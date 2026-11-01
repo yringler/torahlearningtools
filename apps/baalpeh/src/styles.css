@@ -153,3 +153,19 @@ input[type="text"], input:not([type]), input[type="number"], select { font: inhe
 .part.done { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .part.current { border-color: var(--gold); color: var(--ink); }
 .day.shabbos { border-style: dashed; }
+
+/* meaning views */
+.meaning.steinsaltz { font-style: normal; color: var(--ink); }
+.meaning.steinsaltz .st-explain { color: var(--muted); }
+.meaning .explain { font-style: normal; font-size: 0.92em; }
+.more-btn, .info-btn { border: none; background: none; color: var(--accent); cursor: pointer; font-size: 0.9em; padding: 4px 6px; min-height: 32px; }
+.info-btn { color: var(--muted); opacity: 0.7; }
+.source-sheet { text-align: start; }
+.source-sheet h3 { margin-top: 0; }
+.source-list { color: var(--muted); font-size: 0.95rem; padding-inline-start: 20px; }
+a.btn { text-decoration: none; display: inline-flex; align-items: center; justify-content: center; }
+.seg { display: inline-flex; border: 2px solid var(--line); border-radius: 999px; overflow: hidden; align-self: center; }
+.seg button { border: none; background: transparent; padding: 8px 16px; min-height: 40px; font-weight: 700; color: var(--muted); cursor: pointer; }
+.seg button.on { background: var(--accent); color: var(--accent-ink); }
+.full-st { margin-top: 18px; line-height: 1.7; background: var(--surface); padding: 16px; border-radius: 16px; }
+.full-st .st-explain { color: var(--muted); }

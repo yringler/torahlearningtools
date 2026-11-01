@@ -60,6 +60,7 @@ export function App() {
         mishnah={mishnah}
         onBack={() => setScreen({ s: "home", id: profile.id })}
         onPractice={() => go({ type: "learn", perek, mishnah })}
+        onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
         onReview={() => (isKnown(st) ? go({ type: "review-m", perek, mishnah }) : go({ type: "learn", perek, mishnah }))}
       />
     );

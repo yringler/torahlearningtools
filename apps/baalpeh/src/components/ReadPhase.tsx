@@ -1,18 +1,23 @@
 import { useState } from "react";
 import { speak } from "../tts";
-import type { Chunk, Word } from "../types";
+import type { Chunk, MeaningView, Word } from "../types";
 import { CueCard } from "./CueCard";
 import { GlossSheet } from "./GlossSheet";
+import { Meaning, ViewToggle } from "./Meaning";
 
 interface Props {
   chunk: Chunk;
   context?: Chunk[]; // previous chunks of the segment, shown faintly for orientation
   tts: boolean;
+  perek: number;
+  mishnah: number;
+  view: MeaningView;
+  onView: (v: MeaningView) => void;
   onDone: () => void;
 }
 
 /** First exposure: full text + meaning; tap words for glosses; read aloud twice. */
-export function ReadPhase({ chunk, context = [], tts, onDone }: Props) {
+export function ReadPhase({ chunk, context = [], tts, perek, mishnah, view, onView, onDone }: Props) {
   const [reads, setReads] = useState(0);
   const [word, setWord] = useState<Word | null>(null);
   const tap = () => {
@@ -28,7 +33,8 @@ export function ReadPhase({ chunk, context = [], tts, onDone }: Props) {
       <div className="cards">
         <CueCard he={chunk.he} cue={0} glossWords={chunk.words} onWordTap={setWord} highlight />
       </div>
-      {chunk.en && <div className="meaning" dir="ltr">{chunk.en}</div>}
+      {chunk.en && <Meaning key={view} chunk={chunk} view={view} perek={perek} mishnah={mishnah} />}
+      {chunk.st && <ViewToggle view={view} onChange={onView} />}
       <div className="actions">
         {tts && (
           <button className="btn secondary" onClick={() => speak(chunk.he)} title="Approximate pronunciation">

@@ -80,7 +80,7 @@ export function Parent({ state, onState, onBack }: Props) {
           <li>Hints fade: full text → first letters → first word → nothing. Tapping a hidden card is a "peek", and peeks are counted automatically.</li>
           <li>At the end of each mishnah, and for each "mishnayos 1–k in a row" chain, you listen and grade. A perek is done when it's said in one shot.</li>
           <li>Learned mishnayos come back for review after 1, 3, 7, 14, 30 and 60 days. A finished perek is reviewed as a whole.</li>
-          <li>Text: Sefaria (Torat Emet). Meanings: simplified by AI from Steinsaltz and Mishnah Yomit (Kulp). Please check anything that looks off.</li>
+          <li>Hebrew text: Torat Emet via Sefaria. Meanings come in two views. <b>Steinsaltz</b> is quoted word for word from the Koren Noé / William Davidson translation (bold = translation, light = explanation). <b>Simple</b> is an AI simplification of Steinsaltz, checked against Bartenura (tr. R. Shraga Silverstein). Tap ⓘ by any meaning to see its source. Please check anything that looks off.</li>
         </ul>
       </section>
     </div>
@@ -110,6 +110,12 @@ function ChildCard({ p, onChange, onDelete }: { p: Profile; onChange: (p: Profil
           </label>
           <label>Text size <input type="range" min={0.8} max={1.6} step={0.1} value={p.settings.fontScale} onChange={(e) => set("fontScale", Number(e.target.value))} /></label>
           <label>Session minutes <input type="number" min={5} max={60} value={p.settings.dailyMinutes} onChange={(e) => set("dailyMinutes", Number(e.target.value) || 15)} /></label>
+          <label>Meanings while learning
+            <select value={p.settings.meaningView ?? "simple"} onChange={(e) => set("meaningView", e.target.value === "steinsaltz" ? "steinsaltz" : "simple")}>
+              <option value="simple">Simple (for young readers)</option>
+              <option value="steinsaltz">Steinsaltz (bold translation + explanation)</option>
+            </select>
+          </label>
           <label><input type="checkbox" checked={p.settings.tts} onChange={(e) => set("tts", e.target.checked)} /> 🔊 Read-aloud (approximate: Israeli pronunciation, may skip nikud)</label>
           <details>
             <summary>Reset a mishnah</summary>

@@ -4,9 +4,20 @@ export interface Word {
   note?: string;
 }
 
+export type Source = "steinsaltz" | "bartenura";
+
 export interface Chunk {
   he: string;
+  /** Simple kid-level meaning, based on the sources in `basis`. */
   en: string;
+  /** Optional minimal explanation (rare). */
+  explain?: string;
+  /** Verbatim Steinsaltz excerpt: <b>translation</b> + plain explanation. */
+  st?: string;
+  /** Verbatim continuation of Steinsaltz's longer explanation (behind "more"). */
+  stMore?: string;
+  basis?: Source[];
+  basisNote?: string;
   words: Word[];
 }
 
@@ -15,7 +26,7 @@ export interface Mishnah {
   mishnah: number;
   summary: string;
   chunks: Chunk[];
-  english: string;
+  stIntro?: string;
 }
 
 export interface Masechta {
@@ -60,7 +71,11 @@ export interface Settings {
   fontScale: number;
   tts: boolean;
   dailyMinutes: number;
+  /** Which meaning view to show while learning (optional for older saved profiles). */
+  meaningView?: MeaningView;
 }
+
+export type MeaningView = "simple" | "steinsaltz";
 
 export interface Profile {
   id: string;
