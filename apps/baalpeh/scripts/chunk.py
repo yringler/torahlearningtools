@@ -20,7 +20,18 @@ def steinsaltz_markup(t: str) -> str:
     """Keep only <b>…</b> (Steinsaltz's translation); plain text is his explanation."""
     t = t.replace("<strong>", "<b>").replace("</strong>", "</b>").replace("<br>", " ")
     t = re.sub(r"<(?!/?b>)[^>]+>", "", t)
-    t = re.sub(r"\s+", " ", t).strip()
+    # Flatten nested/stray bold tags (e.g. 9:1 has "<b>MISHNA:<b> … </b></b>").
+    out, depth = [], 0
+    for tok in re.split(r"(</?b>)", t):
+        if tok == "<b>":
+            if depth == 0: out.append(tok)
+            depth += 1
+        elif tok == "</b>":
+            if depth == 1: out.append(tok)
+            depth = max(0, depth - 1)
+        else:
+            out.append(tok)
+    t = re.sub(r"\s+", " ", "".join(out)).strip()
     return t.replace("</b> <b>", " ").replace("<b></b>", "")
 
 def clauses(text: str) -> list[list[str]]:

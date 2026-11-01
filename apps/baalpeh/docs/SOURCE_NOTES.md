@@ -18,3 +18,10 @@ These notes are about the **Simple** lines.
 - **8:2:** Steinsaltz has "mix water into the wine", and Bartenura has "pour the cup". The Simple line follows Steinsaltz.
 - **8:6:** Steinsaltz has "spices of gentiles". Bartenura explains these as spices from idol worshippers' parties, and the candle as one a non-Jew used on Shabbos.
 - **8:7:** Bartenura says "digested" means until he feels hungry again. He also says that someone who left without bentching on purpose must go back, according to everyone.
+
+## Perek 9
+- **9:2:** Steinsaltz leaves *zikin* and *zeva'os* untranslated. "Shooting stars" and "earthquakes" come from Bartenura.
+- **9:2, "the Great Sea":** Bartenura says it is the ocean that surrounds the world. An earlier draft said "the Mediterranean", which is in neither source, so it was removed.
+- **9:5, "thank Him very, very much":** the "very, very much" is only in Bartenura. Steinsaltz just says "thank Him".
+- **9:5, minim:** Steinsaltz says these are Sadducees, who denied Olam Haba. Bartenura says they are heretics who denied techiyas hameisim.
+- **9:5, "min ha'olam":** Steinsaltz translates it as "until everlasting". Bartenura reads it as "from the world" (this world only), which is why the Sages added "until the world".
