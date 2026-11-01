@@ -3,10 +3,15 @@
   "perek": 1,
   "mishnah": 1,
   "summary": "This mishnah asks when we may start saying Shema at night, and until when. The Rabbis also teach that they set an early deadline to keep people from missing the mitzvah.",
+  "stIntro": "The beginning of tractate Berakhot, the first tractate in the first of the six orders of Mishna, opens with a discussion of the recitation of Shema, as the recitation of Shema encompasses an acceptance of the yoke of Heaven and of the mitzvot, and as such, forms the basis for all subsequent teachings. The Mishna opens with the laws regarding the appropriate time to recite Shema:",
   "chunks": [
    {
     "he": "מֵאֵימָתַי קוֹרִין אֶת שְׁמַע בְּעַרְבִית.",
     "en": "From what time do we say Shema at night?",
+    "st": "<b>From when,</b> that is, from what time, does <b>one recite Shema in the evening?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מֵאֵימָתַי",
@@ -33,6 +38,10 @@
    {
     "he": "מִשָּׁעָה שֶׁהַכֹּהֲנִים נִכְנָסִים לֶאֱכֹל בִּתְרוּמָתָן,",
     "en": "From the time the Kohanim go in to eat their terumah,",
+    "st": "<b>From the time when the priests enter to partake of their teruma.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִשָּׁעָה",
@@ -60,7 +69,13 @@
    },
    {
     "he": "עַד סוֹף הָאַשְׁמוּרָה הָרִאשׁוֹנָה,",
-    "en": "until the end of the first part of the night.",
+    "en": "until the end of the first watch of the night.",
+    "st": "Until when does the time for the recitation of the evening Shema extend? <b>Until the end of the first watch.</b>",
+    "stMore": "The term used in the Torah (Deuteronomy 6:7) to indicate the time for the recitation of the evening Shema is beshokhbekha, when you lie down, which refers to the time in which individuals go to sleep. Therefore, the time for the recitation of Shema is the first portion of the night, when individuals typically prepare for sleep.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "עַד",
@@ -73,7 +88,7 @@
      {
       "he": "הָאַשְׁמוּרָה",
       "en": "the watch",
-      "note": "The night was split into three or four \"watches,\" like shifts of guards."
+      "note": "The night was split into three watches, like shifts of guards."
      },
      {
       "he": "הָרִאשׁוֹנָה,",
@@ -83,7 +98,11 @@
    },
    {
     "he": "דִּבְרֵי רַבִּי אֱלִיעֶזֶר.",
-    "en": "These are the words of Rabbi Eliezer.",
+    "en": "That is what Rabbi Eliezer says.",
+    "st": "<b>That is the statement of Rabbi Eliezer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "דִּבְרֵי",
@@ -103,6 +122,10 @@
    {
     "he": "וַחֲכָמִים אוֹמְרִים,",
     "en": "But the Sages say,",
+    "st": "<b>The Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וַחֲכָמִים",
@@ -117,6 +140,10 @@
    {
     "he": "עַד חֲצוֹת.",
     "en": "until midnight.",
+    "st": "The time for the recitation of the evening Shema is <b>until midnight.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַד",
@@ -131,6 +158,10 @@
    {
     "he": "רַבָּן גַּמְלִיאֵל אוֹמֵר,",
     "en": "Rabban Gamliel says,",
+    "st": "<b>Rabban Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבָּן",
@@ -150,7 +181,12 @@
    },
    {
     "he": "עַד שֶׁיַּעֲלֶה עַמּוּד הַשָּׁחַר.",
-    "en": "until the first light of dawn comes up.",
+    "en": "until dawn.",
+    "st": "One may recite Shema <b>until dawn,</b>",
+    "stMore": "indicating that beshokhbekha is to be understood as a reference to the entire time people sleep in their beds, the whole night. The mishna relates that Rabban Gamliel practiced in accordance with his ruling.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַד",
@@ -173,7 +209,11 @@
    },
    {
     "he": "מַעֲשֶׂה שֶׁבָּאוּ בָנָיו מִבֵּית הַמִּשְׁתֶּה,",
-    "en": "Once his sons came home from a wedding party.",
+    "en": "Once his sons came home late from a wedding party.",
+    "st": "There was an <b>incident</b> where Rabban Gamliel’s <b>sons returned</b> very late <b>from a wedding hall.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מַעֲשֶׂה",
@@ -200,6 +240,11 @@
    {
     "he": "אָמְרוּ לוֹ,",
     "en": "They said to him,",
+    "st": "<b>They said to him,</b>",
+    "stMore": "as they had been preoccupied with celebrating with the groom and bride:",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָמְרוּ",
@@ -214,6 +259,10 @@
    {
     "he": "לֹא קָרִינוּ אֶת שְׁמַע.",
     "en": "\"We did not say Shema yet.\"",
+    "st": "<b>We did not recite Shema.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לֹא",
@@ -236,6 +285,10 @@
    {
     "he": "אָמַר לָהֶם,",
     "en": "He said to them,",
+    "st": "<b>He said to them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָמַר",
@@ -250,6 +303,10 @@
    {
     "he": "אִם לֹא עָלָה עַמּוּד הַשַּׁחַר,",
     "en": "\"If dawn has not come up yet,",
+    "st": "<b>If the dawn has not</b> yet <b>arrived,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אִם",
@@ -276,6 +333,11 @@
    {
     "he": "חַיָּבִין אַתֶּם לִקְרוֹת.",
     "en": "you still must say it.",
+    "st": "<b>you are obligated to recite</b> Shema.",
+    "stMore": "Since Rabban Gamliel’s opinion disagreed with that of the Rabbis, he explained to his sons that the Rabbis actually agree with him,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "חַיָּבִין",
@@ -294,6 +356,10 @@
    {
     "he": "וְלֹא זוֹ בִּלְבַד,",
     "en": "And not only this,",
+    "st": "<b>and</b> that it is <b>not only</b> with regard to the halakha of the recitation of Shema,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְלֹא",
@@ -312,6 +378,10 @@
    {
     "he": "אֶלָּא כָּל מַה שֶּׁאָמְרוּ חֲכָמִים",
     "en": "but everything that the Sages said",
+    "st": "<b>but rather, wherever the Sages say</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֶלָּא",
@@ -337,7 +407,11 @@
    },
    {
     "he": "עַד חֲצוֹת,",
-    "en": "must be done by midnight,",
+    "en": "should be done by midnight,",
+    "st": "<b>until midnight,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַד",
@@ -352,6 +426,10 @@
    {
     "he": "מִצְוָתָן עַד שֶׁיַּעֲלֶה עַמּוּד הַשָּׁחַר.",
     "en": "may really be done until dawn.",
+    "st": "<b>the mitzva</b> may be performed <b>until dawn.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִצְוָתָן",
@@ -377,7 +455,11 @@
    },
    {
     "he": "הֶקְטֵר חֲלָבִים וְאֵבָרִים,",
-    "en": "Burning the fats and limbs of korbanos",
+    "en": "Burning the fats and limbs of korbanos on the mizbeach",
+    "st": "Rabban Gamliel cites several cases in support of his claim, such as <b>the burning of fats and limbs</b> on the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הֶקְטֵר",
@@ -398,6 +480,11 @@
    {
     "he": "מִצְוָתָן עַד שֶׁיַּעֲלֶה עַמּוּד הַשָּׁחַר.",
     "en": "may be done until dawn.",
+    "st": "Due to the quantity of offerings each day, the priests were often unable to complete the burning of all of the fats and limbs, so they continued to be burned into the night,",
+    "stMore": "as it is written: “This is the law of the burnt offering: The burnt offering shall remain upon the pyre on the altar all night until morning, while the fire on the altar burns it” (Leviticus 6:2).",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִצְוָתָן",
@@ -423,7 +510,11 @@
    },
    {
     "he": "וְכָל הַנֶּאֱכָלִים לְיוֹם אֶחָד,",
-    "en": "And all korbanos that are eaten for just one day",
+    "en": "And all korbanos that are eaten for one day and night",
+    "st": "<b>And,</b> with regard to <b>all</b> sacrifices, such as the sin-offerings and the guilt-offerings <b>that are eaten for one day</b> and night;",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְכָל",
@@ -446,6 +537,11 @@
    {
     "he": "מִצְוָתָן עַד שֶׁיַּעֲלֶה עַמּוּד הַשָּׁחַר.",
     "en": "may be eaten until dawn.",
+    "st": "although the Sages state that they may be eaten only until midnight, by Torah law they may be eaten <b>until dawn.</b>",
+    "stMore": "This is in accordance with the verse: “On the day on which it is offered must you eat. Do not leave it until the morning” (Leviticus 7:15).",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִצְוָתָן",
@@ -472,6 +568,10 @@
    {
     "he": "אִם כֵּן,",
     "en": "If so,",
+    "st": "<b>If so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אִם",
@@ -486,6 +586,10 @@
    {
     "he": "לָמָּה אָמְרוּ חֲכָמִים עַד חֲצוֹת,",
     "en": "why did the Sages say \"until midnight\"?",
+    "st": "<b>why did the Sages say</b> that they may be eaten only <b>until midnight?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לָמָּה",
@@ -512,6 +616,11 @@
    {
     "he": "כְּדֵי לְהַרְחִיק אֶת הָאָדָם מִן הָעֲבֵרָה:",
     "en": "To keep a person far away from sinning.",
+    "st": "This is <b>in order to distance a person from transgression,</b>",
+    "stMore": "as if one believes that he has until dawn to perform the mitzva, he might be negligent and postpone it until the opportunity to perform the mitzva has passed.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כְּדֵי",
@@ -545,10 +654,15 @@
   "perek": 1,
   "mishnah": 2,
   "summary": "This mishnah teaches when we may start saying Shema in the morning, and until when.",
+  "stIntro": "",
   "chunks": [
    {
     "he": "מֵאֵימָתַי קוֹרִין אֶת שְׁמַע בְּשַׁחֲרִית.",
     "en": "From what time do we say Shema in the morning?",
+    "st": "<b>From when does one recite Shema in the morning</b>?",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מֵאֵימָתַי",
@@ -574,7 +688,12 @@
    },
    {
     "he": "מִשֶּׁיַּכִּיר בֵּין תְּכֵלֶת לְלָבָן.",
-    "en": "From when one can tell blue from white.",
+    "en": "From when one can tell techeiles blue from white.",
+    "st": "<b>From</b> when a person <b>can distinguish between sky-blue [tekhelet] and white.</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "מִשֶּׁיַּכִּיר",
@@ -598,6 +717,10 @@
    {
     "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
     "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -616,7 +739,11 @@
    },
    {
     "he": "בֵּין תְּכֵלֶת לְכַרְתִּי.",
-    "en": "between blue and leek-green.",
+    "en": "From when one can tell techeiles blue from leek-green.",
+    "st": "From when one can distinguish <b>between sky-blue and leek-green.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בֵּין",
@@ -636,6 +763,10 @@
    {
     "he": "וְגוֹמְרָהּ עַד הָנֵץ הַחַמָּה.",
     "en": "And one must finish it by sunrise.",
+    "st": "<b>And</b> one must <b>finish</b> reciting Shema <b>until</b> the end of the period when you rise, i.e., <b>sunrise,</b> when the sun begins to shine.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְגוֹמְרָהּ",
@@ -658,6 +789,10 @@
    {
     "he": "רַבִּי יְהוֹשֻׁעַ אוֹמֵר,",
     "en": "Rabbi Yehoshua says,",
+    "st": "<b>Rabbi Yehoshua says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -677,6 +812,10 @@
    {
     "he": "עַד שָׁלֹשׁ שָׁעוֹת,",
     "en": "until three hours into the day,",
+    "st": "One may recite the morning Shema <b>until three hours</b> of the day, which this is still considered when you rise,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַד",
@@ -694,7 +833,13 @@
    },
    {
     "he": "שֶׁכֵּן דֶּרֶךְ בְּנֵי מְלָכִים",
-    "en": "because that is the way of princes,",
+    "en": "because that is the way of kings and princes:",
+    "st": "<b>as that is the habit of kings to rise</b> from their sleep",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "Steinsaltz says kings; Bartenura says the sons of kings.",
     "words": [
      {
       "he": "שֶׁכֵּן",
@@ -716,7 +861,11 @@
    },
    {
     "he": "לַעֲמֹד בְּשָׁלֹשׁ שָׁעוֹת.",
-    "en": "to get up at three hours.",
+    "en": "to get up three hours into the day.",
+    "st": "<b>at three hours</b> of the day.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לַעֲמֹד",
@@ -734,7 +883,14 @@
    },
    {
     "he": "הַקּוֹרֵא מִכָּאן וְאֵילָךְ לֹא הִפְסִיד,",
-    "en": "Someone who says it later did not lose out;",
+    "en": "Someone who says it later did not lose anything;",
+    "st": "While there is a set time frame for the recitation of Shema, <b>one who recites</b> Shema <b>from that time onward loses nothing.</b>",
+    "stMore": "Although he does not fulfill the mitzva of reciting of Shema at its appointed time,",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "Bartenura adds: he still says the brachos of Shema.",
     "words": [
      {
       "he": "הַקּוֹרֵא",
@@ -760,7 +916,12 @@
    },
    {
     "he": "כְּאָדָם הַקּוֹרֵא בַתּוֹרָה:",
-    "en": "he is like a person learning Torah.",
+    "en": "he is like a person reading from the Torah, and he gets reward for that.",
+    "st": "<b>he is</b> nevertheless considered <b>like one who reads the Torah,</b> and is rewarded accordingly.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "כְּאָדָם",
@@ -782,10 +943,16 @@
   "perek": 1,
   "mishnah": 3,
   "summary": "Beis Shammai and Beis Hillel argue about whether we must lie down at night and stand in the morning to say Shema. The halacha follows Beis Hillel: say it however you are.",
+  "stIntro": "Beit Shammai and Beit Hillel disputed the proper way to recite Shema.",
   "chunks": [
    {
     "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
     "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "stMore": "One should recite Shema in the manner indicated in the text of Shema itself. Therefore,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בֵּית",
@@ -804,7 +971,12 @@
    },
    {
     "he": "בָּעֶרֶב כָּל אָדָם יַטּוּ וְיִקְרְאוּ,",
-    "en": "at night everyone should lean over and read,",
+    "en": "at night everyone must lie down on his side and say Shema,",
+    "st": "<b>in the evening every person must recline</b> on his side and recite Shema,",
+    "stMore": "in fulfillment of the verse: “When you lie down,”",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בָּעֶרֶב",
@@ -820,7 +992,7 @@
      },
      {
       "he": "יַטּוּ",
-      "en": "should lean"
+      "en": "should lie on his side"
      },
      {
       "he": "וְיִקְרְאוּ,",
@@ -830,7 +1002,12 @@
    },
    {
     "he": "וּבַבֹּקֶר יַעַמְדוּ,",
-    "en": "and in the morning they should stand,",
+    "en": "and in the morning he must stand,",
+    "st": "<b>and in the morning he must stand</b> and recite Shema,",
+    "stMore": "in fulfillment of the verse: When you rise,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וּבַבֹּקֶר",
@@ -845,6 +1022,10 @@
    {
     "he": "שֶׁנֶּאֱמַר (דברים ו) וּבְשָׁכְבְּךָ וּבְקוּמֶךָ.",
     "en": "as it says, \"when you lie down and when you get up.\"",
+    "st": "<b>as it is stated: “When you lie down, and when you rise.”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "שֶׁנֶּאֱמַר",
@@ -871,6 +1052,10 @@
    {
     "he": "וּבֵית הִלֵּל אוֹמְרִים,",
     "en": "And Beis Hillel say,",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וּבֵית",
@@ -889,7 +1074,14 @@
    },
    {
     "he": "כָּל אָדָם קוֹרֵא כְדַרְכּוֹ,",
-    "en": "everyone reads in his own way,",
+    "en": "everyone says it in whatever way he is,",
+    "explain": "Standing, sitting, lying down, or walking.",
+    "st": "<b>Every person recites</b> Shema <b>as he is,</b>",
+    "stMore": "and he may do so in whatever position is most comfortable for him, both day and night,",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "כָּל",
@@ -912,6 +1104,10 @@
    {
     "he": "שֶׁנֶּאֱמַר (שם) וּבְלֶכְתְּךָ בַדֶּרֶךְ.",
     "en": "as it says, \"and when you walk on the road.\"",
+    "st": "<b>as it is stated: “And when you walk along the way,”</b> when one is neither standing nor reclining (Me’iri).",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "שֶׁנֶּאֱמַר",
@@ -934,6 +1130,10 @@
    {
     "he": "אִם כֵּן,",
     "en": "If so,",
+    "st": "<b>If so,</b> according to Beit Hillel,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אִם",
@@ -948,6 +1148,10 @@
    {
     "he": "לָמָּה נֶאֱמַר וּבְשָׁכְבְּךָ וּבְקוּמֶךָ,",
     "en": "why does it say \"when you lie down and when you get up\"?",
+    "st": "<b>why was it stated: “When you lie down, and when you rise”?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לָמָּה",
@@ -970,6 +1174,10 @@
    {
     "he": "בְּשָׁעָה שֶׁבְּנֵי אָדָם שׁוֹכְבִים,",
     "en": "It means at the time people go to sleep,",
+    "st": "This is merely to denote time; <b>at the time when people lie down</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בְּשָׁעָה",
@@ -992,6 +1200,10 @@
    {
     "he": "וּבְשָׁעָה שֶׁבְּנֵי אָדָם עוֹמְדִים.",
     "en": "and at the time people get up.",
+    "st": "<b>and the time when people rise.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וּבְשָׁעָה",
@@ -1014,6 +1226,10 @@
    {
     "he": "אָמַר רַבִּי טַרְפוֹן,",
     "en": "Rabbi Tarfon said,",
+    "st": "With regard to this halakha, <b>Rabbi Tarfon said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָמַר",
@@ -1033,6 +1249,10 @@
    {
     "he": "אֲנִי הָיִיתִי בָא בַדֶּרֶךְ,",
     "en": "\"I was traveling on the road,",
+    "st": "Once, <b>I was coming on the road</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֲנִי",
@@ -1054,11 +1274,15 @@
    },
    {
     "he": "וְהִטֵּיתִי לִקְרוֹת,",
-    "en": "and I lay down to read,",
+    "en": "and I lay down on my side to say Shema,",
+    "st": "when I stopped and <b>reclined to recite</b> Shema",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְהִטֵּיתִי",
-      "en": "and I leaned over"
+      "en": "and I lay on my side"
      },
      {
       "he": "לִקְרוֹת,",
@@ -1069,6 +1293,11 @@
    {
     "he": "כְּדִבְרֵי בֵית שַׁמַּאי,",
     "en": "like Beis Shammai say,",
+    "st": "<b>in accordance with the statement of Beit Shammai.</b>",
+    "stMore": "Although Rabbi Tarfon was a disciple of Beit Hillel, he thought that fulfilling the mitzva in accordance with the opinion of Beit Shammai would be a more meticulous fulfillment of the mitzva, acceptable to all opinions.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כְּדִבְרֵי",
@@ -1087,6 +1316,10 @@
    {
     "he": "וְסִכַּנְתִּי בְעַצְמִי מִפְּנֵי הַלִּסְטִים.",
     "en": "and I put myself in danger from robbers.\"",
+    "st": "Yet in so doing, <b>I endangered myself due to the highwaymen [listim]</b> who accost travelers.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְסִכַּנְתִּי",
@@ -1109,6 +1342,10 @@
    {
     "he": "אָמְרוּ לוֹ,",
     "en": "They said to him,",
+    "st": "The Sages <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָמְרוּ",
@@ -1122,7 +1359,12 @@
    },
    {
     "he": "כְּדַי הָיִיתָ לָחוּב בְּעַצְמְךָ,",
-    "en": "\"You deserved to be punished,",
+    "en": "\"You deserved to pay with your life,",
+    "st": "<b>You deserved</b> to be in a position where you were <b>liable</b> to pay <b>with your life,</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "כְּדַי",
@@ -1145,6 +1387,11 @@
    {
     "he": "שֶׁעָבַרְתָּ עַל דִּבְרֵי בֵית הִלֵּל:",
     "en": "because you went against Beis Hillel.\"",
+    "st": "<b>as you transgressed the statement of Beit Hillel.</b>",
+    "stMore": "This statement will be explained in the Gemara.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "שֶׁעָבַרְתָּ",
@@ -1174,10 +1421,15 @@
   "perek": 1,
   "mishnah": 4,
   "summary": "This mishnah tells how many brachos we say before and after Shema, and that we must not change the way the Sages wrote each bracha.",
+  "stIntro": "From the laws of the recitation of Shema itself, the mishna proceeds to discuss the blessings recited in conjunction with Shema. Here, the order is established:",
   "chunks": [
    {
     "he": "בַּשַּׁחַר מְבָרֵךְ שְׁתַּיִם לְפָנֶיהָ וְאַחַת לְאַחֲרֶיהָ,",
     "en": "In the morning one says two brachos before it and one after it,",
+    "st": "<b>In</b> the <b>morning</b> when reciting Shema, <b>one recites two blessings beforehand,</b> the first on the radiant lights and the second the blessing on the love of Torah, <b>and one thereafter,</b> which begins with: True and Firm [emet veyatziv].",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בַּשַּׁחַר",
@@ -1208,6 +1460,10 @@
    {
     "he": "וּבָעֶרֶב שְׁתַּיִם לְפָנֶיהָ וּשְׁתַּיִם לְאַחֲרֶיהָ.",
     "en": "and at night two before it and two after it.",
+    "st": "<b>And in the evening one recites two blessings beforehand,</b> on the radiant lights and on the love of God, <b>and two thereafter,</b> the blessing of redemption: True and Faithful [emet ve’emuna], and the blessing: Help us lie down.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וּבָעֶרֶב",
@@ -1233,7 +1489,13 @@
    },
    {
     "he": "אַחַת אֲרֻכָּה וְאַחַת קְצָרָה.",
-    "en": "One long and one short.",
+    "en": "One is long and one is short.",
+    "explain": "A long bracha starts and ends with Baruch; a short one only ends with it.",
+    "st": "With regard to the blessing: True and Faithful, <b>whether</b> one recites it in its <b>long</b> formula <b>and whether</b> one recites it in its <b>short</b> formula, he fulfills his obligation (Tosafot).",
+    "basis": [
+     "bartenura"
+    ],
+    "basisNote": "Steinsaltz reads it as: Emes VeEmunah may be said long or short. Bartenura fits our words.",
     "words": [
      {
       "he": "אַחַת",
@@ -1256,6 +1518,10 @@
    {
     "he": "מָקוֹם שֶׁאָמְרוּ לְהַאֲרִיךְ,",
     "en": "Where the Sages said to make it long,",
+    "st": "However, the general principle is: <b>Where</b> the Sages <b>said</b> to recite <b>a long</b> blessing,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מָקוֹם",
@@ -1274,6 +1540,10 @@
    {
     "he": "אֵינוֹ רַשַּׁאי לְקַצֵּר.",
     "en": "one may not make it short.",
+    "st": "<b>one may not shorten it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֵינוֹ",
@@ -1292,6 +1562,10 @@
    {
     "he": "לְקַצֵּר, אֵינוֹ רַשַּׁאי לְהַאֲרִיךְ.",
     "en": "Where they said to make it short, one may not make it long.",
+    "st": "and so too, wherever they said to recite <b>a short</b> blessing, <b>one may not lengthen it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לְקַצֵּר,",
@@ -1314,6 +1588,11 @@
    {
     "he": "לַחְתֹּם, אֵינוֹ רַשַּׁאי שֶׁלֹּא לַחְתֹּם.",
     "en": "Where they said to end with \"Baruch,\" one may not skip it.",
+    "st": "Where the Sages said that a blessing <b>must conclude</b> with a second blessing at the end, <b>he may not fail to conclude</b> with that blessing.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "לַחְתֹּם,",
@@ -1341,6 +1620,10 @@
    {
     "he": "וְשֶׁלֹּא לַחְתֹּם,",
     "en": "And where they said not to end that way,",
+    "st": "Similarly, if the Sages said that a blessing must <b>not conclude</b> with a second blessing,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְשֶׁלֹּא",
@@ -1355,6 +1638,10 @@
    {
     "he": "אֵינוֹ רַשַּׁאי לַחְתֹּם:",
     "en": "one may not add an ending.",
+    "st": "<b>one may not conclude</b> with a blessing.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֵינוֹ",
@@ -1376,10 +1663,15 @@
   "perek": 1,
   "mishnah": 5,
   "summary": "We remember leaving Egypt every night too, in the last part of Shema. Ben Zoma learned this from a pasuk, and the Sages learned that we will remember it even in the days of Mashiach.",
+  "stIntro": "It is a mitzva by Torah law to mention the exodus from Egypt at night, but some held that this mitzva was, like phylacteries or ritual fringes, fulfilled only during the day and not at night. For this reason it was decided:",
   "chunks": [
    {
     "he": "מַזְכִּירִין יְצִיאַת מִצְרַיִם בַּלֵּילוֹת.",
     "en": "We mention leaving Egypt at night.",
+    "st": "<b>The exodus from Egypt is mentioned at night,</b> adjacent to the recitation of Shema.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מַזְכִּירִין",
@@ -1402,6 +1694,10 @@
    {
     "he": "אָמַר רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה,",
     "en": "Rabbi Elazar ben Azaryah said,",
+    "st": "<b>Rabbi Elazar ben Azarya said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָמַר",
@@ -1428,7 +1724,11 @@
    },
    {
     "he": "הֲרֵי אֲנִי כְּבֶן שִׁבְעִים שָׁנָה,",
-    "en": "\"I am like a seventy-year-old man,",
+    "en": "\"I am about seventy years old,",
+    "st": "<b>I am approximately seventy years old, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הֲרֵי",
@@ -1455,6 +1755,11 @@
    {
     "he": "וְלֹא זָכִיתִי שֶׁתֵּאָמֵר יְצִיאַת מִצְרַיִם בַּלֵּילוֹת,",
     "en": "and I could not prove that leaving Egypt must be said at night,",
+    "st": "although I have long held this opinion, <b>I was never privileged</b> to prevail (Me’iri) and prove that there is a biblical obligation to fulfill the accepted custom (Ra’avad) and have <b>the exodus from Egypt mentioned at night,</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "וְלֹא",
@@ -1485,6 +1790,10 @@
    {
     "he": "עַד שֶׁדְּרָשָׁהּ בֶּן זוֹמָא,",
     "en": "until Ben Zoma explained it,",
+    "st": "<b>until Ben Zoma interpreted it homiletically</b> and proved it obligatory.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַד",
@@ -1508,6 +1817,10 @@
    {
     "he": "שֶׁנֶּאֱמַר (דברים טז) לְמַעַן תִּזְכֹּר",
     "en": "as it says, \"So that you will remember",
+    "st": "Ben Zoma derived it <b>as it is stated: “That you may remember</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "שֶׁנֶּאֱמַר",
@@ -1534,6 +1847,10 @@
    {
     "he": "אֶת יוֹם צֵאתְךָ מֵאֶרֶץ מִצְרַיִם",
     "en": "the day you left the land of Egypt",
+    "st": "<b>the day you went out of the land of Egypt</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֶת",
@@ -1560,6 +1877,10 @@
    {
     "he": "כֹּל יְמֵי חַיֶּיךָ.",
     "en": "all the days of your life.\"",
+    "st": "<b>all the days of your life”</b> (Deuteronomy 16:3).",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כֹּל",
@@ -1578,6 +1899,10 @@
    {
     "he": "יְמֵי חַיֶּיךָ,",
     "en": "\"The days of your life\" means",
+    "st": "<b>The days of your life,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "יְמֵי",
@@ -1592,6 +1917,10 @@
    {
     "he": "הַיָּמִים. כֹּל יְמֵי חַיֶּיךָ,",
     "en": "the days. \"All the days of your life\"",
+    "st": "refers to daytime alone; however, the addition of the word all, as it is stated: <b>All the days of your life,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הַיָּמִים.",
@@ -1614,6 +1943,11 @@
    {
     "he": "הַלֵּילוֹת. וַחֲכָמִים אוֹמְרִים,",
     "en": "adds the nights. But the Sages say,",
+    "st": "comes to add nights as well. <b>And the Rabbis,</b>",
+    "stMore": "who posit that there is no biblical obligation to mention the exodus from Egypt at night, explain the word, all, differently and <b>say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הַלֵּילוֹת.",
@@ -1632,6 +1966,10 @@
    {
     "he": "יְמֵי חַיֶּיךָ,",
     "en": "\"The days of your life\" means",
+    "st": "<b>The days of your life,</b> refers to the days in",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "יְמֵי",
@@ -1646,6 +1984,10 @@
    {
     "he": "הָעוֹלָם הַזֶּה.",
     "en": "this world.",
+    "st": "<b>this world,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הָעוֹלָם",
@@ -1660,6 +2002,10 @@
    {
     "he": "כֹּל יְמֵי חַיֶּיךָ,",
     "en": "\"All the days of your life\"",
+    "st": "<b>all</b> is added",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כֹּל",
@@ -1678,6 +2024,10 @@
    {
     "he": "לְהָבִיא לִימוֹת הַמָּשִׁיחַ:",
     "en": "adds the days of Mashiach.",
+    "st": "<b>to include the days of the Messiah.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לְהָבִיא",

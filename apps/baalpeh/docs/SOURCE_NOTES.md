@@ -25,3 +25,9 @@ tied to its sources, in case you're curious.
 - **9:5, "thank Him very, very much":** the "very, very much" is only in Bartenura. Steinsaltz just says "thank Him".
 - **9:5, minim:** Steinsaltz says these are Sadducees, who denied Olam Haba. Bartenura says they are heretics who denied techiyas hameisim.
 - **9:5, "min ha'olam":** Steinsaltz translates it as "until everlasting". Bartenura reads it as "from the world" (this world only), which is why the Sages added "until the world".
+
+## Perek 1–2
+- **1:4:** Steinsaltz reads אַחַת אֲרֻכָּה וְאַחַת קְצָרָה as "whether long or short", and the Simple line follows him. Bartenura reads it as the two brachos before Shema.
+- **1:5:** Steinsaltz says R. Elazar ben Azarya was "about seventy", and the Simple line follows him. Bartenura says he was young but looked seventy.
+- **2:1:** The words וְאִם לָאו לֹא יָצָא aren't in Steinsaltz's text, so that piece follows Bartenura.
+- **2:6, אִסְטְנִיס:** Steinsaltz has "delicate"; Bartenura has "catches cold easily".
