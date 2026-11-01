@@ -28,9 +28,9 @@
 		}
 	],
 	"vars": {
-		"APP_ORIGIN": "https://mishnah.example.com", // OWNER: your domain, no trailing slash
-		"EMAIL_FROM": "Mishnah Ba'al Peh <login@mishnah.example.com>", // OWNER: an address on the Resend-verified domain
-		"TURNSTILE_SITE_KEY": "0x4AAAAAAFv5WMamRZzjSeic" // OWNER: real site key (this is the always-pass test key)
+		"APP_ORIGIN": "https://byheart.torahlearningtools.com/", // OWNER: your domain, no trailing slash
+		"EMAIL_FROM": "Mishnah Ba'al Peh <noreply@mail.torahlearningtools.com>",
+		"TURNSTILE_SITE_KEY": "0x4AAAAAAFv5WMamRZzjSeic"
 	},
 	// Secrets (set with `wrangler secret put NAME`, never committed):
 	//   AUTH_SECRET, TURNSTILE_SECRET_KEY, RESEND_API_KEY
