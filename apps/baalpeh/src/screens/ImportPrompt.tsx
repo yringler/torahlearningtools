@@ -19,16 +19,18 @@ export function ImportPrompt({ legacy, existing, onImport, onLater, onNever }: P
   return (
     <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="import-title">
       <div className="sheet import-sheet" dir="ltr">
-        <h3 id="import-title">This device has saved progress from before accounts:</h3>
+        <h3 id="import-title">This device has progress saved without an account:</h3>
         <ul className="import-list">
           {legacy.map((p) => {
-            const known = Object.values(p.mishnayos ?? {}).filter(isKnown).length;
+            const all = Object.values(p.mishnayos ?? {});
+            const known = all.filter(isKnown).length;
+            const started = all.filter((m) => !isKnown(m) && m.stepIndex > 0).length;
             return (
               <li key={p.id}>
                 <label>
                   <input type="checkbox" checked={checked[p.id] ?? false}
                     onChange={(e) => setChecked((c) => ({ ...c, [p.id]: e.target.checked }))} />
-                  <span>{p.emoji} <b>{p.name}</b> · {known} mishnayos known</span>
+                  <span>{p.emoji} <b>{p.name}</b> · {known} mishnayos known{started > 0 ? `, ${started} started` : ""}</span>
                   {names.has(p.name.trim().toLocaleLowerCase()) && <span className="hint"> (already in your account?)</span>}
                 </label>
               </li>

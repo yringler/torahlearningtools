@@ -127,7 +127,7 @@ export function Parent(props: Props) {
       {props.hasLegacy && (
         <section>
           <h3>Move from this device</h3>
-          <p className="hint">This device has progress saved from before accounts. You can add it to your account.</p>
+          <p className="hint">This device has progress saved without an account (from guest mode or before accounts). You can add it to your account.</p>
           <button className="btn secondary" onClick={props.onReopenImport}>Move progress to my account</button>
         </section>
       )}

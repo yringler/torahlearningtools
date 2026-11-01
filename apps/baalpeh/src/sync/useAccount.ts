@@ -1,27 +1,16 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { LearningEvent, LearningEventBody, User } from "../../shared/api";
 import { api } from "../api/client";
+import { kv } from "../kv";
 import { importLegacy as importLegacyPure } from "../legacy/import";
 import { today } from "../srs";
 import type { Profile } from "../types";
 import { SyncEngine, type SyncStatus } from "./engine";
 import {
-  applyLocalEdit, enqueueEvent, loadStore, pendingCount, saveStore, setCurrentUser, storeKey, type AccountStore, type KV,
+  applyLocalEdit, enqueueEvent, loadStore, pendingCount, saveStore, setCurrentUser, storeKey, type AccountStore,
 } from "./store";
 
-/** localStorage, or an in-memory stand-in when it is unavailable. */
-function browserKV(): KV {
-  try {
-    const k = "baalpeh:probe";
-    localStorage.setItem(k, "1");
-    localStorage.removeItem(k);
-    return localStorage;
-  } catch {
-    const m = new Map<string, string>();
-    return { getItem: (k) => m.get(k) ?? null, setItem: (k, v) => void m.set(k, v), removeItem: (k) => void m.delete(k) };
-  }
-}
-export const kv: KV = browserKV();
+export { kv } from "../kv";
 
 export type ProfilesUpdate = Profile[] | ((prev: Profile[]) => Profile[]);
 

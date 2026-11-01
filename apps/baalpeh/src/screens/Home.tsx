@@ -7,7 +7,8 @@ interface Props {
   profile: Profile;
   onStart: () => void;
   onOpenMishnah: (perek: number, mishnah: number) => void;
-  onBack: () => void;
+  /** Back to the picker. Omitted in guest mode (one learner, nothing to switch to). */
+  onBack?: () => void;
 }
 
 function WeekDots({ days }: { days: string[] }) {
@@ -32,7 +33,7 @@ export function Home({ profile, onStart, onOpenMishnah, onBack }: Props) {
   return (
     <div className="home">
       <div className="topbar" dir="ltr">
-        <button className="btn ghost-btn small" onClick={onBack}>‹ Switch</button>
+        {onBack ? <button className="btn ghost-btn small" onClick={onBack}>‹ Switch</button> : <span />}
         <span className="who" style={{ color: profile.color }}>{profile.emoji} {profile.name}</span>
       </div>
       <button className="btn primary huge" onClick={onStart} dir="ltr">

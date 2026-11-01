@@ -1,6 +1,9 @@
 import type { AppState, MishnahProgress, PerekProgress, Profile } from "./types";
 
-/** v1 storage (before accounts). Read-only now: the app never writes it and never deletes it. */
+/**
+ * v1 storage (before accounts). Signed-in use only reads it (for the import prompt) and never deletes it.
+ * Guest mode (src/guest.ts) writes its one learner here, so a later sign-in on this device can import it.
+ */
 export const KEY = "baalpeh:v1";
 
 export const emptyState = (): AppState => ({ version: 1, profiles: [] });

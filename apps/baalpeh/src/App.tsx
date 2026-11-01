@@ -2,11 +2,13 @@ import { useEffect, useRef, useState } from "react";
 import type { AuthSuccessResponse, User } from "../shared/api";
 import { api, ApiFailure } from "./api/client";
 import { CheckEmail } from "./auth/CheckEmail";
-import { AuthFrame, Login } from "./auth/Login";
+import { AuthFrame, GuestOption, Login } from "./auth/Login";
 import { takeVerifyToken, VerifyLanding } from "./auth/VerifyLanding";
+import { asksServer, bootRoute, isGuestChosen, setGuestChosen } from "./guest";
+import { GuestApp } from "./GuestApp";
+import { kv } from "./kv";
 import { LearningApp } from "./LearningApp";
 import { loadCurrentUser, setCurrentUser } from "./sync/store";
-import { kv } from "./sync/useAccount";
 
 type Phase =
   | { phase: "boot" }
@@ -14,15 +16,20 @@ type Phase =
   | { phase: "login"; reason?: "expired"; email?: string }
   | { phase: "checkEmail"; email: string }
   | { phase: "offlineNoAccount" }
+  | { phase: "guest" }
   | { phase: "app"; user: User };
 
 // Read once per page load, before React renders (the fragment is stripped immediately).
 const verifyToken = typeof window === "undefined" ? null : takeVerifyToken();
 
 function initialPhase(): Phase {
-  if (verifyToken !== null) return { phase: "verify", token: verifyToken };
   const cached = loadCurrentUser(kv);
-  return cached ? { phase: "app", user: cached } : { phase: "boot" };
+  switch (bootRoute({ verifyToken, guest: isGuestChosen(kv), cachedUser: cached !== null })) {
+    case "verify": return { phase: "verify", token: verifyToken ?? "" };
+    case "guest": return { phase: "guest" };
+    case "app": return cached ? { phase: "app", user: cached } : { phase: "boot" };
+    case "boot": return { phase: "boot" };
+  }
 }
 
 /** Auth shell: decides between the sign-in screens and the learning app. */
@@ -33,9 +40,9 @@ export function App() {
   phaseRef.current = phase;
 
   // Ask the server who is signed in: at boot without a cached user (blocking), and in the background with one.
+  // Never in guest mode: a guest makes no server requests at all.
   useEffect(() => {
-    const p = phaseRef.current.phase;
-    if (p !== "boot" && p !== "app") return;
+    if (!asksServer(phaseRef.current.phase)) return;
     let cancelled = false;
     api.me().then(
         ({ user }) => {
@@ -62,8 +69,14 @@ export function App() {
   }, [phase]);
 
   const signedIn = (r: AuthSuccessResponse) => {
+    setGuestChosen(kv, false);
     setCurrentUser(kv, r.user);
     setPhase({ phase: "app", user: r.user });
+  };
+
+  const enterGuest = () => {
+    setGuestChosen(kv, true);
+    setPhase({ phase: "guest" });
   };
 
   switch (phase.phase) {
@@ -72,7 +85,7 @@ export function App() {
     case "verify":
       return <VerifyLanding token={phase.token} onSuccess={signedIn} onLogin={() => setPhase({ phase: "login" })} />;
     case "login":
-      return <Login key={phase.email ?? ""} initialEmail={phase.email} reason={phase.reason} onSent={(email) => setPhase({ phase: "checkEmail", email })} />;
+      return <Login key={phase.email ?? ""} initialEmail={phase.email} reason={phase.reason} onSent={(email) => setPhase({ phase: "checkEmail", email })} onGuest={enterGuest} />;
     case "checkEmail":
       return (
         <CheckEmail
@@ -88,8 +101,12 @@ export function App() {
           <h2>You're offline</h2>
           <p>Connect to the internet to sign in.</p>
           <button className="btn primary big" onClick={() => { setPhase({ phase: "boot" }); setMeTry((n) => n + 1); }}>Retry</button>
+          <GuestOption onGuest={enterGuest} />
         </AuthFrame>
       );
+    case "guest":
+      // Leaving guest mode keeps the guest's progress (v1 key) so the account's import prompt can offer it.
+      return <GuestApp onSignIn={() => { setGuestChosen(kv, false); setPhase({ phase: "login" }); }} />;
     case "app":
       return (
         <LearningApp

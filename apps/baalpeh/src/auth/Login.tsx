@@ -12,6 +12,8 @@ interface Props {
   initialEmail?: string | undefined;
   reason?: "expired" | undefined;
   onSent: (email: string) => void;
+  /** "Continue as guest": use the app with no account. */
+  onGuest?: (() => void) | undefined;
 }
 
 export function AuthFrame({ children }: { children: React.ReactNode }) {
@@ -23,7 +25,7 @@ export function AuthFrame({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function Login({ initialEmail, reason, onSent }: Props) {
+export function Login({ initialEmail, reason, onSent, onGuest }: Props) {
   const [config, setConfig] = useState<ConfigResponse | null>(null);
   const [configError, setConfigError] = useState(false);
   const [email, setEmail] = useState(initialEmail ?? "");
@@ -91,6 +93,17 @@ export function Login({ initialEmail, reason, onSent }: Props) {
         {error && <p className="error" role="alert">{error}</p>}
         {config?.devEmail && <p className="dev-note">Dev mode: the link and code are in the wrangler console.</p>}
       </form>
+      {onGuest && <GuestOption onGuest={onGuest} />}
     </AuthFrame>
+  );
+}
+
+/** The secondary way in: no account, progress kept only in this browser. */
+export function GuestOption({ onGuest }: { onGuest: () => void }) {
+  return (
+    <div className="guest-option">
+      <button type="button" className="link-btn" onClick={onGuest}>Continue as guest</button>
+      <p className="hint">Try without an account. Progress is saved only on this device.</p>
+    </div>
   );
 }
