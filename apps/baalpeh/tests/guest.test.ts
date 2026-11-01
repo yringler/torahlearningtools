@@ -3,6 +3,7 @@ import { dirname, resolve } from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   asksServer, blankGuest, bootRoute, GUEST_FLAG_KEY, GUEST_ID, isGuestChosen, loadGuest, saveGuest, setGuestChosen,
+  UNREADABLE_BACKUP_KEY,
 } from "../src/guest";
 import { importDefaults, importLegacy, normalizeProfile } from "../src/legacy/import";
 import { completeStep } from "../src/progress";
@@ -78,6 +79,24 @@ describe("guest progress (v1 format)", () => {
 
   it("ignores a corrupt v1 value", () => {
     expect(loadGuest(memKV({ [LEGACY_KEY]: "{not json" })).id).toBe(GUEST_ID);
+  });
+
+  it("keeps a copy of unreadable v1 data before the first guest write", () => {
+    const kv = memKV({ [LEGACY_KEY]: "{not json" });
+    saveGuest(kv, blankGuest());
+    expect(kv.map.get(UNREADABLE_BACKUP_KEY)).toBe("{not json");
+    expect(loadGuest(kv).id).toBe(GUEST_ID);
+    kv.map.set(LEGACY_KEY, JSON.stringify({ version: 2 }));
+    saveGuest(kv, blankGuest());
+    expect(kv.map.get(UNREADABLE_BACKUP_KEY)).toBe("{not json"); // the first copy is never replaced
+  });
+
+  it("saves over a v1 state holding non-object entries without throwing, and keeps them", () => {
+    const kv = memKV({ [LEGACY_KEY]: JSON.stringify({ version: 1, profiles: [null, 7, { ...blankGuest() }] }) });
+    expect(() => saveGuest(kv, { ...blankGuest(), name: "Guest 2" })).not.toThrow();
+    const parsed = JSON.parse(kv.map.get(LEGACY_KEY) ?? "null") as { profiles: unknown[] };
+    expect(parsed.profiles.slice(0, 2)).toEqual([null, 7]);
+    expect(loadGuest(kv).name).toBe("Guest 2");
   });
 
   it("is offered by the account import prompt and imports under a new id", () => {

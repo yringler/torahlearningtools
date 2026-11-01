@@ -97,7 +97,7 @@ function GuestPill({ onOpen }: { onOpen: () => void }) {
   return (
     <div className="guest-bar" dir="ltr">
       <button className="guest-pill" onClick={onOpen} aria-haspopup="dialog">
-        Guest · progress saved only on this device
+        Guest · progress saved only in this browser
       </button>
     </div>
   );
@@ -108,7 +108,7 @@ function GuestInfo({ onSignIn, onSettings, onClose }: { onSignIn: () => void; on
     <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="guest-title" onClick={onClose}>
       <div className="sheet guest-sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
         <h3 id="guest-title">You're learning as a guest</h3>
-        <p>Your progress is saved only in this browser on this device. It isn't backed up, and it won't show up on other devices.</p>
+        <p>Your progress is saved only in this browser on this device. It isn't backed up, and it won't show up in other browsers or on other devices. Clearing this browser's data erases it.</p>
         <p className="hint">If you sign in on this device later, you can add this progress to your account.</p>
         <button className="btn primary" onClick={onSignIn}>Create an account / Sign in</button>
         <div className="row center">
@@ -146,7 +146,7 @@ function GuestSettings({ profile: p, onChange, onBack, onSignIn }: {
       </section>
       <section>
         <h3>Guest mode</h3>
-        <p className="hint">Progress is saved only in this browser on this device. Nothing is backed up or shared between devices.
+        <p className="hint">Progress is saved only in this browser on this device. Nothing is backed up or shared, and clearing this browser's data erases it.
           After you sign in on this device, you can add it to your account.</p>
         <button className="btn secondary" onClick={onSignIn}>Create an account / Sign in</button>
       </section>

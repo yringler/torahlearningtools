@@ -103,7 +103,7 @@ export function GuestOption({ onGuest }: { onGuest: () => void }) {
   return (
     <div className="guest-option">
       <button type="button" className="link-btn" onClick={onGuest}>Continue as guest</button>
-      <p className="hint">Try without an account. Progress is saved only on this device.</p>
+      <p className="hint">Try without an account. Progress is saved only in this browser.</p>
     </div>
   );
 }
