@@ -1774,7 +1774,7 @@ Then check:
   current keys mean Berakhot.
 - A parent PIN for the parent area. "Sign out of all devices" and a list of active sessions.
 - A weekly progress email to the parent. Due-review reminders.
-- A Content-Security-Policy header (allow-list Google Fonts and Turnstile).
+- A Content-Security-Policy header (allow-list Turnstile; fonts are self-hosted, so no Google Fonts entry is needed).
 - Multi-tab coordination (`storage` event), and a service worker / PWA offline shell (today, offline needs the page
   to be already open or cached by the browser).
 - Event retention or rollups after ~1 year. Exporting the history as CSV.
