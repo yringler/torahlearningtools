@@ -1,0 +1,984 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "Someone whose close relative just died and is not yet buried is too busy to say Shema, daven, or put on tefillin. The people carrying the coffin also don't say Shema if they are needed.",
+  "chunks": [
+   {
+    "he": "מִי שֶׁמֵּתוֹ מוּטָל לְפָנָיו,",
+    "en": "Someone whose dead relative is lying in front of him, not yet buried,",
+    "words": [
+     {
+      "he": "מִי",
+      "en": "someone"
+     },
+     {
+      "he": "שֶׁמֵּתוֹ",
+      "en": "whose dead relative"
+     },
+     {
+      "he": "מוּטָל",
+      "en": "is lying"
+     },
+     {
+      "he": "לְפָנָיו,",
+      "en": "in front of him"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר מִקְּרִיאַת שְׁמַע,",
+    "en": "does not have to say Shema,",
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "is free from"
+     },
+     {
+      "he": "מִקְּרִיאַת",
+      "en": "from saying"
+     },
+     {
+      "he": "שְׁמַע,",
+      "en": "Shema"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַתְּפִלָּה וּמִן הַתְּפִלִּין.",
+    "en": "or daven Shemoneh Esrei, or put on tefillin.",
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתְּפִלָּה",
+      "en": "the Shemoneh Esrei",
+      "note": "The main prayer we say standing, also called the Amidah."
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַתְּפִלִּין.",
+      "en": "the tefillin"
+     }
+    ]
+   },
+   {
+    "he": "נוֹשְׂאֵי הַמִּטָּה וְחִלּוּפֵיהֶן וְחִלּוּפֵי חִלּוּפֵיהֶן,",
+    "en": "The people who carry the coffin, the ones who take their place, and the ones who take their place after that,",
+    "words": [
+     {
+      "he": "נוֹשְׂאֵי",
+      "en": "the carriers of"
+     },
+     {
+      "he": "הַמִּטָּה",
+      "en": "the coffin",
+      "note": "The bed or stretcher the person who died is carried on."
+     },
+     {
+      "he": "וְחִלּוּפֵיהֶן",
+      "en": "and their replacements"
+     },
+     {
+      "he": "וְחִלּוּפֵי",
+      "en": "and the replacements of"
+     },
+     {
+      "he": "חִלּוּפֵיהֶן,",
+      "en": "their replacements"
+     }
+    ]
+   },
+   {
+    "he": "אֶת שֶׁלִּפְנֵי הַמִּטָּה וְאֶת שֶׁלְּאַחַר הַמִּטָּה,",
+    "en": "both those walking in front of the coffin and those behind it,",
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "—"
+     },
+     {
+      "he": "שֶׁלִּפְנֵי",
+      "en": "those in front of"
+     },
+     {
+      "he": "הַמִּטָּה",
+      "en": "the coffin"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and"
+     },
+     {
+      "he": "שֶׁלְּאַחַר",
+      "en": "those behind"
+     },
+     {
+      "he": "הַמִּטָּה,",
+      "en": "the coffin"
+     }
+    ]
+   },
+   {
+    "he": "אֶת שֶׁלַּמִּטָּה צֹרֶךְ בָּהֶן פְּטוּרִים,",
+    "en": "the ones who are needed to carry it do not have to say Shema,",
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "—"
+     },
+     {
+      "he": "שֶׁלַּמִּטָּה",
+      "en": "those the coffin"
+     },
+     {
+      "he": "צֹרֶךְ",
+      "en": "has need"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "פְּטוּרִים,",
+      "en": "are free"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת שֶׁאֵין לַמִּטָּה צֹרֶךְ בָּהֶן חַיָּבִין.",
+    "en": "but the ones who are not needed to carry it must say Shema.",
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "but those"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "לַמִּטָּה",
+      "en": "the coffin"
+     },
+     {
+      "he": "צֹרֶךְ",
+      "en": "has need"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "must say it"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ וָאֵלּוּ פְּטוּרִים מִן הַתְּפִלָּה:",
+    "en": "Both groups do not have to daven Shemoneh Esrei.",
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "וָאֵלּוּ",
+      "en": "and those"
+     },
+     {
+      "he": "פְּטוּרִים",
+      "en": "are free"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתְּפִלָּה:",
+      "en": "the Shemoneh Esrei"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "After a funeral, people may start Shema only if they can finish before they reach the line of people comforting the mourners. In that line, only the people in the front row are free from saying Shema.",
+  "chunks": [
+   {
+    "he": "קָבְרוּ אֶת הַמֵּת וְחָזְרוּ,",
+    "en": "If they buried the person who died and came back,",
+    "words": [
+     {
+      "he": "קָבְרוּ",
+      "en": "they buried"
+     },
+     {
+      "he": "אֶת",
+      "en": "—"
+     },
+     {
+      "he": "הַמֵּת",
+      "en": "the dead person"
+     },
+     {
+      "he": "וְחָזְרוּ,",
+      "en": "and came back"
+     }
+    ]
+   },
+   {
+    "he": "אִם יְכוֹלִין לְהַתְחִיל וְלִגְמֹר",
+    "en": "if they can start and finish saying Shema",
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יְכוֹלִין",
+      "en": "they are able"
+     },
+     {
+      "he": "לְהַתְחִיל",
+      "en": "to start"
+     },
+     {
+      "he": "וְלִגְמֹר",
+      "en": "and to finish"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁלֹּא יַגִּיעוּ לַשּׁוּרָה,",
+    "en": "before they get to the line,",
+    "words": [
+     {
+      "he": "עַד",
+      "en": "before"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not yet"
+     },
+     {
+      "he": "יַגִּיעוּ",
+      "en": "they reach"
+     },
+     {
+      "he": "לַשּׁוּרָה,",
+      "en": "the line",
+      "note": "After a burial, people stand in rows so the mourners can walk between them and be comforted."
+     }
+    ]
+   },
+   {
+    "he": "יַתְחִילוּ.",
+    "en": "they should start.",
+    "words": [
+     {
+      "he": "יַתְחִילוּ.",
+      "en": "they should start"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו, לֹא יַתְחִילוּ.",
+    "en": "But if not, they should not start.",
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַתְחִילוּ.",
+      "en": "they should start"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹמְדִים בַּשּׁוּרָה,",
+    "en": "Of the people standing in the line,",
+    "words": [
+     {
+      "he": "הָעוֹמְדִים",
+      "en": "the ones standing"
+     },
+     {
+      "he": "בַּשּׁוּרָה,",
+      "en": "in the line"
+     }
+    ]
+   },
+   {
+    "he": "הַפְּנִימִים פְּטוּרִים,",
+    "en": "the ones in the inside row do not have to say Shema,",
+    "words": [
+     {
+      "he": "הַפְּנִימִים",
+      "en": "the inside ones",
+      "note": "The ones right next to the mourners, who comfort them."
+     },
+     {
+      "he": "פְּטוּרִים,",
+      "en": "are free"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחִיצוֹנִים חַיָּבִין:",
+    "en": "but the ones in the outside row must say it.",
+    "words": [
+     {
+      "he": "וְהַחִיצוֹנִים",
+      "en": "and the outside ones"
+     },
+     {
+      "he": "חַיָּבִין:",
+      "en": "must say it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "Women, slaves, and children don't have to say Shema or wear tefillin. But they do have to daven, have a mezuzah, and bentch after eating.",
+  "chunks": [
+   {
+    "he": "נָשִׁים וַעֲבָדִים וּקְטַנִּים פְּטוּרִין",
+    "en": "Women, slaves, and children do not have to",
+    "words": [
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "וַעֲבָדִים",
+      "en": "and slaves",
+      "note": "Servants who belonged to a Jewish master and kept some mitzvos."
+     },
+     {
+      "he": "וּקְטַנִּים",
+      "en": "and children"
+     },
+     {
+      "he": "פְּטוּרִין",
+      "en": "are free"
+     }
+    ]
+   },
+   {
+    "he": "מִקְּרִיאַת שְׁמַע וּמִן הַתְּפִלִּין,",
+    "en": "say Shema or put on tefillin,",
+    "words": [
+     {
+      "he": "מִקְּרִיאַת",
+      "en": "from saying"
+     },
+     {
+      "he": "שְׁמַע",
+      "en": "Shema"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַתְּפִלִּין,",
+      "en": "the tefillin"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּבִין בִּתְפִלָּה וּבִמְזוּזָה,",
+    "en": "but they must daven and have a mezuzah,",
+    "words": [
+     {
+      "he": "וְחַיָּבִין",
+      "en": "but they must do"
+     },
+     {
+      "he": "בִּתְפִלָּה",
+      "en": "davening"
+     },
+     {
+      "he": "וּבִמְזוּזָה,",
+      "en": "and mezuzah"
+     }
+    ]
+   },
+   {
+    "he": "וּבְבִרְכַּת הַמָּזוֹן:",
+    "en": "and bentch after eating bread.",
+    "words": [
+     {
+      "he": "וּבְבִרְכַּת",
+      "en": "and the bracha of"
+     },
+     {
+      "he": "הַמָּזוֹן:",
+      "en": "the food",
+      "note": "Bentching, the bracha said after eating bread."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "A man who is tamei from a certain kind of impurity may only think the Shema in his heart without saying the brachos. After food he says the bracha, but not before it. Rabbi Yehuda says he says the brachos before and after.",
+  "chunks": [
+   {
+    "he": "בַּעַל קֶרִי מְהַרְהֵר בְּלִבּוֹ וְאֵינוֹ מְבָרֵךְ,",
+    "en": "A man who is tamei in a certain way thinks the Shema in his heart and does not say the brachos,",
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "a man who has"
+     },
+     {
+      "he": "קֶרִי",
+      "en": "become tamei",
+      "note": "A kind of impurity from the body; he must go to the mikvah before learning Torah."
+     },
+     {
+      "he": "מְהַרְהֵר",
+      "en": "thinks"
+     },
+     {
+      "he": "בְּלִבּוֹ",
+      "en": "in his heart"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and does not"
+     },
+     {
+      "he": "מְבָרֵךְ,",
+      "en": "say a bracha"
+     }
+    ]
+   },
+   {
+    "he": "לֹא לְפָנֶיהָ וְלֹא לְאַחֲרֶיהָ.",
+    "en": "not before it and not after it.",
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לְפָנֶיהָ",
+      "en": "before it"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְאַחֲרֶיהָ.",
+      "en": "after it"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַמָּזוֹן מְבָרֵךְ לְאַחֲרָיו,",
+    "en": "And for food, he says the bracha after eating,",
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and over"
+     },
+     {
+      "he": "הַמָּזוֹן",
+      "en": "the food"
+     },
+     {
+      "he": "מְבָרֵךְ",
+      "en": "he says a bracha"
+     },
+     {
+      "he": "לְאַחֲרָיו,",
+      "en": "after it"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ מְבָרֵךְ לְפָנָיו.",
+    "en": "but he does not say the bracha before eating.",
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "but does not"
+     },
+     {
+      "he": "מְבָרֵךְ",
+      "en": "say a bracha"
+     },
+     {
+      "he": "לְפָנָיו.",
+      "en": "before it"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda",
+      "note": "Rabbi Yehuda was a great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְבָרֵךְ לִפְנֵיהֶם וּלְאַחֲרֵיהֶם:",
+    "en": "he says the brachos before them and after them.",
+    "words": [
+     {
+      "he": "מְבָרֵךְ",
+      "en": "he says a bracha"
+     },
+     {
+      "he": "לִפְנֵיהֶם",
+      "en": "before them"
+     },
+     {
+      "he": "וּלְאַחֲרֵיהֶם:",
+      "en": "and after them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "If a man remembers in the middle of davening that he is tamei, he makes his davening shorter. If he went to the mikvah in the morning, he must cover himself before saying Shema, and stay away from dirty water and from a bad smell.",
+  "chunks": [
+   {
+    "he": "הָיָה עוֹמֵד בַּתְּפִלָּה,",
+    "en": "If a man was standing and davening,",
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "standing"
+     },
+     {
+      "he": "בַּתְּפִלָּה,",
+      "en": "in Shemoneh Esrei"
+     }
+    ]
+   },
+   {
+    "he": "וְנִזְכַּר שֶׁהוּא בַעַל קְרִי,",
+    "en": "and he remembered that he is tamei,",
+    "words": [
+     {
+      "he": "וְנִזְכַּר",
+      "en": "and he remembered"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he is"
+     },
+     {
+      "he": "בַעַל",
+      "en": "a man who has"
+     },
+     {
+      "he": "קְרִי,",
+      "en": "become tamei",
+      "note": "A kind of impurity from the body; he must go to the mikvah."
+     }
+    ]
+   },
+   {
+    "he": "לֹא יַפְסִיק,",
+    "en": "he should not stop,",
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַפְסִיק,",
+      "en": "he should stop"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא יְקַצֵּר.",
+    "en": "but he should make it shorter.",
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but rather"
+     },
+     {
+      "he": "יְקַצֵּר.",
+      "en": "he should shorten it"
+     }
+    ]
+   },
+   {
+    "he": "יָרַד לִטְבֹּל,",
+    "en": "If he went down into the mikvah to dip,",
+    "words": [
+     {
+      "he": "יָרַד",
+      "en": "he went down"
+     },
+     {
+      "he": "לִטְבֹּל,",
+      "en": "to dip",
+      "note": "To go under the water of a mikvah to become tahor."
+     }
+    ]
+   },
+   {
+    "he": "אִם יָכוֹל לַעֲלוֹת וּלְהִתְכַּסּוֹת וְלִקְרוֹת",
+    "en": "if he can come up, get dressed, and say Shema",
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "he is able"
+     },
+     {
+      "he": "לַעֲלוֹת",
+      "en": "to come up"
+     },
+     {
+      "he": "וּלְהִתְכַּסּוֹת",
+      "en": "and cover himself"
+     },
+     {
+      "he": "וְלִקְרוֹת",
+      "en": "and say Shema"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁלֹּא תָנֵץ הַחַמָּה,",
+    "en": "before the sun comes up,",
+    "words": [
+     {
+      "he": "עַד",
+      "en": "before"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not yet"
+     },
+     {
+      "he": "תָנֵץ",
+      "en": "shines out"
+     },
+     {
+      "he": "הַחַמָּה,",
+      "en": "the sun"
+     }
+    ]
+   },
+   {
+    "he": "יַעֲלֶה וְיִתְכַּסֶּה וְיִקְרָא.",
+    "en": "he should come up, get dressed, and say it.",
+    "words": [
+     {
+      "he": "יַעֲלֶה",
+      "en": "he should come up"
+     },
+     {
+      "he": "וְיִתְכַּסֶּה",
+      "en": "and cover himself"
+     },
+     {
+      "he": "וְיִקְרָא.",
+      "en": "and say it"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "And if not,",
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "יִתְכַּסֶּה בַמַּיִם וְיִקְרָא.",
+    "en": "he should cover himself with the water and say it there.",
+    "words": [
+     {
+      "he": "יִתְכַּסֶּה",
+      "en": "he should cover himself"
+     },
+     {
+      "he": "בַמַּיִם",
+      "en": "with the water"
+     },
+     {
+      "he": "וְיִקְרָא.",
+      "en": "and say it"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא יִתְכַּסֶּה,",
+    "en": "But he should not cover himself",
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִתְכַּסֶּה,",
+      "en": "he should cover himself"
+     }
+    ]
+   },
+   {
+    "he": "לֹא בַמַּיִם הָרָעִים וְלֹא בְמֵי הַמִּשְׁרָה,",
+    "en": "not in smelly water and not in water where flax was soaking,",
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַמַּיִם",
+      "en": "in water"
+     },
+     {
+      "he": "הָרָעִים",
+      "en": "that is bad-smelling"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְמֵי",
+      "en": "in the water of"
+     },
+     {
+      "he": "הַמִּשְׁרָה,",
+      "en": "soaking",
+      "note": "Water where flax plants were soaked, which smells bad."
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיַּטִּיל לְתוֹכָן מָיִם.",
+    "en": "until he pours fresh water into it.",
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיַּטִּיל",
+      "en": "he pours"
+     },
+     {
+      "he": "לְתוֹכָן",
+      "en": "into them"
+     },
+     {
+      "he": "מָיִם.",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "he": "וְכַמָּה יַרְחִיק מֵהֶם וּמִן הַצּוֹאָה,",
+    "en": "And how far must he stay away from them and from a dirty mess?",
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "יַרְחִיק",
+      "en": "must he stay away"
+     },
+     {
+      "he": "מֵהֶם",
+      "en": "from them"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַצּוֹאָה,",
+      "en": "the dirty mess"
+     }
+    ]
+   },
+   {
+    "he": "אַרְבַּע אַמּוֹת:",
+    "en": "Four amos.",
+    "words": [
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "אַמּוֹת:",
+      "en": "amos",
+      "note": "An amah is about the length of a grown-up's arm, about 2 feet."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "Some people who are already tamei in a bigger way also became tamei in a smaller way. The Chachamim say they still need to go to the mikvah before davening and learning, but Rabbi Yehuda says they don't.",
+  "chunks": [
+   {
+    "he": "זָב שֶׁרָאָה קְרִי,",
+    "en": "A zav who also became tamei from a seminal emission,",
+    "words": [
+     {
+      "he": "זָב",
+      "en": "a zav",
+      "note": "A man who is tamei for at least seven days because of an illness."
+     },
+     {
+      "he": "שֶׁרָאָה",
+      "en": "who saw"
+     },
+     {
+      "he": "קְרִי,",
+      "en": "a seminal emission",
+      "note": "Another kind of impurity from the body."
+     }
+    ]
+   },
+   {
+    "he": "וְנִדָּה שֶׁפָּלְטָה שִׁכְבַת זֶרַע,",
+    "en": "and a niddah who also became tamei in another way,",
+    "words": [
+     {
+      "he": "וְנִדָּה",
+      "en": "and a niddah",
+      "note": "A woman who is tamei for at least seven days at certain times of the month."
+     },
+     {
+      "he": "שֶׁפָּלְטָה",
+      "en": "who released"
+     },
+     {
+      "he": "שִׁכְבַת",
+      "en": "a layer of"
+     },
+     {
+      "he": "זֶרַע,",
+      "en": "seed"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְשַׁמֶּשֶׁת שֶׁרָאֲתָה נִדָּה,",
+    "en": "and a married woman who became a niddah,",
+    "words": [
+     {
+      "he": "וְהַמְשַׁמֶּשֶׁת",
+      "en": "and a woman with her husband"
+     },
+     {
+      "he": "שֶׁרָאֲתָה",
+      "en": "who saw"
+     },
+     {
+      "he": "נִדָּה,",
+      "en": "niddah blood"
+     }
+    ]
+   },
+   {
+    "he": "צְרִיכִין טְבִילָה,",
+    "en": "all need to go to the mikvah.",
+    "words": [
+     {
+      "he": "צְרִיכִין",
+      "en": "need"
+     },
+     {
+      "he": "טְבִילָה,",
+      "en": "dipping in a mikvah"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי יְהוּדָה פּוֹטֵר:",
+    "en": "But Rabbi Yehuda says they don't have to.",
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda",
+      "note": "Rabbi Yehuda was a great Rabbi of the Mishnah."
+     },
+     {
+      "he": "פּוֹטֵר:",
+      "en": "lets them off"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,79 @@
+export interface Word {
+  he: string;
+  en: string;
+  note?: string;
+}
+
+export interface Chunk {
+  he: string;
+  en: string;
+  words: Word[];
+}
+
+export interface Mishnah {
+  perek: number;
+  mishnah: number;
+  summary: string;
+  chunks: Chunk[];
+  english: string;
+}
+
+export interface Masechta {
+  masechta: string;
+  masechtaEn: string;
+  mishnayos: Mishnah[];
+}
+
+/** Cue level: 0 full text … 4 empty card. */
+export type Cue = 0 | 1 | 2 | 3 | 4;
+
+/** A step in the chaining sequence of one mishnah. Ranges are inclusive chunk indices. */
+export type Step =
+  | { kind: "learn"; chunk: number; label: string }
+  | { kind: "chain"; from: number; to: number; newest: number; label: string };
+
+export type Grade = "pass" | "help" | "notyet";
+
+export type MishnahState = "new" | "learning" | "known" | "solid";
+
+export interface ReviewItem {
+  box: number; // 0-based index into INTERVALS
+  due: string; // ISO date (yyyy-mm-dd)
+  passes: number;
+}
+
+export interface MishnahProgress {
+  stepIndex: number; // next step to do
+  state: MishnahState;
+  review?: ReviewItem;
+  fails: Record<string, number>; // step key -> consecutive fails
+}
+
+export interface PerekProgress {
+  /** Highest mishnah k for which the chain [1..k] has been parent-checked. */
+  chainedThrough: number;
+  complete: boolean;
+  review?: ReviewItem;
+}
+
+export interface Settings {
+  fontScale: number;
+  tts: boolean;
+  dailyMinutes: number;
+}
+
+export interface Profile {
+  id: string;
+  name: string;
+  color: string;
+  emoji: string;
+  settings: Settings;
+  mishnayos: Record<string, MishnahProgress>; // key "p:m"
+  perakim: Record<string, PerekProgress>; // key "p"
+  days: string[]; // ISO dates with any learning (last ~60)
+}
+
+export interface AppState {
+  version: 1;
+  profiles: Profile[];
+}
