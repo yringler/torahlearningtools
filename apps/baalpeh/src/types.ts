@@ -92,3 +92,8 @@ export interface AppState {
   version: 1;
   profiles: Profile[];
 }
+
+import type { ChildSettings, MishnahProgressData, PerekProgressData } from "../shared/api";
+type Same<A, B> = [A] extends [B] ? ([B] extends [A] ? true : false) : false;
+export const _typesMatchShared: [Same<MishnahProgress, MishnahProgressData>, Same<PerekProgress, PerekProgressData>,
+  Same<Settings, ChildSettings>] = [true, true, true];

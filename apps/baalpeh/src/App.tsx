@@ -1,79 +1,103 @@
-import { useEffect, useState } from "react";
-import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
-import { Home } from "./screens/Home";
-import { MishnahScreen } from "./screens/MishnahScreen";
-import { Parent } from "./screens/Parent";
-import { Profiles } from "./screens/Profiles";
-import { Session } from "./screens/Session";
-import { load, requestPersist, save } from "./storage";
-import type { AppState, Profile } from "./types";
+import { useEffect, useRef, useState } from "react";
+import type { AuthSuccessResponse, User } from "../shared/api";
+import { api, ApiFailure } from "./api/client";
+import { CheckEmail } from "./auth/CheckEmail";
+import { AuthFrame, Login } from "./auth/Login";
+import { takeVerifyToken, VerifyLanding } from "./auth/VerifyLanding";
+import { LearningApp } from "./LearningApp";
+import { loadCurrentUser, setCurrentUser } from "./sync/store";
+import { kv } from "./sync/useAccount";
 
-type Screen =
-  | { s: "profiles" }
-  | { s: "parent" }
-  | { s: "home"; id: string }
-  | { s: "mishnah"; id: string; perek: number; mishnah: number }
-  | { s: "session"; id: string; tasks: Task[]; continueLearning: boolean; back: Screen };
+type Phase =
+  | { phase: "boot" }
+  | { phase: "verify"; token: string }
+  | { phase: "login"; reason?: "expired"; email?: string }
+  | { phase: "checkEmail"; email: string }
+  | { phase: "offlineNoAccount" }
+  | { phase: "app"; user: User };
 
+// Read once per page load, before React renders (the fragment is stripped immediately).
+const verifyToken = typeof window === "undefined" ? null : takeVerifyToken();
+
+function initialPhase(): Phase {
+  if (verifyToken !== null) return { phase: "verify", token: verifyToken };
+  const cached = loadCurrentUser(kv);
+  return cached ? { phase: "app", user: cached } : { phase: "boot" };
+}
+
+/** Auth shell: decides between the sign-in screens and the learning app. */
 export function App() {
-  const [state, setState] = useState<AppState>(load);
-  const [screen, setScreen] = useState<Screen>(() => (state.profiles.length ? { s: "profiles" } : { s: "parent" }));
+  const [phase, setPhase] = useState<Phase>(initialPhase);
+  const [meTry, setMeTry] = useState(0);
+  const phaseRef = useRef(phase);
+  phaseRef.current = phase;
 
-  useEffect(() => save(state), [state]);
-  useEffect(() => requestPersist(), []);
-
-  const profile = "id" in screen ? state.profiles.find((p) => p.id === screen.id) : undefined;
-  const setProfile = (p: Profile) =>
-    setState((st) => ({ ...st, profiles: st.profiles.map((x) => (x.id === p.id ? p : x)) }));
+  // Ask the server who is signed in: at boot without a cached user (blocking), and in the background with one.
+  useEffect(() => {
+    const p = phaseRef.current.phase;
+    if (p !== "boot" && p !== "app") return;
+    let cancelled = false;
+    api.me().then(
+        ({ user }) => {
+          if (cancelled) return;
+          setCurrentUser(kv, user);
+          setPhase((q) => (q.phase === "app" && q.user.id === user.id && q.user.email === user.email ? q
+            : q.phase === "boot" || q.phase === "app" ? { phase: "app", user } : q));
+        },
+        (e: unknown) => {
+          if (cancelled) return;
+          if (e instanceof ApiFailure && e.status === 401) {
+            setPhase((q) => (q.phase === "app" ? { phase: "login", reason: "expired", email: q.user.email } : q.phase === "boot" ? { phase: "login" } : q));
+          } else {
+            // Network or server trouble: a cached user keeps working offline.
+            setPhase((q) => (q.phase === "boot" ? { phase: "offlineNoAccount" } : q));
+          }
+        },
+    );
+    return () => { cancelled = true; };
+  }, [meTry]);
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--scale", String(profile?.settings.fontScale ?? 1));
-  }, [profile?.settings.fontScale]);
+    if (phase.phase === "app") setCurrentUser(kv, phase.user);
+  }, [phase]);
 
-  if (screen.s === "parent") return <Parent state={state} onState={setState} onBack={() => setScreen({ s: "profiles" })} />;
-  if (screen.s === "profiles" || !profile)
-    return <Profiles profiles={state.profiles} onPick={(id) => setScreen({ s: "home", id })} onParent={() => setScreen({ s: "parent" })} />;
+  const signedIn = (r: AuthSuccessResponse) => {
+    setCurrentUser(kv, r.user);
+    setPhase({ phase: "app", user: r.user });
+  };
 
-  if (screen.s === "home") {
-    return (
-      <Home
-        profile={profile}
-        onBack={() => setScreen({ s: "profiles" })}
-        onOpenMishnah={(perek, mishnah) => setScreen({ s: "mishnah", id: profile.id, perek, mishnah })}
-        onStart={() => {
-          const next = nextLearning(profile);
-          const tasks = [...dueReviews(profile), ...(next ? [next] : [])];
-          setScreen({ s: "session", id: profile.id, tasks, continueLearning: true, back: screen });
-        }}
-      />
-    );
+  switch (phase.phase) {
+    case "boot":
+      return <AuthFrame><p className="hint">Loading…</p></AuthFrame>;
+    case "verify":
+      return <VerifyLanding token={phase.token} onSuccess={signedIn} onLogin={() => setPhase({ phase: "login" })} />;
+    case "login":
+      return <Login key={phase.email ?? ""} initialEmail={phase.email} reason={phase.reason} onSent={(email) => setPhase({ phase: "checkEmail", email })} />;
+    case "checkEmail":
+      return (
+        <CheckEmail
+          email={phase.email}
+          onSuccess={signedIn}
+          onResend={(email) => setPhase({ phase: "login", email })}
+          onDifferentEmail={() => setPhase({ phase: "login" })}
+        />
+      );
+    case "offlineNoAccount":
+      return (
+        <AuthFrame>
+          <h2>You're offline</h2>
+          <p>Connect to the internet to sign in.</p>
+          <button className="btn primary big" onClick={() => { setPhase({ phase: "boot" }); setMeTry((n) => n + 1); }}>Retry</button>
+        </AuthFrame>
+      );
+    case "app":
+      return (
+        <LearningApp
+          key={phase.user.id}
+          user={phase.user}
+          onSignedOut={() => setPhase({ phase: "login" })}
+          onSignInAgain={() => setPhase({ phase: "login", reason: "expired", email: phase.user.email })}
+        />
+      );
   }
-
-  if (screen.s === "mishnah") {
-    const { perek, mishnah } = screen;
-    const st = mp(profile, perek, mishnah);
-    const go = (t: Task) => setScreen({ s: "session", id: profile.id, tasks: [t], continueLearning: false, back: screen });
-    return (
-      <MishnahScreen
-        profile={profile}
-        perek={perek}
-        mishnah={mishnah}
-        onBack={() => setScreen({ s: "home", id: profile.id })}
-        onPractice={() => go({ type: "learn", perek, mishnah })}
-        onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
-        onReview={() => (isKnown(st) ? go({ type: "review-m", perek, mishnah }) : go({ type: "learn", perek, mishnah }))}
-      />
-    );
-  }
-
-  return (
-    <Session
-      key={JSON.stringify(screen.tasks)}
-      profile={profile}
-      tasks={screen.tasks}
-      onProfile={setProfile}
-      onExit={() => setScreen(screen.back)}
-      {...(screen.continueLearning ? { more: nextLearning } : {})}
-    />
-  );
 }

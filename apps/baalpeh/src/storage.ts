@@ -1,26 +1,18 @@
 import type { AppState, MishnahProgress, PerekProgress, Profile } from "./types";
 
-const KEY = "baalpeh:v1";
+/** v1 storage (before accounts). Read-only now: the app never writes it and never deletes it. */
+export const KEY = "baalpeh:v1";
 
 export const emptyState = (): AppState => ({ version: 1, profiles: [] });
 
-export function load(): AppState {
+export function loadLegacy(): AppState {
   try {
     const s = localStorage.getItem(KEY);
     if (!s) return emptyState();
-    const parsed = JSON.parse(s) as Partial<AppState>;
-    if (parsed.version !== 1 || !Array.isArray(parsed.profiles)) return emptyState();
-    return parsed as AppState;
+    const parsed: unknown = JSON.parse(s);
+    return isAppState(parsed) ? parsed : emptyState();
   } catch {
     return emptyState();
-  }
-}
-
-export function save(state: AppState): void {
-  try {
-    localStorage.setItem(KEY, JSON.stringify(state));
-  } catch {
-    /* storage unavailable (private mode); app still works for this session */
   }
 }
 
@@ -41,7 +33,7 @@ export const EMOJIS = ["🦁", "🐘", "🦉", "🐢", "🦊", "🐬", "🐻", "
 
 export function newProfile(name: string, index: number): Profile {
   return {
-    id: Math.random().toString(36).slice(2, 10),
+    id: crypto.randomUUID(),
     name,
     color: COLORS[index % COLORS.length] ?? "#2f7d6d",
     emoji: EMOJIS[index % EMOJIS.length] ?? "🦁",

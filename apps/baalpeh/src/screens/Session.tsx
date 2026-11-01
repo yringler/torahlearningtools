@@ -1,4 +1,5 @@
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { LearningEventBody, ReciteTask } from "../../shared/api";
 import { ParentCheck } from "../components/ParentCheck";
 import { ReadPhase } from "../components/ReadPhase";
 import { Recite } from "../components/Recite";
@@ -17,6 +18,18 @@ interface Props {
   onExit: () => void;
   /** Called when the queue runs out; may return more tasks (e.g. next learning). */
   more?: (p: Profile) => Task | null;
+  /** Practice log (instrumentation only; no effect on the screens). */
+  onEvent?: (e: LearningEventBody) => void;
+}
+
+type Emit = (e: LearningEventBody) => void;
+
+const MAX_MS = 3 * 60 * 60 * 1000;
+const elapsed = (since: number): number => Math.min(MAX_MS, Math.max(0, Math.round(Date.now() - since)));
+const sum = (xs: number[]): number => Math.min(10_000, xs.reduce((a, b) => a + b, 0));
+
+function recite(task: ReciteTask, perek: number, mishnah: number | null, step: number | null, grade: Grade, peeks: number[], since: number): LearningEventBody {
+  return { type: "recite", task, perek, mishnah, step, grade, peeks: sum(peeks), ms: elapsed(since) };
 }
 
 const ref = (perek: number, mishnah?: number) =>
@@ -29,14 +42,28 @@ type View =
   | { v: "timeup" }
   | { v: "empty" };
 
-export function Session({ profile, tasks, onProfile, onExit, more }: Props) {
+export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Props) {
   const [queue, setQueue] = useState<Task[]>(tasks);
   const [view, setView] = useState<View>(tasks.length ? { v: "task" } : { v: "empty" });
   const started = useRef(Date.now());
   const stepsThisSession = useRef(0);
   const timeUpShown = useRef(false);
+  const onEventRef = useRef(onEvent);
+  onEventRef.current = onEvent;
+  const emit: Emit = (e) => onEventRef.current?.(e);
 
   const task = queue[0];
+  const taskStart = useRef(Date.now());
+  useEffect(() => { taskStart.current = Date.now(); }, [task, view.v]);
+
+  // One session event when the session screen closes (ignores very short visits).
+  useEffect(() => {
+    const startedAt = started.current;
+    return () => {
+      const ms = Date.now() - startedAt;
+      if (ms >= 5000) onEventRef.current?.({ type: "session", startedAt, ms: Math.min(ms, MAX_MS), steps: stepsThisSession.current });
+    };
+  }, []);
 
   const save = (p: Profile) => onProfile(markDay(p));
 
@@ -119,6 +146,7 @@ export function Session({ profile, tasks, onProfile, onExit, more }: Props) {
         mishnah={task.mishnah}
         onProfile={save}
         onStepPassed={onStepPassed}
+        onEvent={emit}
         onFinished={(p, g) =>
           g === "notyet"
             ? save(p)
@@ -135,9 +163,12 @@ export function Session({ profile, tasks, onProfile, onExit, more }: Props) {
           cards={m.chunks}
           phases={[m.chunks.map(() => 4 as Cue)]}
           prompts={["Say the whole mishnah by heart."]}
-          onDone={(g) => finishTask(reviewMishnah(profile, task.perek, task.mishnah, g), g === "notyet"
+          onDone={(g, peeks) => {
+            emit(recite("review-m", task.perek, task.mishnah, null, g, peeks, taskStart.current));
+            finishTask(reviewMishnah(profile, task.perek, task.mishnah, g), g === "notyet"
             ? { title: "Let's practice this one again", sub: "It will come back tomorrow.", stars: 0 }
-            : { title: "Still strong!", sub: ref(task.perek, task.mishnah), stars: g === "pass" ? 2 : 1 })}
+            : { title: "Still strong!", sub: ref(task.perek, task.mishnah), stars: g === "pass" ? 2 : 1 });
+          }}
         />
       </TaskFrame>
     );
@@ -148,6 +179,7 @@ export function Session({ profile, tasks, onProfile, onExit, more }: Props) {
         perek={task.perek}
         through={task.type === "perek-chain" ? task.through : mishnayosOf(task.perek).length}
         review={task.type === "review-p"}
+        onEvent={emit}
         onDone={(g, slippedMishnayos) => {
           if (task.type === "review-p") {
             finishTask(reviewPerek(profile, task.perek, g, slippedMishnayos), { title: g === "notyet" ? "Good try!" : "The whole perek — still strong!", sub: ref(task.perek), stars: g === "pass" ? 2 : 1 });
@@ -186,10 +218,11 @@ function TaskFrame({ title, children }: { title: string; children: React.ReactNo
 }
 
 /** Runs the chaining steps of one mishnah from where the child left off, then a parent check. */
-function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinished }: {
+function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinished, onEvent }: {
   profile: Profile; perek: number; mishnah: number;
   onProfile: (p: Profile) => void; onStepPassed: () => void;
   onFinished: (p: Profile, g: Grade) => void;
+  onEvent: Emit;
 }) {
   const m = getMishnah(perek, mishnah);
   const steps = useMemo(() => buildSteps(m.chunks), [m]);
@@ -199,13 +232,16 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
   const [attempt, setAttempt] = useState(0);
 
   const step: Step | undefined = detour ?? steps[stepIndex];
+  const stepStart = useRef(Date.now());
+  useEffect(() => { stepStart.current = Date.now(); }, [stepIndex, phase, attempt, detour]);
 
   if (!step) {
     return (
       <ParentCheck
         title={`${ref(perek, mishnah)} — the whole mishnah`}
         cards={m.chunks}
-        onDone={(g) => {
+        onDone={(g, slipped, slipWords) => {
+          onEvent({ type: "check", scope: "mishnah", perek, mishnah, through: null, grade: g, slipped, slipWords });
           const p = parentCheckMishnah(profile, perek, mishnah, g);
           onProfile(p);
           onFinished(p, g);
@@ -255,7 +291,8 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
             phases={[[2], [4]]}
             prompts={["Say it. The first letters will help.", "Now say it without looking!"]}
             newest={0}
-            onDone={(g) => {
+            onDone={(g, peeks) => {
+              onEvent(recite("learn", perek, mishnah, stepIndex, g, peeks, stepStart.current));
               if (g === "notyet") { setPhase("read"); setAttempt((a) => a + 1); return; }
               next();
             }}
@@ -277,6 +314,7 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
         prompts={["Say it all from the beginning.", "Now all of it — without looking!"]}
         newest={newestIdx}
         onDone={(g, peeks) => {
+          onEvent(recite(detour ? "detour" : "chain", perek, mishnah, stepIndex, g, peeks, stepStart.current));
           if (g !== "notyet") { next(); return; }
           // Detour: drill the hardest piece with the one before it, then come back.
           let worst = 0;
@@ -292,12 +330,13 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
 }
 
 /** Whole-perek chain (or perek review): one card per mishnah, opening word → hidden, then parent check. */
-function PerekChainTask({ perek, through, review, onDone }: {
-  perek: number; through: number; review: boolean; onDone: (g: Grade, slipped: number[]) => void;
+function PerekChainTask({ perek, through, review, onDone, onEvent }: {
+  perek: number; through: number; review: boolean; onDone: (g: Grade, slipped: number[]) => void; onEvent: Emit;
 }) {
   const list = mishnayosOf(perek).filter((m) => m.mishnah <= through);
   const cards = list.map((m) => ({ he: m.chunks.map((c) => c.he).join(" "), label: `משנה ${hebNum(m.mishnah)}` }));
   const [stage, setStage] = useState<"recite" | "check">("recite");
+  const start = useRef(Date.now());
   const title = review ? `Perek review · ${ref(perek)}` : `${ref(perek)} · mishnayos 1–${through} in a row`;
   return (
     <div className="task">
@@ -307,13 +346,20 @@ function PerekChainTask({ perek, through, review, onDone }: {
           cards={cards}
           phases={review ? [cards.map(() => 4 as Cue)] : [cards.map(() => 3 as Cue), cards.map(() => 4 as Cue)]}
           prompts={review ? ["Say the whole perek by heart."] : ["Say them all in a row. The first word of each mishnah is there to help.", "Now all of them, without looking!"]}
-          onDone={() => setStage("check")}
+          onDone={(g, peeks) => {
+            onEvent(recite(review ? "review-p" : "perek-chain", perek, null, null, g, peeks, start.current));
+            setStage("check");
+          }}
         />
       ) : (
         <ParentCheck
           title={title}
           cards={cards}
-          onDone={(g, slippedCards) => onDone(g, slippedCards.map((i) => list[i]?.mishnah ?? 0).filter(Boolean))}
+          onDone={(g, slippedCards, slipWords) => {
+            const slipped = slippedCards.map((i) => list[i]?.mishnah ?? 0).filter(Boolean);
+            onEvent({ type: "check", scope: review ? "review-p" : "chain", perek, mishnah: null, through: review ? null : through, grade: g, slipped, slipWords });
+            onDone(g, slipped);
+          }}
         />
       )}
     </div>

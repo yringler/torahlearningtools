@@ -1,11 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { viteSingleFile } from "vite-plugin-singlefile";
 
-// `--mode single` builds one self-contained index.html (for sharing as a single file).
-// Default build targets GitHub Pages at /<repo>/.
-export default defineConfig(({ mode }) => ({
-  base: mode === "single" ? "./" : "/Baalpeh/",
-  plugins: mode === "single" ? [react(), viteSingleFile()] : [react()],
-  build: { outDir: mode === "single" ? "dist-single" : "dist" },
-}));
+// Served by the Cloudflare Worker at the domain root. In dev, /api is proxied to `wrangler dev` on :8787.
+export default defineConfig({
+  base: "/",
+  plugins: [react()],
+  build: { outDir: "dist" },
+  server: { port: 5173, strictPort: true, proxy: { "/api": { target: "http://localhost:8787" } } },
+});

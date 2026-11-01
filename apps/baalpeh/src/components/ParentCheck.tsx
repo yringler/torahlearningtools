@@ -5,7 +5,8 @@ import type { Grade } from "../types";
 interface Props {
   title: string;
   cards: Array<{ label?: string; he: string }>;
-  onDone: (grade: Grade, slippedCards: number[]) => void;
+  /** `slipWords` is the number of words the parent tapped. */
+  onDone: (grade: Grade, slippedCards: number[], slipWords: number) => void;
 }
 
 /** Parent holds the device; child recites from memory. Tap words to mark slips, then grade. */
@@ -49,9 +50,9 @@ export function ParentCheck({ title, cards, onDone }: Props) {
         ))}
       </div>
       <div className="actions grade" dir="ltr">
-        <button className="btn primary" onClick={() => onDone("pass", slipped)}>⭐ Perfect</button>
-        <button className="btn secondary" onClick={() => onDone("help", slipped)}>👍 Small slips</button>
-        <button className="btn ghost-btn" onClick={() => onDone("notyet", slipped)}>🔁 Needs more practice</button>
+        <button className="btn primary" onClick={() => onDone("pass", slipped, slips.size)}>⭐ Perfect</button>
+        <button className="btn secondary" onClick={() => onDone("help", slipped, slips.size)}>👍 Small slips</button>
+        <button className="btn ghost-btn" onClick={() => onDone("notyet", slipped, slips.size)}>🔁 Needs more practice</button>
       </div>
     </div>
   );
