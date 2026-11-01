@@ -1,1422 +1,1725 @@
 [
- {
-  "perek": 7,
-  "mishnah": 1,
-  "summary": "When three people eat a meal together, they must make a zimmun before bentching. The mishnah lists who counts toward the three and who does not.",
-  "chunks": [
-   {
-    "he": "שְׁלשָׁה שֶׁאָכְלוּ כְאֶחָד,",
-    "en": "Three people who ate together",
-    "words": [
-     {
-      "he": "שְׁלשָׁה",
-      "en": "three"
-     },
-     {
-      "he": "שֶׁאָכְלוּ",
-      "en": "who ate"
-     },
-     {
-      "he": "כְאֶחָד,",
-      "en": "as one"
-     }
-    ]
-   },
-   {
-    "he": "חַיָּבִין לְזַמֵּן.",
-    "en": "must make a zimmun.",
-    "words": [
-     {
-      "he": "חַיָּבִין",
-      "en": "must"
-     },
-     {
-      "he": "לְזַמֵּן.",
-      "en": "make a zimmun",
-      "note": "Inviting the others to bentch together, saying \"Let us bless.\""
-     }
-    ]
-   },
-   {
-    "he": "אָכַל דְּמַאי,",
-    "en": "If one ate demai,",
-    "words": [
-     {
-      "he": "אָכַל",
-      "en": "ate"
-     },
-     {
-      "he": "דְּמַאי,",
-      "en": "demai",
-      "note": "Food bought from someone who might not have taken off maaser."
-     }
-    ]
-   },
-   {
-    "he": "וּמַעֲשֵׂר רִאשׁוֹן שֶׁנִּטְּלָה תְרוּמָתוֹ,",
-    "en": "or first maaser that had its terumah taken off,",
-    "words": [
-     {
-      "he": "וּמַעֲשֵׂר",
-      "en": "and first maaser",
-      "note": "A tenth of the crops given to the Levi'im."
-     },
-     {
-      "he": "רִאשׁוֹן",
-      "en": "first"
-     },
-     {
-      "he": "שֶׁנִּטְּלָה",
-      "en": "that was taken"
-     },
-     {
-      "he": "תְרוּמָתוֹ,",
-      "en": "its terumah",
-      "note": "The part of the crops given to the Kohanim."
-     }
-    ]
-   },
-   {
-    "he": "וּמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁנִּפְדּוּ,",
-    "en": "or second maaser or holy things that were redeemed,",
-    "words": [
-     {
-      "he": "וּמַעֲשֵׂר",
-      "en": "and second maaser",
-      "note": "A tenth of the crops eaten in Yerushalayim."
-     },
-     {
-      "he": "שֵׁנִי",
-      "en": "second"
-     },
-     {
-      "he": "וְהֶקְדֵּשׁ",
-      "en": "and holy things",
-      "note": "Things given to the Beis HaMikdash."
-     },
-     {
-      "he": "שֶׁנִּפְדּוּ,",
-      "en": "that were redeemed"
-     }
-    ]
-   },
-   {
-    "he": "וְהַשַּׁמָּשׁ שֶׁאָכַל כַּזַּיִת,",
-    "en": "or the waiter who ate a kezayis,",
-    "words": [
-     {
-      "he": "וְהַשַּׁמָּשׁ",
-      "en": "and the waiter"
-     },
-     {
-      "he": "שֶׁאָכַל",
-      "en": "who ate"
-     },
-     {
-      "he": "כַּזַּיִת,",
-      "en": "a kezayis",
-      "note": "A small amount of food, about the size of an olive."
-     }
-    ]
-   },
-   {
-    "he": "וְהַכּוּתִי, מְזַמְּנִין עֲלֵיהֶם.",
-    "en": "or a Kuti — they count for the zimmun.",
-    "words": [
-     {
-      "he": "וְהַכּוּתִי,",
-      "en": "and the Kuti",
-      "note": "A Samaritan, a group who kept some of the Torah's mitzvos."
-     },
-     {
-      "he": "מְזַמְּנִין",
-      "en": "we make zimmun"
-     },
-     {
-      "he": "עֲלֵיהֶם.",
-      "en": "with them"
-     }
-    ]
-   },
-   {
-    "he": "אֲבָל אָכַל טֶבֶל,",
-    "en": "But if one ate tevel,",
-    "words": [
-     {
-      "he": "אֲבָל",
-      "en": "but"
-     },
-     {
-      "he": "אָכַל",
-      "en": "ate"
-     },
-     {
-      "he": "טֶבֶל,",
-      "en": "tevel",
-      "note": "Food that terumah and maaser were not yet taken from."
-     }
-    ]
-   },
-   {
-    "he": "וּמַעֲשֵׂר רִאשׁוֹן שֶׁלֹּא נִטְּלָה תְרוּמָתוֹ,",
-    "en": "or first maaser that did not have its terumah taken off,",
-    "words": [
-     {
-      "he": "וּמַעֲשֵׂר",
-      "en": "and first maaser"
-     },
-     {
-      "he": "רִאשׁוֹן",
-      "en": "first"
-     },
-     {
-      "he": "שֶׁלֹּא",
-      "en": "that was not"
-     },
-     {
-      "he": "נִטְּלָה",
-      "en": "taken"
-     },
-     {
-      "he": "תְרוּמָתוֹ,",
-      "en": "its terumah"
-     }
-    ]
-   },
-   {
-    "he": "וּמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁלֹּא נִפְדּוּ,",
-    "en": "or second maaser or holy things that were not redeemed,",
-    "words": [
-     {
-      "he": "וּמַעֲשֵׂר",
-      "en": "and second maaser"
-     },
-     {
-      "he": "שֵׁנִי",
-      "en": "second"
-     },
-     {
-      "he": "וְהֶקְדֵּשׁ",
-      "en": "and holy things"
-     },
-     {
-      "he": "שֶׁלֹּא",
-      "en": "that were not"
-     },
-     {
-      "he": "נִפְדּוּ,",
-      "en": "redeemed"
-     }
-    ]
-   },
-   {
-    "he": "וְהַשַּׁמָּשׁ שֶׁאָכַל פָּחוֹת מִכַּזַּיִת,",
-    "en": "or the waiter who ate less than a kezayis,",
-    "words": [
-     {
-      "he": "וְהַשַּׁמָּשׁ",
-      "en": "and the waiter"
-     },
-     {
-      "he": "שֶׁאָכַל",
-      "en": "who ate"
-     },
-     {
-      "he": "פָּחוֹת",
-      "en": "less"
-     },
-     {
-      "he": "מִכַּזַּיִת,",
-      "en": "than a kezayis"
-     }
-    ]
-   },
-   {
-    "he": "וְהַנָּכְרִי, אֵין מְזַמְּנִין עֲלֵיהֶם:",
-    "en": "or a non-Jew — they do not count for the zimmun.",
-    "words": [
-     {
-      "he": "וְהַנָּכְרִי,",
-      "en": "and the non-Jew"
-     },
-     {
-      "he": "אֵין",
-      "en": "we do not"
-     },
-     {
-      "he": "מְזַמְּנִין",
-      "en": "make zimmun"
-     },
-     {
-      "he": "עֲלֵיהֶם:",
-      "en": "with them"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 7,
-  "mishnah": 2,
-  "summary": "Women, slaves, and children do not count toward a men's zimmun. The mishnah also says how much a person must eat to count.",
-  "chunks": [
-   {
-    "he": "נָשִׁים וַעֲבָדִים וּקְטַנִּים,",
-    "en": "Women, slaves, and children —",
-    "words": [
-     {
-      "he": "נָשִׁים",
-      "en": "women"
-     },
-     {
-      "he": "וַעֲבָדִים",
-      "en": "and slaves"
-     },
-     {
-      "he": "וּקְטַנִּים,",
-      "en": "and children"
-     }
-    ]
-   },
-   {
-    "he": "אֵין מְזַמְּנִין עֲלֵיהֶם.",
-    "en": "we do not count them for the zimmun.",
-    "words": [
-     {
-      "he": "אֵין",
-      "en": "we do not"
-     },
-     {
-      "he": "מְזַמְּנִין",
-      "en": "make zimmun"
-     },
-     {
-      "he": "עֲלֵיהֶם.",
-      "en": "with them"
-     }
-    ]
-   },
-   {
-    "he": "עַד כַּמָּה מְזַמְּנִין,",
-    "en": "How much must one eat to count for the zimmun?",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "until"
-     },
-     {
-      "he": "כַּמָּה",
-      "en": "how much"
-     },
-     {
-      "he": "מְזַמְּנִין,",
-      "en": "do we make zimmun"
-     }
-    ]
-   },
-   {
-    "he": "עַד כַּזָּיִת.",
-    "en": "Even a kezayis.",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "up to"
-     },
-     {
-      "he": "כַּזָּיִת.",
-      "en": "a kezayis",
-      "note": "A small amount of food, about the size of an olive."
-     }
-    ]
-   },
-   {
-    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
-    "en": "Rabbi Yehudah says:",
-    "words": [
-     {
-      "he": "רַבִּי",
-      "en": "Rabbi"
-     },
-     {
-      "he": "יְהוּדָה",
-      "en": "Yehudah",
-      "note": "A great Rabbi of the Mishnah."
-     },
-     {
-      "he": "אוֹמֵר,",
-      "en": "says"
-     }
-    ]
-   },
-   {
-    "he": "עַד כַּבֵּיצָה:",
-    "en": "It must be as much as an egg.",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "up to"
-     },
-     {
-      "he": "כַּבֵּיצָה:",
-      "en": "an egg's size"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 7,
-  "mishnah": 3,
-  "summary": "The words of the zimmun change depending on how many people ate together. The more people, the more names of Hashem are added.",
-  "chunks": [
-   {
-    "he": "כֵּיצַד מְזַמְּנִין,",
-    "en": "How do we make the zimmun?",
-    "words": [
-     {
-      "he": "כֵּיצַד",
-      "en": "how"
-     },
-     {
-      "he": "מְזַמְּנִין,",
-      "en": "do we make zimmun"
-     }
-    ]
-   },
-   {
-    "he": "בִּשְׁלשָׁה אוֹמֵר נְבָרֵךְ.",
-    "en": "With three, the leader says \"Let us bless.\"",
-    "words": [
-     {
-      "he": "בִּשְׁלשָׁה",
-      "en": "with three"
-     },
-     {
-      "he": "אוֹמֵר",
-      "en": "he says"
-     },
-     {
-      "he": "נְבָרֵךְ.",
-      "en": "let us bless"
-     }
-    ]
-   },
-   {
-    "he": "בִּשְׁלשָׁה וְהוּא,",
-    "en": "With three plus himself,",
-    "words": [
-     {
-      "he": "בִּשְׁלשָׁה",
-      "en": "with three"
-     },
-     {
-      "he": "וְהוּא,",
-      "en": "and him"
-     }
-    ]
-   },
-   {
-    "he": "אוֹמֵר בָּרְכוּ.",
-    "en": "he says \"Bless!\"",
-    "words": [
-     {
-      "he": "אוֹמֵר",
-      "en": "he says"
-     },
-     {
-      "he": "בָּרְכוּ.",
-      "en": "bless!"
-     }
-    ]
-   },
-   {
-    "he": "בַּעֲשָׂרָה, אוֹמֵר נְבָרֵךְ לֵאלֹהֵינוּ.",
-    "en": "With ten, he says \"Let us bless our God.\"",
-    "words": [
-     {
-      "he": "בַּעֲשָׂרָה,",
-      "en": "with ten"
-     },
-     {
-      "he": "אוֹמֵר",
-      "en": "he says"
-     },
-     {
-      "he": "נְבָרֵךְ",
-      "en": "let us bless"
-     },
-     {
-      "he": "לֵאלֹהֵינוּ.",
-      "en": "our God"
-     }
-    ]
-   },
-   {
-    "he": "בַּעֲשָׂרָה וָהוּא,",
-    "en": "With ten plus himself,",
-    "words": [
-     {
-      "he": "בַּעֲשָׂרָה",
-      "en": "with ten"
-     },
-     {
-      "he": "וָהוּא,",
-      "en": "and him"
-     }
-    ]
-   },
-   {
-    "he": "אוֹמֵר בָּרְכוּ.",
-    "en": "he says \"Bless!\"",
-    "words": [
-     {
-      "he": "אוֹמֵר",
-      "en": "he says"
-     },
-     {
-      "he": "בָּרְכוּ.",
-      "en": "bless!"
-     }
-    ]
-   },
-   {
-    "he": "אֶחָד עֲשָׂרָה וְאֶחָד עֲשָׂרָה רִבּוֹא.",
-    "en": "It is the same for ten or for a hundred thousand.",
-    "words": [
-     {
-      "he": "אֶחָד",
-      "en": "both"
-     },
-     {
-      "he": "עֲשָׂרָה",
-      "en": "ten"
-     },
-     {
-      "he": "וְאֶחָד",
-      "en": "and also"
-     },
-     {
-      "he": "עֲשָׂרָה",
-      "en": "ten"
-     },
-     {
-      "he": "רִבּוֹא.",
-      "en": "ten thousand"
-     }
-    ]
-   },
-   {
-    "he": "בְּמֵאָה אוֹמֵר,",
-    "en": "With a hundred, he says",
-    "words": [
-     {
-      "he": "בְּמֵאָה",
-      "en": "with a hundred"
-     },
-     {
-      "he": "אוֹמֵר,",
-      "en": "he says"
-     }
-    ]
-   },
-   {
-    "he": "נְבָרֵךְ לַייָ אֱלֹהֵינוּ.",
-    "en": "\"Let us bless Hashem our God.\"",
-    "words": [
-     {
-      "he": "נְבָרֵךְ",
-      "en": "let us bless"
-     },
-     {
-      "he": "לַייָ",
-      "en": "Hashem"
-     },
-     {
-      "he": "אֱלֹהֵינוּ.",
-      "en": "our God"
-     }
-    ]
-   },
-   {
-    "he": "בְּמֵאָה וְהוּא,",
-    "en": "With a hundred plus himself,",
-    "words": [
-     {
-      "he": "בְּמֵאָה",
-      "en": "with a hundred"
-     },
-     {
-      "he": "וְהוּא,",
-      "en": "and him"
-     }
-    ]
-   },
-   {
-    "he": "אוֹמֵר בָּרְכוּ.",
-    "en": "he says \"Bless!\"",
-    "words": [
-     {
-      "he": "אוֹמֵר",
-      "en": "he says"
-     },
-     {
-      "he": "בָּרְכוּ.",
-      "en": "bless!"
-     }
-    ]
-   },
-   {
-    "he": "בְּאֶלֶף, אוֹמֵר נְבָרֵךְ לַייָ אֱלֹהֵינוּ אֱלֹהֵי יִשְׂרָאֵל.",
-    "en": "With a thousand, he says \"Let us bless Hashem our God, the God of Israel.\"",
-    "words": [
-     {
-      "he": "בְּאֶלֶף,",
-      "en": "with a thousand"
-     },
-     {
-      "he": "אוֹמֵר",
-      "en": "he says"
-     },
-     {
-      "he": "נְבָרֵךְ",
-      "en": "let us bless"
-     },
-     {
-      "he": "לַייָ",
-      "en": "Hashem"
-     },
-     {
-      "he": "אֱלֹהֵינוּ",
-      "en": "our God"
-     },
-     {
-      "he": "אֱלֹהֵי",
-      "en": "the God of"
-     },
-     {
-      "he": "יִשְׂרָאֵל.",
-      "en": "Israel"
-     }
-    ]
-   },
-   {
-    "he": "בְּאֶלֶף וְהוּא,",
-    "en": "With a thousand plus himself,",
-    "words": [
-     {
-      "he": "בְּאֶלֶף",
-      "en": "with a thousand"
-     },
-     {
-      "he": "וְהוּא,",
-      "en": "and him"
-     }
-    ]
-   },
-   {
-    "he": "אוֹמֵר בָּרְכוּ.",
-    "en": "he says \"Bless!\"",
-    "words": [
-     {
-      "he": "אוֹמֵר",
-      "en": "he says"
-     },
-     {
-      "he": "בָּרְכוּ.",
-      "en": "bless!"
-     }
-    ]
-   },
-   {
-    "he": "בְּרִבּוֹא, אוֹמֵר,",
-    "en": "With ten thousand, he says",
-    "words": [
-     {
-      "he": "בְּרִבּוֹא,",
-      "en": "with ten thousand"
-     },
-     {
-      "he": "אוֹמֵר,",
-      "en": "he says"
-     }
-    ]
-   },
-   {
-    "he": "נְבָרֵךְ לַייָ אֱלֹהֵינוּ אֱלֹהֵי יִשְׂרָאֵל",
-    "en": "\"Let us bless Hashem our God, the God of Israel,",
-    "words": [
-     {
-      "he": "נְבָרֵךְ",
-      "en": "let us bless"
-     },
-     {
-      "he": "לַייָ",
-      "en": "Hashem"
-     },
-     {
-      "he": "אֱלֹהֵינוּ",
-      "en": "our God"
-     },
-     {
-      "he": "אֱלֹהֵי",
-      "en": "the God of"
-     },
-     {
-      "he": "יִשְׂרָאֵל",
-      "en": "Israel"
-     }
-    ]
-   },
-   {
-    "he": "אֱלֹהֵי הַצְּבָאוֹת יוֹשֵׁב הַכְּרוּבִים",
-    "en": "the God of the heavenly armies, Who sits above the Keruvim,",
-    "words": [
-     {
-      "he": "אֱלֹהֵי",
-      "en": "the God of"
-     },
-     {
-      "he": "הַצְּבָאוֹת",
-      "en": "the armies"
-     },
-     {
-      "he": "יוֹשֵׁב",
-      "en": "Who sits"
-     },
-     {
-      "he": "הַכְּרוּבִים",
-      "en": "the Keruvim",
-      "note": "The golden angel figures on top of the Aron in the Beis HaMikdash."
-     }
-    ]
-   },
-   {
-    "he": "עַל הַמָּזוֹן שֶׁאָכָלְנוּ.",
-    "en": "for the food that we ate.\"",
-    "words": [
-     {
-      "he": "עַל",
-      "en": "for"
-     },
-     {
-      "he": "הַמָּזוֹן",
-      "en": "the food"
-     },
-     {
-      "he": "שֶׁאָכָלְנוּ.",
-      "en": "that we ate"
-     }
-    ]
-   },
-   {
-    "he": "בְּרִבּוֹא וְהוּא,",
-    "en": "With ten thousand plus himself,",
-    "words": [
-     {
-      "he": "בְּרִבּוֹא",
-      "en": "with ten thousand"
-     },
-     {
-      "he": "וְהוּא,",
-      "en": "and him"
-     }
-    ]
-   },
-   {
-    "he": "אוֹמֵר בָּרְכוּ.",
-    "en": "he says \"Bless!\"",
-    "words": [
-     {
-      "he": "אוֹמֵר",
-      "en": "he says"
-     },
-     {
-      "he": "בָּרְכוּ.",
-      "en": "bless!"
-     }
-    ]
-   },
-   {
-    "he": "כְּעִנְיָן שֶׁהוּא מְבָרֵךְ,",
-    "en": "Just like the way he says the bracha,",
-    "words": [
-     {
-      "he": "כְּעִנְיָן",
-      "en": "like the way"
-     },
-     {
-      "he": "שֶׁהוּא",
-      "en": "that he"
-     },
-     {
-      "he": "מְבָרֵךְ,",
-      "en": "blesses"
-     }
-    ]
-   },
-   {
-    "he": "כָּךְ עוֹנִין אַחֲרָיו,",
-    "en": "so the others answer after him:",
-    "words": [
-     {
-      "he": "כָּךְ",
-      "en": "so"
-     },
-     {
-      "he": "עוֹנִין",
-      "en": "they answer"
-     },
-     {
-      "he": "אַחֲרָיו,",
-      "en": "after him"
-     }
-    ]
-   },
-   {
-    "he": "בָּרוּךְ יְיָ אֱלֹהֵינוּ אֱלֹהֵי יִשְׂרָאֵל",
-    "en": "\"Blessed is Hashem our God, the God of Israel,",
-    "words": [
-     {
-      "he": "בָּרוּךְ",
-      "en": "blessed is"
-     },
-     {
-      "he": "יְיָ",
-      "en": "Hashem"
-     },
-     {
-      "he": "אֱלֹהֵינוּ",
-      "en": "our God"
-     },
-     {
-      "he": "אֱלֹהֵי",
-      "en": "the God of"
-     },
-     {
-      "he": "יִשְׂרָאֵל",
-      "en": "Israel"
-     }
-    ]
-   },
-   {
-    "he": "אֱלֹהֵי הַצְּבָאוֹת יוֹשֵׁב הַכְּרוּבִים",
-    "en": "the God of the heavenly armies, Who sits above the Keruvim,",
-    "words": [
-     {
-      "he": "אֱלֹהֵי",
-      "en": "the God of"
-     },
-     {
-      "he": "הַצְּבָאוֹת",
-      "en": "the armies"
-     },
-     {
-      "he": "יוֹשֵׁב",
-      "en": "Who sits"
-     },
-     {
-      "he": "הַכְּרוּבִים",
-      "en": "the Keruvim"
-     }
-    ]
-   },
-   {
-    "he": "עַל הַמָּזוֹן שֶׁאָכָלְנוּ.",
-    "en": "for the food that we ate.\"",
-    "words": [
-     {
-      "he": "עַל",
-      "en": "for"
-     },
-     {
-      "he": "הַמָּזוֹן",
-      "en": "the food"
-     },
-     {
-      "he": "שֶׁאָכָלְנוּ.",
-      "en": "that we ate"
-     }
-    ]
-   },
-   {
-    "he": "רַבִּי יוֹסֵי הַגְּלִילִי אוֹמֵר,",
-    "en": "Rabbi Yosi HaGelili says:",
-    "words": [
-     {
-      "he": "רַבִּי",
-      "en": "Rabbi"
-     },
-     {
-      "he": "יוֹסֵי",
-      "en": "Yosi",
-      "note": "A great Rabbi of the Mishnah."
-     },
-     {
-      "he": "הַגְּלִילִי",
-      "en": "from the Galil"
-     },
-     {
-      "he": "אוֹמֵר,",
-      "en": "says"
-     }
-    ]
-   },
-   {
-    "he": "לְפִי רֹב הַקָּהָל הֵן מְבָרְכִין,",
-    "en": "The words depend on how big the crowd is,",
-    "words": [
-     {
-      "he": "לְפִי",
-      "en": "according to"
-     },
-     {
-      "he": "רֹב",
-      "en": "the size of"
-     },
-     {
-      "he": "הַקָּהָל",
-      "en": "the crowd"
-     },
-     {
-      "he": "הֵן",
-      "en": "they"
-     },
-     {
-      "he": "מְבָרְכִין,",
-      "en": "bless"
-     }
-    ]
-   },
-   {
-    "he": "שֶׁנֶּאֱמַר בְּמַקְהֵלוֹת בָּרְכוּ אֱלֹהִים,",
-    "en": "as the pasuk says: \"In crowds, bless God,",
-    "words": [
-     {
-      "he": "שֶׁנֶּאֱמַר",
-      "en": "as it says"
-     },
-     {
-      "he": "בְּמַקְהֵלוֹת",
-      "en": "in crowds"
-     },
-     {
-      "he": "בָּרְכוּ",
-      "en": "bless"
-     },
-     {
-      "he": "אֱלֹהִים,",
-      "en": "God"
-     }
-    ]
-   },
-   {
-    "he": "יְיָ מִמְּקוֹר יִשְׂרָאֵל (תהלים סח).",
-    "en": "Hashem, from the source of Israel.\" (Tehillim 68)",
-    "words": [
-     {
-      "he": "יְיָ",
-      "en": "Hashem"
-     },
-     {
-      "he": "מִמְּקוֹר",
-      "en": "from the source of"
-     },
-     {
-      "he": "יִשְׂרָאֵל",
-      "en": "Israel"
-     },
-     {
-      "he": "(תהלים",
-      "en": "Tehillim"
-     },
-     {
-      "he": "סח).",
-      "en": "chapter 68"
-     }
-    ]
-   },
-   {
-    "he": "אָמַר רַבִּי עֲקִיבָא,",
-    "en": "Rabbi Akiva said:",
-    "words": [
-     {
-      "he": "אָמַר",
-      "en": "said"
-     },
-     {
-      "he": "רַבִּי",
-      "en": "Rabbi"
-     },
-     {
-      "he": "עֲקִיבָא,",
-      "en": "Akiva",
-      "note": "A great Rabbi of the Mishnah."
-     }
-    ]
-   },
-   {
-    "he": "מַה מָּצִינוּ בְּבֵית הַכְּנֶסֶת,",
-    "en": "Look at what we do in shul:",
-    "words": [
-     {
-      "he": "מַה",
-      "en": "what"
-     },
-     {
-      "he": "מָּצִינוּ",
-      "en": "do we find"
-     },
-     {
-      "he": "בְּבֵית",
-      "en": "in the house of"
-     },
-     {
-      "he": "הַכְּנֶסֶת,",
-      "en": "gathering (shul)"
-     }
-    ]
-   },
-   {
-    "he": "אֶחָד מְרֻבִּין וְאֶחָד מֻעָטִין אוֹמֵר,",
-    "en": "whether there are many people or few, the chazzan says",
-    "words": [
-     {
-      "he": "אֶחָד",
-      "en": "both"
-     },
-     {
-      "he": "מְרֻבִּין",
-      "en": "many"
-     },
-     {
-      "he": "וְאֶחָד",
-      "en": "and also"
-     },
-     {
-      "he": "מֻעָטִין",
-      "en": "few"
-     },
-     {
-      "he": "אוֹמֵר,",
-      "en": "he says"
-     }
-    ]
-   },
-   {
-    "he": "בָּרְכוּ אֶת יְיָ.",
-    "en": "\"Bless Hashem.\"",
-    "words": [
-     {
-      "he": "בָּרְכוּ",
-      "en": "bless"
-     },
-     {
-      "he": "אֶת",
-      "en": "(word before an object)"
-     },
-     {
-      "he": "יְיָ.",
-      "en": "Hashem"
-     }
-    ]
-   },
-   {
-    "he": "רַבִּי יִשְׁמָעֵאל אוֹמֵר,",
-    "en": "Rabbi Yishmael says:",
-    "words": [
-     {
-      "he": "רַבִּי",
-      "en": "Rabbi"
-     },
-     {
-      "he": "יִשְׁמָעֵאל",
-      "en": "Yishmael",
-      "note": "A great Rabbi of the Mishnah."
-     },
-     {
-      "he": "אוֹמֵר,",
-      "en": "says"
-     }
-    ]
-   },
-   {
-    "he": "בָּרְכוּ אֶת יְיָ הַמְבֹרָךְ:",
-    "en": "\"Bless Hashem, the Blessed One.\"",
-    "words": [
-     {
-      "he": "בָּרְכוּ",
-      "en": "bless"
-     },
-     {
-      "he": "אֶת",
-      "en": "(word before an object)"
-     },
-     {
-      "he": "יְיָ",
-      "en": "Hashem"
-     },
-     {
-      "he": "הַמְבֹרָךְ:",
-      "en": "the Blessed One"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 7,
-  "mishnah": 4,
-  "summary": "A group that ate together may only split up into smaller groups for zimmun if each smaller group can still say the same zimmun.",
-  "chunks": [
-   {
-    "he": "שְׁלשָׁה שֶׁאָכְלוּ כְאֶחָד,",
-    "en": "Three people who ate together",
-    "words": [
-     {
-      "he": "שְׁלשָׁה",
-      "en": "three"
-     },
-     {
-      "he": "שֶׁאָכְלוּ",
-      "en": "who ate"
-     },
-     {
-      "he": "כְאֶחָד,",
-      "en": "as one"
-     }
-    ]
-   },
-   {
-    "he": "אֵינָן רַשָּׁאִין לֵחָלֵק,",
-    "en": "are not allowed to split up,",
-    "words": [
-     {
-      "he": "אֵינָן",
-      "en": "are not"
-     },
-     {
-      "he": "רַשָּׁאִין",
-      "en": "allowed"
-     },
-     {
-      "he": "לֵחָלֵק,",
-      "en": "to split up"
-     }
-    ]
-   },
-   {
-    "he": "וְכֵן אַרְבָּעָה,",
-    "en": "and the same for four,",
-    "words": [
-     {
-      "he": "וְכֵן",
-      "en": "and so"
-     },
-     {
-      "he": "אַרְבָּעָה,",
-      "en": "four"
-     }
-    ]
-   },
-   {
-    "he": "וְכֵן חֲמִשָּׁה.",
-    "en": "and the same for five.",
-    "words": [
-     {
-      "he": "וְכֵן",
-      "en": "and so"
-     },
-     {
-      "he": "חֲמִשָּׁה.",
-      "en": "five"
-     }
-    ]
-   },
-   {
-    "he": "שִׁשָּׁה נֶחֱלָקִין,",
-    "en": "Six may split up,",
-    "words": [
-     {
-      "he": "שִׁשָּׁה",
-      "en": "six"
-     },
-     {
-      "he": "נֶחֱלָקִין,",
-      "en": "may split up"
-     }
-    ]
-   },
-   {
-    "he": "עַד עֲשָׂרָה.",
-    "en": "until there are ten.",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "until"
-     },
-     {
-      "he": "עֲשָׂרָה.",
-      "en": "ten"
-     }
-    ]
-   },
-   {
-    "he": "וַעֲשָׂרָה אֵינָן נֶחֱלָקִין,",
-    "en": "And ten may not split up",
-    "words": [
-     {
-      "he": "וַעֲשָׂרָה",
-      "en": "and ten"
-     },
-     {
-      "he": "אֵינָן",
-      "en": "may not"
-     },
-     {
-      "he": "נֶחֱלָקִין,",
-      "en": "split up"
-     }
-    ]
-   },
-   {
-    "he": "עַד שֶׁיִּהְיוּ עֶשְׂרִים:",
-    "en": "until there are twenty.",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "until"
-     },
-     {
-      "he": "שֶׁיִּהְיוּ",
-      "en": "there are"
-     },
-     {
-      "he": "עֶשְׂרִים:",
-      "en": "twenty"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 7,
-  "mishnah": 5,
-  "summary": "Two groups eating in one house can join for zimmun if they can see each other. Also, Rabbi Eliezer and the Sages argue about making a bracha on wine with no water added.",
-  "chunks": [
-   {
-    "he": "שְׁתֵּי חֲבוּרוֹת שֶׁהָיוּ אוֹכְלוֹת בְּבַיִת אֶחָד,",
-    "en": "Two groups that were eating in one house,",
-    "words": [
-     {
-      "he": "שְׁתֵּי",
-      "en": "two"
-     },
-     {
-      "he": "חֲבוּרוֹת",
-      "en": "groups"
-     },
-     {
-      "he": "שֶׁהָיוּ",
-      "en": "that were"
-     },
-     {
-      "he": "אוֹכְלוֹת",
-      "en": "eating"
-     },
-     {
-      "he": "בְּבַיִת",
-      "en": "in a house"
-     },
-     {
-      "he": "אֶחָד,",
-      "en": "one"
-     }
-    ]
-   },
-   {
-    "he": "בִּזְמַן שֶׁמִּקְצָתָן רוֹאִין אֵלּוּ אֶת אֵלּוּ,",
-    "en": "when some of them can see each other,",
-    "words": [
-     {
-      "he": "בִּזְמַן",
-      "en": "when"
-     },
-     {
-      "he": "שֶׁמִּקְצָתָן",
-      "en": "that some of them"
-     },
-     {
-      "he": "רוֹאִין",
-      "en": "see"
-     },
-     {
-      "he": "אֵלּוּ",
-      "en": "these"
-     },
-     {
-      "he": "אֶת",
-      "en": "(word before an object)"
-     },
-     {
-      "he": "אֵלּוּ,",
-      "en": "those"
-     }
-    ]
-   },
-   {
-    "he": "הֲרֵי אֵלּוּ מִצְטָרְפִים לְזִמּוּן.",
-    "en": "they join together for a zimmun.",
-    "words": [
-     {
-      "he": "הֲרֵי",
-      "en": "so"
-     },
-     {
-      "he": "אֵלּוּ",
-      "en": "these"
-     },
-     {
-      "he": "מִצְטָרְפִים",
-      "en": "join together"
-     },
-     {
-      "he": "לְזִמּוּן.",
-      "en": "for zimmun",
-      "note": "Inviting the others to bentch together, saying \"Let us bless.\""
-     }
-    ]
-   },
-   {
-    "he": "וְאִם לָאו,",
-    "en": "But if not,",
-    "words": [
-     {
-      "he": "וְאִם",
-      "en": "and if"
-     },
-     {
-      "he": "לָאו,",
-      "en": "not"
-     }
-    ]
-   },
-   {
-    "he": "אֵלּוּ מְזַמְּנִין לְעַצְמָן,",
-    "en": "these make a zimmun for themselves,",
-    "words": [
-     {
-      "he": "אֵלּוּ",
-      "en": "these"
-     },
-     {
-      "he": "מְזַמְּנִין",
-      "en": "make zimmun"
-     },
-     {
-      "he": "לְעַצְמָן,",
-      "en": "for themselves"
-     }
-    ]
-   },
-   {
-    "he": "וְאֵלּוּ מְזַמְּנִין לְעַצְמָן.",
-    "en": "and those make a zimmun for themselves.",
-    "words": [
-     {
-      "he": "וְאֵלּוּ",
-      "en": "and those"
-     },
-     {
-      "he": "מְזַמְּנִין",
-      "en": "make zimmun"
-     },
-     {
-      "he": "לְעַצְמָן.",
-      "en": "for themselves"
-     }
-    ]
-   },
-   {
-    "he": "אֵין מְבָרְכִין עַל הַיַּיִן",
-    "en": "We do not make the bracha on wine",
-    "words": [
-     {
-      "he": "אֵין",
-      "en": "we do not"
-     },
-     {
-      "he": "מְבָרְכִין",
-      "en": "bless"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַיַּיִן",
-      "en": "the wine"
-     }
-    ]
-   },
-   {
-    "he": "עַד שֶׁיִּתֵּן לְתוֹכוֹ מַיִם,",
-    "en": "until water is put into it,",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "until"
-     },
-     {
-      "he": "שֶׁיִּתֵּן",
-      "en": "he puts"
-     },
-     {
-      "he": "לְתוֹכוֹ",
-      "en": "into it"
-     },
-     {
-      "he": "מַיִם,",
-      "en": "water"
-     }
-    ]
-   },
-   {
-    "he": "דִּבְרֵי רַבִּי אֱלִיעֶזֶר.",
-    "en": "says Rabbi Eliezer.",
-    "words": [
-     {
-      "he": "דִּבְרֵי",
-      "en": "the words of"
-     },
-     {
-      "he": "רַבִּי",
-      "en": "Rabbi"
-     },
-     {
-      "he": "אֱלִיעֶזֶר.",
-      "en": "Eliezer",
-      "note": "A great Rabbi of the Mishnah."
-     }
-    ]
-   },
-   {
-    "he": "וַחֲכָמִים אוֹמְרִים, מְבָרְכִין:",
-    "en": "But the Sages say: we do make the bracha.",
-    "words": [
-     {
-      "he": "וַחֲכָמִים",
-      "en": "and the Sages"
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     },
-     {
-      "he": "מְבָרְכִין:",
-      "en": "we bless"
-     }
-    ]
-   }
-  ]
- }
+  {
+    "perek": 7,
+    "mishnah": 1,
+    "summary": "When three people eat a meal together, they must make a zimmun before bentching. The mishnah lists who counts toward the three and who does not.",
+    "stIntro": "This mishna sets out the essential halakhot pertaining to the invitation to recite Grace after Meals after a joint meal [zimmun]:",
+    "chunks": [
+      {
+        "he": "שְׁלשָׁה שֶׁאָכְלוּ כְאֶחָד,",
+        "en": "Three people who ate together",
+        "st": "<b>Three</b> people <b>who ate as one</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "שְׁלשָׁה",
+            "en": "three"
+          },
+          {
+            "he": "שֶׁאָכְלוּ",
+            "en": "who ate"
+          },
+          {
+            "he": "כְאֶחָד,",
+            "en": "as one"
+          }
+        ]
+      },
+      {
+        "he": "חַיָּבִין לְזַמֵּן.",
+        "en": "must make a zimmun.",
+        "st": "<b>are required to form a zimmun</b> and recite Grace after Meals.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "חַיָּבִין",
+            "en": "must"
+          },
+          {
+            "he": "לְזַמֵּן.",
+            "en": "make a zimmun",
+            "note": "Inviting the others to bentch together, saying \"Let us bless.\""
+          }
+        ]
+      },
+      {
+        "he": "אָכַל דְּמַאי,",
+        "en": "If one of them ate demai,",
+        "st": "If, among the diners, <b>one ate doubtfully tithed produce [demai],</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אָכַל",
+            "en": "ate"
+          },
+          {
+            "he": "דְּמַאי,",
+            "en": "demai",
+            "note": "Food bought from someone who might not have taken off maaser."
+          }
+        ]
+      },
+      {
+        "he": "וּמַעֲשֵׂר רִאשׁוֹן שֶׁנִּטְּלָה תְרוּמָתוֹ,",
+        "en": "or first maaser that had its terumah taken off,",
+        "st": "<b>and first tithe from which its teruma was</b> already <b>taken,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּמַעֲשֵׂר",
+            "en": "and first maaser",
+            "note": "A tenth of the crops given to the Levi'im."
+          },
+          {
+            "he": "רִאשׁוֹן",
+            "en": "first"
+          },
+          {
+            "he": "שֶׁנִּטְּלָה",
+            "en": "that was taken"
+          },
+          {
+            "he": "תְרוּמָתוֹ,",
+            "en": "its terumah",
+            "note": "The part of the crops given to the Kohanim."
+          }
+        ]
+      },
+      {
+        "he": "וּמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁנִּפְדּוּ,",
+        "en": "or second maaser or hekdesh that were redeemed,",
+        "explain": "Redeemed means bought back with money, so now they may be eaten.",
+        "st": "or <b>second tithe, and consecrated food that were redeemed</b> and therefore permitted to be eaten;",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּמַעֲשֵׂר",
+            "en": "and second maaser",
+            "note": "A tenth of the crops eaten in Yerushalayim."
+          },
+          {
+            "he": "שֵׁנִי",
+            "en": "second"
+          },
+          {
+            "he": "וְהֶקְדֵּשׁ",
+            "en": "and hekdesh",
+            "note": "Things given to the Beis HaMikdash."
+          },
+          {
+            "he": "שֶׁנִּפְדּוּ,",
+            "en": "that were redeemed"
+          }
+        ]
+      },
+      {
+        "he": "וְהַשַּׁמָּשׁ שֶׁאָכַל כַּזַּיִת,",
+        "en": "or the waiter who ate a kezayis,",
+        "st": "<b>and</b> even <b>the waiter</b> who served the meal to the diners and <b>who ate</b> at least <b>an olive-bulk</b> from the meal,",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְהַשַּׁמָּשׁ",
+            "en": "and the waiter"
+          },
+          {
+            "he": "שֶׁאָכַל",
+            "en": "who ate"
+          },
+          {
+            "he": "כַּזַּיִת,",
+            "en": "a kezayis",
+            "note": "A small amount of food, about the size of an olive."
+          }
+        ]
+      },
+      {
+        "he": "וְהַכּוּתִי, מְזַמְּנִין עֲלֵיהֶם.",
+        "en": "or a Kuti, they count for the zimmun.",
+        "st": "<b>and the Samaritan [Kuti]</b> who ate with two others at a meal; each of these people is included among the three <b>to obligate</b> those with whom they ate <b>in a zimmun.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְהַכּוּתִי,",
+            "en": "and the Kuti",
+            "note": "A Samaritan, a group who kept some of the Torah's mitzvos."
+          },
+          {
+            "he": "מְזַמְּנִין",
+            "en": "we make zimmun"
+          },
+          {
+            "he": "עֲלֵיהֶם.",
+            "en": "with them"
+          }
+        ]
+      },
+      {
+        "he": "אֲבָל אָכַל טֶבֶל,",
+        "en": "But if one ate tevel,",
+        "st": "However, <b>one who ate untithed produce [tevel],</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֲבָל",
+            "en": "but"
+          },
+          {
+            "he": "אָכַל",
+            "en": "ate"
+          },
+          {
+            "he": "טֶבֶל,",
+            "en": "tevel",
+            "note": "Food that terumah and maaser were not yet taken from."
+          }
+        ]
+      },
+      {
+        "he": "וּמַעֲשֵׂר רִאשׁוֹן שֶׁלֹּא נִטְּלָה תְרוּמָתוֹ,",
+        "en": "or first maaser that did not have its terumah taken off,",
+        "st": "<b>and first tithe from which its teruma was not separated,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּמַעֲשֵׂר",
+            "en": "and first maaser"
+          },
+          {
+            "he": "רִאשׁוֹן",
+            "en": "first"
+          },
+          {
+            "he": "שֶׁלֹּא",
+            "en": "that was not"
+          },
+          {
+            "he": "נִטְּלָה",
+            "en": "taken"
+          },
+          {
+            "he": "תְרוּמָתוֹ,",
+            "en": "its terumah"
+          }
+        ]
+      },
+      {
+        "he": "וּמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁלֹּא נִפְדּוּ,",
+        "en": "or second maaser or hekdesh that were not redeemed,",
+        "st": "<b>and second tithe, and consecrated food that were not redeemed,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּמַעֲשֵׂר",
+            "en": "and second maaser"
+          },
+          {
+            "he": "שֵׁנִי",
+            "en": "second"
+          },
+          {
+            "he": "וְהֶקְדֵּשׁ",
+            "en": "and hekdesh",
+            "note": "Things given to the Beis HaMikdash."
+          },
+          {
+            "he": "שֶׁלֹּא",
+            "en": "that were not"
+          },
+          {
+            "he": "נִפְדּוּ,",
+            "en": "redeemed"
+          }
+        ]
+      },
+      {
+        "he": "וְהַשַּׁמָּשׁ שֶׁאָכַל פָּחוֹת מִכַּזַּיִת,",
+        "en": "or the waiter who ate less than a kezayis,",
+        "st": "<b>and the waiter who did not eat an olive-bulk,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְהַשַּׁמָּשׁ",
+            "en": "and the waiter"
+          },
+          {
+            "he": "שֶׁאָכַל",
+            "en": "who ate"
+          },
+          {
+            "he": "פָּחוֹת",
+            "en": "less"
+          },
+          {
+            "he": "מִכַּזַּיִת,",
+            "en": "than a kezayis"
+          }
+        ]
+      },
+      {
+        "he": "וְהַנָּכְרִי, אֵין מְזַמְּנִין עֲלֵיהֶם:",
+        "en": "or a non-Jew, they do not count for the zimmun.",
+        "st": "<b>and the gentile</b> who ate with two Jews, none of these people is included among the three <b>to obligate</b> those with whom they ate <b>in a zimmun.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְהַנָּכְרִי,",
+            "en": "and the non-Jew"
+          },
+          {
+            "he": "אֵין",
+            "en": "we do not"
+          },
+          {
+            "he": "מְזַמְּנִין",
+            "en": "make zimmun"
+          },
+          {
+            "he": "עֲלֵיהֶם:",
+            "en": "with them"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "perek": 7,
+    "mishnah": 2,
+    "summary": "Women, slaves, and children do not count toward a men's zimmun. The mishnah also says how much a person must eat to count.",
+    "stIntro": "",
+    "chunks": [
+      {
+        "he": "נָשִׁים וַעֲבָדִים וּקְטַנִּים,",
+        "en": "Women, slaves, and children",
+        "st": "<b>Women, slaves, and minors</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "נָשִׁים",
+            "en": "women"
+          },
+          {
+            "he": "וַעֲבָדִים",
+            "en": "and slaves"
+          },
+          {
+            "he": "וּקְטַנִּים,",
+            "en": "and children"
+          }
+        ]
+      },
+      {
+        "he": "אֵין מְזַמְּנִין עֲלֵיהֶם.",
+        "en": "do not count toward the zimmun.",
+        "st": "<b>do not obligate</b> those with whom they ate <b>in a zimmun.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֵין",
+            "en": "we do not"
+          },
+          {
+            "he": "מְזַמְּנִין",
+            "en": "make zimmun"
+          },
+          {
+            "he": "עֲלֵיהֶם.",
+            "en": "with them"
+          }
+        ]
+      },
+      {
+        "he": "עַד כַּמָּה מְזַמְּנִין,",
+        "en": "How much must a person eat to count for the zimmun?",
+        "st": "<b>How much</b> must one eat <b>to obligate</b> those with whom he ate <b>in a zimmun?</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "up to"
+          },
+          {
+            "he": "כַּמָּה",
+            "en": "how much"
+          },
+          {
+            "he": "מְזַמְּנִין,",
+            "en": "do we make zimmun"
+          }
+        ]
+      },
+      {
+        "he": "עַד כַּזָּיִת.",
+        "en": "A kezayis.",
+        "st": "<b>An olive-bulk</b>",
+        "stMore": "of food suffices to obligate those with whom they ate in a zimmun.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "up to"
+          },
+          {
+            "he": "כַּזָּיִת.",
+            "en": "a kezayis",
+            "note": "A small amount of food, about the size of an olive."
+          }
+        ]
+      },
+      {
+        "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+        "en": "Rabbi Yehudah says:",
+        "st": "<b>Rabbi Yehuda says:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "רַבִּי",
+            "en": "Rabbi"
+          },
+          {
+            "he": "יְהוּדָה",
+            "en": "Yehudah",
+            "note": "A great Rabbi of the Mishnah."
+          },
+          {
+            "he": "אוֹמֵר,",
+            "en": "says"
+          }
+        ]
+      },
+      {
+        "he": "עַד כַּבֵּיצָה:",
+        "en": "A kebeitzah, as much as an egg.",
+        "st": "<b>An egg-bulk</b>",
+        "stMore": "is the minimum measure to obligate those with whom they ate in a zimmun.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "up to"
+          },
+          {
+            "he": "כַּבֵּיצָה:",
+            "en": "an egg-size"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "perek": 7,
+    "mishnah": 3,
+    "summary": "The words of the zimmun change depending on how many people ate together. The more people, the more names of Hashem are added.",
+    "stIntro": "The mishna delineates distinctions in the halakhot of the zimmun blessing, based on the number of people present.",
+    "chunks": [
+      {
+        "he": "כֵּיצַד מְזַמְּנִין,",
+        "en": "How do we make the zimmun?",
+        "st": "<b>How does one recite the zimmun?</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "כֵּיצַד",
+            "en": "how"
+          },
+          {
+            "he": "מְזַמְּנִין,",
+            "en": "do we make zimmun"
+          }
+        ]
+      },
+      {
+        "he": "בִּשְׁלשָׁה אוֹמֵר נְבָרֵךְ.",
+        "en": "With three people, the leader says \"Let us bless.\"",
+        "st": "<b>In</b> a group of <b>three</b> people, the one reciting the zimmun <b>says: Let us bless</b> the One from Whose food we have eaten.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בִּשְׁלשָׁה",
+            "en": "with three"
+          },
+          {
+            "he": "אוֹמֵר",
+            "en": "he says"
+          },
+          {
+            "he": "נְבָרֵךְ.",
+            "en": "let us bless"
+          }
+        ]
+      },
+      {
+        "he": "בִּשְׁלשָׁה וְהוּא,",
+        "en": "With three people and him,",
+        "st": "<b>In</b> a group of <b>three</b> people <b>and him,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בִּשְׁלשָׁה",
+            "en": "with three"
+          },
+          {
+            "he": "וְהוּא,",
+            "en": "and him"
+          }
+        ]
+      },
+      {
+        "he": "אוֹמֵר בָּרְכוּ.",
+        "en": "he says \"Bless!\"",
+        "explain": "Even without him there are enough people for a zimmun.",
+        "st": "the one reciting the zimmun <b>says: Bless</b> the One from Whose food we have eaten,",
+        "stMore": "as even without him there are enough people to recite the zimmun. With the increase in the number of participants, the blessing is more complex.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אוֹמֵר",
+            "en": "he says"
+          },
+          {
+            "he": "בָּרְכוּ.",
+            "en": "bless!"
+          }
+        ]
+      },
+      {
+        "he": "בַּעֲשָׂרָה, אוֹמֵר נְבָרֵךְ לֵאלֹהֵינוּ.",
+        "en": "With ten, he says \"Let us bless our God.\"",
+        "st": "<b>In</b> a group of <b>ten</b> people, the one reciting the zimmun <b>says: Let us bless our God.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בַּעֲשָׂרָה,",
+            "en": "with ten"
+          },
+          {
+            "he": "אוֹמֵר",
+            "en": "he says"
+          },
+          {
+            "he": "נְבָרֵךְ",
+            "en": "let us bless"
+          },
+          {
+            "he": "לֵאלֹהֵינוּ.",
+            "en": "our God"
+          }
+        ]
+      },
+      {
+        "he": "בַּעֲשָׂרָה וָהוּא,",
+        "en": "With ten and him,",
+        "st": "<b>In</b> a group of <b>ten</b> people <b>and him,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בַּעֲשָׂרָה",
+            "en": "with ten"
+          },
+          {
+            "he": "וָהוּא,",
+            "en": "and him"
+          }
+        ]
+      },
+      {
+        "he": "אוֹמֵר בָּרְכוּ.",
+        "en": "he says \"Bless our God!\"",
+        "st": "the one reciting the zimmun <b>says: Bless</b> our God.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אוֹמֵר",
+            "en": "he says"
+          },
+          {
+            "he": "בָּרְכוּ.",
+            "en": "bless!"
+          }
+        ]
+      },
+      {
+        "he": "אֶחָד עֲשָׂרָה וְאֶחָד עֲשָׂרָה רִבּוֹא.",
+        "en": "It is the same for ten people or for a hundred thousand.",
+        "st": "This formula is recited <b>both</b> in a group of <b>ten and in</b> a group of <b>one hundred thousand.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֶחָד",
+            "en": "both"
+          },
+          {
+            "he": "עֲשָׂרָה",
+            "en": "ten"
+          },
+          {
+            "he": "וְאֶחָד",
+            "en": "and also"
+          },
+          {
+            "he": "עֲשָׂרָה",
+            "en": "ten"
+          },
+          {
+            "he": "רִבּוֹא.",
+            "en": "ten-thousands",
+            "note": "Ten times ten thousand is a hundred thousand."
+          }
+        ]
+      },
+      {
+        "he": "בְּמֵאָה אוֹמֵר,",
+        "en": "With a hundred, he says",
+        "st": "<b>In</b> a group of <b>one hundred</b> people, the one reciting the zimmun <b>says:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בְּמֵאָה",
+            "en": "with a hundred"
+          },
+          {
+            "he": "אוֹמֵר,",
+            "en": "he says"
+          }
+        ]
+      },
+      {
+        "he": "נְבָרֵךְ לַייָ אֱלֹהֵינוּ.",
+        "en": "\"Let us bless Hashem our God.\"",
+        "st": "<b>Let us bless the Lord our God.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "נְבָרֵךְ",
+            "en": "let us bless"
+          },
+          {
+            "he": "לַייָ",
+            "en": "Hashem"
+          },
+          {
+            "he": "אֱלֹהֵינוּ.",
+            "en": "our God"
+          }
+        ]
+      },
+      {
+        "he": "בְּמֵאָה וְהוּא,",
+        "en": "With a hundred and him,",
+        "st": "<b>In</b> a group of <b>one hundred</b> people <b>and him,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בְּמֵאָה",
+            "en": "with a hundred"
+          },
+          {
+            "he": "וְהוּא,",
+            "en": "and him"
+          }
+        ]
+      },
+      {
+        "he": "אוֹמֵר בָּרְכוּ.",
+        "en": "he says \"Bless Hashem our God!\"",
+        "st": "the one reciting the zimmun <b>says: Bless</b> the Lord our God.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אוֹמֵר",
+            "en": "he says"
+          },
+          {
+            "he": "בָּרְכוּ.",
+            "en": "bless!"
+          }
+        ]
+      },
+      {
+        "he": "בְּאֶלֶף, אוֹמֵר נְבָרֵךְ לַייָ אֱלֹהֵינוּ אֱלֹהֵי יִשְׂרָאֵל.",
+        "en": "With a thousand, he says \"Let us bless Hashem our God, the God of Israel.\"",
+        "st": "<b>In</b> a group of <b>one thousand</b> people, the one reciting the zimmun <b>says: Let us bless the Lord our God, the God of Israel.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בְּאֶלֶף,",
+            "en": "with a thousand"
+          },
+          {
+            "he": "אוֹמֵר",
+            "en": "he says"
+          },
+          {
+            "he": "נְבָרֵךְ",
+            "en": "let us bless"
+          },
+          {
+            "he": "לַייָ",
+            "en": "Hashem"
+          },
+          {
+            "he": "אֱלֹהֵינוּ",
+            "en": "our God"
+          },
+          {
+            "he": "אֱלֹהֵי",
+            "en": "the God of"
+          },
+          {
+            "he": "יִשְׂרָאֵל.",
+            "en": "Israel"
+          }
+        ]
+      },
+      {
+        "he": "בְּאֶלֶף וְהוּא,",
+        "en": "With a thousand and him,",
+        "st": "<b>In</b> a group of <b>one thousand</b> people <b>and him,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בְּאֶלֶף",
+            "en": "with a thousand"
+          },
+          {
+            "he": "וְהוּא,",
+            "en": "and him"
+          }
+        ]
+      },
+      {
+        "he": "אוֹמֵר בָּרְכוּ.",
+        "en": "he says \"Bless Hashem our God, the God of Israel!\"",
+        "st": "<b>he says: Bless</b> the Lord our God, the God of Israel.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אוֹמֵר",
+            "en": "he says"
+          },
+          {
+            "he": "בָּרְכוּ.",
+            "en": "bless!"
+          }
+        ]
+      },
+      {
+        "he": "בְּרִבּוֹא, אוֹמֵר,",
+        "en": "With ten thousand, he says",
+        "st": "<b>In</b> a group of <b>ten thousand</b> people, the one reciting the zimmun <b>says:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בְּרִבּוֹא,",
+            "en": "with ten thousand"
+          },
+          {
+            "he": "אוֹמֵר,",
+            "en": "he says"
+          }
+        ]
+      },
+      {
+        "he": "נְבָרֵךְ לַייָ אֱלֹהֵינוּ אֱלֹהֵי יִשְׂרָאֵל",
+        "en": "\"Let us bless Hashem our God, the God of Israel,",
+        "st": "<b>Let us bless the Lord our God, the God of Israel,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "נְבָרֵךְ",
+            "en": "let us bless"
+          },
+          {
+            "he": "לַייָ",
+            "en": "Hashem"
+          },
+          {
+            "he": "אֱלֹהֵינוּ",
+            "en": "our God"
+          },
+          {
+            "he": "אֱלֹהֵי",
+            "en": "the God of"
+          },
+          {
+            "he": "יִשְׂרָאֵל",
+            "en": "Israel"
+          }
+        ]
+      },
+      {
+        "he": "אֱלֹהֵי הַצְּבָאוֹת יוֹשֵׁב הַכְּרוּבִים",
+        "en": "the God of the heavenly armies, Who sits upon the Keruvim,",
+        "st": "<b>the God of Hosts, Who sits upon the cherubs,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֱלֹהֵי",
+            "en": "the God of"
+          },
+          {
+            "he": "הַצְּבָאוֹת",
+            "en": "the armies"
+          },
+          {
+            "he": "יוֹשֵׁב",
+            "en": "Who sits"
+          },
+          {
+            "he": "הַכְּרוּבִים",
+            "en": "the Keruvim",
+            "note": "The golden angel figures on top of the Aron in the Beis HaMikdash."
+          }
+        ]
+      },
+      {
+        "he": "עַל הַמָּזוֹן שֶׁאָכָלְנוּ.",
+        "en": "for the food that we ate.\"",
+        "st": "<b>for the food that we have eaten.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַל",
+            "en": "for"
+          },
+          {
+            "he": "הַמָּזוֹן",
+            "en": "the food"
+          },
+          {
+            "he": "שֶׁאָכָלְנוּ.",
+            "en": "that we ate"
+          }
+        ]
+      },
+      {
+        "he": "בְּרִבּוֹא וְהוּא,",
+        "en": "With ten thousand and him,",
+        "st": "<b>In</b> a group of <b>ten thousand</b> people <b>and him,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בְּרִבּוֹא",
+            "en": "with ten thousand"
+          },
+          {
+            "he": "וְהוּא,",
+            "en": "and him"
+          }
+        ]
+      },
+      {
+        "he": "אוֹמֵר בָּרְכוּ.",
+        "en": "he says \"Bless\" with all those same words.",
+        "st": "the one reciting the zimmun <b>says: Bless</b> the Lord our God, the God of Israel, the God of Hosts, Who sits upon the cherubs, for the food that we have eaten.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אוֹמֵר",
+            "en": "he says"
+          },
+          {
+            "he": "בָּרְכוּ.",
+            "en": "bless!"
+          }
+        ]
+      },
+      {
+        "he": "כְּעִנְיָן שֶׁהוּא מְבָרֵךְ,",
+        "en": "Just the way he says the bracha,",
+        "st": "The principle is that <b>just as he recites the blessing,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "כְּעִנְיָן",
+            "en": "like the way"
+          },
+          {
+            "he": "שֶׁהוּא",
+            "en": "that he"
+          },
+          {
+            "he": "מְבָרֵךְ,",
+            "en": "blesses"
+          }
+        ]
+      },
+      {
+        "he": "כָּךְ עוֹנִין אַחֲרָיו,",
+        "en": "so the others answer after him:",
+        "st": "<b>so too</b> those present <b>recite in response:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "כָּךְ",
+            "en": "so"
+          },
+          {
+            "he": "עוֹנִין",
+            "en": "they answer"
+          },
+          {
+            "he": "אַחֲרָיו,",
+            "en": "after him"
+          }
+        ]
+      },
+      {
+        "he": "בָּרוּךְ יְיָ אֱלֹהֵינוּ אֱלֹהֵי יִשְׂרָאֵל",
+        "en": "\"Blessed is Hashem our God, the God of Israel,",
+        "st": "<b>Blessed be the Lord our God, the God of Israel,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בָּרוּךְ",
+            "en": "blessed is"
+          },
+          {
+            "he": "יְיָ",
+            "en": "Hashem"
+          },
+          {
+            "he": "אֱלֹהֵינוּ",
+            "en": "our God"
+          },
+          {
+            "he": "אֱלֹהֵי",
+            "en": "the God of"
+          },
+          {
+            "he": "יִשְׂרָאֵל",
+            "en": "Israel"
+          }
+        ]
+      },
+      {
+        "he": "אֱלֹהֵי הַצְּבָאוֹת יוֹשֵׁב הַכְּרוּבִים",
+        "en": "the God of the heavenly armies, Who sits upon the Keruvim,",
+        "st": "<b>the God of Hosts, Who sits upon the cherubs,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֱלֹהֵי",
+            "en": "the God of"
+          },
+          {
+            "he": "הַצְּבָאוֹת",
+            "en": "the armies"
+          },
+          {
+            "he": "יוֹשֵׁב",
+            "en": "Who sits"
+          },
+          {
+            "he": "הַכְּרוּבִים",
+            "en": "the Keruvim"
+          }
+        ]
+      },
+      {
+        "he": "עַל הַמָּזוֹן שֶׁאָכָלְנוּ.",
+        "en": "for the food that we ate.\"",
+        "st": "<b>for the food that we have eaten.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַל",
+            "en": "for"
+          },
+          {
+            "he": "הַמָּזוֹן",
+            "en": "the food"
+          },
+          {
+            "he": "שֶׁאָכָלְנוּ.",
+            "en": "that we ate"
+          }
+        ]
+      },
+      {
+        "he": "רַבִּי יוֹסֵי הַגְּלִילִי אוֹמֵר,",
+        "en": "Rabbi Yosi HaGelili says:",
+        "st": "On a similar note, <b>Rabbi Yosei HaGelili says:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "רַבִּי",
+            "en": "Rabbi"
+          },
+          {
+            "he": "יוֹסֵי",
+            "en": "Yosi",
+            "note": "A great Rabbi of the Mishnah."
+          },
+          {
+            "he": "הַגְּלִילִי",
+            "en": "from the Galil"
+          },
+          {
+            "he": "אוֹמֵר,",
+            "en": "says"
+          }
+        ]
+      },
+      {
+        "he": "לְפִי רֹב הַקָּהָל הֵן מְבָרְכִין,",
+        "en": "The words of the bracha depend on how big the crowd is,",
+        "st": "<b>According to the size of the crowd, they recite the blessing,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "לְפִי",
+            "en": "according to"
+          },
+          {
+            "he": "רֹב",
+            "en": "the size of"
+          },
+          {
+            "he": "הַקָּהָל",
+            "en": "the crowd"
+          },
+          {
+            "he": "הֵן",
+            "en": "they"
+          },
+          {
+            "he": "מְבָרְכִין,",
+            "en": "bless"
+          }
+        ]
+      },
+      {
+        "he": "שֶׁנֶּאֱמַר בְּמַקְהֵלוֹת בָּרְכוּ אֱלֹהִים,",
+        "en": "as the pasuk says: \"In big crowds, bless God,",
+        "st": "<b>as it is stated: “Bless you God in full assemblies,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "שֶׁנֶּאֱמַר",
+            "en": "as it says"
+          },
+          {
+            "he": "בְּמַקְהֵלוֹת",
+            "en": "in crowds"
+          },
+          {
+            "he": "בָּרְכוּ",
+            "en": "bless"
+          },
+          {
+            "he": "אֱלֹהִים,",
+            "en": "God"
+          }
+        ]
+      },
+      {
+        "he": "יְיָ מִמְּקוֹר יִשְׂרָאֵל (תהלים סח).",
+        "en": "Hashem, you who come from the fountain of Israel.\" That is in Tehillim.",
+        "st": "<b>even the Lord, you who are from the fountain of Israel”</b> (Psalms 68:27).",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "יְיָ",
+            "en": "Hashem"
+          },
+          {
+            "he": "מִמְּקוֹר",
+            "en": "from the source of"
+          },
+          {
+            "he": "יִשְׂרָאֵל",
+            "en": "Israel"
+          },
+          {
+            "he": "(תהלים",
+            "en": "Tehillim"
+          },
+          {
+            "he": "סח).",
+            "en": "68",
+            "note": "Chapter 68 of Tehillim."
+          }
+        ]
+      },
+      {
+        "he": "אָמַר רַבִּי עֲקִיבָא,",
+        "en": "Rabbi Akiva said:",
+        "explain": "The size of the crowd does not change the words.",
+        "st": "<b>Rabbi Akiva said</b>",
+        "stMore": "that there are no distinctions based on the size of the crowd:",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אָמַר",
+            "en": "said"
+          },
+          {
+            "he": "רַבִּי",
+            "en": "Rabbi"
+          },
+          {
+            "he": "עֲקִיבָא,",
+            "en": "Akiva",
+            "note": "A great Rabbi of the Mishnah."
+          }
+        ]
+      },
+      {
+        "he": "מַה מָּצִינוּ בְּבֵית הַכְּנֶסֶת,",
+        "en": "What do we see in shul?",
+        "st": "<b>What do we find in the synagogue?</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מַה",
+            "en": "what"
+          },
+          {
+            "he": "מָּצִינוּ",
+            "en": "do we find"
+          },
+          {
+            "he": "בְּבֵית",
+            "en": "in the house of"
+          },
+          {
+            "he": "הַכְּנֶסֶת,",
+            "en": "gathering",
+            "note": "A beis hakneses is a shul."
+          }
+        ]
+      },
+      {
+        "he": "אֶחָד מְרֻבִּין וְאֶחָד מֻעָטִין אוֹמֵר,",
+        "en": "Whether there are many people or few, the chazzan says",
+        "st": "<b>Both</b> when there are <b>many and</b> when there are <b>few,</b> as long as there is a quorum of ten, the prayer leader <b>says:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֶחָד",
+            "en": "both"
+          },
+          {
+            "he": "מְרֻבִּין",
+            "en": "many"
+          },
+          {
+            "he": "וְאֶחָד",
+            "en": "and also"
+          },
+          {
+            "he": "מֻעָטִין",
+            "en": "few"
+          },
+          {
+            "he": "אוֹמֵר,",
+            "en": "he says"
+          }
+        ]
+      },
+      {
+        "he": "בָּרְכוּ אֶת יְיָ.",
+        "en": "\"Bless Hashem.\"",
+        "st": "<b>Bless [barekhu] the Lord.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בָּרְכוּ",
+            "en": "bless"
+          },
+          {
+            "he": "אֶת",
+            "en": "et",
+            "note": "A little word that points to what the action is done to."
+          },
+          {
+            "he": "יְיָ.",
+            "en": "Hashem"
+          }
+        ]
+      },
+      {
+        "he": "רַבִּי יִשְׁמָעֵאל אוֹמֵר,",
+        "en": "Rabbi Yishmael says:",
+        "st": "<b>Rabbi Yishmael said</b> that in the synagogue, one recites:",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "רַבִּי",
+            "en": "Rabbi"
+          },
+          {
+            "he": "יִשְׁמָעֵאל",
+            "en": "Yishmael",
+            "note": "A great Rabbi of the Mishnah."
+          },
+          {
+            "he": "אוֹמֵר,",
+            "en": "says"
+          }
+        ]
+      },
+      {
+        "he": "בָּרְכוּ אֶת יְיָ הַמְבֹרָךְ:",
+        "en": "\"Bless Hashem, the Blessed One.\"",
+        "st": "<b>Bless the Lord the blessed One.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בָּרְכוּ",
+            "en": "bless"
+          },
+          {
+            "he": "אֶת",
+            "en": "et",
+            "note": "A little word that points to what the action is done to."
+          },
+          {
+            "he": "יְיָ",
+            "en": "Hashem"
+          },
+          {
+            "he": "הַמְבֹרָךְ:",
+            "en": "the Blessed One"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "perek": 7,
+    "mishnah": 4,
+    "summary": "A group that ate together may only split up into smaller groups for zimmun if each smaller group can still say the same zimmun.",
+    "stIntro": "",
+    "chunks": [
+      {
+        "he": "שְׁלשָׁה שֶׁאָכְלוּ כְאֶחָד,",
+        "en": "Three people who ate together",
+        "st": "<b>Three</b> people <b>who ate as one</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "שְׁלשָׁה",
+            "en": "three"
+          },
+          {
+            "he": "שֶׁאָכְלוּ",
+            "en": "who ate"
+          },
+          {
+            "he": "כְאֶחָד,",
+            "en": "as one"
+          }
+        ]
+      },
+      {
+        "he": "אֵינָן רַשָּׁאִין לֵחָלֵק,",
+        "en": "are not allowed to split up and bentch alone,",
+        "st": "<b>are not permitted to divide</b> and recite Grace after Meals individually;",
+        "stMore": "rather, they recite the zimmun together.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֵינָן",
+            "en": "are not"
+          },
+          {
+            "he": "רַשָּׁאִין",
+            "en": "allowed"
+          },
+          {
+            "he": "לֵחָלֵק,",
+            "en": "to split up"
+          }
+        ]
+      },
+      {
+        "he": "וְכֵן אַרְבָּעָה,",
+        "en": "and the same is true for four,",
+        "st": "<b>And the same</b> is true of <b>four</b> who ate together,",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְכֵן",
+            "en": "and so"
+          },
+          {
+            "he": "אַרְבָּעָה,",
+            "en": "four"
+          }
+        ]
+      },
+      {
+        "he": "וְכֵן חֲמִשָּׁה.",
+        "en": "and the same is true for five.",
+        "st": "<b>and the same</b> is true of <b>five.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְכֵן",
+            "en": "and so"
+          },
+          {
+            "he": "חֲמִשָּׁה.",
+            "en": "five"
+          }
+        ]
+      },
+      {
+        "he": "שִׁשָּׁה נֶחֱלָקִין, עַד עֲשָׂרָה.",
+        "en": "A group of six, up to ten, may split up.",
+        "explain": "Up to nine. Each smaller group makes its own zimmun.",
+        "st": "However, a group of <b>six, up to</b> but not including <b>ten</b> people who ate as one, <b>may divide</b> into two groups, each reciting its own zimmun.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "שִׁשָּׁה",
+            "en": "six"
+          },
+          {
+            "he": "נֶחֱלָקִין,",
+            "en": "may split up"
+          },
+          {
+            "he": "עַד",
+            "en": "until"
+          },
+          {
+            "he": "עֲשָׂרָה.",
+            "en": "ten"
+          }
+        ]
+      },
+      {
+        "he": "וַעֲשָׂרָה אֵינָן נֶחֱלָקִין,",
+        "en": "And a group of ten may not split up",
+        "st": "<b>And</b> a group of <b>ten may not divide</b> into two groups",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וַעֲשָׂרָה",
+            "en": "and ten"
+          },
+          {
+            "he": "אֵינָן",
+            "en": "may not"
+          },
+          {
+            "he": "נֶחֱלָקִין,",
+            "en": "split up"
+          }
+        ]
+      },
+      {
+        "he": "עַד שֶׁיִּהְיוּ עֶשְׂרִים:",
+        "en": "until there are twenty.",
+        "st": "<b>until there are twenty</b> people present.",
+        "stMore": "The general principle is that a group may not divide unless the smaller groups will be able to recite the same zimmun formula that the whole group would have recited.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "until"
+          },
+          {
+            "he": "שֶׁיִּהְיוּ",
+            "en": "there are"
+          },
+          {
+            "he": "עֶשְׂרִים:",
+            "en": "twenty"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "perek": 7,
+    "mishnah": 5,
+    "summary": "Two groups eating in one house can join for zimmun if they can see each other. Also, Rabbi Eliezer and the Sages argue about making a bracha on wine with no water added.",
+    "stIntro": "The mishna states a halakha with regard to two groups joining together:",
+    "chunks": [
+      {
+        "he": "שְׁתֵּי חֲבוּרוֹת שֶׁהָיוּ אוֹכְלוֹת בְּבַיִת אֶחָד,",
+        "en": "Two groups that were eating in one house,",
+        "st": "<b>Two groups that were eating in one house,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "שְׁתֵּי",
+            "en": "two"
+          },
+          {
+            "he": "חֲבוּרוֹת",
+            "en": "groups"
+          },
+          {
+            "he": "שֶׁהָיוּ",
+            "en": "that were"
+          },
+          {
+            "he": "אוֹכְלוֹת",
+            "en": "eating"
+          },
+          {
+            "he": "בְּבַיִת",
+            "en": "in a house"
+          },
+          {
+            "he": "אֶחָד,",
+            "en": "one"
+          }
+        ]
+      },
+      {
+        "he": "בִּזְמַן שֶׁמִּקְצָתָן רוֹאִין אֵלּוּ אֶת אֵלּוּ,",
+        "en": "when some of them can see each other,",
+        "st": "<b>when some</b> members of each group <b>can see each other,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בִּזְמַן",
+            "en": "when"
+          },
+          {
+            "he": "שֶׁמִּקְצָתָן",
+            "en": "that some of them"
+          },
+          {
+            "he": "רוֹאִין",
+            "en": "see"
+          },
+          {
+            "he": "אֵלּוּ",
+            "en": "these"
+          },
+          {
+            "he": "אֶת",
+            "en": "et",
+            "note": "A little word that points to what the action is done to."
+          },
+          {
+            "he": "אֵלּוּ,",
+            "en": "those"
+          }
+        ]
+      },
+      {
+        "he": "הֲרֵי אֵלּוּ מִצְטָרְפִים לְזִמּוּן.",
+        "en": "they may join together for a zimmun.",
+        "st": "<b>they may combine to</b> form a <b>zimmun.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "הֲרֵי",
+            "en": "so"
+          },
+          {
+            "he": "אֵלּוּ",
+            "en": "these"
+          },
+          {
+            "he": "מִצְטָרְפִים",
+            "en": "join together"
+          },
+          {
+            "he": "לְזִמּוּן.",
+            "en": "for zimmun",
+            "note": "Inviting the others to bentch together, saying \"Let us bless.\""
+          }
+        ]
+      },
+      {
+        "he": "וְאִם לָאו,",
+        "en": "And if not,",
+        "st": "<b>And if not,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאִם",
+            "en": "and if"
+          },
+          {
+            "he": "לָאו,",
+            "en": "not"
+          }
+        ]
+      },
+      {
+        "he": "אֵלּוּ מְזַמְּנִין לְעַצְמָן,",
+        "en": "these make a zimmun for themselves,",
+        "st": "<b>these recite a zimmun for themselves</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֵלּוּ",
+            "en": "these"
+          },
+          {
+            "he": "מְזַמְּנִין",
+            "en": "make zimmun"
+          },
+          {
+            "he": "לְעַצְמָן,",
+            "en": "for themselves"
+          }
+        ]
+      },
+      {
+        "he": "וְאֵלּוּ מְזַמְּנִין לְעַצְמָן.",
+        "en": "and those make a zimmun for themselves.",
+        "st": "<b>and those recite a zimmun for themselves.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאֵלּוּ",
+            "en": "and those"
+          },
+          {
+            "he": "מְזַמְּנִין",
+            "en": "make zimmun"
+          },
+          {
+            "he": "לְעַצְמָן.",
+            "en": "for themselves"
+          }
+        ]
+      },
+      {
+        "he": "אֵין מְבָרְכִין עַל הַיַּיִן",
+        "en": "We do not make a bracha on wine",
+        "st": "The mishna also speaks of the blessing over wine: <b>One does not recite a blessing over wine</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֵין",
+            "en": "we do not"
+          },
+          {
+            "he": "מְבָרְכִין",
+            "en": "bless"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַיַּיִן",
+            "en": "the wine"
+          }
+        ]
+      },
+      {
+        "he": "עַד שֶׁיִּתֵּן לְתוֹכוֹ מַיִם,",
+        "en": "until water is put into it,",
+        "st": "<b>until he adds water to it,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "until"
+          },
+          {
+            "he": "שֶׁיִּתֵּן",
+            "en": "he puts"
+          },
+          {
+            "he": "לְתוֹכוֹ",
+            "en": "into it"
+          },
+          {
+            "he": "מַיִם,",
+            "en": "water"
+          }
+        ]
+      },
+      {
+        "he": "דִּבְרֵי רַבִּי אֱלִיעֶזֶר.",
+        "en": "These are the words of Rabbi Eliezer.",
+        "explain": "Wine with no water was too strong to drink.",
+        "st": "that is <b>the statement of Rabbi Eliezer.</b>",
+        "stMore": "Undiluted wine is too strong to drink and a blessing is inappropriate.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "דִּבְרֵי",
+            "en": "the words of"
+          },
+          {
+            "he": "רַבִּי",
+            "en": "Rabbi"
+          },
+          {
+            "he": "אֱלִיעֶזֶר.",
+            "en": "Eliezer",
+            "note": "A great Rabbi of the Mishnah."
+          }
+        ]
+      },
+      {
+        "he": "וַחֲכָמִים אוֹמְרִים, מְבָרְכִין:",
+        "en": "But the Sages say: we do make a bracha on it.",
+        "st": "<b>And the Rabbis say:</b> Since it is possible to drink undiluted wine, one <b>recites a blessing over it.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "basisNote": "Steinsaltz: plain wine gets no bracha; Bartenura: it gets ha'etz, not hagafen.",
+        "words": [
+          {
+            "he": "וַחֲכָמִים",
+            "en": "and the Sages"
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          },
+          {
+            "he": "מְבָרְכִין:",
+            "en": "we bless"
+          }
+        ]
+      }
+    ]
+  }
 ]

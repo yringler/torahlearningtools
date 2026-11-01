@@ -1,1316 +1,1589 @@
 [
- {
-  "perek": 8,
-  "mishnah": 1,
-  "summary": "This perek lists arguments between Beis Shammai and Beis Hillel about meals. The first is about Kiddush: which bracha comes first, the one on the day or the one on the wine.",
-  "chunks": [
-   {
-    "he": "אֵלּוּ דְבָרִים",
-    "en": "These are the things",
-    "words": [
-     {
-      "he": "אֵלּוּ",
-      "en": "these are"
-     },
-     {
-      "he": "דְבָרִים",
-      "en": "things"
-     }
+  {
+    "perek": 8,
+    "mishnah": 1,
+    "summary": "This perek lists arguments between Beis Shammai and Beis Hillel about meals. The first is about Kiddush: which bracha comes first, the one on the day or the one on the wine.",
+    "stIntro": "",
+    "chunks": [
+      {
+        "he": "אֵלּוּ דְבָרִים",
+        "en": "These are the things",
+        "st": "<b>These</b> are the <b>matters</b> of dispute",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֵלּוּ",
+            "en": "these are"
+          },
+          {
+            "he": "דְבָרִים",
+            "en": "things"
+          }
+        ]
+      },
+      {
+        "he": "שֶׁבֵּין בֵּית שַׁמַּאי וּבֵית הִלֵּל",
+        "en": "that Beis Shammai and Beis Hillel argue about",
+        "st": "<b>between Beit Shammai and Beit Hillel</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "שֶׁבֵּין",
+            "en": "that are between"
+          },
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai",
+            "note": "The students of Shammai, a great Rabbi long ago."
+          },
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel",
+            "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
+          }
+        ]
+      },
+      {
+        "he": "בַּסְּעֻדָּה.",
+        "en": "about a meal.",
+        "st": "<b>with regard to</b> the halakhot of <b>a meal:</b>",
+        "stMore": "One dispute concerns the order of blessings in kiddush.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בַּסְּעֻדָּה.",
+            "en": "at the meal"
+          }
+        ]
+      },
+      {
+        "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+        "en": "Beis Shammai say:",
+        "st": "<b>Beit Shammai say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai"
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "מְבָרֵךְ עַל הַיּוֹם",
+        "en": "first he makes the bracha on the day,",
+        "explain": "This is Kiddush, the bracha for the holy day.",
+        "st": "When one recites kiddush over wine, <b>one recites a blessing over the</b> sanctification of the <b>day</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מְבָרֵךְ",
+            "en": "he blesses"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַיּוֹם",
+            "en": "the day"
+          }
+        ]
+      },
+      {
+        "he": "וְאַחַר כָּךְ מְבָרֵךְ עַל הַיַּיִן.",
+        "en": "and after that he makes the bracha on the wine.",
+        "st": "<b>and recites a blessing over the wine thereafter.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאַחַר",
+            "en": "and after"
+          },
+          {
+            "he": "כָּךְ",
+            "en": "that"
+          },
+          {
+            "he": "מְבָרֵךְ",
+            "en": "he blesses"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַיַּיִן.",
+            "en": "the wine"
+          }
+        ]
+      },
+      {
+        "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+        "en": "And Beis Hillel say:",
+        "st": "<b>And Beit Hillel say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel"
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "מְבָרֵךְ עַל הַיַּיִן",
+        "en": "first he makes the bracha on the wine,",
+        "st": "<b>One recites a blessing over the wine</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מְבָרֵךְ",
+            "en": "he blesses"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַיַּיִן",
+            "en": "the wine"
+          }
+        ]
+      },
+      {
+        "he": "וְאַחַר כָּךְ מְבָרֵךְ עַל הַיּוֹם:",
+        "en": "and after that he makes the bracha on the day.",
+        "st": "<b>and recites a blessing over the day thereafter.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאַחַר",
+            "en": "and after"
+          },
+          {
+            "he": "כָּךְ",
+            "en": "that"
+          },
+          {
+            "he": "מְבָרֵךְ",
+            "en": "he blesses"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַיּוֹם:",
+            "en": "the day"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "he": "שֶׁבֵּין בֵּית שַׁמַּאי וּבֵית הִלֵּל",
-    "en": "that Beis Shammai and Beis Hillel argue about",
-    "words": [
-     {
-      "he": "שֶׁבֵּין",
-      "en": "that are between"
-     },
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai",
-      "note": "The students of Shammai, a great Rabbi long ago."
-     },
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel",
-      "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
-     }
+  },
+  {
+    "perek": 8,
+    "mishnah": 2,
+    "summary": "Beis Shammai and Beis Hillel argue about what comes first before a meal: washing hands or pouring the cup of wine.",
+    "stIntro": "Similarly, Beit Hillel and Beit Shammai disagree with regard to drinking wine before a meal.",
+    "chunks": [
+      {
+        "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+        "en": "Beis Shammai say:",
+        "st": "<b>Beit Shammai say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai",
+            "note": "The students of Shammai, a great Rabbi long ago."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "נוֹטְלִין לַיָּדַיִם,",
+        "en": "first we wash our hands,",
+        "st": "<b>One washes his hands</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "נוֹטְלִין",
+            "en": "we wash"
+          },
+          {
+            "he": "לַיָּדַיִם,",
+            "en": "the hands"
+          }
+        ]
+      },
+      {
+        "he": "וְאַחַר כָּךְ מוֹזְגִין אֶת הַכּוֹס.",
+        "en": "and after that we mix water into the cup of wine.",
+        "st": "<b>and mixes</b> water with the wine in <b>the cup thereafter,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "basisNote": "Steinsaltz: mix water into the wine; Bartenura: pour the cup.",
+        "words": [
+          {
+            "he": "וְאַחַר",
+            "en": "and after"
+          },
+          {
+            "he": "כָּךְ",
+            "en": "that"
+          },
+          {
+            "he": "מוֹזְגִין",
+            "en": "we mix"
+          },
+          {
+            "he": "אֶת",
+            "en": "et",
+            "note": "A little word that points to what the action is done to."
+          },
+          {
+            "he": "הַכּוֹס.",
+            "en": "the cup"
+          }
+        ]
+      },
+      {
+        "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+        "en": "And Beis Hillel say:",
+        "st": "<b>and Beit Hillel say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel",
+            "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "מוֹזְגִין אֶת הַכּוֹס",
+        "en": "first we mix water into the cup of wine,",
+        "st": "<b>One mixes</b> water with the wine in <b>the cup</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מוֹזְגִין",
+            "en": "we mix"
+          },
+          {
+            "he": "אֶת",
+            "en": "et",
+            "note": "A little word that points to what the action is done to."
+          },
+          {
+            "he": "הַכּוֹס",
+            "en": "the cup"
+          }
+        ]
+      },
+      {
+        "he": "וְאַחַר כָּךְ נוֹטְלִין לַיָּדָיִם:",
+        "en": "and after that we wash our hands.",
+        "st": "<b>and</b> only <b>washes his hands thereafter.</b>",
+        "stMore": "The basis of this particular dispute is with regard to the laws of ritual purity, as the Gemara will explain below.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאַחַר",
+            "en": "and after"
+          },
+          {
+            "he": "כָּךְ",
+            "en": "that"
+          },
+          {
+            "he": "נוֹטְלִין",
+            "en": "we wash"
+          },
+          {
+            "he": "לַיָּדָיִם:",
+            "en": "the hands"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "he": "בַּסְּעֻדָּה.",
-    "en": "at a meal.",
-    "words": [
-     {
-      "he": "בַּסְּעֻדָּה.",
-      "en": "at the meal"
-     }
+  },
+  {
+    "perek": 8,
+    "mishnah": 3,
+    "summary": "After washing hands, where should a person put the towel? Beis Shammai say on the table, and Beis Hillel say on the cushion.",
+    "stIntro": "Also with regard to the laws of ritual purity,",
+    "chunks": [
+      {
+        "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+        "en": "Beis Shammai say:",
+        "st": "<b>Beit Shammai say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai",
+            "note": "The students of Shammai, a great Rabbi long ago."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "מְקַנֵּחַ יָדָיו בַּמַּפָּה וּמַנִּיחָהּ עַל הַשֻּׁלְחָן.",
+        "en": "after washing, he dries his hands with a cloth and puts it on the table.",
+        "st": "After washing, <b>one dries his hands with a cloth and places it on the table.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מְקַנֵּחַ",
+            "en": "he wipes"
+          },
+          {
+            "he": "יָדָיו",
+            "en": "his hands"
+          },
+          {
+            "he": "בַּמַּפָּה",
+            "en": "with the cloth"
+          },
+          {
+            "he": "וּמַנִּיחָהּ",
+            "en": "and puts it"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַשֻּׁלְחָן.",
+            "en": "the table"
+          }
+        ]
+      },
+      {
+        "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+        "en": "And Beis Hillel say:",
+        "st": "<b>And Beit Hillel say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel",
+            "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "עַל הַכֶּסֶת:",
+        "en": "he puts it on the cushion he sits on.",
+        "st": "One places it <b>on the cushion</b> upon which he is sitting.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַכֶּסֶת:",
+            "en": "the cushion"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
-    "en": "Beis Shammai say:",
-    "words": [
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai"
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
+  },
+  {
+    "perek": 8,
+    "mishnah": 4,
+    "summary": "After the meal, what comes first: sweeping the floor or washing hands before bentching?",
+    "stIntro": "",
+    "chunks": [
+      {
+        "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+        "en": "Beis Shammai say:",
+        "st": "Similarly, <b>Beit Shammai say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai",
+            "note": "The students of Shammai, a great Rabbi long ago."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "מְכַבְּדִין אֶת הַבַּיִת",
+        "en": "first we sweep the room where we ate,",
+        "st": "<b>One sweeps the</b> area of the <b>house</b> where the meal took place",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מְכַבְּדִין",
+            "en": "we sweep"
+          },
+          {
+            "he": "אֶת",
+            "en": "et",
+            "note": "A little word that points to what the action is done to."
+          },
+          {
+            "he": "הַבַּיִת",
+            "en": "the house",
+            "note": "The room where they ate."
+          }
+        ]
+      },
+      {
+        "he": "וְאַחַר כָּךְ נוֹטְלִין לַיָּדַיִם.",
+        "en": "and after that we wash our hands before bentching.",
+        "st": "<b>and he washes his hands</b> with the final waters before Grace after Meals <b>thereafter.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאַחַר",
+            "en": "and after"
+          },
+          {
+            "he": "כָּךְ",
+            "en": "that"
+          },
+          {
+            "he": "נוֹטְלִין",
+            "en": "we wash"
+          },
+          {
+            "he": "לַיָּדַיִם.",
+            "en": "the hands"
+          }
+        ]
+      },
+      {
+        "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+        "en": "And Beis Hillel say:",
+        "st": "<b>And Beit Hillel say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel",
+            "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "נוֹטְלִין לַיָּדַיִם",
+        "en": "first we wash our hands,",
+        "st": "<b>One washes his hands</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "נוֹטְלִין",
+            "en": "we wash"
+          },
+          {
+            "he": "לַיָּדַיִם",
+            "en": "the hands"
+          }
+        ]
+      },
+      {
+        "he": "וְאַחַר כָּךְ מְכַבְּדִין אֶת הַבָּיִת:",
+        "en": "and after that we sweep the room.",
+        "st": "<b>and sweeps the house thereafter.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאַחַר",
+            "en": "and after"
+          },
+          {
+            "he": "כָּךְ",
+            "en": "that"
+          },
+          {
+            "he": "מְכַבְּדִין",
+            "en": "we sweep"
+          },
+          {
+            "he": "אֶת",
+            "en": "et",
+            "note": "A little word that points to what the action is done to."
+          },
+          {
+            "he": "הַבָּיִת:",
+            "en": "the house",
+            "note": "The room where they ate."
+          }
+        ]
+      }
     ]
-   },
-   {
-    "he": "מְבָרֵךְ עַל הַיּוֹם",
-    "en": "first he makes the bracha on the day (Shabbos or Yom Tov),",
-    "words": [
-     {
-      "he": "מְבָרֵךְ",
-      "en": "he blesses"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַיּוֹם",
-      "en": "the day"
-     }
+  },
+  {
+    "perek": 8,
+    "mishnah": 5,
+    "summary": "If a meal goes on until Shabbos is over, there are four brachos to say. Beis Shammai and Beis Hillel argue about their order, and about the words of the bracha on the fire.",
+    "stIntro": "Just as they dispute the order of the blessings in kiddush, they dispute the order of the blessings in havdala. If a meal continued until the conclusion of Shabbat,",
+    "chunks": [
+      {
+        "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+        "en": "Beis Shammai say the order is:",
+        "st": "<b>Beit Shammai say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai",
+            "note": "The students of Shammai, a great Rabbi long ago."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "נֵר וּמָזוֹן וּבְשָׂמִים וְהַבְדָּלָה.",
+        "en": "candle, bentching, spices, and Havdalah.",
+        "st": "One recites the blessing over the <b>candle,</b> then the Grace after <b>Meals</b> blessing, then the blessing over the <b>spices,</b> and finally the blessing of <b>havdala.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "נֵר",
+            "en": "candle"
+          },
+          {
+            "he": "וּמָזוֹן",
+            "en": "and food",
+            "note": "Bentching, the bracha after the meal."
+          },
+          {
+            "he": "וּבְשָׂמִים",
+            "en": "and spices"
+          },
+          {
+            "he": "וְהַבְדָּלָה.",
+            "en": "and Havdalah",
+            "note": "The bracha that separates Shabbos from the weekdays."
+          }
+        ]
+      },
+      {
+        "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+        "en": "And Beis Hillel say:",
+        "st": "<b>And Beit Hillel say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel",
+            "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "נֵר וּבְשָׂמִים וּמָזוֹן וְהַבְדָּלָה.",
+        "en": "candle, spices, bentching, and Havdalah.",
+        "st": "The order is <b>candle, spices,</b> Grace after <b>Meals, and havdala.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "נֵר",
+            "en": "candle"
+          },
+          {
+            "he": "וּבְשָׂמִים",
+            "en": "and spices"
+          },
+          {
+            "he": "וּמָזוֹן",
+            "en": "and food",
+            "note": "Bentching, the bracha after the meal."
+          },
+          {
+            "he": "וְהַבְדָּלָה.",
+            "en": "and Havdalah"
+          }
+        ]
+      },
+      {
+        "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+        "en": "For the bracha on the fire, Beis Shammai say:",
+        "st": "With regard to the blessing over the candle, <b>Beit Shammai say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai"
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "שֶׁבָּרָא מְאוֹר הָאֵשׁ.",
+        "en": "\"Who created the light of the fire.\"",
+        "st": "<b>Who created [bara] the light of fire.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "שֶׁבָּרָא",
+            "en": "Who created"
+          },
+          {
+            "he": "מְאוֹר",
+            "en": "the light of"
+          },
+          {
+            "he": "הָאֵשׁ.",
+            "en": "the fire"
+          }
+        ]
+      },
+      {
+        "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+        "en": "And Beis Hillel say:",
+        "st": "<b>And Beit Hillel say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel"
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "בּוֹרֵא מְאוֹרֵי הָאֵשׁ:",
+        "en": "\"Who creates the lights of the fire.\"",
+        "st": "<b>Who creates [boreh] the lights of fire.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בּוֹרֵא",
+            "en": "Who creates"
+          },
+          {
+            "he": "מְאוֹרֵי",
+            "en": "the lights of"
+          },
+          {
+            "he": "הָאֵשׁ:",
+            "en": "the fire"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "he": "וְאַחַר כָּךְ מְבָרֵךְ עַל הַיַּיִן.",
-    "en": "and after that he makes the bracha on the wine.",
-    "words": [
-     {
-      "he": "וְאַחַר",
-      "en": "and after"
-     },
-     {
-      "he": "כָּךְ",
-      "en": "that"
-     },
-     {
-      "he": "מְבָרֵךְ",
-      "en": "he blesses"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַיַּיִן.",
-      "en": "the wine"
-     }
+  },
+  {
+    "perek": 8,
+    "mishnah": 6,
+    "summary": "Some candles and spices may not be used for the Havdalah brachos, like those used for idols. Also, we only make the bracha on a candle when we can use its light.",
+    "stIntro": "",
+    "chunks": [
+      {
+        "he": "אֵין מְבָרְכִין לֹא עַל הַנֵּר",
+        "en": "We do not make a bracha on the candle",
+        "st": "<b>One may neither recite a blessing over the candle</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֵין",
+            "en": "we do not"
+          },
+          {
+            "he": "מְבָרְכִין",
+            "en": "bless"
+          },
+          {
+            "he": "לֹא",
+            "en": "not"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַנֵּר",
+            "en": "the candle"
+          }
+        ]
+      },
+      {
+        "he": "וְלֹא עַל הַבְּשָׂמִים שֶׁל עוֹבְדֵי כוֹכָבִים,",
+        "en": "or on the spices of non-Jews,",
+        "st": "<b>nor over the spices of gentiles,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "basisNote": "Steinsaltz: of gentiles; Bartenura: of idol worshippers, used at their parties.",
+        "words": [
+          {
+            "he": "וְלֹא",
+            "en": "and not"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַבְּשָׂמִים",
+            "en": "the spices"
+          },
+          {
+            "he": "שֶׁל",
+            "en": "of"
+          },
+          {
+            "he": "עוֹבְדֵי",
+            "en": "worshippers of"
+          },
+          {
+            "he": "כוֹכָבִים,",
+            "en": "stars",
+            "note": "Steinsaltz translates this as gentiles."
+          }
+        ]
+      },
+      {
+        "he": "וְלֹא עַל הַנֵּר",
+        "en": "nor on the candle",
+        "st": "<b>nor over the candle</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְלֹא",
+            "en": "and not"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַנֵּר",
+            "en": "the candle"
+          }
+        ]
+      },
+      {
+        "he": "וְלֹא עַל הַבְּשָׂמִים שֶׁל מֵתִים,",
+        "en": "or the spices used to honor the dead,",
+        "st": "<b>nor the spices</b> designated to pay respects <b>to the dead,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְלֹא",
+            "en": "and not"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַבְּשָׂמִים",
+            "en": "the spices"
+          },
+          {
+            "he": "שֶׁל",
+            "en": "of"
+          },
+          {
+            "he": "מֵתִים,",
+            "en": "the dead",
+            "note": "Candles and spices used to honor a person who passed away."
+          }
+        ]
+      },
+      {
+        "he": "וְלֹא עַל הַנֵּר",
+        "en": "nor on the candle",
+        "st": "<b>nor over the candle</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְלֹא",
+            "en": "and not"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַנֵּר",
+            "en": "the candle"
+          }
+        ]
+      },
+      {
+        "he": "וְלֹא עַל הַבְּשָׂמִים",
+        "en": "or the spices",
+        "st": "<b>nor the spices</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְלֹא",
+            "en": "and not"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַבְּשָׂמִים",
+            "en": "the spices"
+          }
+        ]
+      },
+      {
+        "he": "שֶׁלִּפְנֵי עֲבוֹדָה זָרָה.",
+        "en": "that are in front of an idol.",
+        "st": "<b>of idolatry.</b>",
+        "basis": [
+          "steinsaltz",
+          "bartenura"
+        ],
+        "words": [
+          {
+            "he": "שֶׁלִּפְנֵי",
+            "en": "that are in front of"
+          },
+          {
+            "he": "עֲבוֹדָה",
+            "en": "worship",
+            "note": "Avodah zarah means idol worship."
+          },
+          {
+            "he": "זָרָה.",
+            "en": "strange"
+          }
+        ]
+      },
+      {
+        "he": "אֵין מְבָרְכִין עַל הַנֵּר",
+        "en": "We do not make the bracha on the candle",
+        "st": "The mishna cites another halakha with regard to the blessing over the candle: <b>And one does not recite the blessing over the candle</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "אֵין",
+            "en": "we do not"
+          },
+          {
+            "he": "מְבָרְכִין",
+            "en": "bless"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַנֵּר",
+            "en": "the candle"
+          }
+        ]
+      },
+      {
+        "he": "עַד שֶׁיֵּאוֹתוּ לְאוֹרוֹ:",
+        "en": "until we can enjoy its light.",
+        "explain": "You must be close enough to use the light.",
+        "st": "<b>until he derives benefit from its light.</b>",
+        "basis": [
+          "steinsaltz",
+          "bartenura"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "until"
+          },
+          {
+            "he": "שֶׁיֵּאוֹתוּ",
+            "en": "they enjoy"
+          },
+          {
+            "he": "לְאוֹרוֹ:",
+            "en": "its light"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
-    "en": "And Beis Hillel say:",
-    "words": [
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel"
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
+  },
+  {
+    "perek": 8,
+    "mishnah": 7,
+    "summary": "If someone ate and forgot to bentch and left, where should he bentch? Also, there is a time limit for bentching.",
+    "stIntro": "The mishna cites an additional dispute:",
+    "chunks": [
+      {
+        "he": "מִי שֶׁאָכַל וְשָׁכַח וְלֹא בֵרַךְ,",
+        "en": "Someone who ate and forgot and did not bentch,",
+        "st": "<b>One who ate and forgot and did not recite a blessing;</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מִי",
+            "en": "someone"
+          },
+          {
+            "he": "שֶׁאָכַל",
+            "en": "who ate"
+          },
+          {
+            "he": "וְשָׁכַח",
+            "en": "and forgot"
+          },
+          {
+            "he": "וְלֹא",
+            "en": "and did not"
+          },
+          {
+            "he": "בֵרַךְ,",
+            "en": "bless"
+          }
+        ]
+      },
+      {
+        "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+        "en": "Beis Shammai say:",
+        "st": "<b>Beit Shammai say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai",
+            "note": "The students of Shammai, a great Rabbi long ago."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "יַחֲזֹר לִמְקוֹמוֹ וִיבָרֵךְ.",
+        "en": "he must go back to the place where he ate and bentch.",
+        "st": "<b>He returns to</b> the <b>place</b> where <b>he</b> ate <b>and recites the blessing.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "יַחֲזֹר",
+            "en": "he must go back"
+          },
+          {
+            "he": "לִמְקוֹמוֹ",
+            "en": "to his place"
+          },
+          {
+            "he": "וִיבָרֵךְ.",
+            "en": "and bless"
+          }
+        ]
+      },
+      {
+        "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+        "en": "And Beis Hillel say:",
+        "st": "<b>Beit Hillel say:</b> That is unnecessary.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel",
+            "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "יְבָרֵךְ בַּמָּקוֹם שֶׁנִּזְכָּר.",
+        "en": "he bentches in the place where he remembered.",
+        "st": "<b>He recites the blessing at the place</b> where <b>he remembered.</b>",
+        "stMore": "Both agree, however, that there is a limit with regard to how long after eating one may recite Grace after Meals.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "יְבָרֵךְ",
+            "en": "he should bless"
+          },
+          {
+            "he": "בַּמָּקוֹם",
+            "en": "in the place"
+          },
+          {
+            "he": "שֶׁנִּזְכָּר.",
+            "en": "that he remembered"
+          }
+        ]
+      },
+      {
+        "he": "עַד אֵימָתַי הוּא מְבָרֵךְ.",
+        "en": "Until when can he still bentch?",
+        "st": "<b>And until when does he recite the blessing?</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "until"
+          },
+          {
+            "he": "אֵימָתַי",
+            "en": "when"
+          },
+          {
+            "he": "הוּא",
+            "en": "he"
+          },
+          {
+            "he": "מְבָרֵךְ.",
+            "en": "blesses"
+          }
+        ]
+      },
+      {
+        "he": "עַד כְּדֵי שֶׁיִּתְעַכֵּל",
+        "en": "Until the food is digested",
+        "st": "<b>Until the food is digested</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "until"
+          },
+          {
+            "he": "כְּדֵי",
+            "en": "as long as"
+          },
+          {
+            "he": "שֶׁיִּתְעַכֵּל",
+            "en": "is digested"
+          }
+        ]
+      },
+      {
+        "he": "הַמָּזוֹן שֶׁבְּמֵעָיו:",
+        "en": "in his stomach.",
+        "explain": "As long as he is not hungry again.",
+        "st": "<b>in his intestines.</b>",
+        "basis": [
+          "steinsaltz",
+          "bartenura"
+        ],
+        "words": [
+          {
+            "he": "הַמָּזוֹן",
+            "en": "the food"
+          },
+          {
+            "he": "שֶׁבְּמֵעָיו:",
+            "en": "that is in his insides"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "he": "מְבָרֵךְ עַל הַיַּיִן",
-    "en": "first he makes the bracha on the wine,",
-    "words": [
-     {
-      "he": "מְבָרֵךְ",
-      "en": "he blesses"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַיַּיִן",
-      "en": "the wine"
-     }
+  },
+  {
+    "perek": 8,
+    "mishnah": 8,
+    "summary": "If wine is brought after the meal and there is only one cup, which bracha comes first? Also, when do we answer Amen to someone's bracha?",
+    "stIntro": "",
+    "chunks": [
+      {
+        "he": "בָּא לָהֶם יַיִן לְאַחַר הַמָּזוֹן",
+        "en": "If wine was brought to them after the meal,",
+        "st": "<b>Wine came before</b> the diners <b>after the meal;</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בָּא",
+            "en": "came"
+          },
+          {
+            "he": "לָהֶם",
+            "en": "to them"
+          },
+          {
+            "he": "יַיִן",
+            "en": "wine"
+          },
+          {
+            "he": "לְאַחַר",
+            "en": "after"
+          },
+          {
+            "he": "הַמָּזוֹן",
+            "en": "the food"
+          }
+        ]
+      },
+      {
+        "he": "וְאֵין שָׁם אֶלָּא אוֹתוֹ הַכּוֹס,",
+        "en": "and there is only that one cup,",
+        "st": "<b>if only that cup</b> of wine <b>is there,</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאֵין",
+            "en": "and there is not"
+          },
+          {
+            "he": "שָׁם",
+            "en": "there"
+          },
+          {
+            "he": "אֶלָּא",
+            "en": "except"
+          },
+          {
+            "he": "אוֹתוֹ",
+            "en": "that"
+          },
+          {
+            "he": "הַכּוֹס,",
+            "en": "the cup"
+          }
+        ]
+      },
+      {
+        "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+        "en": "Beis Shammai say:",
+        "st": "<b>Beit Shammai say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "בֵּית",
+            "en": "the house of"
+          },
+          {
+            "he": "שַׁמַּאי",
+            "en": "Shammai",
+            "note": "The students of Shammai, a great Rabbi long ago."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "מְבָרֵךְ עַל הַיַּיִן",
+        "en": "first he makes the bracha on the wine,",
+        "st": "<b>One recites a blessing over the wine</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מְבָרֵךְ",
+            "en": "he blesses"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַיַּיִן",
+            "en": "the wine"
+          }
+        ]
+      },
+      {
+        "he": "וְאַחַר כָּךְ מְבָרֵךְ עַל הַמָּזוֹן.",
+        "en": "and after that he bentches.",
+        "st": "<b>and recites a blessing over the food,</b> Grace after Meals, <b>thereafter.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאַחַר",
+            "en": "and after"
+          },
+          {
+            "he": "כָּךְ",
+            "en": "that"
+          },
+          {
+            "he": "מְבָרֵךְ",
+            "en": "he blesses"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַמָּזוֹן.",
+            "en": "the food"
+          }
+        ]
+      },
+      {
+        "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+        "en": "And Beis Hillel say:",
+        "st": "<b>And Beit Hillel say:</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וּבֵית",
+            "en": "and the house of"
+          },
+          {
+            "he": "הִלֵּל",
+            "en": "Hillel",
+            "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
+          },
+          {
+            "he": "אוֹמְרִים,",
+            "en": "say"
+          }
+        ]
+      },
+      {
+        "he": "מְבָרֵךְ עַל הַמָּזוֹן",
+        "en": "first he bentches,",
+        "st": "<b>One recites a blessing over the food</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "מְבָרֵךְ",
+            "en": "he blesses"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַמָּזוֹן",
+            "en": "the food"
+          }
+        ]
+      },
+      {
+        "he": "וְאַחַר כָּךְ מְבָרֵךְ עַל הַיָּיִן.",
+        "en": "and after that he makes the bracha on the wine.",
+        "st": "<b>and recites a blessing over the wine thereafter.</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאַחַר",
+            "en": "and after"
+          },
+          {
+            "he": "כָּךְ",
+            "en": "that"
+          },
+          {
+            "he": "מְבָרֵךְ",
+            "en": "he blesses"
+          },
+          {
+            "he": "עַל",
+            "en": "on"
+          },
+          {
+            "he": "הַיָּיִן.",
+            "en": "the wine"
+          }
+        ]
+      },
+      {
+        "he": "עוֹנִין אָמֵן אַחַר יִשְׂרָאֵל הַמְבָרֵךְ,",
+        "en": "We answer Amen after a Jew who makes a bracha,",
+        "explain": "Even if we did not hear the whole bracha.",
+        "st": "<b>And one answers amen after a Jew who recites a blessing</b> even if he did not hear the entire blessing,",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עוֹנִין",
+            "en": "we answer"
+          },
+          {
+            "he": "אָמֵן",
+            "en": "Amen"
+          },
+          {
+            "he": "אַחַר",
+            "en": "after"
+          },
+          {
+            "he": "יִשְׂרָאֵל",
+            "en": "a Jew"
+          },
+          {
+            "he": "הַמְבָרֵךְ,",
+            "en": "who blesses"
+          }
+        ]
+      },
+      {
+        "he": "וְאֵין עוֹנִין אָמֵן אַחַר הַכּוּתִי הַמְבָרֵךְ,",
+        "en": "but we do not answer Amen after a Kuti who makes a bracha",
+        "st": "<b>and one does not answer amen after a Samaritan [Kuti] who recites a blessing</b>",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "וְאֵין",
+            "en": "and we do not"
+          },
+          {
+            "he": "עוֹנִין",
+            "en": "answer"
+          },
+          {
+            "he": "אָמֵן",
+            "en": "Amen"
+          },
+          {
+            "he": "אַחַר",
+            "en": "after"
+          },
+          {
+            "he": "הַכּוּתִי",
+            "en": "the Kuti",
+            "note": "A Samaritan, a group who kept some of the Torah's mitzvos."
+          },
+          {
+            "he": "הַמְבָרֵךְ,",
+            "en": "who blesses"
+          }
+        ]
+      },
+      {
+        "he": "עַד שֶׁיִּשְׁמַע כָּל הַבְּרָכָה:",
+        "en": "until we hear the whole bracha.",
+        "explain": "Maybe he added words that go against our emunah.",
+        "st": "<b>until he hears the whole blessing in its entirety,</b>",
+        "stMore": "as perhaps the Kuti introduced an element inconsistent with the Jewish faith in that section of the blessing that he did not hear.",
+        "basis": [
+          "steinsaltz"
+        ],
+        "words": [
+          {
+            "he": "עַד",
+            "en": "until"
+          },
+          {
+            "he": "שֶׁיִּשְׁמַע",
+            "en": "he hears"
+          },
+          {
+            "he": "כָּל",
+            "en": "all"
+          },
+          {
+            "he": "הַבְּרָכָה:",
+            "en": "the bracha"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "he": "וְאַחַר כָּךְ מְבָרֵךְ עַל הַיּוֹם:",
-    "en": "and after that he makes the bracha on the day.",
-    "words": [
-     {
-      "he": "וְאַחַר",
-      "en": "and after"
-     },
-     {
-      "he": "כָּךְ",
-      "en": "that"
-     },
-     {
-      "he": "מְבָרֵךְ",
-      "en": "he blesses"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַיּוֹם:",
-      "en": "the day"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 8,
-  "mishnah": 2,
-  "summary": "Beis Shammai and Beis Hillel argue about what comes first before a meal: washing hands or pouring the cup of wine.",
-  "chunks": [
-   {
-    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
-    "en": "Beis Shammai say:",
-    "words": [
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai",
-      "note": "The students of Shammai, a great Rabbi long ago."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "נוֹטְלִין לַיָּדַיִם,",
-    "en": "first we wash our hands,",
-    "words": [
-     {
-      "he": "נוֹטְלִין",
-      "en": "we wash"
-     },
-     {
-      "he": "לַיָּדַיִם,",
-      "en": "the hands"
-     }
-    ]
-   },
-   {
-    "he": "וְאַחַר כָּךְ מוֹזְגִין אֶת הַכּוֹס.",
-    "en": "and after that we pour the cup of wine.",
-    "words": [
-     {
-      "he": "וְאַחַר",
-      "en": "and after"
-     },
-     {
-      "he": "כָּךְ",
-      "en": "that"
-     },
-     {
-      "he": "מוֹזְגִין",
-      "en": "we pour (mix)"
-     },
-     {
-      "he": "אֶת",
-      "en": "(word before an object)"
-     },
-     {
-      "he": "הַכּוֹס.",
-      "en": "the cup"
-     }
-    ]
-   },
-   {
-    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
-    "en": "And Beis Hillel say:",
-    "words": [
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel",
-      "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "מוֹזְגִין אֶת הַכּוֹס",
-    "en": "first we pour the cup of wine,",
-    "words": [
-     {
-      "he": "מוֹזְגִין",
-      "en": "we pour (mix)"
-     },
-     {
-      "he": "אֶת",
-      "en": "(word before an object)"
-     },
-     {
-      "he": "הַכּוֹס",
-      "en": "the cup"
-     }
-    ]
-   },
-   {
-    "he": "וְאַחַר כָּךְ נוֹטְלִין לַיָּדָיִם:",
-    "en": "and after that we wash our hands.",
-    "words": [
-     {
-      "he": "וְאַחַר",
-      "en": "and after"
-     },
-     {
-      "he": "כָּךְ",
-      "en": "that"
-     },
-     {
-      "he": "נוֹטְלִין",
-      "en": "we wash"
-     },
-     {
-      "he": "לַיָּדָיִם:",
-      "en": "the hands"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 8,
-  "mishnah": 3,
-  "summary": "After washing hands, where should a person put the towel? Beis Shammai say on the table, and Beis Hillel say on the cushion.",
-  "chunks": [
-   {
-    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
-    "en": "Beis Shammai say:",
-    "words": [
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai",
-      "note": "The students of Shammai, a great Rabbi long ago."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "מְקַנֵּחַ יָדָיו בַּמַּפָּה וּמַנִּיחָהּ עַל הַשֻּׁלְחָן.",
-    "en": "he dries his hands with a towel and puts it on the table.",
-    "words": [
-     {
-      "he": "מְקַנֵּחַ",
-      "en": "he wipes"
-     },
-     {
-      "he": "יָדָיו",
-      "en": "his hands"
-     },
-     {
-      "he": "בַּמַּפָּה",
-      "en": "with the towel"
-     },
-     {
-      "he": "וּמַנִּיחָהּ",
-      "en": "and puts it"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַשֻּׁלְחָן.",
-      "en": "the table"
-     }
-    ]
-   },
-   {
-    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
-    "en": "And Beis Hillel say:",
-    "words": [
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel",
-      "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "עַל הַכֶּסֶת:",
-    "en": "he puts it on the cushion.",
-    "words": [
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַכֶּסֶת:",
-      "en": "the cushion"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 8,
-  "mishnah": 4,
-  "summary": "After the meal, what comes first: sweeping the floor or washing hands before bentching?",
-  "chunks": [
-   {
-    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
-    "en": "Beis Shammai say:",
-    "words": [
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai",
-      "note": "The students of Shammai, a great Rabbi long ago."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "מְכַבְּדִין אֶת הַבַּיִת",
-    "en": "first we sweep the house,",
-    "words": [
-     {
-      "he": "מְכַבְּדִין",
-      "en": "we sweep"
-     },
-     {
-      "he": "אֶת",
-      "en": "(word before an object)"
-     },
-     {
-      "he": "הַבַּיִת",
-      "en": "the house"
-     }
-    ]
-   },
-   {
-    "he": "וְאַחַר כָּךְ נוֹטְלִין לַיָּדַיִם.",
-    "en": "and after that we wash our hands.",
-    "words": [
-     {
-      "he": "וְאַחַר",
-      "en": "and after"
-     },
-     {
-      "he": "כָּךְ",
-      "en": "that"
-     },
-     {
-      "he": "נוֹטְלִין",
-      "en": "we wash"
-     },
-     {
-      "he": "לַיָּדַיִם.",
-      "en": "the hands"
-     }
-    ]
-   },
-   {
-    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
-    "en": "And Beis Hillel say:",
-    "words": [
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel",
-      "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "נוֹטְלִין לַיָּדַיִם",
-    "en": "first we wash our hands,",
-    "words": [
-     {
-      "he": "נוֹטְלִין",
-      "en": "we wash"
-     },
-     {
-      "he": "לַיָּדַיִם",
-      "en": "the hands"
-     }
-    ]
-   },
-   {
-    "he": "וְאַחַר כָּךְ מְכַבְּדִין אֶת הַבָּיִת:",
-    "en": "and after that we sweep the house.",
-    "words": [
-     {
-      "he": "וְאַחַר",
-      "en": "and after"
-     },
-     {
-      "he": "כָּךְ",
-      "en": "that"
-     },
-     {
-      "he": "מְכַבְּדִין",
-      "en": "we sweep"
-     },
-     {
-      "he": "אֶת",
-      "en": "(word before an object)"
-     },
-     {
-      "he": "הַבָּיִת:",
-      "en": "the house"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 8,
-  "mishnah": 5,
-  "summary": "If a meal goes on until Shabbos is over, there are four brachos to say. Beis Shammai and Beis Hillel argue about their order, and about the words of the bracha on the fire.",
-  "chunks": [
-   {
-    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
-    "en": "Beis Shammai say the order is:",
-    "words": [
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai",
-      "note": "The students of Shammai, a great Rabbi long ago."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "נֵר וּמָזוֹן וּבְשָׂמִים וְהַבְדָּלָה.",
-    "en": "candle, bentching, spices, and Havdalah.",
-    "words": [
-     {
-      "he": "נֵר",
-      "en": "candle"
-     },
-     {
-      "he": "וּמָזוֹן",
-      "en": "and food (bentching)",
-      "note": "The bracha after the meal, Birkas HaMazon."
-     },
-     {
-      "he": "וּבְשָׂמִים",
-      "en": "and spices"
-     },
-     {
-      "he": "וְהַבְדָּלָה.",
-      "en": "and Havdalah",
-      "note": "The bracha that separates Shabbos from the weekdays."
-     }
-    ]
-   },
-   {
-    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
-    "en": "And Beis Hillel say:",
-    "words": [
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel",
-      "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "נֵר וּבְשָׂמִים וּמָזוֹן וְהַבְדָּלָה.",
-    "en": "candle, spices, bentching, and Havdalah.",
-    "words": [
-     {
-      "he": "נֵר",
-      "en": "candle"
-     },
-     {
-      "he": "וּבְשָׂמִים",
-      "en": "and spices"
-     },
-     {
-      "he": "וּמָזוֹן",
-      "en": "and food (bentching)"
-     },
-     {
-      "he": "וְהַבְדָּלָה.",
-      "en": "and Havdalah"
-     }
-    ]
-   },
-   {
-    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
-    "en": "Beis Shammai say the bracha on the fire is:",
-    "words": [
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai"
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "שֶׁבָּרָא מְאוֹר הָאֵשׁ.",
-    "en": "\"Who created the light of the fire.\"",
-    "words": [
-     {
-      "he": "שֶׁבָּרָא",
-      "en": "Who created"
-     },
-     {
-      "he": "מְאוֹר",
-      "en": "the light of"
-     },
-     {
-      "he": "הָאֵשׁ.",
-      "en": "the fire"
-     }
-    ]
-   },
-   {
-    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
-    "en": "And Beis Hillel say:",
-    "words": [
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel"
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "בּוֹרֵא מְאוֹרֵי הָאֵשׁ:",
-    "en": "\"Who creates the lights of the fire.\"",
-    "words": [
-     {
-      "he": "בּוֹרֵא",
-      "en": "Who creates"
-     },
-     {
-      "he": "מְאוֹרֵי",
-      "en": "the lights of"
-     },
-     {
-      "he": "הָאֵשׁ:",
-      "en": "the fire"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 8,
-  "mishnah": 6,
-  "summary": "Some candles and spices may not be used for the Havdalah brachos, like those used for idols. Also, we only make the bracha on a candle when we can use its light.",
-  "chunks": [
-   {
-    "he": "אֵין מְבָרְכִין לֹא עַל הַנֵּר",
-    "en": "We do not make a bracha on the candle",
-    "words": [
-     {
-      "he": "אֵין",
-      "en": "we do not"
-     },
-     {
-      "he": "מְבָרְכִין",
-      "en": "bless"
-     },
-     {
-      "he": "לֹא",
-      "en": "not"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַנֵּר",
-      "en": "the candle"
-     }
-    ]
-   },
-   {
-    "he": "וְלֹא עַל הַבְּשָׂמִים שֶׁל עוֹבְדֵי כוֹכָבִים,",
-    "en": "or on the spices of idol worshippers,",
-    "words": [
-     {
-      "he": "וְלֹא",
-      "en": "and not"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַבְּשָׂמִים",
-      "en": "the spices"
-     },
-     {
-      "he": "שֶׁל",
-      "en": "of"
-     },
-     {
-      "he": "עוֹבְדֵי",
-      "en": "worshippers of"
-     },
-     {
-      "he": "כוֹכָבִים,",
-      "en": "stars",
-      "note": "People who worshipped stars and idols."
-     }
-    ]
-   },
-   {
-    "he": "וְלֹא עַל הַנֵּר",
-    "en": "nor on the candle",
-    "words": [
-     {
-      "he": "וְלֹא",
-      "en": "and not"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַנֵּר",
-      "en": "the candle"
-     }
-    ]
-   },
-   {
-    "he": "וְלֹא עַל הַבְּשָׂמִים שֶׁל מֵתִים,",
-    "en": "or the spices used for the dead,",
-    "words": [
-     {
-      "he": "וְלֹא",
-      "en": "and not"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַבְּשָׂמִים",
-      "en": "the spices"
-     },
-     {
-      "he": "שֶׁל",
-      "en": "of"
-     },
-     {
-      "he": "מֵתִים,",
-      "en": "the dead",
-      "note": "Candles and spices used to honor a person who passed away."
-     }
-    ]
-   },
-   {
-    "he": "וְלֹא עַל הַנֵּר",
-    "en": "nor on the candle",
-    "words": [
-     {
-      "he": "וְלֹא",
-      "en": "and not"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַנֵּר",
-      "en": "the candle"
-     }
-    ]
-   },
-   {
-    "he": "וְלֹא עַל הַבְּשָׂמִים",
-    "en": "or the spices",
-    "words": [
-     {
-      "he": "וְלֹא",
-      "en": "and not"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַבְּשָׂמִים",
-      "en": "the spices"
-     }
-    ]
-   },
-   {
-    "he": "שֶׁלִּפְנֵי עֲבוֹדָה זָרָה.",
-    "en": "that are in front of an idol.",
-    "words": [
-     {
-      "he": "שֶׁלִּפְנֵי",
-      "en": "that are in front of"
-     },
-     {
-      "he": "עֲבוֹדָה",
-      "en": "worship",
-      "note": "Avodah zarah means idol worship."
-     },
-     {
-      "he": "זָרָה.",
-      "en": "strange (idol)"
-     }
-    ]
-   },
-   {
-    "he": "אֵין מְבָרְכִין עַל הַנֵּר",
-    "en": "We do not make the bracha on the candle",
-    "words": [
-     {
-      "he": "אֵין",
-      "en": "we do not"
-     },
-     {
-      "he": "מְבָרְכִין",
-      "en": "bless"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַנֵּר",
-      "en": "the candle"
-     }
-    ]
-   },
-   {
-    "he": "עַד שֶׁיֵּאוֹתוּ לְאוֹרוֹ:",
-    "en": "until we can enjoy its light.",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "until"
-     },
-     {
-      "he": "שֶׁיֵּאוֹתוּ",
-      "en": "they enjoy"
-     },
-     {
-      "he": "לְאוֹרוֹ:",
-      "en": "its light"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 8,
-  "mishnah": 7,
-  "summary": "If someone ate and forgot to bentch and left, where should he bentch? Also, there is a time limit for bentching.",
-  "chunks": [
-   {
-    "he": "מִי שֶׁאָכַל וְשָׁכַח וְלֹא בֵרַךְ,",
-    "en": "Someone who ate and forgot and did not bentch:",
-    "words": [
-     {
-      "he": "מִי",
-      "en": "someone"
-     },
-     {
-      "he": "שֶׁאָכַל",
-      "en": "who ate"
-     },
-     {
-      "he": "וְשָׁכַח",
-      "en": "and forgot"
-     },
-     {
-      "he": "וְלֹא",
-      "en": "and did not"
-     },
-     {
-      "he": "בֵרַךְ,",
-      "en": "bless"
-     }
-    ]
-   },
-   {
-    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
-    "en": "Beis Shammai say:",
-    "words": [
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai",
-      "note": "The students of Shammai, a great Rabbi long ago."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "יַחֲזֹר לִמְקוֹמוֹ וִיבָרֵךְ.",
-    "en": "he must go back to his place and bentch.",
-    "words": [
-     {
-      "he": "יַחֲזֹר",
-      "en": "he must go back"
-     },
-     {
-      "he": "לִמְקוֹמוֹ",
-      "en": "to his place"
-     },
-     {
-      "he": "וִיבָרֵךְ.",
-      "en": "and bless"
-     }
-    ]
-   },
-   {
-    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
-    "en": "And Beis Hillel say:",
-    "words": [
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel",
-      "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "יְבָרֵךְ בַּמָּקוֹם שֶׁנִּזְכָּר.",
-    "en": "he should bentch in the place where he remembered.",
-    "words": [
-     {
-      "he": "יְבָרֵךְ",
-      "en": "he should bless"
-     },
-     {
-      "he": "בַּמָּקוֹם",
-      "en": "in the place"
-     },
-     {
-      "he": "שֶׁנִּזְכָּר.",
-      "en": "that he remembered"
-     }
-    ]
-   },
-   {
-    "he": "עַד אֵימָתַי הוּא מְבָרֵךְ.",
-    "en": "Until when can he bentch?",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "until"
-     },
-     {
-      "he": "אֵימָתַי",
-      "en": "when"
-     },
-     {
-      "he": "הוּא",
-      "en": "he"
-     },
-     {
-      "he": "מְבָרֵךְ.",
-      "en": "blesses"
-     }
-    ]
-   },
-   {
-    "he": "עַד כְּדֵי שֶׁיִּתְעַכֵּל",
-    "en": "Until the food is digested",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "until"
-     },
-     {
-      "he": "כְּדֵי",
-      "en": "the time"
-     },
-     {
-      "he": "שֶׁיִּתְעַכֵּל",
-      "en": "that is digested"
-     }
-    ]
-   },
-   {
-    "he": "הַמָּזוֹן שֶׁבְּמֵעָיו:",
-    "en": "in his stomach.",
-    "words": [
-     {
-      "he": "הַמָּזוֹן",
-      "en": "the food"
-     },
-     {
-      "he": "שֶׁבְּמֵעָיו:",
-      "en": "that is in his stomach"
-     }
-    ]
-   }
-  ]
- },
- {
-  "perek": 8,
-  "mishnah": 8,
-  "summary": "If wine is brought after the meal and there is only one cup, which bracha comes first? Also, when do we answer Amen to someone's bracha?",
-  "chunks": [
-   {
-    "he": "בָּא לָהֶם יַיִן לְאַחַר הַמָּזוֹן",
-    "en": "If wine came to them after the meal",
-    "words": [
-     {
-      "he": "בָּא",
-      "en": "came"
-     },
-     {
-      "he": "לָהֶם",
-      "en": "to them"
-     },
-     {
-      "he": "יַיִן",
-      "en": "wine"
-     },
-     {
-      "he": "לְאַחַר",
-      "en": "after"
-     },
-     {
-      "he": "הַמָּזוֹן",
-      "en": "the food"
-     }
-    ]
-   },
-   {
-    "he": "וְאֵין שָׁם אֶלָּא אוֹתוֹ הַכּוֹס,",
-    "en": "and there is only that one cup,",
-    "words": [
-     {
-      "he": "וְאֵין",
-      "en": "and there is not"
-     },
-     {
-      "he": "שָׁם",
-      "en": "there"
-     },
-     {
-      "he": "אֶלָּא",
-      "en": "except"
-     },
-     {
-      "he": "אוֹתוֹ",
-      "en": "that"
-     },
-     {
-      "he": "הַכּוֹס,",
-      "en": "the cup"
-     }
-    ]
-   },
-   {
-    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
-    "en": "Beis Shammai say:",
-    "words": [
-     {
-      "he": "בֵּית",
-      "en": "the house of"
-     },
-     {
-      "he": "שַׁמַּאי",
-      "en": "Shammai",
-      "note": "The students of Shammai, a great Rabbi long ago."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "מְבָרֵךְ עַל הַיַּיִן",
-    "en": "first he makes the bracha on the wine,",
-    "words": [
-     {
-      "he": "מְבָרֵךְ",
-      "en": "he blesses"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַיַּיִן",
-      "en": "the wine"
-     }
-    ]
-   },
-   {
-    "he": "וְאַחַר כָּךְ מְבָרֵךְ עַל הַמָּזוֹן.",
-    "en": "and after that he bentches on the food.",
-    "words": [
-     {
-      "he": "וְאַחַר",
-      "en": "and after"
-     },
-     {
-      "he": "כָּךְ",
-      "en": "that"
-     },
-     {
-      "he": "מְבָרֵךְ",
-      "en": "he blesses"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַמָּזוֹן.",
-      "en": "the food"
-     }
-    ]
-   },
-   {
-    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
-    "en": "And Beis Hillel say:",
-    "words": [
-     {
-      "he": "וּבֵית",
-      "en": "and the house of"
-     },
-     {
-      "he": "הִלֵּל",
-      "en": "Hillel",
-      "note": "The students of Hillel, a great Rabbi long ago; we usually follow them."
-     },
-     {
-      "he": "אוֹמְרִים,",
-      "en": "say"
-     }
-    ]
-   },
-   {
-    "he": "מְבָרֵךְ עַל הַמָּזוֹן",
-    "en": "first he bentches on the food,",
-    "words": [
-     {
-      "he": "מְבָרֵךְ",
-      "en": "he blesses"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַמָּזוֹן",
-      "en": "the food"
-     }
-    ]
-   },
-   {
-    "he": "וְאַחַר כָּךְ מְבָרֵךְ עַל הַיָּיִן.",
-    "en": "and after that he makes the bracha on the wine.",
-    "words": [
-     {
-      "he": "וְאַחַר",
-      "en": "and after"
-     },
-     {
-      "he": "כָּךְ",
-      "en": "that"
-     },
-     {
-      "he": "מְבָרֵךְ",
-      "en": "he blesses"
-     },
-     {
-      "he": "עַל",
-      "en": "on"
-     },
-     {
-      "he": "הַיָּיִן.",
-      "en": "the wine"
-     }
-    ]
-   },
-   {
-    "he": "עוֹנִין אָמֵן אַחַר יִשְׂרָאֵל הַמְבָרֵךְ,",
-    "en": "We answer Amen after a Jew who makes a bracha,",
-    "words": [
-     {
-      "he": "עוֹנִין",
-      "en": "we answer"
-     },
-     {
-      "he": "אָמֵן",
-      "en": "Amen"
-     },
-     {
-      "he": "אַחַר",
-      "en": "after"
-     },
-     {
-      "he": "יִשְׂרָאֵל",
-      "en": "a Jew"
-     },
-     {
-      "he": "הַמְבָרֵךְ,",
-      "en": "who blesses"
-     }
-    ]
-   },
-   {
-    "he": "וְאֵין עוֹנִין אָמֵן אַחַר הַכּוּתִי הַמְבָרֵךְ,",
-    "en": "but we do not answer Amen after a Kuti who makes a bracha",
-    "words": [
-     {
-      "he": "וְאֵין",
-      "en": "and we do not"
-     },
-     {
-      "he": "עוֹנִין",
-      "en": "answer"
-     },
-     {
-      "he": "אָמֵן",
-      "en": "Amen"
-     },
-     {
-      "he": "אַחַר",
-      "en": "after"
-     },
-     {
-      "he": "הַכּוּתִי",
-      "en": "the Kuti",
-      "note": "A Samaritan, a group who kept some of the Torah's mitzvos."
-     },
-     {
-      "he": "הַמְבָרֵךְ,",
-      "en": "who blesses"
-     }
-    ]
-   },
-   {
-    "he": "עַד שֶׁיִּשְׁמַע כָּל הַבְּרָכָה:",
-    "en": "until we hear the whole bracha.",
-    "words": [
-     {
-      "he": "עַד",
-      "en": "until"
-     },
-     {
-      "he": "שֶׁיִּשְׁמַע",
-      "en": "he hears"
-     },
-     {
-      "he": "כָּל",
-      "en": "all"
-     },
-     {
-      "he": "הַבְּרָכָה:",
-      "en": "the bracha"
-     }
-    ]
-   }
-  ]
- }
+  }
 ]

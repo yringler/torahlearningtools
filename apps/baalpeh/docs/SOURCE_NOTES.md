@@ -10,3 +10,11 @@ These notes are about the **Simple** lines.
 - **4:1:** Steinsaltz says Maariv has no fixed time and can be said all night. Bartenura reads the wording as showing Maariv was once optional (today it is required).
 - **4:4:** For פָּרָשַׁת הָעִבּוּר, Steinsaltz leaves the meaning to the Gemara, and the Simple line says "at every time of change". Bartenura says "even when they stray into sin" (shown as an explanation). The Simple line's "makes his davening a chore" follows Bartenura; Steinsaltz just says "fixed".
 - **4:5:** Steinsaltz says the rider gets off his donkey to daven. Bartenura says the halacha doesn't follow this, and he does not get off.
+
+## Perek 7–8
+- **7:1:** Bartenura explains נָכְרִי as a convert who had milah but no tevilah. He also notes that today no zimmun is made with a Kuti.
+- **7:3:** Bartenura explains that the first part follows R. Akiva and the rest follows R. Yosi HaGelili. He rules that only the wording for 3 and for 10 is used, and that the halacha follows R. Yishmael.
+- **7:5:** For undiluted wine, Steinsaltz says no bracha is made. Bartenura says the bracha is borei pri ha'etz, and that the halacha does not follow R. Eliezer.
+- **8:2:** Steinsaltz has "mix water into the wine", and Bartenura has "pour the cup". The Simple line follows Steinsaltz.
+- **8:6:** Steinsaltz has "spices of gentiles". Bartenura explains these as spices from idol worshippers' parties, and the candle as one a non-Jew used on Shabbos.
+- **8:7:** Bartenura says "digested" means until he feels hungry again. He also says that someone who left without bentching on purpose must go back, according to everyone.
