@@ -1,7 +1,8 @@
 # משנה בעל פה — Mishnah Ba'al Peh
 
 A tablet-friendly web app that helps children memorize Mishnayos by heart, starting with **Maseches Brachos**.
-It's a static site with no backend; progress is saved in the browser.
+Parents sign in with an emailed link or code. Progress is saved on the device first and synced to a small
+Cloudflare Worker (Hono + D1), so it works offline and follows the family across tablets.
 
 ## How the learning works
 
@@ -77,15 +78,24 @@ To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline
 ## Develop
 
 ```bash
-npm install
-npm run dev          # local dev server
-npm test             # logic tests (chunking/segments/steps/progress/SRS)
-npm run build        # → dist/ (GitHub Pages, base /Baalpeh/)
-npm run build:single # → dist-single/index.html, one self-contained file you can open or share
+cp .dev.vars.example .dev.vars   # local secrets: Turnstile test keys, a dev AUTH_SECRET, no Resend key
+npx -y npm@11.6.2 install        # npm 11 is required (npm 10 crashes resolving Vitest 4)
+npm run dev:api      # terminal 1: applies local D1 migrations, wrangler dev on :8787; sign-in emails are printed here
+npm run dev          # terminal 2: Vite on :5173 with /api proxied → open http://localhost:5173
+npm run preview:worker   # optional: production-like single server on :8787 serving the built dist/
+npm test             # client + worker tests (npm run test:client / npm run test:worker)
+npm run typecheck    # app and worker
+npm run build        # → dist/
 ```
 
-**Deploy**: in the repo settings, under Pages, set the source to "GitHub Actions". Each push to `main` then deploys.
-On iPad/iPhone, open the site and use "Add to Home Screen". Safari can clear saved data for sites that aren't on the home screen.
+The server lives in `worker/` (API under `/api/*`), the schema in `migrations/`, and the HTTP contract shared by both
+sides in `shared/api.ts`. The full design is in [`docs/SERVER_PLAN.md`](docs/SERVER_PLAN.md).
+
+**Deploy**: one Cloudflare Worker serves the app and the API. First-time setup (D1 database, Turnstile widget, Resend
+domain and API key, `AUTH_SECRET`, custom domain) is described step by step in
+[§15 of the server plan](docs/SERVER_PLAN.md#15-deployment-steps-for-the-owner). After that, `npm run deploy` (or a push to
+`main`, via `.github/workflows/deploy.yml`) builds, applies remote migrations and deploys.
+On iPad/iPhone, open the site and use "Add to Home Screen".
 
 ## Sources & licenses
 

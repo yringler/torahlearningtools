@@ -1,0 +1,5 @@
+APP_ORIGIN=http://localhost:5173
+TURNSTILE_SITE_KEY=1x00000000000000000000AA
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+AUTH_SECRET=dev-only-not-a-secret-0123456789abcdef0123456789abcdef
+# RESEND_API_KEY=re_xxx   # leave unset: link and code are printed in the wrangler console

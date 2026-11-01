@@ -1,27 +1,36 @@
 {
   "name": "baalpeh",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "data": "python3 scripts/build_data.py",
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "build:single": "tsc -b && vite build --mode single",
-    "typecheck": "tsc -b",
-    "test": "vitest run"
+    "dev:api": "mkdir -p dist && wrangler d1 migrations apply baalpeh --local && wrangler dev --port 8787",
+    "preview:worker": "npm run build && wrangler d1 migrations apply baalpeh --local && wrangler dev --port 8787 --var APP_ORIGIN:http://localhost:8787",
+    "build": "tsc -b && tsc -p worker/tsconfig.json && vite build",
+    "typecheck": "tsc -b && tsc -p worker/tsconfig.json",
+    "test": "vitest run",
+    "test:client": "vitest run --project client",
+    "test:worker": "vitest run --project worker",
+    "db:migrate:local": "wrangler d1 migrations apply baalpeh --local",
+    "db:migrate:remote": "wrangler d1 migrations apply baalpeh --remote",
+    "deploy": "npm run build && wrangler d1 migrations apply baalpeh --remote && wrangler deploy"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "hono": "4.13.13",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.4",
-    "typescript": "^5.6.3",
-    "vite": "^5.4.11",
-    "vite-plugin-singlefile": "^2.0.3",
-    "vitest": "^2.1.8"
+    "@cloudflare/vitest-plugin": "1.3.7",
+    "@cloudflare/workers-types": "5.20261010.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "5.2.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vitest": "4.1.11",
+    "wrangler": "4.148.0"
   }
 }
