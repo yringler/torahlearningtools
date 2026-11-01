@@ -3,15 +3,15 @@
  * Service worker: makes the installed app open and run with no connection.
  *
  * vite.config.ts compiles this file to dist/sw.js and puts two constants in front of it:
- *   PRECACHE  every file of this build (index.html, hashed JS/CSS, icons, manifest)
+ *   PRECACHE  every file of this build (index.html, hashed JS/CSS/fonts, icons, manifest)
  *   VERSION   a hash of those files' contents, so any deploy changes sw.js and the browser installs the new worker
  *
  * Strategies:
  *   page navigations   network first (fresh deploys show up), the cached app page when offline or after 3 s
- *   /assets/*          cache first: names are content-hashed, so a cached copy is never stale
+ *   /assets/*          cache first: names are content-hashed, so a cached copy is never stale. The fonts are
+ *                      self-hosted here too (Fontsource, see src/fonts.css).
  *   /data/m/*          cache first, kept across deploys: one file per masechta, also content-hashed. A masechta is
  *                      saved the first time it is opened; when a new version arrives the old one is deleted.
- *   Google Fonts       stale-while-revalidate, so the Hebrew font also works offline
  *   /api/*, other origins (Turnstile)   never touched
  */
 export {};
@@ -21,7 +21,6 @@ declare const VERSION: string;
 
 const SHELL = `shell-${VERSION}`;
 const DATA = "data-v1";
-const FONTS = "fonts-v1";
 const NAV_TIMEOUT_MS = 3000;
 
 self.addEventListener("install", (event) => {
@@ -40,7 +39,8 @@ self.addEventListener("activate", (event) => {
   event.waitUntil(
     (async () => {
       for (const key of await caches.keys()) {
-        if (key.startsWith("shell-") && key !== SHELL) await caches.delete(key);
+        // "fonts-v1" held Google Fonts before the fonts were self-hosted.
+        if ((key.startsWith("shell-") && key !== SHELL) || key === "fonts-v1") await caches.delete(key);
       }
       await self.clients.claim();
     })(),
@@ -52,15 +52,10 @@ self.addEventListener("fetch", (event) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
 
-  if (url.origin === self.location.origin) {
-    if (url.pathname.startsWith("/api/")) return;
-    if (req.mode === "navigate") return event.respondWith(navigate(req));
-    if (url.pathname.startsWith("/data/m/")) return event.respondWith(masechtaFile(req, url));
-    return event.respondWith(cacheFirst(req, SHELL));
-  }
-  if (url.hostname === "fonts.googleapis.com" || url.hostname === "fonts.gstatic.com") {
-    return event.respondWith(staleWhileRevalidate(event, FONTS));
-  }
+  if (url.origin !== self.location.origin || url.pathname.startsWith("/api/")) return;
+  if (req.mode === "navigate") return event.respondWith(navigate(req));
+  if (url.pathname.startsWith("/data/m/")) return event.respondWith(masechtaFile(req, url));
+  return event.respondWith(cacheFirst(req, SHELL));
 });
 
 async function navigate(req: Request): Promise<Response> {
@@ -97,21 +92,4 @@ async function masechtaFile(req: Request, url: URL): Promise<Response> {
     }
   }
   return res;
-}
-
-async function staleWhileRevalidate(event: FetchEvent, cacheName: string): Promise<Response> {
-  const req = event.request;
-  const cache = await caches.open(cacheName);
-  const hit = await cache.match(req);
-  const fresh = fetch(req).then(
-    async (res) => {
-      // The stylesheet <link> is a no-cors request, so its response is opaque (status 0); cache it anyway.
-      if (res.ok || res.type === "opaque") await cache.put(req, res.clone());
-      return res;
-    },
-    () => undefined,
-  );
-  event.waitUntil(fresh);
-  if (hit) return hit;
-  return (await fresh) ?? Response.error();
 }

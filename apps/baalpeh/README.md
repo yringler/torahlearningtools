@@ -81,10 +81,10 @@ cached forever and a fix to one masechta re-downloads only that one. The full Mi
 ### Offline
 
 `sw/sw.ts` is the service worker. `vite.config.ts` compiles it to `dist/sw.js` with the build's file list and a version
-hash. It precaches the app (HTML, JS, CSS, icons, manifest), saves each masechta the first time it's opened, and caches
-the Google Fonts so the Hebrew font works offline too. Page loads go to the network first so new deploys show up; with
+hash. It precaches the app (HTML, JS, CSS, fonts, icons, manifest) and saves each masechta the first time it's opened. Page loads go to the network first so new deploys show up; with
 no connection (or after 3 s), the cached app opens. `/api` requests never go through the cache. The worker registers
-only in production builds, so to try it locally use `npm run preview:worker`. The Home Screen name and icon come from
+only in production builds, so to try it locally use `npm run preview:worker`. Fonts are self-hosted from the Fontsource npm packages (`src/fonts.css` declares only the Hebrew and Latin files the
+app uses), so nothing is loaded from Google. The Home Screen name and icon come from
 `public/manifest.webmanifest`, `public/icons/` and the `apple-*` tags in `index.html`.
 
 ### Meanings and sources

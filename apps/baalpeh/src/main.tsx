@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { App } from "./App";
 import { DEFAULT_MASECHTA_ID, loadMasechta } from "./data";
+import "./fonts.css";
 import "./styles.css";
 
 // Start downloading the text now, in parallel with the sign-in check. DataGate shows any error.
