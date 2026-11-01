@@ -13,9 +13,8 @@ export function LicensesLink({ className = "link-btn" }: { className?: string })
 export function PricingNote() {
   return (
     <p className="hint pricing-note">
-      Accounts are free for now. If enough families use the app, accounts may later become a small yearly
-      subscription per family (about $5–10 a year). You'd be told well ahead of time, and learning without an account
-      would stay free.
+      Accounts are free for now. Eventually, accounts may have a small yearly charge of about $5–10 per family.
+      You'd be told well ahead of time, and learning without an account would stay free.
     </p>
   );
 }
