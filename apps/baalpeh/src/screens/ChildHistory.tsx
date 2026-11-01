@@ -37,7 +37,7 @@ export function describeEvent(e: LearningEvent): string {
       return `${what}: ${gradeWord[e.grade]}${e.slipWords ? ` (${e.slipWords} word${e.slipWords === 1 ? "" : "s"} slipped)` : ""}`;
     }
     case "session":
-      return `Learning session, ${Math.max(1, Math.round(e.ms / 60000))} min, ${e.steps} step${e.steps === 1 ? "" : "s"}`;
+      return `Learning session, ${e.ms < 60000 ? "under 1" : Math.round(e.ms / 60000)} min, ${e.steps} step${e.steps === 1 ? "" : "s"}`;
     case "reset":
       return `Parent reset ${e.perek}:${e.mishnah}`;
   }
