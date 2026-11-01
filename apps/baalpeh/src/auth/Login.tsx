@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { ConfigResponse } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
+import { LicensesLink, PricingNote } from "../components/Licenses";
 import { Turnstile, type TurnstileHandle } from "./Turnstile";
 
 export const plausibleEmail = (s: string): boolean => {
@@ -21,6 +22,7 @@ export function AuthFrame({ children }: { children: React.ReactNode }) {
     <div className="auth" dir="ltr">
       <h1 className="app-title"><span dir="rtl">משנה בעל פה</span></h1>
       <div className="auth-card">{children}</div>
+      <div className="auth-footer"><LicensesLink /></div>
     </div>
   );
 }
@@ -93,6 +95,7 @@ export function Login({ initialEmail, reason, onSent, onGuest }: Props) {
         {error && <p className="error" role="alert">{error}</p>}
         {config?.devEmail && <p className="dev-note">Dev mode: the link and code are in the wrangler console.</p>}
       </form>
+      <PricingNote />
       {onGuest && <GuestOption onGuest={onGuest} />}
     </AuthFrame>
   );

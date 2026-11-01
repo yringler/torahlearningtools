@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CueCard } from "../components/CueCard";
 import { GlossSheet } from "../components/GlossSheet";
+import { LicensesLink } from "../components/Licenses";
 import { Meaning, SteinsaltzText, ViewToggle } from "../components/Meaning";
 import { StepPath } from "../components/StepPath";
 import { getMishnah, hebNum, MASECHTA } from "../data";
@@ -68,7 +69,10 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
           {[m.stIntro ?? "", ...m.chunks.flatMap((c) => [c.st ?? "", c.stMore ?? ""])].filter(Boolean).map((h, i) => (
             <span key={i}><SteinsaltzText html={h} /> </span>
           ))}
-          <div className="credit">{SOURCES.steinsaltz.detail}</div>
+          <div className="credit">
+            {SOURCES.steinsaltz.detail} · <a href={SOURCES.steinsaltz.license.url} target="_blank" rel="noreferrer license">{SOURCES.steinsaltz.license.name}</a>
+            {" · "}<LicensesLink className="credit-link" />
+          </div>
         </div>
       )}
       <GlossSheet word={word} onClose={() => setWord(null)} />

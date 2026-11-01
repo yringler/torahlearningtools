@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { LearningEventBody, User } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
+import { LicensesLink, PricingNote } from "../components/Licenses";
 import { MASECHTA, mishnayosOf, PERAKIM } from "../data";
 import { copyAsNew, normalizeProfile } from "../legacy/import";
 import { dueReviews, isKnown, mp, pp, resetMishnah } from "../progress";
@@ -139,7 +140,7 @@ export function Parent(props: Props) {
           <li>Hints fade: full text → first letters → first word → nothing. Tapping a hidden card is a "peek", and peeks are counted automatically.</li>
           <li>At the end of each mishnah, and for each "mishnayos 1–k in a row" chain, you listen and grade. A perek is done when it's said in one shot.</li>
           <li>Learned mishnayos come back for review after 1, 3, 7, 14, 30 and 60 days. A finished perek is reviewed as a whole.</li>
-          <li>Hebrew text: Torat Emet via Sefaria. Meanings come in two views. <b>Steinsaltz</b> is quoted word for word from the Koren Noé / William Davidson translation (bold = translation, light = explanation). <b>Simple</b> is an AI simplification of Steinsaltz, checked against Bartenura (tr. R. Shraga Silverstein). Tap ⓘ by any meaning to see its source. Please check anything that looks off.</li>
+          <li>Hebrew text: Torat Emet via Sefaria. Meanings come in two views. <b>Steinsaltz</b> is quoted word for word from the Koren Noé / William Davidson translation (bold = translation, light = explanation). <b>Simple</b> is an AI simplification of Steinsaltz, checked against Bartenura (tr. R. Shraga Silverstein). Tap ⓘ by any meaning to see its source. Please check anything that looks off. <LicensesLink /></li>
         </ul>
       </section>
     </div>
@@ -189,6 +190,7 @@ function AccountSection({ user, status, syncNow, pendingNow, endSession, onSignO
     <section>
       <h3>Account</h3>
       <p>Signed in as <b>{user.email}</b></p>
+      <PricingNote />
       <div className="row">
         <span className={`sync-dot inline ${status.state}`} aria-hidden="true" />
         <span className="sync-text">{statusText(status)}</span>

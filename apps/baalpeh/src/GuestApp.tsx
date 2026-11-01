@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { loadGuest, saveGuest } from "./guest";
 import { kv } from "./kv";
 import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
+import { LicensesLink, PricingNote } from "./components/Licenses";
 import { Home } from "./screens/Home";
 import { MishnahScreen } from "./screens/MishnahScreen";
 import { Session } from "./screens/Session";
@@ -111,6 +112,7 @@ function GuestInfo({ onSignIn, onSettings, onClose }: { onSignIn: () => void; on
         <p>Your progress is saved only in this browser on this device. It isn't backed up, and it won't show up in other browsers or on other devices. Clearing this browser's data erases it.</p>
         <p className="hint">If you sign in on this device later, you can add this progress to your account.</p>
         <button className="btn primary" onClick={onSignIn}>Create an account / Sign in</button>
+        <PricingNote />
         <div className="row center">
           <button className="btn ghost-btn small" onClick={onSettings}>⚙ Settings</button>
           <button className="btn ghost-btn small" onClick={onClose}>Keep learning</button>
@@ -149,6 +151,12 @@ function GuestSettings({ profile: p, onChange, onBack, onSignIn }: {
         <p className="hint">Progress is saved only in this browser on this device. Nothing is backed up or shared, and clearing this browser's data erases it.
           After you sign in on this device, you can add it to your account.</p>
         <button className="btn secondary" onClick={onSignIn}>Create an account / Sign in</button>
+        <PricingNote />
+      </section>
+      <section>
+        <h3>Sources</h3>
+        <p className="hint">Hebrew text: Torat Emet via Sefaria. Meanings are based on Steinsaltz (Koren Noé / William Davidson Edition) and Bartenura (tr. R. Shraga Silverstein).</p>
+        <LicensesLink />
       </section>
     </div>
   );
