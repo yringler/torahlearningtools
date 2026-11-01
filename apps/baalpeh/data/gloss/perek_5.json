@@ -3,10 +3,15 @@
   "perek": 5,
   "mishnah": 1,
   "summary": "How to get ready for davening: think seriously first, and once you start, don't stop for anything.",
+  "stIntro": "",
   "chunks": [
    {
     "he": "אֵין עוֹמְדִין לְהִתְפַּלֵּל אֶלָּא",
     "en": "We only stand up to daven",
+    "st": "<b>One</b> may <b>only stand</b> and begin to pray",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֵין",
@@ -29,6 +34,11 @@
    {
     "he": "מִתּוֹךְ כֹּבֶד רֹאשׁ.",
     "en": "with a serious, humble feeling.",
+    "st": "<b>from</b> an approach of <b>gravity</b> and submission.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "מִתּוֹךְ",
@@ -40,13 +50,19 @@
      },
      {
       "he": "רֹאשׁ.",
-      "en": "head"
+      "en": "head",
+      "note": "A heavy head means a serious, humble mood."
      }
     ]
    },
    {
-    "he": "חֲסִידִים הָרִאשׁוֹנִים הָיוּ שׁוֹהִים",
-    "en": "The very pious people of long ago would wait",
+    "he": "חֲסִידִים הָרִאשׁוֹנִים הָיוּ שׁוֹהִים שָׁעָה אַחַת",
+    "en": "The pious people of long ago would wait one hour",
+    "st": "There is a tradition that <b>the early</b> generations of <b>pious</b> men <b>would wait one hour,</b>",
+    "stMore": "in order to reach the solemn frame of mind appropriate for prayer,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "חֲסִידִים",
@@ -64,13 +80,7 @@
      {
       "he": "שׁוֹהִים",
       "en": "wait"
-     }
-    ]
-   },
-   {
-    "he": "שָׁעָה אַחַת וּמִתְפַּלְּלִים,",
-    "en": "one hour and then daven,",
-    "words": [
+     },
      {
       "he": "שָׁעָה",
       "en": "an hour"
@@ -78,17 +88,22 @@
      {
       "he": "אַחַת",
       "en": "one"
-     },
-     {
-      "he": "וּמִתְפַּלְּלִים,",
-      "en": "and then daven"
      }
     ]
    },
    {
-    "he": "כְּדֵי שֶׁיְּכַוְּנוּ אֶת לִבָּם לַמָּקוֹם.",
-    "en": "so they could turn their hearts to Hashem.",
+    "he": "וּמִתְפַּלְּלִים, כְּדֵי שֶׁיְּכַוְּנוּ אֶת לִבָּם לַמָּקוֹם.",
+    "en": "and then daven, so they could turn their hearts to Hashem.",
+    "st": "<b>and</b> then <b>pray, so that they would focus their hearts toward their Father in Heaven.</b>",
+    "stMore": "Standing in prayer is standing before God and, as such,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
+     {
+      "he": "וּמִתְפַּלְּלִים,",
+      "en": "and then daven"
+     },
      {
       "he": "כְּדֵי",
       "en": "so that"
@@ -115,6 +130,10 @@
    {
     "he": "אֲפִלּוּ הַמֶּלֶךְ שׁוֹאֵל בִּשְׁלוֹמוֹ,",
     "en": "Even if the king says hello to him,",
+    "st": "<b>even</b> if <b>the king greets him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֲפִלּוּ",
@@ -137,6 +156,10 @@
    {
     "he": "לֹא יְשִׁיבֶנּוּ.",
     "en": "he should not answer him.",
+    "st": "<b>he should not respond to him;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לֹא",
@@ -151,6 +174,10 @@
    {
     "he": "וַאֲפִלּוּ נָחָשׁ כָּרוּךְ עַל עֲקֵבוֹ,",
     "en": "And even if a snake is wrapped around his heel,",
+    "st": "<b>and even if a snake is wrapped on his heel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וַאֲפִלּוּ",
@@ -176,7 +203,11 @@
    },
    {
     "he": "לֹא יַפְסִיק:",
-    "en": "he should not stop.",
+    "en": "he should not stop davening.",
+    "st": "<b>he should not interrupt</b> his prayer.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לֹא",
@@ -194,10 +225,17 @@
   "perek": 5,
   "mishnah": 2,
   "summary": "Where in Shemoneh Esrei we add words about rain and the Havdalah prayer on Motzei Shabbos.",
+  "stIntro": "This mishna speaks of additions to the standard formula of the Amida prayer and the blessings in which they are incorporated.",
   "chunks": [
    {
     "he": "מַזְכִּירִין גְּבוּרוֹת גְּשָׁמִים בִּתְחִיַּת הַמֵּתִים,",
     "en": "We mention Hashem's power of rain in the bracha about bringing the dead back to life,",
+    "explain": "This means saying Mashiv haruach umorid hageshem.",
+    "st": "<b>One mentions the might of the rains</b> and recites: He makes the wind blow and the rain fall, <b>in</b> the second blessing of the Amida prayer, the blessing of <b>the revival of the dead.</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "מַזְכִּירִין",
@@ -224,7 +262,13 @@
    },
    {
     "he": "וְשׁוֹאֲלִין הַגְּשָׁמִים בְּבִרְכַּת הַשָּׁנִים,",
-    "en": "and we ask for rain in the bracha for a good year,",
+    "en": "and we ask for rain in the bracha for the years,",
+    "explain": "This means saying Vesein tal umatar.",
+    "st": "<b>And the request</b> for rain: And grant dew and rain as a blessing, <b>in</b> the ninth blessing of the Amida prayer, <b>the blessing of the years.</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "וְשׁוֹאֲלִין",
@@ -247,7 +291,12 @@
    },
    {
     "he": "וְהַבְדָּלָה בְּחוֹנֵן הַדָּעַת.",
-    "en": "and Havdalah goes in the bracha \"Atah Chonen,\" about wisdom.",
+    "en": "and Havdalah goes in the bracha \"Who grants knowledge\" (Atah Chonen).",
+    "explain": "On Motzei Shabbos we add Atah Chonantanu there.",
+    "st": "<b>And the prayer of distinction [havdala],</b> between the holy and the profane recited in the evening prayer following Shabbat and festivals, <b>in</b> the fourth blessing of the Amida prayer: <b>Who graciously grants knowledge.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְהַבְדָּלָה",
@@ -268,6 +317,10 @@
    {
     "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
     "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -286,11 +339,15 @@
    },
    {
     "he": "אוֹמְרָהּ בְּרָכָה רְבִיעִית בִּפְנֵי עַצְמָהּ.",
-    "en": "we say it as a fourth bracha all by itself.",
+    "en": "it is said as a fourth bracha all by itself.",
+    "st": "Havdala <b>is recited</b> as <b>an independent fourth blessing.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אוֹמְרָהּ",
-      "en": "he says it"
+      "en": "one says it"
      },
      {
       "he": "בְּרָכָה",
@@ -312,7 +369,11 @@
    },
    {
     "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר, בְּהוֹדָאָה:",
-    "en": "Rabbi Eliezer says, it goes in \"Modim,\" the thank-you bracha.",
+    "en": "Rabbi Eliezer says, it goes in Modim, the thank-you bracha.",
+    "st": "<b>Rabbi Eliezer says</b> that it is recited <b>in</b> the seventeenth blessing of the Amida prayer, the blessing of <b>thanksgiving.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -340,10 +401,16 @@
   "perek": 5,
   "mishnah": 3,
   "summary": "Some wrong things a chazzan might say, and what to do if the chazzan makes a mistake.",
+  "stIntro": "Concluding the laws of prayer in this tractate, the mishna raises several prayer-related matters. This mishna speaks of certain innovations in the prayer formula that warrant the silencing of a communal prayer leader who attempts to introduce them in his prayers, as their content tends toward heresy.",
   "chunks": [
    {
     "he": "הָאוֹמֵר עַל קַן צִפּוֹר יַגִּיעוּ רַחֲמֶיךָ,",
     "en": "Someone who says, \"Your mercy reaches even a bird's nest,\"",
+    "st": "<b>One who recites</b> in his supplication: Just as <b>Your mercy is extended to a bird’s nest,</b>",
+    "stMore": "as You have commanded us to send away the mother before taking her chicks or eggs (Deuteronomy 22:6–7), so too extend Your mercy to us;",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הָאוֹמֵר",
@@ -374,7 +441,11 @@
    },
    {
     "he": "וְעַל טוֹב יִזָּכֵר שְׁמֶךָ,",
-    "en": "or \"Your Name should be mentioned for the good,\"",
+    "en": "or \"May Your Name be mentioned for the good,\"",
+    "st": "<b>and</b> one who recites: <b>May Your name be mentioned with the good</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְעַל",
@@ -396,7 +467,11 @@
    },
    {
     "he": "מוֹדִים מוֹדִים,",
-    "en": "or \"Modim, Modim\" twice,",
+    "en": "or \"Modim, Modim,\" saying \"we thank\" twice,",
+    "st": "or one who recites: <b>We give thanks, we give thanks</b> twice,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מוֹדִים",
@@ -410,7 +485,13 @@
    },
    {
     "he": "מְשַׁתְּקִין אוֹתוֹ.",
-    "en": "we make him be quiet.",
+    "en": "we make him stop.",
+    "explain": "These words can give a wrong idea about Hashem.",
+    "st": "they <b>silence him.</b>",
+    "stMore": "This mishna and the next one deal with the communal prayer leader. <b>(If one says: “May the good bless You,” this is a path of heresy.)</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מְשַׁתְּקִין",
@@ -425,6 +506,10 @@
    {
     "he": "הָעוֹבֵר לִפְנֵי הַתֵּיבָה וְטָעָה,",
     "en": "If the chazzan leading the davening makes a mistake,",
+    "st": "<b>One who is passing before the ark,</b> as prayer leader, <b>and erred,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הָעוֹבֵר",
@@ -447,7 +532,11 @@
    },
    {
     "he": "יַעֲבֹר אַחֵר תַּחְתָּיו,",
-    "en": "someone else should take his place,",
+    "en": "someone else should take his place right away,",
+    "st": "<b>another should</b> immediately <b>pass in his place,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "יַעֲבֹר",
@@ -465,7 +554,14 @@
    },
    {
     "he": "וְלֹא יְהֵא סָרְבָן בְּאוֹתָהּ שָׁעָה.",
-    "en": "and he should not say \"no thanks\" at that time.",
+    "en": "and at that time he should not say \"no thanks\" to be polite.",
+    "explain": "Usually, people politely say no when first asked to lead.",
+    "st": "<b>and at that moment,</b> this replacement <b>should not refuse</b> in the interest of courtesy.",
+    "stMore": "The Amida prayer was interrupted and he should replace him as quickly as possible.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "וְלֹא",
@@ -491,7 +587,11 @@
    },
    {
     "he": "מִנַּיִן הוּא מַתְחִיל,",
-    "en": "Where does he start?",
+    "en": "Where does the new chazzan start?",
+    "st": "<b>From where does</b> the replacement <b>commence?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִנַּיִן",
@@ -510,6 +610,10 @@
    {
     "he": "מִתְּחִלַּת הַבְּרָכָה שֶׁטָּעָה בָהּ:",
     "en": "From the beginning of the bracha where the mistake was.",
+    "st": "<b>From the beginning of the blessing in which</b> the former <b>had erred.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִתְּחִלַּת",
@@ -535,10 +639,15 @@
   "perek": 5,
   "mishnah": 4,
   "summary": "The chazzan should be careful not to get mixed up, so he doesn't answer Amen to the Kohanim or do Birkas Kohanim himself.",
+  "stIntro": "In order to prevent the prayer leader from erring in his prayer, it was said that",
   "chunks": [
    {
     "he": "הָעוֹבֵר לִפְנֵי הַתֵּיבָה,",
     "en": "The chazzan leading the davening",
+    "st": "<b>one who passes before the ark</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הָעוֹבֵר",
@@ -558,6 +667,10 @@
    {
     "he": "לֹא יַעֲנֶה אַחַר הַכֹּהֲנִים אָמֵן,",
     "en": "should not answer Amen after the Kohanim's bracha,",
+    "st": "<b>should not respond amen after the</b> blessing of the <b>priests,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לֹא",
@@ -585,6 +698,11 @@
    {
     "he": "מִפְּנֵי הַטֵּרוּף.",
     "en": "because he might get mixed up.",
+    "st": "<b>because of</b> potential <b>confusion.</b>",
+    "stMore": "Since the mishna is describing a situation in which he was praying without a prayer book, responding amen would interrupt the order of the prayer and potentially lead him to begin a different blessing.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִפְּנֵי",
@@ -598,7 +716,11 @@
    },
    {
     "he": "וְאִם אֵין שָׁם כֹּהֵן אֶלָּא הוּא,",
-    "en": "And if he is the only Kohen there,",
+    "en": "And even if the chazzan is the only Kohen there,",
+    "st": "For this reason, even <b>if there is no priest other than</b> the communal prayer leader,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְאִם",
@@ -628,7 +750,11 @@
    },
    {
     "he": "לֹא יִשָּׂא אֶת כַּפָּיו.",
-    "en": "he should not raise his hands to bless.",
+    "en": "he should not raise his hands to bless the people.",
+    "st": "<b>he does not lift his hands</b> to bless the people, lest he become confused.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לֹא",
@@ -651,6 +777,10 @@
    {
     "he": "וְאִם הַבְטָחָתוֹ",
     "en": "But if he is sure",
+    "st": "<b>And,</b> however, <b>if he is certain</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְאִם",
@@ -665,6 +795,10 @@
    {
     "he": "שֶׁהוּא נוֹשֵׂא אֶת כַּפָּיו",
     "en": "that he can raise his hands to bless",
+    "st": "<b>that he can lift his hands</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "שֶׁהוּא",
@@ -687,6 +821,10 @@
    {
     "he": "וְחוֹזֵר לִתְפִלָּתוֹ, רַשַּׁאי:",
     "en": "and go back to his davening, he may do it.",
+    "st": "<b>and resume his prayer</b> without becoming confused, <b>he is permitted</b> to recite the blessing.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְחוֹזֵר",
@@ -708,10 +846,15 @@
   "perek": 5,
   "mishnah": 5,
   "summary": "A mistake in davening is a bad sign. Rabbi Chanina ben Dosa could tell if his prayers for sick people were accepted.",
+  "stIntro": "Concluding its discussion of the halakhot of prayer, the mishna discusses less practical aspects of prayer.",
   "chunks": [
    {
     "he": "הַמִּתְפַּלֵּל וְטָעָה,",
     "en": "If someone davens and makes a mistake,",
+    "st": "<b>One who prays and</b> realizes that he <b>erred</b> in his prayer,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הַמִּתְפַּלֵּל",
@@ -726,6 +869,12 @@
    {
     "he": "סִימָן רַע לוֹ.",
     "en": "it is a bad sign for him.",
+    "explain": "It shows his tefillah was not accepted.",
+    "st": "it is <b>a bad omen for him;</b>",
+    "stMore": "it indicates to him that his prayer was not accepted.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "סִימָן",
@@ -744,6 +893,10 @@
    {
     "he": "וְאִם שְׁלִיחַ צִבּוּר הוּא,",
     "en": "And if he is the chazzan,",
+    "st": "<b>And if he</b> who erred <b>is the communal prayer leader,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְאִם",
@@ -767,6 +920,10 @@
    {
     "he": "סִימָן רַע לְשׁוֹלְחָיו,",
     "en": "it is a bad sign for the people who sent him,",
+    "st": "it is <b>a bad omen for those who sent him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "סִימָן",
@@ -785,6 +942,10 @@
    {
     "he": "מִפְּנֵי שֶׁשְּׁלוּחוֹ שֶׁל אָדָם כְּמוֹתוֹ.",
     "en": "because a person's messenger is like the person himself.",
+    "st": "<b>because a person’s agent</b> has legal status <b>equivalent to his own.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִפְּנֵי",
@@ -811,6 +972,10 @@
    {
     "he": "אָמְרוּ עָלָיו",
     "en": "They said about",
+    "st": "On a similar note, <b>they said about</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָמְרוּ",
@@ -825,6 +990,10 @@
    {
     "he": "עַל רַבִּי חֲנִינָא בֶן דּוֹסָא,",
     "en": "Rabbi Chanina ben Dosa,",
+    "st": "<b>Rabbi Ḥanina ben Dosa</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַל",
@@ -852,6 +1021,10 @@
    {
     "he": "כְּשֶׁהָיָה מִתְפַּלֵּל עַל הַחוֹלִים וְאוֹמֵר,",
     "en": "that when he davened for sick people, he would say,",
+    "st": "<b>that he would pray on</b> behalf of <b>the sick and</b> immediately after his prayer he would <b>say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כְּשֶׁהָיָה",
@@ -878,6 +1051,10 @@
    {
     "he": "זֶה חַי וְזֶה מֵת.",
     "en": "\"This one will live, and this one will die.\"",
+    "st": "<b>This</b> one shall recover from his illness and <b>live and this</b> one shall <b>die.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "זֶה",
@@ -900,6 +1077,10 @@
    {
     "he": "אָמְרוּ לוֹ,",
     "en": "They asked him,",
+    "st": "When <b>they said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָמְרוּ",
@@ -914,6 +1095,10 @@
    {
     "he": "מִנַּיִן אַתָּה יוֹדֵעַ.",
     "en": "\"How do you know?\"",
+    "st": "<b>From where do you know?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מִנַּיִן",
@@ -932,6 +1117,10 @@
    {
     "he": "אָמַר לָהֶם,",
     "en": "He told them,",
+    "st": "<b>He said to them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָמַר",
@@ -945,7 +1134,12 @@
    },
    {
     "he": "אִם שְׁגוּרָה תְפִלָּתִי בְּפִי,",
-    "en": "\"If my prayer flows smoothly from my mouth,",
+    "en": "\"If my tefillah flows smoothly from my mouth,",
+    "st": "<b>If my prayer is fluent in my mouth</b> as I recite it and there are no errors,",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "אִם",
@@ -968,6 +1162,10 @@
    {
     "he": "יוֹדֵעַ אֲנִי שֶׁהוּא מְקֻבָּל.",
     "en": "I know that it was accepted.",
+    "st": "<b>I know that</b> my prayer <b>is accepted.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "יוֹדֵעַ",
@@ -990,6 +1188,10 @@
    {
     "he": "וְאִם לָאו,",
     "en": "And if not,",
+    "st": "<b>And if not,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְאִם",
@@ -1004,6 +1206,11 @@
    {
     "he": "יוֹדֵעַ אֲנִי שֶׁהוּא מְטֹרָף:",
     "en": "I know that it was not accepted.\"",
+    "st": "<b>I know that</b> my prayer <b>is rejected.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "basisNote": "Bartenura's first explanation: the sick person is \"torn away\" and will not live.",
     "words": [
      {
       "he": "יוֹדֵעַ",

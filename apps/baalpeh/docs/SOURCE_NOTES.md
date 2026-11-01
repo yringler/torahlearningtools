@@ -31,3 +31,9 @@ tied to its sources, in case you're curious.
 - **1:5:** Steinsaltz says R. Elazar ben Azarya was "about seventy", and the Simple line follows him. Bartenura says he was young but looked seventy.
 - **2:1:** The words וְאִם לָאו לֹא יָצָא aren't in Steinsaltz's text, so that piece follows Bartenura.
 - **2:6, אִסְטְנִיס:** Steinsaltz has "delicate"; Bartenura has "catches cold easily".
+
+## Perek 5–6 (Simple lines follow Steinsaltz)
+- **5:5, מְטֹרָף:** Steinsaltz has "my prayer is rejected". Bartenura's first explanation is that the sick person is "torn away".
+- **6:3, נוֹבְלוֹת:** Steinsaltz has dates that spoiled. Bartenura has fruit that fell before it was ripe.
+- **6:5:** Bartenura says the wine before the meal covers the wine after it only on Shabbos and Yom Tov.
+- **6:6, מֻגְמָר:** Steinsaltz says the bracha is made by whoever said the bracha on the wine. Bartenura says it is whoever led bentching.

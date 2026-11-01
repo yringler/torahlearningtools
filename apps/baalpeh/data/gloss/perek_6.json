@@ -3,10 +3,15 @@
   "perek": 6,
   "mishnah": 1,
   "summary": "Which bracha we make before eating fruit, wine, bread, and vegetables.",
+  "stIntro": "This mishna discusses the blessings recited over various foods.",
   "chunks": [
    {
     "he": "כֵּיצַד מְבָרְכִין עַל הַפֵּרוֹת.",
     "en": "How do we make a bracha on fruits?",
+    "st": "<b>How does one recite a blessing over fruits?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כֵּיצַד",
@@ -29,6 +34,10 @@
    {
     "he": "עַל פֵּרוֹת הָאִילָן אוֹמֵר,",
     "en": "On fruit from a tree, one says,",
+    "st": "<b>Over</b> different <b>fruits</b> that grow on a <b>tree one recites:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַל",
@@ -51,6 +60,10 @@
    {
     "he": "בּוֹרֵא פְּרִי הָעֵץ,",
     "en": "\"Borei pri ha'etz\" (Who creates fruit of the tree),",
+    "st": "<b>Who creates fruit of the tree,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בּוֹרֵא",
@@ -69,6 +82,11 @@
    {
     "he": "חוּץ מִן הַיַּיִן,",
     "en": "except for wine,",
+    "st": "<b>with the exception of wine.</b>",
+    "stMore": "Although wine is produced from fruit of the tree, due to its significance, its blessing differs from other fruits of the tree.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "חוּץ",
@@ -87,6 +105,10 @@
    {
     "he": "שֶׁעַל הַיַּיִן אוֹמֵר בּוֹרֵא פְּרִי הַגָּפֶן.",
     "en": "because on wine one says \"Borei pri hagafen\" (Who creates fruit of the vine).",
+    "st": "<b>Over wine one recites: Who creates fruit of the vine.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "שֶׁעַל",
@@ -116,7 +138,11 @@
    },
    {
     "he": "וְעַל פֵּרוֹת הָאָרֶץ אוֹמֵר",
-    "en": "And on food that grows from the ground, one says",
+    "en": "And on fruits that grow from the ground, one says",
+    "st": "<b>Over fruits</b> that grow from <b>the earth, one recites:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְעַל",
@@ -139,6 +165,10 @@
    {
     "he": "בּוֹרֵא פְּרִי הָאֲדָמָה,",
     "en": "\"Borei pri ha'adamah\" (Who creates fruit of the ground),",
+    "st": "<b>Who creates fruit of the ground,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בּוֹרֵא",
@@ -157,6 +187,11 @@
    {
     "he": "חוּץ מִן הַפַּת,",
     "en": "except for bread,",
+    "st": "<b>with the exception of bread.</b>",
+    "stMore": "Bread, too, is significant and its blessing differs from other fruits of the ground,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "חוּץ",
@@ -175,6 +210,10 @@
    {
     "he": "שֶׁעַל הַפַּת הוּא אוֹמֵר",
     "en": "because on bread one says",
+    "st": "<b>as over bread one recites:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "שֶׁעַל",
@@ -197,6 +236,10 @@
    {
     "he": "הַמּוֹצִיא לֶחֶם מִן הָאָרֶץ.",
     "en": "\"Hamotzi lechem min ha'aretz\" (Who brings bread out of the earth).",
+    "st": "<b>Who brings forth bread from the earth.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הַמּוֹצִיא",
@@ -219,6 +262,10 @@
    {
     "he": "וְעַל הַיְרָקוֹת אוֹמֵר בּוֹרֵא פְּרִי הָאֲדָמָה.",
     "en": "And on vegetables one says \"Borei pri ha'adamah.\"",
+    "st": "<b>Over</b> herbs and leafy <b>vegetables one recites: Who creates fruit of the ground.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְעַל",
@@ -249,6 +296,11 @@
    {
     "he": "רַבִּי יְהוּדָה אוֹמֵר,",
     "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says</b>",
+    "stMore": "that there is room to distinguish between fruits that grow from the earth, herbs, and leafy vegetables. Although they are all fruit of the ground, since they have different qualities, the blessing on the latter is:",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -267,7 +319,11 @@
    },
    {
     "he": "בּוֹרֵא מִינֵי דְשָׁאִים:",
-    "en": "\"Who creates all kinds of herbs.\"",
+    "en": "\"Who creates many kinds of herbs.\"",
+    "st": "<b>Who creates various kinds of herbs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בּוֹרֵא",
@@ -275,7 +331,7 @@
      },
      {
       "he": "מִינֵי",
-      "en": "kinds of"
+      "en": "various kinds of"
      },
      {
       "he": "דְשָׁאִים:",
@@ -289,10 +345,15 @@
   "perek": 6,
   "mishnah": 2,
   "summary": "If you made the wrong bracha on food, sometimes it still counts, and \"Shehakol\" works for everything.",
+  "stIntro": "This mishna discusses how, after the fact, a more general blessing exempts one from the obligation to recite a more specific one.",
   "chunks": [
    {
-    "he": "בֵּרַךְ עַל פֵּרוֹת הָאִילָן",
-    "en": "If someone said on tree fruit",
+    "he": "בֵּרַךְ עַל פֵּרוֹת הָאִילָן בּוֹרֵא פְּרִי הָאֲדָמָה,",
+    "en": "If someone said \"Borei pri ha'adamah\" on fruit from a tree,",
+    "st": "<b>One who recited: Who creates fruit of the ground, over fruit of the tree,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בֵּרַךְ",
@@ -309,13 +370,7 @@
      {
       "he": "הָאִילָן",
       "en": "the tree"
-     }
-    ]
-   },
-   {
-    "he": "בּוֹרֵא פְּרִי הָאֲדָמָה, יָצָא.",
-    "en": "\"Borei pri ha'adamah,\" it still counts.",
-    "words": [
+     },
      {
       "he": "בּוֹרֵא",
       "en": "Who creates"
@@ -327,7 +382,17 @@
      {
       "he": "הָאֲדָמָה,",
       "en": "the ground"
-     },
+     }
+    ]
+   },
+   {
+    "he": "יָצָא.",
+    "en": "he has done the mitzvah.",
+    "st": "<b>fulfilled</b> his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
      {
       "he": "יָצָא.",
       "en": "he fulfilled it",
@@ -337,7 +402,11 @@
    },
    {
     "he": "וְעַל פֵּרוֹת הָאָרֶץ בּוֹרֵא פְּרִי הָעֵץ,",
-    "en": "But if he said on food from the ground \"Borei pri ha'etz,\"",
+    "en": "But if he said \"Borei pri ha'etz\" on fruits from the ground,",
+    "st": "One who recited: <b>Who creates fruit of the tree, over fruits of the earth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְעַל",
@@ -367,7 +436,11 @@
    },
    {
     "he": "לֹא יָצָא.",
-    "en": "it does not count.",
+    "en": "he has not done the mitzvah.",
+    "st": "<b>did not fulfill</b> his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לֹא",
@@ -381,7 +454,11 @@
    },
    {
     "he": "עַל כֻּלָּם אִם אָמַר שֶׁהַכֹּל נִהְיָה, יָצָא:",
-    "en": "On any food, if he said \"Shehakol nihyah bidvaro,\" it counts.",
+    "en": "On all foods, if he said \"Shehakol,\" he has done the mitzvah.",
+    "st": "<b>And over all</b> food items, <b>one who recited: By whose word all things came to be, fulfilled</b> his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַל",
@@ -420,10 +497,15 @@
   "perek": 6,
   "mishnah": 3,
   "summary": "Foods that don't grow from the ground get the bracha \"Shehakol.\"",
+  "stIntro": "",
   "chunks": [
    {
     "he": "עַל דָּבָר שֶׁאֵין גִּדּוּלוֹ מִן הָאָרֶץ",
     "en": "On something that does not grow from the ground",
+    "st": "<b>And over</b> a food <b>item whose growth is not from the ground,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַל",
@@ -454,6 +536,10 @@
    {
     "he": "אוֹמֵר שֶׁהַכֹּל.",
     "en": "one says \"Shehakol.\"",
+    "st": "<b>one recites: By whose word all things came to be.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אוֹמֵר",
@@ -467,7 +553,12 @@
    },
    {
     "he": "עַל הַחֹמֶץ וְעַל הַנּוֹבְלוֹת",
-    "en": "On vinegar, and on fruit that fell off the tree too early,",
+    "en": "On vinegar, and on spoiled dates,",
+    "st": "And <b>over vinegar,</b> wine that fermented and spoiled, <b>and over novelot,</b> dates that spoiled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "basisNote": "Bartenura: novelos are fruits that fell from the tree before they were ripe.",
     "words": [
      {
       "he": "עַל",
@@ -475,7 +566,8 @@
      },
      {
       "he": "הַחֹמֶץ",
-      "en": "the vinegar"
+      "en": "the vinegar",
+      "note": "Wine that went sour."
      },
      {
       "he": "וְעַל",
@@ -483,14 +575,18 @@
      },
      {
       "he": "הַנּוֹבְלוֹת",
-      "en": "the fallen dates",
-      "note": "Dates that dried up and fell before they got ripe."
+      "en": "the spoiled dates",
+      "note": "Dates that went bad."
      }
     ]
    },
    {
     "he": "וְעַל הַגּוֹבַאי אוֹמֵר שֶׁהַכֹּל.",
     "en": "and on locusts, one says \"Shehakol.\"",
+    "st": "<b>and over locusts, one recites: By whose word all things came to be.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְעַל",
@@ -514,6 +610,10 @@
    {
     "he": "עַל הֶחָלָב וְעַל הַגְּבִינָה",
     "en": "On milk and on cheese",
+    "st": "<b>So too, over milk, and over cheese,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַל",
@@ -536,6 +636,10 @@
    {
     "he": "וְעַל הַבֵּיצִים אוֹמֵר שֶׁהַכֹּל.",
     "en": "and on eggs, one says \"Shehakol.\"",
+    "st": "<b>and over eggs, one recites: By whose word all things came to be.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וְעַל",
@@ -558,6 +662,10 @@
    {
     "he": "רַבִּי יְהוּדָה אוֹמֵר,",
     "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -576,7 +684,11 @@
    },
    {
     "he": "כָּל שֶׁהוּא מִין קְלָלָה",
-    "en": "anything that comes from a kind of curse, like spoiled food,",
+    "en": "anything that comes from a curse, like spoiled food,",
+    "st": "Over <b>any</b> food item <b>that is a type</b> resulting from a <b>curse,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כָּל",
@@ -588,7 +700,7 @@
      },
      {
       "he": "מִין",
-      "en": "a kind of"
+      "en": "a type of"
      },
      {
       "he": "קְלָלָה",
@@ -599,6 +711,11 @@
    {
     "he": "אֵין מְבָרְכִין עָלָיו:",
     "en": "we do not make a bracha on it.",
+    "st": "<b>one does not recite a blessing over it</b> at all.",
+    "stMore": "None of the items listed exist under normal conditions, and they come about as the result of a curse.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֵין",
@@ -620,10 +737,16 @@
   "perek": 6,
   "mishnah": 4,
   "summary": "If you have many foods in front of you, which one do you make the bracha on first?",
+  "stIntro": "",
   "chunks": [
    {
     "he": "הָיוּ לְפָנָיו מִינִים הַרְבֵּה,",
     "en": "If there were many kinds of food in front of him,",
+    "st": "On a different note: If there were <b>many types</b> of food <b>before him,</b>",
+    "stMore": "over which food should he recite a blessing first?",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הָיוּ",
@@ -646,6 +769,10 @@
    {
     "he": "רַבִּי יְהוּדָה אוֹמֵר,",
     "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -665,6 +792,10 @@
    {
     "he": "אִם יֵשׁ בֵּינֵיהֶם מִמִּין שִׁבְעָה,",
     "en": "if one of them is from the seven special foods of Eretz Yisrael,",
+    "st": "<b>If there is one of the seven species</b> for which Eretz Yisrael was praised <b>among them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אִם",
@@ -691,7 +822,11 @@
    },
    {
     "he": "מְבָרֵךְ עָלָיו.",
-    "en": "he makes the bracha on that one.",
+    "en": "he makes the bracha on that one first.",
+    "st": "<b>he recites</b> the first <b>blessing over it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מְבָרֵךְ",
@@ -706,6 +841,10 @@
    {
     "he": "וַחֲכָמִים אוֹמְרִים,",
     "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וַחֲכָמִים",
@@ -720,6 +859,10 @@
    {
     "he": "מְבָרֵךְ עַל אֵיזֶה מֵהֶם שֶׁיִּרְצֶה:",
     "en": "he makes the bracha on whichever one he wants.",
+    "st": "<b>He recites a blessing over whichever of them he wants.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מְבָרֵךְ",
@@ -749,10 +892,15 @@
   "perek": 6,
   "mishnah": 5,
   "summary": "When one bracha covers other foods too, so you don't need a new bracha.",
+  "stIntro": "This mishna explains those cases and those circumstances in which blessings recited over particular foods exempt other foods at the meal from the requirement to recite a blessing over them.",
   "chunks": [
    {
     "he": "בֵּרַךְ עַל הַיַּיִן שֶׁלִּפְנֵי הַמָּזוֹן,",
     "en": "If he made a bracha on the wine before the meal,",
+    "st": "<b>One who recited a blessing over the wine that</b> one drank <b>before the meal,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בֵּרַךְ",
@@ -779,6 +927,11 @@
    {
     "he": "פָּטַר אֶת הַיַּיִן שֶׁלְּאַחַר הַמָּזוֹן.",
     "en": "it also covers the wine after the meal.",
+    "st": "with that blessing <b>he exempted the wine that</b> he drinks <b>after the meal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "basisNote": "Bartenura says this is on Shabbos and Yom Tov, when wine is planned for after the meal.",
     "words": [
      {
       "he": "פָּטַר",
@@ -805,7 +958,11 @@
    },
    {
     "he": "בֵּרַךְ עַל הַפַּרְפֶּרֶת שֶׁלִּפְנֵי הַמָּזוֹן,",
-    "en": "If he made a bracha on the snacks before the meal,",
+    "en": "If he made a bracha on the appetizers before the meal,",
+    "st": "Similarly, <b>one who recited a blessing over the appetizers that</b> one ate <b>before the meal,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בֵּרַךְ",
@@ -832,7 +989,11 @@
    },
    {
     "he": "פָּטַר אֶת הַפַּרְפֶּרֶת שֶׁלְּאַחַר הַמָּזוֹן.",
-    "en": "it also covers the snacks after the meal.",
+    "en": "it also covers the appetizers after the meal.",
+    "st": "with that blessing <b>he exempted the appetizers that</b> he eats <b>after the meal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "פָּטַר",
@@ -859,6 +1020,10 @@
    {
     "he": "בֵּרַךְ עַל הַפַּת,",
     "en": "If he made a bracha on the bread,",
+    "st": "<b>One who recited a blessing over the bread</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בֵּרַךְ",
@@ -876,7 +1041,11 @@
    },
    {
     "he": "פָּטַר אֶת הַפַּרְפֶּרֶת.",
-    "en": "it covers the snacks.",
+    "en": "it covers the appetizers,",
+    "st": "<b>exempted the appetizers,</b> as they are considered secondary to the bread.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "פָּטַר",
@@ -894,7 +1063,11 @@
    },
    {
     "he": "עַל הַפַּרְפֶּרֶת,",
-    "en": "But a bracha on the snacks",
+    "en": "but a bracha on the appetizers",
+    "st": "However, one who recited a blessing <b>over the appetizers</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "עַל",
@@ -909,6 +1082,10 @@
    {
     "he": "לֹא פָטַר אֶת הַפָּת.",
     "en": "does not cover the bread.",
+    "st": "<b>did not exempt the bread.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לֹא",
@@ -931,6 +1108,10 @@
    {
     "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
     "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בֵּית",
@@ -950,6 +1131,10 @@
    {
     "he": "אַף לֹא מַעֲשֵׂה קְדֵרָה:",
     "en": "it does not even cover a cooked dish.",
+    "st": "The blessing recited over the appetizers <b>did not exempt even a cooked dish</b> that he eats during the meal.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אַף",
@@ -965,7 +1150,8 @@
      },
      {
       "he": "קְדֵרָה:",
-      "en": "a pot"
+      "en": "a pot",
+      "note": "Food cooked in a pot."
      }
     ]
    }
@@ -975,10 +1161,15 @@
   "perek": 6,
   "mishnah": 6,
   "summary": "When people eat together, sometimes one person makes the bracha for everyone.",
+  "stIntro": "An additional halakha is cited:",
   "chunks": [
    {
     "he": "הָיוּ יוֹשְׁבִין לֶאֱכֹל,",
-    "en": "If people were sitting to eat,",
+    "en": "If people were sitting to eat, not as one group,",
+    "st": "If several people <b>were sitting</b> to eat not in the framework of a joint meal,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הָיוּ",
@@ -997,6 +1188,10 @@
    {
     "he": "כָּל אֶחָד וְאֶחָד מְבָרֵךְ לְעַצְמוֹ.",
     "en": "each one makes his own bracha.",
+    "st": "<b>each recites a blessing for himself.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כָּל",
@@ -1022,7 +1217,11 @@
    },
    {
     "he": "הֵסֵבּוּ, אֶחָד מְבָרֵךְ לְכֻלָּן.",
-    "en": "If they leaned on couches together for a meal, one makes the bracha for all of them.",
+    "en": "If they reclined together for a meal, one makes the bracha for all of them.",
+    "st": "<b>If they were reclined</b> on divans to eat, which renders it a joint meal, <b>one recites a blessing on behalf of them all.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הֵסֵבּוּ,",
@@ -1046,6 +1245,10 @@
    {
     "he": "בָּא לָהֶם יַיִן בְּתוֹךְ הַמָּזוֹן,",
     "en": "If wine was brought to them during the meal,",
+    "st": "Additionally: If <b>wine came before them during the meal,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בָּא",
@@ -1071,7 +1274,11 @@
    },
    {
     "he": "כָּל אֶחָד וְאֶחָד מְבָרֵךְ לְעַצְמוֹ.",
-    "en": "each one makes his own bracha.",
+    "en": "each one makes his own bracha on it.",
+    "st": "<b>each and every</b> diner <b>recites a blessing</b> over the wine <b>for himself.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כָּל",
@@ -1098,6 +1305,10 @@
    {
     "he": "לְאַחַר הַמָּזוֹן,",
     "en": "If it came after the meal,",
+    "st": "If the wine came <b>after the meal,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "לְאַחַר",
@@ -1112,6 +1323,10 @@
    {
     "he": "אֶחָד מְבָרֵךְ לְכֻלָּם.",
     "en": "one makes the bracha for all of them.",
+    "st": "<b>one recites a blessing on behalf of them all.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֶחָד",
@@ -1129,7 +1344,12 @@
    },
    {
     "he": "וְהוּא אוֹמֵר עַל הַמֻּגְמָר,",
-    "en": "And that same person says the bracha on the nice-smelling spices,",
+    "en": "And that same person says the bracha on the sweet-smelling incense,",
+    "st": "<b>And he,</b> who recited the blessing over the wine, also <b>says</b> the blessing <b>over the incense</b> [<b>mugmar</b>],",
+    "basis": [
+     "steinsaltz"
+    ],
+    "basisNote": "Steinsaltz: the one who blessed the wine. Bartenura: the one who led bentching.",
     "words": [
      {
       "he": "וְהוּא",
@@ -1153,6 +1373,10 @@
    {
     "he": "אַף עַל פִּי שֶׁאֵין מְבִיאִין",
     "en": "even though they only bring",
+    "st": "<b>although they only bring</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אַף",
@@ -1178,7 +1402,11 @@
    },
    {
     "he": "אֶת הַמֻּגְמָר אֶלָּא לְאַחַר הַסְּעֻדָּה:",
-    "en": "the spices after the meal is over.",
+    "en": "the incense after the meal.",
+    "st": "<b>the incense</b> to the diners <b>after the meal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֶת",
@@ -1208,10 +1436,15 @@
   "perek": 6,
   "mishnah": 7,
   "summary": "When one food is the main food and another is just a side, we make the bracha on the main food.",
+  "stIntro": "",
   "chunks": [
    {
     "he": "הֵבִיאוּ לְפָנָיו מָלִיחַ בַּתְּחִלָּה וּפַת עִמּוֹ,",
-    "en": "If they brought him salty fish first, with bread alongside it,",
+    "en": "If they brought him salty food first, with bread alongside it,",
+    "st": "If <b>they brought salted</b> food <b>before him</b> to eat <b>first and bread with it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הֵבִיאוּ",
@@ -1224,7 +1457,7 @@
      {
       "he": "מָלִיחַ",
       "en": "salted food",
-      "note": "Salty fish, eaten with bread to soften the taste."
+      "note": "Salty food eaten after sweet fruit; bread helps him eat it."
      },
      {
       "he": "בַּתְּחִלָּה",
@@ -1242,7 +1475,11 @@
    },
    {
     "he": "מְבָרֵךְ עַל הַמָּלִיחַ וּפוֹטֵר אֶת הַפַּת,",
-    "en": "he makes the bracha on the salty fish, and that covers the bread,",
+    "en": "he makes the bracha on the salty food, and that covers the bread,",
+    "st": "<b>he recites a blessing over the salted</b> food <b>and</b> thereby <b>exempts the bread,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מְבָרֵךְ",
@@ -1273,6 +1510,12 @@
    {
     "he": "שֶׁהַפַּת טְפֵלָה לוֹ.",
     "en": "because the bread is just a side to it.",
+    "explain": "He only eats the bread to help him eat the salty food.",
+    "st": "<b>because</b> the salted food is primary while <b>the bread is secondary to it.</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
     "words": [
      {
       "he": "שֶׁהַפַּת",
@@ -1291,6 +1534,10 @@
    {
     "he": "זֶה הַכְּלָל,",
     "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "זֶה",
@@ -1305,6 +1552,10 @@
    {
     "he": "כֹּל שֶׁהוּא עִקָּר וְעִמּוֹ טְפֵלָה,",
     "en": "whenever there is a main food with a side food,",
+    "st": "<b>Any</b> food <b>that is primary and a secondary</b> food <b>is with it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "כֹּל",
@@ -1331,6 +1582,10 @@
    {
     "he": "מְבָרֵךְ עַל הָעִקָּר וּפוֹטֵר אֶת הַטְּפֵלָה:",
     "en": "you make the bracha on the main food, and that covers the side food.",
+    "st": "<b>one recites a blessing over the primary and,</b> in so doing, <b>exempts the secondary</b> from its own blessing.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מְבָרֵךְ",
@@ -1364,10 +1619,15 @@
   "perek": 6,
   "mishnah": 8,
   "summary": "Which bracha to say after eating special fruits, vegetables, or drinking water.",
+  "stIntro": "",
   "chunks": [
    {
     "he": "אָכַל תְּאֵנִים עֲנָבִים וְרִמּוֹנִים,",
     "en": "If someone ate figs, grapes, and pomegranates,",
+    "st": "<b>One who ate</b> from the fruit for which Eretz Yisrael was praised, <b>grapes and figs and pomegranates,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אָכַל",
@@ -1389,7 +1649,11 @@
    },
    {
     "he": "מְבָרֵךְ אַחֲרֵיהֶן שָׁלשׁ בְּרָכוֹת,",
-    "en": "he says after them the three brachos, like full bentching,",
+    "en": "he says after them the three brachos of bentching, like after bread,",
+    "st": "<b>recites</b> the <b>three blessings</b> of Grace after Meals, as he would after eating bread;",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מְבָרֵךְ",
@@ -1413,6 +1677,10 @@
    {
     "he": "דִּבְרֵי רַבָּן גַּמְלִיאֵל.",
     "en": "so says Rabban Gamliel.",
+    "st": "this is <b>the statement of Rabban Gamliel.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "דִּבְרֵי",
@@ -1433,6 +1701,10 @@
    {
     "he": "וַחֲכָמִים אוֹמְרִים,",
     "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "וַחֲכָמִים",
@@ -1446,7 +1718,11 @@
    },
    {
     "he": "בְּרָכָה אַחַת מֵעֵין שָׁלשׁ.",
-    "en": "one bracha that is a short form of the three.",
+    "en": "only one bracha that is a short form of the three.",
+    "st": "One need only recite <b>one blessing abridged from</b> the <b>three</b> blessings of Grace after Meals.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בְּרָכָה",
@@ -1458,8 +1734,8 @@
      },
      {
       "he": "מֵעֵין",
-      "en": "like the form of",
-      "note": "This is \"Al Hamichya / Al Ha'etz,\" a short after-bracha."
+      "en": "a short form of",
+      "note": "This is the short after-bracha, like Al Ha'etz."
      },
      {
       "he": "שָׁלשׁ.",
@@ -1470,6 +1746,11 @@
    {
     "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
     "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "stMore": "The three blessings of Grace after Meals are not restricted to bread; rather,",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -1488,7 +1769,11 @@
    },
    {
     "he": "אֲפִלּוּ אָכַל שֶׁלֶק וְהוּא מְזוֹנוֹ,",
-    "en": "even if he ate cooked vegetables and that is his meal,",
+    "en": "even if he ate cooked vegetables and that is his main food,",
+    "st": "<b>even</b> if <b>one ate boiled vegetables, but it is his</b> primary <b>sustenance,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אֲפִלּוּ",
@@ -1508,13 +1793,17 @@
      },
      {
       "he": "מְזוֹנוֹ,",
-      "en": "his meal"
+      "en": "his main food"
      }
     ]
    },
    {
     "he": "מְבָרֵךְ אַחֲרָיו שָׁלשׁ בְּרָכוֹת.",
-    "en": "he says after it the three brachos.",
+    "en": "he says after it the three brachos of bentching.",
+    "st": "<b>he recites</b> the <b>three blessings</b> of Grace after Meals.",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "מְבָרֵךְ",
@@ -1537,6 +1826,10 @@
    {
     "he": "הַשּׁוֹתֶה מַיִם לִצְמָאוֹ,",
     "en": "Someone who drinks water because he is thirsty",
+    "st": "Additionally: <b>One who drinks water</b> to quench <b>his thirst</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "הַשּׁוֹתֶה",
@@ -1555,6 +1848,10 @@
    {
     "he": "אוֹמֵר שֶׁהַכֹּל נִהְיֶה בִּדְבָרוֹ.",
     "en": "says \"Shehakol nihyeh bidvaro\" (everything came to be by His word).",
+    "st": "<b>recites: By whose word all things came to be.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "אוֹמֵר",
@@ -1577,6 +1874,10 @@
    {
     "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
     "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "רַבִּי",
@@ -1595,7 +1896,11 @@
    },
    {
     "he": "בּוֹרֵא נְפָשׁוֹת רַבּוֹת:",
-    "en": "\"Borei nefashos rabos\" (Who creates many living things).",
+    "en": "\"Borei nefashos rabos\" (Who creates many living things and their needs).",
+    "st": "He recites: <b>Who creates the many forms of life and their needs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
     "words": [
      {
       "he": "בּוֹרֵא",
