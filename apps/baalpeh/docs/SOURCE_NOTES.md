@@ -1,8 +1,8 @@
 # Where the sources differ (Steinsaltz vs. Bartenura)
 
-These are the places worth a parent's look. They're collected from the agents that tied each piece's meaning to
-Steinsaltz (primary) and Bartenura (tr. R. Shraga Silverstein). The **Steinsaltz** view is always a verbatim quote.
-These notes are about the **Simple** lines.
+This is a reference only; no action is needed. The Simple lines follow Steinsaltz, and Bartenura is used only where
+Steinsaltz leaves a word untranslated. Both are legitimate readings. These notes were collected while each piece was
+tied to its sources, in case you're curious.
 
 ## Perek 3–4
 - **3:2:** Steinsaltz says start Shema only if you can finish the whole thing before reaching the mourners' rows. Bartenura says finishing one section is enough. The Simple line follows Steinsaltz.

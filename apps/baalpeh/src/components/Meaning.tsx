@@ -58,7 +58,6 @@ export function Meaning({ chunk, view, perek, mishnah, allowMore = true }: Props
             ) : (
               <p>A simplified version of {basis.map((b, i) => <span key={b}>{i > 0 && " and "}<b>{SOURCES[b].name}</b></span>)}.</p>
             )}
-            {chunk.basisNote && <p className="hint">{chunk.basisNote}</p>}
             <ul className="source-list">
               {(useSt ? (["steinsaltz"] as Source[]) : basis).map((b) => <li key={b}>{SOURCES[b].detail}</li>)}
             </ul>

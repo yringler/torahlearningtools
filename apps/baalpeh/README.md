@@ -57,7 +57,8 @@ There are two views of each piece's meaning. The child or parent can switch betw
 
 - **Simple** is one short line for a young reader, sometimes with a short explanation. An AI wrote it by
   simplifying Steinsaltz's bold translation and checking it against Bartenura. Each piece records which source(s) it was
-  based on (`basis`), plus a note wherever it follows Bartenura instead of Steinsaltz.
+  based on (`basis`). Where the two differ, Steinsaltz is followed. Bartenura only fills in where Steinsaltz leaves a word
+untranslated. (`docs/SOURCE_NOTES.md` lists the differences for reference only.)
 - **Steinsaltz** is quoted word for word from the Koren Noé / William Davidson translation. **Bold** is the
   translation and the lighter text is his explanation. Longer explanations sit behind "more…". The validator
   guarantees the excerpts, put back together, are exactly Steinsaltz's text.
@@ -69,7 +70,7 @@ Translations used: Steinsaltz (primary) and Bartenura translated by R. Shraga Si
 Not used: Open Mishnah (a community translation), Mishnah Yomit (Kulp), and De Sola & Raphall (on Sefaria it covers
 only perek 1 of Brachos).
 
-The simple lines are still AI-written, so **a parent should check them**.
+The simple lines are AI-written paraphrases of Steinsaltz. If one reads oddly, it's an easy fix in `data/gloss/`.
 
 To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline, and generate gloss files.
 
