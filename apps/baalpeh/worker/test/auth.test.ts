@@ -76,6 +76,19 @@ describe("POST /api/auth/request", () => {
     expect(form.get("remoteip")).toBe(ip);
   });
 
+  it("failed Turnstile checks do not use up the email's quota", async () => {
+    vi.restoreAllMocks();
+    mockTurnstile(false);
+    const email = uniqueEmail();
+    for (let i = 0; i < 6; i++) {
+      const res = await req("/api/auth/request", { body: { email, turnstileToken: "bad" }, ip: uniqueIp() });
+      expect((await err(res)).error).toBe("turnstile_failed");
+    }
+    vi.restoreAllMocks();
+    mockTurnstile(true);
+    expect((await requestLogin(email)).status).toBe(200);
+  });
+
   it("rate limits per email (6th in an hour) and per IP (11th)", async () => {
     const email = uniqueEmail();
     for (let i = 0; i < 5; i++) expect((await requestLogin(email)).status).toBe(200);

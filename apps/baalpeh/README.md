@@ -4,6 +4,27 @@ A tablet-friendly web app that helps children memorize Mishnayos by heart, start
 Parents sign in with an emailed link or code. Progress is saved on the device first and synced to a small
 Cloudflare Worker (Hono + D1), so it works offline and follows the family across tablets.
 
+## Deploying to Cloudflare (checklist)
+
+Full steps: [§15 of the server plan](docs/SERVER_PLAN.md#15-deployment-steps-for-the-owner).
+
+- [ ] `npx -y npm@11.6.2 install`, then `npx wrangler login`.
+- [ ] **D1:** `npx wrangler d1 create baalpeh`, paste the printed `database_id` into `wrangler.jsonc`, then
+      `npm run db:migrate:remote` (applies `migrations/`).
+- [ ] **`wrangler.jsonc` placeholders** (marked `OWNER`): `database_id`, `vars.APP_ORIGIN` (`https://your.domain`, no
+      trailing slash), `vars.EMAIL_FROM`, `vars.TURNSTILE_SITE_KEY`, and the commented `routes` entry for your custom domain.
+- [ ] **Turnstile:** dashboard → Turnstile → Add widget for your hostname (Managed). Site key → `vars.TURNSTILE_SITE_KEY`;
+      secret key → `npx wrangler secret put TURNSTILE_SECRET_KEY`.
+- [ ] **Resend:** add and verify your sending domain (DNS records in Cloudflare) until it shows *Verified*; create a
+      sending-only API key → `npx wrangler secret put RESEND_API_KEY`; set `vars.EMAIL_FROM` to an address on that
+      domain, e.g. `Mishnah Ba'al Peh <login@your.domain>`. Without the key, production refuses to send login emails.
+- [ ] **Auth secret:** `openssl rand -base64 32 | npx wrangler secret put AUTH_SECRET`.
+- [ ] **Deploy:** `npm run deploy` (build, remote migrations, `wrangler deploy`).
+- [ ] **GitHub Actions (`.github/workflows/deploy.yml`):** add repository secrets `CLOUDFLARE_API_TOKEN` ("Edit
+      Cloudflare Workers" template plus *Account → D1 → Edit*) and `CLOUDFLARE_ACCOUNT_ID`, and create a GitHub
+      environment named `production`. Pushes to `main` then test and deploy.
+- [ ] Smoke test: sign in by code on one device and by link on another, add a child, learn a step, check it syncs.
+
 ## How the learning works
 
 Each mishnah is cut into child-sized **pieces** (2–6 words, split at natural phrase breaks). Pieces are grouped into

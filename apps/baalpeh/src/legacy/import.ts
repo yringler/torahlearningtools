@@ -25,6 +25,11 @@ export function importLegacy(s: AccountStore, selected: Profile[], now: Ms, newI
   return { ...next, profiles: [...s.profiles, ...copies], importDecision: "imported" };
 }
 
+/** Keeps only object values (a hand-edited backup can hold `null` or numbers, which the app can't read). */
+function entries<T>(m: Record<string, T>): Record<string, T> {
+  return Object.fromEntries(Object.entries(m).filter(([, v]) => typeof v === "object" && v !== null && !Array.isArray(v)));
+}
+
 /** Fills in fields an old or hand-edited backup may lack, so the app and the sync mapping can rely on them. */
 export function normalizeProfile(x: Profile, index: number): Profile {
   const p = (typeof x === "object" && x !== null ? x : {}) as Partial<Profile>;
@@ -41,8 +46,8 @@ export function normalizeProfile(x: Profile, index: number): Profile {
       dailyMinutes: typeof settings.dailyMinutes === "number" ? settings.dailyMinutes : 15,
       ...(settings.meaningView === "simple" || settings.meaningView === "steinsaltz" ? { meaningView: settings.meaningView } : {}),
     },
-    mishnayos: obj(p.mishnayos),
-    perakim: obj(p.perakim),
+    mishnayos: entries(obj(p.mishnayos)),
+    perakim: entries(obj(p.perakim)),
     days: Array.isArray(p.days) ? p.days.filter((d): d is string => typeof d === "string") : [],
   };
 }

@@ -59,11 +59,11 @@ authRoutes.post("/request", async (c) => {
   const t = now();
 
   await limit(c, "req-ip", ip, 10, 3600, t);
-  await limit(c, "req-email", email, 5, 3600, t);
-
+  // Turnstile before the per-email limit, so a bot that can't pass it can't use up a parent's email quota.
   if (!(await verifyTurnstile(c.env, turnstileToken, ip))) {
     return apiError(c, 400, "turnstile_failed", "Bot check failed. Please try again.");
   }
+  await limit(c, "req-email", email, 5, 3600, t);
 
   const id = crypto.randomUUID();
   const token = randomToken();

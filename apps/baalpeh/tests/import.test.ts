@@ -35,4 +35,11 @@ describe("normalizeProfile", () => {
     const p = normalizeProfile({ id: "x1234567", name: "Z" } as unknown as Profile, 0);
     expect(p).toMatchObject({ mishnayos: {}, perakim: {}, days: [], settings: { fontScale: 1, tts: false, dailyMinutes: 15 } });
   });
+
+  it("drops progress entries that are not objects", () => {
+    const m = { stepIndex: 1, state: "learning", fails: {} };
+    const p = normalizeProfile({ id: "x1234567", name: "Z", mishnayos: { "1:1": null, "1:2": 5, "1:3": m }, perakim: { "1": null } } as unknown as Profile, 0);
+    expect(p.mishnayos).toEqual({ "1:3": m });
+    expect(p.perakim).toEqual({});
+  });
 });
