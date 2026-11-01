@@ -6,6 +6,8 @@ import { AuthFrame, GuestOption, Login } from "./auth/Login";
 import { takeVerifyToken, VerifyLanding } from "./auth/VerifyLanding";
 import { asksServer, bootRoute, isGuestChosen, setGuestChosen } from "./guest";
 import { GuestApp } from "./GuestApp";
+import { LicensesPage } from "./components/Licenses";
+import { LICENSES_PATH } from "./sources";
 import { kv } from "./kv";
 import { LearningApp } from "./LearningApp";
 import { loadCurrentUser, setCurrentUser } from "./sync/store";
@@ -32,8 +34,14 @@ function initialPhase(): Phase {
   }
 }
 
-/** Auth shell: decides between the sign-in screens and the learning app. */
+/** Routes by path: the public sources & licenses page needs no sign-in; everything else goes through the auth shell. */
 export function App() {
+  if (typeof window !== "undefined" && window.location.pathname.replace(/\/+$/, "") === LICENSES_PATH) return <LicensesPage />;
+  return <AuthShell />;
+}
+
+/** Auth shell: decides between the sign-in screens and the learning app. */
+function AuthShell() {
   const [phase, setPhase] = useState<Phase>(initialPhase);
   const [meTry, setMeTry] = useState(0);
   const phaseRef = useRef(phase);

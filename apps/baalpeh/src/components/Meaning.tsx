@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { MASECHTA } from "../data";
 import { sefariaUrl, SOURCES } from "../sources";
+import { LicensesLink } from "./Licenses";
 import type { Chunk, MeaningView, Source } from "../types";
 
 /** Render Steinsaltz markup: <b>translation</b> bold, the rest as lighter explanation. No raw HTML injection. */
@@ -56,14 +57,19 @@ export function Meaning({ chunk, view, perek, mishnah, allowMore = true }: Props
             {useSt ? (
               <p>Quoted word for word from <b>{SOURCES.steinsaltz.name}</b>. <b>Bold</b> is his translation of the Mishnah; the lighter text is his explanation.</p>
             ) : (
-              <p>A simplified version of {basis.map((b, i) => <span key={b}>{i > 0 && " and "}<b>{SOURCES[b].name}</b></span>)}.</p>
+              <p>An AI-written simplification of {basis.map((b, i) => <span key={b}>{i > 0 && " and "}<b>{SOURCES[b].name}</b></span>)}, checked against the source.</p>
             )}
             <ul className="source-list">
-              {(useSt ? (["steinsaltz"] as Source[]) : basis).map((b) => <li key={b}>{SOURCES[b].detail}</li>)}
+              {(useSt ? (["steinsaltz"] as Source[]) : basis).map((b) => (
+                <li key={b}>
+                  {SOURCES[b].detail} · <a href={SOURCES[b].license.url} target="_blank" rel="noreferrer license">{SOURCES[b].license.name}</a>
+                </li>
+              ))}
             </ul>
             <a className="btn secondary" href={sefariaUrl(MASECHTA.masechtaEn, perek, mishnah)} target="_blank" rel="noreferrer">
               Open on Sefaria
             </a>
+            <LicensesLink />
             <button className="btn ghost-btn" onClick={() => setInfo(false)}>Close</button>
           </div>
         </div>

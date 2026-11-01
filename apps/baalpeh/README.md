@@ -121,5 +121,13 @@ On iPad/iPhone, open the site and use "Add to Home Screen".
 ## Sources & licenses
 
 Hebrew text: Torat Emet 357 via [Sefaria](https://www.sefaria.org) (public domain). English: William Davidson
-Edition (Steinsaltz, CC-BY-NC) and The Mishna with Obadiah Bartenura by R. Shraga Silverstein (CC-BY), via Sefaria. This project is for
-non-commercial use, in keeping with the CC-BY-NC source.
+Edition (Steinsaltz, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)) and The Mishna with Obadiah
+Bartenura by R. Shraga Silverstein ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)), via Sefaria. The
+"Simple" and word meanings adapt Steinsaltz, so they're CC BY-NC too. Details, including what was changed, are in
+[`data/LICENSES.md`](data/LICENSES.md). The app shows the attribution at `/licenses` (no sign-in needed), with links from
+the sign-in screen, each meaning's ⓘ, the parent area and guest settings.
+
+The app is free and non-commercial, as the CC BY-NC source requires. The sign-in screen, the parent area and the
+guest sheet say accounts may later become a small yearly family subscription (about $5–10), and that guest mode would
+stay free. Before charging, get written permission from Koren or rebuild the meanings from Bartenura/public-domain
+sources only (see `data/LICENSES.md`).

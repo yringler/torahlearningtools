@@ -218,3 +218,10 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; justif
 .guest-pill { border: 1px solid var(--line); background: var(--surface); color: var(--muted); border-radius: 999px; padding: 4px 12px;
   min-height: 32px; font-size: 0.85rem; font-weight: 600; cursor: pointer; }
 .guest-sheet p { margin: 0; }
+
+/* sources & licenses */
+.auth-footer { margin: 4px auto 16px; }
+.auth-footer .link-btn, .credit-link { font-weight: 400; font-size: 0.9rem; color: var(--muted); }
+.pricing-note { font-size: 0.85rem; margin: 0; }
+.licenses section p { margin: 6px 0; line-height: 1.5; }
+.licenses a:not(.btn) { color: var(--accent); }
