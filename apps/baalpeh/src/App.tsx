@@ -4,6 +4,7 @@ import { api, ApiFailure } from "./api/client";
 import { CheckEmail } from "./auth/CheckEmail";
 import { AuthFrame, GuestOption, Login } from "./auth/Login";
 import { takeVerifyToken, VerifyLanding } from "./auth/VerifyLanding";
+import { DataGate } from "./components/DataGate";
 import { asksServer, bootRoute, isGuestChosen, setGuestChosen } from "./guest";
 import { GuestApp } from "./GuestApp";
 import { kv } from "./kv";
@@ -107,15 +108,21 @@ export function App() {
     case "guest":
       // Leaving guest mode keeps the guest's progress (v1 key) so the account's import prompt can offer it.
       // Ask the server first: this browser may still hold a valid session (signed in from another tab).
-      return <GuestApp onSignIn={() => { setGuestChosen(kv, false); setPhase({ phase: "boot" }); setMeTry((n) => n + 1); }} />;
+      return (
+        <DataGate>
+          <GuestApp onSignIn={() => { setGuestChosen(kv, false); setPhase({ phase: "boot" }); setMeTry((n) => n + 1); }} />
+        </DataGate>
+      );
     case "app":
       return (
-        <LearningApp
-          key={phase.user.id}
-          user={phase.user}
-          onSignedOut={() => setPhase({ phase: "login" })}
-          onSignInAgain={() => setPhase({ phase: "login", reason: "expired", email: phase.user.email })}
-        />
+        <DataGate>
+          <LearningApp
+            key={phase.user.id}
+            user={phase.user}
+            onSignedOut={() => setPhase({ phase: "login" })}
+            onSignInAgain={() => setPhase({ phase: "login", reason: "expired", email: phase.user.email })}
+          />
+        </DataGate>
       );
   }
 }

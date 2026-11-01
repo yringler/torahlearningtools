@@ -101,7 +101,7 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 
 ## 11. Data and robustness
 
-- Bundle the Sefaria text as static JSON at build time. **Pin one vocalized version**, strip HTML and footnote markup, and normalize Unicode (NFC). This avoids runtime API failures and keeps chunk indices stable.
+- Ship the Sefaria text as static JSON built ahead of time, one content-hashed file per masechta that is fetched when opened and kept offline by the service worker (not inside the JS bundle; the whole Mishnah is too big for that). **Pin one vocalized version**, strip HTML and footnote markup, and normalize Unicode (NFC). This avoids runtime API failures and keeps chunk indices stable.
 - Prompt the parent to back up with **Export/Import JSON**. Call `navigator.storage.persist()`. Note that **iOS Safari can wipe localStorage after about 7 days without visits** unless the app is added to the Home Screen as a PWA.
 - Version the storage schema and migrate on load.
 

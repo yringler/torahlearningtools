@@ -70,8 +70,22 @@ scripts/chunk.py             → data/chunks.json           (mechanical phrase c
                              → data/gloss/perek_N.json    (refined chunks + kid-level meaning per piece and per word)
 scripts/validate_gloss.py    checks that the Hebrew matches the source byte for byte, that the Steinsaltz excerpts rebuild
                              Steinsaltz exactly (text and bold), and that every word has a gloss and every piece names its sources
-scripts/build_data.py        → src/data/berakhot.json     (what the app bundles)
+scripts/build_data.py        → public/data/m/<id>.<hash>.json   (one file per masechta, fetched when opened)
+                             → src/data/index.json              (small catalog bundled into the app)
 ```
+
+The text is **not** in the JavaScript bundle. Each masechta is its own JSON file named by content hash, so it can be
+cached forever and a fix to one masechta re-downloads only that one. The full Mishnah would be roughly 20 MB raw
+(about 4 MB gzipped), which is far too much to ship to every user up front.
+
+### Offline
+
+`sw/sw.ts` is the service worker. `vite.config.ts` compiles it to `dist/sw.js` with the build's file list and a version
+hash. It precaches the app (HTML, JS, CSS, icons, manifest), saves each masechta the first time it's opened, and caches
+the Google Fonts so the Hebrew font works offline too. Page loads go to the network first so new deploys show up; with
+no connection (or after 3 s), the cached app opens. `/api` requests never go through the cache. The worker registers
+only in production builds, so to try it locally use `npm run preview:worker`. The Home Screen name and icon come from
+`public/manifest.webmanifest`, `public/icons/` and the `apple-*` tags in `index.html`.
 
 ### Meanings and sources
 
@@ -94,7 +108,9 @@ only perek 1 of Brachos).
 
 The simple lines are AI-written paraphrases of Steinsaltz. If one reads oddly, it's an easy fix in `data/gloss/`.
 
-To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline, and generate gloss files.
+To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline, generate gloss files, and add a line
+to `MASECHTOS` in `build_data.py`. Note that progress keys (`"perek:mishnah"`, locally and in D1) don't name a masechta
+yet, so the app currently learns the first masechta in the catalog. Learning more than one needs those keys extended.
 
 ## Develop
 
