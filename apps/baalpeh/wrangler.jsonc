@@ -1,32 +1,47 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "baalpeh",
-  "main": "worker/index.ts",
-  "compatibility_date": "2026-10-01",
-  "compatibility_flags": ["nodejs_compat"],
-  "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS",
-    "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"]
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "baalpeh",
-      "database_id": "00000000-0000-0000-0000-000000000000", // OWNER: replace with the id from `wrangler d1 create baalpeh`
-      "migrations_dir": "migrations"
-    }
-  ],
-  "vars": {
-    "APP_ORIGIN": "https://mishnah.example.com",                   // OWNER: your domain, no trailing slash
-    "EMAIL_FROM": "Mishnah Ba'al Peh <login@mishnah.example.com>",  // OWNER: an address on the Resend-verified domain
-    "TURNSTILE_SITE_KEY": "1x00000000000000000000AA"               // OWNER: real site key (this is the always-pass test key)
-  },
-  // Secrets (set with `wrangler secret put NAME`, never committed):
-  //   AUTH_SECRET, TURNSTILE_SECRET_KEY, RESEND_API_KEY
-  "triggers": { "crons": ["17 3 * * *"] },
-  "observability": { "enabled": true }
-  // OWNER: to serve on your domain, add:
-  // ,"routes": [{ "pattern": "mishnah.example.com", "custom_domain": true }]
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "baalpeh",
+	"main": "worker/index.ts",
+	"compatibility_date": "2026-10-01",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS",
+		"not_found_handling": "single-page-application",
+		"run_worker_first": [
+			"/api/*"
+		]
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "baalpeh",
+			"database_id": "ccfeb94d-e1a3-441d-bcb4-823017bb7e6e", // OWNER: replace with the id from `wrangler d1 create baalpeh`
+			"migrations_dir": "migrations"
+		},
+		{
+			"binding": "baalpeh",
+			"database_name": "baalpeh",
+			"database_id": "ccfeb94d-e1a3-441d-bcb4-823017bb7e6e"
+		}
+	],
+	"vars": {
+		"APP_ORIGIN": "https://mishnah.example.com", // OWNER: your domain, no trailing slash
+		"EMAIL_FROM": "Mishnah Ba'al Peh <login@mishnah.example.com>", // OWNER: an address on the Resend-verified domain
+		"TURNSTILE_SITE_KEY": "1x00000000000000000000AA" // OWNER: real site key (this is the always-pass test key)
+	},
+	// Secrets (set with `wrangler secret put NAME`, never committed):
+	//   AUTH_SECRET, TURNSTILE_SECRET_KEY, RESEND_API_KEY
+	"triggers": {
+		"crons": [
+			"17 3 * * *"
+		]
+	},
+	"observability": {
+		"enabled": true
+	}
+	// OWNER: to serve on your domain, add:
+	// ,"routes": [{ "pattern": "mishnah.example.com", "custom_domain": true }]
 }
