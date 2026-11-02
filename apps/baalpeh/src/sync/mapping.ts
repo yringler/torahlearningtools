@@ -24,7 +24,7 @@ function cleanSettings(s: Profile["settings"]): ChildSettings {
 /** The child's metadata as the server stores it. `sort` is the position in the picker. */
 export function metaOf(p: Profile, sort: number): ChildMeta {
   const name = (typeof p.name === "string" ? p.name : "").trim().slice(0, 40) || "Child";
-  const emoji = typeof p.emoji === "string" && p.emoji.length >= 1 && p.emoji.length <= 16 ? p.emoji : "🦁";
+  const emoji = typeof p.emoji === "string" && p.emoji.length >= 1 && p.emoji.length <= 16 ? p.emoji : "🐮";
   const color = typeof p.color === "string" && COLOR.test(p.color) ? p.color : "#2f7d6d";
   return { name, color, emoji, settings: cleanSettings(p.settings), sort: int(sort, 0, 999, 0) };
 }

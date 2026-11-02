@@ -39,7 +39,7 @@ export function normalizeProfile(x: Profile, index: number): Profile {
     id: typeof p.id === "string" && p.id ? p.id : `legacy-${index}`,
     name: typeof p.name === "string" && p.name.trim() ? p.name : `Child ${index + 1}`,
     color: typeof p.color === "string" ? p.color : "#2f7d6d",
-    emoji: typeof p.emoji === "string" ? p.emoji : "🦁",
+    emoji: typeof p.emoji === "string" ? p.emoji : "🐮",
     settings: {
       fontScale: typeof settings.fontScale === "number" ? settings.fontScale : 1,
       tts: settings.tts === true,

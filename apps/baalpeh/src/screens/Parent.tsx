@@ -241,7 +241,7 @@ function ChildCard({ p, onChange, onDelete, onReset, online }: {
           <label>Name <input value={p.name} maxLength={40} onChange={(e) => onChange({ ...p, name: e.target.value })} /></label>
           <label>Picture
             <select value={p.emoji} onChange={(e) => onChange({ ...p, emoji: e.target.value })}>
-              {EMOJIS.map((e) => <option key={e}>{e}</option>)}
+              {(EMOJIS.includes(p.emoji as (typeof EMOJIS)[number]) ? EMOJIS : [p.emoji, ...EMOJIS]).map((e) => <option key={e}>{e}</option>)}
             </select>
           </label>
           <label>Text size <input type="range" min={0.8} max={1.6} step={0.1} value={p.settings.fontScale} onChange={(e) => set("fontScale", Number(e.target.value))} /></label>
