@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { CueCard } from "../components/CueCard";
 import { GlossSheet } from "../components/GlossSheet";
 import { LicensesLink } from "../components/Licenses";
@@ -28,7 +28,16 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
   const [word, setWord] = useState<Word | null>(null);
   const [hideMeaning, setHideMeaning] = useState(false);
   const [showFull, setShowFull] = useState(false);
+  const fullBtn = useRef<HTMLButtonElement>(null);
+  const fullParts: string[] = [m.stIntro ?? "", ...m.chunks.flatMap((c) => [c.st ?? "", c.stMore ?? ""])].filter(Boolean);
   const view = profile.settings.meaningView ?? "simple";
+
+  const toggleFull = (open: boolean): void => {
+    setShowFull(open);
+    requestAnimationFrame(() =>
+      fullBtn.current?.scrollIntoView({ behavior: "smooth", block: open ? "start" : "nearest" }),
+    );
+  };
 
   return (
     <div className="mishnah-screen">
@@ -50,7 +59,6 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
       </div>
       <div className="toggles" dir="ltr">
         <ViewToggle view={view} onChange={onView} allowHide hidden={hideMeaning} onHide={setHideMeaning} />
-        <label><input type="checkbox" checked={showFull} onChange={(e) => setShowFull(e.target.checked)} /> Whole mishnah in Steinsaltz</label>
       </div>
       <p className="hint" dir="ltr">Tap any word to see what it means.</p>
       <div className="study">
@@ -64,15 +72,30 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
           </div>
         ))}
       </div>
-      {showFull && (
-        <div className="full-st" dir="ltr">
-          {[m.stIntro ?? "", ...m.chunks.flatMap((c) => [c.st ?? "", c.stMore ?? ""])].filter(Boolean).map((h, i) => (
-            <span key={i}><SteinsaltzText html={h} /> </span>
-          ))}
-          <div className="credit">
-            {SOURCES.steinsaltz.detail} · <a href={SOURCES.steinsaltz.license.url} target="_blank" rel="noreferrer license">{SOURCES.steinsaltz.license.name}</a>
-            {" · "}<LicensesLink className="credit-link" />
-          </div>
+      {fullParts.length > 0 && (
+        <div className="full-st-wrap" dir="ltr">
+          <button
+            ref={fullBtn}
+            type="button"
+            className="btn secondary full-st-btn"
+            aria-expanded={showFull}
+            aria-controls="full-st"
+            onClick={() => toggleFull(!showFull)}
+          >
+            {showFull ? "▲ Hide whole-mishnah explanation" : "📖 Read the whole mishnah (Steinsaltz)"}
+          </button>
+          {showFull && (
+            <div id="full-st" className="full-st">
+              {fullParts.map((h, i) => (
+                <span key={i}><SteinsaltzText html={h} /> </span>
+              ))}
+              <div className="credit">
+                {SOURCES.steinsaltz.detail} · <a href={SOURCES.steinsaltz.license.url} target="_blank" rel="noreferrer license">{SOURCES.steinsaltz.license.name}</a>
+                {" · "}<LicensesLink className="credit-link" />
+              </div>
+              <button type="button" className="btn ghost-btn small" onClick={() => toggleFull(false)}>▲ Hide</button>
+            </div>
+          )}
         </div>
       )}
       <GlossSheet word={word} onClose={() => setWord(null)} />
