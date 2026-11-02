@@ -41,6 +41,19 @@ export function completeStep(p: Profile, perek: number, mishnah: number): { prof
   return { profile: withM(p, perek, mishnah, { ...cur, stepIndex, state }), finished: stepIndex >= total };
 }
 
+/**
+ * The child jumped to a step (back, forward, or a tapped stone/part). Navigation is free: the parent
+ * check at the end is the real test. `index === total` means the parent check. Not a "step passed".
+ */
+export function setStep(p: Profile, perek: number, mishnah: number, index: number): Profile {
+  const total = buildSteps(getMishnah(perek, mishnah).chunks).length;
+  const cur = mp(p, perek, mishnah);
+  const stepIndex = Math.max(0, Math.min(Math.round(index), total));
+  if (stepIndex === cur.stepIndex) return p;
+  const state = cur.state === "new" ? "learning" : cur.state;
+  return withM(p, perek, mishnah, { ...cur, stepIndex, state });
+}
+
 /** Parent verified the whole mishnah. `grade` notyet sends it back to the final step. */
 export function parentCheckMishnah(p: Profile, perek: number, mishnah: number, grade: Grade): Profile {
   const cur = mp(p, perek, mishnah);

@@ -86,6 +86,7 @@ export function GuestApp({ onSignIn }: Props) {
         tasks={screen.tasks}
         onProfile={setProfile}
         onExit={() => setScreen(screen.back)}
+        onMap={() => setScreen({ s: "home" })}
         {...(screen.continueLearning ? { more: nextLearning } : {})}
       />
     );

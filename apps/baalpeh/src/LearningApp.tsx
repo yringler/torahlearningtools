@@ -130,6 +130,7 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
       onProfile={setProfile}
       onEvent={(body) => addEvent(profile.id, body)}
       onExit={() => setScreen(screen.back)}
+      onMap={() => setScreen({ s: "home", id: profile.id })}
       {...(screen.continueLearning ? { more: nextLearning } : {})}
     />
   );
