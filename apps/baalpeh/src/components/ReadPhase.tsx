@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { speak } from "../tts";
 import type { Chunk, MeaningView, Word } from "../types";
 import { CueCard } from "./CueCard";
 import { GlossSheet } from "./GlossSheet";
 import { Meaning, ViewToggle } from "./Meaning";
+import { SpeakButton } from "./SpeakButton";
 
 interface Props {
   chunk: Chunk;
@@ -37,9 +37,7 @@ export function ReadPhase({ chunk, context = [], tts, perek, mishnah, view, onVi
       {chunk.st && <ViewToggle view={view} onChange={onView} />}
       <div className="actions">
         {tts && (
-          <button className="btn secondary" onClick={() => speak(chunk.he)} title="Approximate pronunciation">
-            🔊
-          </button>
+          <SpeakButton text={chunk.he} className="btn secondary" />
         )}
         <button className="btn primary big" onClick={tap}>
           I read it <span className="dots-count">{[0, 1].map((i) => (i < reads ? "●" : "○")).join("")}</span>
