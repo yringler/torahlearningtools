@@ -11,7 +11,7 @@ export function kid(name: string, extra: Partial<Profile> = {}): Profile {
     id: `child-${name}-${n}`.padEnd(10, "x"),
     name,
     color: "#2f7d6d",
-    emoji: "🐄",
+    emoji: "🐮",
     settings: { fontScale: 1, tts: false, dailyMinutes: 15 },
     mishnayos: {},
     perakim: {},
