@@ -269,10 +269,11 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
     return (
       <div className="task">
         {path}
-        <div className="step-nav" dir="ltr">
-          <button className="btn ghost-btn small" onClick={() => goTo(steps.length - 1)}>‹ Back</button>
-          <div className="step-label">Show Abba or Ima</div>
-          <span className="btn small" aria-hidden="true" style={{ visibility: "hidden" }}>Next ›</span>
+        {/* Right to left like the Hebrew: Back on the right, Next on the left (as in the word panel). */}
+        <div className="step-nav">
+          <button className="btn ghost-btn small" dir="ltr" onClick={() => goTo(steps.length - 1)}>Back ›</button>
+          <div className="step-label" dir="ltr">Show Abba or Ima</div>
+          <span className="btn small" aria-hidden="true" style={{ visibility: "hidden" }}>‹ Next</span>
         </div>
         <ParentCheck
           title={`${ref(perek, mishnah)} — the whole mishnah`}
@@ -301,10 +302,12 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
     <>
       <h2 className="task-title">{ref(perek, mishnah)}</h2>
       {path}
-      <div className="step-nav" dir="ltr">
-        <button className="btn ghost-btn small" disabled={stepIndex === 0 && !detour} onClick={() => goTo(detour ? stepIndex : stepIndex - 1)}>‹ Back</button>
-        <div className="step-label">{detour ? "Extra practice" : step.label}</div>
-        <button className="btn ghost-btn small" onClick={() => goTo(stepIndex + 1)}>Next ›</button>
+      {/* Right to left like the Hebrew: Back on the right, Next on the left (as in the word panel). */}
+      <div className="step-nav">
+        <button className="btn ghost-btn small" dir="ltr" disabled={stepIndex === 0 && !detour} onClick={() => goTo(detour ? stepIndex : stepIndex - 1)}>Back ›</button>
+        {/* The part pill and "Piece k of n" counter above say which part; the label just names the task. */}
+        <div className="step-label" dir="ltr">{detour ? "Extra practice" : step.label.replace(/^Part \d+ · /, "")}</div>
+        <button className="btn ghost-btn small" dir="ltr" onClick={() => goTo(stepIndex + 1)}>‹ Next</button>
       </div>
     </>
   );

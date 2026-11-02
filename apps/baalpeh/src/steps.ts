@@ -72,8 +72,82 @@ export function buildSteps(chunks: Chunk[]): Step[] {
 export const stepKey = (s: Step): string =>
   s.kind === "learn" ? `L${s.chunk}` : `C${s.from}-${s.to}`;
 
-/** Chain steps that join whole segments (start + end on segment bounds) are "big stones". */
-export function isBigStep(s: Step, chunks: Chunk[]): boolean {
-  if (s.kind !== "chain") return false;
-  return segments(chunks).some(([, b]) => b === s.to) && s.to > s.from;
+/** Which group a step belongs to: its segment index, or "join" for steps spanning segments. */
+export function groupOf(s: Step, segs: Array<[number, number]>): number | "join" {
+  const lo = s.kind === "learn" ? s.chunk : s.from;
+  const hi = s.kind === "learn" ? s.chunk : s.to;
+  const i = segs.findIndex(([a, b]) => lo >= a && hi <= b);
+  return i < 0 ? "join" : i;
+}
+
+/**
+ * One drawn node of the step path.
+ * - tile: a "New piece n" step (n is 1-based within its part).
+ * - link: a "together" step that chains items 1..through (pieces in a part, or parts in the join group).
+ * - partTile: in the join group, a whole part (not a step itself; tapping goes to that part's first step).
+ */
+export type PathNode =
+  | { type: "tile"; step: number; n: number }
+  | { type: "partTile"; part: number; firstStep: number; lastStep: number }
+  | { type: "link"; step: number; through: number; final: boolean };
+
+export interface PathGroup {
+  key: number | "join";
+  nodes: PathNode[];
+  /** Step indices in this group, ascending. */
+  steps: number[];
+  /** Pieces in the part, or the number of parts for the join group. */
+  pieces: number;
+}
+
+/** Groups the steps into drawable parts: one per segment, then (for 2+ segments) the join group. */
+export function pathGroups(steps: Step[], chunks: Chunk[]): PathGroup[] {
+  const segs = segments(chunks);
+  const keys = steps.map((s) => groupOf(s, segs));
+  const groups: PathGroup[] = segs.map(([a, b], si) => {
+    const nodes: PathNode[] = [];
+    const idx: number[] = [];
+    steps.forEach((s, i) => {
+      if (keys[i] !== si) return;
+      idx.push(i);
+      if (s.kind === "learn") nodes.push({ type: "tile", step: i, n: s.chunk - a + 1 });
+      else nodes.push({ type: "link", step: i, through: s.to - a + 1, final: s.to === b });
+    });
+    return { key: si, nodes, steps: idx, pieces: b - a + 1 };
+  });
+  if (segs.length > 1) {
+    const nodes: PathNode[] = [];
+    const idx = steps.map((_, i) => i).filter((i) => keys[i] === "join");
+    segs.forEach(([, b], si) => {
+      const own = groups[si]?.steps ?? [];
+      nodes.push({ type: "partTile", part: si + 1, firstStep: own[0] ?? 0, lastStep: own[own.length - 1] ?? 0 });
+      const join = idx.find((i) => { const s = steps[i]; return s?.kind === "chain" && s.to === b; });
+      if (join !== undefined) nodes.push({ type: "link", step: join, through: si + 1, final: si === segs.length - 1 });
+    });
+    groups.push({ key: "join", nodes, steps: idx, pieces: segs.length });
+  }
+  return groups;
+}
+
+export interface StepPosition {
+  /** Index into pathGroups(). */
+  group: number;
+  /** Piece number (or, in the join group, the last part joined), 1-based. */
+  piece: number;
+  of: number;
+  kind: "new" | "together" | "join";
+}
+
+/** Where step i sits: e.g. "piece 3 of 6 in part 2". Null past the last step. */
+export function stepPosition(groups: PathGroup[], i: number): StepPosition | null {
+  for (let g = 0; g < groups.length; g++) {
+    const grp = groups[g];
+    if (!grp) continue;
+    for (const node of grp.nodes) {
+      if (node.type === "partTile" || node.step !== i) continue;
+      const kind = grp.key === "join" ? "join" : node.type === "tile" ? "new" : "together";
+      return { group: g, piece: node.type === "tile" ? node.n : node.through, of: grp.pieces, kind };
+    }
+  }
+  return null;
 }

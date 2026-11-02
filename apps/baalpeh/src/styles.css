@@ -73,13 +73,48 @@ button { font: inherit; color: inherit; }
 /* practice */
 .task-title { font-family: var(--heb); text-align: center; font-size: 1.6rem; }
 .step-label { text-align: center; color: var(--muted); font-weight: 700; margin: 4px 0 8px; }
-.step-path { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 6px 0; }
-.stone { width: 12px; height: 12px; border-radius: 50%; background: var(--line); }
-.stone.big { width: 20px; height: 20px; }
-.stone.done { background: var(--accent); }
-.stone.current { background: var(--gold); animation: pulse 1.6s ease-in-out infinite; }
-@keyframes pulse { 50% { transform: scale(1.35); } }
-@media (prefers-reduced-motion: reduce) { .stone.current { animation: none; } }
+/* step path: "piece chain" — numbered tiles (new pieces) joined by links ("together" steps), right to left */
+.chain { --tile: 40px; --link: 26px; display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; margin: 6px 0 0; }
+.chain .hit { display: grid; place-items: center; min-height: 48px; padding: 0; border: 0; background: transparent; font: inherit; color: inherit; border-radius: 10px; }
+button.hit { cursor: pointer; }
+button.hit:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; }
+.tile { position: relative; width: var(--tile); }
+.tile .face { box-sizing: border-box; display: grid; place-items: center; width: var(--tile); height: var(--tile); border-radius: 11px;
+  border: 2px dashed var(--line); color: var(--muted); font-weight: 800; font-size: 1.1rem; background: var(--surface); }
+.tile.done .face { border: 2px solid var(--accent); background: var(--accent); color: var(--accent-ink); }
+.tile.current .face { border: 4px solid var(--gold); color: var(--ink); animation: breathe 1.6s ease-in-out infinite; }
+.part-tile { --tile: 46px; }
+.part-tile .face { border-radius: 999px; }
+/* bracket under the tiles a "together" step covers */
+.tile + .tile { margin-inline-start: 6px; }
+.tile.in-chain::after, .link.in-chain::after { content: ""; position: absolute; left: -3px; right: -3px; bottom: 0; height: 4px; background: var(--gold); }
+.link { position: relative; width: var(--link); }
+.link.in-chain::after { left: 0; right: 0; }
+.link .bar { display: block; width: 100%; border-top: 4px dotted var(--line); }
+.link.done .bar { border-top: 6px solid var(--accent); }
+.link.current .bar { border-top: 6px solid var(--gold); animation: breathe 1.6s ease-in-out infinite; }
+.link.final.done .bar, .link.final.current .bar { border-top-width: 9px; }
+.link.done.just .bar { animation: snap 0.25s ease-out; transform-origin: right; }
+.cap { width: 30px; }
+.cap .face { box-sizing: border-box; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%;
+  border: 2px dashed var(--line); color: transparent; font-weight: 900; font-size: 0.9rem; }
+.cap.done .face { border: 2px solid var(--accent); background: var(--accent); color: var(--accent-ink); }
+.cap.current .face { border: 3px solid var(--gold); background: var(--gold); color: var(--accent-ink); animation: breathe 1.6s ease-in-out infinite; }
+.cap.end .face { width: 30px; height: 30px; }
+.cap.end { width: 34px; }
+.chain-count { text-align: center; font-weight: 800; font-size: 0.95rem; color: var(--ink); margin: 0 0 4px; }
+@keyframes breathe { 50% { transform: scale(1.12); } }
+@keyframes snap { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes pop { 50% { transform: scale(1.12); } }
+@media (max-width: 400px) {
+  .chain { --tile: 33px; --link: 16px; } .part-tile { --tile: 40px; } .tile .face { font-size: 1rem; }
+  .parts { gap: 4px; }
+  .part:not(.current) .part-word { display: none; }
+  .part, button.part { min-width: 40px; padding-inline: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tile.current .face, .link.current .bar, .link.done.just .bar, .cap.current .face, .part.just { animation: none; }
+}
 
 .recite { display: flex; flex-direction: column; align-items: stretch; gap: 14px; }
 .prompt { text-align: center; font-size: 1.25rem; font-weight: 700; }
@@ -176,9 +211,16 @@ input[type="text"], input:not([type]), input[type="number"], select { font: inhe
   .btn.big { min-width: 0; width: 100%; }
 }
 .parts { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 4px 0; }
-.part { font-size: 0.85rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; border: 2px solid var(--line); color: var(--muted); }
+.part { display: inline-flex; flex-direction: column; align-items: stretch; gap: 3px; font-size: 0.85rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 999px; border: 2px solid var(--line); color: var(--muted); }
+.part-name { white-space: nowrap; text-align: center; }
+/* progress fills from the right, like the path */
+.part-bar { display: flex; direction: rtl; height: 4px; border-radius: 2px; background: var(--line); overflow: hidden; }
+.part-bar i { display: block; background: var(--accent); }
 .part.done { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
-.part.current { border-color: var(--gold); color: var(--ink); }
+.part.done .part-bar { display: none; }
+.part.current { border-color: var(--gold); border-width: 3px; color: var(--ink); }
+.part.just { animation: pop 0.6s ease-out; }
 .day.shabbos { border-style: dashed; }
 
 /* meaning views */
@@ -260,12 +302,10 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; justif
 .break-setting input[type="number"] { width: 5em; }
 
 
-/* free step navigation: tappable stones/parts + Back/Next */
-button.part { font: inherit; font-size: 0.85rem; font-weight: 700; background: transparent; min-height: 40px; padding: 6px 14px; cursor: pointer; }
+/* free step navigation: tappable path nodes/parts + Back/Next */
+button.part { font: inherit; font-size: 0.85rem; font-weight: 700; background: transparent; min-height: 40px; padding: 6px 14px; cursor: pointer; justify-content: center; }
 button.part.done { background: var(--accent); }
-.step-path:has(.stone-hit) { gap: 0; }
-.stone-hit { display: grid; place-items: center; min-width: 30px; min-height: 40px; padding: 0; border: 0; background: transparent; cursor: pointer; border-radius: 10px; }
-.stone-hit:focus-visible, button.part:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+button.part:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
 .step-nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 4px 0 8px; }
 .step-nav .step-label { margin: 0; flex: 1; }
 .step-nav .btn { min-width: 84px; }
