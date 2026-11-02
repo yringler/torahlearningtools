@@ -7,7 +7,7 @@ import { StepPath } from "../components/StepPath";
 import { getMishnah, hebNum, MASECHTA } from "../data";
 import { isKnown, mp } from "../progress";
 import { buildSteps } from "../steps";
-import { speak } from "../tts";
+import { SpeakButton } from "../components/SpeakButton";
 import { SOURCES } from "../sources";
 import type { MeaningView, Profile, Word } from "../types";
 
@@ -66,7 +66,7 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
           <div key={i} className="study-row">
             <CueCard he={c.he} cue={0} glossWords={c.words} onWordTap={setWord} />
             {profile.settings.tts && (
-              <button className="btn ghost-btn small" onClick={() => speak(c.he)} aria-label="Play">🔊</button>
+              <SpeakButton text={c.he} className="btn ghost-btn small" />
             )}
             {!hideMeaning && c.en && <Meaning key={view} chunk={c} view={view} perek={perek} mishnah={mishnah} />}
           </div>
