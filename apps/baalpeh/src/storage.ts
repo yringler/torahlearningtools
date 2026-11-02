@@ -32,14 +32,14 @@ export function isAppState(x: unknown): x is AppState {
 }
 
 export const COLORS = ["#2f7d6d", "#c0603a", "#4a64b5", "#a2479a", "#c79a1e", "#3d8a3a"] as const;
-export const EMOJIS = ["🦁", "🐘", "🦉", "🐢", "🦊", "🐬", "🐻", "🦒"] as const;
+export const EMOJIS = ["🐄", "🐑", "🐐", "🦌", "🦒", "🫎", "🐔", "🦃", "🦆", "🐟"] as const;
 
 export function newProfile(name: string, index: number): Profile {
   return {
     id: crypto.randomUUID(),
     name,
     color: COLORS[index % COLORS.length] ?? "#2f7d6d",
-    emoji: EMOJIS[index % EMOJIS.length] ?? "🦁",
+    emoji: EMOJIS[index % EMOJIS.length] ?? "🐄",
     settings: { fontScale: 1, tts: false, dailyMinutes: 15 },
     mishnayos: {},
     perakim: {},

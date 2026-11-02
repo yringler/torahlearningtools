@@ -141,7 +141,7 @@ export async function sha256(s: string): Promise<string> {
 // ───────────── sync fixtures ─────────────
 
 export function meta(over: Partial<ChildMeta> = {}): ChildMeta {
-  return { name: "Avi", color: "#336699", emoji: "🦁", settings: { fontScale: 1, tts: false, dailyMinutes: 10 }, sort: 0, ...over };
+  return { name: "Avi", color: "#336699", emoji: "🐄", settings: { fontScale: 1, tts: false, dailyMinutes: 10 }, sort: 0, ...over };
 }
 
 export function child(id: string, updatedAt: number, over: Partial<ChildRow> = {}): ChildRow {
