@@ -57,8 +57,7 @@ whole perek is reviewed as one item. "Start today's learning" always does due re
 and suggests stopping after the session length set by the parent (default 15 min).
 
 Other features: a profile for each child, a parent area (hold the lock button for 2 s) with settings, backup
-export/import, and per-mishnah reset. Read-aloud is off by default because device voices use Israeli pronunciation
-and often ignore nikud.
+export/import, and per-mishnah reset.
 
 The design spec this was built from is in [`docs/DESIGN.md`](docs/DESIGN.md).
 

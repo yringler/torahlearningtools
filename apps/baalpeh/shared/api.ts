@@ -139,7 +139,6 @@ export interface PerekProgressData {
 
 export interface ChildSettings {
   fontScale: number;
-  tts: boolean;
   dailyMinutes: number;
   meaningView?: MeaningView;
 }

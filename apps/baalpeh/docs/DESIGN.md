@@ -16,7 +16,7 @@
 4. **Practice step** (the main screen, described in §3).
 5. **Step result**: a short check animation (under 1 second) and an auto-advance to the next step. Every 3–4 steps, a "Take a breath / keep going?" prompt.
 6. **Milestone**: segment, Mishnah or perek done. A calm celebration screen. For Mishnah and perek milestones, a "Show Abba/Ima" check (§4).
-7. **Parent area**: profiles, chunk-boundary editor, review of glosses, settings (font size, TTS, havara note), export/import progress, and a per-child history view.
+7. **Parent area**: profiles, chunk-boundary editor, review of glosses, settings (font size, havara note), export/import progress, and a per-child history view.
 
 **Later:** a printable perek certificate, parent-recorded audio, and a "start from Mishnah N" drill.
 
@@ -92,7 +92,7 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 - `<html dir="rtl" lang="he">`. Font: **Taamey Frank CLM** or **Frank Ruhl Libre / Noto Serif Hebrew**, checked so that nikud renders correctly. Body text **36–44px** on a tablet with **line-height ≥ 2.0** so nikud isn't clipped. Not justified, with extra word-spacing.
 - Chunks keep fixed line breaks, so the visual shape stays stable from L0 to L4. That shape is itself a memory cue.
 - Touch targets ≥ 56px, word tap areas padded, main buttons at the bottom within reach of a thumb. Never rely on color alone (add icons or text). Include a font-size slider and dark mode.
-- **TTS caveat**: browser `speechSynthesis` he-IL voices vary by device. Many ignore or mangle nikud and Mishnaic forms, and all of them use modern Israeli pronunciation, which may not match the family's havara (e.g., Ashkenazi). Default TTS to **off** and label it "approximate". **Later, the best option**: the parent records each chunk (stored in IndexedDB), and that recording replaces TTS.
+- **TTS caveat**: browser `speechSynthesis` he-IL voices vary by device. Many ignore or mangle nikud and Mishnaic forms, and all of them use modern Israeli pronunciation, which may not match the family's havara (e.g., Ashkenazi). Browser TTS was tried and removed for this reason; the app has no audio. **Later, if recordings exist**: play a recording of each chunk (e.g. parent-recorded, stored in IndexedDB).
 
 ## 10. Multiple children
 
@@ -111,7 +111,7 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 - **Chains that are too long**: tired kids stop learning. Cap full-perek chains per session and use rolling pairs.
 - **Showing meaning or tappable words during recall**: this leaks the answer.
 - **Chunks that split mid-phrase**, or split a word from its prefix. Let the parent fix boundaries.
-- **Teaching wrong pronunciation** through TTS, or a gloss that is wrong. Use parent review and parent audio.
+- **Teaching wrong pronunciation** through device TTS (why it was removed), or a gloss that is wrong. Use parent review and parent audio.
 - **Rushing to the next Mishnah** while earlier ones decay. Reviews always come first.
 - **Only ever starting from Mishnah 1**: kids can't start in the middle of a perek. Add a "start from Mishnah N" drill later.
 - **Over-gamification**: confetti, coins and sibling rankings take attention away from the learning itself.
@@ -121,4 +121,4 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 
 **MVP**: profiles; perek map; generated chaining steps with L0–L4 cues and peek counting; parent check at milestones; chunk and word meanings from static JSON; Leitner review at Mishnah and perek level; RTL typography; export/import.
 
-**Later**: parent-recorded audio, recitation recording, chunk/gloss editor UI, "start from N" drill, certificates, optional TTS improvements.
+**Later**: parent-recorded audio, recitation recording, chunk/gloss editor UI, "start from N" drill, certificates.

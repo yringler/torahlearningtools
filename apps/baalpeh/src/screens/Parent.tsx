@@ -252,7 +252,6 @@ function ChildCard({ p, onChange, onDelete, onReset, online }: {
               <option value="steinsaltz">Steinsaltz (bold translation + explanation)</option>
             </select>
           </label>
-          <label><input type="checkbox" checked={p.settings.tts} onChange={(e) => set("tts", e.target.checked)} /> 🔊 Read-aloud (approximate: Israeli pronunciation, may skip nikud)</label>
           <details>
             <summary>Reset a mishnah</summary>
             {PERAKIM.map((perek) => (

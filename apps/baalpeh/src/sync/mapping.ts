@@ -16,7 +16,7 @@ const int = (v: unknown, lo: number, hi: number, dflt: number): number => {
 /** Settings in the ranges the server accepts (§7.3). Older or hand-edited data can be outside them. */
 function cleanSettings(s: Profile["settings"]): ChildSettings {
   const fontScale = typeof s.fontScale === "number" && Number.isFinite(s.fontScale) ? Math.min(3, Math.max(0.5, s.fontScale)) : 1;
-  const out: ChildSettings = { fontScale, tts: s.tts === true, dailyMinutes: int(s.dailyMinutes, 1, 180, 15) };
+  const out: ChildSettings = { fontScale, dailyMinutes: int(s.dailyMinutes, 1, 180, 15) };
   if (s.meaningView === "simple" || s.meaningView === "steinsaltz") out.meaningView = s.meaningView;
   return out;
 }

@@ -40,7 +40,7 @@ export function newProfile(name: string, index: number): Profile {
     name,
     color: COLORS[index % COLORS.length] ?? "#2f7d6d",
     emoji: EMOJIS[index % EMOJIS.length] ?? "🐮",
-    settings: { fontScale: 1, tts: false, dailyMinutes: 15 },
+    settings: { fontScale: 1, dailyMinutes: 15 },
     mishnayos: {},
     perakim: {},
     days: [],
