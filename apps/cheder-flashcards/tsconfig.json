@@ -15,5 +15,7 @@
     "noEmit": true,
     "types": ["vite/client", "vite-plugin-pwa/client"]
   },
-  "include": ["src", "tests", "vite.config.ts", "playwright.config.ts", "e2e"]
+  "include": ["src", "tests", "vite.config.ts", "playwright.config.ts", "e2e"],
+  // The service worker has its own types (tsconfig.sw.json).
+  "exclude": ["src/sw.ts"]
 }
