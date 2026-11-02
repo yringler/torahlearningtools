@@ -1,0 +1,47 @@
+name: "home: check and deploy"
+# Runs only when apps/home (or this file) changes. Deploys only from main.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/home/**"
+      - ".github/workflows/home.yml"
+  pull_request:
+    paths:
+      - "apps/home/**"
+      - ".github/workflows/home.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: home-${{ github.ref }}
+  cancel-in-progress: true
+defaults:
+  run:
+    working-directory: apps/home
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run build
+      - run: npx wrangler deploy --dry-run
+  deploy:
+    needs: test
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx wrangler deploy
