@@ -2,7 +2,7 @@ import { useState } from "react";
 import type { LearningEventBody, User } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
 import { BreakSetting } from "../components/BreakSetting";
-import { LicensesLink, PricingNote } from "../components/Licenses";
+import { AboutNote, LicensesLink, PricingNote } from "../components/Licenses";
 import { MASECHTA, mishnayosOf, PERAKIM } from "../data";
 import { copyAsNew, normalizeProfile } from "../legacy/import";
 import { dueReviews, isKnown, mp, pp, resetMishnah } from "../progress";
@@ -144,6 +144,7 @@ export function Parent(props: Props) {
           <li>Hebrew text: Torat Emet via Sefaria. Meanings come in two views. <b>Steinsaltz</b> is quoted word for word from the Koren Noé / William Davidson translation (bold = translation, light = explanation). <b>Simple</b> is an AI simplification of Steinsaltz, checked against Bartenura (tr. R. Shraga Silverstein). Tap ⓘ by any meaning to see its source. Please check anything that looks off. <LicensesLink /></li>
         </ul>
       </section>
+      <AboutNote />
     </div>
   );
 }

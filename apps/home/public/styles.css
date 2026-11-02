@@ -217,6 +217,8 @@ main { flex: 1; padding-bottom: 2.5rem; }
   padding-block: 1.5rem 2rem;
 }
 .footer p { margin: 0; }
+.footer p + p { margin-top: 0.4rem; }
+.footer a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   .card, .card-cta .arrow { transition: none; }

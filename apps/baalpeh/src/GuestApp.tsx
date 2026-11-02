@@ -3,7 +3,7 @@ import { loadGuest, saveGuest } from "./guest";
 import { kv } from "./kv";
 import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
 import { BreakSetting } from "./components/BreakSetting";
-import { LicensesLink, PricingNote } from "./components/Licenses";
+import { AboutNote, LicensesLink, PricingNote } from "./components/Licenses";
 import { Home } from "./screens/Home";
 import { MishnahScreen } from "./screens/MishnahScreen";
 import { Session } from "./screens/Session";
@@ -159,6 +159,7 @@ function GuestSettings({ profile: p, onChange, onBack, onSignIn }: {
         <p className="hint">Hebrew text: Torat Emet via Sefaria. Meanings are based on Steinsaltz (Koren Noé / William Davidson Edition) and Bartenura (tr. R. Shraga Silverstein).</p>
         <LicensesLink />
       </section>
+      <AboutNote />
     </div>
   );
 }
