@@ -492,7 +492,8 @@ export interface PerekProgressData {
 
 export interface ChildSettings {
   fontScale: number;
-  dailyMinutes: number;
+  /** Absent: break suggestions are off. */
+  breakMinutes?: number;
   meaningView?: MeaningView;
 }
 
@@ -906,7 +907,7 @@ Each validator returns `{ ok: true, value } | { ok: false, message }`. Rules:
   `slipWords`: integer 0..10_000. `perek`, `mishnah`, `through`, `step`: integer 0..999 (or null where typed).
 - `IsoDate`: `/^\d{4}-\d{2}-\d{2}$/`.
 - `ChildMeta`: name trimmed 1..40 chars; color `/^#[0-9a-fA-F]{6}$/`; emoji 1..16 chars; settings `fontScale` 0.5..3,
-  `dailyMinutes` 1..180 (integer), `meaningView` absent or one of the enum; `sort` integer 0..999.
+  `breakMinutes` absent or 1..180 (integer), `meaningView` absent or one of the enum; `sort` integer 0..999.
 - `m` record: key `/^\d{1,3}:\d{1,3}$/`; data `stepIndex` integer 0..10_000, `state` enum, `fails` an object of at
   most 200 integer values, `review` absent or `{box 0..20 integer, due IsoDate, passes integer ≥ 0}`.
 - `p` record: key `/^\d{1,3}$/`; `chainedThrough` integer 0..999, `complete` boolean, `review` as above.

@@ -42,7 +42,8 @@ export function normalizeProfile(x: Profile, index: number): Profile {
     emoji: typeof p.emoji === "string" ? p.emoji : "🐮",
     settings: {
       fontScale: typeof settings.fontScale === "number" ? settings.fontScale : 1,
-      dailyMinutes: typeof settings.dailyMinutes === "number" ? settings.dailyMinutes : 15,
+      // The old `dailyMinutes` was always on by default, so it is not carried over: breaks stay off until a parent turns them on.
+      ...(typeof settings.breakMinutes === "number" ? { breakMinutes: settings.breakMinutes } : {}),
       ...(settings.meaningView === "simple" || settings.meaningView === "steinsaltz" ? { meaningView: settings.meaningView } : {}),
     },
     mishnayos: entries(obj(p.mishnayos)),

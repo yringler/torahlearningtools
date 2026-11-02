@@ -69,7 +69,8 @@ export interface PerekProgress {
 
 export interface Settings {
   fontScale: number;
-  dailyMinutes: number;
+  /** Minutes before the child is shown a break suggestion. Absent: no break suggestions (the default). */
+  breakMinutes?: number;
   /** Which meaning view to show while learning (optional for older saved profiles). */
   meaningView?: MeaningView;
 }

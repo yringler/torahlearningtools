@@ -16,8 +16,17 @@ const int = (v: unknown, lo: number, hi: number, dflt: number): number => {
 /** Settings in the ranges the server accepts (§7.3). Older or hand-edited data can be outside them. */
 function cleanSettings(s: Profile["settings"]): ChildSettings {
   const fontScale = typeof s.fontScale === "number" && Number.isFinite(s.fontScale) ? Math.min(3, Math.max(0.5, s.fontScale)) : 1;
-  const out: ChildSettings = { fontScale, dailyMinutes: int(s.dailyMinutes, 1, 180, 15) };
+  const out: ChildSettings = { fontScale };
+  if (typeof s.breakMinutes === "number" && Number.isFinite(s.breakMinutes)) out.breakMinutes = int(s.breakMinutes, 1, 180, 15);
   if (s.meaningView === "simple" || s.meaningView === "steinsaltz") out.meaningView = s.meaningView;
+  return out;
+}
+
+/** Settings from the server, without fields this client doesn't use (older rows can still hold `dailyMinutes`). */
+export function settingsOf(s: ChildSettings): Profile["settings"] {
+  const out: Profile["settings"] = { fontScale: s.fontScale };
+  if (s.breakMinutes !== undefined) out.breakMinutes = s.breakMinutes;
+  if (s.meaningView !== undefined) out.meaningView = s.meaningView;
   return out;
 }
 
@@ -105,5 +114,5 @@ export function diffProfiles(prev: Profile[], next: Profile[], now: Ms): { child
 
 export function blankProfileFromRow(row: ChildRow): Profile {
   const { name, color, emoji, settings } = row.meta;
-  return { id: row.id, name, color, emoji, settings: { ...settings }, mishnayos: {}, perakim: {}, days: [] };
+  return { id: row.id, name, color, emoji, settings: settingsOf(settings), mishnayos: {}, perakim: {}, days: [] };
 }
