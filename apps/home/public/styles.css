@@ -15,6 +15,10 @@
   --byheart-soft: #e3eff8;
   --cheder: #2f7a3e;
   --cheder-soft: #e3f2e2;
+  --books: #6d3c8c;
+  --books-soft: #f0e6f6;
+  --yichud: #9b2d45;
+  --yichud-soft: #f8e4e8;
 
   --radius: 22px;
   --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -40,6 +44,10 @@
     --byheart-soft: #1d2d3a;
     --cheder: #8fd39b;
     --cheder-soft: #1e3122;
+    --books: #d2aaea;
+    --books-soft: #2e2238;
+    --yichud: #f2a0b0;
+    --yichud-soft: #3a1f26;
   }
 }
 
@@ -150,6 +158,8 @@ main { flex: 1; padding-bottom: 2.5rem; }
   background: var(--accent);
 }
 .card--cheder { --accent: var(--cheder); --accent-soft: var(--cheder-soft); }
+.card--books { --accent: var(--books); --accent-soft: var(--books-soft); }
+.card--yichud { --accent: var(--yichud); --accent-soft: var(--yichud-soft); }
 
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
 .card:active { transform: translateY(0); }
