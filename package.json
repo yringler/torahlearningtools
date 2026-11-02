@@ -1,12 +1,12 @@
 {
   "name": "torahlearningtools",
   "private": true,
-  "description": "Monorepo for the small Torah-learning projects hosted on torahlearningtools.com",
-  "workspaces": [
-    "apps/*"
-  ],
+  "description": "Monorepo for the small Torah-learning projects hosted on torahlearningtools.com. Each app in apps/ installs its own dependencies from its own package-lock.json (no npm workspaces).",
   "scripts": {
-    "dev:home": "npm run dev -w @torahlearningtools/home",
-    "deploy:home": "npm run deploy -w @torahlearningtools/home"
+    "install:all": "for d in apps/*/; do (cd \"$d\" && npm ci) || exit 1; done",
+    "test:all": "for d in apps/*/; do npm --prefix \"$d\" test --if-present || exit 1; done",
+    "build:all": "for d in apps/*/; do npm --prefix \"$d\" run build || exit 1; done",
+    "dev:home": "npm --prefix apps/home run dev",
+    "deploy:home": "npm --prefix apps/home run deploy"
   }
 }
