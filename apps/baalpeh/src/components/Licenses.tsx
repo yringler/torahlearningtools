@@ -9,6 +9,15 @@ export function LicensesLink({ className = "link-btn" }: { className?: string })
   return <a className={className} href={LICENSES_PATH} target="_blank" rel="noreferrer">Sources &amp; licenses</a>;
 }
 
+/** Author credit and feedback address, shown at the bottom of each settings screen. */
+export function AboutNote() {
+  return (
+    <section>
+      <p className="hint">By Yehuda Ringler. Please send any feedback to <a href="mailto:admin@torahlearningtools.com">admin@torahlearningtools.com</a>.</p>
+    </section>
+  );
+}
+
 /** The possible future pricing, said the same way everywhere it appears. */
 export function PricingNote() {
   return (
