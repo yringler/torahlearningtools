@@ -151,8 +151,8 @@ button.hit:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; 
 .word-panel.sticky { position: sticky; bottom: calc(8px + env(safe-area-inset-bottom)); z-index: 5; margin-top: 16px;
   box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.14); }
 .wp-nav { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 64px; min-height: 64px;
-  border: 2px solid var(--accent); border-radius: 14px; background: var(--bg); color: var(--accent); font: inherit; font-weight: 800;
-  font-size: 0.95rem; cursor: pointer; touch-action: manipulation; padding: 4px 8px; }
+  border: 2px solid var(--line); border-radius: 14px; background: transparent; color: var(--accent); font: inherit; font-weight: 700;
+  font-size: 0.85rem; line-height: 1.1; text-align: center; cursor: pointer; touch-action: manipulation; padding: 4px 8px; }
 .wp-nav:disabled { opacity: 0.3; cursor: default; }
 .wp-nav:not(:disabled):active { background: var(--accent); color: var(--accent-ink); }
 .wp-nav:focus-visible, .wp-close:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
@@ -306,10 +306,25 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; justif
 button.part { font: inherit; font-size: 0.85rem; font-weight: 700; background: transparent; min-height: 40px; padding: 6px 14px; cursor: pointer; justify-content: center; }
 button.part.done { background: var(--accent); }
 button.part:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
-.step-nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 4px 0 8px; }
-.step-nav .step-label { margin: 0; flex: 1; }
-.step-nav .btn { min-width: 84px; }
-.step-nav .btn.ghost-btn:not(:disabled) { color: var(--ink); border-color: var(--line); }
+/* the step's name doubles as the way into the step list (back / skip ahead) */
+.step-label-btn { display: flex; align-items: center; justify-content: center; gap: 6px; margin: 4px auto 8px; min-height: 48px;
+  padding: 4px 16px; border: 2px solid var(--line); border-radius: 999px; background: transparent; font: inherit; font-weight: 700;
+  color: var(--muted); cursor: pointer; touch-action: manipulation; }
+.step-label-btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.step-label-caret { font-size: 0.8em; }
+.step-sheet { text-align: start; max-height: 85vh; padding-bottom: calc(16px + env(safe-area-inset-bottom)); }
+.step-sheet h3 { margin: 0; text-align: center; }
+.step-list { overflow-y: auto; display: flex; flex-direction: column; gap: 8px; }
+.step-list h4 { margin: 4px 0; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.step-list ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.step-row { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 56px; padding: 8px 14px; border: 2px solid var(--line);
+  border-radius: 14px; background: var(--bg); font: inherit; font-weight: 700; color: var(--ink); text-align: start; cursor: pointer; }
+.step-row.done { color: var(--muted); }
+.step-row.done .step-mark { color: var(--accent); }
+.step-row.current { border: 3px solid var(--gold); }
+.step-row.current .step-mark { color: var(--gold); }
+.step-row:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.step-mark { flex: none; width: 1.2em; text-align: center; font-size: 1.1rem; }
 
 /* "New version" bar (src/components/UpdateBar.tsx). */
 .update-bar { position: fixed; left: 50%; bottom: calc(12px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 50;

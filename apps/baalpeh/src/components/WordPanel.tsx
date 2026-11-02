@@ -27,14 +27,15 @@ interface Props {
 
 /**
  * The selected word's meaning. Never modal: the text above stays tappable, so one tap on any word
- * switches to it. Hebrew reads right to left, so Next sits on the left and Back on the right.
+ * switches to it. Hebrew reads right to left, so Next sits on the left and Back on the right. Styled as
+ * outlined secondary buttons, and labelled "Next word", so they read as the panel's own controls, not the screen's "next".
  */
 export function WordPanel({ word, n, total, onNext, onPrev, canNext, canPrev, onClose, placeholder, sticky = false }: Props) {
   return (
     <div className={`word-panel${sticky ? " sticky" : ""}`} dir="ltr" role="region" aria-label="Word meaning">
       <button type="button" className="wp-nav" onClick={onNext} disabled={!canNext} aria-label="Next word">
         <Chevron dir="left" />
-        <span>Next</span>
+        <span>Next<br />word</span>
       </button>
       <div className="wp-body" aria-live="polite">
         {word ? (

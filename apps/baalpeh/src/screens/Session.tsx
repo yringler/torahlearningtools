@@ -4,6 +4,7 @@ import { ParentCheck } from "../components/ParentCheck";
 import { ReadPhase } from "../components/ReadPhase";
 import { Recite } from "../components/Recite";
 import { StepPath } from "../components/StepPath";
+import { StepSheet } from "../components/StepSheet";
 import { getMishnah, hebNum, mishnayosOf, MASECHTA } from "../data";
 import {
   completeStep, markDay, mp, nextLearning, parentCheckChain, parentCheckMishnah, reviewMishnah, reviewPerek, setStep, type Task,
@@ -251,6 +252,7 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
   const [phase, setPhase] = useState<"read" | "recall">("read");
   const [detour, setDetour] = useState<Step | null>(null);
   const [attempt, setAttempt] = useState(0);
+  const [stepsOpen, setStepsOpen] = useState(false);
 
   const step: Step | undefined = detour ?? steps[stepIndex];
   const stepStart = useRef(Date.now());
@@ -264,17 +266,23 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
     onProfile(setStep(profile, perek, mishnah, i));
   };
   const path = <StepPath steps={steps} chunks={m.chunks} current={stepIndex} onJump={goTo} />;
+  /** The step's name; tapping it opens the list of steps (back / skip ahead). The main button is the only "next". */
+  const stepLabel = (text: string) => (
+    <>
+      <button type="button" className="step-label step-label-btn" dir="ltr" aria-haspopup="dialog" onClick={() => setStepsOpen(true)}>
+        {text} <span className="step-label-caret" aria-hidden="true">▾</span>
+      </button>
+      {stepsOpen && (
+        <StepSheet steps={steps} chunks={m.chunks} current={stepIndex} onJump={goTo} onClose={() => setStepsOpen(false)} />
+      )}
+    </>
+  );
 
   if (!step) {
     return (
       <div className="task">
         {path}
-        {/* Right to left like the Hebrew: Back on the right, Next on the left (as in the word panel). */}
-        <div className="step-nav">
-          <button className="btn ghost-btn small" dir="ltr" onClick={() => goTo(steps.length - 1)}>Back ›</button>
-          <div className="step-label" dir="ltr">Show Abba or Ima</div>
-          <span className="btn small" aria-hidden="true" style={{ visibility: "hidden" }}>‹ Next</span>
-        </div>
+        {stepLabel("Show Abba or Ima")}
         <ParentCheck
           title={`${ref(perek, mishnah)} — the whole mishnah`}
           cards={m.chunks}
@@ -302,13 +310,8 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
     <>
       <h2 className="task-title">{ref(perek, mishnah)}</h2>
       {path}
-      {/* Right to left like the Hebrew: Back on the right, Next on the left (as in the word panel). */}
-      <div className="step-nav">
-        <button className="btn ghost-btn small" dir="ltr" disabled={stepIndex === 0 && !detour} onClick={() => goTo(detour ? stepIndex : stepIndex - 1)}>Back ›</button>
-        {/* The part pill and "Piece k of n" counter above say which part; the label just names the task. */}
-        <div className="step-label" dir="ltr">{detour ? "Extra practice" : step.label.replace(/^Part \d+ · /, "")}</div>
-        <button className="btn ghost-btn small" dir="ltr" onClick={() => goTo(stepIndex + 1)}>‹ Next</button>
-      </div>
+      {/* The part pill and "Piece k of n" counter above say which part; the label just names the task. */}
+      {stepLabel(detour ? "Extra practice" : step.label.replace(/^Part \d+ · /, ""))}
     </>
   );
 
