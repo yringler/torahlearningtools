@@ -1,8 +1,9 @@
-import { useState } from "react";
-import type { Chunk, MeaningView, Word } from "../types";
+import { useMemo, useState } from "react";
+import type { Chunk, MeaningView } from "../types";
+import { useWordCursor, wordAvail, wordOrdinal } from "../wordCursor";
 import { CueCard } from "./CueCard";
-import { GlossSheet } from "./GlossSheet";
 import { Meaning, ViewToggle } from "./Meaning";
+import { WordPanel } from "./WordPanel";
 
 interface Props {
   chunk: Chunk;
@@ -14,10 +15,13 @@ interface Props {
   onDone: () => void;
 }
 
-/** First exposure: full text + meaning; tap words for glosses; read it out loud twice. */
+/** First exposure: full text + meaning; tap words (or step with Next/Back) for glosses; read it out loud twice. */
 export function ReadPhase({ chunk, context = [], perek, mishnah, view, onView, onDone }: Props) {
   const [reads, setReads] = useState(0);
-  const [word, setWord] = useState<Word | null>(null);
+  const avail = useMemo(() => wordAvail([chunk]), [chunk]);
+  const cur = useWordCursor(avail, false, true, chunk);
+  const word = cur.sel ? (chunk.words[cur.sel.word] ?? null) : null;
+  const ord = cur.sel ? wordOrdinal(avail, cur.sel, false) : { n: 0, total: 0 };
   const tap = () => {
     if (reads + 1 >= 2) onDone();
     else setReads(reads + 1);
@@ -29,8 +33,25 @@ export function ReadPhase({ chunk, context = [], perek, mishnah, view, onView, o
         <div className="context">{context.map((c) => c.he).join(" ")}</div>
       )}
       <div className="cards">
-        <CueCard he={chunk.he} cue={0} glossWords={chunk.words} onWordTap={setWord} highlight />
+        <CueCard
+          he={chunk.he}
+          cue={0}
+          glossWords={chunk.words}
+          onWordTap={(_, i) => cur.tap(0, i)}
+          selectedIndex={cur.sel?.word}
+          highlight
+        />
       </div>
+      <WordPanel
+        word={word}
+        n={ord.n}
+        total={ord.total}
+        onNext={cur.next}
+        onPrev={cur.prev}
+        canNext={cur.canNext}
+        canPrev={cur.canPrev}
+        placeholder="Tap a word, or press Next to go word by word."
+      />
       {chunk.en && <Meaning key={view} chunk={chunk} view={view} perek={perek} mishnah={mishnah} />}
       {chunk.st && <ViewToggle view={view} onChange={onView} />}
       <div className="actions">
@@ -38,7 +59,6 @@ export function ReadPhase({ chunk, context = [], perek, mishnah, view, onView, o
           I read it <span className="dots-count">{[0, 1].map((i) => (i < reads ? "●" : "○")).join("")}</span>
         </button>
       </div>
-      <GlossSheet word={word} onClose={() => setWord(null)} />
     </div>
   );
 }

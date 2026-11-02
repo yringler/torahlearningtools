@@ -97,18 +97,44 @@ button { font: inherit; color: inherit; }
 .word.dots { color: var(--muted); }
 .word.tappable { border: none; background: none; padding: 0 2px; font: inherit; cursor: pointer; border-radius: 8px; line-height: inherit; }
 .word.tappable:active, .word.tappable:hover { background: var(--line); }
+/* selected word: colour + box-shadow only, so nothing reflows */
+.word.tappable.selected { background: var(--gold); color: #2b2620; box-shadow: 0 0 0 3px var(--gold); }
+.word.tappable:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 .context { font-family: var(--heb); font-size: calc(1.4rem * var(--scale)); color: var(--muted); text-align: center; }
-.meaning { font-size: 1.2rem; color: var(--muted); text-align: center; font-style: italic; }
+/* whole-phrase meaning: its own card, full-ink and upright so it reads easily */
+.meaning { font-size: 1.35rem; font-weight: 600; line-height: 1.5; color: var(--ink); text-align: start;
+  background: var(--surface); border: 2px solid var(--line); border-inline-start: 5px solid var(--accent);
+  border-radius: 16px; padding: 12px 16px; }
 .peek-line { text-align: center; color: var(--muted); min-height: 1.5em; }
 .actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 8px; }
 .dots-count { margin-inline-start: 10px; letter-spacing: 4px; }
 
-/* gloss sheet */
+/* word panel: the tapped word's meaning; never modal, so any other word is one tap away */
+.word-panel { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: stretch; gap: 8px;
+  background: var(--surface); border: 2px solid var(--gold); border-radius: 18px; padding: 8px; min-height: 132px; }
+.word-panel.sticky { position: sticky; bottom: calc(8px + env(safe-area-inset-bottom)); z-index: 5; margin-top: 16px;
+  box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.14); }
+.wp-nav { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 64px; min-height: 64px;
+  border: 2px solid var(--accent); border-radius: 14px; background: var(--bg); color: var(--accent); font: inherit; font-weight: 800;
+  font-size: 0.95rem; cursor: pointer; touch-action: manipulation; padding: 4px 8px; }
+.wp-nav:disabled { opacity: 0.3; cursor: default; }
+.wp-nav:not(:disabled):active { background: var(--accent); color: var(--accent-ink); }
+.wp-nav:focus-visible, .wp-close:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.wp-arrow { display: block; margin-bottom: 2px; }
+.wp-body { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2px; text-align: center; }
+.wp-he { font-family: var(--heb); font-size: calc(2rem * var(--scale)); line-height: 1.4; }
+.wp-en { font-size: 1.5rem; font-weight: 800; line-height: 1.25; overflow-wrap: anywhere; }
+.wp-note { color: var(--muted); font-size: 1rem; }
+.wp-count { color: var(--muted); font-size: 0.85rem; margin-top: 2px; }
+.wp-placeholder { color: var(--muted); font-size: 1.05rem; }
+.wp-close { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); width: 40px; height: 40px; border-radius: 50%;
+  border: 2px solid var(--gold); background: var(--surface); color: var(--ink); font-size: 1rem; cursor: pointer; touch-action: manipulation; }
+/* keep a word scrolled to by Next/Back clear of the sticky panel */
+.mishnah-screen .word.tappable { scroll-margin-top: 16px; scroll-margin-bottom: 190px; }
+
+/* modal sheets (source info, import) */
 .sheet-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.3); display: flex; align-items: flex-end; justify-content: center; z-index: 10; }
 .sheet { background: var(--surface); width: 100%; max-width: 600px; border-radius: 24px 24px 0 0; padding: 24px; text-align: center; display: flex; flex-direction: column; gap: 10px; }
-.sheet-word { font-family: var(--heb); font-size: 3rem; }
-.sheet-en { font-size: 1.6rem; font-weight: 800; }
-.sheet-note { color: var(--muted); font-size: 1.1rem; }
 
 /* parent check */
 .parent-check.intro, .celebrate { text-align: center; padding-top: 6vh; display: flex; flex-direction: column; align-items: center; gap: 12px; }
@@ -126,7 +152,7 @@ button { font: inherit; color: inherit; }
 .hint { color: var(--muted); text-align: center; }
 .study { display: flex; flex-direction: column; gap: 8px; }
 .study-row .card { font-size: calc(1.9rem * var(--scale)); min-height: 0; }
-.study-row .meaning { text-align: start; padding: 2px 12px 6px; font-size: 1.05rem; }
+.study-row .meaning { font-size: 1.15rem; padding: 8px 14px; margin-top: 4px; }
 .full-english { margin-top: 18px; line-height: 1.6; background: var(--surface); padding: 16px; border-radius: 16px; }
 .credit { color: var(--muted); font-size: 0.85rem; margin-top: 8px; }
 
@@ -155,10 +181,11 @@ input[type="text"], input:not([type]), input[type="number"], select { font: inhe
 .day.shabbos { border-style: dashed; }
 
 /* meaning views */
-.meaning.steinsaltz { font-style: normal; color: var(--ink); }
-.meaning.steinsaltz .st-explain { color: var(--muted); }
-.meaning .explain { font-style: normal; font-size: 0.92em; }
-.more-btn, .info-btn { border: none; background: none; color: var(--accent); cursor: pointer; font-size: 0.9em; padding: 4px 6px; min-height: 32px; }
+.meaning.steinsaltz { font-weight: 400; line-height: 1.6; }
+.meaning.steinsaltz b { color: var(--ink); }
+.meaning.steinsaltz .st-explain { color: var(--muted); font-size: 0.85em; }
+.meaning .explain { display: block; margin-top: 6px; font-size: 0.78em; font-weight: 400; color: var(--muted); }
+.more-btn, .info-btn { font-weight: 400; border: none; background: none; color: var(--accent); cursor: pointer; font-size: 0.9em; padding: 4px 6px; min-height: 32px; }
 .info-btn { color: var(--muted); opacity: 0.7; }
 .source-sheet { text-align: start; }
 .source-sheet h3 { margin-top: 0; }

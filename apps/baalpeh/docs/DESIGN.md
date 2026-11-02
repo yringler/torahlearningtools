@@ -23,7 +23,7 @@
 ## 3. Exactly what the child sees per step
 
 **Learning a new chunk (C_n), in four phases on one screen:**
-1. **Read and understand.** The chunk appears in full (cue level L0), with its meaning line beneath in smaller text. A 🔊 button plays it (if enabled). Tapping a word opens its gloss. Prompt: "Read it out loud 2 times." The child taps "Done" twice (a counter shows ○○ → ●●).
+1. **Read and understand.** The chunk appears in full (cue level L0), with a word panel beneath it and then its meaning card. A 🔊 button plays it (if enabled). Tapping a word shows its gloss in the word panel; Next/Back step word by word. Prompt: "Read it out loud 2 times." The child taps "Done" twice (a counter shows ○○ → ●●).
 2. **Faded.** L2 (first letters). "Say it."
 3. **Hidden.** L4. "Say it without looking." Buttons: **"I said it"** / **"Peek"**.
 4. A peek re-runs phase 3. Two peeks drop the chunk back to L2 for one more round.
@@ -73,7 +73,7 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 ## 7. Meaning
 
 - **Chunk meaning**: one line under the chunk in learn phase, at grade-2 to grade-4 reading level. Example: "From what time can we say Shema at night?"
-- **Word tap**: a bottom sheet with the word in large type and a 1–4 word gloss. Gloss the *whole word including prefixes* (מֵאֵימָתַי → "from when?"). An optional "Who/what is this?" line for terms like כֹּהֲנִים or תְּרוּמָה.
+- **Word tap**: a word panel (never modal, so tapping another word switches straight to it) with the word in large type and a 1–4 word gloss. The selected word is highlighted; big Next/Back buttons step through the words (Next on the left, since Hebrew reads right to left; ←/→ keys too). On the mishnah screen the panel sticks to the bottom and Next continues into the next piece. Gloss the *whole word including prefixes* (מֵאֵימָתַי → "from when?"). An optional "Who/what is this?" line for terms like כֹּהֲנִים or תְּרוּמָה.
 - Generate all glosses **at build time** into static JSON, never live. Put them in a parent review screen where uncertain items are flagged. The LLM must produce output keyed to the exact chunk and word indices.
 - Optional (later): a picture or emoji for concrete nouns.
 
