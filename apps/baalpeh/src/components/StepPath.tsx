@@ -1,75 +1,156 @@
+import type { ReactNode } from "react";
 import type { Chunk, Step } from "../types";
-import { isBigStep, segments } from "../steps";
-
-/** Which group a step belongs to: its segment index, or "join" for steps spanning segments. */
-function groupOf(s: Step, segs: Array<[number, number]>): number | "join" {
-  const lo = s.kind === "learn" ? s.chunk : s.from;
-  const hi = s.kind === "learn" ? s.chunk : s.to;
-  const i = segs.findIndex(([a, b]) => lo >= a && hi <= b);
-  return i < 0 ? "join" : i;
-}
+import { pathGroups, stepPosition, type PathGroup, type PathNode } from "../steps";
 
 interface Props {
   steps: Step[];
   chunks: Chunk[];
+  /** Current step index; steps.length means the parent check (or a known mishnah). */
   current: number;
-  /** When given, part pills and stones are buttons that jump to that step. */
+  /** When given, part pills and path nodes are buttons that jump to that step. */
   onJump?: (index: number) => void;
 }
 
-/** Shows part pills (for long mishnayos) and the stones of the current part only. */
+type State = "done" | "current" | "upcoming";
+
+const stateOf = (step: number, current: number): State =>
+  step < current ? "done" : step === current ? "current" : "upcoming";
+
+const stateWord: Record<State, string> = { done: "done", current: "now", upcoming: "not yet" };
+
+const groupName = (g: PathGroup): string => (g.key === "join" ? "All together" : `Part ${g.key + 1}`);
+
+/**
+ * The step path as a "piece chain": one numbered tile per new piece, a link between tiles for each
+ * "together" step, drawn right to left like the Hebrew. Part pills above (2+ parts) show each part's
+ * progress; the counter below says "Piece k of n".
+ */
 export function StepPath({ steps, chunks, current, onJump }: Props) {
-  const segs = segments(chunks);
-  const groups = steps.map((s) => groupOf(s, segs));
-  const curGroup = groups[Math.min(current, steps.length - 1)] ?? 0;
-  const shown = steps.map((s, i) => ({ s, i })).filter(({ i }) => groups[i] === curGroup);
-  const parts: Array<number | "join"> = [...segs.map((_, i) => i), ...(segs.length > 1 ? ["join" as const] : [])];
+  const groups = pathGroups(steps, chunks);
+  const finished = current >= steps.length;
+  const pos = stepPosition(groups, current);
+  const curIdx = pos?.group ?? groups.length - 1;
+  const group = groups[curIdx];
+  if (!group) return null;
+
+  // The step being said "together" brackets the tiles it covers.
+  const curNode = group.nodes.find((n) => n.type !== "partTile" && n.step === current);
+  const bracketThrough = curNode?.type === "link" ? curNode.through : 0;
+
+  const node = (key: string, cls: string, label: string, target: number | undefined, isCur: boolean, body: ReactNode) => {
+    if (!onJump || target === undefined) {
+      return <span key={key} className={`hit ${cls}`} title={label} aria-hidden="true">{body}</span>;
+    }
+    return (
+      <button
+        key={key}
+        type="button"
+        className={`hit ${cls}`}
+        aria-label={label}
+        title={label}
+        aria-current={isCur ? "step" : undefined}
+        onClick={() => onJump(target)}
+      >
+        {body}
+      </button>
+    );
+  };
+
+  const renderNode = (n: PathNode): ReactNode => {
+    if (n.type === "partTile") {
+      const st: State = n.lastStep < current ? "done" : n.firstStep <= current ? "current" : "upcoming";
+      const inChain = n.part <= bracketThrough ? " in-chain" : "";
+      return node(`p${n.part}`, `tile part-tile ${st}${inChain}`, `Part ${n.part}, ${stateWord[st]}`, n.firstStep, false,
+        <span className="face">{n.part}</span>);
+    }
+    const st = stateOf(n.step, current);
+    const just = n.step === current - 1 ? " just" : "";
+    const label = steps[n.step]?.label ?? "";
+    if (n.type === "tile") {
+      const inChain = n.n <= bracketThrough ? " in-chain" : "";
+      return node(`s${n.step}`, `tile ${st}${just}${inChain}`, `${label}, ${stateWord[st]}`, n.step, st === "current",
+        <span className="face">{n.n}</span>);
+    }
+    const linkIn = n.through < bracketThrough ? " in-chain" : "";
+    return node(`s${n.step}`, `link ${st}${just}${linkIn}${n.final ? " final" : ""}`, `${label}, ${stateWord[st]}`, n.step,
+      st === "current", <span className="bar" />);
+  };
+
+  // A cap after the group's final link: ✓ for a part, or the parent check at the end of the mishnah.
+  const lastGroup = curIdx === groups.length - 1;
+  const lastStep = group.steps[group.steps.length - 1];
+  const capState: State = lastGroup
+    ? (finished && onJump ? (current === steps.length ? "current" : "done") : finished ? "done" : "upcoming")
+    : lastStep !== undefined && lastStep < current ? "done" : "upcoming";
+  const cap = node("cap", `cap ${capState}${lastGroup ? " end" : ""}`,
+    lastGroup ? `Show Abba or Ima, ${stateWord[capState]}` : `${groupName(group)} finished, ${stateWord[capState]}`,
+    lastGroup ? steps.length : undefined, capState === "current", <span className="face">✓</span>);
+
+  const count = finished
+    ? "All done ✓"
+    : !pos
+      ? ""
+      : pos.kind === "join"
+        ? pos.piece === pos.of ? "Last step!" : `Step ${pos.piece - 1} of ${pos.of - 1}`
+        : `Piece ${pos.piece} of ${pos.of}`;
+  const navLabel = `${groups.length > 1 ? `${groupName(group)}: ` : ""}${count}`;
 
   return (
     <div className="step-path-wrap">
-      {parts.length > 1 && (
-        <div className="parts" dir="ltr">
-          {parts.map((g) => {
-            const idx = groups.map((x, i) => (x === g ? i : -1)).filter((i) => i >= 0);
-            const done = idx.length > 0 && idx.every((i) => i < current);
-            const isCur = g === curGroup && current < steps.length;
-            const cls = ["part", done ? "done" : "", isCur ? "current" : ""].join(" ");
-            const name = g === "join" ? "All together" : `Part ${g + 1}`;
-            const first = idx[0];
-            if (!onJump || first === undefined) return <span key={String(g)} className={cls}>{name}</span>;
+      {groups.length > 1 && (
+        <div className="parts">
+          {groups.map((g, gi) => {
+            const doneSteps = g.steps.filter((i) => i < current).length;
+            const done = g.steps.length > 0 && doneSteps === g.steps.length;
+            const isCur = gi === curIdx && !finished;
+            const last = g.steps[g.steps.length - 1];
+            const just = done && last === current - 1 ? " just" : "";
+            const cls = `part${done ? " done" : ""}${isCur ? " current" : ""}${just}`;
+            const pct = g.steps.length ? Math.round((100 * doneSteps) / g.steps.length) : 0;
+            const body = (
+              <>
+                {/* On a phone only the current part keeps its "Part" word, so the row fits on one line. */}
+                <span className="part-name" dir="ltr">
+                  {g.key === "join" ? (
+                    <>All<span className="part-word"> together</span></>
+                  ) : (
+                    <><span className="part-word">Part </span>{g.key + 1}</>
+                  )}
+                  {done ? " ✓" : ""}
+                </span>
+                <span className="part-bar" aria-hidden="true"><i style={{ width: `${pct}%` }} /></span>
+              </>
+            );
+            const label = `${groupName(g)}, ${done ? "done" : isCur ? "now" : doneSteps > 0 ? "started" : "not yet"}`;
+            const first = g.steps[0];
+            if (!onJump || first === undefined) return <span key={String(g.key)} className={cls}>{body}</span>;
             return (
               <button
-                key={String(g)}
+                key={String(g.key)}
                 type="button"
                 className={cls}
+                aria-label={label}
                 aria-current={isCur ? "step" : undefined}
                 onClick={() => onJump(first)}
               >
-                {name}
+                {body}
               </button>
             );
           })}
         </div>
       )}
-      <div className="step-path" aria-label={`Step ${Math.min(current + 1, steps.length)} of ${steps.length}`}>
-        {shown.map(({ s, i }) => {
-          const cls = ["stone", isBigStep(s, chunks) ? "big" : "", i < current ? "done" : i === current ? "current" : ""].join(" ");
-          if (!onJump) return <span key={i} className={cls} title={s.label} />;
-          return (
-            <button
-              key={i}
-              type="button"
-              className="stone-hit"
-              title={s.label}
-              aria-label={`Step ${i + 1}: ${s.label}`}
-              aria-current={i === current ? "step" : undefined}
-              onClick={() => onJump(i)}
-            >
-              <span className={cls} />
-            </button>
-          );
-        })}
-      </div>
+      {onJump ? (
+        <nav className="chain" aria-label={navLabel}>
+          {group.nodes.map(renderNode)}
+          {cap}
+        </nav>
+      ) : (
+        <div className="chain" role="img" aria-label={navLabel}>
+          {group.nodes.map(renderNode)}
+          {cap}
+        </div>
+      )}
+      <div className="chain-count" dir="ltr" aria-live="polite">{count}</div>
     </div>
   );
 }

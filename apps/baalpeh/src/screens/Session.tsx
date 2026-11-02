@@ -303,7 +303,8 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
       {path}
       <div className="step-nav" dir="ltr">
         <button className="btn ghost-btn small" disabled={stepIndex === 0 && !detour} onClick={() => goTo(detour ? stepIndex : stepIndex - 1)}>‹ Back</button>
-        <div className="step-label">{detour ? "Extra practice" : step.label}</div>
+        {/* The part pill and "Piece k of n" counter above say which part; the label just names the task. */}
+        <div className="step-label">{detour ? "Extra practice" : step.label.replace(/^Part \d+ · /, "")}</div>
         <button className="btn ghost-btn small" onClick={() => goTo(stepIndex + 1)}>Next ›</button>
       </div>
     </>
