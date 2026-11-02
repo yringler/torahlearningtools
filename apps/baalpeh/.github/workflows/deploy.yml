@@ -40,4 +40,3 @@ jobs:
       - run: npm run build
       - run: npx wrangler d1 migrations apply baalpeh --remote
       - run: npx wrangler deploy
-```
