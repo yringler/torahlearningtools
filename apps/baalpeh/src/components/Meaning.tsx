@@ -46,7 +46,7 @@ export function Meaning({ chunk, view, perek, mishnah, allowMore = true }: Props
       ) : (
         <>
           {chunk.en}
-          {chunk.explain && <span className="explain"> {chunk.explain}</span>}
+          {chunk.explain && <span className="explain">💡 {chunk.explain}</span>}
         </>
       )}
       <button className="info-btn" onClick={() => setInfo(true)} aria-label="Where this meaning comes from">ⓘ</button>

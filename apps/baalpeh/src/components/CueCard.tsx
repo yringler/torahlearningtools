@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { firstLetter, trailingPunct, words } from "../hebrew";
 import type { Cue, Word } from "../types";
 
@@ -7,7 +7,9 @@ interface Props {
   cue: Cue;
   /** Glossed words; when given and cue is 0, words become tappable. */
   glossWords?: Word[] | undefined;
-  onWordTap?: ((w: Word) => void) | undefined;
+  onWordTap?: ((w: Word, i: number) => void) | undefined;
+  /** Index of the word whose meaning is showing; it gets highlighted. */
+  selectedIndex?: number | undefined;
   /** Hidden cards (cue ≥ 2) can be tapped to peek for 2 seconds. */
   onPeek?: (() => void) | undefined;
   highlight?: boolean;
@@ -22,8 +24,13 @@ function renderWord(w: string, cue: Cue, i: number): string {
   return "";
 }
 
-export function CueCard({ he, cue, glossWords, onWordTap, onPeek, highlight = false }: Props) {
+export function CueCard({ he, cue, glossWords, onWordTap, selectedIndex, onPeek, highlight = false }: Props) {
   const [peeking, setPeeking] = useState(false);
+  const selectedRef = useRef<HTMLButtonElement>(null);
+  // Keep the highlighted word on screen when Next/Back moves to it (scroll-margin keeps it clear of a sticky panel).
+  useEffect(() => {
+    if (selectedIndex !== undefined) selectedRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }, [selectedIndex]);
   useEffect(() => {
     if (!peeking) return;
     const t = setTimeout(() => setPeeking(false), PEEK_MS);
@@ -60,7 +67,14 @@ export function CueCard({ he, cue, glossWords, onWordTap, onPeek, highlight = fa
           const g = glossWords?.[i];
           if (shown === 0 && g && onWordTap && !peeking) {
             return (
-              <button key={i} className="word tappable" onClick={(e) => { e.stopPropagation(); onWordTap(g); }}>
+              <button
+                key={i}
+                ref={i === selectedIndex ? selectedRef : undefined}
+                type="button"
+                className={`word tappable${i === selectedIndex ? " selected" : ""}`}
+                aria-pressed={i === selectedIndex}
+                onClick={(e) => { e.stopPropagation(); onWordTap(g, i); }}
+              >
                 {text}
               </button>
             );
