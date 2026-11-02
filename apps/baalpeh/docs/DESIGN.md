@@ -13,9 +13,9 @@
 1. **Who's learning?** Large avatar tiles, one per child (name plus color/animal). Below them, a small "Parent" button behind a hold-for-2-seconds gate.
 2. **Child home ("Today")**: one big button, **"Start today's learning"**. It runs any due reviews first (capped at about 5 minutes), then continues new learning where the child left off. Under it is the perek map: one row per perek (פרק א׳ … ט׳), and each Mishnah is a circle filled to its mastery state.
 3. **Mishnah screen** (from the map or the flow). Header: "ברכות א׳:א׳". Under it, a step path drawn right to left: small stones for steps, larger stones for chain steps. The current stone pulses gently. One sentence of "what this Mishnah is about" sits at the top (kid-friendly).
-4. **Practice step** (the main screen, described in §3).
+4. **Practice step** (the main screen, described in §3). Navigation is free: the child can tap any part pill or stone, or use ‹ Back / Next ›, including skipping ahead to the parent check. The path marker shows position, not mastery; the parent check is the real test.
 5. **Step result**: a short check animation (under 1 second) and an auto-advance to the next step. Every 3–4 steps, a "Take a breath / keep going?" prompt.
-6. **Milestone**: segment, Mishnah or perek done. A calm celebration screen. For Mishnah and perek milestones, a "Show Abba/Ima" check (§4).
+6. **Milestone**: segment, Mishnah or perek done. A calm celebration screen. For Mishnah and perek milestones, a "Show Abba/Ima" check (§4). After a learned Mishnah, the main button is "🗺️ See my map" (the filled circle is the reward and a natural stopping point); "Next mishnah ›" is secondary. A finished perek shows only the map. Mid-queue reviews keep "Continue" as the main button.
 7. **Parent area**: profiles, chunk-boundary editor, review of glosses, settings (font size, havara note), export/import progress, and a per-child history view.
 
 **Later:** a printable perek certificate, parent-recorded audio, and a "start from Mishnah N" drill.

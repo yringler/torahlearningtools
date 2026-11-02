@@ -24,7 +24,7 @@ export function ParentCheck({ title, cards, onDone }: Props) {
   if (!ready) {
     return (
       <div className="parent-check intro" dir="ltr">
-        <div className="big-emoji">👂</div>
+        <div className="big-emoji" aria-hidden="true">💗</div>
         <h2>{title}</h2>
         <p>Time to show Abba or Ima! Hand them the screen and say it by heart.</p>
         <button className="btn primary big" onClick={() => setReady(true)}>I'm the parent — show me the text</button>
