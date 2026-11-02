@@ -169,6 +169,9 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; justif
 .seg button.on { background: var(--accent); color: var(--accent-ink); }
 .full-st { margin-top: 18px; line-height: 1.7; background: var(--surface); padding: 16px; border-radius: 16px; }
 .full-st .st-explain { color: var(--muted); }
+.full-st-wrap { margin-top: 18px; display: flex; flex-direction: column; gap: 10px; }
+.full-st-btn { width: 100%; scroll-margin-top: 12px; }
+.full-st-wrap .full-st { margin-top: 0; }
 
 /* auth */
 .auth { text-align: center; padding-top: 4vh; }
