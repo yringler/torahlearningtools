@@ -6,6 +6,10 @@
  *   PRECACHE  every file of this build (index.html, hashed JS/CSS/fonts, icons, manifest)
  *   VERSION   a hash of those files' contents, so any deploy changes sw.js and the browser installs the new worker
  *
+ * Updates: a new worker installs in the background and then waits. The page (src/swUpdate.ts) sees it waiting and
+ * shows a "new version" bar; tapping Reload sends SKIP_WAITING, the new worker takes over and the page reloads.
+ * The first install has nothing to wait for and takes over at once.
+ *
  * Strategies:
  *   page navigations   network first (fresh deploys show up), the cached app page when offline or after 3 s
  *   /assets/*          cache first: names are content-hashed, so a cached copy is never stale. The fonts are
@@ -28,11 +32,14 @@ self.addEventListener("install", (event) => {
     (async () => {
       const cache = await caches.open(SHELL);
       await cache.addAll(PRECACHE);
-      // Take over right away. Pages load hashed files that the new worker caches too, and navigations go to the
-      // network first, so an open page never ends up mixing two builds' files.
-      await self.skipWaiting();
+      // No skipWaiting here: an open page keeps the worker (and shell cache) it started with until the user
+      // chooses to reload, so its lazily loaded files (fonts, icons) still come from its own build.
     })(),
   );
+});
+
+self.addEventListener("message", (event) => {
+  if (event.data === "SKIP_WAITING") void self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {

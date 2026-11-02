@@ -242,3 +242,10 @@ button.part.done { background: var(--accent); }
 .step-nav .step-label { margin: 0; flex: 1; }
 .step-nav .btn { min-width: 84px; }
 .step-nav .btn.ghost-btn:not(:disabled) { color: var(--ink); border-color: var(--line); }
+
+/* "New version" bar (src/components/UpdateBar.tsx). */
+.update-bar { position: fixed; left: 50%; bottom: calc(12px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 50;
+  display: flex; align-items: center; gap: 12px; max-width: calc(100vw - 32px); box-sizing: border-box; padding: 8px 8px 8px 16px;
+  background: var(--surface); color: var(--ink); border: 2px solid var(--line); border-radius: 999px; box-shadow: 0 4px 16px rgb(0 0 0 / 0.15);
+  font-weight: 700; white-space: nowrap; }
+.update-bar .btn { min-height: 0; padding: 6px 16px; font-size: 0.95rem; }
