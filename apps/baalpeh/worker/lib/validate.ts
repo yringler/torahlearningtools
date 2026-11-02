@@ -179,10 +179,9 @@ export function validateDeleteAccount(body: unknown): Result<DeleteAccountBody> 
 
 function settings(v: unknown, path: string): ChildSettings {
   const o = obj(v, path);
-  const out: ChildSettings = {
-    fontScale: num(o.fontScale, `${path}.fontScale`, 0.5, 3),
-    dailyMinutes: int(o.dailyMinutes, `${path}.dailyMinutes`, 1, 180),
-  };
+  // `dailyMinutes` (the old always-on session length) is retired. Older clients still send it; it is dropped.
+  const out: ChildSettings = { fontScale: num(o.fontScale, `${path}.fontScale`, 0.5, 3) };
+  if (o.breakMinutes !== undefined) out.breakMinutes = int(o.breakMinutes, `${path}.breakMinutes`, 1, 180);
   if (o.meaningView !== undefined) out.meaningView = oneOf(o.meaningView, `${path}.meaningView`, ["simple", "steinsaltz"]);
   return out;
 }

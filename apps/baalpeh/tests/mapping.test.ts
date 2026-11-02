@@ -88,8 +88,12 @@ describe("profileToRows", () => {
 
 describe("metaOf", () => {
   it("keeps values inside the server's limits", () => {
-    const a = kid("  ", { settings: { fontScale: 9, dailyMinutes: 7.6 } });
-    expect(metaOf(a, 0)).toMatchObject({ name: "Child", settings: { fontScale: 3, dailyMinutes: 8 } });
+    const a = kid("  ", { settings: { fontScale: 9, breakMinutes: 7.6 } });
+    expect(metaOf(a, 0)).toMatchObject({ name: "Child", settings: { fontScale: 3, breakMinutes: 8 } });
+  });
+
+  it("sends no break setting when breaks are off", () => {
+    expect(metaOf(kid("A"), 0).settings).toEqual({ fontScale: 1 });
   });
 });
 

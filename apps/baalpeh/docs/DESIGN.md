@@ -67,7 +67,7 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 - Use stars only for **Mishnah Known** (1) and **Solid** (a second star). A finished perek gets a gold border on its map row.
 - Show a gentle **"days learned this week"** dot row. Don't use a breakable streak counter, because losing a streak punishes a missed Shabbos or Yom Tov. Skip Shabbos/Yom Tov in any day counting.
 - Don't use leaderboards or show one child's progress on another child's screen.
-- Sessions are short, with a goal of about 10–15 minutes ("2 new chunks + review"). The parent can set this.
+- Sessions are short, with a goal of about 10–15 minutes ("2 new chunks + review"). The app never tells the child to stop or take a break on its own. A parent can turn on a break suggestion per child ("Suggest a break after N minutes"); it is off by default.
 - Celebrations are brief: a soft tone, a check, the child's name. The perek siyum (later) is a printable certificate to show the family.
 
 ## 7. Meaning

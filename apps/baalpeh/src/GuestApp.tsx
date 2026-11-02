@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { loadGuest, saveGuest } from "./guest";
 import { kv } from "./kv";
 import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
+import { BreakSetting } from "./components/BreakSetting";
 import { LicensesLink, PricingNote } from "./components/Licenses";
 import { Home } from "./screens/Home";
 import { MishnahScreen } from "./screens/MishnahScreen";
@@ -137,7 +138,7 @@ function GuestSettings({ profile: p, onChange, onBack, onSignIn }: {
       <section>
         <div className="child-settings">
           <label>Text size <input type="range" min={0.8} max={1.6} step={0.1} value={p.settings.fontScale} onChange={(e) => set("fontScale", Number(e.target.value))} /></label>
-          <label>Session minutes <input type="number" min={5} max={60} value={p.settings.dailyMinutes} onChange={(e) => set("dailyMinutes", Number(e.target.value) || 15)} /></label>
+          <BreakSetting p={p} onChange={onChange} />
           <label>Meanings while learning
             <select value={p.settings.meaningView ?? "simple"} onChange={(e) => set("meaningView", e.target.value === "steinsaltz" ? "steinsaltz" : "simple")}>
               <option value="simple">Simple (for young readers)</option>

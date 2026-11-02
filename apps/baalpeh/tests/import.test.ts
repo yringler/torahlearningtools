@@ -33,7 +33,14 @@ describe("importDefaults", () => {
 describe("normalizeProfile", () => {
   it("fills missing fields of an old backup", () => {
     const p = normalizeProfile({ id: "x1234567", name: "Z" } as unknown as Profile, 0);
-    expect(p).toMatchObject({ mishnayos: {}, perakim: {}, days: [], settings: { fontScale: 1, dailyMinutes: 15 } });
+    expect(p).toMatchObject({ mishnayos: {}, perakim: {}, days: [], settings: { fontScale: 1 } });
+  });
+
+  it("leaves break suggestions off unless a parent set them", () => {
+    const old = normalizeProfile({ id: "x1234567", name: "Z", settings: { fontScale: 1, dailyMinutes: 15 } } as unknown as Profile, 0);
+    expect(old.settings).toEqual({ fontScale: 1 });
+    const set = normalizeProfile({ id: "x1234567", name: "Z", settings: { fontScale: 1, breakMinutes: 20 } } as unknown as Profile, 0);
+    expect(set.settings).toEqual({ fontScale: 1, breakMinutes: 20 });
   });
 
   it("drops progress entries that are not objects", () => {

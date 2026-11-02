@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { LearningEventBody, User } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
+import { BreakSetting } from "../components/BreakSetting";
 import { LicensesLink, PricingNote } from "../components/Licenses";
 import { MASECHTA, mishnayosOf, PERAKIM } from "../data";
 import { copyAsNew, normalizeProfile } from "../legacy/import";
@@ -245,7 +246,7 @@ function ChildCard({ p, onChange, onDelete, onReset, online }: {
             </select>
           </label>
           <label>Text size <input type="range" min={0.8} max={1.6} step={0.1} value={p.settings.fontScale} onChange={(e) => set("fontScale", Number(e.target.value))} /></label>
-          <label>Session minutes <input type="number" min={5} max={60} value={p.settings.dailyMinutes} onChange={(e) => set("dailyMinutes", Number(e.target.value) || 15)} /></label>
+          <BreakSetting p={p} onChange={onChange} />
           <label>Meanings while learning
             <select value={p.settings.meaningView ?? "simple"} onChange={(e) => set("meaningView", e.target.value === "steinsaltz" ? "steinsaltz" : "simple")}>
               <option value="simple">Simple (for young readers)</option>

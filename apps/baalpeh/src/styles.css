@@ -228,6 +228,9 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; justif
 .pricing-note { font-size: 0.85rem; margin: 0; }
 .licenses section p { margin: 6px 0; line-height: 1.5; }
 .licenses a:not(.btn) { color: var(--accent); }
+.break-setting { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+.break-setting input[type="number"] { width: 5em; }
+
 
 /* free step navigation: tappable stones/parts + Back/Next */
 button.part { font: inherit; font-size: 0.85rem; font-weight: 700; background: transparent; min-height: 40px; padding: 6px 14px; cursor: pointer; }

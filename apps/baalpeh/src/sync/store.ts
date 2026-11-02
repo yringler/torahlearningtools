@@ -1,6 +1,6 @@
 import type { ChildRow, LearningEvent, Ms, RecordRow, SyncResponse, User } from "../../shared/api";
 import type { Profile } from "../types";
-import { blankProfileFromRow, diffProfiles } from "./mapping";
+import { blankProfileFromRow, diffProfiles, settingsOf } from "./mapping";
 
 export interface Pending {
   children: Record<string, ChildRow>; // by child id
@@ -165,7 +165,7 @@ export function applyServerResponse(s0: AccountStore, sent: SentBatch, r: SyncRe
     const { name, color, emoji, settings } = row.meta;
     if (i >= 0) {
       const cur = profiles[i];
-      if (cur) profiles[i] = { ...cur, name, color, emoji, settings: { ...settings } };
+      if (cur) profiles[i] = { ...cur, name, color, emoji, settings: settingsOf(settings) };
     } else {
       profiles.push(blankProfileFromRow(row));
     }

@@ -45,8 +45,7 @@ interface Celebration { title: string; sub: string; stars: number; milestone?: M
 type View =
   | { v: "task" }
   | ({ v: "celebrate" } & Celebration)
-  | { v: "breather" }
-  | { v: "timeup" }
+  | { v: "break" }
   | { v: "empty" };
 
 export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEvent }: Props) {
@@ -54,7 +53,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEven
   const [view, setView] = useState<View>(tasks.length ? { v: "task" } : { v: "empty" });
   const started = useRef(Date.now());
   const stepsThisSession = useRef(0);
-  const timeUpShown = useRef(false);
+  const breakShown = useRef(false);
   const onEventRef = useRef(onEvent);
   onEventRef.current = onEvent;
   const emit: Emit = (e) => onEventRef.current?.(e);
@@ -83,17 +82,22 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEven
     else setView(rest.length || extra ? { v: "task" } : { v: "empty" });
   };
 
+  /** Shows the break screen once per session, only if the parent turned break suggestions on. */
+  const showBreakIfDue = (): boolean => {
+    const after = profile.settings.breakMinutes;
+    if (after === undefined || breakShown.current) return false;
+    if ((Date.now() - started.current) / 60000 < after) return false;
+    breakShown.current = true;
+    setView({ v: "break" });
+    return true;
+  };
+
   /** What "keep going" leads to after a celebration: the queued task, or else the next new learning. */
   const upNext: Task | null = queue[0] ?? nextLearning(profile);
 
   const afterCelebrate = () => {
     if (!queue.length && upNext) setQueue([upNext]);
-    const minutes = (Date.now() - started.current) / 60000;
-    if (!timeUpShown.current && minutes >= profile.settings.dailyMinutes) {
-      timeUpShown.current = true;
-      setView({ v: "timeup" });
-      return;
-    }
+    if (showBreakIfDue()) return;
     setView(queue.length || upNext ? { v: "task" } : { v: "empty" });
   };
 
@@ -107,13 +111,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEven
 
   const onStepPassed = () => {
     stepsThisSession.current += 1;
-    const minutes = (Date.now() - started.current) / 60000;
-    if (!timeUpShown.current && minutes >= profile.settings.dailyMinutes) {
-      timeUpShown.current = true;
-      setView({ v: "timeup" });
-    } else if (stepsThisSession.current % 4 === 0) {
-      setView({ v: "breather" });
-    }
+    showBreakIfDue();
   };
 
   let body: JSX.Element;
@@ -141,24 +139,14 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEven
         )}
       </div>
     );
-  } else if (view.v === "breather") {
-    body = (
-      <div className="celebrate" dir="ltr">
-        <div className="big-emoji">🌬️</div>
-        <h2>Great work, {profile.name}!</h2>
-        <p>Take a breath. Keep going?</p>
-        <button className="btn primary big" onClick={() => setView({ v: "task" })}>Keep going</button>
-        <button className="btn ghost-btn" onClick={onMap}>Stop for today</button>
-      </div>
-    );
-  } else if (view.v === "timeup") {
+  } else if (view.v === "break") {
     body = (
       <div className="celebrate" dir="ltr">
         <div className="big-emoji">🌙</div>
-        <h2>That's today's learning!</h2>
-        <p>You did {profile.settings.dailyMinutes} minutes. Stopping now helps you remember better tomorrow.</p>
-        <button className="btn primary big" onClick={onMap}>Finish</button>
-        <button className="btn ghost-btn" onClick={() => setView(queue.length ? { v: "task" } : { v: "empty" })}>A little more</button>
+        <h2>Great work, {profile.name}!</h2>
+        <p>You learned for {profile.settings.breakMinutes} minutes. Time for a break.</p>
+        <button className="btn primary big" onClick={onMap}>Take a break</button>
+        <button className="btn ghost-btn" onClick={() => setView(queue.length ? { v: "task" } : { v: "empty" })}>Keep going</button>
       </div>
     );
   } else if (view.v === "empty" || !task) {
