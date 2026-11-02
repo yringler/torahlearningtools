@@ -181,7 +181,6 @@ function settings(v: unknown, path: string): ChildSettings {
   const o = obj(v, path);
   const out: ChildSettings = {
     fontScale: num(o.fontScale, `${path}.fontScale`, 0.5, 3),
-    tts: bool(o.tts, `${path}.tts`),
     dailyMinutes: int(o.dailyMinutes, `${path}.dailyMinutes`, 1, 180),
   };
   if (o.meaningView !== undefined) out.meaningView = oneOf(o.meaningView, `${path}.meaningView`, ["simple", "steinsaltz"]);

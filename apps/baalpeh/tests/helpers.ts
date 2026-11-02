@@ -12,7 +12,7 @@ export function kid(name: string, extra: Partial<Profile> = {}): Profile {
     name,
     color: "#2f7d6d",
     emoji: "🐮",
-    settings: { fontScale: 1, tts: false, dailyMinutes: 15 },
+    settings: { fontScale: 1, dailyMinutes: 15 },
     mishnayos: {},
     perakim: {},
     days: [],

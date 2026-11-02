@@ -69,7 +69,6 @@ export interface PerekProgress {
 
 export interface Settings {
   fontScale: number;
-  tts: boolean;
   dailyMinutes: number;
   /** Which meaning view to show while learning (optional for older saved profiles). */
   meaningView?: MeaningView;

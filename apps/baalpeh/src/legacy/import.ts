@@ -42,7 +42,6 @@ export function normalizeProfile(x: Profile, index: number): Profile {
     emoji: typeof p.emoji === "string" ? p.emoji : "🐮",
     settings: {
       fontScale: typeof settings.fontScale === "number" ? settings.fontScale : 1,
-      tts: settings.tts === true,
       dailyMinutes: typeof settings.dailyMinutes === "number" ? settings.dailyMinutes : 15,
       ...(settings.meaningView === "simple" || settings.meaningView === "steinsaltz" ? { meaningView: settings.meaningView } : {}),
     },

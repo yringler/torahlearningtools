@@ -277,7 +277,6 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
           <ReadPhase
             key={`read${attempt}`}
             chunk={chunk}
-            tts={profile.settings.tts}
             perek={perek}
             mishnah={mishnah}
             view={profile.settings.meaningView ?? "simple"}

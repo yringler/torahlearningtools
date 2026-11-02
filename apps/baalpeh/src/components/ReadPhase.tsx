@@ -3,12 +3,10 @@ import type { Chunk, MeaningView, Word } from "../types";
 import { CueCard } from "./CueCard";
 import { GlossSheet } from "./GlossSheet";
 import { Meaning, ViewToggle } from "./Meaning";
-import { SpeakButton } from "./SpeakButton";
 
 interface Props {
   chunk: Chunk;
   context?: Chunk[]; // previous chunks of the segment, shown faintly for orientation
-  tts: boolean;
   perek: number;
   mishnah: number;
   view: MeaningView;
@@ -16,8 +14,8 @@ interface Props {
   onDone: () => void;
 }
 
-/** First exposure: full text + meaning; tap words for glosses; read aloud twice. */
-export function ReadPhase({ chunk, context = [], tts, perek, mishnah, view, onView, onDone }: Props) {
+/** First exposure: full text + meaning; tap words for glosses; read it out loud twice. */
+export function ReadPhase({ chunk, context = [], perek, mishnah, view, onView, onDone }: Props) {
   const [reads, setReads] = useState(0);
   const [word, setWord] = useState<Word | null>(null);
   const tap = () => {
@@ -36,9 +34,6 @@ export function ReadPhase({ chunk, context = [], tts, perek, mishnah, view, onVi
       {chunk.en && <Meaning key={view} chunk={chunk} view={view} perek={perek} mishnah={mishnah} />}
       {chunk.st && <ViewToggle view={view} onChange={onView} />}
       <div className="actions">
-        {tts && (
-          <SpeakButton text={chunk.he} className="btn secondary" />
-        )}
         <button className="btn primary big" onClick={tap}>
           I read it <span className="dots-count">{[0, 1].map((i) => (i < reads ? "●" : "○")).join("")}</span>
         </button>

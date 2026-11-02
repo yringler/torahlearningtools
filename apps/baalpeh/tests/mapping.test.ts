@@ -88,7 +88,7 @@ describe("profileToRows", () => {
 
 describe("metaOf", () => {
   it("keeps values inside the server's limits", () => {
-    const a = kid("  ", { settings: { fontScale: 9, tts: false, dailyMinutes: 7.6 } });
+    const a = kid("  ", { settings: { fontScale: 9, dailyMinutes: 7.6 } });
     expect(metaOf(a, 0)).toMatchObject({ name: "Child", settings: { fontScale: 3, dailyMinutes: 8 } });
   });
 });

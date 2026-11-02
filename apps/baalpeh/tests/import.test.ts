@@ -33,7 +33,7 @@ describe("importDefaults", () => {
 describe("normalizeProfile", () => {
   it("fills missing fields of an old backup", () => {
     const p = normalizeProfile({ id: "x1234567", name: "Z" } as unknown as Profile, 0);
-    expect(p).toMatchObject({ mishnayos: {}, perakim: {}, days: [], settings: { fontScale: 1, tts: false, dailyMinutes: 15 } });
+    expect(p).toMatchObject({ mishnayos: {}, perakim: {}, days: [], settings: { fontScale: 1, dailyMinutes: 15 } });
   });
 
   it("drops progress entries that are not objects", () => {
