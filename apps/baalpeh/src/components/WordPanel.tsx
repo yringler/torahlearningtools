@@ -1,8 +1,8 @@
 import type { Word } from "../types";
 
-function Chevron({ dir }: { dir: "left" | "right" }) {
+export function Chevron({ dir, className = "wp-arrow" }: { dir: "left" | "right"; className?: string }) {
   return (
-    <svg className="wp-arrow" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+    <svg className={className} viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
       <path d={dir === "left" ? "M15 5l-7 7 7 7" : "M9 5l7 7-7 7"} fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
