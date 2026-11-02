@@ -1,0 +1,12 @@
+{
+  "name": "torahlearningtools",
+  "private": true,
+  "description": "Monorepo for the small Torah-learning projects hosted on torahlearningtools.com",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:home": "npm run dev -w @torahlearningtools/home",
+    "deploy:home": "npm run deploy -w @torahlearningtools/home"
+  }
+}

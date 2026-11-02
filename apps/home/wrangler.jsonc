@@ -1,0 +1,13 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "torahlearningtools-home",
+  "compatibility_date": "2026-10-01",
+  // Static assets only: no worker script.
+  "assets": {
+    "directory": "./public"
+  },
+  // Serve on the apex domain. Cloudflare creates the DNS record and certificate.
+  "routes": [
+    { "pattern": "torahlearningtools.com", "custom_domain": true }
+  ]
+}

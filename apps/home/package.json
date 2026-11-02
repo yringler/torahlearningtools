@@ -1,0 +1,14 @@
+{
+  "name": "@torahlearningtools/home",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Landing page for torahlearningtools.com",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "echo \"home: static site, nothing to build\"",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
