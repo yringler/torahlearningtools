@@ -1,14 +1,24 @@
-name: Test and deploy to Cloudflare
+name: "baalpeh: test and deploy"
+# Runs only when apps/baalpeh (or this file) changes. Deploys only from main.
 on:
   push:
     branches: [main]
+    paths:
+      - "apps/baalpeh/**"
+      - ".github/workflows/baalpeh.yml"
   pull_request:
+    paths:
+      - "apps/baalpeh/**"
+      - ".github/workflows/baalpeh.yml"
   workflow_dispatch:
 permissions:
   contents: read
 concurrency:
-  group: deploy-${{ github.ref }}
+  group: baalpeh-${{ github.ref }}
   cancel-in-progress: true
+defaults:
+  run:
+    working-directory: apps/baalpeh
 jobs:
   test:
     runs-on: ubuntu-latest

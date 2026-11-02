@@ -20,9 +20,10 @@ Full steps: [§15 of the server plan](docs/SERVER_PLAN.md#15-deployment-steps-fo
       domain, e.g. `Mishnah Ba'al Peh <login@your.domain>`. Without the key, production refuses to send login emails.
 - [ ] **Auth secret:** `openssl rand -base64 32 | npx wrangler secret put AUTH_SECRET`.
 - [ ] **Deploy:** `npm run deploy` (build, remote migrations, `wrangler deploy`).
-- [ ] **GitHub Actions (`.github/workflows/deploy.yml`):** add repository secrets `CLOUDFLARE_API_TOKEN` ("Edit
+- [ ] **GitHub Actions (monorepo root [`.github/workflows/baalpeh.yml`](../../.github/workflows/baalpeh.yml)):** add repository secrets `CLOUDFLARE_API_TOKEN` ("Edit
       Cloudflare Workers" template plus *Account → D1 → Edit*) and `CLOUDFLARE_ACCOUNT_ID`, and create a GitHub
-      environment named `production`. Pushes to `main` then test and deploy.
+      environment named `production`. Pushes to `main` that touch `apps/baalpeh/` then test and deploy
+      (see [`docs/cloudflare-setup.md`](../../docs/cloudflare-setup.md) at the monorepo root).
 - [ ] Smoke test: sign in by code on one device and by link on another, add a child, learn a step, check it syncs.
 
 ## How the learning works
@@ -131,7 +132,8 @@ sides in `shared/api.ts`. The full design is in [`docs/SERVER_PLAN.md`](docs/SER
 **Deploy**: one Cloudflare Worker serves the app and the API. First-time setup (D1 database, Turnstile widget, Resend
 domain and API key, `AUTH_SECRET`, custom domain) is described step by step in
 [§15 of the server plan](docs/SERVER_PLAN.md#15-deployment-steps-for-the-owner). After that, `npm run deploy` (or a push to
-`main`, via `.github/workflows/deploy.yml`) builds, applies remote migrations and deploys.
+`main` that touches `apps/baalpeh/`, via the monorepo's
+[`.github/workflows/baalpeh.yml`](../../.github/workflows/baalpeh.yml)) builds, applies remote migrations and deploys.
 On iPad/iPhone, open the site and use "Add to Home Screen".
 
 ## Sources & licenses
