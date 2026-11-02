@@ -230,3 +230,15 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; justif
 .licenses a:not(.btn) { color: var(--accent); }
 .break-setting { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
 .break-setting input[type="number"] { width: 5em; }
+
+
+/* free step navigation: tappable stones/parts + Back/Next */
+button.part { font: inherit; font-size: 0.85rem; font-weight: 700; background: transparent; min-height: 40px; padding: 6px 14px; cursor: pointer; }
+button.part.done { background: var(--accent); }
+.step-path:has(.stone-hit) { gap: 0; }
+.stone-hit { display: grid; place-items: center; min-width: 30px; min-height: 40px; padding: 0; border: 0; background: transparent; cursor: pointer; border-radius: 10px; }
+.stone-hit:focus-visible, button.part:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.step-nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 4px 0 8px; }
+.step-nav .step-label { margin: 0; flex: 1; }
+.step-nav .btn { min-width: 84px; }
+.step-nav .btn.ghost-btn:not(:disabled) { color: var(--ink); border-color: var(--line); }

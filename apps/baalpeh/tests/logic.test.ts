@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { getMishnah, MASECHTA, mishnayosOf } from "../src/data";
 import { firstLetter } from "../src/hebrew";
-import { completeStep, knownPrefix, nextLearning, parentCheckChain, parentCheckMishnah } from "../src/progress";
+import { completeStep, knownPrefix, mp, nextLearning, parentCheckChain, parentCheckMishnah, setStep } from "../src/progress";
 import { gradeReview, newReview } from "../src/srs";
 import { buildSteps, MAX_SEGMENT, segments } from "../src/steps";
 import { newProfile } from "../src/storage";
@@ -80,5 +80,47 @@ describe("progress", () => {
     p = parentCheckChain(p, 1, n, "pass");
     expect(p.perakim["1"]?.complete).toBe(true);
     expect(nextLearning(p)).toEqual({ type: "learn", perek: 2, mishnah: 1 });
+  });
+});
+
+describe("setStep (free navigation)", () => {
+  const total = buildSteps(getMishnah(1, 1).chunks).length;
+  const fresh = (): Profile => newProfile("Kid", 0);
+
+  it("clamps to [0, total]", () => {
+    const p = fresh();
+    expect(mp(setStep(p, 1, 1, -3), 1, 1).stepIndex).toBe(0);
+    expect(mp(setStep(p, 1, 1, total + 5), 1, 1).stepIndex).toBe(total);
+  });
+
+  it("moves backward, and completeStep continues from there", () => {
+    let p = setStep(fresh(), 1, 1, 5);
+    p = setStep(p, 1, 1, 4);
+    expect(mp(p, 1, 1).stepIndex).toBe(4);
+    expect(mp(completeStep(p, 1, 1).profile, 1, 1).stepIndex).toBe(5);
+  });
+
+  it("starts a new mishnah, so nextLearning resumes it", () => {
+    const p = setStep(fresh(), 1, 3, 2);
+    expect(mp(p, 1, 3).state).toBe("learning");
+    expect(nextLearning(p)).toEqual({ type: "learn", perek: 1, mishnah: 3 });
+  });
+
+  it("keeps a known mishnah known (with its review)", () => {
+    const known = parentCheckMishnah(setStep(fresh(), 1, 1, total), 1, 1, "pass");
+    expect(mp(known, 1, 1).state).toBe("known");
+    const back = setStep(known, 1, 1, 0);
+    expect(mp(back, 1, 1).state).toBe("known");
+    expect(mp(back, 1, 1).review).toEqual(mp(known, 1, 1).review);
+  });
+
+  it("returns the same profile when the step does not change", () => {
+    const p = setStep(fresh(), 1, 1, 2);
+    expect(setStep(p, 1, 1, 2)).toBe(p);
+  });
+
+  it("jumping to the parent check: notyet sends it back to the last step", () => {
+    const p = parentCheckMishnah(setStep(fresh(), 1, 1, total), 1, 1, "notyet");
+    expect(mp(p, 1, 1).stepIndex).toBe(total - 1);
   });
 });

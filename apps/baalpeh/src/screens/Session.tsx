@@ -6,7 +6,7 @@ import { Recite } from "../components/Recite";
 import { StepPath } from "../components/StepPath";
 import { getMishnah, hebNum, mishnayosOf, MASECHTA } from "../data";
 import {
-  completeStep, markDay, mp, parentCheckChain, parentCheckMishnah, reviewMishnah, reviewPerek, type Task,
+  completeStep, markDay, mp, nextLearning, parentCheckChain, parentCheckMishnah, reviewMishnah, reviewPerek, setStep, type Task,
 } from "../progress";
 import { buildSteps } from "../steps";
 import type { Cue, Grade, Profile, Step } from "../types";
@@ -15,7 +15,10 @@ interface Props {
   profile: Profile;
   tasks: Task[];
   onProfile: (p: Profile) => void;
+  /** ✕: back to where the session was started from. */
   onExit: () => void;
+  /** Go to the perek map (the end of a session, or the child chooses to stop). */
+  onMap: () => void;
   /** Called when the queue runs out; may return more tasks (e.g. next learning). */
   more?: (p: Profile) => Task | null;
   /** Practice log (instrumentation only; no effect on the screens). */
@@ -35,13 +38,17 @@ function recite(task: ReciteTask, perek: number, mishnah: number | null, step: n
 const ref = (perek: number, mishnah?: number) =>
   `${MASECHTA.masechta} ${hebNum(perek)}${mishnah !== undefined ? `:${hebNum(mishnah)}` : ""}`;
 
+/** "mishnah": a mishnah was just learned. "perek": a whole perek was finished. */
+type Milestone = "mishnah" | "perek";
+interface Celebration { title: string; sub: string; stars: number; milestone?: Milestone }
+
 type View =
   | { v: "task" }
-  | { v: "celebrate"; title: string; sub: string; stars: number }
+  | ({ v: "celebrate" } & Celebration)
   | { v: "break" }
   | { v: "empty" };
 
-export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Props) {
+export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEvent }: Props) {
   const [queue, setQueue] = useState<Task[]>(tasks);
   const [view, setView] = useState<View>(tasks.length ? { v: "task" } : { v: "empty" });
   const started = useRef(Date.now());
@@ -66,7 +73,7 @@ export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Pr
 
   const save = (p: Profile) => onProfile(markDay(p));
 
-  const finishTask = (p: Profile, celebrate?: { title: string; sub: string; stars: number }) => {
+  const finishTask = (p: Profile, celebrate?: Celebration) => {
     save(p);
     const rest = queue.slice(1);
     const extra = rest.length === 0 && more ? more(p) : null;
@@ -85,10 +92,22 @@ export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Pr
     return true;
   };
 
+  /** What "keep going" leads to after a celebration: the queued task, or else the next new learning. */
+  const upNext: Task | null = queue[0] ?? nextLearning(profile);
+
   const afterCelebrate = () => {
+    if (!queue.length && upNext) setQueue([upNext]);
     if (showBreakIfDue()) return;
-    setView(queue.length ? { v: "task" } : { v: "empty" });
+    setView(queue.length || upNext ? { v: "task" } : { v: "empty" });
   };
+
+  const mapBtn = (primary: boolean) => (
+    <button className={primary ? "btn primary big" : "btn ghost-btn"} onClick={onMap}>
+      {primary ? "🗺️ See my map" : "My map"}
+    </button>
+  );
+  const nextLabel = (t: Task): string =>
+    t.type === "learn" ? "Next mishnah ›" : t.type === "perek-chain" ? "Say the perek ›" : "Keep going ›";
 
   const onStepPassed = () => {
     stepsThisSession.current += 1;
@@ -102,8 +121,22 @@ export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Pr
         <div className="big-emoji">{view.stars === 0 ? "💪" : "⭐".repeat(view.stars)}</div>
         <h2>{view.title}</h2>
         <p>{view.sub}</p>
-        <button className="btn primary big" onClick={afterCelebrate}>Continue</button>
-        <button className="btn ghost-btn" onClick={onExit}>Done for now</button>
+        {view.milestone === "perek" || !upNext ? (
+          // A finished perek (or nothing left): the map is where the new gold row is.
+          mapBtn(true)
+        ) : view.milestone === "mishnah" || !queue.length ? (
+          // A finished mishnah is a natural stop: the map first, the next one second.
+          <>
+            {mapBtn(true)}
+            <button className="btn secondary" onClick={afterCelebrate}>{nextLabel(upNext)}</button>
+          </>
+        ) : (
+          // Mid-queue (today's reviews still waiting): keep going is primary.
+          <>
+            <button className="btn primary big" onClick={afterCelebrate}>Continue</button>
+            {mapBtn(false)}
+          </>
+        )}
       </div>
     );
   } else if (view.v === "break") {
@@ -112,7 +145,7 @@ export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Pr
         <div className="big-emoji">🌙</div>
         <h2>Great work, {profile.name}!</h2>
         <p>You learned for {profile.settings.breakMinutes} minutes. Time for a break.</p>
-        <button className="btn primary big" onClick={onExit}>Take a break</button>
+        <button className="btn primary big" onClick={onMap}>Take a break</button>
         <button className="btn ghost-btn" onClick={() => setView(queue.length ? { v: "task" } : { v: "empty" })}>Keep going</button>
       </div>
     );
@@ -122,7 +155,7 @@ export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Pr
         <div className="big-emoji">🎉</div>
         <h2>All done!</h2>
         <p>Nothing else to do right now.</p>
-        <button className="btn primary big" onClick={onExit}>Back home</button>
+        {mapBtn(true)}
       </div>
     );
   } else if (task.type === "learn") {
@@ -138,7 +171,7 @@ export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Pr
         onFinished={(p, g) =>
           g === "notyet"
             ? save(p)
-            : finishTask(p, { title: `You know ${ref(task.perek, task.mishnah)}!`, sub: "It goes on your perek map. We'll review it soon so it stays strong.", stars: 1 })
+            : finishTask(p, { title: `You know ${ref(task.perek, task.mishnah)}!`, sub: "It goes on your perek map. We'll review it soon so it stays strong.", stars: 1, milestone: "mishnah" })
         }
       />
     );
@@ -178,7 +211,7 @@ export function Session({ profile, tasks, onProfile, onExit, more, onEvent }: Pr
           if (g === "notyet") { finishTask(profile, { title: "Almost!", sub: "We'll try the chain again next time.", stars: 0 }); return; }
           const p2 = parentCheckChain(profile, task.perek, through, g);
           finishTask(p2, through >= count
-            ? { title: `You finished ${ref(task.perek)}!`, sub: "You can say the whole perek in one shot. Mazel tov!", stars: 3 }
+            ? { title: `You finished ${ref(task.perek)}!`, sub: "You can say the whole perek in one shot. Mazel tov!", stars: 3, milestone: "perek" }
             : { title: `Mishnayos 1–${through} in a row!`, sub: ref(task.perek), stars: 1 });
         }}
       />
@@ -223,18 +256,35 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
   const stepStart = useRef(Date.now());
   useEffect(() => { stepStart.current = Date.now(); }, [stepIndex, phase, attempt, detour]);
 
+  /** Free navigation: any step, back or forward (steps.length = the parent check). */
+  const goTo = (i: number) => {
+    setDetour(null);
+    setPhase("read");
+    setAttempt((a) => a + 1);
+    onProfile(setStep(profile, perek, mishnah, i));
+  };
+  const path = <StepPath steps={steps} chunks={m.chunks} current={stepIndex} onJump={goTo} />;
+
   if (!step) {
     return (
-      <ParentCheck
-        title={`${ref(perek, mishnah)} — the whole mishnah`}
-        cards={m.chunks}
-        onDone={(g, slipped, slipWords) => {
-          onEvent({ type: "check", scope: "mishnah", perek, mishnah, through: null, grade: g, slipped, slipWords });
-          const p = parentCheckMishnah(profile, perek, mishnah, g);
-          onProfile(p);
-          onFinished(p, g);
-        }}
-      />
+      <div className="task">
+        {path}
+        <div className="step-nav" dir="ltr">
+          <button className="btn ghost-btn small" onClick={() => goTo(steps.length - 1)}>‹ Back</button>
+          <div className="step-label">Show Abba or Ima</div>
+          <span className="btn small" aria-hidden="true" style={{ visibility: "hidden" }}>Next ›</span>
+        </div>
+        <ParentCheck
+          title={`${ref(perek, mishnah)} — the whole mishnah`}
+          cards={m.chunks}
+          onDone={(g, slipped, slipWords) => {
+            onEvent({ type: "check", scope: "mishnah", perek, mishnah, through: null, grade: g, slipped, slipWords });
+            const p = parentCheckMishnah(profile, perek, mishnah, g);
+            onProfile(p);
+            onFinished(p, g);
+          }}
+        />
+      </div>
     );
   }
 
@@ -250,8 +300,12 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
   const header = (
     <>
       <h2 className="task-title">{ref(perek, mishnah)}</h2>
-      <StepPath steps={steps} chunks={m.chunks} current={stepIndex} />
-      <div className="step-label" dir="ltr">{detour ? "Extra practice" : step.label}</div>
+      {path}
+      <div className="step-nav" dir="ltr">
+        <button className="btn ghost-btn small" disabled={stepIndex === 0 && !detour} onClick={() => goTo(detour ? stepIndex : stepIndex - 1)}>‹ Back</button>
+        <div className="step-label">{detour ? "Extra practice" : step.label}</div>
+        <button className="btn ghost-btn small" onClick={() => goTo(stepIndex + 1)}>Next ›</button>
+      </div>
     </>
   );
 
