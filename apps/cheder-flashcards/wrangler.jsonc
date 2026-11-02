@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "cheder-flashcards",
+  "compatibility_date": "2026-10-13",
+  // Static site only: no Worker script, Cloudflare serves the Vite build output.
+  "assets": {
+    "directory": "./dist"
+  }
+}
