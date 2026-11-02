@@ -49,4 +49,8 @@ npx wrangler login   # once
 npm run deploy       # test, build, upload dist/
 ```
 
-To deploy on every push instead, connect the repo in the Cloudflare dashboard (Workers & Pages → `cheder-flashcards` → Settings → Builds) with build command `npm run build` and deploy command `npx wrangler deploy`.
+This app lives in the [torahlearningtools monorepo](../../README.md). Every push to `main` that changes
+`apps/cheder-flashcards/` is tested and deployed by GitHub Actions
+([`.github/workflows/cheder-flashcards.yml`](../../.github/workflows/cheder-flashcards.yml) at the repo root).
+Pull requests run the tests and build only. Setup steps are in
+[`docs/cloudflare-setup.md`](../../docs/cloudflare-setup.md).

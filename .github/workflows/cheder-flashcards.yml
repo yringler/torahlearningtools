@@ -1,0 +1,50 @@
+name: "cheder-flashcards: test and deploy"
+# Runs only when apps/cheder-flashcards (or this file) changes. Deploys only from main.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/cheder-flashcards/**"
+      - ".github/workflows/cheder-flashcards.yml"
+  pull_request:
+    paths:
+      - "apps/cheder-flashcards/**"
+      - ".github/workflows/cheder-flashcards.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cheder-flashcards-${{ github.ref }}
+  cancel-in-progress: true
+defaults:
+  run:
+    working-directory: apps/cheder-flashcards
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test
+  deploy:
+    needs: test
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run build
+      - run: npx wrangler deploy
