@@ -8,10 +8,28 @@ Android counts as Chrome.
 | Flavor | Package name (permanent) | Loads |
 | --- | --- | --- |
 | `flashcards` | `com.torahlearningtools.chederflashcards` | https://chederflashcards.torahlearningtools.com/ |
-| `baalpeh` | `com.torahlearningtools.baalpeh` | https://byheart.torahlearningtools.com/ |
+| `baalpeh` | `com.torahlearningtools.byheart` | https://byheart.torahlearningtools.com/ |
 
 The apps load the live site, so a normal Cloudflare deploy updates them. Publish a new Play build
 only when `apps/android` itself changes.
+
+## Status (2026-11-02)
+
+Done from a local machine with the [`gplay`](https://gplay.sh) CLI and the Play service account:
+
+- Both apps exist in Play Console ("Cheder Flash Cards", "By Heart Mishna").
+- The upload key was generated (step 2) and lives outside the repo in
+  `~/.torahlearningtools-android/` (`upload.jks`, `upload-password.txt`, `upload.jks.b64`). Bundles
+  signed with it were uploaded, so **this is the registered upload key**. Use it for the GitHub secrets.
+- versionCode 1 (1.0.1) of each app is a **draft** on the internal and production tracks. The API
+  uploaded the first bundle fine; no manual console upload was needed.
+- Store listing text, icon, feature graphic, and phone, 7" and 10" tablet screenshots were pushed from
+  `apps/android/metadata/<flavor>/` (see "Updating the store listing" below). Contact email and website
+  are set.
+- Baalpeh's `assetlinks.json` (step 6) is in `apps/baalpeh/public/.well-known/`.
+
+Still to do by hand in Play Console: the App content forms (see "Play Console forms" below), including
+Data safety. Then roll out the internal draft, and send the production draft for review.
 
 Do the steps in order.
 
@@ -53,10 +71,10 @@ deploys use) → **Add environment secret**:
 The key alias is fixed to `upload` in the workflow. If you chose a different alias, edit
 `ANDROID_KEY_ALIAS` in `.github/workflows/android.yml`.
 
-## 4. Create the two apps and do the first upload by hand
+## 4. Create the two apps and do the first upload
 
-Play only accepts API uploads for a package that already has one bundle uploaded through the
-console, so the first upload of each app is manual.
+(Done; see Status above. The API accepted the very first upload, so this manual route is only a
+fallback.)
 
 1. In Play Console, select **Create app** twice:
    - "Word Quiz": app, free.
@@ -99,6 +117,10 @@ Without this step, tapping the sign-in link opens the browser (which may be the 
 signs in there, not in the app. The parent can always type the 6-digit code from the email into the
 app instead, which works with no setup.
 
+Steps 1 and 2 are done. The fingerprint came from
+`gplay releases generated list --package com.torahlearningtools.byheart --version-code 1`
+(`certificateSha256Hash`), and `apps/baalpeh/public/_headers` serves the file as JSON.
+
 1. Play Console → baalpeh app → **Test and release → App integrity → App signing**. Copy the
    **Digital Asset Links JSON** snippet. It contains the SHA-256 of Play's app-signing key.
 2. Save it as `apps/baalpeh/public/.well-known/assetlinks.json`. The final file looks like:
@@ -107,7 +129,7 @@ app instead, which works with no setup.
      "relation": ["delegate_permission/common.handle_all_urls"],
      "target": {
        "namespace": "android_app",
-       "package_name": "com.torahlearningtools.baalpeh",
+       "package_name": "com.torahlearningtools.byheart",
        "sha256_cert_fingerprints": ["AA:BB:…"]
      }
    }]
@@ -160,7 +182,7 @@ update `apps/home/public/privacy.html` and the Data safety form together.
 | Data safety → collects or shares user data? | **No.** Progress stays on the device in local storage, and Play doesn't count data that never leaves the device as "collected". |
 | Data deletion | Not applicable (no accounts) |
 
-### Mishnah Ba'al Peh (`com.torahlearningtools.baalpeh`)
+### Mishnah Ba'al Peh (`com.torahlearningtools.byheart`)
 
 | Field | Answer |
 | --- | --- |
@@ -187,3 +209,40 @@ letters to nothing. Then they say it to you and you grade it. Learned mishnayos 
 on a spaced schedule until a whole perek can be said in one go. Hebrew text with nikud, plus
 Steinsaltz and simple English meanings. Use it as a guest, or make a free parent account to sync
 several children across devices. No ads."
+
+## Updating the store listing and uploading from your computer
+
+The listing text lives in `apps/android/metadata/<flavor>/en-US/` (`title.txt`, `short_description.txt`,
+`full_description.txt`). The images (icon, feature graphic, screenshots) are not in git; keep them in
+`<somewhere>/<flavor>/en-US/images/{icon.png,featureGraphic.png,phoneScreenshots,sevenInchScreenshots,tenInchScreenshots}`.
+Push with [`gplay`](https://gplay.sh), logged in as the Play
+service account (`gplay auth login`):
+
+```sh
+cd apps/android
+gplay metadata apply --dir metadata/flashcards --package com.torahlearningtools.chederflashcards --dry-run
+gplay metadata apply --dir metadata/flashcards --package com.torahlearningtools.chederflashcards --confirm
+# gplay 2.3.2 asks Play for the retired promoGraphic slot and fails, so name the slots:
+gplay metadata images apply --dir <images-root>/flashcards --package com.torahlearningtools.chederflashcards \
+  --type icon --type featureGraphic --type phoneScreenshots --type sevenInchScreenshots --type tenInchScreenshots --confirm
+```
+
+Use `--dir metadata/baalpeh` (or `<images-root>/baalpeh`) `--package com.torahlearningtools.byheart` for the other app. Play
+rejects screenshots taller than 2:1, so the phone screenshots (1080×2400 from the emulator) were
+padded on the sides to 1200×2400 with the page's background color. The tablet screenshots come from
+the phone emulator with `adb shell wm size 1200x1920` / `1600x2560` and `wm density 320`.
+
+Local release build: Gradle here needs JDK 17 or 21. Android Studio's bundled JBR is Java 25, which
+this Gradle/Kotlin version can't parse.
+
+```sh
+export JAVA_HOME=/path/to/jdk-21
+export ANDROID_KEYSTORE_PATH=~/.torahlearningtools-android/upload.jks
+export ANDROID_KEYSTORE_PASSWORD="$(cat ~/.torahlearningtools-android/upload-password.txt)"
+./gradlew bundleFlashcardsRelease -PversionCode=N -PversionName=1.0.N
+gplay releases upload app/build/outputs/bundle/flashcardsRelease/app-flashcards-release.aab \
+  --package com.torahlearningtools.chederflashcards --track internal \
+  --mapping app/build/outputs/mapping/flashcardsRelease/mapping.txt
+```
+
+versionCode 1 is taken in both apps. CI uses the workflow run number; if a run is ever numbered 1, Play rejects it, so just run it again.

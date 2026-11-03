@@ -40,7 +40,7 @@ android {
         }
         create("baalpeh") {
             dimension = "app"
-            applicationId = "com.torahlearningtools.baalpeh"
+            applicationId = "com.torahlearningtools.byheart"
             buildConfigField("String", "START_URL", "\"https://byheart.torahlearningtools.com/\"")
         }
     }
