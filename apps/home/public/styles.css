@@ -209,6 +209,38 @@ main { flex: 1; padding-bottom: 2.5rem; }
 .card-cta .arrow { transition: transform 160ms ease; }
 .card:hover .card-cta .arrow { transform: translateX(4px); }
 
+/* Card that is a div with a stretched title link (used when the card holds its own links) */
+a.card-title { color: inherit; text-decoration: none; }
+.card-stretch::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.card-stretch:focus-visible { outline: none; }
+.card:has(.card-stretch:focus-visible) {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.card-credit {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: -0.75rem 0 1.5rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 12px;
+  background: var(--accent-soft);
+}
+.card-credit p { margin: 0 0 0.4rem; }
+.card-credit ul { margin: 0; padding-inline-start: 1.1rem; }
+.card-credit li + li { margin-top: 0.25rem; }
+.card-credit a {
+  position: relative;
+  z-index: 2;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 /* Footer */
 .footer {
   text-align: center;

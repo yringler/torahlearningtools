@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Torah Learning Tools</title>
-  <!-- TODO: restore "read illustrated stories of tzaddikim," once the publisher grants permission. -->
-  <meta name="description" content="Small, friendly tools for learning Torah: memorize mishnayos by heart, learn the 300 most common shoroshim in Chumash with cheder flashcards, and study Shaar Hayichud.">
+  <meta name="description" content="Small, friendly tools for learning Torah: memorize mishnayos by heart, learn the 300 most common shoroshim in Chumash with cheder flashcards, read illustrated stories of tzaddikim, and study Shaar Hayichud.">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#fbf6ec" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#1b1814" media="(prefers-color-scheme: dark)">
@@ -47,16 +46,23 @@
           <span class="card-cta" aria-hidden="true">Practice words <span class="arrow">&rarr;</span></span>
         </a>
       </li>
-      <!-- Hidden until the publisher grants permission to publish the Illustrated Stories Of Tzaddikim.
       <li>
-        <a class="card card--books" href="https://illustratedbooksforkids.com/">
+        <!-- A div, not an <a>: the card holds its own buy links, and links can't nest.
+             The title link is stretched over the whole card so the card stays clickable. -->
+        <div class="card card--books">
           <span class="card-hebrew" lang="he" dir="rtl">סְפָרִים</span>
-          <span class="card-title">Illustrated Stories Of Tzaddikim</span>
+          <a class="card-title card-stretch" href="https://illustratedbooksforkids.com/">Illustrated Stories Of Tzaddikim</a>
           <span class="card-text">An illustrated book reader for kids: The Lubavitcher Rabbi&rsquo;s Memoirs, chapter by chapter.</span>
+          <div class="card-credit">
+            <p>Retold with AI from <cite>The Lubavitcher Rabbi&rsquo;s Memoirs</cite>, published by Kehot Publication Society. If your child enjoys it, please buy the real books:</p>
+            <ul role="list">
+              <li><a href="https://store.kehotonline.com/prodinfo.asp?number=efr-luba.sb" target="_blank" rel="noopener"><cite>The Lubavitcher Rabbi&rsquo;s Memoirs</cite></a> (Kehot Publication Society)</li>
+              <li><a href="https://store.kehotonline.com/prodinfo.asp?number=EY-ONCE1" target="_blank" rel="noopener"><cite>Once Upon a Journey</cite>, Vol.&nbsp;1</a> and <a href="https://store.kehotonline.com/prodinfo.asp?number=EY-ONCE2" target="_blank" rel="noopener">Vol.&nbsp;2</a>: the same memoirs retold for young readers by Rabbi Zalman Ruderman (BSD Publishers)</li>
+            </ul>
+          </div>
           <span class="card-cta" aria-hidden="true">Start reading <span class="arrow">&rarr;</span></span>
-        </a>
+        </div>
       </li>
-      -->
       <li>
         <a class="card card--yichud" href="https://www.shaarhayichudresources.com/">
           <span class="card-hebrew" lang="he" dir="rtl">שַׁעַר הַיִּחוּד</span>
