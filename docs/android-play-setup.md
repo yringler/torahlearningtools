@@ -127,14 +127,59 @@ app instead, which works with no setup.
 3. **Test the whole point first:** use up Chrome's time, then open both apps. They should still
    work. Also check offline: open each app once online, then turn on airplane mode.
 
-## Before a closed or production release (not needed for internal testing)
+## Play Console forms: what to answer
 
-Play Console's **App content** section needs:
-- A **privacy policy URL**. Neither site has one yet.
-- **Target audience**. Word Quiz is for children, which brings in Google Play's Families policy:
-  no ads SDKs, an accurate Data safety form, and so on.
-- **Data safety**. baalpeh collects an email address for the account. Account deletion already
-  exists in the app (`DELETE /api/account`). Play also wants a web URL where users can request
-  deletion.
-- Content rating questionnaire, store listing text, screenshots, and a 512×512 icon (use the web
-  apps' `icon-512.png`).
+Internal testing can start before most of this is filled in. Closed testing and production need all
+of it: Play Console → app → **Policy and programs → App content**, and **Grow users → Store presence**.
+The answers below match what the code actually does. If the apps start collecting something new,
+update `apps/home/public/privacy.html` and the Data safety form together.
+
+### Both apps
+
+| Field | Answer |
+| --- | --- |
+| Privacy policy URL | `https://torahlearningtools.com/privacy` (the apps also link to it in-app) |
+| Ads | No, the app contains no ads |
+| Contact email (store listing) | `admin@torahlearningtools.com` |
+| Website (store listing) | `https://torahlearningtools.com` |
+| Category | Education |
+| Content rating (IARC questionnaire) | Category "Reference, News, or Educational". Answer No to violence, sexuality, language, controlled substances, gambling, user-to-user communication/sharing, and location sharing. Should come out Everyone / PEGI 3. |
+| Government / financial / health / news app | No to all |
+| Store graphics | 512×512 icon (`apps/<app>/public/…icon-512.png`), a 1024×500 feature graphic, at least 2 phone screenshots, plus 7" and 10" tablet screenshots (the tablets are the point) |
+
+### Word Quiz (`com.torahlearningtools.chederflashcards`)
+
+| Field | Answer |
+| --- | --- |
+| App access | All functionality is available without special access |
+| Target audience | Ages 6–8 (add 9–12 if you like). This makes the app subject to the **Families policy**. It complies: no ads, no SDKs, no data collected. |
+| Data safety → collects or shares user data? | **No.** Progress stays on the device in local storage, and Play doesn't count data that never leaves the device as "collected". |
+| Data deletion | Not applicable (no accounts) |
+
+### Mishnah Ba'al Peh (`com.torahlearningtools.baalpeh`)
+
+| Field | Answer |
+| --- | --- |
+| App access | Some functionality is restricted. Instructions for reviewers: "Tap Continue as guest to use the app without an account. To test accounts: enter any email address you control, and type the 6-digit code from the email (or tap its link)." |
+| Target audience | Your call. Kids use it with a parent. Including under-13 ages brings in the Families policy, which it meets (no ads, no SDKs; only the parent signs in). |
+| Data safety → collects data? | **Yes.** Shared with third parties? **No** (Cloudflare and Resend are service providers, which Play doesn't count as sharing). Encrypted in transit? **Yes.** Users can request deletion? **Yes.** |
+| …Personal info → Email address | Collected, required (for accounts), purposes: App functionality, Account management |
+| …Personal info → Name | Collected, optional (child's name/nickname typed by the parent), purpose: App functionality |
+| …App activity → App interactions | Collected, optional (learning progress when signed in), purpose: App functionality |
+| …Device or other IDs | Collected, required at sign-in (browser user agent on the session, hashed IP and Turnstile bot check), purpose: Fraud prevention, security, and compliance |
+| Account creation → delete account URL | `https://torahlearningtools.com/delete-account` (in-app deletion: Parent area → Account → Delete account) |
+
+### Draft store listing text
+
+**Word Quiz**. Short description (80 characters max): "Learn the most common Chumash words, Hebrew to English, with friendly quizzes."
+Full description: "Word Quiz helps kids learn the 300 most common shoroshim in Chumash, following the cheder word
+lists. Learn each week's 12 words, look at the whole list, and take quick tests with big buttons and
+encouraging feedback. Typos are forgiven. Works offline. No ads, no accounts, and nothing about your
+child leaves the device."
+
+**משנה בעל פה (Mishnah By Heart)**. Short description: "Memorize mishnayos by heart, one small piece at a time, with spaced review."
+Full description: "Your child learns each mishnah in small pieces, with hints that fade from full text to first
+letters to nothing. Then they say it to you and you grade it. Learned mishnayos come back for review
+on a spaced schedule until a whole perek can be said in one go. Hebrew text with nikud, plus
+Steinsaltz and simple English meanings. Use it as a guest, or make a free parent account to sync
+several children across devices. No ads."
