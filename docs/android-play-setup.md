@@ -17,11 +17,14 @@ Do the steps in order.
 
 ## 1. Google Play developer account
 
-1. Sign up at <https://play.google.com/console/signup>. It costs $25 once and needs ID verification,
-   which can take a few days.
-2. A **personal** account is fine for internal testing. Note that personal accounts created after
-   Nov 2023 must run a closed test with at least 12 testers for 14 days in a row before they can
-   publish to **production**. Internal testing doesn't have this requirement.
+Use the existing developer account. It was created before Nov 2023, so it is **exempt** from the rule
+that makes newer personal accounts run a 12-tester, 14-day closed test before production. You can
+release straight to production. Production releases are still reviewed, which usually takes hours to a
+few days, and the first review of a new app is usually the slowest.
+
+Before starting, open Play Console and clear any banners. Google has been requiring older accounts to
+verify identity and contact details, and it closes long-inactive accounts. Check **Account details**
+and **Developer account → Verification** show no outstanding tasks.
 
 ## 2. Create the upload key (on your computer, once, used by both apps)
 
@@ -120,8 +123,9 @@ app instead, which works with no setup.
    tester**. Then install from the Play Store link on that page. Family Link may ask you to approve
    the install.
    - Not yet verified: whether Play lets a supervised child account opt into an internal test. If
-     it doesn't, the fallback is a closed test or a production release (see step 1's 12-testers
-     rule).
+     it doesn't, skip testing and release to production (the account is exempt from the
+     closed-testing rule). The kids then install it like any Play app, with your approval in
+     Family Link.
 2. In Family Link, set Chrome's limit as you like and give the two apps their own limit (or "Always
    allowed").
 3. **Test the whole point first:** use up Chrome's time, then open both apps. They should still

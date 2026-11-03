@@ -15,7 +15,7 @@ on:
         options: [both, flashcards, baalpeh]
         default: both
       track:
-        description: "Play track (internal = your family testers; production needs Play's closed-testing requirement first)"
+        description: "Play track (internal = your testers list, no review; production = public, reviewed by Google)"
         type: choice
         options: [internal, alpha, beta, production]
         default: internal
