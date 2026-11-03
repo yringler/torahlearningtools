@@ -5,6 +5,7 @@ Small Torah-learning web apps, each deployed as its own Cloudflare Worker.
 - `apps/home` — landing page for torahlearningtools.com (static assets).
 - `apps/baalpeh` — Mishnah Ba'al Peh (Vite + React client, Worker API in `worker/`, D1 migrations). See its `README.md` and `docs/`.
 - `apps/cheder-flashcards` — kids' Hebrew vocabulary flashcards. Read `apps/cheder-flashcards/CLAUDE.md` before changing it.
+- `apps/android` — Android WebView wrapper (Gradle, one flavor per web app) published to Google Play by a manual-only workflow. See its `README.md` and `docs/android-play-setup.md`. Never change an `applicationId`.
 
 Rules:
 - No npm workspaces: run `npm ci`, `npm test`, `npm run build` inside the app's folder. Each app has its own `package-lock.json`.
