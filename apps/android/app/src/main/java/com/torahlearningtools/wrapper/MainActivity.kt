@@ -50,6 +50,14 @@ class MainActivity : ComponentActivity() {
     /** Only pages on the app's own https origin load inside the app; everything else goes to other apps. */
     private fun isOwnPage(uri: Uri): Boolean = uri.scheme == "https" && uri.host == startUri.host
 
+    /**
+     * The privacy policy and account-deletion pages on the main site also open inside the app, so they
+     * stay readable when Chrome is locked. The back button returns to the app.
+     */
+    private fun isLegalPage(uri: Uri): Boolean =
+        uri.scheme == "https" && uri.host == "torahlearningtools.com" &&
+            uri.path?.trimEnd('/') in setOf("/privacy", "/privacy.html", "/delete-account", "/delete-account.html")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         // Both web apps have light backgrounds, so always use dark status/navigation bar icons.
         val lightBars = SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT)
@@ -101,7 +109,7 @@ class MainActivity : ComponentActivity() {
 
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
-                if (isOwnPage(request.url)) return false
+                if (isOwnPage(request.url) || isLegalPage(request.url)) return false
                 openElsewhere(request.url)
                 return true
             }

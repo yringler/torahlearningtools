@@ -9,11 +9,19 @@ export function LicensesLink({ className = "link-btn" }: { className?: string })
   return <a className={className} href={LICENSES_PATH} target="_blank" rel="noreferrer">Sources &amp; licenses</a>;
 }
 
-/** Author credit and feedback address, shown at the bottom of each settings screen. */
+export const PRIVACY_URL = "https://torahlearningtools.com/privacy";
+
+/** Link to the privacy policy (Google Play requires one inside the app). New tab, like the licenses link. */
+export function PrivacyLink({ className }: { className?: string }) {
+  return <a className={className} href={PRIVACY_URL} target="_blank" rel="noreferrer">Privacy policy</a>;
+}
+
+/** Author credit, feedback address and privacy policy, shown at the bottom of each settings screen. */
 export function AboutNote() {
   return (
     <section>
       <p className="hint">By Yehuda Ringler. Please send any feedback to <a href="mailto:admin@torahlearningtools.com">admin@torahlearningtools.com</a>.</p>
+      <p className="hint"><PrivacyLink /></p>
     </section>
   );
 }

@@ -153,3 +153,7 @@ button.back { position: sticky; top: 8px; z-index: 1; min-height: 56px; padding:
 .words li:first-child { border-top: 0; }
 .words .hebrew-sm { flex: 0 0 42%; text-align: right; }
 .words .meaning { flex: 1; overflow-wrap: anywhere; }
+
+/* Privacy policy link for grown-ups, at the bottom of the course screen. */
+.legal-footer { text-align: center; margin: 32px 0 8px; font-size: 0.9rem; }
+.legal-footer a { color: var(--ink); opacity: 0.6; }
