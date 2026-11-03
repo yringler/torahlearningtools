@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <activity
+            android:name="com.torahlearningtools.wrapper.MainActivity"
+            android:exported="true"
+            tools:node="merge">
+            <!-- The sign-in email link opens this app instead of Chrome, so the session cookie
+                 lands in the app. Android only trusts this once
+                 https://byheart.torahlearningtools.com/.well-known/assetlinks.json lists the
+                 app's signing-key fingerprint (docs/android-play-setup.md, step 6). Until then the
+                 link opens in the browser and the parent types the 6-digit code in the app. -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="https"
+                    android:host="byheart.torahlearningtools.com"
+                    android:path="/auth/verify" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

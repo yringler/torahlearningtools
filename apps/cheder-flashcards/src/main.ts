@@ -64,6 +64,8 @@ function progressBar(done: number, total: number, text: string): HTMLDivElement 
   return el("div", { class: "progress" }, bar, el("div", { class: "progress-text" }, text));
 }
 
+const PRIVACY_URL = "https://torahlearningtools.com/privacy";
+
 // ---------- Course: weeks + tests ----------
 function showCourse(course: Course): void {
   const list = el("div", { class: "stack" });
@@ -103,6 +105,8 @@ function showCourse(course: Course): void {
   mount(
     el("h1", {}, `${course.title} ⭐`),
     list,
+    // For grown-ups (Google Play requires the privacy policy inside the app). Small and at the very bottom.
+    el("p", { class: "legal-footer" }, el("a", { href: PRIVACY_URL, target: "_blank", rel: "noreferrer" }, "Privacy policy")),
   );
   setSafeToUpdate(true);
   const target: HTMLElement | null = firstOpen;

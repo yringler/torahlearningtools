@@ -293,7 +293,7 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; justif
 .guest-sheet p { margin: 0; }
 
 /* sources & licenses */
-.auth-footer { margin: 4px auto 16px; }
+.auth-footer { margin: 4px auto 16px; color: var(--muted); }
 .auth-footer .link-btn, .credit-link { font-weight: 400; font-size: 0.9rem; color: var(--muted); }
 .pricing-note { font-size: 0.85rem; margin: 0; }
 .licenses section p { margin: 6px 0; line-height: 1.5; }
