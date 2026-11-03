@@ -6,6 +6,7 @@ import { ImportPrompt } from "./screens/ImportPrompt";
 import { MishnahScreen } from "./screens/MishnahScreen";
 import { Parent } from "./screens/Parent";
 import { Profiles } from "./screens/Profiles";
+import { GuestApp } from "./GuestApp";
 import { Session } from "./screens/Session";
 import { normalizeProfile } from "./legacy/import";
 import { loadLegacy, requestPersist } from "./storage";
@@ -15,8 +16,10 @@ import type { Profile } from "./types";
 type Screen =
   | { s: "profiles" }
   | { s: "parent" }
+  /** Guest: a fresh local-only learner, never part of the account; forgotten on leaving. */
+  | { s: "guest" }
   | { s: "home"; id: string }
-  | { s: "mishnah"; id: string; perek: number; mishnah: number }
+  | { s: "mishnah"; id: string; perek: number; mishnah: number; group?: number }
   | { s: "session"; id: string; tasks: Task[]; continueLearning: boolean; back: Screen };
 
 interface Props {
@@ -65,6 +68,9 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
       />
     );
   }
+  if (screen.s === "guest") {
+    return <GuestApp onExit={() => setScreen({ s: "profiles" })} />;
+  }
   if (screen.s === "profiles" || !profile) {
     const showImport = legacy.length > 0 && (importForced || (store.importDecision === "none" && !importSnoozed));
     return (
@@ -75,6 +81,7 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
           loading={store.cursor === 0 && status.state === "syncing" && profiles.length === 0}
           onAdd={(p) => setProfiles((list) => [...list, p])}
           onPick={(id) => setScreen({ s: "home", id })}
+          onGuest={() => setScreen({ s: "guest" })}
           onParent={() => setScreen({ s: "parent" })}
         />
         {showImport && (
@@ -118,6 +125,9 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
         onPractice={() => go({ type: "learn", perek, mishnah })}
         onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
         onReview={() => (isKnown(st) ? go({ type: "review-m", perek, mishnah }) : go({ type: "learn", perek, mishnah }))}
+        onPracticeRange={({ from, to, label, group }) =>
+          setScreen({ s: "session", id: profile.id, tasks: [{ type: "practice", perek, mishnah, from, to, label }], continueLearning: false, back: { ...screen, group } })}
+        {...(screen.group !== undefined ? { group: screen.group } : {})}
       />
     );
   }

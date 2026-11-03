@@ -6,8 +6,9 @@ import { Recite } from "../components/Recite";
 import { StepPath } from "../components/StepPath";
 import { getMishnah, hebNum, mishnayosOf, MASECHTA } from "../data";
 import {
-  completeStep, markDay, mp, nextLearning, parentCheckChain, parentCheckMishnah, reviewMishnah, reviewPerek, setStep, type Task,
+  completeStep, markDay, mp, nextLearning, pp, parentCheckChain, parentCheckMishnah, reviewMishnah, reviewPerek, setStep, type Task,
 } from "../progress";
+import { isDue } from "../srs";
 import { buildSteps } from "../steps";
 import type { Cue, Grade, Profile, Step } from "../types";
 
@@ -46,11 +47,17 @@ type View =
   | { v: "task" }
   | ({ v: "celebrate" } & Celebration)
   | { v: "break" }
+  /** A practice run of a known mishnah finished. */
+  | { v: "practiced" }
   | { v: "empty" };
 
 export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEvent }: Props) {
   const [queue, setQueue] = useState<Task[]>(tasks);
   const [view, setView] = useState<View>(tasks.length ? { v: "task" } : { v: "empty" });
+  /** Bumped by "Practice it again" to restart a practice run. */
+  const [round, setRound] = useState(0);
+  /** Where a practice run is, kept here so the break screen doesn't lose it. Null = its first step. */
+  const [practiceAt, setPracticeAt] = useState<number | null>(null);
   const started = useRef(Date.now());
   const stepsThisSession = useRef(0);
   const breakShown = useRef(false);
@@ -149,6 +156,27 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEven
         <button className="btn ghost-btn" onClick={() => setView(queue.length ? { v: "task" } : { v: "empty" })}>Keep going</button>
       </div>
     );
+  } else if (view.v === "practiced" && task?.type === "practice") {
+    const st = mp(profile, task.perek, task.mishnah);
+    const reviewDue = isDue(st.review) && !pp(profile, task.perek).complete;
+    const back = <button className={reviewDue ? "btn secondary" : "btn primary big"} onClick={onExit}>‹ Back to the mishnah</button>;
+    body = (
+      <div className="celebrate" dir="ltr">
+        <div className="big-emoji">👍</div>
+        <h2>Nice practice!</h2>
+        <p>{task.label} · <bdi>{ref(task.perek, task.mishnah)}</bdi></p>
+        {reviewDue ? (
+          // The real test is waiting today: offer it first.
+          <>
+            <button className="btn primary big" onClick={() => { setQueue([{ type: "review-m", perek: task.perek, mishnah: task.mishnah }]); setView({ v: "task" }); }}>
+              🔁 Review it now
+            </button>
+            {back}
+          </>
+        ) : back}
+        <button className="btn ghost-btn" onClick={() => { setPracticeAt(null); setRound((r) => r + 1); setView({ v: "task" }); }}>Practice it again</button>
+      </div>
+    );
   } else if (view.v === "empty" || !task) {
     body = (
       <div className="celebrate" dir="ltr">
@@ -173,6 +201,24 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, onEven
             ? save(p)
             : finishTask(p, { title: `You know ${ref(task.perek, task.mishnah)}!`, sub: "It goes on your perek map. We'll review it soon so it stays strong.", stars: 1, milestone: "mishnah" })
         }
+      />
+    );
+  } else if (task.type === "practice") {
+    body = (
+      <PracticeTask
+        key={`${task.perek}:${task.mishnah}:${task.from}-${task.to}:${round}`}
+        profile={profile}
+        perek={task.perek}
+        mishnah={task.mishnah}
+        from={task.from}
+        to={task.to}
+        label={task.label}
+        at={practiceAt}
+        onAt={setPracticeAt}
+        onProfile={save}
+        onStepPassed={onStepPassed}
+        onEvent={emit}
+        onDone={() => setView({ v: "practiced" })}
       />
     );
   } else if (task.type === "review-m") {
@@ -248,24 +294,17 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
   const m = getMishnah(perek, mishnah);
   const steps = useMemo(() => buildSteps(m.chunks), [m]);
   const stepIndex = mp(profile, perek, mishnah).stepIndex;
-  const [phase, setPhase] = useState<"read" | "recall">("read");
-  const [detour, setDetour] = useState<Step | null>(null);
-  const [attempt, setAttempt] = useState(0);
-
-  const step: Step | undefined = detour ?? steps[stepIndex];
-  const stepStart = useRef(Date.now());
-  useEffect(() => { stepStart.current = Date.now(); }, [stepIndex, phase, attempt, detour]);
+  /** Bumped on every jump, so tapping the current step starts it over. */
+  const [visit, setVisit] = useState(0);
 
   /** Free navigation: any step, back or forward (steps.length = the parent check). */
   const goTo = (i: number) => {
-    setDetour(null);
-    setPhase("read");
-    setAttempt((a) => a + 1);
+    setVisit((v) => v + 1);
     onProfile(setStep(profile, perek, mishnah, i));
   };
   const path = <StepPath steps={steps} chunks={m.chunks} current={stepIndex} onJump={goTo} />;
 
-  if (!step) {
+  if (stepIndex >= steps.length) {
     return (
       <div className="task">
         {path}
@@ -289,25 +328,114 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
     );
   }
 
-  const next = () => {
-    setPhase("read");
-    setAttempt((a) => a + 1);
-    if (detour) { setDetour(null); return; }
-    const { profile: p } = completeStep(profile, perek, mishnah);
-    onProfile(p);
-    onStepPassed();
+  return (
+    <StepRunner
+      key={`${stepIndex}:${visit}`}
+      profile={profile}
+      perek={perek}
+      mishnah={mishnah}
+      steps={steps}
+      index={stepIndex}
+      title={ref(perek, mishnah)}
+      path={path}
+      atStart={stepIndex === 0}
+      onBack={() => goTo(stepIndex - 1)}
+      onNext={() => goTo(stepIndex + 1)}
+      onPassed={() => {
+        onProfile(completeStep(profile, perek, mishnah).profile);
+        onStepPassed();
+      }}
+      onProfile={onProfile}
+      onEvent={onEvent}
+    />
+  );
+}
+
+/**
+ * Extra practice of steps from..to of a known mishnah. Same screens as learning, but the position lives
+ * here, not in the profile: practice never changes the mishnah's step, state or review, and has no parent check.
+ */
+function PracticeTask({ profile, perek, mishnah, from, to, label, at, onAt, onProfile, onStepPassed, onDone, onEvent }: {
+  profile: Profile; perek: number; mishnah: number; from: number; to: number; label: string;
+  at: number | null; onAt: (i: number) => void;
+  onProfile: (p: Profile) => void; onStepPassed: () => void; onDone: () => void; onEvent: Emit;
+}) {
+  const m = getMishnah(perek, mishnah);
+  const steps = useMemo(() => buildSteps(m.chunks), [m]);
+  const lo = Math.max(0, Math.min(from, steps.length - 1));
+  const hi = Math.max(lo, Math.min(to, steps.length - 1));
+  const index = at === null ? lo : Math.max(lo, Math.min(hi, at));
+  const [visit, setVisit] = useState(0);
+  const goTo = (i: number) => {
+    if (i > hi) { onDone(); return; }
+    onAt(Math.max(lo, i));
+    setVisit((v) => v + 1);
   };
+  const path = <StepPath steps={steps} chunks={m.chunks} current={index} finished caption={hi > lo ? `Step ${index - lo + 1} of ${hi - lo + 1}` : ""} />;
+  return (
+    <StepRunner
+      key={`${index}:${visit}`}
+      profile={profile}
+      perek={perek}
+      mishnah={mishnah}
+      steps={steps}
+      index={index}
+      title={`${ref(perek, mishnah)} · Practice`}
+      subtitle={label}
+      path={path}
+      atStart={index === lo}
+      onBack={() => goTo(index - 1)}
+      onNext={() => goTo(index + 1)}
+      onPassed={() => {
+        onProfile(profile); // marks the day; nothing else changes
+        onStepPassed();
+        goTo(index + 1);
+      }}
+      onProfile={onProfile}
+      onEvent={onEvent}
+      practice
+    />
+  );
+}
+
+/**
+ * One step of a mishnah: read then recall a new piece, or say a range together (with a detour on the
+ * hardest piece after "not yet"). Keyed by the caller per visit, so a new step starts fresh.
+ */
+function StepRunner({ profile, perek, mishnah, steps, index, title, subtitle, path, atStart, onBack, onNext, onPassed, onProfile, onEvent, practice = false }: {
+  profile: Profile; perek: number; mishnah: number; steps: Step[]; index: number;
+  title: string; subtitle?: string; path: React.ReactNode; atStart: boolean;
+  onBack: () => void; onNext: () => void; onPassed: () => void;
+  onProfile: (p: Profile) => void; onEvent: Emit; practice?: boolean;
+}) {
+  const m = getMishnah(perek, mishnah);
+  const [phase, setPhase] = useState<"read" | "recall">("read");
+  const [detour, setDetour] = useState<Step | null>(null);
+  const [attempt, setAttempt] = useState(0);
+
+  const step: Step | undefined = detour ?? steps[index];
+  const stepStart = useRef(Date.now());
+  useEffect(() => { stepStart.current = Date.now(); }, [phase, attempt, detour]);
+  if (!step) return null;
+
+  const restart = () => { setPhase("read"); setAttempt((a) => a + 1); };
+  const passed = () => {
+    if (detour) { setDetour(null); restart(); return; }
+    onPassed();
+  };
+  const taskOf = (kind: "learn" | "chain"): ReciteTask => (detour ? "detour" : practice ? "practice" : kind);
 
   const header = (
     <>
-      <h2 className="task-title">{ref(perek, mishnah)}</h2>
+      <h2 className="task-title">{title}</h2>
+      {subtitle && <p className="task-sub" dir="ltr">{subtitle}</p>}
       {path}
       {/* Right to left like the Hebrew: Back on the right, Next on the left (as in the word panel). */}
       <div className="step-nav">
-        <button className="btn ghost-btn small" dir="ltr" disabled={stepIndex === 0 && !detour} onClick={() => goTo(detour ? stepIndex : stepIndex - 1)}>Back ›</button>
+        <button className="btn ghost-btn small" dir="ltr" disabled={atStart && !detour} onClick={() => (detour ? (setDetour(null), restart()) : onBack())}>Back ›</button>
         {/* The part pill and "Piece k of n" counter above say which part; the label just names the task. */}
         <div className="step-label" dir="ltr">{detour ? "Extra practice" : step.label.replace(/^Part \d+ · /, "")}</div>
-        <button className="btn ghost-btn small" dir="ltr" onClick={() => goTo(stepIndex + 1)}>‹ Next</button>
+        <button className="btn ghost-btn small" dir="ltr" onClick={onNext}>‹ Next</button>
       </div>
     </>
   );
@@ -336,9 +464,9 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
             prompts={["Say it. The first letters will help.", "Now say it without looking!"]}
             newest={0}
             onDone={(g, peeks) => {
-              onEvent(recite("learn", perek, mishnah, stepIndex, g, peeks, stepStart.current));
-              if (g === "notyet") { setPhase("read"); setAttempt((a) => a + 1); return; }
-              next();
+              onEvent(recite(taskOf("learn"), perek, mishnah, index, g, peeks, stepStart.current));
+              if (g === "notyet") { restart(); return; }
+              passed();
             }}
           />
         )}
@@ -358,8 +486,8 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
         prompts={["Say it all from the beginning.", "Now all of it — without looking!"]}
         newest={newestIdx}
         onDone={(g, peeks) => {
-          onEvent(recite(detour ? "detour" : "chain", perek, mishnah, stepIndex, g, peeks, stepStart.current));
-          if (g !== "notyet") { next(); return; }
+          onEvent(recite(taskOf("chain"), perek, mishnah, index, g, peeks, stepStart.current));
+          if (g !== "notyet") { passed(); return; }
           // Detour: drill the hardest piece with the one before it, then come back.
           let worst = 0;
           peeks.forEach((v, i) => { if (v > (peeks[worst] ?? 0)) worst = i; });

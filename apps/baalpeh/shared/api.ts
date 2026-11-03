@@ -191,7 +191,7 @@ export type RecordKind = RecordRow["kind"];
 
 // ───────────────────────── Events (append-only practice log) ─────────────────────────
 
-export type ReciteTask = "learn" | "chain" | "detour" | "review-m" | "perek-chain" | "review-p";
+export type ReciteTask = "learn" | "chain" | "detour" | "practice" | "review-m" | "perek-chain" | "review-p";
 
 export interface ReciteEvent {
   type: "recite";
@@ -199,7 +199,7 @@ export interface ReciteEvent {
   perek: number;
   /** null for perek-level tasks. */
   mishnah: number | null;
-  /** Step index within the mishnah for learn/chain/detour; null otherwise. */
+  /** Step index within the mishnah for learn/chain/detour/practice; null otherwise. */
   step: number | null;
   grade: Grade;
   /** Total peeks during this recitation. */

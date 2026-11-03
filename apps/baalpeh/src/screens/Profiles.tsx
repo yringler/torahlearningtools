@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { SESSION_GUEST_EMOJI } from "../guest";
 import { newProfile } from "../storage";
 import type { SyncStatus } from "../sync/engine";
 import type { Profile } from "../types";
@@ -10,6 +11,8 @@ interface Props {
   loading: boolean;
   onAdd: (p: Profile) => void;
   onPick: (id: string) => void;
+  /** Learn as an untracked guest (nothing saved, not part of the account). */
+  onGuest: () => void;
   onParent: () => void;
 }
 
@@ -34,7 +37,7 @@ const DOT_LABEL: Record<SyncStatus["state"], string> = {
 };
 
 /** "Who's learning?" — the account's main screen. */
-export function Profiles({ profiles, status, loading, onAdd, onPick, onParent }: Props) {
+export function Profiles({ profiles, status, loading, onAdd, onPick, onGuest, onParent }: Props) {
   const [name, setName] = useState("");
   const add = () => {
     const n = name.trim();
@@ -56,6 +59,12 @@ export function Profiles({ profiles, status, loading, onAdd, onPick, onParent }:
                 <span className="name" style={{ color: p.color }}>{p.name}</span>
               </button>
             ))}
+            {/* Last, so children keep their places. Dashed and muted: not one of the children. */}
+            <button className="profile-tile guest" onClick={onGuest} aria-label="Guest (nothing is saved)">
+              <span className="emoji">{SESSION_GUEST_EMOJI}</span>
+              <span className="name">Guest</span>
+              <span className="sub">nothing saved</span>
+            </button>
           </div>
         </>
       ) : loading ? (
@@ -68,6 +77,8 @@ export function Profiles({ profiles, status, loading, onAdd, onPick, onParent }:
             <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Child's name" aria-label="Child's name" maxLength={40} />
             <button className="btn primary" type="submit" disabled={!name.trim()}>Add child</button>
           </form>
+          <div className="or-divider" aria-hidden="true"><span>or</span></div>
+          <button className="btn guest-first-run" onClick={onGuest}>{SESSION_GUEST_EMOJI} Learn as a guest <span className="sub">nothing saved</span></button>
         </div>
       )}
       <HoldButton onHold={onParent}>🔒 Parent (hold)</HoldButton>

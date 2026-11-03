@@ -52,6 +52,13 @@ button { font: inherit; color: inherit; }
   flex-direction: column; align-items: center; justify-content: center; gap: 8px; cursor: pointer; }
 .profile-tile .emoji { font-size: 3.4rem; }
 .profile-tile .name { font-weight: 800; font-size: 1.3rem; }
+/* Guest: dashed and muted, so it never reads as one of the children */
+.profile-tile.guest { border: 4px dashed var(--line); background: transparent; gap: 4px; }
+.profile-tile.guest .name { color: var(--muted); }
+.profile-tile .sub, .guest-first-run .sub { display: block; font-size: 0.8rem; font-weight: 600; color: var(--muted); }
+.or-divider { display: flex; align-items: center; gap: 10px; margin: 18px auto 12px; max-width: 320px; color: var(--muted); font-size: 0.9rem; }
+.or-divider::before, .or-divider::after { content: ""; flex: 1; border-top: 1px solid var(--line); }
+.btn.guest-first-run { border: 2px dashed var(--line); background: transparent; color: var(--ink); font-weight: 700; }
 
 /* home */
 .week { display: flex; gap: 8px; justify-content: center; margin-bottom: 8px; }
@@ -103,6 +110,17 @@ button.hit:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; 
 .cap.end .face { width: 30px; height: 30px; }
 .cap.end { width: 34px; }
 .chain-count { text-align: center; font-weight: 800; font-size: 0.95rem; color: var(--ink); margin: 0 0 4px; }
+/* Many parts (the join group of a long mishnah) wrap instead of running off a phone screen */
+.chain { flex-wrap: wrap; row-gap: 4px; }
+/* practice picker (known mishnah) */
+.practice-panel { margin: 18px 0 8px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.practice-panel > div { align-self: stretch; }
+.practice-head { display: flex; align-items: center; gap: 10px; align-self: stretch; margin: 0 0 4px; font-size: 1rem; color: var(--muted); }
+.practice-head::before, .practice-head::after { content: ""; flex: 1; border-top: 1px solid var(--line); }
+.practice-cue { font-family: var(--heb); font-size: 1.15rem; color: var(--muted); margin: 0; text-align: center; }
+.practice-go { width: 100%; max-width: 420px; }
+.task-sub { text-align: center; color: var(--muted); font-weight: 700; margin: -6px 0 4px; }
+.btn.big .sub { display: block; font-size: 0.95rem; font-weight: 600; opacity: 0.85; }
 @keyframes breathe { 50% { transform: scale(1.12); } }
 @keyframes snap { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 @keyframes pop { 50% { transform: scale(1.12); } }

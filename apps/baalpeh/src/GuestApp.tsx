@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { loadGuest, saveGuest } from "./guest";
+import { loadGuest, saveGuest, sessionGuest } from "./guest";
 import { kv } from "./kv";
 import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
 import { BreakSetting } from "./components/BreakSetting";
@@ -13,37 +13,44 @@ import type { Profile } from "./types";
 type Screen =
   | { s: "home" }
   | { s: "settings" }
-  | { s: "mishnah"; perek: number; mishnah: number }
+  | { s: "mishnah"; perek: number; mishnah: number; group?: number }
   | { s: "session"; tasks: Task[]; continueLearning: boolean; back: Screen };
 
-interface Props {
-  /** Leave guest mode for the sign-in screen. The guest's progress stays on this device. */
-  onSignIn: () => void;
-}
+/**
+ * Where guest mode was opened from, which decides what it keeps:
+ * - signed out (`onSignIn`): one guest learner saved in this browser (v1 format), offered for import after sign-in;
+ * - the signed-in picker (`onExit`): a fresh guest held in memory only; nothing is saved, and leaving forgets it.
+ */
+type Props =
+  | { /** Leave guest mode for the sign-in screen. The guest's progress stays on this device. */ onSignIn: () => void; onExit?: never }
+  | { /** Back to "Who's learning?". The guest's progress is dropped. */ onExit: () => void; onSignIn?: never };
 
 /**
- * The learning app with no account: one implicit "Guest" learner saved only in this browser.
+ * The learning app with no account: one implicit "Guest" learner.
  * It never imports the API client, the sync engine or Turnstile, so it makes no server requests.
  */
-export function GuestApp({ onSignIn }: Props) {
-  const [profile, setProfileState] = useState<Profile>(() => loadGuest(kv));
+export function GuestApp({ onSignIn, onExit }: Props) {
+  const saved = onSignIn !== undefined;
+  const [profile, setProfileState] = useState<Profile>(() => (saved ? loadGuest(kv) : sessionGuest()));
   const [screen, setScreen] = useState<Screen>({ s: "home" });
   const [info, setInfo] = useState(false);
 
-  useEffect(() => requestPersist(), []);
+  useEffect(() => { if (saved) requestPersist(); }, [saved]);
   useEffect(() => {
     document.documentElement.style.setProperty("--scale", String(profile.settings.fontScale));
   }, [profile.settings.fontScale]);
+  // Don't leave the guest's text size on the picker (or the sign-in screen) after leaving.
+  useEffect(() => () => document.documentElement.style.setProperty("--scale", "1"), []);
 
   const setProfile = (p: Profile) => {
     setProfileState(p);
-    saveGuest(kv, p);
+    if (saved) saveGuest(kv, p);
   };
 
-  const pill = <GuestPill onOpen={() => setInfo(true)} />;
+  const pill = <GuestPill saved={saved} onOpen={() => setInfo(true)} />;
   const sheet = info && (
     <GuestInfo
-      onSignIn={onSignIn}
+      {...(onSignIn ? { onSignIn } : { onExit })}
       onSettings={() => { setInfo(false); setScreen({ s: "settings" }); }}
       onClose={() => setInfo(false)}
     />
@@ -51,11 +58,12 @@ export function GuestApp({ onSignIn }: Props) {
 
   let body: React.ReactNode;
   if (screen.s === "settings") {
-    body = <GuestSettings profile={profile} onChange={setProfile} onBack={() => setScreen({ s: "home" })} onSignIn={onSignIn} />;
+    body = <GuestSettings profile={profile} onChange={setProfile} onBack={() => setScreen({ s: "home" })} {...(onSignIn ? { onSignIn } : {})} />;
   } else if (screen.s === "home") {
     body = (
       <Home
         profile={profile}
+        {...(onExit ? { onBack: onExit } : {})}
         onOpenMishnah={(perek, mishnah) => setScreen({ s: "mishnah", perek, mishnah })}
         onStart={() => {
           const next = nextLearning(profile);
@@ -77,6 +85,9 @@ export function GuestApp({ onSignIn }: Props) {
         onPractice={() => go({ type: "learn", perek, mishnah })}
         onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
         onReview={() => (isKnown(st) ? go({ type: "review-m", perek, mishnah }) : go({ type: "learn", perek, mishnah }))}
+        onPracticeRange={({ from, to, label, group }) =>
+          setScreen({ s: "session", tasks: [{ type: "practice", perek, mishnah, from, to, label }], continueLearning: false, back: { ...screen, group } })}
+        {...(screen.group !== undefined ? { group: screen.group } : {})}
       />
     );
   } else {
@@ -96,25 +107,36 @@ export function GuestApp({ onSignIn }: Props) {
   return <>{pill}{body}{sheet}</>;
 }
 
-function GuestPill({ onOpen }: { onOpen: () => void }) {
+function GuestPill({ saved, onOpen }: { saved: boolean; onOpen: () => void }) {
   return (
     <div className="guest-bar" dir="ltr">
       <button className="guest-pill" onClick={onOpen} aria-haspopup="dialog">
-        Guest · progress saved only in this browser
+        {saved ? "Guest · progress saved only in this browser" : "Guest · nothing is saved"}
       </button>
     </div>
   );
 }
 
-function GuestInfo({ onSignIn, onSettings, onClose }: { onSignIn: () => void; onSettings: () => void; onClose: () => void }) {
+function GuestInfo({ onSignIn, onExit, onSettings, onClose }: {
+  onSignIn?: () => void; onExit?: () => void; onSettings: () => void; onClose: () => void;
+}) {
   return (
     <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="guest-title" onClick={onClose}>
       <div className="sheet guest-sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
         <h3 id="guest-title">You're learning as a guest</h3>
-        <p>Your progress is saved only in this browser on this device. It isn't backed up, and it won't show up in other browsers or on other devices. Clearing this browser's data erases it.</p>
-        <p className="hint">If you sign in on this device later, you can add this progress to your account.</p>
-        <button className="btn primary" onClick={onSignIn}>Create an account / Sign in</button>
-        <PricingNote />
+        {onSignIn ? (
+          <>
+            <p>Your progress is saved only in this browser on this device. It isn't backed up, and it won't show up in other browsers or on other devices. Clearing this browser's data erases it.</p>
+            <p className="hint">If you sign in on this device later, you can add this progress to your account.</p>
+            <button className="btn primary" onClick={onSignIn}>Create an account / Sign in</button>
+            <PricingNote />
+          </>
+        ) : (
+          <>
+            <p>Nothing you learn as a guest is saved or added to your account. When you switch back, the guest is forgotten, and next time Guest starts fresh.</p>
+            {onExit && <button className="btn primary" onClick={onExit}>‹ Back to Who's learning?</button>}
+          </>
+        )}
         <div className="row center">
           <button className="btn ghost-btn small" onClick={onSettings}>⚙ Settings</button>
           <button className="btn ghost-btn small" onClick={onClose}>Keep learning</button>
@@ -126,7 +148,7 @@ function GuestInfo({ onSignIn, onSettings, onClose }: { onSignIn: () => void; on
 
 /** The parent area's per-child settings, for the one guest learner. Nothing about accounts. */
 function GuestSettings({ profile: p, onChange, onBack, onSignIn }: {
-  profile: Profile; onChange: (p: Profile) => void; onBack: () => void; onSignIn: () => void;
+  profile: Profile; onChange: (p: Profile) => void; onBack: () => void; onSignIn?: () => void;
 }) {
   const set = <K extends keyof Profile["settings"]>(k: K, v: Profile["settings"][K]) => onChange({ ...p, settings: { ...p.settings, [k]: v } });
   return (
@@ -149,10 +171,16 @@ function GuestSettings({ profile: p, onChange, onBack, onSignIn }: {
       </section>
       <section>
         <h3>Guest mode</h3>
-        <p className="hint">Progress is saved only in this browser on this device. Nothing is backed up or shared, and clearing this browser's data erases it.
-          After you sign in on this device, you can add it to your account.</p>
-        <button className="btn secondary" onClick={onSignIn}>Create an account / Sign in</button>
-        <PricingNote />
+        {onSignIn ? (
+          <>
+            <p className="hint">Progress is saved only in this browser on this device. Nothing is backed up or shared, and clearing this browser's data erases it.
+              After you sign in on this device, you can add it to your account.</p>
+            <button className="btn secondary" onClick={onSignIn}>Create an account / Sign in</button>
+            <PricingNote />
+          </>
+        ) : (
+          <p className="hint">Nothing is saved for a guest, and it isn't added to your account. These settings last until you switch back.</p>
+        )}
       </section>
       <section>
         <h3>Sources</h3>

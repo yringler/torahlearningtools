@@ -151,3 +151,32 @@ export function stepPosition(groups: PathGroup[], i: number): StepPosition | nul
   }
   return null;
 }
+
+/** First and last step index of a group (its steps are contiguous). Null for an empty group. */
+export function groupRange(g: PathGroup): [number, number] | null {
+  const first = g.steps[0];
+  const last = g.steps[g.steps.length - 1];
+  return first === undefined || last === undefined ? null : [first, last];
+}
+
+/** The group a step is drawn in (index into pathGroups()), or -1. */
+export const groupIndexOf = (groups: PathGroup[], step: number): number => groups.findIndex((g) => g.steps.includes(step));
+
+/**
+ * What a practice run covers, in words: "Part 2 · piece 3", "pieces 1–3 together", "the whole mishnah",
+ * or for a whole group "Part 2", "joining the parts", "all the steps".
+ */
+export function practiceLabel(groups: PathGroup[], sel: { step: number } | { group: number }): string {
+  if ("group" in sel) {
+    const g = groups[sel.group];
+    if (!g || groups.length === 1) return "all the steps";
+    return g.key === "join" ? "joining the parts" : `Part ${g.key + 1}`;
+  }
+  const pos = stepPosition(groups, sel.step);
+  if (!pos) return "all the steps";
+  const g = groups[pos.group];
+  const part = g && g.key !== "join" && groups.length > 1 ? `Part ${g.key + 1} · ` : "";
+  if (pos.kind === "join") return pos.piece === pos.of ? "the whole mishnah" : `parts 1–${pos.piece} together`;
+  if (pos.kind === "new") return `${part}piece ${pos.piece}`;
+  return pos.piece === 1 ? `${part}piece 1 by heart` : `${part}pieces 1–${pos.piece} together`;
+}

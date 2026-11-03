@@ -273,7 +273,7 @@ function eventBody(o: Obj, path: string): LearningEventBody {
     case "recite":
       return {
         type: "recite",
-        task: oneOf(o.task, `${path}.task`, ["learn", "chain", "detour", "review-m", "perek-chain", "review-p"]),
+        task: oneOf(o.task, `${path}.task`, ["learn", "chain", "detour", "practice", "review-m", "perek-chain", "review-p"]),
         perek: int(o.perek, `${path}.perek`, 0, 999),
         mishnah: intOrNull(o.mishnah, `${path}.mishnah`, 0, 999),
         step: intOrNull(o.step, `${path}.step`, 0, 999),
