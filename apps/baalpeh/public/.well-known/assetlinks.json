@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.torahlearningtools.byheart",
+    "sha256_cert_fingerprints": ["1A:5D:4A:55:2B:F3:4F:AF:5C:0B:0F:0C:F9:44:B9:68:1D:85:30:CB:1E:04:D3:3F:01:98:07:E3:38:54:3B:E9"]
+  }
+}]

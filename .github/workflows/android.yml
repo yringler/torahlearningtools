@@ -110,7 +110,7 @@ jobs:
         run: |
           case "$APP" in
             flashcards) echo "package=com.torahlearningtools.chederflashcards" >> "$GITHUB_OUTPUT" ;;
-            baalpeh)    echo "package=com.torahlearningtools.baalpeh" >> "$GITHUB_OUTPUT" ;;
+            baalpeh)    echo "package=com.torahlearningtools.byheart" >> "$GITHUB_OUTPUT" ;;
             *) echo "::error::Unknown app $APP"; exit 1 ;;
           esac
 
