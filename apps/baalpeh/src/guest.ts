@@ -67,6 +67,19 @@ export function blankGuest(): Profile {
   return { ...newProfile("Guest", 0), id: GUEST_ID };
 }
 
+/** Id of the signed-in picker's guest. Never stored: it lives only in memory while Guest is open. */
+export const SESSION_GUEST_ID = "guest-session";
+export const SESSION_GUEST_EMOJI = "👋";
+export const SESSION_GUEST_COLOR = "#8a7f70";
+
+/**
+ * A fresh learner for "Guest" on the signed-in picker: untracked, saved nowhere, gone when you switch back.
+ * Its own id and look, so it can't be mistaken for (or merged into) a child or the logged-out guest.
+ */
+export function sessionGuest(): Profile {
+  return { ...newProfile("Guest", 0), id: SESSION_GUEST_ID, emoji: SESSION_GUEST_EMOJI, color: SESSION_GUEST_COLOR };
+}
+
 /** The guest learner saved on this device, or a fresh one (not written until there is something to save). */
 export function loadGuest(kv: KV): Profile {
   const { state } = readState(kv);

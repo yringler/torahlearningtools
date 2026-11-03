@@ -3,7 +3,7 @@ import { dirname, resolve } from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   asksServer, blankGuest, bootRoute, GUEST_FLAG_KEY, GUEST_ID, isGuestChosen, loadGuest, saveGuest, setGuestChosen,
-  UNREADABLE_BACKUP_KEY,
+  SESSION_GUEST_ID, sessionGuest, UNREADABLE_BACKUP_KEY,
 } from "../src/guest";
 import { importDefaults, importLegacy, normalizeProfile } from "../src/legacy/import";
 import { completeStep } from "../src/progress";
@@ -119,6 +119,22 @@ describe("guest progress (v1 format)", () => {
     saveGuest(kv, completeStep(loadGuest(kv), 1, 1).profile);
     loadGuest(kv);
     expect(fetch).not.toHaveBeenCalled();
+  });
+});
+
+describe("signed-in guest (nothing saved)", () => {
+  it("is a fresh learner with its own id and look, unlike the saved guest and the first child", () => {
+    const g = sessionGuest();
+    expect(g).toMatchObject({ id: SESSION_GUEST_ID, name: "Guest", mishnayos: {}, perakim: {}, days: [] });
+    expect(g.id).not.toBe(GUEST_ID);
+    const firstChild = blankGuest();
+    expect([g.emoji, g.color]).not.toEqual([firstChild.emoji, firstChild.color]);
+  });
+
+  it("starts fresh every time, even after another one learned", () => {
+    const a = completeStep(sessionGuest(), 1, 1).profile;
+    expect(Object.keys(a.mishnayos)).not.toHaveLength(0);
+    expect(sessionGuest().mishnayos).toEqual({});
   });
 });
 

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { MASECHTA } from "../src/data";
-import { buildSteps, pathGroups, segments, stepPosition, type PathNode } from "../src/steps";
+import { buildSteps, groupIndexOf, groupRange, pathGroups, practiceLabel, segments, stepPosition, type PathNode } from "../src/steps";
 import type { Chunk } from "../src/types";
 
 /** n chunks with no sentence ends, so segments split evenly (15 → 5 + 5 + 5). */
@@ -69,5 +69,52 @@ describe("stepPosition", () => {
     expect(stepPosition(groups, j)).toEqual({ group: 1, piece: 3, of: 5, kind: "together" });
     expect(stepPosition(groups, steps.length - 1)).toEqual({ group: 3, piece: 3, of: 3, kind: "join" });
     expect(stepPosition(groups, steps.length)).toBeNull();
+  });
+});
+
+describe("practice picker helpers", () => {
+  it("every group of every mishnah is a contiguous step range, and the ranges cover each step once", () => {
+    for (const m of MASECHTA.mishnayos) {
+      const steps = buildSteps(m.chunks);
+      const groups = pathGroups(steps, m.chunks);
+      const seen = new Set<number>();
+      for (const g of groups) {
+        const r = groupRange(g);
+        expect(r).not.toBeNull();
+        const [a, b] = r!;
+        expect(g.steps).toEqual(Array.from({ length: b - a + 1 }, (_, i) => a + i));
+        g.steps.forEach((i) => { expect(seen.has(i)).toBe(false); seen.add(i); });
+        g.steps.forEach((i) => expect(groupIndexOf(groups, i)).toBe(groups.indexOf(g)));
+      }
+      expect(seen.size).toBe(steps.length);
+    }
+  });
+
+  it("names a single-part selection without a part prefix", () => {
+    const c = chunks(4);
+    const groups = pathGroups(buildSteps(c), c);
+    expect(practiceLabel(groups, { group: 0 })).toBe("all the steps");
+    expect(practiceLabel(groups, { step: 0 })).toBe("piece 1");
+    expect(practiceLabel(groups, { step: 2 })).toBe("pieces 1–2 together");
+  });
+
+  it("names parts, pieces and joins of a multi-part mishnah", () => {
+    const c = chunks(15);
+    const steps = buildSteps(c);
+    const groups = pathGroups(steps, c);
+    expect(practiceLabel(groups, { group: 1 })).toBe("Part 2");
+    expect(practiceLabel(groups, { group: 3 })).toBe("joining the parts");
+    const p2 = groups[1]!.steps;
+    expect(practiceLabel(groups, { step: p2[0]! })).toBe("Part 2 · piece 1");
+    expect(practiceLabel(groups, { step: p2[p2.length - 1]! })).toBe("Part 2 · pieces 1–5 together");
+    const joins = groups[3]!.steps;
+    expect(practiceLabel(groups, { step: joins[0]! })).toBe("parts 1–2 together");
+    expect(practiceLabel(groups, { step: joins[joins.length - 1]! })).toBe("the whole mishnah");
+  });
+
+  it("names a one-piece part's chain step", () => {
+    const c = chunks(1);
+    const groups = pathGroups(buildSteps(c), c);
+    expect(practiceLabel(groups, { step: 1 })).toBe("piece 1 by heart");
   });
 });

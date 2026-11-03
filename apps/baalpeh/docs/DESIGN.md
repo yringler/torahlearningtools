@@ -86,6 +86,7 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
   - Fail drops it to box 1 and schedules a short relearn at L2 → L4.
 - Once a **perek is complete**, schedule the *perek* as one item on the same intervals and suspend its mishnayos' separate reviews. A failed perek review sends only the slipped mishnayos (identified by peeks or parent marks) back to box 1.
 - Daily order: due reviews first (oldest first, capped), then new learning. Interleave one older perek when one is due.
+- **Practice a piece** (known mishnayos): the mishnah screen keeps **Review it** as the main button and adds a picker below it. It is the step path drawn all done, where tapping a part shows it and tapping a stone or link selects that step. One button runs the selection (or the whole part shown) with the same screens as learning. Practice is *not* a review: it never changes the step, state or Leitner box, has no parent check, and can't cost a star. It marks the day and logs `recite` events with task `practice` ("Practiced 2:1 again" in the parent's history).
 
 ## 9. Typography and accessibility
 
@@ -98,6 +99,7 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 
 - Each profile has its own progress, settings and SRS state, stored as `localStorage["baalpeh:v1:profile:<id>"]` plus a profile index. Profiles have no passwords. Each child can learn a different perek.
 - The parent area shows each child's status: what's due and the last few sessions.
+- **Guest** (signed in): the last tile on "Who's learning?" (dashed, 👋, "nothing saved"). It opens a fresh learner held only in memory: nothing is saved on the device or sent to the account, and switching back forgets it, so the next Guest starts fresh. This is separate from the signed-out guest, which keeps one learner in this browser for import after sign-in.
 
 ## 11. Data and robustness
 

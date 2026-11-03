@@ -7,6 +7,8 @@ import type { Grade, MishnahProgress, PerekProgress, Profile } from "./types";
 export type Task =
   | { type: "learn"; perek: number; mishnah: number }
   | { type: "review-m"; perek: number; mishnah: number }
+  /** Extra practice of steps from..to of a known mishnah. Changes no progress (only marks the day). */
+  | { type: "practice"; perek: number; mishnah: number; from: number; to: number; label: string }
   | { type: "perek-chain"; perek: number; through: number }
   | { type: "review-p"; perek: number };
 

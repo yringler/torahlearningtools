@@ -25,6 +25,7 @@ export function describeEvent(e: LearningEvent): string {
       const what = e.task === "learn" ? `Learned a piece of ${where(e.perek, e.mishnah)}`
         : e.task === "chain" ? `Said pieces of ${where(e.perek, e.mishnah)} together`
         : e.task === "detour" ? `Extra practice on ${where(e.perek, e.mishnah)}`
+        : e.task === "practice" ? `Practiced ${where(e.perek, e.mishnah)} again`
         : e.task === "review-m" ? `Reviewed ${where(e.perek, e.mishnah)}`
         : e.task === "perek-chain" ? `Said Perek ${e.perek} in a row`
         : `Reviewed Perek ${e.perek}`;
