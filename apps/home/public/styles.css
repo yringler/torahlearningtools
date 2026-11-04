@@ -206,6 +206,18 @@ main { flex: 1; padding-bottom: 2.5rem; }
   border-radius: 999px;
   background: var(--accent-soft);
 }
+/* A card can have a note under it. In two columns each item spans two rows of a subgrid, so the
+   cards in a row stay the same height and the note sits in its own row below its card. */
+@media (min-width: 44rem) {
+  .cards > li { display: grid; grid-row: span 2; grid-template-rows: subgrid; row-gap: 0; }
+}
+.card-note {
+  margin: 0.6rem 0.5rem 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.card-note a { color: var(--cheder); font-weight: 700; }
+
 .card-cta .arrow { transition: transform 160ms ease; }
 .card:hover .card-cta .arrow { transform: translateX(4px); }
 
