@@ -2,7 +2,7 @@ import { useState } from "react";
 import type { LearningEventBody, User } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
 import { BreakSetting } from "../components/BreakSetting";
-import { AboutNote, LicensesLink, PricingNote } from "../components/Licenses";
+import { AboutNote, AndroidAppSection, LicensesLink, PricingNote } from "../components/Licenses";
 import { MASECHTA, mishnayosOf, PERAKIM } from "../data";
 import { copyAsNew, normalizeProfile } from "../legacy/import";
 import { dueReviews, isKnown, mp, pp, resetMishnah } from "../progress";
@@ -115,6 +115,8 @@ export function Parent(props: Props) {
       </section>
 
       <AccountSection {...props} />
+
+      <AndroidAppSection />
 
       <section>
         <h3>Backup</h3>

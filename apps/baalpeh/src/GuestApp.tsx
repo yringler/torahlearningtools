@@ -3,7 +3,7 @@ import { loadGuest, saveGuest, sessionGuest } from "./guest";
 import { kv } from "./kv";
 import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
 import { BreakSetting } from "./components/BreakSetting";
-import { AboutNote, LicensesLink, PricingNote } from "./components/Licenses";
+import { AboutNote, AndroidAppSection, LicensesLink, PricingNote } from "./components/Licenses";
 import { Home } from "./screens/Home";
 import { MishnahScreen } from "./screens/MishnahScreen";
 import { Session } from "./screens/Session";
@@ -182,6 +182,7 @@ function GuestSettings({ profile: p, onChange, onBack, onSignIn }: {
           <p className="hint">Nothing is saved for a guest, and it isn't added to your account. These settings last until you switch back.</p>
         )}
       </section>
+      <AndroidAppSection />
       <section>
         <h3>Sources</h3>
         <p className="hint">Hebrew text: Torat Emet via Sefaria. Meanings are based on Steinsaltz (Koren Noé / William Davidson Edition) and Bartenura (tr. R. Shraga Silverstein).</p>

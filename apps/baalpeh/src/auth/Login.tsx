@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { ConfigResponse } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
-import { LicensesLink, PricingNote, PrivacyLink } from "../components/Licenses";
+import { AndroidAppNote, LicensesLink, PricingNote, PrivacyLink } from "../components/Licenses";
 import { Turnstile, type TurnstileHandle } from "./Turnstile";
 
 export const plausibleEmail = (s: string): boolean => {
@@ -97,6 +97,7 @@ export function Login({ initialEmail, reason, onSent, onGuest }: Props) {
       </form>
       <PricingNote />
       {onGuest && <GuestOption onGuest={onGuest} />}
+      <AndroidAppNote />
     </AuthFrame>
   );
 }
