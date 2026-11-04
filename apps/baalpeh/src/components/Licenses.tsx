@@ -1,3 +1,4 @@
+import { inAndroidApp, PLAY_STORE_URL } from "../androidApp";
 import { HEBREW_SOURCE, type License, LICENSES_PATH, SOURCES } from "../sources";
 
 const LicenseLink = ({ license }: { license: License }) => (
@@ -22,6 +23,32 @@ export function AboutNote() {
     <section>
       <p className="hint">By Yehuda Ringler. Please send any feedback to <a href="mailto:admin@torahlearningtools.com">admin@torahlearningtools.com</a>.</p>
       <p className="hint"><PrivacyLink /></p>
+    </section>
+  );
+}
+
+/**
+ * A short pointer to the Android app, for parents. Hidden inside the app itself.
+ * The conveniences named here are the wrapper's reasons to exist (see docs/android-play-setup.md).
+ */
+export function AndroidAppNote() {
+  if (inAndroidApp()) return null;
+  return (
+    <p className="hint android-note">
+      On Android? <a href={PLAY_STORE_URL} target="_blank" rel="noreferrer">Get the app on Google Play</a>.
+      It opens full screen, and Family Link treats it as its own app, so you can set its own time limit
+      (Chrome's limit doesn't apply to it).
+    </p>
+  );
+}
+
+/** The Android note as a settings-screen section; renders nothing inside the Android app. */
+export function AndroidAppSection() {
+  if (inAndroidApp()) return null;
+  return (
+    <section>
+      <h3>Android app</h3>
+      <AndroidAppNote />
     </section>
   );
 }
