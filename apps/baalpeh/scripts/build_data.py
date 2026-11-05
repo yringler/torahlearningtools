@@ -6,8 +6,10 @@ Writes:
   src/data/index.json              the small catalog bundled into the app: each masechta's names, perek sizes and file.
 
 Mishnayos without a gloss file fall back to the mechanical chunks with empty meanings.
+data/hide.json drops Steinsaltz text from listed mishnayos and rewords listed lines/word glosses (child-suitability);
+the gloss files keep the originals. A rule that no longer matches the gloss stops the build.
 """
-import hashlib, json, pathlib
+import hashlib, json, pathlib, re
 
 root = pathlib.Path(__file__).resolve().parent.parent
 MASECHTOS = [
@@ -16,6 +18,42 @@ MASECHTOS = [
 ]
 out_dir = root / "public/data/m"
 index_path = root / "src/data/index.json"
+hide = json.loads((root / "data/hide.json").read_text())
+hide_st = {k for k in hide["hideSteinsaltz"] if not k.startswith("_")}
+
+
+def letters(he):
+    """Hebrew letters only: nikud order differs between sources, so word rules match on the letters."""
+    return re.sub(r"[^\u05d0-\u05ea]", "", he)
+
+
+def apply_hide(gloss):
+    """Apply data/hide.json to the gloss in place. Fails loudly if a rule names something that isn't there."""
+    for ref in hide_st:
+        p, n = map(int, ref.split(":"))
+        m = gloss.get((p, n))
+        if not m:
+            raise SystemExit(f"hide.json: hideSteinsaltz {ref} has no gloss")
+        m.pop("stIntro", None)
+        for c in m["chunks"]:
+            c.pop("st", None)
+            c.pop("stMore", None)
+    for r in hide["override"]:
+        p, n = map(int, r["ref"].split(":"))
+        m = gloss.get((p, n))
+        chunks = m["chunks"] if m else []
+        if not 1 <= r["piece"] <= len(chunks):
+            raise SystemExit(f"hide.json: {r['ref']} piece {r['piece']} not found")
+        target = chunks[r["piece"] - 1]
+        if "word" in r:
+            hits = [w for w in target["words"] if letters(w["he"]) == letters(r["word"])]
+            if len(hits) != 1:
+                raise SystemExit(f"hide.json: {r['ref']} piece {r['piece']} word {r['word']!r} matched {len(hits)} words")
+            target = hits[0]
+        for k, v in r["set"].items():
+            if k not in target:
+                raise SystemExit(f"hide.json: {r['ref']} piece {r['piece']} has no {k!r} to override")
+            target[k] = v
 
 
 def build(he_name, en_name, chunks_path, gloss_dir):
@@ -24,6 +62,7 @@ def build(he_name, en_name, chunks_path, gloss_dir):
     for f in gloss_dir.glob("perek_*.json"):
         for m in json.loads(f.read_text()):
             gloss[(m["perek"], m["mishnah"])] = m
+    apply_hide(gloss)
     out = []
     for r in src:
         g = gloss.get((r["perek"], r["mishnah"]))

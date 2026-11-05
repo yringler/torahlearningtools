@@ -37,3 +37,22 @@ describe("hebNum", () => {
     expect([1, 9, 10, 11, 15, 16, 20, 30].map(hebNum)).toEqual(["א׳", "ט׳", "י׳", "יא׳", "טו׳", "טז׳", "כ׳", "ל׳"]);
   });
 });
+
+describe("hidden content (data/hide.json)", () => {
+  // Words that should never reach a child's screen; see README "Hidden content".
+  const BLOCKED = /semen|seminal|consummat|conjugal|intercourse|menstrua|feces/i;
+
+  it("keeps explicit wording out of the built masechta files", () => {
+    for (const e of CATALOG) {
+      const data = JSON.parse(readFileSync(publicDir + e.file, "utf8")) as {
+        mishnayos: { perek: number; mishnah: number; summary: string; stIntro?: string; chunks: Record<string, unknown>[] }[];
+      };
+      const hits: string[] = [];
+      for (const m of data.mishnayos) {
+        const texts = [m.summary, m.stIntro ?? "", ...m.chunks.map((c) => JSON.stringify(c))];
+        if (texts.some((t) => BLOCKED.test(t))) hits.push(`${e.id} ${m.perek}:${m.mishnah}`);
+      }
+      expect(hits).toEqual([]);
+    }
+  });
+});

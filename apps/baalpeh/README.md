@@ -70,7 +70,7 @@ scripts/chunk.py             → data/chunks.json           (mechanical phrase c
                              → data/gloss/perek_N.json    (refined chunks + kid-level meaning per piece and per word)
 scripts/validate_gloss.py    checks that the Hebrew matches the source byte for byte, that the Steinsaltz excerpts rebuild
                              Steinsaltz exactly (text and bold), and that every word has a gloss and every piece names its sources
-scripts/build_data.py        → public/data/m/<id>.<hash>.json   (one file per masechta, fetched when opened)
+scripts/build_data.py        → public/data/m/<id>.<hash>.json   (one file per masechta, fetched when opened; applies data/hide.json)
                              → src/data/index.json              (small catalog bundled into the app)
 ```
 
@@ -107,6 +107,20 @@ Not used: Open Mishnah (a community translation), Mishnah Yomit (Kulp), and De S
 only perek 1 of Brachos).
 
 The simple lines are AI-written paraphrases of Steinsaltz. If one reads oddly, it's an easy fix in `data/gloss/`.
+
+### Hidden content
+
+Some mishnayos deal with topics that aren't suitable for young children (in Brachos: 2:5, the wedding night, and 3:4–3:6,
+ba'al keri, niddah and similar). The simple lines already keep these vague. `data/hide.json` covers the rest at build time:
+
+- `hideSteinsaltz` lists mishnayos whose Steinsaltz text is left out. Those pieces show only the simple meaning, and the
+  Steinsaltz toggle and "full Steinsaltz" button don't appear.
+- `override` rewords single simple lines or word glosses (`ref`, `piece` (1-based), optional `word` (matched on letters,
+  ignoring nikud), and the fields to `set`).
+
+The gloss files keep the original text, so `validate_gloss.py` still checks it against the source, and removing a rule
+brings it back. A rule that no longer matches the gloss stops the build. `tests/data.test.ts` fails if certain
+explicit words appear in the built data.
 
 To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline, generate gloss files, and add a line
 to `MASECHTOS` in `build_data.py`. Note that progress keys (`"perek:mishnah"`, locally and in D1) don't name a masechta
