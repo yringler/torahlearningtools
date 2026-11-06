@@ -207,8 +207,11 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
       }
       setFlags((n) => n + 1);
     };
-    const intro = celebrate === null && f !== null && needsVerifIntro(profile, v) && !introSeen(kv, childId);
+    // The one-time banner: gone once the frontier's test email is out, and marked seen as soon as the child starts
+    // from Home any other way (the big button, a test row), so it never lingers.
+    const intro = celebrate === null && f !== null && !sent(f) && needsVerifIntro(profile, v) && !introSeen(kv, childId);
     const closeIntro = () => { markIntroSeen(kv, childId); setFlags((n) => n + 1); };
+    const seenIntro = () => { if (intro) closeIntro(); };
     return (
       <>
         <Home
@@ -216,15 +219,16 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
           onBack={() => setScreen({ s: "profiles" })}
           onOpenMishnah={(perek, mishnah) => (isLocked(v, perek) ? setLockedSheet(perek) : setScreen({ s: "mishnah", id: childId, perek, mishnah }))}
           onOpenPerek={(perek) => (isLocked(v, perek) ? setLockedSheet(perek) : setScreen({ s: "perek", id: childId, perek }))}
-          onStart={() => startSession(startTasks(), home)}
+          onStart={() => { seenIntro(); startSession(startTasks(), home); }}
           gate={{
             verified: v,
             sent,
             onLocked: setLockedSheet,
-            onOpenTest: openTest,
+            onOpenTest: (perek) => { seenIntro(); openTest(perek); },
             ...(intro && f !== null ? {
               intro: {
                 frontier: f,
+                testReady: perekPhase(profile, v, f) === "test",
                 onGo: () => { closeIntro(); goFrontier(); },
                 onClose: closeIntro,
               },

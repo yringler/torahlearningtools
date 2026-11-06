@@ -277,7 +277,7 @@ function ChildCard({ p, onChange, onDelete, onReset, online, tests }: {
           <button className="btn ghost-btn small" onClick={() => toggle("settings")}>{open === "settings" ? "Close" : "Settings"}</button>
         </span>
       </div>
-      {open === "history" && <ChildHistory profile={p} online={online} />}
+      {open === "history" && <ChildHistory profile={p} verified={tests.verified} online={online} />}
       {open === "tests" && (
         <div className="perek-tests">
           <ul>

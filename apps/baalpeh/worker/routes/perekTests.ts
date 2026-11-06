@@ -50,6 +50,29 @@ function parseMeta(data: string): Pick<ChildMeta, "name" | "emoji" | "color"> {
   }
 }
 
+/**
+ * Seconds until the account is under both caps again (sliding windows over counting sends): when the oldest send
+ * that keeps a window full leaves it.
+ */
+async function capRetryAfterSec(db: D1Database, userId: string, t: number): Promise<number> {
+  let wait = 1;
+  for (const [max, windowMs] of [
+    [PEREK_TEST.MAX_PER_HOUR, 3_600_000],
+    [PEREK_TEST.MAX_PER_DAY, 86_400_000],
+  ] as const) {
+    const rows = await db
+      .prepare(
+        `SELECT created_at FROM perek_tests
+         WHERE user_id = ?1 AND created_at > ?2 AND (outcome IS NULL OR outcome != 'failed')
+         ORDER BY created_at DESC LIMIT 1 OFFSET ?3`,
+      )
+      .bind(userId, t - windowMs, max - 1)
+      .first<{ created_at: number }>();
+    if (rows) wait = Math.max(wait, Math.ceil((rows.created_at + windowMs - t) / 1000));
+  }
+  return wait;
+}
+
 // ───────────── POST /api/perek-tests ─────────────
 
 perekTestRoutes.post("/", requireUser, async (c) => {
@@ -91,11 +114,9 @@ perekTestRoutes.post("/", requireUser, async (c) => {
     if (!verified.has(k)) return apiError(c, 400, "bad_request", "not_frontier");
   }
 
-  // 4. Account caps.
-  await limit(c, "ptest-user-h", U, PEREK_TEST.MAX_PER_HOUR, 3600, t);
-  await limit(c, "ptest-user-d", U, PEREK_TEST.MAX_PER_DAY, 86400, t);
-
-  // 5. Per-child cooldown, exact and race-safe: the insert happens only if no counting send is within the window.
+  // 4 + 5. Per-child cooldown and account caps, exact and race-safe: the insert happens only if no counting send for
+  // this child is within the cooldown and the account is under its hourly and daily caps. Both are counted from
+  // perek_tests itself, so a refused request (cooldown or cap) and a failed send use up nothing.
   const id = crypto.randomUUID();
   const token = randomToken();
   const inserted = await db
@@ -105,17 +126,27 @@ perekTestRoutes.post("/", requireUser, async (c) => {
        WHERE NOT EXISTS (
          SELECT 1 FROM perek_tests
          WHERE child_id = ?3 AND created_at > ?7 - ?9 AND (outcome IS NULL OR outcome != 'failed'))
+       AND (SELECT count(*) FROM perek_tests
+            WHERE user_id = ?2 AND created_at > ?7 - 3600000 AND (outcome IS NULL OR outcome != 'failed')) < ?10
+       AND (SELECT count(*) FROM perek_tests
+            WHERE user_id = ?2 AND created_at > ?7 - 86400000 AND (outcome IS NULL OR outcome != 'failed')) < ?11
        RETURNING id`,
     )
-    .bind(id, U, childId, masechta, perek, await sha256Hex(token), t, t + TTL_MS, COOLDOWN_MS)
+    .bind(id, U, childId, masechta, perek, await sha256Hex(token), t, t + TTL_MS, COOLDOWN_MS, PEREK_TEST.MAX_PER_HOUR, PEREK_TEST.MAX_PER_DAY)
     .first<{ id: string }>();
   if (!inserted) {
     const last = await db
       .prepare("SELECT max(created_at) AS last FROM perek_tests WHERE child_id = ?1 AND (outcome IS NULL OR outcome != 'failed')")
       .bind(childId)
       .first<{ last: number | null }>();
-    const retryAfterSec = Math.max(1, Math.ceil(((last?.last ?? t) + COOLDOWN_MS - t) / 1000));
-    return apiError(c, 429, "rate_limited", "A test email was sent a few minutes ago.", { retryAfterSec });
+    if (last?.last != null && last.last > t - COOLDOWN_MS) {
+      const retryAfterSec = Math.max(1, Math.ceil((last.last + COOLDOWN_MS - t) / 1000));
+      return apiError(c, 429, "rate_limited", "A test email was sent a few minutes ago.", { retryAfterSec, reason: "cooldown" });
+    }
+    return apiError(c, 429, "rate_limited", "Too many test emails. Try again later.", {
+      retryAfterSec: await capRetryAfterSec(db, U, t),
+      reason: "cap",
+    });
   }
 
   // 6 + 7. Build and send. A failed send doesn't use up the cooldown.

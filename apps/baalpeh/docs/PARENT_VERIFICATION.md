@@ -240,7 +240,7 @@ Auth: `requireUser`. Validation: `validatePerekTestRequest` in `worker/lib/valid
 1. **The child.** Run `SELECT data FROM children WHERE id = ?1 AND user_id = ?2 AND deleted = 0`. If there is no row, return `404 not_found`. A brand-new child that hasn't synced yet is covered too, because the client syncs first.
 2. **Already verified?** Run `SELECT verified, verified_at, updated_at FROM perek_verifications WHERE child_id=? AND masechta=? AND perek=?`. If `verified = 1`, return `200 { ok, alreadyVerified: true, verification, sentTo: "", nextAllowedAt: t, serverTime: t }` and send nothing.
 3. **Frontier (server data only).** Run `SELECT perek FROM perek_verifications WHERE child_id=? AND masechta=? AND verified=1`. If any perek `1..perek-1` is missing from the result, return `400 bad_request` with the message `not_frontier`. This keeps the emails in order and costs nothing: it reads server truth, not client-authored progress.
-4. **Account caps.** `await limit(c, "ptest-user-h", U, 12, 3600, t)` and `await limit(c, "ptest-user-d", U, 40, 86400, t)`.
+4. **Account caps.** Counted from `perek_tests` itself in the step 5 statement (see 17.2 item 14), not with `limit()`, so a refused request or a failed send uses up nothing.
 5. **Per-child cooldown, exact and race-safe**, in one statement:
    ```sql
    INSERT INTO perek_tests (id, user_id, child_id, masechta, perek, token_hash, created_at, expires_at)
@@ -938,8 +938,9 @@ Decisions and deviations:
    (button disabled), failed, signed out, already verified, and "It's official!". The in-app `ParentCheck` and
    `checkPerek` are gone from the signed-in `perek-finish` path (a test asserts that `checkPerek` appears once in
    `Session.tsx`, in the guest-only branch).
-3. **A 429 longer than the 10-minute cooldown** (the account's hourly or daily cap) is not shown as "already sent": the
-   ready screen says "Lots of test emails were sent today. You can send yours in {m} min."
+3. **An account-cap 429** (the 429 carries `reason: "cap"`; only `reason: "cooldown"` means a test is already on its
+   way) is not shown as "already sent" and is not remembered as a request: the ready screen says "Lots of test emails
+   were sent today. You can send yours in {m} min."
 4. **Guest mode's end of a perek:** "⭐ Finish the perek" marks it complete on the device (`checkPerek`), with the note
    "In your own profile, Abba or Ima test you before the next perek opens." No in-app parent check there either.
 5. **`completeVerified`.** When a verification arrives for a perek whose build-up is only "ready", `LearningApp` marks it
@@ -964,8 +965,20 @@ Decisions and deviations:
     yet). There is no "Send test email" button and no mark or unmark (owner's rule; the later parent-only login uses
     `worker/lib/verification.ts`).
 11. **Online** means `navigator.onLine` and the last sync did not fail for lack of a network.
-12. **Landing page.** A `/perek-test` with no token (for example after a reload, since the fragment is stripped) says
-    "Open the test link from the email again." Its states come from the pure `landingReducer`; only the tap on
+12. **Landing page.** The token is stripped from the address bar but kept in the tab's `sessionStorage`, so a reload
+    (which the email suggests) still shows the test. A `/perek-test` with no token at all has the neutral heading
+    "Open the test link from the email again." (not "isn't valid anymore"). "Not yet" shows its note inside the sticky
+    bottom bar, where the parent tapped. Its states come from the pure `landingReducer`; only the tap on
     "knows it" calls confirm.
 13. **Session reviews** are capped at 6, oldest due first (`sessionReviews`), when a session starts from Home, the
     banner, the locked sheet or the Home celebration.
+14. **Caps counted from `perek_tests`.** The cooldown `INSERT … WHERE NOT EXISTS (…)` also requires fewer than 12
+    counting sends (`outcome` not `'failed'`) by the account in the last hour and fewer than 40 in the last day. So
+    cooldown refusals, cap refusals and failed sends never use up the caps (one child or a stale second tablet can't
+    exhaust a sibling's quota), the check is race-safe, and the windows slide. When nothing is inserted, the 429 says
+    `reason: "cooldown"` (this child sent within 10 minutes; exact countdown) or `reason: "cap"` (countdown until the
+    oldest send that keeps a window full leaves it).
+15. **Small UI rules.** Locked sheet and intro banner say "Get ready for my test" only when the frontier is in its test
+    phase (otherwise "Go to פרק F ›"); the intro banner is marked seen when the child starts from Home or a test row,
+    and is hidden once the frontier's test email is out. The send sheet opened from the waiting screen returns there on
+    cancel (polling keeps running). The parent's History "Due now" uses `gatedDueReviews`, like the card.

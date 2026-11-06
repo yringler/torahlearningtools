@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import type { ChildStatsResponse, LearningEvent } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
-import { dueReviews } from "../progress";
+import { gatedDueReviews, type Verified } from "../progress";
 import { addDays, today } from "../srs";
 import type { Profile } from "../types";
 
 interface Props {
   profile: Profile;
+  /** Gates "Due now" like the card's count: reviews of locked perakim are paused (§8). */
+  verified: Verified;
   online: boolean;
 }
 
@@ -51,12 +53,12 @@ export function describeEvent(e: LearningEvent): string {
 const when = (at: number) => new Date(at).toLocaleString([], { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
 
 /** Parent-only view of one child's practice, from the server's event log. */
-export function ChildHistory({ profile, online }: Props) {
+export function ChildHistory({ profile, verified, online }: Props) {
   const [stats, setStats] = useState<Load<ChildStatsResponse>>({ s: "loading" });
   const [events, setEvents] = useState<LearningEvent[]>([]);
   const [nextBefore, setNextBefore] = useState<number | null>(null);
   const [moreBusy, setMoreBusy] = useState(false);
-  const due = dueReviews(profile);
+  const due = gatedDueReviews(profile, verified);
 
   useEffect(() => {
     if (!online) return;

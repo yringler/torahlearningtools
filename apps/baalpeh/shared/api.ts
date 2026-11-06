@@ -35,6 +35,9 @@ export interface ApiError {
   retryAfterSec?: number;
   /** Present on invalid_code while the request is still live. */
   attemptsLeft?: number;
+  /** POST /api/perek-tests 429 only: which limit refused it. "cooldown": this child's test was sent minutes ago;
+   *  "cap": the account sent too many test emails (no email exists for this request). */
+  reason?: "cooldown" | "cap";
 }
 
 // ───────────────────────── Constants ─────────────────────────
@@ -307,7 +310,7 @@ export const PEREK_TEST = {
  * POST /api/perek-tests (session). The server reads the text, the name and the recipient itself; the client sends none.
  * Errors: 401 unauthorized; 404 not_found (child unknown, deleted, other account, or not synced yet);
  * 400 bad_request with message "not_frontier" (an earlier perek is not verified on the server);
- * 429 rate_limited with retryAfterSec (per-child cooldown or account cap); 502 email_failed (cooldown not used up).
+ * 429 rate_limited with retryAfterSec and reason "cooldown" (per-child) or "cap" (account); 502 email_failed (cooldown not used up).
  */
 export interface PerekTestRequestBody {
   childId: string;

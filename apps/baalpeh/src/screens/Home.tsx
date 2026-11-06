@@ -30,7 +30,7 @@ export interface HomeGate {
   /** The "🙋 Test me!" / "📬 Waiting" badge: open the test step. */
   onOpenTest: (perek: number) => void;
   /** The one-time banner for children who learned perakim before verification existed (§10.3). */
-  intro?: { frontier: number; onGo: () => void; onClose: () => void };
+  intro?: { frontier: number; testReady: boolean; onGo: () => void; onClose: () => void };
 }
 
 const reviews = (n: number) => `${n} review${n > 1 ? "s" : ""}`;

@@ -168,6 +168,7 @@ describe("POST /api/perek-tests (request)", () => {
     await okJson(await requestTest(a.cookie, c1, 1));
     const e = await errOf(await requestTest(a.cookie, c1, 1), 429);
     expect(e.error).toBe("rate_limited");
+    expect(e.reason).toBe("cooldown");
     expect(e.retryAfterSec).toBeGreaterThanOrEqual(590);
     expect(e.retryAfterSec).toBeLessThanOrEqual(600);
     await okJson(await requestTest(a.cookie, c2, 1));
@@ -184,6 +185,24 @@ describe("POST /api/perek-tests (request)", () => {
     for (const id of ids.slice(0, 12)) await okJson(await requestTest(a.cookie, id, 1));
     const e = await errOf(await requestTest(a.cookie, ids[12]!, 1), 429);
     expect(e.error).toBe("rate_limited");
+    expect(e.reason).toBe("cap");
+    expect(e.retryAfterSec).toBeGreaterThan(3500);
+    expect(testEmails(a.email)).toHaveLength(12);
+  });
+
+  it("6b. cooldown refusals and failed sends don't use up the account caps", async () => {
+    const a = await account();
+    const t = Date.now() - 1000;
+    const ids = Array.from({ length: 12 }, () => crypto.randomUUID());
+    await okJson(await sync(a.cookie, { children: ids.map((id, i) => child(id, t, { meta: meta({ sort: i }) })) }));
+    await okJson(await requestTest(a.cookie, ids[0]!, 1));
+    for (let k = 0; k < 15; k++) expect((await errOf(await requestTest(a.cookie, ids[0]!, 1), 429)).reason).toBe("cooldown");
+    vi.spyOn(console, "error").mockImplementation(() => {});
+    for (let k = 0; k < 3; k++) {
+      fetchSpy.mockImplementationOnce(async () => new Response("provider down", { status: 500 }));
+      await errOf(await requestTest(a.cookie, ids[1]!, 1), 502);
+    }
+    for (const id of ids.slice(1)) await okJson(await requestTest(a.cookie, id, 1));
     expect(testEmails(a.email)).toHaveLength(12);
   });
 

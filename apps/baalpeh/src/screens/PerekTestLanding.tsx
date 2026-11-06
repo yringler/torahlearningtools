@@ -11,18 +11,43 @@ import { api, ApiFailure, NetworkFailure } from "../api/client";
  */
 export const PEREK_TEST_PATH = "/perek-test";
 
+/** Minimal sessionStorage, injectable for tests. */
+export interface TabStore {
+  getItem(k: string): string | null;
+  setItem(k: string, v: string): void;
+}
+const TOKEN_KEY = "baalpeh:perek-test-token";
+
+function tabStore(): TabStore | null {
+  try {
+    return typeof sessionStorage === "undefined" ? null : sessionStorage;
+  } catch {
+    return null;
+  }
+}
+
 /**
  * Reads `#t=<token>` on /perek-test and strips it from the address bar at once. Call once per page load, outside
- * React. Returns null on any other path, and "" when the page has no token (e.g. after a reload).
+ * React. The token is kept in this tab's sessionStorage, so a reload (which the email suggests if the page looks
+ * wrong) still shows the test. Returns null on any other path, and "" when the page has no token at all.
  */
 export function takePerekTestToken(
   loc: { pathname: string; hash: string } = location,
   replace: (url: string) => void = (url) => history.replaceState(null, "", url),
+  store: TabStore | null = tabStore(),
 ): string | null {
   if (loc.pathname.replace(/\/+$/, "") !== PEREK_TEST_PATH) return null;
-  const token = new URLSearchParams(loc.hash.replace(/^#/, "")).get("t") ?? "";
+  const fromHash = new URLSearchParams(loc.hash.replace(/^#/, "")).get("t") ?? "";
   replace(PEREK_TEST_PATH);
-  return token;
+  try {
+    if (fromHash) {
+      store?.setItem(TOKEN_KEY, fromHash);
+      return fromHash;
+    }
+    return store?.getItem(TOKEN_KEY) ?? "";
+  } catch {
+    return fromHash;
+  }
 }
 
 export type FailKind = "invalid" | "expired" | "offline" | "limited" | "other";
@@ -140,8 +165,14 @@ export function PerekTestLanding({ token }: { token: string }) {
     case "invalid":
       body = (
         <div className="landing-result">
-          <h2>This test link isn't valid anymore.</h2>
-          <p>{st.missing ? "Open the test link from the email again." : `${who} can send a new one from the app.`}</p>
+          {st.missing ? (
+            <h2>Open the test link from the email again.</h2>
+          ) : (
+            <>
+              <h2>This test link isn't valid anymore.</h2>
+              <p>{who} can send a new one from the app.</p>
+            </>
+          )}
         </div>
       );
       break;
@@ -189,14 +220,15 @@ export function PerekTestLanding({ token }: { token: string }) {
               ))}
             </div>
           )}
-          {st.notYet && (
-            <div className="landing-note" role="status">
-              <b>Thanks! Tell {name} to keep practicing 💪</b>
-              <p>This link still works. Come back and tap "knows it" any time in the next 30 days.</p>
-            </div>
-          )}
           {st.error && <p className="error" role="alert">{st.error}</p>}
           <div className="landing-bar">
+            {/* In the sticky bar, so the parent sees it right where they tapped (the text above is long). */}
+            {st.notYet && (
+              <div className="landing-note" role="status">
+                <b>Thanks! Tell {name} to keep practicing 💪</b>
+                <p>This link still works. Come back and tap "knows it" any time in the next 30 days.</p>
+              </div>
+            )}
             <button className="btn primary big" disabled={st.busy} onClick={() => void confirm()}>
               {st.busy ? "Saving…" : i.nextPerek !== null ? `✅ ${name} knows it, open the next perek` : `✅ ${name} knows it`}
             </button>

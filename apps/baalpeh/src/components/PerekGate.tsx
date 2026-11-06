@@ -49,7 +49,8 @@ export function LockedSheet({ perek, frontier, saved, testReady, onGoFrontier, o
           </>
         )}
         <button className="btn primary big" onClick={onGoFrontier}>
-          {saved || testReady ? <>Get ready for my <bdi>פרק {f}</bdi> test ›</> : <>Go to <bdi>פרק {f}</bdi> ›</>}
+          {/* Only promise a test when tapping really opens one (goFrontier); saved progress elsewhere doesn't. */}
+          {testReady ? <>Get ready for my <bdi>פרק {f}</bdi> test ›</> : <>Go to <bdi>פרק {f}</bdi> ›</>}
         </button>
         <button className="btn ghost-btn" onClick={onClose}>OK</button>
         <GuestOffer onGuest={onGuest} />
@@ -59,13 +60,13 @@ export function LockedSheet({ perek, frontier, saved, testReady, onGoFrontier, o
 }
 
 /** Shown once per child per device to children who learned perakim before verification existed (§10.3). */
-export function VerifIntroBanner({ frontier, onGo, onClose }: { frontier: number; onGo: () => void; onClose: () => void }) {
+export function VerifIntroBanner({ frontier, testReady, onGo, onClose }: { frontier: number; testReady: boolean; onGo: () => void; onClose: () => void }) {
   return (
     <div className="verif-banner" dir="ltr" role="note">
       <p><b>🎉 Something new!</b> Now, when you finish a perek, Abba or Ima test you for real, and then the next perek opens.</p>
       <p>You already learned a lot, and <b>all your stars are saved.</b> Let's start with <b><bdi>פרק {hebNum(frontier)}</bdi></b>: show them you know it, and your perakim open one by one.</p>
       <div className="row center">
-        <button className="btn primary" onClick={onGo}>Get ready for my test ›</button>
+        <button className="btn primary" onClick={onGo}>{testReady ? "Get ready for my test ›" : <>Go to <bdi>פרק {hebNum(frontier)}</bdi> ›</>}</button>
         <button className="btn ghost-btn" onClick={onClose}>OK</button>
       </div>
     </div>

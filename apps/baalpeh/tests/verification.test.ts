@@ -255,7 +255,10 @@ describe("test request helpers", () => {
   it("maps request errors", () => {
     expect(requestErrorResult(new NetworkFailure("x"))).toEqual({ kind: "offline" });
     expect(requestErrorResult(new ApiFailure(401, null))).toEqual({ kind: "signedOut" });
-    expect(requestErrorResult(new ApiFailure(429, { error: "rate_limited", message: "", retryAfterSec: 120 }))).toEqual({ kind: "cooldown", retryAfterSec: 120 });
+    expect(requestErrorResult(new ApiFailure(429, { error: "rate_limited", message: "", retryAfterSec: 120, reason: "cooldown" }))).toEqual({ kind: "cooldown", retryAfterSec: 120 });
+    // An account cap near the end of its window has a short wait too; it must not read as "already sent".
+    expect(requestErrorResult(new ApiFailure(429, { error: "rate_limited", message: "", retryAfterSec: 120, reason: "cap" }))).toEqual({ kind: "cap", retryAfterSec: 120 });
+    expect(requestErrorResult(new ApiFailure(429, { error: "rate_limited", message: "", retryAfterSec: 120 }))).toEqual({ kind: "cap", retryAfterSec: 120 });
     expect(requestErrorResult(new ApiFailure(400, { error: "bad_request", message: "not_frontier" }))).toEqual({ kind: "notFrontier" });
     expect(requestErrorResult(new ApiFailure(502, { error: "email_failed", message: "" }))).toEqual({ kind: "failed" });
   });
@@ -297,12 +300,22 @@ describe("parent landing page", () => {
 
   it("takePerekTestToken reads the fragment once and strips it, only on /perek-test", () => {
     const urls: string[] = [];
-    expect(takePerekTestToken({ pathname: "/perek-test", hash: "#t=abcDEF_123-xyz" }, (u) => urls.push(u))).toBe("abcDEF_123-xyz");
+    expect(takePerekTestToken({ pathname: "/perek-test", hash: "#t=abcDEF_123-xyz" }, (u) => urls.push(u), null)).toBe("abcDEF_123-xyz");
     expect(urls).toEqual(["/perek-test"]);
     expect(takePerekTestToken({ pathname: "/", hash: "#t=abc" }, (u) => urls.push(u))).toBeNull();
     expect(takePerekTestToken({ pathname: "/auth/verify", hash: "#token=abc" }, (u) => urls.push(u))).toBeNull();
     expect(urls).toHaveLength(1);
-    expect(takePerekTestToken({ pathname: "/perek-test", hash: "" }, () => undefined)).toBe("");
+    expect(takePerekTestToken({ pathname: "/perek-test", hash: "" }, () => undefined, null)).toBe("");
+  });
+
+  it("takePerekTestToken keeps the token for a reload of the same tab", () => {
+    const m = new Map<string, string>();
+    const tab = { getItem: (k: string) => m.get(k) ?? null, setItem: (k: string, v: string) => void m.set(k, v) };
+    expect(takePerekTestToken({ pathname: "/perek-test", hash: "" }, () => undefined, tab)).toBe("");
+    expect(takePerekTestToken({ pathname: "/perek-test", hash: "#t=tok1" }, () => undefined, tab)).toBe("tok1");
+    expect(takePerekTestToken({ pathname: "/perek-test", hash: "" }, () => undefined, tab)).toBe("tok1");
+    expect(takePerekTestToken({ pathname: "/perek-test", hash: "#t=tok2" }, () => undefined, tab)).toBe("tok2");
+    expect(takePerekTestToken({ pathname: "/perek-test/", hash: "" }, () => undefined, tab)).toBe("tok2");
   });
 
   it("nothing reaches confirm before a tap; each result maps to its state", () => {
@@ -369,6 +382,16 @@ describe("copy", () => {
     expect(html).toContain("Want to keep going?");
     expect(html).toContain("Continue as a guest. It won&#x27;t count toward your progress, but you can keep learning Torah.");
     expect(html).toContain(">Continue as a guest</button>");
+  });
+
+  it("the locked sheet promises a test only when the frontier's test is next", async () => {
+    const { LockedSheet } = await import("../src/components/PerekGate");
+    const render = (saved: boolean, testReady: boolean) => renderToStaticMarkup(createElement(LockedSheet, {
+      perek: 2, frontier: 1, saved, testReady, onGoFrontier: () => undefined, onGuest: () => undefined, onClose: () => undefined,
+    }));
+    expect(render(true, false)).not.toContain("test ›");
+    expect(render(true, false)).toContain("Go to ");
+    expect(render(false, true)).toContain("test ›");
   });
 });
 

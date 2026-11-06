@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { PEREK_TEST, type LearningEventBody, type Ms } from "../../shared/api";
+import { type LearningEventBody, type Ms } from "../../shared/api";
 import { hebNum, MASECHTA, DEFAULT_MASECHTA_ID } from "../data";
 import { kv } from "../kv";
 import { perekPhrases } from "../perekSteps";
@@ -51,7 +51,8 @@ interface Props {
 type View =
   | { v: "ready"; note?: string }
   | { v: "say" }
-  | { v: "confirm" }
+  /** The send sheet, over the view it was opened from (`back`), which a cancel returns to. */
+  | { v: "confirm"; back: "ready" | "waiting" }
   | { v: "sending" }
   | { v: "waiting"; cooldown?: boolean }
   | { v: "read"; back: "ready" | "waiting" }
@@ -115,7 +116,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
   }, [view.v, verifiedAt, profile.id, perek]);
 
   // While waiting is on screen: sync on mount, when visible again, on focus, and every 30 s; tick the countdown.
-  const waiting = view.v === "waiting" || (view.v === "read" && view.back === "waiting");
+  const waiting = view.v === "waiting" || ((view.v === "read" || view.v === "confirm") && view.back === "waiting");
   const refresh = test?.refresh;
   useEffect(() => {
     if (!waiting || !refresh) return;
@@ -169,11 +170,9 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
     switch (r.kind) {
       case "sent": setView({ v: "waiting" }); break;
       case "already": setView({ v: "official" }); break;
-      case "cooldown":
-        // The per-child cooldown (≤ 10 min) means a test is already on its way; a longer wait is the account's cap.
-        setView(r.retryAfterSec <= PEREK_TEST.COOLDOWN_SEC
-          ? { v: "waiting", cooldown: true }
-          : { v: "ready", note: `Lots of test emails were sent today. You can send yours in ${Math.ceil(r.retryAfterSec / 60)} min.` });
+      case "cooldown": setView({ v: "waiting", cooldown: true }); break;
+      case "cap":
+        setView({ v: "ready", note: `Lots of test emails were sent today. You can send yours in ${Math.ceil(r.retryAfterSec / 60)} min.` });
         break;
       case "offline": setView({ v: "ready", note: "You're offline. Your test needs the internet to send. Ask a grown-up to connect, then try again." }); break;
       case "signedOut": setView({ v: "signedOut" }); break;
@@ -268,7 +267,19 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
     );
   }
 
-  if (view.v === "waiting") {
+  const confirmSheet = (back: "ready" | "waiting") => (
+    <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="send-title" onClick={() => setView({ v: back })}>
+      <div className="sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
+        <h3 id="send-title">Send your test to Abba or Ima?</h3>
+        <p>We'll email them the perek so they can listen to you say it. When they say you know it, the next perek opens!</p>
+        <button className="btn primary big" disabled={!test.online} onClick={() => void send()}>📬 Yes, send it!</button>
+        <button className="btn ghost-btn" onClick={() => setView({ v: back })}>{back === "waiting" ? "‹ Back" : "Not yet, I'll practice"}</button>
+      </div>
+    </div>
+  );
+
+  if (view.v === "waiting" || (view.v === "confirm" && view.back === "waiting")) {
+    const cooldown = view.v === "waiting" && view.cooldown === true;
     const t = test.lastTest(perek);
     const now = test.serverNow();
     const left = t ? minutesLeft(t.nextAllowedAt, now) : 0;
@@ -276,7 +287,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
       <div className="perek-ready waiting" dir="ltr">
         <div className="celebrate">
           <div className="big-emoji">📬</div>
-          <h2>{view.cooldown ? "Your test was already sent a few minutes ago!" : "We sent your test to Abba or Ima!"}</h2>
+          <h2>{cooldown ? "Your test was already sent a few minutes ago!" : "We sent your test to Abba or Ima!"}</h2>
           <p>
             When they test you and tap the link in the email,{" "}
             {np !== null ? <><bdi>פרק {hebNum(np)}</bdi> opens.</> : <><bdi>מסכת {MASECHTA.masechta}</bdi> is all done!</>}
@@ -288,11 +299,12 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
         <div className="actions">
           <button className="btn primary big" onClick={() => setView({ v: "read", back: "waiting" })}>Practice while you wait</button>
           <button className="btn secondary" onClick={onMap}>My map</button>
-          <button className="btn ghost-btn" disabled={left > 0 || !test.online} onClick={() => setView({ v: "confirm" })}>
+          <button className="btn ghost-btn" disabled={left > 0 || !test.online} onClick={() => setView({ v: "confirm", back: "waiting" })}>
             {left > 0 ? `You can send it again in ${left} min` : "Didn't get it? Send it again"}
           </button>
         </div>
         <GuestOffer onGuest={() => test.onGuest(np ?? perek)} />
+        {view.v === "confirm" && confirmSheet("waiting")}
       </div>
     );
   }
@@ -310,22 +322,13 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
       </details>
       <div className="actions" dir="ltr">
         {note && <p className="ready-note" role="status">{note}</p>}
-        <button className="btn primary big" disabled={!test.online} onClick={() => setView({ v: "confirm" })}>🎯 I'm ready to be tested</button>
+        <button className="btn primary big" disabled={!test.online} onClick={() => setView({ v: "confirm", back: "ready" })}>🎯 I'm ready to be tested</button>
         {!test.online && <p className="hint">Connect to the internet to send your test.</p>}
         <button className="btn secondary" onClick={() => { sayStart.current = Date.now(); setView({ v: "say" }); }}>Say it once by yourself</button>
         <button className="btn ghost-btn" onClick={onPracticeMore}>Practice more first</button>
       </div>
       {!test.online && <GuestOffer onGuest={() => test.onGuest(np ?? perek)} />}
-      {view.v === "confirm" && (
-        <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="send-title" onClick={() => setView({ v: "ready" })}>
-          <div className="sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
-            <h3 id="send-title">Send your test to Abba or Ima?</h3>
-            <p>We'll email them the perek so they can listen to you say it. When they say you know it, the next perek opens!</p>
-            <button className="btn primary big" disabled={!test.online} onClick={() => void send()}>📬 Yes, send it!</button>
-            <button className="btn ghost-btn" onClick={() => setView({ v: "ready" })}>Not yet, I'll practice</button>
-          </div>
-        </div>
-      )}
+      {view.v === "confirm" && confirmSheet(view.back)}
     </div>
   );
 }

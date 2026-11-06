@@ -10,7 +10,10 @@ import type { KV, LastTest } from "./sync/store";
 /** What asking for the test email led to. */
 export type RequestResult =
   | { kind: "sent" | "already" }
+  /** This child's test email went out minutes ago (the server's per-child cooldown). */
   | { kind: "cooldown"; retryAfterSec: number }
+  /** The account sent too many test emails; nothing was sent for this request. */
+  | { kind: "cap"; retryAfterSec: number }
   | { kind: "offline" | "signedOut" | "failed" | "notFrontier" };
 
 /** Whole minutes until another test email may be sent, rounded up; 0 once it may. */
