@@ -168,6 +168,19 @@ npm run build        # → dist/
 The server lives in `worker/` (API under `/api/*`), the schema in `migrations/`, and the HTTP contract shared by both
 sides in `shared/api.ts`. The full design is in [`docs/SERVER_PLAN.md`](docs/SERVER_PLAN.md).
 
+**Parent mode** ([`docs/PARENT_MODE.md`](docs/PARENT_MODE.md)) is a separate, server-enforced area: an email sign-in
+"as parent" (its own 14-day session cookie) plus a 4-digit PIN (hashed, 5 tries, reset by email, every change emailed).
+It holds every power: children, settings, progress edits, marking perakim verified or not, and a change log.
+
+| API | Session | Purpose |
+|---|---|---|
+| `POST /api/auth/request`, `verify-link`, `verify-code` | none | email sign-in; `as: "learner" \| "parent"` picks the session |
+| `GET /api/me`, `POST /api/sync` | learner | learning; sync can't add, delete or rename children |
+| `POST /api/perek-tests`, `/lookup`, `/confirm`, `/forgot-pin` | learner / none | the perek test email; confirm needs the PIN once set |
+| `/api/parent/me`, `/unlock`, `/lock`, `/pin`, `/pin/forgot`, `/logout` | parent | PIN and session |
+| `/api/parent/sync`, `/children/:id/{events,stats,verifications}`, `/log`, `/learner-session`, `DELETE /account` | parent, unlocked | parent powers |
+| `POST /api/pin-reset/lookup`, `POST /api/pin-reset` | none (emailed token) | "Forgot PIN?" |
+
 **Deploy**: one Cloudflare Worker serves the app and the API. First-time setup (D1 database, Turnstile widget, Resend
 domain and API key, `AUTH_SECRET`, custom domain) is described step by step in
 [§15 of the server plan](docs/SERVER_PLAN.md#15-deployment-steps-for-the-owner). After that, `npm run deploy` (or a push to

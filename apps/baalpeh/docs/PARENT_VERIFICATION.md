@@ -13,6 +13,8 @@ This spec attaches at the end of the perek build-up: the point where the whole p
 
 ## 0. Decisions at a glance
 
+> **Superseded in part by [PARENT_MODE.md](PARENT_MODE.md):** a perek may now also be verified or un-verified by an unlocked parent session (an email sign-in as parent plus the 4-digit PIN), and the test-link confirm needs the PIN once one is set.
+
 | Question | Decision |
 |---|---|
 | What is gated | **Frontier** = the first perek, in catalog order, that the server has not verified. Perakim after it are locked: greyed, not interactive, stars still shown. The frontier itself can be learned freely. Once it is learned, its next task is the test. |
@@ -40,6 +42,8 @@ This spec attaches at the end of the perek build-up: the point where the whole p
 ---
 
 ## 1. Threat model
+
+> **Superseded in part by [PARENT_MODE.md](PARENT_MODE.md):** a perek may now also be verified or un-verified by an unlocked parent session (an email sign-in as parent plus the 4-digit PIN), and the test-link confirm needs the PIN once one is set.
 
 **What this stops.** A child tapping through every in-app check and moving on. After this change, *official* completion needs someone who can read the account holder's inbox. None of the following can set the verified state:
 - a crafted `/api/sync` body;
@@ -643,6 +647,8 @@ It is mobile first: a single column, 16px gutters, large tap targets, and Hebrew
 
 ### 10.5 Parent area (`src/screens/Parent.tsx`)
 
+> **Replaced by parent mode** ([PARENT_MODE.md](PARENT_MODE.md) §9.4–§9.10): the parent area is no longer reachable from learner mode.
+
 - `ChildCard` summary: "{known}/{total} mishnayos · **{verified} perakim tested** · {due} due". When there is any, add "· פרק {hebF} learned, waiting for a test".
 - `ChildCard` gets a **"Perek tests"** disclosure, one line per perek:
   - "✔ Tested {date}"
@@ -656,6 +662,8 @@ It is mobile first: a single column, 16px gutters, large tap targets, and Hebrew
 ---
 
 ## 11. Seam for the later parent admin (`worker/lib/verification.ts`)
+
+> **Superseded in part by [PARENT_MODE.md](PARENT_MODE.md):** a perek may now also be verified or un-verified by an unlocked parent session (an email sign-in as parent plus the 4-digit PIN), and the test-link confirm needs the PIN once one is set.
 
 ```ts
 export function setVerificationStmts(db: D1Database, a: {
@@ -850,6 +858,8 @@ Email unit tests (`email.test.ts`):
 ---
 
 ## 17. Reconciliation with the build-up
+
+> **Superseded in part by [PARENT_MODE.md](PARENT_MODE.md):** a perek may now also be verified or un-verified by an unlocked parent session (an email sign-in as parent plus the 4-digit PIN), and the test-link confirm needs the PIN once one is set.
 
 This spec was written before PEREK_BUILDUP was implemented (commits 18298b8, 6b82f4d). Where the two disagree, the simpler result that meets the owner's requirements wins. The owner's requirements override both specs:
 - Moving to the next perek is never the honor system. Only the parent's tap on the emailed link (then confirm) verifies a perek. This is server-authoritative, and the client cannot forge it.

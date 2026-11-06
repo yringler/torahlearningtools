@@ -1,6 +1,6 @@
 # Parent mode: a separate, PIN-locked parent area
 
-Status: spec, ready to implement. It merges the backend/security proposal and the UX/client proposal. Where they
+Status: server side and `shared/api.ts` implemented (see §14 for what differs); client side to do. It merges the backend/security proposal and the UX/client proposal. Where they
 disagreed, §1 records the decision and the reason. Claims about today's code were checked against the tree at
 `866b91e`.
 
@@ -1231,3 +1231,58 @@ Not changed: `wrangler.jsonc` (names, ids, routes), the CI workflow, and `packag
 3. **A PIN change is refused while the email provider is down.** We chose this so that no change goes unannounced.
 4. **Email times use the zone the client sent.** Lockout emails, which can come from the test page without a client zone, are in UTC.
 5. **Parent mode is online-only, by design.**
+
+---
+
+## 14. Server implementation notes and deviations
+
+The server side (migration 0007, `shared/api.ts`, `shared/device.ts`, `worker/`) follows §4–§8 and §11.1. Where it
+differs from the text above, or the text left a choice open:
+
+1. **Forgot PIN with no PIN set** (`POST /api/parent/pin/forgot`, `POST /api/perek-tests/forgot-pin`): 409
+   `pin_not_set`, no email. A parent session with no PIN sets one directly; a reset link could otherwise create the
+   first PIN from a test page.
+2. **`ForgotPinResponse { ok: true; sentTo }`** is a named type in `shared/api.ts` (§6.4 gave the shape inline). The
+   route list is also written as a comment block in `shared/api.ts`.
+3. **Change-log pages never end inside a millisecond.** `before` is exclusive and one parent sync writes several rows
+   with the same `at`, so when a page is cut the server appends the rest of the last row's millisecond. A page can
+   therefore hold a few more than `limit` entries. `nextBefore` is unchanged in meaning.
+4. **`tz`** that fails the `[A-Za-z0-9_+\-/]{1,64}` check or `Intl.DateTimeFormat` is dropped (the email says UTC),
+   not refused with 400. Lock emails are always UTC: unlock and confirm carry no `tz`.
+5. **Validators:** `validateToken` (sign-in, PIN reset) returns only `{token}`; the perek-test routes use a new
+   `validatePerekTestToken` for `{token, pin?}`. `POST /api/pin-reset/lookup` answers `invalid_link` for a malformed
+   token too (one answer for every failure).
+6. **`setPinFlow` guard.** Every statement after the guarded write (locking the other parent sessions, unlocking this
+   one, the log row) and the final check are conditional on `account_pins.hash = <the new hash>` (the salt is random,
+   so only this call's write can match). A guard miss answers 403 `parent_locked` from `/parent/pin` and 400
+   `invalid_link` from `/pin-reset`.
+7. **`maskEmail`** moved to `worker/lib/mask.ts` (still re-exported from `routes/perekTests.ts`). The parent emails
+   share the card layout through `worker/email/layout.ts`.
+8. **Learner logout** (`POST /api/auth/logout`) deletes only a `scope = 'learner'` row, so a parent token placed in the
+   learner cookie can't be used to end a parent session.
+9. **Learner child-settings merge** uses `coalesce(json_extract(data, '$.settings'), '{}')` so a child row without
+   settings can't make `json_patch` fail.
+10. **Worker tests:** `worker/test/parent.test.ts` covers §11.1 tests 1–19; the "grep" test (3) reads the worker
+    sources through Vite's `import.meta.glob(…, {query: "?raw"})`. Tests that only need children use the helper
+    `adminCookie(email)`, a parent session unlocked directly in D1 **without** a PIN, so their test confirms stay
+    PIN-free. `/api/children/*` and `DELETE /api/account` tests moved to the parent routes.
+
+### 14.1 LWW and parent edits, as built
+
+Exactly §8.1. In short, for the owner: a parent's edit is stamped with the server clock and fenced by `parent_rev`.
+A tablet that was offline when the parent edited (its sync cursor is older than the edit) can never overwrite it, even
+with a clock set years ahead: its push for that one key is dropped, its events still reach Activity, and the
+parent's row comes back with `byParent: true`. Once the tablet has pulled the edit, the child's next learning on that
+mishnah wins, even if the tablet's clock is behind; after that, normal last-write-wins. Child renames, deletes and
+breaks are parent-only; a learner can change only text size and meaning view, under the same fence. Tested in
+`parent.test.ts` 12, 14a and 14b.
+
+### 14.2 Left for the client
+
+Everything in §9 and §11.2. Until it ships, the current SPA is degraded in these known ways (all from §10):
+- the learner app's add-child, delete, rename and child settings other than text size and meaning view are ignored
+  by the server (the echo restores the server's rows);
+- the parent area's history, stats and delete account get 404 (`/api/children/*`, `/api/account` are gone);
+- the test page shows "Something went wrong" on accounts that have a PIN (`pin_required`), and no account has one
+  until the client can set it, so in practice confirm keeps working;
+- `src/api/client.ts` still calls the removed paths.

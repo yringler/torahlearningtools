@@ -270,6 +270,8 @@ Dev and test keys (documented by Cloudflare):
 
 ### 3.8 Sessions (`worker/lib/session.ts`)
 
+> **Two session scopes since [PARENT_MODE.md](PARENT_MODE.md) §6.1:** this section describes the learner session (`__Host-bp_session`, 30 days sliding). Parent mode has its own `__Host-bp_parent` session (14 days absolute, PIN-unlocked for 5 minutes idle / 60 at most); `sessions.scope` is set on INSERT and never changed.
+
 - `createSession(c, userId)`: token = 32 random bytes base64url. Insert
   `sessions(token_hash = sha256Hex(token), user_id, created_at = now, last_seen_at = now, expires_at = now + 30 d,
   user_agent = first 200 chars of User-Agent)`. Set the cookie.

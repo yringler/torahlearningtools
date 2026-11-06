@@ -1,11 +1,12 @@
 /**
- * The ONLY writer of perek_verifications (docs/PARENT_VERIFICATION.md §11). /api/sync never touches the table, and no
- * caller passes a value that came from a client.
+ * The ONLY writer of perek_verifications (docs/PARENT_VERIFICATION.md §11, as superseded by docs/PARENT_MODE.md §6.5).
+ * /api/sync never touches the table, and no caller passes a value that came from a client.
  *
- * Callers today: the confirm route (token-keyed form). The keyed form is the seam for the later parent-only admin:
- * - verified: false (un-verify) only removes access, so it may sit behind that admin's own login;
- * - verified: true must stay behind proof that the parent tested the child. In this app that proof is the emailed
- *   link, so never wire it to an endpoint a child can reach (the parent area's hold gate is not proof).
+ * Callers: the confirm route (token-keyed; the parent's PIN once one is set) and
+ * POST /api/parent/children/:id/verifications (keyed form, source 'admin'). That route sits behind requireParent: a
+ * parent session from an email sign-in as parent, unlocked with the PIN in the last 5 minutes. That is the owner's
+ * accepted proof for `verified: true` (docs/PARENT_MODE.md). Never call the keyed form from a route a learner session
+ * can reach.
  */
 
 export interface SetVerification {

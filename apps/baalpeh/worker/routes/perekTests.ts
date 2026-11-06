@@ -2,13 +2,15 @@
  * Parent verification of a perek by email (docs/PARENT_VERIFICATION.md §5).
  * POST /            (session) the child asks for the test email
  * POST /lookup      (no session, read-only) the landing page shows who and what
- * POST /confirm     (no session) the parent taps "knows it"
+ * POST /confirm     (no session) the parent taps "knows it" (and enters the parent PIN once one is set)
+ * POST /forgot-pin  (no session) the parent asks for a PIN reset link from the test page (docs/PARENT_MODE.md §6.9)
  * There is deliberately no GET route: link scanners GET every URL, so a GET must never change anything.
  */
 import { Hono, type Context } from "hono";
 import {
   PEREK_TEST,
   type ChildMeta,
+  type ForgotPinResponse,
   type PerekTestInfo,
   type PerekTestRequestResponse,
   type PerekVerificationRow,
@@ -18,11 +20,13 @@ import { perekTestEmail } from "../email/perekTestEmail";
 import { pickSender } from "../email/sender";
 import { randomToken, sha256Hex } from "../lib/crypto";
 import { apiError, clientIp, readJson } from "../lib/http";
+import { maskEmail } from "../lib/mask";
+import { checkPin, createPinReset } from "../lib/pin";
 import { limit } from "../lib/rateLimit";
-import { requireUser } from "../lib/session";
+import { requireUser, userAgentOf } from "../lib/session";
 import { masechtaText, perakimCount, perekPieces } from "../lib/text";
 import { now } from "../lib/time";
-import { validatePerekTestRequest, validateToken } from "../lib/validate";
+import { validatePerekTestRequest, validatePerekTestToken } from "../lib/validate";
 import { confirmTokenStmts } from "../lib/verification";
 
 const COOLDOWN_MS = PEREK_TEST.COOLDOWN_SEC * 1000;
@@ -30,12 +34,7 @@ const TTL_MS = PEREK_TEST.TOKEN_TTL_SEC * 1000;
 
 export const perekTestRoutes = new Hono<AppEnv>();
 
-/** "yosef@gmail.com" → "y•••@gmail.com". */
-export function maskEmail(email: string): string {
-  const at = email.lastIndexOf("@");
-  if (at < 1) return "•••";
-  return `${Array.from(email.slice(0, at))[0] ?? ""}•••${email.slice(at)}`;
-}
+export { maskEmail };
 
 function parseMeta(data: string): Pick<ChildMeta, "name" | "emoji" | "color"> {
   try {
@@ -182,6 +181,10 @@ perekTestRoutes.post("/", requireUser, async (c) => {
 // ───────────── lookup / confirm ─────────────
 
 interface LookupRow {
+  user_id: string;
+  account_email: string;
+  pin_user: string | null;
+  pin_locked_at: number | null;
   masechta: string;
   perek: number;
   created_at: number;
@@ -193,11 +196,13 @@ interface LookupRow {
   verified_at: number | null;
 }
 
-const LOOKUP_SQL = `SELECT pt.masechta, pt.perek, pt.created_at, pt.expires_at, pt.outcome, c.data, c.deleted,
+const LOOKUP_SQL = `SELECT pt.user_id, u.email AS account_email, ap.user_id AS pin_user, ap.locked_at AS pin_locked_at,
+       pt.masechta, pt.perek, pt.created_at, pt.expires_at, pt.outcome, c.data, c.deleted,
        v.verified, v.verified_at
-FROM perek_tests pt JOIN children c ON c.id = pt.child_id
+FROM perek_tests pt JOIN children c ON c.id = pt.child_id JOIN users u ON u.id = pt.user_id
 LEFT JOIN perek_verifications v
   ON v.child_id = pt.child_id AND v.masechta = pt.masechta AND v.perek = pt.perek
+LEFT JOIN account_pins ap ON ap.user_id = pt.user_id
 WHERE pt.token_hash = ?1`;
 
 /** §5.2 decision order. null = invalid link (one shared answer: no enumeration). */
@@ -225,35 +230,86 @@ function toInfo(r: LookupRow | null, t: number): PerekTestInfo | null {
     mishnayos: perekPieces(r.masechta, r.perek),
     requestedAt: r.created_at,
     verifiedAt: status === "verified" ? r.verified_at : null,
+    pinRequired: r.pin_user !== null,
+    pinLocked: r.pin_user !== null && r.pin_locked_at !== null,
   };
 }
 
 const INVALID = "This test link isn't valid anymore.";
 
-async function tokenHashOf(c: Context<AppEnv>, t: number): Promise<string | Response> {
-  const v = validateToken(await readJson(c));
+async function tokenOf(c: Context<AppEnv>, t: number): Promise<{ h: string; pin: string | undefined } | Response> {
+  const v = validatePerekTestToken(await readJson(c));
   if (!v.ok) return apiError(c, 400, "bad_request", v.message);
   await limit(c, "ptest-ip", clientIp(c), 30, 900, t);
-  return sha256Hex(v.value.token);
+  return { h: await sha256Hex(v.value.token), pin: v.value.pin };
+}
+
+/** The answer for a link that is not pending: exactly as before PINs existed, and no PIN is asked for. */
+function notPending(c: Context<AppEnv>, info: PerekTestInfo | null): Response {
+  if (info?.status === "verified") return c.json(info);
+  if (info?.status === "expired") return apiError(c, 400, "invalid_link", "This test link has expired.");
+  return apiError(c, 400, "invalid_link", INVALID);
 }
 
 perekTestRoutes.post("/lookup", async (c) => {
   const t = now();
-  const h = await tokenHashOf(c, t);
-  if (h instanceof Response) return h;
-  const info = toInfo(await c.env.DB.prepare(LOOKUP_SQL).bind(h).first<LookupRow>(), t);
+  const tok = await tokenOf(c, t);
+  if (tok instanceof Response) return tok;
+  const info = toInfo(await c.env.DB.prepare(LOOKUP_SQL).bind(tok.h).first<LookupRow>(), t);
   if (!info) return apiError(c, 400, "invalid_link", INVALID);
   return c.json(info);
 });
 
 perekTestRoutes.post("/confirm", async (c) => {
   const t = now();
-  const h = await tokenHashOf(c, t);
-  if (h instanceof Response) return h;
+  const tok = await tokenOf(c, t);
+  if (tok instanceof Response) return tok;
+  const { h, pin } = tok;
   const db = c.env.DB;
-  const results = await db.batch([...confirmTokenStmts(db, h, t), db.prepare(LOOKUP_SQL).bind(h)]);
-  const info = toInfo((results.at(-1)?.results[0] as LookupRow | undefined) ?? null, t);
-  if (info?.status === "verified") return c.json(info);
-  if (info?.status === "expired") return apiError(c, 400, "invalid_link", "This test link has expired.");
-  return apiError(c, 400, "invalid_link", INVALID);
+  // A bad, used or verified link answers as before and never uses up PIN tries.
+  const row = await db.prepare(LOOKUP_SQL).bind(h).first<LookupRow>();
+  const before = toInfo(row, t);
+  if (!row || before?.status !== "pending") return notPending(c, before);
+
+  const pinUsed = row.pin_user !== null;
+  if (pinUsed) {
+    if (row.pin_locked_at !== null) return apiError(c, 403, "pin_locked", "Your parent PIN is locked. Reset it by email.");
+    if (pin === undefined) return apiError(c, 400, "pin_required", "Enter your parent PIN.");
+    await limit(c, "pin-ip", clientIp(c), 20, 900, t);
+    await checkPin(c, {
+      userId: row.user_id,
+      pin,
+      t,
+      via: "test_link",
+      actor: { email: row.account_email, sessionId: null, device: userAgentOf(c) },
+    });
+  }
+
+  const results = await db.batch([
+    ...confirmTokenStmts(db, h, t),
+    // The change-log row, only for this call's consume (the same match as confirmTokenStmts).
+    db
+      .prepare(
+        `INSERT INTO audit_log (id, user_id, at, action, child_id, child_name, detail, via, actor_email, actor_session, actor_device)
+         SELECT ?3, pt.user_id, ?2, 'perek_verified', pt.child_id, json_extract(c.data, '$.name'),
+                json_object('masechta', pt.masechta, 'perakim', json_array(pt.perek), 'testId', pt.id, 'pinUsed', json(?4)),
+                'test_link', u.email, NULL, ?5
+         FROM perek_tests pt JOIN children c ON c.id = pt.child_id JOIN users u ON u.id = pt.user_id
+         WHERE pt.token_hash = ?1 AND pt.consumed_at = ?2 AND pt.outcome = 'verified'`,
+      )
+      .bind(h, t, crypto.randomUUID(), pinUsed ? "true" : "false", userAgentOf(c)),
+    db.prepare(LOOKUP_SQL).bind(h),
+  ]);
+  return notPending(c, toInfo((results.at(-1)?.results[0] as LookupRow | undefined) ?? null, t));
+});
+
+perekTestRoutes.post("/forgot-pin", async (c) => {
+  const t = now();
+  const tok = await tokenOf(c, t);
+  if (tok instanceof Response) return tok;
+  const row = await c.env.DB.prepare(LOOKUP_SQL).bind(tok.h).first<LookupRow>();
+  if (!row || toInfo(row, t)?.status !== "pending") return apiError(c, 400, "invalid_link", INVALID);
+  const sentTo = await createPinReset(c, row.user_id, "test_page", null, t);
+  const body: ForgotPinResponse = { ok: true, sentTo };
+  return c.json(body);
 });

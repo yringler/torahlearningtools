@@ -4,7 +4,7 @@ import { hebNum } from "../../shared/hebrew";
 import { cleanup } from "../cron";
 import { perekPieces } from "../lib/text";
 import { setVerificationStmts } from "../lib/verification";
-import { child, db, login, meta, mockTurnstile, pRec, recite, req, sentEmails, sha256, sync, uniqueIp, type SentEmail } from "./helpers";
+import { adminCookie, adminSync, child, db, login, meta, mockTurnstile, pRec, recite, req, sentEmails, sha256, sync, uniqueIp, type SentEmail } from "./helpers";
 
 let fetchSpy: MockInstance<typeof fetch>;
 beforeEach(() => {
@@ -29,7 +29,7 @@ async function account(): Promise<Account> {
 
 async function addChild(a: Account, over: Partial<ChildRow> = {}): Promise<string> {
   const id = crypto.randomUUID();
-  const res = await sync(a.cookie, { children: [child(id, Date.now() - 1000, over)] });
+  const res = await adminSync(a.email, { children: [child(id, Date.now() - 1000, over)] });
   expect(res.status).toBe(200);
   return id;
 }
@@ -111,7 +111,7 @@ describe("POST /api/perek-tests (request)", () => {
     const b = await account();
     const theirs = await addChild(b);
     const gone = await addChild(a);
-    await sync(a.cookie, { children: [child(gone, Date.now(), { deleted: true })] });
+    await adminSync(a.email, { children: [child(gone, Date.now(), { deleted: true })] });
     for (const cid of [theirs, gone, crypto.randomUUID()]) {
       expect((await errOf(await requestTest(a.cookie, cid, 1), 404)).error).toBe("not_found");
     }
@@ -181,7 +181,7 @@ describe("POST /api/perek-tests (request)", () => {
     const a = await account();
     const t = Date.now() - 1000;
     const ids = Array.from({ length: 13 }, () => crypto.randomUUID());
-    await okJson(await sync(a.cookie, { children: ids.map((id, i) => child(id, t, { meta: meta({ sort: i }) })) }));
+    await okJson(await adminSync(a.email, { children: ids.map((id, i) => child(id, t, { meta: meta({ sort: i }) })) }));
     for (const id of ids.slice(0, 12)) await okJson(await requestTest(a.cookie, id, 1));
     const e = await errOf(await requestTest(a.cookie, ids[12]!, 1), 429);
     expect(e.error).toBe("rate_limited");
@@ -194,7 +194,7 @@ describe("POST /api/perek-tests (request)", () => {
     const a = await account();
     const t = Date.now() - 1000;
     const ids = Array.from({ length: 12 }, () => crypto.randomUUID());
-    await okJson(await sync(a.cookie, { children: ids.map((id, i) => child(id, t, { meta: meta({ sort: i }) })) }));
+    await okJson(await adminSync(a.email, { children: ids.map((id, i) => child(id, t, { meta: meta({ sort: i }) })) }));
     await okJson(await requestTest(a.cookie, ids[0]!, 1));
     for (let k = 0; k < 15; k++) expect((await errOf(await requestTest(a.cookie, ids[0]!, 1), 429)).reason).toBe("cooldown");
     vi.spyOn(console, "error").mockImplementation(() => {});
@@ -349,7 +349,7 @@ describe("lookup and confirm", () => {
     await okJson(await requestTest(a.cookie, c2, 1));
     const t2 = lastPerekTestToken(a.email);
     expect((await confirm(t2, { origin: "https://evil.example" })).status).toBe(403);
-    await sync(a.cookie, { children: [child(c2, Date.now(), { deleted: true })] });
+    await adminSync(a.email, { children: [child(c2, Date.now(), { deleted: true })] });
     expect((await errOf(await lookup(t2), 400)).error).toBe("invalid_link");
     expect((await errOf(await confirm(t2), 400)).error).toBe("invalid_link");
 
@@ -442,7 +442,7 @@ describe("sync and forgery", () => {
     const cid = await addChild(a);
     await verify(a, cid, 1);
     await okJson(await requestTest(a.cookie, cid, 2));
-    await sync(a.cookie, { children: [child(cid, Date.now(), { deleted: true })] });
+    await adminSync(a.email, { children: [child(cid, Date.now(), { deleted: true })] });
     expect(await db.prepare("SELECT 1 FROM perek_tests WHERE child_id = ?").bind(cid).first()).toBeNull();
     expect(await db.prepare("SELECT 1 FROM perek_verifications WHERE child_id = ?").bind(cid).first()).toBeNull();
 
@@ -450,7 +450,7 @@ describe("sync and forgery", () => {
     const c2 = await addChild(b);
     await verify(b, c2, 1);
     await okJson(await requestTest(b.cookie, c2, 2));
-    const del = await req("/api/account", { method: "DELETE", cookie: b.cookie, body: { email: b.email } });
+    const del = await req("/api/parent/account", { method: "DELETE", cookie: await adminCookie(b.email), body: { email: b.email } });
     expect(del.status).toBe(204);
     expect(await db.prepare("SELECT 1 FROM perek_tests WHERE user_id = ?").bind(b.userId).first()).toBeNull();
     expect(await db.prepare("SELECT 1 FROM perek_verifications WHERE user_id = ?").bind(b.userId).first()).toBeNull();

@@ -20,11 +20,16 @@ import {
   type ReciteTask,
   type RecordRow,
   type ReviewItemData,
+  type PinBody,
+  type PinResetBody,
+  type SetPinBody,
+  type SetVerificationsBody,
+  type SignInAs,
   type SyncRequest,
   type VerifyCodeBody,
   type VerifyLinkBody,
 } from "../../shared/api";
-import { perakimCount } from "./text";
+import { masechtaText, perakimCount } from "./text";
 
 export type Result<T> = { ok: true; value: T } | { ok: false; message: string; tooLarge?: true };
 
@@ -150,23 +155,100 @@ function email(v: unknown, path: string): string {
   return e;
 }
 
-export function validateAuthRequest(body: unknown): Result<AuthRequestBody> {
+/** `as`: absent means learner (old SPAs). */
+function signInAs(v: unknown): SignInAs {
+  return v === undefined ? "learner" : oneOf(v, "as", ["learner", "parent"]);
+}
+
+export function validateAuthRequest(body: unknown): Result<Required<AuthRequestBody>> {
   return run(() => {
     const o = obj(body, "body");
     const turnstileToken = str(o.turnstileToken, "turnstileToken");
     if (turnstileToken.length === 0 || turnstileToken.length > 2048) throw new Invalid("turnstileToken is invalid");
-    return { email: email(o.email, "email"), turnstileToken };
+    return { email: email(o.email, "email"), turnstileToken, as: signInAs(o.as) };
   });
 }
 
 const TOKEN_RE = /^[A-Za-z0-9_-]{20,128}$/;
 
-/** `{ token }` from an emailed link (sign-in or perek test). */
-export function validateToken(body: unknown): Result<PerekTestTokenBody> {
+function token(v: unknown): string {
+  const t = str(v, "token");
+  if (!TOKEN_RE.test(t)) throw new Invalid("token is invalid");
+  return t;
+}
+
+/** `{ token }` from an emailed link (sign-in, perek test or PIN reset). Other fields are dropped. */
+export function validateToken(body: unknown): Result<{ token: string }> {
+  return run(() => ({ token: token(obj(body, "body").token) }));
+}
+
+/** `{ token, pin? }` for the perek-test routes; `pin` is used by confirm only. */
+export function validatePerekTestToken(body: unknown): Result<PerekTestTokenBody> {
   return run(() => {
-    const token = str(obj(body, "body").token, "token");
-    if (!TOKEN_RE.test(token)) throw new Invalid("token is invalid");
-    return { token };
+    const o = obj(body, "body");
+    const out: PerekTestTokenBody = { token: token(o.token) };
+    if (o.pin !== undefined) out.pin = pin(o.pin);
+    return out;
+  });
+}
+
+// ───────────── parent PIN ─────────────
+
+const PIN_RE = /^[0-9]{4}$/;
+const TZ_RE = /^[A-Za-z0-9_+\-/]{1,64}$/;
+
+function pin(v: unknown): string {
+  if (typeof v !== "string" || !PIN_RE.test(v)) throw new Invalid("The PIN must be 4 digits.");
+  return v;
+}
+
+/** An IANA zone name for display only: a malformed or unknown one is dropped (the email then says UTC). */
+function tz(v: unknown): string | undefined {
+  if (typeof v !== "string" || !TZ_RE.test(v)) return undefined;
+  try {
+    new Intl.DateTimeFormat("en-US", { timeZone: v });
+    return v;
+  } catch {
+    return undefined;
+  }
+}
+
+export function validatePin(body: unknown): Result<PinBody> {
+  return run(() => ({ pin: pin(obj(body, "body").pin) }));
+}
+
+export function validateSetPin(body: unknown): Result<SetPinBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const out: SetPinBody = { pin: pin(o.pin) };
+    const z = tz(o.tz);
+    if (z !== undefined) out.tz = z;
+    return out;
+  });
+}
+
+export function validatePinReset(body: unknown): Result<PinResetBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const out: PinResetBody = { token: token(o.token), pin: pin(o.pin) };
+    const z = tz(o.tz);
+    if (z !== undefined) out.tz = z;
+    return out;
+  });
+}
+
+/** 1..30 distinct perakim, each in 1..perakimCount(masechta), of a known masechta. Perakim come back sorted. */
+export function validateSetVerifications(body: unknown): Result<SetVerificationsBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const masechta = str(o.masechta, "masechta");
+    if (!masechtaText(masechta)) throw new Invalid("masechta is unknown");
+    const n = perakimCount(masechta);
+    const list = arr(o.perakim, "perakim");
+    if (list.length < 1 || list.length > 30) throw new Invalid("perakim must have 1..30 entries");
+    const perakim = list.map((p, i) => int(p, `perakim[${i}]`, 1, n));
+    if (new Set(perakim).size !== perakim.length) throw new Invalid("perakim must be distinct");
+    return { masechta, perakim: perakim.sort((a, b) => a - b), verified: bool(o.verified, "verified") };
   });
 }
 
@@ -174,12 +256,12 @@ export function validateVerifyLink(body: unknown): Result<VerifyLinkBody> {
   return validateToken(body);
 }
 
-export function validateVerifyCode(body: unknown): Result<VerifyCodeBody> {
+export function validateVerifyCode(body: unknown): Result<Required<VerifyCodeBody>> {
   return run(() => {
     const o = obj(body, "body");
     const code = str(o.code, "code").replace(/\s+/g, "");
     if (!/^\d{6}$/.test(code)) throw new Invalid("code must be 6 digits");
-    return { email: email(o.email, "email"), code };
+    return { email: email(o.email, "email"), code, as: signInAs(o.as) };
   });
 }
 

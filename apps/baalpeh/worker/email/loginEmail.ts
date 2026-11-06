@@ -1,4 +1,6 @@
+import type { SignInAs } from "../../shared/api";
 import { escapeHtml } from "./html";
+import { cardHtml } from "./layout";
 
 export interface LoginEmailContent {
   subject: string;
@@ -8,8 +10,9 @@ export interface LoginEmailContent {
 
 export { escapeHtml };
 
-export function loginEmail(link: string, code: string): LoginEmailContent {
+export function loginEmail(link: string, code: string, scope: SignInAs = "learner"): LoginEmailContent {
   const spaced = `${code.slice(0, 3)} ${code.slice(3)}`;
+  if (scope === "parent") return parentLoginEmail(link, code, spaced);
   const subject = `${code} is your Mishnah Ba'al Peh sign-in code`;
   const text = [
     "Sign in to Mishnah Ba'al Peh",
@@ -38,5 +41,40 @@ export function loginEmail(link: string, code: string): LoginEmailContent {
 <p style="font-size:14px;line-height:1.5;color:#555;margin:0 0 16px;">If you didn&#39;t ask to sign in, you can ignore this email.</p>
 <p style="font-size:12px;line-height:1.4;color:#888;margin:0;word-break:break-all;">If the button does not work, open this link: ${l}</p>
 </div></body></html>`;
+  return { subject, text, html };
+}
+
+/** The parent sign-in email (docs/PARENT_MODE.md §6.8). */
+function parentLoginEmail(link: string, code: string, spaced: string): LoginEmailContent {
+  const subject = `${code} is your Mishnah Ba'al Peh parent sign-in code`;
+  const tap = "Tap this button to open parent mode on the device where you open it:";
+  const after = [
+    "You'll enter your 4-digit parent PIN next.",
+    "The link and code work once and expire in 15 minutes. Only the newest email works.",
+    "If you didn't ask for this, you can ignore it. No one can change anything in parent mode without your PIN.",
+  ];
+  const text = [
+    "Parent sign-in to Mishnah Ba'al Peh",
+    "",
+    "Tap this link to open parent mode on the device where you open it:",
+    link,
+    "",
+    `Or type this code in the app:  ${spaced}`,
+    "",
+    ...after,
+    "",
+  ].join("\n");
+  const html = cardHtml(
+    subject,
+    [
+      { h: "Parent sign-in to Mishnah Ba'al Peh" },
+      { p: tap },
+      { button: "Sign in as parent", href: link },
+      { p: "Or type this code in the app:" },
+      { code: spaced },
+      ...after.map((small) => ({ small })),
+    ],
+    `If the button doesn't work, open this link: ${link}`,
+  );
   return { subject, text, html };
 }

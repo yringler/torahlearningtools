@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { ApiError, RecordRow, SyncResponse } from "../../shared/api";
-import { child, db, dRec, login, meta, mockTurnstile, mRec, pRec, recite, req, sync } from "./helpers";
+import { adminSync, child, db, dRec, login, meta, mockTurnstile, mRec, pRec, recite, req, sync } from "./helpers";
 
 beforeEach(() => {
   mockTurnstile(true);
@@ -23,11 +23,12 @@ async function rev(userId: string): Promise<number> {
 
 describe("POST /api/sync", () => {
   it("pushes, pulls on a second device, and pulls incrementally", async () => {
-    const { cookie } = await login();
+    const { cookie, email } = await login();
     const cid = crypto.randomUUID();
     const t = Date.now() - 1000;
+    await ok(await adminSync(email, { children: [child(cid, t)] }));
     const records = [mRec(cid, "1:1", t), mRec(cid, "1:2", t), pRec(cid, "1", t), dRec(cid, "2026-11-01", t)];
-    const a = await ok(await sync(cookie, { children: [child(cid, t)], records, events: [recite(cid, t), recite(cid, t + 1)] }));
+    const a = await ok(await sync(cookie, { records, events: [recite(cid, t), recite(cid, t + 1)] }));
     expect(a.cursor).toBeGreaterThanOrEqual(1);
     expect(a.children.map((c) => c.id)).toEqual([cid]);
     expect(a.records.map(key).sort()).toEqual(records.map(key).sort());
@@ -51,21 +52,23 @@ describe("POST /api/sync", () => {
   });
 
   it("carries perek chains from one device to another", async () => {
-    const { cookie } = await login();
+    const { cookie, email } = await login();
     const cid = crypto.randomUUID();
     const t = Date.now() - 10_000;
+    await ok(await adminSync(email, { children: [child(cid, t)] }));
     const rec: RecordRow = { kind: "p", childId: cid, key: "2", updatedAt: t, data: { chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] } };
-    await ok(await sync(cookie, { children: [child(cid, t)], records: [rec] }));
+    await ok(await sync(cookie, { records: [rec] }));
     const b = await ok(await sync(cookie, { cursor: 0 }));
     expect(b.records.find((r) => r.kind === "p" && r.key === "2")).toEqual(rec);
   });
 
   it("keeps stored chains when an old client pushes a perek without them; an empty list clears them", async () => {
-    const { cookie } = await login();
+    const { cookie, email } = await login();
     const cid = crypto.randomUUID();
     const t = Date.now() - 10_000;
+    await ok(await adminSync(email, { children: [child(cid, t)] }));
     const withChains: RecordRow = { kind: "p", childId: cid, key: "2", updatedAt: t, data: { chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] } };
-    await ok(await sync(cookie, { children: [child(cid, t)], records: [withChains] }));
+    await ok(await sync(cookie, { records: [withChains] }));
     // An old cached client: newer, but it drops the unknown field.
     await ok(await sync(cookie, { records: [{ kind: "p", childId: cid, key: "2", updatedAt: t + 5, data: { chainedThrough: 4, complete: false } }] }));
     const kept = await ok(await sync(cookie, { cursor: 0 }));
@@ -77,10 +80,11 @@ describe("POST /api/sync", () => {
   });
 
   it("last write wins, and the response corrects a losing push", async () => {
-    const { cookie } = await login();
+    const { cookie, email } = await login();
     const cid = crypto.randomUUID();
     const t = Date.now() - 10_000;
-    await ok(await sync(cookie, { children: [child(cid, t)], records: [mRec(cid, "2:1", t, 7)] }));
+    await ok(await adminSync(email, { children: [child(cid, t)] }));
+    await ok(await sync(cookie, { records: [mRec(cid, "2:1", t, 7)] }));
     const res = await ok(await sync(cookie, { cursor: 999_999, children: [child(cid, t - 5, { meta: meta({ name: "Old" }) })], records: [mRec(cid, "2:1", t - 5, 1)] }));
     expect(res.records).toEqual([mRec(cid, "2:1", t, 7)]);
     expect(res.children[0]!.meta.name).toBe("Avi");
@@ -90,33 +94,37 @@ describe("POST /api/sync", () => {
   });
 
   it("clamps future timestamps to server time", async () => {
-    const { cookie } = await login();
+    const { cookie, email } = await login();
     const cid = crypto.randomUUID();
     const before = Date.now();
-    const res = await ok(await sync(cookie, { children: [child(cid, before + YEAR)], records: [mRec(cid, "1:1", before + YEAR)] }));
+    const { cursor } = await ok(await adminSync(email, { children: [child(cid, before)] }));
+    const res = await ok(await sync(cookie, { cursor, children: [child(cid, before + YEAR, { meta: meta({ settings: { fontScale: 1.2 } }) })], records: [mRec(cid, "1:1", before + YEAR)] }));
     expect(res.children[0]!.updatedAt).toBeLessThanOrEqual(res.serverTime);
+    expect(res.children[0]!.meta.settings.fontScale).toBe(1.2);
     expect(res.records[0]!.updatedAt).toBeLessThanOrEqual(res.serverTime);
     const row = await db.prepare("SELECT updated_at FROM progress WHERE child_id = ?").bind(cid).first<{ updated_at: number }>();
     expect(row!.updated_at).toBeLessThanOrEqual(Date.now());
   });
 
   it("stores a repeated event once", async () => {
-    const { cookie } = await login();
+    const { cookie, email } = await login();
     const cid = crypto.randomUUID();
     const t = Date.now();
+    await ok(await adminSync(email, { children: [child(cid, t)] }));
     const e = recite(cid, t);
-    await ok(await sync(cookie, { children: [child(cid, t)], events: [e] }));
+    await ok(await sync(cookie, { events: [e] }));
     await ok(await sync(cookie, { events: [e, { ...e }] }));
     const n = await db.prepare("SELECT count(*) AS n FROM events WHERE id = ?").bind(e.id).first<{ n: number }>();
     expect(n!.n).toBe(1);
   });
 
   it("tombstones are final and purge data", async () => {
-    const { cookie } = await login();
+    const { cookie, email } = await login();
     const cid = crypto.randomUUID();
     const t = Date.now() - 10_000;
-    const first = await ok(await sync(cookie, { children: [child(cid, t)], records: [mRec(cid, "1:1", t)], events: [recite(cid, t)] }));
-    await ok(await sync(cookie, { children: [child(cid, t + 1, { deleted: true })] }));
+    await ok(await adminSync(email, { children: [child(cid, t)] }));
+    const first = await ok(await sync(cookie, { records: [mRec(cid, "1:1", t)], events: [recite(cid, t)] }));
+    await ok(await adminSync(email, { children: [child(cid, t + 1, { deleted: true })] }));
     const count = async (table: string) => (await db.prepare(`SELECT count(*) AS n FROM ${table} WHERE child_id = ?`).bind(cid).first<{ n: number }>())!.n;
     expect(await count("progress")).toBe(0);
     expect(await count("events")).toBe(0);
@@ -137,15 +145,17 @@ describe("POST /api/sync", () => {
     const b = await login();
     const cid = crypto.randomUUID();
     const t = Date.now() - 10_000;
-    await ok(await sync(a.cookie, { children: [child(cid, t)], records: [mRec(cid, "1:1", t, 3)] }));
+    await ok(await adminSync(a.email, { children: [child(cid, t)] }));
+    await ok(await sync(a.cookie, { records: [mRec(cid, "1:1", t, 3)] }));
     for (const body of [
       { children: [child(cid, t + 1, { meta: meta({ name: "Hacked" }) })] },
       { records: [mRec(cid, "1:1", t + 1, 99)] },
       { events: [recite(cid, t + 1)] },
     ]) {
-      const r = await sync(b.cookie, body);
-      expect(r.status).toBe(403);
-      expect((await r.json<ApiError>()).error).toBe("forbidden");
+      for (const r of [await sync(b.cookie, body), await adminSync(b.email, body)]) {
+        expect(r.status).toBe(403);
+        expect((await r.json<ApiError>()).error).toBe("forbidden");
+      }
     }
     const pull = await ok(await sync(a.cookie, {}));
     expect(pull.children[0]!.meta.name).toBe("Avi");
@@ -153,7 +163,7 @@ describe("POST /api/sync", () => {
   });
 
   it("enforces limits and validation", async () => {
-    const { cookie } = await login();
+    const { cookie, email } = await login();
     const cid = crypto.randomUUID();
     const t = Date.now();
     const many = Array.from({ length: 501 }, (_, i) => mRec(cid, `1:${i % 999}`, t));
@@ -180,21 +190,21 @@ describe("POST /api/sync", () => {
     await bad({ cursor: 0 });
 
     // Unknown properties are dropped, not stored.
-    await ok(await sync(cookie, { children: [{ ...child(cid, t), meta: { ...meta(), extra: 1 } as never }] }));
+    await ok(await adminSync(email, { children: [{ ...child(cid, t), meta: { ...meta(), extra: 1 } as never }] }));
     const stored = await db.prepare("SELECT data FROM children WHERE id = ?").bind(cid).first<{ data: string }>();
     expect(JSON.parse(stored!.data)).toEqual(meta());
   });
 
-  it("caps live children at 50", async () => {
-    const { cookie } = await login();
+  it("caps live children at 50 (parent sync)", async () => {
+    const { email } = await login();
     const t = Date.now();
     const fifty = Array.from({ length: 50 }, (_, i) => child(crypto.randomUUID(), t, { meta: meta({ sort: i }) }));
-    await ok(await sync(cookie, { children: fifty }));
-    const r = await sync(cookie, { children: [child(crypto.randomUUID(), t)] });
+    await ok(await adminSync(email, { children: fifty }));
+    const r = await adminSync(email, { children: [child(crypto.randomUUID(), t)] });
     expect(r.status).toBe(400);
     // Deleting one frees a slot.
-    await ok(await sync(cookie, { children: [{ ...fifty[0]!, updatedAt: t + 1, deleted: true }] }));
-    await ok(await sync(cookie, { children: [child(crypto.randomUUID(), t)] }));
+    await ok(await adminSync(email, { children: [{ ...fifty[0]!, updatedAt: t + 1, deleted: true }] }));
+    await ok(await adminSync(email, { children: [child(crypto.randomUUID(), t)] }));
   });
 
   it("a pull-only sync does not bump the revision", async () => {
