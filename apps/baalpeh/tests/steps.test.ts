@@ -1,6 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { MASECHTA } from "../src/data";
-import { buildSteps, groupIndexOf, groupRange, pathGroups, practiceLabel, segments, stepPosition, type PathNode } from "../src/steps";
+import { MASECHTA, mishnayosOf, PERAKIM } from "../src/data";
+import {
+  MAX_PEREK_PART, parseChainKey, perekParts, perekPathSteps, perekPhrases, perekPracticeLabel, perekSegs, perekSteps, stepsForCount,
+  type PerekStep,
+} from "../src/perekSteps";
+import {
+  buildSteps, groupIndexOf, groupRange, pathGroups, pathGroupsFor, practiceLabel, segments, stepPosition, type PathNode,
+} from "../src/steps";
 import type { Chunk } from "../src/types";
 
 /** n chunks with no sentence ends, so segments split evenly (15 → 5 + 5 + 5). */
@@ -116,5 +122,116 @@ describe("practice picker helpers", () => {
     const c = chunks(1);
     const groups = pathGroups(buildSteps(c), c);
     expect(practiceLabel(groups, { step: 1 })).toBe("piece 1 by heart");
+  });
+});
+
+// ───────────── perek build-up steps (docs/PEREK_BUILDUP.md §13, tests 1–6) ─────────────
+
+const keyOf = (s: PerekStep): string => (s.kind === "mishnah" ? `M${s.mishnah}` : `C${s.from}-${s.to}`);
+
+describe("perekSteps", () => {
+  it("builds a 5-mishnah perek as one cumulative chain", () => {
+    expect(mishnayosOf(1)).toHaveLength(5);
+    const steps = perekSteps(1);
+    expect(steps.map(keyOf)).toEqual(["M1", "M2", "C1-2", "M3", "C1-3", "M4", "C1-4", "M5", "C1-5"]);
+    expect(steps.map((s) => s.label)).toEqual([
+      "Mishnah 1", "Mishnah 2", "Mishnayos 1–2 together", "Mishnah 3", "Mishnayos 1–3 together",
+      "Mishnah 4", "Mishnayos 1–4 together", "Mishnah 5", "The whole perek!",
+    ]);
+    expect(steps.filter((s) => s.kind === "chain").every((s) => s.kind === "chain" && s.newest === s.to)).toBe(true);
+  });
+
+  it("builds an 8-mishnah perek in two parts, then joins them", () => {
+    expect(mishnayosOf(2)).toHaveLength(8);
+    const steps = perekSteps(2);
+    expect(steps.map(keyOf)).toEqual(["M1", "M2", "C1-2", "M3", "C1-3", "M4", "C1-4", "M5", "M6", "C5-6", "M7", "C5-7", "M8", "C5-8", "C1-8"]);
+    expect(steps.find((s) => keyOf(s) === "C5-7")?.label).toBe("Part 2 · Mishnayos 5–7 together");
+    expect(steps[steps.length - 1]?.label).toBe("The whole perek!");
+  });
+
+  it("labels non-final joins of a 3-part perek", () => {
+    const steps = stepsForCount(12);
+    expect(perekParts(12)).toEqual([[1, 4], [5, 8], [9, 12]]);
+    expect(steps.slice(-2).map((s) => [keyOf(s), s.label])).toEqual([["C1-8", "Parts 1–2 together"], ["C1-12", "The whole perek!"]]);
+  });
+});
+
+describe("perekParts", () => {
+  it("splits evenly by count, at most MAX_PEREK_PART each", () => {
+    expect(perekParts(1)).toEqual([[1, 1]]);
+    expect(stepsForCount(1).map(keyOf)).toEqual(["M1"]);
+    expect(perekParts(5)).toEqual([[1, 5]]);
+    expect(perekParts(6)).toEqual([[1, 3], [4, 6]]);
+    expect(perekParts(7)).toEqual([[1, 4], [5, 7]]);
+    expect(perekParts(8)).toEqual([[1, 4], [5, 8]]);
+    expect(perekParts(0)).toEqual([]);
+    for (let n = 1; n <= 40; n++) {
+      const parts = perekParts(n);
+      const covered = parts.flatMap(([a, b]) => Array.from({ length: b - a + 1 }, (_, i) => a + i));
+      expect(covered).toEqual(Array.from({ length: n }, (_, i) => i + 1));
+      for (const [a, b] of parts) {
+        expect(b - a + 1).toBeLessThanOrEqual(MAX_PEREK_PART);
+        if (n >= 6) expect(b - a + 1).toBeGreaterThanOrEqual(3);
+      }
+    }
+  });
+
+  it("every perek in the data: each mishnah once, chains after their mishnayos, ending with the whole perek", () => {
+    for (const perek of PERAKIM) {
+      const n = mishnayosOf(perek).length;
+      const steps = perekSteps(perek);
+      const ms = steps.filter((s) => s.kind === "mishnah").map((s) => (s.kind === "mishnah" ? s.mishnah : 0));
+      expect(ms).toEqual(Array.from({ length: n }, (_, i) => i + 1));
+      const seen = new Set<number>();
+      for (const s of steps) {
+        if (s.kind === "mishnah") { seen.add(s.mishnah); continue; }
+        for (let m = s.from; m <= s.to; m++) expect(seen.has(m)).toBe(true);
+      }
+      if (n >= 2) expect(steps[steps.length - 1]).toMatchObject({ kind: "chain", from: 1, to: n });
+    }
+  });
+});
+
+describe("perek path groups", () => {
+  it("covers every perek step once, in contiguous groups", () => {
+    for (const perek of PERAKIM) {
+      const steps = perekSteps(perek);
+      const groups = pathGroupsFor(perekPathSteps(steps), perekSegs(perek));
+      const seen = groups.flatMap((g) => stepNodes(g.nodes)).map((n) => (n.type === "partTile" ? -1 : n.step)).sort((a, b) => a - b);
+      expect(seen).toEqual(steps.map((_, i) => i));
+      for (const g of groups) {
+        const r = groupRange(g);
+        expect(r).not.toBeNull();
+        expect(g.steps).toEqual(Array.from({ length: r![1] - r![0] + 1 }, (_, i) => r![0] + i));
+      }
+      expect(groups).toHaveLength(perekParts(mishnayosOf(perek).length).length > 1 ? perekParts(mishnayosOf(perek).length).length + 1 : 1);
+    }
+  });
+
+  it("pathGroups is pathGroupsFor with the mishnah's segments", () => {
+    for (const m of MASECHTA.mishnayos) {
+      const steps = buildSteps(m.chunks);
+      expect(pathGroups(steps, m.chunks)).toEqual(pathGroupsFor(steps, segments(m.chunks)));
+    }
+  });
+});
+
+describe("perek helpers", () => {
+  it("names practice ranges", () => {
+    expect(perekPracticeLabel(2, 2, 2)).toBe("Mishnah 2");
+    expect(perekPracticeLabel(2, 1, 2)).toBe("Mishnayos 1–2 together");
+    expect(perekPracticeLabel(2, 1, 8)).toBe("The whole perek");
+  });
+
+  it("parses chain keys strictly", () => {
+    expect(parseChainKey("1-3")).toEqual([1, 3]);
+    expect(parseChainKey("4-4")).toEqual([4, 4]);
+    for (const bad of ["3-1", "0-2", "1-", "x", "1-2-3", "1234-5", 5, null, undefined, {}]) expect(parseChainKey(bad)).toBeNull();
+  });
+
+  it("splits the perek phrase by phrase", () => {
+    const text = perekPhrases(1);
+    expect(text.map((t) => t.mishnah)).toEqual([1, 2, 3, 4, 5]);
+    expect(text[0]?.phrases).toEqual(mishnayosOf(1)[0]?.chunks.map((c) => c.he));
   });
 });

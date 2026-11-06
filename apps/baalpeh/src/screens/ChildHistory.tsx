@@ -22,10 +22,14 @@ const where = (perek: number, mishnah: number | null) => (mishnah === null ? `Pe
 export function describeEvent(e: LearningEvent): string {
   switch (e.type) {
     case "recite": {
+      const span = e.mishnah === null && e.from !== undefined && e.to !== undefined
+        ? (e.from === e.to ? `mishnah ${e.from}` : `mishnayos ${e.from}–${e.to}`)
+        : null;
       const what = e.task === "learn" ? `Learned a piece of ${where(e.perek, e.mishnah)}`
         : e.task === "chain" ? `Said pieces of ${where(e.perek, e.mishnah)} together`
-        : e.task === "detour" ? `Extra practice on ${where(e.perek, e.mishnah)}`
-        : e.task === "practice" ? `Practiced ${where(e.perek, e.mishnah)} again`
+        : e.task === "detour" ? (span ? `Extra practice on Perek ${e.perek}, ${span}` : `Extra practice on ${where(e.perek, e.mishnah)}`)
+        : e.task === "practice" ? (span ? `Practiced Perek ${e.perek}, ${span}` : `Practiced ${where(e.perek, e.mishnah)} again`)
+        : e.task === "perek-chain" && span ? `Said Perek ${e.perek}, ${span} together`
         : e.task === "review-m" ? `Reviewed ${where(e.perek, e.mishnah)}`
         : e.task === "perek-chain" ? `Said Perek ${e.perek} in a row`
         : `Reviewed Perek ${e.perek}`;

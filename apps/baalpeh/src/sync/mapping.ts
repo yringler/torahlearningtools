@@ -1,12 +1,15 @@
 import type {
   ChildMeta, ChildRow, ChildSettings, Ms, MishnahProgressData, PerekProgressData, RecordRow, ReviewItemData,
 } from "../../shared/api";
+import { chainKey, parseChainKey } from "../perekSteps";
 import type { Profile } from "../types";
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 const M_KEY = /^\d{1,3}:\d{1,3}$/;
 const P_KEY = /^\d{1,3}$/;
 const COLOR = /^#[0-9a-fA-F]{6}$/;
+/** Server limit on PerekProgressData.chains (worker/lib/validate.ts). */
+const MAX_CHAINS = 64;
 
 const int = (v: unknown, lo: number, hi: number, dflt: number): number => {
   const n = typeof v === "number" && Number.isFinite(v) ? Math.round(v) : dflt;
@@ -55,10 +58,23 @@ export function cleanMishnah(m: MishnahProgressData): MishnahProgressData {
   return out;
 }
 
+/** Passed perek chain ranges as the server accepts them: valid "from-to" keys, deduped, sorted, at most 64. */
+function cleanChains(chains: unknown[]): string[] {
+  const seen = new Map<string, [number, number]>();
+  for (const k of chains) {
+    const r = parseChainKey(k);
+    if (r) seen.set(chainKey(r[0], r[1]), r);
+  }
+  return [...seen.values()].sort((x, y) => x[0] - y[0] || x[1] - y[1]).slice(0, MAX_CHAINS).map(([a, b]) => chainKey(a, b));
+}
+
 export function cleanPerek(p: PerekProgressData): PerekProgressData {
   const out: PerekProgressData = { chainedThrough: int(p.chainedThrough, 0, 999, 0), complete: p.complete === true };
   const review = cleanReview(p.review);
   if (review) out.review = review;
+  // Old-shape rows (no array) keep no `chains` key, so they round-trip unchanged.
+  const chains: unknown = (p as { chains?: unknown }).chains;
+  if (Array.isArray(chains)) out.chains = cleanChains(chains);
   return out;
 }
 

@@ -65,17 +65,42 @@ button { font: inherit; color: inherit; }
 .day { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--line); font-size: 11px; display: grid; place-items: center; }
 .day.on { background: var(--gold); border-color: var(--gold); }
 .masechta { font-family: var(--heb); text-align: center; font-size: 1.8rem; }
-.perek-map { display: flex; flex-direction: column; gap: 10px; }
-.perek-row { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 2px solid var(--line); border-radius: 18px; padding: 10px 12px; }
+/* the perek map: one centred column per perek, joined down the middle by a golden spine */
+.perek-map { display: flex; flex-direction: column; align-items: stretch; gap: 0; }
+.perek-row { display: flex; flex-direction: column; align-items: center; gap: 8px; background: var(--surface); border: 2px solid var(--line);
+  border-radius: 18px; padding: 8px 12px 12px; }
 .perek-row.complete { border-color: var(--gold); box-shadow: 0 0 0 2px var(--gold) inset; }
-.perek-label { font-family: var(--heb); font-size: 1.3rem; min-width: 72px; font-weight: 700; }
-.circles { display: flex; flex-wrap: wrap; gap: 10px; }
-.circle { position: relative; width: 52px; height: 52px; border-radius: 50%; border: 3px solid var(--line); background: transparent;
-  font-family: var(--heb); font-size: 1.25rem; font-weight: 700; cursor: pointer; }
+.perek-row.current { border-color: var(--accent); }
+.perek-head { display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 4px 14px; border: 0; border-radius: 14px;
+  background: transparent; cursor: pointer; touch-action: manipulation; }
+.perek-head:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.perek-head:active { background: var(--line); }
+.perek-head .ring { position: relative; display: inline-block; width: 36px; height: 36px; border-radius: 50%; flex: none; }
+.perek-head .ring i { position: absolute; inset: 5px; border-radius: 50%; background: var(--surface); }
+.perek-head .perek-done { color: var(--gold); font-weight: 900; font-size: 1.2rem; }
+.perek-head .chev { color: var(--muted); font-size: 1.4rem; font-weight: 800; }
+.perek-label { font-family: var(--heb); font-size: 1.3rem; font-weight: 700; }
+.spine { align-self: center; width: 0; height: 22px; border-inline-start: 4px dotted var(--line); }
+.spine.done { border-inline-start: 6px solid var(--gold); }
+.circle { position: relative; display: inline-grid; place-items: center; box-sizing: border-box; width: 52px; height: 52px; border-radius: 50%;
+  border: 3px solid var(--line); background: transparent; font-family: var(--heb); font-size: 1.25rem; font-weight: 700; cursor: pointer; flex: none; }
+span.circle { cursor: default; }
 .circle.learning { border-color: var(--learning); background: linear-gradient(to top, var(--learning) 45%, transparent 45%); }
 .circle.known, .circle.solid { border-color: var(--known); background: var(--known); color: var(--accent-ink); }
+.circle.here { box-shadow: 0 0 0 4px var(--gold); animation: breathe 1.6s ease-in-out infinite; }
 .circle .star { position: absolute; top: -10px; left: -6px; color: var(--gold); font-size: 0.9rem; text-shadow: 0 0 2px var(--bg); }
-.circle .link { position: absolute; right: -12px; top: 50%; width: 12px; height: 4px; background: var(--gold); }
+/* a perek strip: circle, join, circle … right to left; a join stays on the line with the circle after it */
+.strip { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; row-gap: 10px; }
+.strip .mseg { display: inline-flex; align-items: center; white-space: nowrap; }
+.join { display: inline-block; width: 14px; height: 0; border-top: 4px dotted var(--muted); opacity: 0.6; }
+.join.done, .join.here { opacity: 1; }
+.join.done { border-top: 6px solid var(--gold); }
+.join.here { border-top: 6px dashed var(--gold); animation: breathe 1.6s ease-in-out infinite; }
+.join.just { animation: snap 0.35s ease-out; transform-origin: right; }
+.strip.big { margin: 6px 0; }
+.strip.big .circle { width: 44px; height: 44px; font-size: 1.1rem; }
+.strip.big .join { width: 16px; }
+.celebrate-strip { align-self: stretch; }
 
 /* practice */
 .task-title { font-family: var(--heb); text-align: center; font-size: 1.6rem; }
@@ -132,7 +157,40 @@ button.hit:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; 
 }
 @media (prefers-reduced-motion: reduce) {
   .tile.current .face, .link.current .bar, .link.done.just .bar, .cap.current .face, .part.just { animation: none; }
+  .circle.here, .join.here, .join.just { animation: none; }
 }
+/* the perek path: round Hebrew-numbered mishnah tiles, gold links once said together, 🎯 at the end */
+.chain.perek { --tile: 42px; --link: 24px; }
+.chain.perek .tile .face { border-radius: 50%; font-family: var(--heb); }
+.chain.perek .link.done .bar { border-top-color: var(--gold); }
+.chain.perek .tile.partial .face { border: 2px solid var(--learning); background: linear-gradient(to top, var(--learning) 50%, var(--surface) 50%); color: var(--ink); }
+.chain.perek .link.locked .bar { border-top: 4px dashed var(--line); }
+.chain.perek .link .lock { position: absolute; top: -2px; font-size: 0.7rem; }
+.chain.perek .hit.selected { box-shadow: 0 0 0 3px var(--accent); }
+.chain.perek .cap.target { width: 44px; }
+.chain.perek .cap.target .face { width: 38px; height: 38px; color: inherit; font-size: 1.2rem; opacity: 0.55; }
+.chain.perek .cap.target.current .face, .chain.perek .cap.target.done .face { opacity: 1; }
+.part.selected { box-shadow: 0 0 0 3px var(--accent); }
+/* perek screen */
+.perek-list { list-style: none; padding: 0; margin: 18px 0 0; display: flex; flex-direction: column; gap: 6px; }
+.perek-list-row { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 64px; padding: 6px 10px; border: 2px solid var(--line);
+  border-radius: 14px; background: var(--surface); cursor: pointer; text-align: start; }
+.perek-list-row:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.perek-list-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.perek-list-text .opening { font-family: var(--heb); font-size: 1.25rem; }
+.perek-list-text .gist { color: var(--muted); font-size: 0.95rem; text-align: start; }
+/* multi-mishnah recites: one labelled section per mishnah, compact phrase pills */
+.mcard { background: var(--surface); border: 2px solid var(--line); border-radius: 18px; padding: 6px 12px 10px; }
+.mcard-label { font-size: 1rem; color: var(--muted); font-weight: 700; }
+.cards.compact { flex-direction: row; flex-wrap: wrap; gap: 6px 6px; }
+.cards.compact .card { display: inline-block; font-size: calc(1.6rem * var(--scale)); line-height: 2; padding: 2px 10px; min-height: 0; border-radius: 12px; }
+.cards.compact .card.cue-4 { border-style: dashed; min-width: 3.5em; min-height: calc(1.6rem * var(--scale) * 2 + 8px); }
+.pager { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
+.pager-count { color: var(--muted); font-weight: 700; text-align: center; flex: 1; }
+.perek-ready { display: flex; flex-direction: column; gap: 12px; }
+.perek-ready .celebrate { padding-top: 3vh; }
+.look-over summary { cursor: pointer; font-weight: 700; text-align: center; min-height: 40px; padding: 8px; }
+.look-over .mcard { margin-top: 8px; }
 
 .recite { display: flex; flex-direction: column; align-items: stretch; gap: 14px; }
 .prompt { text-align: center; font-size: 1.25rem; font-weight: 700; }
@@ -225,7 +283,6 @@ input[type="text"], input:not([type]), input[type="number"], select { font: inhe
 @media (max-width: 520px) {
   .card { font-size: calc(1.8rem * var(--scale)); padding: 4px 12px; }
   .circle { width: 44px; height: 44px; font-size: 1.05rem; }
-  .perek-row { flex-direction: column; align-items: flex-start; }
   .btn.big { min-width: 0; width: 100%; }
 }
 .parts { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 4px 0; }
@@ -240,6 +297,13 @@ input[type="text"], input:not([type]), input[type="number"], select { font: inhe
 .part.current { border-color: var(--gold); border-width: 3px; color: var(--ink); }
 .part.just { animation: pop 0.6s ease-out; }
 .day.shabbos { border-style: dashed; }
+@media (max-width: 400px) {
+  /* 8 circles (one perek row) fit about 360px */
+  .perek-row { padding-inline: 6px; }
+  .strip .circle, .strip.big .circle { width: 34px; height: 34px; font-size: 0.95rem; border-width: 2px; }
+  .strip .join, .strip.big .join { width: 7px; }
+  .chain.perek { --tile: 34px; --link: 14px; }
+}
 
 /* meaning views */
 .meaning.steinsaltz { font-weight: 400; line-height: 1.6; }

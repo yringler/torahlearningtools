@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import type { User } from "../shared/api";
-import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
+import { dueReviews, isKnown, mp, nextInPerek, nextLearning, type Task } from "./progress";
 import { Home } from "./screens/Home";
 import { ImportPrompt } from "./screens/ImportPrompt";
 import { MishnahScreen } from "./screens/MishnahScreen";
+import { PerekScreen } from "./screens/PerekScreen";
 import { Parent } from "./screens/Parent";
 import { Profiles } from "./screens/Profiles";
 import { GuestApp } from "./GuestApp";
@@ -19,8 +20,12 @@ type Screen =
   /** Guest: a fresh local-only learner, never part of the account; forgotten on leaving. */
   | { s: "guest" }
   | { s: "home"; id: string }
-  | { s: "mishnah"; id: string; perek: number; mishnah: number; group?: number }
-  | { s: "session"; id: string; tasks: Task[]; continueLearning: boolean; back: Screen };
+  /** `from: "perek"`: opened from the perek screen, so Back returns there. */
+  | { s: "mishnah"; id: string; perek: number; mishnah: number; group?: number; from?: "perek" }
+  /** A perek's build-up. `group`/`sel` restore the path shown and the selection when coming back from a session. */
+  | { s: "perek"; id: string; perek: number; group?: number; sel?: string }
+  /** `scopePerek`: started from the perek screen, so "keep going" stays inside that perek. */
+  | { s: "session"; id: string; tasks: Task[]; continueLearning: boolean; back: Screen; scopePerek?: number };
 
 interface Props {
   user: User;
@@ -103,6 +108,7 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
         profile={profile}
         onBack={() => setScreen({ s: "profiles" })}
         onOpenMishnah={(perek, mishnah) => setScreen({ s: "mishnah", id: profile.id, perek, mishnah })}
+        onOpenPerek={(perek) => setScreen({ s: "perek", id: profile.id, perek })}
         onStart={() => {
           const next = nextLearning(profile);
           const tasks = [...dueReviews(profile), ...(next ? [next] : [])];
@@ -121,7 +127,8 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
         profile={profile}
         perek={perek}
         mishnah={mishnah}
-        onBack={() => setScreen({ s: "home", id: profile.id })}
+        onBack={() => setScreen(screen.from === "perek" ? { s: "perek", id: profile.id, perek } : { s: "home", id: profile.id })}
+        {...(screen.from === "perek" ? { backLabel: "‹ Perek" } : {})}
         onPractice={() => go({ type: "learn", perek, mishnah })}
         onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
         onReview={() => (isKnown(st) ? go({ type: "review-m", perek, mishnah }) : go({ type: "learn", perek, mishnah }))}
@@ -132,6 +139,25 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
     );
   }
 
+  if (screen.s === "perek") {
+    const { perek } = screen;
+    return (
+      <PerekScreen
+        key={perek}
+        profile={profile}
+        perek={perek}
+        group={screen.group}
+        sel={screen.sel}
+        onBack={() => setScreen({ s: "home", id: profile.id })}
+        onOpenMishnah={(mishnah) => setScreen({ s: "mishnah", id: profile.id, perek, mishnah, from: "perek" })}
+        onStart={(task, ui) =>
+          setScreen({ s: "session", id: profile.id, tasks: [task], continueLearning: false, scopePerek: perek, back: { s: "perek", id: profile.id, perek, ...ui } })}
+      />
+    );
+  }
+
+  const scope = screen.scopePerek;
+  const more = scope !== undefined ? (p: Profile) => nextInPerek(p, scope) : screen.continueLearning ? nextLearning : undefined;
   return (
     <Session
       key={JSON.stringify(screen.tasks)}
@@ -141,7 +167,8 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
       onEvent={(body) => addEvent(profile.id, body)}
       onExit={() => setScreen(screen.back)}
       onMap={() => setScreen({ s: "home", id: profile.id })}
-      {...(screen.continueLearning ? { more: nextLearning } : {})}
+      {...(more ? { more } : {})}
+      {...(scope !== undefined ? { upNextOf: (p: Profile) => nextInPerek(p, scope) } : {})}
     />
   );
 }

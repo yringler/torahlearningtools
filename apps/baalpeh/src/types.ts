@@ -61,10 +61,16 @@ export interface MishnahProgress {
 }
 
 export interface PerekProgress {
-  /** Highest mishnah k for which the chain [1..k] has been parent-checked. */
+  /** Longest passed chain [1..k]. Still maintained, for older clients and as legacy input (see chainSatisfied). */
   chainedThrough: number;
+  /**
+   * Finished the build-up and passed the end-of-perek gate (today: the in-app parent check).
+   * Read only through perekStage()/perekDone().
+   */
   complete: boolean;
   review?: ReviewItem;
+  /** Passed build-up chain ranges, "from-to" (1-based), sorted, none contained in another. Absent on older data. */
+  chains?: string[];
 }
 
 export interface Settings {

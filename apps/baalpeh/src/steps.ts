@@ -101,8 +101,10 @@ export interface PathGroup {
 }
 
 /** Groups the steps into drawable parts: one per segment, then (for 2+ segments) the join group. */
-export function pathGroups(steps: Step[], chunks: Chunk[]): PathGroup[] {
-  const segs = segments(chunks);
+export const pathGroups = (steps: Step[], chunks: Chunk[]): PathGroup[] => pathGroupsFor(steps, segments(chunks));
+
+/** pathGroups() for any segmentation (the perek path passes its parts, 0-based). */
+export function pathGroupsFor(steps: Step[], segs: Array<[number, number]>): PathGroup[] {
   const keys = steps.map((s) => groupOf(s, segs));
   const groups: PathGroup[] = segs.map(([a, b], si) => {
     const nodes: PathNode[] = [];

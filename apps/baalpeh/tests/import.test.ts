@@ -43,6 +43,14 @@ describe("normalizeProfile", () => {
     expect(set.settings).toEqual({ fontScale: 1, breakMinutes: 20 });
   });
 
+  it("keeps perek chains, and the import rows carry them", () => {
+    const old = kid("Dina", { perakim: { "2": { chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] } } });
+    const p = normalizeProfile(old, 0);
+    expect(p.perakim["2"]?.chains).toEqual(["1-4", "5-6"]);
+    const s = importLegacy(store(), [p], 1000, () => "uuid-9-xxxx");
+    expect(s.pending.records["uuid-9-xxxx|p|2"]?.data).toEqual({ chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] });
+  });
+
   it("drops progress entries that are not objects", () => {
     const m = { stepIndex: 1, state: "learning", fails: {} };
     const p = normalizeProfile({ id: "x1234567", name: "Z", mishnayos: { "1:1": null, "1:2": 5, "1:3": m }, perakim: { "1": null } } as unknown as Profile, 0);

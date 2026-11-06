@@ -132,9 +132,13 @@ export interface MishnahProgressData {
 }
 
 export interface PerekProgressData {
+  /** Longest passed chain [1..k]. Still maintained, for older clients and as legacy input. */
   chainedThrough: number;
+  /** Finished the build-up and passed the end-of-perek gate (today: the in-app parent check). */
   complete: boolean;
   review?: ReviewItemData;
+  /** Passed build-up chain ranges, "from-to" (1-based), sorted, none contained in another. Absent on older data. */
+  chains?: string[];
 }
 
 export interface ChildSettings {
@@ -206,6 +210,9 @@ export interface ReciteEvent {
   peeks: number;
   /** Time spent on this recitation. */
   ms: number;
+  /** Perek-level recites (mishnah null): the 1-based mishnah range said. Absent on older events. */
+  from?: number;
+  to?: number;
 }
 
 export interface CheckEvent {

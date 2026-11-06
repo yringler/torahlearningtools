@@ -5,7 +5,7 @@ import { BreakSetting } from "../components/BreakSetting";
 import { AboutNote, LicensesLink, PricingNote } from "../components/Licenses";
 import { MASECHTA, mishnayosOf, PERAKIM } from "../data";
 import { copyAsNew, normalizeProfile } from "../legacy/import";
-import { dueReviews, isKnown, mp, pp, resetMishnah } from "../progress";
+import { dueReviews, isKnown, mp, perekDone, resetMishnah } from "../progress";
 import { EMOJIS, isAppState, newProfile } from "../storage";
 import type { SyncStatus } from "../sync/engine";
 import type { ProfilesUpdate } from "../sync/useAccount";
@@ -224,7 +224,7 @@ function ChildCard({ p, onChange, onDelete, onReset, online }: {
   const [open, setOpen] = useState<"settings" | "history" | null>(null);
   const known = Object.values(p.mishnayos).filter(isKnown).length;
   const total = MASECHTA.mishnayos.length;
-  const perakimDone = PERAKIM.filter((x) => pp(p, x).complete).length;
+  const perakimDone = PERAKIM.filter((x) => perekDone(p, x)).length;
   const set = <K extends keyof Profile["settings"]>(k: K, v: Profile["settings"][K]) => onChange({ ...p, settings: { ...p.settings, [k]: v } });
   const toggle = (v: "settings" | "history") => setOpen(open === v ? null : v);
   return (

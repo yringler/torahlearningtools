@@ -34,8 +34,22 @@ Each mishnah is cut into child-sized **pieces** (2–6 words, split at natural p
 ```
 piece 1 → piece 2 → 1+2 → piece 3 → 1–3 → … → whole part
 (long mishnah) part 2 the same way → parts 1+2 → … → whole mishnah → parent check ✓
-mishnayos 1–2 in a row → 1–3 in a row → … → whole perek in one shot (parent check) = perek complete
 ```
+
+A **perek** is built up the same way, with mishnayos in place of pieces:
+
+```
+mishnah 1 → mishnah 2 → 1+2 → mishnah 3 → 1–3 → … → whole perek → 🎯 "I'm ready to be tested" (parent check) = perek complete
+```
+
+Perakim longer than 5 mishnayos are split evenly into parts (8 → 4+4), each part is built up, then the parts are
+joined (1–8). Saying mishnayos together is self-checked like a chain inside a mishnah; the one parent check is at the
+end of the perek. On the map, each perek row has a progress ring and its mishnah circles joined by golden threads (gold
+once those two mishnayos were said together), with a golden spine down to the next perek. Tapping the perek opens the
+**perek screen**: its step path, where tapping selects "mishnah 2 alone", "mishnayos 1–2 together", a whole part or the
+🎯 test, and one button runs it (practice of known mishnayos changes no progress). Older saved progress is read as it is:
+"mishnayos 1–k in a row" counts for every chain inside 1–k, and a finished perek stays finished. See
+[`docs/PEREK_BUILDUP.md`](docs/PEREK_BUILDUP.md).
 
 Hints fade as the child learns:
 
@@ -49,7 +63,7 @@ Hints fade as the child learns:
 Without speech recognition, honesty comes from **peeks**: tapping a hidden card shows it for 2 seconds and is counted.
 A clean round passes. One peek means repeat once. Two or more steps back a hint level, and after three misses the
 app runs extra practice on the hardest piece together with the one before it. The "I said it" button is locked for a few seconds so it
-can't be tapped through. At the end of every mishnah and every "in a row" chain, a **parent check** screen shows the
+can't be tapped through. At the end of every mishnah and at the end of every perek, a **parent check** screen shows the
 parent the full text. The parent taps any words the child slipped on, then grades the recitation.
 
 **Review**: known mishnayos come back after 1, 3, 7, 14, 30, 60 days (Leitner boxes). Once a perek is complete, the

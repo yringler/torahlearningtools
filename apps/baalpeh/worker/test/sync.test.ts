@@ -50,6 +50,32 @@ describe("POST /api/sync", () => {
     expect(ev!.n).toBe(2);
   });
 
+  it("carries perek chains from one device to another", async () => {
+    const { cookie } = await login();
+    const cid = crypto.randomUUID();
+    const t = Date.now() - 10_000;
+    const rec: RecordRow = { kind: "p", childId: cid, key: "2", updatedAt: t, data: { chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] } };
+    await ok(await sync(cookie, { children: [child(cid, t)], records: [rec] }));
+    const b = await ok(await sync(cookie, { cursor: 0 }));
+    expect(b.records.find((r) => r.kind === "p" && r.key === "2")).toEqual(rec);
+  });
+
+  it("keeps stored chains when an old client pushes a perek without them; an empty list clears them", async () => {
+    const { cookie } = await login();
+    const cid = crypto.randomUUID();
+    const t = Date.now() - 10_000;
+    const withChains: RecordRow = { kind: "p", childId: cid, key: "2", updatedAt: t, data: { chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] } };
+    await ok(await sync(cookie, { children: [child(cid, t)], records: [withChains] }));
+    // An old cached client: newer, but it drops the unknown field.
+    await ok(await sync(cookie, { records: [{ kind: "p", childId: cid, key: "2", updatedAt: t + 5, data: { chainedThrough: 4, complete: false } }] }));
+    const kept = await ok(await sync(cookie, { cursor: 0 }));
+    expect(kept.records.find((r) => r.kind === "p" && r.key === "2")).toEqual({ ...withChains, updatedAt: t + 5 });
+    // A new client clearing them on purpose.
+    await ok(await sync(cookie, { records: [{ kind: "p", childId: cid, key: "2", updatedAt: t + 9, data: { chainedThrough: 4, complete: false, chains: [] } }] }));
+    const cleared = await ok(await sync(cookie, { cursor: 0 }));
+    expect(cleared.records.find((r) => r.kind === "p" && r.key === "2")?.data).toEqual({ chainedThrough: 4, complete: false, chains: [] });
+  });
+
   it("last write wins, and the response corrects a losing push", async () => {
     const { cookie } = await login();
     const cid = crypto.randomUUID();

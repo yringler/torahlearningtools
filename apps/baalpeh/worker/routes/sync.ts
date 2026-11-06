@@ -124,7 +124,12 @@ syncRoutes.post("/sync", requireUser, async (c) => {
              WHERE u.id = ?2
                AND EXISTS (SELECT 1 FROM children c WHERE c.id = ?1 AND c.user_id = ?2 AND c.deleted = 0)
              ON CONFLICT(child_id, kind, key) DO UPDATE SET
-               data = excluded.data, updated_at = excluded.updated_at, rev = excluded.rev
+               data = CASE WHEN excluded.kind = 'p'
+                             AND json_type(excluded.data, '$.chains') IS NULL
+                             AND json_type(progress.data, '$.chains') IS NOT NULL
+                           THEN json_set(excluded.data, '$.chains', json(json_extract(progress.data, '$.chains')))
+                           ELSE excluded.data END,
+               updated_at = excluded.updated_at, rev = excluded.rev
              WHERE excluded.updated_at > progress.updated_at`,
           )
           .bind(r.childId, U, r.kind, r.key, JSON.stringify(r.data), r.updatedAt),

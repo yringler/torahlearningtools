@@ -589,3 +589,19 @@ data = CASE WHEN excluded.kind = 'p'
 ### Overall
 
 `npm test` and `npm run build` must pass. `_typesMatchShared` must still compile.
+
+## 14. Implementation notes (deviations from the text above)
+
+These are the places where the implementation differs from or fills in this spec, and why.
+
+1. **Strip segment class**: `PerekStrip` uses `span.mseg` instead of `span.seg`. `.seg` is already the segmented-control class in `styles.css` (`.seg button { border: none; padding … }`), which would have restyled the circle buttons.
+2. **`ReciteSection.end` is exclusive** (`cards[start..end)`). §6.2 does not say. The paging rule lives in an exported pure helper, `recitePages(cardCount, sections)`.
+3. **Test 28**: the client suite has no DOM. `tests/recite.test.ts` covers `recitePages` and renders `Recite` with `react-dom/server`: with 3 sections the first page shows `Mishnah 1 of 3` and `‹ Next mishnah` and no `✓ I said it`, while 2 small sections show everything and `✓ I said it`. The click from page to page is not exercised.
+4. **Cue phases for `C1..n` of a one-part perek**: these use the join phases (first phrase of each mishnah at L3, the rest at L4), because §6.1 lists `C1..n` on the join row. A detour that covers a single mishnah warms up at L2.
+5. **`.perek-row.current`** is set when `nextLearning`'s task belongs to that perek, whatever the task type. `.circle.here` is still set only for a `learn` task, as in §4. Without this, the current perek row has no highlight during a chain step or `perek-finish`.
+6. **Chain-passed title** is `Mishnayos 1–3 together!`. The single ⭐ comes from `stars: 1`, the same way every other celebration draws its stars. A non-final join of a 3+-part perek keeps the ordinary title and does not count as a "part done" stop.
+7. **Sessions started from the perek screen** all get `scopePerek`, practice included, so "keep going" stays inside the perek.
+8. **`perek-finish` while still building** (a stale task) shows "Finish every step first" with a button for the frontier task. It never calls `checkPerek`.
+9. **The cap** on a non-final group is a non-tappable ✓, as in StepPath. Only the last group's cap is 🎯 and selectable. When the stage is "complete", the cap selection shows the frontier action (review).
+10. **A part pill whose mishnayos are not all known** gets the caption `Learn mishnah k first` and no button. §5.3 covers only the case where all are known.
+11. **The `setStep` test** "starts a new mishnah, so nextLearning resumes it" now uses mishnah 1. A "learning" mishnah beyond the frontier is no longer scheduled first (§3.2, accepted behaviour change), and test 13 covers that.

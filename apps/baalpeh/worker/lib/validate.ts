@@ -243,7 +243,24 @@ function perekData(v: unknown, path: string): PerekProgressData {
     complete: bool(o.complete, `${path}.complete`),
   };
   if (o.review !== undefined) out.review = review(o.review, `${path}.review`);
+  if (o.chains !== undefined) out.chains = chains(o.chains, `${path}.chains`);
   return out;
+}
+
+const CHAIN_RE = /^(\d{1,3})-(\d{1,3})$/;
+const MAX_CHAINS = 64;
+
+/** Passed perek build-up ranges: "from-to" strings with 1 <= from <= to (docs/PEREK_BUILDUP.md §9). */
+function chains(v: unknown, path: string): string[] {
+  const list = arr(v, path);
+  if (list.length > MAX_CHAINS) throw new Invalid(`${path} has too many entries`);
+  return list.map((k, i) => {
+    const m = typeof k === "string" ? CHAIN_RE.exec(k) : null;
+    const from = m ? Number(m[1]) : 0;
+    const to = m ? Number(m[2]) : 0;
+    if (!m || from < 1 || from > to) throw new Invalid(`${path}[${i}] must be "from-to" with 1 <= from <= to`);
+    return k as string;
+  });
 }
 
 function recordRow(v: unknown, path: string): RecordRow {
@@ -270,8 +287,8 @@ function recordRow(v: unknown, path: string): RecordRow {
 
 function eventBody(o: Obj, path: string): LearningEventBody {
   switch (o.type) {
-    case "recite":
-      return {
+    case "recite": {
+      const out: LearningEventBody = {
         type: "recite",
         task: oneOf(o.task, `${path}.task`, ["learn", "chain", "detour", "practice", "review-m", "perek-chain", "review-p"]),
         perek: int(o.perek, `${path}.perek`, 0, 999),
@@ -281,6 +298,12 @@ function eventBody(o: Obj, path: string): LearningEventBody {
         peeks: int(o.peeks, `${path}.peeks`, 0, 10_000),
         ms: int(o.ms, `${path}.ms`, 0, 10_800_000),
       };
+      // Perek-level recites name the mishnah range said (optional; older events have none).
+      if (o.from !== undefined) out.from = int(o.from, `${path}.from`, 1, 999);
+      if (o.to !== undefined) out.to = int(o.to, `${path}.to`, 1, 999);
+      if (out.from !== undefined && out.to !== undefined && out.from > out.to) throw new Invalid(`${path}.from must be <= ${path}.to`);
+      return out;
+    }
     case "check": {
       const slipped = arr(o.slipped, `${path}.slipped`);
       if (slipped.length > 200) throw new Invalid(`${path}.slipped has too many entries`);

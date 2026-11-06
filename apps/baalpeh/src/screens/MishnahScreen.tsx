@@ -5,7 +5,7 @@ import { Meaning, SteinsaltzText, ViewToggle } from "../components/Meaning";
 import { StepPath } from "../components/StepPath";
 import { WordPanel } from "../components/WordPanel";
 import { getMishnah, hebNum, MASECHTA } from "../data";
-import { isKnown, mp, pp } from "../progress";
+import { isKnown, mp, perekDone } from "../progress";
 import { isDue } from "../srs";
 import { buildSteps, groupIndexOf, groupRange, pathGroups, practiceLabel } from "../steps";
 import { SOURCES } from "../sources";
@@ -23,10 +23,12 @@ interface Props {
   /** Part shown in the practice picker when the screen opens (e.g. coming back from practice). */
   group?: number;
   onBack: () => void;
+  /** The back button's text (default "‹ Map"; "‹ Perek" when opened from the perek screen). */
+  backLabel?: string;
   onView: (v: MeaningView) => void;
 }
 
-export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, onPracticeRange, group, onBack, onView }: Props) {
+export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, onPracticeRange, group, onBack, backLabel = "‹ Map", onView }: Props) {
   const m = getMishnah(perek, mishnah);
   const steps = buildSteps(m.chunks);
   const st = mp(profile, perek, mishnah);
@@ -50,7 +52,7 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
   return (
     <div className="mishnah-screen">
       <div className="topbar" dir="ltr">
-        <button className="btn ghost-btn small" onClick={onBack}>‹ Map</button>
+        <button className="btn ghost-btn small" onClick={onBack}>{backLabel}</button>
         <span className="who" style={{ color: profile.color }}>{profile.emoji} {profile.name}</span>
       </div>
       <h2 className="task-title">{MASECHTA.masechta} {hebNum(perek)}:{hebNum(mishnah)}</h2>
@@ -60,7 +62,7 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
         {isKnown(st) ? (
           <button className="btn primary big" onClick={onReview}>
             🔁 Review it
-            {isDue(st.review) && !pp(profile, perek).complete && <span className="sub">due today</span>}
+            {isDue(st.review) && !perekDone(profile, perek) && <span className="sub">due today</span>}
           </button>
         ) : (
           <button className="btn primary big" onClick={onPractice}>

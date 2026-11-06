@@ -6,7 +6,7 @@ import {
   SESSION_GUEST_ID, sessionGuest, UNREADABLE_BACKUP_KEY,
 } from "../src/guest";
 import { importDefaults, importLegacy, normalizeProfile } from "../src/legacy/import";
-import { completeStep } from "../src/progress";
+import { completeStep, passPerekChain } from "../src/progress";
 import { isAppState, KEY as LEGACY_KEY } from "../src/storage";
 import type { KV } from "../src/sync/store";
 import { kid, store } from "./helpers";
@@ -75,6 +75,13 @@ describe("guest progress (v1 format)", () => {
     const back = loadGuest(kv);
     expect(back.mishnayos["1:1"]).toMatchObject({ stepIndex: 1, state: "learning" });
     expect(back.settings.meaningView).toBe("steinsaltz");
+  });
+
+  it("round-trips a perek's chains", () => {
+    const kv = memKV();
+    const p = passPerekChain(blankGuest(), 2, 5, 6);
+    saveGuest(kv, p);
+    expect(loadGuest(kv).perakim["2"]).toEqual({ chainedThrough: 0, complete: false, chains: ["5-6"] });
   });
 
   it("ignores a corrupt v1 value", () => {

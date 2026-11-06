@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { loadGuest, saveGuest, sessionGuest } from "./guest";
 import { kv } from "./kv";
-import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
+import { dueReviews, isKnown, mp, nextInPerek, nextLearning, type Task } from "./progress";
 import { BreakSetting } from "./components/BreakSetting";
 import { AboutNote, LicensesLink, PricingNote } from "./components/Licenses";
 import { Home } from "./screens/Home";
 import { MishnahScreen } from "./screens/MishnahScreen";
+import { PerekScreen } from "./screens/PerekScreen";
 import { Session } from "./screens/Session";
 import { requestPersist } from "./storage";
 import type { Profile } from "./types";
@@ -13,8 +14,12 @@ import type { Profile } from "./types";
 type Screen =
   | { s: "home" }
   | { s: "settings" }
-  | { s: "mishnah"; perek: number; mishnah: number; group?: number }
-  | { s: "session"; tasks: Task[]; continueLearning: boolean; back: Screen };
+  /** `from: "perek"`: opened from the perek screen, so Back returns there. */
+  | { s: "mishnah"; perek: number; mishnah: number; group?: number; from?: "perek" }
+  /** A perek's build-up. `group`/`sel` restore the path shown and the selection when coming back from a session. */
+  | { s: "perek"; perek: number; group?: number; sel?: string }
+  /** `scopePerek`: started from the perek screen, so "keep going" stays inside that perek. */
+  | { s: "session"; tasks: Task[]; continueLearning: boolean; back: Screen; scopePerek?: number };
 
 /**
  * Where guest mode was opened from, which decides what it keeps:
@@ -65,6 +70,7 @@ export function GuestApp({ onSignIn, onExit }: Props) {
         profile={profile}
         {...(onExit ? { onBack: onExit } : {})}
         onOpenMishnah={(perek, mishnah) => setScreen({ s: "mishnah", perek, mishnah })}
+        onOpenPerek={(perek) => setScreen({ s: "perek", perek })}
         onStart={() => {
           const next = nextLearning(profile);
           const tasks = [...dueReviews(profile), ...(next ? [next] : [])];
@@ -81,7 +87,8 @@ export function GuestApp({ onSignIn, onExit }: Props) {
         profile={profile}
         perek={perek}
         mishnah={mishnah}
-        onBack={() => setScreen({ s: "home" })}
+        onBack={() => setScreen(screen.from === "perek" ? { s: "perek", perek } : { s: "home" })}
+        {...(screen.from === "perek" ? { backLabel: "‹ Perek" } : {})}
         onPractice={() => go({ type: "learn", perek, mishnah })}
         onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
         onReview={() => (isKnown(st) ? go({ type: "review-m", perek, mishnah }) : go({ type: "learn", perek, mishnah }))}
@@ -90,7 +97,24 @@ export function GuestApp({ onSignIn, onExit }: Props) {
         {...(screen.group !== undefined ? { group: screen.group } : {})}
       />
     );
+  } else if (screen.s === "perek") {
+    const { perek } = screen;
+    body = (
+      <PerekScreen
+        key={perek}
+        profile={profile}
+        perek={perek}
+        group={screen.group}
+        sel={screen.sel}
+        onBack={() => setScreen({ s: "home" })}
+        onOpenMishnah={(mishnah) => setScreen({ s: "mishnah", perek, mishnah, from: "perek" })}
+        onStart={(task, ui) =>
+          setScreen({ s: "session", tasks: [task], continueLearning: false, scopePerek: perek, back: { s: "perek", perek, ...ui } })}
+      />
+    );
   } else {
+    const scope = screen.scopePerek;
+    const more = scope !== undefined ? (p: Profile) => nextInPerek(p, scope) : screen.continueLearning ? nextLearning : undefined;
     body = (
       <Session
         key={JSON.stringify(screen.tasks)}
@@ -99,7 +123,8 @@ export function GuestApp({ onSignIn, onExit }: Props) {
         onProfile={setProfile}
         onExit={() => setScreen(screen.back)}
         onMap={() => setScreen({ s: "home" })}
-        {...(screen.continueLearning ? { more: nextLearning } : {})}
+        {...(more ? { more } : {})}
+        {...(scope !== undefined ? { upNextOf: (p: Profile) => nextInPerek(p, scope) } : {})}
       />
     );
   }
