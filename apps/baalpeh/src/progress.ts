@@ -169,11 +169,17 @@ export function perekStage(p: Profile, perek: number): PerekStage {
 
 export const perekDone = (p: Profile, perek: number): boolean => perekStage(p, perek) === "complete";
 
-/** A mishnah step can always start; a chain only once every mishnah in it is known. */
+/**
+ * A mishnah step can always start. A chain needs every mishnah in it known, and (for a step of this perek's build-up)
+ * the build-up must have reached it: every earlier step satisfied. Passing a chain satisfies every range it contains,
+ * so without the second rule a child could jump to "the whole perek" and skip the build-up. Steps already satisfied
+ * stay startable.
+ */
 export function canStartPerekStep(p: Profile, perek: number, s: PerekStep): boolean {
   if (s.kind === "mishnah") return true;
   for (let m = s.from; m <= s.to; m++) if (!isKnown(mp(p, perek, m))) return false;
-  return true;
+  const i = perekSteps(perek).findIndex((x) => x.kind === "chain" && x.from === s.from && x.to === s.to);
+  return i < 0 || i <= perekFrontier(p, perek) || chainSatisfied(p, perek, s.from, s.to);
 }
 
 /** The golden join between mishnah m-1 and m: those two have been said together. */

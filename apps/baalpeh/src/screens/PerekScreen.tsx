@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { frontierGroup, PerekPath, perekGroups } from "../components/PerekPath";
-import { PerekStrip } from "../components/PerekStrip";
 import { hebNum, MASECHTA, mishnayosOf } from "../data";
 import { parseChainKey, perekParts, perekPracticeLabel, perekSteps } from "../perekSteps";
 import { canStartPerekStep, chainSatisfied, isKnown, mp, nextInPerek, pp, stepSatisfied, type Task } from "../progress";
@@ -70,9 +69,17 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
     return { primary: { label: "🎯 I'm ready to be tested", task: next } };
   };
 
+  /** A selection that can't run yet still offers a way forward: learn the missing mishnah, or the frontier step. */
+  const learnFirst = (from: number, to: number): Action => {
+    const m = firstUnknown(from, to);
+    const started = mp(profile, perek, m).stepIndex > 0;
+    return { caption: `Learn mishnah ${m} first`, primary: { label: `▶ ${started ? "Keep learning" : "Learn"} mishnah ${m}`, task: { type: "learn", perek, mishnah: m } } };
+  };
+  const frontierFirst = (caption: string): Action => ({ ...frontierAction(), caption });
+
   const actionOf = (key: string | null): Action => {
     if (key === null) return frontierAction();
-    if (key === "cap") return next?.type === "perek-finish" || !next ? frontierAction() : { caption: "Finish every step first" };
+    if (key === "cap") return next?.type === "perek-finish" || !next ? frontierAction() : frontierFirst("Finish every step first");
     const open = (m: number): NonNullable<Action["secondary"]> => ({ label: `Open mishnah ${m} ›`, run: () => onOpenMishnah(m) });
     const mm = /^M(\d+)$/.exec(key);
     if (mm) {
@@ -89,7 +96,8 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
       if (step && canStartPerekStep(profile, perek, step)) {
         return { caption: `Mishnayos ${from}–${to} together`, primary: { label: `▶ Say ${range(from, to)} together`, task: { type: "perek-chain", perek, from, to } } };
       }
-      return { caption: `Learn mishnah ${firstUnknown(from, to)} first` };
+      if (!allKnown(from, to)) return learnFirst(from, to);
+      return frontierFirst("Do the steps before it first");
     }
     const gm = /^G(\d+)$/.exec(key);
     if (gm) {
@@ -99,7 +107,7 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
       const [from, to] = r as [number, number];
       const name = g.key === "join" ? "the whole perek" : `Part ${g.key + 1}`;
       if (allKnown(from, to)) return { ...practice(from, to), caption: `Practice all of ${name}` };
-      return { caption: `Learn mishnah ${firstUnknown(from, to)} first` };
+      return learnFirst(from, to);
     }
     return frontierAction();
   };
@@ -120,7 +128,6 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
       <p className="summary" dir="ltr">
         {n} mishnay{n === 1 ? "ah" : "os"}{parts.length > 1 ? ` · ${parts.length} parts` : ""} · {done} of {steps.length} steps
       </p>
-      <PerekStrip profile={profile} perek={perek} size="big" next={next} />
       <PerekPath
         profile={profile}
         perek={perek}

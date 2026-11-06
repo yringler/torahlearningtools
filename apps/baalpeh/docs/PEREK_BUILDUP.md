@@ -105,7 +105,7 @@ export function perekFrontier(p, perek): number                // index of the f
 export type PerekStage = "building" | "ready" | "complete";
 export function perekStage(p, perek): PerekStage               // complete if pr.complete === true; ready if frontier === steps.length; else building
 export const perekDone = (p, perek) => perekStage(p, perek) === "complete";
-export function canStartPerekStep(p, perek, s: PerekStep): boolean // mishnah → true; chain → every mishnah in from..to known
+export function canStartPerekStep(p, perek, s: PerekStep): boolean // mishnah → true; chain → every mishnah in from..to known AND (already satisfied, or at/before the frontier) so the build-up can't be skipped
 export function joined(p, perek, m: number): boolean           // golden join between m-1 and m: m >= 2 && chainSatisfied(p, perek, m-1, m)
 ```
 
@@ -239,7 +239,7 @@ export function nextLearning(p): Task | null {
 
 1. **Topbar**: `‹ Map` and the child's name.
 2. **Title** `{MASECHTA.masechta} פרק {hebNum(perek)}`, with a subline (ltr) such as `8 mishnayos · 2 parts · 9 of 15 steps`.
-3. **`<PerekStrip size="big">`**.
+3. (No big PerekStrip here: one tappable path only, so children aren't drawn to a row that does nothing.)
 4. **`<PerekPath>`**: the group that holds the frontier (or `group`), with part pills ("Part 1", "Part 2", "All together") that show progress bars.
 5. **Action area**: a caption plus one primary button, with an optional secondary button (§5.3).
 6. **Mishnah list**: one row per mishnah, showing its circle, its first 3 words (Hebrew) and its `summary` (English). Tapping a row opens the MishnahScreen with `from: "perek"`.
@@ -276,10 +276,11 @@ export function nextLearning(p): Task | null {
 | Mishnah tile, known | `Mishnah 3 alone` | `▶ Practice mishnah 3` → `perek-practice 3..3` | `Open mishnah 3 ›` |
 | Link, satisfied | `Mishnayos 1–3 together` | `▶ Practice mishnayos 1–3` → `perek-practice` | — |
 | Link, startable, not satisfied | `Mishnayos 1–3 together` | `▶ Say mishnayos 1–3 together` → `perek-chain` (real; passing it satisfies contained steps) | — |
-| Link, locked | `Learn mishnah 4 first` (the first unknown mishnah in the range) | none | — |
-| Part pill | "Practice all of Part 1" when all its mishnayos are known | `perek-practice` over the part's range | — |
+| Link, locked (a mishnah unknown) | `Learn mishnah 4 first` (the first unknown mishnah in the range) | `▶ Learn mishnah 4` → `learn` | — |
+| Link, locked (past the frontier) | `Do the steps before it first` | the frontier action | — |
+| Part pill | "Practice all of Part 1" when all its mishnayos are known, else `Learn mishnah N first` | `perek-practice` over the part's range, else `▶ Learn mishnah N` | — |
 | Cap, stage "ready" | — | the `perek-finish` action | — |
-| Cap, otherwise | `Finish every step first` | none | — |
+| Cap, otherwise | `Finish every step first` | the frontier action | — |
 
 Notes on the table:
 - A part pill also switches the group shown.
@@ -547,7 +548,7 @@ data = CASE WHEN excluded.kind = 'p'
     - M3 known before M2: after M2, the next steps are `C1-2` and then `C1-3`, without relearning M3.
     - A "learning" M5 beyond the frontier is not scheduled first.
 14. Robustness: `chains` set to `null`, `[3]` or `["3-1","x"]` counts as none and does not throw.
-15. `canStartPerekStep`: a chain over an unknown mishnah → false; a mishnah step → true.
+15. `canStartPerekStep`: a chain over an unknown mishnah → false; a chain past the frontier → false; a mishnah step → true.
 16. `joined` follows containment, including legacy `chainedThrough` and `complete`.
 17. `resetMishnah(k)` makes `M k` the frontier again.
 18. `nextInPerek` only returns tasks from its own perek.

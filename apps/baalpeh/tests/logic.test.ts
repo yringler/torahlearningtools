@@ -268,6 +268,22 @@ describe("perek build-up: progress", () => {
     expect(canStartPerekStep(p, 1, { kind: "mishnah", mishnah: 4, label: "" })).toBe(true);
   });
 
+  it("canStartPerekStep: a build-up chain past the frontier stays locked even when every mishnah is known", () => {
+    const n = perekSteps(2).length;
+    const all = Array.from({ length: 8 }, (_, i) => i + 1);
+    const p = passPerekChain(knowing(2, all), 2, 1, 2);
+    const steps = perekSteps(2);
+    const f = perekFrontier(p, 2);
+    const chainAt = (i: number) => steps[i]!;
+    expect(chainAt(f)).toMatchObject({ kind: "chain", from: 1, to: 3 });
+    expect(canStartPerekStep(p, 2, chainAt(f))).toBe(true);
+    const whole = steps.find((s) => s.kind === "chain" && s.from === 1 && s.to === 8)!;
+    expect(canStartPerekStep(p, 2, whole)).toBe(false);
+    for (let i = f + 1; i < n; i++) if (chainAt(i).kind === "chain") expect(canStartPerekStep(p, 2, chainAt(i))).toBe(false);
+    // A chain already passed stays startable (it can be said again).
+    expect(canStartPerekStep(p, 2, { kind: "chain", from: 1, to: 2, newest: 2, label: "" })).toBe(true);
+  });
+
   it("joined follows containment, legacy chainedThrough and complete", () => {
     const p = passPerekChain(newProfile("A", 0), 2, 5, 7);
     expect([1, 2, 5, 6, 7, 8].map((m) => joined(p, 2, m))).toEqual([false, false, false, true, true, false]);
