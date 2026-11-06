@@ -111,6 +111,8 @@ export function ParentApp({ me: me0, learner: learner0, onToLearner, onSignedOut
       const r = await api.parentUnlock({ pin });
       setMe(r);
       setUnlocked(true);
+      const n = r.wrongTries ?? 0;
+      if (n > 0) setToast(`${n} wrong PIN ${n === 1 ? "try" : "tries"} since you last entered it. See the change log.`);
       return { ok: true };
     } catch (e) {
       if (e instanceof ApiFailure && e.status === 401) { onSignedOut(); return { ok: true }; }
@@ -153,6 +155,16 @@ export function ParentApp({ me: me0, learner: learner0, onToLearner, onSignedOut
     <ForgotPin email={me.user.email} onClose={() => setForgot(false)} send={async () => (await api.parentForgotPin()).sentTo} />
   );
   const backButton = learner && <button className="btn ghost-btn" onClick={backToLearning}>‹ Back to learning</button>;
+  // With no learner session on this device, the gate screens still need a way out: back to the login choice. The
+  // parent cookie stays, and still needs the PIN.
+  const exitButton = backButton || <button className="btn ghost-btn" onClick={onChoose}>Cancel</button>;
+  // Leaving PIN setup ends this PIN-less parent session, so it isn't left on a shared device (the server also ends it
+  // 15 minutes after the email sign-in).
+  const leaveSetup = () => {
+    void api.parentLogout().catch(() => undefined);
+    if (learner) onToLearner(learner);
+    else onChoose();
+  };
 
   // ── The PIN gate ──
   if (!me.pin.set) {
@@ -160,7 +172,7 @@ export function ParentApp({ me: me0, learner: learner0, onToLearner, onSignedOut
       <ParentFrame>
         <PinSetup title="Choose your parent PIN" save={savePin}
           intro={<p>4 digits. You'll need them to open parent mode and to confirm a perek test. Keep it to yourself, not with the children.</p>} />
-        {backButton}
+        <button className="btn ghost-btn" onClick={leaveSetup}>{learner ? "‹ Back to learning" : "Cancel"}</button>
       </ParentFrame>
     );
   }
@@ -173,7 +185,7 @@ export function ParentApp({ me: me0, learner: learner0, onToLearner, onSignedOut
           <p>We'll email <b>{me.user.email}</b> a link to choose a new PIN.</p>
           <button className="btn primary big" onClick={() => setForgot(true)}>Email me a reset link</button>
           <button className="btn ghost-btn small" onClick={() => void api.parentMe().then(setMe, () => undefined)}>I've chosen a new PIN</button>
-          {learner ? backButton : <button className="btn ghost-btn" onClick={onChoose}>Cancel</button>}
+          {exitButton}
         </div>
         {forgotSheet}
       </ParentFrame>
@@ -185,7 +197,7 @@ export function ParentApp({ me: me0, learner: learner0, onToLearner, onSignedOut
         <div className="pin-screen">
           <h2>Enter your parent PIN</h2>
           <PinPad onSubmit={unlock} onForgot={() => setForgot(true)} />
-          {backButton}
+          {exitButton}
         </div>
         {forgotSheet}
       </ParentFrame>
@@ -420,14 +432,16 @@ function ChildrenTab({ profiles, data, onOpen, toast, learner }: {
   };
 
   if (profiles.length === 0) {
+    // The import is offered only while the account has no children, so it comes first: adding a child ends it.
     return (
       <>
+        {canImport && <ImportPrompt inline legacy={legacy} existing={profiles} onImport={(sel) => { data.importLegacy(sel); toast("Moved to your account."); }} />}
         <section className="card-section">
-          <h2>Add your first child</h2>
+          <h2>{canImport ? "Or add a new child" : "Add your first child"}</h2>
           <p className="hint">Each child gets their own place to learn and review, on every device signed in to this account.</p>
+          {canImport && <p className="hint">Once a child is added here, the progress saved on this device can no longer be moved into the account.</p>}
           <AddChildForm onAdd={add} />
         </section>
-        {canImport && <ImportPrompt inline legacy={legacy} existing={profiles} onImport={(sel) => { data.importLegacy(sel); toast("Moved to your account."); }} />}
       </>
     );
   }

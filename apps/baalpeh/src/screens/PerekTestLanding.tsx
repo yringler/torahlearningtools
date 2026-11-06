@@ -318,6 +318,8 @@ function PinSheet({ name, step, onSubmit, onClose, onForgot }: {
 }) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  // "Forgot PIN?" on the pad asks first (as in parent mode): a stray tap by a child must not send a reset email.
+  const [askForgot, setAskForgot] = useState(false);
   const forgot = async () => {
     setBusy(true);
     setError("");
@@ -344,12 +346,21 @@ function PinSheet({ name, step, onSubmit, onClose, onForgot }: {
         <button className="btn ghost-btn" onClick={onClose}>Cancel</button>
       </>
     );
+  } else if (askForgot) {
+    body = (
+      <>
+        <h2>Email a link to set a new PIN?</h2>
+        <p>We'll send it to the account's email. Your current PIN keeps working until a new one is set.</p>
+        <button className="btn primary" disabled={busy} onClick={() => void forgot()}>{busy ? "Sending…" : "Send the email"}</button>
+        <button className="btn ghost-btn" disabled={busy} onClick={() => { setError(""); setAskForgot(false); }}>Cancel</button>
+      </>
+    );
   } else {
     body = (
       <>
         <h2>Enter your parent PIN</h2>
         <p>So only a parent can confirm {name}'s test.</p>
-        <PinPad onSubmit={onSubmit} onForgot={() => void forgot()} />
+        <PinPad onSubmit={onSubmit} onForgot={() => setAskForgot(true)} />
         <button className="btn ghost-btn" onClick={onClose}>Cancel</button>
       </>
     );

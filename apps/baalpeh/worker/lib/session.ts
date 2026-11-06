@@ -134,6 +134,7 @@ export const requireUser: MiddlewareHandler<AppEnv> = async (c, next) => {
 
 interface ParentRow extends SessionRow {
   id: string | null;
+  signed_in_at: number;
   login_email: string | null;
   unlocked_at: number | null;
   unlocked_until: number | null;
@@ -145,7 +146,7 @@ async function loadParent(c: Context<AppEnv>, t: number): Promise<Response | nul
   if (!token) return apiError(c, 401, "unauthorized", "Not signed in as parent");
   const hash = await sha256Hex(token);
   const row = await c.env.DB.prepare(
-    `SELECT s.user_id, s.expires_at, s.last_seen_at, s.id, s.login_email, s.unlocked_at, s.unlocked_until,
+    `SELECT s.user_id, s.expires_at, s.last_seen_at, s.id, s.created_at AS signed_in_at, s.login_email, s.unlocked_at, s.unlocked_until,
             u.email, u.created_at
      FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ?1 AND s.scope = 'parent'`,
   )
@@ -162,6 +163,7 @@ async function loadParent(c: Context<AppEnv>, t: number): Promise<Response | nul
     sessionId: row.id,
     loginEmail: row.login_email ?? row.email,
     expiresAt: row.expires_at,
+    signedInAt: row.signed_in_at,
     unlockedAt: row.unlocked_at,
     unlockedUntil: row.unlocked_until,
     userAgent: userAgentOf(c),

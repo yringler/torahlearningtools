@@ -540,6 +540,7 @@ describe("perek-test confirm with a PIN", () => {
       ["perek_verified", "test_link"],
       ["pin_reset", "pin_reset_link"],
       ["pin_locked", "test_link"],
+      ...Array.from({ length: 4 }, () => ["pin_failed", "test_link"]),
       ["child_added", "parent"],
       ["pin_set", "parent"],
     ]);
@@ -851,5 +852,42 @@ describe("learner session from parent mode", () => {
     expect((await req("/api/me", { cookie: learner })).status).toBe(401);
     await lockSession(p.cookie);
     expect((await errOf(await req("/api/parent/learner-session", { method: "POST", cookie: p.cookie }), 403)).error).toBe("parent_locked");
+  });
+});
+
+describe("review fixes", () => {
+  it("the first PIN can only be chosen soon after the email sign-in; an older PIN-less session is ended", async () => {
+    const p = await parentLogin();
+    const h = await hashOf(p.cookie);
+    await db.prepare("UPDATE sessions SET created_at = ? WHERE token_hash = ?").bind(Date.now() - 16 * MIN, h).run();
+    expect((await errOf(await setPin(p.cookie, PIN), 401)).error).toBe("unauthorized");
+    expect(await db.prepare("SELECT 1 AS x FROM sessions WHERE token_hash = ?").bind(h).first()).toBeNull();
+    expect(await db.prepare("SELECT 1 AS x FROM account_pins WHERE user_id = ?").bind(p.user.id).first()).toBeNull();
+
+    const q = await parentLogin(p.email);
+    const hq = await hashOf(q.cookie);
+    await db.prepare("UPDATE sessions SET created_at = ? WHERE token_hash = ?").bind(Date.now() - 16 * MIN, hq).run();
+    expect((await errOf(await req("/api/parent/me", { cookie: q.cookie }), 401)).error).toBe("unauthorized");
+    expect(await db.prepare("SELECT 1 AS x FROM sessions WHERE token_hash = ?").bind(hq).first()).toBeNull();
+
+    const r = await parentLogin(p.email);
+    await db.prepare("UPDATE sessions SET created_at = ? WHERE token_hash = ?").bind(Date.now() - 14 * MIN, await hashOf(r.cookie)).run();
+    await okJson<ParentMeResponse>(await setPin(r.cookie, PIN));
+    // Once a PIN exists, an old session is fine (it just needs the PIN).
+    await db.prepare("UPDATE sessions SET created_at = ?, unlocked_until = NULL WHERE token_hash = ?").bind(Date.now() - 3 * DAY, await hashOf(r.cookie)).run();
+    expect((await okJson<ParentMeResponse>(await req("/api/parent/me", { cookie: r.cookie }))).pin.set).toBe(true);
+  });
+
+  it("every wrong PIN try is logged, and the next unlock reports them", async () => {
+    const p = await parentLogin();
+    await okJson(await setPin(p.cookie, PIN));
+    await db.prepare("UPDATE sessions SET unlocked_until = NULL WHERE token_hash = ?").bind(await hashOf(p.cookie)).run();
+    await errOf(await unlock(p.cookie, "1111"), 400);
+    await errOf(await unlock(p.cookie, "2222"), 400);
+    const me = await okJson<ParentMeResponse>(await unlock(p.cookie, PIN));
+    expect(me.wrongTries).toBe(2);
+    const entries = (await log(p.cookie)).entries;
+    expect(entries.filter((e) => e.action === "pin_failed").map((e) => e.detail)).toEqual([{ attemptsLeft: 3 }, { attemptsLeft: 4 }]);
+    expect((await okJson<ParentMeResponse>(await unlock(p.cookie, PIN))).wrongTries).toBe(0);
   });
 });

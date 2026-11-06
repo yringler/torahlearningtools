@@ -47,7 +47,7 @@ CREATE TABLE audit_log (
   user_id       TEXT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
   at            INTEGER NOT NULL,
   action        TEXT NOT NULL CHECK (action IN (
-                  'pin_set', 'pin_changed', 'pin_reset', 'pin_locked',
+                  'pin_set', 'pin_changed', 'pin_reset', 'pin_failed', 'pin_locked',
                   'perek_verified', 'perek_unverified', 'progress_edited',
                   'child_added', 'child_removed', 'child_edited')),
   child_id      TEXT,                           -- no FK: the entry outlives the child

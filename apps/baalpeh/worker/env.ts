@@ -18,6 +18,8 @@ export interface ParentVars {
   /** The address this parent session signed in with. */
   loginEmail: string;
   expiresAt: number;
+  /** sessions.created_at: when this parent session's email sign-in happened. */
+  signedInAt: number;
   unlockedAt: number | null;
   /** null = locked. */
   unlockedUntil: number | null;

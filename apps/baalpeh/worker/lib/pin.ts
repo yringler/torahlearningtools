@@ -64,11 +64,13 @@ function later(c: Context<AppEnv>, p: Promise<unknown>): void {
 /**
  * Checks the account's PIN; throws HttpError unless it is right. Shared by unlock and perek-test confirm, so both use
  * one counter. A try is reserved before the hash is compared, so concurrent guesses can never exceed 5 in total.
+ * Every wrong try is written to the change log (pin_failed, or pin_locked for the 5th), so a right entry resetting
+ * the counter never hides guesses from the parent. Resolves with the wrong tries since the last right entry.
  */
 export async function checkPin(
   c: Context<AppEnv>,
   a: { userId: string; pin: string; t: number; via: "parent" | "test_link"; actor: Actor },
-): Promise<void> {
+): Promise<number> {
   const db = c.env.DB;
   const row = await db
     .prepare(
@@ -94,9 +96,17 @@ export async function checkPin(
     } else {
       await db.prepare("UPDATE account_pins SET failed = 0 WHERE user_id = ?1 AND locked_at IS NULL").bind(a.userId).run();
     }
-    return;
+    return row.failed - 1;
   }
   if (row.failed < MAX) {
+    await auditStmt(db, {
+      userId: a.userId,
+      at: a.t,
+      action: "pin_failed",
+      detail: { attemptsLeft: MAX - row.failed },
+      via: a.via,
+      actor: a.actor,
+    }).run();
     throw new HttpError(400, "invalid_pin", "That PIN isn't right.", { attemptsLeft: MAX - row.failed });
   }
   // The 5th wrong try in a row: lock it, end every unlock, log it, tell the parent.

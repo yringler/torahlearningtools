@@ -519,7 +519,10 @@ button.part:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px;
 .stack { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
 .parent-bottom { display: flex; justify-content: center; margin-top: 20px; }
 .toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); transform: translateX(-50%); background: var(--ink); color: var(--bg);
-  padding: 10px 16px; border-radius: 12px; max-width: min(92vw, 520px); z-index: 20; font-weight: 600; box-shadow: 0 4px 16px rgba(0,0,0,0.2); }
+  padding: 10px 16px; border-radius: 12px; max-width: min(92vw, 520px); z-index: 20; font-weight: 600; box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  pointer-events: none; }
+/* A sheet's buttons sit at the bottom: while one is open, the toast moves to the top so it never covers them. */
+body:has(.sheet-backdrop) .toast { bottom: auto; top: calc(12px + env(safe-area-inset-top)); }
 .child-list { list-style: none; padding: 0; margin: 0 0 12px; display: flex; flex-direction: column; gap: 10px; }
 .child-card-btn { display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px 14px; border: 3px solid; border-radius: 16px; background: var(--surface);
   text-align: start; cursor: pointer; min-height: 72px; }

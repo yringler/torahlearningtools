@@ -58,6 +58,23 @@ describe("diffProfiles", () => {
     expect(d.children).toEqual([{ id: b.id, updatedAt: NOW, deleted: true, meta: metaOf(b, 1) }]);
   });
 
+  it("removing a child sends only its tombstone: later siblings keep their rows (and sort gaps are fine)", () => {
+    const a = kid("A");
+    const b = kid("B");
+    const c = kid("C");
+    const d = diffProfiles([a, b, c], [b, c], NOW);
+    expect(d.children).toEqual([{ id: a.id, updatedAt: NOW, deleted: true, meta: metaOf(a, 0) }]);
+    expect(d.records).toEqual([]);
+    const e = diffProfiles([a, b, c], [b, { ...c, name: "Chana" }], NOW);
+    expect(e.children.map((x) => [x.id, x.deleted, x.meta.name])).toEqual([[c.id, false, "Chana"], [a.id, true, "A"]]);
+  });
+
+  it("adding a child sends only the new child", () => {
+    const a = kid("A");
+    const b = kid("B");
+    expect(diffProfiles([a], [b, a], NOW).children.map((x) => x.id)).toEqual([b.id]);
+  });
+
   it("a reorder produces sort changes", () => {
     const a = kid("A");
     const b = kid("B");

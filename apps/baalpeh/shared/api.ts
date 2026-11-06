@@ -68,6 +68,8 @@ export const PARENT = {
   /** ...and this long after the PIN was entered, whatever happens. */
   UNLOCK_MAX_SEC: 60 * 60,
   PIN_RESET_TTL_SEC: 60 * 60,
+  /** The first PIN can only be chosen this soon after the parent session's email sign-in; later, sign in again. */
+  FIRST_PIN_WINDOW_SEC: 15 * 60,
 } as const;
 
 export const SYNC_LIMITS = {
@@ -498,6 +500,8 @@ export interface ParentMeResponse {
   pin: { set: boolean; locked: boolean };
   /** null = locked (enter the PIN). */
   unlockedUntil: Ms | null;
+  /** Only on unlock: wrong PIN tries (parent mode or test page) since the PIN was last entered right. */
+  wrongTries?: number;
 }
 /** POST /api/parent/unlock */
 export interface PinBody {
@@ -535,6 +539,7 @@ export type AuditAction =
   | "pin_set"
   | "pin_changed"
   | "pin_reset"
+  | "pin_failed"
   | "pin_locked"
   | "perek_verified"
   | "perek_unverified"
@@ -547,7 +552,7 @@ export type AuditAction =
  * One change-log line. `detail` by action (docs/PARENT_MODE.md §6.6):
  * pin_reset {requestedVia: "parent" | "test_page"}; perek_verified / perek_unverified {masechta, perakim} (via test_link
  * also {testId, pinUsed}); progress_edited {keys: ("m:2:3" | "p:2")[] (max 60), count}; child_added {imported, rows};
- * child_edited {fields, from?: {name}, to?: {name}}; others {}.
+ * child_edited {fields, from?: {name}, to?: {name}}; pin_failed {attemptsLeft}; others {}.
  */
 export interface AuditEntry {
   id: string;

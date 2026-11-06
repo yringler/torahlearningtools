@@ -45,6 +45,7 @@ export function describeEntry(e: AuditEntry): string {
     case "pin_set": return "Parent PIN set";
     case "pin_changed": return "Parent PIN changed";
     case "pin_reset": return "Parent PIN reset with an email link";
+    case "pin_failed": return "Wrong PIN entered";
     case "pin_locked": return "PIN locked after 5 wrong tries";
     case "perek_verified": {
       const ps = nums(d["perakim"]);

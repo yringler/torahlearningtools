@@ -173,7 +173,7 @@ CREATE TABLE audit_log (
   user_id       TEXT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
   at            INTEGER NOT NULL,
   action        TEXT NOT NULL CHECK (action IN (
-                  'pin_set', 'pin_changed', 'pin_reset', 'pin_locked',
+                  'pin_set', 'pin_changed', 'pin_reset', 'pin_failed', 'pin_locked',
                   'perek_verified', 'perek_unverified', 'progress_edited',
                   'child_added', 'child_removed', 'child_edited')),
   child_id      TEXT,                           -- no FK: the entry outlives the child
@@ -426,6 +426,7 @@ Update the header comment of `worker/lib/verification.ts`:
 | `pin_set` | first `POST /parent/pin` | parent | `{}` |
 | `pin_changed` | `POST /parent/pin` while unlocked | parent | `{}` |
 | `pin_reset` | `POST /pin-reset` | pin_reset_link | `{ requestedVia: "parent" \| "test_page" }` |
+| `pin_failed` | wrong tries 1 to 4 of `checkPin` (one row each, so a right entry resetting the counter never hides guesses; unlock also returns `wrongTries` and parent mode shows it) | parent or test_link | `{attemptsLeft}` |
 | `pin_locked` | the 5th wrong `checkPin` | parent or test_link | `{}` |
 | `perek_verified` / `perek_unverified` | the verifications route | parent | `{ masechta, perakim: number[] }` |
 | `perek_verified` | confirm | test_link | `{ masechta, perakim: [perek], testId, pinUsed: boolean }` |
@@ -705,6 +706,8 @@ Test C2 covers the in-flight case and the over-500 case.
 - **A parent who edits from a view that is out of date wins.** That is intended, and it is logged.
   - Example: the parent renames a child while that child's tablet changes text size. The rename's full meta carries the parent's stale `fontScale`.
   - That one setting reverts. The child can set it again.
+  - Only the child the parent edited is affected: adding or removing a child sends no rows for its siblings (`diffProfiles` ignores a shifted index while the kept children stay in order, so `sort` may have gaps or ties; it only orders the list).
+- **First PIN:** a parent session can choose the first PIN only within `PARENT.FIRST_PIN_WINDOW_SEC` (15 min) of its email sign-in. After that, `/me` and `/pin` end a PIN-less session (401), so whoever holds the device must sign in by email again. Leaving PIN setup also ends the session (`/logout`).
 - **Old cached SPAs** don't have `byParent`. For them the fence still blocks a stale push. The narrow gaps are a key edited during the in-flight request, or over 500 pending rows: that value later goes out with a newer cursor and can overwrite the parent's edit. The same applies to a second old-SPA device that held a pending value from before it pulled. The SW update bar closes this once the device updates.
 
 ---

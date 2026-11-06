@@ -5,7 +5,7 @@
  * - requireParent: that session, unlocked with the PIN in the last 5 minutes of use (60 minutes at most).
  */
 import { Hono, type Context } from "hono";
-import type { AuditLogResponse, ForgotPinResponse, MeResponse, ParentMeResponse } from "../../shared/api";
+import { PARENT, type AuditLogResponse, type ForgotPinResponse, type MeResponse, type ParentMeResponse } from "../../shared/api";
 import type { AppEnv } from "../env";
 import { toAuditEntry, type Actor, type AuditDbRow } from "../lib/audit";
 import { apiError, clientIp, readJson } from "../lib/http";
@@ -31,6 +31,20 @@ import { runSync } from "./sync";
 
 export const parentRoutes = new Hono<AppEnv>();
 
+const FIRST_PIN_WINDOW_MS = PARENT.FIRST_PIN_WINDOW_SEC * 1000;
+
+/**
+ * While the account has no PIN, a parent session is good only for choosing it, and only soon after its email
+ * sign-in. An older PIN-less session (the parent left PIN setup and the cookie stayed on a shared device) is ended
+ * here, so whoever holds the device must sign in by email again before choosing the first PIN.
+ */
+async function endIfStaleWithoutPin(c: Context<AppEnv>, t: number): Promise<Response | null> {
+  if (t - c.var.parent!.signedInAt <= FIRST_PIN_WINDOW_MS) return null;
+  await c.env.DB.prepare("DELETE FROM sessions WHERE token_hash = ?1 AND scope = 'parent'").bind(c.var.sessionHash).run();
+  clearParentSession(c);
+  return apiError(c, 401, "unauthorized", "Sign in as parent again to choose your PIN.");
+}
+
 function actorOf(c: Context<AppEnv>): Actor {
   const p = c.var.parent!;
   return { email: p.loginEmail, sessionId: p.sessionId, device: p.userAgent };
@@ -54,7 +68,12 @@ async function meBody(c: Context<AppEnv>, t: number): Promise<ParentMeResponse> 
 parentRoutes.get("/me", requireParentSession, async (c) => {
   const t = now();
   await slideUnlock(c, t);
-  return c.json(await meBody(c, t));
+  const body = await meBody(c, t);
+  if (!body.pin.set) {
+    const gone = await endIfStaleWithoutPin(c, t);
+    if (gone) return gone;
+  }
+  return c.json(body);
 });
 
 parentRoutes.post("/unlock", requireParentSession, async (c) => {
@@ -62,11 +81,12 @@ parentRoutes.post("/unlock", requireParentSession, async (c) => {
   if (!v.ok) return apiError(c, 400, "bad_request", v.message);
   const t = now();
   await limit(c, "pin-ip", clientIp(c), 20, 900, t);
-  await checkPin(c, { userId: c.var.user.id, pin: v.value.pin, t, via: "parent", actor: actorOf(c) });
+  const wrongTries = await checkPin(c, { userId: c.var.user.id, pin: v.value.pin, t, via: "parent", actor: actorOf(c) });
   await unlockStmt(c.env.DB, c.var.sessionHash, t).run();
   const p = c.var.parent!;
   c.set("parent", { ...p, unlockedAt: t, unlockedUntil: t + UNLOCK_IDLE_MS });
-  return c.json(await meBody(c, t));
+  const body: ParentMeResponse = { ...(await meBody(c, t)), wrongTries };
+  return c.json(body);
 });
 
 /** A beacon: no body, never an error. */
@@ -91,6 +111,10 @@ parentRoutes.post("/pin", requireParentSession, async (c) => {
     return apiError(c, 403, "pin_locked", "Your parent PIN is locked. Reset it by email.");
   }
   if (existing && !isUnlocked(p, t)) return apiError(c, 403, "parent_locked", "Enter your parent PIN.");
+  if (!existing) {
+    const gone = await endIfStaleWithoutPin(c, t);
+    if (gone) return gone;
+  }
   const kind = existing ? "changed" : "set";
   const ok = await setPinFlow(c, {
     userId: user.id,

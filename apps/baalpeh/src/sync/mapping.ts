@@ -110,16 +110,26 @@ export function profileToRows(p: Profile, sort: number, now: Ms): { child: Child
   return { child: childRow(p, sort, now), records: recordRows(p, undefined, now) };
 }
 
-/** The rows that turn `prev` into `next` (§6.4). Removed map keys and days produce nothing. */
+/**
+ * The rows that turn `prev` into `next` (§6.4). Removed map keys and days produce nothing.
+ * `sort` only orders the list, so gaps and ties are harmless: when the children kept from `prev` are still in the
+ * same order (a child was only added or removed), a kept child whose index merely shifted sends no row. Otherwise
+ * removing a child would rewrite every later sibling with this device's possibly stale copy of its meta (a parent's
+ * removal would overwrite a learner's newer text size and log an edit nobody made).
+ */
 export function diffProfiles(prev: Profile[], next: Profile[], now: Ms): { children: ChildRow[]; records: RecordRow[] } {
   const children: ChildRow[] = [];
   const records: RecordRow[] = [];
   const prevIndex = new Map(prev.map((p, i) => [p.id, i] as const));
   const nextIds = new Set(next.map((p) => p.id));
+  const keptPrev = prev.filter((p) => nextIds.has(p.id)).map((p) => p.id);
+  const keptNext = next.filter((p) => prevIndex.has(p.id)).map((p) => p.id);
+  const orderKept = keptPrev.every((id, k) => keptNext[k] === id);
   next.forEach((p, i) => {
     const j = prevIndex.get(p.id);
     const before = j === undefined ? undefined : prev[j];
-    if (!before || JSON.stringify(metaOf(before, j ?? 0)) !== JSON.stringify(metaOf(p, i))) children.push(childRow(p, i, now));
+    const changed = (bs: number, ns: number) => before !== undefined && JSON.stringify(metaOf(before, bs)) !== JSON.stringify(metaOf(p, ns));
+    if (!before || (orderKept ? changed(0, 0) : changed(j ?? 0, i))) children.push(childRow(p, i, now));
     records.push(...recordRows(p, before, now));
   });
   prev.forEach((p, i) => {
