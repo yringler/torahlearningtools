@@ -240,7 +240,7 @@ Auth: `requireUser`. Validation: `validatePerekTestRequest` in `worker/lib/valid
 1. **The child.** Run `SELECT data FROM children WHERE id = ?1 AND user_id = ?2 AND deleted = 0`. If there is no row, return `404 not_found`. A brand-new child that hasn't synced yet is covered too, because the client syncs first.
 2. **Already verified?** Run `SELECT verified, verified_at, updated_at FROM perek_verifications WHERE child_id=? AND masechta=? AND perek=?`. If `verified = 1`, return `200 { ok, alreadyVerified: true, verification, sentTo: "", nextAllowedAt: t, serverTime: t }` and send nothing.
 3. **Frontier (server data only).** Run `SELECT perek FROM perek_verifications WHERE child_id=? AND masechta=? AND verified=1`. If any perek `1..perek-1` is missing from the result, return `400 bad_request` with the message `not_frontier`. This keeps the emails in order and costs nothing: it reads server truth, not client-authored progress.
-4. **Account caps.** Counted from `perek_tests` itself in the step 5 statement (see 17.2 item 14), not with `limit()`, so a refused request or a failed send uses up nothing.
+4. **Account caps.** Counted from `perek_tests` itself in the step 5 statement (see 17.4 item 14), not with `limit()`, so a refused request or a failed send uses up nothing.
 5. **Per-child cooldown, exact and race-safe**, in one statement:
    ```sql
    INSERT INTO perek_tests (id, user_id, child_id, masechta, perek, token_hash, created_at, expires_at)
