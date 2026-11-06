@@ -36,7 +36,7 @@ export function perekTestEmail(i: PerekTestEmailInput): PerekTestEmailContent {
   const En = i.masechtaEn;
   const nextLine = i.lastPerek ? `${En} is officially complete!` : "the next perek opens in the app.";
   const heading = `${emoji ? emoji + " " : ""}${name} learned a whole perek by heart!`;
-  const subject = headerSafe(`🎉 ${name} finished ${En} Perek ${N}! Time for a quick test`);
+  const subject = headerSafe(`🎉 ${name} finished ${En} Perek ${N}! Come hear what ${name} learned`);
   const heRef = `מסכת ${M} פרק ${hebN}`;
 
   const text = [
@@ -44,7 +44,7 @@ export function perekTestEmail(i: PerekTestEmailInput): PerekTestEmailContent {
     "",
     heading,
     "",
-    `${name} just finished ${En}, Perek ${N} (${heRef}) and tapped "I'm ready to be tested." That's a big deal, so please give ${name} a high five from us! 🙌`,
+    `${name} just finished ${En}, Perek ${N} (${heRef}) and tapped "I'm ready to show Abba or Ima." That's a big deal, so please give ${name} a high five from us! 🙌`,
     "",
     `Your part: sit together and have ${name} say the whole perek by heart. The text is below so you can follow along. When ${name} knows it, tap the link, and ${nextLine}`,
     "",
@@ -88,7 +88,7 @@ export function perekTestEmail(i: PerekTestEmailInput): PerekTestEmailContent {
 <h1 style="margin:0 0 4px;font-size:26px;font-weight:700;" dir="rtl" lang="he">${e("משנה בעל פה")}</h1>
 <p style="margin:0 0 20px;font-size:16px;color:#555;">Mishnah Ba&#39;al Peh</p>
 <h2 style="margin:0 0 16px;font-size:22px;line-height:1.3;">${e(heading)}</h2>
-${p(`${n} just finished <b>${e(`${En}, Perek ${N}`)}</b> (<span dir="rtl" lang="he">${e(heRef)}</span>) and tapped <b>&#34;I&#39;m ready to be tested.&#34;</b> That&#39;s a big deal, so please give ${n} a high five from us! 🙌`)}
+${p(`${n} just finished <b>${e(`${En}, Perek ${N}`)}</b> (<span dir="rtl" lang="he">${e(heRef)}</span>) and tapped <b>&#34;I&#39;m ready to show Abba or Ima.&#34;</b> That&#39;s a big deal, so please give ${n} a high five from us! 🙌`)}
 ${p(`<b>Your part:</b> sit together and have ${n} say the whole perek by heart. The text is below so you can follow along. When ${n} knows it, tap the button, and ${e(nextLine)}`)}
 <p style="margin:0 0 24px;"><a href="${l}" style="display:inline-block;background:#2f5d50;color:#fff;text-decoration:none;font-size:18px;font-weight:700;padding:14px 28px;border-radius:8px;">${e(`Open ${name}'s test page`)}</a></p>
 ${p(`Small slips are fine. You know best. If it needs more work, tap &#34;Not yet&#34; on the test page. ${n} can keep practicing, and you can test again later with the same link.`)}

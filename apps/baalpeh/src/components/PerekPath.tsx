@@ -102,11 +102,11 @@ export function PerekPath({ profile, perek, group: shown, sel, onSelect, caption
     ? stage === "complete" ? "done" : stage === "ready" ? "current" : "upcoming"
     : groupDone(group) ? "done" : "upcoming";
   const cap = lastGroup
-    ? node("cap", `cap end target ${capState}`, `Ready to be tested, ${stateWord[capState]}`, "cap", <span className="face">🎯</span>, capState === "current")
+    ? node("cap", `cap end target ${capState}`, `Ready to show Abba or Ima, ${stateWord[capState]}`, "cap", <span className="face">🎯</span>, capState === "current")
     : node("cap", `cap ${capState}`, `${perekGroupName(group)} finished, ${stateWord[capState]}`, null, <span className="face">✓</span>);
 
   const doneCount = steps.filter((_, i) => stateOf(i) === "done").length;
-  const count = caption ?? (stage === "complete" ? "All done ✓" : stage === "ready" ? "Ready to be tested!" : `Step ${Math.min(frontier + 1, steps.length)} of ${steps.length}`);
+  const count = caption ?? (stage === "complete" ? "All done ✓" : stage === "ready" ? "Ready to show Abba or Ima!" : `Step ${Math.min(frontier + 1, steps.length)} of ${steps.length}`);
   const navLabel = `${groups.length > 1 ? `${perekGroupName(group)}: ` : ""}${count}, ${doneCount} of ${steps.length} steps done`;
 
   return (

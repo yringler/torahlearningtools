@@ -92,7 +92,7 @@ function WholePerek({ perek }: { perek: number }) {
 
 /**
  * The end of the perek build-up, merged with the test step: look the whole perek over, optionally say it once, then
- * "I'm ready to be tested" → a confirm sheet → the email to Abba or Ima → waiting (polled) → "It's official!".
+ * "I'm ready to show Abba or Ima" → a confirm sheet → the email to Abba or Ima → waiting (polled) → "It's official!".
  * Nothing on this screen can mark a perek done: only the parent's tap on the emailed link does, on the server.
  */
 export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFinishGuest, onNext, nextLabel, onEvent }: Props) {
@@ -158,7 +158,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
         <div className="actions" dir="ltr">
           <button className="btn primary big" onClick={onFinishGuest}>⭐ Finish the perek</button>
           <button className="btn secondary" onClick={onPracticeMore}>Practice more first</button>
-          <p className="hint">In your own profile, Abba or Ima test you before the next perek opens.</p>
+          <p className="hint">In your own profile, you show Abba or Ima before the next perek opens.</p>
         </div>
       </div>
     );
@@ -172,9 +172,9 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
       case "already": setView({ v: "official" }); break;
       case "cooldown": setView({ v: "waiting", cooldown: true }); break;
       case "cap":
-        setView({ v: "ready", note: `Lots of test emails were sent today. You can send yours in ${Math.ceil(r.retryAfterSec / 60)} min.` });
+        setView({ v: "ready", note: `Lots of emails were sent today. You can send yours in ${Math.ceil(r.retryAfterSec / 60)} min.` });
         break;
-      case "offline": setView({ v: "ready", note: "You're offline. Your test needs the internet to send. Ask a grown-up to connect, then try again." }); break;
+      case "offline": setView({ v: "ready", note: "You're offline. Letting Abba or Ima know needs the internet. Ask a grown-up to connect, then try again." }); break;
       case "signedOut": setView({ v: "signedOut" }); break;
       case "failed": setView({ v: "failed" }); break;
       case "notFrontier": setView({ v: "ready" }); break;
@@ -199,7 +199,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
     return (
       <div className="celebrate" dir="ltr">
         <div className="big-emoji">✔</div>
-        <h2>Abba or Ima already tested you on this perek!</h2>
+        <h2>You already showed Abba or Ima this perek!</h2>
         <p><bdi>{MASECHTA.masechta} פרק {hebNum(perek)}</bdi> is officially done.</p>
         {onNext && <button className="btn primary big" onClick={onNext}>{nextLabel ?? "Keep going ›"}</button>}
         <button className={onNext ? "btn secondary" : "btn primary big"} onClick={onMap}>🗺️ See my map</button>
@@ -210,7 +210,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
     return (
       <div className="celebrate" dir="ltr">
         <div className="big-emoji">🔑</div>
-        <h2>Ask Abba or Ima to sign in again, then you can send your test.</h2>
+        <h2>Ask Abba or Ima to sign in again, then you can let them know you're ready.</h2>
         <button className="btn primary big" onClick={test.onParentArea}>Go to parent area</button>
         <button className="btn ghost-btn" onClick={() => setView({ v: "ready" })}>‹ Back</button>
       </div>
@@ -270,9 +270,9 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
   const confirmSheet = (back: "ready" | "waiting") => (
     <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="send-title" onClick={() => setView({ v: back })}>
       <div className="sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
-        <h3 id="send-title">Send your test to Abba or Ima?</h3>
-        <p>We'll email them the perek so they can listen to you say it. When they say you know it, the next perek opens!</p>
-        <button className="btn primary big" disabled={!test.online} onClick={() => void send()}>📬 Yes, send it!</button>
+        <h3 id="send-title">Ready to show Abba or Ima what you learned?</h3>
+        <p>We'll email them the perek so they can listen to you say it. When they hear that you know it, the next perek opens!</p>
+        <button className="btn primary big" disabled={!test.online} onClick={() => void send()}>📬 Yes, let them know!</button>
         <button className="btn ghost-btn" onClick={() => setView({ v: back })}>{back === "waiting" ? "‹ Back" : "Not yet, I'll practice"}</button>
       </div>
     </div>
@@ -287,13 +287,13 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
       <div className="perek-ready waiting" dir="ltr">
         <div className="celebrate">
           <div className="big-emoji">📬</div>
-          <h2>{cooldown ? "Your test was already sent a few minutes ago!" : "We sent your test to Abba or Ima!"}</h2>
+          <h2>{cooldown ? "We already let Abba or Ima know a few minutes ago!" : "Go show Abba or Ima what you learned!"}</h2>
           <p>
-            When they test you and tap the link in the email,{" "}
+            Say it for them. When they tap the link in the email,{" "}
             {np !== null ? <><bdi>פרק {hebNum(np)}</bdi> opens.</> : <><bdi>מסכת {MASECHTA.masechta}</bdi> is all done!</>}
             {t && <> Sent {agoText(t.sentAt, now)}.</>}
           </p>
-          {!test.online && <p className="hint">Connect to the internet to see if Abba or Ima tested you.</p>}
+          {!test.online && <p className="hint">Connect to the internet to see if Abba or Ima tapped the link.</p>}
           {test.devEmail && <p className="hint">(Dev: the link is in the Worker log.)</p>}
         </div>
         <div className="actions">
@@ -314,7 +314,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
   return (
     <div className="perek-ready">
       {heading}
-      <p className="hint" dir="ltr">You learned every mishnah. Let's get ready for your test.</p>
+      <p className="hint" dir="ltr">You learned every mishnah. Get ready to show Abba or Ima!</p>
       <PerekStrip profile={profile} perek={perek} size="big" />
       <details className="look-over">
         <summary dir="ltr">Look it over first</summary>
@@ -322,8 +322,8 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
       </details>
       <div className="actions" dir="ltr">
         {note && <p className="ready-note" role="status">{note}</p>}
-        <button className="btn primary big" disabled={!test.online} onClick={() => setView({ v: "confirm", back: "ready" })}>🎯 I'm ready to be tested</button>
-        {!test.online && <p className="hint">Connect to the internet to send your test.</p>}
+        <button className="btn primary big" disabled={!test.online} onClick={() => setView({ v: "confirm", back: "ready" })}>🎯 I'm ready to show Abba or Ima</button>
+        {!test.online && <p className="hint">Connect to the internet to let Abba or Ima know.</p>}
         <button className="btn secondary" onClick={() => { sayStart.current = Date.now(); setView({ v: "say" }); }}>Say it once by yourself</button>
         <button className="btn ghost-btn" onClick={onPracticeMore}>Practice more first</button>
       </div>

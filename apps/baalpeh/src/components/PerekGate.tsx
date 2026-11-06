@@ -40,7 +40,7 @@ export function LockedSheet({ perek, frontier, saved, testReady, onGoFrontier, o
         {saved ? (
           <>
             <h3 id="locked-title">⭐ You already learned some of <bdi>פרק {n}</bdi>, and it's all saved!</h3>
-            <p>It opens after Abba or Ima test you on <bdi>פרק {f}</bdi>.</p>
+            <p>It opens after you show Abba or Ima <bdi>פרק {f}</bdi>.</p>
           </>
         ) : (
           <>
@@ -49,8 +49,8 @@ export function LockedSheet({ perek, frontier, saved, testReady, onGoFrontier, o
           </>
         )}
         <button className="btn primary big" onClick={onGoFrontier}>
-          {/* Only promise a test when tapping really opens one (goFrontier); saved progress elsewhere doesn't. */}
-          {testReady ? <>Get ready for my <bdi>פרק {f}</bdi> test ›</> : <>Go to <bdi>פרק {f}</bdi> ›</>}
+          {/* Only promise the show step when tapping really opens it (goFrontier); saved progress elsewhere doesn't. */}
+          {testReady ? <>Get ready to show <bdi>פרק {f}</bdi> ›</> : <>Go to <bdi>פרק {f}</bdi> ›</>}
         </button>
         <button className="btn ghost-btn" onClick={onClose}>OK</button>
         <GuestOffer onGuest={onGuest} />
@@ -63,10 +63,10 @@ export function LockedSheet({ perek, frontier, saved, testReady, onGoFrontier, o
 export function VerifIntroBanner({ frontier, testReady, onGo, onClose }: { frontier: number; testReady: boolean; onGo: () => void; onClose: () => void }) {
   return (
     <div className="verif-banner" dir="ltr" role="note">
-      <p><b>🎉 Something new!</b> Now, when you finish a perek, Abba or Ima test you for real, and then the next perek opens.</p>
+      <p><b>🎉 Something new!</b> Now, when you finish a perek, you say it for Abba or Ima, and then the next perek opens.</p>
       <p>You already learned a lot, and <b>all your stars are saved.</b> Let's start with <b><bdi>פרק {hebNum(frontier)}</bdi></b>: show them you know it, and your perakim open one by one.</p>
       <div className="row center">
-        <button className="btn primary" onClick={onGo}>{testReady ? "Get ready for my test ›" : <>Go to <bdi>פרק {hebNum(frontier)}</bdi> ›</>}</button>
+        <button className="btn primary" onClick={onGo}>{testReady ? "Get ready to show Abba or Ima ›" : <>Go to <bdi>פרק {hebNum(frontier)}</bdi> ›</>}</button>
         <button className="btn ghost-btn" onClick={onClose}>OK</button>
       </div>
     </div>

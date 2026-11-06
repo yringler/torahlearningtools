@@ -276,9 +276,9 @@ describe("test request helpers", () => {
   });
 
   it("Home's sub-label", () => {
-    expect(gatedSubLabel(2, null, 1, false)).toBe("2 reviews, then your perek test");
-    expect(gatedSubLabel(0, null, 1, false)).toBe("Get ready for your פרק א׳ test");
-    expect(gatedSubLabel(0, null, 1, true)).toBe("Waiting for your test 📬 · practice while you wait");
+    expect(gatedSubLabel(2, null, 1, false)).toBe("2 reviews, then show Abba or Ima your perek");
+    expect(gatedSubLabel(0, null, 1, false)).toBe("Get ready to show Abba or Ima פרק א׳");
+    expect(gatedSubLabel(0, null, 1, true)).toBe("Waiting for Abba or Ima 📬 · practice while you wait");
     expect(gatedSubLabel(0, null, null, false)).toBe("All caught up!");
   });
 
@@ -384,14 +384,14 @@ describe("copy", () => {
     expect(html).toContain(">Continue as a guest</button>");
   });
 
-  it("the locked sheet promises a test only when the frontier's test is next", async () => {
+  it("the locked sheet promises the show step only when it is next", async () => {
     const { LockedSheet } = await import("../src/components/PerekGate");
     const render = (saved: boolean, testReady: boolean) => renderToStaticMarkup(createElement(LockedSheet, {
       perek: 2, frontier: 1, saved, testReady, onGoFrontier: () => undefined, onGuest: () => undefined, onClose: () => undefined,
     }));
-    expect(render(true, false)).not.toContain("test ›");
+    expect(render(true, false)).not.toContain("Get ready to show");
     expect(render(true, false)).toContain("Go to ");
-    expect(render(false, true)).toContain("test ›");
+    expect(render(false, true)).toContain("Get ready to show");
   });
 });
 

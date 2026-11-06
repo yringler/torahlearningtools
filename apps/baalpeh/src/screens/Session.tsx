@@ -139,7 +139,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
   const nextLabel = (t: Task): string =>
     t.type === "learn" ? `Next: mishnah ${t.mishnah} ›`
       : t.type === "perek-chain" ? `Say ${mishnayosWord(t.from, t.to)} together ›`
-      : t.type === "perek-finish" ? (perekTest ? "Get ready for your test ›" : "Finish the perek ›")
+      : t.type === "perek-finish" ? (perekTest ? "Get ready to show Abba or Ima ›" : "Finish the perek ›")
       : "Keep going ›";
 
   const onStepPassed = () => {
@@ -361,7 +361,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
           // Guest mode only: the perek is finished on this device. It never counts and never reaches an account.
           onFinishGuest: () => finishTask(checkPerek(profile, perek, "pass"), {
             title: `You finished ${ref(perek)}!`,
-            sub: "You can say the whole perek in one shot. Mazel tov! In your own profile, Abba or Ima test you before the next perek opens.",
+            sub: "You can say the whole perek in one shot. Mazel tov! In your own profile, you show Abba or Ima before the next perek opens.",
             stars: 3, milestone: "perek",
           }),
         })}

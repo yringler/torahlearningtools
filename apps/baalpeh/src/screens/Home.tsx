@@ -27,7 +27,7 @@ export interface HomeGate {
   sent: (perek: number) => boolean;
   /** A locked row was tapped: open the locked sheet. */
   onLocked: (perek: number) => void;
-  /** The "🙋 Test me!" / "📬 Waiting" badge: open the test step. */
+  /** The "🙋 Ready to show!" / "📬 Waiting" badge: open the test step. */
   onOpenTest: (perek: number) => void;
   /** The one-time banner for children who learned perakim before verification existed (§10.3). */
   intro?: { frontier: number; testReady: boolean; onGo: () => void; onClose: () => void };
@@ -38,8 +38,8 @@ const reviews = (n: number) => `${n} review${n > 1 ? "s" : ""}`;
 /** The start button's sub-label under the gate (§10.2). */
 export function gatedSubLabel(due: number, next: Task | null, testPerek: number | null, sent: boolean): string {
   if (testPerek !== null) {
-    if (due > 0) return `${reviews(due)}, then your perek test`;
-    return sent ? "Waiting for your test 📬 · practice while you wait" : `Get ready for your פרק ${hebNum(testPerek)} test`;
+    if (due > 0) return `${reviews(due)}, then show Abba or Ima your perek`;
+    return sent ? "Waiting for Abba or Ima 📬 · practice while you wait" : `Get ready to show Abba or Ima פרק ${hebNum(testPerek)}`;
   }
   if (due > 0) return `${reviews(due)}, then new learning`;
   return next ? nextSubLabel(next) : "All caught up!";
@@ -113,7 +113,7 @@ export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, gat
                 <button
                   className="perek-row locked"
                   onClick={() => gate.onLocked(perek)}
-                  aria-label={`פרק ${hebNum(perek)}, locked until פרק ${hebNum(f)} is tested`}
+                  aria-label={`פרק ${hebNum(perek)}, locked until you show Abba or Ima פרק ${hebNum(f)}`}
                 >
                   <span className="perek-head" aria-hidden="true">
                     {ring}
@@ -133,17 +133,17 @@ export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, gat
                   <button
                     className="perek-head"
                     onClick={() => onOpenPerek(perek)}
-                    aria-label={`Perek ${perek}, ${doneSteps} of ${steps.length} steps${phase === "verified" ? ", tested" : done ? ", finished" : ""}, open perek`}
+                    aria-label={`Perek ${perek}, ${doneSteps} of ${steps.length} steps${phase === "verified" ? ", shown to Abba or Ima" : done ? ", finished" : ""}, open perek`}
                   >
                     {ring}
                     <span className="perek-label">פרק {hebNum(perek)}</span>
                     {done && !v && <span className="perek-done" aria-hidden="true">✓</span>}
-                    {phase === "verified" && <span className="seal" dir="ltr">✔ tested</span>}
+                    {phase === "verified" && <span className="seal" dir="ltr">✔ shown</span>}
                     <span className="chev" aria-hidden="true">›</span>
                   </button>
                   {phase === "test" && gate && (
                     <button className={`badge${gate.sent(perek) ? " sent" : " pulse"}`} dir="ltr" onClick={() => gate.onOpenTest(perek)}>
-                      {gate.sent(perek) ? "📬 Waiting" : "🙋 Test me!"}
+                      {gate.sent(perek) ? "📬 Waiting" : "🙋 Ready to show!"}
                     </button>
                   )}
                 </div>

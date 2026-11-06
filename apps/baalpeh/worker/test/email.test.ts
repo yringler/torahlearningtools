@@ -91,7 +91,7 @@ describe("perek test email", () => {
   it("is upbeat and never calls the learning fun or a game", () => {
     const m = masechtaText("berakhot")!;
     const e = perekTestEmail({ childName: "Avi", childEmoji: "🦁", masechtaHe: m.he, masechtaEn: m.en, perek: 2, lastPerek: false, pieces: perekPieces("berakhot", 2), link });
-    expect(e.subject).toBe("🎉 Avi finished Berakhot Perek 2! Time for a quick test");
+    expect(e.subject).toBe("🎉 Avi finished Berakhot Perek 2! Come hear what Avi learned");
     expect(e.html).toContain("🦁 Avi learned a whole perek by heart!");
     expect(e.text).toContain("the next perek opens in the app.");
     for (const s of [e.subject, e.text, e.html]) expect(s).not.toMatch(/\b(fun|game|games|play)\b/i);

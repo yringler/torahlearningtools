@@ -73,8 +73,8 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
     if (next.type === "perek-chain") return { primary: { label: `▶ Say ${range(next.from, next.to)} together`, task: next } };
     if (!gate) return { primary: { label: "⭐ Finish the perek", task: next } };
     return gate.sent
-      ? { primary: { label: "📬 Waiting for your test", sub: "practice while you wait", task: next } }
-      : { primary: { label: "🎯 I'm ready to be tested", task: next } };
+      ? { primary: { label: "📬 Waiting for Abba or Ima", sub: "practice while you wait", task: next } }
+      : { primary: { label: "🎯 I'm ready to show Abba or Ima", task: next } };
   };
 
   /** A selection that can't run yet still offers a way forward: learn the missing mishnah, or the frontier step. */
@@ -136,9 +136,9 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
       <p className="summary" dir="ltr">
         {n} mishnay{n === 1 ? "ah" : "os"}{parts.length > 1 ? ` · ${parts.length} parts` : ""} · {done} of {steps.length} steps
       </p>
-      {gate?.phase === "verified" && <p className="perek-status" dir="ltr"><span className="seal">✔ tested</span> Abba or Ima tested you on this perek.</p>}
+      {gate?.phase === "verified" && <p className="perek-status" dir="ltr"><span className="seal">✔ shown</span> You showed Abba or Ima this perek!</p>}
       {gate?.phase === "test" && (
-        <p className="perek-status" dir="ltr">{gate.sent ? "📬 Your test was sent. When Abba or Ima tap the link, the next perek opens." : "🙋 You learned the whole perek! Next: your test with Abba or Ima."}</p>
+        <p className="perek-status" dir="ltr">{gate.sent ? "📬 We let Abba or Ima know. Say it for them, and when they tap the link, the next perek opens." : "🙋 You learned the whole perek! Next: go show Abba or Ima."}</p>
       )}
       <PerekPath
         profile={profile}

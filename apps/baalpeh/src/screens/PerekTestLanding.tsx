@@ -180,7 +180,7 @@ export function PerekTestLanding({ token }: { token: string }) {
       body = (
         <div className="landing-result">
           <h2>This test link has expired.</h2>
-          <p>Ask {whoLower} to tap "I'm ready to be tested" in the app to get a new one.</p>
+          <p>Ask {whoLower} to tap "I'm ready to show Abba or Ima" in the app to get a new one.</p>
         </div>
       );
       break;
@@ -204,7 +204,7 @@ export function PerekTestLanding({ token }: { token: string }) {
       const i = st.info;
       body = (
         <>
-          <h2 className="landing-title">{i.childEmoji} <span style={{ color: i.childColor }}>{name}</span> is ready for a test!</h2>
+          <h2 className="landing-title">{i.childEmoji} <span style={{ color: i.childColor }}>{name}</span> is ready to show you what they learned!</h2>
           <p className="landing-sub"><bdi dir="rtl" lang="he">מסכת {i.masechtaHe} פרק {hebNum(i.perek)}</bdi> · {i.masechtaEn} Perek {i.perek}</p>
           <p>Have {name} say the whole perek by heart. Follow along below: every line is a piece {name} practiced.</p>
           <button className="btn ghost-btn small" aria-expanded={st.showText} onClick={() => dispatch({ a: "toggleText" })}>

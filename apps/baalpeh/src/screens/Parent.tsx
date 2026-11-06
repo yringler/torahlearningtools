@@ -149,7 +149,7 @@ export function Parent(props: Props) {
           <li>Each mishnah is cut into small pieces. The child learns piece 1, piece 2, then 1+2 together, piece 3, then 1–3… Long mishnayos are learned in parts, then the parts are joined.</li>
           <li>Hints fade: full text → first letters → first word → nothing. Tapping a hidden card is a "peek", and peeks are counted automatically.</li>
           <li>At the end of each mishnah you listen and grade. Mishnayos are then built up the same way: 1, 2, 1+2, 3, 1–3… up to the whole perek.</li>
-          <li>When your child finishes a perek, they tap "I'm ready to be tested" and you get an email with the text. Listen, then tap the link in the email. Only then does the next perek open. Later perakim stay saved but greyed out until then.</li>
+          <li>When your child finishes a perek, they tap "I'm ready to show Abba or Ima" and you get an email with the text. Listen, then tap the link in the email. Only then does the next perek open. Later perakim stay saved but greyed out until then.</li>
           <li>While waiting, your child can keep learning as a guest. Guest learning doesn't count toward their progress.</li>
           <li>Learned mishnayos come back for review after 1, 3, 7, 14, 30 and 60 days. A finished perek is reviewed as a whole.</li>
           <li>Hebrew text: Torat Emet via Sefaria. Meanings come in two views. <b>Steinsaltz</b> is quoted word for word from the Koren Noé / William Davidson translation (bold = translation, light = explanation). <b>Simple</b> is an AI simplification of Steinsaltz, checked against Bartenura (tr. R. Shraga Silverstein). Tap ⓘ by any meaning to see its source. Please check anything that looks off. <LicensesLink /></li>
