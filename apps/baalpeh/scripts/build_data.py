@@ -4,6 +4,8 @@ Writes:
   public/data/m/<id>.<hash>.json   one file per masechta, fetched by the app when it is opened and kept offline by the
                                    service worker. The content hash in the name lets it be cached forever.
   src/data/index.json              the small catalog bundled into the app: each masechta's names, perek sizes and file.
+  worker/data/text.json            the Hebrew pieces (chunk.he) of every perek, for the Worker's perek-test email and
+                                   landing page (docs/PARENT_VERIFICATION.md §6.1). Exactly the pieces the app shows.
 
 Mishnayos without a gloss file fall back to the mechanical chunks with empty meanings.
 data/hide.json drops Steinsaltz text from listed mishnayos and rewords listed lines/word glosses (child-suitability);
@@ -18,6 +20,7 @@ MASECHTOS = [
 ]
 out_dir = root / "public/data/m"
 index_path = root / "src/data/index.json"
+text_path = root / "worker/data/text.json"
 hide = json.loads((root / "data/hide.json").read_text())
 hide_st = {k for k in hide["hideSteinsaltz"] if not k.startswith("_")}
 
@@ -84,6 +87,7 @@ def build(he_name, en_name, chunks_path, gloss_dir):
 
 out_dir.mkdir(parents=True, exist_ok=True)
 entries = []
+texts = {}
 for mid, he_name, en_name, chunks_path, gloss_dir in MASECHTOS:
     data, glossed = build(he_name, en_name, chunks_path, gloss_dir)
     body = json.dumps(data, ensure_ascii=False).encode()
@@ -97,9 +101,18 @@ for mid, he_name, en_name, chunks_path, gloss_dir in MASECHTOS:
         counts[m["perek"]] = counts.get(m["perek"], 0) + 1
     entries.append({"id": mid, "he": he_name, "en": en_name, "file": f"/data/m/{name}", "bytes": len(body),
                     "perakim": [counts[p] for p in sorted(counts)]})
+    perakim = {}
+    for m in data["mishnayos"]:
+        perakim.setdefault(str(m["perek"]), []).append([c["he"] for c in m["chunks"]])
+    texts[mid] = {"source": f"/data/m/{name}", "he": he_name, "en": en_name, "perakim": perakim}
     print(f"wrote {out_dir / name} ({len(data['mishnayos'])} mishnayos, {glossed} glossed)")
 
 index_path.parent.mkdir(parents=True, exist_ok=True)
 lines = ",\n".join("  " + json.dumps(e, ensure_ascii=False) for e in entries)  # one masechta per line
 index_path.write_text('{"masechtos": [\n' + lines + "\n]}\n")
 print(f"wrote {index_path}")
+
+text_path.parent.mkdir(parents=True, exist_ok=True)
+lines = ",\n".join("  " + json.dumps(k, ensure_ascii=False) + ": " + json.dumps(v, ensure_ascii=False) for k, v in texts.items())
+text_path.write_text("{\n" + lines + "\n}\n")
+print(f"wrote {text_path}")

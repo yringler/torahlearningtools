@@ -1,6 +1,11 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { devOutbox, LogSender } from "../email/log";
+import { emailSafeEmoji, emailSafeName } from "../email/html";
 import { loginEmail } from "../email/loginEmail";
+import { perekTestEmail } from "../email/perekTestEmail";
+import { hebNum } from "../../shared/hebrew";
+import { masechtaIds, masechtaText, perakimCount, perekPieces } from "../lib/text";
+import { maskEmail } from "../routes/perekTests";
 import { RESEND_URL, ResendSender } from "../email/resend";
 import { isLocalOrigin, pickSender } from "../email/sender";
 
@@ -58,5 +63,52 @@ describe("email", () => {
     expect(e.html).not.toContain('a"<b>');
     expect(e.html).toContain("משנה בעל פה");
     expect(e.html).toContain('dir="ltr"');
+  });
+});
+
+describe("perek test email", () => {
+  const link = 'https://app.test/perek-test#t=abc"<x>&y';
+
+  it("stays under 90 KB for every perek, with the button above the text", () => {
+    for (const id of masechtaIds()) {
+      const m = masechtaText(id)!;
+      for (let perek = 1; perek <= perakimCount(id); perek++) {
+        const pieces = perekPieces(id, perek);
+        expect(pieces.length).toBeGreaterThan(0);
+        const e = perekTestEmail({ childName: "A".repeat(40), childEmoji: "🦁", masechtaHe: m.he, masechtaEn: m.en, perek, lastPerek: perek === perakimCount(id), pieces, link });
+        expect(new TextEncoder().encode(e.html).byteLength).toBeLessThan(90_000);
+        const href = e.html.indexOf('href="https://app.test/perek-test#t=abc&#34;&#60;x&#62;&#38;y"');
+        expect(href).toBeGreaterThan(0);
+        expect(href).toBeLessThan(e.html.indexOf(pieces[0]![0]!));
+        expect(e.html).not.toContain('abc"<x>');
+        expect(e.html).toContain(`מסכת ${m.he} פרק ${hebNum(perek)}`);
+        expect(e.text).toContain(link);
+        for (const piece of pieces.flat()) expect(e.text).toContain(piece);
+      }
+    }
+  });
+
+  it("is upbeat and never calls the learning fun or a game", () => {
+    const m = masechtaText("berakhot")!;
+    const e = perekTestEmail({ childName: "Avi", childEmoji: "🦁", masechtaHe: m.he, masechtaEn: m.en, perek: 2, lastPerek: false, pieces: perekPieces("berakhot", 2), link });
+    expect(e.subject).toBe("🎉 Avi finished Berakhot Perek 2! Time for a quick test");
+    expect(e.html).toContain("🦁 Avi learned a whole perek by heart!");
+    expect(e.text).toContain("the next perek opens in the app.");
+    for (const s of [e.subject, e.text, e.html]) expect(s).not.toMatch(/\b(fun|game|games|play)\b/i);
+  });
+
+  it("emailSafeName strips control, bidi and isolate characters, caps at 40, falls back", () => {
+    expect(emailSafeName("Avi\u202e\u2066X\u200f\n\tY\u0000")).toBe("Avi X Y");
+    expect(emailSafeName("  Dina   Leah ")).toBe("Dina Leah");
+    expect(Array.from(emailSafeName("א".repeat(60)))).toHaveLength(40);
+    expect(emailSafeName("\u202e\u2067 \r\n")).toBe("Your child");
+    expect(emailSafeEmoji("🦁")).toBe("🦁");
+    expect(emailSafeEmoji("\u202e🦁")).toBe("");
+    expect(emailSafeEmoji("x".repeat(17))).toBe("");
+  });
+
+  it("maskEmail", () => {
+    expect(maskEmail("yosef@gmail.com")).toBe("y•••@gmail.com");
+    expect(maskEmail("a@b.co")).toBe("a•••@b.co");
   });
 });

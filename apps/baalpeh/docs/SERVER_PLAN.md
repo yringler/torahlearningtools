@@ -222,6 +222,13 @@ The IP comes from `CF-Connecting-IP` (fallback `"unknown"`). Raw IPs and emails 
 | `link-ip` | IP | 20 | 900 s |
 | `code-ip` | IP | 20 | 900 s |
 | `code-email` | email | 10 | 3600 s |
+| `ptest-user-h` | user id | 12 | 3600 s |
+| `ptest-user-d` | user id | 40 | 86400 s |
+| `ptest-ip` | IP (lookup + confirm) | 30 | 900 s |
+
+The perek-test rows (docs/PARENT_VERIFICATION.md) use `limit()` (exported from `worker/lib/rateLimit.ts`, which throws
+429). The per-child "one test email per 10 minutes" rule is not a `hit()` window: it is an exact SQL check on
+`perek_tests` (PARENT_VERIFICATION §5.1 step 5).
 
 ### 3.6 CSRF and request hygiene (`worker/lib/origin.ts`, `worker/lib/http.ts`)
 
@@ -825,6 +832,11 @@ All routes are under `/api`. Non-2xx responses have an `ApiError` body. "Auth" m
 | `POST /api/sync` | ✓ | ✓ | `SyncRequest` | `SyncResponse` | 400 bad_request, 401, 403 forbidden, 413 payload_too_large |
 | `GET /api/children/:id/events` | ✓ | – | query `before?`, `limit?` | `EventsResponse` | 400, 401, 404 (missing, deleted or not yours) |
 | `GET /api/children/:id/stats` | ✓ | – | query `days?` | `ChildStatsResponse` | 400, 401, 404 |
+| `POST /api/perek-tests` | ✓ | ✓ | `PerekTestRequestBody` | `PerekTestRequestResponse` | 400 bad_request (message `not_frontier` for the order check), 401, 403, 404 not_found, 429 rate_limited, 502 email_failed |
+| `POST /api/perek-tests/lookup` | – | ✓ | `PerekTestTokenBody` | `PerekTestInfo` (read-only) | 400 bad_request, 400 invalid_link, 403, 429 |
+| `POST /api/perek-tests/confirm` | – | ✓ | `PerekTestTokenBody` | `PerekTestInfo` (`status: "verified"`) | 400 bad_request, 400 invalid_link (expired or invalid), 403, 429 |
+
+The three perek-test routes are specified in docs/PARENT_VERIFICATION.md §5. There is no GET under `/api/perek-tests`.
 | any other `/api/*` | – | – | – | – | 404 not_found |
 
 ### 7.1 Details
@@ -1761,6 +1773,11 @@ Then check:
 - [ ] Events: one recite event per recitation, a check event per parent check, and a session event per session. The
       History view shows Due now, Needs attention, Last 14 days and Recent activity.
 - [ ] Vite `base` is `/`. `build:single` is gone. `pages.yml` is replaced by `deploy.yml`.
+
+**Perek verification** (docs/PARENT_VERIFICATION.md)
+- [ ] No verified/official flag in `PerekProgress`, `PerekProgressData` or any `SyncRequest` field
+      (`grep -n "verified\|official"` in those types finds nothing). `perek_verifications` is written only through
+      `worker/lib/verification.ts`, whose only route caller is `POST /api/perek-tests/confirm`.
 
 **Tests**
 - [ ] Every test listed in §11 exists (or is merged into an equivalent) and passes. No test depends on per-test

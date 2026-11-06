@@ -15,12 +15,16 @@ import {
   type MishnahProgressData,
   type MishnahState,
   type PerekProgressData,
+  type PerekTestRequestBody,
+  type PerekTestTokenBody,
+  type ReciteTask,
   type RecordRow,
   type ReviewItemData,
   type SyncRequest,
   type VerifyCodeBody,
   type VerifyLinkBody,
 } from "../../shared/api";
+import { perakimCount } from "./text";
 
 export type Result<T> = { ok: true; value: T } | { ok: false; message: string; tooLarge?: true };
 
@@ -126,6 +130,7 @@ function itemSize(v: unknown, path: string): void {
   if (byteSize(v) > SYNC_LIMITS.MAX_ITEM_BYTES) throw new Invalid(`${path} is larger than ${SYNC_LIMITS.MAX_ITEM_BYTES} bytes`);
 }
 
+const RECITE_TASKS: readonly ReciteTask[] = ["learn", "chain", "detour", "practice", "review-m", "perek-chain", "review-p", "pre-test"];
 const GRADES: readonly Grade[] = ["pass", "help", "notyet"];
 const STATES: readonly MishnahState[] = ["new", "learning", "known", "solid"];
 
@@ -154,12 +159,19 @@ export function validateAuthRequest(body: unknown): Result<AuthRequestBody> {
   });
 }
 
-export function validateVerifyLink(body: unknown): Result<VerifyLinkBody> {
+const TOKEN_RE = /^[A-Za-z0-9_-]{20,128}$/;
+
+/** `{ token }` from an emailed link (sign-in or perek test). */
+export function validateToken(body: unknown): Result<PerekTestTokenBody> {
   return run(() => {
     const token = str(obj(body, "body").token, "token");
-    if (!/^[A-Za-z0-9_-]{20,128}$/.test(token)) throw new Invalid("token is invalid");
+    if (!TOKEN_RE.test(token)) throw new Invalid("token is invalid");
     return { token };
   });
+}
+
+export function validateVerifyLink(body: unknown): Result<VerifyLinkBody> {
+  return validateToken(body);
 }
 
 export function validateVerifyCode(body: unknown): Result<VerifyCodeBody> {
@@ -173,6 +185,19 @@ export function validateVerifyCode(body: unknown): Result<VerifyCodeBody> {
 
 export function validateDeleteAccount(body: unknown): Result<DeleteAccountBody> {
   return run(() => ({ email: email(obj(body, "body").email, "email") }));
+}
+
+// ───────────── perek tests ─────────────
+
+export function validatePerekTestRequest(body: unknown): Result<PerekTestRequestBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const childId = id(o.childId, "childId");
+    const masechta = str(o.masechta, "masechta");
+    const n = perakimCount(masechta);
+    if (n === 0) throw new Invalid("masechta is unknown");
+    return { childId, masechta, perek: int(o.perek, "perek", 1, n) };
+  });
 }
 
 // ───────────── sync ─────────────
@@ -290,7 +315,7 @@ function eventBody(o: Obj, path: string): LearningEventBody {
     case "recite": {
       const out: LearningEventBody = {
         type: "recite",
-        task: oneOf(o.task, `${path}.task`, ["learn", "chain", "detour", "practice", "review-m", "perek-chain", "review-p"]),
+        task: oneOf(o.task, `${path}.task`, RECITE_TASKS),
         perek: int(o.perek, `${path}.perek`, 0, 999),
         mishnah: intOrNull(o.mishnah, `${path}.mishnah`, 0, 999),
         step: intOrNull(o.step, `${path}.step`, 0, 999),

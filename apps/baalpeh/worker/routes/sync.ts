@@ -4,6 +4,7 @@ import {
   type ChildMeta,
   type ChildRow,
   type LearningEvent,
+  type PerekVerificationRow,
   type RecordRow,
   type SyncResponse,
 } from "../../shared/api";
@@ -35,6 +36,26 @@ function toChildRow(r: ChildDbRow): ChildRow {
 
 function toRecordRow(r: ProgressDbRow): RecordRow {
   return { childId: r.child_id, kind: r.kind, key: r.key, data: JSON.parse(r.data), updatedAt: r.updated_at } as RecordRow;
+}
+
+interface VerificationDbRow {
+  child_id: string;
+  masechta: string;
+  perek: number;
+  verified: number;
+  verified_at: number | null;
+  updated_at: number;
+}
+
+function toVerificationRow(r: VerificationDbRow): PerekVerificationRow {
+  return {
+    childId: r.child_id,
+    masechta: r.masechta,
+    perek: r.perek,
+    verified: r.verified === 1,
+    verifiedAt: r.verified_at,
+    updatedAt: r.updated_at,
+  };
 }
 
 const recordKey = (r: { childId: string; kind: string; key: string }): string => `${r.childId}|${r.kind}|${r.key}`;
@@ -158,6 +179,16 @@ syncRoutes.post("/sync", requireUser, async (c) => {
           "DELETE FROM events WHERE user_id = ?1 AND child_id IN (SELECT id FROM children WHERE user_id = ?1 AND deleted = 1)",
         )
         .bind(U),
+      db
+        .prepare(
+          "DELETE FROM perek_tests WHERE user_id = ?1 AND child_id IN (SELECT id FROM children WHERE user_id = ?1 AND deleted = 1)",
+        )
+        .bind(U),
+      db
+        .prepare(
+          "DELETE FROM perek_verifications WHERE user_id = ?1 AND child_id IN (SELECT id FROM children WHERE user_id = ?1 AND deleted = 1)",
+        )
+        .bind(U),
     );
   }
 
@@ -179,6 +210,14 @@ syncRoutes.post("/sync", requireUser, async (c) => {
          WHERE user_id = ?1 AND (child_id || '|' || kind || '|' || key) IN (SELECT value FROM json_each(?2))`,
       )
       .bind(U, JSON.stringify(records.map(recordKey))),
+    // Server-owned verifications (docs/PARENT_VERIFICATION.md §7.1). Pull only: nothing in a SyncRequest writes them.
+    db
+      .prepare(
+        `SELECT child_id, masechta, perek, verified, verified_at, updated_at FROM perek_verifications
+         WHERE user_id = ?1 AND rev > ?2
+           AND child_id IN (SELECT id FROM children WHERE user_id = ?1 AND deleted = 0)`,
+      )
+      .bind(U, cursor),
   );
 
   const results = await db.batch(stmts);
@@ -200,6 +239,7 @@ syncRoutes.post("/sync", requireUser, async (c) => {
     children: [...childMap.values()],
     records: [...recordMap.values()],
     serverTime: t,
+    verifications: ((results[reads + 5]?.results ?? []) as VerificationDbRow[]).map(toVerificationRow),
   };
   return c.json(body);
 });

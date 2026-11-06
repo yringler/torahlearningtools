@@ -1,12 +1,12 @@
+import { escapeHtml } from "./html";
+
 export interface LoginEmailContent {
   subject: string;
   text: string;
   html: string;
 }
 
-export function escapeHtml(s: string): string {
-  return s.replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
-}
+export { escapeHtml };
 
 export function loginEmail(link: string, code: string): LoginEmailContent {
   const spaced = `${code.slice(0, 3)} ${code.slice(3)}`;

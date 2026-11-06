@@ -22,6 +22,8 @@ meRoutes.delete("/account", requireUser, async (c) => {
   await db.batch([
     db.prepare("DELETE FROM events WHERE user_id = ?1").bind(user.id),
     db.prepare("DELETE FROM progress WHERE user_id = ?1").bind(user.id),
+    db.prepare("DELETE FROM perek_tests WHERE user_id = ?1").bind(user.id),
+    db.prepare("DELETE FROM perek_verifications WHERE user_id = ?1").bind(user.id),
     db.prepare("DELETE FROM children WHERE user_id = ?1").bind(user.id),
     db.prepare("DELETE FROM sessions WHERE user_id = ?1").bind(user.id),
     db.prepare("DELETE FROM login_requests WHERE email = ?1").bind(user.email),

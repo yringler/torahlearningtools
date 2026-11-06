@@ -7,6 +7,7 @@ import { authRoutes } from "./routes/auth";
 import { childrenRoutes } from "./routes/children";
 import { configRoutes } from "./routes/config";
 import { meRoutes } from "./routes/me";
+import { perekTestRoutes } from "./routes/perekTests";
 import { syncRoutes } from "./routes/sync";
 
 const app = new Hono<AppEnv>();
@@ -16,6 +17,7 @@ app.route("/api/auth", authRoutes); // request, verify-link, verify-code, logout
 app.route("/api", meRoutes); // GET /me, DELETE /account
 app.route("/api", syncRoutes); // POST /sync
 app.route("/api/children", childrenRoutes); // GET /:id/events, /:id/stats
+app.route("/api/perek-tests", perekTestRoutes); // POST /, /lookup, /confirm (no GET route on purpose)
 app.all("/api/*", (c) => apiError(c, 404, "not_found", "No such endpoint"));
 app.all("*", (c) => c.env.ASSETS.fetch(c.req.raw)); // only reached if run_worker_first matched; defensive
 app.onError((err, c) => {

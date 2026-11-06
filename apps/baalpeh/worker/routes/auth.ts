@@ -4,8 +4,8 @@ import type { AppEnv } from "../env";
 import { loginEmail } from "../email/loginEmail";
 import { pickSender } from "../email/sender";
 import { hmacHex, randomCode, randomToken, safeEqualHex, sha256Hex } from "../lib/crypto";
-import { apiError, clientIp, HttpError, readJson } from "../lib/http";
-import { hit } from "../lib/rateLimit";
+import { apiError, clientIp, readJson } from "../lib/http";
+import { limit } from "../lib/rateLimit";
 import { clearSession, createSession, sessionHashOf } from "../lib/session";
 import { now } from "../lib/time";
 import { verifyTurnstile } from "../lib/turnstile";
@@ -14,20 +14,6 @@ import { validateAuthRequest, validateVerifyCode, validateVerifyLink } from "../
 const LOGIN_TTL_MS = AUTH.LOGIN_TTL_SEC * 1000;
 
 export const authRoutes = new Hono<AppEnv>();
-
-async function limit(
-  c: Context<AppEnv>,
-  name: string,
-  subject: string,
-  max: number,
-  windowSec: number,
-  t: number,
-): Promise<void> {
-  const r = await hit(c.env, name, subject, max, windowSec, t);
-  if (!r.ok) {
-    throw new HttpError(429, "rate_limited", "Too many attempts. Try again later.", { retryAfterSec: r.retryAfterSec });
-  }
-}
 
 function codeHash(secret: string, requestId: string, code: string): Promise<string> {
   return hmacHex(secret, "code:" + requestId + ":" + code);

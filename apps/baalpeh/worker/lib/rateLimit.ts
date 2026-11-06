@@ -1,5 +1,7 @@
-import type { Env } from "../env";
+import type { Context } from "hono";
+import type { AppEnv, Env } from "../env";
 import { hmacHex } from "./crypto";
+import { HttpError } from "./http";
 
 export type HitResult = { ok: true } | { ok: false; retryAfterSec: number };
 
@@ -26,4 +28,19 @@ export async function hit(
     .first<{ count: number }>();
   if ((row?.count ?? 0) <= limit) return { ok: true };
   return { ok: false, retryAfterSec: Math.max(1, Math.ceil((windowStart + windowMs - now) / 1000)) };
+}
+
+/** `hit`, throwing 429 rate_limited (with retryAfterSec) when over the limit. */
+export async function limit(
+  c: Context<AppEnv>,
+  name: string,
+  subject: string,
+  max: number,
+  windowSec: number,
+  t: number,
+): Promise<void> {
+  const r = await hit(c.env, name, subject, max, windowSec, t);
+  if (!r.ok) {
+    throw new HttpError(429, "rate_limited", "Too many attempts. Try again later.", { retryAfterSec: r.retryAfterSec });
+  }
 }

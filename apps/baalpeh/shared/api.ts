@@ -1,6 +1,8 @@
 /**
  * shared/api.ts — the HTTP contract between the Worker (worker/) and the SPA (src/).
  * FIXED FILE: both sides import it; neither implementation agent may edit it.
+ * (Additive, backward-compatible exceptions signed off for docs/PARENT_VERIFICATION.md §4: the perek-test types,
+ * SyncResponse.verifications and ReciteTask "pre-test".)
  * Environment-neutral: no DOM or Workers types, no runtime imports.
  */
 
@@ -195,7 +197,8 @@ export type RecordKind = RecordRow["kind"];
 
 // ───────────────────────── Events (append-only practice log) ─────────────────────────
 
-export type ReciteTask = "learn" | "chain" | "detour" | "practice" | "review-m" | "perek-chain" | "review-p";
+/** "pre-test": the child's self-recitation of the whole perek before asking for the parent's test (changes no SRS state). */
+export type ReciteTask = "learn" | "chain" | "detour" | "practice" | "review-m" | "perek-chain" | "review-p" | "pre-test";
 
 export interface ReciteEvent {
   type: "recite";
@@ -281,6 +284,89 @@ export interface SyncResponse {
   children: ChildRow[];
   records: RecordRow[];
   serverTime: Ms;
+  /**
+   * Server-owned perek verifications with rev > request.cursor (children not deleted). Always present from a server
+   * that knows the feature, possibly []; optional so older clients and servers interoperate. Never in SyncRequest.
+   */
+  verifications?: PerekVerificationRow[];
+}
+
+// ───────────────────────── Perek tests (parent verification, docs/PARENT_VERIFICATION.md) ─────────────────────────
+
+export const PEREK_TEST = {
+  /** One test email per child per this many seconds (failed sends don't count). */
+  COOLDOWN_SEC: 10 * 60,
+  /** Link lifetime. */
+  TOKEN_TTL_SEC: 30 * 24 * 60 * 60,
+  /** Per account: test emails per hour and per day. */
+  MAX_PER_HOUR: 12,
+  MAX_PER_DAY: 40,
+} as const;
+
+/**
+ * POST /api/perek-tests (session). The server reads the text, the name and the recipient itself; the client sends none.
+ * Errors: 401 unauthorized; 404 not_found (child unknown, deleted, other account, or not synced yet);
+ * 400 bad_request with message "not_frontier" (an earlier perek is not verified on the server);
+ * 429 rate_limited with retryAfterSec (per-child cooldown or account cap); 502 email_failed (cooldown not used up).
+ */
+export interface PerekTestRequestBody {
+  childId: string;
+  /** Catalog id, e.g. "berakhot". */
+  masechta: string;
+  perek: number;
+}
+export interface PerekTestRequestResponse {
+  ok: true;
+  /** true: the perek is already verified on the server; no email was sent. Apply `verification`. */
+  alreadyVerified: boolean;
+  /** Present when alreadyVerified. */
+  verification?: PerekVerificationRow;
+  /** Masked account email, e.g. "y•••@gmail.com". Empty when alreadyVerified. */
+  sentTo: string;
+  /** When this child may ask again (server clock). */
+  nextAllowedAt: Ms;
+  /** Server clock, so the countdown is right even when the tablet's clock is off. */
+  serverTime: Ms;
+}
+
+/**
+ * POST /api/perek-tests/lookup (read-only) and POST /api/perek-tests/confirm (no session; the token is the credential).
+ * lookup: 200 PerekTestInfo with status pending | verified | expired; 400 invalid_link otherwise.
+ * confirm: 200 PerekTestInfo with status "verified" (idempotent); 400 invalid_link for an expired link
+ * (message "This test link has expired.") or an invalid one. Both: 429 rate_limited per IP.
+ */
+export interface PerekTestTokenBody {
+  token: string;
+}
+export interface PerekTestInfo {
+  status: "pending" | "verified" | "expired";
+  childName: string;
+  childEmoji: string;
+  childColor: string;
+  /** Catalog id. */
+  masechta: string;
+  /** e.g. "ברכות" */
+  masechtaHe: string;
+  /** e.g. "Berakhot" */
+  masechtaEn: string;
+  perek: number;
+  /** null when this is the last perek of the masechta. */
+  nextPerek: number | null;
+  /** The perek's Hebrew pieces: mishnayos[mishnahIndex][pieceIndex] = chunk.he (the same text as the email). */
+  mishnayos: string[][];
+  requestedAt: Ms;
+  verifiedAt: Ms | null;
+}
+
+/** Server-authoritative. Pulled only; never accepted in a SyncRequest. */
+export interface PerekVerificationRow {
+  childId: string;
+  masechta: string;
+  perek: number;
+  /** false: un-verified later (parent admin); the row is kept so the change reaches every device. */
+  verified: boolean;
+  verifiedAt: Ms | null;
+  updatedAt: Ms;
 }
 
 // ───────────────────────── Parent views ─────────────────────────

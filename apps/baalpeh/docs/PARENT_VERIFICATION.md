@@ -845,3 +845,67 @@ Email unit tests (`email.test.ts`):
 - **Cursor catch-up.** It relies on the one-time `cursor: 0` sync. If it is skipped, a device that ran an old SPA after the deploy can miss verification rows until the next confirm bumps the rev.
 - **The generated `worker/data/text.json`.** It must stay in sync with `public/data/m`. The drift test lives in the client project, so CI must run both projects (it already runs `npm test`).
 - **Product choices the owner may change:** keeping the verification across a progress reset ("reset = must re-test" would need the admin un-verify, not an inference from client-authored progress); and "Not yet" being client-only for now.
+
+---
+
+## 17. Reconciliation with the build-up
+
+This spec was written before PEREK_BUILDUP was implemented (commits 18298b8, 6b82f4d). Where the two disagree, the simpler result that meets the owner's requirements wins. The owner's requirements override both specs:
+- Moving to the next perek is never the honor system. Only the parent's tap on the emailed link (then confirm) verifies a perek. This is server-authoritative, and the client cannot forge it.
+- The email is upbeat. It has the child's name, the perek phrase by phrase and a link. A child can trigger at most one every ~10 minutes.
+- Old progress is kept. Perakim after the first unverified one are greyed out and not interactive.
+- Guest mode is ungated and never counts (§9).
+- Device/guest import is offered only to an account with no children (§9).
+- Torah learning is never called "fun", a game, or similar, in child-facing or email copy.
+- There is no parent-area power to mark or unmark perakim. A later stage adds a separate parent-only login that reuses the §11 seam.
+
+### 17.1 Decisions
+
+1. **Verification transport: this spec wins over PEREK_BUILDUP §10.** That section suggested a `RecordRow` kind `"v"` and `Profile.verified`. Old clients treat unknown kinds as days, and `Profile` flows into export, diff and guest storage. So verification is the separate pull-only `SyncResponse.verifications` field (§4, §7), kept client-side in `AccountStore.verified`.
+2. **`perekStage` does not learn about verification.** PEREK_BUILDUP §10 suggested `"awaiting-test"`/`"verified"` stages and a `perekLocked(p, perek)` inside `Profile` logic. Instead, the gate takes the verified set as an explicit argument, as in §8. The build-up's functions are the basis:
+   - `perekLearned(p, perek) = perekStage(p, perek) !== "building"`. `"ready"` means the whole-perek chain has passed. `"complete"` covers legacy `PerekProgress.complete = true`, which now counts as **learned, not verified**.
+   - `perekPhase(p, v, perek)` is built from `perekLearned` plus `Verified`, as in §8. A "locked" helper is `isLocked(v, perek)` (verification only). The build-up's `nextLearning` comment ("roadmap item 2: also stop at the first perek waiting for verification") is where `gatedNextLearning` applies.
+3. **One end-of-perek screen.** `PerekReady` (build-up §7) and `PerekTestTask` (§10.1) merge into one screen on the existing `perek-finish` task. No separate `perek-test` Task type is needed: `nextInPerek` already returns `perek-finish` for a learned perek.
+   - PerekReady's "Look it over first" (phrase by phrase, `perekPhrases`) is stage A.
+   - The build-up's `C1..n` step is already the whole-perek recitation, so stage B (the `"pre-test"` self-recitation) is optional (§13, "If that spec differs"). The server accepts `"pre-test"` either way.
+   - "🎯 I'm ready to be tested" opens the §10.1 confirm sheet, then `POST /api/perek-tests`, then the waiting, cooldown, offline, failed, signed-out and verified states.
+   - **The in-app `ParentCheck` and the `checkPerek` call in Session's `perek-finish` branch are removed.** No in-app check can make a perek officially done.
+4. **What `complete` means now.** `PerekProgress.complete` is progress only, and the server never reads it (worker test 16). After a verification arrives, the client may mark a `"ready"` perek `complete` locally, so the build-up's `review-p` scheduling and `perekDone` keep working. This is the old `checkPerek("pass")` effect, now triggered by the server row rather than by a tap. Forging `complete` unlocks nothing, because the gate reads only `Verified`.
+5. **Confirm statement 4 (marking sibling links `covered`)** matches only this call's consume (`consumed_at = ?t`). Without that condition, re-confirming an old, already-used link after a later un-verify would mark the new pending links `covered`.
+6. **Seam shape (§11).** `worker/lib/verification.ts` exports two functions:
+   - `setVerificationStmts(db, {userId, childId, masechta, perek, verified, source, testId, t})`, keyed. It writes only for a live child of that user. Un-verify keeps `verified_at` as history. Live links become `covered` on verify and `revoked` on un-verify.
+   - `confirmTokenStmts(db, tokenHash, t)`, the token-keyed §5.3 form.
+
+   No route calls the keyed form. The future parent-only login is its intended caller.
+7. **Constants.** `PEREK_TEST` also carries `MAX_PER_HOUR: 12` and `MAX_PER_DAY: 40`, so the client can explain the account caps.
+8. **Email copy.** The copy follows §6.3. A unit test forbids "fun", "game" and "play" in the subject, text and HTML.
+9. **`escapeHtml`** moved to `worker/email/html.ts`. `loginEmail.ts` imports it and re-exports it for old importers. `validateVerifyLink` now delegates to the shared `validateToken`.
+10. **Masechta lookup** in `worker/lib/text.ts` uses own-property checks, so `"__proto__"` is rejected as unknown.
+
+### 17.2 Server: done
+
+These are all in place:
+- the migration `0006`;
+- the `shared/api.ts` additions and `shared/hebrew.ts` (`src/data.ts` re-exports `hebNum`);
+- `worker/routes/perekTests.ts` (request, lookup, confirm);
+- `limit()` in `rateLimit.ts`;
+- the email;
+- `worker/data/text.json`, emitted by `scripts/build_data.py`, with the drift test `tests/textData.test.ts`;
+- the sync pull and the tombstone purge;
+- the purge on account deletion;
+- the cron cleanup;
+- the `"pre-test"` recite task;
+- `worker/test/perekTests.test.ts`, covering §15.1 items 1–19, plus email tests 20–21.
+
+### 17.3 Client: for the client agent
+
+The client side covers everything in §12 "Client", adjusted by 17.1. In particular:
+- `AccountStore.verified` and the `cursor: 0` catch-up;
+- the gated scheduling, built on `perekStage`;
+- the merged PerekReady/test screen, without `checkPerek`;
+- the Home and PerekScreen phases, including locked rows that can't be tapped;
+- the locked sheet and waiting screens with the exact "Continue as a guest" copy from §9;
+- `GuestApp`'s `start` prop;
+- import shown only when the account has no children;
+- the `/perek-test` landing page;
+- the Parent area's read-only "Perek tests" list. It has no mark or unmark buttons.
