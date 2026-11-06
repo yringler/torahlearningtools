@@ -1,13 +1,29 @@
+/**
+ * Parent-only child views and powers, mounted at /api/parent/children (docs/PARENT_MODE.md §6.4–6.5).
+ * Every route needs an unlocked parent session.
+ */
 import { Hono, type Context } from "hono";
-import type { ChildStatsResponse, DayActivity, EventsResponse, LearningEvent, StruggleRow } from "../../shared/api";
+import type {
+  ChildMeta,
+  ChildStatsResponse,
+  DayActivity,
+  EventsResponse,
+  LearningEvent,
+  SetVerificationsResponse,
+  StruggleRow,
+} from "../../shared/api";
 import type { AppEnv } from "../env";
-import { apiError } from "../lib/http";
-import { requireUser } from "../lib/session";
+import { auditStmt } from "../lib/audit";
+import { apiError, readJson } from "../lib/http";
+import { limit } from "../lib/rateLimit";
+import { requireParent } from "../lib/session";
 import { now } from "../lib/time";
-import { queryInt } from "../lib/validate";
+import { queryInt, validateSetVerifications } from "../lib/validate";
+import { setVerificationStmts } from "../lib/verification";
+import { toVerificationRow } from "./sync";
 
-export const childrenRoutes = new Hono<AppEnv>();
-childrenRoutes.use("/*", requireUser);
+export const parentChildrenRoutes = new Hono<AppEnv>();
+parentChildrenRoutes.use("/*", requireParent);
 
 const DAY_MS = 86_400_000;
 
@@ -19,7 +35,7 @@ async function ownsLiveChild(c: Context<AppEnv>, childId: string): Promise<boole
   return row !== null && row.deleted === 0;
 }
 
-childrenRoutes.get("/:id/events", async (c) => {
+parentChildrenRoutes.get("/:id/events", async (c) => {
   const childId = c.req.param("id");
   const t = now();
   const before = queryInt(c.req.query("before"), t + 1, 1, 1e13);
@@ -53,7 +69,7 @@ interface StruggleDbRow {
   last_at: number;
 }
 
-childrenRoutes.get("/:id/stats", async (c) => {
+parentChildrenRoutes.get("/:id/stats", async (c) => {
   const childId = c.req.param("id");
   const days = queryInt(c.req.query("days"), 30, 1, 365);
   if (days === null) return apiError(c, 400, "bad_request", "Invalid days");
@@ -101,5 +117,64 @@ childrenRoutes.get("/:id/stats", async (c) => {
   );
 
   const body: ChildStatsResponse = { childId, since, items, days: dayRows };
+  return c.json(body);
+});
+
+// ───────────── POST /:id/verifications ─────────────
+
+/**
+ * Marks perakim verified or un-verified without the test email (§6.5). The proof the owner accepts for `verified:
+ * true` here is the unlocked parent session: an email sign-in as parent plus the PIN within the last 5 minutes.
+ */
+parentChildrenRoutes.post("/:id/verifications", async (c) => {
+  const childId = c.req.param("id");
+  const v = validateSetVerifications(await readJson(c));
+  if (!v.ok) return apiError(c, 400, "bad_request", v.message);
+  const { masechta, perakim, verified } = v.value;
+  const t = now();
+  const U = c.var.user.id;
+  const p = c.var.parent!;
+  const db = c.env.DB;
+  await limit(c, "verif", U, 120, 3600, t);
+
+  const ch = await db
+    .prepare("SELECT data FROM children WHERE id = ?1 AND user_id = ?2 AND deleted = 0")
+    .bind(childId, U)
+    .first<{ data: string }>();
+  if (!ch) return apiError(c, 404, "not_found", "No such child");
+  let name: string | null = null;
+  try {
+    const m = JSON.parse(ch.data) as Partial<ChildMeta>;
+    if (typeof m.name === "string") name = m.name;
+  } catch {
+    // keep null
+  }
+
+  const stmts: D1PreparedStatement[] = [];
+  for (const perek of perakim) {
+    stmts.push(...setVerificationStmts(db, { userId: U, childId, masechta, perek, verified, source: "admin", testId: null, t }));
+  }
+  stmts.push(
+    auditStmt(db, {
+      userId: U,
+      at: t,
+      action: verified ? "perek_verified" : "perek_unverified",
+      childId,
+      childName: name,
+      detail: { masechta, perakim },
+      via: "parent",
+      actor: { email: p.loginEmail, sessionId: p.sessionId, device: p.userAgent },
+    }),
+    db
+      .prepare(
+        `SELECT child_id, masechta, perek, verified, verified_at, updated_at FROM perek_verifications
+         WHERE child_id = ?1 AND user_id = ?2 AND masechta = ?3 AND perek IN (SELECT value FROM json_each(?4))
+         ORDER BY perek`,
+      )
+      .bind(childId, U, masechta, JSON.stringify(perakim)),
+  );
+  const results = await db.batch(stmts);
+  const rows = (results.at(-1)?.results ?? []) as Parameters<typeof toVerificationRow>[0][];
+  const body: SetVerificationsResponse = { verifications: rows.map(toVerificationRow) };
   return c.json(body);
 });

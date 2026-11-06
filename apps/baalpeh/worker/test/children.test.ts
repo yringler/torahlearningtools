@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { ChildStatsResponse, EventsResponse, LearningEvent } from "../../shared/api";
-import { child, login, mockTurnstile, recite, req, sync } from "./helpers";
+import { adminCookie, child, login, mockTurnstile, parentSync, recite, req } from "./helpers";
 
 beforeEach(() => {
   mockTurnstile(true);
@@ -9,20 +9,21 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 
-describe("parent views", () => {
+describe("parent views (/api/parent/children)", () => {
   it("pages events newest first", async () => {
-    const { cookie } = await login();
+    const { email } = await login();
+    const cookie = await adminCookie(email);
     const cid = crypto.randomUUID();
     const t = Date.now() - 100_000;
     const events = Array.from({ length: 5 }, (_, i) => recite(cid, t + i * 1000));
-    expect((await sync(cookie, { children: [child(cid, t)], events })).status).toBe(200);
+    expect((await parentSync(cookie, { children: [child(cid, t)], events })).status).toBe(200);
 
     const seen: LearningEvent[] = [];
     let before: number | null = null;
     let pages = 0;
     do {
       const q: string = before === null ? "limit=2" : `limit=2&before=${before}`;
-      const r = await req(`/api/children/${cid}/events?${q}`, { cookie });
+      const r = await req(`/api/parent/children/${cid}/events?${q}`, { cookie });
       expect(r.status).toBe(200);
       const body: EventsResponse = await r.json<EventsResponse>();
       seen.push(...body.events);
@@ -35,7 +36,8 @@ describe("parent views", () => {
   });
 
   it("aggregates stats and sorts by struggle", async () => {
-    const { cookie } = await login();
+    const { email } = await login();
+    const cookie = await adminCookie(email);
     const cid = crypto.randomUUID();
     const t = Date.now() - 3_600_000;
     const day = "2026-10-31";
@@ -50,9 +52,9 @@ describe("parent views", () => {
       { id: crypto.randomUUID(), childId: cid, at: t + 7, day: "2026-11-01", type: "reset", perek: 1, mishnah: 1 },
       recite(cid, t - 40 * 86_400_000, { perek: 3, mishnah: 3, grade: "notyet" }), // outside the 30-day window
     ];
-    expect((await sync(cookie, { children: [child(cid, t)], events })).status).toBe(200);
+    expect((await parentSync(cookie, { children: [child(cid, t)], events })).status).toBe(200);
 
-    const r = await req(`/api/children/${cid}/stats`, { cookie });
+    const r = await req(`/api/parent/children/${cid}/stats`, { cookie });
     expect(r.status).toBe(200);
     const s = await r.json<ChildStatsResponse>();
     expect(s.childId).toBe(cid);
@@ -65,22 +67,22 @@ describe("parent views", () => {
       { day: "2026-10-31", minutes: 3, recites: 3 },
       { day: "2026-11-01", minutes: 1, recites: 0 },
     ]);
-    expect((await req(`/api/children/${cid}/stats?days=0`, { cookie })).status).toBe(400);
-    expect((await req(`/api/children/${cid}/events?limit=101`, { cookie })).status).toBe(400);
+    expect((await req(`/api/parent/children/${cid}/stats?days=0`, { cookie })).status).toBe(400);
+    expect((await req(`/api/parent/children/${cid}/events?limit=101`, { cookie })).status).toBe(400);
   });
 
   it("404s for another user's child and for a deleted child", async () => {
-    const a = await login();
-    const b = await login();
+    const a = { cookie: await adminCookie((await login()).email) };
+    const b = { cookie: await adminCookie((await login()).email) };
     const cid = crypto.randomUUID();
     const t = Date.now() - 10_000;
-    await sync(a.cookie, { children: [child(cid, t)] });
-    expect((await req(`/api/children/${cid}/events`, { cookie: b.cookie })).status).toBe(404);
-    expect((await req(`/api/children/${cid}/stats`, { cookie: b.cookie })).status).toBe(404);
-    expect((await req(`/api/children/${cid}/events`, { cookie: a.cookie })).status).toBe(200);
-    await sync(a.cookie, { children: [child(cid, t + 1, { deleted: true })] });
-    expect((await req(`/api/children/${cid}/events`, { cookie: a.cookie })).status).toBe(404);
-    expect((await req(`/api/children/${cid}/stats`, { cookie: a.cookie })).status).toBe(404);
-    expect((await req(`/api/children/${cid}/stats`)).status).toBe(401);
+    await parentSync(a.cookie, { children: [child(cid, t)] });
+    expect((await req(`/api/parent/children/${cid}/events`, { cookie: b.cookie })).status).toBe(404);
+    expect((await req(`/api/parent/children/${cid}/stats`, { cookie: b.cookie })).status).toBe(404);
+    expect((await req(`/api/parent/children/${cid}/events`, { cookie: a.cookie })).status).toBe(200);
+    await parentSync(a.cookie, { children: [child(cid, t + 1, { deleted: true })] });
+    expect((await req(`/api/parent/children/${cid}/events`, { cookie: a.cookie })).status).toBe(404);
+    expect((await req(`/api/parent/children/${cid}/stats`, { cookie: a.cookie })).status).toBe(404);
+    expect((await req(`/api/parent/children/${cid}/stats`)).status).toBe(401);
   });
 });

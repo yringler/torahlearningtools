@@ -1,20 +1,25 @@
 import { useEffect, useState } from "react";
 import { loadGuest, saveGuest, sessionGuest } from "./guest";
 import { kv } from "./kv";
-import { dueReviews, isKnown, mp, nextLearning, type Task } from "./progress";
+import { dueReviews, isKnown, mp, nextInPerek, nextLearning, type Task } from "./progress";
 import { BreakSetting } from "./components/BreakSetting";
 import { AboutNote, LicensesLink, PricingNote } from "./components/Licenses";
 import { Home } from "./screens/Home";
 import { MishnahScreen } from "./screens/MishnahScreen";
+import { PerekScreen } from "./screens/PerekScreen";
 import { Session } from "./screens/Session";
 import { requestPersist } from "./storage";
 import type { Profile } from "./types";
 
-type Screen =
+export type Screen =
   | { s: "home" }
   | { s: "settings" }
-  | { s: "mishnah"; perek: number; mishnah: number; group?: number }
-  | { s: "session"; tasks: Task[]; continueLearning: boolean; back: Screen };
+  /** `from: "perek"`: opened from the perek screen, so Back returns there. */
+  | { s: "mishnah"; perek: number; mishnah: number; group?: number; from?: "perek" }
+  /** A perek's build-up. `group`/`sel` restore the path shown and the selection when coming back from a session. */
+  | { s: "perek"; perek: number; group?: number; sel?: string }
+  /** `scopePerek`: started from the perek screen, so "keep going" stays inside that perek. */
+  | { s: "session"; tasks: Task[]; continueLearning: boolean; back: Screen; scopePerek?: number };
 
 /**
  * Where guest mode was opened from, which decides what it keeps:
@@ -22,17 +27,34 @@ type Screen =
  * - the signed-in picker (`onExit`): a fresh guest held in memory only; nothing is saved, and leaving forgets it.
  */
 type Props =
-  | { /** Leave guest mode for the sign-in screen. The guest's progress stays on this device. */ onSignIn: () => void; onExit?: never }
-  | { /** Back to "Who's learning?". The guest's progress is dropped. */ onExit: () => void; onSignIn?: never };
+  | { /** Leave guest mode for the sign-in screen. The guest's progress stays on this device. */ onSignIn: () => void; onExit?: never; start?: never }
+  | {
+    /** Back to "Who's learning?". The guest's progress is dropped. */ onExit: () => void; onSignIn?: never;
+    /**
+     * "Continue as a guest" from a locked perek or the waiting screen (docs/PARENT_VERIFICATION.md §9): open straight
+     * at this perek's first mishnah (or `mishnah`), with "keep going" staying inside that perek.
+     */
+    start?: { perek: number; mishnah?: number } | undefined;
+  };
+
+/** The first screen: Home, or a session at `start` (its Back goes to that perek's screen). */
+export function guestStartScreen(start: { perek: number; mishnah?: number } | undefined): Screen {
+  if (!start) return { s: "home" };
+  return {
+    s: "session", tasks: [{ type: "learn", perek: start.perek, mishnah: start.mishnah ?? 1 }], continueLearning: false,
+    scopePerek: start.perek, back: { s: "perek", perek: start.perek },
+  };
+}
 
 /**
- * The learning app with no account: one implicit "Guest" learner.
+ * The learning app with no account: one implicit "Guest" learner. Ungated: no parent test, and nothing here ever
+ * counts toward a child's progress (a signed-out guest's saved progress reaches an account only by import, unverified).
  * It never imports the API client, the sync engine or Turnstile, so it makes no server requests.
  */
-export function GuestApp({ onSignIn, onExit }: Props) {
+export function GuestApp({ onSignIn, onExit, start }: Props) {
   const saved = onSignIn !== undefined;
   const [profile, setProfileState] = useState<Profile>(() => (saved ? loadGuest(kv) : sessionGuest()));
-  const [screen, setScreen] = useState<Screen>({ s: "home" });
+  const [screen, setScreen] = useState<Screen>(() => guestStartScreen(start));
   const [info, setInfo] = useState(false);
 
   useEffect(() => { if (saved) requestPersist(); }, [saved]);
@@ -65,6 +87,7 @@ export function GuestApp({ onSignIn, onExit }: Props) {
         profile={profile}
         {...(onExit ? { onBack: onExit } : {})}
         onOpenMishnah={(perek, mishnah) => setScreen({ s: "mishnah", perek, mishnah })}
+        onOpenPerek={(perek) => setScreen({ s: "perek", perek })}
         onStart={() => {
           const next = nextLearning(profile);
           const tasks = [...dueReviews(profile), ...(next ? [next] : [])];
@@ -81,7 +104,8 @@ export function GuestApp({ onSignIn, onExit }: Props) {
         profile={profile}
         perek={perek}
         mishnah={mishnah}
-        onBack={() => setScreen({ s: "home" })}
+        onBack={() => setScreen(screen.from === "perek" ? { s: "perek", perek } : { s: "home" })}
+        {...(screen.from === "perek" ? { backLabel: "‹ Perek" } : {})}
         onPractice={() => go({ type: "learn", perek, mishnah })}
         onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
         onReview={() => (isKnown(st) ? go({ type: "review-m", perek, mishnah }) : go({ type: "learn", perek, mishnah }))}
@@ -90,7 +114,24 @@ export function GuestApp({ onSignIn, onExit }: Props) {
         {...(screen.group !== undefined ? { group: screen.group } : {})}
       />
     );
+  } else if (screen.s === "perek") {
+    const { perek } = screen;
+    body = (
+      <PerekScreen
+        key={perek}
+        profile={profile}
+        perek={perek}
+        group={screen.group}
+        sel={screen.sel}
+        onBack={() => setScreen({ s: "home" })}
+        onOpenMishnah={(mishnah) => setScreen({ s: "mishnah", perek, mishnah, from: "perek" })}
+        onStart={(task, ui) =>
+          setScreen({ s: "session", tasks: [task], continueLearning: false, scopePerek: perek, back: { s: "perek", perek, ...ui } })}
+      />
+    );
   } else {
+    const scope = screen.scopePerek;
+    const more = scope !== undefined ? (p: Profile) => nextInPerek(p, scope) : screen.continueLearning ? nextLearning : undefined;
     body = (
       <Session
         key={JSON.stringify(screen.tasks)}
@@ -99,7 +140,8 @@ export function GuestApp({ onSignIn, onExit }: Props) {
         onProfile={setProfile}
         onExit={() => setScreen(screen.back)}
         onMap={() => setScreen({ s: "home" })}
-        {...(screen.continueLearning ? { more: nextLearning } : {})}
+        {...(more ? { more } : {})}
+        {...(scope !== undefined ? { upNextOf: (p: Profile) => nextInPerek(p, scope) } : {})}
       />
     );
   }

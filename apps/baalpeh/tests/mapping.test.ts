@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { blankProfileFromRow, diffProfiles, metaOf, profileToRows } from "../src/sync/mapping";
+import type { PerekProgressData } from "../shared/api";
+import { blankProfileFromRow, cleanPerek, diffProfiles, metaOf, profileToRows } from "../src/sync/mapping";
 import { kid } from "./helpers";
 
 const NOW = 1_700_000_000_000;
@@ -57,6 +58,23 @@ describe("diffProfiles", () => {
     expect(d.children).toEqual([{ id: b.id, updatedAt: NOW, deleted: true, meta: metaOf(b, 1) }]);
   });
 
+  it("removing a child sends only its tombstone: later siblings keep their rows (and sort gaps are fine)", () => {
+    const a = kid("A");
+    const b = kid("B");
+    const c = kid("C");
+    const d = diffProfiles([a, b, c], [b, c], NOW);
+    expect(d.children).toEqual([{ id: a.id, updatedAt: NOW, deleted: true, meta: metaOf(a, 0) }]);
+    expect(d.records).toEqual([]);
+    const e = diffProfiles([a, b, c], [b, { ...c, name: "Chana" }], NOW);
+    expect(e.children.map((x) => [x.id, x.deleted, x.meta.name])).toEqual([[c.id, false, "Chana"], [a.id, true, "A"]]);
+  });
+
+  it("adding a child sends only the new child", () => {
+    const a = kid("A");
+    const b = kid("B");
+    expect(diffProfiles([a], [b, a], NOW).children.map((x) => x.id)).toEqual([b.id]);
+  });
+
   it("a reorder produces sort changes", () => {
     const a = kid("A");
     const b = kid("B");
@@ -102,5 +120,32 @@ describe("blankProfileFromRow", () => {
     const a = kid("A");
     const p = blankProfileFromRow({ id: a.id, updatedAt: NOW, deleted: false, meta: metaOf(a, 0) });
     expect(p).toEqual({ ...a, mishnayos: {}, perakim: {}, days: [] });
+  });
+});
+
+describe("cleanPerek", () => {
+  it("keeps valid chains", () => {
+    expect(cleanPerek({ chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] })).toEqual({ chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] });
+  });
+
+  it("drops malformed entries, from > to, duplicates and entries past 64, and sorts", () => {
+    const raw = { chainedThrough: 0, complete: false, chains: ["5-6", "3-1", "x", 7, "1-2", "5-6", null, "0-3"] } as unknown as PerekProgressData;
+    expect(cleanPerek(raw).chains).toEqual(["1-2", "5-6"]);
+    const many = Array.from({ length: 80 }, (_, i) => `${i + 1}-${i + 1}`);
+    const out = cleanPerek({ chainedThrough: 0, complete: false, chains: many }).chains ?? [];
+    expect(out).toHaveLength(64);
+    expect(out[0]).toBe("1-1");
+    expect(cleanPerek({ chainedThrough: 0, complete: false, chains: ["x"] })).toEqual({ chainedThrough: 0, complete: false, chains: [] });
+  });
+
+  it("adds no chains key to old-shape data", () => {
+    expect(cleanPerek({ chainedThrough: 2, complete: true })).toEqual({ chainedThrough: 2, complete: true });
+    expect("chains" in cleanPerek({ chainedThrough: 2, complete: false, chains: "1-2" } as unknown as PerekProgressData)).toBe(false);
+  });
+
+  it("a change to chains alone produces one p record carrying them", () => {
+    const a = kid("A", { perakim: { "2": { chainedThrough: 0, complete: false } } });
+    const d = diffProfiles([a], [{ ...a, perakim: { "2": { chainedThrough: 0, complete: false, chains: ["5-6"] } } }], NOW);
+    expect(d.records).toEqual([{ kind: "p", childId: a.id, key: "2", updatedAt: NOW, data: { chainedThrough: 0, complete: false, chains: ["5-6"] } }]);
   });
 });

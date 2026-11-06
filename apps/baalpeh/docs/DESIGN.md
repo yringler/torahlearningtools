@@ -5,7 +5,8 @@
 - **Chunk**: 3–7 words, split at `.` `,` `:` and natural phrase breaks. Precompute these at build time and let the parent edit them later.
 - **Segment**: up to 6 chunks. A Mishnah with 6 or fewer chunks is one segment. Longer ones split at the nearest sentence break to the middle (3 segments if more than 12 chunks).
 - **Step**: one item in the chaining sequence. The step list is generated, never hand-authored:
-  `C1, C2, [1-2], C3, [1-3], C4, [1-4] … [1-n]` for each segment, then `[Seg A+B]` (whole Mishnah), then `[M1..Mk]` (perek chain).
+  `C1, C2, [1-2], C3, [1-3], C4, [1-4] … [1-n]` for each segment, then `[Seg A+B]` (whole Mishnah).
+- **Perek build-up**: the same sequence one level up, with Mishnayos as the pieces: `M1, M2, [M1-2], M3, [M1-3] … [M1..Mn]`, in parts of at most 5 Mishnayos joined at the end. See `docs/PEREK_BUILDUP.md`.
 - **Mastery states per Mishnah**: New → Learning → Known (whole Mishnah recited cold) → Solid (passed 2+ spaced reviews).
 
 ## 2. Screens and flow (MVP)
@@ -58,8 +59,10 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 ## 5. Long Mishnayos and the perek chain
 
 - Segment B runs the same chunk chain from C1. Its steps are labeled "Part 2". Then `[A+B]` at L3 → L4.
-- Perek chain: when Mishnah k becomes Known, add the step `[M1..Mk]`. It shows one card per Mishnah carrying only its **opening word** (L3), and passing requires L4.
-- When k is 5 or more, a full chain can take 5+ minutes. Allow **one full chain per session**. On other days, do a **rolling pair** `[M(k-1)+Mk]`, which practices the joins between mishnayos. Joins are the most common place kids get stuck.
+- **Perek build-up** (`docs/PEREK_BUILDUP.md`): after Mishnah k is Known comes the step `[M1..Mk]` within its part. A perek of more than 5 Mishnayos is split evenly into parts (8 → 4+4, 7 → 4+3); each part is built up, then joined (`[M1..M8]`). A chain step is phrase cards grouped per Mishnah: warm-up with the first word of each phrase (the newest Mishnah one level easier; for joins only the first phrase of each Mishnah), then L4. Long ranges page one Mishnah at a time.
+- Progress is stored as **passed ranges**, and containment satisfies inner steps: saying `[M1..M5]` also counts for `[M1..M3]`. Older "chained through k" data counts as the range `[1..k]`.
+- Chain steps are **self-checked** (no parent check per chain). The only perek-level parent check is at the end ("🎯 I'm ready to be tested"), which is the seam for parent verification by email.
+- There is no per-session cap on long chains (§6: the app never tells the child to stop); parts keep chains to at most 5 Mishnayos except the final joins.
 
 ## 6. Progress and motivation
 
@@ -87,6 +90,7 @@ During recall (L2–L4), tapping a word does nothing, so the child can't "peek" 
 - Once a **perek is complete**, schedule the *perek* as one item on the same intervals and suspend its mishnayos' separate reviews. A failed perek review sends only the slipped mishnayos (identified by peeks or parent marks) back to box 1.
 - Daily order: due reviews first (oldest first, capped), then new learning. Interleave one older perek when one is due.
 - **Practice a piece** (known mishnayos): the mishnah screen keeps **Review it** as the main button and adds a picker below it. It is the step path drawn all done, where tapping a part shows it and tapping a stone or link selects that step. One button runs the selection (or the whole part shown) with the same screens as learning. Practice is *not* a review: it never changes the step, state or Leitner box, has no parent check, and can't cost a star. It marks the day and logs `recite` events with task `practice` ("Practiced 2:1 again" in the parent's history).
+- **Practice on the perek screen**: tapping a known Mishnah, a satisfied link or a part pill selects "Mishnah 2 alone", "Mishnayos 1–2 together" or a whole part; one button practises it (same rules: no progress change, logged as `practice` with the Mishnah range).
 
 ## 9. Typography and accessibility
 

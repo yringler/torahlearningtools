@@ -42,7 +42,6 @@ button { font: inherit; color: inherit; }
 .btn.huge { display: flex; flex-direction: column; align-items: center; width: 100%; font-size: 1.6rem; padding: 22px; border-radius: 22px; margin: 8px 0 12px; }
 .btn.huge .sub { font-size: 1rem; font-weight: 600; opacity: 0.85; }
 .btn.danger { color: #b33; }
-.hold.holding { background: var(--line); transition: background 2s; }
 
 /* profiles */
 .profiles { text-align: center; padding-top: 4vh; }
@@ -65,17 +64,42 @@ button { font: inherit; color: inherit; }
 .day { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--line); font-size: 11px; display: grid; place-items: center; }
 .day.on { background: var(--gold); border-color: var(--gold); }
 .masechta { font-family: var(--heb); text-align: center; font-size: 1.8rem; }
-.perek-map { display: flex; flex-direction: column; gap: 10px; }
-.perek-row { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 2px solid var(--line); border-radius: 18px; padding: 10px 12px; }
+/* the perek map: one centred column per perek, joined down the middle by a golden spine */
+.perek-map { display: flex; flex-direction: column; align-items: stretch; gap: 0; }
+.perek-row { display: flex; flex-direction: column; align-items: center; gap: 8px; background: var(--surface); border: 2px solid var(--line);
+  border-radius: 18px; padding: 8px 12px 12px; }
 .perek-row.complete { border-color: var(--gold); box-shadow: 0 0 0 2px var(--gold) inset; }
-.perek-label { font-family: var(--heb); font-size: 1.3rem; min-width: 72px; font-weight: 700; }
-.circles { display: flex; flex-wrap: wrap; gap: 10px; }
-.circle { position: relative; width: 52px; height: 52px; border-radius: 50%; border: 3px solid var(--line); background: transparent;
-  font-family: var(--heb); font-size: 1.25rem; font-weight: 700; cursor: pointer; }
+.perek-row.current { border-color: var(--accent); }
+.perek-head { display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 4px 14px; border: 0; border-radius: 14px;
+  background: transparent; cursor: pointer; touch-action: manipulation; }
+.perek-head:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.perek-head:active { background: var(--line); }
+.perek-head .ring { position: relative; display: inline-block; width: 36px; height: 36px; border-radius: 50%; flex: none; }
+.perek-head .ring i { position: absolute; inset: 5px; border-radius: 50%; background: var(--surface); }
+.perek-head .perek-done { color: var(--gold); font-weight: 900; font-size: 1.2rem; }
+.perek-head .chev { color: var(--muted); font-size: 1.4rem; font-weight: 800; }
+.perek-label { font-family: var(--heb); font-size: 1.3rem; font-weight: 700; }
+.spine { align-self: center; width: 0; height: 22px; border-inline-start: 4px dotted var(--line); }
+.spine.done { border-inline-start: 6px solid var(--gold); }
+.circle { position: relative; display: inline-grid; place-items: center; box-sizing: border-box; width: 52px; height: 52px; border-radius: 50%;
+  border: 3px solid var(--line); background: transparent; font-family: var(--heb); font-size: 1.25rem; font-weight: 700; cursor: pointer; flex: none; }
+span.circle { cursor: default; }
 .circle.learning { border-color: var(--learning); background: linear-gradient(to top, var(--learning) 45%, transparent 45%); }
 .circle.known, .circle.solid { border-color: var(--known); background: var(--known); color: var(--accent-ink); }
+.circle.here { box-shadow: 0 0 0 4px var(--gold); animation: breathe 1.6s ease-in-out infinite; }
 .circle .star { position: absolute; top: -10px; left: -6px; color: var(--gold); font-size: 0.9rem; text-shadow: 0 0 2px var(--bg); }
-.circle .link { position: absolute; right: -12px; top: 50%; width: 12px; height: 4px; background: var(--gold); }
+/* a perek strip: circle, join, circle … right to left; a join stays on the line with the circle after it */
+.strip { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; row-gap: 10px; }
+.strip .mseg { display: inline-flex; align-items: center; white-space: nowrap; }
+.join { display: inline-block; width: 14px; height: 0; border-top: 4px dotted var(--muted); opacity: 0.6; }
+.join.done, .join.here { opacity: 1; }
+.join.done { border-top: 6px solid var(--gold); }
+.join.here { border-top: 6px dashed var(--gold); animation: breathe 1.6s ease-in-out infinite; }
+.join.just { animation: snap 0.35s ease-out; transform-origin: right; }
+.strip.big { margin: 6px 0; }
+.strip.big .circle { width: 44px; height: 44px; font-size: 1.1rem; }
+.strip.big .join { width: 16px; }
+.celebrate-strip { align-self: stretch; }
 
 /* practice */
 .task-title { font-family: var(--heb); text-align: center; font-size: 1.6rem; }
@@ -132,7 +156,40 @@ button.hit:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; 
 }
 @media (prefers-reduced-motion: reduce) {
   .tile.current .face, .link.current .bar, .link.done.just .bar, .cap.current .face, .part.just { animation: none; }
+  .circle.here, .join.here, .join.just { animation: none; }
 }
+/* the perek path: round Hebrew-numbered mishnah tiles, gold links once said together, 🎯 at the end */
+.chain.perek { --tile: 42px; --link: 24px; }
+.chain.perek .tile .face { border-radius: 50%; font-family: var(--heb); }
+.chain.perek .link.done .bar { border-top-color: var(--gold); }
+.chain.perek .tile.partial .face { border: 2px solid var(--learning); background: linear-gradient(to top, var(--learning) 50%, var(--surface) 50%); color: var(--ink); }
+.chain.perek .link.locked .bar { border-top: 4px dashed var(--line); }
+.chain.perek .link .lock { position: absolute; top: -2px; font-size: 0.7rem; }
+.chain.perek .hit.selected { box-shadow: 0 0 0 3px var(--accent); }
+.chain.perek .cap.target { width: 44px; }
+.chain.perek .cap.target .face { width: 38px; height: 38px; color: inherit; font-size: 1.2rem; opacity: 0.55; }
+.chain.perek .cap.target.current .face, .chain.perek .cap.target.done .face { opacity: 1; }
+.part.selected { box-shadow: 0 0 0 3px var(--accent); }
+/* perek screen */
+.perek-list { list-style: none; padding: 0; margin: 18px 0 0; display: flex; flex-direction: column; gap: 6px; }
+.perek-list-row { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 64px; padding: 6px 10px; border: 2px solid var(--line);
+  border-radius: 14px; background: var(--surface); cursor: pointer; text-align: start; }
+.perek-list-row:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.perek-list-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.perek-list-text .opening { font-family: var(--heb); font-size: 1.25rem; }
+.perek-list-text .gist { color: var(--muted); font-size: 0.95rem; text-align: start; }
+/* multi-mishnah recites: one labelled section per mishnah, compact phrase pills */
+.mcard { background: var(--surface); border: 2px solid var(--line); border-radius: 18px; padding: 6px 12px 10px; }
+.mcard-label { font-size: 1rem; color: var(--muted); font-weight: 700; }
+.cards.compact { flex-direction: row; flex-wrap: wrap; gap: 6px 6px; }
+.cards.compact .card { display: inline-block; font-size: calc(1.6rem * var(--scale)); line-height: 2; padding: 2px 10px; min-height: 0; border-radius: 12px; }
+.cards.compact .card.cue-4 { border-style: dashed; min-width: 3.5em; min-height: calc(1.6rem * var(--scale) * 2 + 8px); }
+.pager { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
+.pager-count { color: var(--muted); font-weight: 700; text-align: center; flex: 1; }
+.perek-ready { display: flex; flex-direction: column; gap: 12px; }
+.perek-ready .celebrate { padding-top: 3vh; }
+.look-over summary { cursor: pointer; font-weight: 700; text-align: center; min-height: 40px; padding: 8px; }
+.look-over .mcard { margin-top: 8px; }
 
 .recite { display: flex; flex-direction: column; align-items: stretch; gap: 14px; }
 .prompt { text-align: center; font-size: 1.25rem; font-weight: 700; }
@@ -225,7 +282,6 @@ input[type="text"], input:not([type]), input[type="number"], select { font: inhe
 @media (max-width: 520px) {
   .card { font-size: calc(1.8rem * var(--scale)); padding: 4px 12px; }
   .circle { width: 44px; height: 44px; font-size: 1.05rem; }
-  .perek-row { flex-direction: column; align-items: flex-start; }
   .btn.big { min-width: 0; width: 100%; }
 }
 .parts { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin: 4px 0; }
@@ -240,6 +296,13 @@ input[type="text"], input:not([type]), input[type="number"], select { font: inhe
 .part.current { border-color: var(--gold); border-width: 3px; color: var(--ink); }
 .part.just { animation: pop 0.6s ease-out; }
 .day.shabbos { border-style: dashed; }
+@media (max-width: 400px) {
+  /* 8 circles (one perek row) fit about 360px */
+  .perek-row { padding-inline: 6px; }
+  .strip .circle, .strip.big .circle { width: 34px; height: 34px; font-size: 0.95rem; border-width: 2px; }
+  .strip .join, .strip.big .join { width: 7px; }
+  .chain.perek { --tile: 34px; --link: 14px; }
+}
 
 /* meaning views */
 .meaning.steinsaltz { font-weight: 400; line-height: 1.6; }
@@ -335,3 +398,174 @@ button.part:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px;
   background: var(--surface); color: var(--ink); border: 2px solid var(--line); border-radius: 999px; box-shadow: 0 4px 16px rgb(0 0 0 / 0.15);
   font-weight: 700; white-space: nowrap; }
 .update-bar .btn { min-height: 0; padding: 6px 16px; font-size: 0.95rem; }
+
+/* parent verification gate (docs/PARENT_VERIFICATION.md §10) */
+.perek-head-row { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; }
+.perek-row.locked { width: 100%; font: inherit; color: inherit; cursor: pointer; opacity: 0.45; filter: grayscale(0.9); border-style: dashed; }
+.perek-row.locked:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; opacity: 0.7; }
+.perek-row.locked .perek-head { background: transparent; }
+.perek-row.locked .circle { cursor: inherit; }
+.perek-head .lock { font-size: 1.1rem; }
+.seal { display: inline-block; font-size: 0.8rem; font-weight: 800; color: var(--gold); border: 2px solid var(--gold); border-radius: 999px; padding: 1px 8px; font-family: var(--ui); }
+.badge { border: 0; border-radius: 999px; min-height: 44px; padding: 6px 14px; font-weight: 800; cursor: pointer; background: var(--gold); color: #2b2620; }
+.badge.sent { background: var(--surface); color: var(--ink); border: 2px solid var(--line); }
+.badge.pulse { animation: breathe 1.6s ease-in-out infinite; }
+.perek-status { text-align: center; color: var(--muted); font-weight: 700; margin: 0 0 6px; display: flex; gap: 8px; justify-content: center; align-items: center; flex-wrap: wrap; }
+.guest-offer { margin-top: 6px; padding: 12px 14px; border: 2px dashed var(--line); border-radius: 16px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.guest-offer p { margin: 0; }
+.verif-banner { background: var(--new-card); border: 2px solid var(--gold); border-radius: 18px; padding: 12px 16px; margin: 8px 0; }
+.verif-banner p { margin: 6px 0; }
+.locked-sheet h3 { margin: 0; }
+.locked-sheet p { margin: 0; }
+.ready-note { margin: 0; font-weight: 700; text-align: center; }
+.perek-ready.waiting .actions { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.perek-ready .actions { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.celebrate.official { padding-top: 2vh; }
+.spin { animation: breathe 1.2s ease-in-out infinite; }
+.perek-tests ul { margin: 6px 0; padding-inline-start: 18px; }
+.perek-tests li { margin: 2px 0; }
+@media (prefers-reduced-motion: reduce) { .badge.pulse, .spin { animation: none; } }
+
+/* the parent's test page (/perek-test), mobile first */
+.landing { max-width: 640px; margin: 0 auto; padding: 0 0 180px; display: flex; flex-direction: column; gap: 10px; }
+.landing-head { text-align: center; color: var(--muted); font-weight: 700; padding: 8px 0; }
+.landing-head [lang="he"] { font-family: var(--heb); font-size: 1.2rem; color: var(--ink); }
+.landing-title { text-align: center; font-size: 1.6rem; margin: 0.2em 0; }
+.landing-sub { text-align: center; color: var(--muted); font-weight: 700; margin: 0; }
+.landing-sub bdi { font-family: var(--heb); font-size: 1.2rem; color: var(--ink); }
+.landing > p { margin: 0; }
+.landing > .btn.ghost-btn { align-self: center; }
+.landing-text { font-family: var(--heb); font-size: 1.75rem; line-height: 2; text-align: right; background: var(--surface); border-radius: 18px; padding: 8px 16px; }
+.landing-text section { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.landing-text section:last-child { border-bottom: 0; }
+.landing-text b { font-size: 1.2rem; color: var(--muted); }
+.landing-note { background: var(--new-card); border-radius: 14px; padding: 10px 14px; }
+.landing-note p { margin: 4px 0 0; }
+.landing-bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--surface); border-top: 2px solid var(--line); padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 5; }
+.landing-bar .btn { width: 100%; max-width: 520px; }
+.landing-bar .landing-note { width: 100%; max-width: 520px; box-sizing: border-box; text-align: center; }
+.landing:has(.landing-bar .landing-note) { padding-bottom: 290px; }
+.landing-result { text-align: center; padding-top: 6vh; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+
+/* ── parent mode (docs/PARENT_MODE.md §9) ── */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+/* login choice */
+.choice-list { display: flex; flex-direction: column; gap: 12px; margin: 6px 0 8px; }
+.choice { display: flex; align-items: center; gap: 14px; min-height: 72px; width: 100%; padding: 12px 16px; border-radius: 18px;
+  border: 2px solid var(--accent); background: var(--surface); text-align: start; cursor: pointer; touch-action: manipulation; }
+.choice:hover { background: var(--bg); }
+.choice-icon { font-size: 2rem; flex: none; }
+.choice-text { display: flex; flex-direction: column; gap: 2px; }
+.choice-text b { font-size: 1.15rem; color: var(--accent); }
+.choice-text .sub { color: var(--muted); font-size: 0.92rem; }
+.back-link { align-self: flex-start; padding-inline-start: 0; text-decoration: none; }
+.scope-line { margin: 0; font-weight: 700; }
+.small { font-size: 0.88rem; }
+
+/* PIN pad */
+.pin-screen { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.pin-screen h2 { font-size: 1.35rem; }
+.pinpad { display: flex; flex-direction: column; align-items: center; gap: 6px; width: 100%; max-width: 320px; margin: 0 auto; }
+.pin-dots { display: flex; gap: 18px; justify-content: center; padding: 8px 0 2px; }
+.pin-dot { width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--accent); }
+.pin-dot.on { background: var(--accent); }
+.pin-dots.shake { animation: pin-shake 0.3s ease-in-out; }
+@keyframes pin-shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-8px); } 75% { transform: translateX(8px); } }
+@media (prefers-reduced-motion: reduce) { .pin-dots.shake { animation: none; } }
+.pin-error { min-height: 1.4em; margin: 0; color: #b33; font-weight: 700; font-size: 0.95rem; }
+.pin-keys { display: grid; grid-template-columns: repeat(3, 64px); gap: 16px; justify-content: center; }
+.pin-key { width: 64px; height: 64px; border-radius: 50%; border: 2px solid var(--line); background: var(--bg); font-size: 1.6rem; font-weight: 800;
+  cursor: pointer; touch-action: manipulation; }
+.pin-key:active { background: var(--line); }
+.pin-key:disabled { opacity: 0.5; cursor: default; }
+.pin-key.text { border-color: transparent; background: transparent; font-size: 0.85rem; color: var(--accent); }
+.pin-key.text[aria-label="Delete"] { font-size: 1.5rem; color: var(--ink); }
+@media (min-width: 600px) {
+  .pin-keys { grid-template-columns: repeat(3, 76px); }
+  .pin-key { width: 76px; height: 76px; }
+}
+.parent-gate .auth-card { max-width: 420px; }
+.parent-gate-label { margin: 0; color: var(--muted); font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.85rem; }
+@media (max-height: 700px) { .parent-gate { padding-top: 0; } .parent-gate .app-title { font-size: 1.8rem; margin: 0; } .parent-gate .auth-card { margin-top: 6px; padding-top: 10px; } }
+
+/* sheets: bottom on phones, a centred card on tablets */
+.confirm-sheet { text-align: start; }
+.confirm-sheet h3 { font-size: 1.2rem; }
+.confirm-sheet p { margin: 0; }
+.pin-sheet { text-align: center; align-items: center; }
+.confirm-actions { display: flex; gap: 10px; justify-content: space-between; margin-top: 6px; }
+.confirm-actions .btn { flex: 1; }
+.btn.danger-fill { background: #b33; color: #fff; }
+@media (min-width: 600px) {
+  .sheet-backdrop.confirm { align-items: center; }
+  .sheet-backdrop.confirm .sheet { border-radius: 24px; max-width: 480px; }
+}
+
+/* the parent shell */
+.parent-app { padding-bottom: 24px; }
+.parent-top { gap: 10px; }
+.parent-title { display: flex; flex-direction: column; line-height: 1.2; }
+.parent-title b { font-size: 1.2rem; }
+.login-email { color: var(--muted); font-size: 0.85rem; word-break: break-all; }
+.row.tight { margin: 0; gap: 8px; flex-wrap: nowrap; }
+.saving { color: var(--muted); font-size: 0.9rem; }
+.segmented { display: flex; background: var(--line); border-radius: 14px; padding: 4px; gap: 4px; margin: 8px 0 12px; }
+.segmented button { flex: 1; min-height: 44px; border: 0; border-radius: 10px; background: transparent; font-weight: 700; color: var(--muted); cursor: pointer; }
+.segmented button.on { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,0.12); }
+.card-section { background: var(--surface); border-radius: 18px; padding: 14px 16px; margin: 12px 0; text-align: start; }
+.card-section .hint, .parent-settings .hint, .child-detail .hint { text-align: start; }
+.card-section h2, .card-section h3 { margin-top: 0; }
+.stack { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.parent-bottom { display: flex; justify-content: center; margin-top: 20px; }
+.toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); transform: translateX(-50%); background: var(--ink); color: var(--bg);
+  padding: 10px 16px; border-radius: 12px; max-width: min(92vw, 520px); z-index: 20; font-weight: 600; box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  pointer-events: none; }
+/* A sheet's buttons sit at the bottom: while one is open, the toast moves to the top so it never covers them. */
+body:has(.sheet-backdrop) .toast { bottom: auto; top: calc(12px + env(safe-area-inset-top)); }
+.child-list { list-style: none; padding: 0; margin: 0 0 12px; display: flex; flex-direction: column; gap: 10px; }
+.child-card-btn { display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px 14px; border: 3px solid; border-radius: 16px; background: var(--surface);
+  text-align: start; cursor: pointer; min-height: 72px; }
+.child-emoji { font-size: 2.2rem; flex: none; }
+.child-text { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; }
+.child-text b { font-size: 1.15rem; }
+.hint-line { color: var(--muted); font-size: 0.92rem; }
+.child-card-btn .chev { color: var(--muted); font-size: 1.6rem; font-weight: 800; }
+.emoji-pick { display: flex; flex-wrap: wrap; gap: 6px; }
+.emoji-pick button { width: 48px; height: 48px; border-radius: 12px; border: 2px solid var(--line); background: var(--bg); font-size: 1.5rem; cursor: pointer; }
+.emoji-pick button.on { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; }
+.add-child { display: flex; flex-direction: column; gap: 12px; }
+.import-inline .import-list { padding-inline-start: 0; list-style: none; }
+/* child detail */
+.perek-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.perek-item { background: var(--surface); border: 2px solid var(--line); border-radius: 14px; padding: 6px 8px 6px 12px; }
+.perek-item-head { display: flex; align-items: center; gap: 6px; }
+.perek-item-title { flex: 1; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 12px; min-height: 48px;
+  border: 0; background: transparent; text-align: start; cursor: pointer; padding: 4px 0; font-weight: 700; }
+.perek-item-title bdi { font-family: var(--heb); font-size: 1.15rem; }
+.chip { display: inline-block; font-size: 0.85rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.chip.verified { background: var(--gold); color: #2b2620; border-color: var(--gold); }
+.menu-btn { font-size: 1.4rem; min-width: 44px; }
+.perek-menu { display: flex; flex-wrap: wrap; gap: 8px; padding: 6px 0 8px; }
+.mishnah-lines { list-style: none; padding: 0 0 6px; margin: 0; border-top: 1px solid var(--line); }
+.mishnah-lines li { display: flex; justify-content: space-between; align-items: center; gap: 8px; min-height: 44px; border-bottom: 1px dashed var(--line); }
+.mishnah-lines li:last-child { border-bottom: 0; }
+.child-settings.card-section { gap: 14px; }
+.child-settings select { max-width: 100%; }
+.saved-note { margin: 0; min-height: 1.4em; }
+/* change log */
+.log-list { list-style: none; padding: 0; margin: 0 0 8px; }
+.log-list li { padding: 10px 0; border-bottom: 1px solid var(--line); }
+.log-list .when { font-weight: 700; }
+.log-who { color: var(--muted); font-size: 0.88rem; margin-top: 2px; word-break: break-word; }
+/* learner mode: the parent link, the one-time note, text size */
+.parent-link { display: block; margin: 8px auto 0; font-weight: 600; font-size: 0.92rem; color: var(--muted); }
+.parent-note { max-width: 460px; margin: -16px auto 12px; background: var(--new-card); border-radius: 14px; padding: 10px 14px; display: flex; gap: 12px; align-items: center; text-align: start; }
+.parent-note p { margin: 0; flex: 1; }
+.aa { font-family: var(--heb); font-size: 1.15rem; font-weight: 800; }
+.ts-sample { font-family: var(--heb); line-height: 1.8; margin: 4px 0; }
+.sheet input[type="range"] { width: 100%; }
+input[type="range"] { accent-color: var(--accent); }
+.mishnah-lines .btn { white-space: nowrap; padding: 6px 4px; }
+.mishnah-lines span { min-width: 0; }
+@media (max-width: 420px) { .mishnah-lines li { font-size: 0.88rem; } }

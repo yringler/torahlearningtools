@@ -1,6 +1,6 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { SESSION_GUEST_EMOJI } from "../guest";
-import { newProfile } from "../storage";
+import { kv } from "../kv";
 import type { SyncStatus } from "../sync/engine";
 import type { Profile } from "../types";
 
@@ -9,41 +9,42 @@ interface Props {
   status: SyncStatus;
   /** First sync of a fresh device is running. */
   loading: boolean;
-  onAdd: (p: Profile) => void;
   onPick: (id: string) => void;
   /** Learn as an untracked guest (nothing saved, not part of the account). */
   onGuest: () => void;
-  onParent: () => void;
-}
-
-/** Hold the parent button for 2s (keeps little fingers out). */
-function HoldButton({ onHold, children }: { onHold: () => void; children: React.ReactNode }) {
-  const t = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const [holding, setHolding] = useState(false);
-  const start = () => { setHolding(true); t.current = setTimeout(() => { setHolding(false); onHold(); }, 2000); };
-  const stop = () => { setHolding(false); if (t.current) clearTimeout(t.current); };
-  return (
-    <button
-      className={`btn ghost-btn hold ${holding ? "holding" : ""}`}
-      onPointerDown={start} onPointerUp={stop} onPointerLeave={stop} onContextMenu={(e) => e.preventDefault()}
-    >
-      {children}
-    </button>
-  );
+  /** Starts the parent sign-in (email, then the PIN). Nothing here opens parent mode by itself. */
+  onParentSignIn: () => Promise<void>;
 }
 
 const DOT_LABEL: Record<SyncStatus["state"], string> = {
   idle: "Synced", syncing: "Syncing", offline: "Offline", error: "Sync problem", signedOut: "Signed out",
 };
 
-/** "Who's learning?" — the account's main screen. */
-export function Profiles({ profiles, status, loading, onAdd, onPick, onGuest, onParent }: Props) {
-  const [name, setName] = useState("");
-  const add = () => {
-    const n = name.trim();
-    if (!n) return;
-    onAdd(newProfile(n, profiles.length));
-    setName("");
+/** The one-time note for existing families (docs/PARENT_MODE.md §9.3). */
+export const PARENT_NOTE_KEY = "baalpeh:parentModeNote";
+const noteSeen = (): boolean => {
+  try { return kv.getItem(PARENT_NOTE_KEY) === "1"; } catch { return true; }
+};
+
+/** Profiles' child-facing copy, kept here so the copy test can read it. */
+export const NO_LEARNERS = {
+  title: "No learners yet.",
+  hint: "Ask Abba or Ima to add you in parent mode. Then you can begin learning here.",
+} as const;
+export const PARENT_NOTE = "Parents now have their own sign-in, with a 4-digit PIN. A parent can tap \"Parent? Sign in as parent\" below.";
+
+/** "Who's learning?" — the learner app's first screen. It holds nothing a child could change for the family. */
+export function Profiles({ profiles, status, loading, onPick, onGuest, onParentSignIn }: Props) {
+  const [busy, setBusy] = useState(false);
+  const [showNote, setShowNote] = useState(() => !noteSeen());
+  const closeNote = () => {
+    try { kv.setItem(PARENT_NOTE_KEY, "1"); } catch { /* ignore */ }
+    setShowNote(false);
+  };
+  const parent = () => {
+    if (busy) return;
+    setBusy(true);
+    void onParentSignIn().finally(() => setBusy(false));
   };
   return (
     <div className="profiles" dir="ltr">
@@ -66,22 +67,25 @@ export function Profiles({ profiles, status, loading, onAdd, onPick, onGuest, on
               <span className="sub">nothing saved</span>
             </button>
           </div>
+          {showNote && (
+            <div className="parent-note" role="note">
+              <p>{PARENT_NOTE}</p>
+              <button className="btn secondary small" onClick={closeNote}>OK</button>
+            </div>
+          )}
         </>
       ) : loading ? (
         <p className="hint first-run">Loading your children…</p>
       ) : (
         <div className="first-run">
-          <h2>No children yet.</h2>
-          <p className="hint">Add the first child who will learn on this device.</p>
-          <form className="row center" onSubmit={(e) => { e.preventDefault(); add(); }}>
-            <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Child's name" aria-label="Child's name" maxLength={40} />
-            <button className="btn primary" type="submit" disabled={!name.trim()}>Add child</button>
-          </form>
+          <h2>{NO_LEARNERS.title}</h2>
+          <p className="hint">{NO_LEARNERS.hint}</p>
+          <button className="btn primary" disabled={busy} onClick={parent}>🔑 Sign in as parent</button>
           <div className="or-divider" aria-hidden="true"><span>or</span></div>
           <button className="btn guest-first-run" onClick={onGuest}>{SESSION_GUEST_EMOJI} Learn as a guest <span className="sub">nothing saved</span></button>
         </div>
       )}
-      <HoldButton onHold={onParent}>🔒 Parent (hold)</HoldButton>
+      <button className="link-btn parent-link" disabled={busy} onClick={parent}>{busy ? "Opening parent sign-in…" : "Parent? Sign in as parent"}</button>
     </div>
   );
 }

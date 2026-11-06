@@ -113,6 +113,18 @@ describe("applyServerResponse", () => {
     expect(s.profiles[0]?.perakim["1"]?.chainedThrough).toBe(2);
   });
 
+  it("applies a pulled perek record with chains, and an old-shape one", () => {
+    const a = kid("A");
+    const recs: RecordRow[] = [
+      { kind: "p", childId: a.id, key: "2", updatedAt: T0, data: { chainedThrough: 4, complete: false, chains: ["1-4", "5-7"] } },
+      { kind: "p", childId: a.id, key: "3", updatedAt: T0, data: { chainedThrough: 2, complete: false } },
+    ];
+    const s = applyServerResponse(store([a]), { children: [], records: [], events: [] }, resp({ records: recs }), T0);
+    expect(s.profiles[0]?.perakim["2"]).toEqual({ chainedThrough: 4, complete: false, chains: ["1-4", "5-7"] });
+    expect(s.profiles[0]?.perakim["3"]).toEqual({ chainedThrough: 2, complete: false });
+    expect(pendingCount(s)).toBe(0);
+  });
+
   it("removes sent events by id", () => {
     let s = enqueueEvent(store(), ev("e1aaaaaa", "c"));
     const sent = sentOf(s);

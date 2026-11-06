@@ -11,4 +11,20 @@ export interface Env {
   RESEND_API_KEY?: string; // secret; unset => LogSender
 }
 
-export type AppEnv = { Bindings: Env; Variables: { user: User; sessionHash: string } };
+/** Set by requireParentSession / requireParent (docs/PARENT_MODE.md §6.1). */
+export interface ParentVars {
+  /** sessions.id: the public id written to the change log. */
+  sessionId: string;
+  /** The address this parent session signed in with. */
+  loginEmail: string;
+  expiresAt: number;
+  /** sessions.created_at: when this parent session's email sign-in happened. */
+  signedInAt: number;
+  unlockedAt: number | null;
+  /** null = locked. */
+  unlockedUntil: number | null;
+  /** This request's User-Agent, cut to 200 chars. */
+  userAgent: string;
+}
+
+export type AppEnv = { Bindings: Env; Variables: { user: User; sessionHash: string; parent?: ParentVars } };

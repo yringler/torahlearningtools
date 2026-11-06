@@ -1,30 +1,36 @@
 import { useState } from "react";
-import type { AuthSuccessResponse } from "../../shared/api";
+import type { AuthSuccessResponse, SignInAs } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
 import { AuthFrame } from "./Login";
 
 export const VERIFY_PATH = "/auth/verify";
 
+/** `#token=…&as=parent` → "parent"; anything else is a learner link. Display only: the server decides the scope. */
+export const verifyAs = (hash: string): SignInAs =>
+  new URLSearchParams(hash.replace(/^#/, "")).get("as") === "parent" ? "parent" : "learner";
+
 /**
- * Reads the magic-link token from the URL fragment and strips it from the address bar right away.
+ * Reads the magic-link token (and its `as` hint) from the URL fragment and strips it from the address bar right away.
  * Call once per page load (outside React, so StrictMode's double render can't lose it).
  */
-export function takeVerifyToken(): string | null {
+export function takeVerifyToken(): { token: string; as: SignInAs } | null {
   if (location.pathname !== VERIFY_PATH) return null;
   const params = new URLSearchParams(location.hash.replace(/^#/, ""));
   const token = params.get("token") ?? "";
+  const as = verifyAs(location.hash);
   history.replaceState(null, "", VERIFY_PATH);
-  return token;
+  return { token, as };
 }
 
 interface Props {
   token: string;
+  as: SignInAs;
   onSuccess: (r: AuthSuccessResponse) => void;
   onLogin: () => void;
 }
 
 /** The magic-link landing page. The token is only sent when the parent taps, so link scanners can't use it up. */
-export function VerifyLanding({ token, onSuccess, onLogin }: Props) {
+export function VerifyLanding({ token, as, onSuccess, onLogin }: Props) {
   const [busy, setBusy] = useState(false);
   const [invalid, setInvalid] = useState(token === "");
   const [error, setError] = useState("");
@@ -62,9 +68,9 @@ export function VerifyLanding({ token, onSuccess, onLogin }: Props) {
   }
   return (
     <AuthFrame>
-      <h2>Sign in to Mishnah Ba'al Peh on this device?</h2>
+      <h2>{as === "parent" ? "Open parent mode on this device?" : "Sign in to Mishnah Ba'al Peh on this device?"}</h2>
       <button className="btn primary big" disabled={busy} onClick={() => void go()}>
-        {busy ? "Signing in…" : "Sign in on this device"}
+        {busy ? "Signing in…" : as === "parent" ? "Sign in as parent on this device" : "Sign in on this device"}
       </button>
       {error && <p className="error" role="alert">{error}</p>}
     </AuthFrame>

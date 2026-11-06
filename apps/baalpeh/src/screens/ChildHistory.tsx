@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import type { ChildStatsResponse, LearningEvent } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
-import { dueReviews } from "../progress";
+import { gatedDueReviews, type Verified } from "../progress";
 import { addDays, today } from "../srs";
 import type { Profile } from "../types";
 
 interface Props {
   profile: Profile;
+  /** Gates "Due now" like the card's count: reviews of locked perakim are paused (§8). */
+  verified: Verified;
   online: boolean;
 }
 
@@ -22,10 +24,14 @@ const where = (perek: number, mishnah: number | null) => (mishnah === null ? `Pe
 export function describeEvent(e: LearningEvent): string {
   switch (e.type) {
     case "recite": {
+      const span = e.mishnah === null && e.from !== undefined && e.to !== undefined
+        ? (e.from === e.to ? `mishnah ${e.from}` : `mishnayos ${e.from}–${e.to}`)
+        : null;
       const what = e.task === "learn" ? `Learned a piece of ${where(e.perek, e.mishnah)}`
         : e.task === "chain" ? `Said pieces of ${where(e.perek, e.mishnah)} together`
-        : e.task === "detour" ? `Extra practice on ${where(e.perek, e.mishnah)}`
-        : e.task === "practice" ? `Practiced ${where(e.perek, e.mishnah)} again`
+        : e.task === "detour" ? (span ? `Extra practice on Perek ${e.perek}, ${span}` : `Extra practice on ${where(e.perek, e.mishnah)}`)
+        : e.task === "practice" ? (span ? `Practiced Perek ${e.perek}, ${span}` : `Practiced ${where(e.perek, e.mishnah)} again`)
+        : e.task === "perek-chain" && span ? `Said Perek ${e.perek}, ${span} together`
         : e.task === "review-m" ? `Reviewed ${where(e.perek, e.mishnah)}`
         : e.task === "perek-chain" ? `Said Perek ${e.perek} in a row`
         : `Reviewed Perek ${e.perek}`;
@@ -47,12 +53,12 @@ export function describeEvent(e: LearningEvent): string {
 const when = (at: number) => new Date(at).toLocaleString([], { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
 
 /** Parent-only view of one child's practice, from the server's event log. */
-export function ChildHistory({ profile, online }: Props) {
+export function ChildHistory({ profile, verified, online }: Props) {
   const [stats, setStats] = useState<Load<ChildStatsResponse>>({ s: "loading" });
   const [events, setEvents] = useState<LearningEvent[]>([]);
   const [nextBefore, setNextBefore] = useState<number | null>(null);
   const [moreBusy, setMoreBusy] = useState(false);
-  const due = dueReviews(profile);
+  const due = gatedDueReviews(profile, verified);
 
   useEffect(() => {
     if (!online) return;
