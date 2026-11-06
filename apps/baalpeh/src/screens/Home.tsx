@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { VerifIntroBanner } from "../components/PerekGate";
 import { PerekStrip } from "../components/PerekStrip";
 import { hebNum, MASECHTA, PERAKIM } from "../data";
@@ -17,6 +17,8 @@ interface Props {
   onOpenPerek: (perek: number) => void;
   /** Back to the picker. Omitted in guest mode (one learner, nothing to switch to). */
   onBack?: () => void;
+  /** The "Aa" text-size sheet (the one setting a learner may change). */
+  onFontScale?: (scale: number) => void;
   /** Signed in: the parent-verification gate (docs/PARENT_VERIFICATION.md §10.2). Guest mode has none (ungated). */
   gate?: HomeGate;
 }
@@ -70,7 +72,25 @@ export function nextSubLabel(t: Task): string {
   }
 }
 
-export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, gate }: Props) {
+/** "Aa": text size, with a line of the masechta to show it (docs/PARENT_MODE.md §9.3). */
+function TextSizeSheet({ scale, onChange, onClose }: { scale: number; onChange: (s: number) => void; onClose: () => void }) {
+  const [v, setV] = useState(scale);
+  const sample = MASECHTA.mishnayos[0]?.chunks[0]?.he ?? "";
+  return (
+    <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="ts-title" onClick={onClose}>
+      <div className="sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
+        <h3 id="ts-title">Text size</h3>
+        <input type="range" min={0.8} max={1.6} step={0.1} value={v} aria-label="Text size"
+          onChange={(e) => { const n = Number(e.target.value); setV(n); onChange(n); }} />
+        <p className="ts-sample" dir="rtl" lang="he" style={{ fontSize: `calc(1.8rem * ${v})` }}>{sample}</p>
+        <button className="btn primary" onClick={onClose}>Done</button>
+      </div>
+    </div>
+  );
+}
+
+export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onFontScale, gate }: Props) {
+  const [sizing, setSizing] = useState(false);
   const v = gate?.verified;
   const due = (v ? gatedDueReviews(profile, v) : dueReviews(profile)).length;
   const next = v ? gatedNextLearning(profile, v) : nextLearning(profile);
@@ -87,7 +107,9 @@ export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, gat
       <div className="topbar" dir="ltr">
         {onBack ? <button className="btn ghost-btn small" onClick={onBack}>‹ Switch</button> : <span />}
         <span className="who" style={{ color: profile.color }}>{profile.emoji} {profile.name}</span>
+        {onFontScale ? <button className="btn ghost-btn small aa" aria-label="Text size" onClick={() => setSizing(true)}>Aa</button> : <span />}
       </div>
+      {sizing && onFontScale && <TextSizeSheet scale={profile.settings.fontScale} onChange={onFontScale} onClose={() => setSizing(false)} />}
       {gate?.intro && <VerifIntroBanner {...gate.intro} />}
       <button className="btn primary huge" onClick={onStart} dir="ltr">
         ▶ Start today's learning

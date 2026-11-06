@@ -47,6 +47,6 @@ describe("api call", () => {
   it("encodes child ids in parent-view paths", async () => {
     const f = stub(async () => Response.json({ events: [], nextBefore: null }));
     await api.events("a/b", 5);
-    expect(f.mock.calls[0]?.[0]).toBe("/api/children/a%2Fb/events?before=5");
+    expect(f.mock.calls[0]?.[0]).toBe("/api/parent/children/a%2Fb/events?before=5");
   });
 });

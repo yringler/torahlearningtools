@@ -30,7 +30,8 @@ export interface PerekTestApi {
   devEmail: boolean;
   /** Open the in-memory guest at this perek ("Continue as a guest"). */
   onGuest(perek: number): void;
-  onParentArea(): void;
+  /** The session expired: the learner sign-in, with the account email filled in. */
+  onSignInAgain(): void;
 }
 
 interface Props {
@@ -211,7 +212,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
       <div className="celebrate" dir="ltr">
         <div className="big-emoji">🔑</div>
         <h2>Ask Abba or Ima to sign in again, then you can let them know you're ready.</h2>
-        <button className="btn primary big" onClick={test.onParentArea}>Go to parent area</button>
+        <button className="btn primary big" onClick={test.onSignInAgain}>Sign in again</button>
         <button className="btn ghost-btn" onClick={() => setView({ v: "ready" })}>‹ Back</button>
       </div>
     );

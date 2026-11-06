@@ -11,21 +11,17 @@ import {
   needsVerifIntro, perekPhase, sessionReviews, type Task, type Verified,
 } from "./progress";
 import { Home } from "./screens/Home";
-import { ImportPrompt } from "./screens/ImportPrompt";
 import { MishnahScreen } from "./screens/MishnahScreen";
 import { PerekScreen } from "./screens/PerekScreen";
-import { Parent } from "./screens/Parent";
 import { Profiles } from "./screens/Profiles";
 import { GuestApp } from "./GuestApp";
 import { Session } from "./screens/Session";
-import { canImportDevice, normalizeProfile } from "./legacy/import";
-import { loadLegacy, requestPersist } from "./storage";
+import { requestPersist } from "./storage";
 import { useAccount } from "./sync/useAccount";
 import type { Profile } from "./types";
 
 type Screen =
   | { s: "profiles" }
-  | { s: "parent" }
   /** Guest: a fresh local-only learner, never part of the account; forgotten on leaving. `start`: open at this perek. */
   | { s: "guest"; start?: { perek: number } }
   | { s: "home"; id: string }
@@ -38,10 +34,10 @@ type Screen =
 
 interface Props {
   user: User;
-  /** Local account data is gone; show Login. */
-  onSignedOut: () => void;
   /** The session expired; sign in again (local data kept). */
   onSignInAgain: () => void;
+  /** "Parent? Sign in as parent": the shell syncs first (with the given function, up to 3 s), then opens parent mode. */
+  onParentSignIn: (syncNow: () => Promise<void>) => Promise<void>;
 }
 
 /** Online as far as this tab can tell: the browser says so and the last sync didn't fail for lack of a network. */
@@ -65,14 +61,10 @@ const CELEBRATE_WITHIN_MS = 7 * 24 * 60 * 60 * 1000;
  * Every schedule here goes through the parent-verification gate (docs/PARENT_VERIFICATION.md §8): perakim past the
  * first one a parent hasn't verified are locked, and a learned perek's next step is its email test.
  */
-export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
+export function LearningApp({ user, onSignInAgain, onParentSignIn }: Props) {
   const account = useAccount(user);
   const { profiles, setProfiles, addEvent, status, store } = account;
   const [screen, setScreen] = useState<Screen>({ s: "profiles" });
-  const legacy = useMemo(() => loadLegacy().profiles.map(normalizeProfile), []);
-  /** "Not now" in the import prompt: in memory only. Forced: reopened from the parent area. */
-  const [importSnoozed, setImportSnoozed] = useState(false);
-  const [importForced, setImportForced] = useState(false);
 
   /** The locked sheet (a tapped locked perek), over Home or the perek screen. */
   const [lockedSheet, setLockedSheet] = useState<number | null>(null);
@@ -107,57 +99,19 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
     document.documentElement.style.setProperty("--scale", String(profile?.settings.fontScale ?? 1));
   }, [profile?.settings.fontScale]);
 
-  const canImport = canImportDevice(legacy.length, profiles.length, store.lastSyncAt);
-
-  if (screen.s === "parent") {
-    return (
-      <Parent
-        user={user}
-        profiles={profiles}
-        setProfiles={setProfiles}
-        onEvent={addEvent}
-        status={status}
-        syncNow={account.syncNow}
-        pendingNow={account.pendingNow}
-        endSession={account.endSession}
-        onSignOut={onSignedOut}
-        onSignInAgain={onSignInAgain}
-        hasLegacy={canImport}
-        verifiedOf={verifiedOf}
-        verifiedAtOf={account.verifiedAt}
-        lastTestOf={account.lastTest}
-        serverNow={account.serverNow}
-        onReopenImport={() => { setImportForced(true); setScreen({ s: "profiles" }); }}
-        onBack={() => setScreen({ s: "profiles" })}
-      />
-    );
-  }
   if (screen.s === "guest") {
     return <GuestApp onExit={() => setScreen({ s: "profiles" })} {...(screen.start ? { start: screen.start } : {})} />;
   }
   if (screen.s === "profiles" || !profile) {
-    const showImport = canImport && (importForced || (store.importDecision === "none" && !importSnoozed));
     return (
-      <>
-        <Profiles
-          profiles={profiles}
-          status={status}
-          loading={store.cursor === 0 && status.state === "syncing" && profiles.length === 0}
-          onAdd={(p) => setProfiles((list) => [...list, p])}
-          onPick={(id) => setScreen({ s: "home", id })}
-          onGuest={() => setScreen({ s: "guest" })}
-          onParent={() => setScreen({ s: "parent" })}
-        />
-        {showImport && (
-          <ImportPrompt
-            legacy={legacy}
-            existing={profiles}
-            onImport={(selected) => { account.importLegacy(selected); setImportForced(false); }}
-            onLater={() => { setImportSnoozed(true); setImportForced(false); }}
-            onNever={() => { account.setImportDecision("dismissed"); setImportForced(false); }}
-          />
-        )}
-      </>
+      <Profiles
+        profiles={profiles}
+        status={status}
+        loading={store.cursor === 0 && status.state === "syncing" && profiles.length === 0}
+        onPick={(id) => setScreen({ s: "home", id })}
+        onGuest={() => setScreen({ s: "guest" })}
+        onParentSignIn={() => onParentSignIn(account.syncNow)}
+      />
     );
   }
 
@@ -217,6 +171,7 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
         <Home
           profile={profile}
           onBack={() => setScreen({ s: "profiles" })}
+          onFontScale={(fontScale) => setProfile({ ...profile, settings: { ...profile.settings, fontScale } })}
           onOpenMishnah={(perek, mishnah) => (isLocked(v, perek) ? setLockedSheet(perek) : setScreen({ s: "mishnah", id: childId, perek, mishnah }))}
           onOpenPerek={(perek) => (isLocked(v, perek) ? setLockedSheet(perek) : setScreen({ s: "perek", id: childId, perek }))}
           onStart={() => { seenIntro(); startSession(startTasks(), home); }}
@@ -308,7 +263,7 @@ export function LearningApp({ user, onSignedOut, onSignInAgain }: Props) {
     online,
     devEmail,
     onGuest: (perek) => setScreen({ s: "guest", start: { perek: PERAKIM.includes(perek) ? perek : f ?? 1 } }),
-    onParentArea: () => setScreen({ s: "parent" }),
+    onSignInAgain,
   };
   return (
     <Session

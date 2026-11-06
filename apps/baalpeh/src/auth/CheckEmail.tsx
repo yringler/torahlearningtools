@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { AUTH, type AuthSuccessResponse } from "../../shared/api";
+import { AUTH, type AuthSuccessResponse, type SignInAs } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
 import { AuthFrame } from "./Login";
 
 interface Props {
+  as: SignInAs;
   email: string;
   onSuccess: (r: AuthSuccessResponse) => void;
   /** Back to Login with the email prefilled. */
@@ -13,7 +14,7 @@ interface Props {
 
 const RESEND_COOLDOWN_SEC = 30;
 
-export function CheckEmail({ email, onSuccess, onResend, onDifferentEmail }: Props) {
+export function CheckEmail({ as, email, onSuccess, onResend, onDifferentEmail }: Props) {
   const [code, setCode] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -31,7 +32,7 @@ export function CheckEmail({ email, onSuccess, onResend, onDifferentEmail }: Pro
     setBusy(true);
     setError("");
     try {
-      const r = await api.verifyCode({ email, code: digits });
+      const r = await api.verifyCode({ email, code: digits, as });
       onSuccess(r);
       return;
     } catch (e) {
@@ -61,6 +62,7 @@ export function CheckEmail({ email, onSuccess, onResend, onDifferentEmail }: Pro
 
   return (
     <AuthFrame>
+      <p className="hint scope-line">{as === "parent" ? "Parent" : "Learner"} sign-in for {email}</p>
       <h2>Check your email</h2>
       <p>We sent an email to <b>{email}</b>. Tap the link in it, or type the 6-digit code here.</p>
       <p className="hint">The link works on any device you open it on. The newest email is the only one that works.</p>

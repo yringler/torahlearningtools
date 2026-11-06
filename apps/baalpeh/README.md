@@ -82,8 +82,16 @@ whole perek is reviewed as one item. Reviews of locked perakim wait until they o
 due reviews first (at most 6, oldest first), then continues new learning,
 and suggests stopping after the session length set by the parent (default 15 min).
 
-Other features: a profile for each child, a parent area (hold the lock button for 2 s) with settings, backup
-export/import, and per-mishnah reset.
+**Two ways in.** The sign-in page offers "Sign in as learner" and "Sign in as parent"; both email a link and a code to
+the family's account email. Learner mode is only learning: pick a child, learn, guest mode, the meaning view and an
+"Aa" text-size sheet, plus a small "Parent? Sign in as parent" link. **Parent mode** is a separate area with no learning
+screens, opened by a parent sign-in plus a 4-digit PIN (chosen on the first parent sign-in), and re-locked after
+5 minutes idle, a minute in the background, or on leaving. It holds everything else: adding, editing and removing
+children; their settings (name, picture, breaks, meanings, text size); each child's perakim, where a parent can mark a
+perek verified or remove the verification, reset a perek or mark a mishnah not known; the child's activity; a change log
+of every PIN change and parental edit with the time and the login that made it; backup export/import; moving guest
+progress into the account; signing out and deleting the account. "Forgot PIN?" emails a link to `/parent-pin`; every PIN
+change sends a notice email. Once a PIN is set, the perek-test page asks for it before "knows it" confirms.
 
 The design spec this was built from is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
@@ -170,7 +178,9 @@ sides in `shared/api.ts`. The full design is in [`docs/SERVER_PLAN.md`](docs/SER
 
 **Parent mode** ([`docs/PARENT_MODE.md`](docs/PARENT_MODE.md)) is a separate, server-enforced area: an email sign-in
 "as parent" (its own 14-day session cookie) plus a 4-digit PIN (hashed, 5 tries, reset by email, every change emailed).
-It holds every power: children, settings, progress edits, marking perakim verified or not, and a change log.
+It holds every power: children, settings, progress edits, marking perakim verified or not, and a change log. The client
+is in `src/parent/` (`ParentApp.tsx` shell, `useParent.ts` in-memory store, `pin.ts` and `log.ts` pure logic), with
+`src/components/PinPad.tsx`, `src/auth/PinResetLanding.tsx` (`/parent-pin`) and the login choice in `src/auth/Login.tsx`.
 
 | API | Session | Purpose |
 |---|---|---|
@@ -195,9 +205,9 @@ Edition (Steinsaltz, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4
 Bartenura by R. Shraga Silverstein ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)), via Sefaria. The
 "Simple" and word meanings adapt Steinsaltz, so they're CC BY-NC too. Details, including what was changed, are in
 [`data/LICENSES.md`](data/LICENSES.md). The app shows the attribution at `/licenses` (no sign-in needed), with links from
-the sign-in screen, each meaning's ⓘ, the parent area and guest settings.
+the sign-in screen, each meaning's ⓘ, parent mode's settings and guest settings.
 
-The app is free and non-commercial, as the CC BY-NC source requires. The sign-in screen, the parent area and the
+The app is free and non-commercial, as the CC BY-NC source requires. The sign-in screen, parent mode and the
 guest sheet say accounts may later become a small yearly family subscription (about $5–10), and that guest mode would
 stay free. Before charging, get written permission from Koren or rebuild the meanings from Bartenura/public-domain
 sources only (see `data/LICENSES.md`).

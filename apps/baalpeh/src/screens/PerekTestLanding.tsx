@@ -1,7 +1,9 @@
-import { useEffect, useReducer } from "react";
+import { useEffect, useReducer, useState } from "react";
 import type { PerekTestInfo } from "../../shared/api";
 import { hebNum } from "../../shared/hebrew";
-import { api, ApiFailure, NetworkFailure } from "../api/client";
+import { api, ApiFailure, errorCode, NetworkFailure } from "../api/client";
+import { PinPad, type PinOutcome } from "../components/PinPad";
+import { forgotFailText, pinOutcomeOf } from "../parent/PinFlows";
 
 /**
  * The parent's test page, opened from the email (docs/PARENT_VERIFICATION.md §10.4). Public: rendered outside the
@@ -52,10 +54,20 @@ export function takePerekTestToken(
 
 export type FailKind = "invalid" | "expired" | "offline" | "limited" | "other";
 
+/** The PIN sheet (docs/PARENT_MODE.md §9.11): open while set. */
+export interface PinStep {
+  busy: boolean;
+  error?: string | undefined;
+  triesLeft?: number | undefined;
+  locked?: boolean | undefined;
+  /** "Forgot PIN?" sent the reset email. */
+  resetSent?: boolean | undefined;
+}
+
 export type LandingState =
   | { s: "loading" }
-  /** `notYet`: the parent tapped "Not yet" (client only; the link stays live). */
-  | { s: "pending"; info: PerekTestInfo; busy: boolean; notYet: boolean; showText: boolean; error?: string | undefined }
+  /** `notYet`: the parent tapped "Not yet" (client only; the link stays live). `pin`: the PIN sheet is open. */
+  | { s: "pending"; info: PerekTestInfo; busy: boolean; notYet: boolean; showText: boolean; error?: string | undefined; pin?: PinStep | undefined }
   /** `fresh`: this tap confirmed it ("Mazel tov"); otherwise it was already done ("Already done"). */
   | { s: "done"; info: PerekTestInfo; fresh: boolean }
   | { s: "expired"; info?: PerekTestInfo }
@@ -72,7 +84,14 @@ export type LandingAction =
   | { a: "confirmOk"; info: PerekTestInfo }
   | { a: "confirmFail"; kind: FailKind }
   | { a: "notYet" }
-  | { a: "toggleText" };
+  | { a: "toggleText" }
+  | { a: "openPin" }
+  | { a: "closePin" }
+  | { a: "pinWrong"; left?: number | undefined }
+  | { a: "pinLocked" }
+  /** confirm without a PIN answered pin_required (a PIN was set after lookup): open the sheet. */
+  | { a: "pinRequired" }
+  | { a: "resetSent" };
 
 export const initialLanding = (token: string): LandingState => (token ? { s: "loading" } : { s: "invalid", missing: true });
 
@@ -96,7 +115,22 @@ export function landingReducer(st: LandingState, act: LandingAction): LandingSta
     case "retry":
       return { s: "loading" };
     case "tapConfirm":
-      return st.s === "pending" ? { ...st, busy: true, notYet: false, error: undefined } : st;
+      if (st.s !== "pending") return st;
+      if (st.info.pinRequired) return landingReducer(st, { a: "openPin" });
+      return { ...st, busy: true, notYet: false, error: undefined };
+    case "openPin":
+      return st.s === "pending" ? { ...st, busy: false, notYet: false, error: undefined, pin: { busy: false, locked: st.info.pinLocked === true } } : st;
+    case "closePin":
+      return st.s === "pending" ? { ...st, pin: undefined } : st;
+    case "pinWrong":
+      return st.s === "pending" && st.pin ? { ...st, pin: { ...st.pin, busy: false, triesLeft: act.left } } : st;
+    case "pinLocked":
+      return st.s === "pending" ? { ...st, busy: false, info: { ...st.info, pinRequired: true, pinLocked: true }, pin: { busy: false, locked: true } } : st;
+    case "pinRequired":
+      return st.s === "pending" ? { ...st, busy: false, info: { ...st.info, pinRequired: true }, pin: { busy: false, locked: st.info.pinLocked === true } } : st;
+    case "resetSent":
+      // The lock ends only when the new PIN is set; until then the server answers pin_locked again, which re-locks.
+      return st.s === "pending" ? { ...st, info: { ...st.info, pinLocked: false }, pin: { busy: false, resetSent: true } } : st;
     case "confirmOk":
       return { s: "done", info: act.info, fresh: true };
     case "confirmFail":
@@ -136,11 +170,30 @@ export function PerekTestLanding({ token }: { token: string }) {
   }, [st.s, token]);
 
   const confirm = async () => {
+    const needsPin = st.s === "pending" && st.info.pinRequired === true;
     dispatch({ a: "tapConfirm" });
+    if (needsPin) return;
     try {
       dispatch({ a: "confirmOk", info: await api.perekTestConfirm({ token }) });
     } catch (e) {
-      dispatch({ a: "confirmFail", kind: failKind(e) });
+      if (errorCode(e) === "pin_required") dispatch({ a: "pinRequired" });
+      else if (errorCode(e) === "pin_locked") dispatch({ a: "pinLocked" });
+      else dispatch({ a: "confirmFail", kind: failKind(e) });
+    }
+  };
+
+  const confirmWithPin = async (pin: string): Promise<PinOutcome> => {
+    try {
+      const info = await api.perekTestConfirm({ token, pin });
+      dispatch({ a: "confirmOk", info });
+      return { ok: true };
+    } catch (e) {
+      const k = failKind(e);
+      if (k === "expired" || k === "invalid") { dispatch({ a: "confirmFail", kind: k }); return { ok: true }; }
+      const out = pinOutcomeOf(e);
+      if ("wrong" in out) dispatch({ a: "pinWrong", left: out.left });
+      if ("locked" in out) dispatch({ a: "pinLocked" });
+      return out;
     }
   };
 
@@ -240,12 +293,73 @@ export function PerekTestLanding({ token }: { token: string }) {
     }
   }
 
+  const pinSheet = st.s === "pending" && st.pin && (
+    <PinSheet name={name || "your child"} step={st.pin} onSubmit={confirmWithPin} onClose={() => dispatch({ a: "closePin" })}
+      onForgot={async () => {
+        await api.perekTestForgotPin({ token });
+        dispatch({ a: "resetSent" });
+      }} />
+  );
+
   return (
     <div className="landing" dir="ltr">
+      {pinSheet}
       <header className="landing-head">
         <span dir="rtl" lang="he">משנה בעל פה</span> · <span>Mishnah Ba'al Peh</span>
       </header>
       {body}
+    </div>
+  );
+}
+
+/** "Enter your parent PIN" over the test page; the locked and "check your email" states replace the pad. */
+function PinSheet({ name, step, onSubmit, onClose, onForgot }: {
+  name: string; step: PinStep; onSubmit: (pin: string) => Promise<PinOutcome>; onClose: () => void; onForgot: () => Promise<void>;
+}) {
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
+  const forgot = async () => {
+    setBusy(true);
+    setError("");
+    try { await onForgot(); } catch (e) { setError(errorCode(e) === "pin_not_set" ? "This account has no PIN yet. Tap \"knows it\" again." : forgotFailText(e)); }
+    setBusy(false);
+  };
+  let body: JSX.Element;
+  if (step.resetSent) {
+    body = (
+      <>
+        <div className="big-emoji">📬</div>
+        <h2>Check your email</h2>
+        <p>Check your email for a link to choose a new PIN. Then come back to this page and tap "knows it" again. This test link still works.</p>
+        <button className="btn primary" onClick={onClose}>Back to the test</button>
+      </>
+    );
+  } else if (step.locked) {
+    body = (
+      <>
+        <div className="big-emoji">🔒</div>
+        <h2>Your parent PIN is locked after 5 wrong tries.</h2>
+        <p>We'll email the account a link to choose a new PIN.</p>
+        <button className="btn primary" disabled={busy} onClick={() => void forgot()}>{busy ? "Sending…" : "Email me a reset link"}</button>
+        <button className="btn ghost-btn" onClick={onClose}>Cancel</button>
+      </>
+    );
+  } else {
+    body = (
+      <>
+        <h2>Enter your parent PIN</h2>
+        <p>So only a parent can confirm {name}'s test.</p>
+        <PinPad onSubmit={onSubmit} onForgot={() => void forgot()} />
+        <button className="btn ghost-btn" onClick={onClose}>Cancel</button>
+      </>
+    );
+  }
+  return (
+    <div className="sheet-backdrop confirm" role="dialog" aria-modal="true" aria-label="Parent PIN">
+      <div className="sheet confirm-sheet pin-sheet" dir="ltr">
+        {body}
+        {error && <p className="error" role="alert">{error}</p>}
+      </div>
     </div>
   );
 }

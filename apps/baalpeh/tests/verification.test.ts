@@ -16,7 +16,7 @@ import {
   type Verified,
 } from "../src/progress";
 import { gatedSubLabel } from "../src/screens/Home";
-import { perekTestLine } from "../src/screens/Parent";
+import { perekChip } from "../src/parent/ChildDetail";
 import { failKind, initialLanding, landingReducer, takePerekTestToken, type LandingState } from "../src/screens/PerekTestLanding";
 import { SyncEngine } from "../src/sync/engine";
 import { diffProfiles, profileToRows } from "../src/sync/mapping";
@@ -282,13 +282,14 @@ describe("test request helpers", () => {
     expect(gatedSubLabel(0, null, null, false)).toBe("All caught up!");
   });
 
-  it("the parent area's test lines are read-only status", () => {
+  it("parent mode's perek chips", () => {
     const p = learned(learned(kid("A"), 1), 2);
     const t = { verified: V(1), verifiedAt: () => T0, lastTest: { masechta: "berakhot", perek: 2, sentAt: T0 - 120_000, nextAllowedAt: T0 }, now: T0 };
-    expect(perekTestLine(p, t, 1)).toMatch(/^✔ Tested/);
-    expect(perekTestLine(p, t, 2)).toBe("📬 Test email sent 2 minutes ago");
-    expect(perekTestLine(p, t, 3)).toBe("🔒 Opens after פרק ב׳");
-    expect(perekTestLine(p, { ...t, lastTest: undefined }, 2)).toBe("🙋 Learned, ready for a test");
+    expect(perekChip(p, t, 1)).toMatch(/^✔ Verified /);
+    expect(perekChip(p, t, 2)).toBe("📬 Test email sent 2 minutes ago");
+    expect(perekChip(p, t, 3).replace(/[\u2066-\u2069]/g, "")).toBe("🔒 Opens after פרק ב׳");
+    expect(perekChip(p, { ...t, lastTest: undefined }, 2)).toBe("🙋 Learned, ready for a test");
+    expect(perekChip(kid("B"), { ...t, verified: V() }, 1)).toBe("Not started");
   });
 });
 

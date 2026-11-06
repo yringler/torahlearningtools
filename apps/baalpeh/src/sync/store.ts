@@ -234,9 +234,17 @@ export function clearSent(s: AccountStore, sent: SentBatch): AccountStore {
   return { ...s, pending: { children, records, events } };
 }
 
-/** §6.4 step 3. Server rows never create pending rows and never overwrite a key that is still pending. */
-export function applyServerResponse(s0: AccountStore, sent: SentBatch, r: SyncResponse, now: Ms): AccountStore {
-  const s = clearSent(s0, sent);
+/**
+ * §6.4 step 3. Server rows never create pending rows and never overwrite a key that is still pending, with one
+ * exception (docs/PARENT_MODE.md §8.2): a row a parent wrote (`byParent`) wins over a pending local value for the same
+ * key, which is dropped. Such a row reaches a device only when it hasn't pulled the parent's edit yet (or as the echo
+ * of a push the server's fence refused), so the pending value was made without seeing it.
+ * The parent's own store passes `parentWins: false`: every row it gets back is byParent (its own echo), and a value it
+ * edited again while that push was in flight must not be lost.
+ */
+export function applyServerResponse(s0: AccountStore, sent: SentBatch, r: SyncResponse, now: Ms, opts: { parentWins?: boolean } = {}): AccountStore {
+  const cleared = clearSent(s0, sent);
+  const s = opts.parentWins === false ? cleared : dropForParent(cleared, r);
   const { pending } = s;
   let profiles = [...s.profiles];
   const sortOf = new Map<string, number>(profiles.map((p, i) => [p.id, i]));
@@ -286,4 +294,16 @@ export function applyServerResponse(s0: AccountStore, sent: SentBatch, r: SyncRe
     ...(typeof r.serverTime === "number" ? { clockOffset: r.serverTime - now } : {}),
     ...(has ? { verifSchema: 1 as const } : {}),
   };
+}
+
+/** Removes pending children and records that a parent-written row in this response replaces (§8.2). */
+function dropForParent(s: AccountStore, r: SyncResponse): AccountStore {
+  const kids = r.children.filter((c) => c.byParent === true && s.pending.children[c.id]);
+  const recs = r.records.filter((x) => x.byParent === true && s.pending.records[recordKey(x)]);
+  if (kids.length === 0 && recs.length === 0) return s;
+  const children = { ...s.pending.children };
+  const records = { ...s.pending.records };
+  for (const c of kids) delete children[c.id];
+  for (const x of recs) delete records[recordKey(x)];
+  return { ...s, pending: { ...s.pending, children, records } };
 }

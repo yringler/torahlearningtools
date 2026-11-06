@@ -251,6 +251,17 @@ export function resetMishnah(p: Profile, perek: number, mishnah: number): Profil
   return withM(p, perek, mishnah, blankMishnah());
 }
 
+/**
+ * Parent mode's "Reset this perek" (docs/PARENT_MODE.md §8.3): every mishnah blank, and the whole-perek steps blank
+ * with an explicit `chains: []` (the server keeps stored chains when a learner push has none; a parent write takes the
+ * data as sent). Blank values, never removed keys: diffProfiles sends no row for a removed key.
+ */
+export function resetPerek(p: Profile, perek: number): Profile {
+  let out = p;
+  for (const m of mishnayosOf(perek)) out = withM(out, perek, m.mishnah, blankMishnah());
+  return withP(out, perek, { chainedThrough: 0, complete: false, chains: [] });
+}
+
 // ───────────── parent verification gate (docs/PARENT_VERIFICATION.md §8, §17) ─────────────
 //
 // The verified set comes from the server (AccountStore.verified), never from Profile, so nothing a child can edit

@@ -1,6 +1,6 @@
 # Parent mode: a separate, PIN-locked parent area
 
-Status: server side and `shared/api.ts` implemented (see §14 for what differs); client side to do. It merges the backend/security proposal and the UX/client proposal. Where they
+Status: implemented. Server side and `shared/api.ts`: see §14 for what differs; client side: see §15. It merges the backend/security proposal and the UX/client proposal. Where they
 disagreed, §1 records the decision and the reason. Claims about today's code were checked against the tree at
 `866b91e`.
 
@@ -1279,10 +1279,44 @@ breaks are parent-only; a learner can change only text size and meaning view, un
 
 ### 14.2 Left for the client
 
-Everything in §9 and §11.2. Until it ships, the current SPA is degraded in these known ways (all from §10):
-- the learner app's add-child, delete, rename and child settings other than text size and meaning view are ignored
-  by the server (the echo restores the server's rows);
-- the parent area's history, stats and delete account get 404 (`/api/children/*`, `/api/account` are gone);
-- the test page shows "Something went wrong" on accounts that have a PIN (`pin_required`), and no account has one
-  until the client can set it, so in practice confirm keeps working;
-- `src/api/client.ts` still calls the removed paths.
+Done; see §15. (Until the client shipped, the SPA was degraded as §10 describes.)
+
+---
+
+## 15. Client implementation notes and deviations
+
+The client follows §9 and §11.2 (`tests/parent.test.ts`, C1–C9). Files: `src/parent/` (`ParentApp.tsx`, `useParent.ts`,
+`ChildDetail.tsx`, `ChangeLog.tsx`, `ParentSettings.tsx`, `PinFlows.tsx`, `pin.ts`, `log.ts`), `src/components/PinPad.tsx`,
+`src/components/ConfirmSheet.tsx`, `src/auth/PinResetLanding.tsx`, `src/auth/boot.ts`; `src/screens/Parent.tsx` and
+`HoldButton` are gone. Where it differs from §9, or §9 left a choice open:
+
+1. **`applyServerResponse(…, { parentWins: false })` for the parent's own store.** Every row a parent sync gets back is
+   `byParent` (its own echo), so the §8.2 rule would drop a value the parent edited again while that push was in
+   flight. The learner store keeps the rule (the default); the parent store opts out. Tested in C2.
+2. **The parent store pulls from cursor 0 once** (it starts empty in memory), and later unlocks sync from its current
+   cursor, which also retries anything pending from before the lock. Same result as a fresh pull, less data.
+3. **Child settings save 0.9 s after the last change, or on blur** (and on leaving the tab), not on every keystroke, so
+   typing a new name is one sync and one "renamed" log entry. "Saved ✓" shows after the write is queued.
+4. **The perek ⋯ menu is an inline row of buttons** under the perek, not a floating popover (simpler on phones, and
+   every action still opens its confirm sheet from §9.8).
+5. **Hebrew inside English sentences** ("Mark פרק ב׳ as verified…", change-log lines, "Opens after פרק …") is wrapped
+   in a right-to-left isolate (U+2067…U+2069, `perekHe` in `src/parent/log.ts`) so the geresh stays with its letter.
+   Tests compare the text with the isolates stripped.
+6. **The PIN-locked screen** has an extra small button, "I've chosen a new PIN", that re-reads `GET /api/parent/me`
+   (for a reset made on another device) instead of making the parent reload.
+7. **Opening parent mode from learner mode while offline** (`GET /api/parent/me` fails without a 401) returns quietly
+   to learner mode instead of showing an error screen; tapping the link again retries.
+8. **"Aa" text size is for signed-in learners only.** Guest mode keeps its own settings sheet, unchanged.
+9. **The import prompt left learner mode entirely.** "Move from this device" is a section of parent mode's Children tab
+   (`ImportPrompt inline`), shown while the account has no children and this device has guest or pre-account progress;
+   it writes into the parent store. The learner store's `importDecision` is no longer used by the UI.
+10. **Boot**: `bootPhase` / `phaseAfterSignIn` (`src/auth/boot.ts`) are the pure decisions; `App.tsx` makes the calls in
+    order (`/api/me`, then `/api/parent/me` only on a 401). A parent sign-in never writes the learner's current-user
+    marker; "Back to learning" / "Use this device for learning" do.
+11. **"Sign this device out completely"** syncs the learner store with a throw-away `SyncEngine` (no `useAccount`
+    mount), warns if learning changes are still pending, then ends both sessions and removes the learner store.
+
+**Sync with an offline tablet, from the client's side** (§8): parent edits go out at once with the server's clock and
+`parent_rev`. A learner device that hasn't pulled them can't overwrite them; when the parent's row arrives with
+`byParent: true`, the new client drops its pending value for that key (and for a child row), so a value made without
+seeing the parent's edit never goes out later with a newer cursor. The child's practice events still reach Activity.
