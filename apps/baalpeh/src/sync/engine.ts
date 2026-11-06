@@ -143,7 +143,9 @@ export class SyncEngine {
       this.again = false;
       const store = this.deps.get();
       const sent = takeBatch(store);
-      const body: SyncRequest = { cursor: store.cursor, ...sent };
+      // Until this device has pulled once with a server that sends `verifications`, pull from 0, so rows an old
+      // cached SPA skipped past are not missed (docs/PARENT_VERIFICATION.md §7.3).
+      const body: SyncRequest = { cursor: store.verifSchema === 1 ? store.cursor : 0, ...sent };
       try {
         const res = await this.deps.api.sync(body);
         this.deps.set(applyServerResponse(this.deps.get(), sent, res, this.now()));

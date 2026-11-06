@@ -11,7 +11,7 @@ import { Session } from "./screens/Session";
 import { requestPersist } from "./storage";
 import type { Profile } from "./types";
 
-type Screen =
+export type Screen =
   | { s: "home" }
   | { s: "settings" }
   /** `from: "perek"`: opened from the perek screen, so Back returns there. */
@@ -27,17 +27,34 @@ type Screen =
  * - the signed-in picker (`onExit`): a fresh guest held in memory only; nothing is saved, and leaving forgets it.
  */
 type Props =
-  | { /** Leave guest mode for the sign-in screen. The guest's progress stays on this device. */ onSignIn: () => void; onExit?: never }
-  | { /** Back to "Who's learning?". The guest's progress is dropped. */ onExit: () => void; onSignIn?: never };
+  | { /** Leave guest mode for the sign-in screen. The guest's progress stays on this device. */ onSignIn: () => void; onExit?: never; start?: never }
+  | {
+    /** Back to "Who's learning?". The guest's progress is dropped. */ onExit: () => void; onSignIn?: never;
+    /**
+     * "Continue as a guest" from a locked perek or the waiting screen (docs/PARENT_VERIFICATION.md §9): open straight
+     * at this perek's first mishnah (or `mishnah`), with "keep going" staying inside that perek.
+     */
+    start?: { perek: number; mishnah?: number } | undefined;
+  };
+
+/** The first screen: Home, or a session at `start` (its Back goes to that perek's screen). */
+export function guestStartScreen(start: { perek: number; mishnah?: number } | undefined): Screen {
+  if (!start) return { s: "home" };
+  return {
+    s: "session", tasks: [{ type: "learn", perek: start.perek, mishnah: start.mishnah ?? 1 }], continueLearning: false,
+    scopePerek: start.perek, back: { s: "perek", perek: start.perek },
+  };
+}
 
 /**
- * The learning app with no account: one implicit "Guest" learner.
+ * The learning app with no account: one implicit "Guest" learner. Ungated: no parent test, and nothing here ever
+ * counts toward a child's progress (a signed-out guest's saved progress reaches an account only by import, unverified).
  * It never imports the API client, the sync engine or Turnstile, so it makes no server requests.
  */
-export function GuestApp({ onSignIn, onExit }: Props) {
+export function GuestApp({ onSignIn, onExit, start }: Props) {
   const saved = onSignIn !== undefined;
   const [profile, setProfileState] = useState<Profile>(() => (saved ? loadGuest(kv) : sessionGuest()));
-  const [screen, setScreen] = useState<Screen>({ s: "home" });
+  const [screen, setScreen] = useState<Screen>(() => guestStartScreen(start));
   const [info, setInfo] = useState(false);
 
   useEffect(() => { if (saved) requestPersist(); }, [saved]);

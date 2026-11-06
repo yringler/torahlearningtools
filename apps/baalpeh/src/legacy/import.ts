@@ -5,6 +5,15 @@ import type { Profile } from "../types";
 
 const norm = (s: string) => s.trim().toLocaleLowerCase();
 
+/**
+ * Device (guest / pre-account) progress is offered for import, by the prompt and by the parent area's button, only
+ * into an account with no children yet (owner's rule, docs/PARENT_VERIFICATION.md §9), and only once this device has
+ * synced, so "not pulled yet" isn't mistaken for "no children". Backup-file import is separate and always offered.
+ */
+export function canImportDevice(legacyCount: number, accountChildren: number, lastSyncAt: Ms | null): boolean {
+  return legacyCount > 0 && accountChildren === 0 && lastSyncAt !== null;
+}
+
 /** Which legacy profiles start checked in the import prompt: all, except names already in the account. */
 export function importDefaults(legacy: Profile[], existing: Profile[]): Record<string, boolean> {
   const names = new Set(existing.map((p) => norm(p.name)));

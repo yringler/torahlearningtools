@@ -136,7 +136,7 @@ export interface MishnahProgressData {
 export interface PerekProgressData {
   /** Longest passed chain [1..k]. Still maintained, for older clients and as legacy input. */
   chainedThrough: number;
-  /** Finished the build-up and passed the end-of-perek gate (today: the in-app parent check). */
+  /** Progress only (marked done on the device); unlocks nothing. Verification is server-owned, never stored here. */
   complete: boolean;
   review?: ReviewItemData;
   /** Passed build-up chain ranges, "from-to" (1-based), sorted, none contained in another. Absent on older data. */

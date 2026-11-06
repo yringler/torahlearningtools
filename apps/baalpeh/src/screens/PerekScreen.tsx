@@ -2,7 +2,7 @@ import { useState } from "react";
 import { frontierGroup, PerekPath, perekGroups } from "../components/PerekPath";
 import { hebNum, MASECHTA, mishnayosOf } from "../data";
 import { parseChainKey, perekParts, perekPracticeLabel, perekSteps } from "../perekSteps";
-import { canStartPerekStep, chainSatisfied, isKnown, mp, nextInPerek, pp, stepSatisfied, type Task } from "../progress";
+import { canStartPerekStep, chainSatisfied, isKnown, mp, nextInPerek, pp, stepSatisfied, type PerekPhase, type Task } from "../progress";
 import { isDue } from "../srs";
 import type { Profile } from "../types";
 
@@ -16,6 +16,11 @@ interface Props {
   /** Start a session for this task; `ui` is restored when the session returns here. */
   onStart: (task: Task, ui: { group: number; sel?: string }) => void;
   onOpenMishnah: (mishnah: number) => void;
+  /**
+   * Signed in: the parent-verification gate (docs/PARENT_VERIFICATION.md §13.6). `next` is the gated next task of
+   * this perek (its test once learned). Guest mode has none: finishing a perek stays on the device.
+   */
+  gate?: { phase: PerekPhase; sent: boolean; next: Task | null } | undefined;
 }
 
 interface Action {
@@ -32,7 +37,7 @@ const range = (from: number, to: number): string => (from === to ? `mishnah ${fr
  * A perek, selectable like a mishnah: its build-up path (mishnah 1 → 2 → 1+2 → 3 → 1–3 … → the whole perek), where a
  * tap only selects (a mishnah alone, mishnayos together, a part, or the 🎯 test), and one button runs the selection.
  */
-export function PerekScreen({ profile, perek, group: initialGroup, sel: initialSel, onBack, onStart, onOpenMishnah }: Props) {
+export function PerekScreen({ profile, perek, group: initialGroup, sel: initialSel, onBack, onStart, onOpenMishnah, gate }: Props) {
   const list = mishnayosOf(perek);
   const n = list.length;
   const steps = perekSteps(perek);
@@ -40,7 +45,7 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
   const parts = perekParts(n);
   const [group, setGroup] = useState(() => (initialGroup !== undefined && groups[initialGroup] ? initialGroup : frontierGroup(profile, perek)));
   const [sel, setSel] = useState<string | null>(initialSel ?? null);
-  const next = nextInPerek(profile, perek);
+  const next = gate ? gate.next : nextInPerek(profile, perek);
   const done = steps.filter((s) => stepSatisfied(profile, perek, s)).length;
 
   const allKnown = (from: number, to: number): boolean => {
@@ -66,7 +71,10 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
       return { primary: { label: `▶ ${started ? "Keep learning" : "Learn"} mishnah ${next.mishnah}`, task: next } };
     }
     if (next.type === "perek-chain") return { primary: { label: `▶ Say ${range(next.from, next.to)} together`, task: next } };
-    return { primary: { label: "🎯 I'm ready to be tested", task: next } };
+    if (!gate) return { primary: { label: "⭐ Finish the perek", task: next } };
+    return gate.sent
+      ? { primary: { label: "📬 Waiting for your test", sub: "practice while you wait", task: next } }
+      : { primary: { label: "🎯 I'm ready to be tested", task: next } };
   };
 
   /** A selection that can't run yet still offers a way forward: learn the missing mishnah, or the frontier step. */
@@ -128,6 +136,10 @@ export function PerekScreen({ profile, perek, group: initialGroup, sel: initialS
       <p className="summary" dir="ltr">
         {n} mishnay{n === 1 ? "ah" : "os"}{parts.length > 1 ? ` · ${parts.length} parts` : ""} · {done} of {steps.length} steps
       </p>
+      {gate?.phase === "verified" && <p className="perek-status" dir="ltr"><span className="seal">✔ tested</span> Abba or Ima tested you on this perek.</p>}
+      {gate?.phase === "test" && (
+        <p className="perek-status" dir="ltr">{gate.sent ? "📬 Your test was sent. When Abba or Ima tap the link, the next perek opens." : "🙋 You learned the whole perek! Next: your test with Abba or Ima."}</p>
+      )}
       <PerekPath
         profile={profile}
         perek={perek}

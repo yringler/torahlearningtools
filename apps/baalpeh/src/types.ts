@@ -64,8 +64,9 @@ export interface PerekProgress {
   /** Longest passed chain [1..k]. Still maintained, for older clients and as legacy input (see chainSatisfied). */
   chainedThrough: number;
   /**
-   * Finished the build-up and passed the end-of-perek gate (today: the in-app parent check).
-   * Read only through perekStage()/perekDone().
+   * Progress only: the build-up was finished and marked done on this device (guest mode, or once a parent's email
+   * verification arrived; older data: the old in-app check). Unlocks nothing: verification is server-owned and never
+   * stored here (docs/PARENT_VERIFICATION.md §7.2). Read only through perekStage()/perekDone().
    */
   complete: boolean;
   review?: ReviewItem;

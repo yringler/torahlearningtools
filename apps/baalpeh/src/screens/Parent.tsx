@@ -1,11 +1,13 @@
 import { useState } from "react";
-import type { LearningEventBody, User } from "../../shared/api";
+import type { LearningEventBody, Ms, User } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
 import { BreakSetting } from "../components/BreakSetting";
 import { AboutNote, LicensesLink, PricingNote } from "../components/Licenses";
-import { MASECHTA, mishnayosOf, PERAKIM } from "../data";
+import { DEFAULT_MASECHTA_ID, hebNum, MASECHTA, mishnayosOf, PERAKIM } from "../data";
 import { copyAsNew, normalizeProfile } from "../legacy/import";
-import { dueReviews, isKnown, mp, perekDone, resetMishnah } from "../progress";
+import { agoText, IMPORT_TEST_NOTE, liveTest } from "../perekTest";
+import { frontier, gatedDueReviews, isKnown, mp, perekPhase, resetMishnah, type Verified } from "../progress";
+import type { LastTest } from "../sync/store";
 import { EMOJIS, isAppState, newProfile } from "../storage";
 import type { SyncStatus } from "../sync/engine";
 import type { ProfilesUpdate } from "../sync/useAccount";
@@ -25,9 +27,15 @@ interface Props {
   /** After sign-out or account deletion. */
   onSignOut: () => void;
   onSignInAgain: () => void;
+  /** Device (guest / pre-account) progress can be moved in: there is some, and the account has no children yet. */
   hasLegacy: boolean;
   onReopenImport: () => void;
   onBack: () => void;
+  /** Server-owned perek verifications (display only: nothing in the parent area can mark or unmark a perek). */
+  verifiedOf: (childId: string) => Verified;
+  verifiedAtOf: (childId: string, perek: number) => Ms | null;
+  lastTestOf: (childId: string) => LastTest | undefined;
+  serverNow: () => Ms;
 }
 
 function ago(ms: number): string {
@@ -89,7 +97,7 @@ export function Parent(props: Props) {
       if (confirm(`Add ${kids(n)} from this backup?`)) {
         const copies = copyAsNew(parsed.profiles.map(normalizeProfile));
         setProfiles((list) => [...list, ...copies]);
-        setMsg(`Added ${kids(n)}.`);
+        setMsg(`Added ${kids(n)}. ${IMPORT_TEST_NOTE}`);
       }
     } catch {
       setMsg("That file isn't a Ba'al Peh backup.");
@@ -106,6 +114,7 @@ export function Parent(props: Props) {
       <section>
         <h3>Children</h3>
         {profiles.map((p) => <ChildCard key={p.id} p={p} onChange={update} online={status.state !== "offline"}
+          tests={{ verified: props.verifiedOf(p.id), verifiedAt: (perek) => props.verifiedAtOf(p.id, perek), lastTest: props.lastTestOf(p.id), now: props.serverNow() }}
           onReset={(perek, mishnah) => onEvent(p.id, { type: "reset", perek, mishnah })}
           onDelete={() => confirm(`Delete ${p.name} and all their progress?`) && setProfiles((list) => list.filter((x) => x.id !== p.id))} />)}
         <div className="row">
@@ -129,7 +138,7 @@ export function Parent(props: Props) {
       {props.hasLegacy && (
         <section>
           <h3>Move from this device</h3>
-          <p className="hint">This device has progress saved without an account (from guest mode or before accounts). You can add it to your account.</p>
+          <p className="hint">This device has progress saved without an account (from guest mode or before accounts). You can add it to your account. {IMPORT_TEST_NOTE}</p>
           <button className="btn secondary" onClick={props.onReopenImport}>Move progress to my account</button>
         </section>
       )}
@@ -139,7 +148,9 @@ export function Parent(props: Props) {
         <ul className="hint">
           <li>Each mishnah is cut into small pieces. The child learns piece 1, piece 2, then 1+2 together, piece 3, then 1–3… Long mishnayos are learned in parts, then the parts are joined.</li>
           <li>Hints fade: full text → first letters → first word → nothing. Tapping a hidden card is a "peek", and peeks are counted automatically.</li>
-          <li>At the end of each mishnah, and for each "mishnayos 1–k in a row" chain, you listen and grade. A perek is done when it's said in one shot.</li>
+          <li>At the end of each mishnah you listen and grade. Mishnayos are then built up the same way: 1, 2, 1+2, 3, 1–3… up to the whole perek.</li>
+          <li>When your child finishes a perek, they tap "I'm ready to be tested" and you get an email with the text. Listen, then tap the link in the email. Only then does the next perek open. Later perakim stay saved but greyed out until then.</li>
+          <li>While waiting, your child can keep learning as a guest. Guest learning doesn't count toward their progress.</li>
           <li>Learned mishnayos come back for review after 1, 3, 7, 14, 30 and 60 days. A finished perek is reviewed as a whole.</li>
           <li>Hebrew text: Torat Emet via Sefaria. Meanings come in two views. <b>Steinsaltz</b> is quoted word for word from the Koren Noé / William Davidson translation (bold = translation, light = explanation). <b>Simple</b> is an AI simplification of Steinsaltz, checked against Bartenura (tr. R. Shraga Silverstein). Tap ⓘ by any meaning to see its source. Please check anything that looks off. <LicensesLink /></li>
         </ul>
@@ -218,26 +229,65 @@ function AccountSection({ user, status, syncNow, pendingNow, endSession, onSignO
   );
 }
 
-function ChildCard({ p, onChange, onDelete, onReset, online }: {
+interface ChildTests {
+  verified: Verified;
+  verifiedAt: (perek: number) => Ms | null;
+  lastTest: LastTest | undefined;
+  now: Ms;
+}
+
+/** One line per perek for the "Perek tests" list (read-only). */
+export function perekTestLine(p: Profile, t: ChildTests, perek: number): string {
+  const phase = perekPhase(p, t.verified, perek);
+  if (phase === "verified") {
+    const at = t.verifiedAt(perek);
+    return at !== null ? `✔ Tested ${new Date(at).toLocaleDateString()}` : "✔ Tested";
+  }
+  if (phase === "locked") return `🔒 Opens after פרק ${hebNum(frontier(t.verified) ?? perek)}`;
+  if (phase === "test") {
+    const sent = liveTest(t.lastTest, DEFAULT_MASECHTA_ID, perek, t.now);
+    return sent ? `📬 Test email sent ${agoText(sent.sentAt, t.now)}` : "🙋 Learned, ready for a test";
+  }
+  return "Not learned yet";
+}
+
+function ChildCard({ p, onChange, onDelete, onReset, online, tests }: {
   p: Profile; onChange: (p: Profile) => void; onDelete: () => void; onReset: (perek: number, mishnah: number) => void; online: boolean;
+  tests: ChildTests;
 }) {
-  const [open, setOpen] = useState<"settings" | "history" | null>(null);
+  const [open, setOpen] = useState<"settings" | "history" | "tests" | null>(null);
   const known = Object.values(p.mishnayos).filter(isKnown).length;
   const total = MASECHTA.mishnayos.length;
-  const perakimDone = PERAKIM.filter((x) => perekDone(p, x)).length;
+  const tested = PERAKIM.filter((x) => tests.verified.has(x)).length;
+  const f = frontier(tests.verified);
+  const waiting = f !== null && perekPhase(p, tests.verified, f) === "test" ? f : null;
   const set = <K extends keyof Profile["settings"]>(k: K, v: Profile["settings"][K]) => onChange({ ...p, settings: { ...p.settings, [k]: v } });
-  const toggle = (v: "settings" | "history") => setOpen(open === v ? null : v);
+  const toggle = (v: "settings" | "history" | "tests") => setOpen(open === v ? null : v);
   return (
     <div className="child-card" style={{ borderColor: p.color }}>
       <div className="row between">
         <b style={{ color: p.color }}>{p.emoji} {p.name}</b>
-        <span>{known}/{total} mishnayos · {perakimDone} perakim · {dueReviews(p).length} due</span>
+        <span>
+          {known}/{total} mishnayos · <b>{tested} perakim tested</b> · {gatedDueReviews(p, tests.verified).length} due
+          {waiting !== null && <> · <bdi>פרק {hebNum(waiting)}</bdi> learned, waiting for a test</>}
+        </span>
         <span className="row">
+          <button className="btn ghost-btn small" onClick={() => toggle("tests")}>{open === "tests" ? "Close" : "Perek tests"}</button>
           <button className="btn ghost-btn small" onClick={() => toggle("history")}>{open === "history" ? "Close" : "History"}</button>
           <button className="btn ghost-btn small" onClick={() => toggle("settings")}>{open === "settings" ? "Close" : "Settings"}</button>
         </span>
       </div>
       {open === "history" && <ChildHistory profile={p} online={online} />}
+      {open === "tests" && (
+        <div className="perek-tests">
+          <ul>
+            {PERAKIM.map((perek) => (
+              <li key={perek}><bdi>פרק {hebNum(perek)}</bdi> · {perekTestLine(p, tests, perek)}</li>
+            ))}
+          </ul>
+          <p className="hint">A perek opens only after you tap the link in its test email. The email goes to <b>this account's address</b>.</p>
+        </div>
+      )}
       {open === "settings" && (
         <div className="child-settings">
           <label>Name <input value={p.name} maxLength={40} onChange={(e) => onChange({ ...p, name: e.target.value })} /></label>

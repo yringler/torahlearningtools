@@ -399,3 +399,50 @@ button.part:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px;
   background: var(--surface); color: var(--ink); border: 2px solid var(--line); border-radius: 999px; box-shadow: 0 4px 16px rgb(0 0 0 / 0.15);
   font-weight: 700; white-space: nowrap; }
 .update-bar .btn { min-height: 0; padding: 6px 16px; font-size: 0.95rem; }
+
+/* parent verification gate (docs/PARENT_VERIFICATION.md §10) */
+.perek-head-row { display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; }
+.perek-row.locked { width: 100%; font: inherit; color: inherit; cursor: pointer; opacity: 0.45; filter: grayscale(0.9); border-style: dashed; }
+.perek-row.locked:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; opacity: 0.7; }
+.perek-row.locked .perek-head { background: transparent; }
+.perek-row.locked .circle { cursor: inherit; }
+.perek-head .lock { font-size: 1.1rem; }
+.seal { display: inline-block; font-size: 0.8rem; font-weight: 800; color: var(--gold); border: 2px solid var(--gold); border-radius: 999px; padding: 1px 8px; font-family: var(--ui); }
+.badge { border: 0; border-radius: 999px; min-height: 44px; padding: 6px 14px; font-weight: 800; cursor: pointer; background: var(--gold); color: #2b2620; }
+.badge.sent { background: var(--surface); color: var(--ink); border: 2px solid var(--line); }
+.badge.pulse { animation: breathe 1.6s ease-in-out infinite; }
+.perek-status { text-align: center; color: var(--muted); font-weight: 700; margin: 0 0 6px; display: flex; gap: 8px; justify-content: center; align-items: center; flex-wrap: wrap; }
+.guest-offer { margin-top: 6px; padding: 12px 14px; border: 2px dashed var(--line); border-radius: 16px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.guest-offer p { margin: 0; }
+.verif-banner { background: var(--new-card); border: 2px solid var(--gold); border-radius: 18px; padding: 12px 16px; margin: 8px 0; }
+.verif-banner p { margin: 6px 0; }
+.locked-sheet h3 { margin: 0; }
+.locked-sheet p { margin: 0; }
+.ready-note { margin: 0; font-weight: 700; text-align: center; }
+.perek-ready.waiting .actions { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.perek-ready .actions { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.celebrate.official { padding-top: 2vh; }
+.spin { animation: breathe 1.2s ease-in-out infinite; }
+.perek-tests ul { margin: 6px 0; padding-inline-start: 18px; }
+.perek-tests li { margin: 2px 0; }
+@media (prefers-reduced-motion: reduce) { .badge.pulse, .spin { animation: none; } }
+
+/* the parent's test page (/perek-test), mobile first */
+.landing { max-width: 640px; margin: 0 auto; padding: 0 0 180px; display: flex; flex-direction: column; gap: 10px; }
+.landing-head { text-align: center; color: var(--muted); font-weight: 700; padding: 8px 0; }
+.landing-head [lang="he"] { font-family: var(--heb); font-size: 1.2rem; color: var(--ink); }
+.landing-title { text-align: center; font-size: 1.6rem; margin: 0.2em 0; }
+.landing-sub { text-align: center; color: var(--muted); font-weight: 700; margin: 0; }
+.landing-sub bdi { font-family: var(--heb); font-size: 1.2rem; color: var(--ink); }
+.landing > p { margin: 0; }
+.landing > .btn.ghost-btn { align-self: center; }
+.landing-text { font-family: var(--heb); font-size: 1.75rem; line-height: 2; text-align: right; background: var(--surface); border-radius: 18px; padding: 8px 16px; }
+.landing-text section { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.landing-text section:last-child { border-bottom: 0; }
+.landing-text b { font-size: 1.2rem; color: var(--muted); }
+.landing-note { background: var(--new-card); border-radius: 14px; padding: 10px 14px; }
+.landing-note p { margin: 4px 0 0; }
+.landing-bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--surface); border-top: 2px solid var(--line); padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  display: flex; flex-direction: column; align-items: center; gap: 8px; z-index: 5; }
+.landing-bar .btn { width: 100%; max-width: 520px; }
+.landing-result { text-align: center; padding-top: 6vh; display: flex; flex-direction: column; align-items: center; gap: 10px; }

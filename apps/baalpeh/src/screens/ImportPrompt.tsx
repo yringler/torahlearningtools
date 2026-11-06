@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { importDefaults } from "../legacy/import";
+import { IMPORT_TEST_NOTE } from "../perekTest";
 import { isKnown } from "../progress";
 import type { Profile } from "../types";
 
@@ -11,7 +12,10 @@ interface Props {
   onNever: () => void;
 }
 
-/** §9.6: offer to move pre-account progress on this device into the account. */
+/**
+ * §9.6: offer to move pre-account progress on this device into the account. Shown only while the account has no
+ * children (docs/PARENT_VERIFICATION.md §9); imported children arrive with no verified perakim.
+ */
 export function ImportPrompt({ legacy, existing, onImport, onLater, onNever }: Props) {
   const [checked, setChecked] = useState(() => importDefaults(legacy, existing));
   const names = new Set(existing.map((p) => p.name.trim().toLocaleLowerCase()));
@@ -37,6 +41,7 @@ export function ImportPrompt({ legacy, existing, onImport, onLater, onNever }: P
             );
           })}
         </ul>
+        <p className="hint">{IMPORT_TEST_NOTE}</p>
         <button className="btn primary" disabled={selected.length === 0} onClick={() => onImport(selected)}>Add to my account</button>
         <div className="row center">
           <button className="btn ghost-btn small" onClick={onLater}>Not now</button>

@@ -39,16 +39,26 @@ piece 1 → piece 2 → 1+2 → piece 3 → 1–3 → … → whole part
 A **perek** is built up the same way, with mishnayos in place of pieces:
 
 ```
-mishnah 1 → mishnah 2 → 1+2 → mishnah 3 → 1–3 → … → whole perek → 🎯 "I'm ready to be tested" (parent check) = perek complete
+mishnah 1 → mishnah 2 → 1+2 → mishnah 3 → 1–3 → … → whole perek → 🎯 "I'm ready to be tested" → email to the parent
+→ the parent listens, taps the link in the email and confirms → perek verified → the next perek opens
 ```
 
 Perakim longer than 5 mishnayos are split evenly into parts (8 → 4+4), each part is built up, then the parts are
-joined (1–8). Saying mishnayos together is self-checked like a chain inside a mishnah; the one parent check is at the
-end of the perek. On the map, each perek row has a progress ring and its mishnah circles joined by golden threads (gold
+joined (1–8). Saying mishnayos together is self-checked like a chain inside a mishnah.
+
+**Moving to the next perek is not on the honor system.** At the end of a perek the child can look the whole perek
+over (and say it once alone), then taps "I'm ready to be tested" and confirms. The server emails the account's address:
+the child's name, the perek phrase by phrase, and a link (at most one email per child every 10 minutes). Only the
+parent's tap on that link, then "knows it" on the page it opens (`/perek-test`), verifies the perek, on the server; no
+in-app check and nothing the device sends can. Every perek after the first unverified one is greyed out and can't be
+opened; its saved progress and stars stay. While waiting, the child can "Continue as a guest": guest mode is ungated and
+never counts. Progress saved on the device (guest or pre-account) can be imported only into an account with no
+children. See [`docs/PARENT_VERIFICATION.md`](docs/PARENT_VERIFICATION.md). On the map, each perek row has a progress ring and its mishnah circles joined by golden threads (gold
 once those two mishnayos were said together), with a golden spine down to the next perek. Tapping the perek opens the
 **perek screen**: its step path, where tapping selects "mishnah 2 alone", "mishnayos 1–2 together", a whole part or the
 🎯 test, and one button runs it (practice of known mishnayos changes no progress). Older saved progress is read as it is:
-"mishnayos 1–k in a row" counts for every chain inside 1–k, and a finished perek stays finished. See
+"mishnayos 1–k in a row" counts for every chain inside 1–k, and a perek finished before verification counts as learned
+(its next step is the parent's test). See
 [`docs/PEREK_BUILDUP.md`](docs/PEREK_BUILDUP.md).
 
 Hints fade as the child learns:
@@ -63,11 +73,13 @@ Hints fade as the child learns:
 Without speech recognition, honesty comes from **peeks**: tapping a hidden card shows it for 2 seconds and is counted.
 A clean round passes. One peek means repeat once. Two or more steps back a hint level, and after three misses the
 app runs extra practice on the hardest piece together with the one before it. The "I said it" button is locked for a few seconds so it
-can't be tapped through. At the end of every mishnah and at the end of every perek, a **parent check** screen shows the
-parent the full text. The parent taps any words the child slipped on, then grades the recitation.
+can't be tapped through. At the end of every mishnah, and in every perek review, a **parent check** screen shows the
+parent the full text. The parent taps any words the child slipped on, then grades the recitation. The end of a perek is
+the emailed test above, not an in-app check.
 
-**Review**: known mishnayos come back after 1, 3, 7, 14, 30, 60 days (Leitner boxes). Once a perek is complete, the
-whole perek is reviewed as one item. "Start today's learning" always does due reviews first, then continues new learning,
+**Review**: known mishnayos come back after 1, 3, 7, 14, 30, 60 days (Leitner boxes). Once a perek is verified, the
+whole perek is reviewed as one item. Reviews of locked perakim wait until they open. "Start today's learning" always does
+due reviews first (at most 6, oldest first), then continues new learning,
 and suggests stopping after the session length set by the parent (default 15 min).
 
 Other features: a profile for each child, a parent area (hold the lock button for 2 s) with settings, backup

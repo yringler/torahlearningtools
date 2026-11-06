@@ -157,7 +157,8 @@ export function perekFrontier(p: Profile, perek: number): number {
 
 /**
  * building: steps left. ready: every step satisfied, waiting for the end-of-perek gate. complete: the gate passed.
- * This is the only reader of `complete` (roadmap item 2 adds its verification stages here).
+ * This is the only reader of `complete`. It knows nothing about verification: the gate takes the server's verified
+ * set as an argument (perekLearned / perekPhase below).
  */
 export type PerekStage = "building" | "ready" | "complete";
 
@@ -213,9 +214,10 @@ export function passPerekChain(p: Profile, perek: number, from: number, to: numb
 }
 
 /**
- * The end-of-perek gate (today: the in-app parent check). The only writer of `complete`; a no-op unless the
- * build-up is "ready". "Not yet" changes nothing, so the child can practise and try again.
- * Roadmap item 2 replaces this call site with the parent's email verification.
+ * Marks a "ready" perek complete: the only writer of `complete`, and a no-op unless the build-up is "ready".
+ * "Not yet" changes nothing. Its callers are guest mode's end of a perek (never official) and completeVerified()
+ * after a parent's email verification arrives from the server. `complete` is progress only: it unlocks nothing,
+ * because the gate reads the server's verified set (docs/PARENT_VERIFICATION.md §17).
  */
 export function checkPerek(p: Profile, perek: number, grade: Grade): Profile {
   if (perekStage(p, perek) !== "ready" || grade === "notyet") return p;
@@ -233,10 +235,13 @@ export function nextInPerek(p: Profile, perek: number): Task | null {
   return s.kind === "mishnah" ? { type: "learn", perek, mishnah: s.mishnah } : { type: "perek-chain", perek, from: s.from, to: s.to };
 }
 
-/** The next new-learning task: the build-up frontier of the first perek that is not done. */
+/**
+ * The next new-learning task, ungated: the build-up frontier of the first perek that is not done. Guest mode uses it;
+ * the signed-in app uses gatedNextLearning, which stops at the first perek a parent hasn't verified.
+ */
 export function nextLearning(p: Profile): Task | null {
   for (const perek of PERAKIM) {
-    if (perekDone(p, perek)) continue; // roadmap item 2: also stop at the first perek waiting for verification
+    if (perekDone(p, perek)) continue;
     return nextInPerek(p, perek);
   }
   return null;
@@ -245,3 +250,109 @@ export function nextLearning(p: Profile): Task | null {
 export function resetMishnah(p: Profile, perek: number, mishnah: number): Profile {
   return withM(p, perek, mishnah, blankMishnah());
 }
+
+// ───────────── parent verification gate (docs/PARENT_VERIFICATION.md §8, §17) ─────────────
+//
+// The verified set comes from the server (AccountStore.verified), never from Profile, so nothing a child can edit
+// in progress unlocks a perek. Guest mode passes no gate and uses the ungated functions above.
+
+/** Perakim a parent has verified by email, for the active masechta. */
+export type Verified = ReadonlySet<number>;
+export const NONE_VERIFIED: Verified = new Set<number>();
+
+/**
+ * The whole perek has been learned: the build-up is "ready" (its whole-perek step was passed) or "complete"
+ * (legacy `complete: true`, or the old in-app check). Learned is not verified.
+ */
+export const perekLearned = (p: Profile, perek: number): boolean => perekStage(p, perek) !== "building";
+
+/** The first perek, in order, that a parent has not verified; null when every perek is verified. */
+export const frontier = (v: Verified): number | null => PERAKIM.find((k) => !v.has(k)) ?? null;
+
+/** Past the frontier: greyed out and not interactive until the perakim before it are verified. */
+export function isLocked(v: Verified, perek: number): boolean {
+  const f = frontier(v);
+  return f !== null && perek > f;
+}
+
+export type PerekPhase = "verified" | "learning" | "test" | "locked";
+
+export function perekPhase(p: Profile, v: Verified, perek: number): PerekPhase {
+  if (v.has(perek)) return "verified";
+  if (isLocked(v, perek)) return "locked";
+  return perekLearned(p, perek) ? "test" : "learning";
+}
+
+/** The test step of a perek (the merged PerekReady / test screen runs on the build-up's `perek-finish` task). */
+const testTask = (perek: number): Task => ({ type: "perek-finish", perek });
+
+/**
+ * One perek's next task under the gate: nothing for a locked perek, the test step for a learned unverified perek
+ * (whatever its stage), nothing more for a verified perek once its build-up is learned (relearning a reset one is fine).
+ */
+export function gatedNextInPerek(p: Profile, v: Verified, perek: number): Task | null {
+  if (isLocked(v, perek)) return null;
+  if (v.has(perek)) return perekLearned(p, perek) ? null : nextInPerek(p, perek);
+  return perekLearned(p, perek) ? testTask(perek) : nextInPerek(p, perek);
+}
+
+/**
+ * The next new-learning task under the gate: verified perakim that still have build-up steps (a reset) come first,
+ * then the frontier (its build-up, or its test once learned). Never a task past the frontier.
+ */
+export function gatedNextLearning(p: Profile, v: Verified): Task | null {
+  for (const perek of PERAKIM) {
+    if (v.has(perek)) {
+      if (!perekLearned(p, perek)) return nextInPerek(p, perek);
+      continue;
+    }
+    return gatedNextInPerek(p, v, perek);
+  }
+  return null;
+}
+
+/**
+ * dueReviews under the gate: nothing from locked perakim (their Leitner data is untouched and comes back when they
+ * open), and no review-p of the frontier while it waits for its test.
+ */
+export function gatedDueReviews(p: Profile, v: Verified, now: string = today()): Task[] {
+  const f = frontier(v);
+  return dueReviews(p, now).filter((t) =>
+    f === null || t.perek < f || (t.perek === f && !(t.type === "review-p" && perekLearned(p, f))));
+}
+
+/** Reviews in one started session (§8): at most this many, oldest due first, so unlocking perakim never buries a child. */
+export const MAX_SESSION_REVIEWS = 6;
+
+export function sessionReviews(p: Profile, reviews: Task[], max: number = MAX_SESSION_REVIEWS): Task[] {
+  const dueOf = (t: Task): string =>
+    (t.type === "review-p" ? pp(p, t.perek).review?.due : t.type === "review-m" ? mp(p, t.perek, t.mishnah).review?.due : undefined) ?? "";
+  return reviews
+    .map((t, i) => ({ t, i, d: dueOf(t) }))
+    .sort((a, b) => (a.d < b.d ? -1 : a.d > b.d ? 1 : a.i - b.i))
+    .slice(0, max)
+    .map((x) => x.t);
+}
+
+/**
+ * Once a parent verified a perek whose build-up is only "ready", mark it complete locally so the build-up's perek
+ * review (review-p) starts. This is the old checkPerek("pass") effect, now caused by the server row; forging
+ * `complete` unlocks nothing, because the gate reads only Verified. Returns `p` itself when nothing changes.
+ */
+export function completeVerified(p: Profile, v: Verified): Profile {
+  let next = p;
+  for (const perek of v) if (perekStage(next, perek) === "ready") next = checkPerek(next, perek, "pass");
+  return next;
+}
+
+/** A locked perek that already has saved progress (the locked sheet says it's all saved). */
+export function hasProgressIn(p: Profile, perek: number): boolean {
+  if (perekStage(p, perek) !== "building" || pp(p, perek).chainedThrough > 0) return true;
+  return mishnayosOf(perek).some((m) => {
+    const st = mp(p, perek, m.mishnah);
+    return st.state !== "new" || st.stepIndex > 0;
+  });
+}
+
+/** The one-time "Something new!" banner: some perek is learned and nothing is verified yet. */
+export const needsVerifIntro = (p: Profile, v: Verified): boolean => v.size === 0 && PERAKIM.some((k) => perekLearned(p, k));

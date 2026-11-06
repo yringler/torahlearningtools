@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import type { LearningEventBody, ReciteTask } from "../../shared/api";
 import { ParentCheck } from "../components/ParentCheck";
 import { PerekPath, perekGroups } from "../components/PerekPath";
-import { PerekReady } from "../components/PerekReady";
+import { PerekReady, type PerekTestApi } from "../components/PerekReady";
 import { PerekStrip } from "../components/PerekStrip";
 import { ReadPhase } from "../components/ReadPhase";
 import { Recite, type ReciteCard, type ReciteSection } from "../components/Recite";
@@ -31,6 +31,11 @@ interface Props {
   upNextOf?: (p: Profile) => Task | null;
   /** Practice log (instrumentation only; no effect on the screens). */
   onEvent?: (e: LearningEventBody) => void;
+  /**
+   * Signed in: the parent's email test at the end of a perek (docs/PARENT_VERIFICATION.md §10.1). Absent in guest
+   * mode, where finishing a perek stays on the device and never counts.
+   */
+  perekTest?: PerekTestApi;
 }
 
 type Emit = (e: LearningEventBody) => void;
@@ -69,7 +74,7 @@ type View =
   | { v: "practiced" }
   | { v: "empty" };
 
-export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNextOf, onEvent }: Props) {
+export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNextOf, onEvent, perekTest }: Props) {
   const [queue, setQueue] = useState<Task[]>(tasks);
   const [view, setView] = useState<View>(tasks.length ? { v: "task" } : { v: "empty" });
   /** Bumped by "Practice it again" to restart a practice run. */
@@ -134,7 +139,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
   const nextLabel = (t: Task): string =>
     t.type === "learn" ? `Next: mishnah ${t.mishnah} ›`
       : t.type === "perek-chain" ? `Say ${mishnayosWord(t.from, t.to)} together ›`
-      : t.type === "perek-finish" ? "Finish the perek ›"
+      : t.type === "perek-finish" ? (perekTest ? "Get ready for your test ›" : "Finish the perek ›")
       : "Keep going ›";
 
   const onStepPassed = () => {
@@ -337,19 +342,29 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
         })()}
       </div>
     ) : (
-      <PerekFinishTask
+      <PerekReady
         key={`finish${perek}`}
         profile={profile}
         perek={perek}
+        test={perekTest}
         onEvent={emit}
         onPracticeMore={onExit}
-        onChecked={(g) => {
-          // The one place the in-app check makes a perek complete. Roadmap item 2 replaces it with email verification.
-          const p2 = checkPerek(profile, perek, g);
-          finishTask(p2, g === "notyet"
-            ? { title: "Almost!", sub: "Practice the whole perek and try again.", stars: 0 }
-            : { title: `You finished ${ref(perek)}!`, sub: "You can say the whole perek in one shot. Mazel tov!", stars: 3, milestone: "perek" });
-        }}
+        onMap={onMap}
+        {...(() => {
+          // After "It's official!": the next learning (more() reads the gate, which now includes this perek).
+          const t = (upNextOf ?? more ?? nextLearning)(profile);
+          return t && !(t.type === "perek-finish" && t.perek === perek)
+            ? { onNext: () => { setQueue([t]); setView({ v: "task" }); }, ...(t.type === "perek-finish" ? { nextLabel: nextLabel(t) } : {}) }
+            : {};
+        })()}
+        {...(perekTest ? {} : {
+          // Guest mode only: the perek is finished on this device. It never counts and never reaches an account.
+          onFinishGuest: () => finishTask(checkPerek(profile, perek, "pass"), {
+            title: `You finished ${ref(perek)}!`,
+            sub: "You can say the whole perek in one shot. Mazel tov! In your own profile, Abba or Ima test you before the next perek opens.",
+            stars: 3, milestone: "perek",
+          }),
+        })}
       />
     );
   } else {
@@ -686,31 +701,6 @@ function PerekStepTask({ profile, perek, from, to, label, practice, onPassed, on
           });
           setDetour({ from: Math.max(r.from, worst - 1), to: worst });
           setAttempt((a) => a + 1);
-        }}
-      />
-    </div>
-  );
-}
-
-/** "I'm ready to be tested": the end of the build-up, then (today) the in-app parent check of the whole perek. */
-function PerekFinishTask({ profile, perek, onChecked, onPracticeMore, onEvent }: {
-  profile: Profile; perek: number; onChecked: (g: Grade) => void; onPracticeMore: () => void; onEvent: Emit;
-}) {
-  const [stage, setStage] = useState<"ready" | "check">("ready");
-  const list = mishnayosOf(perek);
-  if (stage === "ready") {
-    return <PerekReady profile={profile} perek={perek} onReady={() => setStage("check")} onPracticeMore={onPracticeMore} />;
-  }
-  const cards = list.map((m) => ({ he: m.chunks.map((c) => c.he).join(" "), label: `משנה ${hebNum(m.mishnah)}` }));
-  return (
-    <div className="task">
-      <ParentCheck
-        title={`${ref(perek)} — the whole perek`}
-        cards={cards}
-        onDone={(g, slippedCards, slipWords) => {
-          const slipped = slippedCards.map((i) => list[i]?.mishnah ?? 0).filter(Boolean);
-          onEvent({ type: "check", scope: "chain", perek, mishnah: null, through: list.length, grade: g, slipped, slipWords });
-          onChecked(g);
         }}
       />
     </div>

@@ -9,6 +9,7 @@ import { asksServer, bootRoute, isGuestChosen, setGuestChosen } from "./guest";
 import { GuestApp } from "./GuestApp";
 import { LicensesPage } from "./components/Licenses";
 import { LICENSES_PATH } from "./sources";
+import { PerekTestLanding, takePerekTestToken } from "./screens/PerekTestLanding";
 import { kv } from "./kv";
 import { LearningApp } from "./LearningApp";
 import { loadCurrentUser, setCurrentUser } from "./sync/store";
@@ -24,6 +25,8 @@ type Phase =
 
 // Read once per page load, before React renders (the fragment is stripped immediately).
 const verifyToken = typeof window === "undefined" ? null : takeVerifyToken();
+// The parent's test link (/perek-test#t=…), read and stripped the same way.
+const perekTestToken = typeof window === "undefined" ? null : takePerekTestToken();
 
 function initialPhase(): Phase {
   const cached = loadCurrentUser(kv);
@@ -35,8 +38,12 @@ function initialPhase(): Phase {
   }
 }
 
-/** Routes by path: the public sources & licenses page needs no sign-in; everything else goes through the auth shell. */
+/**
+ * Routes by path: the public sources & licenses page and the parent's perek test page need no sign-in (the test page
+ * never starts the auth shell, sync or the import prompt); everything else goes through the auth shell.
+ */
 export function App() {
+  if (perekTestToken !== null) return <PerekTestLanding token={perekTestToken} />;
   if (typeof window !== "undefined" && window.location.pathname.replace(/\/+$/, "") === LICENSES_PATH) return <LicensesPage />;
   return <AuthShell />;
 }

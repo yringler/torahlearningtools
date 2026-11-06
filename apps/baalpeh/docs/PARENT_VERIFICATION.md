@@ -1,6 +1,7 @@
 # Parent verification of a perek (by email)
 
-Status: spec, ready to implement. It merges two design proposals (backend/security and child/parent UX). Where they disagreed, the decision and the reason are given in place (search for **Resolved:**).
+Status: implemented (server and client). §17 records how it was reconciled with the perek build-up and where the
+code differs from the text below. It merges two design proposals (backend/security and child/parent UX). Where they disagreed, the decision and the reason are given in place (search for **Resolved:**).
 
 The owner's problem: today a child moves from one perek to the next on the honor system. Every in-app check can be tapped through, including the in-app "Show Abba or Ima" `ParentCheck` and the 2-second "🔒 Parent (hold)" button (`src/screens/Profiles.tsx`). Kids "finish" whole masechtos without knowing them.
 
@@ -897,7 +898,7 @@ These are all in place:
 - the `"pre-test"` recite task;
 - `worker/test/perekTests.test.ts`, covering §15.1 items 1–19, plus email tests 20–21.
 
-### 17.3 Client: for the client agent
+### 17.3 Client: the plan
 
 The client side covers everything in §12 "Client", adjusted by 17.1. In particular:
 - `AccountStore.verified` and the `cursor: 0` catch-up;
@@ -909,3 +910,62 @@ The client side covers everything in §12 "Client", adjusted by 17.1. In particu
 - import shown only when the account has no children;
 - the `/perek-test` landing page;
 - the Parent area's read-only "Perek tests" list. It has no mark or unmark buttons.
+
+### 17.4 Client: done, and where it differs from §8–§12
+
+Everything in 17.3 is in place. Files: `src/progress.ts` (gate), `src/sync/store.ts` and `src/sync/engine.ts`
+(verifications, catch-up), `src/sync/useAccount.ts` (`verifiedFor`, `verifiedAt`, `lastTest`, `serverNow`,
+`requestTest`), `src/perekTest.ts` and `src/perekTestRequest.ts` (pure helpers; the second is the only one that imports
+the API client, so guest mode never loads it), `src/components/PerekReady.tsx` (the merged test step),
+`src/components/PerekGate.tsx` (guest offer, locked sheet, banner, "It's official!"),
+`src/screens/PerekTestLanding.tsx` (the parent's page), and the callers (`LearningApp`, `GuestApp`, `Home`,
+`PerekScreen`, `Session`, `Parent`, `ImportPrompt`, `App`). Tests: `tests/verification.test.ts`.
+
+Decisions and deviations:
+
+1. **No `perek-test` Task.** The gate returns the build-up's `perek-finish` task for a learned, unverified frontier
+   (stage "ready", and legacy "complete" too). `gatedNextLearning` is a loop over `PERAKIM` built from `perekLearned`
+   and `nextInPerek`, not a wrapper around `nextLearning`: the ungated `nextLearning` skips "complete" perakim (it would
+   lose a legacy frontier) and keeps returning `perek-finish` for a verified "ready" perek. A verified perek whose
+   build-up was reset is relearned first, as §8 says. `gatedNextInPerek(p, v, perek)` is the same rule for sessions
+   started from the perek screen.
+2. **The merged screen (`PerekReady`).** Stage A is the build-up's "Look it over first" (and, while waiting, "Practice
+   while you wait", a read-through). Stage B is the optional secondary button "Say it once by yourself": a `Recite` of
+   the whole perek at L4 that emits `recite` with task `"pre-test"` and only shows a note ("Sounds ready! 🌟" or "You
+   peeked {n} times…"); it never blocks. The primary button keeps the build-up's wording and emoji, **"🎯 I'm ready to
+   be tested"** (it matches the 🎯 cap on the perek path); Home's badge is "🙋 Test me!" / "📬 Waiting". Then the §10.1
+   confirm sheet and states: sending, waiting (polled on mount, focus, visibility and every 30 s), cooldown, offline
+   (button disabled), failed, signed out, already verified, and "It's official!". The in-app `ParentCheck` and
+   `checkPerek` are gone from the signed-in `perek-finish` path (a test asserts that `checkPerek` appears once in
+   `Session.tsx`, in the guest-only branch).
+3. **A 429 longer than the 10-minute cooldown** (the account's hourly or daily cap) is not shown as "already sent": the
+   ready screen says "Lots of test emails were sent today. You can send yours in {m} min."
+4. **Guest mode's end of a perek:** "⭐ Finish the perek" marks it complete on the device (`checkPerek`), with the note
+   "In your own profile, Abba or Ima test you before the next perek opens." No in-app parent check there either.
+5. **`completeVerified`.** When a verification arrives for a perek whose build-up is only "ready", `LearningApp` marks it
+   `complete` locally (17.1 item 4), so its `review-p` starts. The gate never reads `complete`.
+6. **Celebrate once.** The test step uses the §10.1 kv flag. On Home, a verification is celebrated only if it is less
+   than 7 days old, so a new device doesn't celebrate old ones; closing it marks all of that child's verifications.
+7. **Locked perakim.** On Home a locked row is one button (greyed, dashed, 🔒, stars kept, an `aria-label` that says
+   it's locked) that opens the locked sheet; `LearningApp` also refuses to open a locked perek's perek or mishnah
+   screen (a stale screen falls back to Home) and drops locked tasks from every session. The perek screen shows
+   "✔ tested" for a verified perek and a status line plus the test (or "📬 Waiting for your test") as the frontier
+   action for a perek in test. The perek path's 🎯 cap is unchanged (it is drawn done for a legacy "complete" perek
+   that is still waiting for its test).
+8. **"Continue as a guest"** (exact §9 copy) is on the locked sheet (opens the guest at the locked perek), the waiting
+   screen and the offline ready screen (both open the guest at the next perek, or this one on the last perek).
+   `GuestApp`'s `start` opens a session on that perek's first mishnah, scoped to that perek, with Back to its perek
+   screen.
+9. **Import only when the account has no children,** and only once this device has synced at least once
+   (`canImportDevice` in `src/legacy/import.ts`), so a fresh device that hasn't pulled its children yet doesn't offer
+   it. The prompt, the parent area's device-import text and the backup-import result carry the §9 note.
+10. **Parent area: display only.** "{n} perakim tested", "פרק {F} learned, waiting for a test", and a "Perek tests" list
+    (✔ Tested {date} / 📬 Test email sent {k} ago / 🙋 Learned, ready for a test / 🔒 Opens after פרק {F} / Not learned
+    yet). There is no "Send test email" button and no mark or unmark (owner's rule; the later parent-only login uses
+    `worker/lib/verification.ts`).
+11. **Online** means `navigator.onLine` and the last sync did not fail for lack of a network.
+12. **Landing page.** A `/perek-test` with no token (for example after a reload, since the fragment is stripped) says
+    "Open the test link from the email again." Its states come from the pure `landingReducer`; only the tap on
+    "knows it" calls confirm.
+13. **Session reviews** are capped at 6, oldest due first (`sessionReviews`), when a session starts from Home, the
+    banner, the locked sheet or the Home celebration.

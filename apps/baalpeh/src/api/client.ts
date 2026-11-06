@@ -1,6 +1,7 @@
 import type {
   ApiError, AuthRequestBody, AuthRequestResponse, AuthSuccessResponse, ChildStatsResponse, ConfigResponse,
-  DeleteAccountBody, EventsResponse, MeResponse, SyncRequest, SyncResponse, VerifyCodeBody, VerifyLinkBody,
+  DeleteAccountBody, EventsResponse, MeResponse, PerekTestInfo, PerekTestRequestBody, PerekTestRequestResponse, PerekTestTokenBody,
+  SyncRequest, SyncResponse, VerifyCodeBody, VerifyLinkBody,
 } from "../../shared/api";
 
 export class ApiFailure extends Error {
@@ -50,6 +51,12 @@ export const api = {
   sync: (b: SyncRequest) => call<SyncResponse>("POST", "/sync", b),
   events: (childId: string, before?: number) =>
     call<EventsResponse>("GET", `/children/${encodeURIComponent(childId)}/events${before ? `?before=${before}` : ""}`),
+  /** Ask for the perek test email (session). The server picks the recipient, the text and the name. */
+  perekTest: (b: PerekTestRequestBody) => call<PerekTestRequestResponse>("POST", "/perek-tests", b),
+  /** Read-only: who and what a test link is for (no session). */
+  perekTestLookup: (b: PerekTestTokenBody) => call<PerekTestInfo>("POST", "/perek-tests/lookup", b),
+  /** The parent's tap on the landing page (no session; the token is the credential). */
+  perekTestConfirm: (b: PerekTestTokenBody) => call<PerekTestInfo>("POST", "/perek-tests/confirm", b),
   stats: (childId: string, days = 30) =>
     call<ChildStatsResponse>("GET", `/children/${encodeURIComponent(childId)}/stats?days=${days}`),
 };
