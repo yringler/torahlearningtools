@@ -1065,8 +1065,9 @@ valid as they are. The rules live in `shared/progressKey.ts` (pure, no imports),
   `progressKey(masechta, perek, mishnah)`, `perekKey(masechta, perek)`, `parseProgressKey(kind, key)` →
   `{ masechta, perek, mishnah | null } | null`, `keyBelongsTo(kind, key, masechta)` and `eventMasechta(event)`.
 - **Last opened masechta**: `ChildSettings.lastMasechta?` (validated with `isMasechtaId`). A learner sync merges it like
-  `fontScale` and `meaningView`; an absent value keeps the stored one. The parent upsert also keeps the stored value
-  when the pushed meta has none, so an older client that drops unknown settings can't wipe it. It is never named in
+  `fontScale` and `meaningView`; an absent value keeps the stored one. It is the child's own choice: the parent upsert
+  always keeps a stored value (parent mode never chooses a masechta, and a parent client pushes whatever copy it last
+  pulled, which may be older than the child's choice). A parent's value is used only when none is stored yet. It is never named in
   the parent change log (it is navigation state, not an edit).
 - **Events**: `ReciteEvent`, `CheckEvent`, `ResetEvent` and `SessionEvent` take an optional `masechta`. Migration
   `0008_events_masechta.sql` adds `events.masechta TEXT` (`NULL` = Berakhot, no backfill). Parent stats group by

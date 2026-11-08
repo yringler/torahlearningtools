@@ -168,8 +168,7 @@ export async function runSync(c: Context<AppEnv>, role: SyncRole): Promise<Respo
               `INSERT INTO children (id, user_id, data, deleted, updated_at, rev, created_at, parent_rev)
                VALUES (?1, ?2, ?3, ?4, ?5, (SELECT rev FROM users WHERE id = ?2), ?5, (SELECT rev FROM users WHERE id = ?2))
                ON CONFLICT(id) DO UPDATE SET
-                 data = CASE WHEN json_type(excluded.data, '$.settings.lastMasechta') IS NULL
-                               AND json_type(children.data, '$.settings.lastMasechta') = 'text'
+                 data = CASE WHEN json_type(children.data, '$.settings.lastMasechta') = 'text'
                              THEN json_set(excluded.data, '$.settings.lastMasechta', json_extract(children.data, '$.settings.lastMasechta'))
                              ELSE excluded.data END,
                  deleted = excluded.deleted, updated_at = excluded.updated_at,

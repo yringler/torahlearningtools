@@ -60,7 +60,9 @@ export function MasechtaGate({ id, onChooseOther, children }: { id: string; onCh
     let cancelled = false;
     setState({ s: "loading" });
     loadMasechta(id).then(
-      () => { if (!cancelled) setState(isMasechtaLoaded(id) ? { s: "ready" } : { s: "loading" }); },
+      // A newer load for another masechta may have won (loadMasechta: the latest call wins); try again, which is
+      // instant from memory, instead of waiting for a load that will never activate this one.
+      () => { if (!cancelled) { if (isMasechtaLoaded(id)) setState({ s: "ready" }); else setAttempt((n) => n + 1); } },
       async () => {
         const downloaded = await isDownloaded(id);
         if (!cancelled) setState({ s: "failed", kind: loadFailure(navigator.onLine, downloaded) });

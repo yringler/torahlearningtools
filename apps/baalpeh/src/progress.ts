@@ -1,5 +1,5 @@
 import { perekKey, progressKey } from "../shared/progressKey";
-import { assertActive, CATALOG, getMishnah, perakimOf, perekSize, shapeOf, type MasechtaShape } from "./data";
+import { assertActive, CATALOG, getMishnah, mishnahNums, perakimOf, perekSize, shapeOf, type MasechtaShape } from "./data";
 import { chainKey, parseChainKey, perekSteps, type PerekStep } from "./perekSteps";
 import { gradeReview, isDue, newReview, today } from "./srs";
 import { buildSteps } from "./steps";
@@ -45,7 +45,6 @@ const withP = (p: Profile, ms: Pick<MS, "id">, perek: number, x: PerekProgress):
 });
 
 /** Mishnah numbers 1..n of a perek. */
-const mishnahNums = (ms: MS, perek: number): number[] => Array.from({ length: perekSize(ms, perek) }, (_, i) => i + 1);
 
 /** Steps of a mishnah's chain (reads the text: the masechta must be active). */
 function stepCount(ms: Pick<MS, "id">, perek: number, mishnah: number): number {

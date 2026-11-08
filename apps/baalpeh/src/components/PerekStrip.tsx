@@ -1,4 +1,4 @@
-import { hebNum, perekSize } from "../data";
+import { hebNum, mishnahNums } from "../data";
 import { isKnown, joined, mp, type Task } from "../progress";
 import type { Profile } from "../types";
 import { useMasechta } from "./MasechtaGate";
@@ -22,7 +22,7 @@ interface Props {
  */
 export function PerekStrip({ profile, perek, size, next, justJoined, onOpenMishnah }: Props) {
   const { shape: ms } = useMasechta();
-  const list = Array.from({ length: perekSize(ms, perek) }, (_, i) => ({ mishnah: i + 1 }));
+  const list = mishnahNums(ms, perek).map((mishnah) => ({ mishnah }));
   const here = next && next.perek === perek ? next : null;
   const interactive = size === "map" && onOpenMishnah !== undefined;
 

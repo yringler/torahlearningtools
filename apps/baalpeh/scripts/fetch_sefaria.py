@@ -37,12 +37,18 @@ def get_json(url: str):
             time.sleep(wait)
 
 
-def get_text(ref: str, version: str) -> list:
+def get_text(ref: str, version: str, required: bool = True) -> list:
+    """One perek of one version. Hebrew and excerpt sources (Steinsaltz) must be there; another translation may skip a
+    perek (written as [], and chunk.py fills its mishnayos with ""), which is printed so it isn't missed."""
     d = get_json(f"https://www.sefaria.org/api/v3/texts/{ref}?version={urllib.parse.quote(version)}")
     vs = d.get("versions") or []
     text = vs[0].get("text") if vs else None
     if not isinstance(text, list) or not any(isinstance(t, str) and t.strip() for t in text):
-        raise SystemExit(f"{ref}: Sefaria returned no text for version {version!r} {d.get('warnings') or ''}")
+        msg = f"{ref}: Sefaria returned no text for version {version!r} {d.get('warnings') or ''}"
+        if required:
+            raise SystemExit(msg)
+        print(f"  warning: {msg}; written as []", file=sys.stderr)
+        return []
     return text
 
 
@@ -60,7 +66,8 @@ def main():
         if keep and path.exists():
             data = json.loads(path.read_text())
         else:
-            data = {k: get_text(f"{m['sefaria']}.{perek}", v) for k, v in versions.items()}
+            data = {k: get_text(f"{m['sefaria']}.{perek}", v, required=k == "he" or bool(catalog.SOURCES.get(k, {}).get("excerpts")))
+                    for k, v in versions.items()}
             path.write_text(json.dumps(data, ensure_ascii=False, indent=1))
         count += len(data["he"])
         print(m["id"], perek, {k: len(x) for k, x in data.items()})

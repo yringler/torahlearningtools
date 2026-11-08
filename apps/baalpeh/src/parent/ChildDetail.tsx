@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import type { LearningEventBody, Ms } from "../../shared/api";
 import { BreakSetting } from "../components/BreakSetting";
 import { ConfirmSheet } from "../components/ConfirmSheet";
-import { CATALOG, hebNum, perakimOf, perekSize, shapeOf, type MasechtaShape } from "../data";
+import { CATALOG, hebNum, mishnahNums, perakimOf, perekSize, shapeOf, type MasechtaShape } from "../data";
 import { lastMasechtaOf, masechtaEn } from "../nav";
 import { agoText, liveTest } from "../perekTest";
 import { frontier, isKnown, mp, perekLearned, perekPhase, resetMishnah, resetPerek, type Verified } from "../progress";
@@ -49,7 +49,7 @@ export function perekChip(
     const sent = liveTest(o.lastTest, ms.id, perek, o.now);
     return sent ? `📬 Test email sent ${agoText(sent.sentAt, o.now)}` : "🙋 Learned, ready for a test";
   }
-  const nums = Array.from({ length: perekSize(ms, perek) }, (_, i) => i + 1);
+  const nums = mishnahNums(ms, perek);
   const known = nums.filter((m) => isKnown(mp(p, ms, perek, m))).length;
   const started = nums.some((m) => mp(p, ms, perek, m).stepIndex > 0 || mp(p, ms, perek, m).state !== "new");
   return known === 0 && !started ? "Not started" : `In progress ${known}/${nums.length} mishnayos`;
@@ -91,7 +91,7 @@ export function ChildDetail(props: ChildDetailProps) {
 
   const f = frontier(ms, v);
   const heb = (perek: number) => <bdi dir="rtl">פרק {hebNum(perek)}</bdi>;
-  const mishnayosIn = (perek: number): number[] => Array.from({ length: perekSize(ms, perek) }, (_, i) => i + 1);
+  const mishnayosIn = (perek: number): number[] => mishnahNums(ms, perek);
 
   let sheetEl: JSX.Element | null = null;
   if (sheet?.k === "verify") {

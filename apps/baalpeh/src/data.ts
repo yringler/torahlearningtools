@@ -1,4 +1,5 @@
 import index from "./data/index.json";
+import { LEGACY_MASECHTA_ID } from "../shared/progressKey";
 import type { Masechta, Mishnah } from "./types";
 
 /**
@@ -48,7 +49,7 @@ export const CATALOG: readonly CatalogEntry[] = SEDARIM.flatMap((s) => s.masecht
  * The masechta that progress keys without a masechta ("p:m") belong to. Fixed on purpose: it defines what older saved
  * progress means, so it must never follow the catalog's order.
  */
-export const DEFAULT_MASECHTA_ID = "berakhot";
+export const DEFAULT_MASECHTA_ID = LEGACY_MASECHTA_ID;
 
 export const entryOf = (id: string): CatalogEntry | undefined => CATALOG.find((e) => e.id === id);
 
@@ -118,6 +119,8 @@ export const perakimOf = (ms: MasechtaShape): number[] => ms.perakim.map((_, i) 
 
 /** Number of mishnayos in a perek (0 outside the masechta). */
 export const perekSize = (ms: MasechtaShape, perek: number): number => ms.perakim[perek - 1] ?? 0;
+/** The mishnah numbers 1..n of a perek. */
+export const mishnahNums = (ms: MasechtaShape, perek: number): number[] => Array.from({ length: perekSize(ms, perek) }, (_, i) => i + 1);
 
 /** Number of mishnayos in the whole masechta. */
 export const mishnayosCount = (ms: MasechtaShape): number => ms.perakim.reduce((a, b) => a + b, 0);

@@ -278,8 +278,9 @@ describe("multi-masechta sync", () => {
     expect(res.children[0]?.meta.settings.lastMasechta).toBe("demai");
     expect((await stored()).settings).toEqual({ fontScale: 1.4, lastMasechta: "demai" });
 
-    // A new parent client sets a different one.
-    await ok(await adminSync(email, { children: [child(cid, t, { meta: meta({ name: "Avraham", settings: { fontScale: 1.4, lastMasechta: "berakhot" } }) })] }));
-    expect((await stored()).settings).toEqual({ fontScale: 1.4, lastMasechta: "berakhot" });
+    // A parent client holding an older copy (berakhot) edits the child: the child's newer choice stays. Parent mode
+    // never chooses a masechta, so a parent write never changes a stored lastMasechta.
+    await ok(await adminSync(email, { children: [child(cid, t, { meta: meta({ name: "Avi", settings: { fontScale: 1.4, lastMasechta: "berakhot" } }) })] }));
+    expect(await stored()).toMatchObject({ name: "Avi", settings: { fontScale: 1.4, lastMasechta: "demai" } });
   });
 });

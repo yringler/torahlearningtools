@@ -1,5 +1,5 @@
 import { CATALOG, DEFAULT_MASECHTA_ID, entryOf, mishnayosCount, SEDARIM, sederOf, shapeOf, type CatalogEntry } from "./data";
-import { dueReviews, gatedDueReviews, gatedNextLearning, knownCount, nextLearning, startedCount, type Verified } from "./progress";
+import { dueByMasechta, dueReviews, gatedDueReviews, gatedNextLearning, knownCount, nextLearning, startedCount, type Verified } from "./progress";
 import { today } from "./srs";
 import type { Profile } from "./types";
 
@@ -96,9 +96,7 @@ export function sederTiles(p: Profile, current: string, now: string = today(), v
 
 /** Masechtos other than `current` with due reviews: the perek map's "🔁 3 reviews waiting in מסכת ברכות" rows. */
 export function otherDue(p: Profile, current: string, now: string = today(), verifiedOf?: (id: string) => Verified): Array<{ masechta: string; due: number }> {
-  return CATALOG.filter((e) => e.id !== current)
-    .map((e) => ({ masechta: e.id, due: dueIn(p, e.id, now, verifiedOf?.(e.id)) }))
-    .filter((x) => x.due > 0);
+  return dueByMasechta(p, now, verifiedOf).filter((x) => x.masechta !== current);
 }
 
 /**
