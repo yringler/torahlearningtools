@@ -3,7 +3,7 @@
  * (docs/PARENT_MODE.md §6.7, §8).
  *
  * Learner: may push progress records and events (LWW, behind the parent fence) and, on existing live children, only
- * `settings.fontScale` and `settings.meaningView`. It can't add, delete or rename children.
+ * `settings.fontScale`, `settings.meaningView` and `settings.lastMasechta`. It can't add, delete or rename children.
  * Parent: full child and record writes, stamped with the server time and `parent_rev` (no LWW), logged to audit_log.
  *
  * The fence: every parent write sets rev = parent_rev = R. A learner push whose cursor < parent_rev (the device has
@@ -168,17 +168,23 @@ export async function runSync(c: Context<AppEnv>, role: SyncRole): Promise<Respo
               `INSERT INTO children (id, user_id, data, deleted, updated_at, rev, created_at, parent_rev)
                VALUES (?1, ?2, ?3, ?4, ?5, (SELECT rev FROM users WHERE id = ?2), ?5, (SELECT rev FROM users WHERE id = ?2))
                ON CONFLICT(id) DO UPDATE SET
-                 data = excluded.data, deleted = excluded.deleted, updated_at = excluded.updated_at,
+                 data = CASE WHEN json_type(excluded.data, '$.settings.lastMasechta') IS NULL
+                               AND json_type(children.data, '$.settings.lastMasechta') = 'text'
+                             THEN json_set(excluded.data, '$.settings.lastMasechta', json_extract(children.data, '$.settings.lastMasechta'))
+                             ELSE excluded.data END,
+                 deleted = excluded.deleted, updated_at = excluded.updated_at,
                  rev = excluded.rev, parent_rev = excluded.parent_rev
                WHERE children.user_id = excluded.user_id AND children.deleted = 0`,
             )
             .bind(ch.id, U, JSON.stringify(ch.meta), ch.deleted ? 1 : 0, t),
         );
       } else if (!ch.deleted) {
-        // Learner: only the reading aids, merged into an existing live child, behind the fence. New ids, deletes,
-        // renames and every other setting are ignored (the echo below sends the server's row back).
+        // Learner: only the reading aids and the last opened masechta, merged into an existing live child, behind the
+        // fence. New ids, deletes, renames and every other setting are ignored (the echo below sends the server's row
+        // back). An absent field keeps the stored one (json_patch), so an old client can't clear lastMasechta.
         const patch: Record<string, unknown> = { fontScale: ch.meta.settings.fontScale };
         if (ch.meta.settings.meaningView !== undefined) patch.meaningView = ch.meta.settings.meaningView;
+        if (ch.meta.settings.lastMasechta !== undefined) patch.lastMasechta = ch.meta.settings.lastMasechta;
         stmts.push(
           db
             .prepare(
@@ -234,11 +240,12 @@ export async function runSync(c: Context<AppEnv>, role: SyncRole): Promise<Respo
         db
           .prepare(
             `INSERT OR IGNORE INTO events
-               (id, user_id, child_id, at, day, type, task, perek, mishnah, grade, peeks, slips, ms, data, received_at)
-             SELECT ?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15
+               (id, user_id, child_id, at, day, type, task, perek, mishnah, grade, peeks, slips, ms, data, received_at, masechta)
+             SELECT ?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12, ?13, ?14, ?15, ?16
              WHERE EXISTS (SELECT 1 FROM children c WHERE c.id = ?3 AND c.user_id = ?2 AND c.deleted = 0)`,
           )
-          .bind(e.id, U, e.childId, e.at, e.day, e.type, ...eventColumns(e), JSON.stringify(e), t),
+          // masechta NULL = Berakhot (older clients send none).
+          .bind(e.id, U, e.childId, e.at, e.day, e.type, ...eventColumns(e), JSON.stringify(e), t, e.masechta ?? null),
       );
     }
     if (role === "parent") {

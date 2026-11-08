@@ -88,13 +88,17 @@ export function toAuditEntry(r: AuditDbRow): AuditEntry {
 
 const MAX_KEYS = 60;
 
-/** Fields of a child's meta that a log line names. `sort` alone is not logged. */
+/** Settings that are the learner's navigation state, not a parent's edit: never named in the log. */
+const UNLOGGED_SETTINGS = new Set(["lastMasechta"]);
+
+/** Fields of a child's meta that a log line names. `sort` alone is not logged, nor UNLOGGED_SETTINGS. */
 function changedFields(from: ChildMeta, to: ChildMeta): string[] {
   const out: string[] = [];
   for (const f of ["name", "emoji", "color"] as const) if (from[f] !== to[f]) out.push(f);
   if (from.sort !== to.sort) out.push("sort");
   const keys = new Set([...Object.keys(from.settings ?? {}), ...Object.keys(to.settings ?? {})]);
   for (const k of [...keys].sort()) {
+    if (UNLOGGED_SETTINGS.has(k)) continue;
     const a = (from.settings as unknown as Record<string, unknown> | undefined)?.[k];
     const b = (to.settings as unknown as Record<string, unknown> | undefined)?.[k];
     if (a !== b) out.push(`settings.${k}`);

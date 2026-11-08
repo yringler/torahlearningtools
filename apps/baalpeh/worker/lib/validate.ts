@@ -29,6 +29,7 @@ import {
   type VerifyCodeBody,
   type VerifyLinkBody,
 } from "../../shared/api";
+import { isMasechtaId, parseProgressKey } from "../../shared/progressKey";
 import { masechtaText, perakimCount } from "./text";
 
 export type Result<T> = { ok: true; value: T } | { ok: false; message: string; tooLarge?: true };
@@ -103,8 +104,6 @@ function arr(v: unknown, path: string): unknown[] {
 const ID_RE = /^[A-Za-z0-9_-]{8,64}$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const M_KEY_RE = /^\d{1,3}:\d{1,3}$/;
-const P_KEY_RE = /^\d{1,3}$/;
 
 /** Epoch-ms timestamps: integers in (0, 1e13). */
 function ms(v: unknown, path: string): number {
@@ -284,12 +283,19 @@ export function validatePerekTestRequest(body: unknown): Result<PerekTestRequest
 
 // ───────────── sync ─────────────
 
+/** A catalog id by format only (shared/progressKey.ts); the Worker never checks it against a list of masechtos. */
+function masechtaId(v: unknown, path: string): string {
+  if (!isMasechtaId(v)) throw new Invalid(`${path} must be a masechta id`);
+  return v;
+}
+
 function settings(v: unknown, path: string): ChildSettings {
   const o = obj(v, path);
   // `dailyMinutes` (the old always-on session length) is retired. Older clients still send it; it is dropped.
   const out: ChildSettings = { fontScale: num(o.fontScale, `${path}.fontScale`, 0.5, 3) };
   if (o.breakMinutes !== undefined) out.breakMinutes = int(o.breakMinutes, `${path}.breakMinutes`, 1, 180);
   if (o.meaningView !== undefined) out.meaningView = oneOf(o.meaningView, `${path}.meaningView`, ["simple", "steinsaltz"]);
+  if (o.lastMasechta !== undefined) out.lastMasechta = masechtaId(o.lastMasechta, `${path}.lastMasechta`);
   return out;
 }
 
@@ -378,10 +384,10 @@ function recordRow(v: unknown, path: string): RecordRow {
   const key = str(o.key, `${path}.key`);
   switch (o.kind) {
     case "m":
-      if (!M_KEY_RE.test(key)) throw new Invalid(`${path}.key must be "perek:mishnah"`);
+      if (!parseProgressKey("m", key)) throw new Invalid(`${path}.key must be "perek:mishnah" or "masechta/perek:mishnah"`);
       return { kind: "m", childId, updatedAt, key, data: mishnahData(o.data, `${path}.data`) };
     case "p":
-      if (!P_KEY_RE.test(key)) throw new Invalid(`${path}.key must be "perek"`);
+      if (!parseProgressKey("p", key)) throw new Invalid(`${path}.key must be "perek" or "masechta/perek"`);
       return { kind: "p", childId, updatedAt, key, data: perekData(o.data, `${path}.data`) };
     case "d":
       if (!DATE_RE.test(key)) throw new Invalid(`${path}.key must be yyyy-mm-dd`);
@@ -392,7 +398,14 @@ function recordRow(v: unknown, path: string): RecordRow {
   }
 }
 
+/** The event body, rebuilt, with the optional `masechta` (absent = Berakhot) carried through. */
 function eventBody(o: Obj, path: string): LearningEventBody {
+  const body = eventFields(o, path);
+  if (o.masechta !== undefined) body.masechta = masechtaId(o.masechta, `${path}.masechta`);
+  return body;
+}
+
+function eventFields(o: Obj, path: string): LearningEventBody {
   switch (o.type) {
     case "recite": {
       const out: LearningEventBody = {

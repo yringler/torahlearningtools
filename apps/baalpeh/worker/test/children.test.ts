@@ -59,9 +59,9 @@ describe("parent views (/api/parent/children)", () => {
     const s = await r.json<ChildStatsResponse>();
     expect(s.childId).toBe(cid);
     expect(s.items).toEqual([
-      { perek: 1, mishnah: 2, attempts: 2, pass: 0, help: 1, notyet: 1, peeks: 1, slips: 2, lastAt: t + 3, struggle: 6.5 },
-      { perek: 1, mishnah: 1, attempts: 2, pass: 1, help: 1, notyet: 0, peeks: 2, slips: 0, lastAt: t + 1, struggle: 2 },
-      { perek: 1, mishnah: null, attempts: 1, pass: 1, help: 0, notyet: 0, peeks: 0, slips: 0, lastAt: t + 4, struggle: 0 },
+      { masechta: "berakhot", perek: 1, mishnah: 2, attempts: 2, pass: 0, help: 1, notyet: 1, peeks: 1, slips: 2, lastAt: t + 3, struggle: 6.5 },
+      { masechta: "berakhot", perek: 1, mishnah: 1, attempts: 2, pass: 1, help: 1, notyet: 0, peeks: 2, slips: 0, lastAt: t + 1, struggle: 2 },
+      { masechta: "berakhot", perek: 1, mishnah: null, attempts: 1, pass: 1, help: 0, notyet: 0, peeks: 0, slips: 0, lastAt: t + 4, struggle: 0 },
     ]);
     expect(s.days).toEqual([
       { day: "2026-10-31", minutes: 3, recites: 3 },
@@ -69,6 +69,25 @@ describe("parent views (/api/parent/children)", () => {
     ]);
     expect((await req(`/api/parent/children/${cid}/stats?days=0`, { cookie })).status).toBe(400);
     expect((await req(`/api/parent/children/${cid}/events?limit=101`, { cookie })).status).toBe(400);
+  });
+
+  it("splits stats by masechta and reports events without one as Berakhot", async () => {
+    const { email } = await login();
+    const cookie = await adminCookie(email);
+    const cid = crypto.randomUUID();
+    const t = Date.now() - 3_600_000;
+    const events: LearningEvent[] = [
+      recite(cid, t, { perek: 1, mishnah: 1, grade: "notyet" }), // no masechta: Berakhot
+      recite(cid, t + 1, { perek: 1, mishnah: 1, grade: "pass", masechta: "berakhot" }),
+      recite(cid, t + 2, { perek: 1, mishnah: 1, grade: "help", masechta: "peah" }),
+      { id: crypto.randomUUID(), childId: cid, at: t + 3, day: "2026-11-01", type: "check", scope: "mishnah", perek: 1, mishnah: 1, through: null, grade: "help", slipped: [1], slipWords: 1, masechta: "peah" },
+    ];
+    expect((await parentSync(cookie, { children: [child(cid, t)], events })).status).toBe(200);
+    const s = await (await req(`/api/parent/children/${cid}/stats`, { cookie })).json<ChildStatsResponse>();
+    expect(s.items).toEqual([
+      { masechta: "peah", perek: 1, mishnah: 1, attempts: 2, pass: 0, help: 2, notyet: 0, peeks: 0, slips: 1, lastAt: t + 3, struggle: 3 },
+      { masechta: "berakhot", perek: 1, mishnah: 1, attempts: 2, pass: 1, help: 0, notyet: 1, peeks: 0, slips: 0, lastAt: t + 1, struggle: 3 },
+    ]);
   });
 
   it("404s for another user's child and for a deleted child", async () => {
