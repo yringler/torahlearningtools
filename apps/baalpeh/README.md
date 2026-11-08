@@ -1,6 +1,6 @@
 # משנה בעל פה — Mishnah Ba'al Peh
 
-A tablet-friendly web app that helps children memorize Mishnayos by heart, starting with **Maseches Brachos**.
+A tablet-friendly web app that helps children memorize Mishnayos by heart, starting with **Seder Zeraim** (Berakhot, Peah and Demai).
 Parents sign in with an emailed link or code. Progress is saved on the device first and synced to a small
 Cloudflare Worker (Hono + D1), so it works offline and follows the family across tablets.
 
@@ -27,6 +27,17 @@ Full steps: [§15 of the server plan](docs/SERVER_PLAN.md#15-deployment-steps-fo
 - [ ] Smoke test: sign in by code on one device and by link on another, add a child, learn a step, check it syncs.
 
 ## How the learning works
+
+**Seder → masechta → perek.** Picking a child opens the perek map of the masechta that child last learned (Berakhot
+at first). "Choose a different masechta" under the map's title lists the masechtos of its seder, each with how many
+mishnayos are known, reviews due, "Hebrew only" for a masechta without meanings, and "needs internet" when it isn't
+saved on the device yet; "Choose a different seder" lists the sedarim. The choice is remembered per child
+(`settings.lastMasechta`, synced). Each masechta has its own progress, perek tests and verifications. "Start today's
+learning" works in the masechta on screen; when another masechta has reviews due, the map shows a row like
+"🔁 3 reviews waiting in מסכת ברכות →" that opens it, and a finished masechta links to the masechta list (there is no
+automatic move to the next one). A masechta's text downloads the first time it is opened (then it works offline).
+Hebrew-only masechtos (Peah, Demai) show the Hebrew, the cue cards and the recitation steps, without meanings, word
+glosses or Steinsaltz.
 
 Each mishnah is cut into child-sized **pieces** (2–6 words, split at natural phrase breaks). Pieces are grouped into
 **parts** of up to 6. The child goes through a cumulative chain:
@@ -83,11 +94,12 @@ due reviews first (at most 6, oldest first), then continues new learning,
 and suggests stopping after the session length set by the parent (default 15 min).
 
 **Two ways in.** The sign-in page offers "Sign in as learner" and "Sign in as parent"; both email a link and a code to
-the family's account email. Learner mode is only learning: pick a child, learn, guest mode, the meaning view and an
+the family's account email. Learner mode is only learning: pick a child, choose a seder and masechta, learn, guest mode, the meaning view and an
 "Aa" text-size sheet, plus a small "Parent? Sign in as parent" link. **Parent mode** is a separate area with no learning
 screens, opened by a parent sign-in plus a 4-digit PIN (chosen on the first parent sign-in), and re-locked after
 5 minutes idle, a minute in the background, or on leaving. It holds everything else: adding, editing and removing
-children; their settings (name, picture, breaks, meanings, text size); each child's perakim, where a parent can mark a
+children; their settings (name, picture, breaks, meanings, text size); each child's perakim (one masechta at a time,
+chosen at the top; the child's card shows a line per masechta), where a parent can mark a
 perek verified or remove the verification, reset a perek or mark a mishnah not known; the child's activity; a change log
 of every PIN change and parental edit with the time and the login that made it; backup export/import; moving guest
 progress into the account; signing out and deleting the account. "Forgot PIN?" emails a link to `/parent-pin`; every PIN

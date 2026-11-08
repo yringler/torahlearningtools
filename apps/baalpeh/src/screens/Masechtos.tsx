@@ -27,7 +27,7 @@ function TopBar({ profile, back, onBack }: { profile: Profile; back: string; onB
   );
 }
 
-const dueBadge = (due: number) => due > 0 && <span className="tile-due">🔁 {due} due</span>;
+const dueBadge = (due: number) => due > 0 && <span className="tile-due" dir="ltr">🔁 {due} due</span>;
 
 /**
  * The masechtos of one seder, as tiles like the profile picker's: the Hebrew name large, the English name, how many
@@ -63,11 +63,11 @@ export function MasechtaList({ profile, seder, tiles, online, onPick, onBack, on
             onClick={() => onPick(t.id)}
           >
             <span className="tile-he" dir="rtl" lang="he">מסכת {t.he}</span>
-            <span className="sub">{t.en}</span>
+            <span className="sub" dir="ltr">{t.en}</span>
             <span className="tile-progress" dir="ltr">{t.finished ? "🏆 " : ""}{t.known}/{t.total} known</span>
             {dueBadge(t.due)}
-            {!t.translated && <span className="chip">Hebrew only</span>}
-            {needsInternet(online, avail.has(t.id)) && <span className="sub">needs internet</span>}
+            {!t.translated && <span className="chip" dir="ltr">Hebrew only</span>}
+            {needsInternet(online, avail.has(t.id)) && <span className="sub" dir="ltr">needs internet</span>}
           </button>
         ))}
       </div>
@@ -102,7 +102,7 @@ export function SederList({ profile, tiles, onPick, onBack }: {
             onClick={() => onPick(t.id)}
           >
             <span className="tile-he" dir="rtl" lang="he">סדר {t.he}</span>
-            <span className="sub">{t.en} · {t.masechtos} masechtos</span>
+            <span className="sub" dir="ltr">{t.en} · {t.masechtos} masechtos</span>
             <span className="tile-progress" dir="ltr">{t.known}/{t.total} known</span>
             {dueBadge(t.due)}
           </button>
