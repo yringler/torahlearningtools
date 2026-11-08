@@ -1,0 +1,2466 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "Two people come to beis din holding one garment, and each says he found it or that it is all his. Each one swears, and they split it; if one claims only half, they split it in a different way.",
+  "stIntro": "The early commentaries ask why this chapter, which discusses details of the halakhot of found items, precedes the second chapter, which discusses the fundamental halakhot of found items. Tosafot explain that as tractate Bava Metzia follows tractate Bava Kamma, the halakhot of found items are elucidated in this chapter as a continuation of the topics discussed in the last chapter of Bava Kamma, which discussed the division of items between litigants by means of an oath, which is also the ruling in the mishna here (see Shita Mekubbetzet). The Rosh explains that because there is a suspicion of theft in this case, these matters are juxtaposed with the halakhot of theft, which are described at length in Bava Kamma.",
+  "chunks": [
+   {
+    "he": "שְׁנַיִם אוֹחֲזִין בְּטַלִּית,",
+    "en": "Two people are holding on to a garment.",
+    "explain": "Each one is holding one side of it.",
+    "st": "If <b>two</b> people came to court <b>holding a garment,</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אוֹחֲזִין",
+      "en": "are holding"
+     },
+     {
+      "he": "בְּטַלִּית,",
+      "en": "a garment"
+     }
+    ]
+   },
+   {
+    "he": "זֶה אוֹמֵר אֲנִי מְצָאתִיהָ",
+    "en": "This one says, \"I found it!\"",
+    "st": "and <b>this</b> one, the first litigant, <b>says: I found it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מְצָאתִיהָ",
+      "en": "found it"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה אוֹמֵר אֲנִי מְצָאתִיהָ,",
+    "en": "And that one says, \"I found it!\"",
+    "st": "<b>and that</b> one, the second litigant, <b>says: I found it; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מְצָאתִיהָ,",
+      "en": "found it"
+     }
+    ]
+   },
+   {
+    "he": "זֶה אוֹמֵר כֻּלָּהּ שֶׁלִּי",
+    "en": "This one says, \"All of it is mine!\"",
+    "st": "<b>this</b> one <b>says: All of it is mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה אוֹמֵר כֻּלָּהּ שֶׁלִּי,",
+    "en": "And that one says, \"All of it is mine!\"",
+    "st": "<b>and that</b> one <b>says: All of it is mine;</b> how does the court adjudicate this case?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "שֶׁלִּי,",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "זֶה יִשָּׁבַע שֶׁאֵין לוֹ",
+    "en": "This one must swear that he owns",
+    "st": "<b>This</b> one <b>takes an oath that he does not have</b> ownership of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "יִשָּׁבַע",
+      "en": "must swear"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "בָהּ פָּחוֹת מֵחֶצְיָהּ,",
+    "en": "no less than half of it.",
+    "st": "<b>less than half of it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מֵחֶצְיָהּ,",
+      "en": "than half of it"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה יִשָּׁבַע שֶׁאֵין לוֹ",
+    "en": "And that one must swear that he owns",
+    "st": "<b>and that</b> one <b>takes an oath that he does not have</b> ownership of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "יִשָּׁבַע",
+      "en": "must swear"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "בָהּ פָּחוֹת מֵחֶצְיָהּ, וְיַחֲלֹקוּ.",
+    "en": "no less than half of it, and they split it.",
+    "st": "<b>less than half of it, and they divide</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מֵחֶצְיָהּ,",
+      "en": "than half of it"
+     },
+     {
+      "he": "וְיַחֲלֹקוּ.",
+      "en": "and they split it"
+     }
+    ]
+   },
+   {
+    "he": "זֶה אוֹמֵר כֻּלָּהּ שֶׁלִּי",
+    "en": "If this one says, \"All of it is mine,\"",
+    "st": "If <b>this</b> one <b>says: All of it is mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה אוֹמֵר חֶצְיָהּ שֶׁלִּי,",
+    "en": "and that one says, \"Half of it is mine,\"",
+    "st": "<b>and that</b> one <b>says: Half of it is mine,</b>",
+    "stMore": "since they both agree that half of the cloak belongs to one of them, the conflict between them is only about the other half.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "חֶצְיָהּ",
+      "en": "half of it"
+     },
+     {
+      "he": "שֶׁלִּי,",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר כֻּלָּהּ שֶׁלִּי,",
+    "en": "the one who says, \"All of it is mine\"",
+    "st": "Therefore, <b>the one who says: All of it is mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "שֶׁלִּי,",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁבַע שֶׁאֵין לוֹ בָהּ",
+    "en": "must swear that he owns",
+    "st": "<b>takes an oath that he does not have</b> ownership of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁבַע",
+      "en": "must swear"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     }
+    ]
+   },
+   {
+    "he": "פָּחוֹת מִשְּׁלשָׁה חֲלָקִים,",
+    "en": "no less than three parts out of four.",
+    "st": "<b>less than three parts,</b> i.e., three-fourths, <b>of it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מִשְּׁלשָׁה",
+      "en": "than three"
+     },
+     {
+      "he": "חֲלָקִים,",
+      "en": "parts"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאוֹמֵר חֶצְיָהּ שֶׁלִּי,",
+    "en": "And the one who says, \"Half of it is mine\"",
+    "st": "<b>and the one who says: Half of it is mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאוֹמֵר",
+      "en": "and the one who says"
+     },
+     {
+      "he": "חֶצְיָהּ",
+      "en": "half of it"
+     },
+     {
+      "he": "שֶׁלִּי,",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁבַע שֶׁאֵין לוֹ בָהּ פָּחוֹת מֵרְבִיעַ.",
+    "en": "must swear that he owns no less than one quarter.",
+    "st": "<b>takes an oath that he does not have</b> ownership of <b>less than one-quarter of it. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁבַע",
+      "en": "must swear"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מֵרְבִיעַ.",
+      "en": "than a quarter"
+     }
+    ]
+   },
+   {
+    "he": "זֶה נוֹטֵל שְׁלשָׁה חֲלָקִים,",
+    "en": "This one takes three parts,",
+    "st": "<b>This</b> one <b>takes three parts, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "חֲלָקִים,",
+      "en": "parts"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה נוֹטֵל רְבִיעַ:",
+    "en": "and that one takes one quarter.",
+    "st": "<b>and that</b> one <b>takes one-quarter.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "רְבִיעַ:",
+      "en": "a quarter"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "Two people are riding on one animal, or one is riding and one is leading it, and each says it is all his. Each swears and they split it; if they agree or have witnesses, they split it with no oath.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָיוּ שְׁנַיִם רוֹכְבִין עַל גַּבֵּי בְהֵמָה,",
+    "en": "If two people were riding on the back of an animal,",
+    "st": "If <b>two</b> people <b>were sitting</b> in a riding position <b>on</b> the back of <b>an animal,</b> e.g., a donkey or camel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "רוֹכְבִין",
+      "en": "riding"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "the back of"
+     },
+     {
+      "he": "בְהֵמָה,",
+      "en": "an animal"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁהָיָה אֶחָד רוֹכֵב וְאֶחָד מַנְהִיג,",
+    "en": "or one was riding and one was leading it,",
+    "st": "<b>or one was sitting</b> in a riding position on the animal <b>and one was leading</b> it by its halter,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "רוֹכֵב",
+      "en": "riding"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "מַנְהִיג,",
+      "en": "leading"
+     }
+    ]
+   },
+   {
+    "he": "זֶה אוֹמֵר כֻּלָּהּ שֶׁלִּי,",
+    "en": "and this one says, \"All of it is mine!\"",
+    "st": "and <b>this</b> one <b>says: All of it is mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "שֶׁלִּי,",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה אוֹמֵר כֻּלָּהּ שֶׁלִּי,",
+    "en": "and that one says, \"All of it is mine!\"",
+    "st": "<b>and that</b> one <b>says: All of it is mine,</b> how does the court adjudicate this case?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "שֶׁלִּי,",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "זֶה יִשָּׁבַע שֶׁאֵין לוֹ",
+    "en": "This one must swear that he owns",
+    "st": "<b>This</b> one <b>takes an oath that he does not have</b> ownership of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "יִשָּׁבַע",
+      "en": "must swear"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "בָהּ פָּחוֹת מֵחֶצְיָהּ,",
+    "en": "no less than half of it.",
+    "st": "<b>less than half of it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מֵחֶצְיָהּ,",
+      "en": "than half of it"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה יִשָּׁבַע שֶׁאֵין לוֹ",
+    "en": "And that one must swear that he owns",
+    "st": "<b>and that</b> one <b>takes an oath that he does not have</b> ownership of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "יִשָּׁבַע",
+      "en": "must swear"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "בָהּ פָּחוֹת מֵחֶצְיָהּ, וְיַחֲלֹקוּ.",
+    "en": "no less than half of it, and they split it.",
+    "st": "<b>less than half of it, and they divide</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מֵחֶצְיָהּ,",
+      "en": "than half of it"
+     },
+     {
+      "he": "וְיַחֲלֹקוּ.",
+      "en": "and they split it"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁהֵם מוֹדִים אוֹ",
+    "en": "When they agree with each other",
+    "st": "<b>When they admit</b> to the validity of each other’s claims",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהֵם",
+      "en": "that they"
+     },
+     {
+      "he": "מוֹדִים",
+      "en": "agree"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּשׁ לָהֶן עֵדִים,",
+    "en": "or when they have witnesses,",
+    "st": "<b>or when they</b> each <b>have witnesses</b> attesting to their claims,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there are"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "חוֹלְקִים בְּלֹא שְׁבוּעָה:",
+    "en": "they split it without any oath.",
+    "st": "<b>they divide</b> the disputed item <b>without</b> taking <b>an oath,</b>",
+    "stMore": "as an oath is administered only in a case where the parties have no other way to prove their claims.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוֹלְקִים",
+      "en": "they split"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "without"
+     },
+     {
+      "he": "שְׁבוּעָה:",
+      "en": "an oath"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "A man riding an animal saw a lost object and told his friend to hand it to him. If the friend picked it up for himself, it is his; but once he gave it to the rider, he cannot change his mind.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָיָה רוֹכֵב עַל גַּבֵּי",
+    "en": "If a man was riding on",
+    "st": "If one <b>was riding on </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "רוֹכֵב",
+      "en": "riding"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "the back of"
+     }
+    ]
+   },
+   {
+    "he": "בְהֵמָה וְרָאָה אֶת הַמְּצִיאָה,",
+    "en": "an animal and saw a lost object,",
+    "st": "<b>an animal and saw a found item, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "וְרָאָה",
+      "en": "and he saw"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמְּצִיאָה,",
+      "en": "the found object"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר לַחֲבֵרוֹ תְּנֶהָ לִי,",
+    "en": "and he said to his friend, \"Give it to me!\"",
+    "st": "<b>and said to another</b> person who was walking beside him: <b>Give</b> it <b>to me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "to his friend"
+     },
+     {
+      "he": "תְּנֶהָ",
+      "en": "give it"
+     },
+     {
+      "he": "לִי,",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "נְטָלָהּ וְאָמַר אֲנִי זָכִיתִי בָהּ,",
+    "en": "If the friend picked it up and said, \"I got it for myself!\"",
+    "explain": "Picking it up is a way of getting it.",
+    "st": "if the pedestrian <b>took it and said: I have acquired it</b> for myself,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְטָלָהּ",
+      "en": "he took it"
+     },
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "זָכִיתִי",
+      "en": "got"
+     },
+     {
+      "he": "בָהּ,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "זָכָה בָהּ.",
+    "en": "then it is his.",
+    "st": "<b>he has acquired it</b> by means of lifting it, even though he did not see it first.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָה",
+      "en": "he got"
+     },
+     {
+      "he": "בָהּ.",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "אִם מִשֶּׁנְּתָנָהּ לוֹ אָמַר",
+    "en": "But if after he gave it to the rider he said,",
+    "st": "But <b>if, after giving it to</b> the one riding the animal, <b>he said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מִשֶּׁנְּתָנָהּ",
+      "en": "after he gave it"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     }
+    ]
+   },
+   {
+    "he": "אֲנִי זָכִיתִי בָהּ תְּחִלָּה,",
+    "en": "\"I got it first for myself,\"",
+    "st": "<b>I acquired it</b> for myself <b>at the outset, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "זָכִיתִי",
+      "en": "got"
+     },
+     {
+      "he": "בָהּ",
+      "en": "it"
+     },
+     {
+      "he": "תְּחִלָּה,",
+      "en": "first"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם:",
+    "en": "his words mean nothing.",
+    "st": "<b>he has said nothing</b> and the rider keeps the item.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Just falling on a lost object does not make it yours; picking it up does. A person's field can get for him an animal that cannot run away, but not one that runs or flies off.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רָאָה אֶת הַמְּצִיאָה וְנָפַל עָלֶיהָ,",
+    "en": "If a man saw a lost object and fell on it,",
+    "st": "If one <b>saw a found item and fell upon it,</b>",
+    "stMore": "intending to thereby acquire it, but did not employ one of the formal modes of acquisition,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאָה",
+      "en": "he saw"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמְּצִיאָה",
+      "en": "the found object"
+     },
+     {
+      "he": "וְנָפַל",
+      "en": "and he fell"
+     },
+     {
+      "he": "עָלֶיהָ,",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "וּבָא אַחֵר וְהֶחֱזִיק בָּהּ,",
+    "en": "and another man came and grabbed it,",
+    "st": "<b>and</b> then <b>another came and seized it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "אַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "וְהֶחֱזִיק",
+      "en": "and he grabbed"
+     },
+     {
+      "he": "בָּהּ,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "זֶה שֶׁהֶחֱזִיק בָּהּ זָכָה בָהּ.",
+    "en": "the one who grabbed it gets it.",
+    "st": "<b>the one who seized it acquired it</b> because he employed one of the formal modes of acquisition.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "שֶׁהֶחֱזִיק",
+      "en": "that grabbed"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "it"
+     },
+     {
+      "he": "זָכָה",
+      "en": "got"
+     },
+     {
+      "he": "בָהּ.",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "רָאָה אוֹתָן רָצִין אַחַר מְצִיאָה,",
+    "en": "If a man saw people running after a lost animal,",
+    "st": "If one <b>saw</b> people <b>running after a found</b> ownerless animal, e.g.,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאָה",
+      "en": "he saw"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "רָצִין",
+      "en": "running"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מְצִיאָה,",
+      "en": "a found object"
+     }
+    ]
+   },
+   {
+    "he": "אַחַר צְבִי שָׁבוּר,",
+    "en": "like a deer with a broken leg,",
+    "st": "<b>after a deer</b> crippled by <b>a broken</b> leg,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "צְבִי",
+      "en": "a deer"
+     },
+     {
+      "he": "שָׁבוּר,",
+      "en": "broken"
+     }
+    ]
+   },
+   {
+    "he": "אַחַר גּוֹזָלוֹת שֶׁלֹּא פָרְחוּ,",
+    "en": "or baby birds that cannot fly yet,",
+    "st": "or <b>after young pigeons that</b> have <b>not</b> yet learned to <b>fly,</b> which can be caught easily,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "גּוֹזָלוֹת",
+      "en": "baby birds"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "פָרְחוּ,",
+      "en": "flew yet"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר זָכְתָה לִי שָׂדִי,",
+    "en": "and he said, \"My field should get it for me,\"",
+    "explain": "The animal was in his field.",
+    "st": "<b>and he said: My field has effected acquisition</b> of this animal <b>for me, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "זָכְתָה",
+      "en": "got"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "שָׂדִי,",
+      "en": "my field"
+     }
+    ]
+   },
+   {
+    "he": "זָכְתָה לוֹ.",
+    "en": "then his field gets it for him.",
+    "st": "<b>it has effected acquisition</b> of it <b>for him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכְתָה",
+      "en": "it got"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "for him"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה צְבִי רָץ כְּדַרְכּוֹ,",
+    "en": "But if the deer was running the normal way,",
+    "st": "If the <b>deer were running in its</b> usual <b>manner, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "צְבִי",
+      "en": "a deer"
+     },
+     {
+      "he": "רָץ",
+      "en": "running"
+     },
+     {
+      "he": "כְּדַרְכּוֹ,",
+      "en": "in its normal way"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁהָיוּ גוֹזָלוֹת מַפְרִיחִין,",
+    "en": "or the baby birds were flying,",
+    "st": "<b>or</b> the <b>young pigeons were flying, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that were"
+     },
+     {
+      "he": "גוֹזָלוֹת",
+      "en": "baby birds"
+     },
+     {
+      "he": "מַפְרִיחִין,",
+      "en": "flying"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר זָכְתָה לִי שָׂדִי,",
+    "en": "and he said, \"My field should get it for me,\"",
+    "st": "<b>and he said: My field has effected acquisition</b> of this animal <b>for me, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "זָכְתָה",
+      "en": "got"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "שָׂדִי,",
+      "en": "my field"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם:",
+    "en": "his words mean nothing.",
+    "st": "<b>he has said nothing,</b>",
+    "stMore": "as one’s courtyard cannot effect acquisition of an item that does not remain there on its own.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "Whatever a man's young children, his Canaanite servants or his wife find belongs to him. But what his grown children, his Jewish servants or his divorced wife find belongs to them.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מְצִיאַת בְּנוֹ וּבִתּוֹ הַקְּטַנִּים,",
+    "en": "What his young son and daughter find,",
+    "st": "With regard to <b>the found item of</b> one’s <b>minor son or daughter,</b> i.e., an ownerless item that they found;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְצִיאַת",
+      "en": "the find of"
+     },
+     {
+      "he": "בְּנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "וּבִתּוֹ",
+      "en": "and his daughter"
+     },
+     {
+      "he": "הַקְּטַנִּים,",
+      "en": "the young ones"
+     }
+    ]
+   },
+   {
+    "he": "מְצִיאַת עַבְדּוֹ וְשִׁפְחָתוֹ הַכְּנַעֲנִים,",
+    "en": "what his Canaanite servant and maid find,",
+    "st": "<b>the found item of his Canaanite slave or maidservant;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְצִיאַת",
+      "en": "the find of"
+     },
+     {
+      "he": "עַבְדּוֹ",
+      "en": "his servant"
+     },
+     {
+      "he": "וְשִׁפְחָתוֹ",
+      "en": "and his maid"
+     },
+     {
+      "he": "הַכְּנַעֲנִים,",
+      "en": "the Canaanite ones"
+     }
+    ]
+   },
+   {
+    "he": "מְצִיאַת אִשְׁתּוֹ,",
+    "en": "and what his wife finds,",
+    "st": "and <b>the found item of his wife, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְצִיאַת",
+      "en": "the find of"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ שֶׁלּוֹ.",
+    "en": "all these belong to him.",
+    "st": "<b>they are his.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "שֶׁלּוֹ.",
+      "en": "are his"
+     }
+    ]
+   },
+   {
+    "he": "מְצִיאַת בְּנוֹ וּבִתּוֹ הַגְּדוֹלִים,",
+    "en": "But what his grown son and daughter find,",
+    "st": "By contrast, with regard to <b>the found item of</b> one’s <b>adult son or daughter; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְצִיאַת",
+      "en": "the find of"
+     },
+     {
+      "he": "בְּנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "וּבִתּוֹ",
+      "en": "and his daughter"
+     },
+     {
+      "he": "הַגְּדוֹלִים,",
+      "en": "the grown-up ones"
+     }
+    ]
+   },
+   {
+    "he": "מְצִיאַת עַבְדּוֹ וְשִׁפְחָתוֹ הָעִבְרִים,",
+    "en": "what his Jewish servant and maid find,",
+    "st": "<b>the found item of his Hebrew slave or maidservant;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְצִיאַת",
+      "en": "the find of"
+     },
+     {
+      "he": "עַבְדּוֹ",
+      "en": "his servant"
+     },
+     {
+      "he": "וְשִׁפְחָתוֹ",
+      "en": "and his maid"
+     },
+     {
+      "he": "הָעִבְרִים,",
+      "en": "the Jewish ones"
+     }
+    ]
+   },
+   {
+    "he": "מְצִיאַת אִשְׁתּוֹ שֶׁגֵּרְשָׁהּ,",
+    "en": "and what his wife finds after he divorced her,",
+    "st": "and <b>the found item of his</b> ex-<b>wife, whom he divorced, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְצִיאַת",
+      "en": "the find of"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     },
+     {
+      "he": "שֶׁגֵּרְשָׁהּ,",
+      "en": "that he divorced her"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁלֹּא נָתַן כְּתֻבָּתָהּ,",
+    "en": "even if he has not yet paid her kesubah,",
+    "explain": "The kesubah is money a husband promises his wife.",
+    "st": "<b>even if he has not</b> yet <b>given</b> her payment of the <b>marriage contract</b> that he owes her,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ,",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ שֶׁלָּהֶן:",
+    "en": "all these belong to them.",
+    "st": "<b>they are theirs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "שֶׁלָּהֶן:",
+      "en": "are theirs"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "Someone found loan documents. Rabbi Meir says it depends on whether the document lets the lender collect from land that was sold; the Sages say he never gives them back.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מָצָא שְׁטָרֵי חוֹב,",
+    "en": "If someone found loan documents,",
+    "st": "With regard to one who <b>found promissory notes, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "שְׁטָרֵי",
+      "en": "documents of"
+     },
+     {
+      "he": "חוֹב,",
+      "en": "a loan"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ בָּהֶן אַחֲרָיוּת נְכָסִים,",
+    "en": "if they say that the borrower's land is a guarantee,",
+    "explain": "The lender may take land the borrower sold, to pay the loan.",
+    "st": "<b>if they include a property guarantee</b> for the loan",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "אַחֲרָיוּת",
+      "en": "a guarantee of"
+     },
+     {
+      "he": "נְכָסִים,",
+      "en": "property"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יַחֲזִיר,",
+    "en": "he should not give them back,",
+    "st": "<b>he may not return</b> them to the creditor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַחֲזִיר,",
+      "en": "he should give back"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבֵּית דִּין נִפְרָעִין מֵהֶן,",
+    "en": "because beis din would collect with them.",
+    "explain": "Maybe the loan was already paid.",
+    "st": "<b>as,</b> if he were to return them, <b>the court</b> would then <b>use them to collect repayment</b>",
+    "stMore": "of the debts from land that belonged to the debtor at the time of the loan, even if that land was subsequently sold to others.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבֵּית",
+      "en": "because beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "din"
+     },
+     {
+      "he": "נִפְרָעִין",
+      "en": "collect"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בָּהֶן אַחֲרָיוּת נְכָסִים,",
+    "en": "If they do not say the land is a guarantee,",
+    "st": "If <b>they do not include a property guarantee, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "אַחֲרָיוּת",
+      "en": "a guarantee of"
+     },
+     {
+      "he": "נְכָסִים,",
+      "en": "property"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲזִיר, שֶׁאֵין בֵּית דִּין נִפְרָעִין מֵהֶן,",
+    "en": "he gives them back, because beis din would not collect from sold land with them.",
+    "st": "<b>he returns</b> them to the creditor, <b>as</b> in this case <b>the court</b> will <b>not use them to collect repayment</b> of the debt from purchasers of the debtor’s land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲזִיר,",
+      "en": "he should give back"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "because not"
+     },
+     {
+      "he": "בֵּית",
+      "en": "beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "din"
+     },
+     {
+      "he": "נִפְרָעִין",
+      "en": "collect"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "This is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין כָּךְ וּבֵין כָּךְ לֹא יַחֲזִיר,",
+    "en": "either way he should not give them back,",
+    "st": "In <b>both this</b> case <b>and that</b> case <b>he should not return</b> the promissory notes to the creditor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this way"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and whether"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this way"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַחֲזִיר,",
+      "en": "he should give back"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁבֵּית דִּין נִפְרָעִין מֵהֶן:",
+    "en": "because beis din would collect with them.",
+    "st": "<b>as,</b> if he were to return them, <b>the court</b> would in any event <b>use them to collect repayment</b> of the loan from purchasers of the debtor’s land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁבֵּית",
+      "en": "that beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "din"
+     },
+     {
+      "he": "נִפְרָעִין",
+      "en": "collect"
+     },
+     {
+      "he": "מֵהֶן:",
+      "en": "from them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "If someone finds a get, a document freeing a servant, a will, a gift document or a receipt, he does not give it back, because maybe the writer changed his mind and never meant to hand it over.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מָצָא גִטֵּי נָשִׁים,",
+    "en": "If someone found a get for a woman,",
+    "explain": "A get is the paper a man gives to divorce his wife.",
+    "st": "If <b>one found bills of divorce, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "גִטֵּי",
+      "en": "gittin of"
+     },
+     {
+      "he": "נָשִׁים,",
+      "en": "women"
+     }
+    ]
+   },
+   {
+    "he": "וְשִׁחְרוּרֵי עֲבָדִים,",
+    "en": "or papers that set servants free,",
+    "st": "<b>or</b> bills of <b>manumission of slaves,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשִׁחְרוּרֵי",
+      "en": "and papers freeing"
+     },
+     {
+      "he": "עֲבָדִים,",
+      "en": "servants"
+     }
+    ]
+   },
+   {
+    "he": "דְּיָתֵיקֵי, מַתָּנָה וְשׁוֹבְרִים,",
+    "en": "or wills, gift papers or receipts,",
+    "st": "or <b>wills,</b> or deeds of <b>a gift, or receipts, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּיָתֵיקֵי,",
+      "en": "wills"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a gift"
+     },
+     {
+      "he": "וְשׁוֹבְרִים,",
+      "en": "and receipts"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה לֹא יַחֲזִיר,",
+    "en": "he should not give it back,",
+    "st": "<b>he may not return</b> these items to the one who is presumed to have lost them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַחֲזִיר,",
+      "en": "he should give back"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֲנִי אוֹמֵר כְּתוּבִים הָיוּ",
+    "en": "because I say they were written",
+    "st": "<b>as I say</b> it is possible that <b>they were written and</b> then the writer",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֲנִי",
+      "en": "because I"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "say"
+     },
+     {
+      "he": "כְּתוּבִים",
+      "en": "written"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְלַךְ עֲלֵיהֶם שֶׁלֹּא לִתְּנָם:",
+    "en": "and then the writer changed his mind and decided not to give them.",
+    "st": "<b>reconsidered about them</b> and decided <b>not to deliver them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְלַךְ",
+      "en": "and he changed his mind"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "about them"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִתְּנָם:",
+      "en": "to give them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 8,
+  "summary": "Some court papers that are found must be given back. Papers found in a bag or tied together go back too, and the mishnah says to whom; a paper whose story nobody knows stays put until Eliyahu comes.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מָצָא אִגְּרוֹת שׁוּם וְאִגְּרוֹת מָזוֹן,",
+    "en": "If someone found papers of a court's pricing of land, or papers for food,",
+    "explain": "Food papers: a promise to feed someone.",
+    "st": "If one <b>found documents of appraisal</b> of a debtor’s property for the purpose of debt collection; <b>or documents concerning food,</b>",
+    "stMore": "which were drawn up when one accepted upon himself to provide sustenance for another;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "אִגְּרוֹת",
+      "en": "papers of"
+     },
+     {
+      "he": "שׁוּם",
+      "en": "pricing"
+     },
+     {
+      "he": "וְאִגְּרוֹת",
+      "en": "and papers of"
+     },
+     {
+      "he": "מָזוֹן,",
+      "en": "food"
+     }
+    ]
+   },
+   {
+    "he": "שְׁטָרֵי חֲלִיצָה וּמֵאוּנִין,",
+    "en": "papers of chalitzah and of mi'un,",
+    "explain": "These are court papers about ending a marriage tie.",
+    "st": "<b>documents of ḥalitza; or</b> documents of <b>refusal</b>",
+    "stMore": "of a girl upon reaching majority to remain married to the man to whom her mother or brothers married her as a minor after the death of her father;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁטָרֵי",
+      "en": "papers of"
+     },
+     {
+      "he": "חֲלִיצָה",
+      "en": "chalitzah"
+     },
+     {
+      "he": "וּמֵאוּנִין,",
+      "en": "and mi'un"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁטָרֵי בֵרוּרִין,",
+    "en": "or papers of choosing judges,",
+    "st": "<b>or documents of beirurin,</b> a concept that will be explained in the Gemara;",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁטָרֵי",
+      "en": "and papers of"
+     },
+     {
+      "he": "בֵרוּרִין,",
+      "en": "choosing judges"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מַעֲשֵׂה בֵית דִּין,",
+    "en": "or anything beis din did,",
+    "st": "<b>or any court enactment,</b> e.g., a promissory note that has been authenticated by the court,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "מַעֲשֵׂה",
+      "en": "acts of"
+     },
+     {
+      "he": "בֵית",
+      "en": "beis"
+     },
+     {
+      "he": "דִּין,",
+      "en": "din"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה יַחֲזִיר.",
+    "en": "he must give it back.",
+    "st": "in all of these cases, the finder <b>must return</b> the document to its presumed owner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "יַחֲזִיר.",
+      "en": "he should give back"
+     }
+    ]
+   },
+   {
+    "he": "מָצָא בַחֲפִיסָה אוֹ בִדְלֻסְקְמָא,",
+    "en": "If he found papers in a bag or in a box,",
+    "st": "If one <b>found</b> documents <b>in a ḥafisa or in a deluskema,</b> both of them types of containers, or if he found",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "בַחֲפִיסָה",
+      "en": "in a bag"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בִדְלֻסְקְמָא,",
+      "en": "in a box"
+     }
+    ]
+   },
+   {
+    "he": "תַּכְרִיךְ שֶׁל שְׁטָרוֹת,",
+    "en": "a roll of papers,",
+    "st": "<b>a roll of documents </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּכְרִיךְ",
+      "en": "a roll"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁטָרוֹת,",
+      "en": "papers"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אֲגֻדָּה שֶׁל שְׁטָרוֹת,",
+    "en": "or a bundle of papers,",
+    "st": "<b>or a bundle of documents, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אֲגֻדָּה",
+      "en": "a bundle"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁטָרוֹת,",
+      "en": "papers"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה יַחֲזִיר.",
+    "en": "he must give them back.",
+    "st": "<b>he must return</b> them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "יַחֲזִיר.",
+      "en": "he should give back"
+     }
+    ]
+   },
+   {
+    "he": "וְכַמָּה אֲגֻדָּה שֶׁל שְׁטָרוֹת,",
+    "en": "And how many make a bundle of papers?",
+    "st": "<b>And how many</b> documents are considered to be <b>a bundle of documents?</b> It is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how many"
+     },
+     {
+      "he": "אֲגֻדָּה",
+      "en": "a bundle"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁטָרוֹת,",
+      "en": "papers"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלשָׁה קְשׁוּרִין זֶה בָזֶה.",
+    "en": "Three tied together.",
+    "st": "<b>three</b> that are <b>tied together. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "קְשׁוּרִין",
+      "en": "tied"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "בָזֶה.",
+      "en": "to this"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b> If the documents make reference to loans of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד הַלֹּוֶה מִשְּׁלשָׁה,",
+    "en": "If they show one person who borrowed from three people,",
+    "st": "<b>one</b> person <b>who borrowed</b> money <b>from three</b> people,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "הַלֹּוֶה",
+      "en": "the borrower"
+     },
+     {
+      "he": "מִשְּׁלשָׁה,",
+      "en": "from three"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲזִיר לַלֹּוֶה,",
+    "en": "he gives them back to the borrower.",
+    "st": "the finder <b>must return</b> them <b>to the debtor,</b>",
+    "stMore": "as they were presumably in his possession before being lost. If the documents make reference to loans of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲזִיר",
+      "en": "he should give back"
+     },
+     {
+      "he": "לַלֹּוֶה,",
+      "en": "to the borrower"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלשָׁה הַלֹּוִין מֵאֶחָד,",
+    "en": "If three people borrowed from one person,",
+    "st": "<b>three</b> people <b>who borrowed</b> money <b>from one</b> person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "הַלֹּוִין",
+      "en": "the borrowers"
+     },
+     {
+      "he": "מֵאֶחָד,",
+      "en": "from one"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲזִיר לַמַּלְוֶה.",
+    "en": "he gives them back to the lender.",
+    "st": "<b>he must return</b> them <b>to the creditor,</b> as they were presumably in his possession before being lost.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲזִיר",
+      "en": "he should give back"
+     },
+     {
+      "he": "לַמַּלְוֶה.",
+      "en": "to the lender"
+     }
+    ]
+   },
+   {
+    "he": "מָצָא שְׁטָר בֵּין שְׁטָרוֹתָיו",
+    "en": "If someone found a paper among his papers",
+    "st": "If one <b>found a document among his documents</b> that were given to him by other people as a trustee,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "שְׁטָר",
+      "en": "a paper"
+     },
+     {
+      "he": "בֵּין",
+      "en": "among"
+     },
+     {
+      "he": "שְׁטָרוֹתָיו",
+      "en": "his papers"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ יוֹדֵעַ מַה טִּיבוֹ,",
+    "en": "and he does not know what it is about,",
+    "st": "<b>and he does not know what its nature is,</b>",
+    "stMore": "i.e., he does not remember who gave it to him or whether the debt mentioned in it has been paid,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "טִּיבוֹ,",
+      "en": "its kind"
+     }
+    ]
+   },
+   {
+    "he": "יְהֵא מֻנָּח עַד שֶׁיָּבֹא אֵלִיָּהוּ.",
+    "en": "it should stay put until Eliyahu comes.",
+    "explain": "Eliyahu HaNavi will tell us what to do with it.",
+    "st": "the document <b>is placed</b> aside <b>until Elijah</b> the prophet <b>comes</b> and clarifies the issue through his prophecy.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְהֵא",
+      "en": "it should be"
+     },
+     {
+      "he": "מֻנָּח",
+      "en": "resting"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּבֹא",
+      "en": "that will come"
+     },
+     {
+      "he": "אֵלִיָּהוּ.",
+      "en": "Eliyahu"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ עִמָּהֶן סִמְפּוֹנוֹת,",
+    "en": "If there are notes of cancelling with them,",
+    "st": "<b>If there are cancellations of contracts [simponot] among them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "עִמָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "סִמְפּוֹנוֹת,",
+      "en": "cancel notes"
+     }
+    ]
+   },
+   {
+    "he": "יַעֲשֶׂה מַה שֶּׁבַּסִּמְפּוֹנוֹת:",
+    "en": "he should do what the notes say.",
+    "st": "<b>he should do what</b> is stated <b>in the simponot.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַעֲשֶׂה",
+      "en": "he should do"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁבַּסִּמְפּוֹנוֹת:",
+      "en": "that is in the cancel notes"
+     }
+    ]
+   }
+  ]
+ }
+]
