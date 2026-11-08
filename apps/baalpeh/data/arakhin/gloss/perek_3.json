@@ -1,0 +1,1358 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "In some Torah payments, the amount is set and does not change, which can make it easier or harder for the person who pays. The first example is erech.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יֵשׁ בָּעֲרָכִין לְהָקֵל וּלְהַחֲמִיר,",
+    "en": "With erech, some rules are easier and some are stricter;",
+    "st": "<b>There are</b> halakhot <b>with regard to valuations that are lenient and</b> others <b>that are stringent;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "בָּעֲרָכִין",
+      "en": "in erech payments"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר,",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׂדֵה אֲחֻזָּה לְהָקֵל וּלְהַחֲמִיר,",
+    "en": "with a field from the family's portion, some rules are easier and some are stricter;",
+    "st": "<b>and</b> there are halakhot <b>with regard to an ancestral field that are lenient and</b> others <b>that are stringent;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׂדֵה",
+      "en": "with a field"
+     },
+     {
+      "he": "אֲחֻזָּה",
+      "en": "of the family's portion",
+      "note": "A field a person inherited from his family's share in Eretz Yisrael."
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר,",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "בְּשׁוֹר הַמּוּעָד שֶׁהֵמִית אֶת",
+    "en": "with an ox known to gore that killed",
+    "st": "<b>and</b> there are halakhot <b>with regard to a forewarned ox that killed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּשׁוֹר",
+      "en": "with an ox"
+     },
+     {
+      "he": "הַמּוּעָד",
+      "en": "that is known to gore"
+     },
+     {
+      "he": "שֶׁהֵמִית",
+      "en": "that killed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הָעֶבֶד לְהָקֵל וּלְהַחֲמִיר,",
+    "en": "a slave, some rules are easier and some are stricter;",
+    "st": "a Canaanite <b>slave that are lenient and</b> others <b>that are stringent;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֶבֶד",
+      "en": "the slave"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר,",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "בָּאוֹנֵס וּבַמְּפַתֶּה וּבַמּוֹצִיא שֵׁם",
+    "en": "with one who forced a girl, one who talked a girl into a forbidden relationship, and one who spread a bad name,",
+    "st": "and there are halakhot <b>with regard to a rapist, and a seducer, and a defamer</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּאוֹנֵס",
+      "en": "with one who forced"
+     },
+     {
+      "he": "וּבַמְּפַתֶּה",
+      "en": "and with one who talked into it"
+     },
+     {
+      "he": "וּבַמּוֹצִיא",
+      "en": "and with one who spreads"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "a name"
+     }
+    ]
+   },
+   {
+    "he": "רָע לְהָקֵל וּלְהַחֲמִיר.",
+    "en": "some rules are easier and some are stricter.",
+    "st": "<b>that are lenient and</b> others <b>that are stringent.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָע",
+      "en": "bad"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר.",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ בָּעֲרָכִין לְהָקֵל וּלְהַחֲמִיר.",
+    "en": "With erech, some rules are easier and some are stricter.",
+    "st": "<b>There are</b> halakhot <b>with regard to valuations that are lenient and</b> others <b>that are stringent;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "בָּעֲרָכִין",
+      "en": "in erech payments"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר.",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. אֶחָד שֶׁהֶעֱרִיךְ אֶת הַנָּאֶה",
+    "en": "How so? Whether one promised the erech of the most beautiful person",
+    "st": "<b>how so? Both</b> in the case of one <b>who took</b> a vow of <b>valuation</b> to donate the fixed value <b>of the</b> most <b>attractive</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "whether one"
+     },
+     {
+      "he": "שֶׁהֶעֱרִיךְ",
+      "en": "who promised the erech"
+     },
+     {
+      "he": "אֶת",
+      "en": "of"
+     },
+     {
+      "he": "הַנָּאֶה",
+      "en": "the beautiful one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבְּיִשְׂרָאֵל וְאֶת הַכָּעוּר שֶׁבְּיִשְׂרָאֵל,",
+    "en": "among the Jewish people, or of the least good-looking person among the Jewish people,",
+    "st": "<b>among the Jewish people and</b> in the case of one who took a vow of valuation to donate the fixed value of <b>the</b> most <b>unsightly among the Jewish people,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבְּיִשְׂרָאֵל",
+      "en": "among Yisrael"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and of"
+     },
+     {
+      "he": "הַכָּעוּר",
+      "en": "the ugly one"
+     },
+     {
+      "he": "שֶׁבְּיִשְׂרָאֵל,",
+      "en": "among Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חֲמִשִּׁים סָלַע.",
+    "en": "he gives fifty sela'im.",
+    "st": "<b>he gives</b> the fixed payment of <b>fifty sela,</b>",
+    "stMore": "shekels, to the Temple treasury (see Leviticus 27:3).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "סָלַע.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמַר הֲרֵי דָמָיו עָלָי,",
+    "en": "But if he said, \"His worth is on me to give,\"",
+    "st": "<b>And if</b> one <b>said: It</b> is incumbent <b>upon me</b> to donate the <b>assessment</b>",
+    "stMore": "of another to the Temple treasury,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here is"
+     },
+     {
+      "he": "דָמָיו",
+      "en": "his worth"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן אֶת שָׁוְיוֹ:",
+    "en": "he gives what that person is worth.",
+    "st": "<b>he gives the price</b>",
+    "stMore": "for that person if sold as a slave, a sum that can be more or less than fifty shekels.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שָׁוְיוֹ:",
+      "en": "his worth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "A field from the family's portion that is made hekdesh is bought back for a set price, no matter how good the land is. Rabbi Eliezer says the same about a field that was bought.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בִּשְׂדֵה אֲחֻזָּה לְהָקֵל וּלְהַחֲמִיר.",
+    "en": "With a field from the family's portion, some rules are easier and some are stricter.",
+    "st": "There are halakhot <b>with regard to an ancestral field that are lenient and</b> others <b>that are stringent.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׂדֵה",
+      "en": "with a field"
+     },
+     {
+      "he": "אֲחֻזָּה",
+      "en": "of the family's portion"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר.",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. אֶחָד הַמַּקְדִּישׁ בְּחוֹלַת הַמָּחוֹז",
+    "en": "How so? Whether one made hekdesh a field in the poor sandy land around the city,",
+    "st": "<b>How so? Both</b> one <b>who consecrates</b> an ancestral field <b>in</b> the low-quality <b>sands of the</b> areas <b>surrounding</b> the city",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "whether one"
+     },
+     {
+      "he": "הַמַּקְדִּישׁ",
+      "en": "who makes hekdesh"
+     },
+     {
+      "he": "בְּחוֹלַת",
+      "en": "in the sands of"
+     },
+     {
+      "he": "הַמָּחוֹז",
+      "en": "the area around the city"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הַמַּקְדִּישׁ בְּפַרְדְּסוֹת סְבַּסְטִי,",
+    "en": "or one made hekdesh a field in the fine orchards of Sebastia,",
+    "st": "<b>and</b> one <b>who consecrates</b> the high-quality <b>orchards of Sebastia</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "or one"
+     },
+     {
+      "he": "הַמַּקְדִּישׁ",
+      "en": "who makes hekdesh"
+     },
+     {
+      "he": "בְּפַרְדְּסוֹת",
+      "en": "in the orchards of"
+     },
+     {
+      "he": "סְבַּסְטִי,",
+      "en": "Sebastia",
+      "note": "A place in Eretz Yisrael with very good land."
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן בְּזֶרַע חֹמֶר שְׂעֹרִים חֲמִשִּׁים שֶׁקֶל כֶּסֶף.",
+    "en": "to buy it back he gives fifty silver shekels for each area big enough to plant a kor of barley.",
+    "explain": "A kor is a big measure of seeds.",
+    "st": "<b>gives</b> a redemption payment of <b>fifty silver shekels for</b> every area that he consecrated that is fit for <b>sowing a kor of barley</b> (Leviticus 27:16).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "בְּזֶרַע",
+      "en": "for planting"
+     },
+     {
+      "he": "חֹמֶר",
+      "en": "a kor of"
+     },
+     {
+      "he": "שְׂעֹרִים",
+      "en": "barley"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "שֶׁקֶל",
+      "en": "shekels of"
+     },
+     {
+      "he": "כֶּסֶף.",
+      "en": "silver"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׂדֵה מִקְנָה,",
+    "en": "But with a field that he bought,",
+    "st": "<b>And with regard to a purchased field</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׂדֵה",
+      "en": "and with a field"
+     },
+     {
+      "he": "מִקְנָה,",
+      "en": "that was bought"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן אֶת שָׁוְיוֹ.",
+    "en": "he gives what it is worth.",
+    "st": "that one consecrates, <b>he gives its value</b>",
+    "stMore": "as redemption, a sum that can be more or less than fifty shekels for every area required for sowing one kor of barley.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שָׁוְיוֹ.",
+      "en": "its worth"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer",
+      "note": "A great Tanna of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד שְׂדֵה אֲחֻזָּה וְאֶחָד שְׂדֵה מִקְנָה.",
+    "en": "it is the same for a field from the family's portion and for a field that he bought.",
+    "st": "With regard to <b>both a purchased field and an ancestral field,</b>",
+    "stMore": "one gives a redemption payment of fifty silver shekels for every area required for sowing a kor of barley that he consecrated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "the same"
+     },
+     {
+      "he": "שְׂדֵה",
+      "en": "a field"
+     },
+     {
+      "he": "אֲחֻזָּה",
+      "en": "of the family's portion"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and the same"
+     },
+     {
+      "he": "שְׂדֵה",
+      "en": "a field"
+     },
+     {
+      "he": "מִקְנָה.",
+      "en": "that was bought"
+     }
+    ]
+   },
+   {
+    "he": "מַה בֵּין שְׂדֵה אֲחֻזָּה לִשְׂדֵה מִקְנָה.",
+    "en": "So what is the difference between a family field and a field he bought?",
+    "st": "<b>What,</b> then, is the difference <b>between an ancestral field and a purchased field?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "בֵּין",
+      "en": "is between"
+     },
+     {
+      "he": "שְׂדֵה",
+      "en": "a field"
+     },
+     {
+      "he": "אֲחֻזָּה",
+      "en": "of the family's portion"
+     },
+     {
+      "he": "לִשְׂדֵה",
+      "en": "to a field"
+     },
+     {
+      "he": "מִקְנָה.",
+      "en": "that was bought"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שֶׁבִּשְׂדֵה אֲחֻזָּה נוֹתֵן חֹמֶשׁ,",
+    "en": "Only that with a family field he adds a fifth,",
+    "st": "The difference is <b>that in</b> the case of <b>an ancestral field one gives</b> an additional payment of <b>one-fifth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "שֶׁבִּשְׂדֵה",
+      "en": "that with a field"
+     },
+     {
+      "he": "אֲחֻזָּה",
+      "en": "of the family's portion"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חֹמֶשׁ,",
+      "en": "a fifth"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׂדֵה מִקְנָה אֵינוֹ נוֹתֵן חֹמֶשׁ:",
+    "en": "and with a field he bought he does not add a fifth.",
+    "st": "<b>but in</b> the case of <b>a purchased field one does not give</b> an additional payment of <b>one-fifth.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׂדֵה",
+      "en": "and with a field"
+     },
+     {
+      "he": "מִקְנָה",
+      "en": "that was bought"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "give"
+     },
+     {
+      "he": "חֹמֶשׁ:",
+      "en": "a fifth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "When an ox that is known to gore kills a slave, the owner pays a set amount, no matter how much the slave was worth.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בְּשׁוֹר הַמּוּעָד שֶׁהֵמִית אֶת",
+    "en": "With an ox known to gore that killed",
+    "st": "There are halakhot <b>with regard to a forewarned ox that killed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּשׁוֹר",
+      "en": "with an ox"
+     },
+     {
+      "he": "הַמּוּעָד",
+      "en": "that is known to gore"
+     },
+     {
+      "he": "שֶׁהֵמִית",
+      "en": "that killed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הָעֶבֶד לְהָקֵל וּלְהַחֲמִיר.",
+    "en": "a slave, some rules are easier and some are stricter.",
+    "st": "a Canaanite <b>slave that are lenient and</b> others <b>that are stringent;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֶבֶד",
+      "en": "the slave"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר.",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. אֶחָד שֶׁהֵמִית אֶת הַנָּאֶה",
+    "en": "How so? Whether it killed the most valuable",
+    "st": "<b>how so? Both</b> in the case of an ox <b>that killed the</b> most <b>attractive among the slaves,</b> whose value is great,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "whether"
+     },
+     {
+      "he": "שֶׁהֵמִית",
+      "en": "it killed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנָּאֶה",
+      "en": "the beautiful one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבָּעֲבָדִים וְאֶת הַכָּעוּר שֶׁבָּעֲבָדִים,",
+    "en": "or the least valuable of the slaves,",
+    "st": "<b>and</b> likewise in the case of one that killed <b>the</b> most <b>unsightly among the slaves,</b> whose value is minimal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבָּעֲבָדִים",
+      "en": "among the slaves"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and"
+     },
+     {
+      "he": "הַכָּעוּר",
+      "en": "the ugly one"
+     },
+     {
+      "he": "שֶׁבָּעֲבָדִים,",
+      "en": "among the slaves"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן שְׁלשִׁים סֶלַע.",
+    "en": "the owner gives thirty sela'im.",
+    "st": "its owner <b>gives</b> payment of <b>thirty sela,</b>",
+    "stMore": "the fine stated in the Torah (Exodus 21:32), to the owner of the slave.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "סֶלַע.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "הֵמִית בֶּן חוֹרִין,",
+    "en": "If it killed a free person,",
+    "st": "If the ox <b>killed a freeman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵמִית",
+      "en": "it killed"
+     },
+     {
+      "he": "בֶּן",
+      "en": "a son of"
+     },
+     {
+      "he": "חוֹרִין,",
+      "en": "freedom"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן אֶת שָׁוְיוֹ.",
+    "en": "he gives what that person was worth.",
+    "st": "its owner <b>gives his price</b>",
+    "stMore": "as payment to his heirs. This sum can be more or less than thirty shekels.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שָׁוְיוֹ.",
+      "en": "his worth"
+     }
+    ]
+   },
+   {
+    "he": "חָבַל בָּזֶה וּבָזֶה,",
+    "en": "If it hurt either one of them,",
+    "st": "If the ox <b>injured this</b> slave <b>or that</b> freeman,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָבַל",
+      "en": "it hurt"
+     },
+     {
+      "he": "בָּזֶה",
+      "en": "this one"
+     },
+     {
+      "he": "וּבָזֶה,",
+      "en": "or that one"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם נֶזֶק שָׁלֵם:",
+    "en": "he pays the full cost of the damage.",
+    "st": "<b>he gives</b> payment of the <b>full</b> cost of the <b>damage</b> as compensation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "שָׁלֵם:",
+      "en": "full"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "A man who did a forbidden act with a girl pays a fine set by the Torah, the same for every girl. But the payment for her shame depends on the people.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בָּאוֹנֵס וּבַמְפַתֶּה לְהָקֵל וּלְהַחֲמִיר.",
+    "en": "With one who forced a girl and one who talked a girl into a forbidden relationship, some rules are easier and some are stricter.",
+    "st": "There are halakhot <b>with regard to a rapist and with regard to a seducer that are lenient and</b> others <b>that are stringent;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּאוֹנֵס",
+      "en": "with one who forced"
+     },
+     {
+      "he": "וּבַמְפַתֶּה",
+      "en": "and with one who talked into it"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר.",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. אֶחָד שֶׁאָנַס וּפִתָּה אֶת הַגְּדוֹלָה",
+    "en": "How so? Whether he wronged the most important girl",
+    "st": "<b>how so? Both</b> one <b>who raped or seduced</b> a young woman <b>who is</b> the most <b>prominent</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "whether one"
+     },
+     {
+      "he": "שֶׁאָנַס",
+      "en": "who forced"
+     },
+     {
+      "he": "וּפִתָּה",
+      "en": "or talked into it"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגְּדוֹלָה",
+      "en": "the greatest"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבַּכְּהֻנָּה וְאֶת הַקְּטַנָּה שֶׁבְּיִשְׂרָאֵל,",
+    "en": "among the Kohanim, or the least important among the Yisraelim,",
+    "st": "<b>in the priesthood and</b> one who raped or seduced a young woman who is <b>the lowliest among the Israelites</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבַּכְּהֻנָּה",
+      "en": "among the Kohanim"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "or"
+     },
+     {
+      "he": "הַקְּטַנָּה",
+      "en": "the smallest"
+     },
+     {
+      "he": "שֶׁבְּיִשְׂרָאֵל,",
+      "en": "among Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חֲמִשִּׁים סֶלַע.",
+    "en": "he gives fifty sela'im.",
+    "st": "<b>gives</b> the payment of <b>fifty sela,</b>",
+    "stMore": "the fine stated in the Torah (see Deuteronomy 22:29).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "סֶלַע.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבּשֶׁת וְהַפְּגָם,",
+    "en": "But the payments for her shame and for lowering her worth",
+    "st": "<b>And</b> the payments for <b>humiliation and</b> for <b>degradation</b>",
+    "stMore": "resulting from being raped or seduced are assessed differentially;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבּשֶׁת",
+      "en": "and the shame"
+     },
+     {
+      "he": "וְהַפְּגָם,",
+      "en": "and the lowering"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל לְפִי הַמְבַיֵּשׁ וְהַמִּתְבַּיֵּשׁ:",
+    "en": "all depend on who caused the shame and who was shamed.",
+    "st": "it is <b>all based on the one who humiliates and the one who is humiliated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "לְפִי",
+      "en": "according to"
+     },
+     {
+      "he": "הַמְבַיֵּשׁ",
+      "en": "the one who shames"
+     },
+     {
+      "he": "וְהַמִּתְבַּיֵּשׁ:",
+      "en": "and the one who is shamed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "A man who spread a false bad name about his wife pays a set fine of one hundred sela'im. This teaches that hurting with words is worse than hurting with actions.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בַּמּוֹצִיא שֵׁם רָע לְהָקֵל וּלְהַחֲמִיר.",
+    "en": "With one who spreads a bad name, some rules are easier and some are stricter.",
+    "st": "There are halakhot <b>with regard to a defamer,</b> who falsely claims that his bride was not a virgin, <b>that are lenient and</b> others <b>that are stringent.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּמּוֹצִיא",
+      "en": "with one who spreads"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "a name"
+     },
+     {
+      "he": "רָע",
+      "en": "bad"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "וּלְהַחֲמִיר.",
+      "en": "and to be strict"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. אֶחָד שֶׁהוֹצִיא שֵׁם רַע עַל",
+    "en": "How so? Whether one spread a bad name about",
+    "st": "<b>How so? Both</b> one <b>who defamed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "whether one"
+     },
+     {
+      "he": "שֶׁהוֹצִיא",
+      "en": "who spread"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "a name"
+     },
+     {
+      "he": "רַע",
+      "en": "bad"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     }
+    ]
+   },
+   {
+    "he": "הַגְּדוֹלָה שֶׁבַּכְּהֻנָּה וְעַל הַקְּטַנָּה שֶׁבְּיִשְׂרָאֵל,",
+    "en": "the most important girl among the Kohanim, or the least important among the Yisraelim,",
+    "st": "a young woman who is the most <b>prominent in the priesthood and</b> one who defamed a young woman who is the <b>lowliest among the Israelites</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגְּדוֹלָה",
+      "en": "the greatest"
+     },
+     {
+      "he": "שֶׁבַּכְּהֻנָּה",
+      "en": "among the Kohanim"
+     },
+     {
+      "he": "וְעַל",
+      "en": "or about"
+     },
+     {
+      "he": "הַקְּטַנָּה",
+      "en": "the smallest"
+     },
+     {
+      "he": "שֶׁבְּיִשְׂרָאֵל,",
+      "en": "among Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן מֵאָה סֶלַע.",
+    "en": "he gives one hundred sela'im.",
+    "st": "<b>gives</b> payment of <b>one hundred sela,</b>",
+    "stMore": "the fine stated in the Torah (Deuteronomy 22:19).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "מֵאָה",
+      "en": "one hundred"
+     },
+     {
+      "he": "סֶלַע.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא הָאוֹמֵר בְּפִיו יָתֵר",
+    "en": "So we see that one who says something with his mouth is worse",
+    "st": "Based on the relative scope of the fines, with the defamer paying twice the sum of the rapist and the seducer, it <b>is apparent</b> that <b>one who utters</b> malicious speech <b>with his mouth</b> is <b>a more severe</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "it is found"
+     },
+     {
+      "he": "הָאוֹמֵר",
+      "en": "that one who says"
+     },
+     {
+      "he": "בְּפִיו",
+      "en": "with his mouth"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "more"
+     }
+    ]
+   },
+   {
+    "he": "מִן הָעוֹשֶׂה מַעֲשֶׂה.",
+    "en": "than one who does an action.",
+    "st": "transgressor <b>than one who performs an action.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "than"
+     },
+     {
+      "he": "הָעוֹשֶׂה",
+      "en": "the one who does"
+     },
+     {
+      "he": "מַעֲשֶׂה.",
+      "en": "an action"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן מָצִינוּ,",
+    "en": "For so we find",
+    "st": "And this is corroborated, <b>as we found</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "for so"
+     },
+     {
+      "he": "מָצִינוּ,",
+      "en": "we found"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא נֶחְתַּם גְּזַר דִּין עַל אֲבוֹתֵינוּ",
+    "en": "that the punishment was sealed on our fathers",
+    "st": "<b>that the sentence imposed on our ancestors</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נֶחְתַּם",
+      "en": "was sealed"
+     },
+     {
+      "he": "גְּזַר",
+      "en": "the decree of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "אֲבוֹתֵינוּ",
+      "en": "our fathers"
+     }
+    ]
+   },
+   {
+    "he": "בַמִּדְבָּר אֶלָּא עַל לָשׁוֹן הָרַע,",
+    "en": "in the midbar only because of lashon hara,",
+    "explain": "The lashon hara of the meraglim about Eretz Yisrael.",
+    "st": "<b>in the wilderness was sealed only due to the malicious speech</b> disseminated by the spies,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַמִּדְבָּר",
+      "en": "in the midbar"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "לָשׁוֹן",
+      "en": "speech"
+     },
+     {
+      "he": "הָרַע,",
+      "en": "evil"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר יד),",
+    "en": "as it says (Bamidbar 14),",
+    "st": "<b>as it is stated</b> at that time:",
+    "stMore": "“All those men that have seen My glory, and My signs, which I wrought in Egypt and in the wilderness,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "יד),",
+      "en": "chapter 14)"
+     }
+    ]
+   },
+   {
+    "he": "וַיְנַסּוּ אֹתִי זֶה עֶשֶׂר",
+    "en": "\"They tested Me these ten",
+    "st": "<b>yet they have tried Me these ten</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַיְנַסּוּ",
+      "en": "and they tested"
+     },
+     {
+      "he": "אֹתִי",
+      "en": "Me"
+     },
+     {
+      "he": "זֶה",
+      "en": "these"
+     },
+     {
+      "he": "עֶשֶׂר",
+      "en": "ten"
+     }
+    ]
+   },
+   {
+    "he": "פְּעָמִים וְלֹא שָׁמְעוּ בְּקוֹלִי:",
+    "en": "times, and did not listen to My voice.\"",
+    "st": "<b>times</b> and have not listened to My voice” (Numbers 14:22).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּעָמִים",
+      "en": "times"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "שָׁמְעוּ",
+      "en": "they listened"
+     },
+     {
+      "he": "בְּקוֹלִי:",
+      "en": "to My voice"
+     }
+    ]
+   }
+  ]
+ }
+]
