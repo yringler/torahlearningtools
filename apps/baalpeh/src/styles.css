@@ -64,7 +64,7 @@ button { font: inherit; color: inherit; }
 .day { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--line); font-size: 11px; display: grid; place-items: center; }
 .day.on { background: var(--gold); border-color: var(--gold); }
 .masechta { font-family: var(--heb); text-align: center; font-size: 1.8rem; }
-.masechta-choose { display: flex; justify-content: center; margin: -4px 0 8px; }
+.masechta-choose { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin: -4px 0 8px; }
 /* "🔁 3 reviews waiting in מסכת ברכות →" and the finished-masechta link, under the start button */
 .nudge-row, .finished-link { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; margin: 0 0 10px;
   padding: 10px 16px; min-height: 48px; border: 2px solid var(--line); border-radius: 16px; background: var(--surface); font-weight: 700;

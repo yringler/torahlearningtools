@@ -6,12 +6,14 @@ uses. Anyone can open it, from anywhere, and read anything. It is not memorizing
 ## What it is
 
 - **Open to everyone.** It needs no account and makes no server requests. It doesn't belong to any child.
-- **Remembers three things, on this device only**, in `localStorage`:
-  - the last mishnah read (`baalpeh:library:last`), shown as "▶ Continue reading";
-  - the text size (`baalpeh:library:scale`);
-  - Simple or Steinsaltz (`baalpeh:library:view`).
-
-  None of this is synced, and it is the same whichever way the library was opened.
+- **Remembers only where you were**, never what you know:
+  - **Opened for a child** (from the child's perek map or mishnah screen): the last mishnah that child read is kept in
+    the child's `settings.libraryPlace` (`"sukkah/2/3"`). It syncs like `lastMasechta`, so it follows the child to
+    other devices. The top bar names the child, and "▶ Continue reading" goes back to that place.
+  - **Opened any other way** (welcome screen, picker, guest, a link): the last mishnah read is kept on this device
+    only (`baalpeh:library:last`).
+  - **Either way**, the text size (`baalpeh:library:scale`) and Simple or Steinsaltz (`baalpeh:library:view`) are
+    this device's library settings, separate from any child's learning settings.
 - **Screens:** Library home (Continue + the six sedarim) → a seder's masechtos → the masechta's perakim, with a
   numbered circle per mishnah, so any mishnah is one tap away → **one mishnah per page**. A page shows the summary,
   each piece with tappable words and its meaning (Simple / Steinsaltz / Hide), the whole-mishnah Steinsaltz, and
@@ -28,9 +30,12 @@ uses. Anyone can open it, from anywhere, and read anything. It is not memorizing
 | Welcome screen (signed out) and the offline screen | "📚 Open the Library" under "Continue as guest" | Welcome |
 | "Who's learning?" | a dashed 📚 Library tile after Guest (and a button when there are no children yet) | the picker |
 | Guest mode (signed out, or the picker's guest) | a "📚 Library" pill beside the guest pill, and a button in the guest sheet | the same guest screen, progress intact |
+| A child's perek map | "📚 Library" beside "Choose a different masechta" (opens Library home, with the child's Continue) | the perek map |
+| A child's mishnah screen | "📚 Library" in the top bar (opens straight at that mishnah) | the mishnah screen |
 | A link `/library/...` | — | the normal start (sign-in or the picker) |
 
-There's no Library button inside a child's own learning screens yet.
+A child can read any perek in the library, including ones still locked for learning. The library is open to
+everyone, and reading there never counts as learning.
 
 ## URLs
 
@@ -63,7 +68,7 @@ reuses everything:
 | `src/library/location.ts` | URL ⇄ place, and the device memory. Pure, and tested in `tests/library.test.ts`. |
 | `src/library/LibraryApp.tsx` | The screens. A lazy chunk (~3 kB gzipped); the service worker precaches it with the build. |
 | `src/library/LibraryGate.tsx` | Loads a masechta with `readMasechta()`. |
-| `src/library/open.ts` | `useOpenLibrary()`, the context the "📚" buttons use. |
+| `src/library/open.ts` | `useOpenLibrary()`, the context the "📚" buttons use. `open({ child, last, onPlace, at })` opens it for a child. |
 | `src/App.tsx` (`WithLibrary`) | Opens the library over the auth shell. |
 
 How the pieces fit together:
@@ -73,12 +78,11 @@ How the pieces fit together:
   the picker and sync alive. A cold `/library` link mounts only the library: no sign-in check and no sync until
   "Done".
 - **Import boundary.** A test keeps `src/library/` from importing the API client, sync, auth, parent or progress
-  modules.
+  modules. A child's place is saved through the injected `onPlace`: `LearningApp` writes it with
+  `withLibraryPlace` (src/nav.ts), only when the place changes.
 
 ## Later, if wanted
 
-- A "📚 Read in the Library" link from a child's mishnah screen.
-- A Library button inside a child's learning screens.
 - Swipe between mishnayos.
 - A whole-perek scroll mode.
 - Search ("ברכות ב:ג").

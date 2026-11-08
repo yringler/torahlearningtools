@@ -13,8 +13,8 @@ import { LICENSES_PATH } from "./sources";
 import { PerekTestLanding, takePerekTestToken } from "./screens/PerekTestLanding";
 import { kv } from "./kv";
 import { LearningApp } from "./LearningApp";
-import { isLibraryPath, LIBRARY_PATH, libraryPath, parseLibraryPath, type LibraryPlace } from "./library/location";
-import { OpenLibraryContext } from "./library/open";
+import { isLibraryPath, libraryPath, parseLibraryPath, type LibraryPlace, type ReadPlace } from "./library/location";
+import { OpenLibraryContext, type OpenLibraryOptions } from "./library/open";
 import { SEDARIM } from "./data";
 import { ParentApp } from "./parent/ParentApp";
 import { loadCurrentUser, setCurrentUser } from "./sync/store";
@@ -81,28 +81,41 @@ function WithLibrary() {
   const [shell, setShell] = useState(lib === null);
   /** Whether the open library sits on a history entry we pushed (so Done can go back instead of replacing). */
   const pushed = useRef(false);
+  /** Opened for a child: whose place it keeps. */
+  const [opts, setOpts] = useState<OpenLibraryOptions>({});
 
   useEffect(() => {
     const onPop = () => {
       if (isLibraryPath(window.location.pathname)) { setLib(placeFromUrl()); return; }
       pushed.current = false;
       setLib(null);
+      setOpts({});
       setShell(true);
     };
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
   }, []);
 
-  const open = useCallback(() => {
-    window.history.pushState({ library: true }, "", LIBRARY_PATH);
+  const open = useCallback((o: OpenLibraryOptions = {}) => {
+    const place: LibraryPlace = o.at ? { v: "read", ...o.at } : { v: "home" };
+    window.history.pushState({ library: true }, "", libraryPath(place));
     pushed.current = true;
-    setLib({ v: "home" });
+    setOpts(o);
+    setLib(place);
   }, []);
+
+  // The child's place, kept current here too: a popstate remount of the library must not bring back an older one.
+  const onPlace = opts.onPlace;
+  const childPlace = useCallback((p: ReadPlace) => {
+    setOpts((o) => ({ ...o, last: p }));
+    onPlace?.(p);
+  }, [onPlace]);
 
   const done = () => {
     if (pushed.current) { window.history.back(); return; } // popstate closes it
     window.history.replaceState(null, "", "/");
     setLib(null);
+    setOpts({});
     setShell(true);
   };
 
@@ -111,7 +124,8 @@ function WithLibrary() {
       {shell && <div hidden={lib !== null}><AuthShell /></div>}
       {lib && (
         <Suspense fallback={<AuthFrame><p className="hint">Loading the library…</p></AuthFrame>}>
-          <LibraryApp key={libraryPath(lib)} initial={lib} onDone={done} />
+          <LibraryApp key={libraryPath(lib)} initial={lib} onDone={done}
+            {...(opts.child ? { child: opts.child, last: opts.last ?? null, onPlace: childPlace } : {})} />
         </Suspense>
       )}
     </OpenLibraryContext.Provider>

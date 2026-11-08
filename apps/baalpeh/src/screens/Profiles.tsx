@@ -69,7 +69,7 @@ export function Profiles({ profiles, status, loading, onPick, onGuest, onParentS
               <span className="sub">nothing saved</span>
             </button>
             {openLibrary && (
-              <button className="profile-tile library" onClick={openLibrary} aria-label="Library (read any mishnah, nothing saved)">
+              <button className="profile-tile library" onClick={() => openLibrary()} aria-label="Library (read any mishnah, nothing saved)">
                 <span className="emoji">📚</span>
                 <span className="name">Library</span>
                 <span className="sub">read anything</span>
@@ -92,7 +92,7 @@ export function Profiles({ profiles, status, loading, onPick, onGuest, onParentS
           <button className="btn primary" disabled={busy} onClick={parent}>🔑 Sign in as parent</button>
           <div className="or-divider" aria-hidden="true"><span>or</span></div>
           <button className="btn guest-first-run" onClick={onGuest}>{SESSION_GUEST_EMOJI} Learn as a guest <span className="sub">nothing saved</span></button>
-          {openLibrary && <button className="btn guest-first-run" onClick={openLibrary}>📚 Open the Library <span className="sub">read any mishnah</span></button>}
+          {openLibrary && <button className="btn guest-first-run" onClick={() => openLibrary()}>📚 Open the Library <span className="sub">read any mishnah</span></button>}
         </div>
       )}
       <button className="link-btn parent-link" disabled={busy} onClick={parent}>{busy ? "Opening parent sign-in…" : "Parent? Sign in as parent"}</button>

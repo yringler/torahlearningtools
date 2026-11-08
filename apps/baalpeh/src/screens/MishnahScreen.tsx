@@ -22,9 +22,11 @@ interface Props {
   /** The back button's text (default "‹ Map"; "‹ Perek" when opened from the perek screen). */
   backLabel?: string;
   onView: (v: MeaningView) => void;
+  /** "📚 Read in the Library": this mishnah, outside learning. */
+  onLibrary?: () => void;
 }
 
-export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, onPracticeRange, group, onBack, backLabel = "‹ Map", onView }: Props) {
+export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, onPracticeRange, group, onBack, backLabel = "‹ Map", onView, onLibrary }: Props) {
   const ms = useMasechta();
   const { translated } = ms;
   const m = getMishnah(perek, mishnah);
@@ -37,6 +39,7 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
       <div className="topbar" dir="ltr">
         <button className="btn ghost-btn small" onClick={onBack}>{backLabel}</button>
         <span className="who" style={{ color: profile.color }}>{profile.emoji} {profile.name}</span>
+        {onLibrary ? <button className="btn ghost-btn small" onClick={onLibrary}>📚 Library</button> : <span />}
       </div>
       <h2 className="task-title">{ms.he} {hebNum(perek)}:{hebNum(mishnah)}</h2>
       {translated && m.summary && <p className="summary" dir="ltr">{m.summary}</p>}

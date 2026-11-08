@@ -7,7 +7,9 @@ import type { PerekTestApi } from "./components/PerekReady";
 import { CATALOG, DEFAULT_MASECHTA_ID, perakimOf, prefetchMasechta, shapeOf } from "./data";
 import { GuestApp, type GuestStart } from "./GuestApp";
 import { kv } from "./kv";
-import { chooseMasechta, lastMasechtaOf, masechtaTiles, otherDue, sederIdOf, sederTiles } from "./nav";
+import type { ReadPlace } from "./library/location";
+import { useOpenLibrary } from "./library/open";
+import { chooseMasechta, lastMasechtaOf, libraryPlaceOf, masechtaTiles, otherDue, sederIdOf, sederTiles, withLibraryPlace } from "./nav";
 import { introSeen, liveTest, markCelebrated, markIntroSeen, wasCelebrated } from "./perekTest";
 import {
   completeVerified, frontier, gatedDueReviews, gatedNextInPerek, gatedNextLearning, hasProgressIn, isKnown, isLocked, mp,
@@ -74,6 +76,7 @@ export function LearningApp({ user, onSignInAgain, onParentSignIn }: Props) {
   const [, setFlags] = useState(0);
   const [devEmail, setDevEmail] = useState(false);
   const online = useOnline(status.state === "offline");
+  const openLibrary = useOpenLibrary();
 
   useEffect(() => requestPersist(), []);
   useEffect(() => { api.config().then((c) => setDevEmail(c.devEmail), () => undefined); }, []);
@@ -172,6 +175,13 @@ export function LearningApp({ user, onSignInAgain, onParentSignIn }: Props) {
     const v = verifiedOf(m);
     const f = frontier(ms, v);
     const home: Screen = { s: "home", id: childId, m };
+    /** "📚 Library" for this child: it keeps the child's own last place (synced settings.libraryPlace), not progress. */
+    const library = (at?: ReadPlace): { onLibrary?: () => void } => {
+      if (!openLibrary) return {};
+      const child = { id: childId, name: profile.name, emoji: profile.emoji, color: profile.color };
+      const onPlace = (r: ReadPlace) => setProfiles((list) => list.map((x) => (x.id === childId ? withLibraryPlace(x, r) : x)));
+      return { onLibrary: () => openLibrary({ child, last: libraryPlaceOf(profile), onPlace, ...(at ? { at } : {}) }) };
+    };
     const sent = (perek: number): boolean => liveTest(account.lastTest(childId), m, perek, account.serverNow()) !== null;
     /** Today's session in this masechta: due reviews (gated, at most 6, oldest first), then the next learning (gated). */
     const startTasks = (): Task[] => {
@@ -232,6 +242,7 @@ export function LearningApp({ user, onSignInAgain, onParentSignIn }: Props) {
             onChooseMasechta={toList}
             others={otherDue(profile, m, today(), verifiedOf)}
             onOpenMasechta={openMasechta}
+            {...library()}
             gate={{
               verified: v,
               sent,
@@ -281,6 +292,7 @@ export function LearningApp({ user, onSignInAgain, onParentSignIn }: Props) {
           onPracticeRange={({ from, to, label, group }) =>
             setScreen({ s: "session", id: childId, m, tasks: [{ masechta: m, type: "practice", perek, mishnah, from, to, label }], continueLearning: false, back: { ...screen, group } })}
           {...(screen.group !== undefined ? { group: screen.group } : {})}
+          {...library({ m, perek, mishnah })}
         />
       );
     }

@@ -1,6 +1,7 @@
 import { CATALOG, DEFAULT_MASECHTA_ID, entryOf, mishnayosCount, SEDARIM, sederOf, shapeOf, type CatalogEntry } from "./data";
 import { dueByMasechta, dueReviews, gatedDueReviews, gatedNextLearning, knownCount, nextLearning, startedCount, type Verified } from "./progress";
 import { today } from "./srs";
+import { parsePlaceToken, placeToken, type ReadPlace } from "./library/location";
 import type { Profile } from "./types";
 
 /**
@@ -127,3 +128,12 @@ export const loadFailure = (online: boolean, downloaded: boolean): "offline" | "
 
 /** The tile's "needs internet" hint: offline, and this masechta isn't saved on the device (nor in memory). */
 export const needsInternet = (online: boolean, available: boolean): boolean => !online && !available;
+
+/** Where the child last read in the library (null: never, or the place no longer exists). */
+export const libraryPlaceOf = (p: Profile): ReadPlace | null => parsePlaceToken(p.settings.libraryPlace);
+
+/** The child with a new library place; `p` itself when it is already there (so nothing syncs). */
+export function withLibraryPlace(p: Profile, r: ReadPlace): Profile {
+  const token = placeToken(r);
+  return p.settings.libraryPlace === token ? p : { ...p, settings: { ...p.settings, libraryPlace: token } };
+}

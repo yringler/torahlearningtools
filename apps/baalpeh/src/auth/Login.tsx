@@ -153,7 +153,7 @@ export function LibraryOption() {
   if (!open) return null;
   return (
     <div className="guest-option">
-      <button type="button" className="link-btn" onClick={open}>📚 Open the Library</button>
+      <button type="button" className="link-btn" onClick={() => open()}>📚 Open the Library</button>
       <p className="hint">Read and learn any mishnah. No account needed.</p>
     </div>
   );

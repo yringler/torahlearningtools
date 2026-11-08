@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import { MishnahStudy } from "../components/MishnahStudy";
 import { TextSizeSheet } from "../components/TextSizeSheet";
 import { Chevron } from "../components/WordPanel";
@@ -9,6 +9,7 @@ import { useAvailable } from "../screens/Masechtos";
 import type { Masechta, MeaningView } from "../types";
 import { useNavigatorOnline } from "../useOnline";
 import { LibraryGate } from "./LibraryGate";
+import type { LibraryChild } from "./open";
 import {
   libraryPath, loadLastPlace, loadScale, loadView, neighbourPerek, saveLastPlace, saveScale, saveView, type LibraryPlace, type ReadPlace,
 } from "./location";
@@ -18,6 +19,10 @@ interface Props {
   initial: LibraryPlace;
   /** "‹ Done": back to wherever the library was opened from. */
   onDone: () => void;
+  /** Opened for a child: the child's place (`last`) is used and updated (`onPlace`) instead of the device's. */
+  child?: LibraryChild;
+  last?: ReadPlace | null;
+  onPlace?: (place: ReadPlace) => void;
 }
 
 /**
@@ -25,11 +30,11 @@ interface Props {
  * page. It tracks no progress and never talks to the server; it remembers only the last mishnah read, the text size
  * and the meaning view, on this device (src/library/location.ts). See docs/LIBRARY.md.
  */
-export default function LibraryApp({ initial, onDone }: Props) {
+export default function LibraryApp({ initial, onDone, child, last: childLast, onPlace }: Props) {
   const [place, setPlace] = useState<LibraryPlace>(initial);
   const [scale, setScaleState] = useState(() => loadScale(kv));
   const [view, setViewState] = useState<MeaningView>(() => loadView(kv));
-  const [last, setLast] = useState<ReadPlace | null>(() => loadLastPlace(kv));
+  const [last, setLast] = useState<ReadPlace | null>(() => (child ? childLast ?? null : loadLastPlace(kv)));
 
   // The address bar always names the place (shareable); moves inside the library don't pile up browser history.
   useEffect(() => {
@@ -38,10 +43,11 @@ export default function LibraryApp({ initial, onDone }: Props) {
     window.scrollTo(0, 0);
     if (place.v === "read") {
       const r: ReadPlace = { m: place.m, perek: place.perek, mishnah: place.mishnah ?? 1 };
-      saveLastPlace(kv, r);
+      if (child) onPlace?.(r);
+      else saveLastPlace(kv, r);
       setLast(r);
     }
-  }, [place]);
+  }, [place]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // The library's own text size; whatever the screen underneath had comes back on leaving.
   useEffect(() => {
@@ -58,6 +64,9 @@ export default function LibraryApp({ initial, onDone }: Props) {
   const setView = (v: MeaningView) => { setViewState(v); saveView(kv, v); };
   const sederOfM = (m: string) => entryOf(m)?.seder ?? SEDARIM[0]?.id ?? "";
 
+  return <ChildCtx.Provider value={child}>{screen()}</ChildCtx.Provider>;
+
+  function screen(): React.ReactNode {
   switch (place.v) {
     case "home":
       return <LibraryHome last={last} onDone={onDone} onContinue={(r) => setPlace({ v: "read", ...r })} onSeder={(seder) => setPlace({ v: "seder", seder })} />;
@@ -87,13 +96,18 @@ export default function LibraryApp({ initial, onDone }: Props) {
       );
     }
   }
+  }
 }
 
+/** The child the library was opened for, named in every top bar. */
+const ChildCtx = createContext<LibraryChild | undefined>(undefined);
+
 function TopBar({ back, onBack, right }: { back: string; onBack: () => void; right?: React.ReactNode }) {
+  const child = useContext(ChildCtx);
   return (
     <div className="topbar" dir="ltr">
       <button className="btn ghost-btn small" onClick={onBack}>{back}</button>
-      <span className="who">📚 Library</span>
+      <span className="who">{child && <span style={{ color: child.color }}>{child.emoji} {child.name} · </span>}📚 Library</span>
       {right ?? <span />}
     </div>
   );

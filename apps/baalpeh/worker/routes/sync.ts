@@ -3,7 +3,7 @@
  * (docs/PARENT_MODE.md §6.7, §8).
  *
  * Learner: may push progress records and events (LWW, behind the parent fence) and, on existing live children, only
- * `settings.fontScale`, `settings.meaningView` and `settings.lastMasechta`. It can't add, delete or rename children.
+ * `settings.fontScale`, `settings.meaningView`, `settings.lastMasechta` and `settings.libraryPlace`. It can't add, delete or rename children.
  * Parent: full child and record writes, stamped with the server time and `parent_rev` (no LWW), logged to audit_log.
  *
  * The fence: every parent write sets rev = parent_rev = R. A learner push whose cursor < parent_rev (the device has
@@ -168,11 +168,15 @@ export async function runSync(c: Context<AppEnv>, role: SyncRole): Promise<Respo
               `INSERT INTO children (id, user_id, data, deleted, updated_at, rev, created_at, parent_rev)
                VALUES (?1, ?2, ?3, ?4, ?5, (SELECT rev FROM users WHERE id = ?2), ?5, (SELECT rev FROM users WHERE id = ?2))
                ON CONFLICT(id) DO UPDATE SET
-                 -- settings.lastMasechta is the child's own choice: parent mode never sets it and pushes whatever copy
-                 -- it last pulled, so a stored value always wins (docs/SERVER_PLAN.md §8.1).
-                 data = CASE WHEN json_type(children.data, '$.settings.lastMasechta') = 'text'
-                             THEN json_set(excluded.data, '$.settings.lastMasechta', json_extract(children.data, '$.settings.lastMasechta'))
-                             ELSE excluded.data END,
+                 -- settings.lastMasechta and settings.libraryPlace are the child's own navigation: parent mode never
+                 -- sets them and pushes whatever copy it last pulled, so a stored value always wins (SERVER_PLAN §8.1).
+                 data = CASE WHEN json_type(children.data, '$.settings.libraryPlace') = 'text'
+                             THEN json_set(CASE WHEN json_type(children.data, '$.settings.lastMasechta') = 'text'
+                                 THEN json_set(excluded.data, '$.settings.lastMasechta', json_extract(children.data, '$.settings.lastMasechta'))
+                                 ELSE excluded.data END, '$.settings.libraryPlace', json_extract(children.data, '$.settings.libraryPlace'))
+                             ELSE CASE WHEN json_type(children.data, '$.settings.lastMasechta') = 'text'
+                                 THEN json_set(excluded.data, '$.settings.lastMasechta', json_extract(children.data, '$.settings.lastMasechta'))
+                                 ELSE excluded.data END END,
                  deleted = excluded.deleted, updated_at = excluded.updated_at,
                  rev = excluded.rev, parent_rev = excluded.parent_rev
                WHERE children.user_id = excluded.user_id AND children.deleted = 0`,
@@ -186,6 +190,7 @@ export async function runSync(c: Context<AppEnv>, role: SyncRole): Promise<Respo
         const patch: Record<string, unknown> = { fontScale: ch.meta.settings.fontScale };
         if (ch.meta.settings.meaningView !== undefined) patch.meaningView = ch.meta.settings.meaningView;
         if (ch.meta.settings.lastMasechta !== undefined) patch.lastMasechta = ch.meta.settings.lastMasechta;
+        if (ch.meta.settings.libraryPlace !== undefined) patch.libraryPlace = ch.meta.settings.libraryPlace;
         stmts.push(
           db
             .prepare(

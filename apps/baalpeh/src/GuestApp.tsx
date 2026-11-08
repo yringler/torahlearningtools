@@ -217,7 +217,7 @@ function GuestPill({ saved, onOpen }: { saved: boolean; onOpen: () => void }) {
       <button className="guest-pill" onClick={onOpen} aria-haspopup="dialog">
         {saved ? "Guest · progress saved only in this browser" : "Guest · nothing is saved"}
       </button>
-      {openLibrary && <button className="library-pill" onClick={openLibrary}>📚 Library</button>}
+      {openLibrary && <button className="library-pill" onClick={() => openLibrary()}>📚 Library</button>}
     </div>
   );
 }

@@ -29,6 +29,8 @@ interface Props {
   /** Other masechtos with due reviews (the nudge rows), and opening one of them. */
   others?: ReadonlyArray<{ masechta: string; due: number }>;
   onOpenMasechta?: (masechta: string) => void;
+  /** "📚 Library": read anything, outside learning. */
+  onLibrary?: () => void;
 }
 
 export interface HomeGate {
@@ -81,7 +83,7 @@ export function nextSubLabel(t: Task): string {
 }
 
 /** "Aa": text size, with a line of the masechta to show it (docs/PARENT_MODE.md §9.3). */
-export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onFontScale, gate, onChooseMasechta, others = [], onOpenMasechta }: Props) {
+export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onFontScale, gate, onChooseMasechta, others = [], onOpenMasechta, onLibrary }: Props) {
   const [sizing, setSizing] = useState(false);
   const m = useMasechta();
   const ms = m.shape;
@@ -127,6 +129,7 @@ export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onF
       <h2 className="masechta">מסכת {m.he}</h2>
       <div className="masechta-choose" dir="ltr">
         <button className="btn ghost-btn small" onClick={onChooseMasechta}>Choose a different masechta</button>
+        {onLibrary && <button className="btn ghost-btn small" onClick={onLibrary}>📚 Library</button>}
       </div>
       <div className="perek-map">
         {PERAKIM.map((perek, i) => {

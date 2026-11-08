@@ -29,7 +29,7 @@ import {
   type VerifyCodeBody,
   type VerifyLinkBody,
 } from "../../shared/api";
-import { isMasechtaId, parseProgressKey } from "../../shared/progressKey";
+import { isLibraryPlace, isMasechtaId, parseProgressKey } from "../../shared/progressKey";
 import { masechtaText, perakimCount } from "./text";
 
 export type Result<T> = { ok: true; value: T } | { ok: false; message: string; tooLarge?: true };
@@ -296,6 +296,10 @@ function settings(v: unknown, path: string): ChildSettings {
   if (o.breakMinutes !== undefined) out.breakMinutes = int(o.breakMinutes, `${path}.breakMinutes`, 1, 180);
   if (o.meaningView !== undefined) out.meaningView = oneOf(o.meaningView, `${path}.meaningView`, ["simple", "steinsaltz"]);
   if (o.lastMasechta !== undefined) out.lastMasechta = masechtaId(o.lastMasechta, `${path}.lastMasechta`);
+  if (o.libraryPlace !== undefined) {
+    if (!isLibraryPlace(o.libraryPlace)) throw new Invalid(`${path}.libraryPlace must be "<masechta>/<perek>/<mishnah>"`);
+    out.libraryPlace = o.libraryPlace;
+  }
   return out;
 }
 

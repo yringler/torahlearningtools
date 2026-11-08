@@ -31,7 +31,7 @@ The client still cannot forge either one: both are written only by the server th
 | Accountability | Every PIN set, change or reset first sends "Your parent PIN was changed" with the time, the device and the login. If that email can't be sent, the PIN is not changed. A lockout also sends an email. Every power is written to `audit_log`, which parent mode shows as the change log. |
 | Test page | Lookup stays PIN-free. Once the account has a PIN, confirm needs `pin`, and it uses the same counter and lockout. Accounts with no PIN confirm exactly as today. |
 | Parent data plane | `POST /api/parent/sync` uses the same `SyncRequest`/`SyncResponse` and one shared handler. The parent client keeps an in-memory store, pushes every edit at once, and has no offline queue. Plus `POST /api/parent/children/:id/verifications` (through `setVerificationStmts`), events and stats (moved), the log, account delete (moved) and `learner-session`. |
-| Learner sync narrowed | A learner `/api/sync` can no longer create, delete or rename children. From a learner child row it merges only `settings.fontScale`, `settings.meaningView` and `settings.lastMasechta` (the masechta the child last opened; navigation state, never logged, see SERVER_PLAN.md §8.1). Records and events are unchanged, except for the parent fence. |
+| Learner sync narrowed | A learner `/api/sync` can no longer create, delete or rename children. From a learner child row it merges only `settings.fontScale`, `settings.meaningView`, `settings.lastMasechta` (the masechta the child last opened) and `settings.libraryPlace` (where the child last read in the library); both are navigation state, never logged, see SERVER_PLAN.md §8.1. Records and events are unchanged, except for the parent fence. |
 | LWW vs. parent edits | Parent writes are stamped with the server time and record `parent_rev`. A learner push whose `cursor < parent_rev` (the device hasn't pulled the edit) cannot overwrite it, whatever its clock says. Rows come back with `byParent: true`, and the new client then drops a pending local value for that key. A device that has seen the edit wins with its next learning, even if its clock runs behind. |
 | Learner mode | No parent area, no long-press, no add-child, no import, no sign-out, no delete-account. It keeps: picking a child, learning, guest, the meaning view (already on the mishnah screen), a new "Aa" text-size sheet, and a small "Parent? Sign in as parent" link. |
 | Future multiple logins | The PIN, the parent sessions and the log are keyed to `users.id`. Each session records `login_email` and a public `id`, and every log row records `actor_email` and `actor_session`. Adding a `user_emails` table later changes nothing here. Test and notice emails still go to `users.email`. |
@@ -468,7 +468,7 @@ Every pulled or echoed progress and child row now also selects `(parent_rev IS N
 - **Child rows:**
   - a new id is ignored;
   - `deleted: true` is ignored;
-  - for an existing live child, only `settings.fontScale`, `settings.meaningView` and `settings.lastMasechta` (when present) are merged;
+  - for an existing live child, only `settings.fontScale`, `settings.meaningView`, `settings.lastMasechta` and `settings.libraryPlace` (when present) are merged;
   - the child cap check is skipped, since learners can't add children.
 
   The merge statement:
@@ -480,7 +480,7 @@ Every pulled or echoed progress and child row now also selects `(parent_rev IS N
     AND (parent_rev IS NULL OR ?5 >= parent_rev)
     AND (?4 > updated_at OR rev = parent_rev)
   ```
-  `?3` is the JSON patch `{fontScale, meaningView?, lastMasechta?}` built in JS from the validated meta, `?4` the clamped `updatedAt`, `?5` the request cursor.
+  `?3` is the JSON patch `{fontScale, meaningView?, lastMasechta?, libraryPlace?}` built in JS from the validated meta, `?4` the clamped `updatedAt`, `?5` the request cursor.
 
   The existing "(b) echo" query already returns the server's version of every pushed child row, so an old SPA's rename or settings change is corrected on its device.
 - **Ignored deletes:** for every pushed child row with `deleted: true` whose server row is live, the response also carries **all that child's progress rows and all its verification rows**. An old SPA that deleted a child locally gets the child back from the echo, and `applyServerResponse` refills its progress (children are applied before records). Without this it would recreate a blank child and its next learning would overwrite real progress with progress built from a blank start.

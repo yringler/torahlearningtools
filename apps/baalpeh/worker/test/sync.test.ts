@@ -252,6 +252,30 @@ describe("multi-masechta sync", () => {
     expect(await col(peah.id)).toBe("peah");
   });
 
+  it("libraryPlace: a learner sets it, an old client can't wipe it, a parent edit keeps it, the log never names it", async () => {
+    const { cookie, email } = await login();
+    const cid = crypto.randomUUID();
+    const t = Date.now() - 10_000;
+    const stored = async () => (JSON.parse((await db.prepare("SELECT data FROM children WHERE id = ?").bind(cid).first<{ data: string }>())!.data) as { settings: Record<string, unknown>; name: string });
+    await ok(await adminSync(email, { children: [child(cid, t, { meta: meta({ settings: { fontScale: 1, lastMasechta: "peah" } }) })] }));
+
+    // The learner reads in the library.
+    const p1 = await ok(await sync(cookie, { cursor: 0 }));
+    await ok(await sync(cookie, { cursor: p1.cursor, children: [child(cid, Date.now(), { meta: meta({ settings: { fontScale: 1, lastMasechta: "peah", libraryPlace: "sukkah/2/3" } }) })] }));
+    expect((await stored()).settings).toEqual({ fontScale: 1, lastMasechta: "peah", libraryPlace: "sukkah/2/3" });
+
+    // An old learner client without the field changes the text size: the place stays.
+    const p2 = await ok(await sync(cookie, { cursor: 0 }));
+    await ok(await sync(cookie, { cursor: p2.cursor, children: [child(cid, Date.now() + 1, { meta: meta({ settings: { fontScale: 1.2 } }) })] }));
+    expect((await stored()).settings).toEqual({ fontScale: 1.2, lastMasechta: "peah", libraryPlace: "sukkah/2/3" });
+
+    // A parent edit holding an older copy (or none): both navigation fields stay, and the log names only the rename.
+    await ok(await adminSync(email, { children: [child(cid, t, { meta: meta({ name: "Moishy", settings: { fontScale: 1.2, libraryPlace: "berakhot/1/1" } }) })] }));
+    expect(await stored()).toMatchObject({ name: "Moishy", settings: { fontScale: 1.2, lastMasechta: "peah", libraryPlace: "sukkah/2/3" } });
+    const log = await db.prepare("SELECT detail FROM audit_log WHERE child_id = ? AND action = 'child_edited' ORDER BY at DESC LIMIT 1").bind(cid).first<{ detail: string }>();
+    expect(JSON.parse(log!.detail)).toMatchObject({ fields: ["name"] });
+  });
+
   it("an old client (no lastMasechta in settings) can't wipe the stored one, on either sync", async () => {
     const { cookie, email } = await login();
     const cid = crypto.randomUUID();

@@ -82,6 +82,8 @@ export interface Settings {
   meaningView?: MeaningView;
   /** Catalog id of the masechta this child last opened. Absent: the default masechta. */
   lastMasechta?: string;
+  /** Where this child last read in the library, "<masechta>/<perek>/<mishnah>". Navigation only, not progress. */
+  libraryPlace?: string;
 }
 
 export type MeaningView = "simple" | "steinsaltz";

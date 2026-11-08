@@ -1,5 +1,5 @@
 import type { Ms } from "../../shared/api";
-import { isMasechtaId, LEGACY_MASECHTA_ID } from "../../shared/progressKey";
+import { isLibraryPlace, isMasechtaId, LEGACY_MASECHTA_ID } from "../../shared/progressKey";
 import { profileToRows } from "../sync/mapping";
 import { addPending, type AccountStore } from "../sync/store";
 import type { Profile } from "../types";
@@ -73,6 +73,7 @@ export function normalizeProfile(x: Profile, index: number): Profile {
       ...(typeof settings.breakMinutes === "number" ? { breakMinutes: settings.breakMinutes } : {}),
       ...(settings.meaningView === "simple" || settings.meaningView === "steinsaltz" ? { meaningView: settings.meaningView } : {}),
       ...(isMasechtaId(settings.lastMasechta) ? { lastMasechta: settings.lastMasechta } : {}),
+      ...(isLibraryPlace(settings.libraryPlace) ? { libraryPlace: settings.libraryPlace } : {}),
     },
     mishnayos: canonicalKeys(entries(obj(p.mishnayos))),
     perakim: canonicalKeys(entries(obj(p.perakim))),

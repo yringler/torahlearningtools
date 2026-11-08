@@ -7,8 +7,11 @@ import { describe, expect, it } from "vitest";
 import { MasechtaProvider } from "../src/components/MasechtaGate";
 import { getMishnah, MASECHTA, SEDARIM, shapeOf } from "../src/data";
 import { Perakim, Reader } from "../src/library/LibraryApp";
+import LibraryApp from "../src/library/LibraryApp";
+import { libraryPlaceOf, withLibraryPlace } from "../src/nav";
+import { kid } from "./helpers";
 import {
-  isLibraryPath, LAST_PLACE_KEY, libraryPath, loadLastPlace, loadScale, neighbourPerek, parseLibraryPath, saveLastPlace, saveScale,
+  isLibraryPath, parsePlaceToken, placeToken, LAST_PLACE_KEY, libraryPath, loadLastPlace, loadScale, neighbourPerek, parseLibraryPath, saveLastPlace, saveScale,
   type LibraryPlace,
 } from "../src/library/location";
 import type { KV } from "../src/sync/store";
@@ -120,5 +123,36 @@ describe("library boundaries", () => {
       const imports = [...src.matchAll(/^import (?!type )[^;]*?from "([^"]+)"/gms)].map((x) => x[1] ?? "");
       for (const i of imports) expect(i, `${f} imports ${i}`).not.toMatch(/\/(api|sync|auth|parent)\/|\/(progress|srs|steps|perekTest\w*)$/);
     }
+  });
+});
+
+describe("a child's library place", () => {
+  it("round-trips through settings.libraryPlace and drops places that no longer exist", () => {
+    expect(placeToken({ m: "peah", perek: 2, mishnah: 3 })).toBe("peah/2/3");
+    expect(parsePlaceToken("peah/2/3")).toEqual({ m: "peah", perek: 2, mishnah: 3 });
+    for (const bad of ["gone/1/1", "peah/99/1", "peah/1/99", "peah/2", "peah/02/3", 5, undefined]) expect(parsePlaceToken(bad), String(bad)).toBeNull();
+  });
+
+  it("writes only when the place changes", () => {
+    const a = kid("A");
+    expect(libraryPlaceOf(a)).toBeNull();
+    const b = withLibraryPlace(a, { m: "sukkah", perek: 2, mishnah: 3 });
+    expect(b.settings.libraryPlace).toBe("sukkah/2/3");
+    expect(libraryPlaceOf(b)).toEqual({ m: "sukkah", perek: 2, mishnah: 3 });
+    expect(withLibraryPlace(b, { m: "sukkah", perek: 2, mishnah: 3 })).toBe(b);
+  });
+
+  it("opened for a child, names the child and continues from the child's place", () => {
+    const html = renderToStaticMarkup(createElement(LibraryApp, {
+      initial: { v: "home" }, onDone: () => undefined,
+      child: { id: "c", name: "Dovi", emoji: "🦁", color: "#123456" }, last: { m: "sukkah", perek: 2, mishnah: 3 }, onPlace: () => undefined,
+    }));
+    expect(html).toContain("🦁 Dovi");
+    expect(html).toContain("Continue reading");
+    expect(html).toContain("מסכת סוכה");
+    const none = renderToStaticMarkup(createElement(LibraryApp, {
+      initial: { v: "home" }, onDone: () => undefined, child: { id: "c", name: "Dovi", emoji: "🦁", color: "#123456" }, last: null,
+    }));
+    expect(none).not.toContain("Continue reading");
   });
 });

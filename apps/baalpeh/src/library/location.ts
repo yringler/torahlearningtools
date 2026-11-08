@@ -120,3 +120,13 @@ export function loadView(kv: KV): MeaningView {
 export function saveView(kv: KV, v: MeaningView): void {
   try { kv.setItem(LIBRARY_VIEW_KEY, v); } catch { /* ignore */ }
 }
+
+/** A child's library place as stored in `settings.libraryPlace`: "peah/2/3". */
+export const placeToken = (r: ReadPlace): string => `${r.m}/${r.perek}/${r.mishnah ?? 1}`;
+
+/** A stored `settings.libraryPlace`, checked against today's catalog (null when it no longer names a mishnah). */
+export function parsePlaceToken(s: unknown): ReadPlace | null {
+  if (typeof s !== "string") return null;
+  const place = parseLibraryPath(`${LIBRARY_PATH}/${s}`, []);
+  return place.v === "read" && place.mishnah !== undefined && placeToken(place) === s ? { m: place.m, perek: place.perek, mishnah: place.mishnah } : null;
+}
