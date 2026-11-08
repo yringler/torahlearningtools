@@ -1,0 +1,2569 @@
+[
+ {
+  "perek": 5,
+  "mishnah": 1,
+  "summary": "Before we measure the 2000 amos around a city, we straighten its edges: houses or buildings that stick out count as if the whole side reached them, and we make the city into a square.",
+  "chunks": [
+   {
+    "he": "כֵּיצַד מְעַבְּרִין אֶת הֶעָרִים,",
+    "en": "How do we stretch out the edges of cities?",
+    "st": "<b>How does one extend</b> the boundaries of <b>cities</b>",
+    "stMore": "in order to ensure that all its protrusions are included within the borders of the city?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "מְעַבְּרִין",
+      "en": "do we extend"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הֶעָרִים,",
+      "en": "the cities"
+     }
+    ]
+   },
+   {
+    "he": "בַּיִת נִכְנָס בַּיִת יוֹצֵא,",
+    "en": "If one house is pushed in and another sticks out,",
+    "st": "He extends a straight line across the edge of the city, and if <b>a house is recessed and</b> another <b>house protrudes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּיִת",
+      "en": "a house"
+     },
+     {
+      "he": "נִכְנָס",
+      "en": "goes in"
+     },
+     {
+      "he": "בַּיִת",
+      "en": "a house"
+     },
+     {
+      "he": "יוֹצֵא,",
+      "en": "goes out"
+     }
+    ]
+   },
+   {
+    "he": "פָּגוּם נִכְנָס פָּגוּם יוֹצֵא.",
+    "en": "or a tower is pushed in and another sticks out,",
+    "st": "or <b>a turret [pagum] is recessed and</b> another <b>turret protrudes</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּגוּם",
+      "en": "a tower"
+     },
+     {
+      "he": "נִכְנָס",
+      "en": "goes in"
+     },
+     {
+      "he": "פָּגוּם",
+      "en": "a tower"
+     },
+     {
+      "he": "יוֹצֵא.",
+      "en": "goes out"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ שָׁם גְּדוּדִיּוֹת גְּבוֹהוֹת עֲשָׂרָה טְפָחִים,",
+    "en": "or there were broken walls ten tefachim tall,",
+    "st": "from that line, and similarly, if <b>there were remnants</b> of walls <b>ten handbreadths high,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "גְּדוּדִיּוֹת",
+      "en": "broken walls"
+     },
+     {
+      "he": "גְּבוֹהוֹת",
+      "en": "tall"
+     },
+     {
+      "he": "עֲשָׂרָה",
+      "en": "ten"
+     },
+     {
+      "he": "טְפָחִים,",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "וּגְשָׁרִים וּנְפָשׁוֹת,",
+    "en": "and bridges and grave monuments,",
+    "st": "<b>and bridges and monuments</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּגְשָׁרִים",
+      "en": "and bridges"
+     },
+     {
+      "he": "וּנְפָשׁוֹת,",
+      "en": "and monuments",
+      "note": "Small buildings over graves."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּשׁ בָּהֶן בֵּית דִּירָה,",
+    "en": "that have a place to live in them,",
+    "st": "over graves <b>in which there is a residence,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּירָה,",
+      "en": "living"
+     }
+    ]
+   },
+   {
+    "he": "מוֹצִיאִין אֶת הַמִּדָּה כְנֶגְדָּן,",
+    "en": "we stretch the measure out as far as them,",
+    "st": "<b>one extends the measure</b> of that side of the city as though there were other structures <b>opposite them</b>",
+    "stMore": "in the adjacent corner of the city.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹצִיאִין",
+      "en": "we take out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמִּדָּה",
+      "en": "the measure"
+     },
+     {
+      "he": "כְנֶגְדָּן,",
+      "en": "opposite them"
+     }
+    ]
+   },
+   {
+    "he": "וְעוֹשִׂין אוֹתָהּ כְּמִין טַבְלָא מְרֻבַּעַת,",
+    "en": "and we make the city like a square board,",
+    "st": "<b>And</b> prior to measuring the Shabbat limit, <b>one renders</b> the city <b>like a square tablet</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹשִׂין",
+      "en": "and we make"
+     },
+     {
+      "he": "אוֹתָהּ",
+      "en": "it"
+     },
+     {
+      "he": "כְּמִין",
+      "en": "like a kind of"
+     },
+     {
+      "he": "טַבְלָא",
+      "en": "board"
+     },
+     {
+      "he": "מְרֻבַּעַת,",
+      "en": "square"
+     }
+    ]
+   },
+   {
+    "he": "כְּדֵי שֶׁיְּהֵא נִשְׂכָּר אֶת הַזָּוִיּוֹת:",
+    "en": "so that it gains the corners.",
+    "st": "<b>so that it gains the corners,</b> although there are actually no houses in those corners.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדֵי",
+      "en": "so"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "that it will be"
+     },
+     {
+      "he": "נִשְׂכָּר",
+      "en": "gaining"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַזָּוִיּוֹת:",
+      "en": "the corners"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 2,
+  "summary": "Rabbi Meir says we add a karpef, about seventy amos, to every city before measuring. The Sages say it is only used to join two cities that are close together.",
+  "chunks": [
+   {
+    "he": "נוֹתְנִין קַרְפֵּף לָעִיר,",
+    "en": "We give a karpef to a city,",
+    "st": "<b>One allocates a karpef to</b> every <b>city,</b>",
+    "stMore": "i.e., the measure of a karpef, which is slightly more than seventy cubits, is added to every city, and the two thousand cubits of the Shabbat limit are measured from there;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתְנִין",
+      "en": "we give"
+     },
+     {
+      "he": "קַרְפֵּף",
+      "en": "a karpef",
+      "note": "A space of about seventy amos."
+     },
+     {
+      "he": "לָעִיר,",
+      "en": "to the city"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "says Rabbi Meir.",
+    "st": "<b>this is the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמְרוּ קַרְפֵּף אֶלָּא",
+    "en": "they only spoke of a karpef",
+    "st": "<b>They spoke of</b> the addition of <b>a karpef only</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "קַרְפֵּף",
+      "en": "karpef"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     }
+    ]
+   },
+   {
+    "he": "בֵין שְׁתֵּי עֲיָרוֹת,",
+    "en": "between two towns.",
+    "st": "with regard to the space <b>between two</b> adjacent <b>cities.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵין",
+      "en": "between"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "עֲיָרוֹת,",
+      "en": "towns"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ לָזוֹ שִׁבְעִים אַמָּה וְשִׁירַיִם,",
+    "en": "If this one has seventy amos and a bit,",
+    "st": "How so? <b>If this</b> city <b>has seventy cubits and a remainder</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לָזוֹ",
+      "en": "to this one"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "אַמָּה",
+      "en": "amos"
+     },
+     {
+      "he": "וְשִׁירַיִם,",
+      "en": "and a little more"
+     }
+    ]
+   },
+   {
+    "he": "וְלָזוֹ שִׁבְעִים אַמָּה וְשִׁירַיִם,",
+    "en": "and that one has seventy amos and a bit,",
+    "st": "vacant on one side, <b>and that</b> city <b>has seventy cubits and a remainder</b>",
+    "stMore": "vacant on the adjacent side, and the two areas of seventy-plus cubits overlap,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָזוֹ",
+      "en": "and to this one"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "אַמָּה",
+      "en": "amos"
+     },
+     {
+      "he": "וְשִׁירַיִם,",
+      "en": "and a little more"
+     }
+    ]
+   },
+   {
+    "he": "עוֹשֶׂה קַרְפֵּף לִשְׁתֵּיהֶן לִהְיוֹתָן כְּאֶחָת:",
+    "en": "he makes one karpef for both of them, to make them like one town.",
+    "st": "<b>the karpef combines the two</b> cities <b>into one.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹשֶׂה",
+      "en": "he makes"
+     },
+     {
+      "he": "קַרְפֵּף",
+      "en": "a karpef"
+     },
+     {
+      "he": "לִשְׁתֵּיהֶן",
+      "en": "for both of them"
+     },
+     {
+      "he": "לִהְיוֹתָן",
+      "en": "for them to be"
+     },
+     {
+      "he": "כְּאֶחָת:",
+      "en": "like one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 3,
+  "summary": "Three villages standing in a triangle can count as one town if the middle village fills the gap between the two outer ones.",
+  "chunks": [
+   {
+    "he": "וְכֵן שְׁלֹשָׁה כְפָרִים הַמְּשֻׁלָּשִׁין,",
+    "en": "And also three villages in a triangle,",
+    "st": "<b>And likewise,</b> in the case of <b>three villages that are</b> arranged as <b>a triangle,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and also"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "כְפָרִים",
+      "en": "villages"
+     },
+     {
+      "he": "הַמְּשֻׁלָּשִׁין,",
+      "en": "in a triangle"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ בֵּין שְׁנַיִם הַחִיצוֹנִים",
+    "en": "if between the two outer ones there is",
+    "st": "<b>if there are</b> only",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "הַחִיצוֹנִים",
+      "en": "the outer ones"
+     }
+    ]
+   },
+   {
+    "he": "מֵאָה וְאַרְבָּעִים וְאֶחָד וּשְׁלִישׁ,",
+    "en": "one hundred forty-one and a third amos,",
+    "st": "<b>141⅓</b> cubits separating <b>between the two outer</b> villages,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאָה",
+      "en": "a hundred"
+     },
+     {
+      "he": "וְאַרְבָּעִים",
+      "en": "and forty"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "וּשְׁלִישׁ,",
+      "en": "and a third"
+     }
+    ]
+   },
+   {
+    "he": "עָשָׂה אֶמְצָעִי אֶת שְׁלָשְׁתָּן לִהְיוֹתָן כְּאֶחָד:",
+    "en": "the middle one makes all three of them like one.",
+    "st": "the <b>middle</b> village <b>combines the three</b> villages <b>into one.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָשָׂה",
+      "en": "makes"
+     },
+     {
+      "he": "אֶמְצָעִי",
+      "en": "the middle one"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שְׁלָשְׁתָּן",
+      "en": "the three of them"
+     },
+     {
+      "he": "לִהְיוֹתָן",
+      "en": "for them to be"
+     },
+     {
+      "he": "כְּאֶחָד:",
+      "en": "like one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 4,
+  "summary": "We measure the Shabbos limit with a fifty amah rope held at the heart. Valleys, fences and hills are skipped over as if the ground were flat.",
+  "chunks": [
+   {
+    "he": "אֵין מוֹדְדִין אֶלָּא בְחֶבֶל",
+    "en": "We only measure with a rope",
+    "st": "<b>One may measure</b> a Shabbat limit <b>only with a rope fifty cubits</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מוֹדְדִין",
+      "en": "measure"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְחֶבֶל",
+      "en": "with a rope"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל חֲמִשִּׁים אַמָּה,",
+    "en": "of fifty amos,",
+    "st": "long,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "אַמָּה,",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "לֹא פָחוֹת וְלֹא יוֹתֵר.",
+    "en": "not less and not more.",
+    "st": "<b>no less and no more,</b>",
+    "stMore": "as will be explained in the Gemara.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "פָחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יוֹתֵר.",
+      "en": "more"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יִמְדּוֹד אֶלָּא כְנֶגֶד לִבּוֹ.",
+    "en": "And he must measure only at the height of his heart.",
+    "st": "<b>And one may measure</b> the limit <b>only at the level of one’s heart,</b>",
+    "stMore": "i.e., whoever comes to measure the limit must hold the rope next to his chest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יִמְדּוֹד",
+      "en": "he will measure"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "כְנֶגֶד",
+      "en": "opposite"
+     },
+     {
+      "he": "לִבּוֹ.",
+      "en": "his heart"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה מוֹדֵד וְהִגִּיעַ לְגַיְא אוֹ לְגָדֵר,",
+    "en": "If he was measuring and came to a valley or a fence,",
+    "st": "If <b>one was measuring</b> the limit <b>and he reached a canyon or a fence,</b>",
+    "stMore": "the height of the fence and the depth of the canyon are not counted toward the two thousand cubits; rather,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "מוֹדֵד",
+      "en": "measuring"
+     },
+     {
+      "he": "וְהִגִּיעַ",
+      "en": "and came"
+     },
+     {
+      "he": "לְגַיְא",
+      "en": "to a valley"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לְגָדֵר,",
+      "en": "to a fence"
+     }
+    ]
+   },
+   {
+    "he": "מַבְלִיעוֹ וְחוֹזֵר לְמִדָּתוֹ.",
+    "en": "he skips over it and goes back to measuring.",
+    "st": "<b>he spans it and</b> then <b>resumes his measurement.</b>",
+    "stMore": "Two people hold the two ends of the rope straight across the canyon or the fence, and the distance is measured as though the area were completely flat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַבְלִיעוֹ",
+      "en": "he swallows it"
+     },
+     {
+      "he": "וְחוֹזֵר",
+      "en": "and goes back"
+     },
+     {
+      "he": "לְמִדָּתוֹ.",
+      "en": "to his measuring"
+     }
+    ]
+   },
+   {
+    "he": "הִגִּיעַ לְהָר,",
+    "en": "If he came to a hill,",
+    "st": "If <b>one reached a hill,</b>",
+    "stMore": "he does not measure its height; rather,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִגִּיעַ",
+      "en": "he came"
+     },
+     {
+      "he": "לְהָר,",
+      "en": "to a hill"
+     }
+    ]
+   },
+   {
+    "he": "מַבְלִיעוֹ וְחוֹזֵר לְמִדָּתוֹ,",
+    "en": "he skips over it and goes back to measuring,",
+    "st": "<b>he spans</b> the hill as if it were not there <b>and</b> then <b>resumes his measurement,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַבְלִיעוֹ",
+      "en": "he swallows it"
+     },
+     {
+      "he": "וְחוֹזֵר",
+      "en": "and goes back"
+     },
+     {
+      "he": "לְמִדָּתוֹ,",
+      "en": "to his measuring"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁלֹּא יֵצֵא חוּץ לַתְּחוּם.",
+    "en": "as long as he does not go out past the Shabbos limit.",
+    "st": "<b>provided he does not</b> thereby <b>go out beyond the</b> city’s Shabbat <b>limit,</b>",
+    "stMore": "as those watching the surveyor might mistakenly think the limit extends to that point.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "as long as"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יֵצֵא",
+      "en": "he will go out"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לַתְּחוּם.",
+      "en": "the techum"
+     }
+    ]
+   },
+   {
+    "he": "אִם אֵינוֹ יָכוֹל לְהַבְלִיעוֹ,",
+    "en": "If he cannot skip over it,",
+    "st": "<b>If,</b> due to the width of the canyon or hill, <b>he cannot span it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לְהַבְלִיעוֹ,",
+      "en": "to swallow it"
+     }
+    ]
+   },
+   {
+    "he": "בָּזוֹ אָמַר רַבִּי דוֹסְתַּאי בַּר",
+    "en": "about this Rabbi Dostai son of",
+    "st": "<b>with regard to this</b> situation <b>Rabbi Dostai bar Yannai said</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּזוֹ",
+      "en": "about this"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסְתַּאי",
+      "en": "Dostai",
+      "note": "A Rabbi of the Mishnah."
+     },
+     {
+      "he": "בַּר",
+      "en": "son of"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יַנַּאי מִשּׁוּם רַבִּי מֵאִיר,",
+    "en": "Rabbi Yannai said in the name of Rabbi Meir,",
+    "st": "<b>in the name of Rabbi Meir:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יַנַּאי",
+      "en": "Yannai"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "in the name of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר,",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמַעְתִּי שֶׁמְּקַדְּרִין בֶּהָרִים:",
+    "en": "I heard that we measure through hills.",
+    "explain": "As if there were a tunnel straight through.",
+    "st": "<b>I heard that one may pierce hills.</b> In other words, one measures the distance as if there were a hole from one side of the hill to the other, so that in effect, he measures only the horizontal distance and ignores the differences in elevation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמַעְתִּי",
+      "en": "I heard"
+     },
+     {
+      "he": "שֶׁמְּקַדְּרִין",
+      "en": "that we make holes"
+     },
+     {
+      "he": "בֶּהָרִים:",
+      "en": "in the hills"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 5,
+  "summary": "Only an expert may measure the Shabbos limit. If the measurements are different, we follow the longer one, and even a servant is believed about where the limit is, because these rules are meant to be easy.",
+  "chunks": [
+   {
+    "he": "אֵין מוֹדְדִין אֶלָּא מִן הַמֻּמְחֶה.",
+    "en": "We only measure with an expert.",
+    "st": "One <b>may measure</b> the Shabbat limit <b>only with an expert</b> surveyor.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מוֹדְדִין",
+      "en": "measure"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמֻּמְחֶה.",
+      "en": "the expert"
+     }
+    ]
+   },
+   {
+    "he": "רִבָּה לְמָקוֹם אֶחָד וּמִעֵט לְמָקוֹם אַחֵר,",
+    "en": "If he made it longer in one place and shorter in another place,",
+    "st": "If it is discovered that the surveyor <b>extended</b> the limit <b>in one place and reduced it in another place,</b>",
+    "stMore": "so that the line marking the Shabbat limit is not straight,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רִבָּה",
+      "en": "he made more"
+     },
+     {
+      "he": "לְמָקוֹם",
+      "en": "for place"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וּמִעֵט",
+      "en": "and made less"
+     },
+     {
+      "he": "לְמָקוֹם",
+      "en": "for place"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמְעִין לִמְקוֹם שֶׁרִבָּה.",
+    "en": "we listen to the place where he made it longer.",
+    "st": "<b>one accepts</b> the measurement of <b>the place where he extended</b>",
+    "stMore": "the limit and straightens the limit accordingly.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "we listen"
+     },
+     {
+      "he": "לִמְקוֹם",
+      "en": "to the place"
+     },
+     {
+      "he": "שֶׁרִבָּה.",
+      "en": "that he made more"
+     }
+    ]
+   },
+   {
+    "he": "רִבָּה לְאֶחָד וּמִעֵט לְאַחֵר,",
+    "en": "If he made it longer for one and shorter for another,",
+    "st": "Similarly, if the surveyor <b>extended</b> the limit <b>for one and reduced</b> it <b>for another,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רִבָּה",
+      "en": "he made more"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "for one"
+     },
+     {
+      "he": "וּמִעֵט",
+      "en": "and made less"
+     },
+     {
+      "he": "לְאַחֵר,",
+      "en": "for another"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמְעִין לַמְרֻבֶּה.",
+    "en": "we listen to the longer one.",
+    "st": "<b>one accepts the extended</b> measurement.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "we listen"
+     },
+     {
+      "he": "לַמְרֻבֶּה.",
+      "en": "to the bigger one"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ עֶבֶד,",
+    "en": "Even a servant,",
+    "st": "<b>And</b> furthermore, <b>even</b> a gentile <b>slave</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "עֶבֶד,",
+      "en": "a servant"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ שִׁפְחָה,",
+    "en": "even a maid,",
+    "st": "and <b>even</b> a gentile <b>maidservant,</b>",
+    "stMore": "whose testimonies are generally considered unreliable,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "שִׁפְחָה,",
+      "en": "a maid"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמָנִין לוֹמַר,",
+    "en": "are believed to say,",
+    "st": "<b>are trustworthy to say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמָנִין",
+      "en": "are believed"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "עַד כָּאן תְּחוּם שַׁבָּת,",
+    "en": "Until here is the Shabbos limit,",
+    "st": "<b>The Shabbat limit</b> extended <b>until here;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "תְּחוּם",
+      "en": "the techum of"
+     },
+     {
+      "he": "שַׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא אָמְרוּ חֲכָמִים אֶת",
+    "en": "because the Sages did not say this",
+    "st": "<b>as the Sages did not state the matter,</b>",
+    "stMore": "the laws of Shabbat limits,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "because not"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "Sages"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הַדָּבָר לְהַחֲמִיר אֶלָּא לְהָקֵל:",
+    "en": "to be strict, but to be easy.",
+    "st": "<b>to be stringent, but</b> rather <b>to be lenient.</b> The prohibition to walk more than two thousand cubits is rabbinic in origin and is therefore interpreted leniently.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַדָּבָר",
+      "en": "the thing"
+     },
+     {
+      "he": "לְהַחֲמִיר",
+      "en": "to be strict"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "לְהָקֵל:",
+      "en": "to be easy"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 6,
+  "summary": "May one eiruv be made for a whole city? If it grew from a private town into a public city, yes. If it was public and became private, a part must be left out so people do not forget the rules of eiruv.",
+  "stIntro": "Although this chapter as a whole deals with halakhot governing the joining of Shabbat boundaries, this mishna returns to the halakhot governing a joining of courtyards.",
+  "chunks": [
+   {
+    "he": "עִיר שֶׁל יָחִיד וְנַעֲשֵׂית שֶׁל רַבִּים,",
+    "en": "A private town that became a public city,",
+    "st": "If <b>a private city,</b> which does not have many residents, grows and <b>becomes</b> a heavily populated <b>public</b> city,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עִיר",
+      "en": "a city"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "יָחִיד",
+      "en": "a private person"
+     },
+     {
+      "he": "וְנַעֲשֵׂית",
+      "en": "and became"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "רַבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "מְעָרְבִין אֶת כֻּלָּהּ.",
+    "en": "we may make an eiruv for all of it.",
+    "st": "<b>one may establish a joining of the courtyards for all of it,</b>",
+    "stMore": "as long as it does not include a public domain as defined by Torah law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעָרְבִין",
+      "en": "we make an eiruv"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כֻּלָּהּ.",
+      "en": "all of it"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁל רַבִּים וְנַעֲשֵׂית שֶׁל יָחִיד,",
+    "en": "But one that was public and became private,",
+    "st": "<b>And</b> if <b>a public</b> city loses residents over time and <b>becomes a private</b> city,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁל",
+      "en": "and of"
+     },
+     {
+      "he": "רַבִּים",
+      "en": "the many"
+     },
+     {
+      "he": "וְנַעֲשֵׂית",
+      "en": "and became"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "יָחִיד,",
+      "en": "a private person"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְעָרְבִין אֶת כֻּלָּהּ,",
+    "en": "we may not make an eiruv for all of it,",
+    "st": "<b>one may not establish an eiruv for all of it</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְעָרְבִין",
+      "en": "make an eiruv"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כֻּלָּהּ,",
+      "en": "all of it"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אִם כֵּן עָשָׂה חוּצָה",
+    "en": "unless he leaves out a part outside it",
+    "st": "<b>unless one maintains</b> an area <b>outside</b> the eiruv",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "עָשָׂה",
+      "en": "he made"
+     },
+     {
+      "he": "חוּצָה",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "לָהּ כְּעִיר חֲדָשָׁה שֶׁבִּיהוּדָה,",
+    "en": "like the town of Chadashah in Yehudah,",
+    "st": "that is <b>like</b> the size of <b>the city of Ḥadasha in Judea,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָהּ",
+      "en": "of it"
+     },
+     {
+      "he": "כְּעִיר",
+      "en": "like the city"
+     },
+     {
+      "he": "חֲדָשָׁה",
+      "en": "Chadashah"
+     },
+     {
+      "he": "שֶׁבִּיהוּדָה,",
+      "en": "that is in Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּשׁ בָּהּ חֲמִשִּׁים דִּיוּרִים,",
+    "en": "which has fifty people living in it,",
+    "st": "<b>which has fifty residents.</b>",
+    "stMore": "Carrying within the eiruv is permitted, but it remains prohibited to carry in the area excluded from the eiruv. The reason for this requirement is to ensure that the laws of eiruv will not be forgotten.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "דִּיוּרִים,",
+      "en": "residents"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי יְהוּדָה.",
+    "en": "says Rabbi Yehudah.",
+    "st": "This is <b>the statement of Rabbi Yehuda.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה.",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "stMore": "The excluded area need not be so large;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שָׁלֹשׁ חֲצֵרוֹת שֶׁל שְׁנֵי בָתִּים:",
+    "en": "three courtyards with two houses each.",
+    "st": "rather, it is sufficient to exclude <b>three courtyards</b> with <b>two houses</b> each.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלֹשׁ",
+      "en": "three"
+     },
+     {
+      "he": "חֲצֵרוֹת",
+      "en": "courtyards"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "בָתִּים:",
+      "en": "houses"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 7,
+  "summary": "A person can only make his Shabbos home somewhere within 2000 amos of where he is when Shabbos starts. An eiruv put just outside the city does not help, and one put farther out gives on one side but takes away on the other.",
+  "chunks": [
+   {
+    "he": "מִי שֶׁהָיָה בַמִּזְרָח וְאָמַר לִבְנוֹ,",
+    "en": "Someone who was east of home and told his son,",
+    "st": "<b>One who was to the east</b> of his home when Shabbat began, <b>and he had said to his son</b>",
+    "stMore": "before Shabbat:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "who was"
+     },
+     {
+      "he": "בַמִּזְרָח",
+      "en": "in the east"
+     },
+     {
+      "he": "וְאָמַר",
+      "en": "and said"
+     },
+     {
+      "he": "לִבְנוֹ,",
+      "en": "to his son"
+     }
+    ]
+   },
+   {
+    "he": "עָרֵב לִי בַמַּעֲרָב,",
+    "en": "Make an eiruv for me in the west,",
+    "st": "<b>Establish an eiruv for me to the west;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָרֵב",
+      "en": "make an eiruv"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "בַמַּעֲרָב,",
+      "en": "in the west"
+     }
+    ]
+   },
+   {
+    "he": "בַּמַּעֲרָב וְאָמַר לִבְנוֹ,",
+    "en": "or west of home and told his son,",
+    "st": "or, if he was <b>to the west</b> of his home <b>and he had said to his son:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּמַּעֲרָב",
+      "en": "in the west"
+     },
+     {
+      "he": "וְאָמַר",
+      "en": "and said"
+     },
+     {
+      "he": "לִבְנוֹ,",
+      "en": "to his son"
+     }
+    ]
+   },
+   {
+    "he": "עָרֵב לִי בַמִּזְרָח,",
+    "en": "Make an eiruv for me in the east,",
+    "st": "<b>Establish an eiruv for me to the east,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָרֵב",
+      "en": "make an eiruv"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "בַמִּזְרָח,",
+      "en": "in the east"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ הֵימֶנּוּ וּלְבֵיתוֹ אַלְפַּיִם אַמּוֹת,",
+    "en": "if from him to his house is two thousand amos,",
+    "st": "the halakha is as follows: <b>If there is</b> a distance of <b>two thousand cubits from his</b> current location <b>to his house, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "וּלְבֵיתוֹ",
+      "en": "and to his house"
+     },
+     {
+      "he": "אַלְפַּיִם",
+      "en": "two thousand"
+     },
+     {
+      "he": "אַמּוֹת,",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "וּלְעֵרוּבוֹ יוֹתֵר מִכָּאן,",
+    "en": "and to his eiruv more than that,",
+    "st": "the distance <b>to his eiruv is greater than this,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְעֵרוּבוֹ",
+      "en": "and to his eiruv"
+     },
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "מִכָּאן,",
+      "en": "than here"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר לְבֵיתוֹ וְאָסוּר לְעֵרוּבוֹ.",
+    "en": "he may go to his house but not to his eiruv.",
+    "st": "<b>he is permitted</b> to walk <b>to his house,</b> and from there he may walk two thousand cubits in every direction, <b>but it is prohibited</b> for him <b>to</b> walk to the spot where his son had deposited <b>his eiruv.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר",
+      "en": "allowed"
+     },
+     {
+      "he": "לְבֵיתוֹ",
+      "en": "to his house"
+     },
+     {
+      "he": "וְאָסוּר",
+      "en": "and forbidden"
+     },
+     {
+      "he": "לְעֵרוּבוֹ.",
+      "en": "to his eiruv"
+     }
+    ]
+   },
+   {
+    "he": "לְעֵרוּבוֹ אַלְפַּיִם אַמָּה,",
+    "en": "If to his eiruv is two thousand amos,",
+    "st": "If the distance from one’s current location <b>to his eiruv is two thousand cubits,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְעֵרוּבוֹ",
+      "en": "to his eiruv"
+     },
+     {
+      "he": "אַלְפַּיִם",
+      "en": "two thousand"
+     },
+     {
+      "he": "אַמָּה,",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "וּלְבֵיתוֹ יוֹתֵר מִכָּאן,",
+    "en": "and to his house more than that,",
+    "st": "and the distance <b>to his house is greater than this,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְבֵיתוֹ",
+      "en": "and to his house"
+     },
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "מִכָּאן,",
+      "en": "than here"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר לְבֵיתוֹ וּמֻתָּר לְעֵרוּבוֹ.",
+    "en": "he may not go to his house but may go to his eiruv.",
+    "st": "<b>he is prohibited</b> from walking to his house, <b>and he is permitted to</b> walk to the spot of <b>his eiruv,</b>",
+    "stMore": "and from there he may walk two thousand cubits in every direction. In other words, with regard to the Shabbat limit, one’s place of residence for Shabbat cannot be more than two thousand cubits from his physical location when Shabbat begins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר",
+      "en": "forbidden"
+     },
+     {
+      "he": "לְבֵיתוֹ",
+      "en": "to his house"
+     },
+     {
+      "he": "וּמֻתָּר",
+      "en": "and allowed"
+     },
+     {
+      "he": "לְעֵרוּבוֹ.",
+      "en": "to his eiruv"
+     }
+    ]
+   },
+   {
+    "he": "הַנּוֹתֵן אֶת עֵרוּבוֹ בְעִבּוּרָהּ שֶׁל עִיר,",
+    "en": "Someone who puts his eiruv in the edge area of the city",
+    "st": "<b>One who places his eiruv in the outskirts of the city,</b>",
+    "stMore": "i.e., within an area of slightly more than seventy cubits surrounding the city,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹתֵן",
+      "en": "the one who puts"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "בְעִבּוּרָהּ",
+      "en": "in the edge area"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עִיר,",
+      "en": "a city"
+     }
+    ]
+   },
+   {
+    "he": "לֹא עָשָׂה וְלֹא כְלוּם.",
+    "en": "has done nothing at all.",
+    "st": "it is as though <b>he has not done anything.</b>",
+    "stMore": "The two thousand cubits of one’s Shabbat limit are measured from the edge of the outskirts of the city even if there is no eiruv, and one therefore gains nothing from placing an eiruv within this area.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "עָשָׂה",
+      "en": "he did"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "כְלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "נְתָנוֹ חוּץ לַתְּחוּם,",
+    "en": "If he put it outside the city's limit,",
+    "st": "If, however, <b>he placed</b> his eiruv <b>outside the</b> city’s <b>boundary,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְתָנוֹ",
+      "en": "he put it"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לַתְּחוּם,",
+      "en": "the techum"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ אַמָּה אַחַת,",
+    "en": "even one amah,",
+    "st": "<b>even</b> if he placed it only <b>one cubit</b>",
+    "stMore": "beyond the city,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "אַמָּה",
+      "en": "amos"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶׁנִּשְׂכָּר הוּא מַפְסִיד:",
+    "en": "what he gains he loses.",
+    "st": "<b>what he gains</b> in distance through his eiruv on one side of the city <b>he loses</b> on the other side.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶׁנִּשְׂכָּר",
+      "en": "that he gains"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "מַפְסִיד:",
+      "en": "loses"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 8,
+  "summary": "Someone who puts his eiruv in another city may walk through that whole city and then 2000 amos more. Rabbi Akiva says he only gets 2000 amos from the eiruv.",
+  "chunks": [
+   {
+    "he": "אַנְשֵׁי עִיר גְּדוֹלָה מְהַלְּכִין",
+    "en": "People of a big city may walk",
+    "st": "<b>The residents of a large city may walk</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַנְשֵׁי",
+      "en": "the people of"
+     },
+     {
+      "he": "עִיר",
+      "en": "a city"
+     },
+     {
+      "he": "גְּדוֹלָה",
+      "en": "big"
+     },
+     {
+      "he": "מְהַלְּכִין",
+      "en": "walk"
+     }
+    ]
+   },
+   {
+    "he": "אֶת כָּל עִיר קְטַנָּה,",
+    "en": "through all of a small city,",
+    "st": "<b>through an entire small city,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כָּל",
+      "en": "all of"
+     },
+     {
+      "he": "עִיר",
+      "en": "a city"
+     },
+     {
+      "he": "קְטַנָּה,",
+      "en": "small"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין אַנְשֵׁי עִיר קְטַנָּה מְהַלְּכִין",
+    "en": "but people of a small city may not walk",
+    "st": "<b>and the residents of a small city may not walk</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "אַנְשֵׁי",
+      "en": "the people of"
+     },
+     {
+      "he": "עִיר",
+      "en": "a city"
+     },
+     {
+      "he": "קְטַנָּה",
+      "en": "small"
+     },
+     {
+      "he": "מְהַלְּכִין",
+      "en": "walk"
+     }
+    ]
+   },
+   {
+    "he": "אֶת כָּל עִיר גְּדוֹלָה.",
+    "en": "through all of a big city.",
+    "st": "<b>through an entire large city,</b>",
+    "stMore": "even if part of it is located more than two thousand cubits from their city.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כָּל",
+      "en": "all of"
+     },
+     {
+      "he": "עִיר",
+      "en": "a city"
+     },
+     {
+      "he": "גְּדוֹלָה.",
+      "en": "big"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. מִי שֶׁהָיָה בְעִיר גְּדוֹלָה וְנָתַן",
+    "en": "How is this? Someone who was in a big city and put",
+    "st": "<b>How so? One who was in a large city and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how"
+     },
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "who was"
+     },
+     {
+      "he": "בְעִיר",
+      "en": "in a city"
+     },
+     {
+      "he": "גְּדוֹלָה",
+      "en": "big"
+     },
+     {
+      "he": "וְנָתַן",
+      "en": "and put"
+     }
+    ]
+   },
+   {
+    "he": "אֶת עֵרוּבוֹ בְעִיר קְטַנָּה,",
+    "en": "his eiruv in a small city,",
+    "st": "<b>placed his eiruv in a small city,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "בְעִיר",
+      "en": "in a city"
+     },
+     {
+      "he": "קְטַנָּה,",
+      "en": "small"
+     }
+    ]
+   },
+   {
+    "he": "בְּעִיר קְטַנָּה וְנָתַן אֶת",
+    "en": "or in a small city and put",
+    "st": "or one who was <b>in a small city and placed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּעִיר",
+      "en": "in a city"
+     },
+     {
+      "he": "קְטַנָּה",
+      "en": "small"
+     },
+     {
+      "he": "וְנָתַן",
+      "en": "and put"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבוֹ בְעִיר גְּדוֹלָה,",
+    "en": "his eiruv in a big city,",
+    "st": "<b>his eiruv in a large city,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "בְעִיר",
+      "en": "in a city"
+     },
+     {
+      "he": "גְּדוֹלָה,",
+      "en": "big"
+     }
+    ]
+   },
+   {
+    "he": "מְהַלֵּךְ אֶת כֻּלָּהּ וְחוּצָה",
+    "en": "walks through all of it and outside",
+    "st": "<b>may walk</b> through <b>the entire</b> city in which he placed his eiruv <b>and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְהַלֵּךְ",
+      "en": "walks"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "וְחוּצָה",
+      "en": "and outside"
+     }
+    ]
+   },
+   {
+    "he": "לָהּ אַלְפַּיִם אַמָּה.",
+    "en": "of it two thousand amos.",
+    "st": "another <b>two thousand cubits beyond it,</b>",
+    "stMore": "as the entire city is considered as though it were only four cubits.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָהּ",
+      "en": "of it"
+     },
+     {
+      "he": "אַלְפַּיִם",
+      "en": "two thousand"
+     },
+     {
+      "he": "אַמָּה.",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "But Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לוֹ אֶלָּא מִמְּקוֹם",
+    "en": "he only has from the place",
+    "st": "<b>He has only</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "he does not have"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "מִמְּקוֹם",
+      "en": "from the place of"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבוֹ אַלְפַּיִם אַמָּה:",
+    "en": "of his eiruv two thousand amos.",
+    "st": "<b>two thousand cubits from the place of his eiruv,</b> as the actual area of the city is included in the calculation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "אַלְפַּיִם",
+      "en": "two thousand"
+     },
+     {
+      "he": "אַמָּה:",
+      "en": "amos"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 9,
+  "summary": "Rabbi Akiva asks about an eiruv put in a cave. The Sages answer that if people live in the cave, the whole cave counts like four amos. The 2000 amos still end even in the middle of a cave.",
+  "chunks": [
+   {
+    "he": "אָמַר לָהֶן רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said to them,",
+    "st": "<b>Rabbi Akiva said to</b> the Rabbis:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אִי אַתֶּם מוֹדִים לִי",
+    "en": "Don't you agree with me",
+    "st": "Do <b>you not concede to me</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִי",
+      "en": "don't"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "מוֹדִים",
+      "en": "agree"
+     },
+     {
+      "he": "לִי",
+      "en": "with me"
+     }
+    ]
+   },
+   {
+    "he": "בְנוֹתֵן עֵרוּבוֹ בִמְעָרָה,",
+    "en": "about one who puts his eiruv in a cave,",
+    "st": "that <b>one who places his eiruv in a cave</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְנוֹתֵן",
+      "en": "about one who puts"
+     },
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "בִמְעָרָה,",
+      "en": "in a cave"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין לוֹ מִמְּקוֹם עֵרוּבוֹ",
+    "en": "that he has from the place of his eiruv",
+    "st": "<b>has only</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that he does not have"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מִמְּקוֹם",
+      "en": "from the place of"
+     },
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אַלְפַּיִם אַמָּה.",
+    "en": "only two thousand amos?",
+    "st": "<b>two thousand cubits from the place of his eiruv,</b>",
+    "stMore": "and that consequently the entire cave is not considered as merely four cubits?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אַלְפַּיִם",
+      "en": "two thousand"
+     },
+     {
+      "he": "אַמָּה.",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֵימָתַי, בִּזְמַן שֶׁאֵין בָּהּ דִּיוּרִין,",
+    "en": "When is that? When no people live in it.",
+    "st": "<b>When</b> does this apply? <b>When</b> the cave <b>has no residents.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי,",
+      "en": "when"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there are not"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "דִּיוּרִין,",
+      "en": "people living"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל יֶשׁ בָּהּ דִּיוּרִין,",
+    "en": "But if people live in it,",
+    "st": "<b>But</b> if <b>it has residents,</b>",
+    "stMore": "it is considered as though it were only four cubits, and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "דִּיוּרִין,",
+      "en": "people living"
+     }
+    ]
+   },
+   {
+    "he": "מְהַלֵּךְ אֶת כֻּלָּהּ וְחוּצָה",
+    "en": "he may walk all of it and outside",
+    "st": "<b>one may walk</b> through <b>all of it and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְהַלֵּךְ",
+      "en": "walks"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "וְחוּצָה",
+      "en": "and outside"
+     }
+    ]
+   },
+   {
+    "he": "לָהּ אַלְפַּיִם אַמָּה.",
+    "en": "of it two thousand amos.",
+    "st": "another <b>two thousand cubits beyond it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָהּ",
+      "en": "of it"
+     },
+     {
+      "he": "אַלְפַּיִם",
+      "en": "two thousand"
+     },
+     {
+      "he": "אַמָּה.",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא, קַל תּוֹכָהּ מֵעַל גַּבָּהּ.",
+    "en": "So it turns out: inside it is easier than on top of it.",
+    "st": "<b>Consequently,</b> the halakha with regard to an eiruv placed <b>inside</b> a cave <b>is</b> sometimes <b>more lenient than</b> the halakha governing an eiruv placed in the area <b>above</b> the cave.",
+    "stMore": "If one places his eiruv inside a cave that has residents, he has two thousand cubits beyond the cave; if he places it above the cave, where there are no residents, he has only two thousand cubits from the place of his eiruv.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא,",
+      "en": "it turns out"
+     },
+     {
+      "he": "קַל",
+      "en": "easier"
+     },
+     {
+      "he": "תּוֹכָהּ",
+      "en": "its inside"
+     },
+     {
+      "he": "מֵעַל",
+      "en": "than"
+     },
+     {
+      "he": "גַּבָּהּ.",
+      "en": "on its top"
+     }
+    ]
+   },
+   {
+    "he": "וְלַמּוֹדֵד שֶׁאָמְרוּ נוֹתְנִין לוֹ אַלְפַּיִם,",
+    "en": "And for the one measuring, who they said gets two thousand amos,",
+    "st": "<b>And as for one who is measuring</b> his Shabbat limit, with regard to whom the Sages <b>said</b> that <b>one gives him two thousand cubits,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלַמּוֹדֵד",
+      "en": "and to the one measuring"
+     },
+     {
+      "he": "שֶׁאָמְרוּ",
+      "en": "that they said"
+     },
+     {
+      "he": "נוֹתְנִין",
+      "en": "we give"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אַלְפַּיִם,",
+      "en": "two thousand"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֲפִלּוּ סוֹף מִדָּתוֹ כָּלֶה בִמְעָרָה:",
+    "en": "even if his measuring ends inside a cave, it stops there.",
+    "st": "that measurement applies <b>even if the end of his measurement terminates in</b> the middle of <b>a cave.</b> He may not walk further into the cave, even if the cave is inhabited.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֲפִלּוּ",
+      "en": "that even"
+     },
+     {
+      "he": "סוֹף",
+      "en": "the end of"
+     },
+     {
+      "he": "מִדָּתוֹ",
+      "en": "his measuring"
+     },
+     {
+      "he": "כָּלֶה",
+      "en": "ends"
+     },
+     {
+      "he": "בִמְעָרָה:",
+      "en": "in a cave"
+     }
+    ]
+   }
+  ]
+ }
+]

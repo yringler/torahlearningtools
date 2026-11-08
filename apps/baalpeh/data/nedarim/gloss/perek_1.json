@@ -1,0 +1,1300 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "A neder (vow) can be made with other words that mean the same thing. This mishnah lists some short or changed ways of saying a neder, and which ones count.",
+  "stIntro": "When an individual takes a vow, he renders an object forbidden to himself or to others as though it were a sacrificial offering; this parallels the act of consecrating an offering, which also renders an item forbidden for personal use by means of a verbal declaration. The most direct expression of a vow is when an individual says: This object is forbidden to me, or to others, like an offering.",
+  "chunks": [
+   {
+    "he": "כָּל כִּנּוּיֵי נְדָרִים כִּנְדָרִים,",
+    "en": "All the other ways of saying a neder count as a neder,",
+    "st": "Additionally, the mishna states that <b>all substitutes</b> for the language <b>of vows are like vows.</b>",
+    "stMore": "Consequently, if one states that an object is forbidden to him like a konam instead of like an offering [korban], the vow takes effect, as konam is a substitute term for the word korban (see 10a).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all",
+      "note": "Here: all the other ways of saying"
+     },
+     {
+      "he": "כִּנּוּיֵי",
+      "en": "other words for"
+     },
+     {
+      "he": "נְדָרִים",
+      "en": "vows"
+     },
+     {
+      "he": "כִּנְדָרִים,",
+      "en": "are like vows"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲרָמִים כַּחֲרָמִים,",
+    "en": "and the other ways of saying cherem count as cherem,",
+    "st": "Similarly, substitutes for the language of <b>dedications are like dedications,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲרָמִים",
+      "en": "and other words for cherem",
+      "note": "Cherem: giving something to the Beis HaMikdash."
+     },
+     {
+      "he": "כַּחֲרָמִים,",
+      "en": "are like cherem"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁבוּעוֹת כִּשְׁבוּעוֹת,",
+    "en": "and the other ways of saying a shevuah count as a shevuah,",
+    "st": "substitutes for the language of <b>oaths are like oaths, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁבוּעוֹת",
+      "en": "and other words for oaths"
+     },
+     {
+      "he": "כִּשְׁבוּעוֹת,",
+      "en": "are like oaths"
+     }
+    ]
+   },
+   {
+    "he": "וּנְזִירוּת כִּנְזִירוּת.",
+    "en": "and the other ways of saying nezirus count as nezirus.",
+    "st": "substitutes for the language of <b>nazirite</b> vows <b>are like nazirite</b> vows.",
+    "stMore": "Therefore, if one declared a ḥerekh instead of a dedication [ḥerem], a shevuta instead of an oath [shevua], or proclaimed that he was becoming a nazik instead of a nazirite [nazir], his statement takes effect.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּנְזִירוּת",
+      "en": "and other words for nezirus",
+      "note": "Nezirus: a promise to be a nazir, who may not drink wine or cut his hair."
+     },
+     {
+      "he": "כִּנְזִירוּת.",
+      "en": "are like nezirus"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר לַחֲבֵרוֹ,",
+    "en": "If someone says to his friend,",
+    "st": "With regard to <b>one who says to another:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לַחֲבֵרוֹ,",
+      "en": "to his friend"
+     }
+    ]
+   },
+   {
+    "he": "מֻדָּרְנִי מִמְּךָ,",
+    "en": "\"I am under a neder from you,\"",
+    "st": "<b> I am avowed from you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻדָּרְנִי",
+      "en": "I am vowed"
+     },
+     {
+      "he": "מִמְּךָ,",
+      "en": "from you"
+     }
+    ]
+   },
+   {
+    "he": "מֻפְרָשְׁנִי מִמְּךָ,",
+    "en": "\"I am separated from you,\"",
+    "st": "or: <b>I am separated from you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻפְרָשְׁנִי",
+      "en": "I am separated"
+     },
+     {
+      "he": "מִמְּךָ,",
+      "en": "from you"
+     }
+    ]
+   },
+   {
+    "he": "מְרֻחָקְנִי מִמְּךָ,",
+    "en": "\"I am far away from you,\"",
+    "st": "or: <b>I am distanced from you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְרֻחָקְנִי",
+      "en": "I am far"
+     },
+     {
+      "he": "מִמְּךָ,",
+      "en": "from you"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינִי אוֹכֵל לָךְ,",
+    "en": "\"that I will not eat anything of yours,\"",
+    "st": "and he then says: <b>That</b> which <b>I eat</b> of <b>yours,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that not"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינִי טוֹעֵם לָךְ,",
+    "en": "\"that I will not taste anything of yours,\"",
+    "st": "or: <b>That</b> which <b>I taste</b> of <b>yours,</b>",
+    "stMore": "even though he did not explicitly state that he is taking a vow or specify the nature of the vow, the object of his vow is nevertheless",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that not"
+     },
+     {
+      "he": "טוֹעֵם",
+      "en": "I taste"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר.",
+    "en": "it is forbidden to him.",
+    "st": "<b>forbidden.</b>",
+    "stMore": "His intention is understood based on his incomplete statement, known as an intimation of a vow, and his vow therefore takes effect. However, if he says:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     }
+    ]
+   },
+   {
+    "he": "מְנֻדֶּה אֲנִי לָךְ,",
+    "en": "If he says, \"I am put away from you,\"",
+    "st": "<b>I am ostracized from you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְנֻדֶּה",
+      "en": "I am put away",
+      "note": "Menudeh: someone people keep away from."
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "from you"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא הָיָה חוֹכֵךְ בָּזֶה לְהַחֲמִיר.",
+    "en": "Rabbi Akiva was unsure, but leaned toward being strict.",
+    "st": "which does not clearly declare any matter to be prohibited, <b>Rabbi Akiva was uncertain</b> about this halakha but was inclined <b>to rule stringently about this</b>",
+    "stMore": "and consider it a vow prohibiting the speaker from deriving benefit from his fellow. The mishna continues to explain the rules of intimations of vows.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "חוֹכֵךְ",
+      "en": "unsure"
+     },
+     {
+      "he": "בָּזֶה",
+      "en": "about this"
+     },
+     {
+      "he": "לְהַחֲמִיר.",
+      "en": "to be strict"
+     }
+    ]
+   },
+   {
+    "he": "כְּנִדְרֵי רְשָׁעִים,",
+    "en": "If he says, \"Like the nedarim of wicked people,\"",
+    "st": "If an individual states that he accepts an obligation upon himself <b>like the vows of the wicked,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּנִדְרֵי",
+      "en": "like the vows of"
+     },
+     {
+      "he": "רְשָׁעִים,",
+      "en": "wicked people"
+     }
+    ]
+   },
+   {
+    "he": "נָדַר בְּנָזִיר,",
+    "en": "it is a neder to be a nazir,",
+    "st": "<b> he has vowed with regard to</b> becoming <b>a nazirite,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָדַר",
+      "en": "he vowed"
+     },
+     {
+      "he": "בְּנָזִיר,",
+      "en": "to be a nazir"
+     }
+    ]
+   },
+   {
+    "he": "וּבְקָרְבָּן, וּבִשְׁבוּעָה.",
+    "en": "or to bring a korban, or a shevuah.",
+    "st": "<b> or</b> bringing <b>an offering, or</b> taking <b>an oath.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְקָרְבָּן,",
+      "en": "and to bring a korban"
+     },
+     {
+      "he": "וּבִשְׁבוּעָה.",
+      "en": "and an oath."
+     }
+    ]
+   },
+   {
+    "he": "כְּנִדְרֵי כְשֵׁרִים,",
+    "en": "If he says, \"Like the nedarim of good people,\"",
+    "st": "This is considered a real formulation of a vow, just as the wicked customarily take vows. If he says: <b>Like the vows of the virtuous,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּנִדְרֵי",
+      "en": "like the vows of"
+     },
+     {
+      "he": "כְשֵׁרִים,",
+      "en": "good people"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם.",
+    "en": "he has not said anything.",
+    "explain": "Good people do not usually make nedarim.",
+    "st": "<b> he has not said anything,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "he did not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "say"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything."
+     }
+    ]
+   },
+   {
+    "he": "כְּנִדְבוֹתָם, נָדַר בְּנָזִיר וּבְקָרְבָּן:",
+    "en": "If he says, \"Like their gifts,\" it is a neder to be a nazir or to bring a korban.",
+    "st": "because virtuous people do not generally take vows. If he says: <b>Like their gift offerings, he has vowed with regard to</b> becoming <b>a nazirite or</b> bringing <b>an offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּנִדְבוֹתָם,",
+      "en": "like their gifts",
+      "note": "Gifts that good people give to the Beis HaMikdash."
+     },
+     {
+      "he": "נָדַר",
+      "en": "he vowed"
+     },
+     {
+      "he": "בְּנָזִיר",
+      "en": "to be a nazir"
+     },
+     {
+      "he": "וּבְקָרְבָּן:",
+      "en": "and to bring a korban."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "Some words sound like the words for korban, cherem, nezirus, or shevuah. Using them still makes a real neder.",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר לַחֲבֵרוֹ,",
+    "en": "If someone says to his friend,",
+    "st": "In the case of <b>one who says to another</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לַחֲבֵרוֹ,",
+      "en": "to his friend"
+     }
+    ]
+   },
+   {
+    "he": "קוֹנָם קוֹנָח,",
+    "en": "\"Konam\" or \"Konach\"",
+    "st": "that a certain object is <b>konam, konaḥ,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹנָם",
+      "en": "konam",
+      "note": "A word people used instead of korban."
+     },
+     {
+      "he": "קוֹנָח,",
+      "en": "konach"
+     }
+    ]
+   },
+   {
+    "he": "קוֹנָס, הֲרֵי אֵלּוּ כִנּוּיִין לְקָרְבָּן.",
+    "en": "or \"Konas,\" these are other words for korban.",
+    "st": "or <b>konas, these</b> expressions <b>are substitutes</b> for the term <b>offering [korban],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹנָס,",
+      "en": "konas"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "these"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "are"
+     },
+     {
+      "he": "כִנּוּיִין",
+      "en": "other words"
+     },
+     {
+      "he": "לְקָרְבָּן.",
+      "en": "for korban."
+     }
+    ]
+   },
+   {
+    "he": "חֵרֶק חֵרֶךְ,",
+    "en": "\"Cherek,\" \"Cherech,\"",
+    "st": "and the vow takes effect. <b>Ḥerek, ḥerekh</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֵרֶק",
+      "en": "cherek"
+     },
+     {
+      "he": "חֵרֶךְ,",
+      "en": "cherech"
+     }
+    ]
+   },
+   {
+    "he": "חֵרֵף, הֲרֵי אֵלּוּ כִנּוּיִין לְחֵרֶם.",
+    "en": "or \"Cheref,\" these are other words for cherem.",
+    "st": "and <b>ḥeref; these are substitutes</b> for the term indicating a <b>dedication [ḥerem]</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֵרֵף,",
+      "en": "cheref"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "these"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "are"
+     },
+     {
+      "he": "כִנּוּיִין",
+      "en": "other words"
+     },
+     {
+      "he": "לְחֵרֶם.",
+      "en": "for cherem."
+     }
+    ]
+   },
+   {
+    "he": "נָזִיק נָזִיחַ,",
+    "en": "\"Nazik,\" \"Naziach,\"",
+    "st": "to the Temple treasury. <b>Nazik, naziaḥ,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָזִיק",
+      "en": "nazik"
+     },
+     {
+      "he": "נָזִיחַ,",
+      "en": "naziach"
+     }
+    ]
+   },
+   {
+    "he": "פָּזִיחַ, הֲרֵי אֵלּוּ כִנּוּיִין לִנְזִירוּת.",
+    "en": "or \"Paziach,\" these are other words for nezirus.",
+    "st": "and <b>paziaḥ; these are substitutes</b> for the term <b>naziriteship [nazir].</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּזִיחַ,",
+      "en": "paziach"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "these"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "are"
+     },
+     {
+      "he": "כִנּוּיִין",
+      "en": "other words"
+     },
+     {
+      "he": "לִנְזִירוּת.",
+      "en": "for nezirus."
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּתָה, שְׁקוּקָה,",
+    "en": "\"Shevusah,\" \"Shekukah,\"",
+    "st": "<b> Shevuta, shekuka,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּתָה,",
+      "en": "shevusah"
+     },
+     {
+      "he": "שְׁקוּקָה,",
+      "en": "shekukah"
+     }
+    ]
+   },
+   {
+    "he": "נָדַר בְּמוֹתָא,",
+    "en": "or if he made a neder with the word \"Mosa,\"",
+    "st": "or one who <b>vows with</b> the term <b>mota,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָדַר",
+      "en": "he vowed"
+     },
+     {
+      "he": "בְּמוֹתָא,",
+      "en": "with \"mosa\""
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ כִנּוּיִין לִשְׁבוּעָה:",
+    "en": "these are other words for a shevuah.",
+    "st": "<b> these are substitutes</b> for the term <b>oath [shevua].</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "these"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "are"
+     },
+     {
+      "he": "כִנּוּיִין",
+      "en": "other words"
+     },
+     {
+      "he": "לִשְׁבוּעָה:",
+      "en": "for a shevuah."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "Someone who says his friend's food should be like something holy, or like a korban that became pasul, makes a neder. Comparing it to things of the Mizbe'ach also counts.",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר לֹא חֻלִּין לֹא אֹכַל לָךְ,",
+    "en": "If someone says, \"Not chullin is what I eat of yours,\"",
+    "explain": "He means it is holy to him, like a korban.",
+    "st": "<b>If one says</b> to another: <b>That which I eat of yours</b> shall be considered <b>laḥullin,</b>",
+    "stMore": "it is interpreted as though he said: La ḥullin, not non-sacred, and the food is thereby forbidden to him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "חֻלִּין",
+      "en": "chullin",
+      "note": "Chullin: plain food that is not holy."
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֹכַל",
+      "en": "will I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כָשֵׁר,",
+    "en": "or \"not kosher,\"",
+    "st": "Similarly, if he said that food shall be considered <b>not valid</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כָשֵׁר,",
+      "en": "fit"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא דְכֵי,",
+    "en": "or \"not clean,\"",
+    "st": "or <b>not dekhi,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "דְכֵי,",
+      "en": "clean"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר, וְטָמֵא,",
+    "en": "or \"tahor,\" or \"tamei,\"",
+    "explain": "He means like a korban that is tahor or tamei.",
+    "st": "i.e., not <b>ritually pure, or</b> if he said the food shall be considered an offering that has become <b>ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר,",
+      "en": "tahor"
+     },
+     {
+      "he": "וְטָמֵא,",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר, וּפִגּוּל,",
+    "en": "or \"nosar,\" or \"piggul,\"",
+    "st": "<b> left over [notar], or piggul,</b>",
+    "stMore": "i.e., an offering that was sacrificed with the intent to consume it after its appointed time,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר,",
+      "en": "nosar",
+      "note": "A korban left over past the time to eat it."
+     },
+     {
+      "he": "וּפִגּוּל,",
+      "en": "and piggul",
+      "note": "A korban made pasul by a wrong thought."
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר.",
+    "en": "it is forbidden.",
+    "st": "<b>it is forbidden.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     }
+    ]
+   },
+   {
+    "he": "כְּאִמְּרָא,",
+    "en": "If he says, \"Like the lamb,\"",
+    "st": "If one says that food shall be considered <b>like the lamb</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאִמְּרָא,",
+      "en": "like the lamb",
+      "note": "The lamb of the daily korban tamid."
+     }
+    ]
+   },
+   {
+    "he": "כַּדִּירִין, כָּעֵצִים,",
+    "en": "\"like the pens,\" \"like the wood,\"",
+    "st": "of the daily offering, <b>like the</b> animals designated as offerings and kept in special <b>enclosures, like the wood</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּדִּירִין,",
+      "en": "like the pens",
+      "note": "Where korban animals were kept."
+     },
+     {
+      "he": "כָּעֵצִים,",
+      "en": "like the wood",
+      "note": "The wood of the Mizbe'ach."
+     }
+    ]
+   },
+   {
+    "he": "כָּאִשִּׁים, כַּמִּזְבֵּחַ,",
+    "en": "\"like the fires,\" \"like the Mizbe'ach,\"",
+    "st": "of the altar, <b>like the fires</b> on the altar, <b>like the altar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּאִשִּׁים,",
+      "en": "like the fires"
+     },
+     {
+      "he": "כַּמִּזְבֵּחַ,",
+      "en": "like the Mizbe'ach"
+     }
+    ]
+   },
+   {
+    "he": "כַּהֵיכָל, כִּירוּשָׁלָיִם,",
+    "en": "\"like the Heichal,\" \"like Yerushalayim,\"",
+    "st": "<b> like the Sanctuary,</b> or <b>like Jerusalem,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּהֵיכָל,",
+      "en": "like the Heichal",
+      "note": "The holy building of the Beis HaMikdash."
+     },
+     {
+      "he": "כִּירוּשָׁלָיִם,",
+      "en": "like Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "נָדַר בְּאֶחָד מִכָּל מְשַׁמְּשֵׁי הַמִּזְבֵּחַ,",
+    "en": "or he made a neder with anything used for the Mizbe'ach,",
+    "st": "or if <b>he took a vow with any of the accessories of the altar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָדַר",
+      "en": "he vowed"
+     },
+     {
+      "he": "בְּאֶחָד",
+      "en": "with one"
+     },
+     {
+      "he": "מִכָּל",
+      "en": "of all"
+     },
+     {
+      "he": "מְשַׁמְּשֵׁי",
+      "en": "the things used for"
+     },
+     {
+      "he": "הַמִּזְבֵּחַ,",
+      "en": "the Mizbe'ach"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁלֹּא הִזְכִּיר קָרְבָּן,",
+    "en": "even though he did not say \"korban,\"",
+    "st": "<b> although he did not</b> explicitly <b>mention</b> that the food should be like <b>an offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "that"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "he did not"
+     },
+     {
+      "he": "הִזְכִּיר",
+      "en": "mention"
+     },
+     {
+      "he": "קָרְבָּן,",
+      "en": "korban"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה נָדַר בְּקָרְבָּן.",
+    "en": "he has made a neder with a korban.",
+    "st": "<b> it is</b> considered <b>a vow</b> that associates a different item with <b>an offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "this"
+     },
+     {
+      "he": "זֶה",
+      "en": "is"
+     },
+     {
+      "he": "נָדַר",
+      "en": "a vow"
+     },
+     {
+      "he": "בְּקָרְבָּן.",
+      "en": "with a korban."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b> Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר יְרוּשָׁלַיִם,",
+    "en": "one who says \"Yerushalayim\"",
+    "st": "<b> One who says</b> that an item shall be considered <b>Jerusalem,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "יְרוּשָׁלַיִם,",
+      "en": "Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם:",
+    "en": "has not said anything.",
+    "st": "instead of saying that it shall be considered like Jerusalem, <b>has not said anything.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "he did not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "say"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Saying the name of a korban about food makes a neder. A person can also make a neder that forbids himself from talking, working, or walking with someone.",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר, קָרְבָּן,",
+    "en": "If someone says, \"A korban,\"",
+    "st": "With regard to <b>one who says: An offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר,",
+      "en": "one who says"
+     },
+     {
+      "he": "קָרְבָּן,",
+      "en": "a korban"
+     }
+    ]
+   },
+   {
+    "he": "עוֹלָה, מִנְחָה,",
+    "en": "\"an olah,\" \"a minchah,\"",
+    "st": "<b> a burnt-offering, a meal-offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹלָה,",
+      "en": "an olah",
+      "note": "A korban that is burned completely."
+     },
+     {
+      "he": "מִנְחָה,",
+      "en": "a minchah",
+      "note": "A korban of flour."
+     }
+    ]
+   },
+   {
+    "he": "חַטָּאת, תּוֹדָה,",
+    "en": "\"a chatas,\" \"a todah,\"",
+    "st": "<b> a sin-offering, a thanks-offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטָּאת,",
+      "en": "a chatas",
+      "note": "A korban brought for a mistake."
+     },
+     {
+      "he": "תּוֹדָה,",
+      "en": "a todah",
+      "note": "A korban to thank Hashem."
+     }
+    ]
+   },
+   {
+    "he": "שְׁלָמִים שֶׁאֵינִי אוֹכֵל לָךְ,",
+    "en": "\"a shelamim, that I will not eat of yours,\"",
+    "st": "or <b>a peace-offering,</b> and adds: <b>That which I eat of yours,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלָמִים",
+      "en": "a shelamim",
+      "note": "A korban that is shared and eaten."
+     },
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that not"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. רַבִּי יְהוּדָה מַתִּיר.",
+    "en": "it is forbidden. Rabbi Yehudah permits it.",
+    "st": "the vow takes effect and the food <b>is forbidden. Rabbi Yehuda renders</b> the food <b>permitted</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "מַתִּיר.",
+      "en": "permits."
+     }
+    ]
+   },
+   {
+    "he": "הַקָּרְבָּן, כְּקָרְבָּן,",
+    "en": "\"The korban,\" \"like a korban,\"",
+    "st": "in all these cases. If one says: <b>The offering, like an offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַקָּרְבָּן,",
+      "en": "the korban"
+     },
+     {
+      "he": "כְּקָרְבָּן,",
+      "en": "like a korban"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבָּן שֶׁאֹכַל לָךְ,",
+    "en": "\"A korban, what I eat of yours,\"",
+    "st": "or <b>an offering,</b> and adds: <b>That which I will eat of yours,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "שֶׁאֹכַל",
+      "en": "that I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. לְקָרְבָּן לֹא אֹכַל לָךְ,",
+    "en": "it is forbidden. If he says, \"For a korban, I will not eat of yours,\"",
+    "st": "the food <b>is forbidden.</b> If he says: That which <b>I will not eat of your</b> shall be <b>for an offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "לְקָרְבָּן",
+      "en": "for a korban"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֹכַל",
+      "en": "will I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹסֵר.",
+    "en": "Rabbi Meir forbids it.",
+    "st": "<b> Rabbi Meir renders</b> the food <b>forbidden.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹסֵר.",
+      "en": "forbids."
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר לַחֲבֵרוֹ,",
+    "en": "If someone says to his friend,",
+    "st": "<b> One who says to another:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לַחֲבֵרוֹ,",
+      "en": "to his friend"
+     }
+    ]
+   },
+   {
+    "he": "קוֹנָם פִּי הַמְדַבֵּר עִמָּךְ,",
+    "en": "\"Konam, my mouth that talks with you,\"",
+    "st": "It is <b>konam</b> for me for <b>my mouth</b> to <b>speak with you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹנָם",
+      "en": "konam"
+     },
+     {
+      "he": "פִּי",
+      "en": "my mouth"
+     },
+     {
+      "he": "הַמְדַבֵּר",
+      "en": "that talks"
+     },
+     {
+      "he": "עִמָּךְ,",
+      "en": "with you"
+     }
+    ]
+   },
+   {
+    "he": "יָדִי עוֹשָׂה עִמָּךְ,",
+    "en": "\"my hand that works with you,\"",
+    "st": "or: It is konam for me for <b>my hand</b> to <b>work with you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָדִי",
+      "en": "my hand"
+     },
+     {
+      "he": "עוֹשָׂה",
+      "en": "that works"
+     },
+     {
+      "he": "עִמָּךְ,",
+      "en": "with you"
+     }
+    ]
+   },
+   {
+    "he": "רַגְלִי מְהַלֶּכֶת עִמָּךְ, אָסוּר:",
+    "en": "\"my foot that walks with you,\" it is forbidden.",
+    "st": "or: It is konam for me for <b>my foot</b> to <b>walk with you, it is prohibited</b>",
+    "stMore": "for him to speak with, work with, or walk with the other individual.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַגְלִי",
+      "en": "my foot"
+     },
+     {
+      "he": "מְהַלֶּכֶת",
+      "en": "that walks"
+     },
+     {
+      "he": "עִמָּךְ,",
+      "en": "with you"
+     },
+     {
+      "he": "אָסוּר:",
+      "en": "it is forbidden."
+     }
+    ]
+   }
+  ]
+ }
+]

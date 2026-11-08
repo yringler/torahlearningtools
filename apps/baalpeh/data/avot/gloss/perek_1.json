@@ -1,0 +1,2833 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "The Torah was handed down from Moshe at Har Sinai, from one generation to the next. The Men of the Great Assembly taught three things: judge carefully, teach many students, and make a fence around the Torah.",
+  "chunks": [
+   {
+    "he": "משֶׁה קִבֵּל תּוֹרָה מִסִּינַי,",
+    "en": "Moshe received the Torah from Sinai,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "משֶׁה",
+      "en": "Moshe"
+     },
+     {
+      "he": "קִבֵּל",
+      "en": "received"
+     },
+     {
+      "he": "תּוֹרָה",
+      "en": "Torah"
+     },
+     {
+      "he": "מִסִּינַי,",
+      "en": "from Sinai",
+      "note": "The mountain where Hashem gave the Torah."
+     }
+    ]
+   },
+   {
+    "he": "וּמְסָרָהּ לִיהוֹשֻׁעַ,",
+    "en": "and he passed it on to Yehoshua,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמְסָרָהּ",
+      "en": "and he passed it on"
+     },
+     {
+      "he": "לִיהוֹשֻׁעַ,",
+      "en": "to Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "וִיהוֹשֻׁעַ לִזְקֵנִים,",
+    "en": "and Yehoshua passed it to the Elders,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וִיהוֹשֻׁעַ",
+      "en": "and Yehoshua"
+     },
+     {
+      "he": "לִזְקֵנִים,",
+      "en": "to the Elders",
+      "note": "The leaders who lived after Yehoshua."
+     }
+    ]
+   },
+   {
+    "he": "וּזְקֵנִים לִנְבִיאִים,",
+    "en": "and the Elders to the Prophets,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּזְקֵנִים",
+      "en": "and the Elders"
+     },
+     {
+      "he": "לִנְבִיאִים,",
+      "en": "to the Prophets"
+     }
+    ]
+   },
+   {
+    "he": "וּנְבִיאִים מְסָרוּהָ לְאַנְשֵׁי כְנֶסֶת הַגְּדוֹלָה.",
+    "en": "and the Prophets passed it on to the Men of the Great Assembly.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּנְבִיאִים",
+      "en": "and the Prophets"
+     },
+     {
+      "he": "מְסָרוּהָ",
+      "en": "passed it on"
+     },
+     {
+      "he": "לְאַנְשֵׁי",
+      "en": "to the men of"
+     },
+     {
+      "he": "כְנֶסֶת",
+      "en": "the Assembly"
+     },
+     {
+      "he": "הַגְּדוֹלָה.",
+      "en": "the Great",
+      "note": "A group of 120 great Sages at the start of the second Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "הֵם אָמְרוּ שְׁלשָׁה דְבָרִים,",
+    "en": "They said three things:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הֵם",
+      "en": "they"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "דְבָרִים,",
+      "en": "things"
+     }
+    ]
+   },
+   {
+    "he": "הֱווּ מְתוּנִים בַּדִּין,",
+    "en": "Be patient when you judge,",
+    "explain": "Take your time before deciding a case.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הֱווּ",
+      "en": "be"
+     },
+     {
+      "he": "מְתוּנִים",
+      "en": "patient"
+     },
+     {
+      "he": "בַּדִּין,",
+      "en": "in judging"
+     }
+    ]
+   },
+   {
+    "he": "וְהַעֲמִידוּ תַלְמִידִים הַרְבֵּה,",
+    "en": "and set up many students,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהַעֲמִידוּ",
+      "en": "and set up"
+     },
+     {
+      "he": "תַלְמִידִים",
+      "en": "students"
+     },
+     {
+      "he": "הַרְבֵּה,",
+      "en": "many"
+     }
+    ]
+   },
+   {
+    "he": "וַעֲשׂוּ סְיָג לַתּוֹרָה:",
+    "en": "and make a fence for the Torah.",
+    "explain": "Extra rules that keep us far from doing an aveirah.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַעֲשׂוּ",
+      "en": "and make"
+     },
+     {
+      "he": "סְיָג",
+      "en": "a fence"
+     },
+     {
+      "he": "לַתּוֹרָה:",
+      "en": "for the Torah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "Shimon HaTzaddik teaches that the world stands on three things: learning Torah, serving Hashem, and doing kindness.",
+  "chunks": [
+   {
+    "he": "שִׁמְעוֹן הַצַּדִּיק הָיָה מִשְּׁיָרֵי כְנֶסֶת הַגְּדוֹלָה.",
+    "en": "Shimon HaTzaddik was one of the last of the Men of the Great Assembly.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "הַצַּדִּיק",
+      "en": "the Tzaddik"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מִשְּׁיָרֵי",
+      "en": "of the last of"
+     },
+     {
+      "he": "כְנֶסֶת",
+      "en": "the Assembly"
+     },
+     {
+      "he": "הַגְּדוֹלָה.",
+      "en": "the Great"
+     }
+    ]
+   },
+   {
+    "he": "הוּא הָיָה אוֹמֵר,",
+    "en": "He used to say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "הָיָה",
+      "en": "used"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "עַל שְׁלשָׁה דְבָרִים הָעוֹלָם עוֹמֵד,",
+    "en": "The world stands on three things:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "הָעוֹלָם",
+      "en": "the world"
+     },
+     {
+      "he": "עוֹמֵד,",
+      "en": "stands"
+     }
+    ]
+   },
+   {
+    "he": "עַל הַתּוֹרָה וְעַל הָעֲבוֹדָה",
+    "en": "on the Torah, and on avodah,",
+    "explain": "Avodah is serving Hashem with korbanos in the Beis HaMikdash.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַתּוֹרָה",
+      "en": "the Torah"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הָעֲבוֹדָה",
+      "en": "the avodah",
+      "note": "Serving Hashem."
+     }
+    ]
+   },
+   {
+    "he": "וְעַל גְּמִילוּת חֲסָדִים:",
+    "en": "and on doing kindness.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "גְּמִילוּת",
+      "en": "doing of"
+     },
+     {
+      "he": "חֲסָדִים:",
+      "en": "kindnesses"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "Antignos teaches that we should serve Hashem because we love Him, not to get a reward, and that we should always have fear of Heaven.",
+  "chunks": [
+   {
+    "he": "אַנְטִיגְנוֹס אִישׁ סוֹכוֹ קִבֵּל מִשִּׁמְעוֹן הַצַּדִּיק.",
+    "en": "Antignos of Socho received the Torah from Shimon HaTzaddik.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַנְטִיגְנוֹס",
+      "en": "Antignos"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man of"
+     },
+     {
+      "he": "סוֹכוֹ",
+      "en": "Socho"
+     },
+     {
+      "he": "קִבֵּל",
+      "en": "received"
+     },
+     {
+      "he": "מִשִּׁמְעוֹן",
+      "en": "from Shimon"
+     },
+     {
+      "he": "הַצַּדִּיק.",
+      "en": "the Tzaddik"
+     }
+    ]
+   },
+   {
+    "he": "הוּא הָיָה אוֹמֵר,",
+    "en": "He used to say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "הָיָה",
+      "en": "used"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "אַל תִּהְיוּ כַעֲבָדִים הַמְשַׁמְּשִׁין אֶת הָרַב",
+    "en": "Do not be like servants who serve their master",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַל",
+      "en": "do not"
+     },
+     {
+      "he": "תִּהְיוּ",
+      "en": "be"
+     },
+     {
+      "he": "כַעֲבָדִים",
+      "en": "like servants"
+     },
+     {
+      "he": "הַמְשַׁמְּשִׁין",
+      "en": "who serve"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרַב",
+      "en": "the master"
+     }
+    ]
+   },
+   {
+    "he": "עַל מְנָת לְקַבֵּל פְּרָס,",
+    "en": "in order to get a reward.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "לְקַבֵּל",
+      "en": "to receive"
+     },
+     {
+      "he": "פְּרָס,",
+      "en": "a reward"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הֱווּ כַעֲבָדִים הַמְשַׁמְּשִׁין אֶת הָרַב",
+    "en": "Instead, be like servants who serve their master",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "הֱווּ",
+      "en": "be"
+     },
+     {
+      "he": "כַעֲבָדִים",
+      "en": "like servants"
+     },
+     {
+      "he": "הַמְשַׁמְּשִׁין",
+      "en": "who serve"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרַב",
+      "en": "the master"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא עַל מְנָת לְקַבֵּל פְּרָס,",
+    "en": "not in order to get a reward.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "לְקַבֵּל",
+      "en": "to receive"
+     },
+     {
+      "he": "פְּרָס,",
+      "en": "a reward"
+     }
+    ]
+   },
+   {
+    "he": "וִיהִי מוֹרָא שָׁמַיִם עֲלֵיכֶם:",
+    "en": "And let the fear of Heaven be upon you.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וִיהִי",
+      "en": "and let be"
+     },
+     {
+      "he": "מוֹרָא",
+      "en": "fear of"
+     },
+     {
+      "he": "שָׁמַיִם",
+      "en": "Heaven"
+     },
+     {
+      "he": "עֲלֵיכֶם:",
+      "en": "upon you"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Yosi ben Yoezer teaches: let your house be a meeting place for Torah scholars, sit at their feet, and drink in their words like a thirsty person.",
+  "chunks": [
+   {
+    "he": "יוֹסֵי בֶן יוֹעֶזֶר אִישׁ צְרֵדָה וְיוֹסֵי בֶן",
+    "en": "Yosi ben Yoezer of Tzereidah and Yosi ben Yochanan of Yerushalayim",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosi"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "יוֹעֶזֶר",
+      "en": "Yoezer"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man of"
+     },
+     {
+      "he": "צְרֵדָה",
+      "en": "Tzereidah"
+     },
+     {
+      "he": "וְיוֹסֵי",
+      "en": "and Yosi"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     }
+    ]
+   },
+   {
+    "he": "יוֹחָנָן אִישׁ יְרוּשָׁלַיִם קִבְּלוּ מֵהֶם.",
+    "en": "received the Torah from them.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man of"
+     },
+     {
+      "he": "יְרוּשָׁלַיִם",
+      "en": "Yerushalayim"
+     },
+     {
+      "he": "קִבְּלוּ",
+      "en": "received"
+     },
+     {
+      "he": "מֵהֶם.",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "יוֹסֵי בֶן יוֹעֶזֶר אִישׁ צְרֵדָה אוֹמֵר,",
+    "en": "Yosi ben Yoezer of Tzereidah says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosi"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "יוֹעֶזֶר",
+      "en": "Yoezer"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man of"
+     },
+     {
+      "he": "צְרֵדָה",
+      "en": "Tzereidah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יְהִי בֵיתְךָ בֵית וַעַד לַחֲכָמִים,",
+    "en": "Let your house be a meeting place for the Sages,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יְהִי",
+      "en": "let be"
+     },
+     {
+      "he": "בֵיתְךָ",
+      "en": "your house"
+     },
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "וַעַד",
+      "en": "meeting"
+     },
+     {
+      "he": "לַחֲכָמִים,",
+      "en": "for the Sages"
+     }
+    ]
+   },
+   {
+    "he": "וֶהֱוֵי מִתְאַבֵּק בַּעֲפַר רַגְלֵיהֶם,",
+    "en": "and sit in the dust of their feet,",
+    "explain": "Sit close to them, even on the floor, to learn.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וֶהֱוֵי",
+      "en": "and be"
+     },
+     {
+      "he": "מִתְאַבֵּק",
+      "en": "dusting yourself"
+     },
+     {
+      "he": "בַּעֲפַר",
+      "en": "in the dust of"
+     },
+     {
+      "he": "רַגְלֵיהֶם,",
+      "en": "their feet"
+     }
+    ]
+   },
+   {
+    "he": "וֶהֱוֵי שׁוֹתֶה בְצָמָא אֶת דִּבְרֵיהֶם:",
+    "en": "and drink their words with thirst.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וֶהֱוֵי",
+      "en": "and be"
+     },
+     {
+      "he": "שׁוֹתֶה",
+      "en": "drinking"
+     },
+     {
+      "he": "בְצָמָא",
+      "en": "with thirst"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "דִּבְרֵיהֶם:",
+      "en": "their words"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "Yosi ben Yochanan teaches to keep your house open wide for guests and to treat the poor like family. He also warns not to spend too much time in idle chatter, because it pulls a person away from Torah.",
+  "chunks": [
+   {
+    "he": "יוֹסֵי בֶן יוֹחָנָן אִישׁ יְרוּשָׁלַיִם אוֹמֵר,",
+    "en": "Yosi ben Yochanan of Yerushalayim says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosi"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man of"
+     },
+     {
+      "he": "יְרוּשָׁלַיִם",
+      "en": "Yerushalayim"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יְהִי בֵיתְךָ פָתוּחַ לִרְוָחָה,",
+    "en": "Let your house be open wide,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יְהִי",
+      "en": "let be"
+     },
+     {
+      "he": "בֵיתְךָ",
+      "en": "your house"
+     },
+     {
+      "he": "פָתוּחַ",
+      "en": "open"
+     },
+     {
+      "he": "לִרְוָחָה,",
+      "en": "wide"
+     }
+    ]
+   },
+   {
+    "he": "וְיִהְיוּ עֲנִיִּים בְּנֵי בֵיתֶךָ,",
+    "en": "and let poor people be like members of your house,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְיִהְיוּ",
+      "en": "and let be"
+     },
+     {
+      "he": "עֲנִיִּים",
+      "en": "poor people"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "members of"
+     },
+     {
+      "he": "בֵיתֶךָ,",
+      "en": "your house"
+     }
+    ]
+   },
+   {
+    "he": "וְאַל תַּרְבֶּה שִׂיחָה עִם הָאִשָּׁה.",
+    "en": "and do not talk too much with a woman.",
+    "explain": "Do not waste time in idle chatter.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאַל",
+      "en": "and do not"
+     },
+     {
+      "he": "תַּרְבֶּה",
+      "en": "talk much"
+     },
+     {
+      "he": "שִׂיחָה",
+      "en": "talk"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הָאִשָּׁה.",
+      "en": "the woman"
+     }
+    ]
+   },
+   {
+    "he": "בְּאִשְׁתּוֹ אָמְרוּ,",
+    "en": "They said this even about his own wife,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בְּאִשְׁתּוֹ",
+      "en": "about his wife"
+     },
+     {
+      "he": "אָמְרוּ,",
+      "en": "they said"
+     }
+    ]
+   },
+   {
+    "he": "קַל וָחֹמֶר בְּאֵשֶׁת חֲבֵרוֹ.",
+    "en": "so all the more so about his friend's wife.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "קַל",
+      "en": "light"
+     },
+     {
+      "he": "וָחֹמֶר",
+      "en": "and heavy",
+      "note": "All the more so."
+     },
+     {
+      "he": "בְּאֵשֶׁת",
+      "en": "about the wife of"
+     },
+     {
+      "he": "חֲבֵרוֹ.",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "מִכָּאן אָמְרוּ חֲכָמִים,",
+    "en": "From here the Sages said:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "חֲכָמִים,",
+      "en": "the Sages"
+     }
+    ]
+   },
+   {
+    "he": "כָּל זְמַן שֶׁאָדָם מַרְבֶּה",
+    "en": "any time a person talks too much",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "שֶׁאָדָם",
+      "en": "that a person"
+     },
+     {
+      "he": "מַרְבֶּה",
+      "en": "talks much"
+     }
+    ]
+   },
+   {
+    "he": "שִׂיחָה עִם הָאִשָּׁה,",
+    "en": "idle talk with a woman,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שִׂיחָה",
+      "en": "talk"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הָאִשָּׁה,",
+      "en": "the woman"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹרֵם רָעָה לְעַצְמוֹ,",
+    "en": "he brings trouble on himself,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "גּוֹרֵם",
+      "en": "brings"
+     },
+     {
+      "he": "רָעָה",
+      "en": "bad"
+     },
+     {
+      "he": "לְעַצְמוֹ,",
+      "en": "on himself"
+     }
+    ]
+   },
+   {
+    "he": "וּבוֹטֵל מִדִּבְרֵי תוֹרָה,",
+    "en": "and he stops learning Torah,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבוֹטֵל",
+      "en": "and stops"
+     },
+     {
+      "he": "מִדִּבְרֵי",
+      "en": "from words of"
+     },
+     {
+      "he": "תוֹרָה,",
+      "en": "Torah"
+     }
+    ]
+   },
+   {
+    "he": "וְסוֹפוֹ יוֹרֵשׁ גֵּיהִנֹּם:",
+    "en": "and in the end he will get Gehinnom.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְסוֹפוֹ",
+      "en": "and his end"
+     },
+     {
+      "he": "יוֹרֵשׁ",
+      "en": "inherits"
+     },
+     {
+      "he": "גֵּיהִנֹּם:",
+      "en": "Gehinnom",
+      "note": "The place where wicked people are punished after they die."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "Yehoshua ben Perachyah teaches: get yourself a teacher, get yourself a friend, and judge every person in a good way.",
+  "chunks": [
+   {
+    "he": "יְהוֹשֻׁעַ בֶּן פְּרַחְיָה וְנִתַּאי",
+    "en": "Yehoshua ben Perachyah and Nittai of Arbel",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "פְּרַחְיָה",
+      "en": "Perachyah"
+     },
+     {
+      "he": "וְנִתַּאי",
+      "en": "and Nittai"
+     }
+    ]
+   },
+   {
+    "he": "הָאַרְבֵּלִי קִבְּלוּ מֵהֶם.",
+    "en": "received the Torah from them.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הָאַרְבֵּלִי",
+      "en": "the Arbeli",
+      "note": "From the town of Arbel."
+     },
+     {
+      "he": "קִבְּלוּ",
+      "en": "received"
+     },
+     {
+      "he": "מֵהֶם.",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "יְהוֹשֻׁעַ בֶּן פְּרַחְיָה אוֹמֵר,",
+    "en": "Yehoshua ben Perachyah says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "פְּרַחְיָה",
+      "en": "Perachyah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עֲשֵׂה לְךָ רַב,",
+    "en": "Make for yourself a teacher,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עֲשֵׂה",
+      "en": "make"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for yourself"
+     },
+     {
+      "he": "רַב,",
+      "en": "a teacher"
+     }
+    ]
+   },
+   {
+    "he": "וּקְנֵה לְךָ חָבֵר,",
+    "en": "and get yourself a friend,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּקְנֵה",
+      "en": "and acquire"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for yourself"
+     },
+     {
+      "he": "חָבֵר,",
+      "en": "a friend"
+     }
+    ]
+   },
+   {
+    "he": "וֶהֱוֵי דָן אֶת כָּל",
+    "en": "and judge every person",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וֶהֱוֵי",
+      "en": "and be"
+     },
+     {
+      "he": "דָן",
+      "en": "judging"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     }
+    ]
+   },
+   {
+    "he": "הָאָדָם לְכַף זְכוּת:",
+    "en": "in a good way.",
+    "explain": "When you are not sure, think the best about what he did.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הָאָדָם",
+      "en": "the person"
+     },
+     {
+      "he": "לְכַף",
+      "en": "toward the side of"
+     },
+     {
+      "he": "זְכוּת:",
+      "en": "merit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "Nittai of Arbel teaches: stay away from a bad neighbor, don't make friends with a wicked person, and don't think that bad people won't be punished.",
+  "chunks": [
+   {
+    "he": "נִתַּאי הָאַרְבֵּלִי אוֹמֵר,",
+    "en": "Nittai of Arbel says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "נִתַּאי",
+      "en": "Nittai"
+     },
+     {
+      "he": "הָאַרְבֵּלִי",
+      "en": "the Arbeli"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַרְחֵק מִשָּׁכֵן רָע,",
+    "en": "Keep far from a bad neighbor,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַרְחֵק",
+      "en": "keep far"
+     },
+     {
+      "he": "מִשָּׁכֵן",
+      "en": "from a neighbor"
+     },
+     {
+      "he": "רָע,",
+      "en": "bad"
+     }
+    ]
+   },
+   {
+    "he": "וְאַל תִּתְחַבֵּר לָרָשָׁע,",
+    "en": "and do not join together with a wicked person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאַל",
+      "en": "and do not"
+     },
+     {
+      "he": "תִּתְחַבֵּר",
+      "en": "join together"
+     },
+     {
+      "he": "לָרָשָׁע,",
+      "en": "with the wicked one"
+     }
+    ]
+   },
+   {
+    "he": "וְאַל תִּתְיָאֵשׁ מִן הַפֻּרְעָנוּת:",
+    "en": "and do not give up on punishment.",
+    "explain": "Don't think the wicked will never be punished.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאַל",
+      "en": "and do not"
+     },
+     {
+      "he": "תִּתְיָאֵשׁ",
+      "en": "give up"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַפֻּרְעָנוּת:",
+      "en": "the punishment"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 8,
+  "summary": "Yehudah ben Tabbai teaches judges to be fair: don't help one side argue, be careful of both sides during the case, and once they accept the judgment, see them both as good people.",
+  "chunks": [
+   {
+    "he": "יְהוּדָה בֶן טַבַּאי וְשִׁמְעוֹן",
+    "en": "Yehudah ben Tabbai and Shimon ben Shetach",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "טַבַּאי",
+      "en": "Tabbai"
+     },
+     {
+      "he": "וְשִׁמְעוֹן",
+      "en": "and Shimon"
+     }
+    ]
+   },
+   {
+    "he": "בֶּן שָׁטָח קִבְּלוּ מֵהֶם.",
+    "en": "received the Torah from them.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "שָׁטָח",
+      "en": "Shetach"
+     },
+     {
+      "he": "קִבְּלוּ",
+      "en": "received"
+     },
+     {
+      "he": "מֵהֶם.",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "יְהוּדָה בֶן טַבַּאי אוֹמֵר,",
+    "en": "Yehudah ben Tabbai says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "טַבַּאי",
+      "en": "Tabbai"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַל תַּעַשׂ עַצְמְךָ כְעוֹרְכֵי הַדַּיָּנִין.",
+    "en": "Do not make yourself like the lawyers who coach people.",
+    "explain": "A judge must not teach one side what to say.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַל",
+      "en": "do not"
+     },
+     {
+      "he": "תַּעַשׂ",
+      "en": "make"
+     },
+     {
+      "he": "עַצְמְךָ",
+      "en": "yourself"
+     },
+     {
+      "he": "כְעוֹרְכֵי",
+      "en": "like those who arrange"
+     },
+     {
+      "he": "הַדַּיָּנִין.",
+      "en": "the judges' cases"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁיִּהְיוּ בַעֲלֵי דִינִין עוֹמְדִים לְפָנֶיךָ,",
+    "en": "And when the two sides of a case stand before you,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁיִּהְיוּ",
+      "en": "and when they are"
+     },
+     {
+      "he": "בַעֲלֵי",
+      "en": "owners of"
+     },
+     {
+      "he": "דִינִין",
+      "en": "cases"
+     },
+     {
+      "he": "עוֹמְדִים",
+      "en": "standing"
+     },
+     {
+      "he": "לְפָנֶיךָ,",
+      "en": "before you"
+     }
+    ]
+   },
+   {
+    "he": "יִהְיוּ בְעֵינֶיךָ כִרְשָׁעִים.",
+    "en": "let them be in your eyes like wicked people.",
+    "explain": "Watch both sides carefully.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יִהְיוּ",
+      "en": "let them be"
+     },
+     {
+      "he": "בְעֵינֶיךָ",
+      "en": "in your eyes"
+     },
+     {
+      "he": "כִרְשָׁעִים.",
+      "en": "like wicked people"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁנִּפְטָרִים מִלְּפָנֶיךָ,",
+    "en": "And when they leave you,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁנִּפְטָרִים",
+      "en": "and when they take leave"
+     },
+     {
+      "he": "מִלְּפָנֶיךָ,",
+      "en": "from before you"
+     }
+    ]
+   },
+   {
+    "he": "יִהְיוּ בְעֵינֶיךָ כְזַכָּאִין,",
+    "en": "let them be in your eyes like innocent people,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יִהְיוּ",
+      "en": "let them be"
+     },
+     {
+      "he": "בְעֵינֶיךָ",
+      "en": "in your eyes"
+     },
+     {
+      "he": "כְזַכָּאִין,",
+      "en": "like innocent people"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֶׁקִּבְּלוּ עֲלֵיהֶם אֶת הַדִּין:",
+    "en": "once they have accepted the judgment.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּשֶׁקִּבְּלוּ",
+      "en": "when they accepted"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "upon themselves"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַדִּין:",
+      "en": "the judgment"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 9,
+  "summary": "Shimon ben Shetach teaches judges to question witnesses carefully, but to be careful with their words so the witnesses don't learn from them how to lie.",
+  "chunks": [
+   {
+    "he": "שִׁמְעוֹן בֶּן שָׁטָח אוֹמֵר,",
+    "en": "Shimon ben Shetach says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "שָׁטָח",
+      "en": "Shetach"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הֱוֵי מַרְבֶּה לַחְקֹר אֶת הָעֵדִים,",
+    "en": "Ask the witnesses many questions,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הֱוֵי",
+      "en": "be"
+     },
+     {
+      "he": "מַרְבֶּה",
+      "en": "asking much"
+     },
+     {
+      "he": "לַחְקֹר",
+      "en": "to check"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵדִים,",
+      "en": "the witnesses"
+     }
+    ]
+   },
+   {
+    "he": "וֶהֱוֵי זָהִיר בִּדְבָרֶיךָ,",
+    "en": "and be careful with your words,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וֶהֱוֵי",
+      "en": "and be"
+     },
+     {
+      "he": "זָהִיר",
+      "en": "careful"
+     },
+     {
+      "he": "בִּדְבָרֶיךָ,",
+      "en": "with your words"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא מִתּוֹכָם יִלְמְדוּ לְשַׁקֵּר:",
+    "en": "or else they may learn from them how to lie.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "in case"
+     },
+     {
+      "he": "מִתּוֹכָם",
+      "en": "from them"
+     },
+     {
+      "he": "יִלְמְדוּ",
+      "en": "they learn"
+     },
+     {
+      "he": "לְשַׁקֵּר:",
+      "en": "to lie"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 10,
+  "summary": "Shemayah teaches: love work, dislike being in charge of others, and don't try to get close to the rulers.",
+  "chunks": [
+   {
+    "he": "שְׁמַעְיָה וְאַבְטַלְיוֹן קִבְּלוּ מֵהֶם.",
+    "en": "Shemayah and Avtalyon received the Torah from them.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁמַעְיָה",
+      "en": "Shemayah"
+     },
+     {
+      "he": "וְאַבְטַלְיוֹן",
+      "en": "and Avtalyon"
+     },
+     {
+      "he": "קִבְּלוּ",
+      "en": "received"
+     },
+     {
+      "he": "מֵהֶם.",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "שְׁמַעְיָה אוֹמֵר,",
+    "en": "Shemayah says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁמַעְיָה",
+      "en": "Shemayah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֱהֹב אֶת הַמְּלָאכָה,",
+    "en": "Love work,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֱהֹב",
+      "en": "love"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמְּלָאכָה,",
+      "en": "the work"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׂנָא אֶת הָרַבָּנוּת,",
+    "en": "and hate being a ruler over others,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּשְׂנָא",
+      "en": "and hate"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרַבָּנוּת,",
+      "en": "being in charge"
+     }
+    ]
+   },
+   {
+    "he": "וְאַל תִּתְוַדַּע לָרָשׁוּת:",
+    "en": "and do not make yourself known to the government.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאַל",
+      "en": "and do not"
+     },
+     {
+      "he": "תִּתְוַדַּע",
+      "en": "make yourself known"
+     },
+     {
+      "he": "לָרָשׁוּת:",
+      "en": "to the government"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 11,
+  "summary": "Avtalyon warns teachers to be very careful with their words, so students don't learn something wrong and Hashem's Name gets disgraced.",
+  "chunks": [
+   {
+    "he": "אַבְטַלְיוֹן אוֹמֵר,",
+    "en": "Avtalyon says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַבְטַלְיוֹן",
+      "en": "Avtalyon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "חֲכָמִים, הִזָּהֲרוּ בְדִבְרֵיכֶם,",
+    "en": "Sages, be careful with your words,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חֲכָמִים,",
+      "en": "Sages"
+     },
+     {
+      "he": "הִזָּהֲרוּ",
+      "en": "be careful"
+     },
+     {
+      "he": "בְדִבְרֵיכֶם,",
+      "en": "with your words"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא תָחוּבוּ חוֹבַת גָּלוּת",
+    "en": "or else you may deserve to be sent into exile",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "in case"
+     },
+     {
+      "he": "תָחוּבוּ",
+      "en": "you become guilty of"
+     },
+     {
+      "he": "חוֹבַת",
+      "en": "the punishment of"
+     },
+     {
+      "he": "גָּלוּת",
+      "en": "exile"
+     }
+    ]
+   },
+   {
+    "he": "וְתִגְלוּ לִמְקוֹם מַיִם הָרָעִים,",
+    "en": "and be exiled to a place of bad water,",
+    "explain": "Bad water means wrong teachings.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְתִגְלוּ",
+      "en": "and you are exiled"
+     },
+     {
+      "he": "לִמְקוֹם",
+      "en": "to a place of"
+     },
+     {
+      "he": "מַיִם",
+      "en": "water"
+     },
+     {
+      "he": "הָרָעִים,",
+      "en": "the bad"
+     }
+    ]
+   },
+   {
+    "he": "וְיִשְׁתּוּ הַתַּלְמִידִים הַבָּאִים אַחֲרֵיכֶם וְיָמוּתוּ,",
+    "en": "and the students who come after you will drink and die,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְיִשְׁתּוּ",
+      "en": "and will drink"
+     },
+     {
+      "he": "הַתַּלְמִידִים",
+      "en": "the students"
+     },
+     {
+      "he": "הַבָּאִים",
+      "en": "who come"
+     },
+     {
+      "he": "אַחֲרֵיכֶם",
+      "en": "after you"
+     },
+     {
+      "he": "וְיָמוּתוּ,",
+      "en": "and die"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצָא שֵׁם שָׁמַיִם מִתְחַלֵּל:",
+    "en": "and Hashem's Name will be disgraced.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצָא",
+      "en": "and it will turn out"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "the Name of"
+     },
+     {
+      "he": "שָׁמַיִם",
+      "en": "Heaven"
+     },
+     {
+      "he": "מִתְחַלֵּל:",
+      "en": "is disgraced"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 12,
+  "summary": "Hillel teaches us to be like the students of Aharon: love peace and run after peace, love people and bring them close to the Torah.",
+  "chunks": [
+   {
+    "he": "הִלֵּל וְשַׁמַּאי קִבְּלוּ מֵהֶם.",
+    "en": "Hillel and Shammai received the Torah from them.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "וְשַׁמַּאי",
+      "en": "and Shammai"
+     },
+     {
+      "he": "קִבְּלוּ",
+      "en": "received"
+     },
+     {
+      "he": "מֵהֶם.",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "הִלֵּל אוֹמֵר,",
+    "en": "Hillel says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הֱוֵי מִתַּלְמִידָיו שֶׁל אַהֲרֹן,",
+    "en": "Be one of the students of Aharon,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הֱוֵי",
+      "en": "be"
+     },
+     {
+      "he": "מִתַּלְמִידָיו",
+      "en": "of his students"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אַהֲרֹן,",
+      "en": "Aharon",
+      "note": "Moshe's brother, the first Kohen Gadol."
+     }
+    ]
+   },
+   {
+    "he": "אוֹהֵב שָׁלוֹם וְרוֹדֵף שָׁלוֹם,",
+    "en": "loving peace and chasing after peace,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹהֵב",
+      "en": "loving"
+     },
+     {
+      "he": "שָׁלוֹם",
+      "en": "peace"
+     },
+     {
+      "he": "וְרוֹדֵף",
+      "en": "and chasing"
+     },
+     {
+      "he": "שָׁלוֹם,",
+      "en": "peace"
+     }
+    ]
+   },
+   {
+    "he": "אוֹהֵב אֶת הַבְּרִיּוֹת וּמְקָרְבָן לַתּוֹרָה:",
+    "en": "loving people and bringing them close to the Torah.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹהֵב",
+      "en": "loving"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּרִיּוֹת",
+      "en": "the people"
+     },
+     {
+      "he": "וּמְקָרְבָן",
+      "en": "and bringing them close"
+     },
+     {
+      "he": "לַתּוֹרָה:",
+      "en": "to the Torah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 13,
+  "summary": "Hillel teaches in Aramaic: someone who chases after a big name loses it, someone who doesn't grow in learning shrinks, and someone who uses the crown of Torah for himself will be lost.",
+  "chunks": [
+   {
+    "he": "הוּא הָיָה אוֹמֵר,",
+    "en": "He used to say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "הָיָה",
+      "en": "used"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "נָגֵד שְׁמָא,",
+    "en": "One who makes his name big,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "נָגֵד",
+      "en": "makes big",
+      "note": "Spreads far."
+     },
+     {
+      "he": "שְׁמָא,",
+      "en": "a name"
+     }
+    ]
+   },
+   {
+    "he": "אָבֵד שְׁמֵהּ.",
+    "en": "loses his name.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָבֵד",
+      "en": "loses"
+     },
+     {
+      "he": "שְׁמֵהּ.",
+      "en": "his name"
+     }
+    ]
+   },
+   {
+    "he": "וּדְלֹא מוֹסִיף,",
+    "en": "And one who does not add to his learning,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּדְלֹא",
+      "en": "and who does not"
+     },
+     {
+      "he": "מוֹסִיף,",
+      "en": "add"
+     }
+    ]
+   },
+   {
+    "he": "יָסֵף. וּדְלֹא יָלֵיף,",
+    "en": "will come to an end. And one who does not learn,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יָסֵף.",
+      "en": "ends"
+     },
+     {
+      "he": "וּדְלֹא",
+      "en": "and who does not"
+     },
+     {
+      "he": "יָלֵיף,",
+      "en": "learn"
+     }
+    ]
+   },
+   {
+    "he": "קְטָלָא חַיָּב.",
+    "en": "deserves death.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "קְטָלָא",
+      "en": "death"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "is deserving"
+     }
+    ]
+   },
+   {
+    "he": "וּדְאִשְׁתַּמֵּשׁ בְּתָגָא, חָלֵף:",
+    "en": "And one who uses the crown of Torah for himself will pass away.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּדְאִשְׁתַּמֵּשׁ",
+      "en": "and who uses"
+     },
+     {
+      "he": "בְּתָגָא,",
+      "en": "the crown",
+      "note": "The crown of Torah."
+     },
+     {
+      "he": "חָלֵף:",
+      "en": "passes away"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 14,
+  "summary": "Hillel teaches: if I don't take care of myself, who will? If I only care about myself, what am I? And if not now, when?",
+  "chunks": [
+   {
+    "he": "הוּא הָיָה אוֹמֵר,",
+    "en": "He used to say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "הָיָה",
+      "en": "used"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "אִם אֵין אֲנִי לִי,",
+    "en": "If I am not for myself,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "לִי,",
+      "en": "for myself"
+     }
+    ]
+   },
+   {
+    "he": "מִי לִי.",
+    "en": "who will be for me?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "לִי.",
+      "en": "for me"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁאֲנִי לְעַצְמִי,",
+    "en": "And when I am only for myself,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁאֲנִי",
+      "en": "and when I"
+     },
+     {
+      "he": "לְעַצְמִי,",
+      "en": "for myself"
+     }
+    ]
+   },
+   {
+    "he": "מָה אֲנִי.",
+    "en": "what am I?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אֲנִי.",
+      "en": "am I"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לֹא עַכְשָׁיו, אֵימָתָי:",
+    "en": "And if not now, when?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "עַכְשָׁיו,",
+      "en": "now"
+     },
+     {
+      "he": "אֵימָתָי:",
+      "en": "when"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 15,
+  "summary": "Shammai teaches: set a fixed time for Torah, say little and do a lot, and greet every person with a cheerful face.",
+  "chunks": [
+   {
+    "he": "שַׁמַּאי אוֹמֵר,",
+    "en": "Shammai says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עֲשֵׂה תוֹרָתְךָ קֶבַע.",
+    "en": "Make your Torah learning fixed.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עֲשֵׂה",
+      "en": "make"
+     },
+     {
+      "he": "תוֹרָתְךָ",
+      "en": "your Torah"
+     },
+     {
+      "he": "קֶבַע.",
+      "en": "fixed"
+     }
+    ]
+   },
+   {
+    "he": "אֱמֹר מְעַט וַעֲשֵׂה הַרְבֵּה,",
+    "en": "Say a little and do a lot,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֱמֹר",
+      "en": "say"
+     },
+     {
+      "he": "מְעַט",
+      "en": "a little"
+     },
+     {
+      "he": "וַעֲשֵׂה",
+      "en": "and do"
+     },
+     {
+      "he": "הַרְבֵּה,",
+      "en": "a lot"
+     }
+    ]
+   },
+   {
+    "he": "וֶהֱוֵי מְקַבֵּל אֶת כָּל",
+    "en": "and greet every person",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וֶהֱוֵי",
+      "en": "and be"
+     },
+     {
+      "he": "מְקַבֵּל",
+      "en": "receiving"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     }
+    ]
+   },
+   {
+    "he": "הָאָדָם בְּסֵבֶר פָּנִים יָפוֹת:",
+    "en": "with a cheerful face.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הָאָדָם",
+      "en": "the person"
+     },
+     {
+      "he": "בְּסֵבֶר",
+      "en": "with a look of"
+     },
+     {
+      "he": "פָּנִים",
+      "en": "face"
+     },
+     {
+      "he": "יָפוֹת:",
+      "en": "pleasant"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 16,
+  "summary": "Rabban Gamliel teaches: get yourself a teacher, keep away from doubt, and don't give maaser by guessing.",
+  "chunks": [
+   {
+    "he": "רַבָּן גַּמְלִיאֵל הָיָה אוֹמֵר,",
+    "en": "Rabban Gamliel used to say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "הָיָה",
+      "en": "used"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "עֲשֵׂה לְךָ רַב,",
+    "en": "Make for yourself a teacher,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עֲשֵׂה",
+      "en": "make"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for yourself"
+     },
+     {
+      "he": "רַב,",
+      "en": "a teacher"
+     }
+    ]
+   },
+   {
+    "he": "וְהִסְתַּלֵּק מִן הַסָּפֵק,",
+    "en": "and get away from doubt,",
+    "explain": "Ask a teacher instead of guessing.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהִסְתַּלֵּק",
+      "en": "and remove yourself"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַסָּפֵק,",
+      "en": "the doubt"
+     }
+    ]
+   },
+   {
+    "he": "וְאַל תַּרְבֶּה לְעַשֵּׂר אֹמָדוֹת:",
+    "en": "and do not often give maaser by guessing.",
+    "explain": "Measure exactly how much to give.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאַל",
+      "en": "and do not"
+     },
+     {
+      "he": "תַּרְבֶּה",
+      "en": "do often"
+     },
+     {
+      "he": "לְעַשֵּׂר",
+      "en": "to give maaser",
+      "note": "A tenth of the crops, given as a gift."
+     },
+     {
+      "he": "אֹמָדוֹת:",
+      "en": "by guessing"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 17,
+  "summary": "Shimon, the son of Rabban Gamliel, teaches that being quiet is best, that doing is more important than learning about it, and that talking too much brings sin.",
+  "chunks": [
+   {
+    "he": "שִׁמְעוֹן בְּנוֹ אוֹמֵר,",
+    "en": "Shimon his son says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בְּנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּל יָמַי גָּדַלְתִּי בֵין הַחֲכָמִים,",
+    "en": "All my days I grew up among the Sages,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "יָמַי",
+      "en": "my days"
+     },
+     {
+      "he": "גָּדַלְתִּי",
+      "en": "I grew up"
+     },
+     {
+      "he": "בֵין",
+      "en": "among"
+     },
+     {
+      "he": "הַחֲכָמִים,",
+      "en": "the Sages"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מָצָאתִי לַגּוּף טוֹב אֶלָּא שְׁתִיקָה.",
+    "en": "and I found nothing better for a person than silence.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מָצָאתִי",
+      "en": "I found"
+     },
+     {
+      "he": "לַגּוּף",
+      "en": "for the body"
+     },
+     {
+      "he": "טוֹב",
+      "en": "good"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "שְׁתִיקָה.",
+      "en": "silence"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הַמִּדְרָשׁ הוּא הָעִקָּר,",
+    "en": "And learning is not the main thing,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַמִּדְרָשׁ",
+      "en": "the learning"
+     },
+     {
+      "he": "הוּא",
+      "en": "it is"
+     },
+     {
+      "he": "הָעִקָּר,",
+      "en": "the main thing"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הַמַּעֲשֶׂה.",
+    "en": "but doing.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "הַמַּעֲשֶׂה.",
+      "en": "the doing"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַמַּרְבֶּה דְבָרִים,",
+    "en": "And whoever talks too much",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַמַּרְבֶּה",
+      "en": "who increases"
+     },
+     {
+      "he": "דְבָרִים,",
+      "en": "words"
+     }
+    ]
+   },
+   {
+    "he": "מֵבִיא חֵטְא:",
+    "en": "brings sin.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מֵבִיא",
+      "en": "brings"
+     },
+     {
+      "he": "חֵטְא:",
+      "en": "sin"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 18,
+  "summary": "Rabban Shimon ben Gamliel teaches that the world stays standing on three things: justice, truth and peace.",
+  "chunks": [
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עַל שְׁלשָׁה דְבָרִים הָעוֹלָם עוֹמֵד,",
+    "en": "The world stays standing on three things:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "הָעוֹלָם",
+      "en": "the world"
+     },
+     {
+      "he": "עוֹמֵד,",
+      "en": "stands"
+     }
+    ]
+   },
+   {
+    "he": "עַל הַדִּין וְעַל הָאֱמֶת וְעַל הַשָּׁלוֹם,",
+    "en": "on justice, and on truth, and on peace,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַדִּין",
+      "en": "the justice"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הָאֱמֶת",
+      "en": "the truth"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הַשָּׁלוֹם,",
+      "en": "the peace"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (זכריה ח) אֱמֶת",
+    "en": "as it says (Zechariah 8): Truth",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it is said"
+     },
+     {
+      "he": "(זכריה",
+      "en": "(Zechariah"
+     },
+     {
+      "he": "ח)",
+      "en": "8)"
+     },
+     {
+      "he": "אֱמֶת",
+      "en": "truth"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשְׁפַּט שָׁלוֹם שִׁפְטוּ בְּשַׁעֲרֵיכֶם:",
+    "en": "and judgment of peace, judge in your gates.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמִשְׁפַּט",
+      "en": "and judgment of"
+     },
+     {
+      "he": "שָׁלוֹם",
+      "en": "peace"
+     },
+     {
+      "he": "שִׁפְטוּ",
+      "en": "judge"
+     },
+     {
+      "he": "בְּשַׁעֲרֵיכֶם:",
+      "en": "in your gates",
+      "note": "In your cities."
+     }
+    ]
+   }
+  ]
+ }
+]

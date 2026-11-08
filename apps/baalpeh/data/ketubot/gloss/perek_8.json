@@ -1,0 +1,3104 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "Beis Shammai and Beis Hillel discuss whether a woman may sell property she inherited before or after her erusin. After the wedding, her husband can take back what she sold, and Rabban Gamliel explains his view.",
+  "stIntro": "With regard to a",
+  "chunks": [
+   {
+    "he": "הָאִשָּׁה שֶׁנָּפְלוּ לָהּ נְכָסִים",
+    "en": "A woman who inherited property",
+    "st": "<b>woman to whom property was bequeathed </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "שֶׁנָּפְלוּ",
+      "en": "that fell"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁלֹּא תִתְאָרֵס,",
+    "en": "before she had erusin,",
+    "st": "<b>before she was betrothed,</b> and she was then betrothed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not yet"
+     },
+     {
+      "he": "תִתְאָרֵס,",
+      "en": "she had erusin"
+     }
+    ]
+   },
+   {
+    "he": "מוֹדִים בֵּית שַׁמַּאי וּבֵית",
+    "en": "Beis Shammai and Beis",
+    "st": "<b>Beit Shammai and Beit </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹדִים",
+      "en": "agree"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     }
+    ]
+   },
+   {
+    "he": "הִלֵּל שֶׁמּוֹכֶרֶת וְנוֹתֶנֶת וְקַיָּם.",
+    "en": "Hillel agree that she may sell it or give it away, and it counts.",
+    "st": "<b>Hillel agree that she may sell or give</b> the property as a gift, <b>and</b> the transaction <b>is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "שֶׁמּוֹכֶרֶת",
+      "en": "that she sells"
+     },
+     {
+      "he": "וְנוֹתֶנֶת",
+      "en": "and gives"
+     },
+     {
+      "he": "וְקַיָּם.",
+      "en": "and it stands"
+     }
+    ]
+   },
+   {
+    "he": "נָפְלוּ לָהּ מִשֶּׁנִּתְאָרְסָה,",
+    "en": "If she inherited it after the erusin,",
+    "st": "However, if the property <b>was bequeathed to her after she was betrothed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָפְלוּ",
+      "en": "fell"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מִשֶּׁנִּתְאָרְסָה,",
+      "en": "after she had erusin"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "תִּמְכֹּר, וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "she may sell. And Beis Hillel say,",
+    "st": "<b>She may sell</b> it as long as she is betrothed, <b>and Beit Hillel say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּמְכֹּר,",
+      "en": "she may sell"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תִמְכֹּר.",
+    "en": "she should not sell.",
+    "st": "<b>She may not sell</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תִמְכֹּר.",
+      "en": "she shall sell"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ וָאֵלּוּ מוֹדִים,",
+    "en": "Both of them agree",
+    "st": "Both <b>these,</b> Beit Shammai, <b>and those,</b> Beit Hillel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "וָאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "מוֹדִים,",
+      "en": "agree"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם מָכְרָה וְנָתְנָה,",
+    "en": "that if she sold it or gave it away,",
+    "st": "<b>agree that if she sold</b> it <b>or gave</b> it away as a gift,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "מָכְרָה",
+      "en": "she sold"
+     },
+     {
+      "he": "וְנָתְנָה,",
+      "en": "and gave"
+     }
+    ]
+   },
+   {
+    "he": "קַיָּם. אָמַר רַבִּי יְהוּדָה,",
+    "en": "it counts. Rabbi Yehudah said,",
+    "st": "the transaction is <b>valid. Rabbi Yehuda said</b> that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קַיָּם.",
+      "en": "it stands"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לִפְנֵי רַבָּן גַּמְלִיאֵל,",
+    "en": "The Sages said before Rabban Gamliel,",
+    "st": "<b>the Sages said before Rabban Gamliel: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וְזָכָה בָאִשָּׁה,",
+    "en": "Since he got the woman,",
+    "st": "<b>Since he acquired the woman</b> herself through betrothal, will he",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וְזָכָה",
+      "en": "he acquired"
+     },
+     {
+      "he": "בָאִשָּׁה,",
+      "en": "the woman"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִזְכֶּה בַנְּכָסִים.",
+    "en": "should he not get the property?",
+    "st": "<b>not acquire the property</b>",
+    "stMore": "from the moment of their betrothal? Why, then, is her transaction valid?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִזְכֶּה",
+      "en": "he shall acquire"
+     },
+     {
+      "he": "בַנְּכָסִים.",
+      "en": "the property"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them,",
+    "st": "Rabban Gamliel <b>said to them: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "עַל הַחֲדָשִׁים אָנוּ בוֹשִׁין,",
+    "en": "About the new property we are already ashamed,",
+    "explain": "We cannot explain why she may not sell it.",
+    "st": "<b>With regard to the new</b> property that she inherited after marriage, <b>we are ashamed,</b>",
+    "stMore": "because it is unclear why she cannot sell it, as it is hers;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַחֲדָשִׁים",
+      "en": "the new"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בוֹשִׁין,",
+      "en": "are ashamed"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שָׁאַתֶּם מְגַלְגְּלִין עָלֵינוּ אֶת הַיְשָׁנִים.",
+    "en": "and you want to add the old property on us too?",
+    "st": "<b>and you</b> also seek to <b>impose upon us</b> a prohibition with regard to <b>the old</b> property that she owned beforehand?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "and"
+     },
+     {
+      "he": "שָׁאַתֶּם",
+      "en": "that you"
+     },
+     {
+      "he": "מְגַלְגְּלִין",
+      "en": "roll"
+     },
+     {
+      "he": "עָלֵינוּ",
+      "en": "on us"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיְשָׁנִים.",
+      "en": "the old"
+     }
+    ]
+   },
+   {
+    "he": "נָפְלוּ לָהּ מִשֶּׁנִּשֵּׂאת,",
+    "en": "If she inherited it after she married,",
+    "st": "If the property <b>was bequeathed to her after she was married,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָפְלוּ",
+      "en": "fell"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מִשֶּׁנִּשֵּׂאת,",
+      "en": "after she married"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ וָאֵלּוּ מוֹדִים שֶׁאִם מָכְרָה",
+    "en": "both agree that if she sold it",
+    "st": "both <b>these,</b> Beit Shammai, <b>and those,</b> Beit Hillel, <b>agree that if she sold</b> the property",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "וָאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "מוֹדִים",
+      "en": "agree"
+     },
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "מָכְרָה",
+      "en": "she sold"
+     }
+    ]
+   },
+   {
+    "he": "וְנָתְנָה שֶׁהַבַּעַל מוֹצִיא מִיַּד הַלָּקוֹחוֹת.",
+    "en": "or gave it away, the husband takes it back from the buyers.",
+    "st": "<b>or gave</b> it away, <b>the husband may repossess</b> it <b>from the purchasers.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָתְנָה",
+      "en": "and gave"
+     },
+     {
+      "he": "שֶׁהַבַּעַל",
+      "en": "that the husband"
+     },
+     {
+      "he": "מוֹצִיא",
+      "en": "takes out"
+     },
+     {
+      "he": "מִיַּד",
+      "en": "from the hand of"
+     },
+     {
+      "he": "הַלָּקוֹחוֹת.",
+      "en": "the buyers"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁלֹּא נִשֵּׂאת וְנִשֵּׂאת,",
+    "en": "If she inherited before she married, and then she married,",
+    "st": "If she inherited the property <b>before she was married and</b> then <b>was married, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not yet"
+     },
+     {
+      "he": "נִשֵּׂאת",
+      "en": "she married"
+     },
+     {
+      "he": "וְנִשֵּׂאת,",
+      "en": "and she married"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Gamliel says,",
+    "st": "<b>Rabban Gamliel says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם מָכְרָה וְנָתְנָה,",
+    "en": "if she sold it or gave it away,",
+    "st": "<b>If she sold or gave</b> the property away,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מָכְרָה",
+      "en": "she sold"
+     },
+     {
+      "he": "וְנָתְנָה,",
+      "en": "and gave"
+     }
+    ]
+   },
+   {
+    "he": "קַיָּם. אָמַר רַבִּי חֲנִינָא בֶּן עֲקִיבָא,",
+    "en": "it counts. Rabbi Chanina ben Akavya said,",
+    "st": "the transaction is <b>valid. Rabbi Ḥanina ben Akavya said</b> that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קַיָּם.",
+      "en": "it stands"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "חֲנִינָא",
+      "en": "Chanina"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akavya"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לִפְנֵי רַבָּן גַּמְלִיאֵל,",
+    "en": "The Sages said before Rabban Gamliel,",
+    "st": "the Sages <b>said before Rabban Gamliel: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וְזָכָה בָאִשָּׁה,",
+    "en": "Since he got the woman,",
+    "st": "<b>Since he acquired the woman</b> through marriage, will he",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וְזָכָה",
+      "en": "he acquired"
+     },
+     {
+      "he": "בָאִשָּׁה,",
+      "en": "the woman"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִזְכֶּה בַנְּכָסִים.",
+    "en": "should he not get the property?",
+    "st": "<b>not acquire the property?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִזְכֶּה",
+      "en": "he shall acquire"
+     },
+     {
+      "he": "בַנְּכָסִים.",
+      "en": "the property"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them,",
+    "st": "Rabban Gamliel <b>said to them: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "עַל הַחֲדָשִׁים אָנוּ בוֹשִׁין,",
+    "en": "About the new property we are already ashamed,",
+    "st": "<b>With regard to the new</b> property <b>we are ashamed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַחֲדָשִׁים",
+      "en": "the new"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בוֹשִׁין,",
+      "en": "are ashamed"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שֶׁאַתֶּם מְגַלְגְּלִים עָלֵינוּ אֶת הַיְשָׁנִים:",
+    "en": "and you want to add the old property on us too?",
+    "st": "<b>and you</b> also seek to <b>impose upon us</b> a prohibition with regard to <b>the old</b> property?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "שֶׁאַתֶּם",
+      "en": "that you"
+     },
+     {
+      "he": "מְגַלְגְּלִים",
+      "en": "roll"
+     },
+     {
+      "he": "עָלֵינוּ",
+      "en": "on us"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיְשָׁנִים:",
+      "en": "the old"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "Rabbi Shimon says a married woman may not sell property her husband knows about, and if she does it does not count. Property he does not know about she also should not sell, but if she does, it counts.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי שִׁמְעוֹן חוֹלֵק בֵּין נְכָסִים לִנְכָסִים.",
+    "en": "Rabbi Shimon makes a difference between kinds of property.",
+    "st": "<b>Rabbi Shimon distinguishes between</b> one type of <b>property and</b> another type of <b>property: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "חוֹלֵק",
+      "en": "divides"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "לִנְכָסִים.",
+      "en": "and property"
+     }
+    ]
+   },
+   {
+    "he": "נְכָסִים הַיְדוּעִים לַבַּעַל,",
+    "en": "Property that the husband knows about,",
+    "st": "<b>Property that is known to the husband </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "הַיְדוּעִים",
+      "en": "that are known"
+     },
+     {
+      "he": "לַבַּעַל,",
+      "en": "to the husband"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תִמְכֹּר.",
+    "en": "she may not sell.",
+    "st": "<b>she may not sell</b> once she is married,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תִמְכֹּר.",
+      "en": "she shall sell"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מָכְרָה וְנָתְנָה,",
+    "en": "And if she sold it or gave it away,",
+    "st": "<b>and if she sold</b> it <b>or gave</b> it away,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מָכְרָה",
+      "en": "she sold"
+     },
+     {
+      "he": "וְנָתְנָה,",
+      "en": "and gave"
+     }
+    ]
+   },
+   {
+    "he": "בָּטֵל. שֶׁאֵינָן יְדוּעִים לַבַּעַל,",
+    "en": "it does not count. Property the husband does not know about,",
+    "st": "the transaction is <b>void.</b> Property <b>that is unknown to the husband </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּטֵל.",
+      "en": "it is canceled"
+     },
+     {
+      "he": "שֶׁאֵינָן",
+      "en": "that are not"
+     },
+     {
+      "he": "יְדוּעִים",
+      "en": "known"
+     },
+     {
+      "he": "לַבַּעַל,",
+      "en": "to the husband"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תִמְכֹּר.",
+    "en": "she may not sell,",
+    "st": "<b>she may not sell, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תִמְכֹּר.",
+      "en": "she shall sell"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מָכְרָה וְנָתְנָה, קַיָּם:",
+    "en": "but if she sold it or gave it away, it counts.",
+    "st": "<b>but if she sold</b> it <b>or gave</b> it away, the transaction is <b>valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מָכְרָה",
+      "en": "she sold"
+     },
+     {
+      "he": "וְנָתְנָה,",
+      "en": "and gave"
+     },
+     {
+      "he": "קַיָּם:",
+      "en": "it stands"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "Money or picked fruit that a wife inherits is used to buy land, and the husband eats what grows on it. Rabbi Meir and the Sages argue about fruit still attached to the ground.",
+  "stIntro": "If",
+  "chunks": [
+   {
+    "he": "נָפְלוּ לָהּ כְּסָפִים,",
+    "en": "If she inherited money,",
+    "st": "<b>money was bequeathed to</b>",
+    "stMore": "a woman as an inheritance while she was married,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָפְלוּ",
+      "en": "fell"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "כְּסָפִים,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "יִלָּקַח בָּהֶן קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "land is bought with it, and he eats the fruits.",
+    "st": "<b>land is acquired with it, and</b> the husband <b>consumes the produce</b> of the land while the principal remains hers.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִלָּקַח",
+      "en": "is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "פֵּרוֹת הַתְּלוּשִׁין מִן הַקַּרְקַע,",
+    "en": "Fruit that was picked from the ground,",
+    "st": "If she inherited <b>produce that is detached from the ground,</b> it is considered like money; therefore,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits"
+     },
+     {
+      "he": "הַתְּלוּשִׁין",
+      "en": "the picked"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקַּרְקַע,",
+      "en": "the ground"
+     }
+    ]
+   },
+   {
+    "he": "יִלָּקַח בָּהֶן קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "land is bought with it, and he eats the fruits.",
+    "st": "<b>land is acquired with it and he consumes the produce</b> of the land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִלָּקַח",
+      "en": "is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְחֻבָּרִין בַּקַּרְקַע,",
+    "en": "And fruit still attached to the ground,",
+    "st": "With regard to <b>produce that is attached to the ground, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְחֻבָּרִין",
+      "en": "and the attached"
+     },
+     {
+      "he": "בַּקַּרְקַע,",
+      "en": "to the ground"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי מֵאִיר,",
+    "en": "Rabbi Meir said,",
+    "st": "<b>Rabbi Meir says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר,",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמִין אוֹתָן כַּמָּה הֵן יָפִין בְּפֵרוֹת",
+    "en": "we check how much it is worth with the fruit",
+    "st": "<b>One evaluates how much</b> the land is <b>worth with</b> the <b>produce, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמִין",
+      "en": "we value"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "יָפִין",
+      "en": "are worth"
+     },
+     {
+      "he": "בְּפֵרוֹת",
+      "en": "with fruits"
+     }
+    ]
+   },
+   {
+    "he": "וְכַמָּה הֵן יָפִין בְּלֹא פֵרוֹת,",
+    "en": "and how much without the fruit,",
+    "st": "<b>and how much it is worth without</b> the <b>produce, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "יָפִין",
+      "en": "are worth"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "without"
+     },
+     {
+      "he": "פֵרוֹת,",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמּוֹתָר, יִלָּקַח בָּהֶן קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "and with the extra, land is bought, and he eats the fruits.",
+    "st": "<b>and</b> the difference between these sums is the <b>surplus</b> value that belongs to the woman. <b>Land is</b> then <b>acquired with</b> the surplus <b>and he consumes the produce. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמּוֹתָר,",
+      "en": "and the extra"
+     },
+     {
+      "he": "יִלָּקַח",
+      "en": "is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הַמְחֻבָּרִין לַקַּרְקַע,",
+    "en": "Fruit attached to the ground",
+    "st": "<b>That which is attached to the ground </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְחֻבָּרִין",
+      "en": "the attached"
+     },
+     {
+      "he": "לַקַּרְקַע,",
+      "en": "to the ground"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלּוֹ. וְהַתְּלוּשִׁין מִן הַקַּרְקַע,",
+    "en": "is his. And fruit picked from the ground",
+    "st": "<b>is his,</b> as he is entitled to the produce from her property and he may therefore eat from it. <b>And that which is detached from the ground</b> is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלּוֹ.",
+      "en": "is his"
+     },
+     {
+      "he": "וְהַתְּלוּשִׁין",
+      "en": "and the picked"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקַּרְקַע,",
+      "en": "the ground"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלָּהּ, וְיִלָּקַח בָּהֶן קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת:",
+    "en": "is hers, and land is bought with it, and he eats the fruits.",
+    "st": "<b>hers,</b> like all other money she brings to the marriage, <b>and land is acquired with it and he consumes the produce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלָּהּ,",
+      "en": "is hers"
+     },
+     {
+      "he": "וְיִלָּקַח",
+      "en": "and is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת:",
+      "en": "fruits"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "Rabbi Shimon says that what the husband gains when the marriage starts, he loses when it ends, and the other way around. He shows this with fruit attached to the ground and fruit already picked.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁיָּפֶה כֹחוֹ בִכְנִיסָתָהּ,",
+    "en": "Where he has the better side when she comes in,",
+    "st": "In a <b>case where his right is superior upon her entrance</b> to the marriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁיָּפֶה",
+      "en": "that is good"
+     },
+     {
+      "he": "כֹחוֹ",
+      "en": "his power"
+     },
+     {
+      "he": "בִכְנִיסָתָהּ,",
+      "en": "when she comes in"
+     }
+    ]
+   },
+   {
+    "he": "הוּרַע כֹּחוֹ בִיצִיאָתָהּ.",
+    "en": "he has the worse side when she leaves.",
+    "st": "<b>his right is inferior upon her exit</b> if he divorces her.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּרַע",
+      "en": "is weak"
+     },
+     {
+      "he": "כֹּחוֹ",
+      "en": "his power"
+     },
+     {
+      "he": "בִיצִיאָתָהּ.",
+      "en": "when she leaves"
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁהוּרַע כֹּחוֹ בִכְנִיסָתָהּ,",
+    "en": "Where he has the worse side when she comes in,",
+    "st": "Conversely, in a <b>case where his right is inferior upon her entrance, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁהוּרַע",
+      "en": "that is weak"
+     },
+     {
+      "he": "כֹּחוֹ",
+      "en": "his power"
+     },
+     {
+      "he": "בִכְנִיסָתָהּ,",
+      "en": "when she comes in"
+     }
+    ]
+   },
+   {
+    "he": "יָפֶה כֹחוֹ בִיצִיאָתָהּ.",
+    "en": "he has the better side when she leaves.",
+    "st": "<b>his right is superior upon her exit. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָפֶה",
+      "en": "is good"
+     },
+     {
+      "he": "כֹחוֹ",
+      "en": "his power"
+     },
+     {
+      "he": "בִיצִיאָתָהּ.",
+      "en": "when she leaves"
+     }
+    ]
+   },
+   {
+    "he": "פֵּרוֹת הַמְחֻבָּרִין לַקַּרְקַע,",
+    "en": "Fruit attached to the ground:",
+    "st": "<b>How so?</b> With regard to <b>produce that is attached to the ground,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits"
+     },
+     {
+      "he": "הַמְחֻבָּרִין",
+      "en": "the attached"
+     },
+     {
+      "he": "לַקַּרְקַע,",
+      "en": "to the ground"
+     }
+    ]
+   },
+   {
+    "he": "בִּכְנִיסָתָהּ שֶׁלּוֹ וּבִיצִיאָתָהּ שֶׁלָּהּ.",
+    "en": "when she comes in they are his, and when she leaves they are hers.",
+    "st": "if she married while owning such produce, <b>upon her entrance</b> it is <b>his,</b> in accordance with the opinion of the Rabbis, <b>and upon her exit,</b> when he divorces her, it is <b>hers,</b> as it is considered part of her property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּכְנִיסָתָהּ",
+      "en": "when she comes in"
+     },
+     {
+      "he": "שֶׁלּוֹ",
+      "en": "his"
+     },
+     {
+      "he": "וּבִיצִיאָתָהּ",
+      "en": "and when she leaves"
+     },
+     {
+      "he": "שֶׁלָּהּ.",
+      "en": "hers"
+     }
+    ]
+   },
+   {
+    "he": "וְהַתְּלוּשִׁין מִן הַקַּרְקַע,",
+    "en": "And fruit picked from the ground:",
+    "st": "<b>But</b> in the case of produce <b>that is detached from the ground, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַתְּלוּשִׁין",
+      "en": "and the picked"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקַּרְקַע,",
+      "en": "the ground"
+     }
+    ]
+   },
+   {
+    "he": "בִּכְנִיסָתָהּ שֶׁלָּהּ וּבִיצִיאָתָהּ שֶׁלּוֹ:",
+    "en": "when she comes in they are hers, and when she leaves they are his.",
+    "st": "<b>upon her entrance</b> it is <b>hers, and</b> if such produce is detached before their divorce, <b>upon her exit</b> it is <b>his,</b>",
+    "stMore": "as he was already entitled to all the produce of her property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּכְנִיסָתָהּ",
+      "en": "when she comes in"
+     },
+     {
+      "he": "שֶׁלָּהּ",
+      "en": "hers"
+     },
+     {
+      "he": "וּבִיצִיאָתָהּ",
+      "en": "and when she leaves"
+     },
+     {
+      "he": "שֶׁלּוֹ:",
+      "en": "his"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "Old slaves or old trees that a wife inherits are sold to buy land, though some Sages say she need not sell her family's treasures. A husband who spent money on his wife's fields may get it back only in some cases.",
+  "stIntro": "If",
+  "chunks": [
+   {
+    "he": "נָפְלוּ לָהּ עֲבָדִים וּשְׁפָחוֹת זְקֵנִים,",
+    "en": "If she inherited old slaves and maidservants,",
+    "st": "<b>elderly slaves or maidservants were bequeathed to her, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָפְלוּ",
+      "en": "fell"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "עֲבָדִים",
+      "en": "slaves"
+     },
+     {
+      "he": "וּשְׁפָחוֹת",
+      "en": "and maidservants"
+     },
+     {
+      "he": "זְקֵנִים,",
+      "en": "old"
+     }
+    ]
+   },
+   {
+    "he": "יִמָּכְרוּ וְיִלָּקַח בָּהֶן קַרְקַע",
+    "en": "they are sold, and land is bought with them,",
+    "st": "<b>they are sold and land is acquired with them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִמָּכְרוּ",
+      "en": "they are sold"
+     },
+     {
+      "he": "וְיִלָּקַח",
+      "en": "and is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "and he eats the fruits.",
+    "st": "<b>and</b> the husband <b>consumes the produce</b> of the land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תִמְכֹּר,",
+    "en": "she does not have to sell them,",
+    "st": "<b>She</b> need <b>not sell</b> these slaves and maidservants,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תִמְכֹּר,",
+      "en": "she shall sell"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן שְׁבַח בֵּית אָבִיהָ.",
+    "en": "because they are the pride of her father's family.",
+    "st": "<b>because they are assets of her paternal family,</b>",
+    "stMore": "and it would be shameful to the family if they were sold to others.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "they are"
+     },
+     {
+      "he": "שְׁבַח",
+      "en": "the pride of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "אָבִיהָ.",
+      "en": "her father"
+     }
+    ]
+   },
+   {
+    "he": "נָפְלוּ לָהּ זֵיתִים וּגְפָנִים זְקֵנִים,",
+    "en": "If she inherited old olive trees and grapevines,",
+    "st": "Likewise, if <b>old olive</b> trees <b>or grapevines were bequeathed to her, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָפְלוּ",
+      "en": "fell"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "זֵיתִים",
+      "en": "olive trees"
+     },
+     {
+      "he": "וּגְפָנִים",
+      "en": "and grapevines"
+     },
+     {
+      "he": "זְקֵנִים,",
+      "en": "old"
+     }
+    ]
+   },
+   {
+    "he": "יִמָּכְרוּ לְעֵצִים וְיִלָּקַח בָּהֶן",
+    "en": "they are sold for wood, and land is bought with it,",
+    "st": "<b>they are sold and land is acquired with them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִמָּכְרוּ",
+      "en": "they are sold"
+     },
+     {
+      "he": "לְעֵצִים",
+      "en": "for wood"
+     },
+     {
+      "he": "וְיִלָּקַח",
+      "en": "and is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "and he eats the fruits.",
+    "st": "<b>and he consumes the produce. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תִמְכֹּר,",
+    "en": "she does not have to sell them,",
+    "st": "<b>She</b> need <b>not sell</b> them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תִמְכֹּר,",
+      "en": "she shall sell"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן שְׁבַח בֵּית אָבִיהָ.",
+    "en": "because they are the pride of her father's family.",
+    "st": "<b>because they are assets of her paternal family.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "they are"
+     },
+     {
+      "he": "שְׁבַח",
+      "en": "the pride of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "אָבִיהָ.",
+      "en": "her father"
+     }
+    ]
+   },
+   {
+    "he": "הַמּוֹצִיא הוֹצָאוֹת עַל נִכְסֵי אִשְׁתּוֹ,",
+    "en": "One who spent money on his wife's property,",
+    "st": "With regard to <b>one who pays expenditures for his wife’s property</b> in an effort to improve it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹצִיא",
+      "en": "the one who spends"
+     },
+     {
+      "he": "הוֹצָאוֹת",
+      "en": "expenses"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "נִכְסֵי",
+      "en": "the property of"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "הוֹצִיא הַרְבֵּה וְאָכַל קִמְעָא,",
+    "en": "if he spent a lot and ate a little,",
+    "st": "if <b>he paid a large</b> amount in expenditures <b>and ate</b> only <b>a small</b> amount of produce before he divorced her,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹצִיא",
+      "en": "he spent"
+     },
+     {
+      "he": "הַרְבֵּה",
+      "en": "a lot"
+     },
+     {
+      "he": "וְאָכַל",
+      "en": "and he ate"
+     },
+     {
+      "he": "קִמְעָא,",
+      "en": "a little"
+     }
+    ]
+   },
+   {
+    "he": "קִמְעָא וְאָכַל הַרְבֵּה,",
+    "en": "or a little and ate a lot,",
+    "st": "or if he paid <b>a small</b> amount in expenditures <b>and ate a large</b> quantity of produce,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִמְעָא",
+      "en": "a little"
+     },
+     {
+      "he": "וְאָכַל",
+      "en": "and he ate"
+     },
+     {
+      "he": "הַרְבֵּה,",
+      "en": "a lot"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁהוֹצִיא הוֹצִיא,",
+    "en": "what he spent he spent,",
+    "st": "<b>that which he spent he has spent, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁהוֹצִיא",
+      "en": "that he spent"
+     },
+     {
+      "he": "הוֹצִיא,",
+      "en": "he spent"
+     }
+    ]
+   },
+   {
+    "he": "וּמַה שֶּׁאָכַל אָכָל.",
+    "en": "and what he ate he ate.",
+    "st": "<b>and that which he ate he has eaten.</b> Therefore, none of it need be returned.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַה",
+      "en": "and what"
+     },
+     {
+      "he": "שֶּׁאָכַל",
+      "en": "that he ate"
+     },
+     {
+      "he": "אָכָל.",
+      "en": "he ate"
+     }
+    ]
+   },
+   {
+    "he": "הוֹצִיא וְלֹא אָכַל,",
+    "en": "If he spent and did not eat,",
+    "st": "However, if he <b>paid</b> expenditures for the property <b>and did not eat</b> any part of it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹצִיא",
+      "en": "he spent"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אָכַל,",
+      "en": "he ate"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁבַע כַּמָּה הוֹצִיא וְיִטֹּל:",
+    "en": "he swears how much he spent, and takes it.",
+    "st": "<b>he takes an oath</b> with regard to <b>how much he paid and</b> then <b>takes</b> his expenditures.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁבַע",
+      "en": "he shall swear"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הוֹצִיא",
+      "en": "he spent"
+     },
+     {
+      "he": "וְיִטֹּל:",
+      "en": "and he shall take"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "A widow waiting for her yavam may sell property she inherited. Beis Shammai and Beis Hillel argue about who gets her kesubah and her property if she dies.",
+  "stIntro": "When a married man dies childless, his brother, the yavam, is obligated to perform levirate marriage or release the widow, the yevama, through a ceremony known as ḥalitza. With regard to",
+  "chunks": [
+   {
+    "he": "שׁוֹמֶרֶת יָבָם שֶׁנָּפְלוּ לָהּ נְכָסִים,",
+    "en": "A widow waiting for her yavam who inherited property,",
+    "st": "<b>a widow waiting for her yavam who</b> had <b>property bequeathed to her, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמֶרֶת",
+      "en": "one waiting for"
+     },
+     {
+      "he": "יָבָם",
+      "en": "a yavam"
+     },
+     {
+      "he": "שֶׁנָּפְלוּ",
+      "en": "that fell"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "נְכָסִים,",
+      "en": "property"
+     }
+    ]
+   },
+   {
+    "he": "מוֹדִים בֵּית שַׁמַּאי וּבֵית",
+    "en": "Beis Shammai and Beis",
+    "st": "<b>Beit Shammai and Beit </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹדִים",
+      "en": "agree"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     }
+    ]
+   },
+   {
+    "he": "הִלֵּל שֶׁמּוֹכֶרֶת וְנוֹתֶנֶת וְקַיָּם.",
+    "en": "Hillel agree that she may sell it or give it away, and it counts.",
+    "st": "<b>Hillel agree that she may sell or give</b> this property away, <b>and</b> the transaction is <b>valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "שֶׁמּוֹכֶרֶת",
+      "en": "that she sells"
+     },
+     {
+      "he": "וְנוֹתֶנֶת",
+      "en": "and gives"
+     },
+     {
+      "he": "וְקַיָּם.",
+      "en": "and it stands"
+     }
+    ]
+   },
+   {
+    "he": "מֵתָה, מַה יַּעֲשׂוּ בִכְתֻבָּתָהּ וּבַנְּכָסִים",
+    "en": "If she died, what do we do with her kesubah and the property",
+    "st": "If this woman <b>died, what should they do with her marriage contract and with the property </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵתָה,",
+      "en": "she died"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "יַּעֲשׂוּ",
+      "en": "shall they do"
+     },
+     {
+      "he": "בִכְתֻבָּתָהּ",
+      "en": "with her kesubah"
+     },
+     {
+      "he": "וּבַנְּכָסִים",
+      "en": "and with the property"
+     }
+    ]
+   },
+   {
+    "he": "הַנִּכְנָסִין וְהַיּוֹצְאִין עִמָּהּ.",
+    "en": "that comes in and goes out with her?",
+    "st": "<b>that comes and goes with her,</b> i.e., her usufruct property?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנִּכְנָסִין",
+      "en": "the coming in"
+     },
+     {
+      "he": "וְהַיּוֹצְאִין",
+      "en": "and the going out"
+     },
+     {
+      "he": "עִמָּהּ.",
+      "en": "with her"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲלֹקוּ יוֹרְשֵׁי הַבַּעַל עִם יוֹרְשֵׁי הָאָב.",
+    "en": "the husband's heirs split it with her father's heirs.",
+    "st": "Since she was not yet remarried, <b>the husband’s heirs,</b> such as his brothers or father, <b>divide</b> the property <b>with</b> her <b>father’s heirs. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲלֹקוּ",
+      "en": "shall divide"
+     },
+     {
+      "he": "יוֹרְשֵׁי",
+      "en": "the heirs of"
+     },
+     {
+      "he": "הַבַּעַל",
+      "en": "the husband"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "יוֹרְשֵׁי",
+      "en": "the heirs of"
+     },
+     {
+      "he": "הָאָב.",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>And Beit Hillel say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נְכָסִים בְּחֶזְקָתָן,",
+    "en": "Each thing stays where it was:",
+    "st": "<b>The property</b> retains <b>its</b> previous ownership <b>status, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "בְּחֶזְקָתָן,",
+      "en": "in their place"
+     }
+    ]
+   },
+   {
+    "he": "כְּתֻבָּה בְּחֶזְקַת יוֹרְשֵׁי הַבַּעַל,",
+    "en": "the kesubah stays with the husband's heirs,",
+    "st": "<b>and</b> therefore the <b>marriage contract</b> is <b>in the possession of the husband’s heirs,</b> as they are responsible for its payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּתֻבָּה",
+      "en": "kesubah"
+     },
+     {
+      "he": "בְּחֶזְקַת",
+      "en": "in the hold of"
+     },
+     {
+      "he": "יוֹרְשֵׁי",
+      "en": "the heirs of"
+     },
+     {
+      "he": "הַבַּעַל,",
+      "en": "the husband"
+     }
+    ]
+   },
+   {
+    "he": "נְכָסִים הַנִּכְנָסִים וְהַיּוֹצְאִים עִמָּהּ",
+    "en": "the property that comes in and goes out with her",
+    "st": "As for the <b>property that comes and goes with her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "הַנִּכְנָסִים",
+      "en": "the coming in"
+     },
+     {
+      "he": "וְהַיּוֹצְאִים",
+      "en": "and the going out"
+     },
+     {
+      "he": "עִמָּהּ",
+      "en": "with her"
+     }
+    ]
+   },
+   {
+    "he": "בְּחֶזְקַת יוֹרְשֵׁי הָאָב:",
+    "en": "stays with her father's heirs.",
+    "st": "it is <b>in the possession of the heirs of the</b> woman’s <b>father,</b> as it belongs to the woman.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּחֶזְקַת",
+      "en": "in the hold of"
+     },
+     {
+      "he": "יוֹרְשֵׁי",
+      "en": "the heirs of"
+     },
+     {
+      "he": "הָאָב:",
+      "en": "the father"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 7,
+  "summary": "When a yavam's dead brother left money or picked fruit, land is bought with it for the widow's kesubah, and the yavam eats the fruits. Once he marries her she is like his wife, but her kesubah is still paid from the first husband's property.",
+  "stIntro": "If",
+  "chunks": [
+   {
+    "he": "הִנִּיחַ אָחִיו מָעוֹת,",
+    "en": "If his brother left money,",
+    "st": "<b>his</b> deceased <b>brother left money</b> as part of his estate,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִנִּיחַ",
+      "en": "left"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "מָעוֹת,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "יִלָּקַח בָּהֶן קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "land is bought with it, and he eats the fruits.",
+    "st": "<b>land</b> to be used as a lien on her marriage contract <b>is acquired with it, and</b> the yavam <b>consumes the produce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִלָּקַח",
+      "en": "is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "פֵּרוֹת הַתְּלוּשִׁין מִן הַקַּרְקַע,",
+    "en": "Fruit picked from the ground,",
+    "st": "Similarly, if the deceased brother left <b>produce that is detached from the ground, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits"
+     },
+     {
+      "he": "הַתְּלוּשִׁין",
+      "en": "the picked"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקַּרְקַע,",
+      "en": "the ground"
+     }
+    ]
+   },
+   {
+    "he": "יִלָּקַח בָּהֶן קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "land is bought with it, and he eats the fruits.",
+    "st": "<b>land is acquired with it and</b> the yavam <b>consumes the produce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִלָּקַח",
+      "en": "is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "הַמְחֻבָּרִין בַּקַּרְקַע,",
+    "en": "Fruit attached to the ground,",
+    "st": "If he left behind produce <b>that is attached to the ground, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְחֻבָּרִין",
+      "en": "the attached"
+     },
+     {
+      "he": "בַּקַּרְקַע,",
+      "en": "to the ground"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי מֵאִיר,",
+    "en": "Rabbi Meir said,",
+    "st": "<b>Rabbi Meir says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר,",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמִין אוֹתָן כַּמָּה הֵן יָפִין בְּפֵרוֹת",
+    "en": "we check how much it is worth with the fruit",
+    "st": "<b>One evaluates</b> the properties to determine <b>how much they are worth with</b> the <b>produce, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמִין",
+      "en": "we value"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "יָפִין",
+      "en": "are worth"
+     },
+     {
+      "he": "בְּפֵרוֹת",
+      "en": "with fruits"
+     }
+    ]
+   },
+   {
+    "he": "וְכַמָּה הֵן יָפִין בְּלֹא פֵרוֹת,",
+    "en": "and how much without the fruit,",
+    "st": "<b>and how much they are worth without</b> the <b>produce. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "יָפִין",
+      "en": "are worth"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "without"
+     },
+     {
+      "he": "פֵרוֹת,",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמּוֹתָר, יִלָּקַח בָּהֶן קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "and with the extra, land is bought, and he eats the fruits.",
+    "st": "<b>And</b> as for <b>the surplus,</b> which is the value of the produce, <b>land is acquired with it and</b> the yavam <b>consumes the produce. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמּוֹתָר,",
+      "en": "and the extra"
+     },
+     {
+      "he": "יִלָּקַח",
+      "en": "is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "פֵּרוֹת הַמְחֻבָּרִים בַּקַּרְקַע,",
+    "en": "Fruit attached to the ground",
+    "st": "<b>Produce that is attached to the ground</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits"
+     },
+     {
+      "he": "הַמְחֻבָּרִים",
+      "en": "the attached"
+     },
+     {
+      "he": "בַּקַּרְקַע,",
+      "en": "to the ground"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלּוֹ. וְהַתְּלוּשִׁין מִן הַקַּרְקַע,",
+    "en": "is his. And fruit picked from the ground,",
+    "st": "is <b>his.</b> Therefore, it is not used in the purchase of land, but the yavam may eat it. As for the produce <b>that is detached from the ground,</b>",
+    "stMore": "which is not mortgaged to her marriage contract,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלּוֹ.",
+      "en": "is his"
+     },
+     {
+      "he": "וְהַתְּלוּשִׁין",
+      "en": "and the picked"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקַּרְקַע,",
+      "en": "the ground"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַקּוֹדֵם זָכָה בָהֶן.",
+    "en": "whoever takes it first gets it.",
+    "st": "<b>whoever</b> takes possession <b>first has acquired it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "whoever"
+     },
+     {
+      "he": "הַקּוֹדֵם",
+      "en": "comes first"
+     },
+     {
+      "he": "זָכָה",
+      "en": "acquired"
+     },
+     {
+      "he": "בָהֶן.",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "קָדַם הוּא,",
+    "en": "If he came first,",
+    "st": "If the yavam takes possession of the property <b>first,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדַם",
+      "en": "came first"
+     },
+     {
+      "he": "הוּא,",
+      "en": "he"
+     }
+    ]
+   },
+   {
+    "he": "זָכָה. קָדְמָה הִיא,",
+    "en": "he gets it. If she came first,",
+    "st": "he <b>has acquired</b> it and may use it as he wishes, but if <b>she</b> is <b>first, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָה.",
+      "en": "he acquired"
+     },
+     {
+      "he": "קָדְמָה",
+      "en": "came first"
+     },
+     {
+      "he": "הִיא,",
+      "en": "she"
+     }
+    ]
+   },
+   {
+    "he": "יִלָּקַח בָּהֶן קַרְקַע וְהוּא אוֹכֵל פֵּרוֹת.",
+    "en": "land is bought with it, and he eats the fruits.",
+    "st": "<b>land is acquired with it and he consumes the produce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִלָּקַח",
+      "en": "is bought"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with it"
+     },
+     {
+      "he": "קַרְקַע",
+      "en": "land"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "fruits"
+     }
+    ]
+   },
+   {
+    "he": "כְּנָסָהּ, הֲרֵי הִיא כְאִשְׁתּוֹ לְכָל דָּבָר,",
+    "en": "Once he marries her, she is like his wife in every way,",
+    "st": "After the yavam has <b>married her, her</b> legal status is <b>that of his wife in every sense, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּנָסָהּ,",
+      "en": "he married her"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "כְאִשְׁתּוֹ",
+      "en": "like his wife"
+     },
+     {
+      "he": "לְכָל",
+      "en": "for every"
+     },
+     {
+      "he": "דָּבָר,",
+      "en": "thing"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁתְּהֵא כְתֻבָּתָהּ עַל",
+    "en": "except that her kesubah is on",
+    "st": "<b>except that</b> the responsibility for payment of <b>her marriage contract</b> is carried out",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "only"
+     },
+     {
+      "he": "שֶׁתְּהֵא",
+      "en": "that will be"
+     },
+     {
+      "he": "כְתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "נִכְסֵי בַעְלָהּ הָרִאשׁוֹן:",
+    "en": "the property of her first husband.",
+    "st": "<b>through</b> mortgaging <b>the property of her first husband,</b> not that of the yavam.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְסֵי",
+      "en": "the property of"
+     },
+     {
+      "he": "בַעְלָהּ",
+      "en": "her husband"
+     },
+     {
+      "he": "הָרִאשׁוֹן:",
+      "en": "the first"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 8,
+  "summary": "A husband may not set aside just one pile of money for the kesubah; all his property stands behind it. If the yavam divorces her and takes her back, she gets only her kesubah.",
+  "stIntro": "Therefore, the yavam",
+  "chunks": [
+   {
+    "he": "לֹא יֹאמַר לָהּ,",
+    "en": "He may not say to her,",
+    "st": "<b>may not say to her: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "he shall say"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי כְתֻבְּתִיךְ מֻנַּחַת עַל הַשֻּׁלְחָן,",
+    "en": "Here is your kesubah lying on the table,",
+    "st": "<b>Your marriage contract is placed on the table.</b>",
+    "stMore": "He may not set aside a designated sum of money for this payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here is"
+     },
+     {
+      "he": "כְתֻבְּתִיךְ",
+      "en": "your kesubah"
+     },
+     {
+      "he": "מֻנַּחַת",
+      "en": "lying"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַשֻּׁלְחָן,",
+      "en": "the table"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כָּל נְכָסָיו אַחֲרָאִין לַכְּתֻבָּה.",
+    "en": "rather, all of his property stands behind the kesubah.",
+    "st": "<b>Rather, all</b> of the first husband’s <b>property is mortgaged for her marriage contract</b> as long as he has not divorced her.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "נְכָסָיו",
+      "en": "his property"
+     },
+     {
+      "he": "אַחֲרָאִין",
+      "en": "stand behind"
+     },
+     {
+      "he": "לַכְּתֻבָּה.",
+      "en": "the kesubah"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן לֹא יֹאמַר אָדָם לְאִשְׁתּוֹ,",
+    "en": "And so a man may not say to his wife,",
+    "st": "<b>And similarly,</b> in general <b>a man may not say to his wife: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "shall say"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a man"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ,",
+      "en": "to his wife"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי כְתֻבְּתִיךְ מֻנַּחַת עַל הַשֻּׁלְחָן,",
+    "en": "Here is your kesubah lying on the table,",
+    "st": "<b>Your marriage contract is placed on the table. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here is"
+     },
+     {
+      "he": "כְתֻבְּתִיךְ",
+      "en": "your kesubah"
+     },
+     {
+      "he": "מֻנַּחַת",
+      "en": "lying"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַשֻּׁלְחָן,",
+      "en": "the table"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כָל נְכָסָיו אַחֲרָאִין לִכְתֻבָּתָהּ.",
+    "en": "rather, all his property stands behind her kesubah.",
+    "st": "<b>Rather, all his property is mortgaged for her marriage contract.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "נְכָסָיו",
+      "en": "his property"
+     },
+     {
+      "he": "אַחֲרָאִין",
+      "en": "stand behind"
+     },
+     {
+      "he": "לִכְתֻבָּתָהּ.",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "גֵּרְשָׁהּ, אֵין לָהּ אֶלָּא כְתֻבָּתָהּ.",
+    "en": "If he divorced her, she has only her kesubah.",
+    "st": "If the yavam <b>divorced her</b> after performing levirate marriage, <b>she has only her marriage contract,</b>",
+    "stMore": "as she does not retain any rights to the rest of her first husband’s property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּרְשָׁהּ,",
+      "en": "he divorced her"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "כְתֻבָּתָהּ.",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "הֶחֱזִירָהּ, הֲרֵי הִיא כְּכָל הַנָּשִׁים וְאֵין",
+    "en": "If he took her back, she is like all women, and she has",
+    "st": "If he subsequently <b>remarried her, she is like all women, and </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶחֱזִירָהּ,",
+      "en": "he took her back"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "כְּכָל",
+      "en": "like all"
+     },
+     {
+      "he": "הַנָּשִׁים",
+      "en": "the women"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     }
+    ]
+   },
+   {
+    "he": "לָהּ אֶלָּא כְתֻבָּתָהּ בִּלְבָד:",
+    "en": "nothing but her kesubah.",
+    "st": "<b>she has nothing but her marriage contract.</b>",
+    "stMore": "In this case, the property of her first husband is no longer pledged for the payment of her marriage contract.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "כְתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "בִּלְבָד:",
+      "en": "alone"
+     }
+    ]
+   }
+  ]
+ }
+]

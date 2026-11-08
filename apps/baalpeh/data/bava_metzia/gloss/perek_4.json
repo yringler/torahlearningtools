@@ -1,0 +1,4000 @@
+[
+ {
+  "perek": 4,
+  "mishnah": 1,
+  "summary": "When people trade coins or things, taking one side finishes the deal. The mishnah teaches which side counts as the \"thing\" that finishes the deal: gold over silver, copper over silver, worn coins over good ones, blank coins over stamped ones, and goods over coins.",
+  "stIntro": "There is a halakhic principle that when one purchases an item, the payment of the money does not effect the transaction. The transaction is effected only by means of the buyer’s physically taking the item into his possession, e.g., by pulling the item. Payment of money by the buyer creates only a moral obligation for the seller to sell him the item. When two types of currency are exchanged for each other, one of the types will have the status of the money being paid, and the other will have the status of the item being purchased. Handing over the former will not effect the transaction, while handing over the latter will. The mishna teaches: When one purchases gold coins, paying with silver coins, the gold coins assume the status of the purchased item and the silver coins assume the status of money.",
+  "chunks": [
+   {
+    "he": "הַזָּהָב קוֹנֶה אֶת הַכֶּסֶף,",
+    "en": "Gold buys silver,",
+    "explain": "Taking the gold finishes the deal for the silver.",
+    "st": "Therefore, when one party takes possession of <b>the gold</b> coins, the other party <b>acquires the silver</b> coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזָּהָב",
+      "en": "the gold"
+     },
+     {
+      "he": "קוֹנֶה",
+      "en": "buys"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֶּסֶף,",
+      "en": "the silver"
+     }
+    ]
+   },
+   {
+    "he": "וְהַכֶּסֶף אֵינוֹ קוֹנֶה אֶת הַזָּהָב.",
+    "en": "but silver does not buy gold.",
+    "st": "<b>But</b> when one party takes possession of <b>the silver</b> coins, the other party <b>does not acquire the gold</b> coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַכֶּסֶף",
+      "en": "and the silver"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "קוֹנֶה",
+      "en": "buy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַזָּהָב.",
+      "en": "the gold"
+     }
+    ]
+   },
+   {
+    "he": "הַנְּחֹשֶׁת קוֹנָה אֶת הַכֶּסֶף,",
+    "en": "Copper buys silver,",
+    "st": "In an exchange of silver coins for copper coins, when one party takes possession of <b>the copper</b> coins, the other party <b>acquires the silver</b> coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנְּחֹשֶׁת",
+      "en": "the copper"
+     },
+     {
+      "he": "קוֹנָה",
+      "en": "buys"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֶּסֶף,",
+      "en": "the silver"
+     }
+    ]
+   },
+   {
+    "he": "וְהַכֶּסֶף אֵינוֹ קוֹנֶה אֶת הַנְּחשֶׁת.",
+    "en": "but silver does not buy copper.",
+    "st": "<b>But</b> when one party takes possession of <b>the silver</b> coins, the other party <b>does not acquire the copper</b> coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַכֶּסֶף",
+      "en": "and the silver"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "קוֹנֶה",
+      "en": "buy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנְּחשֶׁת.",
+      "en": "the copper"
+     }
+    ]
+   },
+   {
+    "he": "מָעוֹת הָרָעוֹת קוֹנוֹת אֶת הַיָּפוֹת,",
+    "en": "Worn-out coins buy good ones,",
+    "st": "In an exchange of flawed coins for unflawed coins, when one party takes possession of <b>the flawed coins,</b> the other party <b>acquires the unflawed</b> coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָעוֹת",
+      "en": "coins"
+     },
+     {
+      "he": "הָרָעוֹת",
+      "en": "the bad ones"
+     },
+     {
+      "he": "קוֹנוֹת",
+      "en": "buy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיָּפוֹת,",
+      "en": "the good ones"
+     }
+    ]
+   },
+   {
+    "he": "וְהַיָּפוֹת אֵינָן קוֹנוֹת אֶת הָרָעוֹת.",
+    "en": "but good ones do not buy worn-out ones.",
+    "st": "<b>But</b> when one party takes possession of <b>the unflawed</b> coins, the other party <b>does not acquire the flawed</b> coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַיָּפוֹת",
+      "en": "and the good ones"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "do not"
+     },
+     {
+      "he": "קוֹנוֹת",
+      "en": "buy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרָעוֹת.",
+      "en": "the bad ones"
+     }
+    ]
+   },
+   {
+    "he": "אֲסִימוֹן קוֹנֶה אֶת הַמַּטְבֵּעַ,",
+    "en": "A blank coin buys a stamped coin,",
+    "explain": "A blank coin is metal not yet stamped as money.",
+    "st": "In an exchange of an unminted coin for a minted coin, when one party takes possession of <b>an unminted coin [asimon],</b> the other party <b>acquires</b> a minted <b>coin.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲסִימוֹן",
+      "en": "a blank coin"
+     },
+     {
+      "he": "קוֹנֶה",
+      "en": "buys"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמַּטְבֵּעַ,",
+      "en": "the coin"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּטְבֵּעַ אֵינוֹ קוֹנֶה אֶת אֲסִימוֹן.",
+    "en": "but a stamped coin does not buy a blank coin.",
+    "st": "But when one party takes possession of a minted <b>coin,</b> the other party <b>does not acquire an unminted coin.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּטְבֵּעַ",
+      "en": "and the coin"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "קוֹנֶה",
+      "en": "buy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֲסִימוֹן.",
+      "en": "blank coin"
+     }
+    ]
+   },
+   {
+    "he": "מִטַּלְטְלִין קוֹנִים אֶת הַמַּטְבֵּעַ,",
+    "en": "Things buy coins,",
+    "st": "In an exchange of a coin for movable property, when one party takes possession of the <b>movable property</b> the other party <b>acquires the coin.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִטַּלְטְלִין",
+      "en": "things"
+     },
+     {
+      "he": "קוֹנִים",
+      "en": "buy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמַּטְבֵּעַ,",
+      "en": "the coin"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּטְבֵּעַ אֵינוֹ קוֹנֶה אֶת הַמִּטַּלְטְלִין.",
+    "en": "but coins do not buy things.",
+    "st": "But when one party takes possession of the <b>coin,</b> the other party <b>does not acquire the movable property. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּטְבֵּעַ",
+      "en": "and the coin"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "קוֹנֶה",
+      "en": "buy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמִּטַּלְטְלִין.",
+      "en": "the things"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמִּטַּלְטְלִין קוֹנִין זֶה אֶת זֶה:",
+    "en": "all things buy each other.",
+    "explain": "When two people swap things, taking one finishes the whole swap.",
+    "st": "With regard to those who exchange <b>all</b> forms of <b>movable property, each acquires</b> the property of <b>the other,</b>",
+    "stMore": "i.e., the moment that one of the parties to the exchange takes possession of the item that he is acquiring, e.g., by means of pulling, the other party acquires the item from the first party.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַמִּטַּלְטְלִין",
+      "en": "the things"
+     },
+     {
+      "he": "קוֹנִין",
+      "en": "buy"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "זֶה:",
+      "en": "this"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 2,
+  "summary": "A buyer who took the fruit cannot back out, but if he only paid, either side can back out. Still, Hashem punishes a person who does not keep his word. Rabbi Shimon says whoever holds the money has the upper hand.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֵּיצַד.",
+    "en": "How so?",
+    "st": "<b>How</b> so?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     }
+    ]
+   },
+   {
+    "he": "מָשַׁךְ הֵימֶנּוּ פֵרוֹת",
+    "en": "If he pulled the fruit from him",
+    "explain": "Pulling the thing toward himself is a way of buying it.",
+    "st": "If the buyer <b>pulled produce from</b> the seller,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָשַׁךְ",
+      "en": "he pulled"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "פֵרוֹת",
+      "en": "fruit"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא נָתַן לוֹ מָעוֹת,",
+    "en": "and did not give him money yet,",
+    "st": "<b>but</b> the buyer <b>did not</b> yet <b>give</b> the seller their value in <b>money, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מָעוֹת,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לַחֲזֹר בּוֹ.",
+    "en": "he cannot back out.",
+    "st": "<b>he cannot renege</b> on the transaction,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to go back"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן לוֹ מָעוֹת",
+    "en": "If he gave him money",
+    "st": "but if the buyer <b>gave</b> the seller <b>money </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מָעוֹת",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מָשַׁךְ הֵימֶנּוּ פֵרוֹת,",
+    "en": "and did not pull the fruit from him yet,",
+    "st": "<b>but did not</b> yet <b>pull produce from him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מָשַׁךְ",
+      "en": "he pulled"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "פֵרוֹת,",
+      "en": "fruit"
+     }
+    ]
+   },
+   {
+    "he": "יָכוֹל לַחֲזֹר בּוֹ.",
+    "en": "he can back out.",
+    "st": "<b>he can renege</b> on the transaction, as the transaction is not yet complete.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָכוֹל",
+      "en": "he is able"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to go back"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אָמְרוּ,",
+    "en": "But the Sages said:",
+    "st": "<b>But</b> with regard to the latter case, the Sages <b>said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אָמְרוּ,",
+      "en": "they said"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁפָּרַע מֵאַנְשֵׁי דוֹר הַמַּבּוּל",
+    "en": "The One Who punished the people of the generation of the Flood",
+    "st": "<b>He Who exacted payment from the people of the generation of the flood, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "the One Who"
+     },
+     {
+      "he": "שֶׁפָּרַע",
+      "en": "punished"
+     },
+     {
+      "he": "מֵאַנְשֵׁי",
+      "en": "from the people of"
+     },
+     {
+      "he": "דוֹר",
+      "en": "the generation of"
+     },
+     {
+      "he": "הַמַּבּוּל",
+      "en": "the Flood"
+     }
+    ]
+   },
+   {
+    "he": "וּמִדּוֹר הַפַּלָּגָה,",
+    "en": "and the generation of the Tower of Bavel",
+    "st": "<b>and from the generation of the dispersion,</b> i.e., that of the Tower of Babel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִדּוֹר",
+      "en": "and from the generation of"
+     },
+     {
+      "he": "הַפַּלָּגָה,",
+      "en": "the Dispersion"
+     }
+    ]
+   },
+   {
+    "he": "הוּא עָתִיד לְהִפָּרַע",
+    "en": "will punish",
+    "st": "<b>will</b> in the future <b>exact payment </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "He"
+     },
+     {
+      "he": "עָתִיד",
+      "en": "will in the future"
+     },
+     {
+      "he": "לְהִפָּרַע",
+      "en": "punish"
+     }
+    ]
+   },
+   {
+    "he": "מִמִּי שֶׁאֵינוֹ עוֹמֵד בְּדִבּוּרוֹ.",
+    "en": "whoever does not keep his word.",
+    "st": "<b>from whoever does not stand by his statement.</b>",
+    "stMore": "Just as the people of those generations were not punished by an earthly court but were subjected to divine punishment, so too, although no earthly court can compel the person who reneged to complete the transaction, punishment will be exacted at the hand of Heaven for any damage that he caused.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִמִּי",
+      "en": "from whoever"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that does not"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "stand"
+     },
+     {
+      "he": "בְּדִבּוּרוֹ.",
+      "en": "by his word"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּל שֶׁהַכֶּסֶף בְּיָדוֹ,",
+    "en": "whoever has the money in his hand",
+    "st": "<b>Anyone who has the money in his possession </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "שֶׁהַכֶּסֶף",
+      "en": "that the money"
+     },
+     {
+      "he": "בְּיָדוֹ,",
+      "en": "in his hand"
+     }
+    ]
+   },
+   {
+    "he": "יָדוֹ עַל הָעֶלְיוֹנָה:",
+    "en": "has the upper hand.",
+    "explain": "The seller may back out, but the buyer who paid may not.",
+    "st": "<b>has the advantage.</b>",
+    "stMore": "The Sages said it is only with regard to the seller that payment of money does not effect a transaction, so that if the buyer paid for the item and did not yet take possession of the purchase item, the seller can renege on the sale and return the money. By contrast, once the buyer paid for the item he cannot renege on his decision and demand return of his money, even if he did not yet take possession of the purchase item.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָעֶלְיוֹנָה:",
+      "en": "the top"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 3,
+  "summary": "Overcharging means a price off by a sixth, and the buyer can return it until he has time to show a merchant or relative. Rabbi Tarfon ruled a third and a whole day, but the merchants of Lod asked to go back to the Sages' rule.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹנָאָה, אַרְבָּעָה כֶסֶף",
+    "en": "Overcharging is four silver coins",
+    "explain": "Overcharging is selling for too much or too little.",
+    "st": "<b>The</b> measure of <b>exploitation</b> for which one can claim that he was exploited is <b>four silver</b> ma’a",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹנָאָה,",
+      "en": "the overcharging"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "כֶסֶף",
+      "en": "silver coins"
+     }
+    ]
+   },
+   {
+    "he": "מֵעֶשְׂרִים וְאַרְבָּעָה כֶסֶף לַסֶּלַע,",
+    "en": "out of twenty-four silver coins in a sela,",
+    "st": "<b>from</b> the <b>twenty-four silver</b> ma’a <b>in a sela,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵעֶשְׂרִים",
+      "en": "from twenty"
+     },
+     {
+      "he": "וְאַרְבָּעָה",
+      "en": "and four"
+     },
+     {
+      "he": "כֶסֶף",
+      "en": "silver coins"
+     },
+     {
+      "he": "לַסֶּלַע,",
+      "en": "per sela"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתוּת לַמִּקָּח.",
+    "en": "a sixth of the price.",
+    "st": "or <b>one-sixth of the transaction. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתוּת",
+      "en": "a sixth"
+     },
+     {
+      "he": "לַמִּקָּח.",
+      "en": "of the purchase"
+     }
+    ]
+   },
+   {
+    "he": "עַד מָתַי מֻתָּר לְהַחֲזִיר.",
+    "en": "Until when may he return it?",
+    "st": "<b>Until when</b> is it <b>permitted</b> for the buyer <b>to return</b> the item?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "מָתַי",
+      "en": "when"
+     },
+     {
+      "he": "מֻתָּר",
+      "en": "allowed"
+     },
+     {
+      "he": "לְהַחֲזִיר.",
+      "en": "to return"
+     }
+    ]
+   },
+   {
+    "he": "עַד כְּדֵי שֶׁיַּרְאֶה לְתַגָּר אוֹ לִקְרוֹבוֹ.",
+    "en": "Until he has time to show it to a merchant or to his relative.",
+    "explain": "They know the right price.",
+    "st": "He may return it only <b>until a period</b> of time has passed <b>that</b> would allow him to <b>show</b> the merchandise <b>to a merchant or to his relative</b>",
+    "stMore": "who is more familiar with the market price of merchandise. If more time has elapsed he can no longer return the item, as the assumption is that he waived his right to receive the sum of the disparity. The mishna continues:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "enough"
+     },
+     {
+      "he": "שֶׁיַּרְאֶה",
+      "en": "that he can show"
+     },
+     {
+      "he": "לְתַגָּר",
+      "en": "to a merchant"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לִקְרוֹבוֹ.",
+      "en": "to his relative"
+     }
+    ]
+   },
+   {
+    "he": "הוֹרָה רַבִּי טַרְפוֹן בְּלוֹד,",
+    "en": "Rabbi Tarfon taught in Lod:",
+    "st": "<b>Rabbi Tarfon ruled in Lod: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹרָה",
+      "en": "taught"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "בְּלוֹד,",
+      "en": "in Lod"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹנָאָה שְׁמֹנָה כֶסֶף לַסֶּלַע,",
+    "en": "overcharging is eight silver coins for a sela,",
+    "st": "<b>Exploitation</b> is a measure of <b>eight silver</b> ma’a <b>from</b> the <b>twenty-four silver</b> ma’a <b>of a sela, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹנָאָה",
+      "en": "the overcharging"
+     },
+     {
+      "he": "שְׁמֹנָה",
+      "en": "eight"
+     },
+     {
+      "he": "כֶסֶף",
+      "en": "silver coins"
+     },
+     {
+      "he": "לַסֶּלַע,",
+      "en": "per sela"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלִישׁ לַמִּקָּח,",
+    "en": "a third of the price.",
+    "st": "<b>one-third of the transaction. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלִישׁ",
+      "en": "a third"
+     },
+     {
+      "he": "לַמִּקָּח,",
+      "en": "of the purchase"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׂמְחוּ תַגָּרֵי לוֹד.",
+    "en": "And the merchants of Lod were happy.",
+    "explain": "They could charge more without the sale being undone.",
+    "st": "<b>And the merchants of Lod rejoiced,</b>",
+    "stMore": "as this ruling allowed them a greater profit margin and rendered the nullification of a transaction less likely.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׂמְחוּ",
+      "en": "and they were happy"
+     },
+     {
+      "he": "תַגָּרֵי",
+      "en": "the merchants of"
+     },
+     {
+      "he": "לוֹד.",
+      "en": "Lod"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them,",
+    "st": "Rabbi Tarfon <b>said to them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַיּוֹם מֻתָּר לְהַחֲזִיר.",
+    "en": "\"One may return it the whole day.\"",
+    "st": "Throughout <b>the entire day</b> it is permitted <b>to renege</b>",
+    "stMore": "on the transaction and not merely for the period of time it takes to show the purchase item to a merchant or a relative.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַיּוֹם",
+      "en": "the day"
+     },
+     {
+      "he": "מֻתָּר",
+      "en": "allowed"
+     },
+     {
+      "he": "לְהַחֲזִיר.",
+      "en": "to return"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The merchants of Lod <b>said to him: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "יַנִּיחַ לָנוּ רַבִּי טַרְפוֹן בִּמְקוֹמֵנוּ,",
+    "en": "\"Let Rabbi Tarfon leave us the way we were.\"",
+    "st": "<b>Let Rabbi Tarfon leave us as we were,</b> with the previous ruling,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַנִּיחַ",
+      "en": "let leave"
+     },
+     {
+      "he": "לָנוּ",
+      "en": "us"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "בִּמְקוֹמֵנוּ,",
+      "en": "in our place"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזְרוּ לְדִבְרֵי חֲכָמִים:",
+    "en": "And they went back to the words of the Sages.",
+    "st": "<b>and they reverted to</b> following <b>the statement of the Rabbis</b> in the mishna with regard to both rulings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזְרוּ",
+      "en": "and they went back"
+     },
+     {
+      "he": "לְדִבְרֵי",
+      "en": "to the words of"
+     },
+     {
+      "he": "חֲכָמִים:",
+      "en": "the Sages"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 4,
+  "summary": "Both buyers and sellers are protected from overcharging, and Rabbi Yehuda says a merchant is not. The one who was cheated can choose to undo the sale or get back the extra.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֶחָד הַלּוֹקֵחַ וְאֶחָד הַמּוֹכֵר,",
+    "en": "Both the buyer and the seller",
+    "st": "<b>Both the buyer and the seller are</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "הַלּוֹקֵחַ",
+      "en": "the buyer"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַמּוֹכֵר,",
+      "en": "the seller"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ לָהֶן אוֹנָאָה.",
+    "en": "are protected by the law of overcharging.",
+    "st": "subject to the halakhot of <b>exploitation. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "אוֹנָאָה.",
+      "en": "overcharging"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁם שֶׁאוֹנָאָה לְהֶדְיוֹט,",
+    "en": "Just as overcharging counts for a regular person,",
+    "st": "<b>Just as</b> the halakhot of <b>exploitation</b> apply <b>to a layman, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁאוֹנָאָה",
+      "en": "that overcharging"
+     },
+     {
+      "he": "לְהֶדְיוֹט,",
+      "en": "for a regular person"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ אוֹנָאָה לְתַגָּר.",
+    "en": "so it counts for a merchant.",
+    "st": "<b>so</b> do the halakhot of <b>exploitation</b> apply <b>to a merchant. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "אוֹנָאָה",
+      "en": "overcharging"
+     },
+     {
+      "he": "לְתַגָּר.",
+      "en": "for a merchant"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין אוֹנָאָה לְתַגָּר.",
+    "en": "there is no overcharging for a merchant.",
+    "explain": "A merchant knows prices well.",
+    "st": "<b>There is no exploitation for a merchant,</b> as he is an expert in the market price of merchandise.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "אוֹנָאָה",
+      "en": "overcharging"
+     },
+     {
+      "he": "לְתַגָּר.",
+      "en": "for a merchant"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁהֻטַּל עָלָיו,",
+    "en": "The one who was cheated",
+    "st": "<b>The one upon whom</b> the exploitation <b>was imposed </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "the one"
+     },
+     {
+      "he": "שֶׁהֻטַּל",
+      "en": "that was put"
+     },
+     {
+      "he": "עָלָיו,",
+      "en": "on him"
+     }
+    ]
+   },
+   {
+    "he": "יָדוֹ עַל הָעֶלְיוֹנָה,",
+    "en": "has the upper hand.",
+    "st": "<b>has the advantage.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָעֶלְיוֹנָה,",
+      "en": "the top"
+     }
+    ]
+   },
+   {
+    "he": "רָצָה, אוֹמֵר תֶּן לִי מְעוֹתַי,",
+    "en": "If he wants, he says, \"Give me my money back,\"",
+    "st": "If he <b>wishes,</b> he can <b>say to</b> the other: <b>Give me</b> back <b>my money</b> and nullify the transaction,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָצָה,",
+      "en": "he wants"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "he says"
+     },
+     {
+      "he": "תֶּן",
+      "en": "give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "מְעוֹתַי,",
+      "en": "my money"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ תֶן לִי מַה שֶּׁאוֹנִיתַנִי:",
+    "en": "or, \"Give me back the extra you cheated me.\"",
+    "st": "<b>or</b> he can say: <b>Give me</b> back the sum <b>that you</b> gained by <b>exploiting me.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "תֶן",
+      "en": "give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁאוֹנִיתַנִי:",
+      "en": "that you cheated me"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 5,
+  "summary": "How worn down can a sela coin be before using it at full value counts as overcharging? Rabbi Meir, Rabbi Yehuda and Rabbi Shimon each give a different amount.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כַּמָּה תְהֵא הַסֶּלַע חֲסֵרָה",
+    "en": "How much can a sela coin be worn down",
+    "st": "<b>How much can the sela</b> coin <b>be eroded</b> through usage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "תְהֵא",
+      "en": "can be"
+     },
+     {
+      "he": "הַסֶּלַע",
+      "en": "the sela"
+     },
+     {
+      "he": "חֲסֵרָה",
+      "en": "missing"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יְהֵא בָהּ אוֹנָאָה.",
+    "en": "and still not be overcharging?",
+    "st": "<b>and</b> its use in a transaction at its original value <b>will</b> still <b>not constitute exploitation? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "אוֹנָאָה.",
+      "en": "overcharging"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַרְבָּעָה אִסָּרִין,",
+    "en": "four issars,",
+    "explain": "An issar is a small coin.",
+    "st": "The accepted depreciation is <b>four issar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "אִסָּרִין,",
+      "en": "issars"
+     }
+    ]
+   },
+   {
+    "he": "אִסָּר לְדִינָר.",
+    "en": "one issar for each dinar.",
+    "st": "which is a rate of one <b>issar per dinar,</b> or one twenty-fourth of a dinar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִסָּר",
+      "en": "an issar"
+     },
+     {
+      "he": "לְדִינָר.",
+      "en": "per dinar"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>And Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַרְבָּעָה פֻנְדְּיוֹנוֹת,",
+    "en": "four pundyons,",
+    "explain": "A pundyon is worth two issars.",
+    "st": "The accepted depreciation is <b>four pundeyon,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "פֻנְדְּיוֹנוֹת,",
+      "en": "pundyons"
+     }
+    ]
+   },
+   {
+    "he": "פֻּנְדְּיוֹן לְדִינָר.",
+    "en": "one pundyon for each dinar.",
+    "st": "which is a rate of one <b>pundeyon per dinar,</b> or one-twelfth of a dinar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פֻּנְדְּיוֹן",
+      "en": "a pundyon"
+     },
+     {
+      "he": "לְדִינָר.",
+      "en": "per dinar"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>And Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁמֹנָה פֻנְדְּיוֹנוֹת,",
+    "en": "eight pundyons,",
+    "st": "The accepted depreciation is <b>eight pundeyon,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁמֹנָה",
+      "en": "eight"
+     },
+     {
+      "he": "פֻנְדְּיוֹנוֹת,",
+      "en": "pundyons"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵי פֻנְדְּיוֹנוֹת לְדִינָר:",
+    "en": "two pundyons for each dinar.",
+    "st": "which is a rate of <b>two pundeyon per dinar,</b> or one-sixth of a dinar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "פֻנְדְּיוֹנוֹת",
+      "en": "pundyons"
+     },
+     {
+      "he": "לְדִינָר:",
+      "en": "per dinar"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 6,
+  "summary": "The mishnah teaches how long one may return a worn coin. The one who gave it must take it back if he knows it, and such a coin may be used for ma'aser sheni.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עַד מָתַי מֻתָּר לְהַחֲזִיר,",
+    "en": "Until when may he return it?",
+    "st": "The mishna continues: <b>Until when</b> is it <b>permitted</b> for one <b>to return</b> a worn coin once he realizes that it is defective?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "מָתַי",
+      "en": "when"
+     },
+     {
+      "he": "מֻתָּר",
+      "en": "allowed"
+     },
+     {
+      "he": "לְהַחֲזִיר,",
+      "en": "to return"
+     }
+    ]
+   },
+   {
+    "he": "בַּכְּרַכִּים, עַד כְּדֵי שֶׁיַּרְאֶה לְשֻׁלְחָנִי,",
+    "en": "In big cities, until he has time to show it to a money changer.",
+    "st": "<b>In the cities [bakerakim],</b> one may return it only <b>until a period</b> of time has passed <b>that</b> would allow him to <b>show</b> it <b>to a money changer,</b> who is an expert in matters of coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּכְּרַכִּים,",
+      "en": "in the cities"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "enough"
+     },
+     {
+      "he": "שֶׁיַּרְאֶה",
+      "en": "that he can show"
+     },
+     {
+      "he": "לְשֻׁלְחָנִי,",
+      "en": "to a money changer"
+     }
+    ]
+   },
+   {
+    "he": "וּבַכְּפָרִים, עַד עַרְבֵי שַׁבָּתוֹת.",
+    "en": "In villages, until Erev Shabbos.",
+    "explain": "That is when people shop and find out.",
+    "st": "<b>In the villages,</b> where there is no money changer, one may return it only <b>until Shabbat eves,</b>",
+    "stMore": "when people purchase their Shabbat needs. Although these are the limits of how much a coin must be eroded in order for there to be exploitation,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַכְּפָרִים,",
+      "en": "and in the villages"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "עַרְבֵי",
+      "en": "the eves of"
+     },
+     {
+      "he": "שַׁבָּתוֹת.",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיָה מַכִּירָהּ,",
+    "en": "If he recognizes it as his coin,",
+    "st": "<b>if</b> the one who gave the coin to the aggrieved party <b>recognized it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "מַכִּירָהּ,",
+      "en": "recognizing it"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ לְאַחַר שְׁנֵים עָשָׂר חֹדֶשׁ מְקַבְּלָהּ הֵימֶנּוּ,",
+    "en": "he must take it back from him even after twelve months,",
+    "st": "<b>he must accept it</b> back <b>from him even after twelve months</b> have passed no matter how little the erosion affected its value.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "months"
+     },
+     {
+      "he": "מְקַבְּלָהּ",
+      "en": "he accepts it"
+     },
+     {
+      "he": "הֵימֶנּוּ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין לוֹ עָלָיו אֶלָּא תַרְעֹמֶת.",
+    "en": "and he can only complain about him.",
+    "st": "<b>And he has only a grievance against him,</b> as the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and he does not have"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "תַרְעֹמֶת.",
+      "en": "complaint"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתְנָהּ לְמַעֲשֵׂר שֵׁנִי וְאֵינוֹ חוֹשֵׁשׁ,",
+    "en": "And he may use it for ma'aser sheni and not worry,",
+    "explain": "Ma'aser sheni money is used for food in Yerushalayim.",
+    "st": "<b>And</b> one <b>may give</b> the slightly eroded coin <b>for</b> use in the desacralizing <b>of second-tithe</b> produce <b>and he</b> need <b>not be concerned, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתְנָהּ",
+      "en": "and he gives it"
+     },
+     {
+      "he": "לְמַעֲשֵׂר",
+      "en": "for ma'aser"
+     },
+     {
+      "he": "שֵׁנִי",
+      "en": "second"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "חוֹשֵׁשׁ,",
+      "en": "worry"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינוֹ אֶלָּא נֶפֶשׁ רָעָה:",
+    "en": "since only a stingy person would refuse it.",
+    "st": "<b>as</b> one who would refuse to accept a slightly eroded coin <b>is merely a miserly soul,</b> while the coin is in fact valid for any use.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "because it is not"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "נֶפֶשׁ",
+      "en": "a soul"
+     },
+     {
+      "he": "רָעָה:",
+      "en": "bad"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 7,
+  "summary": "The mishnah lists amounts: overcharging, a claim and admission in beis din, and five laws that use a perutah, the smallest coin.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹנָאָה אַרְבָּעָה כֶסֶף,",
+    "en": "Overcharging is four silver coins,",
+    "st": "<b>The</b> measure of <b>exploitation</b> is <b>four silver</b> ma’a from the twenty-four silver ma’a of a sela.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹנָאָה",
+      "en": "the overcharging"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "silver coins"
+     }
+    ]
+   },
+   {
+    "he": "וְהַטַּעֲנָה שְׁתֵּי כֶסֶף,",
+    "en": "a claim in beis din is two silver coins,",
+    "explain": "That is the smallest claim that leads to an oath.",
+    "st": "<b>And the</b> smallest monetary <b>claim</b> in court for which a plaintiff can obligate a respondent to take an oath is <b>two silver</b> ma’a.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַטַּעֲנָה",
+      "en": "and the claim"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "silver coins"
+     }
+    ]
+   },
+   {
+    "he": "וְהַהוֹדָאָה שָׁוֶה פְרוּטָה.",
+    "en": "and an admission is a perutah's worth.",
+    "explain": "A perutah is the smallest coin.",
+    "st": "<b>And the</b> smallest monetary <b>admission</b> for which that respondent takes the oath is an admission that one owes at least <b>the value of one peruta.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַהוֹדָאָה",
+      "en": "and the admission"
+     },
+     {
+      "he": "שָׁוֶה",
+      "en": "worth"
+     },
+     {
+      "he": "פְרוּטָה.",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "חָמֵשׁ פְּרוּטוֹת הֵן.",
+    "en": "There are five things with a perutah:",
+    "st": "On a related note, the tanna adds that <b>there are five</b> halakhic situations involving <b>perutot: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "פְּרוּטוֹת",
+      "en": "perutahs"
+     },
+     {
+      "he": "הֵן.",
+      "en": "they are"
+     }
+    ]
+   },
+   {
+    "he": "הַהוֹדָאָה שָׁוֶה פְרוּטָה,",
+    "en": "An admission is a perutah's worth,",
+    "st": "<b>The admission</b> to part of a claim must be that one owes at least <b>the value of one peruta, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַהוֹדָאָה",
+      "en": "the admission"
+     },
+     {
+      "he": "שָׁוֶה",
+      "en": "worth"
+     },
+     {
+      "he": "פְרוּטָה,",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאִשָּׁה מִתְקַדֶּשֶׁת בְּשָׁוֶה פְרוּטָה,",
+    "en": "a woman can become married with a perutah's worth,",
+    "st": "<b>and a woman is betrothed with the value of one peruta. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאִשָּׁה",
+      "en": "and the woman"
+     },
+     {
+      "he": "מִתְקַדֶּשֶׁת",
+      "en": "becomes married"
+     },
+     {
+      "he": "בְּשָׁוֶה",
+      "en": "with the worth of"
+     },
+     {
+      "he": "פְרוּטָה,",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנֶּהֱנֶה בְשָׁוֶה פְרוּטָה מִן הַהֶקְדֵּשׁ מָעַל,",
+    "en": "one who uses a perutah's worth of hekdesh did me'ilah,",
+    "explain": "Hekdesh is what belongs to the Beis HaMikdash; me'ilah is misusing it.",
+    "st": "<b>And one who derives benefit</b> of <b>the value of one peruta from consecrated</b> property has <b>misused</b> consecrated property and is liable to bring an offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנֶּהֱנֶה",
+      "en": "and the one who benefits"
+     },
+     {
+      "he": "בְשָׁוֶה",
+      "en": "with the worth of"
+     },
+     {
+      "he": "פְרוּטָה",
+      "en": "a perutah"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַהֶקְדֵּשׁ",
+      "en": "the hekdesh"
+     },
+     {
+      "he": "מָעַל,",
+      "en": "did me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמּוֹצֵא שָׁוֶה פְרוּטָה חַיָּב לְהַכְרִיז,",
+    "en": "one who finds a perutah's worth must announce it,",
+    "st": "<b>and one who finds</b> an item that has <b>the value of one peruta is obligated to proclaim</b> that he found it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמּוֹצֵא",
+      "en": "and the one who finds"
+     },
+     {
+      "he": "שָׁוֶה",
+      "en": "worth"
+     },
+     {
+      "he": "פְרוּטָה",
+      "en": "a perutah"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "must"
+     },
+     {
+      "he": "לְהַכְרִיז,",
+      "en": "announce"
+     }
+    ]
+   },
+   {
+    "he": "וְהַגּוֹזֵל אֶת חֲבֵרוֹ שָׁוֶה פְרוּטָה",
+    "en": "and if someone robs a perutah's worth from his friend",
+    "st": "<b>And</b> with regard to <b>one who robs from another</b> an item that has <b>the value of one peruta </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַגּוֹזֵל",
+      "en": "and the one who robs"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "שָׁוֶה",
+      "en": "worth"
+     },
+     {
+      "he": "פְרוּטָה",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "וְנִשְׁבַּע לוֹ,",
+    "en": "and swears falsely to him,",
+    "st": "<b>and took an oath to him</b>",
+    "stMore": "that he robbed nothing, when he repents and seeks to return the stolen item",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִשְׁבַּע",
+      "en": "and he swore"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "יוֹלִיכֶנּוּ אַחֲרָיו אֲפִלּוּ לְמָדָי:",
+    "en": "he must bring it to him, even as far as Madai.",
+    "explain": "Madai is a far-away land.",
+    "st": "<b>he must take</b> it and <b>follow</b> its owner <b>even to Media.</b>",
+    "stMore": "In that case, he may not return the item by means of a messenger; he must give it directly to its owner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹלִיכֶנּוּ",
+      "en": "he must bring it"
+     },
+     {
+      "he": "אַחֲרָיו",
+      "en": "after him"
+     },
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "לְמָדָי:",
+      "en": "to Madai"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 8,
+  "summary": "There are five times when someone must add a fifth to what he pays, like when he eats terumah by mistake, redeems his own ma'aser sheni or hekdesh, or robs and swears falsely.",
+  "stIntro": "In this mishna, as in the previous one, the tanna enumerates several halakhot that share a common element.",
+  "chunks": [
+   {
+    "he": "חֲמִשָּׁה חֻמְשִׁין הֵן.",
+    "en": "There are five times one adds a fifth:",
+    "st": "<b>There are five</b> halakhic situations where <b>one-fifth</b> is added to the value of the principal, and <b>these are they:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "חֻמְשִׁין",
+      "en": "fifths"
+     },
+     {
+      "he": "הֵן.",
+      "en": "they are"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹכֵל תְּרוּמָה,",
+    "en": "One who eats terumah,",
+    "explain": "A person who is not a Kohen ate it by mistake.",
+    "st": "A non-priest <b>who eats</b> either <b>teruma, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹכֵל",
+      "en": "the one who eats"
+     },
+     {
+      "he": "תְּרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "וּתְרוּמַת מַעֲשֵׂר,",
+    "en": "or terumas ma'aser,",
+    "explain": "The Levi gives this part of his ma'aser to a Kohen.",
+    "st": "<b>or teruma of the tithe,</b> which the Levite separates from the first tithe and gives to a priest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְרוּמַת",
+      "en": "and terumah of"
+     },
+     {
+      "he": "מַעֲשֵׂר,",
+      "en": "ma'aser"
+     }
+    ]
+   },
+   {
+    "he": "וּתְרוּמַת מַעֲשֵׂר שֶׁל דְּמַאי,",
+    "en": "or terumas ma'aser from demai,",
+    "explain": "Demai is food that may not have been tithed.",
+    "st": "<b>or teruma of the tithe of demai, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְרוּמַת",
+      "en": "and terumah of"
+     },
+     {
+      "he": "מַעֲשֵׂר",
+      "en": "ma'aser"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "דְּמַאי,",
+      "en": "demai"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחַלָּה, וְהַבִּכּוּרִים מוֹסִיף חֹמֶשׁ.",
+    "en": "or challah, or bikkurim, adds a fifth.",
+    "st": "<b>or ḥalla, or first fruits;</b> in each of these cases, <b>he adds one-fifth</b> when paying restitution to the priest who owned the produce.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחַלָּה,",
+      "en": "and the challah"
+     },
+     {
+      "he": "וְהַבִּכּוּרִים",
+      "en": "and the bikkurim"
+     },
+     {
+      "he": "מוֹסִיף",
+      "en": "adds"
+     },
+     {
+      "he": "חֹמֶשׁ.",
+      "en": "a fifth"
+     }
+    ]
+   },
+   {
+    "he": "וְהַפּוֹדֶה נֶטַע רְבָעִי וּמַעֲשֵׂר שֵׁנִי שֶׁלּוֹ,",
+    "en": "And one who redeems his own fourth-year fruit or ma'aser sheni",
+    "explain": "To redeem is to move its holiness onto money.",
+    "st": "<b>And one who redeems his</b> own fruit of <b>a fourth-year sapling or second-tithe</b> produce",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַפּוֹדֶה",
+      "en": "and the one who redeems"
+     },
+     {
+      "he": "נֶטַע",
+      "en": "fruit of a tree"
+     },
+     {
+      "he": "רְבָעִי",
+      "en": "fourth year"
+     },
+     {
+      "he": "וּמַעֲשֵׂר",
+      "en": "and ma'aser"
+     },
+     {
+      "he": "שֵׁנִי",
+      "en": "second"
+     },
+     {
+      "he": "שֶׁלּוֹ,",
+      "en": "his own"
+     }
+    ]
+   },
+   {
+    "he": "מוֹסִיף חֹמֶשׁ.",
+    "en": "adds a fifth.",
+    "st": "<b>adds one-fifth. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹסִיף",
+      "en": "adds"
+     },
+     {
+      "he": "חֹמֶשׁ.",
+      "en": "a fifth"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹדֶה אֶת הֶקְדֵּשׁוֹ,",
+    "en": "One who redeems his own hekdesh",
+    "st": "<b>One who redeems his</b> own <b>consecrated</b> property",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹדֶה",
+      "en": "the one who redeems"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הֶקְדֵּשׁוֹ,",
+      "en": "his hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "מוֹסִיף חֹמֶשׁ.",
+    "en": "adds a fifth.",
+    "st": "<b>adds one-fifth. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹסִיף",
+      "en": "adds"
+     },
+     {
+      "he": "חֹמֶשׁ.",
+      "en": "a fifth"
+     }
+    ]
+   },
+   {
+    "he": "הַנֶּהֱנֶה בְשָׁוֶה פְרוּטָה מִן הַהֶקְדֵּשׁ,",
+    "en": "One who uses a perutah's worth of hekdesh",
+    "st": "<b>One who derives benefit worth one peruta from consecrated</b> property",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנֶּהֱנֶה",
+      "en": "the one who benefits"
+     },
+     {
+      "he": "בְשָׁוֶה",
+      "en": "with the worth of"
+     },
+     {
+      "he": "פְרוּטָה",
+      "en": "a perutah"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַהֶקְדֵּשׁ,",
+      "en": "the hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "מוֹסִיף חֹמֶשׁ.",
+    "en": "adds a fifth.",
+    "st": "<b>adds one-fifth. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹסִיף",
+      "en": "adds"
+     },
+     {
+      "he": "חֹמֶשׁ.",
+      "en": "a fifth"
+     }
+    ]
+   },
+   {
+    "he": "וְהַגּוֹזֵל אֶת חֲבֵרוֹ שָׁוֶה פְרוּטָה",
+    "en": "And one who robs a perutah's worth from his friend",
+    "st": "<b>And one who robs the value of one peruta from another </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַגּוֹזֵל",
+      "en": "and the one who robs"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "שָׁוֶה",
+      "en": "worth"
+     },
+     {
+      "he": "פְרוּטָה",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "וְנִשְׁבַּע לוֹ,",
+    "en": "and swears falsely to him",
+    "st": "<b>and takes</b> a false <b>oath</b> in response <b>to his</b> claim",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִשְׁבַּע",
+      "en": "and he swore"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מוֹסִיף חֹמֶשׁ:",
+    "en": "adds a fifth.",
+    "st": "<b>adds one-fifth</b> when paying restitution.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹסִיף",
+      "en": "adds"
+     },
+     {
+      "he": "חֹמֶשׁ:",
+      "en": "a fifth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 9,
+  "summary": "Some things, like servants, documents, land and hekdesh, do not follow the rules of overcharging, double payment, or the watchmen's rules. The Tannaim argue about korbanos, a Sefer Torah, an animal and a pearl.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ דְבָרִים שֶׁאֵין לָהֶם אוֹנָאָה.",
+    "en": "These are things that have no overcharging:",
+    "st": "<b>These are matters that are not</b> subject to the halakhot of <b>exploitation</b>",
+    "stMore": "even if the disparity between the value and the payment is one-sixth or greater:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אוֹנָאָה.",
+      "en": "overcharging"
+     }
+    ]
+   },
+   {
+    "he": "הָעֲבָדִים, וְהַשְּׁטָרוֹת,",
+    "en": "servants, documents,",
+    "st": "<b>Slaves, and documents, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֲבָדִים,",
+      "en": "the servants"
+     },
+     {
+      "he": "וְהַשְּׁטָרוֹת,",
+      "en": "and the documents"
+     }
+    ]
+   },
+   {
+    "he": "וְהַקַּרְקָעוֹת, וְהַהֶקְדֵּשׁוֹת.",
+    "en": "land, and hekdesh.",
+    "st": "<b>and land, and consecrated</b> property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַקַּרְקָעוֹת,",
+      "en": "and the lands"
+     },
+     {
+      "he": "וְהַהֶקְדֵּשׁוֹת.",
+      "en": "and the hekdesh things"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לָהֶן לֹא תַשְׁלוּמֵי כֶפֶל",
+    "en": "They have no double payment,",
+    "st": "In addition, if they are stolen, these items are subject <b>neither</b> to <b>payment of double</b> the principal for theft",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תַשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "כֶפֶל",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא תַשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה,",
+    "en": "and no payment of four or five.",
+    "st": "<b>nor</b> to <b>payment of four or five</b>",
+    "stMore": "times the principal, if the thief slaughtered or sold a stolen sheep or cow, respectively.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תַשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה,",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמֵר חִנָּם אֵינוֹ נִשְׁבָּע,",
+    "en": "A free watchman does not swear for them,",
+    "st": "<b>An unpaid bailee does not take an oath </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמֵר",
+      "en": "a watchman"
+     },
+     {
+      "he": "חִנָּם",
+      "en": "for free"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "נִשְׁבָּע,",
+      "en": "swear"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹשֵׂא שָׂכָר אֵינוֹ מְשַׁלֵּם.",
+    "en": "and a paid watchman does not pay.",
+    "st": "<b>and a paid bailee does not pay</b> if these items were stolen or lost.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹשֵׂא",
+      "en": "and one who gets"
+     },
+     {
+      "he": "שָׂכָר",
+      "en": "pay"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "מְשַׁלֵּם.",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "קָדָשִׁים שֶׁהוּא חַיָּב בְּאַחֲרָיוּתָן,",
+    "en": "korbanos that he must replace if lost",
+    "st": "With regard to <b>sacrificial animals for which one bears responsibility</b> to replace <b>them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדָשִׁים",
+      "en": "holy things"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is obligated"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָן,",
+      "en": "in their responsibility"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ לָהֶן אוֹנָאָה,",
+    "en": "have overcharging,",
+    "st": "<b>they are</b> subject to the halakhot of <b>exploitation,</b> as this responsibility indicates a certain aspect of ownership.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "אוֹנָאָה,",
+      "en": "overcharging"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁאֵינוֹ חַיָּב בְּאַחֲרָיוּתָן,",
+    "en": "and those he does not have to replace",
+    "st": "<b>And</b> those <b>for which one does not bear responsibility</b> to replace <b>them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁאֵינוֹ",
+      "en": "and that he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָן,",
+      "en": "in their responsibility"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לָהֶן אוֹנָאָה.",
+    "en": "have no overcharging.",
+    "st": "<b>they are not</b> subject to the halakhot of <b>exploitation. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "אוֹנָאָה.",
+      "en": "overcharging"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הַמּוֹכֵר סֵפֶר תּוֹרָה,",
+    "en": "even one who sells a Sefer Torah,",
+    "st": "<b>Even</b> in the case of <b>one who sells a Torah scroll, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "הַמּוֹכֵר",
+      "en": "the one who sells"
+     },
+     {
+      "he": "סֵפֶר",
+      "en": "a Sefer"
+     },
+     {
+      "he": "תּוֹרָה,",
+      "en": "Torah"
+     }
+    ]
+   },
+   {
+    "he": "בְּהֵמָה וּמַרְגָּלִית,",
+    "en": "an animal, or a pearl,",
+    "st": "<b>an animal, or a pearl,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "וּמַרְגָּלִית,",
+      "en": "and a pearl"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לָהֶם אוֹנָאָה.",
+    "en": "there is no overcharging for them.",
+    "explain": "They have no set price.",
+    "st": "these items <b>are not</b> subject to the halakhot of <b>exploitation,</b> as they have no fixed price.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אוֹנָאָה.",
+      "en": "overcharging"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמְרוּ אֶלָּא אֶת אֵלּוּ:",
+    "en": "\"They said only these.\"",
+    "st": "The early Sages <b>stated</b> that <b>only these</b> items listed above are not subject to the halakhot of exploitation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֵלּוּ:",
+      "en": "these"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 10,
+  "summary": "Hurting someone with words is like cheating him in a sale. Do not ask a price when you do not want to buy, and do not remind a ba'al teshuvah or a child of geirim of their past.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כְּשֵׁם שֶׁאוֹנָאָה בְמִקָּח וּמִמְכָּר,",
+    "en": "Just as there is cheating in buying and selling,",
+    "st": "<b>Just as</b> there is a prohibition against <b>exploitation [ona’a] in buying and selling, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁאוֹנָאָה",
+      "en": "that cheating"
+     },
+     {
+      "he": "בְמִקָּח",
+      "en": "in buying"
+     },
+     {
+      "he": "וּמִמְכָּר,",
+      "en": "and selling"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ אוֹנָאָה בִדְבָרִים.",
+    "en": "so there is cheating with words.",
+    "explain": "Saying things that hurt someone's feelings.",
+    "st": "<b>so is there ona’a in statements,</b>",
+    "stMore": "i.e., verbal mistreatment. The mishna proceeds to cite examples of verbal mistreatment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "אוֹנָאָה",
+      "en": "cheating"
+     },
+     {
+      "he": "בִדְבָרִים.",
+      "en": "with words"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יֹאמַר לוֹ בְּכַמָּה חֵפֶץ זֶה,",
+    "en": "One should not ask the seller, \"How much is this thing?\"",
+    "st": "<b>One may not say to</b> a seller: <b>For how much</b> are you selling <b>this item, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "he should say"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בְּכַמָּה",
+      "en": "for how much"
+     },
+     {
+      "he": "חֵפֶץ",
+      "en": "thing"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אֵינוֹ רוֹצֶה לִקַּח.",
+    "en": "when he does not want to buy.",
+    "st": "<b>if he does not wish to purchase</b>",
+    "stMore": "it. He thereby upsets the seller when the deal fails to materialize. The mishna lists other examples:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "רוֹצֶה",
+      "en": "want"
+     },
+     {
+      "he": "לִקַּח.",
+      "en": "to buy"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיָה בַעַל תְּשׁוּבָה,",
+    "en": "If someone did teshuvah,",
+    "st": "<b>If one is a penitent,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "בַעַל",
+      "en": "a master of"
+     },
+     {
+      "he": "תְּשׁוּבָה,",
+      "en": "teshuvah"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יֹאמַר לוֹ זְכֹר מַעֲשֶׂיךָ הָרִאשׁוֹנִים.",
+    "en": "one should not tell him, \"Remember what you used to do.\"",
+    "st": "another <b>may not say to him: Remember your earlier deeds. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "he should say"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "זְכֹר",
+      "en": "remember"
+     },
+     {
+      "he": "מַעֲשֶׂיךָ",
+      "en": "your deeds"
+     },
+     {
+      "he": "הָרִאשׁוֹנִים.",
+      "en": "the earlier ones"
+     }
+    ]
+   },
+   {
+    "he": "אִם הוּא בֶן גֵּרִים,",
+    "en": "If someone's parents were geirim,",
+    "explain": "Geirim are people who became Jewish.",
+    "st": "<b>If one is the child of converts,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הוּא",
+      "en": "he is"
+     },
+     {
+      "he": "בֶן",
+      "en": "a son of"
+     },
+     {
+      "he": "גֵּרִים,",
+      "en": "geirim"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יֹאמַר לוֹ זְכֹר מַעֲשֵׂה אֲבוֹתֶיךָ,",
+    "en": "one should not tell him, \"Remember what your fathers did,\"",
+    "st": "another <b>may not say to him: Remember the deeds of your ancestors, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "he should say"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "זְכֹר",
+      "en": "remember"
+     },
+     {
+      "he": "מַעֲשֵׂה",
+      "en": "the deeds of"
+     },
+     {
+      "he": "אֲבוֹתֶיךָ,",
+      "en": "your fathers"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמות כב)",
+    "en": "as it says,",
+    "st": "<b>as it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כב)",
+      "en": "22)"
+     }
+    ]
+   },
+   {
+    "he": "וְגֵר לֹא תוֹנֶה",
+    "en": "\"Do not hurt a ger",
+    "st": "<b>“And a convert shall you neither mistreat, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְגֵר",
+      "en": "and a ger"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תוֹנֶה",
+      "en": "you shall hurt"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא תִלְחָצֶנּוּ:",
+    "en": "and do not press him.\"",
+    "st": "<b>nor shall you oppress him”</b> (Exodus 22:20).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תִלְחָצֶנּוּ:",
+      "en": "you shall press him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 11,
+  "summary": "A seller may not mix fruit from different places to trick buyers, but may mix wines to make them better. Watered wine may be sold only if the buyer is told, and never to a merchant, unless that is the local custom.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין מְעָרְבִין פֵּרוֹת בְּפֵרוֹת,",
+    "en": "One may not mix fruit with fruit,",
+    "st": "<b>One may not intermingle produce</b> bought from one supplier <b>with</b> other <b>produce, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְעָרְבִין",
+      "en": "mix"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruit"
+     },
+     {
+      "he": "בְּפֵרוֹת,",
+      "en": "with fruit"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ חֲדָשִׁים בַּחֲדָשִׁים,",
+    "en": "even new with new,",
+    "st": "<b>even</b> if he intermingles <b>new</b> produce <b>with</b> other <b>new</b> produce and ostensibly the buyer suffers no loss from his doing so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "חֲדָשִׁים",
+      "en": "new"
+     },
+     {
+      "he": "בַּחֲדָשִׁים,",
+      "en": "with new"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין צָרִיךְ לוֹמַר חֲדָשִׁים בִּישָׁנִים.",
+    "en": "and of course not new with old.",
+    "st": "<b>And needless to say,</b> one may not intermingle <b>new</b> produce <b>with old</b>",
+    "stMore": "produce, in the event that the old produce is superior, as with grains, since intermingling lowers its value.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "צָרִיךְ",
+      "en": "need"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "חֲדָשִׁים",
+      "en": "new"
+     },
+     {
+      "he": "בִּישָׁנִים.",
+      "en": "with old"
+     }
+    ]
+   },
+   {
+    "he": "בֶּאֱמֶת, בְּיַיִן הִתִּירוּ לְעָרֵב קָשֶׁה בְרַךְ,",
+    "en": "Really, for wine they allowed mixing strong with weak,",
+    "st": "<b>Actually, they said: With regard to wine, they permitted one to mix strong</b> wine <b>with weak</b> wine,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּאֱמֶת,",
+      "en": "truly"
+     },
+     {
+      "he": "בְּיַיִן",
+      "en": "with wine"
+     },
+     {
+      "he": "הִתִּירוּ",
+      "en": "they allowed"
+     },
+     {
+      "he": "לְעָרֵב",
+      "en": "to mix"
+     },
+     {
+      "he": "קָשֶׁה",
+      "en": "strong"
+     },
+     {
+      "he": "בְרַךְ,",
+      "en": "with soft"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא מַשְׁבִּיחוֹ.",
+    "en": "because it makes it better.",
+    "st": "<b>because one</b> thereby <b>enhances it. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "מַשְׁבִּיחוֹ.",
+      "en": "improves it"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְעָרְבִין שִׁמְרֵי יַיִן בְּיַיִן,",
+    "en": "One may not mix wine dregs into wine,",
+    "st": "<b>One may not</b> intentionally <b>mix wine sediment with the wine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְעָרְבִין",
+      "en": "mix"
+     },
+     {
+      "he": "שִׁמְרֵי",
+      "en": "dregs of"
+     },
+     {
+      "he": "יַיִן",
+      "en": "wine"
+     },
+     {
+      "he": "בְּיַיִן,",
+      "en": "into wine"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל נוֹתֵן לוֹ אֶת שְׁמָרָיו.",
+    "en": "but he may give him its own dregs.",
+    "st": "<b>but one may give</b> the buyer wine with <b>its sediment;</b> the seller is not required to filter the wine.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שְׁמָרָיו.",
+      "en": "its dregs"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁנִּתְעָרֵב מַיִם בְּיֵינוֹ,",
+    "en": "If water got mixed into someone's wine,",
+    "st": "<b>One who</b> had <b>water mix with his wine </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁנִּתְעָרֵב",
+      "en": "that got mixed"
+     },
+     {
+      "he": "מַיִם",
+      "en": "water"
+     },
+     {
+      "he": "בְּיֵינוֹ,",
+      "en": "into his wine"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִמְכְּרֶנּוּ בַחֲנוּת אֶלָּא",
+    "en": "he should not sell it in a store unless",
+    "st": "<b>may not sell it in the store, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִמְכְּרֶנּוּ",
+      "en": "he should sell it"
+     },
+     {
+      "he": "בַחֲנוּת",
+      "en": "in a store"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "unless"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן הוֹדִיעוֹ,",
+    "en": "he tells the buyer.",
+    "st": "<b>unless he informs</b> the buyer that it contains water.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "הוֹדִיעוֹ,",
+      "en": "he told him"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא לְתַגָּר אַף עַל פִּי שֶׁהוֹדִיעוֹ,",
+    "en": "And not to a merchant, even if he tells him,",
+    "st": "<b>And he may not</b> sell it <b>to a merchant, even if he informs him</b> of the mixture,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְתַגָּר",
+      "en": "to a merchant"
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(even though)"
+     },
+     {
+      "he": "שֶׁהוֹדִיעוֹ,",
+      "en": "that he told him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינוֹ אֶלָּא לְרַמּוֹת בּוֹ.",
+    "en": "because it will only be used to trick people.",
+    "st": "<b>as,</b> although he is aware that there is water mixed with the wine, <b>it</b> will be used <b>for nothing other than deceit</b>",
+    "stMore": "because the merchant will likely not inform the buyer that it is diluted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "because it is not"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "לְרַמּוֹת",
+      "en": "to trick"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁנָּהֲגוּ לְהַטִּיל מַיִם בַּיַּיִן, יַטִּילוּ:",
+    "en": "Where people usually put water in wine, they may put it in.",
+    "st": "In <b>a place where they are accustomed to place water into the wine</b> to dilute it and everyone is aware of that fact, <b>one may place</b> water in the wine.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "that they are used"
+     },
+     {
+      "he": "לְהַטִּיל",
+      "en": "to put"
+     },
+     {
+      "he": "מַיִם",
+      "en": "water"
+     },
+     {
+      "he": "בַּיַּיִן,",
+      "en": "in the wine"
+     },
+     {
+      "he": "יַטִּילוּ:",
+      "en": "they may put"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 12,
+  "summary": "A merchant may store grain or wine from different people together if he does not mean to trick anyone. The Sages discuss giving treats to children, lowering prices, sifting beans, and dressing up things to sell.",
+  "stIntro": "The prohibition against mixing different types of produce applies only to an individual selling the produce of his field. By contrast,",
+  "chunks": [
+   {
+    "he": "הַתַּגָּר נוֹטֵל מֵחָמֵשׁ גְּרָנוֹת",
+    "en": "A merchant may take from five threshing floors",
+    "st": "<b>a merchant may take</b> grain <b>from five threshing floors</b> belonging to different people,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַתַּגָּר",
+      "en": "the merchant"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "מֵחָמֵשׁ",
+      "en": "from five"
+     },
+     {
+      "he": "גְּרָנוֹת",
+      "en": "threshing floors"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתֵן לְתוֹךְ מְגוּרָה אַחַת.",
+    "en": "and put it in one storehouse.",
+    "st": "<b>and place</b> the produce <b>in one warehouse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and puts"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "מְגוּרָה",
+      "en": "storehouse"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מֵחָמֵשׁ גִּתּוֹת,",
+    "en": "From five winepresses",
+    "st": "He may also take wine <b>from five winepresses </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵחָמֵשׁ",
+      "en": "from five"
+     },
+     {
+      "he": "גִּתּוֹת,",
+      "en": "winepresses"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתֵן לְתוֹךְ פִּטָּם אֶחָד.",
+    "en": "into one barrel,",
+    "st": "<b>and place</b> the wine <b>in one large cask [pitom], </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and puts"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "פִּטָּם",
+      "en": "barrel"
+     },
+     {
+      "he": "אֶחָד.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁלֹּא יְהֵא מִתְכַּוֵּן לְעָרֵב.",
+    "en": "as long as he does not mean to mix bad with good.",
+    "st": "<b>provided that he does not intend to mix</b> low-quality merchandise with high-quality merchandise.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "and only"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "מִתְכַּוֵּן",
+      "en": "intending"
+     },
+     {
+      "he": "לְעָרֵב.",
+      "en": "to mix"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יְחַלֵּק הַחֶנְוָנִי קְלָיוֹת וֶאֱגוֹזִין לַתִּינוֹקוֹת,",
+    "en": "A storekeeper should not hand out roasted grain and nuts to children,",
+    "st": "<b>A storekeeper may not hand out toasted grain and nuts to children</b> who patronize his store,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יְחַלֵּק",
+      "en": "should hand out"
+     },
+     {
+      "he": "הַחֶנְוָנִי",
+      "en": "the storekeeper"
+     },
+     {
+      "he": "קְלָיוֹת",
+      "en": "roasted grain"
+     },
+     {
+      "he": "וֶאֱגוֹזִין",
+      "en": "and nuts"
+     },
+     {
+      "he": "לַתִּינוֹקוֹת,",
+      "en": "to the children"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא מַרְגִּילָן לָבֹא אֶצְלוֹ.",
+    "en": "because he gets them used to coming to him.",
+    "explain": "Then they will not go to other stores.",
+    "st": "<b>due to</b> the fact <b>that he</b> thereby <b>accustoms them to come to him</b> at the expense of competing storekeepers.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מַרְגִּילָן",
+      "en": "gets them used"
+     },
+     {
+      "he": "לָבֹא",
+      "en": "to come"
+     },
+     {
+      "he": "אֶצְלוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מַתִּירִין.",
+    "en": "But the Sages allow it.",
+    "st": "<b>And the Rabbis permit</b> doing so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מַתִּירִין.",
+      "en": "allow"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יִפְחֹת אֶת הַשָּׁעַר.",
+    "en": "And he should not lower the price.",
+    "st": "<b>And one may not reduce</b> the price of sale items below <b>the</b> market <b>rate. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יִפְחֹת",
+      "en": "he should lower"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשָּׁעַר.",
+      "en": "the price"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "זָכוּר לָטוֹב.",
+    "en": "he should be remembered for good.",
+    "explain": "Cheaper prices help poor people.",
+    "st": "If he wishes to do so, he should be <b>remembered positively.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכוּר",
+      "en": "remembered"
+     },
+     {
+      "he": "לָטוֹב.",
+      "en": "for good"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יָבֹר אֶת הַגְּרִיסִין,",
+    "en": "He should not sift the ground beans;",
+    "explain": "Then he might charge more than they are worth.",
+    "st": "One <b>may not sift ground beans</b>",
+    "stMore": "to remove the waste, lest he charge an inappropriately high price for the sifted meal, beyond its actual value;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָבֹר",
+      "en": "he should sift"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגְּרִיסִין,",
+      "en": "the ground beans"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי אַבָּא שָׁאוּל.",
+    "en": "these are the words of Abba Shaul.",
+    "st": "this is <b>the statement of Abba Shaul. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "אַבָּא",
+      "en": "Abba"
+     },
+     {
+      "he": "שָׁאוּל.",
+      "en": "Shaul"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מַתִּירִין.",
+    "en": "But the Sages allow it.",
+    "st": "<b>And the Rabbis permit</b> doing so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מַתִּירִין.",
+      "en": "allow"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹדִים שֶׁלֹּא יָבֹר מֵעַל פִּי מְגוּרָה,",
+    "en": "And they agree he should not sift just the top of the bin,",
+    "st": "<b>And</b> the Rabbis <b>concede that one may not sift</b> the meal only <b>from</b> the beans that are close to <b>the opening of the bin</b>",
+    "stMore": "to create the impression that the contents of the entire bin were sifted,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹדִים",
+      "en": "and they agree"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יָבֹר",
+      "en": "he should sift"
+     },
+     {
+      "he": "מֵעַל",
+      "en": "from on"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "מְגוּרָה,",
+      "en": "the bin"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינוֹ אֶלָּא כְגוֹנֵב אֶת הָעָיִן.",
+    "en": "because that is just fooling the eye.",
+    "st": "<b>as this is nothing other than deception. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "because it is not"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "כְגוֹנֵב",
+      "en": "like stealing"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעָיִן.",
+      "en": "the eye"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְפַרְכְּסִין לֹא אֶת הָאָדָם",
+    "en": "We do not dress up a person,",
+    "explain": "To make something look better than it is when selling it.",
+    "st": "<b>One may neither adorn a person</b> before selling him on the slave market,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְפַרְכְּסִין",
+      "en": "dress up"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאָדָם",
+      "en": "the person"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַבְּהֵמָה וְלֹא אֶת הַכֵּלִים:",
+    "en": "or an animal, or vessels.",
+    "st": "<b>nor an animal nor vessels</b>",
+    "stMore": "that he seeks to sell. Rather, they must be sold unembellished, to avoid deceiving the buyer.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּהֵמָה",
+      "en": "the animal"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֵּלִים:",
+      "en": "the vessels"
+     }
+    ]
+   }
+  ]
+ }
+]

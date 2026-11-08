@@ -1,0 +1,2438 @@
+[
+ {
+  "perek": 6,
+  "mishnah": 1,
+  "summary": "If someone locks his sheep in their pen properly and they get out and do damage, he does not pay. If he did not lock it properly, he pays. If robbers took them out, the robbers pay.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַכּוֹנֵס צֹאן לַדִּיר,",
+    "en": "Someone who brings sheep into the pen,",
+    "st": "In the case of <b>one who brought</b> his flock of <b>sheep into the pen</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכּוֹנֵס",
+      "en": "the one who brings in"
+     },
+     {
+      "he": "צֹאן",
+      "en": "sheep"
+     },
+     {
+      "he": "לַדִּיר,",
+      "en": "to the pen"
+     }
+    ]
+   },
+   {
+    "he": "וְנָעַל בְּפָנֶיהָ כָּרָאוּי,",
+    "en": "and locks the door in front of them properly,",
+    "st": "<b>and locked</b> the door <b>before it</b> in a manner that is <b>appropriate,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָעַל",
+      "en": "and locked"
+     },
+     {
+      "he": "בְּפָנֶיהָ",
+      "en": "before it"
+     },
+     {
+      "he": "כָּרָאוּי,",
+      "en": "properly"
+     }
+    ]
+   },
+   {
+    "he": "וְיָצְאָה וְהִזִּיקָה,",
+    "en": "and they got out and did damage,",
+    "st": "<b>and</b> despite this sheep <b>went out and caused damage</b> in another person’s field by eating produce or trampling it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָצְאָה",
+      "en": "and it went out"
+     },
+     {
+      "he": "וְהִזִּיקָה,",
+      "en": "and damaged"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. לֹא נָעַל בְּפָנֶיהָ כָּרָאוּי,",
+    "en": "does not pay. If he did not lock it properly,",
+    "st": "the owner is <b>exempt,</b> since he safeguarded the animals appropriately. If <b>he did not lock</b> the door <b>before</b> the sheep in a manner that is <b>appropriate,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָעַל",
+      "en": "he locked"
+     },
+     {
+      "he": "בְּפָנֶיהָ",
+      "en": "before it"
+     },
+     {
+      "he": "כָּרָאוּי,",
+      "en": "properly"
+     }
+    ]
+   },
+   {
+    "he": "וְיָצְאָה וְהִזִּיקָה,",
+    "en": "and they got out and did damage,",
+    "st": "<b>and</b> sheep <b>went out and caused damage,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָצְאָה",
+      "en": "and it went out"
+     },
+     {
+      "he": "וְהִזִּיקָה,",
+      "en": "and damaged"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. נִפְרְצָה בַלַּיְלָה אוֹ שֶׁפְּרָצוּהָ לִסְטִים,",
+    "en": "he must pay. If the wall broke at night, or robbers broke it,",
+    "st": "the owner is <b>liable,</b> since his negligence led to the damage. If the owner locked the door appropriately but the wall of the pen <b>was breached at night, or bandits breached it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "נִפְרְצָה",
+      "en": "it was broken through"
+     },
+     {
+      "he": "בַלַּיְלָה",
+      "en": "at night"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁפְּרָצוּהָ",
+      "en": "that broke it"
+     },
+     {
+      "he": "לִסְטִים,",
+      "en": "robbers"
+     }
+    ]
+   },
+   {
+    "he": "וְיָצְאָה וְהִזִּיקָה,",
+    "en": "and they got out and did damage,",
+    "st": "<b>and</b> sheep subsequently <b>went out and caused damage</b> by eating or trampling,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָצְאָה",
+      "en": "and it went out"
+     },
+     {
+      "he": "וְהִזִּיקָה,",
+      "en": "and damaged"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. הוֹצִיאוּהָ לִסְטִים,",
+    "en": "he does not pay. If robbers took them out,",
+    "st": "the owner of the sheep is <b>exempt</b> from liability. If the <b>bandits</b> themselves <b>took</b> the sheep <b>out</b> of the pen and the animals subsequently caused damage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "הוֹצִיאוּהָ",
+      "en": "took it out"
+     },
+     {
+      "he": "לִסְטִים,",
+      "en": "robbers"
+     }
+    ]
+   },
+   {
+    "he": "לִסְטִים חַיָּבִים:",
+    "en": "the robbers must pay.",
+    "st": "the <b>bandits</b> are <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִסְטִים",
+      "en": "robbers"
+     },
+     {
+      "he": "חַיָּבִים:",
+      "en": "are obligated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 2,
+  "summary": "More rules about an animal that gets out and eats or ruins things in a garden, and how the damage is measured. Rabbi Shimon says that if it ate ripe food, the owner pays for exactly what it ate.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הִנִּיחָהּ בַּחַמָּה,",
+    "en": "If he left it in the sun,",
+    "explain": "It suffers and runs away.",
+    "st": "If the owner <b>left</b> the animal <b>in the sun,</b> causing it to suffer,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִנִּיחָהּ",
+      "en": "he left it"
+     },
+     {
+      "he": "בַּחַמָּה,",
+      "en": "in the sun"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁמְּסָרָהּ לְחֵרֵשׁ,",
+    "en": "or gave it to a deaf person,",
+    "st": "<b>or</b> if <b>he conveyed it to a deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁמְּסָרָהּ",
+      "en": "that he gave it"
+     },
+     {
+      "he": "לְחֵרֵשׁ,",
+      "en": "to a deaf person"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹטֶה וְקָטָן,",
+    "en": "someone not of sound mind, or a child,",
+    "st": "<b>an imbecile, or a minor,</b> who are not able to safeguard it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹטֶה",
+      "en": "not of sound mind"
+     },
+     {
+      "he": "וְקָטָן,",
+      "en": "and a child"
+     }
+    ]
+   },
+   {
+    "he": "וְיָצְאָה וְהִזִּיקָה,",
+    "en": "and it got out and did damage,",
+    "st": "<b>and</b> the animal <b>went out and caused damage,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָצְאָה",
+      "en": "and it went out"
+     },
+     {
+      "he": "וְהִזִּיקָה,",
+      "en": "and damaged"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. מְסָרָהּ לְרוֹעֶה,",
+    "en": "he must pay. If he gave it to a shepherd,",
+    "st": "the owner is <b>liable</b> because he was negligent. If the owner <b>conveyed</b> the animal <b>to a shepherd</b> to care for it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "מְסָרָהּ",
+      "en": "he gave it"
+     },
+     {
+      "he": "לְרוֹעֶה,",
+      "en": "to a shepherd"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנָס רוֹעֶה תַּחְתָּיו.",
+    "en": "the shepherd takes his place.",
+    "st": "<b>the shepherd enters in his place</b> and is responsible for the damage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנָס",
+      "en": "enters"
+     },
+     {
+      "he": "רוֹעֶה",
+      "en": "the shepherd"
+     },
+     {
+      "he": "תַּחְתָּיו.",
+      "en": "in his place"
+     }
+    ]
+   },
+   {
+    "he": "נָפְלָה לְגִנָּה וְנֶהֱנֵית,",
+    "en": "If it fell into a garden and got some benefit,",
+    "st": "If the animal <b>fell into a garden and derives benefit</b> from produce there,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָפְלָה",
+      "en": "it fell"
+     },
+     {
+      "he": "לְגִנָּה",
+      "en": "into a garden"
+     },
+     {
+      "he": "וְנֶהֱנֵית,",
+      "en": "and benefited"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֶּמֶת מַה שֶּׁנֶּהֶנֵית.",
+    "en": "the owner pays for the benefit it got.",
+    "st": "its owner <b>pays</b> for <b>the benefit that</b> it <b>derives</b> and not for other damage caused.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֶּמֶת",
+      "en": "pays"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁנֶּהֶנֵית.",
+      "en": "that it benefited"
+     }
+    ]
+   },
+   {
+    "he": "יָרְדָה כְדַרְכָּהּ וְהִזִּיקָה,",
+    "en": "If it went down the usual way and did damage,",
+    "st": "If the animal <b>descended</b> into the garden <b>in its usual manner and caused damage</b> there,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָרְדָה",
+      "en": "it went down"
+     },
+     {
+      "he": "כְדַרְכָּהּ",
+      "en": "in its usual way"
+     },
+     {
+      "he": "וְהִזִּיקָה,",
+      "en": "and damaged"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֶּמֶת מַה שֶּׁהִזִּיקָה.",
+    "en": "he pays for what it damaged.",
+    "st": "its owner <b>pays</b> for <b>what it damaged.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֶּמֶת",
+      "en": "pays"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁהִזִּיקָה.",
+      "en": "that it damaged"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד מְשַׁלֶּמֶת מַה שֶּׁהִזִּיקָה,",
+    "en": "How does he pay for what it damaged?",
+    "st": "<b>How does</b> the court appraise the value of the damage when the owner <b>pays</b> for <b>what it damaged?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "מְשַׁלֶּמֶת",
+      "en": "pays"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁהִזִּיקָה,",
+      "en": "that it damaged"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמִין בֵּית סְאָה בְּאוֹתָה שָׂדֶה,",
+    "en": "They measure a beis se'ah of that field:",
+    "explain": "A beis se'ah is a big piece of land.",
+    "st": "The court <b>appraises</b> a large piece of land with <b>an area required for</b> sowing <b>one se’a of seed [beit se’a] in that field,</b> including the garden bed in which the damage took place.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמִין",
+      "en": "they estimate"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a beis"
+     },
+     {
+      "he": "סְאָה",
+      "en": "se'ah",
+      "note": "A beis se'ah is an area where a se'ah of seeds is planted."
+     },
+     {
+      "he": "בְּאוֹתָה",
+      "en": "in that"
+     },
+     {
+      "he": "שָׂדֶה,",
+      "en": "field"
+     }
+    ]
+   },
+   {
+    "he": "כַּמָּה הָיְתָה יָפָה וְכַמָּה הִיא יָפָה.",
+    "en": "how much it was worth, and how much it is worth now.",
+    "st": "This appraisal includes <b>how much it was worth</b> before the animal damaged it <b>and how much is it worth</b> now, and the owner must pay the difference.",
+    "stMore": "The court appraises not only the garden bed that was eaten or trampled, rather the depreciation in value of the bed as part of the surrounding area. This results in a smaller payment, as the damage appears less significant in the context of a larger area.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "it was"
+     },
+     {
+      "he": "יָפָה",
+      "en": "worth"
+     },
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "הִיא",
+      "en": "it is"
+     },
+     {
+      "he": "יָפָה.",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אָכְלָה פֵּרוֹת גְּמוּרִים מְשַׁלֶּמֶת פֵּרוֹת גְּמוּרִים.",
+    "en": "If it ate ripe fruit, he pays for ripe fruit:",
+    "st": "This principle of appraisal applies only in a case where the animal ate unripe produce; but if <b>it ate ripe produce,</b> the owner <b>pays</b> the value of the <b>ripe produce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָכְלָה",
+      "en": "it ate"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits"
+     },
+     {
+      "he": "גְּמוּרִים",
+      "en": "ripe"
+     },
+     {
+      "he": "מְשַׁלֶּמֶת",
+      "en": "pays"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits"
+     },
+     {
+      "he": "גְּמוּרִים.",
+      "en": "ripe"
+     }
+    ]
+   },
+   {
+    "he": "אִם סְאָה סְאָה,",
+    "en": "if a se'ah, a se'ah;",
+    "st": "Therefore, <b>if</b> it ate <b>one se’a</b> of produce, he pays for <b>one se’a,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "סְאָה",
+      "en": "se'ah"
+     },
+     {
+      "he": "סְאָה,",
+      "en": "se'ah"
+     }
+    ]
+   },
+   {
+    "he": "אִם סָאתַיִם סָאתָיִם:",
+    "en": "if two se'ah, two se'ah.",
+    "explain": "A se'ah is a measure of grain.",
+    "st": "and <b>if</b> it ate <b>two se’a,</b> he pays for <b>two se’a.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "סָאתַיִם",
+      "en": "two se'ah"
+     },
+     {
+      "he": "סָאתָיִם:",
+      "en": "two se'ah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 3,
+  "summary": "If someone piles his grain in another person's field without permission, the field owner does not pay if his animal eats it. With permission, he does pay.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּגְדִּישׁ בְּתוֹךְ שָׂדֶה שֶׁל",
+    "en": "Someone who piles grain in the field of",
+    "st": "In a case of <b>one who stacks</b> his produce <b>in another’s field</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּגְדִּישׁ",
+      "en": "the one who piles grain"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "in"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "field"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     }
+    ]
+   },
+   {
+    "he": "חֲבֵרוֹ שֶׁלֹּא בִרְשׁוּת,",
+    "en": "his friend without permission,",
+    "st": "<b>without permission</b> from the owner of that field,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בִרְשׁוּת,",
+      "en": "with permission"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲכָלָתַן בְּהֶמְתּוֹ שֶׁל בַּעַל הַשָּׂדֶה,",
+    "en": "and the field owner's animal ate it,",
+    "st": "<b>and an animal belonging to the owner of the field eats</b> the produce,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲכָלָתַן",
+      "en": "and it ate them"
+     },
+     {
+      "he": "בְּהֶמְתּוֹ",
+      "en": "his animal"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַשָּׂדֶה,",
+      "en": "the field"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. וְאִם הֻזְּקָה בָהֶן,",
+    "en": "he does not pay. And if it got hurt by them,",
+    "st": "the owner of the field is <b>exempt. And if</b> the animal <b>is injured by</b> the produce,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הֻזְּקָה",
+      "en": "it was hurt"
+     },
+     {
+      "he": "בָהֶן,",
+      "en": "by them"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל הַגָּדִישׁ חַיָּב.",
+    "en": "the owner of the pile must pay.",
+    "st": "<b>the owner of the stack</b> is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַגָּדִישׁ",
+      "en": "the pile of grain"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הִגְדִּישׁ בִּרְשׁוּת,",
+    "en": "But if he piled it with permission,",
+    "st": "<b>But if he stacked</b> them in that field <b>with permission,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הִגְדִּישׁ",
+      "en": "he piled"
+     },
+     {
+      "he": "בִּרְשׁוּת,",
+      "en": "with permission"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל הַשָּׂדֶה חַיָּב:",
+    "en": "the owner of the field must pay.",
+    "st": "<b>the owner of the field</b> is <b>liable</b> for damage caused to the produce.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַשָּׂדֶה",
+      "en": "the field"
+     },
+     {
+      "he": "חַיָּב:",
+      "en": "obligated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 4,
+  "summary": "Who must pay for damage done by a fire: the one who sent it, brought the wood, or fanned it. The mishnah also teaches how far a fire can spread before the one who lit it no longer pays.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַשּׁוֹלֵחַ אֶת הַבְּעֵרָה בְּיַד חֵרֵשׁ,",
+    "en": "Someone who sends a fire with a deaf person,",
+    "st": "<b>One who sends a fire,</b> i.e., places a burning object, <b>in the hand of a deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹלֵחַ",
+      "en": "the one who sends"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּעֵרָה",
+      "en": "the fire"
+     },
+     {
+      "he": "בְּיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "חֵרֵשׁ,",
+      "en": "a deaf person"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹטֶה וְקָטָן,",
+    "en": "someone not of sound mind, or a child,",
+    "st": "<b>an imbecile, or a minor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹטֶה",
+      "en": "not of sound mind"
+     },
+     {
+      "he": "וְקָטָן,",
+      "en": "and a child"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר בְּדִינֵי אָדָם וְחַיָּב בְּדִינֵי שָׁמָיִם.",
+    "en": "does not pay in a human beis din, but must answer to Hashem.",
+    "st": "is <b>exempt</b> for any damage later caused by the fire <b>according to human laws but liable according to the laws of Heaven.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "exempt"
+     },
+     {
+      "he": "בְּדִינֵי",
+      "en": "in the laws of"
+     },
+     {
+      "he": "אָדָם",
+      "en": "man"
+     },
+     {
+      "he": "וְחַיָּב",
+      "en": "and obligated"
+     },
+     {
+      "he": "בְּדִינֵי",
+      "en": "in the laws of"
+     },
+     {
+      "he": "שָׁמָיִם.",
+      "en": "Heaven"
+     }
+    ]
+   },
+   {
+    "he": "שָׁלַח בְּיַד פִּקֵּחַ,",
+    "en": "If he sent it with a person of full understanding,",
+    "st": "If <b>he sent</b> it <b>in the hand of a</b> halakhically <b>competent</b> person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלַח",
+      "en": "he sent"
+     },
+     {
+      "he": "בְּיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "פִּקֵּחַ,",
+      "en": "a person with full understanding"
+     }
+    ]
+   },
+   {
+    "he": "הַפִּקֵּחַ חַיָּב.",
+    "en": "that person must pay.",
+    "st": "<b>the</b> halakhically <b>competent</b> person is <b>liable,</b> not the one who sent him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפִּקֵּחַ",
+      "en": "the one with full understanding"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד הֵבִיא אֶת הָאוּר,",
+    "en": "One brought the fire,",
+    "st": "If <b>one</b> person <b>brought the fire,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "הֵבִיא",
+      "en": "brought"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאוּר,",
+      "en": "the fire"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הֵבִיא אֶת הָעֵצִים,",
+    "en": "and one brought the wood:",
+    "st": "<b>and one</b> other person subsequently <b>brought the wood,</b> causing the fire to spread,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הֵבִיא",
+      "en": "brought"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵצִים,",
+      "en": "the wood"
+     }
+    ]
+   },
+   {
+    "he": "הַמֵּבִיא אֶת הָעֵצִים חַיָּב.",
+    "en": "the one who brought the wood must pay.",
+    "st": "<b>the one who brought the wood</b> is <b>liable</b> for any damage caused.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמֵּבִיא",
+      "en": "the one who brings"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵצִים",
+      "en": "the wood"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד הֵבִיא אֶת הָעֵצִים,",
+    "en": "One brought the wood,",
+    "st": "Conversely, if <b>one</b> person first <b>brought the wood,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "הֵבִיא",
+      "en": "brought"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵצִים,",
+      "en": "the wood"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הֵבִיא אֶת הָאוּר,",
+    "en": "and one brought the fire:",
+    "st": "<b>and</b> subsequently <b>one</b> other person <b>brought the fire,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הֵבִיא",
+      "en": "brought"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאוּר,",
+      "en": "the fire"
+     }
+    ]
+   },
+   {
+    "he": "הַמֵּבִיא אֶת הָאוּר חַיָּב.",
+    "en": "the one who brought the fire must pay.",
+    "st": "<b>the one who brought the fire</b> is <b>liable,</b>",
+    "stMore": "since it was he who actually kindled the wood.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמֵּבִיא",
+      "en": "the one who brings"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאוּר",
+      "en": "the fire"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "בָּא אַחֵר וְלִבָּה,",
+    "en": "If another came and fanned it,",
+    "st": "If <b>another came and fanned</b> the flame, and as a result the fire spread and caused damage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "אַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "וְלִבָּה,",
+      "en": "and fanned"
+     }
+    ]
+   },
+   {
+    "he": "הַמְּלַבֶּה חַיָּב.",
+    "en": "the one who fanned it must pay.",
+    "st": "<b>the one who fanned it</b> is <b>liable,</b>",
+    "stMore": "since he is the proximate cause of the damage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְּלַבֶּה",
+      "en": "the one who fans"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "לִבְּתָה הָרוּחַ,",
+    "en": "If the wind fanned it,",
+    "st": "If <b>the wind fanned</b> the flames,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִבְּתָה",
+      "en": "fanned it"
+     },
+     {
+      "he": "הָרוּחַ,",
+      "en": "the wind"
+     }
+    ]
+   },
+   {
+    "he": "כֻּלָּן פְּטוּרִין.",
+    "en": "none of them pay.",
+    "st": "<b>all</b> the people involved are <b>exempt,</b>",
+    "stMore": "since none of them actually caused the damage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֻּלָּן",
+      "en": "all of them"
+     },
+     {
+      "he": "פְּטוּרִין.",
+      "en": "are exempt"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹלֵחַ אֶת הַבְּעֵרָה וְאָכְלָה עֵצִים,",
+    "en": "Someone who sends out fire and it burned wood,",
+    "st": "If one <b>sends</b> forth <b>a fire,</b> i.e., allows it to escape, <b>and it consumes wood,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹלֵחַ",
+      "en": "the one who sends"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּעֵרָה",
+      "en": "the fire"
+     },
+     {
+      "he": "וְאָכְלָה",
+      "en": "and it consumed"
+     },
+     {
+      "he": "עֵצִים,",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אֲבָנִים,",
+    "en": "or stones,",
+    "st": "<b>or stones,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אֲבָנִים,",
+      "en": "stones"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ עָפָר,",
+    "en": "or earth,",
+    "st": "<b>or earth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "עָפָר,",
+      "en": "earth"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, שֶׁנֶּאֱמַר (שמות כב) כִּי תֵצֵא",
+    "en": "must pay, as it says, \"If a fire goes out",
+    "st": "he is <b>liable, as it is stated: “If a fire breaks out,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "obligated"
+     },
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it is said"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כב)",
+      "en": "22)"
+     },
+     {
+      "he": "כִּי",
+      "en": "if"
+     },
+     {
+      "he": "תֵצֵא",
+      "en": "goes out"
+     }
+    ]
+   },
+   {
+    "he": "אֵשׁ וּמָצְאָה קוֹצִים וְנֶאֱכַל גָּדִישׁ",
+    "en": "and finds thorns, and a pile of grain is burned,",
+    "st": "<b>and catches in thorns, so that a stack of grain,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵשׁ",
+      "en": "fire"
+     },
+     {
+      "he": "וּמָצְאָה",
+      "en": "and finds"
+     },
+     {
+      "he": "קוֹצִים",
+      "en": "thorns"
+     },
+     {
+      "he": "וְנֶאֱכַל",
+      "en": "and is consumed"
+     },
+     {
+      "he": "גָּדִישׁ",
+      "en": "pile of grain"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ הַקָּמָה אוֹ הַשָּׂדֶה,",
+    "en": "or the standing grain, or the field,",
+    "st": "<b>or standing grain, or the field, is consumed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "הַקָּמָה",
+      "en": "the standing grain"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "הַשָּׂדֶה,",
+      "en": "the field"
+     }
+    ]
+   },
+   {
+    "he": "שַׁלֵּם יְשַׁלֵּם הַמַּבְעִיר אֶת הַבְּעֵרָה.",
+    "en": "the one who lit the fire must pay.\"",
+    "st": "<b>the one who kindled the fire shall pay compensation”</b> (Exodus 22:5),",
+    "stMore": "which teaches that he is liable also for destroying the field itself.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "יְשַׁלֵּם",
+      "en": "he shall pay"
+     },
+     {
+      "he": "הַמַּבְעִיר",
+      "en": "the one who lit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּעֵרָה.",
+      "en": "the fire"
+     }
+    ]
+   },
+   {
+    "he": "עָבְרָה גָּדֵר שֶׁהוּא גָּבוֹהַּ אַרְבַּע אַמּוֹת,",
+    "en": "If it went past a fence four amos high,",
+    "st": "If one kindled a fire that <b>crossed a fence that is four cubits high,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָבְרָה",
+      "en": "it passed"
+     },
+     {
+      "he": "גָּדֵר",
+      "en": "a fence"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "גָּבוֹהַּ",
+      "en": "high"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "אַמּוֹת,",
+      "en": "amos",
+      "note": "An amah is about the length of an arm."
+     }
+    ]
+   },
+   {
+    "he": "אוֹ דֶּרֶךְ הָרַבִּים,",
+    "en": "or a public road,",
+    "st": "<b>or</b> if the fire crossed <b>the public thoroughfare,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "דֶּרֶךְ",
+      "en": "the road of"
+     },
+     {
+      "he": "הָרַבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נָהָר,",
+    "en": "or a river,",
+    "st": "<b>or</b> if the fire crossed <b>a river,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נָהָר,",
+      "en": "river"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. הַמַּדְלִיק בְּתוֹךְ שֶׁלּוֹ,",
+    "en": "he does not pay. Someone who lights a fire on his own land,",
+    "st": "and in each case it caused damage on the other side, he is <b>exempt</b> from liability. In a case of <b>one who kindles</b> a fire <b>on his own</b> premises,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "הַמַּדְלִיק",
+      "en": "the one who lights"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "שֶׁלּוֹ,",
+      "en": "his own"
+     }
+    ]
+   },
+   {
+    "he": "עַד כַּמָּה תַעֲבֹר הַדְּלֵקָה.",
+    "en": "how far can the fire go?",
+    "st": "<b>up to what</b> distance <b>may the fire travel</b> within his property for him to still bear liability for damage caused?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "תַעֲבֹר",
+      "en": "will pass"
+     },
+     {
+      "he": "הַדְּלֵקָה.",
+      "en": "the fire"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה אוֹמֵר,",
+    "en": "Rabbi Elazar ben Azaryah says,",
+    "st": "<b>Rabbi Elazar ben Azaria says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "עֲזַרְיָה",
+      "en": "Azaryah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאִין אוֹתוֹ כְּאִלוּ הוּא",
+    "en": "We look at it as if it is",
+    "st": "The court <b>views his</b> location where he kindled the fire <b>as if it were</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאִין",
+      "en": "we see"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "כְּאִלוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     }
+    ]
+   },
+   {
+    "he": "בְאֶמְצַע בֵּית כּוֹר.",
+    "en": "in the middle of a beis kor.",
+    "explain": "A beis kor is a very large field.",
+    "st": "<b>in the center of a beit kor.</b>",
+    "stMore": "Therefore, if the fire spreads and causes damage farther away than half a beit kor, the one who kindled the fire is exempt, since he could not anticipate that the fire would spread so far.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְאֶמְצַע",
+      "en": "in the middle of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a beis"
+     },
+     {
+      "he": "כּוֹר.",
+      "en": "kor",
+      "note": "A beis kor is a big area of land."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שֵׁשׁ עֶשְׂרֵה אַמּוֹת,",
+    "en": "sixteen amos,",
+    "st": "One is liable up to a distance of <b>sixteen cubits,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֵׁשׁ",
+      "en": "six"
+     },
+     {
+      "he": "עֶשְׂרֵה",
+      "en": "ten"
+     },
+     {
+      "he": "אַמּוֹת,",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "כְּדֶרֶךְ רְשׁוּת הָרַבִּים.",
+    "en": "like the width of a public road.",
+    "st": "<b>like</b> the width of <b>a public thoroughfare.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדֶרֶךְ",
+      "en": "like the way of"
+     },
+     {
+      "he": "רְשׁוּת",
+      "en": "the domain of"
+     },
+     {
+      "he": "הָרַבִּים.",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "חֲמִשִּׁים אַמָּה.",
+    "en": "fifty amos.",
+    "st": "One is liable up to a distance of <b>fifty cubits.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "אַמָּה.",
+      "en": "amah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שַׁלֵּם יְשַׁלֵּם הַמַּבְעִיר אֶת",
+    "en": "\"The one who lit",
+    "st": "The verse states: <b>“The one who kindled the fire shall pay [shallem yeshallem]</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "יְשַׁלֵּם",
+      "en": "he shall pay"
+     },
+     {
+      "he": "הַמַּבְעִיר",
+      "en": "the one who lit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הַבְּעֵרָה (שמות כב),",
+    "en": "the fire must pay\":",
+    "st": "<b>compensation”</b> (Exodus 22:5),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבְּעֵרָה",
+      "en": "the fire"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כב),",
+      "en": "22)"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל לְפִי הַדְּלֵקָה:",
+    "en": "it all depends on the fire.",
+    "st": "to teach that <b>everything is according to the fire.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "לְפִי",
+      "en": "according to"
+     },
+     {
+      "he": "הַדְּלֵקָה:",
+      "en": "the fire"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 5,
+  "summary": "If someone sets a pile of grain on fire and there were things hidden inside, Rabbi Yehuda says he pays for them too, and the Sages say he pays only for the grain. But for a house, everyone agrees he pays for everything inside.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּדְלִיק אֶת הַגָּדִישׁ,",
+    "en": "Someone who sets a pile of grain on fire,",
+    "st": "With regard to <b>one who kindles a stack</b> of wheat or barley",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּדְלִיק",
+      "en": "the one who sets on fire"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגָּדִישׁ,",
+      "en": "the pile of grain"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיוּ בּוֹ כֵלִים וְדָלָקוּ.",
+    "en": "and there were things in it, and they burned:",
+    "st": "<b>and there were vessels</b> concealed <b>inside</b> the stack <b>and they</b> caught fire and <b>burned</b> together with the stack,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיוּ",
+      "en": "and there were"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כֵלִים",
+      "en": "things"
+     },
+     {
+      "he": "וְדָלָקוּ.",
+      "en": "and they burned"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יְשַׁלֵּם מַה שֶּׁבְּתוֹכוֹ.",
+    "en": "he pays for what was inside it.",
+    "st": "The one who kindled the fire also <b>pays</b> compensation <b>for what was inside</b> the stack,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְשַׁלֵּם",
+      "en": "he shall pay"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁבְּתוֹכוֹ.",
+      "en": "that is inside it"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>but the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מְשַׁלֵּם אֶלָּא גָּדִישׁ שֶׁל",
+    "en": "he pays only for a pile of",
+    "st": "<b>He pays</b> compensation <b>only</b> for",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "גָּדִישׁ",
+      "en": "pile of grain"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     }
+    ]
+   },
+   {
+    "he": "חִטִּין אוֹ שֶׁל שְׂעֹרִים.",
+    "en": "wheat or of barley.",
+    "st": "<b>the stack of wheat or barley,</b> as the case may be,",
+    "stMore": "and he is not responsible for that which was concealed within it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חִטִּין",
+      "en": "wheat"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׂעֹרִים.",
+      "en": "barley"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה גְדִי כָפוּת לוֹ וְעֶבֶד",
+    "en": "If a goat was tied to it and a servant",
+    "st": "If <b>there was a goat tied to</b> the stack of grain, <b>and</b> there was a Canaanite <b>slave</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "גְדִי",
+      "en": "a goat"
+     },
+     {
+      "he": "כָפוּת",
+      "en": "tied"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "וְעֶבֶד",
+      "en": "and a servant"
+     }
+    ]
+   },
+   {
+    "he": "סָמוּךְ לוֹ וְנִשְׂרַף עִמּוֹ,",
+    "en": "was near it, and they were burned with it,",
+    "st": "<b>nearby</b> who was not tied to it, <b>and</b> both the goat and the slave <b>were burned</b> together <b>with</b> the stack and killed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סָמוּךְ",
+      "en": "near"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "וְנִשְׂרַף",
+      "en": "and was burned"
+     },
+     {
+      "he": "עִמּוֹ,",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. עֶבֶד כָּפוּת לוֹ וּגְדִי",
+    "en": "he must pay. If a servant was tied to it and a goat",
+    "st": "the one who kindled the fire is <b>liable</b> to pay compensation for both. Conversely, if the <b>slave was tied</b> to the stack <b>and</b> there was",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "עֶבֶד",
+      "en": "a servant"
+     },
+     {
+      "he": "כָּפוּת",
+      "en": "tied"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "וּגְדִי",
+      "en": "and a goat"
+     }
+    ]
+   },
+   {
+    "he": "סָמוּךְ לוֹ וְנִשְׂרַף עִמּוֹ,",
+    "en": "was near it, and they were burned with it,",
+    "st": "<b>a goat nearby</b> that was not tied to it, <b>and</b> they were both <b>burned together with it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סָמוּךְ",
+      "en": "near"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "וְנִשְׂרַף",
+      "en": "and was burned"
+     },
+     {
+      "he": "עִמּוֹ,",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. וּמוֹדִים חֲכָמִים לְרַבִּי יְהוּדָה",
+    "en": "he does not pay. And the Sages agree with Rabbi Yehuda",
+    "explain": "He gets a much bigger punishment, so he does not pay.",
+    "st": "the one who kindled the fire is <b>exempt</b> from payment for damage because he is liable to receive capital punishment for murder, and he is punished only for the greater transgression. <b>And the Rabbis,</b> who disagree with Rabbi Yehuda and exempt one from payment for vessels concealed inside the stack in the field, <b>concede to Rabbi Yehuda</b> that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "וּמוֹדִים",
+      "en": "and agree"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the Sages"
+     },
+     {
+      "he": "לְרַבִּי",
+      "en": "to Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     }
+    ]
+   },
+   {
+    "he": "בְּמַדְלִיק אֶת הַבִּירָה,",
+    "en": "about one who sets a building on fire,",
+    "st": "if one <b>sets fire to a building,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמַדְלִיק",
+      "en": "about one who sets on fire"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבִּירָה,",
+      "en": "the building"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא מְשַׁלֵּם כָּל מַה שֶּׁבְּתוֹכוֹ,",
+    "en": "that he pays for everything inside it,",
+    "st": "he <b>pays</b> compensation <b>for everything that was</b> burned <b>inside it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁבְּתוֹכוֹ,",
+      "en": "that is inside it"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן דֶּרֶךְ בְּנֵי אָדָם לְהַנִּיחַ בַּבָּתִּים:",
+    "en": "because people usually keep things in houses.",
+    "st": "<b>since it is the</b> normal <b>way of people to place</b> items <b>in houses.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "since so"
+     },
+     {
+      "he": "דֶּרֶךְ",
+      "en": "is the way of"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "sons of"
+     },
+     {
+      "he": "אָדָם",
+      "en": "man"
+     },
+     {
+      "he": "לְהַנִּיחַ",
+      "en": "to place"
+     },
+     {
+      "he": "בַּבָּתִּים:",
+      "en": "in the houses"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 6,
+  "summary": "A spark from a hammer that does damage, and a camel carrying flax that catches fire from a store's candle: who pays? Rabbi Yehuda says a Chanukah candle outside is allowed.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גֵּץ שֶׁיָּצָא מִתַּחַת הַפַּטִּישׁ וְהִזִּיק,",
+    "en": "A spark that came out from under the hammer and did damage:",
+    "st": "In the case of <b>a spark that emerged from under the hammer</b> of a blacksmith and started a fire, <b>causing damage,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּץ",
+      "en": "a spark"
+     },
+     {
+      "he": "שֶׁיָּצָא",
+      "en": "that came out"
+     },
+     {
+      "he": "מִתַּחַת",
+      "en": "from under"
+     },
+     {
+      "he": "הַפַּטִּישׁ",
+      "en": "the hammer"
+     },
+     {
+      "he": "וְהִזִּיק,",
+      "en": "and damaged"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. גָּמָל שֶׁהָיָה טָעוּן פִּשְׁתָּן",
+    "en": "he must pay. A camel that was loaded with flax",
+    "st": "the blacksmith is <b>liable</b> for the damage caused. In the case of <b>a camel that was laden with flax</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "גָּמָל",
+      "en": "a camel"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "טָעוּן",
+      "en": "loaded"
+     },
+     {
+      "he": "פִּשְׁתָּן",
+      "en": "with flax"
+     }
+    ]
+   },
+   {
+    "he": "וְעָבַר בִּרְשׁוּת הָרַבִּים,",
+    "en": "and passed through the street,",
+    "st": "<b>and was passing through the public domain,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָבַר",
+      "en": "and passed"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הָרַבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "וְנִכְנַס פִּשְׁתָּנוֹ לְתוֹךְ הַחֲנוּת,",
+    "en": "and its flax went into the store,",
+    "st": "<b>and its flax extended into a store and</b> the flax",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִכְנַס",
+      "en": "and went in"
+     },
+     {
+      "he": "פִּשְׁתָּנוֹ",
+      "en": "its flax"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "הַחֲנוּת,",
+      "en": "the store"
+     }
+    ]
+   },
+   {
+    "he": "וְדָלְקוּ בְּנֵרוֹ שֶׁל חֶנְוָנִי",
+    "en": "and caught fire from the storekeeper's candle,",
+    "st": "<b>caught fire from a lamp</b> in the store <b>belonging to the storekeeper,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְדָלְקוּ",
+      "en": "and they caught fire"
+     },
+     {
+      "he": "בְּנֵרוֹ",
+      "en": "from the candle"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חֶנְוָנִי",
+      "en": "the storekeeper"
+     }
+    ]
+   },
+   {
+    "he": "וְהִדְלִיק אֶת הַבִּירָה,",
+    "en": "and set the building on fire:",
+    "st": "<b>and</b> as a result of the burning flax the camel <b>set fire to the building</b> together with all its contents,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִדְלִיק",
+      "en": "and it set on fire"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבִּירָה,",
+      "en": "the building"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל הַגָּמָל חַיָּב.",
+    "en": "the camel's owner must pay.",
+    "st": "<b>the owner of the camel</b> is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַגָּמָל",
+      "en": "the camel"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "הִנִּיחַ חֶנְוָנִי נֵרוֹ מִבַּחוּץ,",
+    "en": "If the storekeeper put his candle outside,",
+    "st": "But if <b>the storekeeper placed his lamp outside,</b> thereby causing the flax on the camel to catch fire, and consequently the building was set on fire,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִנִּיחַ",
+      "en": "placed"
+     },
+     {
+      "he": "חֶנְוָנִי",
+      "en": "the storekeeper"
+     },
+     {
+      "he": "נֵרוֹ",
+      "en": "his candle"
+     },
+     {
+      "he": "מִבַּחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "הַחֶנְוָנִי חַיָּב.",
+    "en": "the storekeeper must pay.",
+    "st": "<b>the storekeeper</b> is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחֶנְוָנִי",
+      "en": "the storekeeper"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בְּנֵר חֲנֻכָּה פָּטוּר:",
+    "en": "with a Chanukah candle, he does not pay.",
+    "explain": "It is a mitzvah to put it outside.",
+    "st": "<b>In</b> a case where the lamp placed outside was <b>a Hanukkah lamp,</b> the storekeeper is <b>exempt,</b> since it is a mitzva for a Hanukkah lamp to be placed outside.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּנֵר",
+      "en": "with a candle of"
+     },
+     {
+      "he": "חֲנֻכָּה",
+      "en": "Chanukah"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "exempt"
+     }
+    ]
+   }
+  ]
+ }
+]

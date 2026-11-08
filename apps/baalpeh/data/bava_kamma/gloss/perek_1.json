@@ -1,0 +1,1329 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "There are four main kinds of damage: an ox, a pit, an animal eating (or a person), and fire. Each one is different, but the owner must always guard them, and if they do damage he must pay from his best land.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אַרְבָּעָה אֲבוֹת נְזִיקִין,",
+    "en": "There are four main kinds of damage:",
+    "st": "There are <b>four primary categories of damage:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "אֲבוֹת",
+      "en": "main kinds",
+      "note": "Avos means \"fathers\": the main groups that other kinds of damage come from."
+     },
+     {
+      "he": "נְזִיקִין,",
+      "en": "of damages"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹר וְהַבּוֹר וְהַמַּבְעֶה וְהַהֶבְעֵר.",
+    "en": "The ox, the pit, the maveh, and the fire.",
+    "explain": "Maveh is an animal eating with its teeth, or a person.",
+    "st": "<b>The</b> category of <b>Ox; and the</b> category of <b>Pit; and the</b> category of <b>Maveh,</b>",
+    "stMore": "which, based on a discussion in the Gemara refers either to the tooth of an animal that causes damage or to a person who causes damage; <b>and the</b> category of <b>Fire.</b> Each of these categories is unique; therefore, the halakhot of one cannot be derived from another.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹר",
+      "en": "the ox"
+     },
+     {
+      "he": "וְהַבּוֹר",
+      "en": "and the pit",
+      "note": "A hole someone dug and left open."
+     },
+     {
+      "he": "וְהַמַּבְעֶה",
+      "en": "and the maveh",
+      "note": "The Gemara says this is an animal's tooth, or a person."
+     },
+     {
+      "he": "וְהַהֶבְעֵר.",
+      "en": "and the fire"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הֲרֵי הַשּׁוֹר כַּהֲרֵי הַמַּבְעֶה,",
+    "en": "The ox is not like the maveh,",
+    "st": "The defining characteristic of <b>the</b> primary category of <b>Ox is not similar to</b> the defining characteristic of <b>the</b> primary category of <b>Maveh,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "the way of"
+     },
+     {
+      "he": "הַשּׁוֹר",
+      "en": "the ox"
+     },
+     {
+      "he": "כַּהֲרֵי",
+      "en": "is like the way of"
+     },
+     {
+      "he": "הַמַּבְעֶה,",
+      "en": "the maveh"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הֲרֵי הַמַּבְעֶה כַּהֲרֵי הַשּׁוֹר.",
+    "en": "and the maveh is not like the ox.",
+    "st": "<b>and</b> the defining characteristic of <b>the</b> primary category of <b>Maveh is not similar to</b> the defining characteristic of <b>the</b> primary category of <b>Ox.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "the way of"
+     },
+     {
+      "he": "הַמַּבְעֶה",
+      "en": "the maveh"
+     },
+     {
+      "he": "כַּהֲרֵי",
+      "en": "is like the way of"
+     },
+     {
+      "he": "הַשּׁוֹר.",
+      "en": "the ox"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא זֶה וָזֶה,",
+    "en": "And these two,",
+    "st": "<b>And</b> the defining characteristics of <b>this</b> category of Ox <b>and that</b> category of Maveh,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה,",
+      "en": "and that"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּשׁ בָּהֶן רוּחַ חַיִּים,",
+    "en": "which are alive,",
+    "st": "<b>in which there is a living spirit</b> that causes damage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "רוּחַ",
+      "en": "a spirit of"
+     },
+     {
+      "he": "חַיִּים,",
+      "en": "life"
+     }
+    ]
+   },
+   {
+    "he": "כַּהֲרֵי הָאֵשׁ,",
+    "en": "are not like fire,",
+    "st": "<b>are not similar to</b> the defining characteristic of <b>the</b> category of <b>Fire,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּהֲרֵי",
+      "en": "is like the way of"
+     },
+     {
+      "he": "הָאֵשׁ,",
+      "en": "the fire"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין בּוֹ רוּחַ חַיִּים.",
+    "en": "which is not alive.",
+    "st": "<b>in which there is no living spirit.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "רוּחַ",
+      "en": "a spirit of"
+     },
+     {
+      "he": "חַיִּים.",
+      "en": "life"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא זֶה וָזֶה,",
+    "en": "And these,",
+    "st": "The mishna continues: <b>And</b> the defining characteristics of <b>this</b> primary category of Ox and Maveh <b>and that</b> primary category of Fire,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה,",
+      "en": "and that"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁדַּרְכָּן לֵילֵךְ וּלְהַזִּיק,",
+    "en": "which usually move around and do damage,",
+    "st": "<b>in which</b> the <b>typical manner</b> of their components is <b>to proceed</b> from one place to another <b>and</b> cause <b>damage,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁדַּרְכָּן",
+      "en": "that their way is"
+     },
+     {
+      "he": "לֵילֵךְ",
+      "en": "to go"
+     },
+     {
+      "he": "וּלְהַזִּיק,",
+      "en": "and to damage"
+     }
+    ]
+   },
+   {
+    "he": "כַּהֲרֵי הַבּוֹר,",
+    "en": "are not like a pit,",
+    "st": "<b>are not similar to</b> the defining characteristic of <b>the</b> primary category of <b>Pit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּהֲרֵי",
+      "en": "is like the way of"
+     },
+     {
+      "he": "הַבּוֹר,",
+      "en": "the pit"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין דַּרְכּוֹ לֵילֵךְ וּלְהַזִּיק.",
+    "en": "which does not move around to do damage.",
+    "explain": "The pit stays still; someone walks into it.",
+    "st": "<b>in which</b> the <b>typical manner</b> of its components is <b>not to proceed</b> from one place to another <b>and</b> cause <b>damage;</b>",
+    "stMore": "rather, it remains in place and the damage is caused by the injured party proceeding and encountering the obstacle.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that it is not"
+     },
+     {
+      "he": "דַּרְכּוֹ",
+      "en": "its way"
+     },
+     {
+      "he": "לֵילֵךְ",
+      "en": "to go"
+     },
+     {
+      "he": "וּלְהַזִּיק.",
+      "en": "and to damage"
+     }
+    ]
+   },
+   {
+    "he": "הַצַּד הַשָּׁוֶה שֶׁבָּהֶן,",
+    "en": "What they all have in common",
+    "st": "<b>The common denominator of</b> the components in all of <b>these</b> primary categories is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַצַּד",
+      "en": "the side"
+     },
+     {
+      "he": "הַשָּׁוֶה",
+      "en": "that is the same"
+     },
+     {
+      "he": "שֶׁבָּהֶן,",
+      "en": "in them"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁדַּרְכָּן לְהַזִּיק וּשְׁמִירָתָן עָלֶיךָ.",
+    "en": "is that they usually do damage, and you must guard them.",
+    "st": "<b>that</b> it is <b>their typical manner to cause damage, and</b> the responsibility for <b>their safeguarding</b> to prevent them from causing damage is incumbent <b>upon you,</b>",
+    "stMore": "the owner of the animal or generator of the fire or the pit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁדַּרְכָּן",
+      "en": "that their way is"
+     },
+     {
+      "he": "לְהַזִּיק",
+      "en": "to damage"
+     },
+     {
+      "he": "וּשְׁמִירָתָן",
+      "en": "and guarding them"
+     },
+     {
+      "he": "עָלֶיךָ.",
+      "en": "is on you"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁהִזִּיק, חָב הַמַּזִּיק לְשַׁלֵּם תַּשְׁלוּמֵי",
+    "en": "And when one does damage, the one who caused it must pay for the damage",
+    "st": "<b>And when</b> a component of any of these categories <b>causes damage, the</b> owner or generator of the component that <b>caused</b> the <b>damage is obligated to pay</b> restitution",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁהִזִּיק,",
+      "en": "and when it damaged"
+     },
+     {
+      "he": "חָב",
+      "en": "is obligated"
+     },
+     {
+      "he": "הַמַּזִּיק",
+      "en": "the damager"
+     },
+     {
+      "he": "לְשַׁלֵּם",
+      "en": "to pay"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     }
+    ]
+   },
+   {
+    "he": "נֶזֶק בְּמֵיטַב הָאָרֶץ:",
+    "en": "from the best of his land.",
+    "st": "<b>for damage with best</b>-quality <b>land.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "בְּמֵיטַב",
+      "en": "with the best of"
+     },
+     {
+      "he": "הָאָרֶץ:",
+      "en": "the land"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "If I am supposed to guard something and it does damage, it is as if I did the damage myself. The mishnah also lists which property and which places a person must pay for.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל שֶׁחַבְתִּי בִשְׁמִירָתוֹ,",
+    "en": "Anything I must guard,",
+    "st": "With regard to <b>anything</b> for <b>which I became responsible for safeguarding it</b> to prevent it from causing damage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anything"
+     },
+     {
+      "he": "שֶׁחַבְתִּי",
+      "en": "that I am responsible"
+     },
+     {
+      "he": "בִשְׁמִירָתוֹ,",
+      "en": "for guarding it"
+     }
+    ]
+   },
+   {
+    "he": "הִכְשַׁרְתִּי אֶת נִזְקוֹ.",
+    "en": "I am the one who made its damage happen.",
+    "st": "if it in fact causes damage, it is considered as if <b>I</b> actively <b>facilitated that damage,</b> and accordingly I must pay for it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִכְשַׁרְתִּי",
+      "en": "I made possible"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "נִזְקוֹ.",
+      "en": "its damage"
+     }
+    ]
+   },
+   {
+    "he": "הִכְשַׁרְתִּי בְמִקְצָת נִזְקוֹ,",
+    "en": "If I made part of its damage happen,",
+    "st": "In any case in which <b>I facilitated part of the damage it</b> caused,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִכְשַׁרְתִּי",
+      "en": "I made possible"
+     },
+     {
+      "he": "בְמִקְצָת",
+      "en": "part of"
+     },
+     {
+      "he": "נִזְקוֹ,",
+      "en": "its damage"
+     }
+    ]
+   },
+   {
+    "he": "חַבְתִּי בְתַשְׁלוּמִין כְּהֶכְשֵׁר כָּל נִזְקוֹ.",
+    "en": "I must pay as if I made all of its damage happen.",
+    "st": "<b>I am liable for payments</b> of restitution <b>for damage it</b> caused, <b>as</b> if I were the <b>one who facilitated the entire damage it</b> caused.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַבְתִּי",
+      "en": "I am obligated"
+     },
+     {
+      "he": "בְתַשְׁלוּמִין",
+      "en": "to pay"
+     },
+     {
+      "he": "כְּהֶכְשֵׁר",
+      "en": "as one who made possible"
+     },
+     {
+      "he": "כָּל",
+      "en": "all of"
+     },
+     {
+      "he": "נִזְקוֹ.",
+      "en": "its damage"
+     }
+    ]
+   },
+   {
+    "he": "נְכָסִים שֶׁאֵין בָּהֶם מְעִילָה,",
+    "en": "One pays only for things that are not hekdesh,",
+    "explain": "Hekdesh is property that belongs to the Beis HaMikdash.",
+    "st": "One is liable only with regard to damage caused to <b>property</b> for <b>which,</b> were he to use it for a non-sacred purpose, he <b>would not be</b> liable <b>for</b> the <b>misuse</b> of consecrated property;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בָּהֶם",
+      "en": "in them"
+     },
+     {
+      "he": "מְעִילָה,",
+      "en": "misuse of hekdesh",
+      "note": "Using something that belongs to the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "נְכָסִים שֶׁל בְּנֵי בְרִית,",
+    "en": "for things that belong to Jews,",
+    "st": "with regard to damage caused to <b>property that belongs to members of the covenant,</b> i.e., Jews;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "members of"
+     },
+     {
+      "he": "בְרִית,",
+      "en": "the covenant",
+      "note": "Jews, who are part of Hashem's bris."
+     }
+    ]
+   },
+   {
+    "he": "נְכָסִים הַמְיֻחָדִים,",
+    "en": "for things that belong to a certain owner,",
+    "st": "and with regard to <b>assigned property,</b>",
+    "stMore": "the meaning of which the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "הַמְיֻחָדִים,",
+      "en": "that are assigned"
+     }
+    ]
+   },
+   {
+    "he": "וּבְכָל מָקוֹם חוּץ מֵרְשׁוּת הַמְיֻחֶדֶת",
+    "en": "and in any place except a place that belongs only",
+    "st": "<b>And</b> one is liable for damage caused <b>in any place except for a domain designated</b> exclusively",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְכָל",
+      "en": "and in any"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵרְשׁוּת",
+      "en": "from a domain"
+     },
+     {
+      "he": "הַמְיֻחֶדֶת",
+      "en": "that is assigned"
+     }
+    ]
+   },
+   {
+    "he": "לַמַּזִּיק וּרְשׁוּת הַנִּזָּק וְהַמַּזִּיק.",
+    "en": "to the one who did the damage, and in a place shared by both of them.",
+    "st": "<b>for</b> the use of <b>the one responsible for the damage. And</b> one is liable for damage caused in <b>a domain</b> designated for the joint use <b>of the injured</b> party <b>and the one liable for the damage.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַמַּזִּיק",
+      "en": "to the damager"
+     },
+     {
+      "he": "וּרְשׁוּת",
+      "en": "and a domain of"
+     },
+     {
+      "he": "הַנִּזָּק",
+      "en": "the one who was damaged"
+     },
+     {
+      "he": "וְהַמַּזִּיק.",
+      "en": "and the damager"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁהִזִּיק, חָב הַמַּזִּיק לְשַׁלֵּם תַּשְׁלוּמֵי",
+    "en": "And when one does damage, the one who caused it must pay for the damage",
+    "st": "<b>When</b> an animal or item one is responsible to safeguard <b>causes damage, the one liable for the damage</b> caused by insufficiently safeguarding it <b>is obligated to pay payments</b> of restitution",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁהִזִּיק,",
+      "en": "and when it damaged"
+     },
+     {
+      "he": "חָב",
+      "en": "is obligated"
+     },
+     {
+      "he": "הַמַּזִּיק",
+      "en": "the damager"
+     },
+     {
+      "he": "לְשַׁלֵּם",
+      "en": "to pay"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     }
+    ]
+   },
+   {
+    "he": "נֶזֶק בְּמֵיטַב הָאָרֶץ:",
+    "en": "from the best of his land.",
+    "st": "<b>for damage with</b> his best-quality <b>land.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "בְּמֵיטַב",
+      "en": "with the best of"
+     },
+     {
+      "he": "הָאָרֶץ:",
+      "en": "the land"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "This mishnah gives rules about how damages are judged: the value is set in money, by a beis din, with proper witnesses. Women are included, and both sides take part in the payment.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שׁוּם כֶּסֶף,",
+    "en": "The damage is judged in money,",
+    "st": "The determination of payment of damages is made by <b>monetary appraisal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוּם",
+      "en": "appraisal of"
+     },
+     {
+      "he": "כֶּסֶף,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁוֶה כֶסֶף,",
+    "en": "one pays with things worth money,",
+    "st": "One pays with items <b>worth money.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁוֶה",
+      "en": "and worth"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְנֵי בֵית דִּין,",
+    "en": "in front of a beis din,",
+    "st": "This halakha applies <b>before a court.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment",
+      "note": "A beis din is a Jewish court."
+     }
+    ]
+   },
+   {
+    "he": "וְעַל פִּי עֵדִים בְּנֵי",
+    "en": "by the word of witnesses who are",
+    "st": "<b>And</b> it is <b>based upon</b> the testimony of <b>witnesses</b> who are",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "sons of"
+     }
+    ]
+   },
+   {
+    "he": "חוֹרִין בְּנֵי בְרִית.",
+    "en": "free men and Jews.",
+    "st": "<b>free men,</b> i.e., men who are not Canaanite slaves, and who are <b>members of the covenant,</b> i.e., Jews.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוֹרִין",
+      "en": "free men"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "members of"
+     },
+     {
+      "he": "בְרִית.",
+      "en": "the covenant"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנָּשִׁים בִּכְלָל הַנֶּזֶק.",
+    "en": "And women are included in the laws of damages.",
+    "st": "<b>And women are included in the</b> halakhot of <b>damages</b> in the same way as men.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנָּשִׁים",
+      "en": "and the women"
+     },
+     {
+      "he": "בִּכְלָל",
+      "en": "are in the group of"
+     },
+     {
+      "he": "הַנֶּזֶק.",
+      "en": "the damage"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנִּזָּק וְהַמַּזִּיק בַּתַּשְׁלוּמִין:",
+    "en": "And the one who was hurt and the one who did damage are both part of the payment.",
+    "st": "<b>And</b> both <b>the injured</b> party <b>and the one liable for the damage</b> are involved <b>in</b> the <b>payment.</b>",
+    "stMore": "The Gemara will explicate each of these principles.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנִּזָּק",
+      "en": "and the one who was damaged"
+     },
+     {
+      "he": "וְהַמַּזִּיק",
+      "en": "and the damager"
+     },
+     {
+      "he": "בַּתַּשְׁלוּמִין:",
+      "en": "in the payments"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Some animals are \"tam\" (not known to do harm), and the owner pays half. Some are \"mu'ad\" (known to do harm), and the owner pays in full. The mishnah lists which is which.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חֲמִשָּׁה תַמִּין וַחֲמִשָּׁה מוּעָדִין,",
+    "en": "There are five that are tam, and five that are mu'ad.",
+    "explain": "Tam: not known to harm. Mu'ad: known to harm, so pays fully.",
+    "st": "There are <b>five</b> damage-causing acts that an animal can perform twice and remain <b>innocuous</b> even when its owner was warned each time to prevent it from doing so.",
+    "stMore": "After the third time, the animal is rendered forewarned. In such cases, the owner is liable to pay only half of the damages. <b>And</b> there are <b>five</b> damage-causing acts for which an animal is considered <b>forewarned,</b> at times even if it had never caused damage in that manner. In such cases the owner is liable to pay the full cost of the damage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "תַמִּין",
+      "en": "tam",
+      "note": "An animal not known to do this harm; the owner pays half."
+     },
+     {
+      "he": "וַחֲמִשָּׁה",
+      "en": "and five"
+     },
+     {
+      "he": "מוּעָדִין,",
+      "en": "mu'ad",
+      "note": "Warned, known to do this harm; the owner pays in full."
+     }
+    ]
+   },
+   {
+    "he": "הַבְּהֵמָה אֵינָהּ מוּעֶדֶת לֹא לִגַּח",
+    "en": "An animal is not mu'ad to gore,",
+    "st": "<b>An animal is not</b> considered <b>forewarned</b> with regard to Goring, i.e., <b>not for goring</b> with its horns,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבְּהֵמָה",
+      "en": "the animal"
+     },
+     {
+      "he": "אֵינָהּ",
+      "en": "is not"
+     },
+     {
+      "he": "מוּעֶדֶת",
+      "en": "mu'ad"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לִגַּח",
+      "en": "to gore",
+      "note": "To hit with its horns."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא לִגֹּף וְלֹא לִשֹּׁךְ וְלֹא",
+    "en": "or to push, or to bite, or",
+    "st": "<b>nor for pushing</b> with its body, <b>nor for biting,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לִגֹּף",
+      "en": "to push"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לִשֹּׁךְ",
+      "en": "to bite"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "לִרְבֹּץ וְלֹא לִבְעֹט.",
+    "en": "to lie down on things, or to kick.",
+    "st": "<b>nor for crouching</b> upon items in order to damage them, <b>nor for kicking.</b>",
+    "stMore": "In these cases the animal is considered to be innocuous and its owner is liable for only half of the damages.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִרְבֹּץ",
+      "en": "to crouch on things"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לִבְעֹט.",
+      "en": "to kick"
+     }
+    ]
+   },
+   {
+    "he": "הַשֵּׁן מוּעֶדֶת לֶאֱכֹל אֶת הָרָאוּי לָהּ,",
+    "en": "The tooth is mu'ad to eat what it usually eats.",
+    "st": "Concerning acts of damage performed with <b>the tooth,</b> the animal is considered <b>forewarned with regard to eating that which is fitting for it</b> to eat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשֵּׁן",
+      "en": "the tooth"
+     },
+     {
+      "he": "מוּעֶדֶת",
+      "en": "is mu'ad"
+     },
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרָאוּי",
+      "en": "what is fitting"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "for it"
+     }
+    ]
+   },
+   {
+    "he": "הָרֶגֶל מוּעֶדֶת לְשַׁבֵּר בְּדֶרֶךְ הִלּוּכָהּ,",
+    "en": "The foot is mu'ad to break things while walking.",
+    "st": "Concerning acts of damage performed with <b>the foot,</b> the animal is considered <b>forewarned with regard to breaking</b> items <b>while walking.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרֶגֶל",
+      "en": "the foot"
+     },
+     {
+      "he": "מוּעֶדֶת",
+      "en": "is mu'ad"
+     },
+     {
+      "he": "לְשַׁבֵּר",
+      "en": "to break"
+     },
+     {
+      "he": "בְּדֶרֶךְ",
+      "en": "in the way of"
+     },
+     {
+      "he": "הִלּוּכָהּ,",
+      "en": "its walking"
+     }
+    ]
+   },
+   {
+    "he": "וְשׁוֹר הַמּוּעָד,",
+    "en": "And an ox that is mu'ad,",
+    "explain": "An ox that gored three times, and its owner was warned.",
+    "st": "<b>And</b> there is <b>a forewarned ox,</b> which gored three times and each time his owner was warned to safeguard his ox from doing so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשׁוֹר",
+      "en": "and the ox"
+     },
+     {
+      "he": "הַמּוּעָד,",
+      "en": "that is mu'ad"
+     }
+    ]
+   },
+   {
+    "he": "וְשׁוֹר הַמַּזִּיק בִּרְשׁוּת הַנִּזָּק,",
+    "en": "and an ox that does damage on the land of the one it hurt,",
+    "st": "<b>And</b> there is <b>an ox that causes damage</b> to the property of the injured party while <b>on the property of the injured</b> party.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשׁוֹר",
+      "en": "and the ox"
+     },
+     {
+      "he": "הַמַּזִּיק",
+      "en": "that damages"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הַנִּזָּק,",
+      "en": "the one who was damaged"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאָדָם. הַזְּאֵב וְהָאֲרִי וְהַדֹּב וְהַנָּמֵר וְהַבַּרְדְּלָס וְהַנָּחָשׁ,",
+    "en": "and a person. The wolf, the lion, the bear, the leopard, the bardelas, and the snake:",
+    "st": "<b>And</b> there is <b>the person,</b> i.e., any damage done by a person.",
+    "stMore": "In all of these cases the one who caused the damage is considered to be forewarned, resulting in the obligation to pay the full cost of the damage. The mishna presents the halakha for wild animals: <b>The wolf; the lion; the bear; the leopard; the bardelas,</b> the meaning of which the Gemara will discuss; <b>and the snake.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאָדָם.",
+      "en": "and the person"
+     },
+     {
+      "he": "הַזְּאֵב",
+      "en": "the wolf"
+     },
+     {
+      "he": "וְהָאֲרִי",
+      "en": "and the lion"
+     },
+     {
+      "he": "וְהַדֹּב",
+      "en": "and the bear"
+     },
+     {
+      "he": "וְהַנָּמֵר",
+      "en": "and the leopard"
+     },
+     {
+      "he": "וְהַבַּרְדְּלָס",
+      "en": "and the bardelas",
+      "note": "A wild animal; the Gemara discusses which one."
+     },
+     {
+      "he": "וְהַנָּחָשׁ,",
+      "en": "and the snake"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ מוּעָדִין.",
+    "en": "these are mu'ad.",
+    "st": "<b>These are</b> considered <b>forewarned</b> even if they had never previously caused damage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "מוּעָדִין.",
+      "en": "are mu'ad"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Elazar says,",
+    "st": "<b>Rabbi Elazar says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Elazar"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁהֵן בְּנֵי תַרְבּוּת,",
+    "en": "When they are tame,",
+    "st": "<b>When these</b> animals <b>are domesticated</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they are"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "sons of"
+     },
+     {
+      "he": "תַרְבּוּת,",
+      "en": "training",
+      "note": "Tame animals, raised by people."
+     }
+    ]
+   },
+   {
+    "he": "אֵינָן מוּעָדִין.",
+    "en": "they are not mu'ad.",
+    "st": "<b>they are not</b> considered <b>forewarned.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָן",
+      "en": "they are not"
+     },
+     {
+      "he": "מוּעָדִין.",
+      "en": "mu'ad"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנָּחָשׁ מוּעָד לְעוֹלָם.",
+    "en": "But the snake is always mu'ad.",
+    "st": "<b>But the snake is always</b> considered <b>forewarned.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנָּחָשׁ",
+      "en": "and the snake"
+     },
+     {
+      "he": "מוּעָד",
+      "en": "is mu'ad"
+     },
+     {
+      "he": "לְעוֹלָם.",
+      "en": "always"
+     }
+    ]
+   },
+   {
+    "he": "מַה בֵּין תָּם לְמוּעָד.",
+    "en": "What is the difference between tam and mu'ad?",
+    "st": "<b>What</b> is the difference <b>between</b> the liability incurred for damage caused by an ox that is considered <b>innocuous and</b> the liability incurred for damage caused by an ox that is <b>forewarned?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "בֵּין",
+      "en": "is between"
+     },
+     {
+      "he": "תָּם",
+      "en": "tam"
+     },
+     {
+      "he": "לְמוּעָד.",
+      "en": "and mu'ad"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שֶׁהַתָּם מְשַׁלֵּם חֲצִי נֶזֶק מִגּוּפוֹ,",
+    "en": "Only that a tam pays half the damage, from its own body,",
+    "explain": "The owner pays only from selling the ox itself.",
+    "st": "The <b>only</b> differences are <b>that</b> for damage caused by <b>an innocuous</b> ox, the owner <b>pays half</b> the cost of <b>the damage</b> exclusively <b>from</b> proceeds of the sale <b>of the body</b> of the ox,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "שֶׁהַתָּם",
+      "en": "that the tam"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half"
+     },
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "מִגּוּפוֹ,",
+      "en": "from its body"
+     }
+    ]
+   },
+   {
+    "he": "וּמוּעָד מְשַׁלֵּם נֶזֶק שָׁלֵם מִן הָעֲלִיָּה:",
+    "en": "and a mu'ad pays the full damage from the best property.",
+    "st": "<b>and</b> for <b>a forewarned</b> ox <b>he pays the full</b> cost of the <b>damage from</b> his <b>higher</b> property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוּעָד",
+      "en": "and mu'ad"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "שָׁלֵם",
+      "en": "full"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעֲלִיָּה:",
+      "en": "the higher property"
+     }
+    ]
+   }
+  ]
+ }
+]

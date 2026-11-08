@@ -1,0 +1,1435 @@
+[
+ {
+  "perek": 12,
+  "mishnah": 1,
+  "summary": "A man who promised his new wife to feed her daughter for five years must keep his promise, even after a divorce. If she married someone else who promised the same, both must pay, each in his own way.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַנּוֹשֵׂא אֶת הָאִשָּׁה וּפָסְקָה עִמּוֹ כְּדֵי",
+    "en": "One who marries a woman, and she made a deal with him",
+    "st": "<b>One who marries a woman, and she stipulated with him </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹשֵׂא",
+      "en": "the one who marries"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "וּפָסְקָה",
+      "en": "and she agreed"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "that"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיָּזוּן אֶת בִּתָּהּ חָמֵשׁ שָׁנִים,",
+    "en": "that he will feed her daughter for five years,",
+    "st": "<b>that he would sustain her daughter</b> from another man for <b>five years, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיָּזוּן",
+      "en": "that he will feed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בִּתָּהּ",
+      "en": "her daughter"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "שָׁנִים,",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב לְזוּנָהּ חָמֵשׁ שָׁנִים.",
+    "en": "must feed her for five years.",
+    "st": "<b>is obligated to sustain her</b> daughter for <b>five years.</b>",
+    "stMore": "If, in the course of those five years they were divorced and the woman",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he must"
+     },
+     {
+      "he": "לְזוּנָהּ",
+      "en": "to feed her"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "שָׁנִים.",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "נִשֵּׂאת לְאַחֵר וּפָסְקָה עִמּוֹ כְּדֵי",
+    "en": "If she married someone else and made a deal with him",
+    "st": "<b>was married to another</b> man, <b>and she stipulated with him </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשֵּׂאת",
+      "en": "she married"
+     },
+     {
+      "he": "לְאַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "וּפָסְקָה",
+      "en": "and she agreed"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "that"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיָּזוּן אֶת בִּתָּהּ חָמֵשׁ שָׁנִים,",
+    "en": "that he will feed her daughter for five years,",
+    "st": "<b>that he would sustain her daughter</b> for <b>five years, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיָּזוּן",
+      "en": "that he will feed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בִּתָּהּ",
+      "en": "her daughter"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "שָׁנִים,",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב לְזוּנָהּ חָמֵשׁ שָׁנִים.",
+    "en": "he must feed her for five years.",
+    "st": "<b>he</b> too <b>is obligated to sustain her</b> for <b>five years. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he must"
+     },
+     {
+      "he": "לְזוּנָהּ",
+      "en": "to feed her"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "שָׁנִים.",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יֹאמַר הָרִאשׁוֹן לִכְשֶׁתָּבֹא אֶצְלִי אֲזוּנָהּ,",
+    "en": "The first one may not say, When she comes to me I will feed her,",
+    "st": "<b>The first</b> husband <b>may not say: When she comes to me, I will sustain her. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "shall say"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "לִכְשֶׁתָּבֹא",
+      "en": "when she comes"
+     },
+     {
+      "he": "אֶצְלִי",
+      "en": "to me"
+     },
+     {
+      "he": "אֲזוּנָהּ,",
+      "en": "I will feed her"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מוֹלִיךְ לָהּ מְזוֹנוֹתֶיהָ לִמְקוֹם אִמָּהּ.",
+    "en": "rather, he brings her food to where her mother lives.",
+    "st": "<b>Rather, he brings her sustenance to her, to the place where her mother</b> lives.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "מוֹלִיךְ",
+      "en": "he brings"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מְזוֹנוֹתֶיהָ",
+      "en": "her food"
+     },
+     {
+      "he": "לִמְקוֹם",
+      "en": "to the place of"
+     },
+     {
+      "he": "אִמָּהּ.",
+      "en": "her mother"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן לֹא יֹאמְרוּ שְׁנֵיהֶם הֲרֵי",
+    "en": "And the two of them may not say,",
+    "st": "<b>And likewise, both of them may not</b> jointly <b>say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמְרוּ",
+      "en": "shall say"
+     },
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     }
+    ]
+   },
+   {
+    "he": "אָנוּ זָנִין אוֹתָהּ כְּאֶחָד,",
+    "en": "We will feed her together,",
+    "st": "<b>We will sustain</b> the girl <b>as one</b> in a partnership.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "זָנִין",
+      "en": "feed"
+     },
+     {
+      "he": "אוֹתָהּ",
+      "en": "her"
+     },
+     {
+      "he": "כְּאֶחָד,",
+      "en": "as one"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אֶחָד זָנָהּ וְאֶחָד",
+    "en": "rather, one feeds her and the other",
+    "st": "<b>Rather, one sustains her,</b> providing her with food, while",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "זָנָהּ",
+      "en": "feeds her"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לָהּ דְּמֵי מְזוֹנוֹת:",
+    "en": "gives her the money for food.",
+    "st": "<b>the other gives her the monetary</b> value <b>of the sustenance.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the money of"
+     },
+     {
+      "he": "מְזוֹנוֹת:",
+      "en": "food"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 2,
+  "summary": "When the girl marries, her husband feeds her, and the two men give her money for food. If they die she is like a lender, so smart men wrote that they would feed her only while they were married to her mother.",
+  "stIntro": "If the daughter",
+  "chunks": [
+   {
+    "he": "נִשֵּׂאת, הַבַּעַל נוֹתֵן לָהּ מְזוֹנוֹת וְהֵן",
+    "en": "If she got married, her husband gives her food, and they",
+    "st": "<b>was married</b> during this period, her <b>husband provides her</b> with the <b>sustenance</b> customarily provided by a husband for his wife, <b>and</b>",
+    "stMore": "the two men obligated to sustain her due to agreements with her mother",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשֵּׂאת,",
+      "en": "she married"
+     },
+     {
+      "he": "הַבַּעַל",
+      "en": "the husband"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מְזוֹנוֹת",
+      "en": "food"
+     },
+     {
+      "he": "וְהֵן",
+      "en": "and they"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתְנִין לָהּ דְּמֵי מְזוֹנוֹת.",
+    "en": "give her the money for food.",
+    "st": "<b>provide her with the monetary value of the sustenance.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתְנִין",
+      "en": "give"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the money of"
+     },
+     {
+      "he": "מְזוֹנוֹת.",
+      "en": "food"
+     }
+    ]
+   },
+   {
+    "he": "מֵתוּ, בְּנוֹתֵיהֶן נִזּוֹנוֹת מִנְּכָסִים בְּנֵי חוֹרִין",
+    "en": "If they died, their own daughters are fed from free property,",
+    "st": "If the two husbands of the mother <b>died, their daughters are sustained from unsold property, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵתוּ,",
+      "en": "they died"
+     },
+     {
+      "he": "בְּנוֹתֵיהֶן",
+      "en": "their daughters"
+     },
+     {
+      "he": "נִזּוֹנוֹת",
+      "en": "are fed"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "free"
+     },
+     {
+      "he": "חוֹרִין",
+      "en": "(free)"
+     }
+    ]
+   },
+   {
+    "he": "וְהִיא נִזּוֹנֶת מִנְּכָסִים מְשֻׁעְבָּדִים,",
+    "en": "and she is fed even from property that was sold,",
+    "st": "<b>and she,</b> their wife’s daughter, whom they agreed to sustain, <b>is sustained</b> even <b>from liened property</b> that was sold.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "נִזּוֹנֶת",
+      "en": "is fed"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "מְשֻׁעְבָּדִים,",
+      "en": "pledged (sold)"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהִיא כְבַעֲלַת חוֹב.",
+    "en": "because she is like a lender.",
+    "st": "This is <b>due to</b> the fact <b>that her</b> legal status is <b>like</b> that of <b>a creditor,</b>",
+    "stMore": "given that he is contractually obligated to support her.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "כְבַעֲלַת",
+      "en": "is like an owner of"
+     },
+     {
+      "he": "חוֹב.",
+      "en": "a debt (lender)"
+     }
+    ]
+   },
+   {
+    "he": "הַפִּקְחִים הָיוּ כוֹתְבִים,",
+    "en": "Smart people used to write,",
+    "st": "<b>The perspicacious</b> ones <b>would write</b> an explicit stipulation into the agreement:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפִּקְחִים",
+      "en": "the smart ones"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "כוֹתְבִים,",
+      "en": "writing"
+     }
+    ]
+   },
+   {
+    "he": "עַל מְנָת שֶׁאָזוּן אֶת בִּתֵּךְ חָמֵשׁ",
+    "en": "On condition that I feed your daughter for five",
+    "st": "I agree <b>on the condition that I will sustain your daughter for five </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "שֶׁאָזוּן",
+      "en": "that I will feed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בִּתֵּךְ",
+      "en": "your daughter"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     }
+    ]
+   },
+   {
+    "he": "שָׁנִים כָּל זְמַן שֶׁאַתְּ עִמִּי:",
+    "en": "years, as long as you are with me.",
+    "st": "<b>years</b> only <b>as long as you are with me.</b>",
+    "stMore": "Then they would not be obligated to sustain a girl who is not their daughter when they are no longer married to the girl’s mother.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "שֶׁאַתְּ",
+      "en": "that you"
+     },
+     {
+      "he": "עִמִּי:",
+      "en": "with me"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 3,
+  "summary": "A widow may stay in her husband's house and be fed there. If she wants to live in her father's house, the heirs may stop feeding her, unless she has a good reason.",
+  "stIntro": "In the case of",
+  "chunks": [
+   {
+    "he": "אַלְמָנָה שֶׁאָמְרָה אִי אֶפְשִׁי",
+    "en": "A widow who said, I do not want",
+    "st": "<b>a widow who said: I do not want </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַלְמָנָה",
+      "en": "a widow"
+     },
+     {
+      "he": "שֶׁאָמְרָה",
+      "en": "who said"
+     },
+     {
+      "he": "אִי",
+      "en": "not"
+     },
+     {
+      "he": "אֶפְשִׁי",
+      "en": "I want"
+     }
+    ]
+   },
+   {
+    "he": "לָזוּז מִבֵּית בַּעְלִי,",
+    "en": "to move from my husband's house,",
+    "st": "<b>to move from my husband’s house,</b> but instead I wish to remain there,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָזוּז",
+      "en": "to move"
+     },
+     {
+      "he": "מִבֵּית",
+      "en": "from the house of"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַיּוֹרְשִׁין יְכוֹלִין לוֹמַר לָהּ לְכִי",
+    "en": "the heirs cannot tell her, Go",
+    "st": "<b>the heirs are not able to say to her: Go </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הַיּוֹרְשִׁין",
+      "en": "the heirs"
+     },
+     {
+      "he": "יְכוֹלִין",
+      "en": "are able"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "לְכִי",
+      "en": "go"
+     }
+    ]
+   },
+   {
+    "he": "לְבֵית אָבִיךְ וְאָנוּ זָנִין אוֹתָךְ,",
+    "en": "to your father's house and we will feed you.",
+    "st": "<b>to your father’s house and we will sustain you. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "אָבִיךְ",
+      "en": "your father"
+     },
+     {
+      "he": "וְאָנוּ",
+      "en": "and we"
+     },
+     {
+      "he": "זָנִין",
+      "en": "feed"
+     },
+     {
+      "he": "אוֹתָךְ,",
+      "en": "you"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא זָנִין אוֹתָהּ בְּבֵית בַּעְלָהּ",
+    "en": "Rather, they feed her in her husband's house",
+    "st": "<b>Rather, they sustain her</b> in her husband’s house",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "זָנִין",
+      "en": "they feed"
+     },
+     {
+      "he": "אוֹתָהּ",
+      "en": "her"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "בַּעְלָהּ",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתְנִין לָהּ מָדוֹר לְפִי כְבוֹדָהּ.",
+    "en": "and give her a place to live as fits her honor.",
+    "st": "<b>and they give her living quarters befitting her dignity.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתְנִין",
+      "en": "and they give"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מָדוֹר",
+      "en": "a place to live"
+     },
+     {
+      "he": "לְפִי",
+      "en": "according to"
+     },
+     {
+      "he": "כְבוֹדָהּ.",
+      "en": "her honor"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרָה אִי אֶפְשִׁי לָזוּז מִבֵּית אַבָּא,",
+    "en": "If she said, I do not want to move from my father's house,",
+    "st": "However, if <b>she said: I do not want to move from my father’s house,</b> and you should bring me my support there,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרָה",
+      "en": "she said"
+     },
+     {
+      "he": "אִי",
+      "en": "not"
+     },
+     {
+      "he": "אֶפְשִׁי",
+      "en": "I want"
+     },
+     {
+      "he": "לָזוּז",
+      "en": "to move"
+     },
+     {
+      "he": "מִבֵּית",
+      "en": "from the house of"
+     },
+     {
+      "he": "אַבָּא,",
+      "en": "my father"
+     }
+    ]
+   },
+   {
+    "he": "יְכוֹלִים הַיּוֹרְשִׁים לוֹמַר לָהּ,",
+    "en": "the heirs can tell her,",
+    "st": "<b>the heirs are able to say to her: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְכוֹלִים",
+      "en": "are able"
+     },
+     {
+      "he": "הַיּוֹרְשִׁים",
+      "en": "the heirs"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "אִם אַתְּ אֶצְלֵנוּ יֶשׁ לִיךְ מְזוֹנוֹת,",
+    "en": "If you are with us, you get food,",
+    "st": "<b>If you are</b> living <b>with us, you</b> will <b>have sustenance</b> from us,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אַתְּ",
+      "en": "you"
+     },
+     {
+      "he": "אֶצְלֵנוּ",
+      "en": "with us"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִיךְ",
+      "en": "to you"
+     },
+     {
+      "he": "מְזוֹנוֹת,",
+      "en": "food"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אֵין אַתְּ אֶצְלֵנוּ",
+    "en": "and if you are not with us,",
+    "st": "<b>but if you are not</b> living <b>with us, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אַתְּ",
+      "en": "you"
+     },
+     {
+      "he": "אֶצְלֵנוּ",
+      "en": "with us"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לִיךְ מְזוֹנוֹת.",
+    "en": "you do not get food.",
+    "st": "<b>you</b> will <b>not have sustenance</b> from us.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לִיךְ",
+      "en": "to you"
+     },
+     {
+      "he": "מְזוֹנוֹת.",
+      "en": "food"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיְתָה טוֹעֶנֶת מִפְּנֵי",
+    "en": "If she said it was because",
+    "st": "<b>If she argued</b>",
+    "stMore": "that she does not wish to live in her deceased husband’s house",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "she was"
+     },
+     {
+      "he": "טוֹעֶנֶת",
+      "en": "claiming"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהִיא יַלְדָּה וְהֵן יְלָדִים,",
+    "en": "she is young and they are young,",
+    "st": "<b>because she is young, and they,</b> the heirs, <b>are</b> also <b>young,</b>",
+    "stMore": "and it is improper for them to be living in the same house together,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "יַלְדָּה",
+      "en": "is young"
+     },
+     {
+      "he": "וְהֵן",
+      "en": "and they"
+     },
+     {
+      "he": "יְלָדִים,",
+      "en": "are young"
+     }
+    ]
+   },
+   {
+    "he": "זָנִין אוֹתָהּ וְהִיא בְּבֵית אָבִיהָ:",
+    "en": "they feed her while she lives in her father's house.",
+    "st": "then <b>they sustain her and she</b> stays <b>in her father’s house.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָנִין",
+      "en": "they feed"
+     },
+     {
+      "he": "אוֹתָהּ",
+      "en": "her"
+     },
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "אָבִיהָ:",
+      "en": "her father"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 4,
+  "summary": "Rabbi Meir and the Sages argue about how long a widow can wait before she claims her kesubah. It depends on whether she lives in her husband's house or her father's house.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל זְמַן שֶׁהִיא בְבֵית אָבִיהָ,",
+    "en": "As long as she is in her father's house,",
+    "st": "<b>As long as</b> a widow <b>is</b> living <b>in the house of her father</b>",
+    "stMore": "and is being supported by her husband’s heirs,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "בְבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "אָבִיהָ,",
+      "en": "her father"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבָה כְתֻבָּתָהּ לְעוֹלָם.",
+    "en": "she can collect her kesubah forever.",
+    "st": "<b>she may always collect</b> payment of <b>her marriage contract,</b> even after many years.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבָה",
+      "en": "she collects"
+     },
+     {
+      "he": "כְתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "לְעוֹלָם.",
+      "en": "forever"
+     }
+    ]
+   },
+   {
+    "he": "כָּל זְמַן שֶׁהִיא בְּבֵית בַּעְלָהּ,",
+    "en": "As long as she is in her husband's house,",
+    "st": "<b>As long as she is</b> living <b>in the house of her husband, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "בַּעְלָהּ,",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבָה כְתֻבָּתָהּ עַד עֶשְׂרִים וְחָמֵשׁ שָׁנִים,",
+    "en": "she can collect her kesubah for up to twenty-five years,",
+    "st": "<b>she may collect</b> payment of <b>her marriage contract until twenty-five years</b>",
+    "stMore": "later, at which point she may no longer collect the payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבָה",
+      "en": "she collects"
+     },
+     {
+      "he": "כְתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וְחָמֵשׁ",
+      "en": "and five"
+     },
+     {
+      "he": "שָׁנִים,",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּשׁ בְּעֶשְׂרִים וְחָמֵשׁ שָׁנִים",
+    "en": "because in twenty-five years",
+    "st": "This is <b>because there is</b> enough time <b>in twenty-five years </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "in twenty"
+     },
+     {
+      "he": "וְחָמֵשׁ",
+      "en": "and five"
+     },
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁתַּעֲשֶׂה טוֹבָה כְנֶגֶד כְּתֻבָּתָהּ,",
+    "en": "she can give away as much as her kesubah.",
+    "explain": "She uses the heirs' things to do kindness for others.",
+    "st": "<b>for her to do favors</b> and give to others, thereby spending the resources of the orphans, until what she has spent <b>equals</b> the value of <b>her marriage contract.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁתַּעֲשֶׂה",
+      "en": "that she will do"
+     },
+     {
+      "he": "טוֹבָה",
+      "en": "favors"
+     },
+     {
+      "he": "כְנֶגֶד",
+      "en": "equal to"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ,",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר שֶׁאָמַר מִשּׁוּם",
+    "en": "That is what Rabbi Meir said in the name of",
+    "st": "This is <b>the statement of Rabbi Meir, who said</b> it <b>in the name of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "who said"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "in the name of"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל.",
+    "en": "Rabban Shimon ben Gamliel.",
+    "st": "<b>Rabban Shimon ben Gamliel. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "גַּמְלִיאֵל.",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say</b> the opposite:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כָּל זְמַן שֶׁהִיא בְּבֵית בַּעְלָהּ,",
+    "en": "As long as she is in her husband's house,",
+    "st": "<b>As long as she is</b> residing <b>in the house of her husband </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "בַּעְלָהּ,",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבָה כְתֻבָּתָהּ לְעוֹלָם.",
+    "en": "she can collect her kesubah forever.",
+    "st": "<b>she may always collect</b> payment of <b>her marriage contract,</b>",
+    "stMore": "since during this time the heirs are caring for her and she is therefore embarrassed to sue them for payment of her marriage contract.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבָה",
+      "en": "she collects"
+     },
+     {
+      "he": "כְתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "לְעוֹלָם.",
+      "en": "forever"
+     }
+    ]
+   },
+   {
+    "he": "כָּל זְמַן שֶׁהִיא בְּבֵית אָבִיהָ,",
+    "en": "As long as she is in her father's house,",
+    "st": "However, <b>as long as she is in the house of her father </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "אָבִיהָ,",
+      "en": "her father"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבָה כְתֻבָּתָהּ עַד עֶשְׂרִים וְחָמֵשׁ שָׁנִים.",
+    "en": "she can collect her kesubah for up to twenty-five years.",
+    "st": "<b>she may collect</b> payment of <b>her marriage contract until twenty-five years</b>",
+    "stMore": "later, and if by then she has not sued for it, it is assumed that she has waived her rights to it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבָה",
+      "en": "she collects"
+     },
+     {
+      "he": "כְתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וְחָמֵשׁ",
+      "en": "and five"
+     },
+     {
+      "he": "שָׁנִים.",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "מֵתָה, יוֹרְשֶׁיהָ מַזְכִּירִין כְּתֻבָּתָהּ עַד",
+    "en": "If she died, her heirs can bring up her kesubah until",
+    "st": "If <b>she died, her heirs mention her marriage contract</b> up <b>until </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵתָה,",
+      "en": "she died"
+     },
+     {
+      "he": "יוֹרְשֶׁיהָ",
+      "en": "her heirs"
+     },
+     {
+      "he": "מַזְכִּירִין",
+      "en": "mention"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     }
+    ]
+   },
+   {
+    "he": "עֶשְׂרִים וְחָמֵשׁ שָׁנִים:",
+    "en": "twenty-five years.",
+    "st": "<b>twenty-five years</b> later.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וְחָמֵשׁ",
+      "en": "and five"
+     },
+     {
+      "he": "שָׁנִים:",
+      "en": "years"
+     }
+    ]
+   }
+  ]
+ }
+]

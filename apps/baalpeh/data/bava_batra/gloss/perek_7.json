@@ -1,0 +1,1402 @@
+[
+ {
+  "perek": 7,
+  "mishnah": 1,
+  "summary": "If someone sells a field of a beis kor, deep holes or tall rocks in it do not count as part of the size. But if he said it is about a beis kor, they do count.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר לַחֲבֵרוֹ,",
+    "en": "Someone who says to his friend,",
+    "st": "<b>If one says to another:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "לַחֲבֵרוֹ,",
+      "en": "to his friend"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית כּוֹר עָפָר אֲנִי מוֹכֵר לְךָ,",
+    "en": "I am selling you a beis kor of land,",
+    "st": "<b>I am selling you</b> a plot of <b>earth</b> of the size <b>required for sowing one kor of seed [beit kor],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "a place of"
+     },
+     {
+      "he": "כּוֹר",
+      "en": "a kor",
+      "note": "A beis kor is land big enough to plant a kor of seed."
+     },
+     {
+      "he": "עָפָר",
+      "en": "earth"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מוֹכֵר",
+      "en": "sell"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ שָׁם נְקָעִים עֲמֻקִּים עֲשָׂרָה טְפָחִים",
+    "en": "and there were holes ten tefachim deep there",
+    "st": "and <b>there</b> on that plot <b>there were crevices</b> [<b>neka’im</b>] <b>ten handbreadths deep</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "נְקָעִים",
+      "en": "holes"
+     },
+     {
+      "he": "עֲמֻקִּים",
+      "en": "deep"
+     },
+     {
+      "he": "עֲשָׂרָה",
+      "en": "ten"
+     },
+     {
+      "he": "טְפָחִים",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ סְלָעִים גְּבוֹהִים עֲשָׂרָה טְפָחִים,",
+    "en": "or rocks ten tefachim high,",
+    "st": "<b>or rocks ten handbreadths high,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "rocks"
+     },
+     {
+      "he": "גְּבוֹהִים",
+      "en": "high"
+     },
+     {
+      "he": "עֲשָׂרָה",
+      "en": "ten"
+     },
+     {
+      "he": "טְפָחִים,",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָן נִמְדָּדִין עִמָּהּ.",
+    "en": "they are not measured with it.",
+    "explain": "The buyer gets a full beis kor without them.",
+    "st": "<b>they are not measured</b> together <b>with</b>",
+    "stMore": "the rest of the field. Rather, the buyer must be provided with land measuring a beit kor exclusive of those crevices or rocks.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָן",
+      "en": "they are not"
+     },
+     {
+      "he": "נִמְדָּדִין",
+      "en": "measured"
+     },
+     {
+      "he": "עִמָּהּ.",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "פָּחוֹת מִכָּאן,",
+    "en": "Less than that,",
+    "st": "If the crevices or rocks measured <b>less than</b> ten handbreadths,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מִכָּאן,",
+      "en": "than this"
+     }
+    ]
+   },
+   {
+    "he": "נִמְדָּדִין עִמָּהּ.",
+    "en": "they are measured with it.",
+    "st": "<b>they are measured</b> together <b>with</b> the rest of the field.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְדָּדִין",
+      "en": "measured"
+     },
+     {
+      "he": "עִמָּהּ.",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמַר לוֹ כְּבֵית כּוֹר עָפָר,",
+    "en": "But if he said to him, About a beis kor of land,",
+    "st": "<b>But if</b> the seller <b>said to</b> the buyer: I am selling you a plot of <b>earth</b> that is <b>about</b> the size of <b>a beit kor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "כְּבֵית",
+      "en": "like a place of"
+     },
+     {
+      "he": "כּוֹר",
+      "en": "a kor"
+     },
+     {
+      "he": "עָפָר,",
+      "en": "earth"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ הָיוּ שָׁם נְקָעִים עֲמֻקִּים",
+    "en": "even if there were holes deeper",
+    "st": "then <b>even if there</b> on that plot <b>there were crevices deeper</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "נְקָעִים",
+      "en": "holes"
+     },
+     {
+      "he": "עֲמֻקִּים",
+      "en": "deep"
+     }
+    ]
+   },
+   {
+    "he": "יוֹתֵר מֵעֲשָׂרָה טְפָחִים",
+    "en": "than ten tefachim,",
+    "st": "<b>than ten handbreadths</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "מֵעֲשָׂרָה",
+      "en": "than ten"
+     },
+     {
+      "he": "טְפָחִים",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ סְלָעִים גְּבוֹהִין יוֹתֵר מֵעֲשָׂרָה טְפָחִים,",
+    "en": "or rocks higher than ten tefachim,",
+    "st": "<b>or rocks higher than ten handbreadths,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "rocks"
+     },
+     {
+      "he": "גְּבוֹהִין",
+      "en": "high"
+     },
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "מֵעֲשָׂרָה",
+      "en": "than ten"
+     },
+     {
+      "he": "טְפָחִים,",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ נִמְדָּדִין עִמָּהּ:",
+    "en": "they are measured with it.",
+    "st": "<b>they are measured</b> together <b>with</b> the rest of the field.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "נִמְדָּדִין",
+      "en": "measured"
+     },
+     {
+      "he": "עִמָּהּ:",
+      "en": "with it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 2,
+  "summary": "If a seller promised an exact size measured with a rope, any amount too little or too much must be paid back. If he said more or less, a small difference is fine, but a bigger one must be fixed with money, or sometimes by giving back land.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּית כּוֹר עָפָר אֲנִי מוֹכֵר לְךָ",
+    "en": "I am selling you a beis kor of land,",
+    "st": "If one says to another: <b>I am selling you</b> a plot of <b>earth</b> the size of <b>a beit kor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "a place of"
+     },
+     {
+      "he": "כּוֹר",
+      "en": "a kor"
+     },
+     {
+      "he": "עָפָר",
+      "en": "earth"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מוֹכֵר",
+      "en": "sell"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "מִדָּה בַחֶבֶל,",
+    "en": "measured with a rope:",
+    "explain": "That means exact.",
+    "st": "<b>measured</b> precisely <b>with a rope,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִדָּה",
+      "en": "measured"
+     },
+     {
+      "he": "בַחֶבֶל,",
+      "en": "with the rope"
+     }
+    ]
+   },
+   {
+    "he": "פִּחֵת כָּל שֶׁהוּא, יְנַכֶּה.",
+    "en": "if it was even a little less, he takes off from the price.",
+    "st": "and <b>he gave</b> him even <b>the slightest amount less</b> than what was stipulated, the seller <b>must deduct</b>",
+    "stMore": "the difference from the purchase price of the field and return money to the buyer.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פִּחֵת",
+      "en": "less"
+     },
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁהוּא,",
+      "en": "amount"
+     },
+     {
+      "he": "יְנַכֶּה.",
+      "en": "he takes off"
+     }
+    ]
+   },
+   {
+    "he": "הוֹתִיר כָּל שֶׁהוּא, יַחֲזִיר.",
+    "en": "If it was even a little more, the buyer gives it back.",
+    "st": "If <b>he gave</b> him even <b>the slightest amount more</b> than what was stipulated, the buyer <b>must return</b> the difference to the seller.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹתִיר",
+      "en": "more"
+     },
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁהוּא,",
+      "en": "amount"
+     },
+     {
+      "he": "יַחֲזִיר.",
+      "en": "he gives back"
+     }
+    ]
+   },
+   {
+    "he": "אִם אָמַר, הֵן חָסֵר הֵן יָתֵר,",
+    "en": "If he said, Whether less or more,",
+    "st": "<b>And if</b> the seller <b>said</b> to the buyer that he is selling him a beit kor of land <b>more or less,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַר,",
+      "en": "he said"
+     },
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "less"
+     },
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "יָתֵר,",
+      "en": "more"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ פִחֵת רֹבַע לַסְּאָה",
+    "en": "even if it was a quarter kav less for each se'ah,",
+    "st": "then <b>even if he gave</b> him <b>a quarter</b>-kav <b>per se’a less</b> than what was stipulated,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "פִחֵת",
+      "en": "less"
+     },
+     {
+      "he": "רֹבַע",
+      "en": "a quarter"
+     },
+     {
+      "he": "לַסְּאָה",
+      "en": "to the se'ah"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ הוֹתִיר רֹבַע לַסְּאָה, הִגִּיעוֹ.",
+    "en": "or a quarter kav more for each se'ah, it is his.",
+    "st": "<b>or he gave him a quarter</b>-kav <b>per se’a more</b> that what was stipulated, i.e., he gave him one twenty-fourth more or less than what was required, <b>it is his.</b>",
+    "stMore": "The sale is valid, since the seller told the buyer in advance that he was not committing himself to precise measurements.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "הוֹתִיר",
+      "en": "more"
+     },
+     {
+      "he": "רֹבַע",
+      "en": "a quarter"
+     },
+     {
+      "he": "לַסְּאָה,",
+      "en": "to the se'ah"
+     },
+     {
+      "he": "הִגִּיעוֹ.",
+      "en": "it reached him"
+     }
+    ]
+   },
+   {
+    "he": "יוֹתֵר מִכָּאן, יַעֲשֶׂה חֶשְׁבּוֹן.",
+    "en": "More than this, they make a reckoning.",
+    "st": "If the difference is <b>greater than that</b> amount, <b>he must make a calculation,</b>",
+    "stMore": "and the party that suffered a loss must be compensated. If the buyer received too much land, so that he must now compensate the seller,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "מִכָּאן,",
+      "en": "than this"
+     },
+     {
+      "he": "יַעֲשֶׂה",
+      "en": "he will make"
+     },
+     {
+      "he": "חֶשְׁבּוֹן.",
+      "en": "a reckoning"
+     }
+    ]
+   },
+   {
+    "he": "מַה הוּא מַחֲזִיר לוֹ, מָעוֹת.",
+    "en": "What does he give back to him? Money.",
+    "st": "<b>what does he return to him?</b> He returns <b>money,</b>",
+    "stMore": "i.e., he pays the seller for the surplus land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "מַחֲזִיר",
+      "en": "gives back"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     },
+     {
+      "he": "מָעוֹת.",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם רָצָה, מַחֲזִיר לוֹ קַרְקַע.",
+    "en": "And if he wants, he gives him back land.",
+    "st": "<b>And if</b> the seller so <b>wishes,</b> the buyer <b>returns</b> the surplus <b>land to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "רָצָה,",
+      "en": "he wants"
+     },
+     {
+      "he": "מַחֲזִיר",
+      "en": "gives back"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "קַרְקַע.",
+      "en": "land"
+     }
+    ]
+   },
+   {
+    "he": "וְלָמָּה אָמְרוּ מַחֲזִיר לוֹ מָעוֹת,",
+    "en": "And why did they say he gives back money?",
+    "st": "<b>Why</b> then <b>did</b> the Sages <b>say</b> that <b>he returns money to him?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָמָּה",
+      "en": "and why"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "מַחֲזִיר",
+      "en": "gives back"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מָעוֹת,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "לְיַפּוֹת כֹּחוֹ שֶׁל מוֹכֵר,",
+    "en": "To make the seller's rights stronger.",
+    "explain": "The seller can ask for money instead of a small piece of land.",
+    "st": "They said this <b>in order to enhance the power of the seller,</b>",
+    "stMore": "and enable him to demand payment for the surplus land, rather than accept its return.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְיַפּוֹת",
+      "en": "to make strong"
+     },
+     {
+      "he": "כֹּחוֹ",
+      "en": "the power"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מוֹכֵר,",
+      "en": "the seller"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם שִׁיֵּר בַּשָּׂדֶה בֵּית תִּשְׁעָה קַבִּין",
+    "en": "Because if the extra in a field was room for nine kav,",
+    "st": "<b>As, if the surplus in the field was an area required for sowing nine kav</b> of seed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "שִׁיֵּר",
+      "en": "was left over"
+     },
+     {
+      "he": "בַּשָּׂדֶה",
+      "en": "in the field"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a place of"
+     },
+     {
+      "he": "תִּשְׁעָה",
+      "en": "nine"
+     },
+     {
+      "he": "קַבִּין",
+      "en": "kav"
+     }
+    ]
+   },
+   {
+    "he": "וּבַגִּנָּה בֵּית חֲצִי קַב,",
+    "en": "and in a garden room for half a kav,",
+    "st": "<b>and in a garden an area required for sowing a half-kav</b> of seed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַגִּנָּה",
+      "en": "and in the garden"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a place of"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half"
+     },
+     {
+      "he": "קַב,",
+      "en": "a kav"
+     }
+    ]
+   },
+   {
+    "he": "וּכְדִבְרֵי רַבִּי עֲקִיבָא בֵּית רֹבַע,",
+    "en": "or, as Rabbi Akiva says, a quarter kav,",
+    "st": "<b>or, according to the statement of Rabbi Akiva, an area required for sowing a quarter</b>-kav of seed (see 11a),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְדִבְרֵי",
+      "en": "and like the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a place of"
+     },
+     {
+      "he": "רֹבַע,",
+      "en": "a quarter"
+     }
+    ]
+   },
+   {
+    "he": "מַחֲזִיר לוֹ אֶת הַקַּרְקַע.",
+    "en": "he gives him back the land.",
+    "st": "the buyer must <b>return the land</b> itself <b>to</b> the seller,",
+    "stMore": "and the seller cannot demand payment in money.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַחֲזִיר",
+      "en": "gives back"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקַּרְקַע.",
+      "en": "the land"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הָרֹבַע בִּלְבַד הוּא מַחֲזִיר,",
+    "en": "And he does not give back only the quarter kav,",
+    "st": "<b>And</b> if the surplus is greater than a quarter-kav per se’a, <b>it is not only the quarter</b>-kav <b>that he returns; rather,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרֹבַע",
+      "en": "the quarter"
+     },
+     {
+      "he": "בִּלְבַד",
+      "en": "only"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "מַחֲזִיר,",
+      "en": "gives back"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אֶת כָּל הַמּוֹתָר:",
+    "en": "but all of the extra.",
+    "st": "he returns <b>all of the surplus.</b>",
+    "stMore": "Since he is already required to make a refund, the refund must be made in the precise amount.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַמּוֹתָר:",
+      "en": "the extra"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 3,
+  "summary": "If a seller uses two opposite words, like exact and more or less, Ben Nanas says we follow the last thing he said. If he sold a field by its borders, a small difference in size does not matter, but a bigger one must be paid back.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִדָּה בַחֶבֶל אֲנִי מוֹכֵר לְךָ",
+    "en": "I am selling you an exact rope measure,",
+    "st": "If the seller says to the buyer: <b>I am selling you</b> a plot of land of a certain size <b>measured</b> precisely <b>with a rope</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִדָּה",
+      "en": "measure"
+     },
+     {
+      "he": "בַחֶבֶל",
+      "en": "with the rope"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מוֹכֵר",
+      "en": "sell"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "הֵן חָסֵר הֵן יָתֵר,",
+    "en": "whether less or more:",
+    "st": "<b>more or less,</b>",
+    "stMore": "thereby attaching to the sale two contradictory stipulations;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "less"
+     },
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "יָתֵר,",
+      "en": "more"
+     }
+    ]
+   },
+   {
+    "he": "בִּטֵּל הֵן חָסֵר הֵן יָתֵר",
+    "en": "whether less or more cancels",
+    "st": "in this case, the words: <b>More or less, nullify</b> the words:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּטֵּל",
+      "en": "cancels"
+     },
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "less"
+     },
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "more"
+     }
+    ]
+   },
+   {
+    "he": "מִדָּה בַחֶבֶל.",
+    "en": "exact rope measure.",
+    "st": "<b>Measured</b> precisely <b>with a rope.</b>",
+    "stMore": "Accordingly, if the surplus did not exceed a quarter-kav per se’a, the sale is valid as is. Similarly, if the seller says to the buyer: I am selling you a plot of land of a certain size",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִדָּה",
+      "en": "measure"
+     },
+     {
+      "he": "בַחֶבֶל.",
+      "en": "with the rope"
+     }
+    ]
+   },
+   {
+    "he": "הֵן חָסֵר הֵן יָתֵר מִדָּה בַחֶבֶל,",
+    "en": "Whether less or more, exact rope measure:",
+    "st": "<b>more or less measured</b> precisely <b>with a rope,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "less"
+     },
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "more"
+     },
+     {
+      "he": "מִדָּה",
+      "en": "measure"
+     },
+     {
+      "he": "בַחֶבֶל,",
+      "en": "with the rope"
+     }
+    ]
+   },
+   {
+    "he": "בִּטֵּל מִדָּה בַחֶבֶל",
+    "en": "exact rope measure cancels",
+    "st": "the words: <b>Measured</b> precisely <b>with a rope, nullify</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּטֵּל",
+      "en": "cancels"
+     },
+     {
+      "he": "מִדָּה",
+      "en": "measure"
+     },
+     {
+      "he": "בַחֶבֶל",
+      "en": "with the rope"
+     }
+    ]
+   },
+   {
+    "he": "הֵן חָסֵר הֵן יָתֵר,",
+    "en": "whether less or more.",
+    "explain": "We follow the last thing he said.",
+    "st": "the words: <b>More or less,</b>",
+    "stMore": "since the principle is that in all cases, one should attend to the final expression;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "less"
+     },
+     {
+      "he": "הֵן",
+      "en": "whether"
+     },
+     {
+      "he": "יָתֵר,",
+      "en": "more"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי בֶן נַנָּס.",
+    "en": "These are the words of Ben Nanas.",
+    "st": "this is <b>the statement of ben Nanas.</b>",
+    "stMore": "If one sells a field to another, telling him that he is selling him a field measuring a beit kor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "בֶן",
+      "en": "Ben"
+     },
+     {
+      "he": "נַנָּס.",
+      "en": "Nanas",
+      "note": "A Rabbi of the Mishnah."
+     }
+    ]
+   },
+   {
+    "he": "בְּסִימָנָיו וּבִמְצָרָיו,",
+    "en": "If he sold it with its signs and borders:",
+    "st": "<b>with its</b> particular <b>demarcations and borders</b>",
+    "stMore": "that the seller specifies for the buyer, the field’s measurement is not treated in as exacting a manner as in a standard sale. Therefore, if it later turns out that the field was not precisely a beit kor, but the difference is still",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּסִימָנָיו",
+      "en": "with its signs"
+     },
+     {
+      "he": "וּבִמְצָרָיו,",
+      "en": "and with its borders"
+     }
+    ]
+   },
+   {
+    "he": "פָּחוֹת מִשְּׁתוּת, הִגִּיעוֹ.",
+    "en": "less than a sixth off, it is his.",
+    "st": "<b>less than one-sixth,</b> the field <b>is</b> the buyer’s, and the sale is valid as is.",
+    "stMore": "But if the difference is greater, e.g., one-quarter or one-fifth, then,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מִשְּׁתוּת,",
+      "en": "than a sixth"
+     },
+     {
+      "he": "הִגִּיעוֹ.",
+      "en": "it reached him"
+     }
+    ]
+   },
+   {
+    "he": "עַד שְׁתוּת, יְנַכֶּה:",
+    "en": "Up to a sixth, he takes off from the price.",
+    "st": "<b>until</b> it is calculated at <b>one-sixth,</b> the seller <b>must deduct</b>",
+    "stMore": "the difference from the purchase price and return money to the buyer.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שְׁתוּת,",
+      "en": "a sixth"
+     },
+     {
+      "he": "יְנַכֶּה:",
+      "en": "he takes off"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 4,
+  "summary": "If someone sells half a field, the field is divided fairly and the buyer gets his half. If he sells the southern half, the buyer gets that half, but must give up some land for the fence and ditches between them.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר לַחֲבֵרוֹ חֲצִי שָׂדֶה אֲנִי מוֹכֵר לְךָ,",
+    "en": "Someone who says to his friend, I am selling you half a field,",
+    "st": "<b>If one says to another: I am selling you half a field,</b> without specifying which half he is selling,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "to his friend"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מוֹכֵר",
+      "en": "sell"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁמְּנִין בֵּינֵיהֶן וְנוֹטֵל חֲצִי שָׂדֵהוּ.",
+    "en": "they judge the value between them, and he takes half of his field.",
+    "st": "<b>an assessment is made</b> of the field, which is then divided <b>between them, and</b> the buyer <b>takes half of</b> the seller’s <b>field.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁמְּנִין",
+      "en": "they judge the value"
+     },
+     {
+      "he": "בֵּינֵיהֶן",
+      "en": "between them"
+     },
+     {
+      "he": "וְנוֹטֵל",
+      "en": "and takes"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half of"
+     },
+     {
+      "he": "שָׂדֵהוּ.",
+      "en": "his field"
+     }
+    ]
+   },
+   {
+    "he": "חֶצְיָהּ בַּדָּרוֹם אֲנִי מוֹכֵר לְךָ,",
+    "en": "I am selling you its southern half,",
+    "st": "If the seller says: <b>I am selling you the half that is on the southern side</b> of the field,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֶצְיָהּ",
+      "en": "its half"
+     },
+     {
+      "he": "בַּדָּרוֹם",
+      "en": "in the south"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מוֹכֵר",
+      "en": "sell"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁמְּנִין בֵּינֵיהֶן וְנוֹטֵל חֶצְיָהּ בַּדָּרוֹם,",
+    "en": "they judge the value between them, and he takes its southern half.",
+    "st": "<b>an assessment is made</b> of the northern and the southern sides of the field, which is then divided <b>between them, and he takes the half on the southern side.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁמְּנִין",
+      "en": "they judge the value"
+     },
+     {
+      "he": "בֵּינֵיהֶן",
+      "en": "between them"
+     },
+     {
+      "he": "וְנוֹטֵל",
+      "en": "and takes"
+     },
+     {
+      "he": "חֶצְיָהּ",
+      "en": "its half"
+     },
+     {
+      "he": "בַּדָּרוֹם,",
+      "en": "in the south"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא מְקַבֵּל עָלָיו מְקוֹם הַגָּדֵר,",
+    "en": "And he takes upon himself the place of the fence,",
+    "st": "<b>And he accepts upon himself</b> to provide <b>the space for the fence</b>",
+    "stMore": "between the two halves of the field out of his own property. He also accepts to provide out of his own property the space for the larger",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "מְקַבֵּל",
+      "en": "accepts"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on himself"
+     },
+     {
+      "he": "מְקוֹם",
+      "en": "the place of"
+     },
+     {
+      "he": "הַגָּדֵר,",
+      "en": "the fence"
+     }
+    ]
+   },
+   {
+    "he": "חֲרִיץ וּבֶן חֲרִיץ.",
+    "en": "a big ditch and a small ditch.",
+    "st": "<b>ditch and the smaller ditch,</b>",
+    "stMore": "which are meant to keep animals out of the field.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲרִיץ",
+      "en": "a ditch"
+     },
+     {
+      "he": "וּבֶן",
+      "en": "and son of"
+     },
+     {
+      "he": "חֲרִיץ.",
+      "en": "a ditch",
+      "note": "A smaller ditch."
+     }
+    ]
+   },
+   {
+    "he": "וְכַמָּה הוּא חֲרִיץ,",
+    "en": "And how wide is a ditch?",
+    "st": "<b>And how</b> wide <b>is</b> the larger <b>ditch?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "הוּא",
+      "en": "is"
+     },
+     {
+      "he": "חֲרִיץ,",
+      "en": "a ditch"
+     }
+    ]
+   },
+   {
+    "he": "שִׁשָּׁה טְפָחִים.",
+    "en": "Six tefachim.",
+    "st": "<b>Six handbreadths.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁשָּׁה",
+      "en": "six"
+     },
+     {
+      "he": "טְפָחִים.",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "וּבֶן חֲרִיץ, שְׁלֹשָׁה:",
+    "en": "And a small ditch, three.",
+    "st": "<b>And</b> how wide is <b>the smaller ditch? Three</b> handbreadths.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֶן",
+      "en": "and son of"
+     },
+     {
+      "he": "חֲרִיץ,",
+      "en": "a ditch"
+     },
+     {
+      "he": "שְׁלֹשָׁה:",
+      "en": "three"
+     }
+    ]
+   }
+  ]
+ }
+]

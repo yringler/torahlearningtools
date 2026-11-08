@@ -1,0 +1,3349 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "Some family members inherit from each other both ways, some only inherit, some only pass on an inheritance, and some do neither. The mishnah lists which relatives belong to each group.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יֵשׁ נוֹחֲלִין וּמַנְחִילִין,",
+    "en": "Some inherit and pass on an inheritance,",
+    "st": "<b>There are</b> family members who both <b>inherit</b> from <b>and bequeath</b> to each other upon their respective deaths;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "נוֹחֲלִין",
+      "en": "inherit"
+     },
+     {
+      "he": "וּמַנְחִילִין,",
+      "en": "and pass on"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵשׁ נוֹחֲלִין וְלֹא מַנְחִילִין,",
+    "en": "some inherit but do not pass on,",
+    "st": "<b>and there are</b> those who <b>inherit</b> from certain relatives <b>but do not bequeath</b> to them;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵשׁ",
+      "en": "and there are"
+     },
+     {
+      "he": "נוֹחֲלִין",
+      "en": "inherit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מַנְחִילִין,",
+      "en": "pass on"
+     }
+    ]
+   },
+   {
+    "he": "מַנְחִילִין וְלֹא נוֹחֲלִין,",
+    "en": "some pass on but do not inherit,",
+    "st": "and there are those who <b>bequeath</b> to certain relatives <b>but do not inherit</b> from them;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַנְחִילִין",
+      "en": "pass on"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נוֹחֲלִין,",
+      "en": "inherit"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נוֹחֲלִין וְלֹא מַנְחִילִין.",
+    "en": "and some do not inherit and do not pass on.",
+    "st": "and there are those who, despite being relatives, <b>do not inherit</b> from <b>nor bequeath</b> to one another.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נוֹחֲלִין",
+      "en": "inherit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מַנְחִילִין.",
+      "en": "pass on"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ נוֹחֲלִין וּמַנְחִילִין,",
+    "en": "And these inherit and pass on:",
+    "st": "The mishna lists those referred to above. <b>And these</b> both <b>inherit and bequeath:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "נוֹחֲלִין",
+      "en": "inherit"
+     },
+     {
+      "he": "וּמַנְחִילִין,",
+      "en": "and pass on"
+     }
+    ]
+   },
+   {
+    "he": "הָאָב אֶת הַבָּנִים",
+    "en": "A father from his sons,",
+    "st": "<b>A father</b> with regard to his <b>sons,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "אֶת",
+      "en": "(from)"
+     },
+     {
+      "he": "הַבָּנִים",
+      "en": "the sons"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבָּנִים אֶת הָאָב",
+    "en": "and sons from their father,",
+    "st": "<b>and sons</b> with regard to their <b>father,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבָּנִים",
+      "en": "and the sons"
+     },
+     {
+      "he": "אֶת",
+      "en": "(from)"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאַחִין מִן הָאָב,",
+    "en": "and brothers from the same father:",
+    "st": "<b>and paternal brothers;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאַחִין",
+      "en": "and the brothers"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "נוֹחֲלִין וּמַנְחִילִין.",
+    "en": "they inherit and pass on.",
+    "st": "all <b>inherit</b> from one another <b>and bequeath</b> to each other.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹחֲלִין",
+      "en": "inherit"
+     },
+     {
+      "he": "וּמַנְחִילִין.",
+      "en": "and pass on"
+     }
+    ]
+   },
+   {
+    "he": "הָאִישׁ אֶת אִמּוֹ",
+    "en": "A man from his mother,",
+    "st": "<b>A man</b> with regard to <b>his mother,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִישׁ",
+      "en": "the man"
+     },
+     {
+      "he": "אֶת",
+      "en": "(from)"
+     },
+     {
+      "he": "אִמּוֹ",
+      "en": "his mother"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאִישׁ אֶת אִשְׁתּוֹ,",
+    "en": "and a man from his wife,",
+    "st": "<b>and a man</b> with regard to <b>his wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאִישׁ",
+      "en": "and the man"
+     },
+     {
+      "he": "אֶת",
+      "en": "(from)"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וּבְנֵי אֲחָיוֹת,",
+    "en": "and sons of sisters:",
+    "st": "<b>and sons of sisters,</b>",
+    "stMore": "i.e., nephews born to the sisters of the deceased,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְנֵי",
+      "en": "and sons of"
+     },
+     {
+      "he": "אֲחָיוֹת,",
+      "en": "sisters"
+     }
+    ]
+   },
+   {
+    "he": "נוֹחֲלִין וְלֹא מַנְחִילִין.",
+    "en": "they inherit but do not pass on.",
+    "st": "all <b>inherit</b> from their respective relatives <b>but do not bequeath</b> to them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹחֲלִין",
+      "en": "inherit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מַנְחִילִין.",
+      "en": "pass on"
+     }
+    ]
+   },
+   {
+    "he": "הָאִשָּׁה אֶת בָּנֶיהָ",
+    "en": "A woman to her sons,",
+    "st": "<b>A woman</b> with regard to <b>her sons,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "אֶת",
+      "en": "(to)"
+     },
+     {
+      "he": "בָּנֶיהָ",
+      "en": "her sons"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאִשָּׁה אֶת בַּעְלָהּ",
+    "en": "and a woman to her husband,",
+    "st": "<b>and a woman</b> with regard to <b>her husband,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאִשָּׁה",
+      "en": "and the woman"
+     },
+     {
+      "he": "אֶת",
+      "en": "(to)"
+     },
+     {
+      "he": "בַּעְלָהּ",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחֵי הָאֵם,",
+    "en": "and brothers of the mother:",
+    "st": "<b>and maternal uncles,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחֵי",
+      "en": "and brothers of"
+     },
+     {
+      "he": "הָאֵם,",
+      "en": "the mother"
+     }
+    ]
+   },
+   {
+    "he": "מַנְחִילִין וְלֹא נוֹחֲלִין.",
+    "en": "they pass on but do not inherit.",
+    "st": "all <b>bequeath</b> to their respective relatives <b>but do not inherit</b> from them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַנְחִילִין",
+      "en": "pass on"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נוֹחֲלִין.",
+      "en": "inherit"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאַחִים מִן הָאֵם,",
+    "en": "And brothers from the same mother",
+    "st": "<b>And maternal brothers,</b> despite being blood relatives,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאַחִים",
+      "en": "and the brothers"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאֵם,",
+      "en": "the mother"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נוֹחֲלִין וְלֹא מַנְחִילִין:",
+    "en": "do not inherit and do not pass on.",
+    "st": "<b>do not inherit</b> from each other <b>nor</b> do they <b>bequeath</b>",
+    "stMore": "to one another, as they are not considered relatives for the purpose of inheritance.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נוֹחֲלִין",
+      "en": "inherit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מַנְחִילִין:",
+      "en": "pass on"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "The Torah teaches the order of who inherits: a son comes before a daughter, a daughter before the brothers, and brothers before uncles. Whoever comes first, his children come first in his place.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "סֵדֶר נְחָלוֹת כָּךְ הוּא,",
+    "en": "The order of inheritances is like this:",
+    "st": "The <b>order</b> of precedence with regard to <b>inheritances is this:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֵדֶר",
+      "en": "order of"
+     },
+     {
+      "he": "נְחָלוֹת",
+      "en": "inheritances"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "like this"
+     },
+     {
+      "he": "הוּא,",
+      "en": "it is"
+     }
+    ]
+   },
+   {
+    "he": "(במדבר כז) אִישׁ כִּי יָמוּת",
+    "en": "As it says in Bamidbar: If a man dies",
+    "st": "The verse states: <b>“If a man dies,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "(במדבר",
+      "en": "(in Bamidbar"
+     },
+     {
+      "he": "כז)",
+      "en": "chapter 27)"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "כִּי",
+      "en": "when"
+     },
+     {
+      "he": "יָמוּת",
+      "en": "dies"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵן אֵין לוֹ,",
+    "en": "and he has no son,",
+    "st": "<b>and has no son,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵן",
+      "en": "and a son"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וְהַעֲבַרְתֶּם אֶת נַחֲלָתוֹ לְבִתּוֹ,",
+    "en": "you shall give his inheritance to his daughter.",
+    "st": "<b>then you shall pass his inheritance to his daughter”</b> (Numbers 27:8).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַעֲבַרְתֶּם",
+      "en": "and you shall pass"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "נַחֲלָתוֹ",
+      "en": "his inheritance"
+     },
+     {
+      "he": "לְבִתּוֹ,",
+      "en": "to his daughter"
+     }
+    ]
+   },
+   {
+    "he": "בֵּן קוֹדֵם לַבַּת,",
+    "en": "A son comes before a daughter,",
+    "st": "This teaches that <b>a son precedes a daughter.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּן",
+      "en": "a son"
+     },
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "לַבַּת,",
+      "en": "the daughter"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל יוֹצְאֵי יְרֵכוֹ שֶׁל בֵּן",
+    "en": "and all the children and grandchildren of a son",
+    "st": "Additionally, <b>all descendants of a son</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "יוֹצְאֵי",
+      "en": "those who come out of"
+     },
+     {
+      "he": "יְרֵכוֹ",
+      "en": "his thigh",
+      "note": "His children and grandchildren."
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בֵּן",
+      "en": "a son"
+     }
+    ]
+   },
+   {
+    "he": "קוֹדְמִין לַבַּת.",
+    "en": "come before a daughter.",
+    "st": "<b>precede a daughter.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לַבַּת.",
+      "en": "the daughter"
+     }
+    ]
+   },
+   {
+    "he": "בַּת קוֹדֶמֶת לָאַחִין.",
+    "en": "A daughter comes before the brothers.",
+    "st": "<b>A daughter precedes the brothers</b> of the deceased.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּת",
+      "en": "a daughter"
+     },
+     {
+      "he": "קוֹדֶמֶת",
+      "en": "comes before"
+     },
+     {
+      "he": "לָאַחִין.",
+      "en": "the brothers"
+     }
+    ]
+   },
+   {
+    "he": "יוֹצְאֵי יְרֵכָהּ שֶׁל בַּת,",
+    "en": "The children of a daughter",
+    "st": "Additionally, the <b>descendants of a daughter</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצְאֵי",
+      "en": "those who come out of"
+     },
+     {
+      "he": "יְרֵכָהּ",
+      "en": "her thigh"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּת,",
+      "en": "a daughter"
+     }
+    ]
+   },
+   {
+    "he": "קוֹדְמִין לָאַחִין.",
+    "en": "come before the brothers.",
+    "st": "<b>precede the brothers</b> of the deceased.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לָאַחִין.",
+      "en": "the brothers"
+     }
+    ]
+   },
+   {
+    "he": "אַחִין קוֹדְמִין לַאֲחֵי הָאָב.",
+    "en": "Brothers come before the father's brothers.",
+    "st": "<b>Brothers</b> of the deceased <b>precede the uncles</b> of the deceased.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחִין",
+      "en": "brothers"
+     },
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לַאֲחֵי",
+      "en": "the brothers of"
+     },
+     {
+      "he": "הָאָב.",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "יוֹצְאֵי יְרֵכָן שֶׁל אַחִין,",
+    "en": "The children of brothers",
+    "st": "Additionally, the <b>descendants of the brothers</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצְאֵי",
+      "en": "those who come out of"
+     },
+     {
+      "he": "יְרֵכָן",
+      "en": "their thigh"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אַחִין,",
+      "en": "brothers"
+     }
+    ]
+   },
+   {
+    "he": "קוֹדְמִין לַאֲחֵי הָאָב.",
+    "en": "come before the father's brothers.",
+    "st": "<b>precede the uncles.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לַאֲחֵי",
+      "en": "the brothers of"
+     },
+     {
+      "he": "הָאָב.",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַקּוֹדֵם בַּנַּחֲלָה,",
+    "en": "anyone who comes first in inheritance,",
+    "st": "Concerning <b>anyone who precedes</b> another <b>with regard to inheritance,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "הַקּוֹדֵם",
+      "en": "who comes first"
+     },
+     {
+      "he": "בַּנַּחֲלָה,",
+      "en": "in the inheritance"
+     }
+    ]
+   },
+   {
+    "he": "יוֹצְאֵי יְרֵכוֹ קוֹדְמִין.",
+    "en": "his children come first too.",
+    "st": "<b>his descendants precede</b> the other as well,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצְאֵי",
+      "en": "those who come out of"
+     },
+     {
+      "he": "יְרֵכוֹ",
+      "en": "his thigh"
+     },
+     {
+      "he": "קוֹדְמִין.",
+      "en": "come before"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאָב קוֹדֵם לְכָל יוֹצְאֵי יְרֵכוֹ:",
+    "en": "And a father comes before all of his children.",
+    "st": "<b>and a father</b> who inherits <b>precedes all of his descendants.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאָב",
+      "en": "and the father"
+     },
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "לְכָל",
+      "en": "to all"
+     },
+     {
+      "he": "יוֹצְאֵי",
+      "en": "those who come out of"
+     },
+     {
+      "he": "יְרֵכוֹ:",
+      "en": "his thigh"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "The daughters of Tzelafchad got three shares of land in Eretz Yisrael. They got their father's share for leaving Mitzrayim, his share from his father Chefer, and an extra share because he was a firstborn.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בְּנוֹת צְלָפְחָד נָטְלוּ שְׁלֹשָׁה חֲלָקִים בַּנַּחֲלָה.",
+    "en": "The daughters of Tzelafchad took three shares in the inheritance:",
+    "st": "<b>Zelophehad’s daughters took three portions</b> of land <b>in</b> the <b>inheritance</b> of Eretz Yisrael:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּנוֹת",
+      "en": "the daughters of"
+     },
+     {
+      "he": "צְלָפְחָד",
+      "en": "Tzelafchad",
+      "note": "A man whose five daughters asked Moshe for their father's share."
+     },
+     {
+      "he": "נָטְלוּ",
+      "en": "took"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "חֲלָקִים",
+      "en": "shares"
+     },
+     {
+      "he": "בַּנַּחֲלָה.",
+      "en": "in the inheritance"
+     }
+    ]
+   },
+   {
+    "he": "חֵלֶק אֲבִיהֶן שֶׁהָיָה עִם יוֹצְאֵי מִצְרַיִם,",
+    "en": "their father's share, since he was one of those who left Mitzrayim,",
+    "st": "<b>Their father’s portion</b> that he received <b>because he was among those who left Egypt;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֵלֶק",
+      "en": "the share of"
+     },
+     {
+      "he": "אֲבִיהֶן",
+      "en": "their father"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that he was"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "יוֹצְאֵי",
+      "en": "those who left"
+     },
+     {
+      "he": "מִצְרַיִם,",
+      "en": "Mitzrayim"
+     }
+    ]
+   },
+   {
+    "he": "וְחֶלְקוֹ עִם אֶחָיו בְּנִכְסֵי חֵפֶר.",
+    "en": "and his share with his brothers in the property of Chefer,",
+    "st": "<b>and his portion</b> that he received <b>with his brothers in</b> the <b>property of Hepher,</b> their father;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֶלְקוֹ",
+      "en": "and his share"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "אֶחָיו",
+      "en": "his brothers"
+     },
+     {
+      "he": "בְּנִכְסֵי",
+      "en": "in the property of"
+     },
+     {
+      "he": "חֵפֶר.",
+      "en": "Chefer",
+      "note": "Tzelafchad's father."
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁהָיָה בְכוֹר נוֹטֵל שְׁנֵי חֲלָקִים:",
+    "en": "and since he was a firstborn, he took two shares.",
+    "st": "<b>and</b> an additional portion that he received from Hepher <b>because he was a firstborn,</b> and a firstborn <b>takes two portions</b> of inheritance from his father.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁהָיָה",
+      "en": "and that he was"
+     },
+     {
+      "he": "בְכוֹר",
+      "en": "a firstborn"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "חֲלָקִים:",
+      "en": "shares"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "Sons and daughters both are part of the laws of inheritance. A firstborn son gets a double share from his father but not from his mother, and daughters are supported from their father's property but not from their mother's.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֶחָד הַבֵּן וְאֶחָד הַבַּת בַּנַּחֲלָה,",
+    "en": "Both the son and the daughter are in the laws of inheritance,",
+    "st": "<b>Both the son and the daughter</b> of the deceased are included <b>in</b> the halakhot of <b>inheritance.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "הַבֵּן",
+      "en": "the son"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַבַּת",
+      "en": "the daughter"
+     },
+     {
+      "he": "בַּנַּחֲלָה,",
+      "en": "in the inheritance"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שֶׁהַבֵּן נוֹטֵל פִּי שְׁנַיִם בְּנִכְסֵי הָאָב",
+    "en": "except that the firstborn son takes a double share from the father's property,",
+    "st": "<b>But</b> the difference is <b>that the</b> firstborn <b>son takes a double</b> portion <b>of the property of the father,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "שֶׁהַבֵּן",
+      "en": "that the son"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "פִּי",
+      "en": "a mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two",
+      "note": "A double share."
+     },
+     {
+      "he": "בְּנִכְסֵי",
+      "en": "in the property of"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ נוֹטֵל פִּי שְׁנַיִם בְּנִכְסֵי הָאֵם.",
+    "en": "and he does not take a double share from the mother's property.",
+    "st": "<b>and he does not take a double</b> portion <b>of the property of the mother.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "take"
+     },
+     {
+      "he": "פִּי",
+      "en": "a mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "בְּנִכְסֵי",
+      "en": "in the property of"
+     },
+     {
+      "he": "הָאֵם.",
+      "en": "the mother"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבָּנוֹת נִזּוֹנוֹת מִנִּכְסֵי הָאָב",
+    "en": "And the daughters are fed from the father's property,",
+    "st": "<b>And</b> another difference is that <b>the daughters are sustained from the property of the father</b>",
+    "stMore": "after he dies, as it is a mandatory condition of their mother’s marriage contract that they are to be sustained even before the estate is disbursed to the children,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבָּנוֹת",
+      "en": "and the daughters"
+     },
+     {
+      "he": "נִזּוֹנוֹת",
+      "en": "are fed"
+     },
+     {
+      "he": "מִנִּכְסֵי",
+      "en": "from the property of"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָן נִזּוֹנוֹת מִנִּכְסֵי הָאֵם:",
+    "en": "but they are not fed from the mother's property.",
+    "st": "<b>but the</b> daughters <b>are not sustained from the property of the mother,</b> which is all inherited by the sons.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָן",
+      "en": "and they are not"
+     },
+     {
+      "he": "נִזּוֹנוֹת",
+      "en": "fed"
+     },
+     {
+      "he": "מִנִּכְסֵי",
+      "en": "from the property of"
+     },
+     {
+      "he": "הָאֵם:",
+      "en": "the mother"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "A father cannot change the Torah's rules of inheritance, but he can give his property as a gift in any way he likes. Giving everything away and leaving nothing for his sons works, but the Sages are not pleased, unless his sons did not behave properly.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר אִישׁ פְּלוֹנִי בְנִי בְּכוֹר",
+    "en": "Someone who says: This man, my firstborn son,",
+    "st": "In a case of <b>one who says: So-and-so, my firstborn son,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "בְנִי",
+      "en": "my son"
+     },
+     {
+      "he": "בְּכוֹר",
+      "en": "firstborn"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִטֹּל פִּי שְׁנַיִם,",
+    "en": "will not take a double share,",
+    "st": "<b>will not take a double</b> portion of my estate;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִטֹּל",
+      "en": "will take"
+     },
+     {
+      "he": "פִּי",
+      "en": "a mouth of"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ פְּלוֹנִי בְנִי",
+    "en": "or: This man, my son,",
+    "st": "or one who says: <b>So-and-so, my son,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "בְנִי",
+      "en": "my son"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִירַשׁ עִם אֶחָיו,",
+    "en": "will not inherit with his brothers,",
+    "st": "<b>will not inherit</b> my estate <b>among his brothers,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִירַשׁ",
+      "en": "will inherit"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "אֶחָיו,",
+      "en": "his brothers"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם,",
+    "en": "has said nothing,",
+    "st": "<b>he has said nothing,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "כְּלוּם,",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהִתְנָה עַל מַה שֶּׁכָּתוּב בַּתּוֹרָה.",
+    "en": "because he made a condition against what is written in the Torah.",
+    "st": "<b>as he has stipulated counter to that which is written in the Torah.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהִתְנָה",
+      "en": "because he made a condition"
+     },
+     {
+      "he": "עַל",
+      "en": "against"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁכָּתוּב",
+      "en": "that is written"
+     },
+     {
+      "he": "בַּתּוֹרָה.",
+      "en": "in the Torah"
+     }
+    ]
+   },
+   {
+    "he": "הַמְחַלֵּק נְכָסָיו לְבָנָיו עַל פִּיו,",
+    "en": "Someone who divides his property among his sons by speaking,",
+    "explain": "He gives it to them as a gift, not as an inheritance.",
+    "st": "With regard to <b>one</b> on his deathbed <b>who apportions his property orally,</b> granting it to his sons as a gift,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְחַלֵּק",
+      "en": "the one who divides"
+     },
+     {
+      "he": "נְכָסָיו",
+      "en": "his property"
+     },
+     {
+      "he": "לְבָנָיו",
+      "en": "to his sons"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּיו,",
+      "en": "his mouth"
+     }
+    ]
+   },
+   {
+    "he": "רִבָּה לְאֶחָד וּמִעֵט לְאֶחָד",
+    "en": "and gave more to one and less to one,",
+    "st": "and he <b>increased</b> the portion given <b>to one</b> of his sons <b>and reduced</b> the portion given <b>to one</b> son,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רִבָּה",
+      "en": "gave more"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "to one"
+     },
+     {
+      "he": "וּמִעֵט",
+      "en": "and gave less"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "to one"
+     }
+    ]
+   },
+   {
+    "he": "וְהִשְׁוָה לָהֶן אֶת הַבְּכוֹר,",
+    "en": "and made the firstborn equal to them,",
+    "st": "<b>or equated</b> the portion of <b>the firstborn to</b> the portions of the other sons,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִשְׁוָה",
+      "en": "and made equal"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּכוֹר,",
+      "en": "the firstborn"
+     }
+    ]
+   },
+   {
+    "he": "דְּבָרָיו קַיָּמִין.",
+    "en": "his words stand.",
+    "st": "<b>his statement stands.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּבָרָיו",
+      "en": "his words"
+     },
+     {
+      "he": "קַיָּמִין.",
+      "en": "stand"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמַר מִשּׁוּם יְרֻשָּׁה,",
+    "en": "But if he said it was as an inheritance,",
+    "st": "<b>But if he said</b> that they will receive the property not as a gift but <b>as inheritance,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "יְרֻשָּׁה,",
+      "en": "inheritance"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם.",
+    "en": "he has said nothing.",
+    "st": "<b>he has said nothing.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "כָּתַב בֵּין בַּתְּחִלָּה בֵּין בָּאֶמְצַע",
+    "en": "If he wrote, whether at the beginning, the middle,",
+    "st": "If he <b>wrote</b> in his will, <b>whether at the beginning, or in the middle,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתַב",
+      "en": "he wrote"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בַּתְּחִלָּה",
+      "en": "at the beginning"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בָּאֶמְצַע",
+      "en": "in the middle"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין בַּסּוֹף מִשּׁוּם מַתָּנָה,",
+    "en": "or the end, that it is a gift,",
+    "st": "<b>or at the end,</b> that he is granting them the property <b>as a gift,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בַּסּוֹף",
+      "en": "at the end"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "מַתָּנָה,",
+      "en": "a gift"
+     }
+    ]
+   },
+   {
+    "he": "דְּבָרָיו קַיָּמִין.",
+    "en": "his words stand.",
+    "st": "<b>his statement stands.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּבָרָיו",
+      "en": "his words"
+     },
+     {
+      "he": "קַיָּמִין.",
+      "en": "stand"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר אִישׁ פְּלוֹנִי יִירָשֵׁנִי",
+    "en": "Someone who says: This man will inherit from me,",
+    "st": "In a case of <b>one who says: So-and-so will inherit</b> from <b>me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "יִירָשֵׁנִי",
+      "en": "will inherit me"
+     }
+    ]
+   },
+   {
+    "he": "בִּמְקוֹם שֶׁיֵשׁ בַּת,",
+    "en": "when he has a daughter,",
+    "st": "<b>in a case where there is a daughter,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּמְקוֹם",
+      "en": "in a place"
+     },
+     {
+      "he": "שֶׁיֵשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בַּת,",
+      "en": "a daughter"
+     }
+    ]
+   },
+   {
+    "he": "בִּתִּי תִירָשֵׁנִי בִּמְקוֹם שֶׁיֶּשׁ בֵּן,",
+    "en": "or: My daughter will inherit from me, when he has a son,",
+    "st": "or: <b>My daughter will inherit</b> from <b>me, in a case where there is a son,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּתִּי",
+      "en": "my daughter"
+     },
+     {
+      "he": "תִירָשֵׁנִי",
+      "en": "will inherit me"
+     },
+     {
+      "he": "בִּמְקוֹם",
+      "en": "in a place"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בֵּן,",
+      "en": "a son"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם,",
+    "en": "has said nothing,",
+    "st": "<b>he has said nothing,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "כְּלוּם,",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהִתְנָה עַל מַה שֶּׁכָּתוּב בַּתּוֹרָה.",
+    "en": "because he made a condition against what is written in the Torah.",
+    "st": "<b>as he has stipulated counter to that which is written in the Torah</b> concerning the order of inheritance.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהִתְנָה",
+      "en": "because he made a condition"
+     },
+     {
+      "he": "עַל",
+      "en": "against"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁכָּתוּב",
+      "en": "that is written"
+     },
+     {
+      "he": "בַּתּוֹרָה.",
+      "en": "in the Torah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹחָנָן בֶּן בְּרוֹקָה אוֹמֵר,",
+    "en": "Rabbi Yochanan ben Beroka says:",
+    "st": "<b>Rabbi Yoḥanan ben Beroka says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "בְּרוֹקָה",
+      "en": "Beroka",
+      "note": "A Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם אָמַר עַל מִי",
+    "en": "If he said it about someone",
+    "st": "<b>If he said</b> this <b>about</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "מִי",
+      "en": "who"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא רָאוּי לְיָרְשׁוֹ,",
+    "en": "who could inherit from him,",
+    "st": "<b>one fit to inherit</b> from <b>him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "רָאוּי",
+      "en": "is fit"
+     },
+     {
+      "he": "לְיָרְשׁוֹ,",
+      "en": "to inherit him"
+     }
+    ]
+   },
+   {
+    "he": "דְּבָרָיו קַיָּמִין.",
+    "en": "his words stand.",
+    "st": "<b>his statement stands,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּבָרָיו",
+      "en": "his words"
+     },
+     {
+      "he": "קַיָּמִין.",
+      "en": "stand"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל מִי שֶׁאֵין רָאוּי לְיָרְשׁוֹ,",
+    "en": "But about someone who could not inherit from him,",
+    "st": "<b>but</b> if it was <b>about one for whom</b> it was <b>not fit to inherit</b> from <b>him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and about"
+     },
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that is not"
+     },
+     {
+      "he": "רָאוּי",
+      "en": "fit"
+     },
+     {
+      "he": "לְיָרְשׁוֹ,",
+      "en": "to inherit him"
+     }
+    ]
+   },
+   {
+    "he": "אֵין דְּבָרָיו קַיָּמִין.",
+    "en": "his words do not stand.",
+    "st": "<b>his statement does not stand.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "דְּבָרָיו",
+      "en": "his words"
+     },
+     {
+      "he": "קַיָּמִין.",
+      "en": "stand"
+     }
+    ]
+   },
+   {
+    "he": "הַכּוֹתֵב אֶת נְכָסָיו לַאֲחֵרִים",
+    "en": "Someone who writes his property over to others",
+    "st": "With regard to <b>one who wrote</b> a document granting <b>his property to others</b> as a gift",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכּוֹתֵב",
+      "en": "the one who writes"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "נְכָסָיו",
+      "en": "his property"
+     },
+     {
+      "he": "לַאֲחֵרִים",
+      "en": "to others"
+     }
+    ]
+   },
+   {
+    "he": "וְהִנִּיחַ אֶת בָּנָיו,",
+    "en": "and leaves out his sons:",
+    "st": "<b>and left his sons</b> with nothing,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִנִּיחַ",
+      "en": "and left out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בָּנָיו,",
+      "en": "his sons"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁעָשָׂה עָשׂוּי,",
+    "en": "what he did is done,",
+    "st": "<b>what he did is done,</b> i.e., it takes effect;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁעָשָׂה",
+      "en": "that he did"
+     },
+     {
+      "he": "עָשׂוּי,",
+      "en": "done"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אֵין רוּחַ חֲכָמִים נוֹחָה הֵימֶנּוּ.",
+    "en": "but the Sages are not pleased with him.",
+    "st": "<b>but the Sages are displeased with him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "רוּחַ",
+      "en": "the spirit of"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the Sages"
+     },
+     {
+      "he": "נוֹחָה",
+      "en": "pleased"
+     },
+     {
+      "he": "הֵימֶנּוּ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says:",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם לֹא הָיוּ בָנָיו נוֹהֲגִין כַּשּׁוּרָה,",
+    "en": "If his sons were not behaving the right way,",
+    "st": "<b>If</b> he did so because <b>his sons were not acting properly,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "בָנָיו",
+      "en": "his sons"
+     },
+     {
+      "he": "נוֹהֲגִין",
+      "en": "behaving"
+     },
+     {
+      "he": "כַּשּׁוּרָה,",
+      "en": "properly"
+     }
+    ]
+   },
+   {
+    "he": "זָכוּר לְטוֹב:",
+    "en": "he is remembered for good.",
+    "st": "<b>he is remembered positively.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכוּר",
+      "en": "remembered"
+     },
+     {
+      "he": "לְטוֹב:",
+      "en": "for good"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "A man is believed when he says someone is his son, but not when he says someone is his brother, so that man only shares from his own portion. A will found tied to a dead man is not valid unless he gave it to someone.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר זֶה בְּנִי, נֶאֱמָן.",
+    "en": "Someone who says, This is my son, is believed.",
+    "st": "<b>One who says: This is my son,</b> is <b>deemed credible.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "בְּנִי,",
+      "en": "my son"
+     },
+     {
+      "he": "נֶאֱמָן.",
+      "en": "believed"
+     }
+    ]
+   },
+   {
+    "he": "זֶה אָחִי, אֵינוֹ נֶאֱמָן",
+    "en": "If he says, This is my brother, he is not believed,",
+    "st": "One who says: <b>This is my brother,</b> is <b>not deemed credible</b>",
+    "stMore": "with regard to his other brothers’ obligation to share the inheritance with the subject of his statement. When one claims that this man is his brother, this claim is accepted with regard to the speaker’s own portion,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "אָחִי,",
+      "en": "my brother"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "נֶאֱמָן",
+      "en": "believed"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹטֵל עִמּוֹ בְּחֶלְקוֹ.",
+    "en": "and that man takes a share with him from his own portion.",
+    "st": "<b>and</b> the man in question <b>takes</b> a share of their father’s inheritance <b>with him,</b> i.e., <b>from his portion.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹטֵל",
+      "en": "and takes"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "בְּחֶלְקוֹ.",
+      "en": "in his portion"
+     }
+    ]
+   },
+   {
+    "he": "מֵת, יַחְזְרוּ נְכָסִים לִמְקוֹמָן.",
+    "en": "If that man died, the property goes back to where it came from.",
+    "st": "If the man in question <b>dies,</b> the <b>property</b> he received from the father’s inheritance <b>shall return to its place,</b>",
+    "stMore": "i.e., to the possession of the brother who testified on his behalf, from whose portion he received a share.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     },
+     {
+      "he": "יַחְזְרוּ",
+      "en": "will return"
+     },
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "לִמְקוֹמָן.",
+      "en": "to their place"
+     }
+    ]
+   },
+   {
+    "he": "נָפְלוּ לוֹ נְכָסִים מִמָּקוֹם אַחֵר,",
+    "en": "If property came to him from somewhere else,",
+    "st": "If <b>property came into</b> the man in question’s possession <b>from somewhere else,</b>",
+    "stMore": "other than from the father, and the man in question died,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָפְלוּ",
+      "en": "fell"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "מִמָּקוֹם",
+      "en": "from a place"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "יִירְשׁוּ אֶחָיו עִמּוֹ.",
+    "en": "his brothers inherit with him.",
+    "st": "all of <b>the brothers of</b> the one who testified <b>shall inherit with</b> the one who testified,",
+    "stMore": "as according to his claim they too are the heirs of the deceased.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִירְשׁוּ",
+      "en": "will inherit"
+     },
+     {
+      "he": "אֶחָיו",
+      "en": "his brothers"
+     },
+     {
+      "he": "עִמּוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁמֵּת וְנִמְצֵאת דְּיָתֵיקֵי",
+    "en": "If someone died and a will was found",
+    "st": "With regard to <b>one who died, and a will written by a person on his deathbed [dayetikei]</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "died"
+     },
+     {
+      "he": "וְנִמְצֵאת",
+      "en": "and was found"
+     },
+     {
+      "he": "דְּיָתֵיקֵי",
+      "en": "a will",
+      "note": "A paper saying who gets his property."
+     }
+    ]
+   },
+   {
+    "he": "קְשׁוּרָה עַל יְרֵכוֹ,",
+    "en": "tied to his thigh,",
+    "st": "<b>is found bound to his thigh,</b>",
+    "stMore": "which clearly indicates that it was written by him and was not forged,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְשׁוּרָה",
+      "en": "tied"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "יְרֵכוֹ,",
+      "en": "his thigh"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ אֵינָהּ כְּלוּם.",
+    "en": "it is nothing.",
+    "explain": "He never gave it to anyone, so it does not count.",
+    "st": "<b>this is nothing.</b>",
+    "stMore": "The will is not valid, as he did not give it to anyone, and he may have reconsidered.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "אֵינָהּ",
+      "en": "it is not"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "זִכָּה בָהּ לְאַחֵר,",
+    "en": "If he gave it over through someone else,",
+    "st": "If <b>he transferred ownership of</b> the will to the designated recipient <b>through another</b> person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זִכָּה",
+      "en": "he gave ownership"
+     },
+     {
+      "he": "בָהּ",
+      "en": "of it"
+     },
+     {
+      "he": "לְאַחֵר,",
+      "en": "to another"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין מִן הַיּוֹרְשִׁין",
+    "en": "whether to one of the heirs",
+    "st": "<b>whether one of the heirs</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַיּוֹרְשִׁין",
+      "en": "the heirs"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין שֶׁאֵינוֹ מִן הַיּוֹרְשִׁין,",
+    "en": "or to one who is not one of the heirs,",
+    "st": "or <b>whether not one of the heirs,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַיּוֹרְשִׁין,",
+      "en": "the heirs"
+     }
+    ]
+   },
+   {
+    "he": "דְּבָרָיו קַיָּמִין:",
+    "en": "his words stand.",
+    "st": "<b>his statement stands.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּבָרָיו",
+      "en": "his words"
+     },
+     {
+      "he": "קַיָּמִין:",
+      "en": "stand"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 7,
+  "summary": "A father may write his property over to his son so that the son owns it but the father uses it until he dies; then neither can fully sell it. Brothers who inherit split equally, and the younger ones cannot ask for more than their father already gave the older ones.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַכּוֹתֵב נְכָסָיו לְבָנָיו,",
+    "en": "Someone who writes his property over to his sons",
+    "st": "A healthy person <b>who writes</b> a document granting <b>his property to his sons</b>",
+    "stMore": "in his lifetime, but wishes to continue to derive benefit from it until his death,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכּוֹתֵב",
+      "en": "the one who writes"
+     },
+     {
+      "he": "נְכָסָיו",
+      "en": "his property"
+     },
+     {
+      "he": "לְבָנָיו,",
+      "en": "to his sons"
+     }
+    ]
+   },
+   {
+    "he": "צָרִיךְ שֶׁיִּכְתֹּב מֵהַיּוֹם וּלְאַחַר מִיתָה,",
+    "en": "must write, From today and after death.",
+    "explain": "The land is theirs now, but he uses it until he dies.",
+    "st": "<b>must write:</b> I give the property <b>from today and after</b> my <b>death.</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "The explanation follows Bartenura.",
+    "words": [
+     {
+      "he": "צָרִיךְ",
+      "en": "he needs"
+     },
+     {
+      "he": "שֶׁיִּכְתֹּב",
+      "en": "that he will write"
+     },
+     {
+      "he": "מֵהַיּוֹם",
+      "en": "from today"
+     },
+     {
+      "he": "וּלְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "מִיתָה,",
+      "en": "death"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי יְהוּדָה.",
+    "en": "These are the words of Rabbi Yehuda.",
+    "st": "This is <b>the statement of Rabbi Yehuda.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה.",
+      "en": "Yehuda"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says:",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ צָרִיךְ.",
+    "en": "He does not need to.",
+    "st": "<b>He need not</b>",
+    "stMore": "write: From today and after my death; it is sufficient for him to write that the transfer will take effect after he dies.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "צָרִיךְ.",
+      "en": "he needs"
+     }
+    ]
+   },
+   {
+    "he": "הַכּוֹתֵב נְכָסָיו לִבְנוֹ לְאַחַר מוֹתוֹ,",
+    "en": "Someone who writes his property to his son for after his death:",
+    "st": "If <b>one writes</b> a document granting <b>his property to his son</b> from today and <b>after his death,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכּוֹתֵב",
+      "en": "the one who writes"
+     },
+     {
+      "he": "נְכָסָיו",
+      "en": "his property"
+     },
+     {
+      "he": "לִבְנוֹ",
+      "en": "to his son"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מוֹתוֹ,",
+      "en": "his death"
+     }
+    ]
+   },
+   {
+    "he": "הָאָב אֵינוֹ יָכוֹל לִמְכֹּר,",
+    "en": "the father cannot sell it,",
+    "st": "<b>the father cannot sell</b> the property",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לִמְכֹּר,",
+      "en": "to sell"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן כְּתוּבִין לַבֵּן,",
+    "en": "because it is written over to the son,",
+    "st": "<b>because it is written</b> as granted <b>to the son,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "כְּתוּבִין",
+      "en": "written"
+     },
+     {
+      "he": "לַבֵּן,",
+      "en": "to the son"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבֵּן אֵינוֹ יָכוֹל לִמְכֹּר,",
+    "en": "and the son cannot sell it,",
+    "st": "<b>and the son cannot sell</b> it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבֵּן",
+      "en": "and the son"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לִמְכֹּר,",
+      "en": "to sell"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן בִּרְשׁוּת הָאָב.",
+    "en": "because it is still in the father's hands.",
+    "st": "<b>because it is</b> still <b>in the possession of the father</b>",
+    "stMore": "with regard to using the property and consuming its produce.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הָאָב.",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "מָכַר הָאָב,",
+    "en": "If the father sold it,",
+    "st": "If <b>the father sold</b> the property,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָכַר",
+      "en": "sold"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "מְכוּרִין עַד שֶׁיָּמוּת.",
+    "en": "it is sold until he dies.",
+    "st": "<b>it is sold</b> to the purchaser inasmuch as he may use it and consume its produce <b>until</b> the father <b>dies,</b> at which point it belongs to the son.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְכוּרִין",
+      "en": "sold"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּמוּת.",
+      "en": "he dies"
+     }
+    ]
+   },
+   {
+    "he": "מָכַר הַבֵּן,",
+    "en": "If the son sold it,",
+    "st": "If <b>the son sold</b> it during his father’s lifetime,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָכַר",
+      "en": "sold"
+     },
+     {
+      "he": "הַבֵּן,",
+      "en": "the son"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לַלּוֹקֵחַ בָּהֶן כְּלוּם",
+    "en": "the buyer gets nothing from it",
+    "st": "<b>the purchaser has no</b> right to use it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "לַלּוֹקֵחַ",
+      "en": "to the buyer"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "כְּלוּם",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיָּמוּת הָאָב.",
+    "en": "until the father dies.",
+    "st": "<b>until the father dies.</b>",
+    "stMore": "In continuation of the case discussed in the previous mishna of a father who wrote a document granting his property to his son but reserved the rights to the produce during his lifetime, the mishna states that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּמוּת",
+      "en": "dies"
+     },
+     {
+      "he": "הָאָב.",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "הָאָב תּוֹלֵשׁ וּמַאֲכִיל לְכָל מִי שֶׁיִּרְצֶה.",
+    "en": "The father may pick fruit and feed it to anyone he wants.",
+    "st": "<b>the father may detach</b> produce from the land <b>and feed</b> the produce <b>to whomever he wishes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "תּוֹלֵשׁ",
+      "en": "picks"
+     },
+     {
+      "he": "וּמַאֲכִיל",
+      "en": "and feeds"
+     },
+     {
+      "he": "לְכָל",
+      "en": "to all"
+     },
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁיִּרְצֶה.",
+      "en": "that he will want"
+     }
+    ]
+   },
+   {
+    "he": "וּמַה שֶּׁהִנִּיחַ תָּלוּשׁ,",
+    "en": "And whatever he left already picked",
+    "st": "<b>and what he left detached</b> at the time of his death",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַה",
+      "en": "and what"
+     },
+     {
+      "he": "שֶּׁהִנִּיחַ",
+      "en": "that he left"
+     },
+     {
+      "he": "תָּלוּשׁ,",
+      "en": "picked"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הוּא שֶׁל יוֹרְשִׁין.",
+    "en": "belongs to all the heirs.",
+    "st": "<b>belongs to</b> all the father’s <b>heirs,</b> not only to this son.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "יוֹרְשִׁין.",
+      "en": "the heirs"
+     }
+    ]
+   },
+   {
+    "he": "הִנִּיחַ בָּנִים גְּדוֹלִים וּקְטַנִּים,",
+    "en": "If he left older and younger sons,",
+    "st": "If a person died and <b>left adult and minor sons,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִנִּיחַ",
+      "en": "he left"
+     },
+     {
+      "he": "בָּנִים",
+      "en": "sons"
+     },
+     {
+      "he": "גְּדוֹלִים",
+      "en": "older"
+     },
+     {
+      "he": "וּקְטַנִּים,",
+      "en": "and younger"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַגְּדוֹלִים מִתְפַּרְנְסִים עַל הַקְּטַנִּים",
+    "en": "the older ones do not get clothes from the younger ones' share,",
+    "st": "<b>the adults are not provided for by</b> using funds of <b>the minors,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הַגְּדוֹלִים",
+      "en": "the older ones"
+     },
+     {
+      "he": "מִתְפַּרְנְסִים",
+      "en": "get clothes"
+     },
+     {
+      "he": "עַל",
+      "en": "at the cost of"
+     },
+     {
+      "he": "הַקְּטַנִּים",
+      "en": "the younger ones"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הַקְּטַנִּים נִזּוֹנִין עַל הַגְּדוֹלִים,",
+    "en": "and the younger ones do not get food from the older ones' share,",
+    "st": "<b>and the minors are not sustained,</b> i.e., they do not receive food, <b>by</b> using funds <b>of the adults.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַקְּטַנִּים",
+      "en": "the younger ones"
+     },
+     {
+      "he": "נִזּוֹנִין",
+      "en": "are fed"
+     },
+     {
+      "he": "עַל",
+      "en": "at the cost of"
+     },
+     {
+      "he": "הַגְּדוֹלִים,",
+      "en": "the older ones"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא חוֹלְקִין בְּשָׁוֶה.",
+    "en": "but they split it equally.",
+    "st": "<b>Rather, they receive a share</b> of the inheritance <b>equally,</b>",
+    "stMore": "and each son sees to his needs from his own share.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "חוֹלְקִין",
+      "en": "they divide"
+     },
+     {
+      "he": "בְּשָׁוֶה.",
+      "en": "equally"
+     }
+    ]
+   },
+   {
+    "he": "נָשְׂאוּ הַגְּדוֹלִים,",
+    "en": "If the older ones got married,",
+    "st": "If <b>the adults married,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָשְׂאוּ",
+      "en": "married"
+     },
+     {
+      "he": "הַגְּדוֹלִים,",
+      "en": "the older ones"
+     }
+    ]
+   },
+   {
+    "he": "יִשְׂאוּ הַקְּטַנִּים.",
+    "en": "the younger ones also get married.",
+    "st": "<b>the minors marry,</b> as the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשְׂאוּ",
+      "en": "will marry"
+     },
+     {
+      "he": "הַקְּטַנִּים.",
+      "en": "the younger ones"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמְרוּ קְטַנִּים",
+    "en": "But if the younger ones said,",
+    "st": "<b>But if the minors say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "קְטַנִּים",
+      "en": "the younger ones"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אָנוּ נוֹשְׂאִים כְּדֶרֶךְ שֶׁנְּשָׂאתֶם אַתֶּם,",
+    "en": "We will marry the same way that you married,",
+    "st": "<b>We are marrying in the same manner that you</b> adults <b>married</b> during our father’s lifetime,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "נוֹשְׂאִים",
+      "en": "marry"
+     },
+     {
+      "he": "כְּדֶרֶךְ",
+      "en": "like the way"
+     },
+     {
+      "he": "שֶׁנְּשָׂאתֶם",
+      "en": "that you married"
+     },
+     {
+      "he": "אַתֶּם,",
+      "en": "you"
+     }
+    ]
+   },
+   {
+    "he": "אֵין שׁוֹמְעִין לָהֶם,",
+    "en": "we do not listen to them.",
+    "st": "the court <b>does not listen to them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "we listen"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מַה שֶּׁנָּתַן לָהֶם אֲבִיהֶם נָתָן:",
+    "en": "What their father gave the older ones, he gave.",
+    "st": "<b>Rather, whatever their father gave</b> the adults in his lifetime <b>he gave</b>",
+    "stMore": "them, and the minors do not have the right to receive more than their share of the inheritance.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁנָּתַן",
+      "en": "that gave"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אֲבִיהֶם",
+      "en": "their father"
+     },
+     {
+      "he": "נָתָן:",
+      "en": "he gave"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 8,
+  "summary": "Daughters who inherit their father split everything equally, just like sons. One way daughters are treated more strictly is that they are fed from their brothers' share, but not from their sisters' share.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הִנִּיחַ בָּנוֹת גְּדוֹלוֹת וּקְטַנּוֹת,",
+    "en": "If he left older and younger daughters,",
+    "st": "Similarly, if the father <b>left adult and minor daughters</b>",
+    "stMore": "but no sons, in which case his daughters inherit the estate,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִנִּיחַ",
+      "en": "he left"
+     },
+     {
+      "he": "בָּנוֹת",
+      "en": "daughters"
+     },
+     {
+      "he": "גְּדוֹלוֹת",
+      "en": "older"
+     },
+     {
+      "he": "וּקְטַנּוֹת,",
+      "en": "and younger"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַגְּדוֹלוֹת מִתְפַּרְנְסוֹת עַל הַקְּטַנּוֹת",
+    "en": "the older ones do not get clothes from the younger ones' share,",
+    "st": "<b>the adults are not provided for by</b> using funds <b>of the minors,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הַגְּדוֹלוֹת",
+      "en": "the older ones"
+     },
+     {
+      "he": "מִתְפַּרְנְסוֹת",
+      "en": "get clothes"
+     },
+     {
+      "he": "עַל",
+      "en": "at the cost of"
+     },
+     {
+      "he": "הַקְּטַנּוֹת",
+      "en": "the younger ones"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הַקְּטַנּוֹת נִזּוֹנוֹת עַל הַגְּדוֹלוֹת,",
+    "en": "and the younger ones do not get food from the older ones' share,",
+    "st": "<b>and the minors are not sustained by</b> using funds <b>of the adults.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַקְּטַנּוֹת",
+      "en": "the younger ones"
+     },
+     {
+      "he": "נִזּוֹנוֹת",
+      "en": "are fed"
+     },
+     {
+      "he": "עַל",
+      "en": "at the cost of"
+     },
+     {
+      "he": "הַגְּדוֹלוֹת,",
+      "en": "the older ones"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא חוֹלְקוֹת בְּשָׁוֶה.",
+    "en": "but they split it equally.",
+    "st": "<b>Rather, they receive a share</b> of the inheritance <b>equally,</b>",
+    "stMore": "and each daughter sees to her needs from her share.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "חוֹלְקוֹת",
+      "en": "they divide"
+     },
+     {
+      "he": "בְּשָׁוֶה.",
+      "en": "equally"
+     }
+    ]
+   },
+   {
+    "he": "נָשְׂאוּ גְדוֹלוֹת,",
+    "en": "If the older ones got married,",
+    "st": "If <b>the adult</b> daughters <b>married,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָשְׂאוּ",
+      "en": "married"
+     },
+     {
+      "he": "גְדוֹלוֹת,",
+      "en": "the older ones"
+     }
+    ]
+   },
+   {
+    "he": "יִשְׂאוּ קְטַנּוֹת.",
+    "en": "the younger ones also get married.",
+    "st": "<b>the minor</b> daughters <b>marry,</b> as the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשְׂאוּ",
+      "en": "will marry"
+     },
+     {
+      "he": "קְטַנּוֹת.",
+      "en": "the younger ones"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמְרוּ קְטַנּוֹת,",
+    "en": "And if the younger ones said,",
+    "st": "<b>But if the minors say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "קְטַנּוֹת,",
+      "en": "the younger ones"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אָנוּ נוֹשְׂאוֹת כְּדֶרֶךְ שֶׁנְּשָׂאתֶם אַתֶּם,",
+    "en": "We will marry the same way that you married,",
+    "st": "<b>We are marrying in the same manner that you</b> adults <b>married</b> during our father’s lifetime,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "נוֹשְׂאוֹת",
+      "en": "marry"
+     },
+     {
+      "he": "כְּדֶרֶךְ",
+      "en": "like the way"
+     },
+     {
+      "he": "שֶׁנְּשָׂאתֶם",
+      "en": "that you married"
+     },
+     {
+      "he": "אַתֶּם,",
+      "en": "you"
+     }
+    ]
+   },
+   {
+    "he": "אֵין שׁוֹמְעִין לָהֶן.",
+    "en": "we do not listen to them.",
+    "st": "the court <b>does not listen to them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "we listen"
+     },
+     {
+      "he": "לָהֶן.",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "זֶה חֹמֶר בַּבָּנוֹת מִבַּבָּנִים,",
+    "en": "This is a stricter rule for daughters than for sons:",
+    "st": "<b>This</b> following halakha <b>is a stringency with regard to daughters’</b> inheritance <b>vis-à-vis sons’</b> inheritance:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "חֹמֶר",
+      "en": "a strictness"
+     },
+     {
+      "he": "בַּבָּנוֹת",
+      "en": "with the daughters"
+     },
+     {
+      "he": "מִבַּבָּנִים,",
+      "en": "than with the sons"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַבָּנוֹת נִזּוֹנוֹת עַל הַבָּנִים",
+    "en": "the daughters are fed from the sons' share,",
+    "st": "The halakha is <b>that the daughters are sustained by</b> using funds <b>of the sons,</b>",
+    "stMore": "as stipulated in their mother’s marriage contract,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַבָּנוֹת",
+      "en": "that the daughters"
+     },
+     {
+      "he": "נִזּוֹנוֹת",
+      "en": "are fed"
+     },
+     {
+      "he": "עַל",
+      "en": "at the cost of"
+     },
+     {
+      "he": "הַבָּנִים",
+      "en": "the sons"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין נִזּוֹנוֹת עַל הַבָּנוֹת:",
+    "en": "but not from the daughters' share.",
+    "st": "<b>but they are not sustained by</b> using funds <b>of the</b> other <b>daughters.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and they are not"
+     },
+     {
+      "he": "נִזּוֹנוֹת",
+      "en": "fed"
+     },
+     {
+      "he": "עַל",
+      "en": "at the cost of"
+     },
+     {
+      "he": "הַבָּנוֹת:",
+      "en": "the daughters"
+     }
+    ]
+   }
+  ]
+ }
+]

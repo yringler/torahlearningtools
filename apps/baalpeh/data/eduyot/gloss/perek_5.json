@@ -1,0 +1,3439 @@
+[
+ {
+  "perek": 5,
+  "mishnah": 1,
+  "summary": "Rabbi Yehudah lists six cases where Beis Shammai are easier and Beis Hillel are stricter, about blood of a neveilah, eggs, some kinds of tumah, shemittah fruit and a leather bottle.",
+  "chunks": [
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שִׁשָּׁה דְבָרִים מִקֻּלֵּי בֵית",
+    "en": "six things are among the easy rulings of Beis",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שִׁשָּׁה",
+      "en": "six"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "מִקֻּלֵּי",
+      "en": "from the easy rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     }
+    ]
+   },
+   {
+    "he": "שַׁמַּאי וּמֵחֻמְרֵי בֵית הִלֵּל.",
+    "en": "Shammai and the strict rulings of Beis Hillel.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "וּמֵחֻמְרֵי",
+      "en": "and from the strict rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל.",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "דַּם נְבֵלוֹת,",
+    "en": "The blood of neveilos,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דַּם",
+      "en": "the blood of"
+     },
+     {
+      "he": "נְבֵלוֹת,",
+      "en": "neveilos",
+      "note": "Animals that died without shechitah."
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי מְטַהֲרִין,",
+    "en": "Beis Shammai say it is tahor,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "מְטַהֲרִין,",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מְטַמְּאִין.",
+    "en": "and Beis Hillel say it is tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מְטַמְּאִין.",
+      "en": "make tamei"
+     }
+    ]
+   },
+   {
+    "he": "בֵּיצַת הַנְּבֵלָה,",
+    "en": "An egg found inside a neveilah,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֵּיצַת",
+      "en": "the egg of"
+     },
+     {
+      "he": "הַנְּבֵלָה,",
+      "en": "the neveilah"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ כַּיּוֹצֵא בָהּ נִמְכֶּרֶת בַּשּׁוּק,",
+    "en": "if eggs like it are sold in the market,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "כַּיּוֹצֵא",
+      "en": "like what comes"
+     },
+     {
+      "he": "בָהּ",
+      "en": "from it"
+     },
+     {
+      "he": "נִמְכֶּרֶת",
+      "en": "sold"
+     },
+     {
+      "he": "בַּשּׁוּק,",
+      "en": "in the market"
+     }
+    ]
+   },
+   {
+    "he": "מֻתֶּרֶת. וְאִם לָאו,",
+    "en": "it is allowed. And if not,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מֻתֶּרֶת.",
+      "en": "it is allowed"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "אֲסוּרָה, כְּדִבְרֵי בֵית שַׁמָּאי.",
+    "en": "it is forbidden, like the words of Beis Shammai.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֲסוּרָה,",
+      "en": "it is forbidden"
+     },
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמָּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹסְרִין.",
+    "en": "And Beis Hillel forbid it.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹסְרִין.",
+      "en": "forbid"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹדִים בְּבֵיצַת טְרֵפָה שֶׁהִיא אֲסוּרָה,",
+    "en": "And they agree that an egg of a treifah is forbidden,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹדִים",
+      "en": "and they agree"
+     },
+     {
+      "he": "בְּבֵיצַת",
+      "en": "about the egg of"
+     },
+     {
+      "he": "טְרֵפָה",
+      "en": "a treifah"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it"
+     },
+     {
+      "he": "אֲסוּרָה,",
+      "en": "is forbidden"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁגָּדְלָה בְאִסּוּר.",
+    "en": "because it grew while forbidden.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁגָּדְלָה",
+      "en": "that it grew"
+     },
+     {
+      "he": "בְאִסּוּר.",
+      "en": "in forbiddenness"
+     }
+    ]
+   },
+   {
+    "he": "דַּם נָכְרִית וְדַם טָהֳרָה שֶׁל מְצֹרַעַת,",
+    "en": "The blood of a non-Jewish woman, and the tahor blood of a woman who is a metzora,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דַּם",
+      "en": "the blood of"
+     },
+     {
+      "he": "נָכְרִית",
+      "en": "a non-Jewish woman"
+     },
+     {
+      "he": "וְדַם",
+      "en": "and the blood of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מְצֹרַעַת,",
+      "en": "a metzora woman",
+      "note": "A person with tzaraas."
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי מְטַהֲרִין.",
+    "en": "Beis Shammai say it is tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "מְטַהֲרִין.",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כְּרֻקָּהּ וּכְמֵימֵי רַגְלֶיהָ.",
+    "en": "it is like her spit and her other body liquid.",
+    "explain": "It makes tamei only while it is wet.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּרֻקָּהּ",
+      "en": "like her spit"
+     },
+     {
+      "he": "וּכְמֵימֵי",
+      "en": "and like the water of"
+     },
+     {
+      "he": "רַגְלֶיהָ.",
+      "en": "her body"
+     }
+    ]
+   },
+   {
+    "he": "אוֹכְלִין פֵּרוֹת שְׁבִיעִית בְּטוֹבָה וְשֶׁלֹּא בְטוֹבָה,",
+    "en": "We may eat shemittah fruit with or without thanks to the owner,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹכְלִין",
+      "en": "we eat"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits of"
+     },
+     {
+      "he": "שְׁבִיעִית",
+      "en": "shemittah"
+     },
+     {
+      "he": "בְּטוֹבָה",
+      "en": "with thanks"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and that not"
+     },
+     {
+      "he": "בְטוֹבָה,",
+      "en": "with thanks"
+     }
+    ]
+   },
+   {
+    "he": "כְּדִבְרֵי בֵית שַׁמָּאי.",
+    "en": "like the words of Beis Shammai.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמָּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין אוֹכְלִים אֶלָּא בְטוֹבָה.",
+    "en": "we eat only with thanks to the owner.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אוֹכְלִים",
+      "en": "we eat"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְטוֹבָה.",
+      "en": "with thanks"
+     }
+    ]
+   },
+   {
+    "he": "הַחֵמֶת, בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "A leather bottle: Beis Shammai say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַחֵמֶת,",
+      "en": "the leather bottle"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "צְרוּרָה עוֹמֶדֶת.",
+    "en": "only when it stands tied up.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "צְרוּרָה",
+      "en": "tied"
+     },
+     {
+      "he": "עוֹמֶדֶת.",
+      "en": "standing"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵינָהּ צְרוּרָה:",
+    "en": "even when it is not tied up.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "פִּי",
+      "en": "account"
+     },
+     {
+      "he": "שֶׁאֵינָהּ",
+      "en": "that it is not"
+     },
+     {
+      "he": "צְרוּרָה:",
+      "en": "tied"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 2,
+  "summary": "Rabbi Yose lists six more cases where Beis Shammai are easier: chicken and cheese on the table, terumah from olives and grapes, planting in a vineyard, dough, a mikveh, and a ger on erev Pesach.",
+  "chunks": [
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yose says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yose"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שִׁשָּׁה דְבָרִים מִקֻּלֵי בֵית",
+    "en": "six things are among the easy rulings of Beis",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שִׁשָּׁה",
+      "en": "six"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "מִקֻּלֵי",
+      "en": "from the easy rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     }
+    ]
+   },
+   {
+    "he": "שַׁמַּאי וּמֵחֻמְרֵי בֵית הִלֵּל.",
+    "en": "Shammai and the strict rulings of Beis Hillel.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "וּמֵחֻמְרֵי",
+      "en": "and from the strict rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל.",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹף עוֹלֶה עִם הַגְּבִינָה",
+    "en": "Chicken may be put together with cheese",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹף",
+      "en": "the bird"
+     },
+     {
+      "he": "עוֹלֶה",
+      "en": "goes up"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הַגְּבִינָה",
+      "en": "the cheese"
+     }
+    ]
+   },
+   {
+    "he": "עַל הַשֻּׁלְחָן וְאֵינוֹ נֶאֱכָל,",
+    "en": "on the table but it is not eaten together,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַשֻּׁלְחָן",
+      "en": "the table"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it is not"
+     },
+     {
+      "he": "נֶאֱכָל,",
+      "en": "eaten"
+     }
+    ]
+   },
+   {
+    "he": "כְּדִבְרֵי בֵית שַׁמָּאי.",
+    "en": "like the words of Beis Shammai.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמָּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עוֹלֶה וְאֵינוֹ נֶאֱכָל.",
+    "en": "it is not put up and it is not eaten.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it does not"
+     },
+     {
+      "he": "עוֹלֶה",
+      "en": "go up"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it is not"
+     },
+     {
+      "he": "נֶאֱכָל.",
+      "en": "eaten"
+     }
+    ]
+   },
+   {
+    "he": "תּוֹרְמִין זֵיתִים עַל שֶׁמֶן,",
+    "en": "We may take terumah from olives for oil,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "תּוֹרְמִין",
+      "en": "we take terumah"
+     },
+     {
+      "he": "זֵיתִים",
+      "en": "olives"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "שֶׁמֶן,",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "וַעֲנָבִים עַל יַיִן,",
+    "en": "and from grapes for wine,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַעֲנָבִים",
+      "en": "and grapes"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "יַיִן,",
+      "en": "wine"
+     }
+    ]
+   },
+   {
+    "he": "כְּדִבְרֵי בֵית שַׁמָּאי.",
+    "en": "like the words of Beis Shammai.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמָּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין תּוֹרְמִין.",
+    "en": "we may not take terumah this way.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "תּוֹרְמִין.",
+      "en": "we take terumah"
+     }
+    ]
+   },
+   {
+    "he": "הַזּוֹרֵעַ אַרְבַּע אַמּוֹת שֶׁבַּכֶּרֶם,",
+    "en": "One who plants in the four amos of the vineyard,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַזּוֹרֵעַ",
+      "en": "one who plants"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "אַמּוֹת",
+      "en": "amos"
+     },
+     {
+      "he": "שֶׁבַּכֶּרֶם,",
+      "en": "that are in the vineyard"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "קִדֵּשׁ שׁוּרָה אַחַת,",
+    "en": "he made one row forbidden,",
+    "explain": "Kilayim: planting seeds near grapevines makes them forbidden.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "קִדֵּשׁ",
+      "en": "he made forbidden"
+     },
+     {
+      "he": "שׁוּרָה",
+      "en": "row"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "and Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "קִדֵּשׁ שְׁתֵּי שׁוּרוֹת.",
+    "en": "he made two rows forbidden.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "קִדֵּשׁ",
+      "en": "he made forbidden"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "שׁוּרוֹת.",
+      "en": "rows"
+     }
+    ]
+   },
+   {
+    "he": "הַמְּעִיסָה, בֵּית שַׁמַּאי פּוֹטְרִין,",
+    "en": "A soft dough: Beis Shammai say it is free from challah,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַמְּעִיסָה,",
+      "en": "the soft dough"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "פּוֹטְרִין,",
+      "en": "free"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מְחַיְּבִין.",
+    "en": "and Beis Hillel say it must have challah taken.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מְחַיְּבִין.",
+      "en": "obligate"
+     }
+    ]
+   },
+   {
+    "he": "מַטְבִּילִין בְּחַרְדָּלִית,",
+    "en": "We may dip in a flowing stream of rainwater,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַטְבִּילִין",
+      "en": "we dip"
+     },
+     {
+      "he": "בְּחַרְדָּלִית,",
+      "en": "in a stream of rainwater"
+     }
+    ]
+   },
+   {
+    "he": "כְּדִבְרֵי בֵית שַׁמָּאי.",
+    "en": "like the words of Beis Shammai.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמָּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מַטְבִּילִין.",
+    "en": "we may not dip there.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מַטְבִּילִין.",
+      "en": "we dip"
+     }
+    ]
+   },
+   {
+    "he": "גֵּר שֶׁנִּתְגַּיֵּר עַרְבֵי פְסָחִים,",
+    "en": "A ger who became Jewish on erev Pesach,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "גֵּר",
+      "en": "a ger"
+     },
+     {
+      "he": "שֶׁנִּתְגַּיֵּר",
+      "en": "who became Jewish"
+     },
+     {
+      "he": "עַרְבֵי",
+      "en": "on the eves of"
+     },
+     {
+      "he": "פְסָחִים,",
+      "en": "Pesach"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "טוֹבֵל וְאוֹכֵל אֶת פִּסְחוֹ לָעֶרֶב.",
+    "en": "he dips in the mikveh and eats his Pesach offering in the evening.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טוֹבֵל",
+      "en": "dips"
+     },
+     {
+      "he": "וְאוֹכֵל",
+      "en": "and eats"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "פִּסְחוֹ",
+      "en": "his Pesach offering"
+     },
+     {
+      "he": "לָעֶרֶב.",
+      "en": "in the evening"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹרֵשׁ מִן הָעָרְלָה,",
+    "en": "one who just had his bris",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "one who leaves"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעָרְלָה,",
+      "en": "being without a bris"
+     }
+    ]
+   },
+   {
+    "he": "כְּפוֹרֵשׁ מִן הַקָּבֶר:",
+    "en": "is like one who leaves a grave.",
+    "explain": "He must wait seven days to become tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּפוֹרֵשׁ",
+      "en": "like one who leaves"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקָּבֶר:",
+      "en": "the grave"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 3,
+  "summary": "Rabbi Yishmael lists three cases where Beis Shammai are easier: Koheles, the water of the parah adumah, and a spice called ketzach.",
+  "chunks": [
+   {
+    "he": "רַבִּי יִשְׁמָעֵאל אוֹמֵר,",
+    "en": "Rabbi Yishmael says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יִשְׁמָעֵאל",
+      "en": "Yishmael"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלֹשָׁה דְבָרִים מִקֻּלֵּי בֵית",
+    "en": "three things are among the easy rulings of Beis",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "מִקֻּלֵּי",
+      "en": "from the easy rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     }
+    ]
+   },
+   {
+    "he": "שַׁמַּאי וּמֵחֻמְרֵי בֵית הִלֵּל.",
+    "en": "Shammai and the strict rulings of Beis Hillel.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "וּמֵחֻמְרֵי",
+      "en": "and from the strict rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל.",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "קֹהֶלֶת אֵינוֹ מְטַמֵּא אֶת הַיָּדַיִם,",
+    "en": "Koheles does not make the hands tamei,",
+    "explain": "Holy books make hands tamei; so is Koheles a holy book?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "קֹהֶלֶת",
+      "en": "Koheles"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "מְטַמֵּא",
+      "en": "make tamei"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיָּדַיִם,",
+      "en": "the hands"
+     }
+    ]
+   },
+   {
+    "he": "כְּדִבְרֵי בֵית שַׁמָּאי.",
+    "en": "like the words of Beis Shammai.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמָּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מְטַמֵּא אֶת הַיָּדָיִם.",
+    "en": "it makes the hands tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְטַמֵּא",
+      "en": "makes tamei"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיָּדָיִם.",
+      "en": "the hands"
+     }
+    ]
+   },
+   {
+    "he": "מֵי חַטָּאת שֶׁעָשׂוּ מִצְוָתָן,",
+    "en": "Chatas water that was already used for its mitzvah,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מֵי",
+      "en": "water of"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "chatas"
+     },
+     {
+      "he": "שֶׁעָשׂוּ",
+      "en": "that did"
+     },
+     {
+      "he": "מִצְוָתָן,",
+      "en": "their mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי מְטַהֲרִין,",
+    "en": "Beis Shammai say it is tahor,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "מְטַהֲרִין,",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מְטַמְּאִין.",
+    "en": "and Beis Hillel say it is tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מְטַמְּאִין.",
+      "en": "make tamei"
+     }
+    ]
+   },
+   {
+    "he": "הַקֶּצַח, בֵּית שַׁמַּאי מְטַהֲרִין וּבֵית הִלֵּל מְטַמְּאִין.",
+    "en": "Ketzach: Beis Shammai say it is tahor and Beis Hillel say it is tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַקֶּצַח,",
+      "en": "the ketzach",
+      "note": "A kind of black seed used as a spice."
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "מְטַהֲרִין",
+      "en": "make tahor"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מְטַמְּאִין.",
+      "en": "make tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן לַמַּעַשְׂרוֹת:",
+    "en": "And the same for maaser.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "לַמַּעַשְׂרוֹת:",
+      "en": "for the maasros"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 4,
+  "summary": "Rabbi Eliezer lists two cases where Beis Shammai are easier, about a kind of tumah of a woman after she has a baby.",
+  "chunks": [
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵי דְבָרִים מִקֻּלֵּי בֵית",
+    "en": "two things are among the easy rulings of Beis",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "מִקֻּלֵּי",
+      "en": "from the easy rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     }
+    ]
+   },
+   {
+    "he": "שַׁמַּאי וּמֵחֻמְרֵי בֵית הִלֵּל.",
+    "en": "Shammai and the strict rulings of Beis Hillel.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "וּמֵחֻמְרֵי",
+      "en": "and from the strict rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל.",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "דַּם יוֹלֶדֶת שֶׁלֹּא טָבְלָה,",
+    "en": "The blood of a woman after birth who did not yet go to the mikveh,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דַּם",
+      "en": "the blood of"
+     },
+     {
+      "he": "יוֹלֶדֶת",
+      "en": "a woman who gave birth"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "טָבְלָה,",
+      "en": "dipped"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כְּרֻקָּהּ וּכְמֵימֵי רַגְלֶיהָ.",
+    "en": "it is like her spit and her other body liquid.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כְּרֻקָּהּ",
+      "en": "like her spit"
+     },
+     {
+      "he": "וּכְמֵימֵי",
+      "en": "and like the water of"
+     },
+     {
+      "he": "רַגְלֶיהָ.",
+      "en": "her body"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מְטַמֵּא לַח וְיָבֵשׁ.",
+    "en": "it makes tamei whether wet or dry.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְטַמֵּא",
+      "en": "makes tamei"
+     },
+     {
+      "he": "לַח",
+      "en": "wet"
+     },
+     {
+      "he": "וְיָבֵשׁ.",
+      "en": "and dry"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹדִים בְּיוֹלֶדֶת בְּזוֹב שֶׁהוּא",
+    "en": "And they agree that a woman after birth who has zivah, it",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹדִים",
+      "en": "and they agree"
+     },
+     {
+      "he": "בְּיוֹלֶדֶת",
+      "en": "about a woman who gave birth"
+     },
+     {
+      "he": "בְּזוֹב",
+      "en": "with zivah",
+      "note": "A kind of tumah that comes from the body."
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     }
+    ]
+   },
+   {
+    "he": "מְטַמֵּא לַח וְיָבֵשׁ:",
+    "en": "makes tamei whether wet or dry.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְטַמֵּא",
+      "en": "makes tamei"
+     },
+     {
+      "he": "לַח",
+      "en": "wet"
+     },
+     {
+      "he": "וְיָבֵשׁ:",
+      "en": "and dry"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 5,
+  "summary": "Four brothers, two married to two sisters. If those two die, the other brothers do chalitzah and may not marry them.",
+  "chunks": [
+   {
+    "he": "אַרְבָּעָה אַחִים,",
+    "en": "Four brothers,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "אַחִים,",
+      "en": "brothers"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַיִם מֵהֶם נְשׂוּאִין שְׁתֵּי אֲחָיוֹת,",
+    "en": "two of them married to two sisters,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "מֵהֶם",
+      "en": "of them"
+     },
+     {
+      "he": "נְשׂוּאִין",
+      "en": "married"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "אֲחָיוֹת,",
+      "en": "sisters"
+     }
+    ]
+   },
+   {
+    "he": "מֵתוּ הַנְּשׂוּאִים לַאֲחָיוֹת,",
+    "en": "the ones married to the sisters died,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מֵתוּ",
+      "en": "died"
+     },
+     {
+      "he": "הַנְּשׂוּאִים",
+      "en": "the ones married"
+     },
+     {
+      "he": "לַאֲחָיוֹת,",
+      "en": "to the sisters"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ חוֹלְצוֹת וְלֹא מִתְיַבְּמוֹת.",
+    "en": "these women do chalitzah and do not marry the brothers.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "חוֹלְצוֹת",
+      "en": "do chalitzah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִתְיַבְּמוֹת.",
+      "en": "marry the brother"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם קָדְמוּ וְכָנְסוּ,",
+    "en": "And if they went ahead and married them,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "קָדְמוּ",
+      "en": "they went ahead"
+     },
+     {
+      "he": "וְכָנְסוּ,",
+      "en": "and married"
+     }
+    ]
+   },
+   {
+    "he": "יוֹצִיאוּ. רַבִּי אֱלִיעֶזֶר אוֹמֵר מִשּׁוּם בֵּית שַׁמַּאי,",
+    "en": "they must send them away. Rabbi Eliezer says in the name of Beis Shammai:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יוֹצִיאוּ.",
+      "en": "they must send away"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "in the name of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "יְקַיְּמוּ. וּבֵית הִלֵּל אוֹמְרִים, יוֹצִיאוּ:",
+    "en": "they may keep them. And Beis Hillel say: they must send them away.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יְקַיְּמוּ.",
+      "en": "they may keep"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     },
+     {
+      "he": "יוֹצִיאוּ:",
+      "en": "they must send away"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 6,
+  "summary": "Akavya ben Mahalalel would not take back four rulings, even to become the head of the beis din. The Mishnah tells what happened, and Rabbi Yehudah says Akavya was never put in cherem.",
+  "chunks": [
+   {
+    "he": "עֲקַבְיָא בֶּן מַהֲלַלְאֵל הֵעִיד אַרְבָּעָה דְבָרִים.",
+    "en": "Akavya ben Mahalalel testified about four things.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עֲקַבְיָא",
+      "en": "Akavya"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "מַהֲלַלְאֵל",
+      "en": "Mahalalel"
+     },
+     {
+      "he": "הֵעִיד",
+      "en": "testified"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "דְבָרִים.",
+      "en": "things"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "עֲקַבְיָא, חֲזֹר בְּךָ בְאַרְבָּעָה דְבָרִים שֶׁהָיִיתָ אוֹמֵר",
+    "en": "Akavya, take back the four things that you used to say,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עֲקַבְיָא,",
+      "en": "Akavya"
+     },
+     {
+      "he": "חֲזֹר",
+      "en": "go back"
+     },
+     {
+      "he": "בְּךָ",
+      "en": "in yourself"
+     },
+     {
+      "he": "בְאַרְבָּעָה",
+      "en": "in four"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "שֶׁהָיִיתָ",
+      "en": "that you were"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "saying"
+     }
+    ]
+   },
+   {
+    "he": "וְנַעַשְׂךָ אַב בֵּית דִּין לְיִשְׂרָאֵל.",
+    "en": "and we will make you the head of the beis din of Yisrael.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְנַעַשְׂךָ",
+      "en": "and we will make you"
+     },
+     {
+      "he": "אַב",
+      "en": "father of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "לְיִשְׂרָאֵל.",
+      "en": "for Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶן,",
+    "en": "He said to them:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶן,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "מוּטָב לִי לְהִקָּרֵא שׁוֹטֶה כָּל יָמַי,",
+    "en": "It is better for me to be called a fool all my days,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מוּטָב",
+      "en": "better"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "לְהִקָּרֵא",
+      "en": "to be called"
+     },
+     {
+      "he": "שׁוֹטֶה",
+      "en": "a fool"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "יָמַי,",
+      "en": "my days"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא לֵעָשׂוֹת שָׁעָה אַחַת",
+    "en": "and not to be for one moment",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לֵעָשׂוֹת",
+      "en": "to be made"
+     },
+     {
+      "he": "שָׁעָה",
+      "en": "moment"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "רָשָׁע לִפְנֵי הַמָּקוֹם,",
+    "en": "wicked before Hashem,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רָשָׁע",
+      "en": "wicked"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "הַמָּקוֹם,",
+      "en": "Hashem",
+      "note": "Literally \"the Place,\" a name for Hashem."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא יִהְיוּ אוֹמְרִים,",
+    "en": "so that people should not say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "so that not"
+     },
+     {
+      "he": "יִהְיוּ",
+      "en": "they will be"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "saying"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁבִיל שְׂרָרָה חָזַר בּוֹ.",
+    "en": "\"He took it back for the sake of power.\"",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁבִיל",
+      "en": "for the sake of"
+     },
+     {
+      "he": "שְׂרָרָה",
+      "en": "power"
+     },
+     {
+      "he": "חָזַר",
+      "en": "he went back"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "in it"
+     }
+    ]
+   },
+   {
+    "he": "הוּא הָיָה מְטַמֵּא שְׂעַר",
+    "en": "He used to say that a \"left\" hair is tamei",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מְטַמֵּא",
+      "en": "making tamei"
+     },
+     {
+      "he": "שְׂעַר",
+      "en": "the hair of"
+     }
+    ]
+   },
+   {
+    "he": "הַפְּקֻדָּה וְדַם הַיָּרוֹק.",
+    "en": "of a spot of tzaraas, and greenish blood.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַפְּקֻדָּה",
+      "en": "the left one",
+      "note": "A hair in a spot of tzaraas."
+     },
+     {
+      "he": "וְדַם",
+      "en": "and the blood of"
+     },
+     {
+      "he": "הַיָּרוֹק.",
+      "en": "the green",
+      "note": "A kind of blood that makes a woman tamei."
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מְטַהֲרִין.",
+    "en": "And the Sages say they are tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַהֲרִין.",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "הוּא הָיָה מַתִּיר שְׂעַר בְּכוֹר",
+    "en": "He used to allow the hair of a bechor",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "allowing"
+     },
+     {
+      "he": "שְׂעַר",
+      "en": "hair of"
+     },
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל מוּם שֶׁנָּשַׁר וְהִנִּיחוֹ בְחַלּוֹן",
+    "en": "with a blemish that fell off and he put it in a window",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "owner of"
+     },
+     {
+      "he": "מוּם",
+      "en": "a blemish"
+     },
+     {
+      "he": "שֶׁנָּשַׁר",
+      "en": "that fell off"
+     },
+     {
+      "he": "וְהִנִּיחוֹ",
+      "en": "and he put it"
+     },
+     {
+      "he": "בְחַלּוֹן",
+      "en": "in a window"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ שְׁחָטוֹ,",
+    "en": "and after that did shechitah on it,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "שְׁחָטוֹ,",
+      "en": "did shechitah on it"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹסְרִים.",
+    "en": "and the Sages forbid.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹסְרִים.",
+      "en": "forbid"
+     }
+    ]
+   },
+   {
+    "he": "הוּא הָיָה אוֹמֵר,",
+    "en": "He used to say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "saying"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מַשְׁקִין לֹא אֶת הַגִּיֹּרֶת",
+    "en": "we do not give the sotah water to drink, not to a woman who became a gerus",
+    "explain": "A woman whose husband suspects her drinks special water.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מַשְׁקִין",
+      "en": "we give to drink"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגִּיֹּרֶת",
+      "en": "the woman who became a ger"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת שִׁפְחָה הַמְשֻׁחְרֶרֶת.",
+    "en": "and not to a freed maidservant.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שִׁפְחָה",
+      "en": "a maidservant"
+     },
+     {
+      "he": "הַמְשֻׁחְרֶרֶת.",
+      "en": "freed"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁקִין. אָמְרוּ לוֹ,",
+    "en": "we do give them to drink. They said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁקִין.",
+      "en": "we give to drink"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה בְּכַרְכְּמִית,",
+    "en": "It happened with Karkemis,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בְּכַרְכְּמִית,",
+      "en": "with Karkemis"
+     }
+    ]
+   },
+   {
+    "he": "שִׁפְחָה מְשֻׁחְרֶרֶת שֶׁהָיְתָה בִירוּשָׁלַיִם,",
+    "en": "a freed maidservant who was in Yerushalayim,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שִׁפְחָה",
+      "en": "a maidservant"
+     },
+     {
+      "he": "מְשֻׁחְרֶרֶת",
+      "en": "freed"
+     },
+     {
+      "he": "שֶׁהָיְתָה",
+      "en": "that was"
+     },
+     {
+      "he": "בִירוּשָׁלַיִם,",
+      "en": "in Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "וְהִשְׁקוּהָ שְׁמַעְיָה וְאַבְטַלְיוֹן.",
+    "en": "and Shemayah and Avtalyon gave her to drink.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהִשְׁקוּהָ",
+      "en": "and gave her to drink"
+     },
+     {
+      "he": "שְׁמַעְיָה",
+      "en": "Shemayah"
+     },
+     {
+      "he": "וְאַבְטַלְיוֹן.",
+      "en": "and Avtalyon"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "דֻּגְמָא הִשְׁקוּהָ.",
+    "en": "They only gave her something that looked like it.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דֻּגְמָא",
+      "en": "a look-alike"
+     },
+     {
+      "he": "הִשְׁקוּהָ.",
+      "en": "they gave her to drink"
+     }
+    ]
+   },
+   {
+    "he": "וְנִדּוּהוּ, וּמֵת בְּנִדּוּיוֹ,",
+    "en": "And they put him in cherem, and he died in his cherem,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְנִדּוּהוּ,",
+      "en": "and they put him in cherem",
+      "note": "Kept away from the people as a punishment."
+     },
+     {
+      "he": "וּמֵת",
+      "en": "and he died"
+     },
+     {
+      "he": "בְּנִדּוּיוֹ,",
+      "en": "in his cherem"
+     }
+    ]
+   },
+   {
+    "he": "וְסָקְלוּ בֵית דִּין אֶת אֲרוֹנוֹ.",
+    "en": "and the beis din put a stone on his coffin.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְסָקְלוּ",
+      "en": "and stoned"
+     },
+     {
+      "he": "בֵית",
+      "en": "the beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "din"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֲרוֹנוֹ.",
+      "en": "his coffin"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוּדָה,",
+    "en": "Rabbi Yehudah said:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "חַס וְשָׁלוֹם שֶׁעֲקַבְיָא נִתְנַדָּה,",
+    "en": "Heaven forbid that Akavya was put in cherem,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חַס",
+      "en": "pity"
+     },
+     {
+      "he": "וְשָׁלוֹם",
+      "en": "and peace"
+     },
+     {
+      "he": "שֶׁעֲקַבְיָא",
+      "en": "that Akavya"
+     },
+     {
+      "he": "נִתְנַדָּה,",
+      "en": "was put in cherem"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין עֲזָרָה נִנְעֶלֶת בִּפְנֵי כָל",
+    "en": "because the Azarah was never locked on any",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "עֲזָרָה",
+      "en": "the Azarah",
+      "note": "The courtyard of the Beis HaMikdash."
+     },
+     {
+      "he": "נִנְעֶלֶת",
+      "en": "is locked"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "כָל",
+      "en": "any"
+     }
+    ]
+   },
+   {
+    "he": "אָדָם מִיִּשְׂרָאֵל בְּחָכְמָה וּבְיִרְאַת חֵטְא",
+    "en": "person in Yisrael as great in wisdom and fear of sin",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָדָם",
+      "en": "person"
+     },
+     {
+      "he": "מִיִּשְׂרָאֵל",
+      "en": "from Yisrael"
+     },
+     {
+      "he": "בְּחָכְמָה",
+      "en": "in wisdom"
+     },
+     {
+      "he": "וּבְיִרְאַת",
+      "en": "and in fear of"
+     },
+     {
+      "he": "חֵטְא",
+      "en": "sin"
+     }
+    ]
+   },
+   {
+    "he": "כַּעֲקַבְיָא בֶּן מַהֲלַלְאֵל.",
+    "en": "as Akavya ben Mahalalel.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כַּעֲקַבְיָא",
+      "en": "like Akavya"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "מַהֲלַלְאֵל.",
+      "en": "Mahalalel"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת מִי נִדּוּ,",
+    "en": "And whom did they put in cherem?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "מִי",
+      "en": "whom"
+     },
+     {
+      "he": "נִדּוּ,",
+      "en": "they put in cherem"
+     }
+    ]
+   },
+   {
+    "he": "אֱלִיעֶזֶר בֶּן חֲנוֹךְ,",
+    "en": "Eliezer ben Chanoch,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "חֲנוֹךְ,",
+      "en": "Chanoch"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁפִּקְפֵּק בְּטָהֳרַת יָדָיִם.",
+    "en": "who doubted the washing of hands.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁפִּקְפֵּק",
+      "en": "who doubted"
+     },
+     {
+      "he": "בְּטָהֳרַת",
+      "en": "about the taharah of"
+     },
+     {
+      "he": "יָדָיִם.",
+      "en": "hands"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁמֵּת, שָׁלְחוּ בֵית דִּין וְהִנִּיחוּ",
+    "en": "And when he died, the beis din sent and put",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁמֵּת,",
+      "en": "and when he died"
+     },
+     {
+      "he": "שָׁלְחוּ",
+      "en": "sent"
+     },
+     {
+      "he": "בֵית",
+      "en": "the beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "din"
+     },
+     {
+      "he": "וְהִנִּיחוּ",
+      "en": "and put"
+     }
+    ]
+   },
+   {
+    "he": "אֶבֶן עַל אֲרוֹנוֹ.",
+    "en": "a stone on his coffin.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֶבֶן",
+      "en": "a stone"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "אֲרוֹנוֹ.",
+      "en": "his coffin"
+     }
+    ]
+   },
+   {
+    "he": "מְלַמֵּד שֶׁכָּל הַמִּתְנַדֶּה וּמֵת בְּנִדּוּיוֹ,",
+    "en": "This teaches that anyone who is put in cherem and dies in his cherem,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְלַמֵּד",
+      "en": "it teaches"
+     },
+     {
+      "he": "שֶׁכָּל",
+      "en": "that anyone"
+     },
+     {
+      "he": "הַמִּתְנַדֶּה",
+      "en": "who is put in cherem"
+     },
+     {
+      "he": "וּמֵת",
+      "en": "and dies"
+     },
+     {
+      "he": "בְּנִדּוּיוֹ,",
+      "en": "in his cherem"
+     }
+    ]
+   },
+   {
+    "he": "סוֹקְלִין אֶת אֲרוֹנוֹ:",
+    "en": "we put a stone on his coffin.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "סוֹקְלִין",
+      "en": "we stone"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֲרוֹנוֹ:",
+      "en": "his coffin"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 7,
+  "summary": "Before he died, Akavya told his son to follow the many Sages and not his own four rulings. He also taught his son that his own good deeds would bring him close to the Sages.",
+  "chunks": [
+   {
+    "he": "בִּשְׁעַת מִיתָתוֹ אָמַר לִבְנוֹ,",
+    "en": "At the time of his death he said to his son:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁעַת",
+      "en": "at the time of"
+     },
+     {
+      "he": "מִיתָתוֹ",
+      "en": "his death"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לִבְנוֹ,",
+      "en": "to his son"
+     }
+    ]
+   },
+   {
+    "he": "בְּנִי, חֲזֹר בְּךָ בְאַרְבָּעָה דְבָרִים שֶׁהָיִיתִי אוֹמֵר.",
+    "en": "My son, take back the four things that I used to say.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בְּנִי,",
+      "en": "my son"
+     },
+     {
+      "he": "חֲזֹר",
+      "en": "go back"
+     },
+     {
+      "he": "בְּךָ",
+      "en": "in yourself"
+     },
+     {
+      "he": "בְאַרְבָּעָה",
+      "en": "in four"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "שֶׁהָיִיתִי",
+      "en": "that I was"
+     },
+     {
+      "he": "אוֹמֵר.",
+      "en": "saying"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וְלָמָּה לֹא חָזַרְתָּ בָּךְ.",
+    "en": "And why did you not take them back?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְלָמָּה",
+      "en": "and why"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "חָזַרְתָּ",
+      "en": "you went back"
+     },
+     {
+      "he": "בָּךְ.",
+      "en": "in yourself"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֲנִי שָׁמַעְתִּי מִפִּי הַמְרֻבִּים,",
+    "en": "I heard it from the mouth of the many,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "שָׁמַעְתִּי",
+      "en": "heard"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "הַמְרֻבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵם שָׁמְעוּ מִפִּי הַמְרֻבִּים.",
+    "en": "and they heard it from the mouth of the many.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהֵם",
+      "en": "and they"
+     },
+     {
+      "he": "שָׁמְעוּ",
+      "en": "heard"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "הַמְרֻבִּים.",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "אֲנִי עָמַדְתִּי בִשְׁמוּעָתִי,",
+    "en": "I stood firm on what I heard,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עָמַדְתִּי",
+      "en": "stood"
+     },
+     {
+      "he": "בִשְׁמוּעָתִי,",
+      "en": "in what I heard"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵם עָמְדוּ בִשְׁמוּעָתָן.",
+    "en": "and they stood firm on what they heard.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהֵם",
+      "en": "and they"
+     },
+     {
+      "he": "עָמְדוּ",
+      "en": "stood"
+     },
+     {
+      "he": "בִשְׁמוּעָתָן.",
+      "en": "in what they heard"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אַתָּה שָׁמַעְתָּ מִפִּי הַיָּחִיד,",
+    "en": "But you heard it from the mouth of one person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "שָׁמַעְתָּ",
+      "en": "heard"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "הַיָּחִיד,",
+      "en": "the one"
+     }
+    ]
+   },
+   {
+    "he": "וּמִפִּי הַמְרֻבִּין.",
+    "en": "and from the mouth of the many.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמִפִּי",
+      "en": "and from the mouth of"
+     },
+     {
+      "he": "הַמְרֻבִּין.",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "מוּטָב לְהַנִּיחַ דִּבְרֵי הַיָּחִיד,",
+    "en": "It is better to leave the words of the one,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מוּטָב",
+      "en": "better"
+     },
+     {
+      "he": "לְהַנִּיחַ",
+      "en": "to leave"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "הַיָּחִיד,",
+      "en": "the one"
+     }
+    ]
+   },
+   {
+    "he": "וְלֶאֱחֹז בְּדִבְרֵי הַמְרֻבִּין.",
+    "en": "and to hold on to the words of the many.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְלֶאֱחֹז",
+      "en": "and to hold"
+     },
+     {
+      "he": "בְּדִבְרֵי",
+      "en": "to the words of"
+     },
+     {
+      "he": "הַמְרֻבִּין.",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אַבָּא, פְּקֹד עָלַי לַחֲבֵרֶיךָ.",
+    "en": "Father, speak well of me to your friends.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַבָּא,",
+      "en": "father"
+     },
+     {
+      "he": "פְּקֹד",
+      "en": "ask about"
+     },
+     {
+      "he": "עָלַי",
+      "en": "on me"
+     },
+     {
+      "he": "לַחֲבֵרֶיךָ.",
+      "en": "to your friends"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֵינִי מַפְקִיד.",
+    "en": "I will not ask them.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "מַפְקִיד.",
+      "en": "ask"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא עִילָה מָצָאתָ בִי.",
+    "en": "Maybe you found something wrong in me?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "maybe"
+     },
+     {
+      "he": "עִילָה",
+      "en": "a fault"
+     },
+     {
+      "he": "מָצָאתָ",
+      "en": "you found"
+     },
+     {
+      "he": "בִי.",
+      "en": "in me"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לָאו. מַעֲשֶׂיךָ יְקָרְבוּךָ וּמַעֲשֶׂיךָ יְרַחֲקוּךָ:",
+    "en": "No. Your deeds will bring you close and your deeds will push you away.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "לָאו.",
+      "en": "no"
+     },
+     {
+      "he": "מַעֲשֶׂיךָ",
+      "en": "your deeds"
+     },
+     {
+      "he": "יְקָרְבוּךָ",
+      "en": "will bring you close"
+     },
+     {
+      "he": "וּמַעֲשֶׂיךָ",
+      "en": "and your deeds"
+     },
+     {
+      "he": "יְרַחֲקוּךָ:",
+      "en": "will push you away"
+     }
+    ]
+   }
+  ]
+ }
+]
