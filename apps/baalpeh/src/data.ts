@@ -105,6 +105,23 @@ export const activeMasechtaId = (): string => activeId ?? "";
 /** Whether `id` is the active masechta (its text can be read through MASECHTA, getMishnah, …). */
 export const isMasechtaLoaded = (id: string): boolean => activeId === id;
 
+/**
+ * Throws unless `id` is the active masechta. Functions that read the text (pieces, words) take the masechta they mean
+ * and call this, so progress can never be written against the wrong masechta's text.
+ */
+export function assertActive(id: string): void {
+  if (activeId !== id) throw new Error(`Masechta ${id} is not the active one (${activeId ?? "none"})`);
+}
+
+/** Perek numbers 1..n of a masechta shape. */
+export const perakimOf = (ms: MasechtaShape): number[] => ms.perakim.map((_, i) => i + 1);
+
+/** Number of mishnayos in a perek (0 outside the masechta). */
+export const perekSize = (ms: MasechtaShape, perek: number): number => ms.perakim[perek - 1] ?? 0;
+
+/** Number of mishnayos in the whole masechta. */
+export const mishnayosCount = (ms: MasechtaShape): number => ms.perakim.reduce((a, b) => a + b, 0);
+
 /** Whether `id` is in memory (active or loaded earlier), so loadMasechta(id) completes without a request. */
 export const isMasechtaCached = (id: string): boolean => loaded.has(id);
 

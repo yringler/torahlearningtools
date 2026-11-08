@@ -19,6 +19,10 @@ import { diffProfiles } from "../src/sync/mapping";
 import { applyLocalEdit, applyServerResponse, pendingCount, recordKey, type AccountStore, type SentBatch } from "../src/sync/store";
 import type { Profile } from "../src/types";
 import { kid, store } from "./helpers";
+import { shapeOf as shapeOfBR } from "../src/data";
+
+/** Berakhot: the masechta every test here runs against (tests/setup-data.ts makes it active). */
+const BR = shapeOfBR("berakhot");
 
 const T0 = 1_700_000_000_000;
 const learning = (stepIndex: number) => ({ stepIndex, state: "learning" as const, fails: {} });
@@ -168,7 +172,7 @@ describe("C3 resetPerek", () => {
     let a = kid("A");
     for (let m = 1; m <= n; m++) a = { ...a, mishnayos: { ...a.mishnayos, [`1:${m}`]: { stepIndex: 9, state: "known", fails: {} } } };
     a = { ...a, mishnayos: { ...a.mishnayos, "2:1": learning(3) }, perakim: { "1": { chainedThrough: 3, complete: true, chains: ["1-3"] } } };
-    const r = resetPerek(a, 1);
+    const r = resetPerek(a, BR, 1);
     for (let m = 1; m <= n; m++) expect(r.mishnayos[`1:${m}`]).toEqual({ stepIndex: 0, state: "new", fails: {} });
     expect(r.mishnayos["2:1"]).toEqual(learning(3));
     expect(r.perakim["1"]).toEqual({ chainedThrough: 0, complete: false, chains: [] });
@@ -178,7 +182,7 @@ describe("C3 resetPerek", () => {
   });
 
   it("also sends blank rows for mishnayos that were never stored", () => {
-    const d = diffProfiles([kid("B")], [resetPerek(kid("B"), 2)], T0);
+    const d = diffProfiles([kid("B")], [resetPerek(kid("B"), BR, 2)], T0);
     expect(d.records.filter((x) => x.kind === "m")).toHaveLength(mishnayosOf(2).length);
   });
 });
@@ -361,7 +365,14 @@ describe("parent sync and the children list", () => {
     expect(await run(new NetworkFailure("x"))).toEqual({ r: "offline", pending: 1 });
   });
 
-  it("a child's card line", () => {
-    expect(childSummary(kid("A"), new Set([1])).line).toMatch(/^0\/\d+ mishnayos · 1 perek verified · 0 due$/);
+  it("a child's card lines: one per masechta, counted from that masechta's keys only", () => {
+    const none = () => new Set<number>();
+    // A new child: one line, for the masechta it opens at.
+    expect(childSummary(kid("A"), none).map((x) => x.line)).toEqual(["Berakhot 0/57 · 0 due"]);
+    expect(childSummary(kid("A", { settings: { fontScale: 1, lastMasechta: "peah" } }), none).map((x) => x.line)).toEqual(["Peah 0/69 · 0 due"]);
+    const known = { stepIndex: 9, state: "known" as const, fails: {}, review: { box: 0, due: "2000-01-01", passes: 0 } };
+    const p = kid("B", { mishnayos: { "1:1": known, "peah/1:1": known, "peah/1:2": known, "zzz/1:1": known } });
+    const lines = childSummary(p, (m) => (m === "berakhot" ? new Set([1]) : none()));
+    expect(lines.map((x) => x.line)).toEqual(["Berakhot 1/57 · 1 perek verified · 1 due", "Peah 2/69 · 2 due"]);
   });
 });

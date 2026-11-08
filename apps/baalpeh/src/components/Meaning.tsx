@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { MASECHTA } from "../data";
 import { sefariaUrl, SOURCES } from "../sources";
 import { LicensesLink } from "./Licenses";
+import { useMasechta } from "./MasechtaGate";
 import type { Chunk, MeaningView, Source } from "../types";
 
 /** Render Steinsaltz markup: <b>translation</b> bold, the rest as lighter explanation. No raw HTML injection. */
@@ -29,6 +29,7 @@ interface Props {
 export function Meaning({ chunk, view, perek, mishnah, allowMore = true }: Props) {
   const [more, setMore] = useState(false);
   const [info, setInfo] = useState(false);
+  const { en: masechtaEn } = useMasechta();
   const basis: Source[] = chunk.basis ?? ["steinsaltz"];
   const useSt = view === "steinsaltz" && chunk.st;
 
@@ -66,7 +67,7 @@ export function Meaning({ chunk, view, perek, mishnah, allowMore = true }: Props
                 </li>
               ))}
             </ul>
-            <a className="btn secondary" href={sefariaUrl(MASECHTA.masechtaEn, perek, mishnah)} target="_blank" rel="noreferrer">
+            <a className="btn secondary" href={sefariaUrl(masechtaEn, perek, mishnah)} target="_blank" rel="noreferrer">
               Open on Sefaria
             </a>
             <LicensesLink />

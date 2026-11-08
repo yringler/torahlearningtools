@@ -10,6 +10,10 @@ import { completeStep, passPerekChain } from "../src/progress";
 import { isAppState, KEY as LEGACY_KEY } from "../src/storage";
 import type { KV } from "../src/sync/store";
 import { kid, store } from "./helpers";
+import { shapeOf as shapeOfBR } from "../src/data";
+
+/** Berakhot: the masechta every test here runs against (tests/setup-data.ts makes it active). */
+const BR = shapeOfBR("berakhot");
 
 function memKV(init: Record<string, string> = {}): KV & { map: Map<string, string> } {
   const map = new Map(Object.entries(init));
@@ -65,7 +69,7 @@ describe("guest progress (v1 format)", () => {
   it("round-trips through baalpeh:v1 and keeps other v1 profiles", () => {
     const old = kid("Dina");
     const kv = memKV({ [LEGACY_KEY]: JSON.stringify({ version: 1, profiles: [old] }) });
-    const p = completeStep(blankGuest(), 1, 1).profile;
+    const p = completeStep(blankGuest(), BR, 1, 1).profile;
     saveGuest(kv, p);
     saveGuest(kv, { ...p, settings: { ...p.settings, meaningView: "steinsaltz" } });
     const parsed: unknown = JSON.parse(kv.map.get(LEGACY_KEY) ?? "null");
@@ -79,7 +83,7 @@ describe("guest progress (v1 format)", () => {
 
   it("round-trips a perek's chains", () => {
     const kv = memKV();
-    const p = passPerekChain(blankGuest(), 2, 5, 6);
+    const p = passPerekChain(blankGuest(), BR, 2, 5, 6);
     saveGuest(kv, p);
     expect(loadGuest(kv).perakim["2"]).toEqual({ chainedThrough: 0, complete: false, chains: ["5-6"] });
   });
@@ -87,7 +91,7 @@ describe("guest progress (v1 format)", () => {
   it("round-trips Peah progress next to Berakhot and the last opened masechta, and imports them", () => {
     const kv = memKV();
     const m = { stepIndex: 2, state: "learning" as const, fails: {} };
-    const p = completeStep(blankGuest(), 1, 2).profile;
+    const p = completeStep(blankGuest(), BR, 1, 2).profile;
     saveGuest(kv, {
       ...p, settings: { ...p.settings, lastMasechta: "peah" },
       mishnayos: { ...p.mishnayos, "peah/1:2": m }, perakim: { ...p.perakim, "peah/1": { chainedThrough: 1, complete: false } },
@@ -125,7 +129,7 @@ describe("guest progress (v1 format)", () => {
 
   it("is offered by the account import prompt and imports under a new id", () => {
     const kv = memKV();
-    saveGuest(kv, completeStep(blankGuest(), 1, 1).profile);
+    saveGuest(kv, completeStep(blankGuest(), BR, 1, 1).profile);
     const parsed: unknown = JSON.parse(kv.map.get(LEGACY_KEY) ?? "null");
     if (!isAppState(parsed)) throw new Error("not v1");
     const legacy = parsed.profiles.map(normalizeProfile);
@@ -140,7 +144,7 @@ describe("guest progress (v1 format)", () => {
     vi.stubGlobal("fetch", fetch);
     const kv = memKV();
     setGuestChosen(kv, true);
-    saveGuest(kv, completeStep(loadGuest(kv), 1, 1).profile);
+    saveGuest(kv, completeStep(loadGuest(kv), BR, 1, 1).profile);
     loadGuest(kv);
     expect(fetch).not.toHaveBeenCalled();
   });
@@ -156,7 +160,7 @@ describe("signed-in guest (nothing saved)", () => {
   });
 
   it("starts fresh every time, even after another one learned", () => {
-    const a = completeStep(sessionGuest(), 1, 1).profile;
+    const a = completeStep(sessionGuest(), BR, 1, 1).profile;
     expect(Object.keys(a.mishnayos)).not.toHaveLength(0);
     expect(sessionGuest().mishnayos).toEqual({});
   });

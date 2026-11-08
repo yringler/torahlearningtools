@@ -1,9 +1,10 @@
 import type { ReactNode } from "react";
-import { hebNum } from "../data";
+import { hebNum, type MasechtaShape } from "../data";
 import { perekPathSteps, perekSegs, perekSteps, stepSelKey, type PerekStep } from "../perekSteps";
 import { canStartPerekStep, mp, perekFrontier, perekStage, stepSatisfied } from "../progress";
 import { pathGroupsFor, type PathGroup, type PathNode } from "../steps";
 import type { Profile } from "../types";
+import { useMasechta } from "./MasechtaGate";
 
 interface Props {
   profile: Profile;
@@ -25,35 +26,36 @@ const stateWord: Record<State, string> = { done: "done", current: "now", partial
 export const perekGroupName = (g: PathGroup): string => (g.key === "join" ? "All together" : `Part ${g.key + 1}`);
 
 /** The perek's path groups (one per part, then the join group for 2+ parts). Not memoized (see perekSteps). */
-export function perekGroups(perek: number): PathGroup[] {
-  return pathGroupsFor(perekPathSteps(perekSteps(perek)), perekSegs(perek));
+export function perekGroups(ms: MasechtaShape, perek: number): PathGroup[] {
+  return pathGroupsFor(perekPathSteps(perekSteps(ms, perek)), perekSegs(ms, perek));
 }
 
 /** The group that holds the frontier (the last group once every step is satisfied). */
-export function frontierGroup(profile: Profile, perek: number): number {
-  const groups = perekGroups(perek);
-  const f = perekFrontier(profile, perek);
+export function frontierGroup(profile: Profile, ms: MasechtaShape, perek: number): number {
+  const groups = perekGroups(ms, perek);
+  const f = perekFrontier(profile, ms, perek);
   const i = groups.findIndex((g) => g.steps.includes(f));
   return i < 0 ? Math.max(0, groups.length - 1) : i;
 }
 
 /** A perek's build-up drawn like a mishnah's step path: round mishnah tiles joined by golden links, then 🎯. */
 export function PerekPath({ profile, perek, group: shown, sel, onSelect, caption }: Props) {
-  const steps = perekSteps(perek);
-  const groups = perekGroups(perek);
-  const frontier = perekFrontier(profile, perek);
-  const stage = perekStage(profile, perek);
-  const curIdx = shown !== undefined && groups[shown] ? shown : frontierGroup(profile, perek);
+  const { shape: ms } = useMasechta();
+  const steps = perekSteps(ms, perek);
+  const groups = perekGroups(ms, perek);
+  const frontier = perekFrontier(profile, ms, perek);
+  const stage = perekStage(profile, ms, perek);
+  const curIdx = shown !== undefined && groups[shown] ? shown : frontierGroup(profile, ms, perek);
   const group = groups[curIdx];
   if (!group) return null;
 
   const stateOf = (i: number): State => {
     const s = steps[i];
     if (!s) return "upcoming";
-    if (stepSatisfied(profile, perek, s)) return "done";
+    if (stepSatisfied(profile, ms, perek, s)) return "done";
     if (i === frontier) return "current";
-    if (s.kind === "mishnah" && mp(profile, perek, s.mishnah).state === "learning") return "partial";
-    if (!canStartPerekStep(profile, perek, s)) return "locked";
+    if (s.kind === "mishnah" && mp(profile, ms, perek, s.mishnah).state === "learning") return "partial";
+    if (!canStartPerekStep(profile, ms, perek, s)) return "locked";
     return "upcoming";
   };
   const groupDone = (g: PathGroup) => g.steps.every((i) => stateOf(i) === "done");

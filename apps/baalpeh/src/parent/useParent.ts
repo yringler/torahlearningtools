@@ -1,7 +1,6 @@
 import { useCallback, useRef, useState } from "react";
 import type { LearningEvent, LearningEventBody, Ms, User } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure, type Api } from "../api/client";
-import { DEFAULT_MASECHTA_ID } from "../data";
 import { importLegacy as importLegacyPure } from "../legacy/import";
 import type { Verified } from "../progress";
 import { today } from "../srs";
@@ -68,10 +67,10 @@ export interface ParentData {
   importLegacy(selected: Profile[]): void;
   sync(): Promise<ParentSyncResult>;
   pendingNow(): number;
-  verifiedFor(childId: string): Verified;
-  verifiedAt(childId: string, perek: number): Ms | null;
+  verifiedFor(childId: string, masechta: string): Verified;
+  verifiedAt(childId: string, masechta: string, perek: number): Ms | null;
   /** POST /api/parent/children/:id/verifications, then applies the returned rows. Throws ApiFailure/NetworkFailure. */
-  setVerified(childId: string, perakim: number[], verified: boolean): Promise<void>;
+  setVerified(childId: string, masechta: string, perakim: number[], verified: boolean): Promise<void>;
 }
 
 export function useParent(user: User, on: { locked(): void; signedOut(): void }): ParentData {
@@ -128,17 +127,17 @@ export function useParent(user: User, on: { locked(): void; signedOut(): void })
     void sync();
   }, [set, sync]);
 
-  const setVerified = useCallback(async (childId: string, perakim: number[], verified: boolean) => {
-    const r = await api.parentSetVerifications(childId, { masechta: DEFAULT_MASECHTA_ID, perakim, verified });
+  const setVerified = useCallback(async (childId: string, masechta: string, perakim: number[], verified: boolean) => {
+    const r = await api.parentSetVerifications(childId, { masechta, perakim, verified });
     set(applyVerifications(ref.current, r.verifications));
   }, [set]);
 
   return {
     store, profiles: store.profiles, loaded, saving, problem, edit, importLegacy, sync,
     pendingNow: () => pendingCount(ref.current),
-    verifiedFor: (childId) => verifiedSet(store, childId, DEFAULT_MASECHTA_ID),
-    verifiedAt: (childId, perek) => {
-      const e = store.verified[childId]?.[verifKey(DEFAULT_MASECHTA_ID, perek)];
+    verifiedFor: (childId, masechta) => verifiedSet(store, childId, masechta),
+    verifiedAt: (childId, masechta, perek) => {
+      const e = store.verified[childId]?.[verifKey(masechta, perek)];
       return e?.verified ? e.verifiedAt ?? e.updatedAt : null;
     },
     setVerified,

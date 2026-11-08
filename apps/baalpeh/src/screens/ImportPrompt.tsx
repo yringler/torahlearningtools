@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { importDefaults } from "../legacy/import";
 import { IMPORT_TEST_NOTE } from "../perekTest";
-import { isKnown } from "../progress";
+import { progressSummary } from "../nav";
 import type { Profile } from "../types";
 
 interface Props {
@@ -28,15 +28,12 @@ export function ImportPrompt({ legacy, existing, onImport, onLater, onNever, inl
         {inline && <p className="hint">This device has progress saved without an account (from guest mode or before accounts):</p>}
         <ul className="import-list">
           {legacy.map((p) => {
-            const all = Object.values(p.mishnayos ?? {});
-            const known = all.filter(isKnown).length;
-            const started = all.filter((m) => !isKnown(m) && m.stepIndex > 0).length;
             return (
               <li key={p.id}>
                 <label>
                   <input type="checkbox" checked={checked[p.id] ?? false}
                     onChange={(e) => setChecked((c) => ({ ...c, [p.id]: e.target.checked }))} />
-                  <span>{p.emoji} <b>{p.name}</b> · {known} mishnayos known{started > 0 ? `, ${started} started` : ""}</span>
+                  <span>{p.emoji} <b>{p.name}</b> · {progressSummary(p)}</span>
                   {names.has(p.name.trim().toLocaleLowerCase()) && <span className="hint"> (already in your account?)</span>}
                 </label>
               </li>

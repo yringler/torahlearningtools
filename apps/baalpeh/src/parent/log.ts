@@ -1,6 +1,8 @@
 import type { AuditEntry } from "../../shared/api";
 import { deviceLabel } from "../../shared/device";
 import { hebNum } from "../../shared/hebrew";
+import { LEGACY_MASECHTA_ID, parseProgressKey } from "../../shared/progressKey";
+import { entryOf } from "../data";
 
 /** Pure text for the parent-mode change log (docs/PARENT_MODE.md §9.9). */
 
@@ -19,21 +21,31 @@ const hebList = (ps: number[]): string => [...ps].sort((a, b) => a - b).map((p) 
  */
 export const perekHe = (ps: number | number[]): string => `\u2067פרק ${hebList(typeof ps === "number" ? [ps] : ps)}\u2069`;
 
-/** "פרק ב׳ reset" and "2:3, 2:4 marked not known" from progress_edited keys ("p:2", "m:2:3"). */
+/** "Peah " before a non-Berakhot masechta's perakim (Berakhot, the original one, stays unnamed as before). */
+const masechtaPrefix = (masechta: unknown): string =>
+  typeof masechta === "string" && masechta !== LEGACY_MASECHTA_ID ? `${entryOf(masechta)?.en ?? masechta} ` : "";
+
+/**
+ * "פרק ב׳ reset" and "2:3, 2:4 marked not known" from progress_edited keys ("p:2", "m:2:3"; other masechtos
+ * "p:peah/2", "m:peah/2:3", named: "Peah פרק ב׳ reset").
+ */
 function progressText(keys: string[], count: number): string {
-  const reset = new Set<number>();
+  /** masechta → perakim reset */
+  const reset = new Map<string, Set<number>>();
+  const notKnown = new Map<string, string[]>();
   for (const k of keys) {
-    const m = /^p:(\d+)$/.exec(k);
-    if (m) reset.add(Number(m[1]));
+    if (!k.startsWith("p:")) continue;
+    const r = parseProgressKey("p", k.slice(2));
+    if (r) reset.set(r.masechta, (reset.get(r.masechta) ?? new Set()).add(r.perek));
   }
-  const notKnown: string[] = [];
   for (const k of keys) {
-    const m = /^m:(\d+):(\d+)$/.exec(k);
-    if (m && !reset.has(Number(m[1]))) notKnown.push(`${m[1]}:${m[2]}`);
+    if (!k.startsWith("m:")) continue;
+    const r = parseProgressKey("m", k.slice(2));
+    if (r && !reset.get(r.masechta)?.has(r.perek)) notKnown.set(r.masechta, [...(notKnown.get(r.masechta) ?? []), `${r.perek}:${r.mishnah}`]);
   }
   const parts: string[] = [];
-  if (reset.size) parts.push(`${perekHe([...reset])} reset`);
-  if (notKnown.length) parts.push(`${notKnown.join(", ")} marked not known`);
+  for (const [m, ps] of reset) parts.push(`${masechtaPrefix(m)}${perekHe([...ps])} reset`);
+  for (const [m, list] of notKnown) parts.push(`${masechtaPrefix(m)}${list.join(", ")} marked not known`);
   if (parts.length === 0) parts.push("progress changed");
   return parts.join("; ") + (count > keys.length ? " (and more)" : "");
 }
@@ -50,12 +62,12 @@ export function describeEntry(e: AuditEntry): string {
     case "perek_verified": {
       const ps = nums(d["perakim"]);
       if (e.via === "test_link") {
-        return `${name}: ${perekHe(ps)} confirmed from the test email${d["pinUsed"] === true ? " · PIN entered" : ""}`;
+        return `${name}: ${masechtaPrefix(d["masechta"])}${perekHe(ps)} confirmed from the test email${d["pinUsed"] === true ? " · PIN entered" : ""}`;
       }
-      return `${name}: ${perekHe(ps)} marked verified`;
+      return `${name}: ${masechtaPrefix(d["masechta"])}${perekHe(ps)} marked verified`;
     }
     case "perek_unverified":
-      return `${name}: verification of ${perekHe(nums(d["perakim"]))} removed`;
+      return `${name}: verification of ${masechtaPrefix(d["masechta"])}${perekHe(nums(d["perakim"]))} removed`;
     case "progress_edited": {
       const keys = strs(d["keys"]);
       const count = typeof d["count"] === "number" ? d["count"] : keys.length;

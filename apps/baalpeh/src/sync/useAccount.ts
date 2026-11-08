@@ -2,7 +2,6 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { LearningEvent, LearningEventBody, Ms, PerekVerificationRow, User } from "../../shared/api";
 import { api } from "../api/client";
 import { kv } from "../kv";
-import { DEFAULT_MASECHTA_ID } from "../data";
 import { importLegacy as importLegacyPure } from "../legacy/import";
 import { cooldownTest, type RequestResult } from "../perekTest";
 import { requestErrorResult } from "../perekTestRequest";
@@ -32,16 +31,16 @@ export interface Account {
   setImportDecision(d: AccountStore["importDecision"]): void;
   /** Stops syncing and removes this account's local data and the current-user marker. */
   endSession(): void;
-  /** Perakim of the active masechta a parent verified for this child (server-owned). */
-  verifiedFor(childId: string): Verified;
+  /** Perakim of this masechta a parent verified for this child (server-owned). */
+  verifiedFor(childId: string, masechta: string): Verified;
   /** When a parent verified this perek, or null. */
-  verifiedAt(childId: string, perek: number): Ms | null;
+  verifiedAt(childId: string, masechta: string, perek: number): Ms | null;
   /** This device's last test request for this child. */
   lastTest(childId: string): LastTest | undefined;
   /** The server's clock (device clock plus the last measured offset). */
   serverNow(): Ms;
   /** Syncs (so the child row exists on the server), then asks for the perek test email. Never queued. */
-  requestTest(childId: string, perek: number): Promise<RequestResult>;
+  requestTest(childId: string, masechta: string, perek: number): Promise<RequestResult>;
 }
 
 /** Owns the AccountStore for one signed-in user: local-first state plus the background SyncEngine. */
@@ -117,8 +116,7 @@ export function useAccount(user: User): Account {
 
   const applyRow = useCallback((row: PerekVerificationRow) => set(applyVerifications(get(), [row])), [get, set]);
 
-  const requestTest = useCallback(async (childId: string, perek: number): Promise<RequestResult> => {
-    const masechta = DEFAULT_MASECHTA_ID;
+  const requestTest = useCallback(async (childId: string, masechta: string, perek: number): Promise<RequestResult> => {
     try { await engine.syncNow(); } catch { /* the request below reports the problem */ }
     try {
       const r = await api.perekTest({ childId, masechta, perek });
@@ -142,9 +140,9 @@ export function useAccount(user: User): Account {
   }, [applyRow, engine, get, rememberTest, serverNow, set]);
 
   return {
-    verifiedFor: (childId) => verifiedSet(store, childId, DEFAULT_MASECHTA_ID),
-    verifiedAt: (childId, perek) => {
-      const e = store.verified[childId]?.[verifKey(DEFAULT_MASECHTA_ID, perek)];
+    verifiedFor: (childId, masechta) => verifiedSet(store, childId, masechta),
+    verifiedAt: (childId, masechta, perek) => {
+      const e = store.verified[childId]?.[verifKey(masechta, perek)];
       return e?.verified ? e.verifiedAt ?? e.updatedAt : null;
     },
     lastTest: (childId) => store.lastTest?.[childId],

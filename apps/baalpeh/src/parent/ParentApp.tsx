@@ -3,10 +3,11 @@ import type { ParentMeResponse, User } from "../../shared/api";
 import { api, ApiFailure, errorCode, NetworkFailure } from "../api/client";
 import { ConfirmSheet } from "../components/ConfirmSheet";
 import { PinPad, type PinOutcome } from "../components/PinPad";
-import { hebNum, MASECHTA, PERAKIM } from "../data";
+import { CATALOG, hebNum, mishnayosCount, perakimOf, shapeOf } from "../data";
+import { lastMasechtaOf, masechtaEn } from "../nav";
 import { kv } from "../kv";
 import { canImportDevice, normalizeProfile } from "../legacy/import";
-import { frontier, gatedDueReviews, isKnown, perekPhase } from "../progress";
+import { frontier, gatedDueReviews, knownCount, perekPhase, startedCount, type Verified } from "../progress";
 import { ImportPrompt } from "../screens/ImportPrompt";
 import { EMOJIS, loadLegacy, newProfile } from "../storage";
 import { SyncEngine } from "../sync/engine";
@@ -263,9 +264,9 @@ export function ParentApp({ me: me0, learner: learner0, onToLearner, onSignedOut
     onChoose();
   };
 
-  const setVerified = async (id: string, perakim: number[], verified: boolean) => {
+  const setVerified = async (id: string, masechta: string, perakim: number[], verified: boolean) => {
     try {
-      await data.setVerified(id, perakim, verified);
+      await data.setVerified(id, masechta, perakim, verified);
     } catch (e) {
       if (e instanceof ApiFailure && e.status === 403) { lockLocal(); throw new Error("Enter your PIN again first."); }
       if (e instanceof ApiFailure && e.status === 401) { onSignedOut(); throw new Error("Sign in again."); }
@@ -293,14 +294,14 @@ export function ParentApp({ me: me0, learner: learner0, onToLearner, onSignedOut
       <ChildDetail
         key={child.id}
         profile={child}
-        verified={data.verifiedFor(child.id)}
-        verifiedAt={(perek) => data.verifiedAt(child.id, perek)}
+        verifiedOf={(masechta) => data.verifiedFor(child.id, masechta)}
+        verifiedAt={(masechta, perek) => data.verifiedAt(child.id, masechta, perek)}
         lastTest={learnerLastTest(learner, child.id)}
         now={Date.now()}
         online={data.problem !== "offline"}
         save={(np, events) => data.edit((list) => list.map((x) => (x.id === np.id ? np : x)), (events ?? []).map((body) => ({ childId: np.id, body })))}
         remove={() => { data.edit((list) => list.filter((x) => x.id !== child.id)); setChildId(null); setToast(`${child.name} was removed.`); }}
-        setVerified={(perakim, verified) => setVerified(child.id, perakim, verified)}
+        setVerified={(masechta, perakim, verified) => setVerified(child.id, masechta, perakim, verified)}
         onBack={() => setChildId(null)}
         toast={setToast}
         tab={childTab}
@@ -405,15 +406,36 @@ function learnerLastTest(learner: User | null, childId: string): LastTest | unde
   return loadStore(kv, learner).lastTest?.[childId];
 }
 
-/** "{known}/{total} mishnayos · {verified} perakim verified · {due} due" (§9.7). */
-export function childSummary(p: Profile, verified: ReadonlySet<number>): { line: string; waiting: number | null } {
-  const known = Object.values(p.mishnayos).filter(isKnown).length;
-  const total = MASECHTA.mishnayos.length;
-  const nVerified = PERAKIM.filter((x) => verified.has(x)).length;
-  const due = gatedDueReviews(p, verified).length;
-  const f = frontier(verified);
-  const waiting = f !== null && perekPhase(p, verified, f) === "test" ? f : null;
-  return { line: `${known}/${total} mishnayos · ${nVerified} ${nVerified === 1 ? "perek" : "perakim"} verified · ${due} due`, waiting };
+export interface MasechtaSummary {
+  masechta: string;
+  /** "Peah 3/69 · 1 perek verified · 1 due" (§9.7, one line per masechta). */
+  line: string;
+  /** The frontier perek, when it is learned and waiting for its test. */
+  waiting: number | null;
+}
+
+/**
+ * A child's card lines, one per masechta: every masechta the child has started, has a verified perek in, or last
+ * opened (so a new child shows one line, for the masechta it will open at). Counts use only that masechta's keys.
+ */
+export function childSummary(p: Profile, verifiedOf: (masechta: string) => Verified): MasechtaSummary[] {
+  const last = lastMasechtaOf(p);
+  const out: MasechtaSummary[] = [];
+  for (const e of CATALOG) {
+    const ms = shapeOf(e.id);
+    const verified = verifiedOf(e.id);
+    const known = knownCount(p, ms);
+    if (e.id !== last && known === 0 && startedCount(p, ms) === 0 && verified.size === 0) continue;
+    const nVerified = perakimOf(ms).filter((x) => verified.has(x)).length;
+    const due = gatedDueReviews(p, ms, verified).length;
+    const f = frontier(ms, verified);
+    const waiting = f !== null && perekPhase(p, ms, verified, f) === "test" ? f : null;
+    const parts = [`${masechtaEn(e.id)} ${known}/${mishnayosCount(ms)}`];
+    if (nVerified > 0) parts.push(`${nVerified} ${nVerified === 1 ? "perek" : "perakim"} verified`);
+    parts.push(`${due} due`);
+    out.push({ masechta: e.id, line: parts.join(" · "), waiting });
+  }
+  return out;
 }
 
 function ChildrenTab({ profiles, data, onOpen, toast, learner }: {
@@ -449,15 +471,19 @@ function ChildrenTab({ profiles, data, onOpen, toast, learner }: {
     <>
       <ul className="child-list">
         {profiles.map((p) => {
-          const s = childSummary(p, data.verifiedFor(p.id));
+          const lines = childSummary(p, (masechta) => data.verifiedFor(p.id, masechta));
           return (
             <li key={p.id}>
               <button className="child-card-btn" style={{ borderColor: p.color }} onClick={() => onOpen(p.id)}>
                 <span className="child-emoji">{p.emoji}</span>
                 <span className="child-text">
                   <b style={{ color: p.color }}>{p.name}</b>
-                  <span className="hint-line">{s.line}</span>
-                  {s.waiting !== null && <span className="hint-line"><bdi dir="rtl">פרק {hebNum(s.waiting)}</bdi> learned, waiting for a test</span>}
+                  {lines.map((s) => (
+                    <span key={s.masechta} className="hint-line">
+                      {s.line}
+                      {s.waiting !== null && <> · <bdi dir="rtl">פרק {hebNum(s.waiting)}</bdi> learned, waiting for a test</>}
+                    </span>
+                  ))}
                 </span>
                 <span className="chev" aria-hidden="true">›</span>
               </button>

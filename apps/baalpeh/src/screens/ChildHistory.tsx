@@ -1,14 +1,17 @@
 import { useEffect, useState } from "react";
 import type { ChildStatsResponse, LearningEvent } from "../../shared/api";
+import { eventMasechta } from "../../shared/progressKey";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
+import { CATALOG, shapeOf } from "../data";
+import { masechtaEn } from "../nav";
 import { gatedDueReviews, type Verified } from "../progress";
 import { addDays, today } from "../srs";
 import type { Profile } from "../types";
 
 interface Props {
   profile: Profile;
-  /** Gates "Due now" like the card's count: reviews of locked perakim are paused (§8). */
-  verified: Verified;
+  /** Gates "Due now" like the card's count, per masechta: reviews of locked perakim are paused (§8). */
+  verifiedOf: (masechta: string) => Verified;
   online: boolean;
 }
 
@@ -21,7 +24,12 @@ const gradeWord = { pass: "perfect", help: "with a little help", notyet: "needs 
 
 const where = (perek: number, mishnah: number | null) => (mishnah === null ? `Perek ${perek}` : `${perek}:${mishnah}`);
 
+/** "Peah: Learned a piece of 1:2 — perfect". Every line names its masechta (events without one are Berakhot). */
 export function describeEvent(e: LearningEvent): string {
+  return `${masechtaEn(eventMasechta(e))}: ${describeBody(e)}`;
+}
+
+function describeBody(e: LearningEvent): string {
   switch (e.type) {
     case "recite": {
       const span = e.mishnah === null && e.from !== undefined && e.to !== undefined
@@ -53,12 +61,12 @@ export function describeEvent(e: LearningEvent): string {
 const when = (at: number) => new Date(at).toLocaleString([], { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
 
 /** Parent-only view of one child's practice, from the server's event log. */
-export function ChildHistory({ profile, verified, online }: Props) {
+export function ChildHistory({ profile, verifiedOf, online }: Props) {
   const [stats, setStats] = useState<Load<ChildStatsResponse>>({ s: "loading" });
   const [events, setEvents] = useState<LearningEvent[]>([]);
   const [nextBefore, setNextBefore] = useState<number | null>(null);
   const [moreBusy, setMoreBusy] = useState(false);
-  const due = gatedDueReviews(profile, verified);
+  const due = CATALOG.flatMap((e) => gatedDueReviews(profile, shapeOf(e.id), verifiedOf(e.id)));
 
   useEffect(() => {
     if (!online) return;
@@ -94,7 +102,7 @@ export function ChildHistory({ profile, verified, online }: Props) {
       {due.length === 0 ? <p className="hint">Nothing due.</p> : (
         <ul>
           {due.map((t) => (
-            <li key={JSON.stringify(t)}>{t.type === "review-p" ? `Perek ${t.perek} review` : "mishnah" in t ? `Review ${t.perek}:${t.mishnah}` : `Perek ${t.perek}`}</li>
+            <li key={JSON.stringify(t)}>{masechtaEn(t.masechta)} {t.type === "review-p" ? `Perek ${t.perek} review` : "mishnah" in t ? `${t.perek}:${t.mishnah}` : `Perek ${t.perek}`}</li>
           ))}
         </ul>
       )}
@@ -131,8 +139,8 @@ export function ChildHistory({ profile, verified, online }: Props) {
         {attention.length === 0 ? <p className="hint">Nothing stands out in the last 30 days.</p> : (
           <ul>
             {attention.map((i) => (
-              <li key={`${i.perek}:${i.mishnah ?? "p"}`}>
-                {i.mishnah === null ? `Perek ${i.perek} in a row` : `Perek ${i.perek} · Mishnah ${i.mishnah}`} — {i.attempts} tr{i.attempts === 1 ? "y" : "ies"}
+              <li key={`${i.masechta}/${i.perek}:${i.mishnah ?? "p"}`}>
+                {masechtaEn(i.masechta)} · {i.mishnah === null ? `Perek ${i.perek} in a row` : `Perek ${i.perek} · Mishnah ${i.mishnah}`} — {i.attempts} tr{i.attempts === 1 ? "y" : "ies"}
                 {i.notyet > 0 && `, ${i.notyet} needed more practice`}{i.peeks > 0 && `, ${i.peeks} peek${i.peeks === 1 ? "" : "s"}`}
               </li>
             ))}

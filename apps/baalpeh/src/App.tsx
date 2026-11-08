@@ -6,7 +6,6 @@ import { CheckEmail } from "./auth/CheckEmail";
 import { AuthFrame, Choose, GuestOption, Login } from "./auth/Login";
 import { PinResetLanding, takePinResetToken } from "./auth/PinResetLanding";
 import { takeVerifyToken, VerifyLanding } from "./auth/VerifyLanding";
-import { DataGate } from "./components/DataGate";
 import { asksServer, bootRoute, isGuestChosen, setGuestChosen } from "./guest";
 import { GuestApp } from "./GuestApp";
 import { LicensesPage } from "./components/Licenses";
@@ -194,40 +193,32 @@ function AuthShell() {
     case "guest":
       // Leaving guest mode keeps the guest's progress (v1 key) so parent mode can offer to move it in.
       // Ask the server first: this browser may still hold a valid session (signed in from another tab).
-      return (
-        <DataGate>
-          <GuestApp onSignIn={() => { setGuestChosen(kv, false); setPhase({ phase: "boot" }); setMeTry((n) => n + 1); }} />
-        </DataGate>
-      );
+      return <GuestApp onSignIn={() => { setGuestChosen(kv, false); setPhase({ phase: "boot" }); setMeTry((n) => n + 1); }} />;
     case "app":
       return (
-        <DataGate>
-          <LearningApp
-            key={phase.user.id}
-            user={phase.user}
-            onSignInAgain={() => setPhase({ phase: "login", as: "learner", reason: "expired", email: phase.user.email })}
-            onParentSignIn={async (sync) => {
-              await Promise.race([sync().catch(() => undefined), sleep(3000)]);
-              setPhase({ phase: "parentBoot", learner: phase.user });
-            }}
-          />
-        </DataGate>
+      <LearningApp
+          key={phase.user.id}
+          user={phase.user}
+          onSignInAgain={() => setPhase({ phase: "login", as: "learner", reason: "expired", email: phase.user.email })}
+          onParentSignIn={async (sync) => {
+            await Promise.race([sync().catch(() => undefined), sleep(3000)]);
+            setPhase({ phase: "parentBoot", learner: phase.user });
+          }}
+        />
       );
     case "parent":
       return (
-        <DataGate>
-          <ParentApp
-            key={phase.me.user.id}
-            me={phase.me}
-            learner={phase.learner}
-            onToLearner={(user) => { setCurrentUser(kv, user); setPhase({ phase: "app", user }); }}
-            onSignedOut={() => {
-              const learner = phase.learner;
-              setPhase(learner ? { phase: "login", as: "parent", email: learner.email, lockEmail: true } : { phase: "login", as: "parent" });
-            }}
-            onChoose={toChoose}
-          />
-        </DataGate>
+        <ParentApp
+          key={phase.me.user.id}
+          me={phase.me}
+          learner={phase.learner}
+          onToLearner={(user) => { setCurrentUser(kv, user); setPhase({ phase: "app", user }); }}
+          onSignedOut={() => {
+            const learner = phase.learner;
+            setPhase(learner ? { phase: "login", as: "parent", email: learner.email, lockEmail: true } : { phase: "login", as: "parent" });
+          }}
+          onChoose={toChoose}
+        />
       );
   }
 }

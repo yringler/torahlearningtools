@@ -1,4 +1,4 @@
-import { mishnayosOf } from "./data";
+import { assertActive, mishnayosOf, perekSize, type MasechtaShape } from "./data";
 import type { Step } from "./types";
 
 /**
@@ -7,8 +7,8 @@ import type { Step } from "./types";
  * MAX_PEREK_PART mishnayos, then the parts are joined.
  *
  * Progress is stored as passed mishnah *ranges* (PerekProgress.chains), never as an index into this list, so the
- * split can change later without misplacing saved progress. Nothing here is memoized: PERAKIM and mishnayosOf()
- * change when the masechta changes, and the lists are tiny.
+ * split can change later without misplacing saved progress. Everything but perekPhrases needs only the masechta's
+ * shape (mishnayos per perek), so it works before the text is loaded. Nothing is memoized: the lists are tiny.
  */
 export const MAX_PEREK_PART = 5;
 
@@ -51,8 +51,8 @@ export function stepsForCount(n: number): PerekStep[] {
   return steps;
 }
 
-export function perekSteps(perek: number): PerekStep[] {
-  return stepsForCount(mishnayosOf(perek).length);
+export function perekSteps(ms: MasechtaShape, perek: number): PerekStep[] {
+  return stepsForCount(perekSize(ms, perek));
 }
 
 export const chainKey = (from: number, to: number): string => `${from}-${to}`;
@@ -82,13 +82,13 @@ export function perekPathSteps(steps: PerekStep[]): Step[] {
 }
 
 /** perekParts() of a perek, shifted to 0-based (the `segs` argument of pathGroupsFor). */
-export function perekSegs(perek: number): Array<[number, number]> {
-  return perekParts(mishnayosOf(perek).length).map(([a, b]) => [a - 1, b - 1]);
+export function perekSegs(ms: MasechtaShape, perek: number): Array<[number, number]> {
+  return perekParts(perekSize(ms, perek)).map(([a, b]) => [a - 1, b - 1]);
 }
 
 /** "Mishnah 2", "Mishnayos 1–2 together" or "The whole perek". */
-export function perekPracticeLabel(perek: number, from: number, to: number): string {
-  const n = mishnayosOf(perek).length;
+export function perekPracticeLabel(ms: MasechtaShape, perek: number, from: number, to: number): string {
+  const n = perekSize(ms, perek);
   if (from === to) return `Mishnah ${from}`;
   if (from === 1 && to === n && n >= 2) return "The whole perek";
   return `Mishnayos ${from}–${to} together`;
@@ -98,7 +98,8 @@ export function perekPracticeLabel(perek: number, from: number, to: number): str
  * The perek phrase by phrase, grouped by mishnah. The end-of-perek "look it over" view uses it, and so will the
  * parent's "ready to be tested" email (roadmap item 2).
  */
-export function perekPhrases(perek: number): Array<{ mishnah: number; phrases: string[] }> {
+export function perekPhrases(masechta: string, perek: number): Array<{ mishnah: number; phrases: string[] }> {
+  assertActive(masechta);
   return mishnayosOf(perek).map((m) => ({ mishnah: m.mishnah, phrases: m.chunks.map((c) => c.he) }));
 }
 
