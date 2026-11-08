@@ -84,6 +84,23 @@ describe("guest progress (v1 format)", () => {
     expect(loadGuest(kv).perakim["2"]).toEqual({ chainedThrough: 0, complete: false, chains: ["5-6"] });
   });
 
+  it("round-trips Peah progress next to Berakhot and the last opened masechta, and imports them", () => {
+    const kv = memKV();
+    const m = { stepIndex: 2, state: "learning" as const, fails: {} };
+    const p = completeStep(blankGuest(), 1, 2).profile;
+    saveGuest(kv, {
+      ...p, settings: { ...p.settings, lastMasechta: "peah" },
+      mishnayos: { ...p.mishnayos, "peah/1:2": m }, perakim: { ...p.perakim, "peah/1": { chainedThrough: 1, complete: false } },
+    });
+    const back = loadGuest(kv);
+    expect(back.settings.lastMasechta).toBe("peah");
+    expect(back.mishnayos["1:2"]).toMatchObject({ stepIndex: 1 });
+    expect(back.mishnayos["peah/1:2"]).toEqual(m);
+    const s = importLegacy(store(), [back], 1000, () => "new-uuid-2");
+    expect(Object.keys(s.pending.records)).toEqual(expect.arrayContaining(["new-uuid-2|m|1:2", "new-uuid-2|m|peah/1:2", "new-uuid-2|p|peah/1"]));
+    expect(s.pending.children["new-uuid-2"]?.meta.settings.lastMasechta).toBe("peah");
+  });
+
   it("ignores a corrupt v1 value", () => {
     expect(loadGuest(memKV({ [LEGACY_KEY]: "{not json" })).id).toBe(GUEST_ID);
   });

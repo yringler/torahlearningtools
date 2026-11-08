@@ -1,12 +1,11 @@
 import type {
   ChildMeta, ChildRow, ChildSettings, Ms, MishnahProgressData, PerekProgressData, RecordRow, ReviewItemData,
 } from "../../shared/api";
+import { isMasechtaId, parseProgressKey } from "../../shared/progressKey";
 import { chainKey, parseChainKey } from "../perekSteps";
 import type { Profile } from "../types";
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
-const M_KEY = /^\d{1,3}:\d{1,3}$/;
-const P_KEY = /^\d{1,3}$/;
 const COLOR = /^#[0-9a-fA-F]{6}$/;
 /** Server limit on PerekProgressData.chains (worker/lib/validate.ts). */
 const MAX_CHAINS = 64;
@@ -22,6 +21,7 @@ function cleanSettings(s: Profile["settings"]): ChildSettings {
   const out: ChildSettings = { fontScale };
   if (typeof s.breakMinutes === "number" && Number.isFinite(s.breakMinutes)) out.breakMinutes = int(s.breakMinutes, 1, 180, 15);
   if (s.meaningView === "simple" || s.meaningView === "steinsaltz") out.meaningView = s.meaningView;
+  if (isMasechtaId(s.lastMasechta)) out.lastMasechta = s.lastMasechta;
   return out;
 }
 
@@ -30,6 +30,7 @@ export function settingsOf(s: ChildSettings): Profile["settings"] {
   const out: Profile["settings"] = { fontScale: s.fontScale };
   if (s.breakMinutes !== undefined) out.breakMinutes = s.breakMinutes;
   if (s.meaningView !== undefined) out.meaningView = s.meaningView;
+  if (isMasechtaId(s.lastMasechta)) out.lastMasechta = s.lastMasechta;
   return out;
 }
 
@@ -88,15 +89,19 @@ const pRow = (childId: string, key: string, data: PerekProgressData, now: Ms): R
   ({ kind: "p", childId, key, data: cleanPerek(data), updatedAt: now });
 const dRow = (childId: string, day: string, now: Ms): RecordRow => ({ kind: "d", childId, key: day, data: {}, updatedAt: now });
 
+/**
+ * Only canonical keys are pushed (shared/progressKey.ts): the server rejects the whole batch for one bad key, so a
+ * non-canonical "berakhot/1:2" or a garbage key in local data must never reach it.
+ */
 function recordRows(p: Profile, prev: Profile | undefined, now: Ms): RecordRow[] {
   const out: RecordRow[] = [];
   for (const [k, v] of Object.entries(p.mishnayos)) {
-    if (!M_KEY.test(k)) continue;
+    if (parseProgressKey("m", k) === null) continue;
     const before = prev?.mishnayos[k];
     if (before === undefined || JSON.stringify(before) !== JSON.stringify(v)) out.push(mRow(p.id, k, v, now));
   }
   for (const [k, v] of Object.entries(p.perakim)) {
-    if (!P_KEY.test(k)) continue;
+    if (parseProgressKey("p", k) === null) continue;
     const before = prev?.perakim[k];
     if (before === undefined || JSON.stringify(before) !== JSON.stringify(v)) out.push(pRow(p.id, k, v, now));
   }

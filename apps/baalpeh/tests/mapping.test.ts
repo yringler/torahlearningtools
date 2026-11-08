@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { PerekProgressData } from "../shared/api";
-import { blankProfileFromRow, cleanPerek, diffProfiles, metaOf, profileToRows } from "../src/sync/mapping";
+import { blankProfileFromRow, cleanPerek, diffProfiles, metaOf, profileToRows, settingsOf } from "../src/sync/mapping";
 import { kid } from "./helpers";
 
 const NOW = 1_700_000_000_000;
@@ -147,5 +147,40 @@ describe("cleanPerek", () => {
     const a = kid("A", { perakim: { "2": { chainedThrough: 0, complete: false } } });
     const d = diffProfiles([a], [{ ...a, perakim: { "2": { chainedThrough: 0, complete: false, chains: ["5-6"] } } }], NOW);
     expect(d.records).toEqual([{ kind: "p", childId: a.id, key: "2", updatedAt: NOW, data: { chainedThrough: 0, complete: false, chains: ["5-6"] } }]);
+  });
+});
+
+describe("multi-masechta keys", () => {
+  const m = { stepIndex: 1, state: "learning" as const, fails: {} };
+  const pk = { chainedThrough: 1, complete: false };
+
+  it("emits qualified keys for Peah next to Berakhot's unqualified ones", () => {
+    const a = kid("A");
+    const b = { ...a, mishnayos: { "1:2": m, "peah/1:2": m }, perakim: { "1": pk, "peah/1": pk } };
+    const keys = diffProfiles([a], [b], NOW).records.map((r) => `${r.kind}|${r.key}`).sort();
+    expect(keys).toEqual(["m|1:2", "m|peah/1:2", "p|1", "p|peah/1"]);
+  });
+
+  it("never emits non-canonical or garbage keys", () => {
+    const a = kid("A", {
+      mishnayos: { "berakhot/1:2": m, "Peah/1:2": m, "peah/1:2:3": m, "../1:2": m, "1234:1": m, "peah/1:2": m },
+      perakim: { "berakhot/1": pk, "peah/": pk, "peah/1:2": pk, "demai/3": pk },
+    });
+    const keys = profileToRows(a, 0, NOW).records.map((r) => `${r.kind}|${r.key}`).sort();
+    expect(keys).toEqual(["m|peah/1:2", "p|demai/3"]);
+  });
+
+  it("keeps a valid lastMasechta and drops an invalid one", () => {
+    expect(metaOf(kid("A", { settings: { fontScale: 1, lastMasechta: "peah" } }), 0).settings).toEqual({ fontScale: 1, lastMasechta: "peah" });
+    expect(metaOf(kid("A", { settings: { fontScale: 1, lastMasechta: "Peah!" } }), 0).settings).toEqual({ fontScale: 1 });
+    expect(settingsOf({ fontScale: 1, lastMasechta: "demai" })).toEqual({ fontScale: 1, lastMasechta: "demai" });
+    expect(settingsOf({ fontScale: 1, lastMasechta: "../x" })).toEqual({ fontScale: 1 });
+  });
+
+  it("a lastMasechta change produces one ChildRow", () => {
+    const a = kid("A");
+    const d = diffProfiles([a], [{ ...a, settings: { ...a.settings, lastMasechta: "peah" } }], NOW);
+    expect(d.records).toEqual([]);
+    expect(d.children.map((c) => c.meta.settings.lastMasechta)).toEqual(["peah"]);
   });
 });

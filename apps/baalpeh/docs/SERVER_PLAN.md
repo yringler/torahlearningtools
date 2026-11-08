@@ -998,7 +998,7 @@ CREATE TABLE progress (
   child_id   TEXT NOT NULL REFERENCES children (id) ON DELETE CASCADE,
   user_id    TEXT NOT NULL,                     -- denormalized owner for pull queries
   kind       TEXT NOT NULL CHECK (kind IN ('m', 'p', 'd')),
-  key        TEXT NOT NULL,                     -- "p:m" | "p" | "yyyy-mm-dd"
+  key        TEXT NOT NULL,                     -- "p:m" | "p" | "yyyy-mm-dd" (other masechtos: "peah/p:m", §8.1)
   data       TEXT NOT NULL,                     -- JSON (MishnahProgressData | PerekProgressData | {})
   updated_at INTEGER NOT NULL,
   rev        INTEGER NOT NULL,
@@ -1041,6 +1041,48 @@ CREATE TABLE rate_limits (
   count        INTEGER NOT NULL
 );
 CREATE INDEX rate_limits_window ON rate_limits (window_start);
+```
+
+### 8.1 Progress keys for more than one masechta
+
+The app learns Berakhot, Peah and Demai. Progress was keyed before there was a second masechta, and **no progress
+data is migrated**: the keys below are what every client and the Worker write from now on, and existing rows stay
+valid as they are. The rules live in `shared/progressKey.ts` (pure, no imports), used by both sides.
+
+| | Berakhot | Any other masechta (e.g. `peah`) |
+|---|---|---|
+| Mishnah (`kind = 'm'`, `Profile.mishnayos`) | `"1:2"` (unchanged, forever) | `"peah/1:2"` |
+| Perek (`kind = 'p'`, `Profile.perakim`) | `"1"` (unchanged, forever) | `"peah/1"` |
+| Event `masechta` (JSON and `events.masechta`) | absent / `NULL` | `"peah"` |
+
+- A masechta id matches `^[a-z][a-z0-9_]{1,31}$`. The Worker checks the **format only**, never a list of known ids, so
+  adding a masechta to the catalog needs no Worker change. Perek and mishnah numbers are 1–3 digits.
+- `"berakhot/1:2"` and `"berakhot/1"` are **non-canonical**: never written; `parseProgressKey` returns null for them,
+  the client's sync mapping skips them (with any other malformed key) before a push, and the Worker answers 400. The
+  client filter matters: one bad key fails the whole sync batch (`engine.ts`). Importing a backup or v1 data rewrites
+  a `berakhot/` key to the unqualified one (the unqualified value wins when both exist).
+- `shared/progressKey.ts` exports `LEGACY_MASECHTA_ID` (`"berakhot"`), `MASECHTA_ID_RE`, `isMasechtaId`,
+  `progressKey(masechta, perek, mishnah)`, `perekKey(masechta, perek)`, `parseProgressKey(kind, key)` →
+  `{ masechta, perek, mishnah | null } | null`, `keyBelongsTo(kind, key, masechta)` and `eventMasechta(event)`.
+- **Last opened masechta**: `ChildSettings.lastMasechta?` (validated with `isMasechtaId`). A learner sync merges it like
+  `fontScale` and `meaningView`; an absent value keeps the stored one. The parent upsert also keeps the stored value
+  when the pushed meta has none, so an older client that drops unknown settings can't wipe it. It is never named in
+  the parent change log (it is navigation state, not an edit).
+- **Events**: `ReciteEvent`, `CheckEvent`, `ResetEvent` and `SessionEvent` take an optional `masechta`. Migration
+  `0008_events_masechta.sql` adds `events.masechta TEXT` (`NULL` = Berakhot, no backfill). Parent stats group by
+  `coalesce(masechta, 'berakhot')`, and `StruggleRow.masechta` says which masechta a row is.
+- The backup file stays `AppState` version 1; its maps simply hold the new keys.
+- **Older cached clients** (the PWA before this change) keep working: they pull `"peah/…"` rows and store them in
+  `Profile.mishnayos` / `perakim` like any other row (`applyServerResponse` in `src/sync/store.ts` does not look at
+  the key's shape), never push them back (their own key regexes skip them, and an unchanged value is never diffed),
+  and their Berakhot screens read only the keys they build themselves. Two visible effects until they update: a count
+  over all of a child's mishnayos (the old parent screen's "known" count, the import prompt's summary) includes the other masechtos, and their
+  events carry no `masechta`, so they count as Berakhot, which is what they are.
+
+**`migrations/0008_events_masechta.sql`**
+
+```sql
+ALTER TABLE events ADD COLUMN masechta TEXT;
 ```
 
 ---
@@ -1789,8 +1831,8 @@ Then check:
 
 ## 14. Later work (not in the MVP)
 
-- Pull pagination for very large accounts. Per-masechta keys (`berakhot/1:2`) when a second masechta is added; the
-  current keys mean Berakhot.
+- Pull pagination for very large accounts. (Per-masechta keys are done, §8.1: Berakhot keeps the unqualified keys and
+  `berakhot/1:2` is never written, the reverse of what was first planned here.)
 - A parent PIN for the parent area. "Sign out of all devices" and a list of active sessions.
 - A weekly progress email to the parent. Due-review reminders.
 - A Content-Security-Policy header (allow-list Turnstile; fonts are self-hosted, so no Google Fonts entry is needed).

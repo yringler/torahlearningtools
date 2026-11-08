@@ -51,6 +51,29 @@ describe("normalizeProfile", () => {
     expect(s.pending.records["uuid-9-xxxx|p|2"]?.data).toEqual({ chainedThrough: 4, complete: false, chains: ["1-4", "5-6"] });
   });
 
+  it("keeps a valid lastMasechta and drops an invalid one", () => {
+    const ok = normalizeProfile({ id: "x1234567", name: "Z", settings: { fontScale: 1, lastMasechta: "peah" } } as unknown as Profile, 0);
+    expect(ok.settings).toEqual({ fontScale: 1, lastMasechta: "peah" });
+    const bad = normalizeProfile({ id: "x1234567", name: "Z", settings: { fontScale: 1, lastMasechta: "Peah/1" } } as unknown as Profile, 0);
+    expect(bad.settings).toEqual({ fontScale: 1 });
+  });
+
+  it("canonicalizes berakhot/ keys; the unqualified key wins when both exist; Peah keys are kept", () => {
+    const m = (stepIndex: number) => ({ stepIndex, state: "learning", fails: {} });
+    const pk = (chainedThrough: number) => ({ chainedThrough, complete: false });
+    const p = normalizeProfile({
+      id: "x1234567", name: "Z",
+      mishnayos: { "berakhot/1:2": m(1), "berakhot/1:3": m(2), "1:3": m(3), "peah/1:2": m(4) },
+      perakim: { "berakhot/1": pk(1), "berakhot/2": pk(2), "2": pk(3), "peah/1": pk(4) },
+    } as unknown as Profile, 0);
+    expect(p.mishnayos).toEqual({ "1:2": m(1), "1:3": m(3), "peah/1:2": m(4) });
+    expect(p.perakim).toEqual({ "1": pk(1), "2": pk(3), "peah/1": pk(4) });
+    const s = importLegacy(store(), [p], 1000, () => "uuid-7-xxxx");
+    expect(Object.keys(s.pending.records).sort()).toEqual([
+      "uuid-7-xxxx|m|1:2", "uuid-7-xxxx|m|1:3", "uuid-7-xxxx|m|peah/1:2", "uuid-7-xxxx|p|1", "uuid-7-xxxx|p|2", "uuid-7-xxxx|p|peah/1",
+    ]);
+  });
+
   it("drops progress entries that are not objects", () => {
     const m = { stepIndex: 1, state: "learning", fails: {} };
     const p = normalizeProfile({ id: "x1234567", name: "Z", mishnayos: { "1:1": null, "1:2": 5, "1:3": m }, perakim: { "1": null } } as unknown as Profile, 0);

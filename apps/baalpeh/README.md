@@ -157,8 +157,9 @@ brings it back. A rule that no longer matches the gloss stops the build. `tests/
 explicit words appear in the built data.
 
 To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline, generate gloss files, and add a line
-to `MASECHTOS` in `build_data.py`. Note that progress keys (`"perek:mishnah"`, locally and in D1) don't name a masechta
-yet, so the app currently learns the first masechta in the catalog. Learning more than one needs those keys extended.
+to `MASECHTOS` in `build_data.py`. Progress keys name the masechta (`shared/progressKey.ts`): Berakhot keeps the
+original `"1:2"` / `"1"`, every other masechta writes `"<id>/1:2"` / `"<id>/1"` (docs/SERVER_PLAN.md §8.1). A new id
+needs no server change; the Worker checks the id's format only.
 
 ## Develop
 
