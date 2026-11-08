@@ -1,0 +1,3592 @@
+[
+ {
+  "perek": 7,
+  "mishnah": 1,
+  "summary": "A man must have a clear mind when he tells people to write a get. If he cannot speak, they test him with questions to see that he understands.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁאֲחָזוֹ קֻרְדְּיָקוֹס,",
+    "en": "Someone who was struck by a sickness that confuses the mind,",
+    "st": "In the case of <b>one who was afflicted with</b> temporary <b>insanity [kordeyakos]</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁאֲחָזוֹ",
+      "en": "who was seized by"
+     },
+     {
+      "he": "קֻרְדְּיָקוֹס,",
+      "en": "kurdeyakos",
+      "note": "A sickness that makes a person confused for a while."
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר, כִּתְבוּ גֵט לְאִשְׁתִּי,",
+    "en": "and said, \"Write a get for my wife,\"",
+    "st": "<b>and said: Write a bill of divorce for my wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר,",
+      "en": "and said"
+     },
+     {
+      "he": "כִּתְבוּ",
+      "en": "write"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "לְאִשְׁתִּי,",
+      "en": "for my wife"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם.",
+    "en": "did not say anything.",
+    "st": "<b>he said nothing,</b>",
+    "stMore": "because he was not lucid at the time.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר, כִּתְבוּ גֵט לְאִשְׁתִּי,",
+    "en": "If he said, \"Write a get for my wife,\"",
+    "st": "If <b>he said: Write a bill of divorce for my wife,</b> when he was lucid,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר,",
+      "en": "he said"
+     },
+     {
+      "he": "כִּתְבוּ",
+      "en": "write"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "לְאִשְׁתִּי,",
+      "en": "for my wife"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחָזוֹ קֻרְדְּיָקוֹס,",
+    "en": "and then the confusing sickness struck him,",
+    "st": "<b>and was</b> then <b>afflicted with</b> temporary <b>insanity</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחָזוֹ",
+      "en": "and seized him"
+     },
+     {
+      "he": "קֻרְדְּיָקוֹס,",
+      "en": "kurdeyakos"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזַר וְאָמַר,",
+    "en": "and he changed his mind and said,",
+    "st": "<b>and he retracted</b> his previous statement <b>and said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזַר",
+      "en": "and he went back"
+     },
+     {
+      "he": "וְאָמַר,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "אַל תִּכְתֹּבוּ,",
+    "en": "\"Do not write,\"",
+    "st": "<b>Do not write it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַל",
+      "en": "do not"
+     },
+     {
+      "he": "תִּכְתֹּבוּ,",
+      "en": "write"
+     }
+    ]
+   },
+   {
+    "he": "אֵין דְּבָרָיו הָאַחֲרוֹנִים כְּלוּם.",
+    "en": "his last words do not count at all.",
+    "st": "<b>his latter statement</b> is considered to be <b>nothing,</b> i.e., it is not halakhically valid.",
+    "stMore": "The mishna continues:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "are not"
+     },
+     {
+      "he": "דְּבָרָיו",
+      "en": "his words"
+     },
+     {
+      "he": "הָאַחֲרוֹנִים",
+      "en": "the last"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁתַּתֵּק, וְאָמְרוּ לוֹ נִכְתֹּב גֵּט לְאִשְׁתֶּךָ,",
+    "en": "If he could not speak, and they said to him, \"Shall we write a get for your wife?\"",
+    "st": "In a case where the husband <b>became mute, and</b> two people <b>said to him:</b> Shall <b>we write a bill of divorce for your wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁתַּתֵּק,",
+      "en": "he became mute"
+     },
+     {
+      "he": "וְאָמְרוּ",
+      "en": "and they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "נִכְתֹּב",
+      "en": "shall we write"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "לְאִשְׁתֶּךָ,",
+      "en": "for your wife"
+     }
+    ]
+   },
+   {
+    "he": "וְהִרְכִּין בְּרֹאשׁוֹ,",
+    "en": "and he nodded his head,",
+    "st": "<b>and he nodded his head</b> indicating his agreement,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִרְכִּין",
+      "en": "and he nodded"
+     },
+     {
+      "he": "בְּרֹאשׁוֹ,",
+      "en": "with his head"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹדְקִין אוֹתוֹ שְׁלֹשָׁה פְעָמִים,",
+    "en": "they test him three times.",
+    "st": "<b>they examine him</b> with various questions <b>three times.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹדְקִין",
+      "en": "we test"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "פְעָמִים,",
+      "en": "times"
+     }
+    ]
+   },
+   {
+    "he": "אִם אָמַר עַל לָאו",
+    "en": "If to a \"no\" question he answered",
+    "st": "<b>If he responded to</b> questions that have <b>a negative</b> answer:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "לָאו",
+      "en": "no"
+     }
+    ]
+   },
+   {
+    "he": "לָאו וְעַל הֵן הֵן,",
+    "en": "\"no,\" and to a \"yes\" question \"yes,\"",
+    "st": "<b>No, and</b> responded <b>to</b> questions that have <b>a positive</b> answer: <b>Yes,</b> indicating his competence,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָאו",
+      "en": "no"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and to"
+     },
+     {
+      "he": "הֵן",
+      "en": "yes"
+     },
+     {
+      "he": "הֵן,",
+      "en": "yes"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ יִכְתְּבוּ וְיִתֵּנוּ:",
+    "en": "they should write it and give it.",
+    "st": "<b>they shall write</b> the bill of divorce <b>and give</b> it to his wife based on the nod of his head.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "יִכְתְּבוּ",
+      "en": "should write"
+     },
+     {
+      "he": "וְיִתֵּנוּ:",
+      "en": "and should give"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 2,
+  "summary": "For a get, the husband himself must tell the scribe to write and the witnesses to sign. It is not enough for others to tell them.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "If they said to him,",
+    "st": "If people <b>said to</b> the husband:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "נִכְתֹּב גֵּט לְאִשְׁתֶּךָ,",
+    "en": "\"Shall we write a get for your wife?\"",
+    "st": "<b>Shall we write a bill of divorce for your wife?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְתֹּב",
+      "en": "shall we write"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "לְאִשְׁתֶּךָ,",
+      "en": "for your wife"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר לָהֶם כְּתֹבוּ,",
+    "en": "and he said to them, \"Write,\"",
+    "st": "<b>And he said to them: Write</b> the document,",
+    "stMore": "and those people",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "כְּתֹבוּ,",
+      "en": "write"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לַסּוֹפֵר וְכָתַב,",
+    "en": "and they told the scribe and he wrote,",
+    "st": "<b>told the scribe</b> to write it, <b>and he wrote</b> it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they told"
+     },
+     {
+      "he": "לַסּוֹפֵר",
+      "en": "the scribe"
+     },
+     {
+      "he": "וְכָתַב,",
+      "en": "and he wrote"
+     }
+    ]
+   },
+   {
+    "he": "וְלָעֵדִים וְחָתְמוּ,",
+    "en": "and the witnesses, and they signed,",
+    "st": "<b>and</b> instructed <b>the witnesses</b> to sign it, <b>and they signed</b> it;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָעֵדִים",
+      "en": "and the witnesses"
+     },
+     {
+      "he": "וְחָתְמוּ,",
+      "en": "and they signed"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁכְּתָבוּהוּ וַחֲתָמוּהוּ",
+    "en": "even though they wrote it and signed it,",
+    "st": "<b>even if they wrote it, and signed it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁכְּתָבוּהוּ",
+      "en": "they wrote it"
+     },
+     {
+      "he": "וַחֲתָמוּהוּ",
+      "en": "and signed it"
+     }
+    ]
+   },
+   {
+    "he": "וּנְתָנוּהוּ לוֹ וְחָזַר וּנְתָנוֹ לָהּ,",
+    "en": "and gave it to him and he then gave it to her,",
+    "st": "<b>and gave it to him, and he then gave it to</b> his wife,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּנְתָנוּהוּ",
+      "en": "and they gave it"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "וְחָזַר",
+      "en": "and then"
+     },
+     {
+      "he": "וּנְתָנוֹ",
+      "en": "he gave it"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הַגֵּט בָּטֵל,",
+    "en": "the get is cancelled,",
+    "st": "<b>the bill of divorce is void</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "הַגֵּט",
+      "en": "the get"
+     },
+     {
+      "he": "בָּטֵל,",
+      "en": "is cancelled"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיֹּאמַר לַסּוֹפֵר כְּתֹב וְלָעֵדִים חֲתֹמוּ:",
+    "en": "until he himself says to the scribe \"Write,\" and to the witnesses \"Sign.\"",
+    "st": "<b>unless he</b> himself <b>says to the scribe: Write</b> the document, <b>and</b> he himself says <b>to the witnesses: Sign</b> the document.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֹּאמַר",
+      "en": "that he says"
+     },
+     {
+      "he": "לַסּוֹפֵר",
+      "en": "to the scribe"
+     },
+     {
+      "he": "כְּתֹב",
+      "en": "write"
+     },
+     {
+      "he": "וְלָעֵדִים",
+      "en": "and to the witnesses"
+     },
+     {
+      "he": "חֲתֹמוּ:",
+      "en": "sign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 3,
+  "summary": "A get cannot start working after the husband dies. So the exact words he says, like \"from today,\" decide whether the get counts.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "זֶה גִטֵּךְ אִם מַתִּי,",
+    "en": "\"This is your get if I die,\"",
+    "st": "If one says to his wife: <b>This is your bill of divorce if I die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מַתִּי,",
+      "en": "I die"
+     }
+    ]
+   },
+   {
+    "he": "זֶה גִטֵּךְ אִם מַתִּי מֵחֹלִי זֶה,",
+    "en": "\"This is your get if I die from this sickness,\"",
+    "st": "or: <b>This is your bill of divorce</b> if I die <b>from this illness,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מַתִּי",
+      "en": "I die"
+     },
+     {
+      "he": "מֵחֹלִי",
+      "en": "from sickness"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "זֶה גִטֵּךְ לְאַחַר מִיתָה,",
+    "en": "\"This is your get after death,\"",
+    "st": "or: <b>This is your bill of divorce after</b> my <b>death,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מִיתָה,",
+      "en": "death"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם.",
+    "en": "he did not say anything.",
+    "st": "then it is as if <b>he said nothing,</b>",
+    "stMore": "since a bill of divorce is valid only if it takes effect before the husband’s death.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "מֵהַיּוֹם אִם מַתִּי,",
+    "en": "\"From today, if I die,\"",
+    "st": "But if the husband said to his wife: This is your bill of divorce <b>from today if I die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵהַיּוֹם",
+      "en": "from today"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מַתִּי,",
+      "en": "I die"
+     }
+    ]
+   },
+   {
+    "he": "מֵעַכְשָׁיו אִם מַתִּי,",
+    "en": "\"From now, if I die,\"",
+    "st": "or: This is your bill of divorce <b>from now if I die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵעַכְשָׁיו",
+      "en": "from now"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מַתִּי,",
+      "en": "I die"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גֵט.",
+    "en": "it is a get.",
+    "st": "then <b>this is</b> a valid <b>bill of divorce,</b>",
+    "stMore": "because once he dies, the bill of divorce retroactively applies from when he made this statement.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט.",
+      "en": "is a get"
+     }
+    ]
+   },
+   {
+    "he": "מֵהַיּוֹם וּלְאַחַר מִיתָה,",
+    "en": "\"From today and after death,\"",
+    "st": "If the husband says to his wife: This is your bill of divorce <b>from today and after</b> my <b>death,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵהַיּוֹם",
+      "en": "from today"
+     },
+     {
+      "he": "וּלְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "מִיתָה,",
+      "en": "death"
+     }
+    ]
+   },
+   {
+    "he": "גֵּט וְאֵינוֹ גֵט.",
+    "en": "it is a get and not a get.",
+    "explain": "We do not know which he meant.",
+    "st": "then it is uncertain whether his primary intention was for the bill of divorce to take effect that day, in which case it is a valid bill of divorce, or if his primary intention was that it should take effect after his death and is therefore not valid. The halakha is that there is uncertainty whether it is a valid <b>bill of divorce or not</b> a valid <b>bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it is not"
+     },
+     {
+      "he": "גֵט.",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "אִם מֵת,",
+    "en": "If he dies,",
+    "st": "<b>And if he dies</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "חוֹלֶצֶת וְלֹא מִתְיַבֶּמֶת.",
+    "en": "she does chalitzah and not yibum.",
+    "explain": "If he had no children, his brother must free her with chalitzah.",
+    "st": "without children his wife must <b>perform ḥalitza,</b>",
+    "stMore": "since perhaps the bill of divorce is not valid and she is bound by the levirate bond and may not remarry without first performing ḥalitza.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוֹלֶצֶת",
+      "en": "she does chalitzah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִתְיַבֶּמֶת.",
+      "en": "yibum"
+     }
+    ]
+   },
+   {
+    "he": "זֶה גִטֵּךְ מֵהַיּוֹם אִם",
+    "en": "\"This is your get from today if",
+    "st": "<b>But she may not enter into levirate marriage,</b> since perhaps the bill of divorce is valid, and it is prohibited for a divorcée to marry her brother-in-law. If he said: <b>This is your bill of divorce from today if</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "מֵהַיּוֹם",
+      "en": "from today"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     }
+    ]
+   },
+   {
+    "he": "מַתִּי מֵחֹלִי זֶה,",
+    "en": "I die from this sickness,\"",
+    "st": "<b>I die from this illness,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַתִּי",
+      "en": "I die"
+     },
+     {
+      "he": "מֵחֹלִי",
+      "en": "from sickness"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "וְעָמַד וְהִלֵךְ בַּשּׁוּק וְחָלָה וּמֵת,",
+    "en": "and he got up and walked in the market, then got sick and died,",
+    "st": "and he recovered, <b>and he arose and walked in the market, but</b> then <b>became ill</b> again <b>and died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָמַד",
+      "en": "and he stood up"
+     },
+     {
+      "he": "וְהִלֵךְ",
+      "en": "and walked"
+     },
+     {
+      "he": "בַּשּׁוּק",
+      "en": "in the market"
+     },
+     {
+      "he": "וְחָלָה",
+      "en": "and got sick"
+     },
+     {
+      "he": "וּמֵת,",
+      "en": "and died"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמְדִין אוֹתוֹ,",
+    "en": "we judge him.",
+    "st": "the court <b>assesses him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמְדִין",
+      "en": "we judge"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "אִם מֵחֲמַת חֹלִי הָרִאשׁוֹן מֵת,",
+    "en": "If he died because of the first sickness,",
+    "st": "<b>If he died because of the first illness</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מֵחֲמַת",
+      "en": "because of"
+     },
+     {
+      "he": "חֹלִי",
+      "en": "sickness"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גֵט.",
+    "en": "it is a get.",
+    "st": "then <b>this is</b> a valid <b>bill of divorce,</b>",
+    "stMore": "as his conditional statement was fulfilled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט.",
+      "en": "is a get"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "And if not,",
+    "st": "<b>but if not,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גֵט:",
+    "en": "it is not a get.",
+    "st": "i.e., if he was cured from the first illness and died from another illness, then <b>it is not</b> a valid <b>bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "גֵט:",
+      "en": "a get"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 4,
+  "summary": "While a sick husband's get is waiting to take effect, his wife may not be alone with him. The Rabbis argue whether she counts as married or divorced in those days.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "לֹא תִתְיַחֵד עִמּוֹ אֶלָּא בִפְנֵי עֵדִים,",
+    "en": "She may not be alone with him unless witnesses are there,",
+    "st": "If a woman’s ill husband gave her a bill of divorce, and made a condition that it should take effect from today if he dies from his illness, then <b>she may be secluded with him only in the presence of two witnesses,</b>",
+    "stMore": "lest they end up engaging in sexual intercourse. This applies to being secluded in the presence of not only valid witnesses; it is permitted for her to be secluded with him",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "she may not"
+     },
+     {
+      "he": "תִתְיַחֵד",
+      "en": "be alone"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בִפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ עֶבֶד,",
+    "en": "even a slave,",
+    "st": "<b>even in the presence of a slave</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "עֶבֶד,",
+      "en": "a slave"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ שִׁפְחָה,",
+    "en": "even a maidservant,",
+    "st": "or <b>even in the presence of a maidservant,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "שִׁפְחָה,",
+      "en": "a maidservant"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִשִּׁפְחָתָהּ,",
+    "en": "except her own maidservant,",
+    "st": "<b>except for</b> the wife’s personal <b>maidservant.</b>",
+    "stMore": "And it is prohibited for the wife to be secluded in the presence of the latter",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִשִּׁפְחָתָהּ,",
+      "en": "her own maidservant"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁלִּבָּהּ גַּס בָּהּ בְּשִׁפְחָתָהּ.",
+    "en": "because she is very used to her own maidservant.",
+    "st": "<b>because she is accustomed to her maidservant,</b>",
+    "stMore": "and there is concern that she will engage in sexual intercourse with her husband even though the maidservant is present.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁלִּבָּהּ",
+      "en": "that her heart"
+     },
+     {
+      "he": "גַּס",
+      "en": "is used"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "to her"
+     },
+     {
+      "he": "בְּשִׁפְחָתָהּ.",
+      "en": "with her maidservant"
+     }
+    ]
+   },
+   {
+    "he": "מַה הִיא בְאוֹתָן הַיָּמִים.",
+    "en": "What is she during those days?",
+    "st": "<b>What is</b> the halakhic status of the wife <b>during these days</b>",
+    "stMore": "between when the bill of divorce was given but before the condition has been fulfilled with the death of the husband?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הִיא",
+      "en": "is she"
+     },
+     {
+      "he": "בְאוֹתָן",
+      "en": "in those"
+     },
+     {
+      "he": "הַיָּמִים.",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כְּאֵשֶׁת אִישׁ לְכָל דְּבָרֶיהָ.",
+    "en": "she is like a married woman in every way.",
+    "st": "She is <b>like a married woman with regard to all of her matters,</b>",
+    "stMore": "and she remains forbidden to other men.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאֵשֶׁת",
+      "en": "like a wife of"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "לְכָל",
+      "en": "for all"
+     },
+     {
+      "he": "דְּבָרֶיהָ.",
+      "en": "her matters"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says,",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְגֹרֶשֶׁת וְאֵינָהּ מְגֹרָשֶׁת:",
+    "en": "she is divorced and not divorced.",
+    "st": "It is uncertain whether <b>she is divorced or</b> whether <b>she is not divorced.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגֹרֶשֶׁת",
+      "en": "divorced"
+     },
+     {
+      "he": "וְאֵינָהּ",
+      "en": "and she is not"
+     },
+     {
+      "he": "מְגֹרָשֶׁת:",
+      "en": "divorced"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 5,
+  "summary": "A husband may give a get on condition that his wife pays him something. If she lost the coat he asked for, she may pay its value instead.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ עַל מְנָת",
+    "en": "\"This is your get on condition",
+    "st": "If a husband says to his wife: <b>This is your bill of divorce on the condition</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁתִּתְּנִי לִי מָאתַיִם זוּז,",
+    "en": "that you give me two hundred zuz,\"",
+    "st": "<b>that you will give me two hundred dinars,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁתִּתְּנִי",
+      "en": "that you give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "מָאתַיִם",
+      "en": "two hundred"
+     },
+     {
+      "he": "זוּז,",
+      "en": "zuz",
+      "note": "A zuz is a silver coin."
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ מְגֹרֶשֶׁת,",
+    "en": "she is divorced,",
+    "st": "then <b>she is divorced</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זוֹ",
+      "en": "she"
+     },
+     {
+      "he": "מְגֹרֶשֶׁת,",
+      "en": "is divorced"
+     }
+    ]
+   },
+   {
+    "he": "וְתִתֵּן. עַל מְנָת שֶׁתִּתְּנִי לִי",
+    "en": "and she must give it. \"On condition that you give me",
+    "st": "<b>and must give</b> two hundred dinars in order to fulfill the condition of the bill of divorce. If a husband says to his wife: This is your bill of divorce <b>on the condition that you will give me</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְתִתֵּן.",
+      "en": "and she must give"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "שֶׁתִּתְּנִי",
+      "en": "that you give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "מִכָּאן וְעַד שְׁלֹשִׁים יוֹם,",
+    "en": "from now until thirty days,\"",
+    "st": "money <b>from now until</b> the conclusion of <b>thirty days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "אִם נָתְנָה לוֹ בְתוֹךְ שְׁלֹשִׁים יוֹם,",
+    "en": "if she gave it to him within thirty days,",
+    "st": "<b>if she gives</b> the money <b>to him within thirty days</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָתְנָה",
+      "en": "she gave"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בְתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "מְגֹרֶשֶׁת, וְאִם לָאו,",
+    "en": "she is divorced. And if not,",
+    "st": "<b>she is divorced. And if not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגֹרֶשֶׁת,",
+      "en": "divorced"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָה מְגֹרֶשֶׁת.",
+    "en": "she is not divorced.",
+    "st": "<b>she is not divorced.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָה",
+      "en": "she is not"
+     },
+     {
+      "he": "מְגֹרֶשֶׁת.",
+      "en": "divorced"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל,",
+    "en": "Rabban Shimon ben Gamliel said,",
+    "st": "<b>Rabban Shimon ben Gamliel said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה בְצַיְדָּן בְּאֶחָד שֶׁאָמַר לְאִשְׁתּוֹ,",
+    "en": "once in Tzaidan, a man said to his wife,",
+    "st": "There was <b>an incident in</b> the city of <b>Tzaidan involving one who said to his wife:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בְצַיְדָּן",
+      "en": "in Tzaidan"
+     },
+     {
+      "he": "בְּאֶחָד",
+      "en": "with one man"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "who said"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ,",
+      "en": "to his wife"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ עַל",
+    "en": "\"This is your get on",
+    "st": "<b>This is your bill of divorce on</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "מְנָת שֶׁתִּתְּנִי לִי אִצְטְלִיתִי,",
+    "en": "condition that you give me my coat,\"",
+    "st": "<b>the condition that you will give me my coat [itztaliti],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "שֶׁתִּתְּנִי",
+      "en": "that you give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "אִצְטְלִיתִי,",
+      "en": "my coat"
+     }
+    ]
+   },
+   {
+    "he": "וְאָבְדָה אִצְטְלִיתוֹ,",
+    "en": "and his coat got lost,",
+    "st": "<b>and she lost his coat,</b>",
+    "stMore": "so that she could not give it to him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָבְדָה",
+      "en": "and was lost"
+     },
+     {
+      "he": "אִצְטְלִיתוֹ,",
+      "en": "his coat"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמְרוּ חֲכָמִים,",
+    "en": "and the Sages said,",
+    "st": "<b>And the Rabbis said</b> that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמְרוּ",
+      "en": "and said"
+     },
+     {
+      "he": "חֲכָמִים,",
+      "en": "the Sages"
+     }
+    ]
+   },
+   {
+    "he": "תִּתֵּן לוֹ אֶת דָּמֶיהָ:",
+    "en": "she should give him its value.",
+    "st": "<b>she must give him the value</b> of the coat, and by doing so she fulfills the condition and is divorced.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּתֵּן",
+      "en": "she should give"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "דָּמֶיהָ:",
+      "en": "its value"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 6,
+  "summary": "A get may be given on condition that the wife helps his father or feeds his baby. If the condition cannot be kept and it is not her fault, Rabban Shimon ben Gamliel says the get still counts.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ עַל",
+    "en": "\"This is your get on",
+    "st": "If a husband says to his wife: <b>This is your bill of divorce on</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "מְנָת שֶׁתְּשַׁמְּשִׁי אֶת אַבָּא,",
+    "en": "condition that you serve my father,\"",
+    "st": "<b>the condition that you will serve</b> my <b>father,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "שֶׁתְּשַׁמְּשִׁי",
+      "en": "that you serve"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אַבָּא,",
+      "en": "my father"
+     }
+    ]
+   },
+   {
+    "he": "עַל מְנָת שֶׁתֵּנִיקִי אֶת בְּנִי,",
+    "en": "or \"on condition that you nurse my son,\"",
+    "st": "or: <b>On the condition that you will nurse,</b> i.e., breastfeed, <b>my son,</b>",
+    "stMore": "without specifying a time period,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "שֶׁתֵּנִיקִי",
+      "en": "that you nurse"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּנִי,",
+      "en": "my son"
+     }
+    ]
+   },
+   {
+    "he": "כַּמָּה הִיא מֵנִיקָתוֹ,",
+    "en": "how long must she nurse him?",
+    "st": "<b>how long</b> is <b>she</b> required <b>to nurse him</b>",
+    "stMore": "in order to fulfill the condition?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "מֵנִיקָתוֹ,",
+      "en": "nurses him"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי שָׁנִים.",
+    "en": "Two years.",
+    "st": "She is required to nurse the baby for <b>two years</b>",
+    "stMore": "from his birth, which is the length of time generally designated for nursing.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "שָׁנִים.",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁמֹנָה עָשָׂר חֹדֶשׁ.",
+    "en": "eighteen months.",
+    "st": "The time for nursing is only <b>eighteen months.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁמֹנָה",
+      "en": "eight"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ.",
+      "en": "months"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַבֵּן אוֹ שֶׁמֵּת הָאָב,",
+    "en": "If the son died or the father died,",
+    "st": "If <b>the</b> baby <b>son died or the</b> husband’s <b>father died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַבֵּן",
+      "en": "the son"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גֵט.",
+    "en": "it is a get.",
+    "st": "<b>this is</b> a valid <b>bill of divorce,</b>",
+    "stMore": "even though the condition was not fulfilled.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט.",
+      "en": "is a get"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ עַל מְנָת",
+    "en": "\"This is your get on condition",
+    "st": "But if the husband said to his wife: <b>This is your bill of divorce on the condition</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁתְּשַׁמְּשִׁי אֶת אַבָּא שְׁתֵּי שָׁנִים,",
+    "en": "that you serve my father for two years,\"",
+    "st": "<b>that you will serve</b> my <b>father</b> for <b>two years,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁתְּשַׁמְּשִׁי",
+      "en": "that you serve"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אַבָּא",
+      "en": "my father"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "שָׁנִים,",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "עַל מְנָת שֶׁתֵּנִיקִי אֶת",
+    "en": "or \"on condition that you nurse",
+    "st": "or: <b>On the condition that you will nurse</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "שֶׁתֵּנִיקִי",
+      "en": "that you nurse"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "בְּנִי שְׁתֵּי שָׁנִים,",
+    "en": "my son for two years,\"",
+    "st": "<b>my son</b> for <b>two years,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּנִי",
+      "en": "my son"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "שָׁנִים,",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַבֵּן אוֹ שֶׁמֵּת הָאָב אוֹ",
+    "en": "if the son died, or the father died, or",
+    "st": "and <b>the son died</b> before she nursed him for two years, <b>or</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַבֵּן",
+      "en": "the son"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאָמַר הָאָב אִי אֶפְשִׁי שֶׁתְּשַׁמְּשֵׁנִי,",
+    "en": "the father said, \"I do not want you to serve me,\"",
+    "st": "<b>the father said: I do not want you to serve me,</b>",
+    "stMore": "then even if the father",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאָמַר",
+      "en": "that said"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "אִי",
+      "en": "not"
+     },
+     {
+      "he": "אֶפְשִׁי",
+      "en": "I want"
+     },
+     {
+      "he": "שֶׁתְּשַׁמְּשֵׁנִי,",
+      "en": "that you serve me"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא בְהַקְפָּדָה,",
+    "en": "even if he was not angry,",
+    "st": "<b>did not</b> say this <b>in anger</b>",
+    "stMore": "and she did everything she was expected to do,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בְהַקְפָּדָה,",
+      "en": "in anger"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גֵט.",
+    "en": "it is not a get.",
+    "st": "it <b>is not</b> a valid <b>bill of divorce</b>",
+    "stMore": "because the condition was not fulfilled.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "גֵט.",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּזֶה גֵט.",
+    "en": "a case like this is a get.",
+    "st": "In a case <b>like this</b> it is a valid <b>bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּזֶה",
+      "en": "like this"
+     },
+     {
+      "he": "גֵט.",
+      "en": "is a get"
+     }
+    ]
+   },
+   {
+    "he": "כְּלָל אָמַר רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל,",
+    "en": "Rabban Shimon ben Gamliel said a rule:",
+    "st": "<b>Rabban Shimon ben Gamliel stated a principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּלָל",
+      "en": "a rule"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "כָּל עַכָּבָה שֶׁאֵינָהּ הֵימֶנָּה,",
+    "en": "anything that stops her that is not her fault,",
+    "st": "If there is <b>any hindrance</b> to the fulfillment of the condition <b>that does not</b> result <b>from her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "עַכָּבָה",
+      "en": "holding back"
+     },
+     {
+      "he": "שֶׁאֵינָהּ",
+      "en": "that is not"
+     },
+     {
+      "he": "הֵימֶנָּה,",
+      "en": "from her"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גֵט:",
+    "en": "it is a get.",
+    "st": "then <b>it is</b> a valid <b>bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט:",
+      "en": "is a get"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 7,
+  "summary": "If a man says the get works if he does not come back in thirty days, and he comes back in time, the condition is over. If he said \"thirty days away from you,\" coming and going does not stop it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ אִם לֹא",
+    "en": "\"This is your get if I do not",
+    "st": "If a resident of the region of Judea intending to embark on a journey to the Galilee said to his wife: <b>This is your bill of divorce if I do not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "בָאתִי מִכָּאן וְעַד שְׁלֹשִׁים יוֹם,",
+    "en": "come back from now until thirty days,\"",
+    "st": "<b>come</b> back <b>from now until</b> the conclusion of <b>thirty days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָאתִי",
+      "en": "I come"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה הוֹלֵךְ מִיהוּדָה לַגָּלִיל,",
+    "en": "and he was going from Yehudah to the Galil,",
+    "st": "<b>and</b> when <b>he was going from Judea to the Galilee</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and he was"
+     },
+     {
+      "he": "הוֹלֵךְ",
+      "en": "going"
+     },
+     {
+      "he": "מִיהוּדָה",
+      "en": "from Yehudah"
+     },
+     {
+      "he": "לַגָּלִיל,",
+      "en": "to the Galil"
+     }
+    ]
+   },
+   {
+    "he": "הִגִּיעַ לְאַנְטִיפַּטְרֶס וְחָזַר,",
+    "en": "and he reached Antipatris and came back,",
+    "st": "he <b>reached Antipatris and he returned</b> immediately,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִגִּיעַ",
+      "en": "he reached"
+     },
+     {
+      "he": "לְאַנְטִיפַּטְרֶס",
+      "en": "Antipatris",
+      "note": "A town on the way from Yehudah to the Galil."
+     },
+     {
+      "he": "וְחָזַר,",
+      "en": "and came back"
+     }
+    ]
+   },
+   {
+    "he": "בָּטֵל תְּנָאוֹ.",
+    "en": "his condition is cancelled.",
+    "st": "<b>his condition is void</b>",
+    "stMore": "and his wife is not divorced, even if he subsequently returns to the Galilee for longer than thirty days. The reason for this is because he reached the Galilee and returned to Judea within the time he had allotted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּטֵל",
+      "en": "is cancelled"
+     },
+     {
+      "he": "תְּנָאוֹ.",
+      "en": "his condition"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ אִם לֹא",
+    "en": "\"This is your get if I do not",
+    "st": "Similarly, if a resident of the region of the Galilee intending to embark on a journey to Judea said to his wife: <b>This is your bill of divorce if I do not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "בָאתִי מִכָּאן עַד שְׁלֹשִׁים יוֹם,",
+    "en": "come back from now until thirty days,\"",
+    "st": "<b>come</b> back <b>from now until</b> the conclusion of <b>thirty days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָאתִי",
+      "en": "I come"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה הוֹלֵךְ מִגָּלִיל לִיהוּדָה,",
+    "en": "and he was going from the Galil to Yehudah,",
+    "st": "<b>and he was going from the Galilee to Judea,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and he was"
+     },
+     {
+      "he": "הוֹלֵךְ",
+      "en": "going"
+     },
+     {
+      "he": "מִגָּלִיל",
+      "en": "from the Galil"
+     },
+     {
+      "he": "לִיהוּדָה,",
+      "en": "to Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "וְהִגִּיעַ לִכְפַר עוֹתְנַאי וְחָזַר,",
+    "en": "and he reached Kefar Otnai and came back,",
+    "st": "<b>and he reached Kefar Otnai and returned</b> immediately,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִגִּיעַ",
+      "en": "and he reached"
+     },
+     {
+      "he": "לִכְפַר",
+      "en": "to the village of"
+     },
+     {
+      "he": "עוֹתְנַאי",
+      "en": "Otnai"
+     },
+     {
+      "he": "וְחָזַר,",
+      "en": "and came back"
+     }
+    ]
+   },
+   {
+    "he": "בָּטֵל תְּנָאוֹ.",
+    "en": "his condition is cancelled.",
+    "st": "<b>his condition is void</b>",
+    "stMore": "and his wife is not divorced, even if he subsequently returns to Judea for longer than thirty days.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּטֵל",
+      "en": "is cancelled"
+     },
+     {
+      "he": "תְּנָאוֹ.",
+      "en": "his condition"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ אִם לֹא",
+    "en": "\"This is your get if I do not",
+    "st": "Similarly, if a resident of Eretz Yisrael intending to embark on a journey to a country overseas said to his wife: <b>This is your bill of divorce if I do not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "בָאתִי מִכָּאן עַד שְׁלֹשִׁים יוֹם,",
+    "en": "come back from now until thirty days,\"",
+    "st": "<b>come</b> back <b>from now until</b> the conclusion of <b>thirty days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָאתִי",
+      "en": "I come"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה הוֹלֵךְ לִמְדִינַת הַיָּם",
+    "en": "and he was going overseas,",
+    "st": "<b>and he was going to a country overseas,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and he was"
+     },
+     {
+      "he": "הוֹלֵךְ",
+      "en": "going"
+     },
+     {
+      "he": "לִמְדִינַת",
+      "en": "to the land of"
+     },
+     {
+      "he": "הַיָּם",
+      "en": "the sea"
+     }
+    ]
+   },
+   {
+    "he": "וְהִגִּיעַ לְעַכּוֹ וְחָזַר,",
+    "en": "and he reached Akko and came back,",
+    "st": "<b>and he reached Akko and returned</b> immediately,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִגִּיעַ",
+      "en": "and he reached"
+     },
+     {
+      "he": "לְעַכּוֹ",
+      "en": "to Akko"
+     },
+     {
+      "he": "וְחָזַר,",
+      "en": "and came back"
+     }
+    ]
+   },
+   {
+    "he": "בָּטֵל תְּנָאוֹ.",
+    "en": "his condition is cancelled.",
+    "st": "<b>his condition is void</b>",
+    "stMore": "and his wife is not divorced, even if he subsequently travels to a country overseas for longer than thirty days.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּטֵל",
+      "en": "is cancelled"
+     },
+     {
+      "he": "תְּנָאוֹ.",
+      "en": "his condition"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ כָּל זְמַן",
+    "en": "\"This is your get whenever",
+    "st": "If a husband said to his wife: <b>This is your bill of divorce</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֶעֱבֹר מִכְּנֶגֶד פָּנַיִךְ שְׁלֹשִׁים יוֹם,",
+    "en": "I am away from you for thirty days,\"",
+    "st": "if at <b>any time I will depart from your presence</b> for <b>thirty</b> consecutive <b>days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֶעֱבֹר",
+      "en": "that I pass"
+     },
+     {
+      "he": "מִכְּנֶגֶד",
+      "en": "from in front of"
+     },
+     {
+      "he": "פָּנַיִךְ",
+      "en": "your face"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה הוֹלֵךְ וּבָא,",
+    "en": "even if he was going and coming,",
+    "st": "then even if <b>he was</b> continually <b>going and coming,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "הוֹלֵךְ",
+      "en": "going"
+     },
+     {
+      "he": "וּבָא,",
+      "en": "and coming"
+     }
+    ]
+   },
+   {
+    "he": "הוֹלֵךְ וּבָא,",
+    "en": "going and coming,",
+    "st": "<b>going and coming,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹלֵךְ",
+      "en": "going"
+     },
+     {
+      "he": "וּבָא,",
+      "en": "and coming"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וְלֹא נִתְיַחֵד עִמָּהּ,",
+    "en": "since he was not alone with her,",
+    "st": "<b>since he was not secluded with her during these thirty days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "not"
+     },
+     {
+      "he": "נִתְיַחֵד",
+      "en": "he was alone"
+     },
+     {
+      "he": "עִמָּהּ,",
+      "en": "with her"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גֵט:",
+    "en": "it is a get.",
+    "st": "<b>this is</b> a valid <b>bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט:",
+      "en": "is a get"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 8,
+  "summary": "A get cannot work after the husband dies. But if he said \"from now,\" it starts at once when the condition comes true.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ אִם לֹא בָאתִי",
+    "en": "\"This is your get if I do not come",
+    "st": "If a husband says to his wife: <b>This is your bill of divorce if I do not come</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בָאתִי",
+      "en": "I come"
+     }
+    ]
+   },
+   {
+    "he": "מִכָּאן וְעַד שְׁנֵים עָשָׂר חֹדֶשׁ,",
+    "en": "back from now until twelve months,\"",
+    "st": "back <b>from now until</b> the conclusion of <b>twelve months,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת בְּתוֹךְ שְׁנֵים עָשָׂר חֹדֶשׁ,",
+    "en": "and he died within twelve months,",
+    "st": "<b>and he died within twelve months,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת",
+      "en": "and he died"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גֵט.",
+    "en": "it is not a get.",
+    "st": "<b>it is not</b> a valid <b>bill of divorce.</b>",
+    "stMore": "This is because the bill of divorce cannot take effect after the husband’s death. As a result, she is bound by a levirate bond if her husband has no children.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "גֵט.",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גִטֵּךְ מֵעַכְשָׁיו אִם לֹא",
+    "en": "\"This is your get from now if I do not",
+    "st": "By contrast, if he said to her: <b>This is your bill of divorce from now if I do not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ",
+      "en": "your get"
+     },
+     {
+      "he": "מֵעַכְשָׁיו",
+      "en": "from now"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "בָאתִי מִכָּאן וְעַד שְׁנֵים עָשָׂר חֹדֶשׁ,",
+    "en": "come back from now until twelve months,\"",
+    "st": "<b>come</b> back <b>from now until</b> the conclusion of <b>twelve months,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָאתִי",
+      "en": "I come"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת בְּתוֹךְ שְׁנֵים עָשָׂר חֹדֶשׁ,",
+    "en": "and he died within twelve months,",
+    "st": "<b>and he died within twelve months,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת",
+      "en": "and he died"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גֵט:",
+    "en": "it is a get.",
+    "st": "<b>this is</b> a valid <b>bill of divorce.</b> This is because the bill of divorce takes effect retroactively. Since he did not return within the year the condition was fulfilled.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט:",
+      "en": "is a get"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 9,
+  "summary": "A man told others to write and give a get if he does not come back in twelve months. The mishnah tells when the get counts, depending on when they wrote it and gave it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אִם לֹא בָאתִי מִכָּאן עַד שְׁנֵים",
+    "en": "\"If I do not come back from now until twelve",
+    "st": "If a husband said to others: <b>If I do not come</b> back <b>from now until</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בָאתִי",
+      "en": "I come"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "עָשָׂר חֹדֶשׁ כִּתְבוּ וּתְנוּ גֵט לְאִשְׁתִּי,",
+    "en": "months, write and give a get to my wife,\"",
+    "st": "the conclusion of <b>twelve months, write and give a bill of divorce to my wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "month"
+     },
+     {
+      "he": "כִּתְבוּ",
+      "en": "write"
+     },
+     {
+      "he": "וּתְנוּ",
+      "en": "and give"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "לְאִשְׁתִּי,",
+      "en": "to my wife"
+     }
+    ]
+   },
+   {
+    "he": "כָּתְבוּ גֵט בְּתוֹךְ שְׁנֵים עָשָׂר חֹדֶשׁ",
+    "en": "if they wrote the get within twelve months",
+    "st": "and <b>they wrote a bill of divorce during</b> the <b>twelve months</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתְבוּ",
+      "en": "they wrote"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "וְנָתְנוּ לְאַחַר שְׁנֵים עָשָׂר חֹדֶשׁ,",
+    "en": "and gave it after twelve months,",
+    "st": "<b>and gave</b> it to her <b>after twelve months</b> had elapsed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָתְנוּ",
+      "en": "and they gave"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גֵט.",
+    "en": "it is not a get.",
+    "st": "<b>it is not</b> a valid <b>bill of divorce</b>",
+    "stMore": "because he instructed them to write the bill of divorce only after twelve months had elapsed. Similarly, if he said to others:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "גֵט.",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "כִּתְבוּ וּתְנוּ גֵט לְאִשְׁתִּי אִם לֹא",
+    "en": "\"Write and give a get to my wife if I do not",
+    "st": "<b>Write and give a bill of divorce to my wife if I do not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּתְבוּ",
+      "en": "write"
+     },
+     {
+      "he": "וּתְנוּ",
+      "en": "and give"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "לְאִשְׁתִּי",
+      "en": "to my wife"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "בָאתִי מִכָּאן וְעַד שְׁנֵים עָשָׂר חֹדֶשׁ,",
+    "en": "come back from now until twelve months,\"",
+    "st": "<b>come</b> back <b>from now until</b> the conclusion of <b>twelve months,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָאתִי",
+      "en": "I come"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "כָּתְבוּ בְתוֹךְ שְׁנֵים עָשָׂר חֹדֶשׁ",
+    "en": "if they wrote it within twelve months",
+    "st": "and <b>they wrote</b> it <b>during</b> the <b>twelve months</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתְבוּ",
+      "en": "they wrote"
+     },
+     {
+      "he": "בְתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "וְנָתְנוּ לְאַחַר שְׁנֵים עָשָׂר חֹדֶשׁ,",
+    "en": "and gave it after twelve months,",
+    "st": "<b>but gave</b> it to her <b>after</b> the <b>twelve months,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָתְנוּ",
+      "en": "and they gave"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גֵט.",
+    "en": "it is not a get.",
+    "st": "<b>it is not</b> a valid <b>bill of divorce</b>",
+    "stMore": "because he instructed them to write the bill of divorce only after twelve months had elapsed, when it was clear that he did not come back.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "גֵט.",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says,",
+    "st": "<b>Rabbi Yosei</b> disagrees and <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּזֶה גֵּט.",
+    "en": "a case like this is a get.",
+    "st": "In a case <b>like this,</b> it is a valid <b>bill of divorce,</b>",
+    "stMore": "as he did not tell them when to write the bill of divorce. Rather, he stipulated only the time of giving.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּזֶה",
+      "en": "like this"
+     },
+     {
+      "he": "גֵּט.",
+      "en": "is a get"
+     }
+    ]
+   },
+   {
+    "he": "כָּתְבוּ לְאַחַר שְׁנֵים עָשָׂר חֹדֶשׁ וְנָתְנוּ",
+    "en": "If they wrote it after twelve months and gave it",
+    "st": "If <b>they wrote</b> the bill of divorce <b>after twelve months</b> had elapsed, <b>and gave</b> it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתְבוּ",
+      "en": "they wrote"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "month"
+     },
+     {
+      "he": "וְנָתְנוּ",
+      "en": "and they gave"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחַר שְׁנֵים עָשָׂר חֹדֶשׁ וּמֵת,",
+    "en": "after twelve months, and he died,",
+    "st": "<b>after twelve months</b> had elapsed, <b>but</b> in the interim the husband <b>died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "month"
+     },
+     {
+      "he": "וּמֵת,",
+      "en": "and he died"
+     }
+    ]
+   },
+   {
+    "he": "אִם הַגֵּט קָדַם לַמִּיתָה,",
+    "en": "if the get came before the death,",
+    "st": "<b>if</b> the giving of <b>the bill of divorce</b> occurred <b>before</b> the husband’s <b>death</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הַגֵּט",
+      "en": "the get"
+     },
+     {
+      "he": "קָדַם",
+      "en": "came before"
+     },
+     {
+      "he": "לַמִּיתָה,",
+      "en": "the death"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גֵט.",
+    "en": "it is a get.",
+    "st": "<b>this is</b> a valid <b>bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט.",
+      "en": "is a get"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מִיתָה קָדְמָה לַגֵּט,",
+    "en": "And if the death came before the get,",
+    "st": "<b>But if</b> the husband’s <b>death</b> occurred <b>before</b> the giving of <b>the bill of divorce</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מִיתָה",
+      "en": "death"
+     },
+     {
+      "he": "קָדְמָה",
+      "en": "came before"
+     },
+     {
+      "he": "לַגֵּט,",
+      "en": "the get"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גֵט.",
+    "en": "it is not a get.",
+    "st": "it <b>is not</b> a valid <b>bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "גֵט.",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אֵין יָדוּעַ,",
+    "en": "And if nobody knows,",
+    "st": "<b>And if it is not known</b> which occurred first,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֵין",
+      "en": "it is not"
+     },
+     {
+      "he": "יָדוּעַ,",
+      "en": "known"
+     }
+    ]
+   },
+   {
+    "he": "זוֹ הִיא שֶׁאָמְרוּ,",
+    "en": "this is the one about which they said,",
+    "st": "<b>this is</b> a case <b>where</b> the Sages <b>said</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "הִיא",
+      "en": "is the one"
+     },
+     {
+      "he": "שֶׁאָמְרוּ,",
+      "en": "that they said"
+     }
+    ]
+   },
+   {
+    "he": "מְגֹרֶשֶׁת וְאֵינָהּ מְגֹרָשֶׁת:",
+    "en": "she is divorced and not divorced.",
+    "st": "there is uncertainty whether <b>she is divorced or</b> whether <b>she is not divorced.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגֹרֶשֶׁת",
+      "en": "divorced"
+     },
+     {
+      "he": "וְאֵינָהּ",
+      "en": "and she is not"
+     },
+     {
+      "he": "מְגֹרָשֶׁת:",
+      "en": "divorced"
+     }
+    ]
+   }
+  ]
+ }
+]

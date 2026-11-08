@@ -1,0 +1,2786 @@
+[
+ {
+  "perek": 6,
+  "mishnah": 1,
+  "summary": "Rabbi Yehudah ben Bava testified about five things he knew: about young girls, about one witness, about a rooster, about wine for the mizbe'ach, and about the morning korban tamid.",
+  "chunks": [
+   {
+    "he": "רַבִּי יְהוּדָה בֶּן בָּבָא",
+    "en": "Rabbi Yehudah ben Bava",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "בָּבָא",
+      "en": "Bava"
+     }
+    ]
+   },
+   {
+    "he": "הֵעִיד חֲמִשָּׁה דְבָרִים.",
+    "en": "testified about five things.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הֵעִיד",
+      "en": "testified"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "דְבָרִים.",
+      "en": "things"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמְּמָאֲנִים אֶת הַקְּטַנּוֹת,",
+    "en": "That young girls may refuse their marriage,",
+    "explain": "A young orphan girl married off by her family may say no when she grows up.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמְּמָאֲנִים",
+      "en": "that we let refuse"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקְּטַנּוֹת,",
+      "en": "the young girls"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁמַּשִּׂיאִין אֶת הָאִשָּׁה עַל",
+    "en": "and that we let a woman marry again on",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁמַּשִּׂיאִין",
+      "en": "and that we let marry"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "פִּי עֵד אֶחָד,",
+    "en": "the word of one witness,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עֵד",
+      "en": "witness"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁנִּסְקַל תַּרְנְגוֹל בִּירוּשָׁלַיִם עַל",
+    "en": "and that a rooster was stoned in Yerushalayim because",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁנִּסְקַל",
+      "en": "and that was stoned"
+     },
+     {
+      "he": "תַּרְנְגוֹל",
+      "en": "a rooster"
+     },
+     {
+      "he": "בִּירוּשָׁלַיִם",
+      "en": "in Yerushalayim"
+     },
+     {
+      "he": "עַל",
+      "en": "because"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָרַג אֶת הַנֶּפֶשׁ,",
+    "en": "it killed a person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָרַג",
+      "en": "that it killed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנֶּפֶשׁ,",
+      "en": "the person"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַיַּיִן בֶּן אַרְבָּעִים יוֹם",
+    "en": "and about wine forty days old",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and about"
+     },
+     {
+      "he": "הַיַּיִן",
+      "en": "the wine"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "אַרְבָּעִים",
+      "en": "forty"
+     },
+     {
+      "he": "יוֹם",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנִּתְנַסֵּךְ עַל גַּב הַמִּזְבֵּחַ,",
+    "en": "that was poured as a nesech on the mizbe'ach,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנִּתְנַסֵּךְ",
+      "en": "that was poured"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּב",
+      "en": "top of"
+     },
+     {
+      "he": "הַמִּזְבֵּחַ,",
+      "en": "the mizbe'ach"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל תָּמִיד שֶׁל שַׁחַר",
+    "en": "and about the morning tamid korban",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and about"
+     },
+     {
+      "he": "תָּמִיד",
+      "en": "the tamid",
+      "note": "The korban brought every morning and afternoon."
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שַׁחַר",
+      "en": "morning"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁקָּרַב בְּאַרְבַּע שָׁעוֹת:",
+    "en": "that was brought at four hours into the day.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁקָּרַב",
+      "en": "that was brought"
+     },
+     {
+      "he": "בְּאַרְבַּע",
+      "en": "at four"
+     },
+     {
+      "he": "שָׁעוֹת:",
+      "en": "hours"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 2,
+  "summary": "Two Sages testified that a limb from a dead person makes things tamei. Rabbi Eliezer said the rule was taught only about a limb from a living person, and explains why that tumah can be stronger.",
+  "chunks": [
+   {
+    "he": "הֵעִיד רַבִּי יְהוֹשֻׁעַ וְרַבִּי נְחוּנְיָא",
+    "en": "Rabbi Yehoshua and Rabbi Nechunya testified,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הֵעִיד",
+      "en": "testified"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "נְחוּנְיָא",
+      "en": "Nechunya"
+     }
+    ]
+   },
+   {
+    "he": "בֶּן אֱלִינָתָן אִישׁ כְּפַר הַבַּבְלִי,",
+    "en": "ben Elinasan, a man from Kfar HaBavli,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "אֱלִינָתָן",
+      "en": "Elinasan"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man of"
+     },
+     {
+      "he": "כְּפַר",
+      "en": "village of"
+     },
+     {
+      "he": "הַבַּבְלִי,",
+      "en": "the Bavli"
+     }
+    ]
+   },
+   {
+    "he": "עַל אֵבֶר מִן הַמֵּת שֶׁהוּא טָמֵא,",
+    "en": "about a limb from a dead person, that it is tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמֵּת",
+      "en": "the dead"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁרַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "because Rabbi Eliezer says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁרַבִּי",
+      "en": "that Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמְרוּ אֶלָּא עַל",
+    "en": "they only said it about",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     }
+    ]
+   },
+   {
+    "he": "אֵבֶר מִן הַחַי.",
+    "en": "a limb from a living person.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי.",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא קַל וָחֹמֶר.",
+    "en": "But is it not a kal vachomer?",
+    "explain": "An \"all the more so\" proof.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "but not"
+     },
+     {
+      "he": "קַל",
+      "en": "easy"
+     },
+     {
+      "he": "וָחֹמֶר.",
+      "en": "and strict"
+     }
+    ]
+   },
+   {
+    "he": "וּמַה מִן הַחַי שֶׁהוּא טָהוֹר,",
+    "en": "If from a living person, who is tahor,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמַה",
+      "en": "and what"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי",
+      "en": "the living"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "טָהוֹר,",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "אֵבֶר הַפּוֹרֵשׁ מִמֶּנּוּ טָמֵא,",
+    "en": "a limb that comes off from him is tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "הַמֵּת שֶׁהוּא טָמֵא,",
+    "en": "then a dead person, who is tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַמֵּת",
+      "en": "the dead"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ דִין שֶׁיִּהְיֶה אֵבֶר",
+    "en": "is it not right that a limb",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "is it not"
+     },
+     {
+      "he": "דִין",
+      "en": "the law"
+     },
+     {
+      "he": "שֶׁיִּהְיֶה",
+      "en": "that it will be"
+     },
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹרֵשׁ מִמֶּנּוּ טָמֵא.",
+    "en": "that comes off from him is tamei?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "טָמֵא.",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמְרוּ אֶלָּא עַל",
+    "en": "They only said it about",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     }
+    ]
+   },
+   {
+    "he": "אֵבֶר מִן הַחַי.",
+    "en": "a limb from a living person.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי.",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר אַחֵר,",
+    "en": "Another thing:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "מְרֻבָּה טֻמְאַת הַחַיִּים מִטֻּמְאַת הַמֵּתִים,",
+    "en": "the tumah of the living is greater than the tumah of the dead,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְרֻבָּה",
+      "en": "greater"
+     },
+     {
+      "he": "טֻמְאַת",
+      "en": "the tumah of"
+     },
+     {
+      "he": "הַחַיִּים",
+      "en": "the living"
+     },
+     {
+      "he": "מִטֻּמְאַת",
+      "en": "than the tumah of"
+     },
+     {
+      "he": "הַמֵּתִים,",
+      "en": "the dead"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַחַי עוֹשֶׂה מִשְׁכָּב וּמוֹשָׁב מִתַּחְתָּיו,",
+    "en": "because a living person makes a bed and a seat under him tamei,",
+    "explain": "This is a zav, who has a kind of tumah from his body.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַחַי",
+      "en": "for the living"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "makes"
+     },
+     {
+      "he": "מִשְׁכָּב",
+      "en": "a bed"
+     },
+     {
+      "he": "וּמוֹשָׁב",
+      "en": "and a seat"
+     },
+     {
+      "he": "מִתַּחְתָּיו,",
+      "en": "from under him"
+     }
+    ]
+   },
+   {
+    "he": "לְטַמֵּא אָדָם וּלְטַמֵּא בְגָדִים,",
+    "en": "to make a person tamei and to make clothes tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "לְטַמֵּא",
+      "en": "to make tamei"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "וּלְטַמֵּא",
+      "en": "and to make tamei"
+     },
+     {
+      "he": "בְגָדִים,",
+      "en": "clothes"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל גַּבָּיו מַדָּף לְטַמֵּא אֳכָלִים וּמַשְׁקִין,",
+    "en": "and what is above him a madaf, to make foods and drinks tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "גַּבָּיו",
+      "en": "top of him"
+     },
+     {
+      "he": "מַדָּף",
+      "en": "a madaf",
+      "note": "A lighter tumah of things above a zav."
+     },
+     {
+      "he": "לְטַמֵּא",
+      "en": "to make tamei"
+     },
+     {
+      "he": "אֳכָלִים",
+      "en": "foods"
+     },
+     {
+      "he": "וּמַשְׁקִין,",
+      "en": "and drinks"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁאֵין הַמֵּת מְטַמֵּא:",
+    "en": "which a dead person does not make tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁאֵין",
+      "en": "that does not"
+     },
+     {
+      "he": "הַמֵּת",
+      "en": "the dead"
+     },
+     {
+      "he": "מְטַמֵּא:",
+      "en": "make tamei"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 3,
+  "summary": "Rabbi Eliezer, Rabbi Nechunya and Rabbi Yehoshua argue about flesh or a small bone that comes off a limb taken from a living person, and each one explains his reasons.",
+  "chunks": [
+   {
+    "he": "כַּזַּיִת בָּשָׂר הַפּוֹרֵשׁ מֵאֵבָר מִן הַחַי,",
+    "en": "An olive's size of flesh that comes off a limb from a living person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כַּזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מֵאֵבָר",
+      "en": "from a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי,",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר מְטַמֵּא,",
+    "en": "Rabbi Eliezer says it is tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "מְטַמֵּא,",
+      "en": "makes tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי יְהוֹשֻׁעַ וְרַבִּי נְחוּנְיָא מְטַהֲרִים.",
+    "en": "and Rabbi Yehoshua and Rabbi Nechunya say it is tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "נְחוּנְיָא",
+      "en": "Nechunya"
+     },
+     {
+      "he": "מְטַהֲרִים.",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "עֶצֶם כַּשְּׂעֹרָה הַפּוֹרֵשׁ מֵאֵבָר מִן הַחַי,",
+    "en": "A bone the size of a barley grain that comes off a limb from a living person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עֶצֶם",
+      "en": "a bone"
+     },
+     {
+      "he": "כַּשְּׂעֹרָה",
+      "en": "like a barley grain"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מֵאֵבָר",
+      "en": "from a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי,",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי נְחוּנְיָא מְטַמֵּא,",
+    "en": "Rabbi Nechunya says it is tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "נְחוּנְיָא",
+      "en": "Nechunya"
+     },
+     {
+      "he": "מְטַמֵּא,",
+      "en": "makes tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי אֱלִיעֶזֶר וְרַבִּי יְהוֹשֻׁעַ מְטַהֲרִין.",
+    "en": "and Rabbi Eliezer and Rabbi Yehoshua say it is tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "מְטַהֲרִין.",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ לְרַבִּי אֱלִיעֶזֶר,",
+    "en": "They said to Rabbi Eliezer:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "לְרַבִּי",
+      "en": "to Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "מָה רָאִיתָ לְטַמֵּא כַזַּיִת בָּשָׂר",
+    "en": "What did you see to say an olive's size of flesh is tamei",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "רָאִיתָ",
+      "en": "did you see"
+     },
+     {
+      "he": "לְטַמֵּא",
+      "en": "to make tamei"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹרֵשׁ מֵאֵבָר מִן הַחַי.",
+    "en": "that comes off a limb from a living person?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מֵאֵבָר",
+      "en": "from a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי.",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "מָצִינוּ אֵבֶר מִן הַחַי כְּמֵת שָׁלֵם.",
+    "en": "We find a limb from a living person is like a whole dead body.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מָצִינוּ",
+      "en": "we found"
+     },
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי",
+      "en": "the living"
+     },
+     {
+      "he": "כְּמֵת",
+      "en": "like a dead body"
+     },
+     {
+      "he": "שָׁלֵם.",
+      "en": "whole"
+     }
+    ]
+   },
+   {
+    "he": "מַה הַמֵּת,",
+    "en": "Just like a dead body,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הַמֵּת,",
+      "en": "the dead body"
+     }
+    ]
+   },
+   {
+    "he": "כַּזַּיִת בָּשָׂר הַפּוֹרֵשׁ מִמֶּנּוּ טָמֵא,",
+    "en": "an olive's size of flesh that comes off it is tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כַּזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from it"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "אַף אֵבֶר מִן הַחַי,",
+    "en": "so too a limb from a living person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי,",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "כַּזַּיִת בָּשָׂר הַפּוֹרֵשׁ מִמֶּנּוּ יִהְיֶה טָמֵא.",
+    "en": "an olive's size of flesh that comes off it should be tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כַּזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from it"
+     },
+     {
+      "he": "יִהְיֶה",
+      "en": "will be"
+     },
+     {
+      "he": "טָמֵא.",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם טִמֵּאתָ כַזַּיִת בָּשָׂר",
+    "en": "No! If you said an olive's size of flesh is tamei",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "טִמֵּאתָ",
+      "en": "you made tamei"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹרֵשׁ מִן הַמֵּת,",
+    "en": "that comes off a dead body,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמֵּת,",
+      "en": "the dead"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן טִמֵּאתָ עֶצֶם כַּשְּׂעֹרָה הַפּוֹרֵשׁ מִמֶּנּוּ,",
+    "en": "that is because you also said a bone the size of a barley grain from it is tamei;",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "since so"
+     },
+     {
+      "he": "טִמֵּאתָ",
+      "en": "you made tamei"
+     },
+     {
+      "he": "עֶצֶם",
+      "en": "a bone"
+     },
+     {
+      "he": "כַּשְּׂעֹרָה",
+      "en": "like a barley grain"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "תְּטַמֵּא כַזַּיִת בָּשָׂר הַפּוֹרֵשׁ",
+    "en": "will you say an olive's size of flesh is tamei that comes off",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "תְּטַמֵּא",
+      "en": "will you make tamei"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     }
+    ]
+   },
+   {
+    "he": "מֵאֵבָר מִן הַחַי,",
+    "en": "a limb from a living person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מֵאֵבָר",
+      "en": "from a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי,",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן טִהַרְתָּ עֶצֶם כַּשְּׂעֹרָה הַפּוֹרֵשׁ הֵימֶנּוּ.",
+    "en": "when you said a bone the size of a barley grain from it is tahor?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "since so"
+     },
+     {
+      "he": "טִהַרְתָּ",
+      "en": "you made tahor"
+     },
+     {
+      "he": "עֶצֶם",
+      "en": "a bone"
+     },
+     {
+      "he": "כַּשְּׂעֹרָה",
+      "en": "like a barley grain"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "הֵימֶנּוּ.",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ לְרַבִּי נְחוּנְיָא,",
+    "en": "They said to Rabbi Nechunya:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "לְרַבִּי",
+      "en": "to Rabbi"
+     },
+     {
+      "he": "נְחוּנְיָא,",
+      "en": "Nechunya"
+     }
+    ]
+   },
+   {
+    "he": "מָה רָאִיתָ לְטַמֵּא עֶצֶם כַּשְּׂעֹרָה",
+    "en": "What did you see to say a bone the size of a barley grain is tamei",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "רָאִיתָ",
+      "en": "did you see"
+     },
+     {
+      "he": "לְטַמֵּא",
+      "en": "to make tamei"
+     },
+     {
+      "he": "עֶצֶם",
+      "en": "a bone"
+     },
+     {
+      "he": "כַּשְּׂעֹרָה",
+      "en": "like a barley grain"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹרֵשׁ מֵאֵבָר מִן הַחַי.",
+    "en": "that comes off a limb from a living person?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מֵאֵבָר",
+      "en": "from a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי.",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "מָצִינוּ אֵבֶר מִן הַחַי כְּמֵת שָׁלֵם.",
+    "en": "We find a limb from a living person is like a whole dead body.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מָצִינוּ",
+      "en": "we found"
+     },
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי",
+      "en": "the living"
+     },
+     {
+      "he": "כְּמֵת",
+      "en": "like a dead body"
+     },
+     {
+      "he": "שָׁלֵם.",
+      "en": "whole"
+     }
+    ]
+   },
+   {
+    "he": "מַה הַמֵּת,",
+    "en": "Just like a dead body,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הַמֵּת,",
+      "en": "the dead body"
+     }
+    ]
+   },
+   {
+    "he": "עֶצֶם כַּשְּׂעֹרָה הַפּוֹרֵשׁ מִמֶּנּוּ טָמֵא,",
+    "en": "a bone the size of a barley grain that comes off it is tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עֶצֶם",
+      "en": "a bone"
+     },
+     {
+      "he": "כַּשְּׂעֹרָה",
+      "en": "like a barley grain"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from it"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "אַף אֵבֶר מִן הַחַי,",
+    "en": "so too a limb from a living person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי,",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "עֶצֶם כַּשְּׂעֹרָה הַפּוֹרֵשׁ מִמֶּנּוּ יִהְיֶה טָמֵא.",
+    "en": "a bone the size of a barley grain that comes off it should be tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עֶצֶם",
+      "en": "a bone"
+     },
+     {
+      "he": "כַּשְּׂעֹרָה",
+      "en": "like a barley grain"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from it"
+     },
+     {
+      "he": "יִהְיֶה",
+      "en": "will be"
+     },
+     {
+      "he": "טָמֵא.",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם טִמֵּאתָ עֶצֶם כַּשְּׂעֹרָה",
+    "en": "No! If you said a bone the size of a barley grain is tamei",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "טִמֵּאתָ",
+      "en": "you made tamei"
+     },
+     {
+      "he": "עֶצֶם",
+      "en": "a bone"
+     },
+     {
+      "he": "כַּשְּׂעֹרָה",
+      "en": "like a barley grain"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹרֵשׁ מִן הַמֵּת,",
+    "en": "that comes off a dead body,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמֵּת,",
+      "en": "the dead"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן טִמֵּאתָ כַזַּיִת בָּשָׂר הַפּוֹרֵשׁ מִמֶּנּוּ,",
+    "en": "that is because you also said an olive's size of flesh from it is tamei;",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "since so"
+     },
+     {
+      "he": "טִמֵּאתָ",
+      "en": "you made tamei"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "תְּטַמֵּא עֶצֶם כַּשְּׂעֹרָה הַפּוֹרֵשׁ",
+    "en": "will you say a bone the size of a barley grain is tamei that comes off",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "תְּטַמֵּא",
+      "en": "will you make tamei"
+     },
+     {
+      "he": "עֶצֶם",
+      "en": "a bone"
+     },
+     {
+      "he": "כַּשְּׂעֹרָה",
+      "en": "like a barley grain"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     }
+    ]
+   },
+   {
+    "he": "מֵאֵבָר מִן הַחַי,",
+    "en": "a limb from a living person,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מֵאֵבָר",
+      "en": "from a limb"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי,",
+      "en": "the living"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן טִהַרְתָּ כַזַּיִת בָּשָׂר הַפּוֹרֵשׁ מִמֶּנּוּ.",
+    "en": "when you said an olive's size of flesh from it is tahor?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "since so"
+     },
+     {
+      "he": "טִהַרְתָּ",
+      "en": "you made tahor"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ.",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ לְרַבִּי אֱלִיעֶזֶר,",
+    "en": "They said to Rabbi Eliezer:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "לְרַבִּי",
+      "en": "to Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "מָה רָאִיתָ לַחֲלֹק מִדּוֹתֶיךָ,",
+    "en": "What did you see to split your rulings?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "רָאִיתָ",
+      "en": "did you see"
+     },
+     {
+      "he": "לַחֲלֹק",
+      "en": "to split"
+     },
+     {
+      "he": "מִדּוֹתֶיךָ,",
+      "en": "your rulings"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ טַמֵּא בִשְׁנֵיהֶם אוֹ טַהֵר בִּשְׁנֵיהֶם.",
+    "en": "Either say tamei for both or say tahor for both.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "either"
+     },
+     {
+      "he": "טַמֵּא",
+      "en": "make tamei"
+     },
+     {
+      "he": "בִשְׁנֵיהֶם",
+      "en": "for both of them"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "טַהֵר",
+      "en": "make tahor"
+     },
+     {
+      "he": "בִּשְׁנֵיהֶם.",
+      "en": "for both of them"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "מְרֻבָּה טֻמְאַת הַבָּשָׂר מִטֻּמְאַת הָעֲצָמוֹת,",
+    "en": "the tumah of flesh is greater than the tumah of bones,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְרֻבָּה",
+      "en": "greater"
+     },
+     {
+      "he": "טֻמְאַת",
+      "en": "the tumah of"
+     },
+     {
+      "he": "הַבָּשָׂר",
+      "en": "the flesh"
+     },
+     {
+      "he": "מִטֻּמְאַת",
+      "en": "than the tumah of"
+     },
+     {
+      "he": "הָעֲצָמוֹת,",
+      "en": "the bones"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַבָּשָׂר נוֹהֵג בַּנְּבֵלוֹת וּבַשְּׁרָצִים,",
+    "en": "because flesh counts with neveilos and with sheratzim,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַבָּשָׂר",
+      "en": "for the flesh"
+     },
+     {
+      "he": "נוֹהֵג",
+      "en": "applies"
+     },
+     {
+      "he": "בַּנְּבֵלוֹת",
+      "en": "with the neveilos"
+     },
+     {
+      "he": "וּבַשְּׁרָצִים,",
+      "en": "and with the sheratzim"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁאֵין כֵּן בָּעֲצָמוֹת.",
+    "en": "which is not so with bones.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "בָּעֲצָמוֹת.",
+      "en": "with the bones"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר אַחֵר,",
+    "en": "Another thing:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "אֵבֶר שֶׁיֵּשׁ עָלָיו בָּשָׂר כָּרָאוּי,",
+    "en": "a limb that has the right amount of flesh on it,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵבֶר",
+      "en": "a limb"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "כָּרָאוּי,",
+      "en": "as fitting"
+     }
+    ]
+   },
+   {
+    "he": "מְטַמֵּא בְמַגָּע וּבְמַשָּׂא וּבְאֹהֶל.",
+    "en": "makes tamei by touching, by carrying and by a tent.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְטַמֵּא",
+      "en": "makes tamei"
+     },
+     {
+      "he": "בְמַגָּע",
+      "en": "by touching"
+     },
+     {
+      "he": "וּבְמַשָּׂא",
+      "en": "and by carrying"
+     },
+     {
+      "he": "וּבְאֹהֶל.",
+      "en": "and by a tent"
+     }
+    ]
+   },
+   {
+    "he": "חָסֵר הַבָּשָׂר,",
+    "en": "If flesh is missing,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חָסֵר",
+      "en": "is missing"
+     },
+     {
+      "he": "הַבָּשָׂר,",
+      "en": "the flesh"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא. חָסֵר הָעֶצֶם,",
+    "en": "it is tamei. If bone is missing,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא.",
+      "en": "it is tamei"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "is missing"
+     },
+     {
+      "he": "הָעֶצֶם,",
+      "en": "the bone"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר. אָמְרוּ לוֹ לְרַבִּי נְחוּנְיָא,",
+    "en": "it is tahor. They said to Rabbi Nechunya:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר.",
+      "en": "it is tahor"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "לְרַבִּי",
+      "en": "to Rabbi"
+     },
+     {
+      "he": "נְחוּנְיָא,",
+      "en": "Nechunya"
+     }
+    ]
+   },
+   {
+    "he": "מָה רָאִיתָ לַחֲלֹק מִדּוֹתֶיךָ,",
+    "en": "What did you see to split your rulings?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "רָאִיתָ",
+      "en": "did you see"
+     },
+     {
+      "he": "לַחֲלֹק",
+      "en": "to split"
+     },
+     {
+      "he": "מִדּוֹתֶיךָ,",
+      "en": "your rulings"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ טַמֵּא בִשְׁנֵיהֶם אוֹ טַהֵר בִּשְׁנֵיהֶם.",
+    "en": "Either say tamei for both or say tahor for both.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "either"
+     },
+     {
+      "he": "טַמֵּא",
+      "en": "make tamei"
+     },
+     {
+      "he": "בִשְׁנֵיהֶם",
+      "en": "for both of them"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "טַהֵר",
+      "en": "make tahor"
+     },
+     {
+      "he": "בִּשְׁנֵיהֶם.",
+      "en": "for both of them"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "מְרֻבָּה טֻמְאַת הָעֲצָמוֹת מִטֻּמְאַת הַבָּשָׂר,",
+    "en": "the tumah of bones is greater than the tumah of flesh,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְרֻבָּה",
+      "en": "greater"
+     },
+     {
+      "he": "טֻמְאַת",
+      "en": "the tumah of"
+     },
+     {
+      "he": "הָעֲצָמוֹת",
+      "en": "the bones"
+     },
+     {
+      "he": "מִטֻּמְאַת",
+      "en": "than the tumah of"
+     },
+     {
+      "he": "הַבָּשָׂר,",
+      "en": "the flesh"
+     }
+    ]
+   },
+   {
+    "he": "שֶּׁהַבָּשָׂר הַפּוֹרֵשׁ מִן הַחַי טָהוֹר,",
+    "en": "because flesh that comes off a living person is tahor,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶּׁהַבָּשָׂר",
+      "en": "for the flesh"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַי",
+      "en": "the living"
+     },
+     {
+      "he": "טָהוֹר,",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵבָר הַפּוֹרֵשׁ מִמֶּנּוּ,",
+    "en": "but a limb that comes off him,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאֵבָר",
+      "en": "and a limb"
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "that comes off"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא כִבְרִיָּתוֹ,",
+    "en": "and it is whole as it was made,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "כִבְרִיָּתוֹ,",
+      "en": "is like its making"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא. דָּבָר אַחֵר,",
+    "en": "is tamei. Another thing:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא.",
+      "en": "is tamei"
+     },
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "כַּזַּיִת בָּשָׂר מְטַמֵּא בְמַגָּע וּבְמַשָּׂא וּבְאֹהֶל,",
+    "en": "an olive's size of flesh makes tamei by touching, by carrying and by a tent,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כַּזַּיִת",
+      "en": "like an olive"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "מְטַמֵּא",
+      "en": "makes tamei"
+     },
+     {
+      "he": "בְמַגָּע",
+      "en": "by touching"
+     },
+     {
+      "he": "וּבְמַשָּׂא",
+      "en": "and by carrying"
+     },
+     {
+      "he": "וּבְאֹהֶל,",
+      "en": "and by a tent"
+     }
+    ]
+   },
+   {
+    "he": "וְרֹב עֲצָמוֹת מְטַמְּאִים בְּמַגָּע וּבְמַשָּׂא וּבְאֹהֶל.",
+    "en": "and most of the bones make tamei by touching, by carrying and by a tent.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְרֹב",
+      "en": "and most of"
+     },
+     {
+      "he": "עֲצָמוֹת",
+      "en": "bones"
+     },
+     {
+      "he": "מְטַמְּאִים",
+      "en": "make tamei"
+     },
+     {
+      "he": "בְּמַגָּע",
+      "en": "by touching"
+     },
+     {
+      "he": "וּבְמַשָּׂא",
+      "en": "and by carrying"
+     },
+     {
+      "he": "וּבְאֹהֶל.",
+      "en": "and by a tent"
+     }
+    ]
+   },
+   {
+    "he": "חָסֵר הַבָּשָׂר,",
+    "en": "If the flesh is missing,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חָסֵר",
+      "en": "is missing"
+     },
+     {
+      "he": "הַבָּשָׂר,",
+      "en": "the flesh"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר. חָסֵר רֹב עֲצָמוֹת,",
+    "en": "it is tahor. If most of the bones are missing,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר.",
+      "en": "it is tahor"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "is missing"
+     },
+     {
+      "he": "רֹב",
+      "en": "most of"
+     },
+     {
+      "he": "עֲצָמוֹת,",
+      "en": "bones"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁטָּהוֹר מִלְּטַמֵּא בְאֹהֶל,",
+    "en": "even though they are tahor from making tamei by a tent,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "פִּי",
+      "en": "account"
+     },
+     {
+      "he": "שֶׁטָּהוֹר",
+      "en": "that it is tahor"
+     },
+     {
+      "he": "מִלְּטַמֵּא",
+      "en": "from making tamei"
+     },
+     {
+      "he": "בְאֹהֶל,",
+      "en": "by a tent"
+     }
+    ]
+   },
+   {
+    "he": "מְטַמֵּא בְמַגָּע וּבְמַשָּׂא.",
+    "en": "they make tamei by touching and by carrying.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְטַמֵּא",
+      "en": "makes tamei"
+     },
+     {
+      "he": "בְמַגָּע",
+      "en": "by touching"
+     },
+     {
+      "he": "וּבְמַשָּׂא.",
+      "en": "and by carrying"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר אַחֵר,",
+    "en": "Another thing:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "כָּל בְּשַׂר הַמֵּת,",
+    "en": "all the flesh of a dead body,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "בְּשַׂר",
+      "en": "flesh of"
+     },
+     {
+      "he": "הַמֵּת,",
+      "en": "the dead"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא פָחוֹת מִכַּזַּיִת,",
+    "en": "that is less than an olive's size,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "פָחוֹת",
+      "en": "is less"
+     },
+     {
+      "he": "מִכַּזַּיִת,",
+      "en": "than an olive's size"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר. רֹב בִּנְיָנוֹ וְרֹב מִנְיָנוֹ שֶׁל מֵת,",
+    "en": "is tahor. Most of the frame or most of the number of bones of a dead body,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר.",
+      "en": "is tahor"
+     },
+     {
+      "he": "רֹב",
+      "en": "most of"
+     },
+     {
+      "he": "בִּנְיָנוֹ",
+      "en": "its frame"
+     },
+     {
+      "he": "וְרֹב",
+      "en": "and most of"
+     },
+     {
+      "he": "מִנְיָנוֹ",
+      "en": "its number"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מֵת,",
+      "en": "a dead body"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵין בָּהֶם רֹבַע,",
+    "en": "even though they are not a quarter-kav,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "פִּי",
+      "en": "account"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בָּהֶם",
+      "en": "in them"
+     },
+     {
+      "he": "רֹבַע,",
+      "en": "a quarter (kav)"
+     }
+    ]
+   },
+   {
+    "he": "טְמֵאִין. אָמְרוּ לוֹ לְרַבִּי יְהוֹשֻׁעַ,",
+    "en": "are tamei. They said to Rabbi Yehoshua:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טְמֵאִין.",
+      "en": "are tamei"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "לְרַבִּי",
+      "en": "to Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "מָה רָאִיתָ לְטַהֵר בִּשְׁנֵיהֶם.",
+    "en": "What did you see to say tahor for both?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "רָאִיתָ",
+      "en": "did you see"
+     },
+     {
+      "he": "לְטַהֵר",
+      "en": "to make tahor"
+     },
+     {
+      "he": "בִּשְׁנֵיהֶם.",
+      "en": "for both of them"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אֲמַרְתֶּם בַּמֵּת,",
+    "en": "No! If you said so about a dead body,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֲמַרְתֶּם",
+      "en": "you said"
+     },
+     {
+      "he": "בַּמֵּת,",
+      "en": "about the dead"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֶּשׁ בּוֹ רֹב וְרֹבַע וְרָקָב,",
+    "en": "which has the rules of \"most,\" \"a quarter\" and \"grave dust,\"",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "רֹב",
+      "en": "most"
+     },
+     {
+      "he": "וְרֹבַע",
+      "en": "and a quarter"
+     },
+     {
+      "he": "וְרָקָב,",
+      "en": "and grave dust"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמְרוּ בַחַי שֶׁאֵין בּוֹ",
+    "en": "will you say so about a living person, who does not have",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמְרוּ",
+      "en": "will you say"
+     },
+     {
+      "he": "בַחַי",
+      "en": "about the living"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in him"
+     }
+    ]
+   },
+   {
+    "he": "רֹב וְרֹבַע וְרָקָב:",
+    "en": "\"most,\" \"a quarter\" and \"grave dust\"?",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רֹב",
+      "en": "most"
+     },
+     {
+      "he": "וְרֹבַע",
+      "en": "and a quarter"
+     },
+     {
+      "he": "וְרָקָב:",
+      "en": "and grave dust"
+     }
+    ]
+   }
+  ]
+ }
+]

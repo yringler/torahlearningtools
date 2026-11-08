@@ -1,0 +1,2705 @@
+[
+ {
+  "perek": 4,
+  "mishnah": 1,
+  "summary": "Some places had a custom to work on Erev Pesach until midday, and some did not. This mishnah teaches that everyone follows the custom of his place.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מָקוֹם שֶׁנָּהֲגוּ לַעֲשׂוֹת מְלָאכָה",
+    "en": "In a place where people are used to doing work",
+    "st": "In <b>a place where</b> the people were <b>accustomed to perform labor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "לַעֲשׂוֹת",
+      "en": "to do"
+     },
+     {
+      "he": "מְלָאכָה",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "בְּעַרְבֵי פְסָחִים עַד חֲצוֹת,",
+    "en": "on Erev Pesach until midday,",
+    "st": "<b>on Passover eve until midday,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּעַרְבֵי",
+      "en": "on the eves of"
+     },
+     {
+      "he": "פְסָחִים",
+      "en": "Pesach"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "חֲצוֹת,",
+      "en": "midday"
+     }
+    ]
+   },
+   {
+    "he": "עוֹשִׂין. מָקוֹם שֶׁנָּהֲגוּ שֶׁלֹּא לַעֲשׂוֹת,",
+    "en": "we may work. In a place where they are used not to work,",
+    "st": "<b>one</b> may <b>do</b> so on that day. In <b>a place where</b> the people were <b>accustomed not to perform</b> labor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹשִׂין.",
+      "en": "they work"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לַעֲשׂוֹת,",
+      "en": "to work"
+     }
+    ]
+   },
+   {
+    "he": "אֵין עוֹשִׂין.",
+    "en": "we may not work.",
+    "explain": "Working on Erev Pesach is not forbidden by the Torah. It depends on the custom.",
+    "st": "<b>one</b> may <b>not do</b> so.",
+    "stMore": "The performance of labor on the eve of Passover is not prohibited by Torah law, but is dependent on local custom.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "עוֹשִׂין.",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "הַהוֹלֵךְ מִמָּקוֹם שֶׁעוֹשִׂין לְמָקוֹם שֶׁאֵין עוֹשִׂין,",
+    "en": "One who goes from a place where they work to a place where they don't work,",
+    "st": "If one <b>travels from a place where</b> people <b>perform</b> labor on Passover eve <b>to a place where</b> people <b>do not perform</b> labor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַהוֹלֵךְ",
+      "en": "one who goes"
+     },
+     {
+      "he": "מִמָּקוֹם",
+      "en": "from a place"
+     },
+     {
+      "he": "שֶׁעוֹשִׂין",
+      "en": "where they work"
+     },
+     {
+      "he": "לְמָקוֹם",
+      "en": "to a place"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "where they do not"
+     },
+     {
+      "he": "עוֹשִׂין,",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מִמָּקוֹם שֶׁאֵין עוֹשִׂין לְמָקוֹם שֶׁעוֹשִׂין,",
+    "en": "or from a place where they don't work to a place where they work,",
+    "st": "<b>or from a place where</b> people <b>do not perform</b> labor on Passover eve <b>to a place where</b> people <b>perform</b> labor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מִמָּקוֹם",
+      "en": "from a place"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "where they do not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "work"
+     },
+     {
+      "he": "לְמָקוֹם",
+      "en": "to a place"
+     },
+     {
+      "he": "שֶׁעוֹשִׂין,",
+      "en": "where they work"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתְנִין עָלָיו חֻמְרֵי מָקוֹם שֶׁיָּצָא",
+    "en": "we put on him the strict rules of the place he left",
+    "st": "the Sages <b>impose upon him the stringencies of</b> both <b>the place from which he left</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתְנִין",
+      "en": "we put"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "חֻמְרֵי",
+      "en": "the strict rules of"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "the place"
+     },
+     {
+      "he": "שֶׁיָּצָא",
+      "en": "that he left"
+     }
+    ]
+   },
+   {
+    "he": "מִשָּׁם וְחֻמְרֵי מָקוֹם שֶׁהָלַךְ לְשָׁם.",
+    "en": "and the strict rules of the place he went to.",
+    "explain": "So in both cases he may not work.",
+    "st": "<b>and the stringencies of the place to which he went.</b>",
+    "stMore": "In both cases, he may not perform labor. The Sages stated a principle:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשָּׁם",
+      "en": "from there"
+     },
+     {
+      "he": "וְחֻמְרֵי",
+      "en": "and the strict rules of"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "the place"
+     },
+     {
+      "he": "שֶׁהָלַךְ",
+      "en": "that he went"
+     },
+     {
+      "he": "לְשָׁם.",
+      "en": "to there"
+     }
+    ]
+   },
+   {
+    "he": "וְאַל יְשַׁנֶּה אָדָם,",
+    "en": "And a person should not act differently,",
+    "st": "<b>And a person</b> may <b>not deviate</b> from the local custom,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַל",
+      "en": "and not"
+     },
+     {
+      "he": "יְשַׁנֶּה",
+      "en": "should change"
+     },
+     {
+      "he": "אָדָם,",
+      "en": "a person"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי הַמַּחֲלֹקֶת:",
+    "en": "because of arguments.",
+    "explain": "If he acts differently from the people there, it can start a fight.",
+    "st": "<b>due to</b> potential <b>dispute.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "הַמַּחֲלֹקֶת:",
+      "en": "the argument"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 2,
+  "summary": "Shemittah fruit may be kept at home only while that kind of fruit is still in the fields. This mishnah teaches about someone who brings Shemittah fruit from one place to another.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כַּיּוֹצֵא בוֹ,",
+    "en": "In the same way,",
+    "st": "Similarly,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּיּוֹצֵא",
+      "en": "like what goes out"
+     },
+     {
+      "he": "בוֹ,",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "הַמּוֹלִיךְ פֵּרוֹת שְׁבִיעִית מִמָּקוֹם",
+    "en": "one who brings Shemittah fruit from a place",
+    "st": "one <b>who transports Sabbatical</b> Year produce <b>from a place</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹלִיךְ",
+      "en": "one who brings"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits of"
+     },
+     {
+      "he": "שְׁבִיעִית",
+      "en": "Shemittah",
+      "note": "The seventh year, when we do not work the fields."
+     },
+     {
+      "he": "מִמָּקוֹם",
+      "en": "from a place"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכָּלוּ לְמָקוֹם שֶׁלֹּא כָלוּ,",
+    "en": "where it is finished to a place where it is not finished,",
+    "explain": "Finished means none of that fruit is left in the fields.",
+    "st": "where a crop <b>has ceased</b> in the fields <b>to a place where it has not</b> yet <b>ceased</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכָּלוּ",
+      "en": "where they finished"
+     },
+     {
+      "he": "לְמָקוֹם",
+      "en": "to a place"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "where not"
+     },
+     {
+      "he": "כָלוּ,",
+      "en": "they finished"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מִמָּקוֹם שֶׁלֹּא כָלוּ לְמָקוֹם שֶׁכָּלוּ,",
+    "en": "or from a place where it is not finished to a place where it is finished,",
+    "st": "<b>or from a place where it has not</b> yet <b>ceased to a place where it has</b> already <b>ceased</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מִמָּקוֹם",
+      "en": "from a place"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "where not"
+     },
+     {
+      "he": "כָלוּ",
+      "en": "they finished"
+     },
+     {
+      "he": "לְמָקוֹם",
+      "en": "to a place"
+     },
+     {
+      "he": "שֶׁכָּלוּ,",
+      "en": "where they finished"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב לְבַעֵר.",
+    "en": "must get rid of it.",
+    "explain": "He follows the stricter of the two places.",
+    "st": "<b>is obligated to remove</b> the produce from his possession,",
+    "stMore": "in accordance with the stringencies of both locations. It is permitted for homeowners to eat Sabbatical Year produce in their houses only as long as that species of fruit remains in the field as ownerless property. However, once that particular fruit is no longer available for animals in the fields, one is required to remove what remains of that species from his home. The statement in the mishna is referring to one who transported fruit from a location where it ceased in the fields to one where it did not, and vice versa.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he must"
+     },
+     {
+      "he": "לְבַעֵר.",
+      "en": "get rid of it"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמְרִים לוֹ,",
+    "en": "they say to him,",
+    "st": "that he need not remove the produce, as he can say to a local resident:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמְרִים",
+      "en": "they say"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "צֵא וְהָבֵא לְךָ אַף אָתָּה:",
+    "en": "\"Go out and bring some for yourself too!\"",
+    "st": "<b>You, too, go out and bring</b> this produce from a place where it remains in the field.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "Steinsaltz says he can say this to the people there; Bartenura says we say it to him.",
+    "words": [
+     {
+      "he": "צֵא",
+      "en": "go out"
+     },
+     {
+      "he": "וְהָבֵא",
+      "en": "and bring"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "אָתָּה:",
+      "en": "you"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 3,
+  "summary": "Some places had a custom to sell sheep and goats to non-Jews, and some did not. But no one may sell big animals like cows to them.",
+  "stIntro": "Apropos different local customs discussed in the first mishna in this chapter, this mishna discusses various halakhot with regard to which there are different customs.",
+  "chunks": [
+   {
+    "he": "מָקוֹם שֶׁנָּהֲגוּ לִמְכֹּר בְּהֵמָה דַקָּה לַגּוֹיִם,",
+    "en": "In a place where people are used to selling small animals to non-Jews,",
+    "st": "In <b>a place where</b> the people <b>were accustomed to sell small livestock to gentiles,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "לִמְכֹּר",
+      "en": "to sell"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "animals"
+     },
+     {
+      "he": "דַקָּה",
+      "en": "small",
+      "note": "Like sheep and goats."
+     },
+     {
+      "he": "לַגּוֹיִם,",
+      "en": "to the non-Jews"
+     }
+    ]
+   },
+   {
+    "he": "מוֹכְרִין. מָקוֹם שֶׁנָּהֲגוּ שֶׁלֹּא לִמְכֹּר,",
+    "en": "we may sell. In a place where they are used not to sell,",
+    "st": "<b>one</b> may <b>sell</b> them. In <b>a place where</b> the people <b>were not accustomed to sell</b> them due to certain concerns and decrees,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹכְרִין.",
+      "en": "they sell"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לִמְכֹּר,",
+      "en": "to sell"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מוֹכְרִין.",
+    "en": "we may not sell.",
+    "st": "<b>one</b> may <b>not sell</b> them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "מוֹכְרִין.",
+      "en": "sell"
+     }
+    ]
+   },
+   {
+    "he": "וּבְכָל מָקוֹם אֵין מוֹכְרִין",
+    "en": "And in every place we may not sell",
+    "st": "However, <b>in every place, one</b> may <b>sell</b> to gentiles",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְכָל",
+      "en": "and in every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "מוֹכְרִין",
+      "en": "sell"
+     }
+    ]
+   },
+   {
+    "he": "לָהֶם בְּהֵמָה גַסָּה,",
+    "en": "to them big animals,",
+    "st": "<b>neither large livestock,</b> e.g., cows and camels,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "animals"
+     },
+     {
+      "he": "גַסָּה,",
+      "en": "big",
+      "note": "Like cows and camels."
+     }
+    ]
+   },
+   {
+    "he": "עֲגָלִים וּסְיָחִים שְׁלֵמִין וּשְׁבוּרִין.",
+    "en": "calves or young horses, whether healthy or hurt.",
+    "explain": "The Rabbis worried the animal might end up working on Shabbos for its Jewish owner.",
+    "st": "nor <b>calves or foals,</b> whether these animals are <b>whole or damaged.</b>",
+    "stMore": "The Sages prohibited those sales due to the concern lest the transaction be voided or one side reconsider, creating retroactively a situation where a Jew’s animal performed labor for the gentile on Shabbat in violation of an explicit Torah prohibition.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲגָלִים",
+      "en": "calves"
+     },
+     {
+      "he": "וּסְיָחִים",
+      "en": "and young horses"
+     },
+     {
+      "he": "שְׁלֵמִין",
+      "en": "whole"
+     },
+     {
+      "he": "וּשְׁבוּרִין.",
+      "en": "and broken",
+      "note": "Hurt so they can't work well."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה מַתִּיר בִּשְׁבוּרָה.",
+    "en": "Rabbi Yehuda allows a hurt one.",
+    "explain": "A hurt animal can't do work.",
+    "st": "<b>Rabbi Yehuda permits</b> the sale of <b>a damaged</b> animal because it is incapable of performing labor.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "allows"
+     },
+     {
+      "he": "בִּשְׁבוּרָה.",
+      "en": "with a broken one"
+     }
+    ]
+   },
+   {
+    "he": "בֶּן בְּתֵירָה מַתִּיר בְּסוּס:",
+    "en": "Ben Beseira allows a horse.",
+    "explain": "It is used for riding, which the Torah does not forbid on Shabbos.",
+    "st": "<b>Ben Beteira permits</b> the sale of <b>a horse</b> for riding, because riding a horse on Shabbat is not prohibited by Torah law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "בְּתֵירָה",
+      "en": "Beseira"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "allows"
+     },
+     {
+      "he": "בְּסוּס:",
+      "en": "with a horse"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 4,
+  "summary": "Some places had a custom to eat roasted meat on the Pesach night, or to light a lamp on Yom Kippur night, and some did not. Everyone follows the custom of his place.",
+  "stIntro": "The mishna cites another custom related to Passover.",
+  "chunks": [
+   {
+    "he": "מָקוֹם שֶׁנָּהֲגוּ לֶאֱכֹל צָלִי בְלֵילֵי פְסָחִים,",
+    "en": "In a place where people are used to eating roasted meat on the nights of Pesach,",
+    "explain": "Even outside Yerushalayim, or after the Beis Hamikdash was destroyed.",
+    "st": "In <b>a place where</b> people <b>were accustomed to eat roasted</b> meat <b>on Passover evenings,</b>",
+    "stMore": "outside of Jerusalem or after the Temple was destroyed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "צָלִי",
+      "en": "roasted meat"
+     },
+     {
+      "he": "בְלֵילֵי",
+      "en": "on the nights of"
+     },
+     {
+      "he": "פְסָחִים,",
+      "en": "Pesach"
+     }
+    ]
+   },
+   {
+    "he": "אוֹכְלִין. מָקוֹם שֶׁנָּהֲגוּ שֶׁלֹּא לֶאֱכֹל,",
+    "en": "we may eat it. In a place where they are used not to eat it,",
+    "st": "<b>one</b> may <b>eat</b> it. In <b>a place where</b> people <b>were accustomed not to eat</b> outside Jerusalem,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹכְלִין.",
+      "en": "they eat"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לֶאֱכֹל,",
+      "en": "to eat"
+     }
+    ]
+   },
+   {
+    "he": "אֵין אוֹכְלִין.",
+    "en": "we may not eat it.",
+    "explain": "It would look like eating the korban Pesach outside its place.",
+    "st": "<b>one</b> may <b>not eat</b> it.",
+    "stMore": "The mishna discusses additional differences between local customs.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "The reason follows Bartenura.",
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "אוֹכְלִין.",
+      "en": "eat"
+     }
+    ]
+   },
+   {
+    "he": "מָקוֹם שֶׁנָּהֲגוּ לְהַדְלִיק אֶת",
+    "en": "In a place where people are used to lighting",
+    "st": "In <b>a place where</b> people <b>were accustomed to kindle</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "לְהַדְלִיק",
+      "en": "to light"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הַנֵּר בְּלֵילֵי יוֹם הַכִּפּוּרִים,",
+    "en": "a lamp on the night of Yom Kippur,",
+    "st": "<b>a lamp</b> in the house <b>on Yom Kippur evenings,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנֵּר",
+      "en": "the lamp"
+     },
+     {
+      "he": "בְּלֵילֵי",
+      "en": "on the nights of"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים,",
+      "en": "the Kippurim"
+     }
+    ]
+   },
+   {
+    "he": "מַדְלִיקִין. מָקוֹם שֶׁנָּהֲגוּ שֶׁלֹּא לְהַדְלִיק,",
+    "en": "we light. In a place where they are used not to light,",
+    "st": "<b>one kindles</b> it. In <b>a place where</b> people <b>were accustomed not to kindle</b> a lamp,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַדְלִיקִין.",
+      "en": "they light"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לְהַדְלִיק,",
+      "en": "to light"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מַדְלִיקִין.",
+    "en": "we do not light.",
+    "st": "<b>one does not kindle</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "מַדְלִיקִין.",
+      "en": "light"
+     }
+    ]
+   },
+   {
+    "he": "וּמַדְלִיקִין בְּבָתֵּי כְנֵסִיּוֹת וּבְבָתֵּי מִדְרָשׁוֹת,",
+    "en": "But we light in shuls and in batei midrash,",
+    "explain": "Even where the custom is not to light at home.",
+    "st": "<b>However,</b> even in a place where the custom is not to kindle lamps in houses, <b>one kindles in synagogues and study halls,</b> in deference to these places.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַדְלִיקִין",
+      "en": "and they light"
+     },
+     {
+      "he": "בְּבָתֵּי",
+      "en": "in houses of"
+     },
+     {
+      "he": "כְנֵסִיּוֹת",
+      "en": "gathering",
+      "note": "Shuls."
+     },
+     {
+      "he": "וּבְבָתֵּי",
+      "en": "and in houses of"
+     },
+     {
+      "he": "מִדְרָשׁוֹת,",
+      "en": "study"
+     }
+    ]
+   },
+   {
+    "he": "וּבַמְּבוֹאוֹת הָאֲפֵלִים,",
+    "en": "and in dark alleyways,",
+    "explain": "So people will not get hurt.",
+    "st": "Similarly, lamps should be kindled <b>in dark alleyways,</b> so people will not be hurt,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַמְּבוֹאוֹת",
+      "en": "and in the alleyways"
+     },
+     {
+      "he": "הָאֲפֵלִים,",
+      "en": "the dark"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל גַּבֵּי הַחוֹלִים:",
+    "en": "and next to sick people.",
+    "st": "<b>and next to the sick.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "הַחוֹלִים:",
+      "en": "the sick"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 5,
+  "summary": "Some places had a custom to work on Tisha B'Av, and some did not. The mishnah also tells how the people of Yehuda and the Galil worked on Erev Pesach.",
+  "stIntro": "This mishna continues the previous discussion of customs.",
+  "chunks": [
+   {
+    "he": "מָקוֹם שֶׁנָּהֲגוּ לַעֲשׂוֹת מְלָאכָה בְתִשְׁעָה בְאָב,",
+    "en": "In a place where people are used to working on Tisha B'Av,",
+    "st": "In <b>a place where</b> people <b>were accustomed to perform labor on the Ninth of Av,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "לַעֲשׂוֹת",
+      "en": "to do"
+     },
+     {
+      "he": "מְלָאכָה",
+      "en": "work"
+     },
+     {
+      "he": "בְתִשְׁעָה",
+      "en": "on the ninth"
+     },
+     {
+      "he": "בְאָב,",
+      "en": "of Av"
+     }
+    ]
+   },
+   {
+    "he": "עוֹשִׂין. מָקוֹם שֶׁנָּהֲגוּ שֶׁלֹּא לַעֲשׂוֹת מְלָאכָה,",
+    "en": "we may work. In a place where they are used not to work,",
+    "st": "<b>one performs</b> labor. In <b>a place where</b> people <b>were accustomed not to perform labor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹשִׂין.",
+      "en": "they work"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they were used"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לַעֲשׂוֹת",
+      "en": "to do"
+     },
+     {
+      "he": "מְלָאכָה,",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "אֵין עוֹשִׂין.",
+    "en": "we may not work.",
+    "st": "one does <b>not perform</b> labor.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "עוֹשִׂין.",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "וּבְכָל מָקוֹם תַּלְמִידֵי חֲכָמִים בְּטֵלִים.",
+    "en": "And in every place Torah scholars stop working.",
+    "explain": "They are sad about the Beis Hamikdash.",
+    "st": "<b>And in all places Torah scholars are idle</b> and do not perform labor on the Ninth of Av, due to the mourning over the Temple’s destruction.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְכָל",
+      "en": "and in every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "תַּלְמִידֵי",
+      "en": "students of"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the wise",
+      "note": "Torah scholars."
+     },
+     {
+      "he": "בְּטֵלִים.",
+      "en": "are idle"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לְעוֹלָם יַעֲשֶׂה אָדָם עַצְמוֹ תַּלְמִיד חָכָם.",
+    "en": "a person should always act like a Torah scholar.",
+    "explain": "He should not work on Tisha B'Av.",
+    "st": "With regard to the Ninth of Av, <b>a person should always conduct himself</b> as <b>a Torah scholar</b> and refrain from performing labor.",
+    "stMore": "Apropos the discussion of performing labor on Passover eve, differences in other customs were cited.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְעוֹלָם",
+      "en": "always"
+     },
+     {
+      "he": "יַעֲשֶׂה",
+      "en": "should make"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "תַּלְמִיד",
+      "en": "a student of"
+     },
+     {
+      "he": "חָכָם.",
+      "en": "a wise man"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בִּיהוּדָה הָיוּ עוֹשִׂין מְלָאכָה",
+    "en": "in Yehuda they used to work",
+    "st": "<b>In Judea,</b> people <b>would perform labor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּיהוּדָה",
+      "en": "in Yehuda"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "doing"
+     },
+     {
+      "he": "מְלָאכָה",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "בְעַרְבֵי פְסָחִים עַד חֲצוֹת,",
+    "en": "on Erev Pesach until midday,",
+    "st": "<b>on Passover eves until midday,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְעַרְבֵי",
+      "en": "on the eves of"
+     },
+     {
+      "he": "פְסָחִים",
+      "en": "Pesach"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "חֲצוֹת,",
+      "en": "midday"
+     }
+    ]
+   },
+   {
+    "he": "וּבַגָּלִיל לֹא הָיוּ עוֹשִׂין כָּל עִקָּר.",
+    "en": "and in the Galil they did not work at all.",
+    "st": "<b>and in the Galilee</b> people <b>would not perform</b> labor on Passover eve <b>at all.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַגָּלִיל",
+      "en": "and in the Galil"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "doing"
+     },
+     {
+      "he": "כָּל",
+      "en": "at all"
+     },
+     {
+      "he": "עִקָּר.",
+      "en": "main"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלַּיְלָה, בֵּית שַׁמַּאי אוֹסְרִין,",
+    "en": "And at night, Beis Shammai forbid working,",
+    "explain": "The night before Erev Pesach.",
+    "st": "With regard to performing labor on <b>the night</b> before Passover eve, the night between the thirteenth and fourteenth of Nisan, <b>Beit Shammai prohibit</b> performing labor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלַּיְלָה,",
+      "en": "and the night"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹסְרִין,",
+      "en": "forbid"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַתִּירִין עַד הָנֵץ הַחַמָּה:",
+    "en": "and Beis Hillel allow it until sunrise.",
+    "st": "<b>and Beit Hillel permit</b> doing so <b>until sunrise.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַתִּירִין",
+      "en": "allow"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "הָנֵץ",
+      "en": "the shining of"
+     },
+     {
+      "he": "הַחַמָּה:",
+      "en": "the sun"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 6,
+  "summary": "Rabbi Meir and the Sages argue about what work may be done on Erev Pesach before midday.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מְלָאכָה שֶׁהִתְחִיל בָּהּ",
+    "en": "any work that he started",
+    "st": "With regard to <b>any labor that one began</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "מְלָאכָה",
+      "en": "work"
+     },
+     {
+      "he": "שֶׁהִתְחִיל",
+      "en": "that he started"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "קֹדֶם לְאַרְבָּעָה עָשָׂר,",
+    "en": "before the fourteenth,",
+    "st": "<b>before the fourteenth</b> of Nisan,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קֹדֶם",
+      "en": "before"
+     },
+     {
+      "he": "לְאַרְבָּעָה",
+      "en": "to four"
+     },
+     {
+      "he": "עָשָׂר,",
+      "en": "ten",
+      "note": "The fourteenth of Nisan, Erev Pesach."
+     }
+    ]
+   },
+   {
+    "he": "גּוֹמְרָהּ בְּאַרְבָּעָה עָשָׂר.",
+    "en": "he may finish it on the fourteenth.",
+    "st": "<b>he may complete it on the fourteenth</b> before midday.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹמְרָהּ",
+      "en": "he finishes it"
+     },
+     {
+      "he": "בְּאַרְבָּעָה",
+      "en": "on four"
+     },
+     {
+      "he": "עָשָׂר.",
+      "en": "ten"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא יַתְחִיל בָּהּ",
+    "en": "But he should not begin it",
+    "st": "<b>However, one</b> may <b>not begin</b> to perform that labor",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַתְחִיל",
+      "en": "he should begin"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "בַּתְּחִלָּה בְאַרְבָּעָה עָשָׂר,",
+    "en": "from the start on the fourteenth,",
+    "st": "<b>from the outset on the fourteenth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּתְּחִלָּה",
+      "en": "at the start"
+     },
+     {
+      "he": "בְאַרְבָּעָה",
+      "en": "on four"
+     },
+     {
+      "he": "עָשָׂר,",
+      "en": "ten"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁיָּכוֹל לְגָמְרָהּ.",
+    "en": "even if he could finish it.",
+    "st": "<b>even if he is able to complete it</b> before midday.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁיָּכוֹל",
+      "en": "that he can"
+     },
+     {
+      "he": "לְגָמְרָהּ.",
+      "en": "to finish it"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "שָׁלֹשׁ אֻמָּנֻיּוֹת עוֹשִׂין מְלָאכָה",
+    "en": "three kinds of workers may do work",
+    "st": "The practitioners of only <b>three crafts</b> are permitted to <b>perform labor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלֹשׁ",
+      "en": "three"
+     },
+     {
+      "he": "אֻמָּנֻיּוֹת",
+      "en": "crafts"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "do"
+     },
+     {
+      "he": "מְלָאכָה",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "בְעַרְבֵי פְסָחִים עַד חֲצוֹת,",
+    "en": "on Erev Pesach until midday,",
+    "st": "<b>until midday on Passover eve,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְעַרְבֵי",
+      "en": "on the eves of"
+     },
+     {
+      "he": "פְסָחִים",
+      "en": "Pesach"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "חֲצוֹת,",
+      "en": "midday"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ הֵן,",
+    "en": "and they are:",
+    "st": "<b>and they are:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "הֵן,",
+      "en": "they are"
+     }
+    ]
+   },
+   {
+    "he": "הַחַיָּטִים, הַסַּפָּרִים וְהַכּוֹבְסִין.",
+    "en": "tailors, barbers, and launderers.",
+    "explain": "Their work is needed for Yom Tov.",
+    "st": "<b>Tailors, barbers, and launderers,</b>",
+    "stMore": "whose work is needed for the Festival.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחַיָּטִים,",
+      "en": "the tailors"
+     },
+     {
+      "he": "הַסַּפָּרִים",
+      "en": "the barbers",
+      "note": "Who cut hair."
+     },
+     {
+      "he": "וְהַכּוֹבְסִין.",
+      "en": "and the launderers",
+      "note": "Who wash clothes."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי בַּר יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yosei bar Yehuda says,",
+    "st": "<b>Rabbi Yosei bar Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "בַּר",
+      "en": "son of"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הָרַצְעָנִים:",
+    "en": "also shoemakers.",
+    "st": "<b>Even shoemakers</b> are permitted to work on the fourteenth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הָרַצְעָנִים:",
+      "en": "the shoemakers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 7,
+  "summary": "This mishnah teaches about taking care of hens and animals, and bringing things to a craftsman, on Erev Pesach and Chol Hamoed.",
+  "stIntro": "This mishna continues the discussion of the halakhot of Passover eve.",
+  "chunks": [
+   {
+    "he": "מוֹשִׁיבִין שׁוֹבָכִין לַתַּרְנְגוֹלִים בְּאַרְבָּעָה עָשָׂר.",
+    "en": "We may put eggs under hens to sit on them on the fourteenth.",
+    "st": "<b>One may place eggs under hens</b> on the <b>fourteenth</b> of Nisan so that the birds will brood until the eggs hatch.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹשִׁיבִין",
+      "en": "they set up"
+     },
+     {
+      "he": "שׁוֹבָכִין",
+      "en": "nests"
+     },
+     {
+      "he": "לַתַּרְנְגוֹלִים",
+      "en": "for the hens"
+     },
+     {
+      "he": "בְּאַרְבָּעָה",
+      "en": "on four"
+     },
+     {
+      "he": "עָשָׂר.",
+      "en": "ten"
+     }
+    ]
+   },
+   {
+    "he": "וְתַרְנְגֹלֶת שֶׁבָּרְחָה,",
+    "en": "And a hen that ran away,",
+    "st": "<b>And</b> if a <b>hen fled</b> from brooding,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְתַרְנְגֹלֶת",
+      "en": "and a hen"
+     },
+     {
+      "he": "שֶׁבָּרְחָה,",
+      "en": "that ran away"
+     }
+    ]
+   },
+   {
+    "he": "מַחֲזִירִין אוֹתָהּ לִמְקוֹמָהּ.",
+    "en": "we may put it back in its place.",
+    "st": "<b>one</b> may <b>restore it to its place.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַחֲזִירִין",
+      "en": "they bring back"
+     },
+     {
+      "he": "אוֹתָהּ",
+      "en": "it"
+     },
+     {
+      "he": "לִמְקוֹמָהּ.",
+      "en": "to its place"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מֵתָה,",
+    "en": "And if it died,",
+    "st": "<b>And if</b> a brooding hen <b>died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מֵתָה,",
+      "en": "it died"
+     }
+    ]
+   },
+   {
+    "he": "מוֹשִׁיבִין אַחֶרֶת תַּחְתֶּיהָ.",
+    "en": "we may put another one in its place.",
+    "st": "<b>one</b> may <b>place another in its stead.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹשִׁיבִין",
+      "en": "they set"
+     },
+     {
+      "he": "אַחֶרֶת",
+      "en": "another"
+     },
+     {
+      "he": "תַּחְתֶּיהָ.",
+      "en": "in its place"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹרְפִין מִתַּחַת רַגְלֵי בְהֵמָה בְאַרְבָּעָה עָשָׂר,",
+    "en": "We may sweep from under an animal's feet on the fourteenth,",
+    "st": "Similarly, <b>one may sweep</b> dung <b>from beneath the legs of an animal</b> on <b>the fourteenth</b> of Nisan.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹרְפִין",
+      "en": "they sweep"
+     },
+     {
+      "he": "מִתַּחַת",
+      "en": "from under"
+     },
+     {
+      "he": "רַגְלֵי",
+      "en": "the feet of"
+     },
+     {
+      "he": "בְהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "בְאַרְבָּעָה",
+      "en": "on four"
+     },
+     {
+      "he": "עָשָׂר,",
+      "en": "ten"
+     }
+    ]
+   },
+   {
+    "he": "וּבַמּוֹעֵד מְסַלְּקִין לַצְּדָדִין.",
+    "en": "and on Chol Hamoed we may push it to the sides.",
+    "st": "<b>And during</b> the intermediate days of the <b>Festival one may clear</b> it <b>to the sides.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַמּוֹעֵד",
+      "en": "and on the Moed",
+      "note": "Chol Hamoed."
+     },
+     {
+      "he": "מְסַלְּקִין",
+      "en": "they move it"
+     },
+     {
+      "he": "לַצְּדָדִין.",
+      "en": "to the sides"
+     }
+    ]
+   },
+   {
+    "he": "מוֹלִיכִין וּמְבִיאִין כֵּלִים מִבֵּית הָאֻמָּן,",
+    "en": "We may take and bring things to and from the craftsman's house,",
+    "st": "Similarly, <b>one</b> may <b>take vessels to the craftsman’s house</b> for repair <b>and bring</b> others from there",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹלִיכִין",
+      "en": "they take"
+     },
+     {
+      "he": "וּמְבִיאִין",
+      "en": "and they bring"
+     },
+     {
+      "he": "כֵּלִים",
+      "en": "things"
+     },
+     {
+      "he": "מִבֵּית",
+      "en": "from the house of"
+     },
+     {
+      "he": "הָאֻמָּן,",
+      "en": "the craftsman"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵינָם לְצֹרֶךְ הַמּוֹעֵד:",
+    "en": "even if they are not needed for Yom Tov.",
+    "st": "<b>even though they are not for the purpose of the Festival.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁאֵינָם",
+      "en": "that they are not"
+     },
+     {
+      "he": "לְצֹרֶךְ",
+      "en": "for the need of"
+     },
+     {
+      "he": "הַמּוֹעֵד:",
+      "en": "the Moed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 8,
+  "summary": "The people of Yericho did six things differently. The Sages protested three of them and did not protest the other three.",
+  "stIntro": "The mishna continues the discussion of the halakhot of Passover eve, along with other local customs.",
+  "chunks": [
+   {
+    "he": "שִׁשָּׁה דְבָרִים עָשׂוּ אַנְשֵׁי יְרִיחוֹ,",
+    "en": "The people of Yericho did six things.",
+    "st": "<b>Six actions were performed by the</b> Jewish <b>residents of Jericho,</b> contrary to common practice.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁשָּׁה",
+      "en": "six"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "עָשׂוּ",
+      "en": "did"
+     },
+     {
+      "he": "אַנְשֵׁי",
+      "en": "the people of"
+     },
+     {
+      "he": "יְרִיחוֹ,",
+      "en": "Yericho"
+     }
+    ]
+   },
+   {
+    "he": "עַל שְׁלֹשָׁה מִחוּ בְיָדָם,",
+    "en": "About three, the Sages protested to them,",
+    "st": "With regard <b>to three,</b> the Sages <b>reprimanded them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "מִחוּ",
+      "en": "they protested"
+     },
+     {
+      "he": "בְיָדָם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל שְׁלֹשָׁה לֹא מִחוּ בְיָדָם.",
+    "en": "and about three, they did not protest.",
+    "st": "<b>and</b> with regard <b>to three,</b> the Sages <b>did not reprimand them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and about"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִחוּ",
+      "en": "they protested"
+     },
+     {
+      "he": "בְיָדָם.",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ הֵן שֶׁלֹּא מִחוּ בְיָדָם,",
+    "en": "These are the ones they did not protest:",
+    "st": "<b>And these are the ones</b> with regard to <b>which they did not reprimand them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "הֵן",
+      "en": "they are"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "מִחוּ",
+      "en": "they protested"
+     },
+     {
+      "he": "בְיָדָם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "מַרְכִּיבִין דְּקָלִים כָּל הַיּוֹם,",
+    "en": "They grafted palm trees all day long,",
+    "explain": "On Erev Pesach, all day long.",
+    "st": "The residents of Jericho would <b>graft palm trees the entire day</b> on the fourteenth of Nisan;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַרְכִּיבִין",
+      "en": "they grafted"
+     },
+     {
+      "he": "דְּקָלִים",
+      "en": "palm trees"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַיּוֹם,",
+      "en": "the day"
+     }
+    ]
+   },
+   {
+    "he": "וְכוֹרְכִין אֶת שְׁמַע,",
+    "en": "and they \"wrapped together\" Shema,",
+    "explain": "They said Shema without the usual pauses.",
+    "st": "<b>and</b> they would <b>bundle Shema,</b> as explained in the Gemara;",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "The explanation follows Bartenura.",
+    "words": [
+     {
+      "he": "וְכוֹרְכִין",
+      "en": "and they wrapped together"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שְׁמַע,",
+      "en": "Shema"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹצְרִין וְגוֹדְשִׁין לִפְנֵי הָעֹמֶר,",
+    "en": "and they cut and piled up grain before the Omer,",
+    "st": "<b>and</b> they would <b>harvest and pile</b> grain <b>before the omer</b> offering",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹצְרִין",
+      "en": "and they cut"
+     },
+     {
+      "he": "וְגוֹדְשִׁין",
+      "en": "and they piled up"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "הָעֹמֶר,",
+      "en": "the Omer",
+      "note": "The korban of new barley on the second day of Pesach."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מִחוּ בְיָדָם.",
+    "en": "and they did not protest to them.",
+    "st": "was brought.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִחוּ",
+      "en": "they protested"
+     },
+     {
+      "he": "בְיָדָם.",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ שֶׁמִּחוּ בְיָדָם,",
+    "en": "And these are the ones they protested:",
+    "st": "<b>And these are the ones</b> with regard to which the Sages <b>reprimanded them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "שֶׁמִּחוּ",
+      "en": "that they protested"
+     },
+     {
+      "he": "בְיָדָם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "מַתִּירִין גִּמְזִיּוֹת שֶׁל הֶקְדֵּשׁ,",
+    "en": "they allowed the branches of hekdesh trees,",
+    "st": "They would <b>permit</b> the use of <b>consecrated branches</b> of carob or sycamore trees.",
+    "stMore": "This refers to trees whose branches were cut and consecrated for Temple upkeep, which subsequently sprouted new branches;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַתִּירִין",
+      "en": "they allowed"
+     },
+     {
+      "he": "גִּמְזִיּוֹת",
+      "en": "branches"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "הֶקְדֵּשׁ,",
+      "en": "hekdesh",
+      "note": "Belonging to the Beis Hamikdash."
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹכְלִין מִתַּחַת הַנְּשָׁרִים בְּשַׁבָּת,",
+    "en": "and they ate fruit fallen under trees on Shabbos,",
+    "explain": "Maybe the fruit fell on Shabbos, and then it may not be eaten.",
+    "st": "<b>and</b> they would <b>eat</b> fallen fruit <b>from beneath</b> palm <b>trees that shed fruit</b> that had fallen <b>on Shabbat;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹכְלִין",
+      "en": "and they ate"
+     },
+     {
+      "he": "מִתַּחַת",
+      "en": "from under"
+     },
+     {
+      "he": "הַנְּשָׁרִים",
+      "en": "the dropping trees"
+     },
+     {
+      "he": "בְּשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתְנִים פֵּאָה לַיָּרָק,",
+    "en": "and they gave pe'ah from vegetables,",
+    "explain": "Vegetables do not need pe'ah.",
+    "st": "<b>and they</b> would <b>designate</b> the produce in the <b>corner</b> for the poor in a field of <b>vegetables,</b> which is exempt from this obligation even by rabbinic law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתְנִים",
+      "en": "and they gave"
+     },
+     {
+      "he": "פֵּאָה",
+      "en": "pe'ah",
+      "note": "The corner of the field left for the poor."
+     },
+     {
+      "he": "לַיָּרָק,",
+      "en": "to the vegetables"
+     }
+    ]
+   },
+   {
+    "he": "וּמִחוּ בְיָדָם חֲכָמִים:",
+    "en": "and the Sages protested to them.",
+    "st": "<b>And the Sages reprimanded</b> the people of Jericho for doing these three things.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִחוּ",
+      "en": "and they protested"
+     },
+     {
+      "he": "בְיָדָם",
+      "en": "to them"
+     },
+     {
+      "he": "חֲכָמִים:",
+      "en": "the Sages"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 9,
+  "summary": "King Chizkiyahu did six things. The Sages agreed with three of them and did not agree with the other three.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שִׁשָּׁה דְבָרִים עָשָׂה חִזְקִיָּה הַמֶּלֶךְ,",
+    "en": "King Chizkiyahu did six things.",
+    "st": "<b>The Sages taught: King Hezekiah performed six actions.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁשָּׁה",
+      "en": "six"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "עָשָׂה",
+      "en": "did"
+     },
+     {
+      "he": "חִזְקִיָּה",
+      "en": "Chizkiyahu"
+     },
+     {
+      "he": "הַמֶּלֶךְ,",
+      "en": "the king"
+     }
+    ]
+   },
+   {
+    "he": "עַל שְׁלֹשָׁה הוֹדוּ לוֹ,",
+    "en": "The Sages agreed with him about three,",
+    "st": "<b>With regard to three</b> of them, the Sages of his generation <b>conceded to him;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "they agreed"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל שְׁלֹשָׁה לֹא הוֹדוּ לוֹ.",
+    "en": "and about three they did not agree with him.",
+    "st": "<b>and with regard to three</b> of them, the Sages <b>did not concede to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and about"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "they agreed"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "גֵּרַר עַצְמוֹת אָבִיו עַל",
+    "en": "He dragged his father's bones on",
+    "explain": "His father Achaz was wicked, so he did not give him a king's honor.",
+    "st": "Due to King Hezekiah’s father’s wickedness, <b>he dragged the bones of his father</b> Ahaz",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּרַר",
+      "en": "he dragged"
+     },
+     {
+      "he": "עַצְמוֹת",
+      "en": "the bones of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "מִטָּה שֶׁל חֲבָלִים,",
+    "en": "a simple bed of ropes,",
+    "st": "<b>on a bier of ropes</b> and did not afford him the respect due to a king,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִטָּה",
+      "en": "a bed"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חֲבָלִים,",
+      "en": "ropes"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹדוּ לוֹ.",
+    "en": "and they agreed with him.",
+    "st": "<b>and</b> the Sages <b>conceded to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹדוּ",
+      "en": "and they agreed"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "כִּתֵּת נְחַשׁ הַנְּחֹשֶׁת,",
+    "en": "He crushed the copper snake,",
+    "explain": "The snake Moshe made in the desert. People began to worship it.",
+    "st": "<b>He ground the copper snake</b> that Moses fashioned in the desert because Israel worshipped it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּתֵּת",
+      "en": "he crushed"
+     },
+     {
+      "he": "נְחַשׁ",
+      "en": "the snake of"
+     },
+     {
+      "he": "הַנְּחֹשֶׁת,",
+      "en": "the copper"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹדוּ לוֹ.",
+    "en": "and they agreed with him.",
+    "st": "<b>and</b> the Sages <b>conceded to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹדוּ",
+      "en": "and they agreed"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַז סֵפֶר רְפוּאוֹת,",
+    "en": "He hid away the Book of Cures,",
+    "st": "<b>He suppressed the Book of Cures,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַז",
+      "en": "he hid away"
+     },
+     {
+      "he": "סֵפֶר",
+      "en": "the book of"
+     },
+     {
+      "he": "רְפוּאוֹת,",
+      "en": "cures"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹדוּ לוֹ.",
+    "en": "and they agreed with him.",
+    "st": "<b>and they conceded to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹדוּ",
+      "en": "and they agreed"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "עַל שְׁלֹשָׁה לֹא הוֹדוּ לוֹ,",
+    "en": "About three they did not agree with him:",
+    "st": "<b>And with regard to three</b> actions, the Sages <b>did not concede to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "they agreed"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "קִצֵּץ דְּלָתוֹת שֶׁל הֵיכָל",
+    "en": "He cut off the doors of the Heichal",
+    "st": "<b>He cut off the doors of the Sanctuary</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִצֵּץ",
+      "en": "he cut off"
+     },
+     {
+      "he": "דְּלָתוֹת",
+      "en": "the doors"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "הֵיכָל",
+      "en": "the Heichal",
+      "note": "The holy building of the Beis Hamikdash."
+     }
+    ]
+   },
+   {
+    "he": "וְשִׁגְּרָן לְמֶלֶךְ אַשּׁוּר,",
+    "en": "and sent them to the king of Ashur,",
+    "st": "<b>and sent them to the King of Assyria,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשִׁגְּרָן",
+      "en": "and he sent them"
+     },
+     {
+      "he": "לְמֶלֶךְ",
+      "en": "to the king of"
+     },
+     {
+      "he": "אַשּׁוּר,",
+      "en": "Ashur"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הוֹדוּ לוֹ.",
+    "en": "and they did not agree with him.",
+    "st": "<b>and they did not concede to him</b> because he thereby demeaned the Temple.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "they agreed"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "סָתַם מֵי גִיחוֹן הָעֶלְיוֹן,",
+    "en": "He closed up the waters of the upper Gichon,",
+    "st": "<b>He sealed the waters of the upper Gihon</b> stream, diverting its water into the city by means of a tunnel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סָתַם",
+      "en": "he closed up"
+     },
+     {
+      "he": "מֵי",
+      "en": "the waters of"
+     },
+     {
+      "he": "גִיחוֹן",
+      "en": "Gichon",
+      "note": "A spring near Yerushalayim."
+     },
+     {
+      "he": "הָעֶלְיוֹן,",
+      "en": "the upper"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הוֹדוּ לוֹ.",
+    "en": "and they did not agree with him.",
+    "st": "<b>and they did not concede to him,</b>",
+    "stMore": "because he harmed the local populace in the process and should have relied upon God (Me’iri).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "they agreed"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "עִבֵּר נִיסָן בְּנִיסָן,",
+    "en": "He made a leap year by adding a month in Nisan,",
+    "explain": "He added a second Adar when it was already time for Nisan.",
+    "st": "<b>He intercalated</b> the year, delaying the advent of the month <b>of Nisan during Nisan,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עִבֵּר",
+      "en": "he made a leap year"
+     },
+     {
+      "he": "נִיסָן",
+      "en": "Nisan"
+     },
+     {
+      "he": "בְּנִיסָן,",
+      "en": "in Nisan"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הוֹדוּ לוֹ:",
+    "en": "and they did not agree with him.",
+    "st": "<b>and they did not concede to him.</b>",
+    "stMore": "The Gemara explains that he declared the first of Nisan to be the thirtieth of Adar and only then intercalated the year (see II Chronicles 30:2).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "they agreed"
+     },
+     {
+      "he": "לוֹ:",
+      "en": "with him"
+     }
+    ]
+   }
+  ]
+ }
+]

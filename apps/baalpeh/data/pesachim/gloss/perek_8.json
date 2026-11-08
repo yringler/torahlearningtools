@@ -1,0 +1,2227 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "When two people shechted a korban Pesach for the same person, whose korban does he eat from? This mishnah teaches about a wife, an orphan, and a servant.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאִשָּׁה בִּזְמַן שֶׁהִיא בְּבֵית בַּעְלָהּ,",
+    "en": "A woman, while she lives in her husband's house,",
+    "st": "<b>A woman, when she is</b> living <b>in her husband’s house,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "is in the house of"
+     },
+     {
+      "he": "בַּעְלָהּ,",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "שָׁחַט עָלֶיהָ בַּעְלָהּ וְשָׁחַט עָלֶיהָ אָבִיהָ,",
+    "en": "if her husband shechted for her and her father shechted for her,",
+    "st": "if <b>her husband slaughtered</b> the Paschal lamb <b>on her behalf and her father</b> also <b>slaughtered</b> the Paschal lamb <b>on her behalf,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁחַט",
+      "en": "shechted"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "בַּעְלָהּ",
+      "en": "her husband"
+     },
+     {
+      "he": "וְשָׁחַט",
+      "en": "and shechted"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "אָבִיהָ,",
+      "en": "her father"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאכַל מִשֶּׁל בַּעְלָהּ.",
+    "en": "she should eat from her husband's.",
+    "explain": "We assume she wants to be in her husband's group.",
+    "st": "<b>she</b> should <b>eat from her husband’s</b> lamb",
+    "stMore": "because it is assumed that the wife intended to be included in her husband’s group.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאכַל",
+      "en": "she should eat"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from that of"
+     },
+     {
+      "he": "בַּעְלָהּ.",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "הָלְכָה רֶגֶל רִאשׁוֹן לַעֲשׂוֹת בְּבֵית אָבִיהָ,",
+    "en": "If she went on the first Yom Tov to spend it in her father's house,",
+    "st": "However, if, as was often customary, <b>she went on the first Festival</b> following her marriage <b>to observe</b> the Festival <b>in her father’s house,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָלְכָה",
+      "en": "she went"
+     },
+     {
+      "he": "רֶגֶל",
+      "en": "Yom Tov"
+     },
+     {
+      "he": "רִאשׁוֹן",
+      "en": "first",
+      "note": "The first Yom Tov after her wedding."
+     },
+     {
+      "he": "לַעֲשׂוֹת",
+      "en": "to spend"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "אָבִיהָ,",
+      "en": "her father"
+     }
+    ]
+   },
+   {
+    "he": "שָׁחַט עָלֶיהָ אָבִיהָ וְשָׁחַט עָלֶיהָ בַּעְלָהּ,",
+    "en": "and her father shechted for her and her husband shechted for her,",
+    "st": "then, if both <b>her husband slaughtered</b> the Paschal lamb <b>on her behalf and her father</b> also <b>slaughtered</b> the Paschal lamb <b>on her behalf,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁחַט",
+      "en": "shechted"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "אָבִיהָ",
+      "en": "her father"
+     },
+     {
+      "he": "וְשָׁחַט",
+      "en": "and shechted"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "בַּעְלָהּ,",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאכַל בִּמְקוֹם שֶׁהִיא רוֹצָה.",
+    "en": "she may eat in the place she wants.",
+    "st": "<b>she</b> may <b>eat in</b> whichever <b>place she wishes,</b>",
+    "stMore": "since it is not obvious with whose group she intended to be included.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאכַל",
+      "en": "she should eat"
+     },
+     {
+      "he": "בִּמְקוֹם",
+      "en": "in the place"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "רוֹצָה.",
+      "en": "wants"
+     }
+    ]
+   },
+   {
+    "he": "יָתוֹם שֶׁשָּׁחֲטוּ עָלָיו אַפֹּטְרוֹפְּסִין,",
+    "en": "An orphan whose guardians shechted for him,",
+    "st": "In the case of <b>an orphan</b> with multiple guardians, if each of his <b>guardians [apotropsin] slaughtered</b> a Paschal lamb <b>on his behalf,</b> intending that he be included in their group,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָתוֹם",
+      "en": "an orphan"
+     },
+     {
+      "he": "שֶׁשָּׁחֲטוּ",
+      "en": "that shechted"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for him"
+     },
+     {
+      "he": "אַפֹּטְרוֹפְּסִין,",
+      "en": "guardians",
+      "note": "Grown-ups who take care of an orphan."
+     }
+    ]
+   },
+   {
+    "he": "יֹאכַל בִּמְקוֹם שֶׁהוּא רוֹצֶה.",
+    "en": "may eat in the place he wants.",
+    "st": "he may <b>eat in</b> whichever <b>place he wishes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֹאכַל",
+      "en": "he should eat"
+     },
+     {
+      "he": "בִּמְקוֹם",
+      "en": "in the place"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "רוֹצֶה.",
+      "en": "wants"
+     }
+    ]
+   },
+   {
+    "he": "עֶבֶד שֶׁל שְׁנֵי שֻׁתָּפִין,",
+    "en": "A servant of two partners",
+    "st": "<b>A slave</b> jointly owned <b>by two partners</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֶבֶד",
+      "en": "a servant"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "שֻׁתָּפִין,",
+      "en": "partners"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יֹאכַל מִשֶּׁל שְׁנֵיהֶן.",
+    "en": "may not eat from either of theirs.",
+    "explain": "Unless they agreed first whose korban he will eat from.",
+    "st": "may <b>not eat from</b> the lamb of <b>either of them,</b>",
+    "stMore": "unless it was stipulated beforehand from whose lamb he will partake.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאכַל",
+      "en": "he should eat"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from that of"
+     },
+     {
+      "he": "שְׁנֵיהֶן.",
+      "en": "both of them"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁחֶצְיוֹ עֶבֶד וְחֶצְיוֹ בֶן חוֹרִין,",
+    "en": "One who is half a servant and half free,",
+    "st": "<b>One who is half slave and half free man</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁחֶצְיוֹ",
+      "en": "that his half"
+     },
+     {
+      "he": "עֶבֶד",
+      "en": "a servant"
+     },
+     {
+      "he": "וְחֶצְיוֹ",
+      "en": "and his half"
+     },
+     {
+      "he": "בֶן",
+      "en": "a son of"
+     },
+     {
+      "he": "חוֹרִין,",
+      "en": "freedom"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יֹאכַל מִשֶּׁל רַבּוֹ:",
+    "en": "may not eat from his master's.",
+    "st": "<b>may not eat from his master’s</b> lamb.",
+    "stMore": "It is assumed that the master did not intend to allow this person’s free half to partake of the lamb, and therefore the master did not slaughter the lamb with him in mind. Consequently, the half slave is not included among those registered for his master’s offering unless he was explicitly included.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאכַל",
+      "en": "he should eat"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from that of"
+     },
+     {
+      "he": "רַבּוֹ:",
+      "en": "his master"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "A master sent his servant to shecht his korban Pesach. This mishnah teaches what happens if the servant forgot which animal the master asked for.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר לְעַבְדּוֹ,",
+    "en": "One who says to his servant,",
+    "st": "In the case of <b>one who says to his slave:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לְעַבְדּוֹ,",
+      "en": "to his servant"
+     }
+    ]
+   },
+   {
+    "he": "צֵא וּשְׁחֹט עָלַי אֶת הַפֶּסַח,",
+    "en": "\"Go and shecht the korban Pesach for me,\"",
+    "st": "<b>Go and slaughter the Paschal offering on my behalf,</b>",
+    "stMore": "but does not specify which type of animal to slaughter, the halakha is as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צֵא",
+      "en": "go out"
+     },
+     {
+      "he": "וּשְׁחֹט",
+      "en": "and shecht"
+     },
+     {
+      "he": "עָלַי",
+      "en": "for me"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפֶּסַח,",
+      "en": "the Pesach"
+     }
+    ]
+   },
+   {
+    "he": "שָׁחַט גְּדִי,",
+    "en": "if he shechted a young goat,",
+    "st": "If the slave <b>slaughtered a kid,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁחַט",
+      "en": "he shechted"
+     },
+     {
+      "he": "גְּדִי,",
+      "en": "a young goat"
+     }
+    ]
+   },
+   {
+    "he": "יֹאכַל. שָׁחַט טָלֶה,",
+    "en": "he may eat it. If he shechted a lamb,",
+    "st": "his master <b>may eat</b> it; if <b>he slaughtered a lamb,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֹאכַל.",
+      "en": "he may eat"
+     },
+     {
+      "he": "שָׁחַט",
+      "en": "he shechted"
+     },
+     {
+      "he": "טָלֶה,",
+      "en": "a lamb"
+     }
+    ]
+   },
+   {
+    "he": "יֹאכַל. שָׁחַט גְּדִי וְטָלֶה,",
+    "en": "he may eat it. If he shechted a young goat and a lamb,",
+    "st": "his master <b>may eat</b> it. If the slave <b>slaughtered</b> both <b>a kid and a lamb,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֹאכַל.",
+      "en": "he may eat"
+     },
+     {
+      "he": "שָׁחַט",
+      "en": "he shechted"
+     },
+     {
+      "he": "גְּדִי",
+      "en": "a young goat"
+     },
+     {
+      "he": "וְטָלֶה,",
+      "en": "and a lamb"
+     }
+    ]
+   },
+   {
+    "he": "יֹאכַל מִן הָרִאשׁוֹן.",
+    "en": "he eats from the first one.",
+    "st": "his master <b>should eat from the first one</b> that was slaughtered;",
+    "stMore": "the second is invalid and should be burned.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֹאכַל",
+      "en": "he should eat"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָרִאשׁוֹן.",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "שָׁכַח מָה אָמַר לוֹ רַבּוֹ,",
+    "en": "If he forgot what his master told him,",
+    "st": "If the master had stated explicitly which type of animal to slaughter, but the slave <b>forgot what his master said to him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁכַח",
+      "en": "he forgot"
+     },
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבּוֹ,",
+      "en": "his master"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד יַעֲשֶׂה,",
+    "en": "what should he do?",
+    "st": "<b>what should he do?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "יַעֲשֶׂה,",
+      "en": "should he do"
+     }
+    ]
+   },
+   {
+    "he": "יִשְׁחַט טָלֶה וּגְדִי וְיֹאמַר,",
+    "en": "He should shecht a lamb and a young goat and say,",
+    "st": "<b>He should slaughter</b> both <b>a lamb and a kid and say</b> the following stipulation:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשְׁחַט",
+      "en": "he should shecht"
+     },
+     {
+      "he": "טָלֶה",
+      "en": "a lamb"
+     },
+     {
+      "he": "וּגְדִי",
+      "en": "and a young goat"
+     },
+     {
+      "he": "וְיֹאמַר,",
+      "en": "and say"
+     }
+    ]
+   },
+   {
+    "he": "אִם גְּדִי אָמַר לִי רַבִּי,",
+    "en": "\"If my master told me a young goat,",
+    "st": "<b>If my master said to me</b> that I should slaughter <b>a kid,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "גְּדִי",
+      "en": "a young goat"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "רַבִּי,",
+      "en": "my master"
+     }
+    ]
+   },
+   {
+    "he": "גְּדִי שֶׁלּוֹ וְטָלֶה שֶׁלִּי.",
+    "en": "the young goat is his and the lamb is mine.",
+    "st": "<b>the kid is</b> for <b>his</b> Paschal offering <b>and the lamb is</b> for <b>mine;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּדִי",
+      "en": "the young goat"
+     },
+     {
+      "he": "שֶׁלּוֹ",
+      "en": "is his"
+     },
+     {
+      "he": "וְטָלֶה",
+      "en": "and the lamb"
+     },
+     {
+      "he": "שֶׁלִּי.",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם טָלֶה אָמַר לִי רַבִּי,",
+    "en": "And if my master told me a lamb,",
+    "st": "<b>and if my master said to me</b> that I should slaughter <b>a lamb,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "טָלֶה",
+      "en": "a lamb"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "רַבִּי,",
+      "en": "my master"
+     }
+    ]
+   },
+   {
+    "he": "הַטָּלֶה שֶׁלּוֹ וּגְדִי שֶׁלִּי.",
+    "en": "the lamb is his and the young goat is mine.\"",
+    "st": "<b>the lamb is</b> for <b>his</b> Paschal offering <b>and the kid is</b> for <b>mine.</b>",
+    "stMore": "In this way, once the master ultimately clarifies what he had originally said, both animals may be used accordingly.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטָּלֶה",
+      "en": "the lamb"
+     },
+     {
+      "he": "שֶׁלּוֹ",
+      "en": "is his"
+     },
+     {
+      "he": "וּגְדִי",
+      "en": "and the young goat"
+     },
+     {
+      "he": "שֶׁלִּי.",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "שָׁכַח רַבּוֹ מָה אָמַר לוֹ,",
+    "en": "If his master forgot what he told him,",
+    "st": "If <b>his master</b> also <b>forgot what he said to him,</b> neither animal may be used, since it has not been clarified which of the animals the slave and master are registered for.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁכַח",
+      "en": "forgot"
+     },
+     {
+      "he": "רַבּוֹ",
+      "en": "his master"
+     },
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶם יֵצְאוּ לְבֵית הַשְּׂרֵפָה,",
+    "en": "both of them go out to the place of burning,",
+    "explain": "Nobody knows whose korban each one is.",
+    "st": "Therefore, <b>both of them,</b> the lamb and the kid, <b>go out to the place</b> designated <b>for burning,</b> in accordance with the halakha pertaining to offerings that may not be eaten.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "יֵצְאוּ",
+      "en": "will go out"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "הַשְּׂרֵפָה,",
+      "en": "the burning"
+     }
+    ]
+   },
+   {
+    "he": "וּפְטוּרִין מִלַּעֲשׂוֹת פֶּסַח שֵׁנִי:",
+    "en": "and they do not need to bring a korban on Pesach Sheni.",
+    "st": "However, despite this, both the master and slave are <b>exempt from observing the second Pesaḥ</b> if the blood of the animals has already been applied to the altar before the master forgot.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפְטוּרִין",
+      "en": "and they are free"
+     },
+     {
+      "he": "מִלַּעֲשׂוֹת",
+      "en": "from doing"
+     },
+     {
+      "he": "פֶּסַח",
+      "en": "Pesach"
+     },
+     {
+      "he": "שֵׁנִי:",
+      "en": "Sheni"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "A father promised the korban Pesach to whichever son reached Yerushalayim first. This mishnah also teaches until when people may join or leave a korban Pesach.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר לְבָנָיו,",
+    "en": "One who says to his sons,",
+    "st": "In the case of <b>one who says to his children:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לְבָנָיו,",
+      "en": "to his sons"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵינִי שׁוֹחֵט אֶת הַפֶּסַח עַל",
+    "en": "\"I am shechting the korban Pesach for",
+    "st": "<b>I am slaughtering the Paschal lamb on behalf of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I am"
+     },
+     {
+      "he": "שׁוֹחֵט",
+      "en": "shechting"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפֶּסַח",
+      "en": "the Pesach"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁיַּעֲלֶה מִכֶּם רִאשׁוֹן לִירוּשָׁלַיִם,",
+    "en": "whichever of you goes up first to Yerushalayim,\"",
+    "st": "<b>whomever of you goes up first to Jerusalem,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁיַּעֲלֶה",
+      "en": "that will go up"
+     },
+     {
+      "he": "מִכֶּם",
+      "en": "from you"
+     },
+     {
+      "he": "רִאשׁוֹן",
+      "en": "first"
+     },
+     {
+      "he": "לִירוּשָׁלַיִם,",
+      "en": "to Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיוָן שֶׁהִכְנִיס הָרִאשׁוֹן רֹאשׁוֹ וְרֻבּוֹ,",
+    "en": "once the first one brought in his head and most of his body,",
+    "st": "<b>as soon as the first</b> of the children <b>has entered his head and the majority of his</b> body into Jerusalem,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיוָן",
+      "en": "since"
+     },
+     {
+      "he": "שֶׁהִכְנִיס",
+      "en": "that brought in"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first one"
+     },
+     {
+      "he": "רֹאשׁוֹ",
+      "en": "his head"
+     },
+     {
+      "he": "וְרֻבּוֹ,",
+      "en": "and most of him"
+     }
+    ]
+   },
+   {
+    "he": "זָכָה בְחֶלְקוֹ וּמְזַכֶּה אֶת אֶחָיו עִמּוֹ.",
+    "en": "he gets his share and gets shares for his brothers with him.",
+    "explain": "The father really wanted all of them to be in the group.",
+    "st": "<b>he has acquired his portion and acquires</b> on behalf of <b>his brothers</b> their portions together <b>with him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָה",
+      "en": "he gets"
+     },
+     {
+      "he": "בְחֶלְקוֹ",
+      "en": "his share"
+     },
+     {
+      "he": "וּמְזַכֶּה",
+      "en": "and gets for"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֶחָיו",
+      "en": "his brothers"
+     },
+     {
+      "he": "עִמּוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "לְעוֹלָם נִמְנִין עָלָיו עַד שֶׁיְּהֵא",
+    "en": "People can always sign up for it, as long as there is",
+    "st": "Additional people <b>can always be registered for</b> a Paschal lamb, <b>as long as there will be</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְעוֹלָם",
+      "en": "always"
+     },
+     {
+      "he": "נִמְנִין",
+      "en": "they are counted"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "that there will be"
+     }
+    ]
+   },
+   {
+    "he": "בוֹ כַזַּיִת לְכָל אֶחָד וְאֶחָד.",
+    "en": "a kezayis of it for each and every one.",
+    "st": "at least <b>an olive-bulk</b> of the lamb’s meat <b>for each and every</b> person registered.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "an olive's size"
+     },
+     {
+      "he": "לְכָל",
+      "en": "for every"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "נִמְנִין וּמוֹשְׁכִין אֶת יְדֵיהֶן",
+    "en": "People may sign up and pull out",
+    "st": "People <b>can be registered and withdraw themselves from</b> being registered for a Paschal lamb",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְנִין",
+      "en": "they are counted"
+     },
+     {
+      "he": "וּמוֹשְׁכִין",
+      "en": "and they pull out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "יְדֵיהֶן",
+      "en": "their hands"
+     }
+    ]
+   },
+   {
+    "he": "מִמֶּנּוּ עַד שֶׁיִּשָּׁחֵט.",
+    "en": "from it until it is shechted.",
+    "st": "<b>until it is slaughtered.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from it"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּשָּׁחֵט.",
+      "en": "that it is shechted"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּזְרֹק עָלָיו אֶת הַדָּם:",
+    "en": "until he throws its blood.",
+    "st": "Even <b>until</b> the priest <b>sprinkles the blood.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּזְרֹק",
+      "en": "that he throws"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַדָּם:",
+      "en": "the blood"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "Someone in a korban Pesach group added another person to his share. This mishnah teaches what the rest of the group may do.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּמְנֶה עִמּוֹ אֲחֵרִים בְּחֶלְקוֹ,",
+    "en": "One who signs up other people with him in his share,",
+    "st": "If one who is registered for a Paschal lamb unilaterally <b>registers another</b> person <b>with him in his portion</b> of the Paschal lamb,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּמְנֶה",
+      "en": "one who counts"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "אֲחֵרִים",
+      "en": "others"
+     },
+     {
+      "he": "בְּחֶלְקוֹ,",
+      "en": "in his share"
+     }
+    ]
+   },
+   {
+    "he": "רַשָּׁאִין בְּנֵי חֲבוּרָה לִתֵּן",
+    "en": "the members of the group may give",
+    "st": "the other <b>members of</b> his <b>group are permitted to give him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַשָּׁאִין",
+      "en": "are allowed"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "the members of"
+     },
+     {
+      "he": "חֲבוּרָה",
+      "en": "the group"
+     },
+     {
+      "he": "לִתֵּן",
+      "en": "to give"
+     }
+    ]
+   },
+   {
+    "he": "לוֹ אֶת שֶׁלּוֹ,",
+    "en": "him his own share,",
+    "st": "i.e., the one who included the additional person, only <b>his</b> portion, which was originally allotted to him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שֶׁלּוֹ,",
+      "en": "his own"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹכֵל מִשֶּׁלּוֹ,",
+    "en": "and he eats from his,",
+    "st": "<b>And he,</b> the additional person, <b>eats from his</b> portion, i.e., the portion of he who added him;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "מִשֶּׁלּוֹ,",
+      "en": "from his own"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵן אוֹכְלִין מִשֶּׁלָּהֶן:",
+    "en": "and they eat from theirs.",
+    "explain": "They did not agree to add the new person.",
+    "st": "<b>and they,</b> the other members of the group, <b>eat from theirs.</b>",
+    "stMore": "This is because they did not agree to the inclusion of the additional person.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵן",
+      "en": "and they"
+     },
+     {
+      "he": "אוֹכְלִין",
+      "en": "eat"
+     },
+     {
+      "he": "מִשֶּׁלָּהֶן:",
+      "en": "from their own"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "People who had a kind of tumah and are becoming tahor: this mishnah teaches on which day a korban Pesach may already be shechted for them.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "זָב שֶׁרָאָה שְׁתֵּי רְאִיּוֹת,",
+    "en": "A zav who had it happen twice",
+    "explain": "He must count seven clean days and go to the mikvah.",
+    "st": "<b>A zav,</b> a man who experiences a gonorrheal discharge, <b>who saw two sightings</b> of discharge is ritually impure.",
+    "stMore": "To become ritually pure and able to partake of offerings, he must wait seven clean days during which he does not see any discharge. Then he immerses in a ritual bath. He will then be considered ritually pure upon nightfall.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָב",
+      "en": "a zav",
+      "note": "Someone with a kind of tumah."
+     },
+     {
+      "he": "שֶׁרָאָה",
+      "en": "who saw"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "רְאִיּוֹת,",
+      "en": "times"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹחֲטִין עָלָיו בַּשְּׁבִיעִי.",
+    "en": "we shecht for him on his seventh day.",
+    "explain": "By night he will be tahor and can eat it.",
+    "st": "<b>One slaughters</b> the Paschal lamb <b>on his behalf</b> if Passover eve is <b>on his seventh</b> day, despite the fact he is still not ritually pure at the time of slaughter, since by the night of Passover he will be ritually pure and able to eat it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "they shecht"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for him"
+     },
+     {
+      "he": "בַּשְּׁבִיעִי.",
+      "en": "on the seventh"
+     }
+    ]
+   },
+   {
+    "he": "רָאָה שָׁלֹשׁ,",
+    "en": "If he had it three times,",
+    "st": "If <b>he saw three</b> sightings, in which case, in addition to the seven clean days he must bring an offering on the eighth day to be allowed to partake of offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאָה",
+      "en": "he saw"
+     },
+     {
+      "he": "שָׁלֹשׁ,",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹחֲטִין עָלָיו בַּשְּׁמִינִי שֶׁלּוֹ.",
+    "en": "we shecht for him on his eighth day.",
+    "explain": "On that day he brings his korban and becomes fully tahor.",
+    "st": "<b>one slaughters</b> the Paschal lamb <b>on his behalf</b> if Passover eve is <b>on his eighth</b> day.",
+    "stMore": "It is presumed that by the evening his offering will <b>have</b> been brought and his purification complete.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "they shecht"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for him"
+     },
+     {
+      "he": "בַּשְּׁמִינִי",
+      "en": "on the eighth"
+     },
+     {
+      "he": "שֶׁלּוֹ.",
+      "en": "of his"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמֶרֶת יוֹם כְּנֶגֶד יוֹם,",
+    "en": "A woman who waits one day for one day,",
+    "st": "<b>A woman who keeps watch a day for a day</b>",
+    "stMore": "is one who became ritually impure after experiencing a discharge of blood outside of her regular menstrual cycle on one day or two consecutive days. She must keep watch on the day following her last discharge to be certain she does not experience any additional discharges. To ritually purify herself, she should, on that day, immerse in a ritual bath, and on condition that she doesn’t experience any discharges throughout that day, she is considered ritually pure already from the time she immersed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמֶרֶת",
+      "en": "a woman who waits"
+     },
+     {
+      "he": "יוֹם",
+      "en": "a day"
+     },
+     {
+      "he": "כְּנֶגֶד",
+      "en": "against"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "a day",
+      "note": "A woman with a kind of tumah who must wait one day."
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹחֲטִין עָלֶיהָ בַשֵּׁנִי שֶׁלָּהּ.",
+    "en": "we shecht for her on her second day.",
+    "st": "If she saw a discharge on one day, <b>one slaughters</b> the Paschal lamb <b>on her behalf</b> after she has immersed <b>on her second day,</b> despite the possibility that she may see additional discharges later that day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "they shecht"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "בַשֵּׁנִי",
+      "en": "on the second"
+     },
+     {
+      "he": "שֶׁלָּהּ.",
+      "en": "of hers"
+     }
+    ]
+   },
+   {
+    "he": "רָאֲתָה שְׁנֵי יָמִים,",
+    "en": "If it happened two days,",
+    "st": "If <b>she saw</b> a discharge on <b>two days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאֲתָה",
+      "en": "she saw"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "יָמִים,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹחֲטִין עָלֶיהָ בַשְּׁלִישִׁי.",
+    "en": "we shecht for her on the third day.",
+    "st": "<b>one slaughters</b> the Paschal lamb <b>on her behalf on the third</b> day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "they shecht"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "בַשְּׁלִישִׁי.",
+      "en": "on the third"
+     }
+    ]
+   },
+   {
+    "he": "וְהַזָּבָה, שׁוֹחֲטִין עָלֶיהָ בַשְּׁמִינִי:",
+    "en": "And a zavah, we shecht for her on the eighth day.",
+    "st": "<b>And a zava</b> is a woman who experienced discharges on three consecutive days. She must, like a zav, wait a full seven clean days with no discharges, immerse, and then bring a sacrifice on the eighth day. <b>One slaughters</b> a Paschal lamb <b>on her behalf</b> only <b>on the eighth</b> day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַזָּבָה,",
+      "en": "and the zavah",
+      "note": "A woman with a kind of tumah."
+     },
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "they shecht"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "בַשְּׁמִינִי:",
+      "en": "on the eighth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "We may shecht a korban Pesach for people who might not be able to eat it, but only together with others. This mishnah teaches who they are.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹנֵן, וְהַמְפַקֵּחַ אֶת הַגַּל,",
+    "en": "An onen, and one digging through a pile of fallen stones,",
+    "explain": "Someone might be under the pile.",
+    "st": "<b>An acute mourner,</b> i.e., a mourner on the day of the death of an immediate relative; <b>and one clearing a pile</b> of stones that collapsed on top of a person, in which case there is a possibility that the person buried underneath is dead and his corpse will impart ritual impurity to the person clearing the pile;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹנֵן,",
+      "en": "the onen",
+      "note": "A mourner on the day a close relative died."
+     },
+     {
+      "he": "וְהַמְפַקֵּחַ",
+      "en": "and one who digs"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגַּל,",
+      "en": "the pile"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן מִי שֶׁהִבְטִיחוּהוּ לְהוֹצִיאוֹ מִבֵּית הָאֲסוּרִים,",
+    "en": "and so too one who was promised to be let out of prison,",
+    "st": "<b>and similarly, one whom</b> the governing body <b>promised to release from prison</b> on the night of Passover;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁהִבְטִיחוּהוּ",
+      "en": "that they promised him"
+     },
+     {
+      "he": "לְהוֹצִיאוֹ",
+      "en": "to take him out"
+     },
+     {
+      "he": "מִבֵּית",
+      "en": "from the house of"
+     },
+     {
+      "he": "הָאֲסוּרִים,",
+      "en": "the prisoners"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחוֹלֶה וְהַזָּקֵן שֶׁהֵן יְכוֹלִין לֶאֱכֹל כַּזַּיִת,",
+    "en": "and a sick person and an old person who can eat a kezayis,",
+    "st": "<b>and an ill person and an elderly person who are</b> still <b>capable of eating an olive-bulk</b> of meat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחוֹלֶה",
+      "en": "and the sick person"
+     },
+     {
+      "he": "וְהַזָּקֵן",
+      "en": "and the old person"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "יְכוֹלִין",
+      "en": "can"
+     },
+     {
+      "he": "לֶאֱכֹל",
+      "en": "eat"
+     },
+     {
+      "he": "כַּזַּיִת,",
+      "en": "an olive's size"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹחֲטִין עֲלֵיהֶן.",
+    "en": "we shecht for them.",
+    "st": "<b>one slaughters</b> the Paschal lamb <b>on their behalf,</b>",
+    "stMore": "since they are currently fit to eat the Paschal lamb.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "they shecht"
+     },
+     {
+      "he": "עֲלֵיהֶן.",
+      "en": "for them"
+     }
+    ]
+   },
+   {
+    "he": "עַל כֻּלָּן אֵין שׁוֹחֲטִין",
+    "en": "But for all of them we do not shecht",
+    "st": "However, <b>with regard to all of them,</b> this is only true when they are included in a group with other people who will definitely be able to partake of the lamb; but <b>we do not slaughter</b> the Paschal lamb",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "כֻּלָּן",
+      "en": "all of them"
+     },
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "shecht"
+     }
+    ]
+   },
+   {
+    "he": "עֲלֵיהֶן בִּפְנֵי עַצְמָן,",
+    "en": "for them alone,",
+    "st": "<b>on their behalf</b> if they are <b>by themselves,</b> either as individuals or in a group composed entirely of such people,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "by"
+     },
+     {
+      "he": "עַצְמָן,",
+      "en": "themselves"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא יָבִיאוּ אֶת הַפֶּסַח לִידֵי פְסוּל.",
+    "en": "in case they cause the korban Pesach to become unfit.",
+    "st": "because <b>perhaps they will cause the Paschal lamb to become disqualified,</b>",
+    "stMore": "since there is a possibility that by the night of Passover they will be unable to partake of the Paschal lamb.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "lest"
+     },
+     {
+      "he": "יָבִיאוּ",
+      "en": "they bring"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפֶּסַח",
+      "en": "the Pesach"
+     },
+     {
+      "he": "לִידֵי",
+      "en": "to the hands of"
+     },
+     {
+      "he": "פְסוּל.",
+      "en": "unfitness"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם אֵרַע בָּהֶן פְּסוּל,",
+    "en": "So if something happened that made them unfit,",
+    "st": "<b>Therefore,</b> since they were registered for a Paschal lamb and it was slaughtered when they were still fit to partake of it, even <b>if a disqualification occurred to them</b> later, preventing them from partaking of the Paschal lamb,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֵרַע",
+      "en": "happened"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "פְּסוּל,",
+      "en": "unfitness"
+     }
+    ]
+   },
+   {
+    "he": "פְּטוּרִין מִלַּעֲשׂוֹת פֶּסַח שֵׁנִי,",
+    "en": "they do not need to bring Pesach Sheni,",
+    "explain": "The korban was shechted for them when they were fit.",
+    "st": "<b>they are</b> nevertheless <b>exempt from observing the second Pesaḥ.</b>",
+    "stMore": "The exemption from the second Pesaḥ is dependent not on whether they partook of a Paschal lamb, but on whether it was validly slaughtered on their behalf.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּטוּרִין",
+      "en": "they are free"
+     },
+     {
+      "he": "מִלַּעֲשׂוֹת",
+      "en": "from doing"
+     },
+     {
+      "he": "פֶּסַח",
+      "en": "Pesach"
+     },
+     {
+      "he": "שֵׁנִי,",
+      "en": "Sheni"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַמְפַקֵּחַ בַּגַּל,",
+    "en": "except for the one digging through the pile,",
+    "explain": "If the person under it had died.",
+    "st": "This holds true <b>except for one who was clearing a pile</b> of stones where the person buried underneath was eventually found dead,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמְפַקֵּחַ",
+      "en": "the one who digs"
+     },
+     {
+      "he": "בַּגַּל,",
+      "en": "in the pile"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא טָמֵא מִתְּחִלָּתוֹ:",
+    "en": "because he was tamei from the start.",
+    "st": "<b>because</b> in such a case the person searching for him certainly stood over the corpse at some point. He had therefore become <b>ritually impure from the outset,</b> even before the Paschal lamb was slaughtered.",
+    "stMore": "Consequently, he would not have been fit even during the slaughter and will have to observe the second Pesaḥ.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "because he"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "is tamei"
+     },
+     {
+      "he": "מִתְּחִלָּתוֹ:",
+      "en": "from his start"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 7,
+  "summary": "Rabbi Yehuda and Rabbi Yosei argue whether a korban Pesach may be shechted for one person alone. The mishnah also teaches which groups may not be made.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין שׁוֹחֲטִין אֶת הַפֶּסַח עַל הַיָּחִיד,",
+    "en": "We do not shecht the korban Pesach for one person alone.",
+    "st": "<b>We do not slaughter the Paschal lamb on behalf of an individual,</b> only for a group of people;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "shecht"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפֶּסַח",
+      "en": "the Pesach"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַיָּחִיד,",
+      "en": "the single person"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי יְהוּדָה.",
+    "en": "These are the words of Rabbi Yehuda.",
+    "st": "<b>this is the statement of Rabbi Yehuda.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה.",
+      "en": "Yehuda"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי יוֹסֵי מַתִּיר.",
+    "en": "And Rabbi Yosei allows it.",
+    "st": "<b>And Rabbi Yosei permits</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "מַתִּיר.",
+      "en": "allows"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ חֲבוּרָה שֶׁל מֵאָה",
+    "en": "Even a group of a hundred",
+    "st": "<b>And even</b> if there is <b>a group of one hundred</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "חֲבוּרָה",
+      "en": "a group"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מֵאָה",
+      "en": "a hundred"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין יְכוֹלִין לֶאֱכֹל כַּזַּיִת,",
+    "en": "who can't eat a kezayis,",
+    "st": "<b>who</b> together <b>are unable to eat an olive-bulk</b> of it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that they are not"
+     },
+     {
+      "he": "יְכוֹלִין",
+      "en": "able"
+     },
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "כַּזַּיִת,",
+      "en": "an olive's size"
+     }
+    ]
+   },
+   {
+    "he": "אֵין שׁוֹחֲטִין עֲלֵיהֶן.",
+    "en": "we do not shecht for them.",
+    "st": "<b>we do not slaughter on their behalf.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "shecht"
+     },
+     {
+      "he": "עֲלֵיהֶן.",
+      "en": "for them"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין עוֹשִׂין חֲבוּרַת נָשִׁים וַעֲבָדִים וּקְטַנִּים:",
+    "en": "And we do not make a group of women, servants and children.",
+    "st": "<b>And we do not make a group</b> for a Paschal lamb that consists <b>of women, slaves, and minors.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and they do not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "make"
+     },
+     {
+      "he": "חֲבוּרַת",
+      "en": "a group of"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "וַעֲבָדִים",
+      "en": "and servants"
+     },
+     {
+      "he": "וּקְטַנִּים:",
+      "en": "and children"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 8,
+  "summary": "This mishnah teaches when an onen, and a ger who joined the Jewish people on Erev Pesach, may eat the korban Pesach.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אוֹנֵן טוֹבֵל וְאוֹכֵל אֶת פִּסְחוֹ לָעֶרֶב,",
+    "en": "An onen goes to the mikvah and eats his korban Pesach at night,",
+    "explain": "The Rabbis made an onen's mourning last into the night too, but not for the korban Pesach.",
+    "st": "<b>An acute mourner,</b> i.e., a mourner on the day of the death of an immediate relative, is prohibited from eating sacrificial food. By Torah law, the prohibition applies only to the day of death itself, but it is permitted to partake of sacrificial food on the following night. By rabbinic decree, the period of acute mourning is extended to include the night as well. Despite this, an acute mourner <b>immerses and eats his Paschal lamb in the evening.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹנֵן",
+      "en": "an onen"
+     },
+     {
+      "he": "טוֹבֵל",
+      "en": "goes to the mikvah"
+     },
+     {
+      "he": "וְאוֹכֵל",
+      "en": "and eats"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "פִּסְחוֹ",
+      "en": "his Pesach"
+     },
+     {
+      "he": "לָעֶרֶב,",
+      "en": "at night"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא בַקָּדָשִׁים.",
+    "en": "but not other korbanos.",
+    "st": "<b>But</b> he may still <b>not</b> eat other <b>sacrificial food.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַקָּדָשִׁים.",
+      "en": "with the korbanos"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹמֵעַ עַל מֵתוֹ,",
+    "en": "One who hears about the death of his relative,",
+    "explain": "He heard about it more than thirty days later.",
+    "st": "However, <b>one who hears about</b> the death of <b>his dead,</b> i.e., he discovers that one of his immediate relatives died more than thirty days after the death, his status of acute mourning applies on a rabbinic level.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹמֵעַ",
+      "en": "one who hears"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "מֵתוֹ,",
+      "en": "his dead"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְלַקֵּט לוֹ עֲצָמוֹת,",
+    "en": "and one who gathers bones for himself,",
+    "explain": "Moving his parents' bones to their lasting kever.",
+    "st": "<b>And one who gathers</b> the <b>bones</b> of his parents, who are buried in a temporary location for their flesh to decay and who is moving them to a permanent burial place must also observe a day of acute mourning by rabbinic decree.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְלַקֵּט",
+      "en": "and one who gathers"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "עֲצָמוֹת,",
+      "en": "bones"
+     }
+    ]
+   },
+   {
+    "he": "טוֹבֵל וְאוֹכֵל בַּקָּדָשִׁים.",
+    "en": "goes to the mikvah and eats korbanos.",
+    "st": "These mourners <b>immerse and eat</b> all types of <b>sacrificial food</b> at night.",
+    "stMore": "Since in these cases, even during the day, the mourning is by rabbinic decree, the Sages did not extend it into the evening.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טוֹבֵל",
+      "en": "goes to the mikvah"
+     },
+     {
+      "he": "וְאוֹכֵל",
+      "en": "and eats"
+     },
+     {
+      "he": "בַּקָּדָשִׁים.",
+      "en": "korbanos"
+     }
+    ]
+   },
+   {
+    "he": "גֵּר שֶׁנִּתְגַּיֵּר בְּעֶרֶב פֶּסַח,",
+    "en": "A ger who became a Jew on Erev Pesach,",
+    "st": "With regard to <b>a convert who converted on Passover eve,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּר",
+      "en": "a ger",
+      "note": "Someone who joins the Jewish people."
+     },
+     {
+      "he": "שֶׁנִּתְגַּיֵּר",
+      "en": "who became a ger"
+     },
+     {
+      "he": "בְּעֶרֶב",
+      "en": "on the eve of"
+     },
+     {
+      "he": "פֶּסַח,",
+      "en": "Pesach"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "טוֹבֵל וְאוֹכֵל אֶת פִּסְחוֹ לָעֶרֶב.",
+    "en": "he goes to the mikvah and eats his korban Pesach at night.",
+    "st": "<b>He immerses and eats his Paschal lamb in the evening.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טוֹבֵל",
+      "en": "goes to the mikvah"
+     },
+     {
+      "he": "וְאוֹכֵל",
+      "en": "and eats"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "פִּסְחוֹ",
+      "en": "his Pesach"
+     },
+     {
+      "he": "לָעֶרֶב.",
+      "en": "at night"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹרֵשׁ מִן הָעָרְלָה כְּפוֹרֵשׁ מִן הַקָּבֶר:",
+    "en": "one who leaves the state of not having a bris is like one who leaves a grave.",
+    "explain": "He must wait seven days to become tahor, like someone who became tamei from a dead person.",
+    "st": "<b>One who separates from the foreskin</b> by being circumcised is ritually impure, <b>like one who separates from the grave</b> after coming in contact with a corpse.",
+    "stMore": "Consequently, he must first observe the seven-day purification process necessary to remove ritually impurity imparted by a corpse. Only then, from the eighth day onward, may he partake of sacrificial meat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "one who leaves"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעָרְלָה",
+      "en": "not having a bris"
+     },
+     {
+      "he": "כְּפוֹרֵשׁ",
+      "en": "like one who leaves"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקָּבֶר:",
+      "en": "the grave"
+     }
+    ]
+   }
+  ]
+ }
+]

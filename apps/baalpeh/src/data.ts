@@ -1,6 +1,6 @@
 import index from "./data/index.json";
 import { LEGACY_MASECHTA_ID } from "../shared/progressKey";
-import type { Masechta, Mishnah } from "./types";
+import type { Masechta, Mishnah, Source } from "./types";
 
 /**
  * The text is not bundled. `src/data/index.json` (a few hundred bytes per masechta) is bundled and lists one file per
@@ -10,8 +10,10 @@ import type { Masechta, Mishnah } from "./types";
 export interface MasechtaEntry {
   id: string;
   he: string;
-  /** Sefaria's name for it, after "Mishnah_" (e.g. "Berakhot"); sefariaUrl() builds links from it. */
+  /** English name shown in the app, e.g. "Rosh Hashanah". */
   en: string;
+  /** Sefaria's book name, e.g. "Mishnah_Rosh_Hashanah" or "Pirkei_Avot"; sefariaUrl() builds links from it. */
+  sefaria: string;
   /** URL of the masechta's JSON, e.g. /data/m/berakhot.55d502a8d3.json. */
   file: string;
   bytes: number;
@@ -19,6 +21,8 @@ export interface MasechtaEntry {
   perakim: number[];
   /** False for a Hebrew-only masechta: its summary, `en` and word glosses are "" and it has no Steinsaltz. */
   translated: boolean;
+  /** The translations its meanings come from (data/catalog.json): "steinsaltz", "bartenura"; [] for Hebrew only. */
+  sources: readonly string[];
 }
 
 /** A catalog entry with the id of its seder. */
@@ -67,6 +71,9 @@ export function shapeOf(id: string): MasechtaShape {
 
 /** Whether the masechta has meanings (false for Hebrew-only masechtos and unknown ids). */
 export const isTranslated = (id: string): boolean => entryOf(id)?.translated ?? false;
+
+/** Whether the masechta's meanings use `source` (false for unknown ids). */
+export const hasSource = (id: string, source: Source): boolean => entryOf(id)?.sources.includes(source) ?? false;
 
 export const mKey = (perek: number, mishnah: number): string => `${perek}:${mishnah}`;
 

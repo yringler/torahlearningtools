@@ -1,4 +1,4 @@
-import { CATALOG, type CatalogEntry } from "../data";
+import { CATALOG, hasSource, type CatalogEntry } from "../data";
 import { HEBREW_SOURCE, type License, LICENSES_PATH, SOURCES } from "../sources";
 
 const LicenseLink = ({ license }: { license: License }) => (
@@ -6,12 +6,12 @@ const LicenseLink = ({ license }: { license: License }) => (
 );
 
 /** "Berakhot, Peah and Demai", each linked to that masechta on Sefaria in the given version. */
-const MasechtaLinks = ({ entries, url }: { entries: readonly CatalogEntry[]; url: (masechtaEn: string) => string }) => (
+const MasechtaLinks = ({ entries, url }: { entries: readonly CatalogEntry[]; url: (book: string) => string }) => (
   <>
     {entries.map((e, i) => (
       <span key={e.id}>
         {i > 0 && (i === entries.length - 1 ? " and " : ", ")}
-        <a href={url(e.en)} target="_blank" rel="noreferrer">{e.en}</a>
+        <a href={url(e.sefaria)} target="_blank" rel="noreferrer">{e.en}</a>
       </span>
     ))}
   </>
@@ -53,9 +53,10 @@ export function PricingNote() {
 export function LicensesPage() {
   const st = SOURCES.steinsaltz;
   const bt = SOURCES.bartenura;
-  // Every translated masechta's meanings come from Steinsaltz and Bartenura (data/catalog.json); Hebrew-only ones use
-  // neither.
-  const translated = CATALOG.filter((e) => e.translated);
+  // Each masechta's meanings come from the sources listed for it in data/catalog.json; Hebrew-only ones use none.
+  const withSt = CATALOG.filter((e) => hasSource(e.id, "steinsaltz"));
+  const withBt = CATALOG.filter((e) => hasSource(e.id, "bartenura"));
+  const btOnly = withBt.filter((e) => !hasSource(e.id, "steinsaltz"));
   const hebrewOnly = CATALOG.filter((e) => !e.translated);
   return (
     <div className="parent licenses" dir="ltr">
@@ -85,7 +86,7 @@ export function LicensesPage() {
         <p>
           English translation and explanation by R. Adin Even-Israel Steinsaltz, from The William Davidson digital
           edition of the Koren Noé Talmud (Koren Publishers Jerusalem), via Sefaria
-          (<MasechtaLinks entries={translated} url={st.sefaria} />).
+          (<MasechtaLinks entries={withSt} url={st.sefaria} />).
           License: <LicenseLink license={st.license} />.
         </p>
         <p className="hint">
@@ -100,12 +101,15 @@ export function LicensesPage() {
         <h3>Bartenura</h3>
         <p>
           The Mishna with Obadiah Bartenura, translated by R. Shraga Silverstein, via Sefaria
-          (<MasechtaLinks entries={translated} url={bt.sefaria} />).
+          (<MasechtaLinks entries={withBt} url={bt.sefaria} />).
           License: <LicenseLink license={bt.license} />.
         </p>
         <p className="hint">
-          Changes: not shown directly. It was used to check the "Simple" meanings and, in a few places, to fill in where
-          Steinsaltz leaves a word untranslated. Each meaning's ⓘ says which sources it is based on.
+          Changes: not shown directly. Where a masechta also has Steinsaltz, it was used to check the "Simple" meanings
+          and, in a few places, to fill in where Steinsaltz leaves a word untranslated.
+          {btOnly.length > 0 && <> For <MasechtaLinks entries={btOnly} url={bt.sefaria} />, which have no Steinsaltz on
+          Sefaria, the "Simple" and tap-a-word meanings are AI-written simplifications of this translation, then checked.</>}
+          {" "}Each meaning's ⓘ says which sources it is based on.
         </p>
       </section>
 

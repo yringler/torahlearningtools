@@ -1,6 +1,6 @@
 # משנה בעל פה — Mishnah Ba'al Peh
 
-A tablet-friendly web app that helps children memorize Mishnayos by heart, starting with **Seder Zeraim** (Berakhot, Peah and Demai).
+A tablet-friendly web app that helps children memorize Mishnayos by heart, covering the **whole Mishnah**: all six sedarim, 63 masechtos.
 Parents sign in with an emailed link or code. Progress is saved on the device first and synced to a small
 Cloudflare Worker (Hono + D1), so it works offline and follows the family across tablets.
 
@@ -36,7 +36,7 @@ saved on the device yet; "Choose a different seder" lists the sedarim. The choic
 learning" works in the masechta on screen; when another masechta has reviews due, the map shows a row like
 "🔁 3 reviews waiting in מסכת ברכות →" that opens it, and a finished masechta links to the masechta list (there is no
 automatic move to the next one). A masechta's text downloads the first time it is opened (then it works offline).
-Hebrew-only masechtos (Peah, Demai) show the Hebrew, the cue cards and the recitation steps, without meanings, word
+Hebrew-only masechtos (most of Zeraim and Tahorot, Middot, Kinnim) show the Hebrew, the cue cards and the recitation steps, without meanings, word
 glosses or Steinsaltz.
 
 Each mishnah is cut into child-sized **pieces** (2–6 words, split at natural phrase breaks). Pieces are grouped into
@@ -130,9 +130,17 @@ fetched), and stops if a version is missing rather than writing an empty text.
 
 **Translation is optional per masechta.** A masechta whose `sources` in `data/catalog.json` is `[]` ships in Hebrew
 only: `build_data.py` builds it from the mechanical chunks, with an empty summary and `en: ""` on every piece and word
-(the same shape as a translated masechta), and `src/data/index.json` marks it `"translated": false`. Peah and Demai are
-like this, because Sefaria has neither Steinsaltz nor Silverstein's Bartenura for them. A masechta that does list
-sources must be fully glossed, or the build fails.
+(the same shape as a translated masechta), and `src/data/index.json` marks it `"translated": false`. Zeraim (except
+Berakhot), Middot, Kinnim and Tahorot (except Niddah) are like this, because Sefaria has neither Steinsaltz nor
+Silverstein's Bartenura for them. A masechta that does list sources must be fully glossed, or the build fails.
+
+Sefaria doesn't have both translations everywhere, so `sources` is what it has: both for most of Moed, Nashim and
+Nezikin; **Steinsaltz only** for Sotah, Kodashim (Zevachim–Tamid) and Niddah; **Bartenura only** for Eduyot and Pirkei
+Avot. A Bartenura-only masechta has the Simple view and word meanings but no Steinsaltz view (the toggle is hidden).
+`src/data/index.json` carries each masechta's `sources` and its Sefaria book name (`sefaria`), which app links use
+(Avot is `Pirkei_Avot`). Optional catalog fields: `perakim` ships fewer perakim than Sefaria lists (Bikkurim: 3, since
+its perek 4 isn't in Torat Emet); `"glossPending": true` builds a masechta with sources as Hebrew only while its gloss is
+being written (remove it once `validate_gloss.py <id>` passes).
 
 The text is **not** in the JavaScript bundle. Each masechta is its own JSON file named by content hash, so it can be
 cached forever and a fix to one masechta re-downloads only that one. The full Mishnah would be roughly 20 MB raw
@@ -189,12 +197,13 @@ Run everything from `apps/baalpeh`.
 
 1. **Catalog entry.** Add the masechta to `masechtos` in `data/catalog.json`, in learning order: `id` (lowercase, used
    in file names and URLs; never rename one once shipped), `seder` (add the seder to `sedarim` if it's new), `sefaria`
-   (the book, e.g. `Mishnah_Peah`), `he`, `en` (exactly Sefaria's name after `Mishnah_`, since app links are built from
-   it) and `sources`: `["steinsaltz", "bartenura"]` if Sefaria has those translations for it, `[]` for Hebrew only.
+   (Sefaria's book name with underscores, e.g. `Mishnah_Rosh_Hashanah`; app links are built from it), `he`, `en` (the
+   English name shown in the app) and `sources`: whichever of `"steinsaltz"` and `"bartenura"` Sefaria has for it
+   (`[]` for Hebrew only).
 2. **Fetch:** `python3 scripts/fetch_sefaria.py <id>` (rerun with `--keep` if Sefaria keeps failing).
 3. **Chunk:** `python3 scripts/chunk.py <id>`.
 4. **Gloss** (only if it has translation sources; Hebrew-only masechtos skip steps 4 and 5). Follow
-   `scripts/GLOSS_PROMPT.md`, one agent per perek, each writing `data/<id>/gloss/perek_N.json`. A perek is done only
+   `scripts/GLOSS_PROMPT.md`, one agent per masechta (or per perek for a small job), writing `data/<id>/gloss/perek_N.json`. A perek is done only
    when `python3 scripts/validate_gloss.py <id> N` prints OK; finish with `python3 scripts/validate_gloss.py <id>`,
    which checks every perek.
 5. **Content-suitability sweep.** Read the whole gloss (simple lines, word glosses, Steinsaltz excerpts) for topics
@@ -253,7 +262,8 @@ Hebrew text: Torat Emet 357 via [Sefaria](https://www.sefaria.org) (public domai
 Edition (Steinsaltz, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)) and The Mishna with Obadiah
 Bartenura by R. Shraga Silverstein ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)), via Sefaria. The
 "Simple" and word meanings adapt Steinsaltz, so they're CC BY-NC too. The English is used only for translated
-masechtos (Berakhot); Hebrew-only masechtos (Peah, Demai) ship the public-domain Hebrew alone. Details, including what was changed, are in
+masechtos; Hebrew-only masechtos ship the public-domain Hebrew alone. Eduyot's and Avot's meanings adapt only
+Bartenura (CC BY 3.0). Details, including what was changed, are in
 [`data/LICENSES.md`](data/LICENSES.md). The app shows the attribution at `/licenses` (no sign-in needed), with links from
 the sign-in screen, each meaning's ⓘ, parent mode's settings and guest settings.
 

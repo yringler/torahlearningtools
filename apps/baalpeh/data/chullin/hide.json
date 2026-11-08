@@ -1,0 +1,11 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "1:7": "Steinsaltz explains the fine as paid when a girl is raped or seduced.",
+    "4:3": "Steinsaltz describes a woman's dead fetus in the womb and the midwife reaching in.",
+    "4:7": "Steinsaltz describes the placenta as a sign of a fetus in a woman and talks about miscarrying.",
+    "9:2": "Steinsaltz names the skin of the womb (the Mishnah's word means private parts)."
+  },
+  "override": []
+}

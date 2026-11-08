@@ -1,0 +1,3901 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "If korbanos got mixed up with animals that may not be used at all, they all must die. If they got mixed with animals that may not be offered, they graze until they get a blemish, are sold, and he buys new korbanos with the money.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַזְּבָחִים שֶׁנִּתְעָרְבוּ בְחַטָּאוֹת הַמֵּתוֹת,",
+    "en": "All korbanos that got mixed up with chatas animals that are left to die,",
+    "st": "<b>All the offerings that were intermingled with</b> animals from which deriving benefit is forbidden, e.g., <b>sin offerings</b> left to <b>die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַזְּבָחִים",
+      "en": "the korbanos"
+     },
+     {
+      "he": "שֶׁנִּתְעָרְבוּ",
+      "en": "that got mixed up"
+     },
+     {
+      "he": "בְחַטָּאוֹת",
+      "en": "with chatas animals"
+     },
+     {
+      "he": "הַמֵּתוֹת,",
+      "en": "that are left to die",
+      "note": "Some chatas animals may not be offered and are left to die."
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בְשׁוֹר הַנִּסְקָל,",
+    "en": "or with an ox that must be stoned,",
+    "st": "<b>or with an ox that</b> was sentenced to be <b>stoned,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְשׁוֹר",
+      "en": "with an ox"
+     },
+     {
+      "he": "הַנִּסְקָל,",
+      "en": "that is stoned",
+      "note": "An ox that killed a person, which Beis Din sentenced to stoning."
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ אֶחָד בְּרִבּוֹא,",
+    "en": "even one in ten thousand,",
+    "st": "<b>even</b> if the ratio is <b>one in ten thousand,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בְּרִבּוֹא,",
+      "en": "in ten thousand"
+     }
+    ]
+   },
+   {
+    "he": "יָמוּתוּ כֻלָּם.",
+    "en": "all of them must die.",
+    "st": "deriving benefit from them all is prohibited and <b>they all must die.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָמוּתוּ",
+      "en": "must die"
+     },
+     {
+      "he": "כֻלָּם.",
+      "en": "all of them"
+     }
+    ]
+   },
+   {
+    "he": "נִתְעָרְבוּ בְשׁוֹר שֶׁנֶּעֶבְדָה בוֹ עֲבֵרָה,",
+    "en": "If they got mixed up with an ox that was used for a sin,",
+    "st": "If the offerings <b>were intermingled with</b> animals whose sacrifice is forbidden but deriving benefit from them is not, the halakha is different. Examples of this are <b>an ox with which a transgression was performed,</b> which disqualifies it from being sacrificed as an offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְעָרְבוּ",
+      "en": "they got mixed up"
+     },
+     {
+      "he": "בְשׁוֹר",
+      "en": "with an ox"
+     },
+     {
+      "he": "שֶׁנֶּעֶבְדָה",
+      "en": "that was done"
+     },
+     {
+      "he": "בוֹ",
+      "en": "with it"
+     },
+     {
+      "he": "עֲבֵרָה,",
+      "en": "a sin"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁהֵמִית אֶת הָאָדָם",
+    "en": "or that killed a person",
+    "st": "<b>or</b> an ox <b>that</b> is known to have <b>killed a person</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהֵמִית",
+      "en": "that killed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאָדָם",
+      "en": "a person"
+     }
+    ]
+   },
+   {
+    "he": "עַל פִּי עֵד אֶחָד,",
+    "en": "by the word of one witness,",
+    "st": "<b>based on</b> the testimony of <b>one witness</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ עַל פִּי הַבְּעָלִים,",
+    "en": "or by the word of the owner,",
+    "st": "<b>or based on</b> the admission of <b>the owner.</b>",
+    "stMore": "Had two witnesses testified, deriving benefit from the ox would have been prohibited.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "הַבְּעָלִים,",
+      "en": "the owners"
+     }
+    ]
+   },
+   {
+    "he": "בְּרוֹבֵעַ, וּבְנִרְבָּע,",
+    "en": "or with animals used in a forbidden act,",
+    "st": "Additional examples include when an offering is intermingled <b>with an animal that copulated with a person; or an animal that was the object of bestiality;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּרוֹבֵעַ,",
+      "en": "with an animal used in a forbidden act"
+     },
+     {
+      "he": "וּבְנִרְבָּע,",
+      "en": "and with an animal used in a forbidden act"
+     }
+    ]
+   },
+   {
+    "he": "וּבְמֻקְצֶה, וּבְנֶעֱבָד,",
+    "en": "or set aside for avodah zarah, or worshipped,",
+    "st": "or <b>with</b> an animal that was <b>set aside</b> for idol worship; <b>or</b> one that <b>was worshipped</b> as a deity;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְמֻקְצֶה,",
+      "en": "and with one set aside",
+      "note": "Set aside to be offered to an idol."
+     },
+     {
+      "he": "וּבְנֶעֱבָד,",
+      "en": "and with one worshipped",
+      "note": "Treated as an idol."
+     }
+    ]
+   },
+   {
+    "he": "וּבְאֶתְנָן, וּבִמְחִיר,",
+    "en": "or given as a forbidden payment, or traded for a dog,",
+    "st": "or <b>with</b> an animal that was given as <b>payment</b> to a prostitute <b>or</b> as the <b>price</b>",
+    "stMore": "of a dog, as it is written: “You shall not bring the payment of a harlot, or the price of a dog, into the house of the Lord your God” (Deuteronomy 23:19).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְאֶתְנָן,",
+      "en": "and with a forbidden payment",
+      "note": "An animal given as payment for something forbidden."
+     },
+     {
+      "he": "וּבִמְחִיר,",
+      "en": "and with the price",
+      "note": "An animal traded for a dog."
+     }
+    ]
+   },
+   {
+    "he": "וּבְכִלְאַיִם, וּבִטְרֵפָה,",
+    "en": "or born of two kinds mixed, or a treifah,",
+    "st": "Additional examples include an offering that was intermingled <b>with</b> an animal born of a mixture of <b>diverse kinds,</b> e.g., the offspring of a ram and a goat, <b>or with an animal with a wound that will cause it to die within twelve months [tereifa],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְכִלְאַיִם,",
+      "en": "and with mixed kinds",
+      "note": "Born from two different kinds of animals."
+     },
+     {
+      "he": "וּבִטְרֵפָה,",
+      "en": "and with a treifah"
+     }
+    ]
+   },
+   {
+    "he": "וּבְיוֹצֵא דֹפֶן,",
+    "en": "or born by a cut in the side,",
+    "st": "or <b>with</b> an animal <b>born by caesarean section.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְיוֹצֵא",
+      "en": "and with one coming out"
+     },
+     {
+      "he": "דֹפֶן,",
+      "en": "the side",
+      "note": "Born by an operation, not in the normal way."
+     }
+    ]
+   },
+   {
+    "he": "יִרְעוּ עַד שֶׁיִּסְתָּאֲבוּ,",
+    "en": "they should graze until they get a blemish,",
+    "st": "In all these cases the animals that are intermingled <b>shall graze until they become unfit</b> for sacrifice <b>and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִרְעוּ",
+      "en": "they should graze"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּסְתָּאֲבוּ,",
+      "en": "they get a blemish",
+      "note": "A mum, which makes it not fit to be a korban."
+     }
+    ]
+   },
+   {
+    "he": "וְיִמָּכְרוּ וְיָבִיא בִדְמֵי הַיָּפֶה",
+    "en": "and be sold, and he brings with the money of the best one",
+    "st": "then <b>they shall be sold. And</b> from the money received in the sale, the owner <b>shall bring</b> another offering <b>of the monetary value of</b> the <b>highest-quality</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיִמָּכְרוּ",
+      "en": "and be sold"
+     },
+     {
+      "he": "וְיָבִיא",
+      "en": "and bring"
+     },
+     {
+      "he": "בִדְמֵי",
+      "en": "with the money of"
+     },
+     {
+      "he": "הַיָּפֶה",
+      "en": "the best one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבָּהֶן מֵאוֹתוֹ הַמִּין.",
+    "en": "among them a korban of that same kind.",
+    "st": "animal <b>among them, of the same type</b>",
+    "stMore": "of offering that the intermingled offering was. The mishna continues:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבָּהֶן",
+      "en": "that is among them"
+     },
+     {
+      "he": "מֵאוֹתוֹ",
+      "en": "from that same"
+     },
+     {
+      "he": "הַמִּין.",
+      "en": "kind"
+     }
+    ]
+   },
+   {
+    "he": "נִתְעָרֵב בְּחֻלִּין תְּמִימִים,",
+    "en": "If it got mixed up with regular animals without a blemish,",
+    "st": "If sacrificial animals <b>were intermingled with unblemished, non-sacred</b> animals, which, if consecrated, are fit for sacrifice,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְעָרֵב",
+      "en": "it got mixed up"
+     },
+     {
+      "he": "בְּחֻלִּין",
+      "en": "with regular animals"
+     },
+     {
+      "he": "תְּמִימִים,",
+      "en": "without a blemish"
+     }
+    ]
+   },
+   {
+    "he": "יִמָּכְרוּ הַחֻלִּין לִצְרִיכֵי אוֹתוֹ הַמִּין:",
+    "en": "the regular animals should be sold to people who need that kind of korban.",
+    "st": "<b>the non-sacred</b> animals <b>shall be sold for the purpose</b> of purchasing offerings <b>of the same type</b> as the offering with which they were intermingled.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִמָּכְרוּ",
+      "en": "should be sold"
+     },
+     {
+      "he": "הַחֻלִּין",
+      "en": "the regular animals"
+     },
+     {
+      "he": "לִצְרִיכֵי",
+      "en": "to those who need"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "that same"
+     },
+     {
+      "he": "הַמִּין:",
+      "en": "kind"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "If korbanos of the same kind got mixed up, each is offered for whoever owns it. If different kinds got mixed up, they graze until they get a blemish, and he buys new korbanos. A chatas and an asham do not get mixed up.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "קָדָשִׁים בְּקָדָשִׁים מִין בְּמִינוֹ,",
+    "en": "Korbanos with korbanos, one kind with the same kind,",
+    "st": "In a case where <b>sacrificial</b> animals were intermingled <b>with</b> other <b>sacrificial</b> animals, if it was an animal of one <b>type</b> of offering <b>with</b> animals of the same <b>type</b> of offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדָשִׁים",
+      "en": "korbanos"
+     },
+     {
+      "he": "בְּקָדָשִׁים",
+      "en": "with korbanos"
+     },
+     {
+      "he": "מִין",
+      "en": "a kind"
+     },
+     {
+      "he": "בְּמִינוֹ,",
+      "en": "with its own kind"
+     }
+    ]
+   },
+   {
+    "he": "זֶה יִקְרַב לְשֵׁם מִי שֶׁהוּא",
+    "en": "this one is offered for whoever owns it,",
+    "st": "<b>one shall sacrifice this</b> animal <b>for the sake of whoever is</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "יִקְרַב",
+      "en": "is offered"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "מִי",
+      "en": "whoever"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "it is"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה יִקְרַב לְשֵׁם מִי שֶׁהוּא.",
+    "en": "and that one is offered for whoever owns it.",
+    "st": "its owner <b>and one shall sacrifice that</b> animal <b>for the sake of whoever is</b> its owner, and both fulfill their obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this one"
+     },
+     {
+      "he": "יִקְרַב",
+      "en": "is offered"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "מִי",
+      "en": "whoever"
+     },
+     {
+      "he": "שֶׁהוּא.",
+      "en": "it is"
+     }
+    ]
+   },
+   {
+    "he": "קָדָשִׁים בְּקָדָשִׁים,",
+    "en": "Korbanos with korbanos,",
+    "st": "In a case where <b>sacrificial</b> animals were intermingled <b>with</b> other <b>sacrificial</b> animals,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדָשִׁים",
+      "en": "korbanos"
+     },
+     {
+      "he": "בְּקָדָשִׁים,",
+      "en": "with korbanos"
+     }
+    ]
+   },
+   {
+    "he": "מִין בְּשֶׁאֵינוֹ מִינוֹ,",
+    "en": "one kind with a different kind,",
+    "st": "where an animal of one <b>type</b> of offering was intermingled <b>with</b> animals <b>not</b> of the same <b>type</b>",
+    "stMore": "of offering, e.g., two rams, where one is designated as a burnt offering and one as a peace offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִין",
+      "en": "a kind"
+     },
+     {
+      "he": "בְּשֶׁאֵינוֹ",
+      "en": "with one that is not"
+     },
+     {
+      "he": "מִינוֹ,",
+      "en": "its own kind"
+     }
+    ]
+   },
+   {
+    "he": "יִרְעוּ עַד שֶׁיִּסְתָּאֲבוּ,",
+    "en": "they should graze until they get a blemish,",
+    "st": "<b>they shall graze until they become unfit</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִרְעוּ",
+      "en": "they should graze"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּסְתָּאֲבוּ,",
+      "en": "they get a blemish"
+     }
+    ]
+   },
+   {
+    "he": "וְיִמָּכְרוּ, וְיָבִיא בִדְמֵי הַיָּפֶה שֶׁבָּהֶן מִמִּין זֶה,",
+    "en": "and be sold, and he brings with the money of the best one a korban of this kind,",
+    "st": "for sacrifice <b>and</b> then <b>they shall be sold. And</b> from the money received in the sale, the owner <b>shall bring</b> another offering <b>of the monetary value of</b> the <b>highest-quality</b> animal <b>among them as this type</b> of offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיִמָּכְרוּ,",
+      "en": "and be sold"
+     },
+     {
+      "he": "וְיָבִיא",
+      "en": "and bring"
+     },
+     {
+      "he": "בִדְמֵי",
+      "en": "with the money of"
+     },
+     {
+      "he": "הַיָּפֶה",
+      "en": "the best one"
+     },
+     {
+      "he": "שֶׁבָּהֶן",
+      "en": "that is among them"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "of kind"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "וּבִדְמֵי הַיָּפֶה שֶׁבָּהֶן מִמִּין זֶה,",
+    "en": "and with the money of the best one a korban of that kind,",
+    "st": "<b>and</b> another offering <b>of the monetary value of</b> the <b>highest-quality</b> animal <b>among them as that type</b> of offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִדְמֵי",
+      "en": "and with the money of"
+     },
+     {
+      "he": "הַיָּפֶה",
+      "en": "the best one"
+     },
+     {
+      "he": "שֶׁבָּהֶן",
+      "en": "that is among them"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "of kind"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "וְיַפְסִיד הַמּוֹתָר מִבֵּיתוֹ.",
+    "en": "and he loses the extra money from his own pocket.",
+    "st": "<b>and he will lose the additional</b> expense of purchasing two highest-quality animals, when he had sold only one highest-quality animal, <b>from his</b> own <b>assets.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיַפְסִיד",
+      "en": "and he will lose"
+     },
+     {
+      "he": "הַמּוֹתָר",
+      "en": "the extra"
+     },
+     {
+      "he": "מִבֵּיתוֹ.",
+      "en": "from his house"
+     }
+    ]
+   },
+   {
+    "he": "נִתְעָרְבוּ בִבְכוֹר וּבְמַעֲשֵׂר,",
+    "en": "If they got mixed up with a bechor or with maaser,",
+    "st": "In a case where sacrificial animals <b>were intermingled with a firstborn</b> offering <b>or with</b> an animal <b>tithe</b> offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְעָרְבוּ",
+      "en": "they got mixed up"
+     },
+     {
+      "he": "בִבְכוֹר",
+      "en": "with a bechor"
+     },
+     {
+      "he": "וּבְמַעֲשֵׂר,",
+      "en": "and with maaser"
+     }
+    ]
+   },
+   {
+    "he": "יִרְעוּ עַד שֶׁיִּסְתָּאֲבוּ,",
+    "en": "they should graze until they get a blemish,",
+    "st": "<b>they shall graze until they become unfit</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִרְעוּ",
+      "en": "they should graze"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּסְתָּאֲבוּ,",
+      "en": "they get a blemish"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵאָכְלוּ כִּבְכוֹר וּכְמַעֲשֵׂר.",
+    "en": "and be eaten like a bechor or like maaser.",
+    "st": "for sacrifice <b>and they shall</b> both <b>be eaten as a firstborn</b> offering <b>or as</b> an animal <b>tithe</b> offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵאָכְלוּ",
+      "en": "and be eaten"
+     },
+     {
+      "he": "כִּבְכוֹר",
+      "en": "like a bechor"
+     },
+     {
+      "he": "וּכְמַעֲשֵׂר.",
+      "en": "and like maaser"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל יְכוֹלִין לְהִתְעָרֵב,",
+    "en": "All korbanos can get mixed up,",
+    "st": "<b>All</b> offerings <b>can become</b> indistinguishably <b>intermingled</b> with each other,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "יְכוֹלִין",
+      "en": "can"
+     },
+     {
+      "he": "לְהִתְעָרֵב,",
+      "en": "get mixed up"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַחַטָּאת וּמִן הָאָשָׁם:",
+    "en": "except for the chatas and the asham.",
+    "st": "<b>except for a sin offering and a guilt offering,</b> as the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחַטָּאת",
+      "en": "the chatas"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הָאָשָׁם:",
+      "en": "the asham"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "If an asham got mixed up with a shelamim, Rabbi Shimon says both are shechted in the north and eaten by the stricter rules. The Sages say we may not make a korban become pasul on purpose. But mixed-up pieces of meat are eaten by the stricter rules.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָשָׁם שֶׁנִּתְעָרֵב בִּשְׁלָמִים, יִרְעוּ עַד שֶׁיִּסְתָּאֲבוּ.",
+    "en": "An asham that got mixed up with a shelamim should graze until they get a blemish.",
+    "st": "In the case of <b>a guilt offering that was intermingled with a peace offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָשָׁם",
+      "en": "an asham"
+     },
+     {
+      "he": "שֶׁנִּתְעָרֵב",
+      "en": "that got mixed up"
+     },
+     {
+      "he": "בִּשְׁלָמִים,",
+      "en": "with a shelamim"
+     },
+     {
+      "he": "יִרְעוּ",
+      "en": "they should graze"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּסְתָּאֲבוּ.",
+      "en": "they get a blemish"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶם יִשָּׁחֲטוּ בַצָּפוֹן,",
+    "en": "both of them should be shechted in the north,",
+    "st": "<b>Both of them should be slaughtered in the north</b>",
+    "stMore": "of the Temple courtyard, as a guilt offering must be slaughtered in the north while a peace offering may be slaughtered anywhere in the courtyard.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "יִשָּׁחֲטוּ",
+      "en": "should be shechted"
+     },
+     {
+      "he": "בַצָּפוֹן,",
+      "en": "in the north"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵאָכְלוּ כֶחָמוּר שֶׁבָּהֶן.",
+    "en": "and eaten by the rules of the stricter one.",
+    "st": "<b>And</b> they both <b>must be eaten in accordance with</b> the halakha of <b>the</b> more <b>stringent of them,</b>",
+    "stMore": "i.e., the guilt offering, with the following halakhot: They may be eaten only in the courtyard rather than throughout Jerusalem; by male priests and not by any ritually pure Jew; and on the day they were sacrificed and the following night, and not on the day they were sacrificed, the following day, and the intervening night.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵאָכְלוּ",
+      "en": "and be eaten"
+     },
+     {
+      "he": "כֶחָמוּר",
+      "en": "like the stricter one"
+     },
+     {
+      "he": "שֶׁבָּהֶן.",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to</b>",
+    "stMore": "Rabbi Shimon: One may not limit the time of the consumption of an offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְבִיאִין קָדָשִׁים לְבֵית הַפְּסוּל.",
+    "en": "we do not bring korbanos into becoming pasul.",
+    "st": "as <b>one may not bring sacrificial</b> animals <b>to the status of unfitness.</b>",
+    "stMore": "According to Rabbi Shimon’s opinion, the peace offering becomes leftover, notar, the morning after it is sacrificed, and not at the end of that day, as is the halakha concerning peace offerings. Rather, the owner shall wait until these animals become blemished, redeem them, and bring an offering of each type that is worth the monetary value of the higher-quality animal among them. The mishna adds: Even according to the opinion of the Rabbis,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְבִיאִין",
+      "en": "we bring"
+     },
+     {
+      "he": "קָדָשִׁים",
+      "en": "korbanos"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "הַפְּסוּל.",
+      "en": "becoming pasul",
+      "note": "A shelamim eaten by the rules of an asham may end up left over too long."
+     }
+    ]
+   },
+   {
+    "he": "נִתְעָרְבוּ חֲתִיכוֹת בַּחֲתִיכוֹת,",
+    "en": "If pieces got mixed up with pieces,",
+    "st": "if <b>pieces</b> of the meat of one offering <b>were intermingled with pieces</b> of the meat of another offering, e.g.,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְעָרְבוּ",
+      "en": "got mixed up"
+     },
+     {
+      "he": "חֲתִיכוֹת",
+      "en": "pieces"
+     },
+     {
+      "he": "בַּחֲתִיכוֹת,",
+      "en": "with pieces"
+     }
+    ]
+   },
+   {
+    "he": "קָדְשֵׁי קָדָשִׁים בְּקָדָשִׁים קַלִּים,",
+    "en": "pieces of the holiest korbanos with less holy korbanos,",
+    "st": "meat from <b>offerings of the most sacred order with</b> meat from <b>offerings of lesser sanctity;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדְשֵׁי",
+      "en": "the holiest"
+     },
+     {
+      "he": "קָדָשִׁים",
+      "en": "korbanos"
+     },
+     {
+      "he": "בְּקָדָשִׁים",
+      "en": "with korbanos"
+     },
+     {
+      "he": "קַלִּים,",
+      "en": "less holy"
+     }
+    ]
+   },
+   {
+    "he": "הַנֶּאֱכָלִין לְיוֹם אֶחָד בַּנֶּאֱכָלִים לִשְׁנֵי יָמִים,",
+    "en": "those eaten for one day with those eaten for two days,",
+    "st": "or if pieces of meat from offerings <b>eaten for one day</b> and the following night were intermingled <b>with</b> pieces of meat from offerings <b>eaten for two days and</b> one <b>night,</b>",
+    "stMore": "since in that case the remedy with regard to offerings that were intermingled cannot be implemented,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנֶּאֱכָלִין",
+      "en": "those eaten"
+     },
+     {
+      "he": "לְיוֹם",
+      "en": "for a day"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בַּנֶּאֱכָלִים",
+      "en": "with those eaten"
+     },
+     {
+      "he": "לִשְׁנֵי",
+      "en": "for two"
+     },
+     {
+      "he": "יָמִים,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "יֵאָכְלוּ כֶחָמוּר שֶׁבָּהֶן:",
+    "en": "they are eaten by the rules of the stricter one.",
+    "st": "they both <b>must be eaten in accordance with</b> the halakha of <b>the</b> more <b>stringent of them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵאָכְלוּ",
+      "en": "they are eaten"
+     },
+     {
+      "he": "כֶחָמוּר",
+      "en": "like the stricter one"
+     },
+     {
+      "he": "שֶׁבָּהֶן:",
+      "en": "of them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "If parts of a chatas got mixed with parts of an olah, Rabbi Eliezer says to put them all on the mizbeach and think of the chatas meat as wood. The Sages say to wait until they spoil and then burn them.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵבְרֵי חַטָּאת שֶׁנִּתְעָרְבוּ בְאֵבְרֵי עוֹלָה,",
+    "en": "Parts of a chatas that got mixed up with parts of an olah,",
+    "st": "In the case of <b>the limbs of a sin offering,</b> which are eaten by priests and may not be burned on the altar, <b>that were intermingled with the limbs of a burnt offering,</b> which are burned on the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵבְרֵי",
+      "en": "parts of"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "שֶׁנִּתְעָרְבוּ",
+      "en": "that got mixed up"
+     },
+     {
+      "he": "בְאֵבְרֵי",
+      "en": "with parts of"
+     },
+     {
+      "he": "עוֹלָה,",
+      "en": "an olah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יִתֵּן לְמַעְלָן,",
+    "en": "he should put them up above,",
+    "st": "The priest <b>shall place</b> all the limbs <b>above,</b> on the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִתֵּן",
+      "en": "he should put"
+     },
+     {
+      "he": "לְמַעְלָן,",
+      "en": "above",
+      "note": "On top of the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "וְרוֹאֶה אֲנִי אֶת בְּשַׂר הַחַטָּאת",
+    "en": "and I look at the chatas meat",
+    "st": "<b>and I view the flesh</b> of the limbs <b>of the sin offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרוֹאֶה",
+      "en": "and look"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּשַׂר",
+      "en": "the meat of"
+     },
+     {
+      "he": "הַחַטָּאת",
+      "en": "the chatas"
+     }
+    ]
+   },
+   {
+    "he": "מִלְמַעְלָן כְּאִלּוּ הוּא עֵצִים.",
+    "en": "up above as if it were wood.",
+    "st": "<b>above</b> on the altar <b>as though they are</b> pieces of <b>wood</b> burned on the altar, and not as though they are an offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִלְמַעְלָן",
+      "en": "above"
+     },
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הוּא",
+      "en": "it is"
+     },
+     {
+      "he": "עֵצִים.",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "תְּעֻבַּר צוּרָתָן וְיֵצֵא לְבֵית הַשְּׂרֵפָה:",
+    "en": "they should wait until they spoil, and then go out to the place of burning.",
+    "st": "One should wait until <b>the form of</b> all the intermingled limbs <b>decays and they will</b> all <b>go out to the place of burning</b>",
+    "stMore": "in the Temple courtyard, where all disqualified offerings of the most sacred order are burned.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּעֻבַּר",
+      "en": "should pass"
+     },
+     {
+      "he": "צוּרָתָן",
+      "en": "their form",
+      "note": "Until the meat spoils."
+     },
+     {
+      "he": "וְיֵצֵא",
+      "en": "and go out"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the place of"
+     },
+     {
+      "he": "הַשְּׂרֵפָה:",
+      "en": "burning"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "If parts of kosher korbanos got mixed with parts of blemished animals, Rabbi Eliezer says that once one head was offered, all the heads may be offered. The Sages say even if all but one were offered, they must be burned.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵבָרִין בְּאֵבְרֵי בַעֲלֵי מוּמִין,",
+    "en": "Parts with parts of blemished animals,",
+    "st": "In a case where <b>limbs</b> of burnt offerings fit for sacrifice were intermingled <b>with limbs of blemished</b> burnt offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵבָרִין",
+      "en": "parts"
+     },
+     {
+      "he": "בְּאֵבְרֵי",
+      "en": "with parts of"
+     },
+     {
+      "he": "בַעֲלֵי",
+      "en": "owners of"
+     },
+     {
+      "he": "מוּמִין,",
+      "en": "blemishes",
+      "note": "Animals with a mum, which may not be offered."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b> Although all the limbs are unfit for sacrifice,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם קָרֵב רֹאשׁ אַחַד מֵהֶן,",
+    "en": "if the head of one of them was offered,",
+    "st": "<b>if the head of one of them was sacrificed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "קָרֵב",
+      "en": "was offered"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "יִקְרְבוּ כָל הָרָאשִׁין.",
+    "en": "all the heads should be offered.",
+    "st": "<b>all the heads shall be sacrificed,</b>",
+    "stMore": "as the head that was sacrificed is assumed to have been that of the unfit animal in the mixture. Likewise,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִקְרְבוּ",
+      "en": "should be offered"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הָרָאשִׁין.",
+      "en": "the heads"
+     }
+    ]
+   },
+   {
+    "he": "כַּרְעוֹ שֶׁל אַחַד מֵהֶן,",
+    "en": "If the leg of one of them was offered,",
+    "st": "if one sacrificed <b>the legs of one of them</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּרְעוֹ",
+      "en": "the leg"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "יִקְרְבוּ כָל הַכְּרָעָיִם.",
+    "en": "all the legs should be offered.",
+    "st": "<b>all the legs shall be sacrificed.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִקְרְבוּ",
+      "en": "should be offered"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַכְּרָעָיִם.",
+      "en": "the legs"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ קָרְבוּ כֻלָּם חוּץ מֵאַחַד מֵהֶן,",
+    "en": "even if all of them were offered except for one of them,",
+    "st": "<b>Even</b> if <b>all</b> the limbs <b>were sacrificed except for one of them,</b>",
+    "stMore": "there is a concern that the remaining limb is the unfit limb, which may not be sacrificed. Rather,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "קָרְבוּ",
+      "en": "were offered"
+     },
+     {
+      "he": "כֻלָּם",
+      "en": "all of them"
+     },
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵאַחַד",
+      "en": "for one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "יֵצֵא לְבֵית הַשְּׂרֵפָה:",
+    "en": "it must go out to the place of burning.",
+    "st": "all of the limbs <b>must go out to the place of burning</b> in the Temple courtyard.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵצֵא",
+      "en": "it goes out"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the place of"
+     },
+     {
+      "he": "הַשְּׂרֵפָה:",
+      "en": "burning"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "If blood of a korban got mixed with water, it is kosher if it still looks like blood. Wine or the blood of regular animals is looked at as if it were water. Rabbi Yehudah says blood does not cancel out blood.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "דָּם שֶׁנִּתְעָרֵב בְּמַיִם,",
+    "en": "Blood that got mixed with water,",
+    "st": "In the case of <b>blood</b> of an offering fit for sacrifice <b>that was mixed with water,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּם",
+      "en": "blood"
+     },
+     {
+      "he": "שֶׁנִּתְעָרֵב",
+      "en": "that got mixed"
+     },
+     {
+      "he": "בְּמַיִם,",
+      "en": "with water"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֶשׁ בּוֹ מַרְאֵה דָם,",
+    "en": "if it still looks like blood,",
+    "st": "<b>if</b> the mixture <b>has the appearance of blood</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "מַרְאֵה",
+      "en": "the look of"
+     },
+     {
+      "he": "דָם,",
+      "en": "blood"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר. נִתְעָרֵב בְּיַיִן,",
+    "en": "it is kosher. If it got mixed with wine,",
+    "st": "it is <b>fit</b> for sprinkling on the altar, even though the majority of the mixture is water. If the blood <b>was mixed with</b> red <b>wine,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר.",
+      "en": "it is kosher"
+     },
+     {
+      "he": "נִתְעָרֵב",
+      "en": "it got mixed"
+     },
+     {
+      "he": "בְּיַיִן,",
+      "en": "with wine"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאִין אוֹתוֹ כְאִלּוּ הוּא מָיִם.",
+    "en": "we look at it as if it were water.",
+    "st": "<b>one views</b> the wine <b>as though it is water.</b>",
+    "stMore": "If that amount of water would leave the mixture with the appearance of blood it is fit for presentation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאִין",
+      "en": "we look at"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "כְאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הוּא",
+      "en": "it is"
+     },
+     {
+      "he": "מָיִם.",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "he": "נִתְעָרֵב בְּדַם בְּהֵמָה אוֹ בְדַם חַיָּה,",
+    "en": "If it got mixed with the blood of a regular animal or a wild animal,",
+    "st": "And likewise if the blood <b>was mixed with the blood of</b> a non-sacred <b>domesticated animal or the blood of</b> a non-sacred <b>undomesticated animal,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְעָרֵב",
+      "en": "it got mixed"
+     },
+     {
+      "he": "בְּדַם",
+      "en": "with the blood of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְדַם",
+      "en": "with the blood of"
+     },
+     {
+      "he": "חַיָּה,",
+      "en": "a wild animal"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאִין אוֹתוֹ כְאִלּוּ הוּא מָיִם.",
+    "en": "we look at it as if it were water.",
+    "st": "<b>one considers</b> the non-sacred blood <b>as though it is water.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאִין",
+      "en": "we look at"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "כְאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הוּא",
+      "en": "it is"
+     },
+     {
+      "he": "מָיִם.",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין דָּם מְבַטֵּל דָּם:",
+    "en": "blood does not cancel out blood.",
+    "st": "<b>Blood does not nullify blood.</b>",
+    "stMore": "Therefore, the priest presents the blood of the mixture on the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "דָּם",
+      "en": "blood"
+     },
+     {
+      "he": "מְבַטֵּל",
+      "en": "cancels out"
+     },
+     {
+      "he": "דָּם:",
+      "en": "blood"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 7,
+  "summary": "If good blood got mixed with blood of pasul korbanos, or with the weaker blood that oozes out after shechitah, it is all poured into the drain. Rabbi Eliezer says the second mix is kosher, and if the Kohen already put it on the mizbeach, it is kosher.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "נִתְעָרֵב בְּדַם פְּסוּלִין,",
+    "en": "If it got mixed with the blood of pasul korbanos,",
+    "st": "If blood fit for presentation <b>was mixed with the blood of unfit</b> offerings, there is no remedy. Therefore,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְעָרֵב",
+      "en": "it got mixed"
+     },
+     {
+      "he": "בְּדַם",
+      "en": "with the blood of"
+     },
+     {
+      "he": "פְּסוּלִין,",
+      "en": "pasul ones"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁפֵךְ לָאַמָּה.",
+    "en": "it is poured into the drain.",
+    "st": "the entire mixture <b>shall be poured into the drain</b> running through the Temple courtyard. Likewise,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁפֵךְ",
+      "en": "should be poured"
+     },
+     {
+      "he": "לָאַמָּה.",
+      "en": "into the drain",
+      "note": "A water channel that ran through the courtyard."
+     }
+    ]
+   },
+   {
+    "he": "בְּדַם תַּמְצִית,",
+    "en": "With blood that oozes out,",
+    "st": "if blood fit for presentation was mixed <b>with blood of exudate,</b>",
+    "stMore": "i.e., that exudes from the neck after the initial spurt following its slaughter concludes, which is unfit for presentation,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּדַם",
+      "en": "with blood of"
+     },
+     {
+      "he": "תַּמְצִית,",
+      "en": "oozing",
+      "note": "Blood that drips out after the first strong flow at shechitah."
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁפֵךְ לָאַמָּה.",
+    "en": "it is poured into the drain.",
+    "st": "the entire mixture <b>shall be poured into the</b> Temple courtyard <b>drain.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁפֵךְ",
+      "en": "should be poured"
+     },
+     {
+      "he": "לָאַמָּה.",
+      "en": "into the drain"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר מַכְשִׁיר.",
+    "en": "Rabbi Eliezer says it is kosher.",
+    "st": "<b>Rabbi Eliezer deems</b> this mixture <b>fit</b> for presentation. Even according to the first tanna,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "מַכְשִׁיר.",
+      "en": "says it is kosher"
+     }
+    ]
+   },
+   {
+    "he": "אִם לֹא נִמְלַךְ וְנָתַן, כָּשֵׁר:",
+    "en": "If he did not ask and put it on, it is kosher.",
+    "st": "<b>if</b> the priest <b>did not consult</b> the authorities <b>and placed</b> the blood on the altar, the offering is <b>fit.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נִמְלַךְ",
+      "en": "he asked",
+      "note": "He did not ask the Rabbis what to do."
+     },
+     {
+      "he": "וְנָתַן,",
+      "en": "and put it"
+     },
+     {
+      "he": "כָּשֵׁר:",
+      "en": "it is kosher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 8,
+  "summary": "Blood of kosher korbanos mixed with blood of blemished animals is poured out. If one cup got mixed with other cups, Rabbi Eliezer says that once one cup was offered, all may be offered; the Sages say even the last one is poured out.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "דַּם תְּמִימִים בְּדַם בַּעֲלֵי מוּמִים,",
+    "en": "Blood of animals without a blemish mixed with blood of blemished animals",
+    "st": "If <b>the blood of unblemished</b> offerings was mixed <b>with the blood of blemished</b> animals unfit for sacrifice,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דַּם",
+      "en": "the blood of"
+     },
+     {
+      "he": "תְּמִימִים",
+      "en": "animals without a blemish"
+     },
+     {
+      "he": "בְּדַם",
+      "en": "with the blood of"
+     },
+     {
+      "he": "בַּעֲלֵי",
+      "en": "owners of"
+     },
+     {
+      "he": "מוּמִים,",
+      "en": "blemishes"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁפֵךְ לָאַמָּה.",
+    "en": "is poured into the drain.",
+    "st": "the entire mixture <b>shall be poured into the</b> Temple courtyard <b>drain.</b>",
+    "stMore": "This is the halakha when the fit and unfit blood were mixed in one vessel. By contrast,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁפֵךְ",
+      "en": "should be poured"
+     },
+     {
+      "he": "לָאַמָּה.",
+      "en": "into the drain"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹס בְּכוֹסוֹת,",
+    "en": "A cup mixed up with other cups,",
+    "st": "if <b>a cup</b> of the blood of a blemished offering was intermingled <b>with cups</b>",
+    "stMore": "of blood fit for offering and it is unclear which blood is in the cup,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹס",
+      "en": "a cup"
+     },
+     {
+      "he": "בְּכוֹסוֹת,",
+      "en": "with cups"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "stMore": "Although it is prohibited to present all the blood due to the uncertainty,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "קָרַב כּוֹס אֶחָד,",
+    "en": "if one cup was offered,",
+    "st": "<b>if</b> it happened that a priest already <b>sacrificed,</b> i.e., presented, <b>one cup,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרַב",
+      "en": "was offered"
+     },
+     {
+      "he": "כּוֹס",
+      "en": "a cup"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "יִקְרְבוּ כָל הַכּוֹסוֹת.",
+    "en": "all the cups should be offered.",
+    "st": "the blood in <b>all</b> the other <b>cups shall be sacrificed,</b>",
+    "stMore": "as the blood that was presented is assumed to have come from the unfit cup in the mixture.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִקְרְבוּ",
+      "en": "should be offered"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַכּוֹסוֹת.",
+      "en": "the cups"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ קָרְבוּ כֻלָּם חוּץ מֵאַחַד מֵהֶן,",
+    "en": "even if all of them were offered except for one of them,",
+    "st": "<b>Even</b> if the blood in <b>all</b> the cups <b>was sacrificed except for one of them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "קָרְבוּ",
+      "en": "were offered"
+     },
+     {
+      "he": "כֻלָּם",
+      "en": "all of them"
+     },
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵאַחַד",
+      "en": "for one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁפֵךְ לָאַמָּה:",
+    "en": "it is poured into the drain.",
+    "st": "the remaining blood <b>shall be poured into the</b> Temple courtyard <b>drain.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁפֵךְ",
+      "en": "should be poured"
+     },
+     {
+      "he": "לָאַמָּה:",
+      "en": "into the drain"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 9,
+  "summary": "If blood that goes below the red line got mixed with blood that goes above it, Rabbi Eliezer says to put it above and then below. The Sages say to pour it out, but if he already put it on, it is kosher.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַנִּתָּנִין לְמַטָּה שֶׁנִּתְעָרְבוּ בַנִּתָּנִין לְמַעְלָה,",
+    "en": "Blood put below that got mixed with blood put above,",
+    "st": "With regard to blood <b>that is</b> to be <b>placed below</b> the red line circumscribing the altar, e.g., blood of a burnt offering, a guilt offering, or a peace offering, <b>that was mixed with</b> blood <b>that is</b> to be <b>placed above</b> the red line, e.g., blood of a sin offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "לְמַטָּה",
+      "en": "below"
+     },
+     {
+      "he": "שֶׁנִּתְעָרְבוּ",
+      "en": "that got mixed"
+     },
+     {
+      "he": "בַנִּתָּנִין",
+      "en": "with those that are put"
+     },
+     {
+      "he": "לְמַעְלָה,",
+      "en": "above"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יִתֵּן לְמַעְלָה,",
+    "en": "he should put it above,",
+    "st": "The priest <b>shall</b> initially <b>place</b> the blood of the mixture <b>above</b> the red line for the sake of the sin offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִתֵּן",
+      "en": "he should put it"
+     },
+     {
+      "he": "לְמַעְלָה,",
+      "en": "above"
+     }
+    ]
+   },
+   {
+    "he": "וְרוֹאֶה אֲנִי אֶת הַתַּחְתּוֹנִים",
+    "en": "and I look at the lower blood",
+    "st": "<b>and I view</b> the blood that was to be placed <b>below</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרוֹאֶה",
+      "en": "and look"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתַּחְתּוֹנִים",
+      "en": "the lower ones"
+     }
+    ]
+   },
+   {
+    "he": "לְמַעְלָה כְּאִלּוּ הֵן מַיִם,",
+    "en": "up above as if it were water,",
+    "st": "that was in fact placed <b>above as though it is water,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמַעְלָה",
+      "en": "above"
+     },
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הֵן",
+      "en": "they are"
+     },
+     {
+      "he": "מַיִם,",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "he": "וְיַחֲזֹר וְיִתֵּן לְמָטָּה.",
+    "en": "and he goes back and puts it below.",
+    "st": "<b>and</b> the priest shall <b>again place</b> blood from the mixture <b>below.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיַחֲזֹר",
+      "en": "and he goes back"
+     },
+     {
+      "he": "וְיִתֵּן",
+      "en": "and puts it"
+     },
+     {
+      "he": "לְמָטָּה.",
+      "en": "below"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁפְכוּ לָאַמָּה.",
+    "en": "it is poured into the drain.",
+    "st": "It <b>shall</b> all <b>be poured into the</b> Temple courtyard <b>drain.</b> Even according to the Rabbis,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁפְכוּ",
+      "en": "should be poured"
+     },
+     {
+      "he": "לָאַמָּה.",
+      "en": "into the drain"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לֹא נִמְלַךְ וְנָתַן, כָּשֵׁר:",
+    "en": "And if he did not ask and put it on, it is kosher.",
+    "st": "<b>if</b> the priest <b>did not consult</b> the authorities <b>and placed</b> the blood above the red line, the offering is <b>fit,</b>",
+    "stMore": "and he should then place the remaining blood below the red line.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נִמְלַךְ",
+      "en": "he asked"
+     },
+     {
+      "he": "וְנָתַן,",
+      "en": "and put it"
+     },
+     {
+      "he": "כָּשֵׁר:",
+      "en": "it is kosher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 10,
+  "summary": "Blood that needs one putting mixed with blood that needs four: Rabbi Eliezer says to put it four times, and Rabbi Yehoshua says once. They argue about the mitzvos \"do not add\" and \"do not take away\" from the Torah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַנִּתָּנִין מַתָּנָה אַחַת שֶׁנִּתְעָרְבוּ",
+    "en": "Blood put with one putting that got mixed",
+    "st": "In a case of the blood of an offering <b>that is</b> to be <b>placed</b> on the altar <b>with one placement that was mixed with</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a putting"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁנִּתְעָרְבוּ",
+      "en": "that got mixed"
+     }
+    ]
+   },
+   {
+    "he": "בַנִּתָּנִין בְּמַתָּנָה אַחַת,",
+    "en": "with blood put with one putting,",
+    "st": "the blood of another offering <b>that is</b> to be <b>placed</b> on the altar <b>with one placement,</b>",
+    "stMore": "e.g., the blood of a firstborn offering with the blood of another firstborn offering or the blood of an animal tithe offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַנִּתָּנִין",
+      "en": "with those that are put"
+     },
+     {
+      "he": "בְּמַתָּנָה",
+      "en": "with a putting"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "יִנָּתְנוּ מַתָּנָה אֶחָת.",
+    "en": "is put with one putting.",
+    "st": "the blood <b>shall be placed with one placement.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִנָּתְנוּ",
+      "en": "should be put"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a putting"
+     },
+     {
+      "he": "אֶחָת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מַתַּן אַרְבַּע בְּמַתַּן אַרְבַּע,",
+    "en": "Four puttings with four puttings,",
+    "st": "In a case of the blood of an offering that is to be placed on the altar with <b>four placements</b> that was mixed with the blood of another offering that is to be placed on the altar <b>with four placements,</b>",
+    "stMore": "e.g., the blood of a sin offering with that of another sin offering, or the blood of a burnt offering with that of a peace offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַתַּן",
+      "en": "the putting of"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "בְּמַתַּן",
+      "en": "with the putting of"
+     },
+     {
+      "he": "אַרְבַּע,",
+      "en": "four"
+     }
+    ]
+   },
+   {
+    "he": "יִנָּתְנוּ בְּמַתַּן אַרְבַּע.",
+    "en": "is put with four puttings.",
+    "st": "the blood <b>shall be placed with four placements.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִנָּתְנוּ",
+      "en": "should be put"
+     },
+     {
+      "he": "בְּמַתַּן",
+      "en": "with the putting of"
+     },
+     {
+      "he": "אַרְבַּע.",
+      "en": "four"
+     }
+    ]
+   },
+   {
+    "he": "מַתַּן אַרְבַּע בְּמַתָּנָה אַחַת,",
+    "en": "Four puttings with one putting,",
+    "st": "If the blood of an offering that is to be placed on the altar with <b>four placements</b> was mixed with the blood of an offering that is to be placed on the altar <b>with one placement,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַתַּן",
+      "en": "the putting of"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "בְּמַתָּנָה",
+      "en": "with a putting"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יִנָּתְנוּ בְמַתַּן אַרְבַּע.",
+    "en": "it is put with four puttings.",
+    "st": "The blood <b>shall be placed with four placements.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִנָּתְנוּ",
+      "en": "should be put"
+     },
+     {
+      "he": "בְמַתַּן",
+      "en": "with the putting of"
+     },
+     {
+      "he": "אַרְבַּע.",
+      "en": "four"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוֹשֻׁעַ אוֹמֵר,",
+    "en": "Rabbi Yehoshua says,",
+    "st": "<b>Rabbi Yehoshua says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יִנָּתְנוּ בְמַתָּנָה אֶחָת.",
+    "en": "it is put with one putting.",
+    "st": "The blood <b>shall be placed with one placement,</b>",
+    "stMore": "as the priest fulfills the requirement with one placement after the fact.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִנָּתְנוּ",
+      "en": "should be put"
+     },
+     {
+      "he": "בְמַתָּנָה",
+      "en": "with a putting"
+     },
+     {
+      "he": "אֶחָת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said to him,",
+    "st": "<b>Rabbi Eliezer said to</b> Rabbi Yehoshua:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲרֵי הוּא עוֹבֵר עַל בַּל תִּגְרַע.",
+    "en": "But then he breaks the mitzvah \"do not take away\"!",
+    "st": "According to your opinion, the priest <b>violates</b> the prohibition of: <b>Do not diminish,</b>",
+    "stMore": "as it is written: “All these matters that I command you, that you shall observe to do; you shall not add thereto, nor diminish from it” (Deuteronomy 13:1). One may not diminish the number of required placements from four to one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲרֵי",
+      "en": "but here"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "breaks"
+     },
+     {
+      "he": "עַל",
+      "en": "(on)"
+     },
+     {
+      "he": "בַּל",
+      "en": "do not"
+     },
+     {
+      "he": "תִּגְרַע.",
+      "en": "take away",
+      "note": "A mitzvah in the Torah not to take away from a mitzvah."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said to him,",
+    "st": "<b>Rabbi Yehoshua said to</b> Rabbi Eliezer:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲרֵי הוּא עוֹבֵר עַל בַּל תּוֹסִיף.",
+    "en": "But then he breaks the mitzvah \"do not add\"!",
+    "st": "According to your opinion, the priest <b>violates</b> the prohibition of: <b>Do not add,</b>",
+    "stMore": "derived from the same verse. One may not add to the one required placement and place four.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲרֵי",
+      "en": "but here"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "breaks"
+     },
+     {
+      "he": "עַל",
+      "en": "(on)"
+     },
+     {
+      "he": "בַּל",
+      "en": "do not"
+     },
+     {
+      "he": "תּוֹסִיף.",
+      "en": "add",
+      "note": "A mitzvah in the Torah not to add to a mitzvah."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said to him,",
+    "st": "<b>Rabbi Eliezer said to</b> Rabbi Yehoshua:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶאֱמַר בַּל תּוֹסִיף",
+    "en": "\"Do not add\" was said only",
+    "st": "The prohibition of: <b>Do not add, is stated only</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "was said"
+     },
+     {
+      "he": "בַּל",
+      "en": "do not"
+     },
+     {
+      "he": "תּוֹסִיף",
+      "en": "add"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כְשֶׁהוּא בְעַצְמוֹ.",
+    "en": "when the blood is by itself.",
+    "st": "in a case <b>where</b> the blood <b>is by itself,</b> not when it is part of a mixture.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "כְשֶׁהוּא",
+      "en": "when it is"
+     },
+     {
+      "he": "בְעַצְמוֹ.",
+      "en": "by itself"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said to him,",
+    "st": "<b>Rabbi Yehoshua said to</b> Rabbi Eliezer:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶאֱמַר בַּל תִּגְרַע",
+    "en": "\"Do not take away\" was said only",
+    "st": "Likewise, the prohibition of: <b>Do not diminish, is stated only</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "was said"
+     },
+     {
+      "he": "בַּל",
+      "en": "do not"
+     },
+     {
+      "he": "תִּגְרַע",
+      "en": "take away"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כְשֶׁהוּא בְעַצְמוֹ.",
+    "en": "when the blood is by itself.",
+    "st": "in a case <b>where</b> the blood <b>is by itself.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "כְשֶׁהוּא",
+      "en": "when it is"
+     },
+     {
+      "he": "בְעַצְמוֹ.",
+      "en": "by itself"
+     }
+    ]
+   },
+   {
+    "he": "וְעוֹד אָמַר רַבִּי יְהוֹשֻׁעַ,",
+    "en": "And Rabbi Yehoshua also said,",
+    "st": "<b>And Rabbi Yehoshua also said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹד",
+      "en": "and also"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֶׁנָּתַתָּ, עָבַרְתָּ עַל בַּל תּוֹסִיף",
+    "en": "When you put it on, you broke \"do not add\"",
+    "st": "<b>When you placed</b> four placements, <b>you transgressed</b> the prohibition of: <b>Do not add,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֶׁנָּתַתָּ,",
+      "en": "when you put it"
+     },
+     {
+      "he": "עָבַרְתָּ",
+      "en": "you broke"
+     },
+     {
+      "he": "עַל",
+      "en": "(on)"
+     },
+     {
+      "he": "בַּל",
+      "en": "do not"
+     },
+     {
+      "he": "תּוֹסִיף",
+      "en": "add"
+     }
+    ]
+   },
+   {
+    "he": "וְעָשִׂיתָ מַעֲשֶׂה בְיָדֶךָ.",
+    "en": "and you did an action with your hand.",
+    "st": "<b>and you performed a direct action.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָשִׂיתָ",
+      "en": "and you did"
+     },
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "an action"
+     },
+     {
+      "he": "בְיָדֶךָ.",
+      "en": "with your hand"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁלֹּא נָתַתָּ,",
+    "en": "And when you did not put it on,",
+    "st": "<b>When you did not place</b> four placements but only one,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁלֹּא",
+      "en": "and when not"
+     },
+     {
+      "he": "נָתַתָּ,",
+      "en": "you put it"
+     }
+    ]
+   },
+   {
+    "he": "עָבַרְתָּ עַל בַּל תִּגְרַע",
+    "en": "you broke \"do not take away\"",
+    "st": "although <b>you transgressed</b> the prohibition of: <b>Do not diminish,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָבַרְתָּ",
+      "en": "you broke"
+     },
+     {
+      "he": "עַל",
+      "en": "(on)"
+     },
+     {
+      "he": "בַּל",
+      "en": "do not"
+     },
+     {
+      "he": "תִּגְרַע",
+      "en": "take away"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא עָשִׂיתָ מַעֲשֶׂה בְיָדֶךָ:",
+    "en": "but you did not do an action with your hand.",
+    "st": "<b>you did not perform a direct action.</b> An active transgression is more severe than a passive one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "עָשִׂיתָ",
+      "en": "you did"
+     },
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "an action"
+     },
+     {
+      "he": "בְיָדֶךָ:",
+      "en": "with your hand"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 11,
+  "summary": "Blood that goes inside the Heichal mixed with blood that goes outside is poured out. If it was put inside and then outside, Rabbi Akiva says it is pasul and the Sages say it is kosher; the Sages say only a chatas is pasul after it was brought inside.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַנִּתָּנִין בִּפְנִים שֶׁנִּתְעָרְבוּ עִם הַנִּתָּנִין בַּחוּץ,",
+    "en": "Blood put inside that got mixed with blood put outside",
+    "st": "Blood <b>that is</b> to be <b>placed</b> on three locations <b>inside</b> the Sanctuary, i.e., between the staves, on the Curtain, and on the golden altar, <b>that was mixed with</b> blood <b>that is</b> to be <b>placed outside</b>",
+    "stMore": "the Sanctuary on the external altar in the Temple courtyard, has no remedy, as one may not change the location of the placement of the blood of one to fulfill his obligation with the other type of blood. Therefore,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "בִּפְנִים",
+      "en": "inside"
+     },
+     {
+      "he": "שֶׁנִּתְעָרְבוּ",
+      "en": "that got mixed"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁפְכוּ לָאַמָּה.",
+    "en": "is poured into the drain.",
+    "st": "all the blood <b>shall be poured into the</b> Temple courtyard <b>drain.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁפְכוּ",
+      "en": "should be poured"
+     },
+     {
+      "he": "לָאַמָּה.",
+      "en": "into the drain"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן בַּחוּץ וְחָזַר וְנָתַן בִּפְנִים,",
+    "en": "If he put it outside and then put it inside,",
+    "st": "If the priest, on his own initiative, <b>placed</b> the mixture of blood <b>outside</b> the Sanctuary <b>and again placed</b> the mixture of blood <b>inside</b> the Sanctuary,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he put it"
+     },
+     {
+      "he": "בַּחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וְנָתַן",
+      "en": "and put it"
+     },
+     {
+      "he": "בִּפְנִים,",
+      "en": "inside"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר. בִּפְנִים וְחָזַר וְנָתַן בַּחוּץ,",
+    "en": "it is kosher. If inside and then he put it outside,",
+    "st": "the offering is <b>fit.</b> If the priest, on his own initiative, placed the mixture of blood <b>inside</b> the Sanctuary <b>and again placed</b> the mixture of blood <b>outside</b> the Sanctuary,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר.",
+      "en": "it is kosher"
+     },
+     {
+      "he": "בִּפְנִים",
+      "en": "inside"
+     },
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וְנָתַן",
+      "en": "and put it"
+     },
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא פוֹסֵל,",
+    "en": "Rabbi Akiva says it is pasul,",
+    "st": "<b>Rabbi Akiva deems</b> the blood placed outside <b>disqualified,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "פוֹסֵל,",
+      "en": "says it is pasul"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מַכְשִׁירִים.",
+    "en": "and the Sages say it is kosher.",
+    "st": "<b>and the Rabbis deem</b> it <b>fit.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מַכְשִׁירִים.",
+      "en": "say it is kosher"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָיָה רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Because Rabbi Akiva used to say,",
+    "st": "<b>As Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָיָה",
+      "en": "because was"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "saying"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַדָּמִים שֶׁנִּכְנְסוּ לְכַפֵּר בַּהֵיכָל,",
+    "en": "all blood that came in to bring kapparah in the Heichal",
+    "st": "<b>Any blood</b> that is to be presented outside <b>that entered to atone in the Sanctuary</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַדָּמִים",
+      "en": "the bloods"
+     },
+     {
+      "he": "שֶׁנִּכְנְסוּ",
+      "en": "that came in"
+     },
+     {
+      "he": "לְכַפֵּר",
+      "en": "to bring kapparah"
+     },
+     {
+      "he": "בַּהֵיכָל,",
+      "en": "in the Heichal",
+      "note": "The holy building inside the courtyard."
+     }
+    ]
+   },
+   {
+    "he": "פְּסוּלִין. וַחֲכָמִים אוֹמְרִים,",
+    "en": "is pasul. And the Sages say,",
+    "st": "<b>is disqualified; but the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּסוּלִין.",
+      "en": "are pasul"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "חַטָּאת בִּלְבָד.",
+    "en": "only a chatas.",
+    "st": "That is the halakha with regard to the blood of an external <b>sin offering alone,</b>",
+    "stMore": "as it is written: “And any sin offering, whereof any of the blood is brought into the Tent of Meeting to atone in the Sanctuary, shall not be eaten” (Leviticus 6:23).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "בִּלְבָד.",
+      "en": "only"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הָאָשָׁם,",
+    "en": "the asham too,",
+    "st": "The status of <b>a guilt offering</b> is like that of a sin offering <b>as well,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הָאָשָׁם,",
+      "en": "the asham"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא ז) כַּחַטָּאת כָּאָשָׁם:",
+    "en": "as it says, \"Like the chatas is the asham.\"",
+    "st": "<b>as it is stated: “As is the sin offering, so is the guilt offering”</b>",
+    "stMore": "(Leviticus 7:7), i.e., there is one halakha for them. That is not the case with regard to the blood of other offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "Vayikra"
+     },
+     {
+      "he": "ז)",
+      "en": "chapter 7",
+      "note": "Where this pasuk is found."
+     },
+     {
+      "he": "כַּחַטָּאת",
+      "en": "like the chatas"
+     },
+     {
+      "he": "כָּאָשָׁם:",
+      "en": "is the asham"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 12,
+  "summary": "If the blood of a chatas was caught in two cups and one cup was taken out, the other stays kosher. If one cup was taken into the Heichal, they argue whether the other is still kosher. The tzitz of the Kohen Gadol fixes only blood that was tamei.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חַטָּאת שֶׁקִּבֵּל דָּמָהּ בִּשְׁנֵי כוֹסוֹת,",
+    "en": "A chatas whose blood he caught in two cups,",
+    "st": "In the case of <b>a sin offering</b> whose blood placement is on the external altar <b>whose blood</b> the priest <b>collected in two cups,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "שֶׁקִּבֵּל",
+      "en": "that he caught"
+     },
+     {
+      "he": "דָּמָהּ",
+      "en": "its blood"
+     },
+     {
+      "he": "בִּשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כוֹסוֹת,",
+      "en": "cups"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא אַחַד מֵהֶן לַחוּץ,",
+    "en": "if one of them went outside,",
+    "st": "if <b>one of them left</b> the Temple courtyard and was thereby disqualified,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "went out"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "לַחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "הַפְּנִימִי כָּשֵׁר.",
+    "en": "the one inside is kosher.",
+    "st": "<b>the</b> cup that remained <b>inside</b> the courtyard is <b>fit</b> to be presented.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפְּנִימִי",
+      "en": "the inner one"
+     },
+     {
+      "he": "כָּשֵׁר.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס אַחַד מֵהֶן לִפְנִים,",
+    "en": "If one of them went inside,",
+    "st": "If <b>one of the</b> cups <b>entered inside</b> the Sanctuary and was thereby disqualified,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "went in"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "לִפְנִים,",
+      "en": "inside",
+      "note": "Into the Heichal."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי הַגְּלִילִי מַכְשִׁיר בַּחִיצוֹן,",
+    "en": "Rabbi Yosei HaGlili says the outside one is kosher,",
+    "st": "<b>Rabbi Yosei HaGelili deems</b> the blood <b>in the</b> cup that remained <b>outside</b> the Sanctuary, in the courtyard, <b>fit</b> to be presented,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "הַגְּלִילִי",
+      "en": "HaGlili"
+     },
+     {
+      "he": "מַכְשִׁיר",
+      "en": "says it is kosher"
+     },
+     {
+      "he": "בַּחִיצוֹן,",
+      "en": "in the outer one"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים פּוֹסְלִין.",
+    "en": "and the Sages say it is pasul.",
+    "st": "<b>and the Rabbis deem it disqualified</b> from being presented.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "פּוֹסְלִין.",
+      "en": "say it is pasul"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי הַגְּלִילִי,",
+    "en": "Rabbi Yosei HaGlili said,",
+    "st": "<b>Rabbi Yosei HaGelili said</b>",
+    "stMore": "in support of his opinion: The halakha is that if one slaughters an offering with the intent that its blood be presented outside of the Temple courtyard, the offering is disqualified, but if his intention was that the blood be presented inside the Sanctuary, the offering is not disqualified.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "הַגְּלִילִי,",
+      "en": "HaGlili"
+     }
+    ]
+   },
+   {
+    "he": "מָה אִם בְּמָקוֹם שֶׁהַמַּחֲשָׁבָה פוֹסֶלֶת,",
+    "en": "If in a place where a thought makes it pasul,",
+    "st": "<b>Just as in</b> a case where part of the blood reached <b>a place where the intent</b> to present the blood there <b>disqualifies</b> the offering, i.e.,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "בְּמָקוֹם",
+      "en": "in a place"
+     },
+     {
+      "he": "שֶׁהַמַּחֲשָׁבָה",
+      "en": "that the thought"
+     },
+     {
+      "he": "פוֹסֶלֶת,",
+      "en": "makes it pasul"
+     }
+    ]
+   },
+   {
+    "he": "בַּחוּץ, לֹא עָשָׂה אֶת הַמְשׁוֹאָר כַּיוֹצֵא,",
+    "en": "outside, he did not make the leftover blood like the blood that went out,",
+    "st": "<b>outside</b> the Temple courtyard, and yet when some of the blood is taken there it <b>does not render the</b> status of the <b>remaining</b> blood disqualified <b>like</b> that of blood that <b>leaves</b> the courtyard, so too,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "עָשָׂה",
+      "en": "he made"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמְשׁוֹאָר",
+      "en": "the leftover"
+     },
+     {
+      "he": "כַּיוֹצֵא,",
+      "en": "like the one that went out"
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁאֵין הַמַּחֲשָׁבָה פוֹסֶלֶת,",
+    "en": "then in a place where a thought does not make it pasul,",
+    "st": "in a case where part of the blood reached <b>a place where the intent</b> to present the blood there <b>does not disqualify</b> the offering, i.e.,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "הַמַּחֲשָׁבָה",
+      "en": "the thought"
+     },
+     {
+      "he": "פוֹסֶלֶת,",
+      "en": "makes it pasul"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְנִים, אֵינוֹ דִין שֶׁלֹּא נַעֲשֶׂה",
+    "en": "inside, is it not right that we should not make",
+    "st": "<b>inside</b> the Sanctuary, <b>is it not logical that we will not deem</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְנִים,",
+      "en": "inside"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "is it not"
+     },
+     {
+      "he": "דִין",
+      "en": "logical"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נַעֲשֶׂה",
+      "en": "we make"
+     }
+    ]
+   },
+   {
+    "he": "אֶת הַמְשׁוֹאָר כַּנִּכְנָס.",
+    "en": "the leftover blood like the blood that went in?",
+    "st": "the status of <b>the remaining</b> blood <b>like</b> that of blood that <b>entered</b>",
+    "stMore": "the Sanctuary? The mishna continues: If all of the blood of a sin offering whose blood placement is on the external altar",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמְשׁוֹאָר",
+      "en": "the leftover"
+     },
+     {
+      "he": "כַּנִּכְנָס.",
+      "en": "like the one that went in"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס לְכַפֵּר,",
+    "en": "If it went in to bring kapparah,",
+    "st": "<b>entered</b> the Sanctuary <b>to atone</b> through sprinkling,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "went in"
+     },
+     {
+      "he": "לְכַפֵּר,",
+      "en": "to bring kapparah"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁלֹּא כִפֵּר,",
+    "en": "even though it did not bring kapparah,",
+    "st": "<b>despite</b> the fact <b>that</b> the priest <b>did not</b> actually sprinkle the blood to <b>atone,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it)"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "כִפֵּר,",
+      "en": "it brought kapparah"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל, דִּבְרֵי רַבִּי אֱלִיעֶזֶר.",
+    "en": "it is pasul, says Rabbi Eliezer.",
+    "st": "the offering is <b>disqualified;</b> this is <b>the statement of Rabbi Eliezer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל,",
+      "en": "it is pasul"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר.",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּכַפֵּר.",
+    "en": "only once it brings kapparah.",
+    "st": "The offering is disqualified <b>only when he atones</b> and sprinkles the blood in the Sanctuary.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּכַפֵּר.",
+      "en": "it brings kapparah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם הִכְנִיס שׁוֹגֵג,",
+    "en": "if he brought it in by mistake,",
+    "st": "<b>If he took</b> the blood <b>into</b> the Sanctuary <b>unwittingly,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הִכְנִיס",
+      "en": "he brought it in"
+     },
+     {
+      "he": "שׁוֹגֵג,",
+      "en": "by mistake"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר. כָּל הַדָּמִים הַפְּסוּלִין שֶׁנִּתְּנוּ",
+    "en": "it is kosher. All the pasul blood that was put",
+    "st": "the blood remains <b>fit</b> to be presented. With regard to <b>all the blood disqualified</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר.",
+      "en": "it is kosher"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַדָּמִים",
+      "en": "the bloods"
+     },
+     {
+      "he": "הַפְּסוּלִין",
+      "en": "the pasul ones"
+     },
+     {
+      "he": "שֶׁנִּתְּנוּ",
+      "en": "that were put"
+     }
+    ]
+   },
+   {
+    "he": "עַל גַּבֵּי הַמִּזְבֵּחַ,",
+    "en": "on top of the mizbeach,",
+    "st": "for presentation <b>that was placed on the altar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "הַמִּזְבֵּחַ,",
+      "en": "the mizbeach"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הִרְצָה הַצִּיץ אֶלָּא עַל הַטָּמֵא,",
+    "en": "the tzitz made it accepted only for what was tamei,",
+    "st": "<b>the frontplate effects acceptance only</b> for offerings sacrificed <b>that</b> are <b>ritually impure.</b>",
+    "stMore": "Although it is written with regard to the frontplate worn on the forehead of the High Priest: “And it shall be upon Aaron’s forehead, and Aaron shall bear the iniquity committed in the sacred matters” (Exodus 28:38), this does not apply to all disqualifications of offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הִרְצָה",
+      "en": "made it accepted"
+     },
+     {
+      "he": "הַצִּיץ",
+      "en": "the tzitz",
+      "note": "The gold band on the forehead of the Kohen Gadol."
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַטָּמֵא,",
+      "en": "the tamei"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַצִּיץ מְרַצֶּה עַל הַטָּמֵא,",
+    "en": "because the tzitz makes things accepted for what is tamei,",
+    "st": "This is <b>because the frontplate effects acceptance for</b> offerings sacri-ficed <b>that</b> are <b>ritually impure</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַצִּיץ",
+      "en": "because the tzitz"
+     },
+     {
+      "he": "מְרַצֶּה",
+      "en": "makes accepted"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַטָּמֵא,",
+      "en": "the tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ מְרַצֶּה עַל הַיּוֹצֵא:",
+    "en": "but it does not make accepted what went outside.",
+    "st": "<b>but does not effect acceptance for</b> offerings <b>that leave</b> the courtyard.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it does not"
+     },
+     {
+      "he": "מְרַצֶּה",
+      "en": "make accepted"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַיּוֹצֵא:",
+      "en": "what went out"
+     }
+    ]
+   }
+  ]
+ }
+]

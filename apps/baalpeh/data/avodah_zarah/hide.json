@@ -1,0 +1,11 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "2:1": "Steinsaltz names bestiality and forbidden sexual relations.",
+    "3:4": "Steinsaltz names nakedness, seminal emission and urinating before the statue.",
+    "3:6": "Steinsaltz names a menstruating woman and how she transmits impurity.",
+    "4:5": "Steinsaltz names urinating before the idol and throwing excrement at it."
+  },
+  "override": []
+}

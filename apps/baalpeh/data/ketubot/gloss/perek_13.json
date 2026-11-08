@@ -1,0 +1,3101 @@
+[
+ {
+  "perek": 13,
+  "mishnah": 1,
+  "summary": "Two judges in Yerushalayim, Admon and Chanan, made rulings. Chanan says a woman whose husband went far away swears only at the end, when she collects her kesubah; the sons of the Kohanim Gedolim say she swears at the beginning too.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁנֵי דַיָּנֵי גְזֵרוֹת הָיוּ בִירוּשָׁלַיִם,",
+    "en": "There were two judges of decrees in Yerushalayim:",
+    "st": "<b>There were two</b> prominent <b>judges</b> who issued <b>decrees in Jerusalem, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "דַיָּנֵי",
+      "en": "judges of"
+     },
+     {
+      "he": "גְזֵרוֹת",
+      "en": "decrees"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "בִירוּשָׁלַיִם,",
+      "en": "in Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן וְחָנָן בֶּן אֲבִישָׁלוֹם.",
+    "en": "Admon and Chanan ben Avishalom.",
+    "st": "<b>Admon and Ḥanan ben Avishalom. Ḥanan </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "וְחָנָן",
+      "en": "and Chanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "אֲבִישָׁלוֹם.",
+      "en": "Avishalom"
+     }
+    ]
+   },
+   {
+    "he": "חָנָן אוֹמֵר שְׁנֵי דְבָרִים,",
+    "en": "Chanan says two things,",
+    "st": "<b>states two matters</b> about which the Sages disagreed;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָנָן",
+      "en": "Chanan"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "דְבָרִים,",
+      "en": "things"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר שִׁבְעָה.",
+    "en": "Admon says seven.",
+    "st": "<b>Admon states seven.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "שִׁבְעָה.",
+      "en": "seven"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁהָלַךְ לִמְדִינַת הַיָּם",
+    "en": "One who went away across the sea",
+    "st": "The mishna elaborates: With regard to the case of <b>one who went overseas </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁהָלַךְ",
+      "en": "that went"
+     },
+     {
+      "he": "לִמְדִינַת",
+      "en": "to the country of"
+     },
+     {
+      "he": "הַיָּם",
+      "en": "the sea"
+     }
+    ]
+   },
+   {
+    "he": "וְאִשְׁתּוֹ תוֹבַעַת מְזוֹנוֹת,",
+    "en": "and his wife asks for food,",
+    "st": "<b>and his wife is demanding sustenance,</b> claiming that her husband left her without funds and she is seeking a ruling that would provide for her from her husband’s property, <b>Ḥ</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִשְׁתּוֹ",
+      "en": "and his wife"
+     },
+     {
+      "he": "תוֹבַעַת",
+      "en": "asks for"
+     },
+     {
+      "he": "מְזוֹנוֹת,",
+      "en": "food"
+     }
+    ]
+   },
+   {
+    "he": "חָנָן אוֹמֵר,",
+    "en": "Chanan says,",
+    "st": "<b>anan says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָנָן",
+      "en": "Chanan"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "תִּשָּׁבַע בַּסּוֹף וְלֹא תִשָּׁבַע בַּתְּחִלָּה.",
+    "en": "she swears at the end, and does not swear at the beginning.",
+    "explain": "She swears he did not leave her money.",
+    "st": "<b>She takes an oath at the end</b> of their marriage, i.e., when she learns that her husband died. The oath is to the effect that he did not leave her any funds when he departed overseas, as she is claiming full payment of her marriage contract. <b>And she does not take an oath at the outset</b>",
+    "stMore": "of his trip overseas, when she demands support soon after his departure.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּשָּׁבַע",
+      "en": "she shall swear"
+     },
+     {
+      "he": "בַּסּוֹף",
+      "en": "at the end"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תִשָּׁבַע",
+      "en": "she shall swear"
+     },
+     {
+      "he": "בַּתְּחִלָּה.",
+      "en": "at the beginning"
+     }
+    ]
+   },
+   {
+    "he": "נֶחְלְקוּ עָלָיו בְּנֵי כֹהֲנִים גְּדוֹלִים וְאָמְרוּ,",
+    "en": "The sons of the Kohanim Gedolim argued with him and said,",
+    "st": "<b>The sons of High Priests disagreed with</b> Ḥanan’s opinion <b>and said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶחְלְקוּ",
+      "en": "argued"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "the sons of"
+     },
+     {
+      "he": "כֹהֲנִים",
+      "en": "Kohanim"
+     },
+     {
+      "he": "גְּדוֹלִים",
+      "en": "Gedolim"
+     },
+     {
+      "he": "וְאָמְרוּ,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "תִּשָּׁבַע בַּתְּחִלָּה וּבַסּוֹף.",
+    "en": "she swears at the beginning and at the end.",
+    "st": "<b>She takes an oath</b> both <b>at the outset and at the end. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּשָּׁבַע",
+      "en": "she shall swear"
+     },
+     {
+      "he": "בַּתְּחִלָּה",
+      "en": "at the beginning"
+     },
+     {
+      "he": "וּבַסּוֹף.",
+      "en": "and at the end"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי דוֹסָא בֶן הַרְכִּינָס כְּדִבְרֵיהֶם.",
+    "en": "Rabbi Dosa ben Harkinas said like their words.",
+    "st": "<b>Rabbi Dosa ben Harkinas said:</b> The halakha is <b>in accordance with their statement,</b> i.e., that of the sons of the High Priests.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     },
+     {
+      "he": "בֶן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "הַרְכִּינָס",
+      "en": "Harkinas"
+     },
+     {
+      "he": "כְּדִבְרֵיהֶם.",
+      "en": "like their words"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן יוֹחָנָן בֶּן זַכַּאי,",
+    "en": "Rabban Yochanan ben Zakkai said,",
+    "st": "<b>Rabban Yoḥanan ben Zakkai said</b> that <b>Ḥ</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "זַכַּאי,",
+      "en": "Zakkai"
+     }
+    ]
+   },
+   {
+    "he": "יָפֶה אָמַר חָנָן,",
+    "en": "Chanan said it well:",
+    "st": "<b>anan spoke well: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָפֶה",
+      "en": "well"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "חָנָן,",
+      "en": "Chanan"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תִשָּׁבַע אֶלָּא בַסּוֹף:",
+    "en": "she swears only at the end.",
+    "st": "<b>She takes an oath only at the end.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תִשָּׁבַע",
+      "en": "she shall swear"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "בַסּוֹף:",
+      "en": "at the end"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 2,
+  "summary": "Someone fed the wife of a man who was away across the sea, and now wants his money back. Chanan says he lost his money, but the sons of the Kohanim Gedolim say he swears how much he spent and takes it.",
+  "stIntro": "In the case of a husband",
+  "chunks": [
+   {
+    "he": "מִי שֶׁהָלַךְ לִמְדִינַת הַיָּם וְעָמַד",
+    "en": "One who went away across the sea, and someone",
+    "st": "<b>who went overseas, and someone arose </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁהָלַךְ",
+      "en": "that went"
+     },
+     {
+      "he": "לִמְדִינַת",
+      "en": "to the country of"
+     },
+     {
+      "he": "הַיָּם",
+      "en": "the sea"
+     },
+     {
+      "he": "וְעָמַד",
+      "en": "and stood up"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד וּפִרְנֵס אֶת אִשְׁתּוֹ,",
+    "en": "came and supported his wife,",
+    "st": "<b>and sustained his wife</b> in his absence, and upon the husband’s return the provider demands from him the money he spent on his wife, <b>Ḥ</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וּפִרְנֵס",
+      "en": "and supported"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "חָנָן אוֹמֵר,",
+    "en": "Chanan says,",
+    "st": "<b>anan says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָנָן",
+      "en": "Chanan"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִבֵּד אֶת מְעוֹתָיו.",
+    "en": "he lost his money.",
+    "st": "He has <b>lost his money,</b>",
+    "stMore": "i.e., the husband is not obligated to repay him, as the provider acted of his own free will and was not instructed to do so by the husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִבֵּד",
+      "en": "he lost"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "מְעוֹתָיו.",
+      "en": "his money"
+     }
+    ]
+   },
+   {
+    "he": "נֶחְלְקוּ עָלָיו בְּנֵי כֹהֲנִים גְּדוֹלִים וְאָמְרוּ,",
+    "en": "The sons of the Kohanim Gedolim argued with him and said,",
+    "st": "<b>The sons of High Priests disagreed</b> with Ḥanan’s opinion <b>and said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶחְלְקוּ",
+      "en": "argued"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "the sons of"
+     },
+     {
+      "he": "כֹהֲנִים",
+      "en": "Kohanim"
+     },
+     {
+      "he": "גְּדוֹלִים",
+      "en": "Gedolim"
+     },
+     {
+      "he": "וְאָמְרוּ,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁבַע כַּמָּה הוֹצִיא וְיִטֹּל.",
+    "en": "he swears how much he spent, and takes it.",
+    "st": "The man <b>swears how much he spent</b> on behalf of the woman, <b>and he takes</b> that sum from the husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁבַע",
+      "en": "he shall swear"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הוֹצִיא",
+      "en": "he spent"
+     },
+     {
+      "he": "וְיִטֹּל.",
+      "en": "and he shall take"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי דוֹסָא בֶן הַרְכִּינָס כְּדִבְרֵיהֶם.",
+    "en": "Rabbi Dosa ben Harkinas said like their words.",
+    "st": "<b>Rabbi Dosa ben Harkinas said</b> that the halakha is <b>in accordance with their statement. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     },
+     {
+      "he": "בֶן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "הַרְכִּינָס",
+      "en": "Harkinas"
+     },
+     {
+      "he": "כְּדִבְרֵיהֶם.",
+      "en": "like their words"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן יוֹחָנָן בֶּן זַכַּאי,",
+    "en": "Rabban Yochanan ben Zakkai said,",
+    "st": "<b>Rabbi Yoḥanan ben Zakkai said: Ḥ</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "זַכַּאי,",
+      "en": "Zakkai"
+     }
+    ]
+   },
+   {
+    "he": "יָפֶה אָמַר חָנָן,",
+    "en": "Chanan said it well:",
+    "st": "<b>anan spoke well</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָפֶה",
+      "en": "well"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "חָנָן,",
+      "en": "Chanan"
+     }
+    ]
+   },
+   {
+    "he": "הִנִּיחַ מְעוֹתָיו עַל קֶרֶן הַצְּבִי:",
+    "en": "he put his money on the horn of a deer.",
+    "explain": "He cannot expect to get it back.",
+    "st": "in this case, as this man is like one who <b>placed his money on the horn of a deer</b>",
+    "stMore": "in midflight, i.e., he has no reasonable expectation of reimbursement.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִנִּיחַ",
+      "en": "he put"
+     },
+     {
+      "he": "מְעוֹתָיו",
+      "en": "his money"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "קֶרֶן",
+      "en": "the horn of"
+     },
+     {
+      "he": "הַצְּבִי:",
+      "en": "the deer"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 3,
+  "summary": "Admon disagrees in seven cases. When there is little money left after a man dies, the daughters are fed and the sons get nothing, and Admon asks, Should I lose because I am a boy?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אַדְמוֹן אוֹמֵר שִׁבְעָה.",
+    "en": "Admon says seven.",
+    "st": "<b>Admon states</b> a dissenting opinion to that of the Rabbis in <b>seven</b> cases.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "שִׁבְעָה.",
+      "en": "seven"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁמֵּת וְהִנִּיחַ בָּנִים וּבָנוֹת,",
+    "en": "One who died and left sons and daughters:",
+    "st": "The mishna elaborates: With regard to <b>one who died and left</b> behind both <b>sons and daughters, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "וְהִנִּיחַ",
+      "en": "and left"
+     },
+     {
+      "he": "בָּנִים",
+      "en": "sons"
+     },
+     {
+      "he": "וּבָנוֹת,",
+      "en": "and daughters"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁהַנְּכָסִים מְרֻבִּין,",
+    "en": "when there is a lot of property,",
+    "st": "<b>when the estate is large </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהַנְּכָסִים",
+      "en": "that the property"
+     },
+     {
+      "he": "מְרֻבִּין,",
+      "en": "is much"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּנִים יוֹרְשִׁים וְהַבָּנוֹת נִזּוֹנוֹת.",
+    "en": "the sons inherit and the daughters are fed.",
+    "st": "<b>the sons inherit</b> the property <b>and the daughters are provided with sustenance</b> from it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּנִים",
+      "en": "the sons"
+     },
+     {
+      "he": "יוֹרְשִׁים",
+      "en": "inherit"
+     },
+     {
+      "he": "וְהַבָּנוֹת",
+      "en": "and the daughters"
+     },
+     {
+      "he": "נִזּוֹנוֹת.",
+      "en": "are fed"
+     }
+    ]
+   },
+   {
+    "he": "וּבִנְכָסִים מֻעָטִים,",
+    "en": "And when there is little property,",
+    "st": "<b>And with regard to a small estate,</b>",
+    "stMore": "which is insufficient to provide for both the sons and the daughters,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִנְכָסִים",
+      "en": "and with property"
+     },
+     {
+      "he": "מֻעָטִים,",
+      "en": "little"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּנוֹת יִזּוֹנוּ וְהַבָּנִים יְחַזְּרוּ עַל הַפְּתָחִים.",
+    "en": "the daughters are fed and the sons go around to the doors.",
+    "explain": "They have to ask people for help.",
+    "st": "<b>the daughters are provided with sustenance and the sons</b> have neither inheritance nor sustenance, and therefore, if they have no other means with which to support themselves, they must <b>go round</b> begging <b>at the doors. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּנוֹת",
+      "en": "the daughters"
+     },
+     {
+      "he": "יִזּוֹנוּ",
+      "en": "will be fed"
+     },
+     {
+      "he": "וְהַבָּנִים",
+      "en": "and the sons"
+     },
+     {
+      "he": "יְחַזְּרוּ",
+      "en": "will go around"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַפְּתָחִים.",
+      "en": "the doors"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר,",
+    "en": "Admon says,",
+    "st": "<b>Admon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁבִיל שֶׁאֲנִי זָכָר הִפְסָדְתִּי.",
+    "en": "Because I am a boy, should I lose?",
+    "st": "<b>Because I am a male,</b> will <b>I lose out? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁבִיל",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁאֲנִי",
+      "en": "that I"
+     },
+     {
+      "he": "זָכָר",
+      "en": "am a boy"
+     },
+     {
+      "he": "הִפְסָדְתִּי.",
+      "en": "I lost"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן גַּמְלִיאֵל,",
+    "en": "Rabban Gamliel said,",
+    "st": "<b>Rabban Gamliel said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאֶה אֲנִי אֶת דִּבְרֵי אַדְמוֹן:",
+    "en": "I agree with what Admon says.",
+    "st": "<b>I see</b> as correct <b>the statement of Admon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאֶה",
+      "en": "see"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "אַדְמוֹן:",
+      "en": "Admon"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 4,
+  "summary": "One person says another owes him jugs of oil, and the other admits he owes only the empty jugs. Admon says he must swear, the Sages say not, and Rabban Gamliel agrees with Admon.",
+  "stIntro": "The mishna cites another case involving a dispute between Admon and the Rabbis. With regard to",
+  "chunks": [
+   {
+    "he": "הַטּוֹעֵן אֶת חֲבֵרוֹ כַדֵּי שֶׁמֶן,",
+    "en": "One who claims his friend owes him jugs of oil,",
+    "st": "<b>one who claims</b> that <b>another</b> owes him <b>jugs of oil, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטּוֹעֵן",
+      "en": "the one who claims"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "כַדֵּי",
+      "en": "jugs of"
+     },
+     {
+      "he": "שֶׁמֶן,",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹדָה בַקַּנְקַנִּים,",
+    "en": "and the friend admits to the empty jugs,",
+    "st": "<b>and</b> the other <b>admits to</b> the claim of <b>pitchers</b> but not the oil,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹדָה",
+      "en": "and he admitted"
+     },
+     {
+      "he": "בַקַּנְקַנִּים,",
+      "en": "to the jugs"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר,",
+    "en": "Admon says,",
+    "st": "<b>Admon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וְהוֹדָה בְמִקְצָת הַטַּעֲנָה,",
+    "en": "since he admitted part of the claim,",
+    "st": "<b>Since he made a partial admission to the claim, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וְהוֹדָה",
+      "en": "and he admitted"
+     },
+     {
+      "he": "בְמִקְצָת",
+      "en": "to part of"
+     },
+     {
+      "he": "הַטַּעֲנָה,",
+      "en": "the claim"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁבֵעַ. וַחֲכָמִים אוֹמְרִים,",
+    "en": "he must swear. But the Sages say,",
+    "st": "<b>he takes an oath</b> swearing that he owes only what he has admitted to and no more. <b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁבֵעַ.",
+      "en": "he shall swear"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין זוֹ הוֹדָאָה מִמִּין הַטַּעֲנָה.",
+    "en": "this is not admitting to the same kind of thing as the claim.",
+    "st": "<b>The partial admission</b> in this case <b>is not of the same type as the claim,</b>",
+    "stMore": "as the claim specified oil and the admission referred to pitchers.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "is not"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "הוֹדָאָה",
+      "en": "an admission"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "from the kind of"
+     },
+     {
+      "he": "הַטַּעֲנָה.",
+      "en": "the claim"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן גַּמְלִיאֵל,",
+    "en": "Rabban Gamliel said,",
+    "st": "<b>Rabban Gamliel said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאֶה אֲנִי אֶת דִּבְרֵי אַדְמוֹן:",
+    "en": "I agree with what Admon says.",
+    "st": "<b>I see</b> as correct <b>the statement of Admon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאֶה",
+      "en": "see"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "אַדְמוֹן:",
+      "en": "Admon"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 5,
+  "summary": "A father promised money to his daughter's chasan and then lost all his money. Admon says the kallah can tell the chasan to marry her or let her go, and Rabban Gamliel agrees.",
+  "stIntro": "The mishna states another case involving a ruling of Admon. With regard to one who promises and",
+  "chunks": [
+   {
+    "he": "הַפּוֹסֵק מָעוֹת לַחֲתָנוֹ וּפָשַׁט",
+    "en": "One who promised money to his son-in-law and then",
+    "st": "<b>apportions money for his son-in-law</b> as a dowry, <b>and he </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹסֵק",
+      "en": "the one who promises"
+     },
+     {
+      "he": "מָעוֹת",
+      "en": "money"
+     },
+     {
+      "he": "לַחֲתָנוֹ",
+      "en": "to his son-in-law"
+     },
+     {
+      "he": "וּפָשַׁט",
+      "en": "and stretched out"
+     }
+    ]
+   },
+   {
+    "he": "לוֹ אֶת הָרֶגֶל,",
+    "en": "lost all his money,",
+    "explain": "Like stretching out your foot to say, I have nothing.",
+    "st": "<b>went bankrupt,</b>",
+    "stMore": "and he now claims that he does not have the money to fulfill his financial obligations,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרֶגֶל,",
+      "en": "the foot"
+     }
+    ]
+   },
+   {
+    "he": "תֵּשֵׁב עַד שֶׁיַּלְבִּין רֹאשָׁהּ.",
+    "en": "she may sit and wait until her hair turns white.",
+    "st": "the betrothed woman can be left to <b>sit</b> unwed in her father’s house <b>until her head turns white.</b>",
+    "stMore": "If the groom does not wish to marry without a dowry he cannot be forced to do so, as the father failed to fulfill his promise.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּשֵׁב",
+      "en": "she shall sit"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיַּלְבִּין",
+      "en": "turns white"
+     },
+     {
+      "he": "רֹאשָׁהּ.",
+      "en": "her head"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר,",
+    "en": "Admon says,",
+    "st": "<b>Admon says</b> that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יְכוֹלָה הִיא שֶׁתֹּאמַר,",
+    "en": "she can say,",
+    "st": "<b>she can say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְכוֹלָה",
+      "en": "she is able"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "שֶׁתֹּאמַר,",
+      "en": "that she will say"
+     }
+    ]
+   },
+   {
+    "he": "אִלּוּ אֲנִי פָסַקְתִּי לְעַצְמִי,",
+    "en": "If I had promised it myself,",
+    "st": "<b>Had I apportioned</b> the money <b>myself</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִלּוּ",
+      "en": "if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "פָסַקְתִּי",
+      "en": "promised"
+     },
+     {
+      "he": "לְעַצְמִי,",
+      "en": "for myself"
+     }
+    ]
+   },
+   {
+    "he": "אֵשֵׁב עַד שֶׁיַּלְבִּין רֹאשִׁי.",
+    "en": "I would sit until my hair turns white.",
+    "st": "and broken my promise, I would agree to <b>sit until my head turns white.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵשֵׁב",
+      "en": "I would sit"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיַּלְבִּין",
+      "en": "turns white"
+     },
+     {
+      "he": "רֹאשִׁי.",
+      "en": "my head"
+     }
+    ]
+   },
+   {
+    "he": "עַכְשָׁיו שֶׁאַבָּא פָסַק עָלַי,",
+    "en": "But now that my father promised for me,",
+    "st": "However, <b>now that</b> my <b>father</b> was the one who <b>apportioned</b> the dowry,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַכְשָׁיו",
+      "en": "now"
+     },
+     {
+      "he": "שֶׁאַבָּא",
+      "en": "that my father"
+     },
+     {
+      "he": "פָסַק",
+      "en": "promised"
+     },
+     {
+      "he": "עָלַי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "מָה אֲנִי יְכוֹלָה לַעֲשׂוֹת,",
+    "en": "what can I do?",
+    "st": "<b>what can I do? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "יְכוֹלָה",
+      "en": "am able"
+     },
+     {
+      "he": "לַעֲשׂוֹת,",
+      "en": "to do"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ כְנֹס אוֹ פְטֹר.",
+    "en": "Either marry me or let me go.",
+    "st": "<b>Either marry</b> me <b>or release</b> me by a bill of divorce.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "either"
+     },
+     {
+      "he": "כְנֹס",
+      "en": "marry"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "פְטֹר.",
+      "en": "release"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן גַּמְלִיאֵל,",
+    "en": "Rabban Gamliel said,",
+    "st": "<b>Rabban Gamliel said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאֶה אֲנִי אֶת דִּבְרֵי אַדְמוֹן:",
+    "en": "I agree with what Admon says.",
+    "st": "<b>I see</b> as correct <b>the statement of Admon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאֶה",
+      "en": "see"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "אַדְמוֹן:",
+      "en": "Admon"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 6,
+  "summary": "A man says a field is his, but he signed as a witness when it was sold to someone else. Admon says he can still claim it, and the Sages say he lost his right.",
+  "stIntro": "With regard to",
+  "chunks": [
+   {
+    "he": "הָעוֹרֵר עַל הַשָּׂדֶה וְהוּא",
+    "en": "One who claims a field is his, and he",
+    "st": "<b>one who contests</b> ownership <b>of a field,</b> claiming that a field under the control of someone else actually belongs to him, <b>and</b> the claimant himself",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹרֵר",
+      "en": "the one who argues"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַשָּׂדֶה",
+      "en": "the field"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     }
+    ]
+   },
+   {
+    "he": "חָתוּם עָלֶיהָ בְעֵד,",
+    "en": "signed on its sale as a witness,",
+    "st": "<b>is signed as a witness on</b> the bill of sale to that other person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָתוּם",
+      "en": "signed"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "on it"
+     },
+     {
+      "he": "בְעֵד,",
+      "en": "as a witness"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר,",
+    "en": "Admon says,",
+    "st": "<b>Admon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יָכוֹל הוּא שֶׁיֹּאמַר,",
+    "en": "he can say,",
+    "st": "His signature does not disprove his claim of ownership of the property, as it is possible that the claimant said to himself:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָכוֹל",
+      "en": "he is able"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "שֶׁיֹּאמַר,",
+      "en": "that he will say"
+     }
+    ]
+   },
+   {
+    "he": "הַשֵּׁנִי נֹחַ לִי וְהָרִאשׁוֹן קָשֶׁה הֵימֶנּוּ.",
+    "en": "The second one is easy for me, and the first one is harder than him.",
+    "st": "<b>The second</b> person <b>is easier for me,</b> as I can reason with him, <b>but the first</b> owner, who sold the field to the current holder, <b>is more difficult</b> to deal with <b>than him.</b>",
+    "stMore": "The claimant might have been afraid to protest against the first one, who is perhaps violent, and therefore he was even willing to sign as a witness to transfer the field to the control of someone more amenable to his ensuing protest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשֵּׁנִי",
+      "en": "the second"
+     },
+     {
+      "he": "נֹחַ",
+      "en": "is easy"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "וְהָרִאשׁוֹן",
+      "en": "and the first"
+     },
+     {
+      "he": "קָשֶׁה",
+      "en": "is hard"
+     },
+     {
+      "he": "הֵימֶנּוּ.",
+      "en": "than him"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אִבֵּד אֶת זְכוּתוֹ.",
+    "en": "he lost his right.",
+    "st": "<b>He</b> has <b>lost his right</b>",
+    "stMore": "to contest ownership, as he signed a bill of sale that states that the field belongs to the present holder.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִבֵּד",
+      "en": "he lost"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "זְכוּתוֹ.",
+      "en": "his right"
+     }
+    ]
+   },
+   {
+    "he": "עֲשָׂאָהּ סִימָן לְאַחֵר,",
+    "en": "If he used it as a border marker for another field,",
+    "st": "If <b>he established</b> that field <b>as a marker for another</b> field,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲשָׂאָהּ",
+      "en": "he made it"
+     },
+     {
+      "he": "סִימָן",
+      "en": "a sign"
+     },
+     {
+      "he": "לְאַחֵר,",
+      "en": "for another"
+     }
+    ]
+   },
+   {
+    "he": "אִבֵּד אֶת זְכוּתוֹ:",
+    "en": "he lost his right.",
+    "st": "everyone agrees that <b>he</b> has <b>lost his right.</b>",
+    "stMore": "In other words, if the claimant wrote a document concerning another field and in that document he listed the first field as a boundary marker and described it as belonging to someone else, even Admon concedes that he has lost his right, as he had no reason to say it belonged to someone else other than his belief this was in fact the case.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִבֵּד",
+      "en": "he lost"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "זְכוּתוֹ:",
+      "en": "his right"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 7,
+  "summary": "A man went far away and the path to his field was lost. Admon says he may walk the shortest way, and the Sages say he must buy a path even if it costs a lot.",
+  "stIntro": "With regard to",
+  "chunks": [
+   {
+    "he": "מִי שֶׁהָלַךְ לִמְדִינַת הַיָּם",
+    "en": "One who went away across the sea,",
+    "st": "<b>one who went overseas and</b> in the meantime",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁהָלַךְ",
+      "en": "that went"
+     },
+     {
+      "he": "לִמְדִינַת",
+      "en": "to the country of"
+     },
+     {
+      "he": "הַיָּם",
+      "en": "the sea"
+     }
+    ]
+   },
+   {
+    "he": "וְאָבְדָה דֶרֶךְ שָׂדֵהוּ,",
+    "en": "and the path to his field was lost,",
+    "st": "<b>the path</b> leading <b>to his field was lost,</b>",
+    "stMore": "e.g., the path he used to reach his land was taken over by the owner of the field through which it passed, so that its exact position is now unknown,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָבְדָה",
+      "en": "and was lost"
+     },
+     {
+      "he": "דֶרֶךְ",
+      "en": "the path of"
+     },
+     {
+      "he": "שָׂדֵהוּ,",
+      "en": "his field"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר,",
+    "en": "Admon says,",
+    "st": "<b>Admon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יֵלֵךְ בַּקְּצָרָה.",
+    "en": "let him go the shortest way.",
+    "st": "<b>Let him go</b> to his field <b>by the shortest</b> possible route.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵלֵךְ",
+      "en": "he shall go"
+     },
+     {
+      "he": "בַּקְּצָרָה.",
+      "en": "the short way"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "יִקְנֶה לוֹ דֶרֶךְ בְּמֵאָה מָנֶה,",
+    "en": "let him buy a path even for a hundred maneh,",
+    "st": "<b>Let him buy himself a path</b> from an owner of a neighboring field at whatever price he can, even if it is <b>one hundred maneh, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִקְנֶה",
+      "en": "he shall buy"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "דֶרֶךְ",
+      "en": "a path"
+     },
+     {
+      "he": "בְּמֵאָה",
+      "en": "for a hundred"
+     },
+     {
+      "he": "מָנֶה,",
+      "en": "maneh"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ יִפְרַח בָּאֲוִיר:",
+    "en": "or fly through the air.",
+    "st": "<b>or let him fly through the air.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "יִפְרַח",
+      "en": "he shall fly"
+     },
+     {
+      "he": "בָּאֲוִיר:",
+      "en": "in the air"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 8,
+  "summary": "A lender shows a loan document, and the borrower shows that the lender later sold him a field. Admon says the lender should have taken his money then, but the Sages say the lender was smart to sell it.",
+  "stIntro": "With regard to",
+  "chunks": [
+   {
+    "he": "הַמּוֹצִיא שְׁטַר חוֹב עַל חֲבֵרוֹ,",
+    "en": "One who brings out a loan document against his friend,",
+    "st": "<b>one who produces a promissory note against another, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹצִיא",
+      "en": "the one who brings out"
+     },
+     {
+      "he": "שְׁטַר",
+      "en": "a document of"
+     },
+     {
+      "he": "חוֹב",
+      "en": "debt"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "חֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה הוֹצִיא שֶׁמָּכַר לוֹ אֶת הַשָּׂדֶה,",
+    "en": "and the other brought out a paper that he sold him the field,",
+    "st": "<b>and this</b> borrower <b>produced</b> a bill of sale dated after the promissory note that states <b>that</b> the lender <b>sold him a field</b> of his,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and that one"
+     },
+     {
+      "he": "הוֹצִיא",
+      "en": "brought out"
+     },
+     {
+      "he": "שֶׁמָּכַר",
+      "en": "that he sold"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשָּׂדֶה,",
+      "en": "the field"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר,",
+    "en": "Admon says,",
+    "st": "<b>Admon says</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יָכוֹל הוּא שֶׁיֹּאמַר,",
+    "en": "he can say,",
+    "st": "that the borrower <b>can say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָכוֹל",
+      "en": "he is able"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "שֶׁיֹּאמַר,",
+      "en": "that he will say"
+     }
+    ]
+   },
+   {
+    "he": "אִלּוּ הָיִיתִי חַיָּב לְךָ,",
+    "en": "If I really owed you,",
+    "st": "<b>Were I</b> really <b>indebted to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִלּוּ",
+      "en": "if"
+     },
+     {
+      "he": "הָיִיתִי",
+      "en": "I was"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owing"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה לְךָ לְהִפָּרַע אֶת שֶׁלְּךָ",
+    "en": "you should have collected what was yours",
+    "st": "<b>you should have collected your</b> loan",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "לְהִפָּרַע",
+      "en": "to collect"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שֶׁלְּךָ",
+      "en": "yours"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֶׁמָּכַרְתָּ לִי אֶת הַשָּׂדֶה.",
+    "en": "when you sold me the field.",
+    "st": "<b>when you sold me the field,</b> and you would not have needed to sell it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֶׁמָּכַרְתָּ",
+      "en": "when you sold"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשָּׂדֶה.",
+      "en": "the field"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הָיָה פִקֵּחַ שֶׁמָּכַר",
+    "en": "this one was smart, that he sold",
+    "st": "This is no proof, as it is possible that <b>this</b> lender <b>was perspicacious, as he sold</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "פִקֵּחַ",
+      "en": "smart"
+     },
+     {
+      "he": "שֶׁמָּכַר",
+      "en": "that he sold"
+     }
+    ]
+   },
+   {
+    "he": "לוֹ אֶת הַקַּרְקַע,",
+    "en": "him the land,",
+    "st": "the borrower <b>the land</b> for a good reason,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקַּרְקַע,",
+      "en": "the land"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא יָכוֹל לְמַשְׁכְּנוֹ:",
+    "en": "because now he can take it as a pledge.",
+    "st": "<b>because now he can take</b> the field as <b>collateral from him</b> in lieu of the outstanding loan.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "is able"
+     },
+     {
+      "he": "לְמַשְׁכְּנוֹ:",
+      "en": "to take it as a pledge"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 9,
+  "summary": "Two people each show a loan document against the other. Admon says the later document must be fake, and the Sages say each one collects his own loan.",
+  "stIntro": "With regard to",
+  "chunks": [
+   {
+    "he": "שְׁנַיִם שֶׁהוֹצִיאוּ שְׁטָר חוֹב",
+    "en": "Two people who brought out loan documents",
+    "st": "<b>two</b> people <b>who</b> each <b>produced a promissory note</b> of a monetary debt",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "שֶׁהוֹצִיאוּ",
+      "en": "that brought out"
+     },
+     {
+      "he": "שְׁטָר",
+      "en": "a document of"
+     },
+     {
+      "he": "חוֹב",
+      "en": "debt"
+     }
+    ]
+   },
+   {
+    "he": "זֶה עַל זֶה,",
+    "en": "against each other.",
+    "st": "<b>against the other, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר,",
+    "en": "Admon says,",
+    "st": "<b>Admon says:</b>",
+    "stMore": "The one holding the note with the later date can say to the first:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִלּוּ הָיִיתִי חַיָּב לְךָ,",
+    "en": "If I owed you,",
+    "st": "<b>If I owed you</b> money,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִלּוּ",
+      "en": "if"
+     },
+     {
+      "he": "הָיִיתִי",
+      "en": "I was"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owing"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד אַתָּה לֹוֶה מִמֶּנִּי.",
+    "en": "how could you borrow from me?",
+    "st": "<b>how</b> is it that <b>you are borrowing from me?</b>",
+    "stMore": "You should have sued to collect your debt. This is proof that your document is a forgery.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "לֹוֶה",
+      "en": "borrow"
+     },
+     {
+      "he": "מִמֶּנִּי.",
+      "en": "from me"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "זֶה גוֹבֶה שְׁטַר חוֹבוֹ",
+    "en": "this one collects his loan",
+    "st": "<b>This one collects his promissory note, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "גוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "שְׁטַר",
+      "en": "the document of"
+     },
+     {
+      "he": "חוֹבוֹ",
+      "en": "his loan"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה גּוֹבֶה שְׁטַר חוֹבוֹ:",
+    "en": "and that one collects his loan.",
+    "st": "<b>and that one collects his promissory note.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this one"
+     },
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "שְׁטַר",
+      "en": "the document of"
+     },
+     {
+      "he": "חוֹבוֹ:",
+      "en": "his loan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 10,
+  "summary": "For marriage, Eretz Yisrael has three lands: Yehudah, Ever HaYarden and the Galil. A husband cannot make his wife move from one land to another, or from a town to a city, but he may move her to a better place.",
+  "stIntro": "Eretz Yisrael is divided into",
+  "chunks": [
+   {
+    "he": "שָׁלֹשׁ אֲרָצוֹת לַנִּשּׂוּאִין,",
+    "en": "There are three lands for marriage:",
+    "st": "<b>three</b> separate <b>lands</b> with regard <b>to marriage: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלֹשׁ",
+      "en": "three"
+     },
+     {
+      "he": "אֲרָצוֹת",
+      "en": "lands"
+     },
+     {
+      "he": "לַנִּשּׂוּאִין,",
+      "en": "for marriage"
+     }
+    ]
+   },
+   {
+    "he": "יְהוּדָה, וְעֵבֶר הַיַּרְדֵּן,",
+    "en": "Yehudah, Ever HaYarden,",
+    "st": "<b>Judea, Transjordan, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehudah"
+     },
+     {
+      "he": "וְעֵבֶר",
+      "en": "and Ever"
+     },
+     {
+      "he": "הַיַּרְדֵּן,",
+      "en": "HaYarden (across the Jordan)"
+     }
+    ]
+   },
+   {
+    "he": "וְהַגָּלִיל. אֵין מוֹצִיאִין מֵעִיר לְעִיר וּמִכְּרַךְ לִכְרַךְ.",
+    "en": "and the Galil. We do not move a wife from town to town or city to city in another land.",
+    "st": "<b>and the Galilee.</b> If a man marries a woman in one of these lands he may <b>not remove</b> her <b>from</b> one <b>town to</b> another <b>town</b> in another of these lands or <b>from</b> one <b>city to</b> another <b>city,</b>",
+    "stMore": "i.e., he cannot compel her to move to another land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַגָּלִיל.",
+      "en": "and the Galil"
+     },
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מוֹצִיאִין",
+      "en": "move"
+     },
+     {
+      "he": "מֵעִיר",
+      "en": "from a town"
+     },
+     {
+      "he": "לְעִיר",
+      "en": "to a town"
+     },
+     {
+      "he": "וּמִכְּרַךְ",
+      "en": "and from a city"
+     },
+     {
+      "he": "לִכְרַךְ.",
+      "en": "to a city"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל בְּאוֹתָהּ הָאָרֶץ,",
+    "en": "But in the same land,",
+    "st": "<b>However, in the same land </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בְּאוֹתָהּ",
+      "en": "in that"
+     },
+     {
+      "he": "הָאָרֶץ,",
+      "en": "the land"
+     }
+    ]
+   },
+   {
+    "he": "מוֹצִיאִין מֵעִיר לְעִיר וּמִכְּרַךְ לִכְרַךְ,",
+    "en": "we may move her from town to town and city to city,",
+    "st": "<b>one may remove her from</b> one <b>town to</b> another <b>town</b> or <b>from</b> one <b>city to</b> another <b>city. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹצִיאִין",
+      "en": "we move"
+     },
+     {
+      "he": "מֵעִיר",
+      "en": "from a town"
+     },
+     {
+      "he": "לְעִיר",
+      "en": "to a town"
+     },
+     {
+      "he": "וּמִכְּרַךְ",
+      "en": "and from a city"
+     },
+     {
+      "he": "לִכְרַךְ,",
+      "en": "to a city"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא מֵעִיר לִכְרַךְ",
+    "en": "but not from a town to a city,",
+    "st": "<b>However,</b> even within the same land one may <b>not</b> force his wife to move <b>from a town to a city, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵעִיר",
+      "en": "from a town"
+     },
+     {
+      "he": "לִכְרַךְ",
+      "en": "to a city"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מִכְּרַךְ לְעִיר.",
+    "en": "and not from a city to a town.",
+    "st": "<b>nor from a city to a town.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִכְּרַךְ",
+      "en": "from a city"
+     },
+     {
+      "he": "לְעִיר.",
+      "en": "to a town"
+     }
+    ]
+   },
+   {
+    "he": "מוֹצִיאִין מִנָּוֶה הָרָעָה לְנָוֶה הַיָּפָה,",
+    "en": "We may move her from a bad home to a nice home,",
+    "st": "The mishna adds: <b>One may remove</b> his wife <b>from a noxious residence to a pleasant residence,</b> even if it is in another land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹצִיאִין",
+      "en": "we move"
+     },
+     {
+      "he": "מִנָּוֶה",
+      "en": "from a home"
+     },
+     {
+      "he": "הָרָעָה",
+      "en": "the bad"
+     },
+     {
+      "he": "לְנָוֶה",
+      "en": "to a home"
+     },
+     {
+      "he": "הַיָּפָה,",
+      "en": "the nice"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא מִנָּוֶה הַיָּפָה לְנָוֶה הָרָעָה.",
+    "en": "but not from a nice home to a bad home.",
+    "st": "<b>However,</b> one may <b>not</b> compel his wife to move <b>from a pleasant residence to a noxious residence. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִנָּוֶה",
+      "en": "from a home"
+     },
+     {
+      "he": "הַיָּפָה",
+      "en": "the nice"
+     },
+     {
+      "he": "לְנָוֶה",
+      "en": "to a home"
+     },
+     {
+      "he": "הָרָעָה.",
+      "en": "the bad"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף לֹא מִנָּוֶה רָעָה לְנָוֶה יָפָה,",
+    "en": "not even from a bad home to a nice home,",
+    "st": "One may <b>also not</b> remove her <b>from a noxious residence to a pleasant residence, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִנָּוֶה",
+      "en": "from a home"
+     },
+     {
+      "he": "רָעָה",
+      "en": "bad"
+     },
+     {
+      "he": "לְנָוֶה",
+      "en": "to a home"
+     },
+     {
+      "he": "יָפָה,",
+      "en": "nice"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהַנָּוֶה הַיָּפָה בוֹדֵק:",
+    "en": "because a nice home tests a person.",
+    "explain": "A change, even a nice one, can be hard.",
+    "st": "<b>because a pleasant residence tests</b>",
+    "stMore": "the individual, i.e., one accustomed to certain environments can suffer even in more comfortable living quarters.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהַנָּוֶה",
+      "en": "the home"
+     },
+     {
+      "he": "הַיָּפָה",
+      "en": "the nice"
+     },
+     {
+      "he": "בוֹדֵק:",
+      "en": "tests"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 11,
+  "summary": "A husband or wife can make the family move up to Eretz Yisrael and to Yerushalayim, but not leave them. The mishnah also teaches which money a kesubah is paid in.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַכֹּל מַעֲלִין לְאֶרֶץ יִשְׂרָאֵל,",
+    "en": "Anyone can make the family move up to Eretz Yisrael,",
+    "st": "<b>All</b> may force their family <b>to ascend to Eretz Yisrael,</b>",
+    "stMore": "i.e., one may compel his family and household to immigrate to Eretz Yisrael,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "מַעֲלִין",
+      "en": "bring up"
+     },
+     {
+      "he": "לְאֶרֶץ",
+      "en": "to Eretz"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין הַכֹּל מוֹצִיאִין.",
+    "en": "but no one can make them leave.",
+    "st": "<b>but all may not remove</b>",
+    "stMore": "others from Eretz Yisrael, as one may not coerce one’s family to leave.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "מוֹצִיאִין.",
+      "en": "take out"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל מַעֲלִין לִירוּשָׁלַיִם,",
+    "en": "Anyone can make them move up to Yerushalayim,",
+    "st": "Likewise, <b>all</b> may force their family <b>to ascend to Jerusalem, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "מַעֲלִין",
+      "en": "bring up"
+     },
+     {
+      "he": "לִירוּשָׁלַיִם,",
+      "en": "to Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין הַכֹּל מוֹצִיאִין,",
+    "en": "but no one can make them leave,",
+    "st": "<b>and all may not,</b> i.e., no one may, <b>remove</b> them from Jerusalem.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "מוֹצִיאִין,",
+      "en": "take out"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד הָאֲנָשִׁים וְאֶחָד הַנָּשִׁים (וְאֶחָד עֲבָדִים).",
+    "en": "both men and women (and slaves).",
+    "st": "<b>Both men and women</b>",
+    "stMore": "may force the other spouse to immigrate to Eretz Yisrael or to move to Jerusalem. The mishna lists other halakhic distinctions between various geographic locations: If one",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "הָאֲנָשִׁים",
+      "en": "the men"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַנָּשִׁים",
+      "en": "the women"
+     },
+     {
+      "he": "(וְאֶחָד",
+      "en": "(and one"
+     },
+     {
+      "he": "עֲבָדִים).",
+      "en": "slaves)"
+     }
+    ]
+   },
+   {
+    "he": "נָשָׂא אִשָּׁה בְאֶרֶץ יִשְׂרָאֵל",
+    "en": "If he married a woman in Eretz Yisrael",
+    "st": "<b>married a woman in Eretz Yisrael </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָשָׂא",
+      "en": "he married"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "בְאֶרֶץ",
+      "en": "in Eretz"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "וְגֵרְשָׁהּ בְּאֶרֶץ יִשְׂרָאֵל,",
+    "en": "and divorced her in Eretz Yisrael,",
+    "st": "<b>and divorced her in Eretz Yisrael,</b>",
+    "stMore": "and the currency of the sum in the marriage contract was not specified,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְגֵרְשָׁהּ",
+      "en": "and he divorced her"
+     },
+     {
+      "he": "בְּאֶרֶץ",
+      "en": "in Eretz"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לָהּ מִמְּעוֹת אֶרֶץ יִשְׂרָאֵל.",
+    "en": "he gives her in the money of Eretz Yisrael.",
+    "st": "<b>he gives her</b> the sum of her marriage contract <b>in the currency of Eretz Yisrael.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מִמְּעוֹת",
+      "en": "from the money of"
+     },
+     {
+      "he": "אֶרֶץ",
+      "en": "Eretz"
+     },
+     {
+      "he": "יִשְׂרָאֵל.",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נָשָׂא אִשָּׁה בְאֶרֶץ יִשְׂרָאֵל וְגֵרְשָׁהּ בְּקַפּוֹטְקִיָּא,",
+    "en": "If he married a woman in Eretz Yisrael and divorced her in Kapotkiya,",
+    "st": "If one <b>married a woman in Eretz Yisrael and divorced her in Cappadocia,</b> where the currency holds greater value,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָשָׂא",
+      "en": "he married"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "בְאֶרֶץ",
+      "en": "in Eretz"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "וְגֵרְשָׁהּ",
+      "en": "and he divorced her"
+     },
+     {
+      "he": "בְּקַפּוֹטְקִיָּא,",
+      "en": "in Kapotkiya",
+      "note": "A land far away, where the coins were worth more."
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לָהּ מִמְּעוֹת אֶרֶץ יִשְׂרָאֵל.",
+    "en": "he gives her in the money of Eretz Yisrael.",
+    "st": "<b>he gives her the currency of Eretz Yisrael.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מִמְּעוֹת",
+      "en": "from the money of"
+     },
+     {
+      "he": "אֶרֶץ",
+      "en": "Eretz"
+     },
+     {
+      "he": "יִשְׂרָאֵל.",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נָשָׂא אִשָּׁה בְקַפּוֹטְקִיָּא וְגֵרְשָׁהּ בְּאֶרֶץ יִשְׂרָאֵל,",
+    "en": "If he married a woman in Kapotkiya and divorced her in Eretz Yisrael,",
+    "st": "If one <b>married a woman in Cappadocia and divorced her in Eretz Yisrael, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָשָׂא",
+      "en": "he married"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "בְקַפּוֹטְקִיָּא",
+      "en": "in Kapotkiya"
+     },
+     {
+      "he": "וְגֵרְשָׁהּ",
+      "en": "and he divorced her"
+     },
+     {
+      "he": "בְּאֶרֶץ",
+      "en": "in Eretz"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לָהּ מִמְּעוֹת אֶרֶץ יִשְׂרָאֵל.",
+    "en": "he gives her in the money of Eretz Yisrael.",
+    "st": "<b>he</b> likewise <b>gives her the currency of Eretz Yisrael. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מִמְּעוֹת",
+      "en": "from the money of"
+     },
+     {
+      "he": "אֶרֶץ",
+      "en": "Eretz"
+     },
+     {
+      "he": "יִשְׂרָאֵל.",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לָהּ מִמְּעוֹת קַפּוֹטְקִיָּא.",
+    "en": "he gives her in the money of Kapotkiya.",
+    "st": "<b>He gives her the currency of Cappadocia.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מִמְּעוֹת",
+      "en": "from the money of"
+     },
+     {
+      "he": "קַפּוֹטְקִיָּא.",
+      "en": "Kapotkiya"
+     }
+    ]
+   },
+   {
+    "he": "נָשָׂא אִשָּׁה בְקַפּוֹטְקִיָּא וְגֵרְשָׁהּ בְּקַפּוֹטְקִיָּא,",
+    "en": "If he married a woman in Kapotkiya and divorced her in Kapotkiya,",
+    "st": "Everyone agrees that if one <b>married a woman in Cappadocia and divorced her in Cappadocia, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָשָׂא",
+      "en": "he married"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "בְקַפּוֹטְקִיָּא",
+      "en": "in Kapotkiya"
+     },
+     {
+      "he": "וְגֵרְשָׁהּ",
+      "en": "and he divorced her"
+     },
+     {
+      "he": "בְּקַפּוֹטְקִיָּא,",
+      "en": "in Kapotkiya"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לָהּ מִמְּעוֹת קַפּוֹטְקִיָּא:",
+    "en": "he gives her in the money of Kapotkiya.",
+    "st": "<b>he gives her the currency of Cappadocia.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מִמְּעוֹת",
+      "en": "from the money of"
+     },
+     {
+      "he": "קַפּוֹטְקִיָּא:",
+      "en": "Kapotkiya"
+     }
+    ]
+   }
+  ]
+ }
+]

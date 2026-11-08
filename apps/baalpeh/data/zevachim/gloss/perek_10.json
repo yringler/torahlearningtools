@@ -1,0 +1,2112 @@
+[
+ {
+  "perek": 10,
+  "mishnah": 1,
+  "summary": "A korban that comes more often goes first. So the tamid comes before the mussaf, and the mussaf of Shabbos comes before the mussaf of Rosh Chodesh.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֹּל הַתָּדִיר מֵחֲבֵרוֹ,",
+    "en": "Anything that is more frequent than another",
+    "st": "<b>Any</b> offering <b>that is</b> more <b>frequent than another</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "anything"
+     },
+     {
+      "he": "הַתָּדִיר",
+      "en": "that is frequent"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ,",
+      "en": "than its friend"
+     }
+    ]
+   },
+   {
+    "he": "קוֹדֵם אֶת חֲבֵרוֹ.",
+    "en": "comes before the other.",
+    "st": "<b>precedes the other</b> offering. Therefore,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ.",
+      "en": "its friend"
+     }
+    ]
+   },
+   {
+    "he": "הַתְּמִידִים קוֹדְמִים לַמּוּסָפִין,",
+    "en": "The tamid korbanos come before the mussaf korbanos,",
+    "st": "<b>the daily offerings precede the additional offerings,</b>",
+    "stMore": "which are sacrificed only on certain days. When Shabbat and the New Moon coincide,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַתְּמִידִים",
+      "en": "the tamid korbanos",
+      "note": "The korbanos brought every morning and afternoon."
+     },
+     {
+      "he": "קוֹדְמִים",
+      "en": "come before"
+     },
+     {
+      "he": "לַמּוּסָפִין,",
+      "en": "the mussaf korbanos",
+      "note": "Extra korbanos brought on Shabbos and Yom Tov."
+     }
+    ]
+   },
+   {
+    "he": "מוּסְפֵי שַׁבָּת קוֹדְמִין לְמוּסְפֵי רֹאשׁ חֹדֶשׁ,",
+    "en": "the mussaf of Shabbos comes before the mussaf of Rosh Chodesh,",
+    "st": "the <b>additional Shabbat offerings precede</b> the <b>additional New Moon offerings.</b> Likewise,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוּסְפֵי",
+      "en": "the mussaf korbanos of"
+     },
+     {
+      "he": "שַׁבָּת",
+      "en": "Shabbos"
+     },
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לְמוּסְפֵי",
+      "en": "the mussaf korbanos of"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "Rosh"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "Chodesh"
+     }
+    ]
+   },
+   {
+    "he": "מוּסְפֵי רֹאשׁ חֹדֶשׁ קוֹדְמִין",
+    "en": "the mussaf of Rosh Chodesh comes before",
+    "st": "the <b>additional New Moon offerings precede</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוּסְפֵי",
+      "en": "the mussaf korbanos of"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "Rosh"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "Chodesh"
+     },
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     }
+    ]
+   },
+   {
+    "he": "לְמוּסְפֵי רֹאשׁ הַשָּׁנָה,",
+    "en": "the mussaf of Rosh Hashanah,",
+    "st": "the <b>additional New Year offerings.</b>",
+    "stMore": "The mishna cites the source for the principle that the frequent precedes the less frequent:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמוּסְפֵי",
+      "en": "the mussaf korbanos of"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "Rosh"
+     },
+     {
+      "he": "הַשָּׁנָה,",
+      "en": "Hashanah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר כח),",
+    "en": "as it says,",
+    "st": "<b>As it is stated</b> with regard to the additional offerings of the first day of Passover: <b>“</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "Bamidbar"
+     },
+     {
+      "he": "כח),",
+      "en": "chapter 28",
+      "note": "Where this pasuk is found."
+     }
+    ]
+   },
+   {
+    "he": "מִלְּבַד עֹלַת הַבֹּקֶר אֲשֶׁר לְעֹלַת",
+    "en": "\"Besides the morning olah, which is for the olah",
+    "st": "<b>Besides the burnt offering of the morning, which is for a</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִלְּבַד",
+      "en": "besides"
+     },
+     {
+      "he": "עֹלַת",
+      "en": "the olah of"
+     },
+     {
+      "he": "הַבֹּקֶר",
+      "en": "the morning"
+     },
+     {
+      "he": "אֲשֶׁר",
+      "en": "which"
+     },
+     {
+      "he": "לְעֹלַת",
+      "en": "for the olah of"
+     }
+    ]
+   },
+   {
+    "he": "הַתָּמִיד תַּעֲשׂוּ אֶת אֵלֶּה:",
+    "en": "of the tamid, you shall make these.\"",
+    "st": "<b>daily burnt offering, you shall offer these”</b>",
+    "stMore": "(Numbers 28:23). The verse indicates that the daily offering is sacrificed first, and then the additional offerings are sacrificed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַתָּמִיד",
+      "en": "the tamid"
+     },
+     {
+      "he": "תַּעֲשׂוּ",
+      "en": "you shall make"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֵלֶּה:",
+      "en": "these"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 2,
+  "summary": "A holier korban goes first. The mishnah lists the order: chatas, asham, todah and nazir's ram, shelamim, and bechor, and gives the reason for each one.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְכֹל הַמְקֻדָּשׁ מֵחֲבֵרוֹ,",
+    "en": "And anything that is holier than another",
+    "st": "<b>Any</b> offering <b>that is</b> more <b>sacred than another</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֹל",
+      "en": "and anything"
+     },
+     {
+      "he": "הַמְקֻדָּשׁ",
+      "en": "that is holier"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ,",
+      "en": "than its friend"
+     }
+    ]
+   },
+   {
+    "he": "קוֹדֵם אֶת חֲבֵרוֹ.",
+    "en": "comes before the other.",
+    "st": "<b>precedes the other</b>",
+    "stMore": "offering. The mishna elaborates: If there is blood of a sin offering and blood of a burnt offering to be presented,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ.",
+      "en": "its friend"
+     }
+    ]
+   },
+   {
+    "he": "דַּם חַטָּאת קוֹדֵם לְדַם עוֹלָה,",
+    "en": "The blood of a chatas comes before the blood of an olah,",
+    "st": "<b>the blood of the sin offering precedes the blood of the burnt offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דַּם",
+      "en": "the blood of"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "לְדַם",
+      "en": "the blood of"
+     },
+     {
+      "he": "עוֹלָה,",
+      "en": "an olah"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא מְרַצֶּה.",
+    "en": "because it brings forgiveness.",
+    "st": "<b>because it effects acceptance,</b>",
+    "stMore": "i.e., atonement, for severe transgressions punishable by karet. Likewise, if there are limbs of a burnt offering and portions of a sin offering to be burned on the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "מְרַצֶּה.",
+      "en": "brings forgiveness"
+     }
+    ]
+   },
+   {
+    "he": "אֵבְרֵי עוֹלָה קוֹדְמִין לְאֵמוּרֵי חַטָּאת,",
+    "en": "Parts of an olah come before the fats of a chatas,",
+    "st": "the burning of <b>the limbs of</b> the <b>burnt offering precedes the portions of</b> the <b>sin offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵבְרֵי",
+      "en": "parts of"
+     },
+     {
+      "he": "עוֹלָה",
+      "en": "an olah"
+     },
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לְאֵמוּרֵי",
+      "en": "the parts for the mizbeach of"
+     },
+     {
+      "he": "חַטָּאת,",
+      "en": "a chatas"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן כָּלִיל לָאִשִּׁים.",
+    "en": "because they are all burned in the fire.",
+    "st": "<b>because</b> the burnt offering <b>is entirely</b> burned <b>in the flames</b>",
+    "stMore": "on the altar, whereas only part of the sin offering is burned. Similarly, although both effect atonement,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they are"
+     },
+     {
+      "he": "כָּלִיל",
+      "en": "whole"
+     },
+     {
+      "he": "לָאִשִּׁים.",
+      "en": "for the fires"
+     }
+    ]
+   },
+   {
+    "he": "חַטָּאת קוֹדֶמֶת לְאָשָׁם,",
+    "en": "A chatas comes before an asham,",
+    "st": "<b>a sin offering precedes a guilt offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "קוֹדֶמֶת",
+      "en": "comes before"
+     },
+     {
+      "he": "לְאָשָׁם,",
+      "en": "an asham"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁדָּמָהּ נִתָּן עַל",
+    "en": "because its blood is put on",
+    "st": "<b>due to</b> the fact <b>that its blood is placed on</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁדָּמָהּ",
+      "en": "that its blood"
+     },
+     {
+      "he": "נִתָּן",
+      "en": "is put"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "אַרְבַּע קְרָנוֹת וְעַל הַיְּסוֹד.",
+    "en": "the four corners and on the base.",
+    "st": "the <b>four corners</b> of the altar and the remnants of its blood are poured <b>on the base</b>",
+    "stMore": "of the altar, whereas the blood of the guilt offering is sprinkled on only two corners of the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "קְרָנוֹת",
+      "en": "corners"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הַיְּסוֹד.",
+      "en": "the base"
+     }
+    ]
+   },
+   {
+    "he": "אָשָׁם קוֹדֵם לְתוֹדָה וּלְאֵיל נָזִיר,",
+    "en": "An asham comes before a todah and a nazir's ram,",
+    "st": "<b>A guilt offering precedes a thanks offering and</b> the <b>nazirite’s ram</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָשָׁם",
+      "en": "an asham"
+     },
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "לְתוֹדָה",
+      "en": "a todah"
+     },
+     {
+      "he": "וּלְאֵיל",
+      "en": "and the ram of"
+     },
+     {
+      "he": "נָזִיר,",
+      "en": "a nazir"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא קָדְשֵׁי קָדָשִׁים.",
+    "en": "because it is one of the holiest korbanos.",
+    "st": "<b>due to</b> the fact <b>that it is an offering of the most sacred order,</b> and the others are offerings of lesser sanctity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "קָדְשֵׁי",
+      "en": "holiest"
+     },
+     {
+      "he": "קָדָשִׁים.",
+      "en": "korbanos"
+     }
+    ]
+   },
+   {
+    "he": "הַתּוֹדָה וְאֵיל נָזִיר קוֹדְמִין לִשְׁלָמִים,",
+    "en": "The todah and the nazir's ram come before shelamim,",
+    "st": "<b>A thanks offering and a nazirite’s ram precede a peace offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַתּוֹדָה",
+      "en": "the todah"
+     },
+     {
+      "he": "וְאֵיל",
+      "en": "and the ram of"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לִשְׁלָמִים,",
+      "en": "shelamim"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן נֶאֱכָלִין לְיוֹם אֶחָד,",
+    "en": "because they are eaten for one day,",
+    "st": "<b>due to</b> the fact <b>that they are eaten for one day,</b>",
+    "stMore": "like offerings of the most sacred order, whereas a peace offering is eaten for two days,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "נֶאֱכָלִין",
+      "en": "are eaten"
+     },
+     {
+      "he": "לְיוֹם",
+      "en": "for a day"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וּטְעוּנִים לָחֶם.",
+    "en": "and they need loaves of bread.",
+    "st": "<b>and</b> the thanks offering and nazirite’s ram <b>require loaves</b>",
+    "stMore": "to be brought with them, four types with the thanks offering and two types with the nazirite’s ram.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּטְעוּנִים",
+      "en": "and need"
+     },
+     {
+      "he": "לָחֶם.",
+      "en": "bread"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלָמִים קוֹדְמִין לִבְכוֹר,",
+    "en": "Shelamim come before a bechor,",
+    "st": "Sacrifice of <b>the peace offering precedes</b> sacrifice of <b>the firstborn</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלָמִים",
+      "en": "shelamim"
+     },
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לִבְכוֹר,",
+      "en": "a bechor"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵם טְעוּנִין מַתַּן אַרְבַּע,",
+    "en": "because they need four puttings of blood,",
+    "st": "offering <b>due to</b> the fact <b>that</b> the peace offering <b>requires placing</b> the blood on the altar, in the form of two placements that are <b>four,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵם",
+      "en": "that they"
+     },
+     {
+      "he": "טְעוּנִין",
+      "en": "need"
+     },
+     {
+      "he": "מַתַּן",
+      "en": "the putting of"
+     },
+     {
+      "he": "אַרְבַּע,",
+      "en": "four"
+     }
+    ]
+   },
+   {
+    "he": "וּסְמִיכָה וּנְּסָכִים וּתְנוּפַת חָזֶה וָשׁוֹק:",
+    "en": "and semichah, nesachim, and waving the chest and thigh.",
+    "st": "<b>and placing hands</b> on the head of the offering, <b>and libations, and the wavings of</b> the <b>breast and the thigh</b>",
+    "stMore": "by the priest and the owner; none of which is required for the firstborn offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּסְמִיכָה",
+      "en": "and semichah",
+      "note": "Leaning with the hands on the korban's head."
+     },
+     {
+      "he": "וּנְּסָכִים",
+      "en": "and nesachim"
+     },
+     {
+      "he": "וּתְנוּפַת",
+      "en": "and waving of"
+     },
+     {
+      "he": "חָזֶה",
+      "en": "chest"
+     },
+     {
+      "he": "וָשׁוֹק:",
+      "en": "and thigh"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 3,
+  "summary": "A bechor goes before maaser because it is holy from birth and eaten by Kohanim. Maaser goes before bird korbanos because it is shechted and has holiest parts, its blood and its fats.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַבְּכוֹר קוֹדֵם לַמַּעֲשֵׂר מִפְּנֵי שֶׁקְּדֻשָּׁתוֹ מֵרֶחֶם,",
+    "en": "The bechor comes before maaser because it is holy from birth,",
+    "st": "<b>The firstborn</b> offering <b>precedes the</b> animal <b>tithe</b> offering <b>because it is sanctified from</b> the <b>womb,</b>",
+    "stMore": "i.e., unlike the animal tithe offering it does not require consecration,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבְּכוֹר",
+      "en": "the bechor"
+     },
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "לַמַּעֲשֵׂר",
+      "en": "the maaser"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁקְּדֻשָּׁתוֹ",
+      "en": "that its holiness"
+     },
+     {
+      "he": "מֵרֶחֶם,",
+      "en": "is from the womb",
+      "note": "It is holy from the moment it is born."
+     }
+    ]
+   },
+   {
+    "he": "וְנֶאֱכָל לַכֹּהֲנִים.",
+    "en": "and it is eaten by the Kohanim.",
+    "st": "<b>and it is eaten by the priests,</b> whereas everyone may partake of the animal tithe offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶאֱכָל",
+      "en": "and is eaten"
+     },
+     {
+      "he": "לַכֹּהֲנִים.",
+      "en": "by the Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּעֲשֵׂר קוֹדֵם לָעוֹפוֹת,",
+    "en": "Maaser comes before birds,",
+    "st": "<b>The</b> animal <b>tithe</b> offering <b>precedes bird</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּעֲשֵׂר",
+      "en": "the maaser"
+     },
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "לָעוֹפוֹת,",
+      "en": "the birds"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא זֶבַח וְיֶשׁ",
+    "en": "because it is a shechted korban and there are",
+    "st": "offerings <b>due to</b> the fact <b>that it</b> requires <b>slaughtering,</b> whereas the bird’s nape is pinched; <b>and there are</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "זֶבַח",
+      "en": "a shechted korban"
+     },
+     {
+      "he": "וְיֶשׁ",
+      "en": "and there are"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹ קָדְשֵׁי קָדָשִׁים,",
+    "en": "in it parts of the holiest korbanos:",
+    "st": "two elements <b>of</b> the animal tithe offering that have the status of <b>offerings of the most sacred order:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "קָדְשֵׁי",
+      "en": "holiest"
+     },
+     {
+      "he": "קָדָשִׁים,",
+      "en": "things"
+     }
+    ]
+   },
+   {
+    "he": "דָּמוֹ וְאֵמוּרָיו:",
+    "en": "its blood and its fats.",
+    "st": "<b>Its blood</b> that is presented on the altar <b>and its portions</b>",
+    "stMore": "that are burned on the altar, whereas with regard to bird offerings only the blood is presented on the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמוֹ",
+      "en": "its blood"
+     },
+     {
+      "he": "וְאֵמוּרָיו:",
+      "en": "and its parts for the mizbeach"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 4,
+  "summary": "Bird korbanos go before menachos because they have blood. A sinner's mincha goes before a mincha given as a gift, and a bird chatas goes before a bird olah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָעוֹפוֹת קוֹדְמִין לַמְּנָחוֹת,",
+    "en": "Birds come before menachos,",
+    "st": "<b>The bird</b> offerings <b>precede meal offerings</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹפוֹת",
+      "en": "the birds"
+     },
+     {
+      "he": "קוֹדְמִין",
+      "en": "come before"
+     },
+     {
+      "he": "לַמְּנָחוֹת,",
+      "en": "the menachos"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן מִינֵי דָמִים.",
+    "en": "because they are kinds with blood.",
+    "st": "<b>due to</b> the fact <b>that they are types</b> whose <b>blood</b> is presented, and atonement is effected by the blood.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they are"
+     },
+     {
+      "he": "מִינֵי",
+      "en": "kinds of"
+     },
+     {
+      "he": "דָמִים.",
+      "en": "blood"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת חוֹטֵא קוֹדֶמֶת לְמִנְחַת נְדָבָה,",
+    "en": "A sinner's mincha comes before a gift mincha,",
+    "st": "The <b>meal offering of a sinner precedes a voluntary meal offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "חוֹטֵא",
+      "en": "a sinner"
+     },
+     {
+      "he": "קוֹדֶמֶת",
+      "en": "comes before"
+     },
+     {
+      "he": "לְמִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "נְדָבָה,",
+      "en": "a gift"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהִיא בָאָה עַל חֵטְא.",
+    "en": "because it comes for a sin.",
+    "st": "<b>due to</b> the fact <b>that it comes</b> to atone <b>for a sin.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it"
+     },
+     {
+      "he": "בָאָה",
+      "en": "comes"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "חֵטְא.",
+      "en": "a sin"
+     }
+    ]
+   },
+   {
+    "he": "חַטַּאת הָעוֹף קוֹדֶמֶת לְעוֹלַת הָעוֹף.",
+    "en": "A bird chatas comes before a bird olah.",
+    "st": "For the same reason the sacrifice of <b>the bird sin offering precedes</b> the sacrifice of <b>the bird burnt offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטַּאת",
+      "en": "the chatas of"
+     },
+     {
+      "he": "הָעוֹף",
+      "en": "the bird"
+     },
+     {
+      "he": "קוֹדֶמֶת",
+      "en": "comes before"
+     },
+     {
+      "he": "לְעוֹלַת",
+      "en": "the olah of"
+     },
+     {
+      "he": "הָעוֹף.",
+      "en": "the bird"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן בְּהֶקְדֵּשָׁהּ:",
+    "en": "And so too when setting it aside as holy.",
+    "st": "<b>and likewise with regard to its consecration,</b> the sin offering takes precedence.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so too"
+     },
+     {
+      "he": "בְּהֶקְדֵּשָׁהּ:",
+      "en": "when it is made holy"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 5,
+  "summary": "Every chatas goes before every asham, except the asham of a metzora, which makes him ready to become tahor. Most asham korbanos are two-year-old rams worth two shekels, but those of a nazir and a metzora are one year old.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַחַטָּאוֹת שֶׁבַּתּוֹרָה,",
+    "en": "All the chatas korbanos in the Torah",
+    "st": "<b>All the sin offerings</b> mandated <b>by the Torah</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַחַטָּאוֹת",
+      "en": "the chatas korbanos"
+     },
+     {
+      "he": "שֶׁבַּתּוֹרָה,",
+      "en": "that are in the Torah"
+     }
+    ]
+   },
+   {
+    "he": "קוֹדְמוֹת לָאֲשָׁמוֹת,",
+    "en": "come before the asham korbanos,",
+    "st": "<b>take precedence over the guilt offerings,</b> as explained in the previous mishna (89a),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹדְמוֹת",
+      "en": "come before"
+     },
+     {
+      "he": "לָאֲשָׁמוֹת,",
+      "en": "the asham korbanos"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מֵאֲשַׁם מְצֹרָע,",
+    "en": "except for the asham of a metzora,",
+    "st": "<b>except for the guilt offering of a leper,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵאֲשַׁם",
+      "en": "for the asham of"
+     },
+     {
+      "he": "מְצֹרָע,",
+      "en": "a metzora"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא בָא עַל יְדֵי הֶכְשֵׁר.",
+    "en": "because it comes to make him fit.",
+    "st": "<b>because it comes to</b> render one <b>fit.</b>",
+    "stMore": "One who has been cured of leprosy must undergo a process through which he is rendered ritually pure before coming into contact with consecrated items. Although he must also bring a sin offering, his guilt offering is more central to that process of purification and therefore it takes precedence over the sin offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "בָא",
+      "en": "comes"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "means of"
+     },
+     {
+      "he": "הֶכְשֵׁר.",
+      "en": "making fit",
+      "note": "It helps make the metzora tahor again."
+     }
+    ]
+   },
+   {
+    "he": "כָּל הָאֲשָׁמוֹת שֶׁבַּתּוֹרָה בָּאִין בְּנֵי",
+    "en": "All the asham korbanos in the Torah come as",
+    "st": "<b>All the guilt offerings</b> mandated <b>by the Torah come</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָאֲשָׁמוֹת",
+      "en": "the asham korbanos"
+     },
+     {
+      "he": "שֶׁבַּתּוֹרָה",
+      "en": "that are in the Torah"
+     },
+     {
+      "he": "בָּאִין",
+      "en": "come"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "aged"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתַּיִם וּבָאִין בְּכֶסֶף שְׁקָלִים,",
+    "en": "two years old and come worth silver shekels,",
+    "st": "as rams <b>in their second year, and come worth</b> two <b>silver shekels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתַּיִם",
+      "en": "two years"
+     },
+     {
+      "he": "וּבָאִין",
+      "en": "and come"
+     },
+     {
+      "he": "בְּכֶסֶף",
+      "en": "with money of"
+     },
+     {
+      "he": "שְׁקָלִים,",
+      "en": "shekels",
+      "note": "Worth two silver shekels."
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מֵאֲשַׁם נָזִיר וַאֲשַׁם מְצֹרָע,",
+    "en": "except for the asham of a nazir and the asham of a metzora,",
+    "st": "<b>except for the guilt offering of a nazirite and the guilt offering of a leper,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵאֲשַׁם",
+      "en": "for the asham of"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "וַאֲשַׁם",
+      "en": "and the asham of"
+     },
+     {
+      "he": "מְצֹרָע,",
+      "en": "a metzora"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵן בָּאִין בְּנֵי שְׁנָתָן",
+    "en": "which come one year old",
+    "st": "<b>as they come</b> from sheep <b>in their</b> first <b>year,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "בָּאִין",
+      "en": "come"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "aged"
+     },
+     {
+      "he": "שְׁנָתָן",
+      "en": "their year"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָן בָּאִין בְּכֶסֶף שְׁקָלִים:",
+    "en": "and do not need to be worth silver shekels.",
+    "st": "<b>and do not</b> need to <b>come worth</b> two <b>silver shekels,</b> as they have no fixed value.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָן",
+      "en": "and they are not"
+     },
+     {
+      "he": "בָּאִין",
+      "en": "coming"
+     },
+     {
+      "he": "בְּכֶסֶף",
+      "en": "with money of"
+     },
+     {
+      "he": "שְׁקָלִים:",
+      "en": "shekels"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 6,
+  "summary": "The holier korbanos are also eaten first. Rabbi Meir says yesterday's shelamim are eaten before today's chatas and asham; the Sages say the chatas goes first because it is one of the holiest korbanos.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כְּשֵׁם שֶׁהֵן קוֹדְמִים בְּהַקְרָבָתָן,",
+    "en": "Just as they come first in offering them,",
+    "st": "<b>Just as</b> the more sacred offerings <b>precede</b> other offerings <b>with regard to their sacrifice,</b> as taught in the previous mishna (89a),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "קוֹדְמִים",
+      "en": "come first"
+     },
+     {
+      "he": "בְּהַקְרָבָתָן,",
+      "en": "in their offering"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ הֵן קוֹדְמִים בַּאֲכִילָתָן.",
+    "en": "so they come first in eating them.",
+    "st": "<b>they</b> also <b>precede</b> the others <b>with regard to their consumption.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "קוֹדְמִים",
+      "en": "come first"
+     },
+     {
+      "he": "בַּאֲכִילָתָן.",
+      "en": "in their eating"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלָמִים שֶׁל אֶמֶשׁ וּשְׁלָמִים שֶׁל הַיּוֹם,",
+    "en": "Shelamim from yesterday and shelamim from today,",
+    "st": "If one has <b>a peace offering from yesterday and a peace offering from today,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלָמִים",
+      "en": "shelamim"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶמֶשׁ",
+      "en": "yesterday"
+     },
+     {
+      "he": "וּשְׁלָמִים",
+      "en": "and shelamim"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "הַיּוֹם,",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל אֶמֶשׁ קוֹדְמִין.",
+    "en": "the ones from yesterday come first.",
+    "st": "the peace offering <b>from yesterday precedes</b> the peace offering <b>from today.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶמֶשׁ",
+      "en": "yesterday"
+     },
+     {
+      "he": "קוֹדְמִין.",
+      "en": "come first"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלָמִים שֶׁל אֶמֶשׁ וְחַטָּאת",
+    "en": "Shelamim from yesterday and a chatas",
+    "st": "If one has <b>a peace offering from yesterday</b> and <b>a sin offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלָמִים",
+      "en": "shelamim"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶמֶשׁ",
+      "en": "yesterday"
+     },
+     {
+      "he": "וְחַטָּאת",
+      "en": "and a chatas"
+     }
+    ]
+   },
+   {
+    "he": "וְאָשָׁם שֶׁל הַיּוֹם,",
+    "en": "or an asham from today,",
+    "st": "<b>or a guilt offering from today,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָשָׁם",
+      "en": "and an asham"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "הַיּוֹם,",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלָמִים שֶׁל אֶמֶשׁ קוֹדְמִין,",
+    "en": "the shelamim from yesterday come first,",
+    "st": "the <b>peace offering from yesterday precedes</b> the others;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלָמִים",
+      "en": "shelamim"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶמֶשׁ",
+      "en": "yesterday"
+     },
+     {
+      "he": "קוֹדְמִין,",
+      "en": "come first"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "says Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הַחַטָּאת קוֹדֶמֶת,",
+    "en": "the chatas comes first,",
+    "st": "The <b>sin offering precedes</b> the peace offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחַטָּאת",
+      "en": "the chatas"
+     },
+     {
+      "he": "קוֹדֶמֶת,",
+      "en": "comes first"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהִיא קָדְשֵׁי קָדָשִׁים:",
+    "en": "because it is one of the holiest korbanos.",
+    "st": "<b>due to</b> the fact <b>that it is an offering of the most sacred order.</b>",
+    "stMore": "Likewise, the guilt offering precedes the peace offering, as it is also of the most sacred order.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "קָדְשֵׁי",
+      "en": "holiest"
+     },
+     {
+      "he": "קָדָשִׁים:",
+      "en": "korbanos"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 7,
+  "summary": "The Kohanim may eat korbanos cooked any way they like and add regular spices. Rabbi Shimon says they may also add terumah spices, but Rabbi Meir says not, so the terumah will not become pasul.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וּבְכֻלָּם, הַכֹּהֲנִים רַשָּׁאִין לְשַׁנּוֹת בַּאֲכִילָתָן,",
+    "en": "And with all of them, the Kohanim may change how they eat them,",
+    "st": "<b>And</b> with regard to <b>all of</b> the offerings that are eaten, <b>the priests are permitted to alter</b> the manner of <b>their consumption</b> and eat them as they choose. Therefore,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְכֻלָּם,",
+      "en": "and with all of them"
+     },
+     {
+      "he": "הַכֹּהֲנִים",
+      "en": "the Kohanim"
+     },
+     {
+      "he": "רַשָּׁאִין",
+      "en": "are allowed"
+     },
+     {
+      "he": "לְשַׁנּוֹת",
+      "en": "to change"
+     },
+     {
+      "he": "בַּאֲכִילָתָן,",
+      "en": "in their eating"
+     }
+    ]
+   },
+   {
+    "he": "לְאָכְלָן צְלוּיִים,",
+    "en": "to eat them roasted,",
+    "st": "the priests are permitted <b>to eat them roasted,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאָכְלָן",
+      "en": "to eat them"
+     },
+     {
+      "he": "צְלוּיִים,",
+      "en": "roasted"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלוּקִים, וּמְבֻשָּׁלִים,",
+    "en": "or boiled, or cooked,",
+    "st": "<b>or boiled, or cooked,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלוּקִים,",
+      "en": "boiled",
+      "note": "Cooked a long time until very soft."
+     },
+     {
+      "he": "וּמְבֻשָּׁלִים,",
+      "en": "and cooked"
+     }
+    ]
+   },
+   {
+    "he": "וְלָתֵת לְתוֹכָן תִּבְלֵי חֻלִּין וְתִבְלֵי תְרוּמָה,",
+    "en": "and to put into them regular spices or terumah spices,",
+    "st": "and <b>to place in</b> the cooking pot <b>non-sacred spices or teruma spices.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָתֵת",
+      "en": "and to put"
+     },
+     {
+      "he": "לְתוֹכָן",
+      "en": "into them"
+     },
+     {
+      "he": "תִּבְלֵי",
+      "en": "spices of"
+     },
+     {
+      "he": "חֻלִּין",
+      "en": "regular food"
+     },
+     {
+      "he": "וְתִבְלֵי",
+      "en": "and spices of"
+     },
+     {
+      "he": "תְרוּמָה,",
+      "en": "terumah",
+      "note": "A gift of food for the Kohanim."
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי שִׁמְעוֹן.",
+    "en": "says Rabbi Shimon.",
+    "st": "This is <b>the statement of Rabbi Shimon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן.",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִתֵּן לְתוֹכָן תִּבְלֵי תְרוּמָה,",
+    "en": "he should not put terumah spices into them,",
+    "st": "<b>One may not place teruma spices in it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִתֵּן",
+      "en": "he should put"
+     },
+     {
+      "he": "לְתוֹכָן",
+      "en": "into them"
+     },
+     {
+      "he": "תִּבְלֵי",
+      "en": "spices of"
+     },
+     {
+      "he": "תְרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא יָבִיא אֶת הַתְּרוּמָה לִידֵי פְסוּל:",
+    "en": "so that he does not bring the terumah to becoming pasul.",
+    "st": "so <b>that he will not bring the teruma to</b> a state <b>of disqualification.</b>",
+    "stMore": "Consumption of consecrated foods is permitted only for a limited period, after which they are disqualified and burned. Adding teruma spices might cause those spices to be similarly disqualified.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "so that not"
+     },
+     {
+      "he": "יָבִיא",
+      "en": "he bring"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתְּרוּמָה",
+      "en": "the terumah"
+     },
+     {
+      "he": "לִידֵי",
+      "en": "to"
+     },
+     {
+      "he": "פְסוּל:",
+      "en": "becoming pasul",
+      "note": "Leftover korban meat must be burned, and the terumah spices would have to be burned with it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 8,
+  "summary": "Rabbi Shimon says that oil given out to the Kohanim, or oil burned on the mizbeach, comes from certain menachos or the metzora's oil, because people do not give oil as a gift. Rabbi Tarfon says people may give oil as a gift.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר רַבִּי שִׁמְעוֹן,",
+    "en": "Rabbi Shimon said,",
+    "st": "<b>Rabbi Shimon said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן,",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "אִם רָאִיתָ שֶׁמֶן שֶׁהוּא מִתְחַלֵּק בָּעֲזָרָה,",
+    "en": "If you saw oil being shared out in the courtyard,",
+    "st": "<b>If you saw oil that is being distributed in the Temple courtyard</b>",
+    "stMore": "for consumption by the priests and you seek to ascertain its nature,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רָאִיתָ",
+      "en": "you saw"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִתְחַלֵּק",
+      "en": "being shared out"
+     },
+     {
+      "he": "בָּעֲזָרָה,",
+      "en": "in the courtyard"
+     }
+    ]
+   },
+   {
+    "he": "אֵין אַתָּה צָרִיךְ לִשְׁאוֹל מַה הוּא,",
+    "en": "you do not need to ask what it is.",
+    "st": "you <b>do not need to ask what it is.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "צָרִיךְ",
+      "en": "need"
+     },
+     {
+      "he": "לִשְׁאוֹל",
+      "en": "to ask"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הוּא,",
+      "en": "it is"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מוֹתַר רְקִיקֵי מִנְחוֹת יִשְׂרָאֵל,",
+    "en": "It is the leftover of the wafers of the menachos of Yisrael,",
+    "st": "<b>Rather,</b> it is <b>left over</b> from the oil <b>of the wafers of the meal offerings of Israelites</b> after they smeared a bit of oil on them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מוֹתַר",
+      "en": "the leftover of"
+     },
+     {
+      "he": "רְקִיקֵי",
+      "en": "the wafers of"
+     },
+     {
+      "he": "מִנְחוֹת",
+      "en": "the menachos of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael",
+      "note": "Menachos brought by people who are not Kohanim."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹג שֶׁמֶן שֶׁל מְצֹרָע.",
+    "en": "and the log of oil of a metzora.",
+    "st": "<b>or</b> it is left over from the <b>log of oil of a leper</b> after a small amount of the oil was placed on him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹג",
+      "en": "and the log of"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מְצֹרָע.",
+      "en": "a metzora"
+     }
+    ]
+   },
+   {
+    "he": "אִם רָאִיתָ שֶׁמֶן שֶׁהוּא",
+    "en": "If you saw oil that is",
+    "st": "<b>If you saw oil that is</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רָאִיתָ",
+      "en": "you saw"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     }
+    ]
+   },
+   {
+    "he": "נָתוּן עַל גַּבֵּי הָאִשִּׁים,",
+    "en": "put on the fires,",
+    "st": "<b>placed on the flames</b> of the altar in the manner of an offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתוּן",
+      "en": "put"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "הָאִשִּׁים,",
+      "en": "the fires"
+     }
+    ]
+   },
+   {
+    "he": "אֵין אַתָּה צָרִיךְ לִשְׁאוֹל מַה הוּא,",
+    "en": "you do not need to ask what it is.",
+    "st": "you <b>do not need to ask what it is.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "צָרִיךְ",
+      "en": "need"
+     },
+     {
+      "he": "לִשְׁאוֹל",
+      "en": "to ask"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הוּא,",
+      "en": "it is"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מוֹתַר רְקִיקֵי מִנְחוֹת כֹּהֲנִים,",
+    "en": "It is the leftover of the wafers of the menachos of Kohanim,",
+    "st": "<b>Rather,</b> it is <b>left over</b> from the oil <b>of the wafers of the meal offering of priests,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מוֹתַר",
+      "en": "the leftover of"
+     },
+     {
+      "he": "רְקִיקֵי",
+      "en": "the wafers of"
+     },
+     {
+      "he": "מִנְחוֹת",
+      "en": "the menachos of"
+     },
+     {
+      "he": "כֹּהֲנִים,",
+      "en": "Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנְחַת כֹּהֵן הַמָּשִׁיחַ.",
+    "en": "and the mincha of the Kohen Gadol.",
+    "st": "<b>or</b> it is the leftover oil from <b>the meal offering of the anointed priest,</b>",
+    "stMore": "which requires a great deal of oil and which is burned in its entirety on the altar. The mishna adds: One can-not say that the oil distributed to priests or burned on the altar was brought as a gift offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "a Kohen"
+     },
+     {
+      "he": "הַמָּשִׁיחַ.",
+      "en": "the anointed"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין מִתְנַדְּבִים שָׁמֶן.",
+    "en": "Because people do not give oil as a gift.",
+    "st": "<b>as one may not contribute oil</b> as a gift offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because not"
+     },
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "they give as a gift"
+     },
+     {
+      "he": "שָׁמֶן.",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מִתְנַדְּבִים שָׁמֶן:",
+    "en": "people may give oil as a gift.",
+    "st": "<b>One may contribute oil</b> as a gift offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "they give as a gift"
+     },
+     {
+      "he": "שָׁמֶן:",
+      "en": "oil"
+     }
+    ]
+   }
+  ]
+ }
+]

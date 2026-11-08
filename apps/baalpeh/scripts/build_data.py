@@ -14,6 +14,7 @@ Writes:
 A masechta with translation sources is built from data/<id>/gloss/perek_*.json and must be fully glossed, or the build
 fails. data/<id>/hide.json (optional) drops Steinsaltz text from listed mishnayos and rewords listed lines/word glosses
 (child-suitability); the gloss files keep the originals. A rule that no longer matches the gloss stops the build.
+A masechta marked "glossPending": true is built as Hebrew only until its gloss is done and the flag is removed.
 A Hebrew-only masechta (sources: []) is built from the mechanical chunks in data/<id>/chunks.json, with an empty
 summary and empty meanings (`en: ""`) on every piece and word, in the same shape as a glossed masechta.
 """
@@ -111,6 +112,9 @@ by_seder = {s["id"]: [] for s in catalog.CATALOG["sedarim"]}
 texts = {}
 written = set()
 for entry in catalog.MASECHTOS:
+    if entry.get("glossPending"):
+        # Its sources are listed (so chunks.json carries them for glossing) but the gloss isn't finished: ship Hebrew only.
+        entry = {**entry, "sources": []}
     mid = entry["id"]
     data, glossed = build(entry)
     body = json.dumps(data, ensure_ascii=False).encode()
@@ -121,8 +125,8 @@ for entry in catalog.MASECHTOS:
     for m in data["mishnayos"]:
         counts[m["perek"]] = counts.get(m["perek"], 0) + 1
     by_seder[entry["seder"]].append({
-        "id": mid, "he": entry["he"], "en": entry["en"], "file": f"/data/m/{name}", "bytes": len(body),
-        "perakim": [counts[p] for p in sorted(counts)], "translated": bool(entry["sources"])})
+        "id": mid, "he": entry["he"], "en": entry["en"], "sefaria": entry["sefaria"], "file": f"/data/m/{name}", "bytes": len(body),
+        "perakim": [counts[p] for p in sorted(counts)], "translated": bool(entry["sources"]), "sources": entry["sources"]})
     perakim = {}
     for m in data["mishnayos"]:
         perakim.setdefault(str(m["perek"]), []).append([c["he"] for c in m["chunks"]])

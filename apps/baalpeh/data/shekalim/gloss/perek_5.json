@@ -1,0 +1,2031 @@
+[
+ {
+  "perek": 5,
+  "mishnah": 1,
+  "summary": "This mishnah lists the people in charge of different jobs in the Beis HaMikdash, like the seals, the wine offerings, the lotteries, the gates, the music, the lechem hapanim and the ketores.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ הֵן הַמְמֻנִּין שֶׁהָיוּ בַּמִּקְדָּשׁ,",
+    "en": "These are the people in charge in the Beis HaMikdash:",
+    "st": "<b>These are the officials who served</b> in specific positions <b>in the Temple: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "הֵן",
+      "en": "are"
+     },
+     {
+      "he": "הַמְמֻנִּין",
+      "en": "the ones in charge"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "who were"
+     },
+     {
+      "he": "בַּמִּקְדָּשׁ,",
+      "en": "in the Beis HaMikdash"
+     }
+    ]
+   },
+   {
+    "he": "יוֹחָנָן בֶּן פִּנְחָס עַל הַחוֹתָמוֹת,",
+    "en": "Yochanan ben Pinchas was in charge of the seals,",
+    "st": "<b>Yoḥanan ben Pineḥas</b> was responsible <b>for the seals.</b>",
+    "stMore": "One who paid for a specific type of sacrificial item received a seal, which he presented to the Temple official in exchange for that item.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "פִּנְחָס",
+      "en": "Pinchas"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַחוֹתָמוֹת,",
+      "en": "the seals",
+      "note": "Tickets people bought to get the wine offerings for their korban."
+     }
+    ]
+   },
+   {
+    "he": "אֲחִיָּה עַל הַנְּסָכִים,",
+    "en": "Achiyah was in charge of the wine offerings,",
+    "st": "<b>Aḥiyya</b> was responsible <b>for the libations,</b>",
+    "stMore": "i.e., the wine, oil, and flour prepared with the level of ritual purity necessary for the libation offerings and the meal-offerings, which accompanied many animal offerings. Aḥiyya supplied the libations to those who presented the appropriate seal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲחִיָּה",
+      "en": "Achiyah"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַנְּסָכִים,",
+      "en": "the wine offerings"
+     }
+    ]
+   },
+   {
+    "he": "מַתִּתְיָה בֶּן שְׁמוּאֵל עַל הַפְּיָסוֹת,",
+    "en": "Matisyah ben Shmuel was in charge of the lotteries,",
+    "st": "<b>Matya ben Shmuel</b> was responsible <b>for the lotteries,</b>",
+    "stMore": "which were used to select priests for the various Temple services each day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַתִּתְיָה",
+      "en": "Matisyah"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "שְׁמוּאֵל",
+      "en": "Shmuel"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַפְּיָסוֹת,",
+      "en": "the lotteries",
+      "note": "Choosing which Kohen does each job."
+     }
+    ]
+   },
+   {
+    "he": "פְּתַחְיָה עַל הַקִּנִּין.",
+    "en": "Pesachyah was in charge of the bird pairs.",
+    "st": "<b>Petaḥya</b> was responsible <b>for the pairs</b> of birds,",
+    "stMore": "i.e., the turtledoves or pigeons, brought by a zav, a zava, a woman after childbirth, and a leper. They placed the appropriate sum of money into the horn designated for this purpose, and each day Petaḥya oversaw the purchase of birds from that money and their sacrifice in the proper manner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּתַחְיָה",
+      "en": "Pesachyah"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַקִּנִּין.",
+      "en": "the bird pairs"
+     }
+    ]
+   },
+   {
+    "he": "פְּתַחְיָה, זֶה מָרְדְּכָי.",
+    "en": "Pesachyah is Mordechai.",
+    "st": "Incidentally, the Gemara mentions: <b>Petaḥya is Mordecai</b> from the book of Esther.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּתַחְיָה,",
+      "en": "Pesachyah"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "מָרְדְּכָי.",
+      "en": "Mordechai",
+      "note": "Mordechai from the Megillah."
+     }
+    ]
+   },
+   {
+    "he": "לָמָּה נִקְרָא שְׁמוֹ פְּתַחְיָה.",
+    "en": "Why was he called Pesachyah?",
+    "st": "<b>And why was he called Petaḥya,</b> which resembles the word for opening [petaḥ]?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָמָּה",
+      "en": "why"
+     },
+     {
+      "he": "נִקְרָא",
+      "en": "was called"
+     },
+     {
+      "he": "שְׁמוֹ",
+      "en": "his name"
+     },
+     {
+      "he": "פְּתַחְיָה.",
+      "en": "Pesachyah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָיָה פּוֹתֵחַ בִּדְבָרִים וְדוֹרְשָׁן,",
+    "en": "Because he would open up hard topics and explain them,",
+    "st": "The reason is <b>that he would open,</b> i.e., elucidate, difficult <b>topics and interpret them</b> to the people,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָיָה",
+      "en": "because he was"
+     },
+     {
+      "he": "פּוֹתֵחַ",
+      "en": "opening"
+     },
+     {
+      "he": "בִּדְבָרִים",
+      "en": "with words"
+     },
+     {
+      "he": "וְדוֹרְשָׁן,",
+      "en": "and explaining them"
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹדֵעַ שִׁבְעִים לָשׁוֹן.",
+    "en": "and he knew seventy languages.",
+    "st": "<b>and</b> because <b>he knew</b> all <b>seventy languages</b> known at the time.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹדֵעַ",
+      "en": "and knowing"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "לָשׁוֹן.",
+      "en": "languages"
+     }
+    ]
+   },
+   {
+    "he": "בֶּן אֲחִיָּה עַל חוֹלֵי מֵעַיִם,",
+    "en": "Ben Achiyah was in charge of Kohanim with stomach sickness,",
+    "st": "The mishna resumes the list of officials. <b>Ben Aḥiyya</b> was responsible <b>for</b> the care of the priests who suffered from <b>intestinal disease. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "Ben"
+     },
+     {
+      "he": "אֲחִיָּה",
+      "en": "Achiyah"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "חוֹלֵי",
+      "en": "sicknesses of"
+     },
+     {
+      "he": "מֵעַיִם,",
+      "en": "the stomach"
+     }
+    ]
+   },
+   {
+    "he": "נְחוּנְיָא חוֹפֵר שִׁיחִין,",
+    "en": "Nechunya dug wells,",
+    "st": "<b>Neḥunya</b> was the <b>well digger</b> for pilgrims on their way to Jerusalem for the Festivals.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְחוּנְיָא",
+      "en": "Nechunya"
+     },
+     {
+      "he": "חוֹפֵר",
+      "en": "digger of"
+     },
+     {
+      "he": "שִׁיחִין,",
+      "en": "wells",
+      "note": "Wells for people coming to Yerushalayim for Yom Tov."
+     }
+    ]
+   },
+   {
+    "he": "גְּבִינֵי כָרוֹז,",
+    "en": "Gevini was the caller,",
+    "st": "<b>Gevini</b> was the Temple <b>crier</b>",
+    "stMore": "who would awaken the priests and the Levites for their Temple duties.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּבִינֵי",
+      "en": "Gevini"
+     },
+     {
+      "he": "כָרוֹז,",
+      "en": "the caller",
+      "note": "He called out to wake the Kohanim and Levi'im for their work."
+     }
+    ]
+   },
+   {
+    "he": "בֶּן גֶּבֶר עַל נְעִילַת שְׁעָרִים,",
+    "en": "Ben Gever was in charge of locking the gates,",
+    "st": "<b>Ben Gever</b> was responsible <b>for locking the</b> Temple <b>gates</b> in the evening and for unlocking them in the morning.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "Ben"
+     },
+     {
+      "he": "גֶּבֶר",
+      "en": "Gever"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "נְעִילַת",
+      "en": "the locking of"
+     },
+     {
+      "he": "שְׁעָרִים,",
+      "en": "the gates"
+     }
+    ]
+   },
+   {
+    "he": "בֶּן בֵּבָי עַל הַפָּקִיעַ,",
+    "en": "Ben Bevai was in charge of the wicks,",
+    "st": "<b>Ben Bevai</b> was <b>appointed over the shreds</b> of garments,",
+    "stMore": "which were formed into wicks for the Temple candelabra. He also supervised the twisting of those wicks into the appropriate thickness for the various nights during the different seasons of the year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "Ben"
+     },
+     {
+      "he": "בֵּבָי",
+      "en": "Bevai"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַפָּקִיעַ,",
+      "en": "the wicks",
+      "note": "Made from old clothes of the Kohanim, for the Menorah."
+     }
+    ]
+   },
+   {
+    "he": "בֶּן אַרְזָה עַל הַצִּלְצָל,",
+    "en": "Ben Arza was in charge of the cymbal,",
+    "st": "<b>Ben Arza</b> was responsible <b>for the cymbal,</b>",
+    "stMore": "which was rung as a signal that the Levites should commence their song.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "Ben"
+     },
+     {
+      "he": "אַרְזָה",
+      "en": "Arza"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַצִּלְצָל,",
+      "en": "the cymbal",
+      "note": "A metal musical instrument, rung so the Levi'im would start to sing."
+     }
+    ]
+   },
+   {
+    "he": "הֻגְרַס בֶּן לֵוִי עַל הַשִּׁיר,",
+    "en": "Hugras ben Levi was in charge of the singing,",
+    "st": "<b>Hugras ben Levi</b> was responsible <b>for the song.</b> He taught and conducted the singers in the Temple.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֻגְרַס",
+      "en": "Hugras"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "לֵוִי",
+      "en": "Levi"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַשִּׁיר,",
+      "en": "the song"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית גַּרְמוּ עַל מַעֲשֵׂה לֶחֶם הַפָּנִים,",
+    "en": "the family of Garmu was in charge of making the lechem hapanim,",
+    "st": "<b>The house of Garmu</b> was responsible <b>for the preparation of the shewbread; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "גַּרְמוּ",
+      "en": "Garmu"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "מַעֲשֵׂה",
+      "en": "the making of"
+     },
+     {
+      "he": "לֶחֶם",
+      "en": "the bread of"
+     },
+     {
+      "he": "הַפָּנִים,",
+      "en": "the face"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית אַבְטִינָס עַל מַעֲשֵׂה הַקְּטֹרֶת,",
+    "en": "the family of Avtinas was in charge of making the ketores,",
+    "st": "<b>the house of Avtinas</b> was responsible <b>for the preparation of the incense; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "אַבְטִינָס",
+      "en": "Avtinas"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "מַעֲשֵׂה",
+      "en": "the making of"
+     },
+     {
+      "he": "הַקְּטֹרֶת,",
+      "en": "the ketores"
+     }
+    ]
+   },
+   {
+    "he": "אֶלְעָזָר עַל הַפָּרוֹכוֹת,",
+    "en": "Elazar was in charge of the curtains,",
+    "st": "<b>and Elazar</b> was responsible <b>for</b> weaving <b>the</b> Temple <b>curtains; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַפָּרוֹכוֹת,",
+      "en": "the curtains"
+     }
+    ]
+   },
+   {
+    "he": "וּפִנְחָס עַל הַמַּלְבּוּשׁ:",
+    "en": "and Pinchas was in charge of the clothing.",
+    "explain": "He helped the Kohanim get dressed in their special clothes.",
+    "st": "<b>and Pineḥas</b> was <b>the valet,</b>",
+    "stMore": "who assisted the priests in fitting their clothes and dressing themselves for their Temple service.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפִנְחָס",
+      "en": "and Pinchas"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַמַּלְבּוּשׁ:",
+      "en": "the clothing"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 2,
+  "summary": "There must be at least three treasurers and seven trustees for the money of the Beis HaMikdash. People in charge of public money must be at least two, except for two special people everyone trusted.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין פּוֹחֲתִין מִשְּׁלֹשָה גִּזְבָּרִין וּמִשִּׁבְעָה אֲמַרְכָּלִין,",
+    "en": "There may not be fewer than three treasurers and seven trustees.",
+    "st": "<b>There must be no fewer than seven trustees [amarkolin] and three treasurers</b> appointed over the Temple administration.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "go less"
+     },
+     {
+      "he": "מִשְּׁלֹשָה",
+      "en": "than three"
+     },
+     {
+      "he": "גִּזְבָּרִין",
+      "en": "treasurers"
+     },
+     {
+      "he": "וּמִשִּׁבְעָה",
+      "en": "and than seven"
+     },
+     {
+      "he": "אֲמַרְכָּלִין,",
+      "en": "trustees"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין עוֹשִׂין שְׂרָרָה עַל הַצִּבּוּר בְּמָמוֹן",
+    "en": "And we do not make someone in charge of public money",
+    "st": "<b>And we do not appoint an authority over the public</b> comprised",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and we do not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "make"
+     },
+     {
+      "he": "שְׂרָרָה",
+      "en": "authority"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַצִּבּוּר",
+      "en": "the public"
+     },
+     {
+      "he": "בְּמָמוֹן",
+      "en": "in money"
+     }
+    ]
+   },
+   {
+    "he": "פָּחוּת מִשְּׁנַיִם,",
+    "en": "with less than two people,",
+    "st": "<b>of fewer than two</b> people,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִשְּׁנַיִם,",
+      "en": "than two"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִבֶּן אֲחִיָּה שֶׁעַל חוֹלֵי מֵעַיִם",
+    "en": "except for Ben Achiyah, who was in charge of stomach sickness,",
+    "st": "<b>except for ben Aḥiyya, who</b> was responsible <b>for</b> healing priests who suffered from <b>intestinal disease, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִבֶּן",
+      "en": "for Ben"
+     },
+     {
+      "he": "אֲחִיָּה",
+      "en": "Achiyah"
+     },
+     {
+      "he": "שֶׁעַל",
+      "en": "who was over"
+     },
+     {
+      "he": "חוֹלֵי",
+      "en": "sicknesses of"
+     },
+     {
+      "he": "מֵעַיִם",
+      "en": "the stomach"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶלְעָזָר שֶׁעַל הַפָּרוֹכוֹת,",
+    "en": "and Elazar, who was in charge of the curtains,",
+    "st": "<b>and Elazar, who</b> was responsible <b>for</b> the weaving <b>of the</b> Temple <b>curtains.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶלְעָזָר",
+      "en": "and Elazar"
+     },
+     {
+      "he": "שֶׁעַל",
+      "en": "who was over"
+     },
+     {
+      "he": "הַפָּרוֹכוֹת,",
+      "en": "the curtains"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאוֹתָן קִבְּלוּ רוֹב הַצִּבּוּר עֲלֵיהֶן:",
+    "en": "because most of the people accepted them.",
+    "st": "The reason for these exceptions is <b>that the majority of the public accepted these</b> men <b>upon themselves</b>",
+    "stMore": "as officials who served without the assistance of even a single partner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאוֹתָן",
+      "en": "that them"
+     },
+     {
+      "he": "קִבְּלוּ",
+      "en": "accepted"
+     },
+     {
+      "he": "רוֹב",
+      "en": "most of"
+     },
+     {
+      "he": "הַצִּבּוּר",
+      "en": "the public"
+     },
+     {
+      "he": "עֲלֵיהֶן:",
+      "en": "upon themselves"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 3,
+  "summary": "There were seals with words written on them, each for a different kind of wine offering. This mishnah tells what was written on them and which korbanos each one was for.",
+  "stIntro": "This mishna provides details of the functions performed by Yoḥanan ben Pineḥas and Aḥiyya, the officials mentioned in the first mishna of this chapter, which concerns the seals and libations.",
+  "chunks": [
+   {
+    "he": "אַרְבָּעָה חוֹתָמוֹת הָיוּ בַּמִּקְדָּשׁ,",
+    "en": "There were four seals in the Beis HaMikdash,",
+    "st": "<b>There were four seals in the Temple</b>",
+    "stMore": "that confirmed that the bearer had paid for the libations that accompanied his offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "חוֹתָמוֹת",
+      "en": "seals"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "בַּמִּקְדָּשׁ,",
+      "en": "in the Beis HaMikdash"
+     }
+    ]
+   },
+   {
+    "he": "וְכָתוּב עֲלֵיהֶן,",
+    "en": "and on them was written,",
+    "st": "<b>And</b> one of the following inscriptions was <b>written on them: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָתוּב",
+      "en": "and was written"
+     },
+     {
+      "he": "עֲלֵיהֶן,",
+      "en": "on them"
+     }
+    ]
+   },
+   {
+    "he": "עֵגֶל, זָכָר,",
+    "en": "\"Calf,\" \"Male,\"",
+    "st": "<b>Calf; male,</b> i.e., a ram;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵגֶל,",
+      "en": "calf"
+     },
+     {
+      "he": "זָכָר,",
+      "en": "male",
+      "note": "Here it means a ram."
+     }
+    ]
+   },
+   {
+    "he": "גְּדִי, חוֹטֵא.",
+    "en": "\"Kid,\" \"Sinner.\"",
+    "st": "<b>kid; and sinner,</b>",
+    "stMore": "i.e., a leper, as leprosy is a punishment for one of seven sins (see Arakhin 16a). Conversely,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּדִי,",
+      "en": "kid",
+      "note": "A young goat."
+     },
+     {
+      "he": "חוֹטֵא.",
+      "en": "sinner",
+      "note": "Here it means a metzora, a person with tzaraas."
+     }
+    ]
+   },
+   {
+    "he": "בֶּן עַזַּאי אוֹמֵר,",
+    "en": "Ben Azzai says,",
+    "st": "<b>ben Azzai says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "Ben"
+     },
+     {
+      "he": "עַזַּאי",
+      "en": "Azzai"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "חֲמִשָּׁה הָיוּ,",
+    "en": "There were five,",
+    "st": "<b>There were five</b> seals,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "הָיוּ,",
+      "en": "there were"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲרָמִית כָּתוּב עֲלֵיהֶן,",
+    "en": "and written on them in Aramaic was:",
+    "st": "<b>and</b> the following was <b>written upon them</b> in <b>Aramaic,</b> not Hebrew:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲרָמִית",
+      "en": "and Aramaic"
+     },
+     {
+      "he": "כָּתוּב",
+      "en": "was written"
+     },
+     {
+      "he": "עֲלֵיהֶן,",
+      "en": "on them"
+     }
+    ]
+   },
+   {
+    "he": "עֵגֶל, זָכָר, גְּדִי, חוֹטֵא דַּל, וְחוֹטֵא עָשִׁיר.",
+    "en": "\"Calf,\" \"Male,\" \"Kid,\" \"Poor sinner,\" and \"Rich sinner.\"",
+    "st": "<b>Calf, male, kid, poor sinner, and rich sinner.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵגֶל,",
+      "en": "calf"
+     },
+     {
+      "he": "זָכָר,",
+      "en": "male"
+     },
+     {
+      "he": "גְּדִי,",
+      "en": "kid"
+     },
+     {
+      "he": "חוֹטֵא",
+      "en": "sinner"
+     },
+     {
+      "he": "דַּל,",
+      "en": "poor"
+     },
+     {
+      "he": "וְחוֹטֵא",
+      "en": "and sinner"
+     },
+     {
+      "he": "עָשִׁיר.",
+      "en": "rich"
+     }
+    ]
+   },
+   {
+    "he": "עֵגֶל מְשַׁמֵּשׁ עִם נִסְכֵּי בָּקָר",
+    "en": "The \"Calf\" seal is used for the wine offerings of cattle,",
+    "st": "The mishna explains the significance of each of the four aforementioned seals. The <b>calf</b> seal <b>serves</b> as a payment receipt <b>for libations of cattle</b> offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵגֶל",
+      "en": "calf"
+     },
+     {
+      "he": "מְשַׁמֵּשׁ",
+      "en": "is used"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "נִסְכֵּי",
+      "en": "the wine offerings of"
+     },
+     {
+      "he": "בָּקָר",
+      "en": "cattle"
+     }
+    ]
+   },
+   {
+    "he": "גְּדוֹלִים וּקְטַנִּים, זְכָרִים וּנְקֵבוֹת.",
+    "en": "big or small, male or female.",
+    "st": "whether they are <b>large or small, male or female,</b>",
+    "stMore": "as all offerings from the cow family are accompanied by the same libation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּדוֹלִים",
+      "en": "big"
+     },
+     {
+      "he": "וּקְטַנִּים,",
+      "en": "and small"
+     },
+     {
+      "he": "זְכָרִים",
+      "en": "males"
+     },
+     {
+      "he": "וּנְקֵבוֹת.",
+      "en": "and females"
+     }
+    ]
+   },
+   {
+    "he": "גְּדִי מְשַׁמֵּשׁ עִם נִסְכֵּי צֹאן",
+    "en": "The \"Kid\" seal is used for the wine offerings of sheep and goats,",
+    "st": "The <b>kid</b> seal <b>serves for libations of sheep</b> or goat offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּדִי",
+      "en": "kid"
+     },
+     {
+      "he": "מְשַׁמֵּשׁ",
+      "en": "is used"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "נִסְכֵּי",
+      "en": "the wine offerings of"
+     },
+     {
+      "he": "צֹאן",
+      "en": "sheep"
+     }
+    ]
+   },
+   {
+    "he": "גְּדוֹלִים וּקְטַנִּים, זְכָרִים וּנְקֵבוֹת,",
+    "en": "big or small, male or female,",
+    "st": "whether <b>large or small, male or female, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּדוֹלִים",
+      "en": "big"
+     },
+     {
+      "he": "וּקְטַנִּים,",
+      "en": "and small"
+     },
+     {
+      "he": "זְכָרִים",
+      "en": "males"
+     },
+     {
+      "he": "וּנְקֵבוֹת,",
+      "en": "and females"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִשֶּׁל אֵילִים.",
+    "en": "except for rams.",
+    "st": "<b>except for those of rams</b> aged thirteen months and older.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from that of"
+     },
+     {
+      "he": "אֵילִים.",
+      "en": "rams"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר מְשַׁמֵּשׁ עִם נִסְכֵּי אֵילִים בִּלְבָד.",
+    "en": "The \"Male\" seal is used only for the wine offerings of rams.",
+    "st": "The <b>ram</b> seal, which was earlier called the male seal, <b>serves exclusively for ram libations.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "male"
+     },
+     {
+      "he": "מְשַׁמֵּשׁ",
+      "en": "is used"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "נִסְכֵּי",
+      "en": "the wine offerings of"
+     },
+     {
+      "he": "אֵילִים",
+      "en": "rams"
+     },
+     {
+      "he": "בִּלְבָד.",
+      "en": "only"
+     }
+    ]
+   },
+   {
+    "he": "חוֹטֵא מְשַׁמֵּשׁ עִם נִסְכֵּי",
+    "en": "The \"Sinner\" seal is used for the wine offerings",
+    "st": "The <b>sinner</b> seal <b>serves for libations of the </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוֹטֵא",
+      "en": "sinner"
+     },
+     {
+      "he": "מְשַׁמֵּשׁ",
+      "en": "is used"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "נִסְכֵּי",
+      "en": "the wine offerings of"
+     }
+    ]
+   },
+   {
+    "he": "שָׁלשׁ בְּהֵמוֹת שֶׁל מְצוֹרָעִין:",
+    "en": "of the three animals of a metzora.",
+    "explain": "A metzora brings three animals when he becomes tahor.",
+    "st": "<b>three animal</b> offerings <b>of a leper,</b> for the completion of his purification.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "בְּהֵמוֹת",
+      "en": "animals"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מְצוֹרָעִין:",
+      "en": "metzora'im"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 4,
+  "summary": "To get wine offerings, a person paid Yochanan for a seal and gave the seal to Achiyah. In the evening they checked the money against the seals, and hekdesh always came out ahead.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁהוּא מְבַקֵּשׁ נְסָכִים",
+    "en": "Someone who wants wine offerings",
+    "st": "<b>One who seeks libations</b> for his offering",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מְבַקֵּשׁ",
+      "en": "wants"
+     },
+     {
+      "he": "נְסָכִים",
+      "en": "wine offerings"
+     }
+    ]
+   },
+   {
+    "he": "הוֹלֵךְ לוֹ אֵצֶל יוֹחָנָן",
+    "en": "goes to Yochanan,",
+    "st": "<b>goes to Yoḥanan,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹלֵךְ",
+      "en": "goes"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "to"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא מְמֻנֶּה עַל הַחוֹתָמוֹת,",
+    "en": "who is in charge of the seals,",
+    "st": "the official <b>who was responsible for the seals, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "who he"
+     },
+     {
+      "he": "מְמֻנֶּה",
+      "en": "is in charge"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַחוֹתָמוֹת,",
+      "en": "the seals"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לוֹ מָעוֹת וּמְקַבֵּל מִמֶּנּוּ חוֹתָם.",
+    "en": "gives him money, and gets a seal from him.",
+    "st": "<b>and gives him</b> the appropriate sum of <b>money and receives a seal from him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מָעוֹת",
+      "en": "money"
+     },
+     {
+      "he": "וּמְקַבֵּל",
+      "en": "and receives"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "חוֹתָם.",
+      "en": "a seal"
+     }
+    ]
+   },
+   {
+    "he": "בָּא לוֹ אֵצֶל אֲחִיָּה",
+    "en": "Then he comes to Achiyah,",
+    "st": "With that seal <b>he</b> subsequently <b>comes to Aḥiyya, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "comes"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "to"
+     },
+     {
+      "he": "אֲחִיָּה",
+      "en": "Achiyah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא מְמֻנֶּה עַל הַנְּסָכִים,",
+    "en": "who is in charge of the wine offerings,",
+    "st": "<b>who was responsible for the libations, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "who he"
+     },
+     {
+      "he": "מְמֻנֶּה",
+      "en": "is in charge"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "הַנְּסָכִים,",
+      "en": "the wine offerings"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתֵן לוֹ חוֹתָם וּמְקַבֵּל מִמֶּנּוּ נְסָכִים.",
+    "en": "and gives him the seal and gets the wine offerings from him.",
+    "st": "<b>and gives him</b> Yoḥanan’s <b>seal and receives</b> his <b>libations from him. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "חוֹתָם",
+      "en": "a seal"
+     },
+     {
+      "he": "וּמְקַבֵּל",
+      "en": "and receives"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "נְסָכִים.",
+      "en": "wine offerings"
+     }
+    ]
+   },
+   {
+    "he": "וְלָעֶרֶב בָּאִין זֶה אֵצֶל זֶה,",
+    "en": "In the evening they meet each other,",
+    "st": "<b>In the evening,</b> Yoḥanan and Aḥiyya <b>would get together</b> to reconcile their accounts,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָעֶרֶב",
+      "en": "and in the evening"
+     },
+     {
+      "he": "בָּאִין",
+      "en": "they come"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "to"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחִיָּה מוֹצִיא אֶת הַחוֹתָמוֹת",
+    "en": "and Achiyah takes out the seals",
+    "st": "<b>and Aḥiyya would take out the seals</b> he had received",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחִיָּה",
+      "en": "and Achiyah"
+     },
+     {
+      "he": "מוֹצִיא",
+      "en": "takes out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחוֹתָמוֹת",
+      "en": "the seals"
+     }
+    ]
+   },
+   {
+    "he": "וּמְקַבֵּל כְּנֶגְדָּן מָעוֹת.",
+    "en": "and gets money in their place.",
+    "st": "<b>and accept the money</b> Yoḥanan had received <b>in exchange for them. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְקַבֵּל",
+      "en": "and receives"
+     },
+     {
+      "he": "כְּנֶגְדָּן",
+      "en": "in their place"
+     },
+     {
+      "he": "מָעוֹת.",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הוֹתִירוּ הוֹתִירוּ לַהֶקְדֵּשׁ. וְאִם פָּחָתוּ,",
+    "en": "If there was extra, the extra goes to hekdesh. But if there was too little,",
+    "st": "<b>If</b> the money <b>was less</b> than the value of the seals, <b>they were less to him,</b> i.e., Yoḥanan would bear the loss,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הוֹתִירוּ",
+      "en": "there was extra"
+     },
+     {
+      "he": "הוֹתִירוּ",
+      "en": "the extra is"
+     },
+     {
+      "he": "לַהֶקְדֵּשׁ.",
+      "en": "for hekdesh"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "פָּחָתוּ,",
+      "en": "there was less"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה מְשַׁלֵּם יוֹחָנָן מִבֵּיתוֹ,",
+    "en": "Yochanan would pay from his own house,",
+    "st": "<b>and Yoḥanan would</b> have to <b>pay</b> the difference to the Temple treasury <b>from his own</b> property. <b>And if</b> there was some money <b>left over,</b> i.e., the total money was greater than the value of the seals, <b>they</b> were <b>left over to</b> the benefit of <b>the Temple treasury of consecrated property, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "paying"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "מִבֵּיתוֹ,",
+      "en": "from his house"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיַּד הֶקְדֵּשׁ עַל הָעֶלְיוֹנָה:",
+    "en": "because hekdesh always has the upper hand.",
+    "st": "<b>as the Temple treasury</b> always <b>has the upper hand.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיַּד",
+      "en": "that the hand of"
+     },
+     {
+      "he": "הֶקְדֵּשׁ",
+      "en": "hekdesh"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָעֶלְיוֹנָה:",
+      "en": "the top"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 5,
+  "summary": "If someone lost his seal, they waited until evening to see if there was extra money for it. The day was written on the seals so cheaters could not use old ones.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁאָבַד מִמֶּנּוּ חוֹתָמוֹ,",
+    "en": "Someone who lost his seal",
+    "st": "With regard to <b>one who lost his seal</b> that he purchased from Yoḥanan,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁאָבַד",
+      "en": "was lost"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "חוֹתָמוֹ,",
+      "en": "his seal"
+     }
+    ]
+   },
+   {
+    "he": "מַמְתִּינִין לוֹ עַד הָעֶרֶב.",
+    "en": "they wait for him until evening.",
+    "st": "Yoḥanan and <b>Aḥiyya would wait to</b> resolve <b>his</b> problem <b>until the evening. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַמְתִּינִין",
+      "en": "they wait"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "הָעֶרֶב.",
+      "en": "the evening"
+     }
+    ]
+   },
+   {
+    "he": "אִם מוֹצְאִין לוֹ כְּדֵי חוֹתָמוֹ,",
+    "en": "If they find extra money worth his seal,",
+    "st": "<b>And</b> when they added their accounts in the evening, <b>if they found for him</b> a surplus of money <b>equivalent to</b> the value of <b>his seal, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מוֹצְאִין",
+      "en": "they find"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "enough for"
+     },
+     {
+      "he": "חוֹתָמוֹ,",
+      "en": "his seal"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתְנִין לוֹ.",
+    "en": "they give him the wine offerings.",
+    "st": "<b>they would give him</b> the corresponding libations.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתְנִין",
+      "en": "they give"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו לֹא הָיָה לוֹ.",
+    "en": "And if not, he gets nothing.",
+    "st": "<b>And if not, they would not give him</b> libations.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו",
+      "en": "not"
+     },
+     {
+      "he": "לֹא",
+      "en": "nothing"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "for him"
+     }
+    ]
+   },
+   {
+    "he": "וְשֵׁם הַיּוֹם כָּתוּב עֲלֵיהֶן מִפְּנֵי הָרַמָּאִין:",
+    "en": "The name of the day was written on them because of cheaters.",
+    "explain": "So no one could use an old seal from another day.",
+    "st": "<b>And the name of the day</b> of the week <b>was written upon</b> the seals <b>because of the cheats.</b>",
+    "stMore": "They might try to use old seals that had been lost by the Temple officials or by someone who had brought an offering at an earlier date, so as to receive libations in a deceitful manner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֵׁם",
+      "en": "and the name of"
+     },
+     {
+      "he": "הַיּוֹם",
+      "en": "the day"
+     },
+     {
+      "he": "כָּתוּב",
+      "en": "was written"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "on them"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "הָרַמָּאִין:",
+      "en": "the cheaters"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 6,
+  "summary": "There were two special rooms in the Beis HaMikdash. In one, people secretly gave tzedakah for poor people from good families, and in the other, people gave vessels to the Beis HaMikdash.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁתֵּי לְשָׁכוֹת הָיוּ בַּמִּקְדָּשׁ,",
+    "en": "There were two rooms in the Beis HaMikdash:",
+    "st": "<b>There were two</b> special <b>chambers in the Temple, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "לְשָׁכוֹת",
+      "en": "rooms"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "בַּמִּקְדָּשׁ,",
+      "en": "in the Beis HaMikdash"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת לִשְׁכַּת חֲשָׁאִים,",
+    "en": "one was the secret room,",
+    "st": "<b>one</b> called <b>the chamber of secret</b> gifts",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "לִשְׁכַּת",
+      "en": "the room of"
+     },
+     {
+      "he": "חֲשָׁאִים,",
+      "en": "secrets"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת לִשְׁכַּת הַכֵּלִים,",
+    "en": "and one was the room of vessels.",
+    "st": "<b>and</b> the other <b>one</b> called <b>the chamber of vessels.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "לִשְׁכַּת",
+      "en": "the room of"
+     },
+     {
+      "he": "הַכֵּלִים,",
+      "en": "the vessels"
+     }
+    ]
+   },
+   {
+    "he": "לִשְׁכַּת חֲשָׁאִים יִרְאֵי חֵטְא",
+    "en": "In the secret room, people who fear sin",
+    "st": "The mishna explains the purpose of these chambers. In <b>the chamber of secret</b> gifts, <b>sin-fearing people </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִשְׁכַּת",
+      "en": "the room of"
+     },
+     {
+      "he": "חֲשָׁאִים",
+      "en": "secrets"
+     },
+     {
+      "he": "יִרְאֵי",
+      "en": "fearers of"
+     },
+     {
+      "he": "חֵטְא",
+      "en": "sin"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתְנִים לְתוֹכָה בַּחֲשַׁאי,",
+    "en": "put money in it secretly,",
+    "st": "<b>put</b> money <b>secretly </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתְנִים",
+      "en": "put"
+     },
+     {
+      "he": "לְתוֹכָה",
+      "en": "into it"
+     },
+     {
+      "he": "בַּחֲשַׁאי,",
+      "en": "secretly"
+     }
+    ]
+   },
+   {
+    "he": "וַעֲנִיִּים בְּנֵי טוֹבִים מִתְפַּרְנְסִים מִתוֹכָהּ בַּחֲשַׁאי.",
+    "en": "and poor people from good families get their support from it secretly.",
+    "explain": "So no one would be embarrassed.",
+    "st": "<b>and poor people of noble descent support themselves from it secretly.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַעֲנִיִּים",
+      "en": "and poor people"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "sons of"
+     },
+     {
+      "he": "טוֹבִים",
+      "en": "good people"
+     },
+     {
+      "he": "מִתְפַּרְנְסִים",
+      "en": "are supported"
+     },
+     {
+      "he": "מִתוֹכָהּ",
+      "en": "from it"
+     },
+     {
+      "he": "בַּחֲשַׁאי.",
+      "en": "secretly"
+     }
+    ]
+   },
+   {
+    "he": "לִשְׁכַּת הַכֵּלִים,",
+    "en": "The room of vessels:",
+    "st": "With regard to <b>the chamber of vessels, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִשְׁכַּת",
+      "en": "the room of"
+     },
+     {
+      "he": "הַכֵּלִים,",
+      "en": "the vessels"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מִי שֶׁהוּא מִתְנַדֵּב כֶּלִי, זוֹרְקוֹ לְתוֹכָהּ.",
+    "en": "whoever gives a vessel as a gift throws it inside.",
+    "st": "<b>anyone who donates a vessel</b> to the Temple <b>drops it inside</b> that chamber,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מִתְנַדֵּב",
+      "en": "gives as a gift"
+     },
+     {
+      "he": "כֶּלִי,",
+      "en": "a vessel"
+     },
+     {
+      "he": "זוֹרְקוֹ",
+      "en": "throws it"
+     },
+     {
+      "he": "לְתוֹכָהּ.",
+      "en": "into it"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת לִשְׁלשִׁים יוֹם, גִּזְבָּרִין פּוֹתְחִין אוֹתָהּ.",
+    "en": "Once every thirty days the treasurers open it.",
+    "st": "<b>and once every thirty days the treasurers open it. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and once"
+     },
+     {
+      "he": "לִשְׁלשִׁים",
+      "en": "for thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     },
+     {
+      "he": "גִּזְבָּרִין",
+      "en": "treasurers"
+     },
+     {
+      "he": "פּוֹתְחִין",
+      "en": "open"
+     },
+     {
+      "he": "אוֹתָהּ.",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל כְּלִי שֶׁמּוֹצְאִין בּוֹ צֹרֶךְ לְבֶדֶק הַבַּיִת,",
+    "en": "Any vessel they find useful for fixing the Beis HaMikdash",
+    "st": "<b>And any vessel that they found for it a use for Temple maintenance, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and every"
+     },
+     {
+      "he": "כְּלִי",
+      "en": "vessel"
+     },
+     {
+      "he": "שֶׁמּוֹצְאִין",
+      "en": "that they find"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "צֹרֶךְ",
+      "en": "a need"
+     },
+     {
+      "he": "לְבֶדֶק",
+      "en": "for fixing"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the House"
+     }
+    ]
+   },
+   {
+    "he": "מַנִּיחִין אוֹתוֹ.",
+    "en": "they keep it.",
+    "st": "<b>they leave it</b> for that purpose,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַנִּיחִין",
+      "en": "they leave"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁאָר נִמְכָּרִין בִּדְמֵיהֶן וְנוֹפְלִין לְלִשְׁכַּת בֶּדֶק הַבַּיִת:",
+    "en": "The rest are sold, and their money goes to the room for fixing the Beis HaMikdash.",
+    "st": "<b>and the rest are sold, and their monetary</b> value is <b>allocated to Temple maintenance.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁאָר",
+      "en": "and the rest"
+     },
+     {
+      "he": "נִמְכָּרִין",
+      "en": "are sold"
+     },
+     {
+      "he": "בִּדְמֵיהֶן",
+      "en": "for their money"
+     },
+     {
+      "he": "וְנוֹפְלִין",
+      "en": "and go"
+     },
+     {
+      "he": "לְלִשְׁכַּת",
+      "en": "to the room of"
+     },
+     {
+      "he": "בֶּדֶק",
+      "en": "fixing"
+     },
+     {
+      "he": "הַבַּיִת:",
+      "en": "the House"
+     }
+    ]
+   }
+  ]
+ }
+]

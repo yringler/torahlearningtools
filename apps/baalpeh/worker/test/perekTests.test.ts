@@ -97,7 +97,7 @@ describe("POST /api/perek-tests (request)", () => {
       { childId: cid, masechta: M, perek: 0 },
       { childId: cid, masechta: M, perek: 10 },
       { childId: cid, masechta: M, perek: "1" },
-      { childId: cid, masechta: "shabbat", perek: 1 },
+      { childId: cid, masechta: "shabbos", perek: 1 },
       { childId: cid, masechta: "__proto__", perek: 1 },
       { childId: "bad id!", masechta: M, perek: 1 },
     ]) {

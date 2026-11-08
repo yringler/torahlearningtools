@@ -1,7 +1,77 @@
 {"sedarim": [
   {"id": "zeraim", "he": "זרעים", "en": "Zeraim", "masechtos": [
-    {"id": "berakhot", "he": "ברכות", "en": "Berakhot", "file": "/data/m/berakhot.4b6dfb81e3.json", "bytes": 268948, "perakim": [5, 8, 6, 7, 5, 8, 5, 8, 5], "translated": true},
-    {"id": "peah", "he": "פאה", "en": "Peah", "file": "/data/m/peah.e604271c7c.json", "bytes": 154947, "perakim": [6, 8, 8, 11, 8, 11, 8, 9], "translated": false},
-    {"id": "demai", "he": "דמאי", "en": "Demai", "file": "/data/m/demai.e4c602bab1.json", "bytes": 117348, "perakim": [4, 5, 6, 7, 11, 12, 8], "translated": false}
+    {"id": "berakhot", "he": "ברכות", "en": "Berakhot", "sefaria": "Mishnah_Berakhot", "file": "/data/m/berakhot.4b6dfb81e3.json", "bytes": 268948, "perakim": [5, 8, 6, 7, 5, 8, 5, 8, 5], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "peah", "he": "פאה", "en": "Peah", "sefaria": "Mishnah_Peah", "file": "/data/m/peah.e604271c7c.json", "bytes": 154947, "perakim": [6, 8, 8, 11, 8, 11, 8, 9], "translated": false, "sources": []},
+    {"id": "demai", "he": "דמאי", "en": "Demai", "sefaria": "Mishnah_Demai", "file": "/data/m/demai.e4c602bab1.json", "bytes": 117348, "perakim": [4, 5, 6, 7, 11, 12, 8], "translated": false, "sources": []},
+    {"id": "kilayim", "he": "כלאים", "en": "Kilayim", "sefaria": "Mishnah_Kilayim", "file": "/data/m/kilayim.66c6a325cf.json", "bytes": 182454, "perakim": [9, 11, 7, 9, 8, 9, 8, 6, 10], "translated": false, "sources": []},
+    {"id": "sheviit", "he": "שביעית", "en": "Sheviit", "sefaria": "Mishnah_Sheviit", "file": "/data/m/sheviit.e2af6aa890.json", "bytes": 205878, "perakim": [8, 10, 10, 10, 9, 6, 7, 11, 9, 9], "translated": false, "sources": []},
+    {"id": "terumot", "he": "תרומות", "en": "Terumot", "sefaria": "Mishnah_Terumot", "file": "/data/m/terumot.312bcf97fe.json", "bytes": 225614, "perakim": [10, 6, 9, 13, 9, 6, 7, 12, 7, 12, 10], "translated": false, "sources": []},
+    {"id": "maasrot", "he": "מעשרות", "en": "Maasrot", "sefaria": "Mishnah_Maasrot", "file": "/data/m/maasrot.8c0a05ce6a.json", "bytes": 97626, "perakim": [8, 8, 10, 6, 8], "translated": false, "sources": []},
+    {"id": "maaser_sheni", "he": "מעשר שני", "en": "Maaser Sheni", "sefaria": "Mishnah_Maaser_Sheni", "file": "/data/m/maaser_sheni.ef5e61623d.json", "bytes": 141989, "perakim": [7, 10, 13, 12, 15], "translated": false, "sources": []},
+    {"id": "challah", "he": "חלה", "en": "Challah", "sefaria": "Mishnah_Challah", "file": "/data/m/challah.4a9325dd04.json", "bytes": 80235, "perakim": [9, 8, 10, 11], "translated": false, "sources": []},
+    {"id": "orlah", "he": "ערלה", "en": "Orlah", "sefaria": "Mishnah_Orlah", "file": "/data/m/orlah.6b05109d2c.json", "bytes": 64926, "perakim": [9, 17, 9], "translated": false, "sources": []},
+    {"id": "bikkurim", "he": "ביכורים", "en": "Bikkurim", "sefaria": "Mishnah_Bikkurim", "file": "/data/m/bikkurim.4fe43f9f2a.json", "bytes": 73038, "perakim": [11, 11, 12], "translated": false, "sources": []}
+  ]},
+  {"id": "moed", "he": "מועד", "en": "Moed", "masechtos": [
+    {"id": "shabbat", "he": "שבת", "en": "Shabbat", "sefaria": "Mishnah_Shabbat", "file": "/data/m/shabbat.2820ecc826.json", "bytes": 639226, "perakim": [11, 7, 6, 2, 4, 10, 4, 7, 7, 6, 6, 6, 7, 4, 3, 8, 8, 3, 6, 5, 3, 6, 5, 5], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "eruvin", "he": "עירובין", "en": "Eruvin", "sefaria": "Mishnah_Eruvin", "file": "/data/m/eruvin.1af8fadcda.json", "bytes": 470994, "perakim": [10, 6, 9, 11, 9, 10, 11, 11, 4, 15], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "pesachim", "he": "פסחים", "en": "Pesachim", "sefaria": "Mishnah_Pesachim", "file": "/data/m/pesachim.2cf973c3b6.json", "bytes": 469062, "perakim": [7, 8, 8, 9, 10, 6, 13, 8, 11, 9], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "shekalim", "he": "שקלים", "en": "Shekalim", "sefaria": "Mishnah_Shekalim", "file": "/data/m/shekalim.19fde42158.json", "bytes": 315552, "perakim": [7, 5, 4, 9, 6, 6, 7, 8], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "yoma", "he": "יומא", "en": "Yoma", "sefaria": "Mishnah_Yoma", "file": "/data/m/yoma.472de29a7f.json", "bytes": 341295, "perakim": [8, 7, 11, 6, 7, 8, 5, 9], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "sukkah", "he": "סוכה", "en": "Sukkah", "sefaria": "Mishnah_Sukkah", "file": "/data/m/sukkah.88540dfe6c.json", "bytes": 262763, "perakim": [11, 9, 15, 10, 8], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "beitzah", "he": "ביצה", "en": "Beitzah", "sefaria": "Mishnah_Beitzah", "file": "/data/m/beitzah.bf61a8473b.json", "bytes": 182948, "perakim": [10, 10, 8, 7, 7], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "rosh_hashanah", "he": "ראש השנה", "en": "Rosh Hashanah", "sefaria": "Mishnah_Rosh_Hashanah", "file": "/data/m/rosh_hashanah.c09d1d40a2.json", "bytes": 187214, "perakim": [9, 9, 8, 9], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "taanit", "he": "תענית", "en": "Ta'anit", "sefaria": "Mishnah_Ta'anit", "file": "/data/m/taanit.293c5cb1f5.json", "bytes": 208172, "perakim": [7, 10, 9, 8], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "megillah", "he": "מגילה", "en": "Megillah", "sefaria": "Mishnah_Megillah", "file": "/data/m/megillah.fcf70fe447.json", "bytes": 169829, "perakim": [11, 6, 6, 10], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "moed_katan", "he": "מועד קטן", "en": "Moed Katan", "sefaria": "Mishnah_Moed_Katan", "file": "/data/m/moed_katan.8ff1f4c098.json", "bytes": 101655, "perakim": [10, 5, 9], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "chagigah", "he": "חגיגה", "en": "Chagigah", "sefaria": "Mishnah_Chagigah", "file": "/data/m/chagigah.9f695c5710.json", "bytes": 109495, "perakim": [8, 7, 8], "translated": true, "sources": ["steinsaltz", "bartenura"]}
+  ]},
+  {"id": "nashim", "he": "נשים", "en": "Nashim", "masechtos": [
+    {"id": "yevamot", "he": "יבמות", "en": "Yevamot", "sefaria": "Mishnah_Yevamot", "file": "/data/m/yevamot.3a861d9c02.json", "bytes": 708214, "perakim": [4, 10, 10, 13, 6, 6, 6, 6, 6, 9, 7, 6, 13, 9, 10, 7], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "ketubot", "he": "כתובות", "en": "Ketubot", "sefaria": "Mishnah_Ketubot", "file": "/data/m/ketubot.af8a943470.json", "bytes": 555114, "perakim": [10, 10, 9, 12, 9, 7, 10, 8, 9, 6, 6, 4, 11], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "nedarim", "he": "נדרים", "en": "Nedarim", "sefaria": "Mishnah_Nedarim", "file": "/data/m/nedarim.43c108d35d.json", "bytes": 511350, "perakim": [4, 5, 11, 8, 6, 10, 9, 7, 10, 8, 12], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "nazir", "he": "נזיר", "en": "Nazir", "sefaria": "Mishnah_Nazir", "file": "/data/m/nazir.b41ecb35ea.json", "bytes": 370072, "perakim": [7, 10, 7, 7, 7, 11, 4, 2, 5], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "sotah", "he": "סוטה", "en": "Sotah", "sefaria": "Mishnah_Sotah", "file": "/data/m/sotah.d6bc5913df.json", "bytes": 415054, "perakim": [9, 6, 8, 5, 5, 4, 8, 7, 15], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "gittin", "he": "גיטין", "en": "Gittin", "sefaria": "Mishnah_Gittin", "file": "/data/m/gittin.c703b95de4.json", "bytes": 432088, "perakim": [6, 7, 8, 9, 9, 7, 9, 10, 10], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "kiddushin", "he": "קידושין", "en": "Kiddushin", "sefaria": "Mishnah_Kiddushin", "file": "/data/m/kiddushin.ca734451da.json", "bytes": 256603, "perakim": [10, 10, 13, 14], "translated": true, "sources": ["steinsaltz", "bartenura"]}
+  ]},
+  {"id": "nezikin", "he": "נזיקין", "en": "Nezikin", "masechtos": [
+    {"id": "bava_kamma", "he": "בבא קמא", "en": "Bava Kamma", "sefaria": "Mishnah_Bava_Kamma", "file": "/data/m/bava_kamma.56aa3fa59b.json", "bytes": 500174, "perakim": [4, 6, 11, 9, 7, 6, 7, 7, 12, 10], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "bava_metzia", "he": "בבא מציעא", "en": "Bava Metzia", "sefaria": "Mishnah_Bava_Metzia", "file": "/data/m/bava_metzia.001053574f.json", "bytes": 572249, "perakim": [8, 11, 12, 12, 11, 8, 11, 9, 13, 6], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "bava_batra", "he": "בבא בתרא", "en": "Bava Batra", "sefaria": "Mishnah_Bava_Batra", "file": "/data/m/bava_batra.06f54c902a.json", "bytes": 548497, "perakim": [6, 14, 8, 9, 11, 8, 4, 8, 10, 8], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "sanhedrin", "he": "סנהדרין", "en": "Sanhedrin", "sefaria": "Mishnah_Sanhedrin", "file": "/data/m/sanhedrin.9f6527dbd6.json", "bytes": 564134, "perakim": [6, 5, 8, 5, 5, 6, 11, 7, 6, 6, 6], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "makkot", "he": "מכות", "en": "Makkot", "sefaria": "Mishnah_Makkot", "file": "/data/m/makkot.084451266f.json", "bytes": 242830, "perakim": [10, 8, 16], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "shevuot", "he": "שבועות", "en": "Shevuot", "sefaria": "Mishnah_Shevuot", "file": "/data/m/shevuot.cb07907417.json", "bytes": 405381, "perakim": [7, 5, 11, 13, 5, 7, 8, 6], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "eduyot", "he": "עדיות", "en": "Eduyot", "sefaria": "Mishnah_Eduyot", "file": "/data/m/eduyot.5fd7add0ad.json", "bytes": 350185, "perakim": [14, 10, 12, 12, 7, 3, 9, 7], "translated": true, "sources": ["bartenura"]},
+    {"id": "avodah_zarah", "he": "עבודה זרה", "en": "Avodah Zarah", "sefaria": "Mishnah_Avodah_Zarah", "file": "/data/m/avodah_zarah.adc636a6f4.json", "bytes": 272354, "perakim": [9, 7, 10, 12, 12], "translated": true, "sources": ["steinsaltz", "bartenura"]},
+    {"id": "avot", "he": "אבות", "en": "Pirkei Avot", "sefaria": "Pirkei_Avot", "file": "/data/m/avot.384f2f8124.json", "bytes": 426005, "perakim": [18, 16, 18, 22, 23, 11], "translated": true, "sources": ["bartenura"]},
+    {"id": "horayot", "he": "הוריות", "en": "Horayot", "sefaria": "Mishnah_Horayot", "file": "/data/m/horayot.b3b127efa2.json", "bytes": 115930, "perakim": [5, 7, 8], "translated": true, "sources": ["steinsaltz", "bartenura"]}
+  ]},
+  {"id": "kodashim", "he": "קדשים", "en": "Kodashim", "masechtos": [
+    {"id": "zevachim", "he": "זבחים", "en": "Zevachim", "sefaria": "Mishnah_Zevachim", "file": "/data/m/zevachim.de041ca26b.json", "bytes": 625770, "perakim": [4, 5, 6, 6, 8, 7, 6, 12, 7, 8, 8, 6, 8, 10], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "menachot", "he": "מנחות", "en": "Menachot", "sefaria": "Mishnah_Menachot", "file": "/data/m/menachot.b1f302e242.json", "bytes": 663009, "perakim": [4, 5, 7, 5, 9, 7, 6, 7, 9, 9, 9, 5, 11], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "chullin", "he": "חולין", "en": "Chullin", "sefaria": "Mishnah_Chullin", "file": "/data/m/chullin.a511df50f9.json", "bytes": 462628, "perakim": [7, 10, 7, 7, 5, 7, 6, 6, 8, 4, 2, 5], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "bekhorot", "he": "בכורות", "en": "Bekhorot", "sefaria": "Mishnah_Bekhorot", "file": "/data/m/bekhorot.eaebf12fa9.json", "bytes": 420658, "perakim": [7, 9, 4, 10, 6, 12, 7, 10, 8], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "arakhin", "he": "ערכין", "en": "Arakhin", "sefaria": "Mishnah_Arakhin", "file": "/data/m/arakhin.fce8a49249.json", "bytes": 303324, "perakim": [4, 6, 5, 4, 6, 5, 5, 7, 8], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "temurah", "he": "תמורה", "en": "Temurah", "sefaria": "Mishnah_Temurah", "file": "/data/m/temurah.0824cb1cb7.json", "bytes": 226541, "perakim": [6, 3, 5, 4, 6, 5, 6], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "keritot", "he": "כריתות", "en": "Keritot", "sefaria": "Mishnah_Keritot", "file": "/data/m/keritot.e42a6ba767.json", "bytes": 287406, "perakim": [7, 6, 10, 3, 8, 9], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "meilah", "he": "מעילה", "en": "Meilah", "sefaria": "Mishnah_Meilah", "file": "/data/m/meilah.3be1652d8b.json", "bytes": 240064, "perakim": [4, 9, 8, 6, 5, 6], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "tamid", "he": "תמיד", "en": "Tamid", "sefaria": "Mishnah_Tamid", "file": "/data/m/tamid.56c8a4612b.json", "bytes": 253550, "perakim": [4, 5, 9, 3, 6, 3, 4], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "middot", "he": "מדות", "en": "Middot", "sefaria": "Mishnah_Middot", "file": "/data/m/middot.b77f5b56b0.json", "bytes": 145388, "perakim": [9, 6, 8, 7, 4], "translated": false, "sources": []},
+    {"id": "kinnim", "he": "קינים", "en": "Kinnim", "sefaria": "Mishnah_Kinnim", "file": "/data/m/kinnim.2ec48b8d66.json", "bytes": 57944, "perakim": [4, 5, 6], "translated": false, "sources": []}
+  ]},
+  {"id": "tahorot", "he": "טהרות", "en": "Tahorot", "masechtos": [
+    {"id": "kelim", "he": "כלים", "en": "Kelim", "sefaria": "Mishnah_Kelim", "file": "/data/m/kelim.45245ebc96.json", "bytes": 643811, "perakim": [9, 8, 8, 4, 11, 4, 6, 11, 8, 8, 9, 8, 8, 8, 6, 8, 17, 9, 10, 7, 3, 10, 5, 17, 9, 9, 12, 10, 8, 4], "translated": false, "sources": []},
+    {"id": "oholot", "he": "אהלות", "en": "Oholot", "sefaria": "Mishnah_Oholot", "file": "/data/m/oholot.b2a500b172.json", "bytes": 379377, "perakim": [8, 7, 7, 3, 7, 7, 6, 6, 16, 7, 9, 8, 6, 7, 10, 5, 5, 10], "translated": false, "sources": []},
+    {"id": "negaim", "he": "נגעים", "en": "Negaim", "sefaria": "Mishnah_Negaim", "file": "/data/m/negaim.a8965bae7f.json", "bytes": 343927, "perakim": [6, 5, 8, 11, 5, 8, 5, 10, 3, 10, 12, 7, 12, 13], "translated": false, "sources": []},
+    {"id": "parah", "he": "פרה", "en": "Parah", "sefaria": "Mishnah_Parah", "file": "/data/m/parah.61b0dd882f.json", "bytes": 243762, "perakim": [4, 5, 11, 4, 9, 5, 12, 11, 9, 6, 9, 11], "translated": false, "sources": []},
+    {"id": "tahorot", "he": "טהרות", "en": "Tahorot", "sefaria": "Mishnah_Tahorot", "file": "/data/m/tahorot.ed0a815f0e.json", "bytes": 237096, "perakim": [9, 8, 8, 13, 9, 10, 9, 9, 9, 8], "translated": false, "sources": []},
+    {"id": "mikvaot", "he": "מקואות", "en": "Mikvaot", "sefaria": "Mishnah_Mikvaot", "file": "/data/m/mikvaot.f60eb9041e.json", "bytes": 197518, "perakim": [8, 10, 4, 5, 6, 11, 7, 5, 7, 8], "translated": false, "sources": []},
+    {"id": "niddah", "he": "נדה", "en": "Niddah", "sefaria": "Mishnah_Niddah", "file": "/data/m/niddah.9b30ca7041.json", "bytes": 305583, "perakim": [7, 7, 7, 7, 9, 14, 5, 4, 11, 8], "translated": true, "sources": ["steinsaltz"]},
+    {"id": "makhshirin", "he": "מכשירין", "en": "Makhshirin", "sefaria": "Mishnah_Makhshirin", "file": "/data/m/makhshirin.f36ceaabf2.json", "bytes": 135260, "perakim": [6, 11, 8, 10, 11, 8], "translated": false, "sources": []},
+    {"id": "zavim", "he": "זבים", "en": "Zavim", "sefaria": "Mishnah_Zavim", "file": "/data/m/zavim.d7eaa2f1ff.json", "bytes": 97634, "perakim": [6, 4, 3, 7, 12], "translated": false, "sources": []},
+    {"id": "tevul_yom", "he": "טבול יום", "en": "Tevul Yom", "sefaria": "Mishnah_Tevul_Yom", "file": "/data/m/tevul_yom.307864b851.json", "bytes": 68998, "perakim": [5, 8, 6, 7], "translated": false, "sources": []},
+    {"id": "yadayim", "he": "ידים", "en": "Yadayim", "sefaria": "Mishnah_Yadayim", "file": "/data/m/yadayim.af6c2ee6b2.json", "bytes": 99160, "perakim": [5, 4, 5, 8], "translated": false, "sources": []},
+    {"id": "oktzin", "he": "עוקצים", "en": "Oktzin", "sefaria": "Mishnah_Oktzin", "file": "/data/m/oktzin.b7aa186195.json", "bytes": 66263, "perakim": [6, 10, 12], "translated": false, "sources": []}
   ]}
 ]}

@@ -29,7 +29,7 @@ interface Props {
 export function Meaning({ chunk, view, perek, mishnah, allowMore = true }: Props) {
   const [more, setMore] = useState(false);
   const [info, setInfo] = useState(false);
-  const { en: masechtaEn } = useMasechta();
+  const { sefaria: book } = useMasechta();
   const basis: Source[] = chunk.basis ?? ["steinsaltz"];
   const useSt = view === "steinsaltz" && chunk.st;
 
@@ -67,7 +67,7 @@ export function Meaning({ chunk, view, perek, mishnah, allowMore = true }: Props
                 </li>
               ))}
             </ul>
-            <a className="btn secondary" href={sefariaUrl(masechtaEn, perek, mishnah)} target="_blank" rel="noreferrer">
+            <a className="btn secondary" href={sefariaUrl(book, perek, mishnah)} target="_blank" rel="noreferrer">
               Open on Sefaria
             </a>
             <LicensesLink />
@@ -79,14 +79,16 @@ export function Meaning({ chunk, view, perek, mishnah, allowMore = true }: Props
   );
 }
 
-export function ViewToggle({ view, onChange, allowHide, hidden, onHide }: {
+/** Simple / Steinsaltz (/ Hide). `steinsaltz: false` (a masechta without Steinsaltz) leaves only Simple (and Hide). */
+export function ViewToggle({ view, onChange, allowHide, hidden, onHide, steinsaltz = true }: {
   view: MeaningView; onChange: (v: MeaningView) => void;
-  allowHide?: boolean; hidden?: boolean; onHide?: (h: boolean) => void;
+  allowHide?: boolean; hidden?: boolean; onHide?: (h: boolean) => void; steinsaltz?: boolean;
 }) {
+  const shown: MeaningView = steinsaltz ? view : "simple";
   return (
     <div className="seg" dir="ltr" role="group" aria-label="Meaning view">
-      <button className={!hidden && view === "simple" ? "on" : ""} onClick={() => { onHide?.(false); onChange("simple"); }}>Simple</button>
-      <button className={!hidden && view === "steinsaltz" ? "on" : ""} onClick={() => { onHide?.(false); onChange("steinsaltz"); }}>Steinsaltz</button>
+      <button className={!hidden && shown === "simple" ? "on" : ""} onClick={() => { onHide?.(false); onChange("simple"); }}>Simple</button>
+      {steinsaltz && <button className={!hidden && shown === "steinsaltz" ? "on" : ""} onClick={() => { onHide?.(false); onChange("steinsaltz"); }}>Steinsaltz</button>}
       {allowHide && <button className={hidden ? "on" : ""} onClick={() => onHide?.(true)}>Hide</button>}
     </div>
   );

@@ -1,0 +1,1895 @@
+[
+ {
+  "perek": 5,
+  "mishnah": 1,
+  "summary": "Someone who promises his weight to the Beis Hamikdash gives his weight in money. The Tannaim argue how to find the weight of an arm.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר, מִשְׁקָלִי עָלָי,",
+    "en": "Someone who says, \"My weight is on me to give,\"",
+    "st": "<b>One who says:</b> It is incumbent <b>upon me</b> to donate <b>my weight,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר,",
+      "en": "one who says"
+     },
+     {
+      "he": "מִשְׁקָלִי",
+      "en": "my weight"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן מִשְׁקָלוֹ.",
+    "en": "gives his weight.",
+    "st": "<b>gives his weight</b> to the Temple treasury;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "מִשְׁקָלוֹ.",
+      "en": "his weight"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֶּסֶף, כֶּסֶף.",
+    "en": "If he said silver, he gives silver.",
+    "st": "<b>if</b> he specified <b>silver</b> he donates <b>silver,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֶּסֶף,",
+      "en": "silver"
+     },
+     {
+      "he": "כֶּסֶף.",
+      "en": "silver"
+     }
+    ]
+   },
+   {
+    "he": "אִם זָהָב, זָהָב.",
+    "en": "If he said gold, he gives gold.",
+    "st": "<b>and if</b> he specified <b>gold</b> he donates <b>gold.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "זָהָב,",
+      "en": "gold"
+     },
+     {
+      "he": "זָהָב.",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה בְּאִמָּהּ שֶׁל יִרְמַטְיָה שֶׁאָמְרָה,",
+    "en": "It once happened that the mother of Yirmatya said,",
+    "st": "There was <b>an incident involving the mother of Yirmatya, who said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בְּאִמָּהּ",
+      "en": "with the mother"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "יִרְמַטְיָה",
+      "en": "Yirmatya"
+     },
+     {
+      "he": "שֶׁאָמְרָה,",
+      "en": "who said"
+     }
+    ]
+   },
+   {
+    "he": "מִשְׁקַל בִּתִּי עָלָי,",
+    "en": "\"My daughter's weight is on me to give,\"",
+    "st": "It is incumbent <b>upon me</b> to donate the <b>weight of my daughter,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשְׁקַל",
+      "en": "the weight of"
+     },
+     {
+      "he": "בִּתִּי",
+      "en": "my daughter"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "וְעָלְתָה לִירוּשָׁלַיִם,",
+    "en": "and she went up to Yerushalayim,",
+    "st": "<b>and she ascended to Jerusalem</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָלְתָה",
+      "en": "and she went up"
+     },
+     {
+      "he": "לִירוּשָׁלַיִם,",
+      "en": "to Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁקָלוּהָ וְנָתְנָה מִשְׁקָלָהּ זָהָב.",
+    "en": "and they weighed the girl, and she gave her weight in gold.",
+    "st": "<b>and paid her</b> daughter’s <b>weight</b> in <b>gold</b> to the Temple treasury.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁקָלוּהָ",
+      "en": "and they weighed her"
+     },
+     {
+      "he": "וְנָתְנָה",
+      "en": "and she gave"
+     },
+     {
+      "he": "מִשְׁקָלָהּ",
+      "en": "her weight"
+     },
+     {
+      "he": "זָהָב.",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "מִשְׁקַל יָדִי עָלָי,",
+    "en": "If someone said, \"The weight of my arm is on me to give,\"",
+    "st": "In the case of one who says: It is incumbent <b>upon me</b> to donate the <b>weight of my forearm,</b>",
+    "stMore": "how does he ascertain the weight of his forearm?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשְׁקַל",
+      "en": "the weight of"
+     },
+     {
+      "he": "יָדִי",
+      "en": "my arm"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְמַלֵּא חָבִית מַיִם וּמַכְנִיסָהּ עַד מַרְפֵּקוֹ,",
+    "en": "he fills a barrel with water and puts his arm in up to his elbow.",
+    "st": "<b>He fills a barrel</b> with <b>water and inserts</b> his arm <b>up to his elbow</b> into the water.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְמַלֵּא",
+      "en": "he fills"
+     },
+     {
+      "he": "חָבִית",
+      "en": "a barrel"
+     },
+     {
+      "he": "מַיִם",
+      "en": "water"
+     },
+     {
+      "he": "וּמַכְנִיסָהּ",
+      "en": "and puts it in"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "מַרְפֵּקוֹ,",
+      "en": "his elbow"
+     }
+    ]
+   },
+   {
+    "he": "וְשׁוֹקֵל בְּשַׂר חֲמוֹר וְגִידִין וַעֲצָמוֹת",
+    "en": "Then he weighs donkey meat, sinews and bones,",
+    "st": "<b>And</b> in order to measure the displacement, <b>he weighs donkey flesh, and bones, and sinews</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשׁוֹקֵל",
+      "en": "and he weighs"
+     },
+     {
+      "he": "בְּשַׂר",
+      "en": "meat of"
+     },
+     {
+      "he": "חֲמוֹר",
+      "en": "a donkey"
+     },
+     {
+      "he": "וְגִידִין",
+      "en": "and sinews"
+     },
+     {
+      "he": "וַעֲצָמוֹת",
+      "en": "and bones"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתֵן לְתוֹכָהּ עַד שֶׁתִּתְמַלֵּא.",
+    "en": "and puts it into the barrel until it is full.",
+    "explain": "He then gives that weight to the Beis Hamikdash.",
+    "st": "<b>and places</b> it <b>into</b> the barrel <b>until it fills,</b>",
+    "stMore": "and the water level reaches the top of the barrel. He then donates the weight of the meat and the bones to the Temple treasury.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and he puts"
+     },
+     {
+      "he": "לְתוֹכָהּ",
+      "en": "into it"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתִּתְמַלֵּא.",
+      "en": "it becomes full"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said:</b>",
+    "stMore": "Displacement is according to volume not according to weight,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "וְכִי הֵיאַךְ אֶפְשָׁר לְכַוֵּן בָּשָׂר",
+    "en": "but how is it possible to match meat",
+    "st": "<b>and how then is it possible to match</b> the amount of the donkey <b>flesh</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִי",
+      "en": "but"
+     },
+     {
+      "he": "הֵיאַךְ",
+      "en": "how"
+     },
+     {
+      "he": "אֶפְשָׁר",
+      "en": "is it possible"
+     },
+     {
+      "he": "לְכַוֵּן",
+      "en": "to match"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "meat"
+     }
+    ]
+   },
+   {
+    "he": "כְּנֶגֶד בָּשָׂר וַעֲצָמוֹת כְּנֶגֶד עֲצָמוֹת.",
+    "en": "with meat, and bones with bones?",
+    "st": "<b>with the flesh</b> of a person <b>and</b> the volume of the donkey’s <b>bones with</b> his <b>bones?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּנֶגֶד",
+      "en": "against"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "meat"
+     },
+     {
+      "he": "וַעֲצָמוֹת",
+      "en": "and bones"
+     },
+     {
+      "he": "כְּנֶגֶד",
+      "en": "against"
+     },
+     {
+      "he": "עֲצָמוֹת.",
+      "en": "bones"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שָׁמִין אֶת הַיָּד",
+    "en": "Rather, they figure out about the arm",
+    "st": "<b>Rather,</b> the court <b>appraises how much the forearm</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "שָׁמִין",
+      "en": "they estimate"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיָּד",
+      "en": "the arm"
+     }
+    ]
+   },
+   {
+    "he": "כַּמָּה הִיא רְאוּיָה לִשְׁקֹל:",
+    "en": "how much it should weigh.",
+    "st": "<b>is likely to weigh.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הִיא",
+      "en": "it"
+     },
+     {
+      "he": "רְאוּיָה",
+      "en": "is likely"
+     },
+     {
+      "he": "לִשְׁקֹל:",
+      "en": "to weigh"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 2,
+  "summary": "Promising the worth of an arm is different from promising the erech of an arm. Sometimes a promise of worth is stricter, and sometimes a promise of erech is stricter.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "דְּמֵי יָדִי עָלָי,",
+    "en": "If someone said, \"The worth of my arm is on me to give,\"",
+    "st": "If one vows: It is incumbent <b>upon me</b> to donate the <b>assessment of my forearm,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּמֵי",
+      "en": "the worth of"
+     },
+     {
+      "he": "יָדִי",
+      "en": "my arm"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמִין אוֹתוֹ,",
+    "en": "the court figures out his value:",
+    "st": "the court <b>appraises him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמִין",
+      "en": "they estimate"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "כַּמָּה הוּא שָׁוֶה בְּיָד,",
+    "en": "how much he is worth with an arm,",
+    "st": "to determine <b>how much he is worth with a forearm and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "שָׁוֶה",
+      "en": "is worth"
+     },
+     {
+      "he": "בְּיָד,",
+      "en": "with an arm"
+     }
+    ]
+   },
+   {
+    "he": "וְכַמָּה הוּא שָׁוֶה בְּלֹא יָד.",
+    "en": "and how much he is worth without an arm.",
+    "explain": "He pays the difference.",
+    "st": "how much he is worth <b>without a forearm,</b>",
+    "stMore": "and he pays the difference.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "שָׁוֶה",
+      "en": "is worth"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "without"
+     },
+     {
+      "he": "יָד.",
+      "en": "an arm"
+     }
+    ]
+   },
+   {
+    "he": "זֶה חֹמֶר בַּנְּדָרִים מִבָּעֲרָכִין.",
+    "en": "In this, promises of worth are stricter than erech.",
+    "explain": "A promise of the erech of an arm means nothing.",
+    "st": "<b>This is</b> a halakha that is more <b>stringent with regard to vows</b> of assessment <b>than with regard to valuations,</b>",
+    "stMore": "as one who says: It is incumbent upon me to donate the valuation of my forearm, is exempt from paying.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "חֹמֶר",
+      "en": "is stricter"
+     },
+     {
+      "he": "בַּנְּדָרִים",
+      "en": "with vows"
+     },
+     {
+      "he": "מִבָּעֲרָכִין.",
+      "en": "than with erech"
+     }
+    ]
+   },
+   {
+    "he": "וְחֹמֶר בָּעֲרָכִין מִבַּנְּדָרִים,",
+    "en": "And in this, erech is stricter than promises of worth.",
+    "st": "There are halakhot that are more <b>stringent with regard to valuations than with regard to vows</b> of assessment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֹמֶר",
+      "en": "and stricter"
+     },
+     {
+      "he": "בָּעֲרָכִין",
+      "en": "with erech"
+     },
+     {
+      "he": "מִבַּנְּדָרִים,",
+      "en": "than with vows"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. הָאוֹמֵר,",
+    "en": "How so? Someone who says,",
+    "st": "<b>How so?</b> In the case of <b>one who says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "הָאוֹמֵר,",
+      "en": "one who says"
+     }
+    ]
+   },
+   {
+    "he": "עֶרְכִּי עָלָי,",
+    "en": "\"My erech is on me to give,\"",
+    "st": "It is incumbent <b>upon me</b> to donate <b>my valuation,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֶרְכִּי",
+      "en": "my erech"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "וָמֵת, יִתְּנוּ הַיּוֹרְשִׁין.",
+    "en": "and then dies, his heirs must give it.",
+    "st": "<b>and</b> then <b>dies,</b> his <b>heirs must give</b> his valuation to the Temple treasury.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וָמֵת,",
+      "en": "and he died"
+     },
+     {
+      "he": "יִתְּנוּ",
+      "en": "must give"
+     },
+     {
+      "he": "הַיּוֹרְשִׁין.",
+      "en": "the heirs"
+     }
+    ]
+   },
+   {
+    "he": "דָּמַי עָלָי,",
+    "en": "\"My worth is on me to give,\"",
+    "st": "But one who says: It is incumbent <b>upon me</b> to donate <b>my assessment,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמַי",
+      "en": "my worth"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "וָמֵת, לֹא יִתְּנוּ הַיּוֹרְשִׁים,",
+    "en": "and then dies, his heirs do not give it,",
+    "st": "<b>and</b> then <b>dies,</b> his <b>heirs</b> need <b>not give</b> his assessment to the Temple treasury,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וָמֵת,",
+      "en": "and he died"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִתְּנוּ",
+      "en": "give"
+     },
+     {
+      "he": "הַיּוֹרְשִׁים,",
+      "en": "the heirs"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין דָּמִים לַמֵּתִים.",
+    "en": "because a person who has died has no worth.",
+    "st": "<b>as there is no monetary</b> value <b>for the dead.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because there is no"
+     },
+     {
+      "he": "דָּמִים",
+      "en": "worth"
+     },
+     {
+      "he": "לַמֵּתִים.",
+      "en": "for the dead"
+     }
+    ]
+   },
+   {
+    "he": "עֵרֶךְ יָדִי וְעֵרֶךְ רַגְלִי עָלָי,",
+    "en": "If someone said, \"The erech of my arm or the erech of my leg is on me to give,\"",
+    "st": "One who says: It is incumbent <b>upon me</b> to donate <b>the valuation of my forearm, or: The valuation of my leg,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "יָדִי",
+      "en": "my arm"
+     },
+     {
+      "he": "וְעֵרֶךְ",
+      "en": "and the erech of"
+     },
+     {
+      "he": "רַגְלִי",
+      "en": "my leg"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם.",
+    "en": "he did not say anything.",
+    "explain": "The Torah gives an erech only for a whole person.",
+    "st": "<b>has not said anything,</b>",
+    "stMore": "as there are valuations in the Torah only for a complete person.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "עֵרֶךְ רֹאשִׁי וְעֵרֶךְ כְּבֵדִי עָלָי,",
+    "en": "\"The erech of my head or the erech of my liver is on me to give,\"",
+    "st": "But if one says: It is incumbent <b>upon me</b> to donate <b>the valuation of my head, or: The valuation of my liver,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "רֹאשִׁי",
+      "en": "my head"
+     },
+     {
+      "he": "וְעֵרֶךְ",
+      "en": "and the erech of"
+     },
+     {
+      "he": "כְּבֵדִי",
+      "en": "my liver"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ כֻּלּוֹ.",
+    "en": "he gives the erech of his whole self.",
+    "st": "<b>he gives the valuation of his entire</b> self.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "כֻּלּוֹ.",
+      "en": "all of him"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר שֶׁהַנְּשָׁמָה תְלוּיָה בוֹ,",
+    "en": "a part of the body that a person cannot live without,",
+    "st": "One who valuates <b>an item upon which the soul is dependent,</b>",
+    "stMore": "i.e., without which one will die,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "a thing"
+     },
+     {
+      "he": "שֶׁהַנְּשָׁמָה",
+      "en": "that the life"
+     },
+     {
+      "he": "תְלוּיָה",
+      "en": "depends"
+     },
+     {
+      "he": "בוֹ,",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ כֻּלּוֹ:",
+    "en": "he gives the erech of his whole self.",
+    "st": "<b>gives the valuation of his entire</b> self.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "כֻּלּוֹ:",
+      "en": "all of him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 3,
+  "summary": "Promising half of an erech is not the same as promising the erech of half of oneself.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חֲצִי עֶרְכִּי עָלָי,",
+    "en": "\"Half of my erech is on me to give,\"",
+    "st": "One who says: It is incumbent <b>upon me</b> to donate <b>half of my valuation,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲצִי",
+      "en": "half of"
+     },
+     {
+      "he": "עֶרְכִּי",
+      "en": "my erech"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חֲצִי עֶרְכּוֹ.",
+    "en": "he gives half of his erech.",
+    "st": "<b>gives half of his valuation.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half of"
+     },
+     {
+      "he": "עֶרְכּוֹ.",
+      "en": "his erech"
+     }
+    ]
+   },
+   {
+    "he": "עֵרֶךְ חֶצְיִי עָלָי,",
+    "en": "\"The erech of half of me is on me to give,\"",
+    "st": "But one who says: It is incumbent <b>upon me</b> to donate <b>the valuation of half of me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "חֶצְיִי",
+      "en": "half of me"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ כֻּלּוֹ.",
+    "en": "he gives the erech of his whole self.",
+    "explain": "A person cannot live with only half of himself.",
+    "st": "<b>gives the valuation of his entire</b> self.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "כֻּלּוֹ.",
+      "en": "all of him"
+     }
+    ]
+   },
+   {
+    "he": "חֲצִי דָמַי עָלָי,",
+    "en": "\"Half of my worth is on me to give,\"",
+    "st": "Likewise, one who says: It is incumbent <b>upon me</b> to donate <b>half of my assessment,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲצִי",
+      "en": "half of"
+     },
+     {
+      "he": "דָמַי",
+      "en": "my worth"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חֲצִי דָמָיו.",
+    "en": "he gives half of his worth.",
+    "st": "<b>gives half of his assessment;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half of"
+     },
+     {
+      "he": "דָמָיו.",
+      "en": "his worth"
+     }
+    ]
+   },
+   {
+    "he": "דְּמֵי חֶצְיִי עָלָי,",
+    "en": "\"The worth of half of me is on me to give,\"",
+    "st": "one who says: It is incumbent <b>upon me</b> to donate <b>the assessment of half of me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּמֵי",
+      "en": "the worth of"
+     },
+     {
+      "he": "חֶצְיִי",
+      "en": "half of me"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן דְּמֵי כֻלּוֹ.",
+    "en": "he gives the worth of his whole self.",
+    "st": "<b>gives the assessment of his entire</b> self.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the worth of"
+     },
+     {
+      "he": "כֻלּוֹ.",
+      "en": "all of him"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר שֶׁהַנְּשָׁמָה תְלוּיָה בוֹ,",
+    "en": "a part of the body that a person cannot live without,",
+    "st": "One who takes a vow with regard to <b>an item upon which the soul is dependent</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "a thing"
+     },
+     {
+      "he": "שֶׁהַנְּשָׁמָה",
+      "en": "that the life"
+     },
+     {
+      "he": "תְלוּיָה",
+      "en": "depends"
+     },
+     {
+      "he": "בוֹ,",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ כֻּלּוֹ:",
+    "en": "he gives the value of his whole self.",
+    "st": "<b>gives the assessment of his entire</b> self.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "כֻּלּוֹ:",
+      "en": "all of him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 4,
+  "summary": "If someone promised another person's erech or worth and then died, do his heirs have to pay?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר, עֶרְכּוֹ שֶׁל פְּלוֹנִי עָלָי,",
+    "en": "Someone who says, \"The erech of this person is on me to give,\"",
+    "st": "With regard to <b>one who says:</b> It is incumbent <b>upon me</b> to donate <b>the valuation of so-and-so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר,",
+      "en": "one who says"
+     },
+     {
+      "he": "עֶרְכּוֹ",
+      "en": "the erech"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַנּוֹדֵר וְהַנִּדָּר,",
+    "en": "and both the one who promised and the one he promised for died,",
+    "st": "and both <b>the one who vowed and the object of the vow die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַנּוֹדֵר",
+      "en": "the one who vowed"
+     },
+     {
+      "he": "וְהַנִּדָּר,",
+      "en": "and the one vowed for"
+     }
+    ]
+   },
+   {
+    "he": "יִתְּנוּ הַיּוֹרְשִׁין.",
+    "en": "the heirs must give it.",
+    "st": "the <b>heirs</b> of the one who vowed <b>must give</b> the valuation of the object of the vow to the Temple treasury.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִתְּנוּ",
+      "en": "must give"
+     },
+     {
+      "he": "הַיּוֹרְשִׁין.",
+      "en": "the heirs"
+     }
+    ]
+   },
+   {
+    "he": "דָּמָיו שֶׁל פְּלוֹנִי עָלָי,",
+    "en": "\"The worth of this person is on me to give,\"",
+    "st": "With regard to one who says: It is incumbent <b>upon me</b> to donate <b>the assessment of so-and-so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמָיו",
+      "en": "the worth"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַנּוֹדֵר,",
+    "en": "if the one who promised died,",
+    "st": "<b>and the one who vowed dies,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַנּוֹדֵר,",
+      "en": "the one who vowed"
+     }
+    ]
+   },
+   {
+    "he": "יִתְּנוּ הַיּוֹרְשִׁין.",
+    "en": "the heirs must give it.",
+    "st": "his <b>heirs must give</b> his assessment to the Temple treasury.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִתְּנוּ",
+      "en": "must give"
+     },
+     {
+      "he": "הַיּוֹרְשִׁין.",
+      "en": "the heirs"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַנִּדָּר,",
+    "en": "If the one he promised for died,",
+    "st": "If <b>the object of the vow dies,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַנִּדָּר,",
+      "en": "the one vowed for"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִתְּנוּ הַיּוֹרְשִׁין,",
+    "en": "the heirs do not give it,",
+    "st": "the <b>heirs</b> of the one who vowed need <b>not give</b> his assessment to the Temple treasury,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִתְּנוּ",
+      "en": "give"
+     },
+     {
+      "he": "הַיּוֹרְשִׁין,",
+      "en": "the heirs"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין דָּמִים לַמֵּתִים:",
+    "en": "because a person who has died has no worth.",
+    "st": "<b>as there is no monetary</b> value <b>for the dead.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because there is no"
+     },
+     {
+      "he": "דָּמִים",
+      "en": "worth"
+     },
+     {
+      "he": "לַמֵּתִים:",
+      "en": "for the dead"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 5,
+  "summary": "If someone made an ox or a house holy and it was lost, he does not pay. But if he promised to give it, he must pay its value.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שׁוֹר זֶה עוֹלָה,",
+    "en": "\"This ox is an olah,\"",
+    "st": "In the case of one who says: <b>This bull</b> is consecrated as <b>a burnt offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹר",
+      "en": "ox"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "עוֹלָה,",
+      "en": "an olah",
+      "note": "A korban that is burned completely on the mizbe'ach."
+     }
+    ]
+   },
+   {
+    "he": "בַּיִת זֶה קָרְבָּן,",
+    "en": "or \"This house is a korban,\"",
+    "st": "<b>or: This house</b> is consecrated as <b>an offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּיִת",
+      "en": "house"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "קָרְבָּן,",
+      "en": "a korban"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַשּׁוֹר וְנָפַל הַבַּיִת,",
+    "en": "and the ox died or the house fell down,",
+    "st": "<b>and the bull died or the house collapsed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַשּׁוֹר",
+      "en": "the ox"
+     },
+     {
+      "he": "וְנָפַל",
+      "en": "and fell"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב לְשַׁלֵּם.",
+    "en": "he does not have to pay.",
+    "st": "he <b>is exempt from paying</b> his commitment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "לְשַׁלֵּם.",
+      "en": "to pay"
+     }
+    ]
+   },
+   {
+    "he": "דְּמֵי שׁוֹר זֶה עָלָי עוֹלָה,",
+    "en": "\"The value of this ox is on me to give as an olah,\"",
+    "st": "But in the case of one who says: It is incumbent <b>upon me</b> to give <b>this bull as a burnt offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּמֵי",
+      "en": "the value of"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "ox"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "עָלָי",
+      "en": "on me"
+     },
+     {
+      "he": "עוֹלָה,",
+      "en": "an olah"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ דְּמֵי בַיִת זֶה עָלָי קָרְבָּן,",
+    "en": "or \"The value of this house is on me to give as a korban,\"",
+    "st": "<b>or:</b> It is incumbent <b>upon me</b> to give <b>this house</b> as <b>an offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the value of"
+     },
+     {
+      "he": "בַיִת",
+      "en": "house"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "עָלָי",
+      "en": "on me"
+     },
+     {
+      "he": "קָרְבָּן,",
+      "en": "a korban"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַשּׁוֹר וְנָפַל הַבַּיִת,",
+    "en": "and the ox died or the house fell down,",
+    "st": "if <b>the bull died or the house collapsed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַשּׁוֹר",
+      "en": "the ox"
+     },
+     {
+      "he": "וְנָפַל",
+      "en": "and fell"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב לְשַׁלֵּם:",
+    "en": "he must pay.",
+    "st": "he is <b>obligated to pay</b> its value.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is obligated"
+     },
+     {
+      "he": "לְשַׁלֵּם:",
+      "en": "to pay"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 6,
+  "summary": "When may the court take something from a person to make sure he pays what he owes to the Beis Hamikdash? And the court may push a person until he says he wants to do the mitzvah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חַיָּבֵי עֲרָכִים,",
+    "en": "People who owe erech payments,",
+    "st": "With regard to those <b>obligated</b> to pay <b>valuations,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבֵי",
+      "en": "those who owe"
+     },
+     {
+      "he": "עֲרָכִים,",
+      "en": "erech payments"
+     }
+    ]
+   },
+   {
+    "he": "מְמַשְׁכְּנִין אוֹתָן.",
+    "en": "the court takes things from them as a pledge.",
+    "st": "the court <b>repossesses their</b> property to pay their debt to the Temple treasury.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְמַשְׁכְּנִין",
+      "en": "we take a pledge"
+     },
+     {
+      "he": "אוֹתָן.",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבֵי חַטָּאוֹת וַאֲשָׁמוֹת,",
+    "en": "People who owe a chatas or an asham,",
+    "st": "With regard to those <b>obligated</b> to bring <b>sin offerings and guilt offerings,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבֵי",
+      "en": "those who owe"
+     },
+     {
+      "he": "חַטָּאוֹת",
+      "en": "chatas offerings"
+     },
+     {
+      "he": "וַאֲשָׁמוֹת,",
+      "en": "and asham offerings"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְמַשְׁכְּנִין אוֹתָן.",
+    "en": "the court does not take things from them as a pledge.",
+    "explain": "They need those korbanos to be forgiven, so they will bring them quickly.",
+    "st": "the court <b>does not repossess their</b> property;",
+    "stMore": "since one is obligated to bring them for atonement he would not delay bringing them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְמַשְׁכְּנִין",
+      "en": "take a pledge"
+     },
+     {
+      "he": "אוֹתָן.",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבֵי עוֹלוֹת וּשְׁלָמִים,",
+    "en": "People who owe an olah or a shelamim,",
+    "st": "But with regard to those <b>obligated</b> to bring <b>burnt offerings and peace offerings,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבֵי",
+      "en": "those who owe"
+     },
+     {
+      "he": "עוֹלוֹת",
+      "en": "olah offerings"
+     },
+     {
+      "he": "וּשְׁלָמִים,",
+      "en": "and shelamim offerings"
+     }
+    ]
+   },
+   {
+    "he": "מְמַשְׁכְּנִין אוֹתָן אַף עַל פִּי",
+    "en": "the court takes things from them as a pledge, even though",
+    "st": "the court <b>repossesses their</b> property;since these offerings are not obligatory for atonement, one might delay bringing them. <b>Although</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְמַשְׁכְּנִין",
+      "en": "we take a pledge"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "from them"
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(though)"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין מִתְכַּפֵּר לוֹ עַד שֶׁיִּתְרַצֶּה,",
+    "en": "his korban does not help him until he wants to bring it,",
+    "st": "one obligated to bring burnt offerings and peace offerings <b>does not achieve atonement until he</b> brings the offering <b>of his own volition,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that ... not"
+     },
+     {
+      "he": "מִתְכַּפֵּר",
+      "en": "is forgiven"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּתְרַצֶּה,",
+      "en": "he wants it"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא א),",
+    "en": "as it says (Vayikra 1),",
+    "st": "<b>as it is stated:</b>",
+    "stMore": "“He shall bring it to the entrance of the Tent of Meeting",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "א),",
+      "en": "chapter 1)"
+     }
+    ]
+   },
+   {
+    "he": "לִרְצוֹנוֹ, כּוֹפִין אוֹתוֹ עַד שֶׁיֹּאמַר,",
+    "en": "\"of his own will.\" The court pushes him until he says,",
+    "st": "<b>of his volition”</b> (Leviticus 1:3), nevertheless the court <b>coerces him until he says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִרְצוֹנוֹ,",
+      "en": "of his own will"
+     },
+     {
+      "he": "כּוֹפִין",
+      "en": "we push"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֹּאמַר,",
+      "en": "he says"
+     }
+    ]
+   },
+   {
+    "he": "רוֹצֶה אָנִי.",
+    "en": "\"I want to.\"",
+    "st": "<b>I want</b> to do so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹצֶה",
+      "en": "want"
+     },
+     {
+      "he": "אָנִי.",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן אַתָּה אוֹמֵר בְּגִטֵּי נָשִׁים,",
+    "en": "And you say the same about a get for a woman:",
+    "st": "<b>And likewise, you say</b> the same <b>with regard to women’s bills of divorce.</b>",
+    "stMore": "Although one divorces his wife only of his own volition, in any case where the Sages obligated a husband to divorce his wife",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "say"
+     },
+     {
+      "he": "בְּגִטֵּי",
+      "en": "with gittin of"
+     },
+     {
+      "he": "נָשִׁים,",
+      "en": "women"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹפִין אוֹתוֹ עַד שֶׁיֹּאמַר,",
+    "en": "the court pushes him until he says,",
+    "st": "the court <b>coerces him until he says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹפִין",
+      "en": "we push"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֹּאמַר,",
+      "en": "he says"
+     }
+    ]
+   },
+   {
+    "he": "רוֹצֶה אָנִי:",
+    "en": "\"I want to.\"",
+    "st": "<b>I want</b> to do so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹצֶה",
+      "en": "want"
+     },
+     {
+      "he": "אָנִי:",
+      "en": "I"
+     }
+    ]
+   }
+  ]
+ }
+]

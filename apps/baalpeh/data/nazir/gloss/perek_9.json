@@ -1,0 +1,2014 @@
+[
+ {
+  "perek": 9,
+  "mishnah": 1,
+  "summary": "Non-Jews cannot become nazirs, but women and servants can. The mishnah compares how a husband and a master can stop their nezirus.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַגּוֹיִם אֵין לָהֶם נְזִירוּת.",
+    "en": "Non-Jews do not have nezirus.",
+    "st": "<b>Gentiles do not have naziriteship,</b>",
+    "stMore": "i.e., the halakhot of naziriteship do not apply to gentiles. They are not subject to the prohibitions of a nazirite, nor does one accept their offerings at the end of naziriteship.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגּוֹיִם",
+      "en": "the non-Jews"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "נְזִירוּת.",
+      "en": "nezirus"
+     }
+    ]
+   },
+   {
+    "he": "נָשִׁים וַעֲבָדִים יֵשׁ לָהֶם נְזִירוּת.",
+    "en": "Women and servants do have nezirus.",
+    "st": "However, <b>women and</b> Canaanite <b>slaves do have naziriteship.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "וַעֲבָדִים",
+      "en": "and servants",
+      "note": "Here: a non-Jewish servant who belongs to a Jewish master."
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "נְזִירוּת.",
+      "en": "nezirus"
+     }
+    ]
+   },
+   {
+    "he": "חֹמֶר בַּנָּשִׁים מִבָּעֲבָדִים,",
+    "en": "Women are stricter than servants,",
+    "st": "The mishna adds: There is a greater <b>stringency in</b> the case of <b>women than in</b> the case of <b>slaves, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֹמֶר",
+      "en": "stricter"
+     },
+     {
+      "he": "בַּנָּשִׁים",
+      "en": "with women"
+     },
+     {
+      "he": "מִבָּעֲבָדִים,",
+      "en": "than with servants"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא כוֹפֶה אֶת עַבְדּוֹ",
+    "en": "because a master can force his servant,",
+    "explain": "He can make him drink wine, even though he promised nezirus.",
+    "st": "<b>as</b> a master <b>may force his slave</b>",
+    "stMore": "to drink wine, shave his hair, or become ritually impure from a corpse, despite the slave’s vow of naziriteship,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "כוֹפֶה",
+      "en": "forces"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַבְדּוֹ",
+      "en": "his servant"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ כוֹפֶה אֶת אִשְׁתּוֹ.",
+    "en": "but a husband cannot force his wife.",
+    "st": "<b>but</b> a husband <b>cannot force his wife</b>",
+    "stMore": "to transgress her naziriteship. The previous mishna taught that the naziriteship of women includes a stringency that does not apply to slaves.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "כוֹפֶה",
+      "en": "force"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ.",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "חֹמֶר בָּעֲבָדִים מִבַּנָּשִׁים,",
+    "en": "Servants are stricter than women,",
+    "st": "This mishna adds: There is a greater <b>stringency in</b> the case of <b>slaves than in</b> the case of <b>women, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֹמֶר",
+      "en": "stricter"
+     },
+     {
+      "he": "בָּעֲבָדִים",
+      "en": "with servants"
+     },
+     {
+      "he": "מִבַּנָּשִׁים,",
+      "en": "than with women"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא מֵפֵר נִדְרֵי אִשְׁתּוֹ",
+    "en": "because a man can cancel his wife's promises,",
+    "st": "<b>as</b> a man <b>can nullify the vows of his wife </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מֵפֵר",
+      "en": "cancels"
+     },
+     {
+      "he": "נִדְרֵי",
+      "en": "the vows of"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ מֵפֵר נִדְרֵי עַבְדּוֹ.",
+    "en": "but he cannot cancel his servant's promises.",
+    "st": "<b>but he cannot nullify the vows of his slave,</b>",
+    "stMore": "despite the fact that he can prevent him from fulfilling them in practice.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "מֵפֵר",
+      "en": "cancel"
+     },
+     {
+      "he": "נִדְרֵי",
+      "en": "the vows of"
+     },
+     {
+      "he": "עַבְדּוֹ.",
+      "en": "his servant"
+     }
+    ]
+   },
+   {
+    "he": "הֵפֵר לְאִשְׁתּוֹ,",
+    "en": "If he canceled his wife's,",
+    "st": "Similarly, if <b>he nullified</b> the naziriteship <b>of his wife </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵפֵר",
+      "en": "he canceled"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ,",
+      "en": "for his wife"
+     }
+    ]
+   },
+   {
+    "he": "הֵפֵר עוֹלָמִית.",
+    "en": "it is canceled forever.",
+    "st": "<b>it is permanently nullified,</b>",
+    "stMore": "and it remains nullified even if she is later divorced or widowed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵפֵר",
+      "en": "he canceled"
+     },
+     {
+      "he": "עוֹלָמִית.",
+      "en": "forever"
+     }
+    ]
+   },
+   {
+    "he": "הֵפֵר לְעַבְדּוֹ,",
+    "en": "If he canceled his servant's,",
+    "st": "Conversely, if <b>he nullified</b> the naziriteship <b>of his slave</b>",
+    "stMore": "by forcing him to violate the terms of his vow of naziriteship,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵפֵר",
+      "en": "he canceled"
+     },
+     {
+      "he": "לְעַבְדּוֹ,",
+      "en": "for his servant"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא לְחֵרוּת מַשְׁלִים נְזִירוּתוֹ.",
+    "en": "when he goes free, he finishes his nezirus.",
+    "st": "when the slave <b>is emancipated he completes his naziriteship.</b>",
+    "stMore": "In a case where a slave took a vow of naziriteship but was prevented by his master from fulfilling the terms of his vow, the Sages engaged in a dispute what the halakha would be if he permanently",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "he went out"
+     },
+     {
+      "he": "לְחֵרוּת",
+      "en": "to freedom"
+     },
+     {
+      "he": "מַשְׁלִים",
+      "en": "he finishes"
+     },
+     {
+      "he": "נְזִירוּתוֹ.",
+      "en": "his nezirus"
+     }
+    ]
+   },
+   {
+    "he": "עָבַר מִכְּנֶגֶד פָּנָיו,",
+    "en": "If he ran away from his master,",
+    "st": "<b>left his</b> master’s <b>presence,</b> i.e., he ran away without being emancipated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָבַר",
+      "en": "he passed"
+     },
+     {
+      "he": "מִכְּנֶגֶד",
+      "en": "from before"
+     },
+     {
+      "he": "פָּנָיו,",
+      "en": "his face"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִשְׁתֶּה,",
+    "en": "he may not drink wine.",
+    "st": "<b>He may not drink</b> wine.",
+    "stMore": "Since the slave is free in practice, his vow goes into effect.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִשְׁתֶּה,",
+      "en": "he may drink"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "And Rabbi Yosei says,",
+    "st": "<b>And Rabbi Yosei says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יִשְׁתֶּה:",
+    "en": "he may drink.",
+    "st": "<b>He may drink</b> wine, as he is not emancipated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשְׁתֶּה:",
+      "en": "he may drink"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 2,
+  "summary": "If a nazir finds out after shaving that he had been tamei, it depends on whether the tumah was known or hidden. The mishnah gives the example of a dead body found in a cave where someone went into the water.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "נָזִיר שֶׁגִּלַּח וְנוֹדַע לוֹ שֶׁהוּא טָמֵא,",
+    "en": "A nazir who shaved, and then found out he had been tamei:",
+    "st": "With regard to <b>a nazirite who shaved</b> for the conclusion of his naziriteship, <b>and it</b> later <b>became known to him that</b> during his naziriteship <b>he was ritually impure</b> from a corpse,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "שֶׁגִּלַּח",
+      "en": "who shaved"
+     },
+     {
+      "he": "וְנוֹדַע",
+      "en": "and it became known"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "was tamei"
+     }
+    ]
+   },
+   {
+    "he": "אִם טֻמְאָה יְדוּעָה, סוֹתֵר.",
+    "en": "if it was a known tumah, it undoes his days.",
+    "st": "<b>if</b> it was <b>a known impurity,</b> i.e., people were aware of the impurity when he became impure, <b>he negates</b> his entire naziriteship.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "יְדוּעָה,",
+      "en": "known"
+     },
+     {
+      "he": "סוֹתֵר.",
+      "en": "it undoes"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם טֻמְאַת הַתְּהוֹם,",
+    "en": "But if it was a tumah from the deep,",
+    "explain": "A tumah nobody knew about, like a hidden grave.",
+    "st": "<b>And if it was ritual impurity</b> imparted by a grave <b>in the depths,</b> one that was unknown at the time,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "טֻמְאַת",
+      "en": "the tumah of"
+     },
+     {
+      "he": "הַתְּהוֹם,",
+      "en": "the deep"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ סוֹתֵר.",
+    "en": "it does not undo them.",
+    "st": "<b>he does not negate</b> his naziriteship.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it does not"
+     },
+     {
+      "he": "סוֹתֵר.",
+      "en": "undo"
+     }
+    ]
+   },
+   {
+    "he": "אִם עַד שֶׁלֹּא גִלַּח,",
+    "en": "If he found out before he shaved,",
+    "st": "<b>If</b> he discovered he was impure <b>before he shaved, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "עַד",
+      "en": "before"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "(that not)"
+     },
+     {
+      "he": "גִלַּח,",
+      "en": "he shaved"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין כָּךְ וּבֵין כָּךְ סוֹתֵר.",
+    "en": "either way it undoes his days.",
+    "st": "<b>he negates</b> his naziriteship <b>in either case.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this way"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "or"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that way"
+     },
+     {
+      "he": "סוֹתֵר.",
+      "en": "it undoes"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, יָרַד לִטְבֹּל בִּמְעָרָה",
+    "en": "How is it? If he went down to tovel in a cave,",
+    "st": "The mishna asks: <b>How</b> does one differentiate between a known and an unknown impurity? If a nazirite <b>descended to immerse in a cave, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how"
+     },
+     {
+      "he": "יָרַד",
+      "en": "he went down"
+     },
+     {
+      "he": "לִטְבֹּל",
+      "en": "to tovel"
+     },
+     {
+      "he": "בִּמְעָרָה",
+      "en": "in a cave"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצָא מֵת צָף עַל פִּי הַמְּעָרָה,",
+    "en": "and a dead body was found floating at the top of the cave,",
+    "st": "<b>and a corpse was found floating at the mouth of the cave,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצָא",
+      "en": "and was found"
+     },
+     {
+      "he": "מֵת",
+      "en": "a dead person"
+     },
+     {
+      "he": "צָף",
+      "en": "floating"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "הַמְּעָרָה,",
+      "en": "the cave"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא.",
+    "en": "he is tamei.",
+    "explain": "Everyone could see it, so it is a known tumah.",
+    "st": "he is <b>impure,</b>",
+    "stMore": "as an openly visible corpse is a known impurity. What, then, is an impurity of the depths? This is referring to a case where the corpse",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא.",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא מְשֻׁקָּע בְּקַרְקַע הַמְּעָרָה,",
+    "en": "If it was found sunk into the floor of the cave:",
+    "st": "<b>was found sunk into the ground of the cave</b>",
+    "stMore": "in such a manner that it was unknown. However, even here the circumstances of the case must be taken into account.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "it was found"
+     },
+     {
+      "he": "מְשֻׁקָּע",
+      "en": "sunk"
+     },
+     {
+      "he": "בְּקַרְקַע",
+      "en": "in the floor of"
+     },
+     {
+      "he": "הַמְּעָרָה,",
+      "en": "the cave"
+     }
+    ]
+   },
+   {
+    "he": "יָרַד לְהָקֵר, טָהוֹר.",
+    "en": "if he went down to cool off, he is tahor.",
+    "st": "If one <b>descended</b> not to immerse himself in the water, as he was ritually pure, but <b>to cool</b> himself, he remains <b>pure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָרַד",
+      "en": "he went down"
+     },
+     {
+      "he": "לְהָקֵר,",
+      "en": "to cool off"
+     },
+     {
+      "he": "טָהוֹר.",
+      "en": "tahor"
+     }
+    ]
+   },
+   {
+    "he": "לִטַּהֵר מִטֻּמְאַת מֵת, טָמֵא,",
+    "en": "If he went in to become tahor from the tumah of a dead body, he is tamei,",
+    "st": "If he was impure and entered the water <b>to purify himself from the impurity from a corpse,</b> he is <b>impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִטַּהֵר",
+      "en": "to become tahor"
+     },
+     {
+      "he": "מִטֻּמְאַת",
+      "en": "from the tumah of"
+     },
+     {
+      "he": "מֵת,",
+      "en": "a dead person"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁחֶזְקַת טָמֵא טָמֵא",
+    "en": "because one who was tamei stays tamei,",
+    "st": "The reason is that something <b>that</b> has <b>the presumptive status of impurity</b> remains <b>impure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁחֶזְקַת",
+      "en": "because the status of"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְחֶזְקַת טָהוֹר טָהוֹר,",
+    "en": "and one who was tahor stays tahor,",
+    "st": "<b>and</b> something that has <b>the presumptive status of purity</b> is <b>pure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֶזְקַת",
+      "en": "and the status of"
+     },
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "טָהוֹר,",
+      "en": "tahor"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁרַגְלַיִם לַדָּבָר:",
+    "en": "since there is a reason to say so.",
+    "st": "<b>as there is a basis for the matter.</b>",
+    "stMore": "It is reasonable that items or people retain their presumptive status.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁרַגְלַיִם",
+      "en": "because there is a basis"
+     },
+     {
+      "he": "לַדָּבָר:",
+      "en": "for the matter"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 3,
+  "summary": "If someone finds a buried body in a field, he may move it together with the earth around it. If he finds three, it may be an old cemetery, and he must check the area around them.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמּוֹצֵא מֵת בִּתְחִלָּה מֻשְׁכָּב כְּדַרְכּוֹ,",
+    "en": "Someone who finds a dead body for the first time, lying the usual way,",
+    "explain": "Lying the way Jews are buried.",
+    "st": "<b>One who finds a corpse for the first</b> time, i.e., he discovers a single corpse in a place that was not previously established as a cemetery, if the corpse is <b>lying in</b> the <b>usual manner</b> of Jewish burial,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹצֵא",
+      "en": "one who finds"
+     },
+     {
+      "he": "מֵת",
+      "en": "a dead person"
+     },
+     {
+      "he": "בִּתְחִלָּה",
+      "en": "at first"
+     },
+     {
+      "he": "מֻשְׁכָּב",
+      "en": "lying"
+     },
+     {
+      "he": "כְּדַרְכּוֹ,",
+      "en": "in its way"
+     }
+    ]
+   },
+   {
+    "he": "נוֹטְלוֹ וְאֶת תְּבוּסָתוֹ.",
+    "en": "may take it away with the earth around it.",
+    "st": "<b>he removes it</b> from there <b>and</b> also <b>its surrounding</b> earth.",
+    "stMore": "It is assumed that this corpse was buried there alone. There is no concern that this area is a cemetery and therefore the corpse may not be moved, nor does one take into account the possibility that another corpse may be buried in the vicinity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹטְלוֹ",
+      "en": "he takes it"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "תְּבוּסָתוֹ.",
+      "en": "its earth around it"
+     }
+    ]
+   },
+   {
+    "he": "מָצָא שְׁנַיִם,",
+    "en": "If he found two,",
+    "st": "Similarly, if he found <b>two</b> corpses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "נוֹטְלָן וְאֶת תְּבוּסָתָן.",
+    "en": "he takes them away with the earth around them.",
+    "st": "<b>he removes them and their surrounding</b> earth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹטְלָן",
+      "en": "he takes them"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "תְּבוּסָתָן.",
+      "en": "their earth around them"
+     }
+    ]
+   },
+   {
+    "he": "מָצָא שְׁלשָׁה,",
+    "en": "If he found three,",
+    "st": "In a case where he <b>found three</b> corpses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "שְׁלשָׁה,",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ בֵּין זֶה לָזֶה",
+    "en": "if between one and the next",
+    "st": "<b>if there is</b> a space <b>between this</b> corpse <b>and that</b> corpse",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "לָזֶה",
+      "en": "and that one"
+     }
+    ]
+   },
+   {
+    "he": "מֵאַרְבַּע אַמּוֹת וְעַד שְׁמֹנֶה,",
+    "en": "there are four to eight amos,",
+    "st": "<b>of four to eight cubits,</b> in a standard design,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאַרְבַּע",
+      "en": "from four"
+     },
+     {
+      "he": "אַמּוֹת",
+      "en": "amos"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "שְׁמֹנֶה,",
+      "en": "eight"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ שְׁכוּנַת קְבָרוֹת.",
+    "en": "this is a cemetery.",
+    "st": "<b>this is a graveyard.</b>",
+    "stMore": "There is a concern that this might be an ancient cemetery.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this is"
+     },
+     {
+      "he": "שְׁכוּנַת",
+      "en": "a neighborhood of"
+     },
+     {
+      "he": "קְבָרוֹת.",
+      "en": "graves"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹדֵק הֵימֶנּוּ וּלְהַלָּן עֶשְׂרִים אַמָּה.",
+    "en": "He must check twenty amos farther out from there.",
+    "st": "One must therefore <b>examine from that</b> spot <b>outward</b> for <b>twenty cubits.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹדֵק",
+      "en": "he checks"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from it"
+     },
+     {
+      "he": "וּלְהַלָּן",
+      "en": "and onward"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "אַמָּה.",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "מָצָא אֶחָד בְּסוֹף עֶשְׂרִים אַמָּה,",
+    "en": "If he found another one at the end of twenty amos,",
+    "st": "If one <b>finds</b> another corpse <b>at the end of twenty cubits,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בְּסוֹף",
+      "en": "at the end of"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "אַמָּה,",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹדֵק הֵימֶנּוּ וּלְהַלָּן עֶשְׂרִים אַמָּה,",
+    "en": "he checks twenty amos farther out from there,",
+    "st": "he <b>examines</b> from that spot <b>outward twenty cubits, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹדֵק",
+      "en": "he checks"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from it"
+     },
+     {
+      "he": "וּלְהַלָּן",
+      "en": "and onward"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "אַמָּה,",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁרַגְלַיִם לַדָּבָר,",
+    "en": "because there is a reason to think so,",
+    "st": "<b>as there is a basis for</b> anticipating <b>the matter.</b>",
+    "stMore": "It is likely that he has stumbled upon an ancient gravesite. He is not permitted to relocate the corpses, despite the fact",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁרַגְלַיִם",
+      "en": "because there is a basis"
+     },
+     {
+      "he": "לַדָּבָר,",
+      "en": "for the matter"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִלּוּ מִתְּחִלָּה מְצָאוֹ,",
+    "en": "even though if he had found it alone at first,",
+    "st": "<b>that if he had found</b> the single corpse by itself <b>at first</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִלּוּ",
+      "en": "that if"
+     },
+     {
+      "he": "מִתְּחִלָּה",
+      "en": "at first"
+     },
+     {
+      "he": "מְצָאוֹ,",
+      "en": "he found it"
+     }
+    ]
+   },
+   {
+    "he": "נוֹטְלוֹ וְאֶת תְּבוּסָתוֹ:",
+    "en": "he could have taken it away with the earth around it.",
+    "st": "he could have <b>removed it and its surrounding</b> earth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹטְלוֹ",
+      "en": "he takes it"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "תְּבוּסָתוֹ:",
+      "en": "its earth around it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 4,
+  "summary": "When we are not sure about tzaraas, it is tahor at first, but once a person is tamei, a doubt is tamei. The same idea is taught about a zav, and about a man who hurt another man who later died.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל סְפֵק נְגָעִים בַּתְּחִלָּה,",
+    "en": "Any doubt about tzaraas marks, at first,",
+    "st": "<b>Any</b> case of <b>uncertainty</b> with regard to <b>leprous sores</b> is <b>initially</b> deemed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "סְפֵק",
+      "en": "doubt of"
+     },
+     {
+      "he": "נְגָעִים",
+      "en": "tzaraas marks"
+     },
+     {
+      "he": "בַּתְּחִלָּה,",
+      "en": "at first"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר עַד שֶׁלֹּא נִזְקַק לַטֻּמְאָה.",
+    "en": "is tahor until it is decided to be tamei.",
+    "st": "<b>pure until it is established that</b> it is a case <b>of ritual impurity. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "(that not)"
+     },
+     {
+      "he": "נִזְקַק",
+      "en": "it was decided"
+     },
+     {
+      "he": "לַטֻּמְאָה.",
+      "en": "for tumah"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁנִּזְקַק לַטֻּמְאָה,",
+    "en": "Once it was decided to be tamei,",
+    "st": "<b>Once</b> it <b>has been determined</b> to be a case <b>of impurity, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁנִּזְקַק",
+      "en": "once it was decided"
+     },
+     {
+      "he": "לַטֻּמְאָה,",
+      "en": "for tumah"
+     }
+    ]
+   },
+   {
+    "he": "סְפֵקוֹ טָמֵא.",
+    "en": "a doubt about it is tamei.",
+    "st": "<b>uncertainty</b> concerning <b>it is</b> deemed <b>impure.</b>",
+    "stMore": "This mishna discusses another case that includes the statement: There is a basis to anticipate the matter.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְפֵקוֹ",
+      "en": "its doubt"
+     },
+     {
+      "he": "טָמֵא.",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "בְּשִׁבְעָה דְרָכִים בּוֹדְקִין אֶת הַזָּב",
+    "en": "In seven ways we check a zav",
+    "st": "<b>One examines a man who experienced a gonorrhea-like discharge [zav] in seven ways, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּשִׁבְעָה",
+      "en": "in seven"
+     },
+     {
+      "he": "דְרָכִים",
+      "en": "ways"
+     },
+     {
+      "he": "בּוֹדְקִין",
+      "en": "we check"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַזָּב",
+      "en": "the zav",
+      "note": "A person with a kind of tumah that comes from the body."
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁלֹּא נִזְקַק לַזִּיבָה.",
+    "en": "before he is decided to be a zav:",
+    "explain": "We check if something else caused it.",
+    "st": "<b>as long as he has not been confirmed as</b> having <b>a gonorrhea-like discharge [ziva.]</b>",
+    "stMore": "With regard to an individual’s second such discharge, before he has been established as a greater zav, one examines to see whether there may have been a particular trigger of his discharge.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "(that not)"
+     },
+     {
+      "he": "נִזְקַק",
+      "en": "he was decided"
+     },
+     {
+      "he": "לַזִּיבָה.",
+      "en": "for zivah"
+     }
+    ]
+   },
+   {
+    "he": "בְּמַאֲכָל, וּבְמִשְׁתֶּה,",
+    "en": "food and drink,",
+    "st": "One examines him <b>with regard to food and with regard to drink,</b>",
+    "stMore": "in case the discharge might have been the result of overeating or excess drinking;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמַאֲכָל,",
+      "en": "with food"
+     },
+     {
+      "he": "וּבְמִשְׁתֶּה,",
+      "en": "and with drink"
+     }
+    ]
+   },
+   {
+    "he": "בְּמַשָּׂא, וּבִקְפִיצָה,",
+    "en": "carrying something heavy and jumping,",
+    "st": "<b>with regard to a burden,</b> as it might have been caused by the weight of a heavy burden; <b>and with regard to jumping,</b>",
+    "stMore": "in case he jumped and this led to the discharge;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמַשָּׂא,",
+      "en": "with carrying"
+     },
+     {
+      "he": "וּבִקְפִיצָה,",
+      "en": "and with jumping"
+     }
+    ]
+   },
+   {
+    "he": "וּבְחֹלִי, וּבְמַרְאֶה, וּבְהִרְהוּר.",
+    "en": "sickness, and what he saw or thought about.",
+    "st": "<b>and with regard to sickness; and with regard to</b> an arousing <b>sight; and with regard to</b> the <b>thought</b> of a woman.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְחֹלִי,",
+      "en": "and with sickness"
+     },
+     {
+      "he": "וּבְמַרְאֶה,",
+      "en": "and with seeing"
+     },
+     {
+      "he": "וּבְהִרְהוּר.",
+      "en": "and with thinking"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁנִּזְקַק לַזִּיבָה,",
+    "en": "Once he was decided to be a zav,",
+    "st": "<b>Once he has been confirmed as</b> having <b>a ziva,</b> after two definite discharges of ziva,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁנִּזְקַק",
+      "en": "once he was decided"
+     },
+     {
+      "he": "לַזִּיבָה,",
+      "en": "for zivah"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בּוֹדְקִין אוֹתוֹ.",
+    "en": "we do not check him anymore.",
+    "st": "<b>one no</b> longer <b>examines him</b> in this way,",
+    "stMore": "as any discharge is deemed impure. If one experiences three discharges of ziva, he is obligated to bring an offering following his purification.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "בּוֹדְקִין",
+      "en": "check"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "אָנְסוֹ וּסְפֵקוֹ וְשִׁכְבַת זַרְעוֹ, טְמֵאִין,",
+    "en": "Then all the tumah that comes from him is tamei,",
+    "st": "Accordingly, <b>his</b> discharge that was due to <b>circumstances beyond his control,</b> i.e., for one of the seven reasons listed above, <b>and his</b> discharge about which it is <b>uncertain</b> if it is ziva, <b>and</b> even <b>his semen,</b> which is not usually considered the discharge of a zav, <b>are</b> all <b>impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָנְסוֹ",
+      "en": "his forced one"
+     },
+     {
+      "he": "וּסְפֵקוֹ",
+      "en": "and his doubtful one"
+     },
+     {
+      "he": "וְשִׁכְבַת",
+      "en": "and another"
+     },
+     {
+      "he": "זַרְעוֹ,",
+      "en": "kind of tumah"
+     },
+     {
+      "he": "טְמֵאִין,",
+      "en": "are tamei"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁרַגְלַיִם לַדָּבָר.",
+    "en": "since there is a reason to say so.",
+    "st": "Why is this so? It is <b>because there is a basis for</b> anticipating <b>the matter.</b>",
+    "stMore": "Once he has the status of a zav, it can be assumed that subsequent discharges are of ziva as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁרַגְלַיִם",
+      "en": "because there is a basis"
+     },
+     {
+      "he": "לַדָּבָר.",
+      "en": "for the matter"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּכֶּה אֶת חֲבֵרוֹ וַאֲמָדוּהוּ לְמִיתָה,",
+    "en": "If someone hit another man, and they thought he would die,",
+    "st": "The Sages similarly taught: With regard to <b>one who strikes another</b> with heavy blows, <b>and</b> doctors <b>assessed</b> that <b>he would die</b> as a result of the beating,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּכֶּה",
+      "en": "one who hits"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "וַאֲמָדוּהוּ",
+      "en": "and they estimated him"
+     },
+     {
+      "he": "לְמִיתָה,",
+      "en": "for death"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵקֵל מִמַּה שֶּׁהָיָה,",
+    "en": "and he got better than he was,",
+    "st": "<b>but his</b> health <b>improved from what it was,</b>",
+    "stMore": "so that they then determined that he would not die from his injuries,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵקֵל",
+      "en": "and he got lighter"
+     },
+     {
+      "he": "מִמַּה",
+      "en": "than what"
+     },
+     {
+      "he": "שֶּׁהָיָה,",
+      "en": "he was"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחַר מִכָּאן הִכְבִּיד וּמֵת, חַיָּב.",
+    "en": "and later he got worse and died, the one who hit him is chayav.",
+    "explain": "We say the hitting caused his death.",
+    "st": "and <b>afterward</b> his condition <b>worsened and he died,</b> the one who struck him is <b>liable</b>",
+    "stMore": "to receive court-imposed capital punishment, as it is assumed that the victim’s death was caused by the assault.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "this"
+     },
+     {
+      "he": "הִכְבִּיד",
+      "en": "he got heavier"
+     },
+     {
+      "he": "וּמֵת,",
+      "en": "and died"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "liable"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי נְחֶמְיָה אוֹמֵר, פָּטוּר,",
+    "en": "Rabbi Nechemyah says he is patur,",
+    "st": "<b>Rabbi Neḥemya says:</b> He is <b>exempt, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "נְחֶמְיָה",
+      "en": "Nechemyah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "פָּטוּר,",
+      "en": "exempt"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁרַגְלַיִם לַדָּבָר:",
+    "en": "since there is a reason to say so.",
+    "explain": "He got better, so maybe something else caused his death.",
+    "st": "<b>because there is a basis for</b> anticipating <b>the matter.</b>",
+    "stMore": "Since the victim began to recover during his illness, it is reasonable to assume that his death was caused by a factor other than the assault.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁרַגְלַיִם",
+      "en": "because there is a basis"
+     },
+     {
+      "he": "לַדָּבָר:",
+      "en": "for the matter"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 5,
+  "summary": "Rabbi Nehorai says that Shmuel HaNavi was a nazir, because the pasuk says \"a morah will not go up on his head,\" just like it says about Shimshon. Rabbi Yosei asks if \"morah\" means fear.",
+  "stIntro": "The tractate concludes with an aggadic statement about nazirites.",
+  "chunks": [
+   {
+    "he": "נָזִיר הָיָה שְׁמוּאֵל,",
+    "en": "Shmuel was a nazir,",
+    "st": "<b>Samuel</b> the prophet <b>was a nazirite, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "שְׁמוּאֵל,",
+      "en": "Shmuel",
+      "note": "Shmuel HaNavi."
+     }
+    ]
+   },
+   {
+    "he": "כְּדִבְרֵי רַבִּי נְהוֹרַאי,",
+    "en": "as Rabbi Nehorai says,",
+    "st": "<b>in accordance with the statement of Rabbi Nehorai, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "נְהוֹרַאי,",
+      "en": "Nehorai"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמואל א א) וּמוֹרָה",
+    "en": "as it says, \"And a morah",
+    "explain": "Chanah promised this when she davened for a son.",
+    "st": "<b>as it was stated</b>",
+    "stMore": "that when Hannah, his mother, prayed for a son, she vowed:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שמואל",
+      "en": "(Shmuel"
+     },
+     {
+      "he": "א",
+      "en": "I"
+     },
+     {
+      "he": "א)",
+      "en": "1)"
+     },
+     {
+      "he": "וּמוֹרָה",
+      "en": "and a morah"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יַעֲלֶה עַל רֹאשׁוֹ,",
+    "en": "will not go up on his head.\"",
+    "st": "<b>“And no mora shall come upon his head”</b>",
+    "stMore": "(I Samuel 1:11). How is it derived that mora is an expression of naziriteship?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַעֲלֶה",
+      "en": "will go up"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "רֹאשׁוֹ,",
+      "en": "his head"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמַר בְּשִׁמְשׁוֹן (שופטים יג) וּמוֹרָה,",
+    "en": "It says about Shimshon, \"And a morah,\"",
+    "explain": "There, morah means a razor.",
+    "st": "<b>It is stated with regard to Samson: “And</b> no <b>razor [mora]</b>",
+    "stMore": "shall come upon his head, for the child shall be a nazirite to God” (Judges 13:5),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמַר",
+      "en": "it says"
+     },
+     {
+      "he": "בְּשִׁמְשׁוֹן",
+      "en": "about Shimshon"
+     },
+     {
+      "he": "(שופטים",
+      "en": "(Shoftim"
+     },
+     {
+      "he": "יג)",
+      "en": "13)"
+     },
+     {
+      "he": "וּמוֹרָה,",
+      "en": "and a morah"
+     }
+    ]
+   },
+   {
+    "he": "וְנֶאֱמַר בִּשְׁמוּאֵל וּמוֹרָה,",
+    "en": "and it says about Shmuel, \"And a morah.\"",
+    "st": "<b>and it is stated: “And</b> no <b>mora,” with regard to Samuel. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶאֱמַר",
+      "en": "and it says"
+     },
+     {
+      "he": "בִּשְׁמוּאֵל",
+      "en": "about Shmuel"
+     },
+     {
+      "he": "וּמוֹרָה,",
+      "en": "and a morah"
+     }
+    ]
+   },
+   {
+    "he": "מַה מּוֹרָה הָאֲמוּרָה בְשִׁמְשׁוֹן, נָזִיר,",
+    "en": "Just as the \"morah\" said about Shimshon means a nazir,",
+    "st": "<b>Just as</b> the term <b>“mora” that is stated with regard to Samson</b> means that he was <b>a nazirite, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "מּוֹרָה",
+      "en": "morah"
+     },
+     {
+      "he": "הָאֲמוּרָה",
+      "en": "that is said"
+     },
+     {
+      "he": "בְשִׁמְשׁוֹן,",
+      "en": "about Shimshon"
+     },
+     {
+      "he": "נָזִיר,",
+      "en": "a nazir"
+     }
+    ]
+   },
+   {
+    "he": "אַף מוֹרָה הָאֲמוּרָה בִשְׁמוּאֵל, נָזִיר.",
+    "en": "so too the \"morah\" said about Shmuel means a nazir.",
+    "st": "<b>so too</b> the term <b>“mora” that is stated with regard to Samuel</b> indicates that he was <b>a nazirite. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "מוֹרָה",
+      "en": "morah"
+     },
+     {
+      "he": "הָאֲמוּרָה",
+      "en": "that is said"
+     },
+     {
+      "he": "בִשְׁמוּאֵל,",
+      "en": "about Shmuel"
+     },
+     {
+      "he": "נָזִיר.",
+      "en": "a nazir"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא אֵין מוֹרָה אֶלָּא שֶׁל בָּשָׂר וָדָם.",
+    "en": "\"But doesn't 'morah' just mean fear of people?\"",
+    "explain": "He reads morah as \"fear,\" not \"razor.\"",
+    "st": "<b>But doesn’t</b> the word <b>“mora”</b> mean <b>nothing other</b> than the fear <b>of flesh and blood?</b>",
+    "stMore": "The word should be read as though it were written with an alef, and not a heh, so that it means fear.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "but is it not that"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "מוֹרָה",
+      "en": "morah"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "וָדָם.",
+      "en": "and blood"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי נְהוֹרַאי,",
+    "en": "Rabbi Nehorai said to him,",
+    "st": "<b>Rabbi Nehorai said to him: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "נְהוֹרַאי,",
+      "en": "Nehorai"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא כְבָר נֶאֱמַר (שמואל א טז)",
+    "en": "\"But it already says,",
+    "st": "<b>But isn’t it already stated: “</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "but is it not"
+     },
+     {
+      "he": "כְבָר",
+      "en": "already"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it says"
+     },
+     {
+      "he": "(שמואל",
+      "en": "(Shmuel"
+     },
+     {
+      "he": "א",
+      "en": "I"
+     },
+     {
+      "he": "טז)",
+      "en": "16)"
+     }
+    ]
+   },
+   {
+    "he": "וַיֹּאמֶר שְׁמוּאֵל אֵיךְ אֵלֵךְ",
+    "en": "'And Shmuel said: How can I go?",
+    "st": "<b>And Samuel said: How can I go; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַיֹּאמֶר",
+      "en": "and said"
+     },
+     {
+      "he": "שְׁמוּאֵל",
+      "en": "Shmuel"
+     },
+     {
+      "he": "אֵיךְ",
+      "en": "how"
+     },
+     {
+      "he": "אֵלֵךְ",
+      "en": "can I go"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁמַע שָׁאוּל וַהֲרָגָנִי,",
+    "en": "Shaul will hear and kill me.'",
+    "st": "<b>if Saul hears it he will kill me”</b> (I Samuel 16:2).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁמַע",
+      "en": "and will hear"
+     },
+     {
+      "he": "שָׁאוּל",
+      "en": "Shaul"
+     },
+     {
+      "he": "וַהֲרָגָנִי,",
+      "en": "and will kill me"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכְּבָר הָיָה עָלָיו מוֹרָה שֶׁל בָּשָׂר וָדָם:",
+    "en": "So he was already afraid of people!\"",
+    "explain": "So morah must mean a razor, and Shmuel was a nazir.",
+    "st": "This verse indicates <b>that there was fear of flesh and blood upon</b> Samuel.",
+    "stMore": "Consequently, the term mora must be understood in accordance with its plain meaning of a razor. If so, Samuel was indeed a nazirite.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכְּבָר",
+      "en": "that already"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "upon him"
+     },
+     {
+      "he": "מוֹרָה",
+      "en": "morah"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "flesh"
+     },
+     {
+      "he": "וָדָם:",
+      "en": "and blood"
+     }
+    ]
+   }
+  ]
+ }
+]

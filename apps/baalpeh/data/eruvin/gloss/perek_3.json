@@ -1,0 +1,3297 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "An eiruv may be made with any food except water and salt. The mishnah also teaches about maaser sheni money, a promise not to eat food, and making an eiruv for a nazir, a Yisrael and a Kohen.",
+  "chunks": [
+   {
+    "he": "בַּכֹּל מְעָרְבִין וּמִשְׁתַּתְּפִים,",
+    "en": "We may make an eiruv and a shituf with any food,",
+    "explain": "An eiruv lets us carry or walk farther on Shabbos.",
+    "st": "<b>One may establish a joining</b> of houses in courtyards [eiruv ḥatzerot] in order to permit carrying on Shabbat in a courtyard shared by two or more houses, and one may establish a joining of Shabbat borders [eiruv teḥumin] in order to extend the distance one is permitted to walk on Shabbat; <b>and</b> similarly, <b>one may merge</b> courtyards in order to permit carrying in an alleyway shared by two or more courtyards. This may be done <b>with all</b> kinds of food",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּכֹּל",
+      "en": "with everything"
+     },
+     {
+      "he": "מְעָרְבִין",
+      "en": "we make an eiruv"
+     },
+     {
+      "he": "וּמִשְׁתַּתְּפִים,",
+      "en": "and we make a shituf",
+      "note": "A shituf joins the courtyards of an alleyway with shared food."
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַמַּיִם וּמִן הַמֶּלַח.",
+    "en": "except water and salt.",
+    "st": "<b>except for water and salt,</b>",
+    "stMore": "as they are not considered foods and therefore may not be used for these purposes.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "for"
+     },
+     {
+      "he": "הַמַּיִם",
+      "en": "the water"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and for"
+     },
+     {
+      "he": "הַמֶּלַח.",
+      "en": "the salt"
+     }
+    ]
+   },
+   {
+    "he": "וְהַכֹּל נִקָּח בְּכֶסֶף מַעֲשֵׂר,",
+    "en": "And anything may be bought with maaser money,",
+    "st": "The mishna continues with two similar principles: <b>All</b> types of food <b>may be bought with</b> second-<b>tithe money,</b>",
+    "stMore": "which must be taken to Jerusalem and used to purchase food (Deuteronomy 14:26),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַכֹּל",
+      "en": "and everything"
+     },
+     {
+      "he": "נִקָּח",
+      "en": "is bought"
+     },
+     {
+      "he": "בְּכֶסֶף",
+      "en": "with money of"
+     },
+     {
+      "he": "מַעֲשֵׂר,",
+      "en": "maaser",
+      "note": "Maaser sheni money must be spent on food in Yerushalayim."
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַמַּיִם וּמִן הַמֶּלַח.",
+    "en": "except water and salt.",
+    "st": "<b>except for water and salt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "for"
+     },
+     {
+      "he": "הַמַּיִם",
+      "en": "the water"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and for"
+     },
+     {
+      "he": "הַמֶּלַח.",
+      "en": "the salt"
+     }
+    ]
+   },
+   {
+    "he": "הַנּוֹדֵר מִן הַמָּזוֹן,",
+    "en": "Someone who promised not to eat food",
+    "st": "Similarly, <b>one who vows that nourishment</b> is prohibited to him",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹדֵר",
+      "en": "the one who promises"
+     },
+     {
+      "he": "מִן",
+      "en": "away from"
+     },
+     {
+      "he": "הַמָּזוֹן,",
+      "en": "food"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר בְּמַיִם וּבְמֶלַח.",
+    "en": "may still have water and salt.",
+    "st": "<b>is permitted</b> to eat <b>water and salt,</b>",
+    "stMore": "as they are not considered sources of nourishment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר",
+      "en": "is allowed"
+     },
+     {
+      "he": "בְּמַיִם",
+      "en": "with water"
+     },
+     {
+      "he": "וּבְמֶלַח.",
+      "en": "and with salt"
+     }
+    ]
+   },
+   {
+    "he": "מְעָרְבִין לְנָזִיר בְּיַיִן וּלְיִשְׂרָאֵל בִּתְרוּמָה.",
+    "en": "We may make an eiruv for a nazir with wine, and for a Yisrael with terumah.",
+    "explain": "Even though they may not eat it, others may.",
+    "st": "It was further stated with regard to the laws of joining courtyards that <b>one may establish an eiruv</b> teḥumin <b>for a nazirite with wine,</b> even though he is prohibited to drink it, because it is permitted to others. <b>And</b> similarly, one may establish an eiruv teḥumin <b>for an Israelite with teruma,</b>",
+    "stMore": "even though he may not eat it, because it is permitted to a priest. The food used for an eiruv teḥumin must be fit for human consumption, but it is not essential that it be fit for the consumption of the one for whom it is being used.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעָרְבִין",
+      "en": "we make an eiruv"
+     },
+     {
+      "he": "לְנָזִיר",
+      "en": "for a nazir",
+      "note": "A nazir promised not to drink wine."
+     },
+     {
+      "he": "בְּיַיִן",
+      "en": "with wine"
+     },
+     {
+      "he": "וּלְיִשְׂרָאֵל",
+      "en": "and for a Yisrael"
+     },
+     {
+      "he": "בִּתְרוּמָה.",
+      "en": "with terumah"
+     }
+    ]
+   },
+   {
+    "he": "סוּמְכוֹס אוֹמֵר,",
+    "en": "Sumchos says,",
+    "st": "<b>Summakhos,</b> however, <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוּמְכוֹס",
+      "en": "Sumchos",
+      "note": "A Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בְּחֻלִּין. וּלְכֹהֵן בְּבֵית הַפְּרָס.",
+    "en": "only with regular food. And for a Kohen we may make it in a beis hapras.",
+    "explain": "A field where a grave was plowed up, which a Kohen may not enter.",
+    "st": "One may only establish an eiruv teḥumin for an Israelite <b>with unconsecrated</b> food. It was additionally stated that one may establish an eiruv teḥumin <b>for a priest in a beit haperas,</b>",
+    "stMore": "a field containing a grave that was plowed over. There is doubt as to the location of bone fragments in the entire area. A priest is prohibited to come into contact with a corpse, and therefore may not enter a beit haperas.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּחֻלִּין.",
+      "en": "with regular food"
+     },
+     {
+      "he": "וּלְכֹהֵן",
+      "en": "and for a Kohen"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in a beis"
+     },
+     {
+      "he": "הַפְּרָס.",
+      "en": "hapras",
+      "note": "A field where a grave was plowed over, so bits of bone may be anywhere."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ בְּבֵית הַקְּבָרוֹת,",
+    "en": "even in a cemetery,",
+    "st": "An eiruv teḥumin may be established for a priest <b>even between the graves</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "הַקְּבָרוֹת,",
+      "en": "the graves"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁיָּכוֹל לֵילֵךְ לָחוֹץ וְלֶאֱכֹל:",
+    "en": "because he can go there with something blocking him and eat it.",
+    "st": "in a graveyard, an area which the priest may not enter by Torah law, <b>since he can interpose</b>",
+    "stMore": "between himself and the graves <b>and go and eat</b> the food that comprises the eiruv without contracting ritual impurity.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁיָּכוֹל",
+      "en": "that he can"
+     },
+     {
+      "he": "לֵילֵךְ",
+      "en": "walk"
+     },
+     {
+      "he": "לָחוֹץ",
+      "en": "outside"
+     },
+     {
+      "he": "וְלֶאֱכֹל:",
+      "en": "and eat"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "An eiruv may be made with food that is now allowed to eat, but not with food that still needs terumah and maaser taken, or that still needs to be redeemed. The eiruv must be sent with a person who can be trusted to put it down.",
+  "chunks": [
+   {
+    "he": "מְעָרְבִין בִּדְמַאי,",
+    "en": "We may make an eiruv with demai,",
+    "st": "<b>One may establish an eiruv with demai,</b>",
+    "stMore": "produce purchased from one who may not have separated the required tithes,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעָרְבִין",
+      "en": "we make an eiruv"
+     },
+     {
+      "he": "בִּדְמַאי,",
+      "en": "with demai",
+      "note": "Food bought from someone who may not have taken off maaser."
+     }
+    ]
+   },
+   {
+    "he": "וּבְמַעֲשֵׂר רִאשׁוֹן שֶׁנִטְּלָה תְרוּמָתוֹ,",
+    "en": "and with maaser rishon that had its terumah taken off,",
+    "st": "<b>and</b> similarly, one may establish an eiruv <b>with</b> the <b>first tithe whose teruma has been taken</b>",
+    "stMore": "in order to be given to a priest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְמַעֲשֵׂר",
+      "en": "and with maaser"
+     },
+     {
+      "he": "רִאשׁוֹן",
+      "en": "first"
+     },
+     {
+      "he": "שֶׁנִטְּלָה",
+      "en": "that was taken"
+     },
+     {
+      "he": "תְרוּמָתוֹ,",
+      "en": "its terumah"
+     }
+    ]
+   },
+   {
+    "he": "וּבְמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁנִּפְדּוּ.",
+    "en": "and with maaser sheni and hekdesh that were redeemed.",
+    "st": "<b>and with</b> the <b>second tithe and consecrated articles that have been redeemed;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְמַעֲשֵׂר",
+      "en": "and with maaser"
+     },
+     {
+      "he": "שֵׁנִי",
+      "en": "second"
+     },
+     {
+      "he": "וְהֶקְדֵּשׁ",
+      "en": "and hekdesh",
+      "note": "Something given to the Beis HaMikdash."
+     },
+     {
+      "he": "שֶׁנִּפְדּוּ.",
+      "en": "that were redeemed"
+     }
+    ]
+   },
+   {
+    "he": "וְהַכֹּהֲנִים, בְּחַלָּה וּבִתְרוּמָה.",
+    "en": "And Kohanim may use challah and terumah.",
+    "st": "<b>and priests</b> may establish an eiruv <b>with ḥalla,</b>",
+    "stMore": "the portion of dough that must be given to a priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַכֹּהֲנִים,",
+      "en": "and the Kohanim"
+     },
+     {
+      "he": "בְּחַלָּה",
+      "en": "with challah",
+      "note": "A piece of dough given to a Kohen."
+     },
+     {
+      "he": "וּבִתְרוּמָה.",
+      "en": "and with terumah"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא בְטֶבֶל,",
+    "en": "But not with tevel,",
+    "st": "<b>However,</b> one may <b>not</b> establish an eiruv <b>with tevel,</b>",
+    "stMore": "produce from which the priestly dues [teruma] and other tithes have not been separated,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בְטֶבֶל,",
+      "en": "with tevel",
+      "note": "Food that still needs terumah and maaser taken off."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְמַעֲשֵׂר רִאשׁוֹן שֶׁלֹּא נִטְּלָה תְרוּמָתוֹ,",
+    "en": "and not with maaser rishon whose terumah was not taken off,",
+    "st": "<b>nor with first tithe whose teruma,</b> which must be given to a priest, <b>has not been taken,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְמַעֲשֵׂר",
+      "en": "with maaser"
+     },
+     {
+      "he": "רִאשׁוֹן",
+      "en": "first"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִטְּלָה",
+      "en": "was taken"
+     },
+     {
+      "he": "תְרוּמָתוֹ,",
+      "en": "its terumah"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְמַעֲשֵׂר שֵׁנִי וְהֶקְדֵּשׁ שֶׁלֹּא נִפְדּוּ.",
+    "en": "and not with maaser sheni and hekdesh that were not redeemed.",
+    "st": "<b>nor with</b> the <b>second tithe or consecrated articles that have not been redeemed.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְמַעֲשֵׂר",
+      "en": "with maaser"
+     },
+     {
+      "he": "שֵׁנִי",
+      "en": "second"
+     },
+     {
+      "he": "וְהֶקְדֵּשׁ",
+      "en": "and hekdesh"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִפְדּוּ.",
+      "en": "were redeemed"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹלֵחַ עֵרוּבוֹ בְּיַד חֵרֵשׁ,",
+    "en": "If someone sends his eiruv with a deaf-mute,",
+    "st": "If <b>one sends his eiruv in the hands of a deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹלֵחַ",
+      "en": "the one who sends"
+     },
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "בְּיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "חֵרֵשׁ,",
+      "en": "a deaf-mute"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹטֶה וְקָטָן,",
+    "en": "a person who is not in his right mind, or a child,",
+    "st": "<b>an imbecile, or a minor,</b>",
+    "stMore": "all of whom are regarded as legally incompetent,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹטֶה",
+      "en": "someone not in his right mind"
+     },
+     {
+      "he": "וְקָטָן,",
+      "en": "and a child"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בְיַד מִי שֶׁאֵינוֹ מוֹדֶה בָעֵרוּב,",
+    "en": "or with someone who does not believe in eiruv,",
+    "st": "<b>or in the hands of one who does not accept</b> the principle of <b>eiruv,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "מִי",
+      "en": "someone"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "who does not"
+     },
+     {
+      "he": "מוֹדֶה",
+      "en": "agree"
+     },
+     {
+      "he": "בָעֵרוּב,",
+      "en": "to the eiruv"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עֵרוּב.",
+    "en": "it is not an eiruv.",
+    "st": "<b>it is not</b> a valid <b>eiruv.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "עֵרוּב.",
+      "en": "an eiruv"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמַר לְאַחֵר לְקַבְּלוֹ מִמֶּנּוּ,",
+    "en": "But if he told another person to take it from him,",
+    "st": "But <b>if one told another</b> person <b>to receive it from him</b>",
+    "stMore": "at a specific location and set it down in that spot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לְאַחֵר",
+      "en": "to another"
+     },
+     {
+      "he": "לְקַבְּלוֹ",
+      "en": "to take it"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה עֵרוּב:",
+    "en": "it is an eiruv.",
+    "st": "<b>it is a</b> valid <b>eiruv.</b> The critical point in the establishment of an eiruv is that it must be deposited in the proper location by a competent person; but it is immaterial how the eiruv arrives there.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "עֵרוּב:",
+      "en": "an eiruv"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "Where may an eiruv be put? It depends on whether he could reach it on Shabbos: high up in a tree, deep in a pit, on a tall stick, or in a locked cupboard.",
+  "chunks": [
+   {
+    "he": "נְתָנוֹ בְאִילָן,",
+    "en": "If he put it in a tree,",
+    "st": "If <b>one placed</b> his eiruv <b>in a tree</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְתָנוֹ",
+      "en": "he put it"
+     },
+     {
+      "he": "בְאִילָן,",
+      "en": "in a tree"
+     }
+    ]
+   },
+   {
+    "he": "לְמַעְלָה מֵעֲשָׂרָה טְפָחִים,",
+    "en": "higher than ten tefachim,",
+    "st": "<b>above ten handbreadths</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמַעְלָה",
+      "en": "above"
+     },
+     {
+      "he": "מֵעֲשָׂרָה",
+      "en": "than ten"
+     },
+     {
+      "he": "טְפָחִים,",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "אֵין עֵרוּבוֹ עֵרוּב.",
+    "en": "his eiruv is not an eiruv.",
+    "st": "from the ground, <b>his eiruv is not a</b> valid <b>eiruv;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "is not"
+     },
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "עֵרוּב.",
+      "en": "an eiruv"
+     }
+    ]
+   },
+   {
+    "he": "לְמַטָּה מֵעֲשָׂרָה טְפָחִים,",
+    "en": "Lower than ten tefachim,",
+    "st": "if it is <b>below ten handbreadths,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמַטָּה",
+      "en": "below"
+     },
+     {
+      "he": "מֵעֲשָׂרָה",
+      "en": "than ten"
+     },
+     {
+      "he": "טְפָחִים,",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבוֹ עֵרוּב.",
+    "en": "his eiruv is an eiruv.",
+    "st": "<b>his eiruv is</b> a valid <b>eiruv.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "עֵרוּב.",
+      "en": "an eiruv"
+     }
+    ]
+   },
+   {
+    "he": "נְתָנוֹ בְּבוֹר,",
+    "en": "If he put it in a pit,",
+    "st": "If <b>he placed</b> the eiruv <b>in a pit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְתָנוֹ",
+      "en": "he put it"
+     },
+     {
+      "he": "בְּבוֹר,",
+      "en": "in a pit"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ עָמוֹק מֵאָה אַמָּה,",
+    "en": "even one hundred amos deep,",
+    "st": "<b>even</b> if <b>it was a hundred cubits deep,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "עָמוֹק",
+      "en": "deep"
+     },
+     {
+      "he": "מֵאָה",
+      "en": "a hundred"
+     },
+     {
+      "he": "אַמָּה,",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבוֹ עֵרוּב.",
+    "en": "his eiruv is an eiruv.",
+    "st": "<b>his eiruv is</b> a valid <b>eiruv.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "עֵרוּב.",
+      "en": "an eiruv"
+     }
+    ]
+   },
+   {
+    "he": "נְתָנוֹ בְרֹאשׁ הַקָּנֶה אוֹ בְרֹאשׁ",
+    "en": "If he put it on top of a reed or on top",
+    "st": "If <b>one placed</b> his eiruv <b>on top of a reed or on top of a pole [kundas],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְתָנוֹ",
+      "en": "he put it"
+     },
+     {
+      "he": "בְרֹאשׁ",
+      "en": "on top of"
+     },
+     {
+      "he": "הַקָּנֶה",
+      "en": "the reed"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְרֹאשׁ",
+      "en": "on top of"
+     }
+    ]
+   },
+   {
+    "he": "הַקֻּנְדָּס בִּזְמַן שֶׁהוּא תָלוּשׁ וְנָעוּץ,",
+    "en": "of a pole, when it was pulled up and stuck into the ground,",
+    "st": "<b>when</b> the reed or pole <b>is detached</b> from its original place <b>and stuck</b> into the ground,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַקֻּנְדָּס",
+      "en": "the pole"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "תָלוּשׁ",
+      "en": "pulled up"
+     },
+     {
+      "he": "וְנָעוּץ,",
+      "en": "and stuck in"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ גָבוֹהַּ מֵאָה אַמָּה,",
+    "en": "even one hundred amos high,",
+    "st": "<b>even</b> if it is <b>a hundred cubits high,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "גָבוֹהַּ",
+      "en": "high"
+     },
+     {
+      "he": "מֵאָה",
+      "en": "a hundred"
+     },
+     {
+      "he": "אַמָּה,",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה עֵרוּב.",
+    "en": "it is an eiruv.",
+    "st": "<b>it is a</b> valid <b>eiruv,</b>",
+    "stMore": "as one can remove the reed or pole from the ground and take his eiruv.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "עֵרוּב.",
+      "en": "an eiruv"
+     }
+    ]
+   },
+   {
+    "he": "נְתָנוֹ בְמִגְדָּל וְאָבַד הַמַּפְתֵּחַ,",
+    "en": "If he put it in a cupboard and the key was lost,",
+    "st": "<b>If one put</b> the eiruv <b>in a cupboard</b> and locked it, <b>and the key was lost,</b>",
+    "stMore": "so that he is now unable to open the cupboard and access the eiruv,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְתָנוֹ",
+      "en": "he put it"
+     },
+     {
+      "he": "בְמִגְדָּל",
+      "en": "in a cupboard"
+     },
+     {
+      "he": "וְאָבַד",
+      "en": "and was lost"
+     },
+     {
+      "he": "הַמַּפְתֵּחַ,",
+      "en": "the key"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה עֵרוּב.",
+    "en": "it is an eiruv.",
+    "st": "<b>it is</b> nonetheless a valid <b>eiruv.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "עֵרוּב.",
+      "en": "an eiruv"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם אֵינוֹ יוֹדֵעַ שֶׁהַמַּפְתֵּחַ בִּמְקוֹמוֹ,",
+    "en": "if he does not know that the key is in its place,",
+    "st": "<b>If he does not know that the key is in its place,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "שֶׁהַמַּפְתֵּחַ",
+      "en": "that the key"
+     },
+     {
+      "he": "בִּמְקוֹמוֹ,",
+      "en": "is in its place"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עֵרוּב:",
+    "en": "it is not an eiruv.",
+    "st": "<b>it is not</b> a valid <b>eiruv.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "עֵרוּב:",
+      "en": "an eiruv"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "If something happened to the eiruv before Shabbos started, it does not work; if it happened after dark, it works. The Rabbis argue what to do when we are not sure when it happened.",
+  "chunks": [
+   {
+    "he": "נִתְגַּלְגֵּל חוּץ לַתְּחוּם,",
+    "en": "If the eiruv rolled out past the Shabbos limit,",
+    "explain": "The techum is how far we may walk on Shabbos, 2000 amos.",
+    "st": "If one’s eiruv <b>rolled beyond the</b> Shabbat <b>limit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְגַּלְגֵּל",
+      "en": "it rolled"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לַתְּחוּם,",
+      "en": "the techum",
+      "note": "The techum is the limit of how far we may walk on Shabbos."
+     }
+    ]
+   },
+   {
+    "he": "וְנָפַל עָלָיו גַּל,",
+    "en": "or a pile of stones fell on it,",
+    "st": "and he no longer has access to his eiruv since he may not go beyond his limit, or if <b>a pile</b> of stones <b>fell on it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָפַל",
+      "en": "and fell"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "גַּל,",
+      "en": "a pile"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִשְׂרַף,",
+    "en": "or it was burned,",
+    "st": "<b>or</b> if <b>it was burnt,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׂרַף,",
+      "en": "it was burned"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ תְרוּמָה וְנִטְמֵאת,",
+    "en": "or it was terumah and became tamei,",
+    "st": "or if the eiruv was <b>teruma and it became</b> ritually <b>impure;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "תְרוּמָה",
+      "en": "terumah"
+     },
+     {
+      "he": "וְנִטְמֵאת,",
+      "en": "and became tamei"
+     }
+    ]
+   },
+   {
+    "he": "מִבְּעוֹד יוֹם,",
+    "en": "while it was still day,",
+    "st": "if any of these occurrences took place <b>while it was still day,</b>",
+    "stMore": "prior to the onset of Shabbat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִבְּעוֹד",
+      "en": "while still"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עֵרוּב,",
+    "en": "it is not an eiruv.",
+    "st": "<b>it is not</b> a valid <b>eiruv,</b>",
+    "stMore": "since one did not have an eiruv at twilight, which is the time one’s Shabbat residence is established.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "עֵרוּב,",
+      "en": "an eiruv"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁחֲשֵׁכָה, הֲרֵי זֶה עֵרוּב.",
+    "en": "If it happened after dark, it is an eiruv.",
+    "st": "However, if any of these occurred <b>after dark,</b> when it was already Shabbat, <b>it is</b> a valid <b>eiruv,</b>",
+    "stMore": "as it was intact and accessible at the time one’s Shabbat residence is determined.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁחֲשֵׁכָה,",
+      "en": "after dark"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "עֵרוּב.",
+      "en": "an eiruv"
+     }
+    ]
+   },
+   {
+    "he": "אִם סָפֵק,",
+    "en": "If we are not sure,",
+    "st": "<b>If</b> the matter is <b>in doubt,</b>",
+    "stMore": "i.e., if he does not know when one of the aforementioned incidents occurred,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "סָפֵק,",
+      "en": "there is a doubt"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר וְרַבִּי יְהוּדָה אוֹמְרִים,",
+    "en": "Rabbi Meir and Rabbi Yehudah say,",
+    "st": "<b>Rabbi Meir and Rabbi Yehuda say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה חַמָּר גַּמָּל.",
+    "en": "he is like a donkey driver and a camel driver.",
+    "explain": "He is pulled both ways, so he may only walk where both places allow.",
+    "st": "<b>This</b> person <b>is</b> in the position of both <b>a donkey driver,</b> who must prod the animal from behind, <b>and a camel driver,</b>",
+    "stMore": "who must lead the animal from the front, i.e., he is a person who is pulled in two opposite directions. Due to the uncertainty concerning his Shabbat border, he must act stringently, as though his resting place were both in his town and at the location where he placed the eiruv. He must restrict his Shabbat movement to those areas that are within two thousand cubits of both locations.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "חַמָּר",
+      "en": "a donkey driver"
+     },
+     {
+      "he": "גַּמָּל.",
+      "en": "a camel driver"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי וְרַבִּי שִׁמְעוֹן אוֹמְרִים,",
+    "en": "Rabbi Yosi and Rabbi Shimon say,",
+    "st": "<b>Rabbi Yosei and Rabbi Shimon</b> disagree and <b>say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosi"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "סְפֵק עֵרוּב,",
+    "en": "an eiruv we are not sure about",
+    "st": "<b>An eiruv</b> whose validity is <b>in doubt</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְפֵק",
+      "en": "a doubtful"
+     },
+     {
+      "he": "עֵרוּב,",
+      "en": "eiruv"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר. אָמַר רַבִּי יוֹסֵי,",
+    "en": "is kosher. Rabbi Yosi said,",
+    "st": "<b>is</b> nevertheless <b>valid. Rav Yosei said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר.",
+      "en": "is kosher"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosi"
+     }
+    ]
+   },
+   {
+    "he": "אַבְטוֹלְמוֹס הֵעִיד מִשּׁוּם חֲמִשָּׁה זְקֵנִים",
+    "en": "Avtolmos told in the name of five elders",
+    "st": "The Sage <b>Avtolemos testified in the name of five Elders</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַבְטוֹלְמוֹס",
+      "en": "Avtolmos",
+      "note": "A Rabbi who lived before the Mishnah was written."
+     },
+     {
+      "he": "הֵעִיד",
+      "en": "testified"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "in the name of"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "זְקֵנִים",
+      "en": "elders"
+     }
+    ]
+   },
+   {
+    "he": "עַל סְפֵק עֵרוּב שֶׁכָּשֵׁר:",
+    "en": "that an eiruv we are not sure about is kosher.",
+    "st": "<b>that an eiruv</b> whose validity is <b>in doubt is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "סְפֵק",
+      "en": "a doubtful"
+     },
+     {
+      "he": "עֵרוּב",
+      "en": "eiruv"
+     },
+     {
+      "he": "שֶׁכָּשֵׁר:",
+      "en": "that it is kosher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "A person may put down two eiruvin, one on each side of town, and decide later which one counts, depending on which way enemies come from or where a Sage comes to.",
+  "chunks": [
+   {
+    "he": "מַתְנֶה אָדָם עַל עֵרוּבוֹ וְאוֹמֵר,",
+    "en": "A person may make a condition on his eiruv and say,",
+    "st": "<b>A person may make a condition with regard to his eiruv</b>",
+    "stMore": "of Shabbat borders. In other words, he need not decide in advance in which direction his eiruv should take effect. For example, he may deposit an eiruv on each of two opposite sides of his town,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַתְנֶה",
+      "en": "makes a condition"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and says"
+     }
+    ]
+   },
+   {
+    "he": "אִם בָּאוּ גוֹיִים מִן הַמִּזְרָח,",
+    "en": "If enemies come from the east,",
+    "st": "<b>and say: If gentiles come from the east,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "בָּאוּ",
+      "en": "come"
+     },
+     {
+      "he": "גוֹיִים",
+      "en": "gentiles"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמִּזְרָח,",
+      "en": "the east"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי לַמַּעֲרָב.",
+    "en": "my eiruv is to the west.",
+    "st": "<b>my eiruv is in the west,</b>",
+    "stMore": "so that I can escape in that direction;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "לַמַּעֲרָב.",
+      "en": "to the west"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַמַּעֲרָב,",
+    "en": "If from the west,",
+    "st": "and if they come <b>from the west,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמַּעֲרָב,",
+      "en": "the west"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי לַמִּזְרָח.",
+    "en": "my eiruv is to the east.",
+    "st": "<b>my eiruv is in the east.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "לַמִּזְרָח.",
+      "en": "to the east"
+     }
+    ]
+   },
+   {
+    "he": "אִם בָּאוּ מִכָּאן וּמִכָּאן,",
+    "en": "If they come from here and from there,",
+    "st": "<b>If they come from here and from there,</b>",
+    "stMore": "i.e., from both directions,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "בָּאוּ",
+      "en": "they come"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וּמִכָּאן,",
+      "en": "and from here"
+     }
+    ]
+   },
+   {
+    "he": "לִמְקוֹם שֶׁאֶרְצֶה אֵלֵךְ.",
+    "en": "I will go wherever I want.",
+    "st": "<b>I will go wherever I wish,</b>",
+    "stMore": "and my eiruv will retroactively take effect in that direction; and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִמְקוֹם",
+      "en": "to the place"
+     },
+     {
+      "he": "שֶׁאֶרְצֶה",
+      "en": "that I want"
+     },
+     {
+      "he": "אֵלֵךְ.",
+      "en": "I will go"
+     }
+    ]
+   },
+   {
+    "he": "לֹא בָאוּ לֹא מִכָּאן וְלֹא מִכָּאן,",
+    "en": "If they come neither from here nor from there,",
+    "st": "<b>if they do not come</b> at all, <b>neither from here nor from there,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בָאוּ",
+      "en": "they came"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִכָּאן,",
+      "en": "from here"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵינִי כִבְנֵי עִירִי.",
+    "en": "I am like the people of my town.",
+    "st": "<b>I will be like</b> the rest of <b>the inhabitants of my town</b>",
+    "stMore": "and give up both eiruvin that I deposited, leaving me with two thousand cubits in all directions from the town. Similarly, one may say:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I am"
+     },
+     {
+      "he": "כִבְנֵי",
+      "en": "like the people of"
+     },
+     {
+      "he": "עִירִי.",
+      "en": "my town"
+     }
+    ]
+   },
+   {
+    "he": "אִם בָּא חָכָם מִן הַמִּזְרָח,",
+    "en": "If a Sage comes from the east,",
+    "st": "<b>If a Sage comes from the east</b>",
+    "stMore": "and he is spending Shabbat beyond the boundaries of my town,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "בָּא",
+      "en": "comes"
+     },
+     {
+      "he": "חָכָם",
+      "en": "a Sage"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמִּזְרָח,",
+      "en": "the east"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי לַמִּזְרָח.",
+    "en": "my eiruv is to the east.",
+    "st": "<b>my eiruv is in the east,</b>",
+    "stMore": "so that I may go out to greet him there; and if he comes",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "לַמִּזְרָח.",
+      "en": "to the east"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַמַּעֲרָב,",
+    "en": "If from the west,",
+    "st": "<b>from the west,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמַּעֲרָב,",
+      "en": "the west"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי לַמַּעֲרָב.",
+    "en": "my eiruv is to the west.",
+    "st": "<b>my eiruv is in the west.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "לַמַּעֲרָב.",
+      "en": "to the west"
+     }
+    ]
+   },
+   {
+    "he": "בָּא לְכָאן וּלְכָאן,",
+    "en": "If Sages come from here and from there,",
+    "st": "If one Sage <b>comes from here, and</b> another Sage comes <b>from there,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "comes"
+     },
+     {
+      "he": "לְכָאן",
+      "en": "to here"
+     },
+     {
+      "he": "וּלְכָאן,",
+      "en": "and to here"
+     }
+    ]
+   },
+   {
+    "he": "לִמְקוֹם שֶׁאֶרְצֶה אֵלֵךְ.",
+    "en": "I will go wherever I want.",
+    "st": "<b>I will go wherever I wish;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִמְקוֹם",
+      "en": "to the place"
+     },
+     {
+      "he": "שֶׁאֶרְצֶה",
+      "en": "that I want"
+     },
+     {
+      "he": "אֵלֵךְ.",
+      "en": "I will go"
+     }
+    ]
+   },
+   {
+    "he": "לֹא לְכָאן וְלֹא לְכָאן,",
+    "en": "If neither from here nor from there,",
+    "st": "<b>and</b> if no Sage comes, <b>neither from here nor from there,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לְכָאן",
+      "en": "to here"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְכָאן,",
+      "en": "to here"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵינִי כִבְנֵי עִירִי.",
+    "en": "I am like the people of my town.",
+    "st": "<b>I will be like</b> the rest of <b>the inhabitants of my town.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I am"
+     },
+     {
+      "he": "כִבְנֵי",
+      "en": "like the people of"
+     },
+     {
+      "he": "עִירִי.",
+      "en": "my town"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיָה אֶחָד מֵהֶן רַבּוֹ,",
+    "en": "if one of them was his teacher,",
+    "st": "<b>If one of</b> the Sages coming from opposite directions <b>was his teacher,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "רַבּוֹ,",
+      "en": "his teacher"
+     }
+    ]
+   },
+   {
+    "he": "הוֹלֵךְ אֵצֶל רַבּוֹ,",
+    "en": "he goes to his teacher.",
+    "st": "<b>he may go</b> only <b>to his teacher,</b>",
+    "stMore": "as it is assumed that was his original intention.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹלֵךְ",
+      "en": "he goes"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "to"
+     },
+     {
+      "he": "רַבּוֹ,",
+      "en": "his teacher"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הָיוּ שְׁנֵיהֶם רַבּוֹתָיו,",
+    "en": "And if both of them were his teachers,",
+    "st": "<b>And if they were both his teachers,</b>",
+    "stMore": "so that there is no reason to suppose that he preferred one over the other,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "רַבּוֹתָיו,",
+      "en": "his teachers"
+     }
+    ]
+   },
+   {
+    "he": "לִמְקוֹם שֶׁיִּרְצֶה יֵלֵךְ:",
+    "en": "he may go wherever he wants.",
+    "st": "<b>he may go wherever he wishes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִמְקוֹם",
+      "en": "to the place"
+     },
+     {
+      "he": "שֶׁיִּרְצֶה",
+      "en": "that he wants"
+     },
+     {
+      "he": "יֵלֵךְ:",
+      "en": "he will go"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "When Yom Tov is right next to Shabbos, Rabbi Eliezer says a person may make a different eiruv for each day. The Sages say he must use one eiruv for both days, and they explain how to do that.",
+  "chunks": [
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יוֹם טוֹב הַסָּמוּךְ לְשַׁבָּת,",
+    "en": "when Yom Tov is right next to Shabbos,",
+    "st": "With regard to <b>a Festival adjacent to Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹם",
+      "en": "Yom"
+     },
+     {
+      "he": "טוֹב",
+      "en": "Tov"
+     },
+     {
+      "he": "הַסָּמוּךְ",
+      "en": "that is next"
+     },
+     {
+      "he": "לְשַׁבָּת,",
+      "en": "to Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין מִלְּפָנֶיהָ וּבֵין מִלְּאַחֲרֶיהָ,",
+    "en": "either before it or after it,",
+    "st": "<b>whether before it,</b> on a Friday, <b>or after it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִלְּפָנֶיהָ",
+      "en": "before it"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and whether"
+     },
+     {
+      "he": "מִלְּאַחֲרֶיהָ,",
+      "en": "after it"
+     }
+    ]
+   },
+   {
+    "he": "מְעָרֵב אָדָם שְׁנֵי עֵרוּבִין וְאוֹמֵר,",
+    "en": "a person may make two eiruvin and say,",
+    "st": "on a Sunday, <b>a person</b> may <b>establish two eiruvin</b> of Shabbat borders [teḥumin] <b>and say</b>",
+    "stMore": "as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעָרֵב",
+      "en": "makes an eiruv"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "עֵרוּבִין",
+      "en": "eiruvin"
+     },
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and says"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי הָרִאשׁוֹן לַמִּזְרָח,",
+    "en": "My eiruv on the first day is to the east,",
+    "st": "<b>My eiruv on the first</b> day shall be <b>to the east,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "לַמִּזְרָח,",
+      "en": "to the east"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי לַמַּעֲרָב.",
+    "en": "and on the second to the west.",
+    "st": "<b>and on the second</b> day <b>to the west.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "לַמַּעֲרָב.",
+      "en": "to the west"
+     }
+    ]
+   },
+   {
+    "he": "הָרִאשׁוֹן לַמַּעֲרָב,",
+    "en": "Or: on the first to the west,",
+    "st": "Alternatively, one may say: <b>On the first</b> day it shall be <b>to the west and on the second</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "לַמַּעֲרָב,",
+      "en": "to the west"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי לַמִּזְרָח.",
+    "en": "and on the second to the east.",
+    "st": "day <b>to the east.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "לַמִּזְרָח.",
+      "en": "to the east"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי הָרִאשׁוֹן,",
+    "en": "Or: My eiruv is for the first day,",
+    "st": "Similarly, one may say: <b>My eiruv</b> shall apply <b>on the first</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "הָרִאשׁוֹן,",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי כִּבְנֵי עִירִי.",
+    "en": "and on the second I am like the people of my town.",
+    "st": "<b>but on the second</b> day I shall be <b>like</b> the rest of <b>the inhabitants of my town,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "כִּבְנֵי",
+      "en": "like the people of"
+     },
+     {
+      "he": "עִירִי.",
+      "en": "my town"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי הַשֵּׁנִי,",
+    "en": "Or: My eiruv is for the second day,",
+    "st": "or: <b>My eiruv</b> shall apply <b>on the second</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "הַשֵּׁנִי,",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "וְהָרִאשׁוֹן כִּבְנֵי עִירִי.",
+    "en": "and on the first I am like the people of my town.",
+    "st": "<b>but on the first</b> day I shall be <b>like</b> the rest of <b>the inhabitants of my town.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָרִאשׁוֹן",
+      "en": "and the first"
+     },
+     {
+      "he": "כִּבְנֵי",
+      "en": "like the people of"
+     },
+     {
+      "he": "עִירִי.",
+      "en": "my town"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis</b> disagree and <b>say</b>",
+    "stMore": "that such a split is impossible.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מְעָרֵב לְרוּחַ אַחַת,",
+    "en": "he makes an eiruv in one direction,",
+    "st": "Rather, <b>he either establishes an eiruv in one direction</b> for both days,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעָרֵב",
+      "en": "he makes an eiruv"
+     },
+     {
+      "he": "לְרוּחַ",
+      "en": "to a direction"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אֵינוֹ מְעָרֵב כָּל עִקָּר.",
+    "en": "or he does not make an eiruv at all.",
+    "st": "<b>or he establishes no eiruv at all;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מְעָרֵב",
+      "en": "make an eiruv"
+     },
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "עִקָּר.",
+      "en": "at all"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מְעָרֵב לִשְׁנֵי יָמִים,",
+    "en": "Either he makes an eiruv for both days,",
+    "st": "<b>either he establishes an eiruv for</b> the <b>two days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מְעָרֵב",
+      "en": "he makes an eiruv"
+     },
+     {
+      "he": "לִשְׁנֵי",
+      "en": "for two"
+     },
+     {
+      "he": "יָמִים,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אֵינוֹ מְעָרֵב כָּל עִקָּר.",
+    "en": "or he does not make an eiruv at all.",
+    "st": "<b>or he establishes no eiruv at all.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מְעָרֵב",
+      "en": "he makes an eiruv"
+     },
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "עִקָּר.",
+      "en": "at all"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד יַעֲשֶׂה.",
+    "en": "What should he do?",
+    "st": "<b>What does one do</b>",
+    "stMore": "to establish an eiruv that will be valid for both the Festival and Shabbat?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "יַעֲשֶׂה.",
+      "en": "should he do"
+     }
+    ]
+   },
+   {
+    "he": "מוֹלִיכוֹ בָרִאשׁוֹן,",
+    "en": "He brings it there on the first day,",
+    "st": "<b>He</b> or his agent <b>brings</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹלִיכוֹ",
+      "en": "he brings it"
+     },
+     {
+      "he": "בָרִאשׁוֹן,",
+      "en": "on the first"
+     }
+    ]
+   },
+   {
+    "he": "וּמַחְשִׁיךְ עָלָיו וְנוֹטְלוֹ וּבָא לוֹ.",
+    "en": "stays with it until dark, then takes it and goes home.",
+    "st": "the eiruv to the location that he wishes to establish as his residence <b>on</b> the eve of <b>the first</b> day, <b>and he stays</b> there <b>with it until nightfall,</b> the time when the eiruv establishes that location as his residence for the Festival, <b>and</b> then <b>he takes it</b> with him <b>and goes away,</b>",
+    "stMore": "so that it will not become lost before the following evening, in which case he would not have an eiruv for the second day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַחְשִׁיךְ",
+      "en": "and he waits until dark"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "with it"
+     },
+     {
+      "he": "וְנוֹטְלוֹ",
+      "en": "and he takes it"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and comes"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "(home)"
+     }
+    ]
+   },
+   {
+    "he": "בַּשֵּׁנִי מַחְשִׁיךְ עָלָיו וְאוֹכְלוֹ.",
+    "en": "On the second day he stays with it until dark and eats it.",
+    "st": "<b>On</b> the eve of the <b>second</b> day, he takes it back to the same place as the day before, and <b>he stays</b> there <b>with it until nightfall,</b> thereby establishing his residence for Shabbat, and then he may <b>eat</b> the eiruv <b>and go away,</b>",
+    "stMore": "if he so desires.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשֵּׁנִי",
+      "en": "on the second"
+     },
+     {
+      "he": "מַחְשִׁיךְ",
+      "en": "he waits until dark"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "with it"
+     },
+     {
+      "he": "וְאוֹכְלוֹ.",
+      "en": "and eats it"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצָא מִשְׂתַּכֵּר בַּהֲלִיכָתוֹ וּמִשְׂתַּכֵּר בְּעֵרוּבוֹ.",
+    "en": "So he gains in his walking, and he gains in his eiruv.",
+    "st": "<b>Consequently, he benefits</b> in that he is permitted to <b>walk</b> in the direction that he desires, <b>and he benefits</b> in that he is permitted to eat <b>his eiruv.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצָא",
+      "en": "and it turns out"
+     },
+     {
+      "he": "מִשְׂתַּכֵּר",
+      "en": "he gains"
+     },
+     {
+      "he": "בַּהֲלִיכָתוֹ",
+      "en": "in his walking"
+     },
+     {
+      "he": "וּמִשְׂתַּכֵּר",
+      "en": "and he gains"
+     },
+     {
+      "he": "בְּעֵרוּבוֹ.",
+      "en": "in his eiruv"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱכַל בָּרִאשׁוֹן,",
+    "en": "If it was eaten on the first day,",
+    "st": "However, if the eiruv <b>was eaten on</b> the <b>first</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱכַל",
+      "en": "it was eaten"
+     },
+     {
+      "he": "בָּרִאשׁוֹן,",
+      "en": "on the first"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבוֹ לָרִאשׁוֹן וְאֵינוֹ עֵרוּב לַשֵּׁנִי.",
+    "en": "his eiruv counts for the first day, and not for the second.",
+    "st": "<b>his eiruv</b> is effective <b>for</b> the <b>first</b> day, <b>and his eiruv is not</b> effective <b>for the second</b> day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבוֹ",
+      "en": "his eiruv"
+     },
+     {
+      "he": "לָרִאשׁוֹן",
+      "en": "for the first"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it is not"
+     },
+     {
+      "he": "עֵרוּב",
+      "en": "an eiruv"
+     },
+     {
+      "he": "לַשֵּׁנִי.",
+      "en": "for the second"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said to them,",
+    "st": "<b>Rabbi Eliezer said to them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "מוֹדִים אַתֶּם לִי שֶׁהֵן שְׁתֵּי קְדֻשּׁוֹת:",
+    "en": "you agree with me that they are two separate holy days.",
+    "explain": "So two eiruvin should work too.",
+    "st": "If so, <b>you agree with me that</b> Shabbat and a Festival <b>constitute two</b> distinct <b>sanctities,</b> as if not, the eiruv that went into effect during the twilight period on the eve of the first day should have remained in effect for both days, even if it was eaten during the first day. This being the case, you should also agree with me that one can make two separate eiruvin for the two days in two different directions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹדִים",
+      "en": "agree"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "לִי",
+      "en": "with me"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they are"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "קְדֻשּׁוֹת:",
+      "en": "holinesses"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "Long ago, people did not always know if Rosh Hashanah would be one day or two. Rabbi Yehudah says a person could make a different eiruv for each day, but the Sages did not agree.",
+  "stIntro": "During the time period when the Jewish calendar was established by the court according to the testimony of witnesses who had seen the new moon, Rosh HaShana would be observed for only one day if witnesses arrived on that day, and for two days if witnesses failed to arrive and the month of Elul was declared to be an extended, thirty-day month.",
+  "chunks": [
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "רֹאשׁ הַשָּׁנָה,",
+    "en": "on Rosh Hashanah,",
+    "st": "With regard to <b>Rosh HaShana,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "הַשָּׁנָה,",
+      "en": "the year"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָיָה יָרֵא שֶׁמָּא תִּתְעַבֵּר,",
+    "en": "if a person was afraid that the month would be made longer,",
+    "st": "if <b>one feared that</b> the month of Elul <b>might be extended,</b>",
+    "stMore": "and he wanted to travel in two different directions on the two days that could be Rosh HaShana,",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that he was"
+     },
+     {
+      "he": "יָרֵא",
+      "en": "afraid"
+     },
+     {
+      "he": "שֶׁמָּא",
+      "en": "maybe"
+     },
+     {
+      "he": "תִּתְעַבֵּר,",
+      "en": "it would be made longer"
+     }
+    ]
+   },
+   {
+    "he": "מְעָרֵב אָדָם שְׁנֵי עֵרוּבִין וְאוֹמֵר,",
+    "en": "a person may make two eiruvin and say,",
+    "st": "this <b>person may establish two eiruvin and say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעָרֵב",
+      "en": "he makes an eiruv"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "עֵרוּבִין",
+      "en": "eiruvin"
+     },
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and says"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי בָרִאשׁוֹן לַמִּזְרָח וּבַשֵּׁנִי לַמַּעֲרָב,",
+    "en": "My eiruv on the first day is to the east, and on the second to the west,",
+    "st": "<b>My eiruv on the first</b> day shall be <b>to the east and on the second</b> day <b>to the west,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "בָרִאשׁוֹן",
+      "en": "on the first"
+     },
+     {
+      "he": "לַמִּזְרָח",
+      "en": "to the east"
+     },
+     {
+      "he": "וּבַשֵּׁנִי",
+      "en": "and on the second"
+     },
+     {
+      "he": "לַמַּעֲרָב,",
+      "en": "to the west"
+     }
+    ]
+   },
+   {
+    "he": "בָּרִאשׁוֹן לַמַּעֲרָב וּבַשֵּׁנִי לַמִּזְרָח.",
+    "en": "or on the first to the west, and on the second to the east.",
+    "st": "or alternatively: <b>On the first</b> day it shall be <b>to the west, and on the second</b> day <b>to the east.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּרִאשׁוֹן",
+      "en": "on the first"
+     },
+     {
+      "he": "לַמַּעֲרָב",
+      "en": "to the west"
+     },
+     {
+      "he": "וּבַשֵּׁנִי",
+      "en": "and on the second"
+     },
+     {
+      "he": "לַמִּזְרָח.",
+      "en": "to the east"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי בָּרִאשׁוֹן,",
+    "en": "Or: My eiruv is for the first day,",
+    "st": "Similarly, he may say: <b>My eiruv</b> shall apply <b>on the first</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "בָּרִאשׁוֹן,",
+      "en": "on the first"
+     }
+    ]
+   },
+   {
+    "he": "וּבַשֵּׁנִי כִּבְנֵי עִירִי.",
+    "en": "and on the second I am like the people of my town.",
+    "st": "<b>but on the second</b> day I shall be <b>like</b> the rest of <b>the inhabitants of my town,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַשֵּׁנִי",
+      "en": "and on the second"
+     },
+     {
+      "he": "כִּבְנֵי",
+      "en": "like the people of"
+     },
+     {
+      "he": "עִירִי.",
+      "en": "my town"
+     }
+    ]
+   },
+   {
+    "he": "עֵרוּבִי בַּשֵּׁנִי,",
+    "en": "Or: My eiruv is for the second day,",
+    "st": "or alternatively: <b>My eiruv</b> shall apply <b>on the second</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵרוּבִי",
+      "en": "my eiruv"
+     },
+     {
+      "he": "בַּשֵּׁנִי,",
+      "en": "on the second"
+     }
+    ]
+   },
+   {
+    "he": "וּבָרִאשׁוֹן כִּבְנֵי עִירִי.",
+    "en": "and on the first I am like the people of my town.",
+    "st": "<b>but on the first</b> day I shall be <b>like</b> the rest of <b>the inhabitants of my town.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָרִאשׁוֹן",
+      "en": "and on the first"
+     },
+     {
+      "he": "כִּבְנֵי",
+      "en": "like the people of"
+     },
+     {
+      "he": "עִירִי.",
+      "en": "my town"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הוֹדוּ לוֹ חֲכָמִים:",
+    "en": "And the Sages did not agree with him.",
+    "st": "<b>And the Rabbis did not agree with him</b> that the two days of Rosh HaShana can be divided in such a manner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "agreed"
+     },
+     {
+      "he": "לוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "חֲכָמִים:",
+      "en": "the Sages"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "Rabbi Yehudah teaches two more things about the two days of Rosh Hashanah: taking maaser from a basket of food with a condition, and an egg laid on the first day. The Sages did not agree.",
+  "chunks": [
+   {
+    "he": "וְעוֹד אָמַר רַבִּי יְהוּדָה,",
+    "en": "And Rabbi Yehudah also said,",
+    "st": "<b>And Rabbi Yehuda said further,</b>",
+    "stMore": "with regard to the two days of Rosh HaShana that one observes because he does not know which is the real day of the Festival:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹד",
+      "en": "and also"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "מַתְנֶה אָדָם עַל הַכַּלְכָּלָה בְּיוֹם",
+    "en": "a person may make a condition on a basket of food on the first day",
+    "explain": "He takes off maaser with a condition, so it counts on the day that is a weekday.",
+    "st": "<b>A person may make a condition</b> with regard to <b>a basket</b> of tevel produce <b>on the first day of the Festival</b>",
+    "stMore": "and say as follows: If today is the Festival and tomorrow is an ordinary weekday I will separate the teruma and tithes tomorrow, and I have performed nothing today; if today is an ordinary weekday, I hereby separate the appropriate teruma and tithes now.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַתְנֶה",
+      "en": "makes a condition"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַכַּלְכָּלָה",
+      "en": "the basket"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on day of"
+     }
+    ]
+   },
+   {
+    "he": "טוֹב רִאשׁוֹן וְאוֹכְלָהּ בַּשֵּׁנִי.",
+    "en": "of Yom Tov, and eat it on the second day.",
+    "st": "<b>He may</b> then <b>eat</b> the produce <b>on the second</b> day of the Festival,",
+    "stMore": "since one of his two acts of tithing was certainly performed on an ordinary weekday.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טוֹב",
+      "en": "Yom Tov"
+     },
+     {
+      "he": "רִאשׁוֹן",
+      "en": "first"
+     },
+     {
+      "he": "וְאוֹכְלָהּ",
+      "en": "and eats it"
+     },
+     {
+      "he": "בַּשֵּׁנִי.",
+      "en": "on the second"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן בֵּיצָה שֶׁנּוֹלְדָה בָרִאשׁוֹן,",
+    "en": "And also an egg that was laid on the first day",
+    "st": "<b>And similarly, an egg that was laid on the first</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and also"
+     },
+     {
+      "he": "בֵּיצָה",
+      "en": "an egg"
+     },
+     {
+      "he": "שֶׁנּוֹלְדָה",
+      "en": "that was born"
+     },
+     {
+      "he": "בָרִאשׁוֹן,",
+      "en": "on the first"
+     }
+    ]
+   },
+   {
+    "he": "תֵּאָכֵל בַּשֵּׁנִי.",
+    "en": "may be eaten on the second day.",
+    "st": "day of the Festival <b>may be eaten on the second</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּאָכֵל",
+      "en": "may be eaten"
+     },
+     {
+      "he": "בַּשֵּׁנִי.",
+      "en": "on the second"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הוֹדוּ לוֹ חֲכָמִים:",
+    "en": "And the Sages did not agree with him.",
+    "st": "since one of the days is certainly an ordinary weekday. <b>And the Rabbis did not agree with him</b> even with regard to these two days.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "agreed"
+     },
+     {
+      "he": "לוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "חֲכָמִים:",
+      "en": "the Sages"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 9,
+  "summary": "Rabbi Dosa says the chazzan on Rosh Hashanah should daven \"today or tomorrow,\" since we are not sure which day is the real one. The Sages did not agree.",
+  "chunks": [
+   {
+    "he": "רַבִּי דוֹסָא בֶן הַרְכִּינָס אוֹמֵר,",
+    "en": "Rabbi Dosa ben Harkinas says,",
+    "st": "<b>Rabbi Dosa ben Harekinas says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "הַרְכִּינָס",
+      "en": "Harkinas"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹבֵר לִפְנֵי הַתֵּבָה בְּיוֹם טוֹב",
+    "en": "the chazzan on Yom Tov",
+    "st": "<b>One who passes before the ark</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹבֵר",
+      "en": "the one who passes"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "הַתֵּבָה",
+      "en": "the ark"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on Yom"
+     },
+     {
+      "he": "טוֹב",
+      "en": "Tov"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל רֹאשׁ הַשָּׁנָה אוֹמֵר,",
+    "en": "of Rosh Hashanah says,",
+    "st": "in the synagogue and leads the congregation in prayer <b>on</b> the first day of <b>the festival of Rosh HaShana says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "the year"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַחֲלִיצֵנוּ ה' אֱלֹהֵינוּ אֶת",
+    "en": "Strengthen us, Hashem our G-d,",
+    "st": "<b>Strengthen us, O Lord our God,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחֲלִיצֵנוּ",
+      "en": "strengthen us"
+     },
+     {
+      "he": "ה'",
+      "en": "Hashem"
+     },
+     {
+      "he": "אֱלֹהֵינוּ",
+      "en": "our G-d"
+     },
+     {
+      "he": "אֶת",
+      "en": "(on)"
+     }
+    ]
+   },
+   {
+    "he": "יוֹם רֹאשׁ חֹדֶשׁ הַזֶּה,",
+    "en": "on this day of Rosh Chodesh,",
+    "st": "<b>on this day of the New Moon,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹם",
+      "en": "day of"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "the month"
+     },
+     {
+      "he": "הַזֶּה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "אִם הַיּוֹם,",
+    "en": "whether it is today,",
+    "st": "<b>whether</b> it is <b>today</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "whether"
+     },
+     {
+      "he": "הַיּוֹם,",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "אִם לְמָחָר.",
+    "en": "or tomorrow.",
+    "st": "<b>or tomorrow.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "whether"
+     },
+     {
+      "he": "לְמָחָר.",
+      "en": "tomorrow"
+     }
+    ]
+   },
+   {
+    "he": "וּלְמָחָר הוּא אוֹמֵר,",
+    "en": "And the next day he says,",
+    "st": "<b>And</b> similarly, <b>on the following day he says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְמָחָר",
+      "en": "and tomorrow"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם הַיּוֹם,",
+    "en": "whether it is today,",
+    "st": "<b>Whether</b> Rosh HaShana is <b>today</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "whether"
+     },
+     {
+      "he": "הַיּוֹם,",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "אִם אֶמֶשׁ.",
+    "en": "or yesterday.",
+    "st": "<b>or yesterday.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "whether"
+     },
+     {
+      "he": "אֶמֶשׁ.",
+      "en": "last night"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הוֹדוּ לוֹ חֲכָמִים:",
+    "en": "And the Sages did not agree with him.",
+    "st": "<b>And the Rabbis did not agree with him</b> that one should formulate his prayer in this conditional manner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "agreed"
+     },
+     {
+      "he": "לוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "חֲכָמִים:",
+      "en": "the Sages"
+     }
+    ]
+   }
+  ]
+ }
+]

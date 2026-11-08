@@ -80,7 +80,7 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
       {translated ? (
         <>
           <div className="toggles" dir="ltr">
-            <ViewToggle view={view} onChange={onView} allowHide hidden={hideMeaning} onHide={setHideMeaning} />
+            <ViewToggle view={view} onChange={onView} allowHide hidden={hideMeaning} onHide={setHideMeaning} steinsaltz={ms.steinsaltz} />
           </div>
           <p className="hint" dir="ltr">Tap any word to see what it means, then tap another word or use Next.</p>
         </>
@@ -137,7 +137,7 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
           <div className="sheet source-sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
             <h3>About this text</h3>
             <p>The Hebrew text is Torat Emet, from Sefaria. This masechta doesn't have meanings in the app yet, so it shows only the Hebrew.</p>
-            <a className="btn secondary" href={sefariaUrl(ms.en, perek, mishnah)} target="_blank" rel="noreferrer">Open on Sefaria</a>
+            <a className="btn secondary" href={sefariaUrl(ms.sefaria, perek, mishnah)} target="_blank" rel="noreferrer">Open on Sefaria</a>
             <LicensesLink />
             <button className="btn ghost-btn" onClick={() => setAbout(false)}>Close</button>
           </div>

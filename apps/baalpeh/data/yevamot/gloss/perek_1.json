@@ -1,0 +1,1809 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "When a man dies with no children, his brother usually does yibum or chalitzah with the widow. This mishnah lists fifteen close relatives of the brother who are free from this, and their co-wives are free too.",
+  "chunks": [
+   {
+    "he": "חֲמֵשׁ עֶשְׂרֵה נָשִׁים פּוֹטְרוֹת צָרוֹתֵיהֶן",
+    "en": "Fifteen women free their co-wives",
+    "st": "<b>Fifteen</b> categories of <b>women</b> constitute familial relations that are forbidden as incestuous, and consequently, these women <b>exempt their rival wives</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲמֵשׁ",
+      "en": "fifteen"
+     },
+     {
+      "he": "עֶשְׂרֵה",
+      "en": "(fifteen)"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "פּוֹטְרוֹת",
+      "en": "free"
+     },
+     {
+      "he": "צָרוֹתֵיהֶן",
+      "en": "their co-wives",
+      "note": "A co-wife (tzarah) is another wife married to the same husband."
+     }
+    ]
+   },
+   {
+    "he": "וְצָרוֹת צָרוֹתֵיהֶן",
+    "en": "and the co-wives of their co-wives",
+    "st": "<b>and the rival wives of their rival wives</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְצָרוֹת",
+      "en": "and the co-wives of"
+     },
+     {
+      "he": "צָרוֹתֵיהֶן",
+      "en": "their co-wives"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַחֲלִיצָה וּמִן הַיִּבּוּם",
+    "en": "from chalitzah and from yibum",
+    "st": "<b>from ḥalitza and from levirate marriage</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחֲלִיצָה",
+      "en": "the chalitzah",
+      "note": "A ceremony that frees a widow from yibum."
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַיִּבּוּם",
+      "en": "the yibum",
+      "note": "When a man dies with no children, his brother marries the widow."
+     }
+    ]
+   },
+   {
+    "he": "עַד סוֹף הָעוֹלָם.",
+    "en": "forever, all the way down the line.",
+    "st": "<b>forever,</b> i.e., they also exempt rival wives of rival wives of rival wives, and so on.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "סוֹף",
+      "en": "the end of"
+     },
+     {
+      "he": "הָעוֹלָם.",
+      "en": "the world"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ הֵן,",
+    "en": "And these are the women:",
+    "st": "<b>And these</b> women <b>are:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "הֵן,",
+      "en": "are"
+     }
+    ]
+   },
+   {
+    "he": "בִּתּוֹ, וּבַת בִּתּוֹ,",
+    "en": "his daughter, and his daughter's daughter,",
+    "st": "<b>The daughter</b> of the yavam, i.e., the deceased brother had married a daughter of his brother, which means that when he died childless, his brother’s own daughter came before her father for levirate marriage, and therefore she is exempt. <b>And</b> the same applies if the deceased brother’s widow is <b>the daughter of</b> the <b>daughter of</b> the yavam,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּתּוֹ,",
+      "en": "his daughter"
+     },
+     {
+      "he": "וּבַת",
+      "en": "and the daughter of"
+     },
+     {
+      "he": "בִּתּוֹ,",
+      "en": "his daughter"
+     }
+    ]
+   },
+   {
+    "he": "וּבַת בְּנוֹ,",
+    "en": "and his son's daughter,",
+    "st": "<b>or</b> if she is <b>the daughter of his son,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַת",
+      "en": "and the daughter of"
+     },
+     {
+      "he": "בְּנוֹ,",
+      "en": "his son"
+     }
+    ]
+   },
+   {
+    "he": "בַּת אִשְׁתּוֹ,",
+    "en": "his wife's daughter,",
+    "st": "or <b>the daughter of</b> his <b>wife.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּת",
+      "en": "the daughter of"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וּבַת בְּנָהּ,",
+    "en": "and his wife's son's daughter,",
+    "st": "<b>And</b> similarly, if the yevama is <b>the daughter of</b> the <b>son</b> of the wife of her yavam",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַת",
+      "en": "and the daughter of"
+     },
+     {
+      "he": "בְּנָהּ,",
+      "en": "her son"
+     }
+    ]
+   },
+   {
+    "he": "וּבַת בִּתָּהּ,",
+    "en": "and his wife's daughter's daughter,",
+    "st": "<b>or the daughter of</b> his wife’s <b>daughter,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַת",
+      "en": "and the daughter of"
+     },
+     {
+      "he": "בִּתָּהּ,",
+      "en": "her daughter"
+     }
+    ]
+   },
+   {
+    "he": "חֲמוֹתוֹ וְאֵם חֲמוֹתוֹ,",
+    "en": "his mother-in-law, and his mother-in-law's mother,",
+    "st": "<b>or</b> if she is the <b>mother-in-law</b> of her yavam, <b>or his mother-in-law’s mother,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲמוֹתוֹ",
+      "en": "his mother-in-law"
+     },
+     {
+      "he": "וְאֵם",
+      "en": "and the mother of"
+     },
+     {
+      "he": "חֲמוֹתוֹ,",
+      "en": "his mother-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵם חָמִיו,",
+    "en": "and his father-in-law's mother,",
+    "st": "<b>or his father-in-law’s mother,</b> then she is exempt from ḥalitza and levirate marriage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵם",
+      "en": "and the mother of"
+     },
+     {
+      "he": "חָמִיו,",
+      "en": "his father-in-law"
+     }
+    ]
+   },
+   {
+    "he": "אֲחוֹתוֹ מֵאִמּוֹ,",
+    "en": "his sister from his mother,",
+    "st": "The mishna continues its list of close relatives. If the yevama is the <b>maternal</b> half <b>sister</b> of the yavam,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲחוֹתוֹ",
+      "en": "his sister"
+     },
+     {
+      "he": "מֵאִמּוֹ,",
+      "en": "from his mother"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחוֹת אִמּוֹ,",
+    "en": "and his mother's sister,",
+    "st": "<b>or</b> if she is the <b>sister of his mother, or</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחוֹת",
+      "en": "and the sister of"
+     },
+     {
+      "he": "אִמּוֹ,",
+      "en": "his mother"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחוֹת אִשְׁתּוֹ,",
+    "en": "and his wife's sister,",
+    "st": "<b>his wife’s sister,</b> then she is exempt from both ḥalitza and levirate marriage",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחוֹת",
+      "en": "and the sister of"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵשֶׁת אָחִיו מֵאִמּוֹ,",
+    "en": "and the wife of his brother from his mother,",
+    "st": "<b>Or</b> if she was <b>the wife of his maternal</b> half <b>brother,</b> and after this brother died or divorced his wife, she married another of his father’s brothers, who was not her relative, and this brother died, she is exempt.",
+    "stMore": "In this case, the obligation to enter into levirate marriage should be incurred by the surviving brother, but since she was previously the wife of his maternal brother, she is exempt.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "מֵאִמּוֹ,",
+      "en": "from his mother"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵשֶׁת אָחִיו שֶׁלֹּא הָיָה בְעוֹלָמוֹ,",
+    "en": "and the wife of a brother who was not yet born when he lived,",
+    "explain": "The second brother was born only after the first one died.",
+    "st": "<b>And</b> the same applies to the <b>wife of a brother with whom he did not coexist,</b> i.e., the wife of a man who died before his brother was born.",
+    "stMore": "As will be explained, the obligation of levirate marriage does not apply to the yavam in this case. Since levirate marriage does not apply to him, the yevama remains forbidden to him as his brother’s wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "בְעוֹלָמוֹ,",
+      "en": "in his lifetime"
+     }
+    ]
+   },
+   {
+    "he": "וְכַלָּתוֹ,",
+    "en": "and his daughter-in-law.",
+    "st": "<b>And</b> the last case is if one’s yevama had previously been <b>his daughter-in-law,</b> and after his son had died one’s brother married her, before he too passed away.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַלָּתוֹ,",
+      "en": "and his daughter-in-law"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פּוֹטְרוֹת צָרוֹתֵיהֶן",
+    "en": "These free their co-wives",
+    "st": "<b>These</b> fifteen women <b>exempt their rival wives</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "these"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "(are)"
+     },
+     {
+      "he": "פּוֹטְרוֹת",
+      "en": "free"
+     },
+     {
+      "he": "צָרוֹתֵיהֶן",
+      "en": "their co-wives"
+     }
+    ]
+   },
+   {
+    "he": "וְצָרוֹת צָרוֹתֵיהֶן",
+    "en": "and the co-wives of their co-wives",
+    "st": "<b>and the rival wives of their rival wives</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְצָרוֹת",
+      "en": "and the co-wives of"
+     },
+     {
+      "he": "צָרוֹתֵיהֶן",
+      "en": "their co-wives"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַחֲלִיצָה וּמִן הַיִּבּוּם",
+    "en": "from chalitzah and from yibum",
+    "st": "<b>from ḥalitza and levirate marriage</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחֲלִיצָה",
+      "en": "the chalitzah"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַיִּבּוּם",
+      "en": "the yibum"
+     }
+    ]
+   },
+   {
+    "he": "עַד סוֹף הָעוֹלָם.",
+    "en": "forever.",
+    "st": "<b>forever.</b> §",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "סוֹף",
+      "en": "the end of"
+     },
+     {
+      "he": "הָעוֹלָם.",
+      "en": "the world"
+     }
+    ]
+   },
+   {
+    "he": "וְכֻלָּן אִם מֵתוּ,",
+    "en": "But if any of them died,",
+    "explain": "She died before her husband did.",
+    "st": "<b>And</b> with regard to <b>all of these</b> women listed as prohibited relations, these halakhot apply only if they were married to the deceased brother until the time of his death. However, this is not the case <b>if they died</b> during the deceased brother’s lifetime,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֻלָּן",
+      "en": "and all of them"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מֵתוּ,",
+      "en": "they died"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מֵאֲנוּ,",
+    "en": "or did mi'un,",
+    "st": "<b>or</b> if <b>they refused</b> their husbands when they were minors.",
+    "stMore": "This refusal is referring to the decree of the Sages that a girl under the age of twelve whose father is no longer alive may be married off by her mother or brothers. However, this marriage is not final, as she can terminate it by performing an act of refusal, i.e., by declaring, while still a minor, that she does not desire this marriage. In this case, the marriage is annulled retroactively and she is considered as though she were never married at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מֵאֲנוּ,",
+      "en": "refused",
+      "note": "Mi'un: a young girl married off by her mother or brothers may say no to the marriage and end it."
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִתְגָּרְשׁוּ,",
+    "en": "or were divorced,",
+    "st": "<b>Or</b> if those women <b>were divorced</b> by their husband, the deceased brother,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִתְגָּרְשׁוּ,",
+      "en": "were divorced"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁנִּמְצְאוּ אַיְלוֹנִיּוֹת,",
+    "en": "or turned out to be an aylonis,",
+    "st": "<b>or were found to be a sexually underdeveloped woman [aylonit],</b> i.e., a woman who is so underdeveloped that she is not considered a woman in the full sense, these halakhot do not apply.",
+    "stMore": "Her marriage is considered a mistaken marriage and is null and void.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁנִּמְצְאוּ",
+      "en": "that were found"
+     },
+     {
+      "he": "אַיְלוֹנִיּוֹת,",
+      "en": "aylonis",
+      "note": "A woman who cannot have children; her marriage was a mistake."
+     }
+    ]
+   },
+   {
+    "he": "צָרוֹתֵיהֶן מֻתָּרוֹת.",
+    "en": "then their co-wives are allowed.",
+    "st": "In all these cases <b>their rival wives are permitted,</b> as the exemption for rival wives of forbidden relatives applies only when the forbidden relative was the brother’s wife at the time of his death, when the halakhot of levirate marriage came into effect. §",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צָרוֹתֵיהֶן",
+      "en": "their co-wives"
+     },
+     {
+      "he": "מֻתָּרוֹת.",
+      "en": "are allowed"
+     }
+    ]
+   },
+   {
+    "he": "וְאִי אַתָּה יָכוֹל לוֹמַר",
+    "en": "And you cannot say",
+    "st": "<b>And</b> the mishna comments that the language of this principle is imprecise, as <b>you cannot say with regard to</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִי",
+      "en": "and not"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "are able"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "בַּחֲמוֹתוֹ וּבְאֵם חֲמוֹתוֹ וּבְאֵם חָמִיו",
+    "en": "about his mother-in-law, her mother, or his father-in-law's mother",
+    "st": "<b>his mother-in-law and with regard to his mother-in-law’s mother and with regard to his father-in-law’s mother</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחֲמוֹתוֹ",
+      "en": "about his mother-in-law"
+     },
+     {
+      "he": "וּבְאֵם",
+      "en": "and about the mother of"
+     },
+     {
+      "he": "חֲמוֹתוֹ",
+      "en": "his mother-in-law"
+     },
+     {
+      "he": "וּבְאֵם",
+      "en": "and about the mother of"
+     },
+     {
+      "he": "חָמִיו",
+      "en": "his father-in-law"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנִּמְצְאוּ אַיְלוֹנִיּוֹת",
+    "en": "that they turned out to be an aylonis,",
+    "explain": "She has children, so she cannot be an aylonis.",
+    "st": "<b>that they were found to be an aylonit,</b> as an aylonit is sterile and therefore cannot become a mother or a mother-in-law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנִּמְצְאוּ",
+      "en": "that were found"
+     },
+     {
+      "he": "אַיְלוֹנִיּוֹת",
+      "en": "aylonis"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶּׁמֵּאֵנוּ:",
+    "en": "or that they did mi'un.",
+    "explain": "Mi'un is only for young girls, who could not be a mother.",
+    "st": "<b>Nor</b> is the mishna precise when it states: <b>Or refused,</b> as refusal applies only to minors, who cannot give birth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶּׁמֵּאֵנוּ:",
+      "en": "that refused"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "This mishnah shows how a forbidden relative frees her co-wife, and even the co-wife's co-wife. But if the relative died or was divorced first, her co-wife is not freed.",
+  "chunks": [
+   {
+    "he": "כֵּיצַד פּוֹטְרוֹת צָרוֹתֵיהֶן.",
+    "en": "How do they free their co-wives?",
+    "st": "The mishna explains: <b>How do</b> these women <b>exempt their rival wives?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "פּוֹטְרוֹת",
+      "en": "do they free"
+     },
+     {
+      "he": "צָרוֹתֵיהֶן.",
+      "en": "their co-wives"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה בִּתּוֹ אוֹ אַחַת מִכָּל",
+    "en": "If his daughter, or any one of",
+    "st": "If, for example, <b>his daughter or any one of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "בִּתּוֹ",
+      "en": "his daughter"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מִכָּל",
+      "en": "of all"
+     }
+    ]
+   },
+   {
+    "he": "הָעֲרָיוֹת הָאֵלּוּ נְשׂוּאָה לְאָחִיו,",
+    "en": "these forbidden relatives, was married to his brother,",
+    "st": "<b>those</b> women <b>with whom relations are forbidden was married to his brother</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֲרָיוֹת",
+      "en": "the forbidden relatives",
+      "note": "Women a man may not marry because they are close family."
+     },
+     {
+      "he": "הָאֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "נְשׂוּאָה",
+      "en": "married"
+     },
+     {
+      "he": "לְאָחִיו,",
+      "en": "to his brother"
+     }
+    ]
+   },
+   {
+    "he": "וְלוֹ אִשָּׁה אַחֶרֶת,",
+    "en": "and he had another wife,",
+    "st": "<b>and</b> this brother <b>had another wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלוֹ",
+      "en": "and he had"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a wife"
+     },
+     {
+      "he": "אַחֶרֶת,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "וָמֵת, כְּשֵׁם שֶׁבִּתּוֹ פְּטוּרָה,",
+    "en": "and he died, just as his daughter is free,",
+    "st": "<b>and</b> the brother <b>died,</b> then <b>just as his daughter is exempt</b> from levirate marriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וָמֵת,",
+      "en": "and he died"
+     },
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁבִּתּוֹ",
+      "en": "that his daughter"
+     },
+     {
+      "he": "פְּטוּרָה,",
+      "en": "is free"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ צָרָתָהּ פְּטוּרָה.",
+    "en": "so her co-wife is free.",
+    "st": "<b>so too her rival wife is exempt.</b> If",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "צָרָתָהּ",
+      "en": "her co-wife"
+     },
+     {
+      "he": "פְּטוּרָה.",
+      "en": "is free"
+     }
+    ]
+   },
+   {
+    "he": "הָלְכָה צָרַת בִּתּוֹ וְנִשֵּׂאת לְאָחִיו הַשֵּׁנִי,",
+    "en": "If his daughter's co-wife went and married his second brother,",
+    "st": "<b>his daughter’s rival wife</b> subsequently <b>went and married his second brother,</b> to whom she is permitted,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָלְכָה",
+      "en": "went"
+     },
+     {
+      "he": "צָרַת",
+      "en": "the co-wife of"
+     },
+     {
+      "he": "בִּתּוֹ",
+      "en": "his daughter"
+     },
+     {
+      "he": "וְנִשֵּׂאת",
+      "en": "and married"
+     },
+     {
+      "he": "לְאָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "הַשֵּׁנִי,",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "וְלוֹ אִשָּׁה אַחֶרֶת,",
+    "en": "and he had another wife,",
+    "st": "<b>and he had another wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלוֹ",
+      "en": "and he had"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a wife"
+     },
+     {
+      "he": "אַחֶרֶת,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "וָמֵת, כְּשֵׁם שֶׁצָּרַת בִּתּוֹ פְּטוּרָה,",
+    "en": "and he died, just as his daughter's co-wife is free,",
+    "st": "<b>and he died</b> childless as well, which means that his wife comes before the first yavam, the daughter’s father, for levirate marriage, then <b>just as his daughter’s rival wife is exempt,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וָמֵת,",
+      "en": "and he died"
+     },
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁצָּרַת",
+      "en": "that the co-wife of"
+     },
+     {
+      "he": "בִּתּוֹ",
+      "en": "his daughter"
+     },
+     {
+      "he": "פְּטוּרָה,",
+      "en": "is free"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ צָרַת צָרָתָהּ פְּטוּרָה,",
+    "en": "so her co-wife's co-wife is free,",
+    "st": "<b>so too the rival wife of her rival wife is exempt.</b> The mishna adds:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "צָרַת",
+      "en": "the co-wife of"
+     },
+     {
+      "he": "צָרָתָהּ",
+      "en": "her co-wife"
+     },
+     {
+      "he": "פְּטוּרָה,",
+      "en": "is free"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ הֵן מֵאָה.",
+    "en": "even if there are a hundred of them.",
+    "st": "<b>Even if they are one hundred</b> brothers, the same logic applies.",
+    "stMore": "If a woman is exempt from levirate marriage because she is the rival wife of a forbidden relative or the rival wife of a rival wife of this kind, and she herself has an additional rival wife, this rival wife is also exempt and in turn exempts her own rival wives from levirate marriage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "הֵן",
+      "en": "they are"
+     },
+     {
+      "he": "מֵאָה.",
+      "en": "a hundred"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד אִם מֵתוּ צָרוֹתֵיהֶן מֻתָּרוֹת,",
+    "en": "How is it that if they died, their co-wives are allowed?",
+    "st": "<b>How so?</b> What are the cases in which <b>if they died their rival wives are permitted?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מֵתוּ",
+      "en": "they died"
+     },
+     {
+      "he": "צָרוֹתֵיהֶן",
+      "en": "their co-wives"
+     },
+     {
+      "he": "מֻתָּרוֹת,",
+      "en": "are allowed"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה בִתּוֹ אוֹ אַחַת מִכָּל",
+    "en": "If his daughter, or any one of",
+    "st": "If, for example, <b>one’s daughter or any one of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "בִתּוֹ",
+      "en": "his daughter"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מִכָּל",
+      "en": "of all"
+     }
+    ]
+   },
+   {
+    "he": "הָעֲרָיוֹת הָאֵלּוּ נְשׂוּאָה לְאָחִיו,",
+    "en": "these forbidden relatives, was married to his brother,",
+    "st": "<b>those</b> women <b>with whom relations are forbidden was married to his brother, and</b> this brother",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֲרָיוֹת",
+      "en": "the forbidden relatives"
+     },
+     {
+      "he": "הָאֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "נְשׂוּאָה",
+      "en": "married"
+     },
+     {
+      "he": "לְאָחִיו,",
+      "en": "to his brother"
+     }
+    ]
+   },
+   {
+    "he": "וְלוֹ אִשָּׁה אַחֶרֶת,",
+    "en": "and he had another wife,",
+    "st": "<b>had another wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלוֹ",
+      "en": "and he had"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a wife"
+     },
+     {
+      "he": "אַחֶרֶת,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "מֵתָה בִתּוֹ אוֹ נִתְגָּרְשָׁה,",
+    "en": "and his daughter died or was divorced,",
+    "st": "and then <b>his daughter died or was divorced</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵתָה",
+      "en": "died"
+     },
+     {
+      "he": "בִתּוֹ",
+      "en": "his daughter"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִתְגָּרְשָׁה,",
+      "en": "was divorced"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ מֵת אָחִיו,",
+    "en": "and after that his brother died,",
+    "st": "<b>and afterward his brother died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אָחִיו,",
+      "en": "his brother"
+     }
+    ]
+   },
+   {
+    "he": "צָרָתָהּ מֻתֶּרֶת.",
+    "en": "her co-wife is allowed.",
+    "st": "<b>her rival wife is permitted</b> to him. §",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צָרָתָהּ",
+      "en": "her co-wife"
+     },
+     {
+      "he": "מֻתֶּרֶת.",
+      "en": "is allowed"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַיְכוֹלָה לְמָאֵן וְלֹא מֵאֲנָה,",
+    "en": "And any girl who could do mi'un but did not,",
+    "explain": "Her marriage was only from the Rabbis, not fully from the Torah.",
+    "st": "The mishna states another principle: <b>And</b> if <b>any</b> of these forbidden relatives was a minor <b>who could refuse</b> her husband, then even if <b>she did not refuse,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and any"
+     },
+     {
+      "he": "הַיְכוֹלָה",
+      "en": "who could"
+     },
+     {
+      "he": "לְמָאֵן",
+      "en": "do mi'un"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מֵאֲנָה,",
+      "en": "did mi'un"
+     }
+    ]
+   },
+   {
+    "he": "צָרָתָהּ חוֹלֶצֶת וְלֹא מִתְיַבֶּמֶת:",
+    "en": "her co-wife does chalitzah, but not yibum.",
+    "st": "<b>her rival wife performs ḥalitza and does not enter into levirate marriage.</b>",
+    "stMore": "The rival wife may not enter into levirate marriage, as she is the rival wife of a forbidden relative. However, she is not entirely exempt from levirate marriage and must be released by ḥalitza because the marriage of the forbidden relative was not a fully valid marriage, and therefore, by Torah law, the other woman is not considered a rival wife of a forbidden relative.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צָרָתָהּ",
+      "en": "her co-wife"
+     },
+     {
+      "he": "חוֹלֶצֶת",
+      "en": "does chalitzah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִתְיַבֶּמֶת:",
+      "en": "does yibum"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "Six relatives are forbidden even more strictly, because they can never marry any of the brothers. So yibum does not apply at all, and their co-wives are allowed.",
+  "chunks": [
+   {
+    "he": "שֵׁשׁ עֲרָיוֹת חֲמוּרוֹת מֵאֵלּוּ,",
+    "en": "Six forbidden relatives are stricter than these,",
+    "st": "<b>Six</b> women <b>with whom relations are forbidden</b> who were not enumerated in the first mishna <b>are</b> forbidden by prohibitions that are <b>more severe than those</b> listed in that mishna",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֵׁשׁ",
+      "en": "six"
+     },
+     {
+      "he": "עֲרָיוֹת",
+      "en": "forbidden relatives"
+     },
+     {
+      "he": "חֲמוּרוֹת",
+      "en": "stricter"
+     },
+     {
+      "he": "מֵאֵלּוּ,",
+      "en": "than these"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁנְּשׂוּאוֹת לַאֲחֵרִים,",
+    "en": "because they are married to others,",
+    "explain": "They are never married to a brother, so yibum never applies.",
+    "st": "<b>because they may be married</b> only <b>to others</b> and may never be married to any of the brothers, due to the closeness of their relationship.",
+    "stMore": "However, this stringency entails a corresponding leniency: Since the halakha of levirate marriage is entirely inapplicable in these cases,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁנְּשׂוּאוֹת",
+      "en": "that they are married"
+     },
+     {
+      "he": "לַאֲחֵרִים,",
+      "en": "to others"
+     }
+    ]
+   },
+   {
+    "he": "צָרוֹתֵיהֶן מֻתָּרוֹת.",
+    "en": "so their co-wives are allowed.",
+    "st": "<b>their rival wives are permitted.</b>",
+    "stMore": "The rival wife of a forbidden relative is forbidden herself only if the mitzva of levirate marriage is applicable, but where it is not in effect she is permitted. The six women with whom relations are forbidden are as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צָרוֹתֵיהֶן",
+      "en": "their co-wives"
+     },
+     {
+      "he": "מֻתָּרוֹת.",
+      "en": "are allowed"
+     }
+    ]
+   },
+   {
+    "he": "אִמּוֹ, וְאֵשֶׁת אָבִיו,",
+    "en": "His mother, and his father's wife,",
+    "st": "<b>His mother, and his father’s wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִמּוֹ,",
+      "en": "his mother"
+     },
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחוֹת אָבִיו,",
+    "en": "and his father's sister,",
+    "st": "<b>and his father’s sister,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחוֹת",
+      "en": "and the sister of"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "אֲחוֹתוֹ מֵאָבִיו,",
+    "en": "his sister from his father,",
+    "st": "<b>and his paternal</b> half <b>sister,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲחוֹתוֹ",
+      "en": "his sister"
+     },
+     {
+      "he": "מֵאָבִיו,",
+      "en": "from his father"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵשֶׁת אֲחִי אָבִיו,",
+    "en": "and the wife of his father's brother,",
+    "st": "<b>and the wife of his father’s brother,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אֲחִי",
+      "en": "the brother of"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵשֶׁת אָחִיו מֵאָבִיו:",
+    "en": "and the wife of his brother from his father.",
+    "st": "<b>and the wife of his paternal</b> half <b>brother.</b>",
+    "stMore": "Each of these women with whom relations are forbidden is forbidden equally to all of the brothers, and the mitzva of levirate marriage is inapplicable. Therefore, her rival wife is permitted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "מֵאָבִיו:",
+      "en": "from his father"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Beis Shammai and Beis Hillel argue whether these co-wives may marry the brothers. Even so, the two groups still married into each other's families and trusted each other's purity.",
+  "stIntro": "Up to this point, the discussions were based on the assumption that not only may a forbidden relative not enter into levirate marriage, but her rival wife is also exempt. However, this issue is subject to a long-standing dispute.",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי מַתִּירִין הַצָּרוֹת לָאַחִים,",
+    "en": "Beis Shammai allow the co-wives to the brothers,",
+    "explain": "Beis Shammai say the co-wife of a forbidden relative may do yibum.",
+    "st": "<b>Beit Shammai permit the rival wives to the brothers,</b> as they did not accept the interpretation of the verses that indicates that rival wives are prohibited.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "מַתִּירִין",
+      "en": "allow"
+     },
+     {
+      "he": "הַצָּרוֹת",
+      "en": "the co-wives"
+     },
+     {
+      "he": "לָאַחִים,",
+      "en": "to the brothers"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹסְרִים.",
+    "en": "and Beis Hillel forbid them.",
+    "st": "<b>And Beit Hillel forbid</b> them. The previous mishnayot are in accordance with the opinion of Beit Hillel.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹסְרִים.",
+      "en": "forbid"
+     }
+    ]
+   },
+   {
+    "he": "חָלְצוּ, בֵּית שַׁמַּאי פּוֹסְלִין מִן הַכְּהֻנָּה,",
+    "en": "If they did chalitzah, Beis Shammai make them unfit to marry a Kohen,",
+    "explain": "A woman who did chalitzah may not marry a Kohen.",
+    "st": "If any of the rival wives of the brother <b>performed ḥalitza, Beit Shammai disqualify</b> her <b>from</b> marrying into <b>the priesthood,</b> as in their opinion these rival wives were fit for levirate marriage, which means that the ḥalitza was fully valid.",
+    "stMore": "Consequently, they are disqualified from marrying a priest, like all other women who perform ḥalitza.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָלְצוּ,",
+      "en": "they did chalitzah"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "פּוֹסְלִין",
+      "en": "make unfit"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּהֻנָּה,",
+      "en": "the Kehunah",
+      "note": "Being married to a Kohen."
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַכְשִׁירִים.",
+    "en": "and Beis Hillel say they are fit.",
+    "st": "<b>And Beit Hillel deem</b> them <b>fit,</b> as they maintain that no legal act of ḥalitza was performed here at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַכְשִׁירִים.",
+      "en": "say they are fit"
+     }
+    ]
+   },
+   {
+    "he": "נִתְיַבְּמוּ, בֵּית שַׁמַּאי מַכְשִׁירִים,",
+    "en": "If they did yibum, Beis Shammai say they are fit,",
+    "st": "If <b>they entered into levirate marriage, Beit Shammai deem</b> them <b>fit</b> for the priesthood, as in their opinion, this is a fully legal levirate marriage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְיַבְּמוּ,",
+      "en": "they did yibum"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "מַכְשִׁירִים,",
+      "en": "say they are fit"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל פּוֹסְלִין.",
+    "en": "and Beis Hillel make them unfit.",
+    "st": "<b>And Beit Hillel disqualify them,</b> because they engaged in licentious sexual relations as the rival wives of a forbidden relative.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "פּוֹסְלִין.",
+      "en": "make unfit"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵלּוּ",
+    "en": "Even though these",
+    "st": "§ The mishna comments: <b>Although</b> Beit Hillel",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "(though)"
+     },
+     {
+      "he": "פִּי",
+      "en": "though"
+     },
+     {
+      "he": "שֶׁאֵלּוּ",
+      "en": "that these"
+     }
+    ]
+   },
+   {
+    "he": "אוֹסְרִין וְאֵלּוּ מַתִּירִין,",
+    "en": "forbid and these allow,",
+    "st": "<b>prohibit</b> the rival wives to the brothers <b>and</b> Beit Shammai <b>permit</b> them, and although",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹסְרִין",
+      "en": "forbid"
+     },
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "מַתִּירִין,",
+      "en": "allow"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ פּוֹסְלִין וְאֵלּוּ מַכְשִׁירִין,",
+    "en": "these make unfit and these say fit,",
+    "st": "<b>these disqualify</b> these women <b>and those deem</b> them <b>fit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "פּוֹסְלִין",
+      "en": "make unfit"
+     },
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "מַכְשִׁירִין,",
+      "en": "say fit"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נִמְנְעוּ בֵּית שַׁמַּאי",
+    "en": "Beis Shammai did not stop",
+    "st": "<b>Beit Shammai did not refrain</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נִמְנְעוּ",
+      "en": "stopped"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "מִלִּשָּׂא נָשִׁים מִבֵּית הִלֵּל,",
+    "en": "marrying women from Beis Hillel,",
+    "st": "<b>from marrying women from Beit Hillel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִלִּשָּׂא",
+      "en": "from marrying"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "מִבֵּית",
+      "en": "from Beis"
+     },
+     {
+      "he": "הִלֵּל,",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בֵית הִלֵּל מִבֵּית שַׁמַּאי.",
+    "en": "and Beis Hillel did not stop marrying women from Beis Shammai.",
+    "st": "<b>nor did Beit Hillel</b> refrain from marrying women <b>from Beit Shammai.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מִבֵּית",
+      "en": "from Beis"
+     },
+     {
+      "he": "שַׁמַּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַטָּהֳרוֹת וְהַטֻּמְאוֹת שֶׁהָיוּ",
+    "en": "And in all the questions of tahor and tamei,",
+    "st": "Furthermore, with regard to <b>all of the</b> disputes concerning the halakhot of <b>ritual purity and impurity, where these</b> rule that an article is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַטָּהֳרוֹת",
+      "en": "the taharos",
+      "note": "Things that are tahor, pure."
+     },
+     {
+      "he": "וְהַטֻּמְאוֹת",
+      "en": "and the tumos",
+      "note": "Things that are tamei, impure."
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that were"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ מְטַהֲרִין וְאֵלּוּ מְטַמְּאִין,",
+    "en": "where these said tahor and these said tamei,",
+    "st": "<b>ritually pure and those</b> rule it <b>ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "מְטַהֲרִין",
+      "en": "say tahor"
+     },
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "מְטַמְּאִין,",
+      "en": "say tamei"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נִמְנְעוּ עוֹשִׂין טָהֳרוֹת",
+    "en": "they did not stop handling pure things",
+    "st": "<b>they did not refrain from handling ritually pure</b> objects",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נִמְנְעוּ",
+      "en": "they stopped"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "doing"
+     },
+     {
+      "he": "טָהֳרוֹת",
+      "en": "pure things"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ עַל גַּבֵּי אֵלּוּ:",
+    "en": "with each other.",
+    "explain": "They trusted each other's dishes and food.",
+    "st": "<b>each with the other,</b> as Beit Shammai and Beit Hillel frequently used each other’s vessels.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "עַל",
+      "en": "upon"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "(with)"
+     },
+     {
+      "he": "אֵלּוּ:",
+      "en": "these"
+     }
+    ]
+   }
+  ]
+ }
+]

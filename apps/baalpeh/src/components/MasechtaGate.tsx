@@ -9,15 +9,22 @@ export interface ActiveMasechta {
   shape: MasechtaShape;
   /** "פאה" */
   he: string;
-  /** "Peah" (Sefaria's name) */
+  /** "Peah" */
   en: string;
+  /** Sefaria's book name, "Mishnah_Peah" (links are built from it). */
+  sefaria: string;
   /** False for a Hebrew-only masechta: no meanings, word glosses, Steinsaltz or summaries. */
   translated: boolean;
+  /** Whether its meanings include Steinsaltz's text (false for Hebrew-only and Bartenura-only masechtos). */
+  steinsaltz: boolean;
 }
 
 export function activeMasechtaOf(id: string): ActiveMasechta {
   const e = entryOf(id);
-  return { id, shape: shapeOf(id), he: e?.he ?? "", en: e?.en ?? id, translated: e?.translated ?? false };
+  return {
+    id, shape: shapeOf(id), he: e?.he ?? "", en: e?.en ?? id, sefaria: e?.sefaria ?? `Mishnah_${id}`,
+    translated: e?.translated ?? false, steinsaltz: e?.sources.includes("steinsaltz") ?? false,
+  };
 }
 
 const Ctx = createContext<ActiveMasechta | null>(null);

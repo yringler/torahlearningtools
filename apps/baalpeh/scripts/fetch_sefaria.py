@@ -57,6 +57,9 @@ def main():
     keep = "--keep" in sys.argv[2:]
     index = get_json(f"https://www.sefaria.org/api/v2/raw/index/{m['sefaria']}")
     perakim, total = index["schema"]["lengths"][:2]
+    if m.get("perakim"):
+        # The catalog ships fewer perakim than Sefaria's index lists (Bikkurim's perek 4 isn't in Torat Emet).
+        perakim, total = m["perakim"], None
     versions = {"he": catalog.CATALOG["hebrew"]["version"], **{s: catalog.SOURCES[s]["version"] for s in m["sources"]}}
     out = catalog.raw_dir(m["id"])
     out.mkdir(parents=True, exist_ok=True)
@@ -71,7 +74,7 @@ def main():
             path.write_text(json.dumps(data, ensure_ascii=False, indent=1))
         count += len(data["he"])
         print(m["id"], perek, {k: len(x) for k, x in data.items()})
-    if count != total:
+    if total is not None and count != total:
         raise SystemExit(f"{m['id']}: fetched {count} mishnayos but Sefaria's index says {total}")
     print(f"{m['id']}: {perakim} perakim, {count} mishnayos")
 

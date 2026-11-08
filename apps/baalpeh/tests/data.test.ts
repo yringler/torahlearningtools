@@ -14,8 +14,10 @@ const built = (file: string): Masechta => JSON.parse(readFileSync(publicDir + fi
 /** data/catalog.json, the pipeline's source of truth that src/data/index.json is built from. */
 const source = read("../data/catalog.json") as {
   sedarim: { id: string; he: string; en: string }[];
-  masechtos: { id: string; seder: string; sefaria: string; he: string; en: string; sources: string[] }[];
+  masechtos: { id: string; seder: string; sefaria: string; he: string; en: string; sources: string[]; glossPending?: boolean }[];
 };
+/** The sources a masechta ships with: none while its gloss is pending (build_data.py builds it Hebrew only). */
+const shipped = (m: (typeof source.masechtos)[number]): string[] => (m.glossPending ? [] : m.sources);
 
 describe("data catalog", () => {
   it("has unique masechta and seder ids", () => {
@@ -24,11 +26,26 @@ describe("data catalog", () => {
     expect(new Set(SEDARIM.map((s) => s.id)).size).toBe(SEDARIM.length);
   });
 
-  it("matches data/catalog.json: order, seder, names and whether it is translated", () => {
-    expect(CATALOG.map((e) => [e.id, e.seder, e.he, e.en, e.translated])).toEqual(
-      source.masechtos.map((m) => [m.id, m.seder, m.he, m.en, m.sources.length > 0]),
+  it("matches data/catalog.json: order, seder, names, Sefaria book and sources", () => {
+    expect(CATALOG.map((e) => [e.id, e.seder, e.he, e.en, e.sefaria, e.translated, e.sources])).toEqual(
+      source.masechtos.map((m) => [m.id, m.seder, m.he, m.en, m.sefaria, shipped(m).length > 0, shipped(m)]),
     );
-    for (const m of source.masechtos) expect(m.sefaria).toBe(`Mishnah_${m.en}`);
+    for (const m of source.masechtos) expect(m.sefaria).toMatch(/^(Mishnah_[A-Z][A-Za-z_']+|Pirkei_Avot)$/);
+  });
+
+  it("covers the whole Mishnah: six sedarim, 63 masechtos", () => {
+    expect(SEDARIM.map((s) => s.id)).toEqual(["zeraim", "moed", "nashim", "nezikin", "kodashim", "tahorot"]);
+    expect(CATALOG.length).toBe(63);
+    expect(entryOf("avot")?.sefaria).toBe("Pirkei_Avot");
+  });
+
+  it("gives Steinsaltz excerpts only to masechtos that list Steinsaltz", () => {
+    for (const e of CATALOG.filter((x) => x.translated && !x.sources.includes("steinsaltz"))) {
+      for (const m of built(e.file).mishnayos) {
+        expect(m.stIntro).toBeUndefined();
+        for (const c of m.chunks) expect([c.st, c.stMore]).toEqual([undefined, undefined]);
+      }
+    }
   });
 
   it("puts every masechta in a seder", () => {

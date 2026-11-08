@@ -1,0 +1,2311 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "There are four \"New Years\" in the Jewish year, and each one is used for counting something different: kings and Yamim Tovim, maaser of animals, years, and trees.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אַרְבָּעָה רָאשֵׁי שָׁנִים הֵם.",
+    "en": "There are four New Years.",
+    "st": "<b>They are four</b> days in the year that serve as the <b>New Year,</b> each for a different purpose:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "רָאשֵׁי",
+      "en": "heads of"
+     },
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     },
+     {
+      "he": "הֵם.",
+      "en": "they are"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֶחָד בְּנִיסָן רֹאשׁ הַשָּׁנָה לַמְּלָכִים וְלָרְגָלִים.",
+    "en": "On the first of Nisan is the New Year for kings and for the Yamim Tovim.",
+    "st": "<b>On the first of Nisan is the New Year for kings;</b> it is from this date that the years of a king’s rule are counted. <b>And</b> the first of Nisan is also the New Year <b>for</b> the order of <b>the Festivals,</b>",
+    "stMore": "as it determines which is considered the first Festival of the year and which the last.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֶחָד",
+      "en": "on the first"
+     },
+     {
+      "he": "בְּנִיסָן",
+      "en": "of Nisan"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "the year"
+     },
+     {
+      "he": "לַמְּלָכִים",
+      "en": "for kings",
+      "note": "The years of a king's rule are counted from Nisan."
+     },
+     {
+      "he": "וְלָרְגָלִים.",
+      "en": "and for the Yamim Tovim",
+      "note": "Nisan decides which Yom Tov is first in the year."
+     }
+    ]
+   },
+   {
+    "he": "בְּאֶחָד בֶּאֱלוּל רֹאשׁ הַשָּׁנָה לְמַעְשַׂר בְּהֵמָה.",
+    "en": "On the first of Elul is the New Year for maaser of animals.",
+    "explain": "Animals born before this day are counted with last year's animals.",
+    "st": "<b>On the first of Elul is the New Year for animal tithes;</b>",
+    "stMore": "all the animals born prior to that date belong to the previous tithe year and are tithed as a single unit, whereas those born after that date belong to the next tithe year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֶחָד",
+      "en": "on the first"
+     },
+     {
+      "he": "בֶּאֱלוּל",
+      "en": "of Elul"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "the year"
+     },
+     {
+      "he": "לְמַעְשַׂר",
+      "en": "for the maaser",
+      "note": "A tenth part, set aside for Hashem."
+     },
+     {
+      "he": "בְּהֵמָה.",
+      "en": "of animals"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֶלְעָזָר וְרַבִּי שִׁמְעוֹן אוֹמְרִים,",
+    "en": "Rabbi Elazar and Rabbi Shimon say,",
+    "st": "<b>Rabbi Elazar and Rabbi Shimon say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֶחָד בְּתִשְׁרֵי.",
+    "en": "it is on the first of Tishrei.",
+    "st": "The New Year for animal tithes is <b>on the first of Tishrei. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֶחָד",
+      "en": "on the first"
+     },
+     {
+      "he": "בְּתִשְׁרֵי.",
+      "en": "of Tishrei"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֶחָד בְּתִשְׁרֵי רֹאשׁ הַשָּׁנָה",
+    "en": "On the first of Tishrei is the New Year",
+    "st": "<b>On the first of Tishrei is the New Year for</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֶחָד",
+      "en": "on the first"
+     },
+     {
+      "he": "בְּתִשְׁרֵי",
+      "en": "of Tishrei"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "the year"
+     }
+    ]
+   },
+   {
+    "he": "לַשָּׁנִים וְלַשְּׁמִטִּין וְלַיּוֹבְלוֹת,",
+    "en": "for counting years, for Shemittah years, and for Yovel years,",
+    "st": "counting <b>years,</b> as will be explained in the Gemara; <b>for</b> calculating <b>Sabbatical Years and Jubilee Years,</b>",
+    "stMore": "i.e., from the first of Tishrei there is a biblical prohibition to work the land during these years;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַשָּׁנִים",
+      "en": "for the years"
+     },
+     {
+      "he": "וְלַשְּׁמִטִּין",
+      "en": "and for the Shemittah years",
+      "note": "Every seventh year, when we do not work the land."
+     },
+     {
+      "he": "וְלַיּוֹבְלוֹת,",
+      "en": "and for the Yovel years",
+      "note": "The fiftieth year."
+     }
+    ]
+   },
+   {
+    "he": "לַנְּטִיעָה וְלַיְרָקוֹת.",
+    "en": "for planting, and for vegetables.",
+    "st": "<b>for planting,</b> for determining the years of orla, the three-year period from when a tree has been planted during which time its fruit is forbidden; <b>and for</b> tithing <b>vegetables,</b>",
+    "stMore": "as vegetables picked prior to that date cannot be tithed together with vegetables picked after that date.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַנְּטִיעָה",
+      "en": "for planting",
+      "note": "To count the first three years of a new tree, when its fruit is forbidden (orlah)."
+     },
+     {
+      "he": "וְלַיְרָקוֹת.",
+      "en": "and for vegetables",
+      "note": "For taking maaser from vegetables."
+     }
+    ]
+   },
+   {
+    "he": "בְּאֶחָד בִּשְׁבָט,",
+    "en": "On the first of Shevat",
+    "st": "<b>On the first of Shevat </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֶחָד",
+      "en": "on the first"
+     },
+     {
+      "he": "בִּשְׁבָט,",
+      "en": "of Shevat"
+     }
+    ]
+   },
+   {
+    "he": "רֹאשׁ הַשָּׁנָה לָאִילָן,",
+    "en": "is the New Year for trees.",
+    "st": "<b>is the New Year for the tree;</b>",
+    "stMore": "the fruit of a tree that was formed prior to that date belong to the previous tithe year and cannot be tithed together with fruit that was formed after that date;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "the year"
+     },
+     {
+      "he": "לָאִילָן,",
+      "en": "for the tree",
+      "note": "For taking maaser from the fruit of trees."
+     }
+    ]
+   },
+   {
+    "he": "כְּדִבְרֵי בֵית שַׁמַּאי.",
+    "en": "That is what Beis Shammai say.",
+    "st": "this ruling is <b>in accordance with the statement of Beit Shammai.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית הִלֵּל אוֹמְרִים,",
+    "en": "But Beis Hillel say,",
+    "st": "But <b>Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בַּחֲמִשָּׁה עָשָׂר בּוֹ:",
+    "en": "it is on the fifteenth of Shevat.",
+    "st": "The New Year for trees is <b>on the fifteenth of</b> Shevat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחֲמִשָּׁה",
+      "en": "on the fifteenth",
+      "note": "Tu BiShvat."
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "(fifteen)"
+     },
+     {
+      "he": "בּוֹ:",
+      "en": "of it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "Hashem judges the world at four times of the year. On Rosh Hashanah, every person in the world passes before Him to be judged.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בְּאַרְבָּעָה פְרָקִים הָעוֹלָם נִדּוֹן,",
+    "en": "The world is judged at four times of the year.",
+    "st": "<b>At four times</b> of the year <b>the world is judged: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאַרְבָּעָה",
+      "en": "at four"
+     },
+     {
+      "he": "פְרָקִים",
+      "en": "times"
+     },
+     {
+      "he": "הָעוֹלָם",
+      "en": "the world"
+     },
+     {
+      "he": "נִדּוֹן,",
+      "en": "is judged"
+     }
+    ]
+   },
+   {
+    "he": "בְּפֶסַח עַל הַתְּבוּאָה,",
+    "en": "On Pesach, about grain.",
+    "st": "<b>On Passover</b> judgment is passed <b>concerning grain; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּפֶסַח",
+      "en": "on Pesach"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַתְּבוּאָה,",
+      "en": "the grain"
+     }
+    ]
+   },
+   {
+    "he": "בַּעֲצֶרֶת עַל פֵּרוֹת הָאִילָן,",
+    "en": "On Shavuos, about fruit of the trees.",
+    "st": "<b>on Shavuot concerning fruits</b> that grow on <b>a tree; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעֲצֶרֶת",
+      "en": "on Shavuos",
+      "note": "Atzeres is another name for Shavuos."
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruits of"
+     },
+     {
+      "he": "הָאִילָן,",
+      "en": "the tree"
+     }
+    ]
+   },
+   {
+    "he": "בְּרֹאשׁ הַשָּׁנָה כָּל בָּאֵי הָעוֹלָם",
+    "en": "On Rosh Hashanah, all the people of the world",
+    "st": "<b>on Rosh HaShana, all creatures </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּרֹאשׁ",
+      "en": "on Rosh"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "Hashanah"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "בָּאֵי",
+      "en": "who come into"
+     },
+     {
+      "he": "הָעוֹלָם",
+      "en": "the world"
+     }
+    ]
+   },
+   {
+    "he": "עוֹבְרִין לְפָנָיו כִּבְנֵי מָרוֹן,",
+    "en": "pass before Hashem like sheep, one by one,",
+    "st": "<b>pass before Him like sheep [benei maron], </b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "\"One by one\" is how Bartenura explains it.",
+    "words": [
+     {
+      "he": "עוֹבְרִין",
+      "en": "pass"
+     },
+     {
+      "he": "לְפָנָיו",
+      "en": "before Him"
+     },
+     {
+      "he": "כִּבְנֵי",
+      "en": "like"
+     },
+     {
+      "he": "מָרוֹן,",
+      "en": "sheep",
+      "note": "Sheep that walk one at a time through a narrow gate to be counted."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (תהלים לג) הַיּוֹצֵר יַחַד לִבָּם,",
+    "en": "as it says in Tehillim: \"He forms all their hearts together,",
+    "st": "<b>as it is stated: “He Who fashions their hearts alike, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(תהלים",
+      "en": "(Tehillim"
+     },
+     {
+      "he": "לג)",
+      "en": "33)"
+     },
+     {
+      "he": "הַיּוֹצֵר",
+      "en": "He who forms"
+     },
+     {
+      "he": "יַחַד",
+      "en": "together"
+     },
+     {
+      "he": "לִבָּם,",
+      "en": "their hearts"
+     }
+    ]
+   },
+   {
+    "he": "הַמֵּבִין אֶל כָּל מַעֲשֵׂיהֶם.",
+    "en": "He understands all that they do.\"",
+    "st": "<b>Who considers all their deeds”</b> (Psalms 33:15);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמֵּבִין",
+      "en": "who understands"
+     },
+     {
+      "he": "אֶל",
+      "en": "to"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "מַעֲשֵׂיהֶם.",
+      "en": "their deeds"
+     }
+    ]
+   },
+   {
+    "he": "וּבֶחָג נִדּוֹנִין עַל הַמָּיִם:",
+    "en": "And on Sukkos they are judged about water.",
+    "st": "<b>and on the festival</b> of Sukkot <b>they are judged concerning water,</b> i.e., the rainfall of the coming year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֶחָג",
+      "en": "and on the Yom Tov",
+      "note": "Sukkos."
+     },
+     {
+      "he": "נִדּוֹנִין",
+      "en": "they are judged"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַמָּיִם:",
+      "en": "the water",
+      "note": "The rain of the coming year."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "The Beis Din in Yerushalayim decided which day was Rosh Chodesh. In six months they sent messengers far away to tell people, so they would keep the Yamim Tovim on the right day.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עַל שִׁשָּׁה חֳדָשִׁים הַשְּׁלוּחִין יוֹצְאִין,",
+    "en": "The messengers go out for six months:",
+    "explain": "To tell everyone which day was Rosh Chodesh.",
+    "st": "<b>In six months</b> of the year <b>the messengers go out</b>",
+    "stMore": "from the court in Jerusalem to report throughout Eretz Yisrael and the Diaspora which day was established as the New Moon, the thirtieth or the thirty-first day since the previous New Moon.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "שִׁשָּׁה",
+      "en": "six"
+     },
+     {
+      "he": "חֳדָשִׁים",
+      "en": "months"
+     },
+     {
+      "he": "הַשְּׁלוּחִין",
+      "en": "the messengers"
+     },
+     {
+      "he": "יוֹצְאִין,",
+      "en": "go out"
+     }
+    ]
+   },
+   {
+    "he": "עַל נִיסָן מִפְּנֵי הַפֶּסַח,",
+    "en": "for Nisan, because of Pesach;",
+    "st": "They go out <b>in</b> the month of <b>Nisan, due to Passover,</b>",
+    "stMore": "so that people will know on which day to celebrate it;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "נִיסָן",
+      "en": "Nisan"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "הַפֶּסַח,",
+      "en": "Pesach"
+     }
+    ]
+   },
+   {
+    "he": "עַל אָב מִפְּנֵי הַתַּעֲנִית,",
+    "en": "for Av, because of the fast;",
+    "st": "<b>in</b> the month of <b>Av, due to the fast</b> of the Ninth of Av;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "אָב",
+      "en": "Av"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "הַתַּעֲנִית,",
+      "en": "the fast",
+      "note": "Tisha B'Av."
+     }
+    ]
+   },
+   {
+    "he": "עַל אֱלוּל מִפְּנֵי רֹאשׁ הַשָּׁנָה,",
+    "en": "for Elul, because of Rosh Hashanah;",
+    "st": "<b>in Elul, due to Rosh HaShana,</b>",
+    "stMore": "which begins thirty days after the New Moon of Elul;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "אֱלוּל",
+      "en": "Elul"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "Rosh"
+     },
+     {
+      "he": "הַשָּׁנָה,",
+      "en": "Hashanah"
+     }
+    ]
+   },
+   {
+    "he": "עַל תִּשְׁרֵי מִפְּנֵי תַקָּנַת הַמּוֹעֲדוֹת,",
+    "en": "for Tishrei, to set the right days for the Yamim Tovim;",
+    "st": "<b>in Tishrei, due to the</b> need to establish the <b>correct</b> dates on which to celebrate <b>the Festivals</b> of Tishrei, i.e., Yom Kippur and Sukkot;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "תִּשְׁרֵי",
+      "en": "Tishrei"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "תַקָּנַת",
+      "en": "setting right"
+     },
+     {
+      "he": "הַמּוֹעֲדוֹת,",
+      "en": "the Yamim Tovim",
+      "note": "Yom Kippur and Sukkos."
+     }
+    ]
+   },
+   {
+    "he": "עַל כִּסְלֵו מִפְּנֵי חֲנֻכָּה,",
+    "en": "for Kislev, because of Chanukah;",
+    "st": "<b>in Kislev, due to Hanukkah; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כִּסְלֵו",
+      "en": "Kislev"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "חֲנֻכָּה,",
+      "en": "Chanukah"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֲדָר מִפְּנֵי הַפּוּרִים.",
+    "en": "and for Adar, because of Purim.",
+    "st": "<b>and in Adar, due to Purim. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "אֲדָר",
+      "en": "Adar"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "הַפּוּרִים.",
+      "en": "Purim"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁהָיָה בֵית הַמִּקְדָּשׁ קַיָּם,",
+    "en": "And when the Beis HaMikdash was standing,",
+    "st": "<b>And when the Temple was standing,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁהָיָה",
+      "en": "and when it was"
+     },
+     {
+      "he": "בֵית",
+      "en": "the House of"
+     },
+     {
+      "he": "הַמִּקְדָּשׁ",
+      "en": "the Mikdash"
+     },
+     {
+      "he": "קַיָּם,",
+      "en": "standing"
+     }
+    ]
+   },
+   {
+    "he": "יוֹצְאִין אַף עַל אִיָּר",
+    "en": "they also went out for Iyar,",
+    "st": "messengers <b>would also go out in</b> the month of <b>Iyyar </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצְאִין",
+      "en": "they went out"
+     },
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "אִיָּר",
+      "en": "Iyar"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי פֶסַח קָטָן:",
+    "en": "because of Pesach Sheni, the \"small Pesach.\"",
+    "st": "<b>due to small Passover,</b>",
+    "stMore": "i.e., second Pesaḥ, which occurs on the fourteenth of Iyyar. This holiday allowed those who were ritually impure or on a distant journey on the fourteenth of Nisan, and therefore incapable of bringing the Paschal lamb at that time, to bring their Paschal lamb a month later.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "פֶסַח",
+      "en": "Pesach"
+     },
+     {
+      "he": "קָטָן:",
+      "en": "small",
+      "note": "Pesach Sheni, on the fourteenth of Iyar."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Witnesses who saw the new moon may break Shabbos to come tell the Beis Din, but only for Nisan and Tishrei. When the Beis HaMikdash stood, they did so for every month.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עַל שְׁנֵי חֳדָשִׁים מְחַלְּלִין אֶת הַשַּׁבָּת,",
+    "en": "For two months, witnesses may break Shabbos:",
+    "explain": "To travel and tell Beis Din they saw the new moon.",
+    "st": "Only <b>for</b> the sake of <b>two months may</b> witnesses who saw the new moon <b>desecrate Shabbat,</b>",
+    "stMore": "should that be necessary in order for them to offer testimony before the court:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "חֳדָשִׁים",
+      "en": "months"
+     },
+     {
+      "he": "מְחַלְּלִין",
+      "en": "they break",
+      "note": "Do work that is usually not allowed."
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "עַל נִיסָן וְעַל תִּשְׁרֵי,",
+    "en": "for Nisan and for Tishrei,",
+    "st": "<b>For</b> the month of <b>Nisan and for</b> the month of <b>Tishrei, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "נִיסָן",
+      "en": "Nisan"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "תִּשְׁרֵי,",
+      "en": "Tishrei"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבָּהֶן הַשְּׁלוּחִין יוֹצְאִין לְסוּרְיָא,",
+    "en": "because in these months the messengers go out to Syria,",
+    "st": "<b>for in these</b> months <b>messengers are sent out to Syria, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבָּהֶן",
+      "en": "because in them"
+     },
+     {
+      "he": "הַשְּׁלוּחִין",
+      "en": "the messengers"
+     },
+     {
+      "he": "יוֹצְאִין",
+      "en": "go out"
+     },
+     {
+      "he": "לְסוּרְיָא,",
+      "en": "to Syria"
+     }
+    ]
+   },
+   {
+    "he": "וּבָהֶן מְתַקְּנִין אֶת הַמּוֹעֲדוֹת.",
+    "en": "and by them the Yamim Tovim are set.",
+    "st": "<b>and by them,</b> i.e., these months, the dates of <b>the</b> major <b>Festivals are set:</b> Yom Kippur, Sukkot, Passover, and Shavuot.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָהֶן",
+      "en": "and by them"
+     },
+     {
+      "he": "מְתַקְּנִין",
+      "en": "they set"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמּוֹעֲדוֹת.",
+      "en": "the Yamim Tovim"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁהָיָה בֵית הַמִּקְדָּשׁ קַיָּם,",
+    "en": "And when the Beis HaMikdash was standing,",
+    "st": "<b>And when the Temple was standing,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁהָיָה",
+      "en": "and when it was"
+     },
+     {
+      "he": "בֵית",
+      "en": "the House of"
+     },
+     {
+      "he": "הַמִּקְדָּשׁ",
+      "en": "the Mikdash"
+     },
+     {
+      "he": "קַיָּם,",
+      "en": "standing"
+     }
+    ]
+   },
+   {
+    "he": "מְחַלְּלִין אַף עַל כֻּלָּן",
+    "en": "they broke Shabbos for all the months,",
+    "st": "the witnesses <b>desecrated</b> Shabbat <b>for</b> the fixing of the New Moon of <b>all</b> the months,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְחַלְּלִין",
+      "en": "they break Shabbos"
+     },
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כֻּלָּן",
+      "en": "all of them"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי תַקָּנַת הַקָּרְבָּן:",
+    "en": "so the korban of Rosh Chodesh would be brought at the right time.",
+    "st": "<b>due to</b> the imperative of <b>fixing</b> the proper <b>offering</b> of the New Moon at the correct time.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "תַקָּנַת",
+      "en": "setting right"
+     },
+     {
+      "he": "הַקָּרְבָּן:",
+      "en": "the korban",
+      "note": "The special korban brought on Rosh Chodesh."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "May witnesses break Shabbos to report the new moon even if everyone could see it clearly? The Tanna Kamma says yes; Rabbi Yosei says no.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּין שֶׁנִּרְאָה בַעֲלִיל בֵּין",
+    "en": "Whether the new moon was seen clearly",
+    "st": "<b>Whether</b> the new moon <b>was seen clearly [ba’alil]</b> by everyone",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "שֶׁנִּרְאָה",
+      "en": "it was seen"
+     },
+     {
+      "he": "בַעֲלִיל",
+      "en": "clearly"
+     },
+     {
+      "he": "בֵּין",
+      "en": "or"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא נִרְאָה בַעֲלִיל,",
+    "en": "or it was not seen clearly,",
+    "st": "<b>or whether it was not clearly seen, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִרְאָה",
+      "en": "it was seen"
+     },
+     {
+      "he": "בַעֲלִיל,",
+      "en": "clearly"
+     }
+    ]
+   },
+   {
+    "he": "מְחַלְּלִין עָלָיו אֶת הַשַּׁבָּת,",
+    "en": "witnesses may break Shabbos for it.",
+    "st": "<b>one may desecrate Shabbat</b> in order to testify before the court.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְחַלְּלִין",
+      "en": "they break"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says,",
+    "st": "<b>Rabbi Yosei says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם נִרְאָה בַעֲלִיל,",
+    "en": "If it was seen clearly,",
+    "st": "<b>If</b> the moon <b>was clearly seen, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נִרְאָה",
+      "en": "it was seen"
+     },
+     {
+      "he": "בַעֲלִיל,",
+      "en": "clearly"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְחַלְּלִין עָלָיו אֶת הַשַּׁבָּת:",
+    "en": "they may not break Shabbos for it.",
+    "explain": "Other witnesses, closer to Yerushalayim, surely saw it too.",
+    "st": "<b>they may not desecrate Shabbat for it,</b>",
+    "stMore": "since other witnesses, located nearer to the court, will certainly testify. If these distant witnesses go to court to testify, they will desecrate Shabbat unnecessarily.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְחַלְּלִין",
+      "en": "they break"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת:",
+      "en": "Shabbos"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "Rabbi Akiva once stopped many witnesses from breaking Shabbos to travel. Rabban Gamliel told him that this might make people stop coming when they are needed.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מַעֲשֶׂה שֶׁעָבְרוּ יוֹתֵר מֵאַרְבָּעִים זוּג,",
+    "en": "Once, more than forty pairs of witnesses were passing by,",
+    "st": "There was once <b>an incident where more than forty pairs</b> of witnesses <b>were passing</b>",
+    "stMore": "through on their way to Jerusalem to testify about the new moon,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story",
+      "note": "Something that really happened."
+     },
+     {
+      "he": "שֶׁעָבְרוּ",
+      "en": "that passed"
+     },
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "מֵאַרְבָּעִים",
+      "en": "than forty"
+     },
+     {
+      "he": "זוּג,",
+      "en": "pairs"
+     }
+    ]
+   },
+   {
+    "he": "וְעִכְּבָן רַבִּי עֲקִיבָא בְלוּד.",
+    "en": "and Rabbi Akiva held them back in Lod.",
+    "explain": "He told them they did not need to break Shabbos.",
+    "st": "<b>and Rabbi Akiva detained them in Lod,</b>",
+    "stMore": "telling them that there was no need for them to desecrate Shabbat for this purpose.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעִכְּבָן",
+      "en": "and held them back"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "בְלוּד.",
+      "en": "in Lod",
+      "note": "A city in Eretz Yisrael."
+     }
+    ]
+   },
+   {
+    "he": "שָׁלַח לוֹ רַבָּן גַּמְלִיאֵל,",
+    "en": "Rabban Gamliel sent a message to him:",
+    "st": "<b>Rabban Gamliel sent</b> a message <b>to him: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלַח",
+      "en": "sent"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "אִם מְעַכֵּב אַתָּה אֶת הָרַבִּים,",
+    "en": "\"If you hold back the many people,",
+    "st": "<b>If you detain the many</b>",
+    "stMore": "people who wish to testify about the new moon,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מְעַכֵּב",
+      "en": "hold back"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרַבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצֵאתָ מַכְשִׁילָן לֶעָתִיד לָבֹא:",
+    "en": "you will make them stumble in the future.\"",
+    "explain": "Next time they may not come, even when they are needed.",
+    "st": "<b>you will cause them to stumble in the future.</b>",
+    "stMore": "They will say: Why should we go, seeing that our testimony is unnecessary? At some point they will be needed, and no witnesses will come to the court.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצֵאתָ",
+      "en": "you will be found"
+     },
+     {
+      "he": "מַכְשִׁילָן",
+      "en": "making them stumble"
+     },
+     {
+      "he": "לֶעָתִיד",
+      "en": "in the time"
+     },
+     {
+      "he": "לָבֹא:",
+      "en": "to come"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "Can a father and son be witnesses together for the new moon? This mishnah brings two opinions, and a story about Toviyah the doctor.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָב וּבְנוֹ שֶׁרָאוּ אֶת הַחֹדֶשׁ,",
+    "en": "If a father and his son saw the new moon,",
+    "st": "If <b>a father and his son saw the new</b> moon,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָב",
+      "en": "a father"
+     },
+     {
+      "he": "וּבְנוֹ",
+      "en": "and his son"
+     },
+     {
+      "he": "שֶׁרָאוּ",
+      "en": "who saw"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחֹדֶשׁ,",
+      "en": "the new moon"
+     }
+    ]
+   },
+   {
+    "he": "יֵלְכוּ. לֹא שֶׁמִּצְטָרְפִין זֶה עִם זֶה,",
+    "en": "they should both go. Not that they can join together as witnesses,",
+    "explain": "Close relatives cannot be witnesses together.",
+    "st": "<b>they should</b> both <b>go</b> to the court in Jerusalem. It is <b>not that</b> they can <b>join together</b>",
+    "stMore": "to give testimony, for close relatives are disqualified from testifying together,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵלְכוּ.",
+      "en": "they should go"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שֶׁמִּצְטָרְפִין",
+      "en": "that they join"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "זֶה,",
+      "en": "that one"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שֶׁאִם יִפָּסֵל אֶחָד מֵהֶן,",
+    "en": "but so that if one of them may not be a witness,",
+    "st": "<b>but</b> they both go <b>so that if one of them is disqualified, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "יִפָּסֵל",
+      "en": "is not allowed",
+      "note": "Not allowed to be a witness."
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "יִצְטָרֵף הַשֵּׁנִי עִם אַחֵר.",
+    "en": "the other one can join with someone else.",
+    "st": "<b>the second may join together with another</b> witness to testify about the new moon.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִצְטָרֵף",
+      "en": "will join"
+     },
+     {
+      "he": "הַשֵּׁנִי",
+      "en": "the second"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "אַחֵר.",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אָב וּבְנוֹ וְכָל הַקְּרוֹבִין,",
+    "en": "a father and his son and all relatives",
+    "st": "<b>A father and his son and all</b> their <b>relatives </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָב",
+      "en": "a father"
+     },
+     {
+      "he": "וּבְנוֹ",
+      "en": "and his son"
+     },
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַקְּרוֹבִין,",
+      "en": "the relatives"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁרִין לְעֵדוּת הַחֹדֶשׁ.",
+    "en": "may be witnesses for the new moon.",
+    "st": "<b>are fit</b> to combine together as witnesses <b>for testimony</b> to determine the start of <b>the month. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁרִין",
+      "en": "are kosher",
+      "note": "Allowed."
+     },
+     {
+      "he": "לְעֵדוּת",
+      "en": "for testimony of"
+     },
+     {
+      "he": "הַחֹדֶשׁ.",
+      "en": "the new month"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה בְטוֹבִיָּה הָרוֹפֵא,",
+    "en": "There was a story with Toviyah the doctor,",
+    "st": "There was <b>an incident with Toviyya the doctor. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בְטוֹבִיָּה",
+      "en": "with Toviyah"
+     },
+     {
+      "he": "הָרוֹפֵא,",
+      "en": "the doctor"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁרָאָה אֶת הַחֹדֶשׁ בִּירוּשָׁלַיִם,",
+    "en": "who saw the new moon in Yerushalayim,",
+    "st": "<b>When he saw the</b> new <b>moon in Jerusalem, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁרָאָה",
+      "en": "who saw"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחֹדֶשׁ",
+      "en": "the new moon"
+     },
+     {
+      "he": "בִּירוּשָׁלַיִם,",
+      "en": "in Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "הוּא וּבְנוֹ וְעַבְדּוֹ מְשֻׁחְרָר,",
+    "en": "he, his son, and his servant who had been set free.",
+    "st": "<b>he and his son and his freed slave</b> all went to testify.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "וּבְנוֹ",
+      "en": "and his son"
+     },
+     {
+      "he": "וְעַבְדּוֹ",
+      "en": "and his servant"
+     },
+     {
+      "he": "מְשֻׁחְרָר,",
+      "en": "who was set free"
+     }
+    ]
+   },
+   {
+    "he": "וְקִבְּלוּ הַכֹּהֲנִים אוֹתוֹ וְאֶת בְּנוֹ,",
+    "en": "The Kohanim accepted him and his son,",
+    "st": "<b>The priests accepted him and his son</b> as witnesses",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקִבְּלוּ",
+      "en": "and accepted"
+     },
+     {
+      "he": "הַכֹּהֲנִים",
+      "en": "the Kohanim"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "בְּנוֹ,",
+      "en": "his son"
+     }
+    ]
+   },
+   {
+    "he": "וּפָסְלוּ אֶת עַבְדּוֹ.",
+    "en": "but did not accept his servant.",
+    "explain": "They wanted only witnesses who were born Jewish.",
+    "st": "<b>and disqualified his slave,</b>",
+    "stMore": "for they ruled stringently that the month may be sanctified only on the basis of the testimony of those of Jewish lineage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפָסְלוּ",
+      "en": "and did not accept"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַבְדּוֹ.",
+      "en": "his servant"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁבָּאוּ לִפְנֵי בֵית דִּין,",
+    "en": "And when they came before the Beis Din,",
+    "st": "<b>And when they came before the court, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁבָּאוּ",
+      "en": "and when they came"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "בֵית",
+      "en": "the House of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "קִבְּלוּ אוֹתוֹ וְאֶת עַבְדּוֹ,",
+    "en": "they accepted him and his servant,",
+    "st": "<b>they accepted him and his slave</b> as witnesses",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבְּלוּ",
+      "en": "they accepted"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "עַבְדּוֹ,",
+      "en": "his servant"
+     }
+    ]
+   },
+   {
+    "he": "וּפָסְלוּ אֶת בְּנוֹ:",
+    "en": "but did not accept his son.",
+    "explain": "Because a father and son are relatives.",
+    "st": "<b>and disqualified his son,</b> due to the familial relationship.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפָסְלוּ",
+      "en": "and did not accept"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּנוֹ:",
+      "en": "his son"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 8,
+  "summary": "This mishnah lists people who may not be witnesses, like people who gamble or charge interest, because they cannot be trusted.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ הֵן הַפְּסוּלִין,",
+    "en": "These are the people who may not be witnesses:",
+    "st": "<b>The following are unfit</b>",
+    "stMore": "to give testimony, as they are considered thieves and robbers:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "הֵן",
+      "en": "are"
+     },
+     {
+      "he": "הַפְּסוּלִין,",
+      "en": "the ones not allowed"
+     }
+    ]
+   },
+   {
+    "he": "הַמְשַׂחֵק בְּקֻבְיָא,",
+    "en": "one who plays dice for money,",
+    "st": "<b>One who plays with dice [kubbiyya]</b> or other games of chance for money;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְשַׂחֵק",
+      "en": "one who plays"
+     },
+     {
+      "he": "בְּקֻבְיָא,",
+      "en": "with dice",
+      "note": "A game of luck played for money."
+     }
+    ]
+   },
+   {
+    "he": "וּמַלְוֵי בְרִבִּית,",
+    "en": "people who lend money for interest,",
+    "st": "<b>and those who lend</b> money <b>with interest; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַלְוֵי",
+      "en": "and lenders"
+     },
+     {
+      "he": "בְרִבִּית,",
+      "en": "with interest",
+      "note": "Extra money charged for a loan."
+     }
+    ]
+   },
+   {
+    "he": "וּמַפְרִיחֵי יוֹנִים,",
+    "en": "people who race pigeons,",
+    "st": "<b>and those who race pigeons</b> and place wagers on the outcome;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַפְרִיחֵי",
+      "en": "and racers of"
+     },
+     {
+      "he": "יוֹנִים,",
+      "en": "pigeons",
+      "note": "They bet money on which pigeon will win."
+     }
+    ]
+   },
+   {
+    "he": "וְסוֹחֲרֵי שְׁבִיעִית,",
+    "en": "people who trade in Shemittah fruit,",
+    "st": "and <b>merchants</b> who deal in produce of <b>the Sabbatical Year,</b>",
+    "stMore": "which may be eaten, but may not be an object of commerce;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְסוֹחֲרֵי",
+      "en": "and traders of"
+     },
+     {
+      "he": "שְׁבִיעִית,",
+      "en": "the seventh year",
+      "note": "Fruit of Shemittah may be eaten, but not used for business."
+     }
+    ]
+   },
+   {
+    "he": "וַעֲבָדִים. זֶה הַכְּלָל,",
+    "en": "and servants. This is the rule:",
+    "st": "<b>and slaves. This is the principle: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַעֲבָדִים.",
+      "en": "and servants"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כָּל עֵדוּת שֶׁאֵין הָאִשָּׁה כְשֵׁרָה לָהּ,",
+    "en": "any testimony for which a woman is not allowed,",
+    "st": "<b>Any testimony for which a woman is unfit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "כְשֵׁרָה",
+      "en": "is kosher"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "for it"
+     }
+    ]
+   },
+   {
+    "he": "אַף הֵן אֵינָן כְּשֵׁרִים לָהּ:",
+    "en": "these people are also not allowed.",
+    "st": "<b>these too are unfit.</b>",
+    "stMore": "Although in certain cases a woman’s testimony is accepted, e.g., to testify to the death of someone’s husband, in the majority of cases her testimony is not valid.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "are not"
+     },
+     {
+      "he": "כְּשֵׁרִים",
+      "en": "kosher"
+     },
+     {
+      "he": "לָהּ:",
+      "en": "for it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 9,
+  "summary": "Witnesses of the new moon must get to Yerushalayim, even on Shabbos. They may ride, carry sticks for safety, and bring food, because the Yamim Tovim must be on time.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁרָאָה אֶת הַחֹדֶשׁ",
+    "en": "Someone who saw the new moon",
+    "st": "With regard to <b>one who saw the</b> new <b>moon </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שֶׁרָאָה",
+      "en": "that saw"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחֹדֶשׁ",
+      "en": "the new moon"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ יָכוֹל לְהַלֵּךְ,",
+    "en": "but cannot walk,",
+    "st": "<b>but is unable to go</b>",
+    "stMore": "to Jerusalem by foot because he is sick or has difficulty walking,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לְהַלֵּךְ,",
+      "en": "to walk"
+     }
+    ]
+   },
+   {
+    "he": "מוֹלִיכִין אוֹתוֹ עַל הַחֲמוֹר,",
+    "en": "they may bring him on a donkey,",
+    "st": "others <b>may bring him on a donkey or </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹלִיכִין",
+      "en": "they bring"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַחֲמוֹר,",
+      "en": "the donkey"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ בְמִטָּה.",
+    "en": "or even in a bed.",
+    "st": "<b>even in a bed,</b> even on Shabbat if necessary.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "בְמִטָּה.",
+      "en": "in a bed"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם צוֹדֶה לָהֶם,",
+    "en": "And if robbers are hiding to catch them,",
+    "st": "<b>And if</b> the witnesses are concerned that bandits may be <b>lying in wait for them</b> along the road,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "צוֹדֶה",
+      "en": "lies in wait",
+      "note": "Someone hiding to attack."
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "for them"
+     }
+    ]
+   },
+   {
+    "he": "לוֹקְחִין בְּיָדָם מַקְּלוֹת.",
+    "en": "they may take sticks in their hands.",
+    "st": "<b>they may take clubs</b> or other weapons <b>in their hands,</b> even on Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹקְחִין",
+      "en": "they take"
+     },
+     {
+      "he": "בְּיָדָם",
+      "en": "in their hands"
+     },
+     {
+      "he": "מַקְּלוֹת.",
+      "en": "sticks"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הָיְתָה דֶרֶךְ רְחוֹקָה,",
+    "en": "And if the way was far,",
+    "st": "<b>And if it was a long journey</b> to Jerusalem,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "it was"
+     },
+     {
+      "he": "דֶרֶךְ",
+      "en": "a way"
+     },
+     {
+      "he": "רְחוֹקָה,",
+      "en": "far"
+     }
+    ]
+   },
+   {
+    "he": "לוֹקְחִין בְּיָדָם מְזוֹנוֹת,",
+    "en": "they may take food with them.",
+    "st": "<b>they may take sustenance with them,</b>",
+    "stMore": "although it is ordinarily prohibited to carry on Shabbat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹקְחִין",
+      "en": "they take"
+     },
+     {
+      "he": "בְּיָדָם",
+      "en": "in their hands"
+     },
+     {
+      "he": "מְזוֹנוֹת,",
+      "en": "food"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁעַל מַהֲלַךְ לַיְלָה וָיוֹם מְחַלְּלִין",
+    "en": "Because for a trip of a night and a day, they may break",
+    "st": "<b>since for</b> a distance of <b>a walk of a night and a day,</b> the witnesses <b>may desecrate </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁעַל",
+      "en": "because for"
+     },
+     {
+      "he": "מַהֲלַךְ",
+      "en": "a walk of"
+     },
+     {
+      "he": "לַיְלָה",
+      "en": "a night"
+     },
+     {
+      "he": "וָיוֹם",
+      "en": "and a day"
+     },
+     {
+      "he": "מְחַלְּלִין",
+      "en": "they break"
+     }
+    ]
+   },
+   {
+    "he": "אֶת הַשַּׁבָּת וְיוֹצְאִין לְעֵדוּת הַחֹדֶשׁ,",
+    "en": "Shabbos and go out to tell about the new moon,",
+    "st": "<b>Shabbat and go out to</b> give <b>testimony</b> to determine the start of <b>the month.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת",
+      "en": "Shabbos"
+     },
+     {
+      "he": "וְיוֹצְאִין",
+      "en": "and go out"
+     },
+     {
+      "he": "לְעֵדוּת",
+      "en": "to testify about"
+     },
+     {
+      "he": "הַחֹדֶשׁ,",
+      "en": "the new month"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא כג),",
+    "en": "as it says in Vayikra,",
+    "st": "This is <b>as it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כג),",
+      "en": "23)"
+     }
+    ]
+   },
+   {
+    "he": "אֵלֶּה מוֹעֲדֵי ה' אֲשֶׁר",
+    "en": "\"These are the Yamim Tovim of Hashem, which",
+    "st": "<b>“These are the Festivals of the Lord,</b> sacred gatherings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלֶּה",
+      "en": "these are"
+     },
+     {
+      "he": "מוֹעֲדֵי",
+      "en": "the Yamim Tovim of"
+     },
+     {
+      "he": "ה'",
+      "en": "Hashem"
+     },
+     {
+      "he": "אֲשֶׁר",
+      "en": "that"
+     }
+    ]
+   },
+   {
+    "he": "תִּקְרְאוּ אוֹתָם בְּמוֹעֲדָם:",
+    "en": "you shall call at their right time.\"",
+    "st": "<b>which you shall declare in their seasons”</b>",
+    "stMore": "(Leviticus 23:4). This teaches that, in all cases, the Festivals must be fixed at their proper times, even if it entails the transgression of Torah prohibitions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּקְרְאוּ",
+      "en": "you shall call"
+     },
+     {
+      "he": "אוֹתָם",
+      "en": "them"
+     },
+     {
+      "he": "בְּמוֹעֲדָם:",
+      "en": "in their time"
+     }
+    ]
+   }
+  ]
+ }
+]

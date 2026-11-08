@@ -3,8 +3,9 @@
 The files in this folder (one subfolder per masechta, `data/<id>/`), and the app files built from them
 (`public/data/m/<id>.<hash>.json`, `worker/data/text.json`), contain or adapt the texts below, all downloaded from
 [Sefaria](https://www.sefaria.org) by `scripts/fetch_sefaria.py`. The app shows the same attribution at `/licenses`.
-Which translations each masechta uses is set by its `sources` in `catalog.json`: Berakhot uses Steinsaltz and
-Bartenura; Peah and Demai are Hebrew only (public domain), with no English.
+Which translations each masechta uses is set by its `sources` in `catalog.json`: most of Moed, Nashim and Nezikin
+(and Berakhot) use Steinsaltz and Bartenura; Sotah, Kodashim and Niddah use Steinsaltz only; Eduyot and Pirkei Avot use
+Bartenura only; the rest of Zeraim and Tahorot, Middot and Kinnim are Hebrew only (public domain), with no English.
 
 | Text | Sefaria version | License | Where it appears |
 |---|---|---|---|
@@ -18,8 +19,9 @@ Bartenura; Peah and Demai are Hebrew only (public domain), with no English.
   end-of-masechta line "סליק מסכת …" that Sefaria appends to some masechtos is dropped.
 - Steinsaltz excerpts in `gloss/` are verbatim, split to line up with the Hebrew pieces.
 - The `summary`, `en`, `explain` and word `en`/`note` fields in `gloss/` are AI-written simplifications of Steinsaltz's
-  translation, checked against Bartenura (`basis` on each piece lists which). Because they adapt CC BY-NC material,
-  they are shared under **CC BY-NC 4.0** and may not be used commercially.
+  translation, checked against Bartenura where a masechta has both (`basis` on each piece lists which). Because they
+  adapt CC BY-NC material, they are shared under **CC BY-NC 4.0** and may not be used commercially. In Eduyot and
+  Pirkei Avot they adapt only Silverstein's Bartenura (CC BY 3.0).
 
 Nothing here is affiliated with or endorsed by Koren, Sefaria, the Steinsaltz Center or the translators.
 
@@ -27,4 +29,4 @@ Nothing here is affiliated with or endorsed by Koren, Sefaria, the Steinsaltz Ce
 
 Showing the Steinsaltz text or anything adapted from it in a paid product needs one of two things first: written
 permission from Koren, or rebuilding the meanings from the CC BY / public-domain sources only. Silverstein's
-Bartenura covers every mishnah of Berakhot.
+Bartenura covers Berakhot and most of Moed, Nashim and Nezikin, but not Sotah, Kodashim or Niddah.

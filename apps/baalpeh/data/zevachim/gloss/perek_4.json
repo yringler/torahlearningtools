@@ -1,0 +1,1934 @@
+[
+ {
+  "perek": 4,
+  "mishnah": 1,
+  "summary": "Beis Shammai say that for most korbanos one putting of blood on the mizbeach is enough, but a chatas needs two; Beis Hillel say even a chatas needs only one. So only the first putting decides whether a korban becomes piggul.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai",
+      "note": "Beis Shammai, the students of Shammai."
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַנִּתָּנִין עַל מִזְבֵּחַ הַחִיצוֹן,",
+    "en": "all blood that is put on the outer mizbeach,",
+    "st": "With regard to <b>all</b> the offerings <b>whose</b> blood is to be <b>placed on the external altar,</b>",
+    "stMore": "even those that require that the blood be sprinkled on two opposite corners of the altar so that it will run down each of its four sides,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מִזְבֵּחַ",
+      "en": "the mizbeach"
+     },
+     {
+      "he": "הַחִיצוֹן,",
+      "en": "the outer",
+      "note": "The big mizbeach in the courtyard."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם נְתָנָן מַתָּנָה אַחַת,",
+    "en": "if he put it with only one putting,",
+    "st": "in a case <b>where</b> the priest <b>placed</b> the blood on the altar <b>with</b> only <b>one placement,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "נְתָנָן",
+      "en": "he put them"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a putting"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "כִּפֵּר. וּבְחַטָּאת,",
+    "en": "it brought kapparah. And for a chatas,",
+    "st": "<b>he facilitated atonement. And in</b> the case of <b>a sin offering,</b>",
+    "stMore": "which requires four placements, one on each of the four corners of the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּפֵּר.",
+      "en": "it brought kapparah",
+      "note": "Forgiveness; the korban did its job."
+     },
+     {
+      "he": "וּבְחַטָּאת,",
+      "en": "and for a chatas"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי מַתָּנוֹת.",
+    "en": "two puttings are needed.",
+    "st": "at least <b>two placements</b> are necessary to facilitate atonement.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "מַתָּנוֹת.",
+      "en": "puttings"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and the house of"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אַף חַטָּאת שֶׁנְּתָנָהּ מַתָּנָה אַחַת,",
+    "en": "even a chatas that he put with one putting",
+    "st": "<b>Even</b> with regard to <b>a sin offering,</b> in a case <b>where</b> the priest <b>placed</b> the blood with <b>one placement,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "שֶׁנְּתָנָהּ",
+      "en": "that he put it"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a putting"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "כִּפֵּר. לְפִיכָךְ,",
+    "en": "brought kapparah. Therefore,",
+    "st": "<b>he facilitated atonement</b> after the fact. <b>Therefore,</b>",
+    "stMore": "since the priest facilitates atonement with one placement in all cases other than a sin offering according to Beit Shammai, and even in the case of a sin offering according to Beit Hillel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּפֵּר.",
+      "en": "it brought kapparah"
+     },
+     {
+      "he": "לְפִיכָךְ,",
+      "en": "therefore"
+     }
+    ]
+   },
+   {
+    "he": "אִם נָתַן אֶת הָרִאשׁוֹנָה כְתִקְנָהּ",
+    "en": "if he put the first one the right way,",
+    "st": "<b>if he placed the first</b> placement <b>in its proper manner,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "כְתִקְנָהּ",
+      "en": "the right way"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת הַשְּׁנִיָּה חוּץ לִזְמַנָּהּ,",
+    "en": "and the second planning for after its time,",
+    "st": "<b>and the second</b> with the intent to eat the offering <b>beyond its</b> designated <b>time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַשְּׁנִיָּה",
+      "en": "the second"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנָּהּ,",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "כִּפֵּר. נָתַן אֶת הָרִאשׁוֹנָה חוּץ לִזְמַנָּהּ",
+    "en": "it brought kapparah. If he put the first planning for after its time,",
+    "st": "<b>he facilitated atonement.</b> Since the second placement is not indispensable with regard to achieving atonement, improper intent while performing that rite does not invalidate the offering. <b>And</b> based on the same reasoning, <b>if he placed the first</b> placement with the intent to eat the offering <b>beyond its</b> designated <b>time</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּפֵּר.",
+      "en": "it brought kapparah"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנָּהּ",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת הַשְּׁנִיָּה חוּץ לִמְקוֹמָהּ,",
+    "en": "and the second planning for outside its place,",
+    "st": "<b>and</b> he placed <b>the second</b> placement with the intent to eat the offering <b>outside its</b> designated <b>area,</b> the second of which does not render an offering piggul,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַשְּׁנִיָּה",
+      "en": "the second"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִמְקוֹמָהּ,",
+      "en": "its place"
+     }
+    ]
+   },
+   {
+    "he": "פִּגּוּל, וְחַיָּבִין עָלָיו כָּרֵת:",
+    "en": "it is piggul, and one who eats it gets kares.",
+    "st": "the offering is <b>piggul,</b> an offering disqualified by improper intention, <b>and one is liable</b> to receive <b>excision from the World-to-Come [karet] for its</b>",
+    "stMore": "consumption. This is because the intent that accompanied the second placement does not supersede the piggul status of the offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     },
+     {
+      "he": "וְחַיָּבִין",
+      "en": "and they are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "כָּרֵת:",
+      "en": "kares"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 2,
+  "summary": "Blood that is put on the inner, golden mizbeach must be put every single time. If even one putting was done with a wrong thought, the korban is pasul, but it is not piggul.",
+  "stIntro": "All this applies to those offerings whose blood is to be placed on the external altar.",
+  "chunks": [
+   {
+    "he": "כָּל הַנִּתָּנִין עַל מִזְבֵּחַ הַפְּנִימִי,",
+    "en": "All blood that is put on the inner mizbeach,",
+    "st": "But with regard to <b>all</b> the offerings <b>whose</b> blood is to be <b>placed on the inner altar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מִזְבֵּחַ",
+      "en": "the mizbeach"
+     },
+     {
+      "he": "הַפְּנִימִי,",
+      "en": "the inner",
+      "note": "The golden mizbeach inside the Heichal."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם חִסַּר אַחַת מִן הַמַּתָּנוֹת,",
+    "en": "if he left out even one of the puttings,",
+    "st": "<b>if</b> the priest <b>omitted</b> even <b>one of the placements,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "חִסַּר",
+      "en": "he left out"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמַּתָּנוֹת,",
+      "en": "the puttings"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כִפֵּר.",
+    "en": "it did not bring kapparah.",
+    "st": "<b>it is as though he did not facilitate atonement.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כִפֵּר.",
+      "en": "it brought kapparah"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ, אִם נָתַן כֻּלָּן כְּתִקְנָן",
+    "en": "Therefore, if he put all of them the right way,",
+    "st": "<b>Therefore,</b> if <b>he placed all</b> the placements <b>in their proper manner,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ,",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "כֻּלָּן",
+      "en": "all of them"
+     },
+     {
+      "he": "כְּתִקְנָן",
+      "en": "the right way"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת שֶׁלֹּא כְתִקְנָהּ,",
+    "en": "and one not the right way,",
+    "st": "<b>and one</b> placement <b>in an improper manner,</b>",
+    "stMore": "i.e., with the intent to eat the offering beyond its designated time,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "כְתִקְנָהּ,",
+      "en": "the right way"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל, וְאֵין בּוֹ כָרֵת:",
+    "en": "it is pasul, but there is no kares.",
+    "st": "the offering is <b>disqualified,</b> as it is lacking one placement; <b>but there is no</b> liability for <b>karet for</b>",
+    "stMore": "one who partakes of the offering, as the improper intention related to only part of the blood that renders the offering permitted for consumption, and an offering becomes piggul only when the improper intention relates to the entire portion of the offering that renders it permitted for consumption.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל,",
+      "en": "it is pasul"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כָרֵת:",
+      "en": "kares"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 3,
+  "summary": "Some things cannot become piggul, because nothing else makes them allowed, like the kometz, the ketores and the blood. Rabbi Shimon and Rabbi Meir argue about the metzora's log of oil.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ דְבָרִים שֶׁאֵין חַיָּבִין",
+    "en": "These are things for which one is not punished",
+    "st": "<b>And these are</b> the <b>items for which one is not liable</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these are"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     }
+    ]
+   },
+   {
+    "he": "עֲלֵיהֶם מִשּׁוּם פִּגּוּל.",
+    "en": "because of piggul:",
+    "st": "to receive karet <b>due to</b> violation of the prohibition of <b>piggul.</b>",
+    "stMore": "One is liable to receive karet only if he partakes of an item that was permitted for consumption or for the altar by another item. As for the items listed here, either nothing else renders them permitted for consumption or for the altar, or they themselves render other items permitted. They are as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל.",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "הַקֹּמֶץ, וְהַלְּבוֹנָה, וְהַקְּטֹרֶת, וּמִנְחַת כֹּהֲנִים,",
+    "en": "the kometz, the levonah, the ketores, and the mincha of Kohanim,",
+    "st": "<b>The handful</b> of flour, which permits consumption of the meal offering; <b>the incense,</b> which is burned in its entirety, without another item rendering it permitted for the altar; <b>the frankincense,</b> which is burned together with the handful of the meal offering; <b>the meal offering of priests,</b>",
+    "stMore": "from which no handful of flour is removed and which is burned in its entirety (see Leviticus 6:16);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַקֹּמֶץ,",
+      "en": "the kometz",
+      "note": "The handful of flour taken from a mincha and burned on the mizbeach."
+     },
+     {
+      "he": "וְהַלְּבוֹנָה,",
+      "en": "and the levonah",
+      "note": "Frankincense, a sweet-smelling spice."
+     },
+     {
+      "he": "וְהַקְּטֹרֶת,",
+      "en": "and the ketores",
+      "note": "The incense burned inside the Heichal."
+     },
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "כֹּהֲנִים,",
+      "en": "Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנְחַת כֹּהֵן מָשִׁיחַ, (וּמִנְחַת נְסָכִים),",
+    "en": "the mincha of the Kohen Gadol, and the mincha of the nesachim,",
+    "st": "<b>the meal offering of</b> the <b>anointed priest,</b>",
+    "stMore": "which is sacrificed by the High Priest each day, half in the morning and half in the evening;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "a Kohen"
+     },
+     {
+      "he": "מָשִׁיחַ,",
+      "en": "anointed",
+      "note": "The Kohen Gadol, who was anointed with special oil."
+     },
+     {
+      "he": "(וּמִנְחַת",
+      "en": "and the mincha of",
+      "note": "Some texts do not have these words."
+     },
+     {
+      "he": "נְסָכִים),",
+      "en": "nesachim"
+     }
+    ]
+   },
+   {
+    "he": "וְהַדָּם, וְהַנְּסָכִים הַבָּאִים בִּפְנֵי עַצְמָן,",
+    "en": "the blood, and the nesachim that come by themselves,",
+    "st": "<b>the blood,</b> which permits all the offerings; <b>and the libations that are brought by themselves</b>",
+    "stMore": "as a separate offering and do not accompany an animal offering;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַדָּם,",
+      "en": "and the blood"
+     },
+     {
+      "he": "וְהַנְּסָכִים",
+      "en": "and the nesachim",
+      "note": "Wine poured on the mizbeach."
+     },
+     {
+      "he": "הַבָּאִים",
+      "en": "that come"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "by"
+     },
+     {
+      "he": "עַצְמָן,",
+      "en": "themselves"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "says Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אַף הַבָּאִים עִם הַבְּהֵמָה.",
+    "en": "even those that come with the animal korban.",
+    "st": "The same halakha applies <b>even</b> with regard to libations <b>that are brought with an animal</b> offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "הַבָּאִים",
+      "en": "those that come"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הַבְּהֵמָה.",
+      "en": "the animal"
+     }
+    ]
+   },
+   {
+    "he": "לֹג שֶׁמֶן שֶׁל מְצֹרָע,",
+    "en": "The log of oil of a metzora,",
+    "st": "With regard to <b>the log of oil</b> that accompanies the guilt offering <b>of</b> a recovered <b>leper,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹג",
+      "en": "the log",
+      "note": "A measure, about a small cup."
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "of oil"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מְצֹרָע,",
+      "en": "a metzora",
+      "note": "A person who had tzaraas and became tahor."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין חַיָּבִין עָלָיו מִשּׁוּם פִּגּוּל.",
+    "en": "one is not punished for it because of piggul.",
+    "st": "<b>One is not liable for</b> consuming <b>it due to</b> violation of the prohibition of <b>piggul,</b> because it is not permitted by any other item.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל.",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי מֵאִיר אוֹמֵר,",
+    "en": "And Rabbi Meir says,",
+    "st": "<b>And Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עָלָיו מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for it because of piggul,",
+    "st": "<b>One is liable for</b> consuming <b>it due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁדַּם הָאָשָׁם מַתִּירוֹ.",
+    "en": "because the blood of the asham makes it allowed.",
+    "st": "<b>as the blood of the guilt offering</b> of the leper <b>permits its</b>",
+    "stMore": "use, as only after the blood’s sacrifice is the oil sprinkled and given to the priests.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁדַּם",
+      "en": "because the blood of"
+     },
+     {
+      "he": "הָאָשָׁם",
+      "en": "the asham"
+     },
+     {
+      "he": "מַתִּירוֹ.",
+      "en": "makes it allowed"
+     }
+    ]
+   },
+   {
+    "he": "וְכֹל שֶׁיֶּשׁ לוֹ מַתִּירִים",
+    "en": "And anything that has something that makes it allowed,",
+    "st": "<b>And</b> the principle is: With regard to <b>any</b> item <b>that has permitting factors,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֹל",
+      "en": "and anything"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "מַתִּירִים",
+      "en": "things that make it allowed"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לָאָדָם בֵּין לַמִּזְבֵּחַ,",
+    "en": "either for a person or for the mizbeach,",
+    "st": "<b>either for</b> consumption by <b>a person or for</b> burning on <b>the altar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לָאָדָם",
+      "en": "for a person"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לַמִּזְבֵּחַ,",
+      "en": "for the mizbeach"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עָלָיו מִשּׁוּם פִּגּוּל:",
+    "en": "one is punished for it because of piggul.",
+    "st": "<b>one is liable for</b> eating <b>it due to</b> violation of the prohibition of <b>piggul.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל:",
+      "en": "piggul"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 4,
+  "summary": "This mishnah tells what the blood of different korbanos makes allowed. Rabbi Shimon says a korban whose blood is not put on the outer mizbeach cannot become piggul.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָעוֹלָה, דָּמָהּ מַתִּיר אֶת בְּשָׂרָהּ",
+    "en": "The olah: its blood makes its meat allowed",
+    "st": "The mishna elaborates: <b>The burnt offering, its blood permits its flesh to</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹלָה,",
+      "en": "the olah"
+     },
+     {
+      "he": "דָּמָהּ",
+      "en": "its blood"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "makes allowed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּשָׂרָהּ",
+      "en": "its meat"
+     }
+    ]
+   },
+   {
+    "he": "לַמִּזְבֵּחַ וְעוֹרָהּ לַכֹּהֲנִים.",
+    "en": "for the mizbeach, and its skin for the Kohanim.",
+    "st": "be burned on <b>the altar and its hide to</b> be used by <b>the priests.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַמִּזְבֵּחַ",
+      "en": "for the mizbeach"
+     },
+     {
+      "he": "וְעוֹרָהּ",
+      "en": "and its skin"
+     },
+     {
+      "he": "לַכֹּהֲנִים.",
+      "en": "for the Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "עוֹלַת הָעוֹף,",
+    "en": "A bird olah:",
+    "st": "<b>The bird burnt offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹלַת",
+      "en": "the olah of"
+     },
+     {
+      "he": "הָעוֹף,",
+      "en": "the bird"
+     }
+    ]
+   },
+   {
+    "he": "דָּמָהּ מַתִּיר אֶת בְּשָׂרָהּ לַמִּזְבֵּחַ.",
+    "en": "its blood makes its meat allowed for the mizbeach.",
+    "st": "<b>its blood permits its flesh</b> and its skin <b>to</b> be burned on <b>the altar.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמָהּ",
+      "en": "its blood"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "makes allowed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּשָׂרָהּ",
+      "en": "its meat"
+     },
+     {
+      "he": "לַמִּזְבֵּחַ.",
+      "en": "for the mizbeach"
+     }
+    ]
+   },
+   {
+    "he": "חַטַּאת הָעוֹף,",
+    "en": "A bird chatas:",
+    "st": "<b>The bird sin offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטַּאת",
+      "en": "the chatas of"
+     },
+     {
+      "he": "הָעוֹף,",
+      "en": "the bird"
+     }
+    ]
+   },
+   {
+    "he": "דָּמָהּ מַתִּיר אֶת בְּשָׂרָהּ לַכֹּהֲנִים.",
+    "en": "its blood makes its meat allowed for the Kohanim.",
+    "st": "<b>its blood permits its meat for</b> consumption by <b>the priests.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמָהּ",
+      "en": "its blood"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "makes allowed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּשָׂרָהּ",
+      "en": "its meat"
+     },
+     {
+      "he": "לַכֹּהֲנִים.",
+      "en": "for the Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "פָּרִים הַנִּשְׂרָפִים וּשְׂעִירִים הַנִּשְׂרָפִים,",
+    "en": "The bulls that are burned and the goats that are burned:",
+    "st": "<b>Bulls that are burned,</b> e.g., the bull for an unwitting communal sin, <b>and goats that are burned,</b>",
+    "stMore": "e.g., the goats sacrificed for an unwitting communal sin of idol worship,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּרִים",
+      "en": "the bulls"
+     },
+     {
+      "he": "הַנִּשְׂרָפִים",
+      "en": "that are burned",
+      "note": "Special korbanos burned outside Yerushalayim instead of being eaten."
+     },
+     {
+      "he": "וּשְׂעִירִים",
+      "en": "and the goats"
+     },
+     {
+      "he": "הַנִּשְׂרָפִים,",
+      "en": "that are burned"
+     }
+    ]
+   },
+   {
+    "he": "דָּמָן מַתִּיר אֶת אֵמוּרֵיהֶן לִקָּרֵב.",
+    "en": "their blood makes their parts allowed to be offered.",
+    "st": "<b>their blood permits their sacrificial portions to be sacrificed</b> on the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמָן",
+      "en": "their blood"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "makes allowed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֵמוּרֵיהֶן",
+      "en": "their parts for the mizbeach"
+     },
+     {
+      "he": "לִקָּרֵב.",
+      "en": "to be offered"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "stMore": "Those bulls and goats are not subject to piggul because their blood is presented in the Sanctuary,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁאֵינוֹ עַל מִזְבֵּחַ הַחִיצוֹן כִּשְׁלָמִים,",
+    "en": "anything whose blood is not on the outer mizbeach like a shelamim,",
+    "st": "and in the case of <b>any</b> offering <b>whose</b> blood <b>is not</b> presented <b>on the external altar like</b> that of <b>a peace offering,</b>",
+    "stMore": "with regard to which the halakha of piggul was stated in the Torah,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "anything"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that is not"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מִזְבֵּחַ",
+      "en": "the mizbeach"
+     },
+     {
+      "he": "הַחִיצוֹן",
+      "en": "the outer"
+     },
+     {
+      "he": "כִּשְׁלָמִים,",
+      "en": "like a shelamim"
+     }
+    ]
+   },
+   {
+    "he": "אֵין חַיָּבִין עָלָיו מִשּׁוּם פִּגּוּל:",
+    "en": "one is not punished for it because of piggul.",
+    "st": "<b>one is not liable for</b> eating <b>it due to</b> violation of the prohibition of <b>piggul.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל:",
+      "en": "piggul"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 5,
+  "summary": "Korbanos of non-Jews cannot become piggul, nosar or tamei. Things that cannot become piggul can still become nosar or tamei, except the blood; Rabbi Shimon says that applies only to food.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "קָדְשֵׁי נָכְרִים,",
+    "en": "Korbanos of non-Jews,",
+    "st": "With regard to <b>offerings</b> consecrated by <b>gentiles</b> for sacrifice to God,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדְשֵׁי",
+      "en": "holy things of"
+     },
+     {
+      "he": "נָכְרִים,",
+      "en": "non-Jews"
+     }
+    ]
+   },
+   {
+    "he": "אֵין חַיָּבִין עֲלֵיהֶם מִשּׁוּם פִּגּוּל,",
+    "en": "one is not punished for them because of piggul,",
+    "st": "<b>one is not liable for</b> eating <b>them,</b> neither <b>due to</b> violation of the prohibition of <b>piggul</b>",
+    "stMore": "if the sacrificial rites were performed with the intent to eat the offering beyond its designated time,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא.",
+    "en": "nosar, or tumah.",
+    "st": "nor due to violation of the prohibition of <b>notar, nor</b> due to violation of the prohibition against eating the meat while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא.",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׁוֹחֲטָן בַּחוּץ,",
+    "en": "And one who shechts them outside",
+    "st": "<b>And one who slaughters them outside</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׁוֹחֲטָן",
+      "en": "and one who shechts them"
+     },
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside",
+      "note": "Outside the courtyard of the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר, דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "is not punished, says Rabbi Meir.",
+    "st": "the Temple courtyard is <b>exempt;</b> this is <b>the statement of Rabbi Shimon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר,",
+      "en": "is free"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי מְחַיֵּב.",
+    "en": "Rabbi Yosei says he is punished.",
+    "st": "<b>And Rabbi Yosei deems</b> him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "מְחַיֵּב.",
+      "en": "says he is liable"
+     }
+    ]
+   },
+   {
+    "he": "דְּבָרִים שֶׁאֵין חַיָּבִין עֲלֵיהֶם מִשּׁוּם פִּגּוּל,",
+    "en": "Things for which one is not punished because of piggul,",
+    "st": "Even with regard to those <b>items</b> enumerated in the previous mishna (42b) for <b>which one is not liable for</b> eating <b>them due to</b> violation of the prohibition of <b>piggul,</b> e.g., the handful, the frankincense, and the incense,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִים עֲלֵיהֶם מִשּׁוּם נוֹתָר,",
+    "en": "one is punished for them because of nosar",
+    "st": "<b>one is,</b> nevertheless, <b>liable for</b> eating <b>them due to</b> violation of the prohibition of <b>notar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִים",
+      "en": "they are liable"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "נוֹתָר,",
+      "en": "nosar"
+     }
+    ]
+   },
+   {
+    "he": "מִשּׁוּם טָמֵא,",
+    "en": "and because of tumah,",
+    "st": "<b>and due to</b> violation of the prohibition against eating consecrated food while <b>ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַדָּם.",
+    "en": "except for the blood.",
+    "st": "<b>except for the blood.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַדָּם.",
+      "en": "the blood"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon deems one liable</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בְּדָבָר שֶׁדַּרְכָּן לְהֵאָכֵל.",
+    "en": "only for something that is usually eaten.",
+    "st": "<b>for an item whose</b> typical <b>manner</b> is such that one <b>eats</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּדָבָר",
+      "en": "for a thing"
+     },
+     {
+      "he": "שֶׁדַּרְכָּן",
+      "en": "that their way is"
+     },
+     {
+      "he": "לְהֵאָכֵל.",
+      "en": "to be eaten"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל כְּגוֹן הָעֵצִים וְהַלְּבוֹנָה וְהַקְּטֹרֶת,",
+    "en": "But things like the wood, the levonah, and the ketores,",
+    "st": "<b>But</b> with regard to <b>the wood, the frankincense, and the incense,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "כְּגוֹן",
+      "en": "such as"
+     },
+     {
+      "he": "הָעֵצִים",
+      "en": "the wood"
+     },
+     {
+      "he": "וְהַלְּבוֹנָה",
+      "en": "and the levonah"
+     },
+     {
+      "he": "וְהַקְּטֹרֶת,",
+      "en": "and the ketores"
+     }
+    ]
+   },
+   {
+    "he": "אֵין חַיָּבִין עֲלֵיהֶם מִשּׁוּם טֻמְאָה:",
+    "en": "one is not punished for them because of tumah.",
+    "st": "<b>one is not liable for</b> eating <b>them due to</b> violation of the prohibition against eating a consecrated item while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "טֻמְאָה:",
+      "en": "tumah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 6,
+  "summary": "A korban is shechted with six things in mind, like the kind of korban, its owner and Hashem. Rabbi Yosei says it is kosher even without thinking of them, because Beis Din made a rule not to say any thought at all.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "לְשֵׁם שִׁשָּׁה דְבָרִים הַזֶּבַח נִזְבָּח,",
+    "en": "A korban is shechted for the sake of six things:",
+    "st": "<b>The slaughtered offering is slaughtered for the sake of six matters,</b> and one must have all of these matters in mind:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "שִׁשָּׁה",
+      "en": "six"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "הַזֶּבַח",
+      "en": "the korban"
+     },
+     {
+      "he": "נִזְבָּח,",
+      "en": "is shechted"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם זֶבַח,",
+    "en": "for the sake of the korban,",
+    "st": "<b>For the sake of</b> the particular type of <b>offering</b> being sacrificed;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "זֶבַח,",
+      "en": "the korban"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם זוֹבֵחַ,",
+    "en": "for the sake of the one who brings it,",
+    "st": "<b>for the sake of the one who sacrifices</b> the offering;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "זוֹבֵחַ,",
+      "en": "the one who brings it"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם הַשֵּׁם,",
+    "en": "for the sake of Hashem,",
+    "st": "<b>for the sake of God;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "הַשֵּׁם,",
+      "en": "Hashem"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם אִשִּׁים,",
+    "en": "for the sake of the fires of the mizbeach,",
+    "st": "<b>for the sake of</b> consumption by the <b>fires</b> of the altar;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "אִשִּׁים,",
+      "en": "the fires"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם רֵיחַ,",
+    "en": "for the sake of the smell,",
+    "st": "<b>for the sake of</b> the <b>aroma;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "רֵיחַ,",
+      "en": "the smell"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם נִיחוֹחַ.",
+    "en": "for the sake of being pleasing to Hashem.",
+    "st": "<b>for the sake of</b> the <b>pleasing</b> of God, i.e., in fulfillment of God’s will;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "נִיחוֹחַ.",
+      "en": "being pleasing"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחַטָּאת וְהָאָשָׁם,",
+    "en": "And the chatas and the asham,",
+    "st": "<b>and,</b> in the cases of <b>a sin offering and a guilt offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחַטָּאת",
+      "en": "and the chatas"
+     },
+     {
+      "he": "וְהָאָשָׁם,",
+      "en": "and the asham"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם חֵטְא.",
+    "en": "for the sake of the sin.",
+    "st": "<b>for the sake of</b> atonement for the <b>sin.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "חֵטְא.",
+      "en": "the sin"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "אַף מִי שֶׁלֹּא הָיָה בְלִבּוֹ",
+    "en": "even one who did not have in mind",
+    "st": "<b>Even</b> in the case of <b>one who did not have in mind</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "בְלִבּוֹ",
+      "en": "in his heart"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם אַחַד מִכָּל אֵלּוּ,",
+    "en": "any one of all these,",
+    "st": "to slaughter the offering <b>for the sake of any one of these,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "מִכָּל",
+      "en": "of all"
+     },
+     {
+      "he": "אֵלּוּ,",
+      "en": "these"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר, שֶׁהוּא תְנַאי בֵּית דִּין,",
+    "en": "it is kosher, because this is a rule of Beis Din,",
+    "st": "the offering is <b>valid, as it is a stipulation of the court</b> that he should not state any intent ab initio.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר,",
+      "en": "it is kosher"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "because it is"
+     },
+     {
+      "he": "תְנַאי",
+      "en": "a rule of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "דִּין,",
+      "en": "Din"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין הַמַּחֲשָׁבָה הוֹלֶכֶת אֶלָּא אַחַר הָעוֹבֵד:",
+    "en": "since a thought goes only after the one doing the avodah.",
+    "st": "This is necessary <b>because the intent follows only the one performing the</b> sacrificial <b>rite,</b>",
+    "stMore": "and therefore if the one who slaughters the animal is not careful and states the wrong intent, the offering would be disqualified through his improper intent.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because not"
+     },
+     {
+      "he": "הַמַּחֲשָׁבָה",
+      "en": "the thought"
+     },
+     {
+      "he": "הוֹלֶכֶת",
+      "en": "goes"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "הָעוֹבֵד:",
+      "en": "the one doing the avodah"
+     }
+    ]
+   }
+  ]
+ }
+]

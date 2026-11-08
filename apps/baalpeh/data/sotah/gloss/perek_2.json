@@ -1,0 +1,2217 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "The husband brings a special mincha offering for his wife. It is different from all other menachos: it starts in a plain basket, has no oil or levonah, and is made of barley flour.",
+  "stIntro": "The husband of the sota",
+  "chunks": [
+   {
+    "he": "הָיָה מֵבִיא אֶת מִנְחָתָהּ בְּתוֹךְ כְּפִיפָה מִצְרִית",
+    "en": "He would bring her mincha offering in an Egyptian basket,",
+    "st": "<b>would bring</b> his wife’s <b>meal-offering</b> to the priest <b>in an Egyptian wicker basket</b> made of palm branches,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he would"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "bring"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "מִנְחָתָהּ",
+      "en": "her mincha",
+      "note": "A flour offering."
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "כְּפִיפָה",
+      "en": "a basket"
+     },
+     {
+      "he": "מִצְרִית",
+      "en": "Egyptian"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתְנָהּ עַל יָדֶיהָ כְּדֵי לְיַגְּעָהּ.",
+    "en": "and put it on her hands to make her tired.",
+    "st": "<b>and he would place</b> the meal-offering <b>in her hands</b> for her to hold throughout the ritual <b>in order to fatigue her.</b>",
+    "stMore": "This might lead her to confess her guilt and not drink the water of a sota unnecessarily. The mishna lists differences between this meal-offering and other meal-offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתְנָהּ",
+      "en": "and puts it"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "יָדֶיהָ",
+      "en": "her hands"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "in order"
+     },
+     {
+      "he": "לְיַגְּעָהּ.",
+      "en": "to make her tired"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמְּנָחוֹת תְּחִלָּתָן וְסוֹפָן בִּכְלִי שָׁרֵת,",
+    "en": "All menachos, from start to end, are in a holy kli,",
+    "st": "Generally, <b>all meal-offerings,</b> from <b>their beginnings,</b> i.e., the moment they are consecrated, <b>and</b> until <b>their ends,</b> i.e., the moment they are sacrificed, must be <b>in a service vessel. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַמְּנָחוֹת",
+      "en": "the menachos",
+      "note": "Flour offerings."
+     },
+     {
+      "he": "תְּחִלָּתָן",
+      "en": "their beginning"
+     },
+     {
+      "he": "וְסוֹפָן",
+      "en": "and their end"
+     },
+     {
+      "he": "בִּכְלִי",
+      "en": "in a vessel of"
+     },
+     {
+      "he": "שָׁרֵת,",
+      "en": "service",
+      "note": "A holy kli used in the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹ תְּחִלָּתָהּ בִּכְפִיפָה מִצְרִית",
+    "en": "but this one starts in an Egyptian basket",
+    "st": "<b>But</b> in the case of <b>this one, its beginning is in a wicker basket </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "תְּחִלָּתָהּ",
+      "en": "its beginning"
+     },
+     {
+      "he": "בִּכְפִיפָה",
+      "en": "in a basket"
+     },
+     {
+      "he": "מִצְרִית",
+      "en": "Egyptian"
+     }
+    ]
+   },
+   {
+    "he": "וְסוֹפָהּ בִּכְלִי שָׁרֵת.",
+    "en": "and only at the end is in a holy kli.",
+    "st": "<b>and</b> only at <b>its end,</b> immediately before it is offered, is it placed <b>in a service vessel. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְסוֹפָהּ",
+      "en": "and its end"
+     },
+     {
+      "he": "בִּכְלִי",
+      "en": "in a vessel of"
+     },
+     {
+      "he": "שָׁרֵת.",
+      "en": "service"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמְּנָחוֹת טְעוּנוֹת שֶׁמֶן וּלְבֹנָה,",
+    "en": "All menachos need oil and levonah,",
+    "st": "<b>All</b> other <b>meal-offerings require oil and frankincense, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַמְּנָחוֹת",
+      "en": "the menachos"
+     },
+     {
+      "he": "טְעוּנוֹת",
+      "en": "need"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וּלְבֹנָה,",
+      "en": "and levonah",
+      "note": "A sweet-smelling spice."
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹ אֵינָהּ טְעוּנָה לֹא שֶׁמֶן וְלֹא לְבֹנָה.",
+    "en": "but this one needs no oil and no levonah.",
+    "st": "<b>and this one requires neither oil nor frankincense.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "אֵינָהּ",
+      "en": "does not"
+     },
+     {
+      "he": "טְעוּנָה",
+      "en": "need"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְבֹנָה.",
+      "en": "levonah"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמְּנָחוֹת בָּאוֹת מִן הַחִטִּין,",
+    "en": "All menachos come from wheat,",
+    "st": "Furthermore, <b>all</b> other <b>meal-offerings are brought from wheat, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַמְּנָחוֹת",
+      "en": "the menachos"
+     },
+     {
+      "he": "בָּאוֹת",
+      "en": "come"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחִטִּין,",
+      "en": "wheat"
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹ בָאָה מִן הַשְּׂעוֹרִין.",
+    "en": "but this one comes from barley.",
+    "st": "<b>and this one is brought from barley. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "בָאָה",
+      "en": "comes"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשְּׂעוֹרִין.",
+      "en": "barley"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת הָעֹמֶר אַף עַל פִּי שֶׁבָּאָה",
+    "en": "Even though the omer offering",
+    "st": "<b>Although</b> in fact <b>the omer meal-offering</b> is also",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "הָעֹמֶר",
+      "en": "the omer",
+      "note": "An offering of new barley brought on the second day of Pesach."
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(so)"
+     },
+     {
+      "he": "שֶׁבָּאָה",
+      "en": "it comes"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַשְּׂעוֹרִין הִיא הָיְתָה בָאָה גֶרֶשׂ,",
+    "en": "also comes from barley, it was brought as fine ground grain,",
+    "st": "<b>brought from barley,</b> it is still different in that <b>it was brought as groats,</b> i.e., high-quality meal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשְּׂעוֹרִין",
+      "en": "barley"
+     },
+     {
+      "he": "הִיא",
+      "en": "it"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "בָאָה",
+      "en": "coming"
+     },
+     {
+      "he": "גֶרֶשׂ,",
+      "en": "groats",
+      "note": "Fine, high-quality ground grain."
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹ בָאָה קֶמַח.",
+    "en": "but this one comes as plain flour.",
+    "st": "The meal-offering of the sota, however, <b>is brought as</b> unsifted barley <b>flour. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "בָאָה",
+      "en": "comes"
+     },
+     {
+      "he": "קֶמַח.",
+      "en": "flour"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Gamliel says,",
+    "st": "<b>Rabban Gamliel says:</b> This hints that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁם שֶׁמַּעֲשֶׂיהָ מַעֲשֵׂה בְהֵמָה,",
+    "en": "Just as she acted like an animal,",
+    "st": "<b>just as her actions</b> of seclusion with another man <b>were the actions of an animal, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁמַּעֲשֶׂיהָ",
+      "en": "that her actions"
+     },
+     {
+      "he": "מַעֲשֵׂה",
+      "en": "the actions of"
+     },
+     {
+      "he": "בְהֵמָה,",
+      "en": "an animal"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ קָרְבָּנָהּ מַאֲכַל בְּהֵמָה:",
+    "en": "so her korban is animal food.",
+    "st": "<b>so too her offering is animal food,</b> i.e., barley and not wheat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "קָרְבָּנָהּ",
+      "en": "her korban"
+     },
+     {
+      "he": "מַאֲכַל",
+      "en": "the food of"
+     },
+     {
+      "he": "בְּהֵמָה:",
+      "en": "an animal"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "The Kohen prepares the water for the sotah. He puts water from the kiyor into a new clay cup, and adds some earth from under a marble tile in the Heichal.",
+  "stIntro": "The priest",
+  "chunks": [
+   {
+    "he": "הָיָה מֵבִיא פְיָלִי שֶׁל חֶרֶס חֲדָשָׁה,",
+    "en": "He would bring a new clay cup,",
+    "st": "<b>would bring an earthenware</b> drinking <b>vessel [peyalei] </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he would"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "bring"
+     },
+     {
+      "he": "פְיָלִי",
+      "en": "a cup"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חֶרֶס",
+      "en": "clay"
+     },
+     {
+      "he": "חֲדָשָׁה,",
+      "en": "new"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתֵן לְתוֹכָהּ חֲצִי לֹג",
+    "en": "and put into it half a log",
+    "st": "<b>and he would pour into it half a log </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and puts"
+     },
+     {
+      "he": "לְתוֹכָהּ",
+      "en": "into it"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half"
+     },
+     {
+      "he": "לֹג",
+      "en": "a log",
+      "note": "A measure, about the size of six eggs."
+     }
+    ]
+   },
+   {
+    "he": "מַיִם מִן הַכִּיּוֹר.",
+    "en": "of water from the kiyor.",
+    "st": "<b>of water from the basin</b> in the Temple.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַיִם",
+      "en": "water"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכִּיּוֹר.",
+      "en": "the kiyor",
+      "note": "The copper washing basin in the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b> The priest would pour only",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "רְבִיעִית. כְּשֵׁם שֶׁמְּמַעֵט בַּכְּתָב,",
+    "en": "\"A quarter (of a log).\" Just as he makes the writing less,",
+    "st": "<b>a quarter</b>-log of water. <b>Just as</b> Rabbi Yehuda <b>minimizes the writing,</b>",
+    "stMore": "as he requires that less be written on the scroll of the sota than do the Rabbis,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רְבִיעִית.",
+      "en": "a quarter"
+     },
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁמְּמַעֵט",
+      "en": "that he makes less"
+     },
+     {
+      "he": "בַּכְּתָב,",
+      "en": "in the writing"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ מְמַעֵט בַּמָּיִם.",
+    "en": "so he makes the water less.",
+    "st": "<b>so too he minimizes the</b> amount of <b>water</b>",
+    "stMore": "to be taken from the basin for the erasing of the text.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "מְמַעֵט",
+      "en": "he makes less"
+     },
+     {
+      "he": "בַּמָּיִם.",
+      "en": "in the water"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס לַהֵיכָל וּפָנָה לִימִינוֹ,",
+    "en": "The Kohen went into the Heichal and turned to his right.",
+    "st": "The priest <b>would enter the Sanctuary and turn to his right. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "he went in"
+     },
+     {
+      "he": "לַהֵיכָל",
+      "en": "to the Heichal",
+      "note": "The holy building of the Beis HaMikdash."
+     },
+     {
+      "he": "וּפָנָה",
+      "en": "and turned"
+     },
+     {
+      "he": "לִימִינוֹ,",
+      "en": "to his right"
+     }
+    ]
+   },
+   {
+    "he": "וּמָקוֹם הָיָה שָׁם אַמָּה עַל אַמָּה,",
+    "en": "There was a spot there, an amah by an amah,",
+    "st": "<b>And there was a place there,</b> on the Sanctuary floor, with an area of <b>a cubit by a cubit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמָקוֹם",
+      "en": "and a place"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "אַמָּה",
+      "en": "an amah",
+      "note": "A measure, about the length of an arm."
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "אַמָּה,",
+      "en": "an amah"
+     }
+    ]
+   },
+   {
+    "he": "וְטַבְלָא שֶׁל שַׁיִשׁ,",
+    "en": "with a marble tile,",
+    "st": "<b>and a marble tablet [tavla]</b> was there,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטַבְלָא",
+      "en": "and a tile"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שַׁיִשׁ,",
+      "en": "marble"
+     }
+    ]
+   },
+   {
+    "he": "וְטַבַּעַת הָיְתָה קְבוּעָה בָהּ.",
+    "en": "and a ring was fixed into it.",
+    "st": "<b>and a ring was fastened to</b> the tablet to assist the priest",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטַבַּעַת",
+      "en": "and a ring"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "קְבוּעָה",
+      "en": "fixed"
+     },
+     {
+      "he": "בָהּ.",
+      "en": "in it"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁהוּא מַגְבִּיהָהּ,",
+    "en": "When he lifts it up,",
+    "st": "<b>when</b> he <b>would raise</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁהוּא",
+      "en": "and when he"
+     },
+     {
+      "he": "מַגְבִּיהָהּ,",
+      "en": "lifts it"
+     }
+    ]
+   },
+   {
+    "he": "נוֹטֵל עָפָר מִתַּחְתֶּיהָ וְנוֹתֵן",
+    "en": "he takes earth from under it and puts it in,",
+    "st": "<b>And</b> the priest <b>would take</b> loose <b>dust from underneath it and place</b> the dust into the vessel with the water,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "עָפָר",
+      "en": "earth"
+     },
+     {
+      "he": "מִתַּחְתֶּיהָ",
+      "en": "from under it"
+     },
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and puts"
+     }
+    ]
+   },
+   {
+    "he": "כְּדֵי שֶׁיֵּרָאֶה עַל הַמַּיִם,",
+    "en": "so that it can be seen on the water,",
+    "st": "<b>so that</b> the dust <b>would be visible upon the water, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדֵי",
+      "en": "so"
+     },
+     {
+      "he": "שֶׁיֵּרָאֶה",
+      "en": "that it will be seen"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַמַּיִם,",
+      "en": "the water"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר ה) וּמִן הֶעָפָר",
+    "en": "as the pasuk says, \"And from the earth",
+    "st": "<b>as it is stated:</b> “And the priest shall take holy water in an earthen vessel; <b>and of the dust </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "Bamidbar"
+     },
+     {
+      "he": "ה)",
+      "en": "chapter 5"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הֶעָפָר",
+      "en": "the earth"
+     }
+    ]
+   },
+   {
+    "he": "אֲשֶׁר יִהְיֶה בְּקַרְקַע הַמִּשְׁכָּן יִקַּח",
+    "en": "that is on the floor of the Mishkan,",
+    "st": "<b>that is on the floor of the Tabernacle </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲשֶׁר",
+      "en": "that"
+     },
+     {
+      "he": "יִהְיֶה",
+      "en": "will be"
+     },
+     {
+      "he": "בְּקַרְקַע",
+      "en": "on the floor of"
+     },
+     {
+      "he": "הַמִּשְׁכָּן",
+      "en": "the Mishkan"
+     },
+     {
+      "he": "יִקַּח",
+      "en": "he will take"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּהֵן וְנָתַן אֶל הַמָּיִם:",
+    "en": "the Kohen shall take, and put it into the water.\"",
+    "st": "<b>the priest shall take, and put it into the water”</b> (Numbers 5:17).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּהֵן",
+      "en": "the Kohen"
+     },
+     {
+      "he": "וְנָתַן",
+      "en": "and put"
+     },
+     {
+      "he": "אֶל",
+      "en": "into"
+     },
+     {
+      "he": "הַמָּיִם:",
+      "en": "the water"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "The Kohen writes a special scroll with some of the pesukim about the sotah, to be erased in the water. The Tanna'im argue about which words he writes.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בָּא לוֹ לִכְתֹּב אֶת הַמְּגִלָּה,",
+    "en": "When he comes to write the scroll,",
+    "st": "<b>When</b> the priest <b>comes to write the scroll</b>",
+    "stMore": "of the sota that is to be placed in the water,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "לוֹ",
+      "en": "(for him)"
+     },
+     {
+      "he": "לִכְתֹּב",
+      "en": "to write"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמְּגִלָּה,",
+      "en": "the scroll"
+     }
+    ]
+   },
+   {
+    "he": "מֵאֵיזֶה מָקוֹם הוּא כוֹתֵב,",
+    "en": "from which place does he write?",
+    "st": "<b>from what place</b> in the Torah passage concerning the sota (Numbers 5:11–31) <b>does he write?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאֵיזֶה",
+      "en": "from which"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "כוֹתֵב,",
+      "en": "writes"
+     }
+    ]
+   },
+   {
+    "he": "(במדבר ה) מֵאִם לֹא",
+    "en": "From the pasuk \"If no",
+    "st": "He starts <b>from</b> the verse: <b>“If no </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "(במדבר",
+      "en": "Bamidbar"
+     },
+     {
+      "he": "ה)",
+      "en": "chapter 5"
+     },
+     {
+      "he": "מֵאִם",
+      "en": "from \"if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "שָׁכַב אִישׁ וְגוֹ',",
+    "en": "man was with you,\" and so on,",
+    "st": "<b>man has lain</b>",
+    "stMore": "with you, and if you have not gone astray to defilement while under your husband, you shall be free from this water of bitterness that causes the curse” (Numbers 5:19);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁכַב",
+      "en": "was with (you)"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "man"
+     },
+     {
+      "he": "וְגוֹ',",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "וְאַתְּ כִּי שָׂטִית תַּחַת אִישֵׁךְ וְגוֹ'.",
+    "en": "and \"But if you went astray while married to your husband,\" and so on.",
+    "st": "and continues: <b>“But if you have gone astray while under your husband,</b>",
+    "stMore": "and if you are defiled, and some man has lain with you besides your husband” (Numbers 5:20).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַתְּ",
+      "en": "and you"
+     },
+     {
+      "he": "כִּי",
+      "en": "if"
+     },
+     {
+      "he": "שָׂטִית",
+      "en": "you went astray"
+     },
+     {
+      "he": "תַּחַת",
+      "en": "under"
+     },
+     {
+      "he": "אִישֵׁךְ",
+      "en": "your husband"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ כוֹתֵב וְהִשְׁבִּיעַ הַכֹּהֵן",
+    "en": "He does not write \"And the Kohen shall make",
+    "st": "<b>And</b> then <b>he does not write</b> the beginning of the following verse, which states: <b>“Then the priest shall cause </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "כוֹתֵב",
+      "en": "write"
+     },
+     {
+      "he": "וְהִשְׁבִּיעַ",
+      "en": "and shall make swear"
+     },
+     {
+      "he": "הַכֹּהֵן",
+      "en": "the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "אֶת הָאִשָּׁה וְגוֹ'.",
+    "en": "the woman swear,\" and so on.",
+    "st": "<b>the woman to swear</b>",
+    "stMore": "with the oath of cursing, and the priest shall say to the woman” (Numbers 5:21),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "וְכוֹתֵב יִתֵּן ה' אוֹתָךְ",
+    "en": "But he does write \"Hashem will make you",
+    "st": "<b>but he does write</b> the oath recorded in the continuation of the verse: <b>“The Lord shall make you </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכוֹתֵב",
+      "en": "and he writes"
+     },
+     {
+      "he": "יִתֵּן",
+      "en": "will make"
+     },
+     {
+      "he": "ה'",
+      "en": "Hashem"
+     },
+     {
+      "he": "אוֹתָךְ",
+      "en": "you"
+     }
+    ]
+   },
+   {
+    "he": "לְאָלָה וְלִשְׁבֻעָה וְגוֹ',",
+    "en": "a curse and an oath,\" and so on,",
+    "st": "<b>a curse and an oath</b>",
+    "stMore": "among your people when the Lord will cause your thigh to fall away, and your belly to swell.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאָלָה",
+      "en": "a curse"
+     },
+     {
+      "he": "וְלִשְׁבֻעָה",
+      "en": "and an oath"
+     },
+     {
+      "he": "וְגוֹ',",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "וּבָאוּ הַמַּיִם הַמְאָרְרִים הָאֵלֶּה בְּמֵעַיִךְ",
+    "en": "\"And this water that brings the curse will go into your insides",
+    "st": "<b>And this water that causes the curse shall go into your bowels, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָאוּ",
+      "en": "and will come"
+     },
+     {
+      "he": "הַמַּיִם",
+      "en": "the water"
+     },
+     {
+      "he": "הַמְאָרְרִים",
+      "en": "that brings the curse"
+     },
+     {
+      "he": "הָאֵלֶּה",
+      "en": "these"
+     },
+     {
+      "he": "בְּמֵעַיִךְ",
+      "en": "into your insides"
+     }
+    ]
+   },
+   {
+    "he": "לַצְבּוֹת בֶּטֶן וְלַנְפִּל יָרֵךְ.",
+    "en": "to make the stomach swell and the thigh fall.\"",
+    "st": "<b>and cause your belly to swell, and your thigh to fall away”</b> (Numbers 5:21–22);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַצְבּוֹת",
+      "en": "to make swell"
+     },
+     {
+      "he": "בֶּטֶן",
+      "en": "stomach"
+     },
+     {
+      "he": "וְלַנְפִּל",
+      "en": "and to make fall"
+     },
+     {
+      "he": "יָרֵךְ.",
+      "en": "thigh"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ כוֹתֵב וְאָמְרָה הָאִשָּׁה אָמֵן אָמֵן.",
+    "en": "But he does not write \"And the woman shall say, Amen, amen.\"",
+    "st": "<b>but he does not write</b> the conclusion of the verse: <b>“And the woman shall say: Amen, amen”</b> (Numbers 5:22).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "כוֹתֵב",
+      "en": "write"
+     },
+     {
+      "he": "וְאָמְרָה",
+      "en": "and shall say"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "אָמֵן.",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says,",
+    "st": "<b>Rabbi Yosei says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיָה מַפְסִיק.",
+    "en": "He did not skip anything.",
+    "st": "<b>He does not interrupt</b>",
+    "stMore": "the verses but rather writes the entire passage without any omissions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מַפְסִיק.",
+      "en": "skipping"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּל עַצְמוֹ אֵינוֹ כוֹתֵב,",
+    "en": "He writes nothing at all",
+    "st": "<b>He writes nothing other</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anything"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "at all"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "כוֹתֵב,",
+      "en": "write"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא יִתֵּן ה' אוֹתָךְ לְאָלָה",
+    "en": "except \"Hashem will make you a curse",
+    "st": "than curses recorded in the final verses cited above: <b>“The Lord shall make you a curse </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "יִתֵּן",
+      "en": "will make"
+     },
+     {
+      "he": "ה'",
+      "en": "Hashem"
+     },
+     {
+      "he": "אוֹתָךְ",
+      "en": "you"
+     },
+     {
+      "he": "לְאָלָה",
+      "en": "a curse"
+     }
+    ]
+   },
+   {
+    "he": "וְלִשְׁבֻעָה וְגוֹ' וּבָאוּ הַמַּיִם הַמְאָרְרִים",
+    "en": "and an oath,\" and so on, \"And this water that brings the curse",
+    "st": "<b>and an oath</b> among your people when the Lord will cause your thigh to fall away, and your belly to swell. <b>And this water that causes the curse </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלִשְׁבֻעָה",
+      "en": "and an oath"
+     },
+     {
+      "he": "וְגוֹ'",
+      "en": "and so on"
+     },
+     {
+      "he": "וּבָאוּ",
+      "en": "and will come"
+     },
+     {
+      "he": "הַמַּיִם",
+      "en": "the water"
+     },
+     {
+      "he": "הַמְאָרְרִים",
+      "en": "that brings the curse"
+     }
+    ]
+   },
+   {
+    "he": "הָאֵלֶּה בְּמֵעַיִךְ וְגוֹ'.",
+    "en": "will go into your insides,\" and so on.",
+    "st": "<b>shall go into your bowels,</b>",
+    "stMore": "and cause your belly to swell, and your thigh to fall away.”",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאֵלֶּה",
+      "en": "these"
+     },
+     {
+      "he": "בְּמֵעַיִךְ",
+      "en": "into your insides"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ כוֹתֵב וְאָמְרָה הָאִשָּׁה אָמֵן אָמֵן:",
+    "en": "And he does not write \"And the woman shall say, Amen, amen.\"",
+    "st": "<b>And he does not write</b> the conclusion of the verse: <b>“And the woman shall say: Amen, amen.”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "כוֹתֵב",
+      "en": "write"
+     },
+     {
+      "he": "וְאָמְרָה",
+      "en": "and shall say"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "אָמֵן:",
+      "en": "amen"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "The scroll of the sotah must be written on parchment with ink that can be erased, because the Torah says it must be \"in a book\" and then erased.",
+  "stIntro": "The priest",
+  "chunks": [
+   {
+    "he": "אֵינוֹ כוֹתֵב לֹא עַל הַלּוּחַ וְלֹא",
+    "en": "He does not write it on a board, nor",
+    "st": "<b>does not write</b> the scroll of the sota <b>upon</b> a wooden <b>tablet, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "כוֹתֵב",
+      "en": "write"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַלּוּחַ",
+      "en": "the board"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "עַל הַנְּיָר וְלֹא עַל הַדִּפְתְּרָא,",
+    "en": "on paper, nor on diftera,",
+    "st": "<b>and not upon paper</b> made from grass, <b>and not upon diftera,</b>",
+    "stMore": "a hide that is only partially processed, as it is salted and treated with flour but not gallnuts;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַנְּיָר",
+      "en": "the paper"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַדִּפְתְּרָא,",
+      "en": "the diftera",
+      "note": "Animal skin that was not fully made into parchment."
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַל הַמְּגִלָּה,",
+    "en": "but only on a scroll,",
+    "st": "<b>rather,</b> it must be written only <b>on a scroll</b> of parchment,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but only"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַמְּגִלָּה,",
+      "en": "the scroll"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם) בַּסֵּפֶר.",
+    "en": "as the pasuk says, \"in a book.\"",
+    "st": "<b>as</b> it <b>is stated:</b> “And the priest shall write these curses <b>in a scroll”</b> (Numbers 5:23).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שם)",
+      "en": "there"
+     },
+     {
+      "he": "בַּסֵּפֶר.",
+      "en": "in the book"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ כוֹתֵב לֹא בְקוֹמוֹס וְלֹא",
+    "en": "And he does not write with komos, nor",
+    "st": "<b>And</b> the scribe <b>may not write with gum [komos], </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "כוֹתֵב",
+      "en": "write"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בְקוֹמוֹס",
+      "en": "with komos",
+      "note": "A kind of gum."
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "בְקַנְקַנְתּוֹם וְלֹא בְכָל דָּבָר שֶׁרוֹשֵׁם,",
+    "en": "with kankantom, nor with anything that leaves a mark,",
+    "st": "<b>and not with iron sulfate [kankantom], nor with any substance that makes a mark</b> and cannot be completely erased,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְקַנְקַנְתּוֹם",
+      "en": "with kankantom",
+      "note": "A kind of dye that can't be erased."
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְכָל",
+      "en": "with any"
+     },
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "שֶׁרוֹשֵׁם,",
+      "en": "that marks"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא בִדְיוֹ,",
+    "en": "but only with ink,",
+    "st": "<b>but</b> only <b>with ink</b> made from soot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but only"
+     },
+     {
+      "he": "בִדְיוֹ,",
+      "en": "with ink"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם) וּמָחָה,",
+    "en": "as the pasuk says, \"And he shall erase,\"",
+    "st": "<b>as it is stated</b> in the continuation of the same verse: <b>“And he shall blot</b>",
+    "stMore": "them out into the water of bitterness” (Numbers 5:23).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שם)",
+      "en": "there"
+     },
+     {
+      "he": "וּמָחָה,",
+      "en": "and he shall erase"
+     }
+    ]
+   },
+   {
+    "he": "כְּתָב שֶׁיָּכוֹל לְהִמָּחֵק:",
+    "en": "which means writing that can be erased.",
+    "st": "This indicates that the scroll must be written with <b>a writing that can be erased</b> in water.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּתָב",
+      "en": "writing"
+     },
+     {
+      "he": "שֶׁיָּכוֹל",
+      "en": "that can"
+     },
+     {
+      "he": "לְהִמָּחֵק:",
+      "en": "be erased"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "The woman answers \"Amen, amen\" to the oath. The mishnah explains everything that her \"amen\" includes.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עַל מַה הִיא אוֹמֶרֶת אָמֵן אָמֵן.",
+    "en": "About what does she say \"Amen, amen\"?",
+    "st": "<b>With regard to what does she say: “Amen, amen”</b>",
+    "stMore": "(Number 5:22), twice, as recorded in the verse? The mishna explains that it includes of the following:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "אָמֵן.",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "אָמֵן עַל הָאָלָה,",
+    "en": "Amen on the curse,",
+    "st": "<b>Amen on the curse,</b>",
+    "stMore": "as she accepts the curse upon herself if she is guilty,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָאָלָה,",
+      "en": "the curse"
+     }
+    ]
+   },
+   {
+    "he": "אָמֵן עַל הַשְּׁבוּעָה.",
+    "en": "amen on the oath.",
+    "st": "and <b>amen on the oath,</b> as she declares that she is not defiled.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַשְּׁבוּעָה.",
+      "en": "the oath"
+     }
+    ]
+   },
+   {
+    "he": "אָמֵן מֵאִישׁ זֶה,",
+    "en": "Amen about this man,",
+    "st": "She states: <b>Amen</b> if I committed adultery <b>with this man</b> about whom I was warned,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "מֵאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "אָמֵן מֵאִישׁ אַחֵר.",
+    "en": "amen about another man.",
+    "st": "<b>amen</b> if I committed adultery <b>with another man. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "מֵאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "אַחֵר.",
+      "en": "other"
+     }
+    ]
+   },
+   {
+    "he": "אָמֵן שֶׁלֹּא שָׂטִיתִי אֲרוּסָה",
+    "en": "Amen that I did not go astray when I was engaged,",
+    "st": "<b>Amen that I did not stray</b> when I was <b>betrothed </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "שָׂטִיתִי",
+      "en": "I went astray"
+     },
+     {
+      "he": "אֲרוּסָה",
+      "en": "engaged",
+      "note": "Arusah: after kiddushin, before the chuppah."
+     }
+    ]
+   },
+   {
+    "he": "וּנְשׂוּאָה וְשׁוֹמֶרֶת יָבָם וּכְנוּסָה,",
+    "en": "or married, or waiting for yibum, or married through yibum.",
+    "st": "<b>nor</b> after I was <b>married, nor as a widow waiting for my yavam</b> to perform levirate marriage, since a woman at that stage is prohibited from engaging in sexual intercourse with any men, <b>nor</b> when <b>married</b> through levirate marriage to the yavam;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּנְשׂוּאָה",
+      "en": "and married"
+     },
+     {
+      "he": "וְשׁוֹמֶרֶת",
+      "en": "and waiting for"
+     },
+     {
+      "he": "יָבָם",
+      "en": "a yavam",
+      "note": "Her late husband's brother, who may marry her through yibum."
+     },
+     {
+      "he": "וּכְנוּסָה,",
+      "en": "and taken in"
+     }
+    ]
+   },
+   {
+    "he": "אָמֵן שֶׁלֹּא נִטְמֵאתִי.",
+    "en": "Amen that I did not become tamei.",
+    "st": "<b>amen that I did not become defiled, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִטְמֵאתִי.",
+      "en": "I became tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם נִטְמֵאתִי,",
+    "en": "And if I did become tamei,",
+    "st": "<b>and if I did become defiled, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "נִטְמֵאתִי,",
+      "en": "I became tamei"
+     }
+    ]
+   },
+   {
+    "he": "יָבֹאוּ בִי.",
+    "en": "let them (the curses) come upon me.",
+    "st": "<b>may</b> all these curses <b>come upon me. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבֹאוּ",
+      "en": "let them come"
+     },
+     {
+      "he": "בִי.",
+      "en": "upon me"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says</b> that “amen, amen” means:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אָמֵן שֶׁלֹּא נִטְמֵאתִי,",
+    "en": "Amen that I did not become tamei (before),",
+    "st": "<b>Amen that I did not become defiled</b> in the past,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִטְמֵאתִי,",
+      "en": "I became tamei"
+     }
+    ]
+   },
+   {
+    "he": "אָמֵן שֶׁלֹּא אֶטָּמֵא:",
+    "en": "amen that I will not become tamei (later).",
+    "st": "<b>amen that I will not become defiled</b> in the future.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמֵן",
+      "en": "amen"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "אֶטָּמֵא:",
+      "en": "I will become tamei"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 6,
+  "summary": "The husband cannot add to her oath things from before she married him or after a divorce. The rule: he can only add things that would make her forbidden to him.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַכֹּל שָׁוִין שֶׁאֵינוֹ מַתְנֶה עִמָּהּ",
+    "en": "All agree that he does not add to her oath",
+    "st": "<b>All agree that he may stipulate with her</b> through this oath",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "שָׁוִין",
+      "en": "agree"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he does not"
+     },
+     {
+      "he": "מַתְנֶה",
+      "en": "make a condition"
+     },
+     {
+      "he": "עִמָּהּ",
+      "en": "with her"
+     }
+    ]
+   },
+   {
+    "he": "לֹא עַל קֹדֶם שֶׁתִּתְאָרֵס וְלֹא",
+    "en": "about the time before she was engaged to him, nor",
+    "st": "<b>neither with regard to</b> what she did <b>before becoming be-trothed</b> to him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "קֹדֶם",
+      "en": "before"
+     },
+     {
+      "he": "שֶׁתִּתְאָרֵס",
+      "en": "that she got engaged"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "עַל מֵאַחַר שֶׁתִּתְגָּרֵשׁ.",
+    "en": "about the time after she is divorced.",
+    "st": "<b>nor with regard to</b> what she will do <b>after she becomes divorced</b>",
+    "stMore": "from him. Similarly, if a husband divorced his wife, and while divorced",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "מֵאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שֶׁתִּתְגָּרֵשׁ.",
+      "en": "that she is divorced"
+     }
+    ]
+   },
+   {
+    "he": "נִסְתְּרָה לְאַחֵר וְנִטְמֵאת וְאַחַר כָּךְ הֶחֱזִירָהּ,",
+    "en": "If (while divorced) she was alone with another man and became tamei, and then he took her back,",
+    "st": "<b>she secluded herself</b> with another man <b>and became defiled, and afterward</b> her husband <b>took her back</b>",
+    "stMore": "and remarried her, and he then warned her about a specific man, and she secluded herself, and she is now about to drink the water of the sota,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִסְתְּרָה",
+      "en": "she was alone"
+     },
+     {
+      "he": "לְאַחֵר",
+      "en": "with another"
+     },
+     {
+      "he": "וְנִטְמֵאת",
+      "en": "and became tamei"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "הֶחֱזִירָהּ,",
+      "en": "he took her back"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיָה מַתְנֶה עִמָּהּ.",
+    "en": "he could not add that to her oath.",
+    "st": "<b>he cannot stipulate with her</b>",
+    "stMore": "that she take an oath that she did not become defiled during the period in which she was divorced. This is because her husband would become forbidden to her only if she had married another man after being divorced, not if she merely committed an act of promiscuity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מַתְנֶה",
+      "en": "making a condition"
+     },
+     {
+      "he": "עִמָּהּ.",
+      "en": "with her"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁתִּבָּעֵל וְלֹא הָיְתָה אֲסוּרָה לוֹ,",
+    "en": "Anything she did that would not make her forbidden to him,",
+    "st": "In <b>every</b> case <b>where</b> if <b>she would engage in sexual intercourse</b> with someone else <b>she would not become forbidden to</b> her husband due to this act,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁתִּבָּעֵל",
+      "en": "that she would sin"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "she would be"
+     },
+     {
+      "he": "אֲסוּרָה",
+      "en": "forbidden"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיָה מַתְנֶה עִמָּהּ:",
+    "en": "he does not add to her oath.",
+    "st": "<b>he may not stipulate with her</b>",
+    "stMore": "that her oath include that act. The oath can include only cases in which she would be rendered forbidden to him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מַתְנֶה",
+      "en": "making a condition"
+     },
+     {
+      "he": "עִמָּהּ:",
+      "en": "with her"
+     }
+    ]
+   }
+  ]
+ }
+]

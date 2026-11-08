@@ -1,0 +1,4768 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "What if witnesses say a person ate chelev by mistake? It depends on how many witnesses there are and whether he agrees. Rabbi Meir and the Sages argue about one case.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמְרוּ לוֹ אָכַלְתָּ חֵלֶב,",
+    "en": "If people told him, \"You ate chelev,\"",
+    "st": "If witnesses <b>said to</b> a person: We saw that <b>you ate</b> forbidden <b>fat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אָכַלְתָּ",
+      "en": "you ate"
+     },
+     {
+      "he": "חֵלֶב,",
+      "en": "chelev"
+     }
+    ]
+   },
+   {
+    "he": "מֵבִיא חַטָּאת.",
+    "en": "he brings a chatas.",
+    "st": "he is liable to <b>bring a sin offering</b> if he did so unwittingly.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵבִיא",
+      "en": "brings"
+     },
+     {
+      "he": "חַטָּאת.",
+      "en": "a chatas"
+     }
+    ]
+   },
+   {
+    "he": "עֵד אוֹמֵר אָכַל וְעֵד",
+    "en": "If one witness says he ate, and another witness",
+    "st": "If <b>a witness says: He ate</b> forbidden fat, <b>and a witness</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אָכַל",
+      "en": "he ate"
+     },
+     {
+      "he": "וְעֵד",
+      "en": "and a witness"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֵר לֹא אָכַל,",
+    "en": "says he did not eat,",
+    "st": "<b>says: He did not eat</b> forbidden fat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָכַל,",
+      "en": "he ate"
+     }
+    ]
+   },
+   {
+    "he": "אִשָּׁה אוֹמֶרֶת אָכַל וְאִשָּׁה",
+    "en": "or one woman says he ate, and another woman",
+    "st": "or if <b>a woman says: He ate</b> forbidden fat, <b>and a woman</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "אָכַל",
+      "en": "he ate"
+     },
+     {
+      "he": "וְאִשָּׁה",
+      "en": "and a woman"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֶרֶת לֹא אָכַל,",
+    "en": "says he did not eat,",
+    "st": "<b>says: He did not eat</b> forbidden fat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָכַל,",
+      "en": "he ate"
+     }
+    ]
+   },
+   {
+    "he": "מֵבִיא אָשָׁם תָּלוּי.",
+    "en": "he brings an asham taluy.",
+    "st": "he is liable to <b>bring a provisional guilt offering,</b>",
+    "stMore": "brought by one who is uncertain as to whether he committed a sin that requires a sin offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵבִיא",
+      "en": "brings"
+     },
+     {
+      "he": "אָשָׁם",
+      "en": "an asham"
+     },
+     {
+      "he": "תָּלוּי.",
+      "en": "taluy",
+      "note": "Brought when one is not sure he sinned."
+     }
+    ]
+   },
+   {
+    "he": "עֵד אוֹמֵר אָכַל וְהוּא",
+    "en": "If one witness says he ate, and he himself",
+    "st": "If <b>a witness says: He ate</b> forbidden fat, <b>and</b> the person himself",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אָכַל",
+      "en": "he ate"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֵר לֹא אָכַלְתִּי,",
+    "en": "says, \"I did not eat,\"",
+    "st": "<b>says: I did not eat</b> forbidden fat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָכַלְתִּי,",
+      "en": "I ate"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. שְׁנַיִם אוֹמְרִים אָכַל וְהוּא",
+    "en": "he is free. If two witnesses say he ate, and he himself",
+    "st": "he is <b>exempt.</b> If <b>two</b> witnesses <b>say: He ate</b> forbidden fat, <b>and</b> the person himself",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is free"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "say"
+     },
+     {
+      "he": "אָכַל",
+      "en": "he ate"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֵר לֹא אָכַלְתִּי,",
+    "en": "says, \"I did not eat,\"",
+    "st": "<b>says: I did not eat</b> forbidden fat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָכַלְתִּי,",
+      "en": "I ate"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר מְחַיֵּב.",
+    "en": "Rabbi Meir says he must bring a korban.",
+    "st": "<b>Rabbi Meir deems</b> him <b>liable</b> to bring a sin offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "מְחַיֵּב.",
+      "en": "makes him liable"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי מֵאִיר,",
+    "en": "Rabbi Meir said,",
+    "st": "<b>Rabbi Meir said:</b>",
+    "stMore": "This conclusion can be derived a fortiori:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר,",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "אִם הֱבִיאוּהוּ שְׁנַיִם לְמִיתָה חֲמוּרָה,",
+    "en": "\"If two witnesses can bring him to the harsh punishment of death,",
+    "st": "<b>If two</b> witnesses could have <b>brought him</b> liability <b>to</b> receive the <b>severe</b> punishment of <b>death,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הֱבִיאוּהוּ",
+      "en": "they brought him"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "לְמִיתָה",
+      "en": "to death"
+     },
+     {
+      "he": "חֲמוּרָה,",
+      "en": "harsh"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יְבִיאוּהוּ לְקָרְבָּן הַקַּל.",
+    "en": "can't they bring him to a korban, which is lighter?\"",
+    "st": "can <b>they not bring him</b> liability <b>to</b> sacrifice <b>an offering, which is</b> relatively <b>lenient?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יְבִיאוּהוּ",
+      "en": "they will bring him"
+     },
+     {
+      "he": "לְקָרְבָּן",
+      "en": "to a korban"
+     },
+     {
+      "he": "הַקַּל.",
+      "en": "the light one"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to him:</b>",
+    "stMore": "Witnesses are unable to render another person liable to bring an offering contrary to his statement,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מָה אִם יִרְצֶה לוֹמַר מֵזִיד הָיִיתִי:",
+    "en": "\"What if he wants to say, 'I did it on purpose'?\"",
+    "explain": "Then he would not bring a korban at all.",
+    "st": "as <b>what if he wishes to say: I did</b> so <b>intentionally,</b> in which case he would be <b>exempt</b> from bringing an offering?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יִרְצֶה",
+      "en": "he wants"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "מֵזִיד",
+      "en": "on purpose"
+     },
+     {
+      "he": "הָיִיתִי:",
+      "en": "I was"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "When does one who eats forbidden foods bring one chatas, and when does he bring many? It depends on whether he ate one kind or many kinds.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָכַל חֵלֶב וְחֵלֶב בְּהֶעְלֵם אֶחָד,",
+    "en": "If he ate chelev and more chelev in one time of forgetting,",
+    "explain": "He did not find out in between that it was forbidden.",
+    "st": "If one unwittingly <b>ate</b> an olive-bulk of forbidden <b>fat and</b> then ate another olive-bulk of forbidden <b>fat during one lapse of awareness,</b>",
+    "stMore": "i.e., in a case where he did not discover in the interim that fat is forbidden, or that the food he is eating is forbidden fat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָכַל",
+      "en": "he ate"
+     },
+     {
+      "he": "חֵלֶב",
+      "en": "chelev"
+     },
+     {
+      "he": "וְחֵלֶב",
+      "en": "and chelev"
+     },
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב אֶלָּא חַטָּאת אֶחָת.",
+    "en": "he brings only one chatas.",
+    "st": "<b>he is liable</b> to bring <b>only one</b> sin offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "liable"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "אֶחָת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אָכַל חֵלֶב וְדָם וְנוֹתָר",
+    "en": "If he ate chelev, blood, nosar,",
+    "st": "If one <b>ate</b> forbidden <b>fat, and blood,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָכַל",
+      "en": "he ate"
+     },
+     {
+      "he": "חֵלֶב",
+      "en": "chelev"
+     },
+     {
+      "he": "וְדָם",
+      "en": "and blood"
+     },
+     {
+      "he": "וְנוֹתָר",
+      "en": "and nosar"
+     }
+    ]
+   },
+   {
+    "he": "וּפִגּוּל בְּהֶעְלֵם אֶחָד,",
+    "en": "and piggul in one time of forgetting,",
+    "st": "<b>and piggul, and notar in one lapse of awareness,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפִגּוּל",
+      "en": "and piggul"
+     },
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל כָּל אֶחָד וְאֶחָד.",
+    "en": "he must bring a chatas for each one.",
+    "st": "he is <b>liable</b> to bring a sin offering <b>for each and every one</b> of them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "זֶה חֹמֶר בְּמִינִין הַרְבֵּה מִמִּין אֶחָד.",
+    "en": "This is a stricter rule for many kinds than for one kind.",
+    "st": "<b>This is a stringency</b> that applies <b>to</b> one who eats <b>several types</b> of forbidden food and does not apply to one who eats <b>one type</b> of forbidden food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "חֹמֶר",
+      "en": "a strictness"
+     },
+     {
+      "he": "בְּמִינִין",
+      "en": "with kinds"
+     },
+     {
+      "he": "הַרְבֵּה",
+      "en": "many"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "than one kind"
+     },
+     {
+      "he": "אֶחָד.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְחֹמֶר בְּמִין אֶחָד מִמִּינִין הַרְבֵּה,",
+    "en": "And there is a stricter rule for one kind than for many kinds:",
+    "st": "<b>And a stringency</b> that applies <b>to</b> one who eats <b>one type</b> of forbidden food and not to one who eats <b>several types</b> of forbidden food is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֹמֶר",
+      "en": "and a strictness"
+     },
+     {
+      "he": "בְּמִין",
+      "en": "with a kind"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִמִּינִין",
+      "en": "than kinds"
+     },
+     {
+      "he": "הַרְבֵּה,",
+      "en": "many"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם אָכַל כַּחֲצִי זַיִת וְחָזַר",
+    "en": "if he ate half a kezayis and then",
+    "st": "<b>that if one ate half an olive-bulk and then</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "אָכַל",
+      "en": "he ate"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "וְחָזַר",
+      "en": "and again"
+     }
+    ]
+   },
+   {
+    "he": "וְאָכַל כַּחֲצִי זַיִת מִמִּין אֶחָד,",
+    "en": "ate another half a kezayis of the same kind,",
+    "st": "<b>ate another half an olive-bulk during one lapse of awareness,</b> in a case where they were both <b>from one type</b> of forbidden food,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָכַל",
+      "en": "and he ate"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "of a kind"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. מִשְּׁנֵי מִינִין, פָּטוּר:",
+    "en": "he is liable. If from two kinds, he is free.",
+    "st": "he is <b>liable</b> to bring a sin offering. If they were <b>from two types,</b> he is <b>exempt,</b>",
+    "stMore": "because he did not eat an olive-bulk of any specific forbidden food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is liable"
+     },
+     {
+      "he": "מִשְּׁנֵי",
+      "en": "from two"
+     },
+     {
+      "he": "מִינִין,",
+      "en": "kinds"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "he is free"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "How slowly can a person eat a forbidden food and still be punished? Rabbi Meir and the Sages argue. The same time counts for tamei foods and for drinking wine before going into the Beis HaMikdash.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְכַמָּה יִשְׁהֶה הָאוֹכְלָן.",
+    "en": "How long may one take while eating them?",
+    "st": "<b>How much</b> time <b>can one expend</b> while eating an olive-bulk <b>of</b> forbidden <b>food</b> and still be liable for violating the prohibition?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "יִשְׁהֶה",
+      "en": "may he take"
+     },
+     {
+      "he": "הָאוֹכְלָן.",
+      "en": "the one who eats them"
+     }
+    ]
+   },
+   {
+    "he": "כְּאִלּוּ אֲכָלָן קְלָיוֹת,",
+    "en": "As long as it takes to eat roasted grain,",
+    "explain": "One kernel at a time.",
+    "st": "The duration is calculated <b>as though he were eating toasted grain,</b>",
+    "stMore": "which one eats one kernel at a time. If he eats the olive-bulk of forbidden food within the amount of time it would take to eat an olive-bulk of toasted grain, he is liable.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "אֲכָלָן",
+      "en": "he ate them"
+     },
+     {
+      "he": "קְלָיוֹת,",
+      "en": "roasted grains"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "This is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּשְׁהֶה מִתְּחִלָּה וְעַד",
+    "en": "as long as the time from start",
+    "st": "<b>Unless</b> the amount of time <b>he expends from beginning to</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּשְׁהֶה",
+      "en": "he takes"
+     },
+     {
+      "he": "מִתְּחִלָּה",
+      "en": "from the start"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     }
+    ]
+   },
+   {
+    "he": "סוֹף כְּדֵי אֲכִילַת פְּרָס.",
+    "en": "to end is the time it takes to eat a peras.",
+    "st": "<b>end</b> is more than the time it takes <b>to eat a half-loaf [peras]</b> of bread, he is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוֹף",
+      "en": "the end"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "the amount of"
+     },
+     {
+      "he": "אֲכִילַת",
+      "en": "eating"
+     },
+     {
+      "he": "פְּרָס.",
+      "en": "a peras",
+      "note": "Half of a loaf of bread."
+     }
+    ]
+   },
+   {
+    "he": "אָכַל אֳכָלִין טְמֵאִין,",
+    "en": "If one ate tamei foods,",
+    "st": "Likewise, one who <b>ate</b> a quarter-loaf of <b>ritually impure foods</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָכַל",
+      "en": "he ate"
+     },
+     {
+      "he": "אֳכָלִין",
+      "en": "foods"
+     },
+     {
+      "he": "טְמֵאִין,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁתָה מַשְׁקִין טְמֵאִין,",
+    "en": "or drank tamei drinks,",
+    "st": "<b>or drank</b> a quarter-log of <b>ritually impure liquids</b>",
+    "stMore": "within the amount of time it takes to eat a half-loaf of bread is rendered unfit to partake of teruma, the portion of the produce designated for priests, until he becomes pure.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁתָה",
+      "en": "and drank"
+     },
+     {
+      "he": "מַשְׁקִין",
+      "en": "drinks"
+     },
+     {
+      "he": "טְמֵאִין,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "שָׁתָה רְבִיעִית יַיִן וְנִכְנַס לַמִּקְדָּשׁ,",
+    "en": "or drank a revi'is of wine and went into the Beis HaMikdash,",
+    "st": "Similarly, if one <b>drank a quarter</b>-<b>log of wine and entered the Temple,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁתָה",
+      "en": "he drank"
+     },
+     {
+      "he": "רְבִיעִית",
+      "en": "a revi'is",
+      "note": "A small amount, about one cup."
+     },
+     {
+      "he": "יַיִן",
+      "en": "wine"
+     },
+     {
+      "he": "וְנִכְנַס",
+      "en": "and went in"
+     },
+     {
+      "he": "לַמִּקְדָּשׁ,",
+      "en": "to the Mikdash"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁהָה כְּדֵי אֲכִילַת פְּרָס.",
+    "en": "and stayed there as long as it takes to eat a peras, he is liable.",
+    "st": "<b>and he remained</b> there for the time it takes <b>to eat a half-loaf</b> of bread, he is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁהָה",
+      "en": "and stayed"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "the amount of"
+     },
+     {
+      "he": "אֲכִילַת",
+      "en": "eating"
+     },
+     {
+      "he": "פְּרָס.",
+      "en": "a peras"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Elazar says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם הִפְסִיק בָּהּ אוֹ שֶׁנָּתַן",
+    "en": "if he stopped in the middle, or if he put",
+    "st": "<b>If he interrupted</b> his drinking of the quarter-log of wine <b>or if he placed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הִפְסִיק",
+      "en": "he stopped"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁנָּתַן",
+      "en": "that he put"
+     }
+    ]
+   },
+   {
+    "he": "לְתוֹכוֹ מַיִם כָּל שֶׁהוּא, פָּטוּר:",
+    "en": "even a little water into it, he is free.",
+    "st": "<b>any amount of water into</b> the wine, he is <b>exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "מַיִם",
+      "en": "water"
+     },
+     {
+      "he": "כָּל",
+      "en": "any amount"
+     },
+     {
+      "he": "שֶׁהוּא,",
+      "en": "at all"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "he is free"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "One bite of food can make a person bring four chataos and one asham. Rabbi Meir says that on Shabbos it could be even more.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יֵשׁ אוֹכֵל אֲכִילָה אַחַת וְחַיָּב",
+    "en": "A person can eat one time and must bring",
+    "st": "<b>There is</b> a case where one can perform <b>a single</b> act of <b>eating</b> an olive-bulk of food <b>and</b> be <b>liable</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "אוֹכֵל",
+      "en": "one who eats"
+     },
+     {
+      "he": "אֲכִילָה",
+      "en": "an eating"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְחַיָּב",
+      "en": "and he is liable"
+     }
+    ]
+   },
+   {
+    "he": "עָלֶיהָ אַרְבַּע חַטָּאוֹת וְאָשָׁם אֶחָד.",
+    "en": "four chataos and one asham for it.",
+    "st": "to bring <b>four sin offerings and one guilt offering for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָלֶיהָ",
+      "en": "for it"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "חַטָּאוֹת",
+      "en": "chataos"
+     },
+     {
+      "he": "וְאָשָׁם",
+      "en": "and an asham"
+     },
+     {
+      "he": "אֶחָד.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא שֶׁאָכַל אֶת הַחֵלֶב,",
+    "en": "One who was tamei and ate chelev,",
+    "st": "How so? This halakha applies to one who is <b>ritually impure who ate</b> forbidden <b>fat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "שֶׁאָכַל",
+      "en": "who ate"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחֵלֶב,",
+      "en": "the chelev"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה נוֹתָר,",
+    "en": "and it was nosar,",
+    "st": "<b>and it was left over</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and it was"
+     },
+     {
+      "he": "נוֹתָר,",
+      "en": "nosar"
+     }
+    ]
+   },
+   {
+    "he": "מִן מֻקְדָּשִׁים,",
+    "en": "from korbanos,",
+    "st": "<b>from a consecrated</b> offering after the time allotted for its consumption <b>[notar],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "מֻקְדָּשִׁים,",
+      "en": "korbanos"
+     }
+    ]
+   },
+   {
+    "he": "וּבְיוֹם הַכִּפּוּרִים.",
+    "en": "and it was Yom Kippur.",
+    "st": "<b>on Yom Kippur.</b>",
+    "stMore": "He is liable to bring sin offerings for eating forbidden fat and notar, for eating the meat of an offering while impure, and for eating on Yom Kippur. He is also liable to bring a guilt offering for misuse of consecrated property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְיוֹם",
+      "en": "and on the day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים.",
+      "en": "Kippur"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיְתָה שַׁבָּת וְהוֹצִיאוֹ בְפִיו,",
+    "en": "if it was Shabbos and he carried it out in his mouth,",
+    "st": "<b>If it was Shabbat and he carried it out</b> from a private domain to a public domain while eating it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "it was"
+     },
+     {
+      "he": "שַׁבָּת",
+      "en": "Shabbos"
+     },
+     {
+      "he": "וְהוֹצִיאוֹ",
+      "en": "and he carried it out"
+     },
+     {
+      "he": "בְפִיו,",
+      "en": "in his mouth"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. אָמְרוּ לוֹ,",
+    "en": "he is liable for one more. They said to him,",
+    "st": "he would be <b>liable</b> to bring an additional sin offering for performing prohibited labor on Shabbat. The Rabbis <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is liable"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מִן הַשֵּׁם:",
+    "en": "\"That is not the same kind of sin.\"",
+    "st": "That liability <b>is not from the</b> same <b>type</b> of prohibition, as it is not due to the act of eating, and therefore, it should not be counted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשֵּׁם:",
+      "en": "the name (same kind)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "One forbidden act can make a person bring six chataos, if the woman is forbidden to him in many ways at once.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יֵשׁ בָּא בִיאָה אַחַת",
+    "en": "A person can do one forbidden act",
+    "st": "<b>There is</b> a case where <b>one</b> can <b>engage in a single</b> act of <b>intercourse</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בָּא",
+      "en": "who comes"
+     },
+     {
+      "he": "בִיאָה",
+      "en": "a coming"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּב עָלֶיהָ שֵׁשׁ חַטָּאוֹת.",
+    "en": "and must bring six chataos for it.",
+    "st": "<b>and</b> be <b>liable</b> to bring <b>six sin offerings for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּב",
+      "en": "and he is liable"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for it"
+     },
+     {
+      "he": "שֵׁשׁ",
+      "en": "six"
+     },
+     {
+      "he": "חַטָּאוֹת.",
+      "en": "chataos"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל בִּתּוֹ,",
+    "en": "One who sins with his daughter",
+    "st": "<b>How so?</b> It is possible for <b>one who engages in intercourse with his daughter</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "בִּתּוֹ,",
+      "en": "his daughter"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלֶיהָ מִשּׁוּם בִּתּוֹ וַאֲחוֹתוֹ",
+    "en": "must bring for her because she is his daughter, his sister,",
+    "st": "to be <b>liable due to</b> having violated the prohibitions of engaging in intercourse with <b>his daughter, his sister,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "בִּתּוֹ",
+      "en": "his daughter"
+     },
+     {
+      "he": "וַאֲחוֹתוֹ",
+      "en": "and his sister"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵשֶׁת אָחִיו וְאֵשֶׁת אֲחִי אָבִיו",
+    "en": "his brother's wife, his father's brother's wife,",
+    "st": "<b>the wife of his brother, the wife of his father’s brother,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אֲחִי",
+      "en": "the brother of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵשֶׁת אִישׁ וְנִדָּה.",
+    "en": "a married woman, and a niddah.",
+    "st": "<b>a married woman, and a menstruating woman.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "וְנִדָּה.",
+      "en": "and a niddah"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבָּא עַל בַּת בִּתּוֹ,",
+    "en": "And one who sins with his daughter's daughter",
+    "st": "It is possible for <b>one who engages in intercourse with his daughter’s daughter</b> to be",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבָּא",
+      "en": "and one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "בַּת",
+      "en": "the daughter of"
+     },
+     {
+      "he": "בִּתּוֹ,",
+      "en": "his daughter"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלֶיהָ מִשּׁוּם בַּת בִּתּוֹ וְכַלָּתוֹ",
+    "en": "must bring for her because she is his daughter's daughter, his daughter-in-law,",
+    "st": "<b>liable</b> to bring sin offerings <b>due to</b> the unwitting violation of the prohibitions of engaging in intercourse with <b>his daughter’s daughter, and his daughter-in-law,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "בַּת",
+      "en": "the daughter of"
+     },
+     {
+      "he": "בִּתּוֹ",
+      "en": "his daughter"
+     },
+     {
+      "he": "וְכַלָּתוֹ",
+      "en": "and his daughter-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחוֹת אִשְׁתּוֹ וְאֵשֶׁת אָחִיו וְאֵשֶׁת אֲחִי",
+    "en": "his wife's sister, his brother's wife, the wife of his father's",
+    "st": "<b>and the wife of his brother,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחוֹת",
+      "en": "and the sister of"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     },
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אֲחִי",
+      "en": "the brother of"
+     }
+    ]
+   },
+   {
+    "he": "אָבִיו וְאֵשֶׁת אִישׁ וְנִדָּה.",
+    "en": "brother, a married woman, and a niddah.",
+    "st": "<b>and the wife of his father’s brother, and his wife’s sister, and a married woman, and a menstruating woman.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "וְנִדָּה.",
+      "en": "and a niddah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says,",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם עָבַר הַזָּקֵן וּנְשָׂאָהּ,",
+    "en": "if the grandfather broke the law and married her,",
+    "st": "<b>If</b> the <b>elder,</b> i.e., the man’s father, who is the woman’s great-grandfather, <b>transgressed and married her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "עָבַר",
+      "en": "broke the law"
+     },
+     {
+      "he": "הַזָּקֵן",
+      "en": "the old man"
+     },
+     {
+      "he": "וּנְשָׂאָהּ,",
+      "en": "and married her"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלֶיהָ מִשּׁוּם אֵשֶׁת אָב.",
+    "en": "he must also bring for her because she is his father's wife.",
+    "st": "the man would also be <b>liable for</b> engaging in intercourse with <b>her due to</b> the prohibition of intercourse with <b>the wife of his father.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אָב.",
+      "en": "father"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן הַבָּא עַל בַּת אִשְׁתּוֹ,",
+    "en": "And the same for one who sins with his wife's daughter,",
+    "st": "<b>And likewise,</b> it is possible for <b>one who engages in intercourse with the daughter of his wife</b>",
+    "stMore": "to be liable to bring six sin offerings, similar to one who engages in intercourse with his own daughter, for violating the prohibitions against engaging in intercourse with his wife’s daughter, his sister, the wife of his brother, the wife of his father’s brother, a married woman, and a menstruating woman.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so too"
+     },
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "בַּת",
+      "en": "the daughter of"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל בַּת בַּת אִשְׁתּוֹ:",
+    "en": "or with his wife's daughter's daughter.",
+    "st": "<b>And</b> it is possible for one who engages in intercourse <b>with</b> his wife’s <b>daughter’s daughter</b> to be liable to bring seven sin offerings, similar to one who engages in intercourse with his own daughter’s daughter, for violating the following prohibitions: Engaging in intercourse with his wife’s daughter’s daughter, his daughter-in-law, the wife of his brother, the wife of his father’s brother, his wife’s sister, a married woman, and a menstruating woman.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "בַּת",
+      "en": "the daughter of"
+     },
+     {
+      "he": "בַּת",
+      "en": "the daughter of"
+     },
+     {
+      "he": "אִשְׁתּוֹ:",
+      "en": "his wife"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "One who sins with his mother-in-law can be forbidden to her in many ways at once. Rabbi Yochanan ben Nuri and the Sages argue whether some of them count as separate sins.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַבָּא עַל חֲמוֹתוֹ,",
+    "en": "One who sins with his mother-in-law",
+    "st": "It is possible for <b>one who engages in intercourse with his mother-in-law</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "חֲמוֹתוֹ,",
+      "en": "his mother-in-law"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלֶיהָ מִשּׁוּם חֲמוֹתוֹ וְכַלָּתוֹ",
+    "en": "must bring for her because she is his mother-in-law, his daughter-in-law,",
+    "st": "to be <b>liable</b> to bring seven sin offerings <b>for</b> doing so, <b>due to</b> the unwitting violation of the prohibitions of engaging in intercourse with <b>his mother-in-law, and his daughter-in-law,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "חֲמוֹתוֹ",
+      "en": "his mother-in-law"
+     },
+     {
+      "he": "וְכַלָּתוֹ",
+      "en": "and his daughter-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחוֹת אִשְׁתּוֹ וְאֵשֶׁת אָחִיו וְאֵשֶׁת",
+    "en": "his wife's sister, his brother's wife, the wife",
+    "st": "<b>and the wife of his brother,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחוֹת",
+      "en": "and the sister of"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     },
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     }
+    ]
+   },
+   {
+    "he": "אֲחִי אָבִיו וְאֵשֶׁת אִישׁ וְנִדָּה.",
+    "en": "of his father's brother, a married woman, and a niddah.",
+    "st": "<b>and the wife of his father’s brother, and his wife’s sister, and a married woman, and a menstruating woman.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲחִי",
+      "en": "the brother of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "וְנִדָּה.",
+      "en": "and a niddah"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן הַבָּא עַל אֵם חֲמוֹתוֹ,",
+    "en": "And the same for one who sins with his mother-in-law's mother,",
+    "st": "<b>And likewise,</b> the same applies with regard to <b>one who engages in intercourse with the mother of his father-in-law</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so too"
+     },
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "אֵם",
+      "en": "the mother of"
+     },
+     {
+      "he": "חֲמוֹתוֹ,",
+      "en": "his mother-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֵם חָמִיו.",
+    "en": "or with his father-in-law's mother.",
+    "st": "<b>or with the mother of his mother-in-law.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֵם",
+      "en": "the mother of"
+     },
+     {
+      "he": "חָמִיו.",
+      "en": "his father-in-law"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹחָנָן בֶּן נוּרִי אוֹמֵר,",
+    "en": "Rabbi Yochanan ben Nuri says,",
+    "st": "<b>Rabbi Yoḥanan ben Nuri says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "נוּרִי",
+      "en": "Nuri"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל חֲמוֹתוֹ,",
+    "en": "one who sins with his mother-in-law",
+    "st": "It is possible for <b>one who engages in intercourse with his mother-in-law</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "חֲמוֹתוֹ,",
+      "en": "his mother-in-law"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלֶיהָ מִשּׁוּם חֲמוֹתוֹ",
+    "en": "must bring for her because she is his mother-in-law,",
+    "st": "to be <b>liable due to</b> the unwitting violation of the prohibitions of engaging in intercourse with <b>his mother-in-law,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "חֲמוֹתוֹ",
+      "en": "his mother-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵם חֲמוֹתוֹ וְאֵם חָמִיו.",
+    "en": "his mother-in-law's mother, and his father-in-law's mother.",
+    "st": "<b>and the mother of his mother-in-law, and the mother of his father-in-law.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵם",
+      "en": "and the mother of"
+     },
+     {
+      "he": "חֲמוֹתוֹ",
+      "en": "his mother-in-law"
+     },
+     {
+      "he": "וְאֵם",
+      "en": "and the mother of"
+     },
+     {
+      "he": "חָמִיו.",
+      "en": "his father-in-law"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלָשְׁתָּן שֵׁם אֶחָד הֵן:",
+    "en": "\"All three of them are one kind of sin.\"",
+    "st": "<b>Those three</b> prohibitions <b>are</b> all <b>one category</b>",
+    "stMore": "of prohibition, derived from the same verse: “You shall not uncover the nakedness of a woman and her daughter; you shall not take her son’s daughter, or her daughter’s daughter” (Leviticus 18:17). Consequently, one is not liable to bring separate sin offerings for violating these prohibitions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלָשְׁתָּן",
+      "en": "the three of them"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "name"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "הֵן:",
+      "en": "they are"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "Rabbi Akiva asked Rabban Gamliel and Rabbi Yehoshua: if a person did several different forbidden things in one time of forgetting, does he bring one chatas or one for each? They answered from a similar case they had heard.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said,",
+    "st": "<b>Rabbi Akiva said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "שָׁאַלְתִּי אֶת רַבָּן גַּמְלִיאֵל וְאֶת",
+    "en": "\"I asked Rabban Gamliel and",
+    "st": "<b>I asked Rabban Gamliel and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁאַלְתִּי",
+      "en": "I asked"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוֹשֻׁעַ בָּאִטְלִיס שֶׁל אֶמָּאוֹם,",
+    "en": "Rabbi Yehoshua in the meat market of Emmaus,",
+    "st": "<b>Rabbi Yehoshua in the meat market [itlis] in Emmaus,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "בָּאִטְלִיס",
+      "en": "in the meat market"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶמָּאוֹם,",
+      "en": "Emmaus",
+      "note": "A town in Eretz Yisrael."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָלְכוּ לִקַּח בְּהֵמָה לְמִשְׁתֵּה",
+    "en": "where they went to buy an animal for the wedding feast",
+    "st": "<b>where they went to purchase an animal for the</b> wedding <b>feast</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָלְכוּ",
+      "en": "where they went"
+     },
+     {
+      "he": "לִקַּח",
+      "en": "to buy"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "לְמִשְׁתֵּה",
+      "en": "for the feast of"
+     }
+    ]
+   },
+   {
+    "he": "בְנוֹ שֶׁל רַבָּן גַּמְלִיאֵל,",
+    "en": "of Rabban Gamliel's son:",
+    "st": "<b>of the son of Rabban Gamliel:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל אֲחוֹתוֹ וְעַל אֲחוֹת אָבִיו",
+    "en": "One who sins with his sister, and with his father's sister,",
+    "st": "In the case of <b>one who</b> unwittingly <b>engages in intercourse with his sister, and the sister of his father,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "אֲחוֹתוֹ",
+      "en": "his sister"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֲחוֹת אִמּוֹ בְּהֶעְלֵם אֶחָד מַהוּ,",
+    "en": "and with his mother's sister, in one time of forgetting, what is the rule?",
+    "st": "<b>and the sister of his mother,</b> during one lapse of awareness, <b>what is</b> the halakha?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אִמּוֹ",
+      "en": "his mother"
+     },
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מַהוּ,",
+      "en": "what is it"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב אַחַת עַל כֻּלָּן,",
+    "en": "Must he bring one chatas for all of them,",
+    "st": "Is he <b>liable</b> to bring <b>one</b> sin offering <b>for all</b> three prohibitions,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כֻּלָּן,",
+      "en": "all of them"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אַחַת עַל כָּל אַחַת וְאֶחָת,",
+    "en": "or one for each and every one?",
+    "st": "<b>or</b> is he <b>liable</b> to bring a separate sin offering <b>for each and every one</b> of the prohibitions?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמְרוּ לִי,",
+    "en": "And they said to me,",
+    "st": "<b>They said to</b> Rabbi Akiva:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמְרוּ",
+      "en": "and they said"
+     },
+     {
+      "he": "לִי,",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שָׁמָעְנוּ.",
+    "en": "'We did not hear about this.",
+    "st": "<b>We did not hear</b> a ruling from our teachers about that case,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שָׁמָעְנוּ.",
+      "en": "we heard"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל שָׁמַעְנוּ,",
+    "en": "But we did hear",
+    "st": "<b>but we heard</b> the following ruling:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "שָׁמַעְנוּ,",
+      "en": "we heard"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל חָמֵשׁ נָשָׁיו",
+    "en": "that one who was with his five wives",
+    "st": "<b>One who engages in intercourse with</b> each of <b>his five wives</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who comes"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "נָשָׁיו",
+      "en": "his wives"
+     }
+    ]
+   },
+   {
+    "he": "נִדּוֹת בְּהֶעְלֵם אֶחָד,",
+    "en": "when they were niddah, in one time of forgetting,",
+    "st": "while they are <b>menstruating, during one lapse of awareness,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִדּוֹת",
+      "en": "niddos"
+     },
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא חַיָּב עַל כָּל אַחַת וְאַחַת.",
+    "en": "must bring a chatas for each and every one.'",
+    "st": "we heard <b>that he is liable</b> to bring a separate sin offering <b>for</b> having engaged in intercourse with <b>each and every one</b> of them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאַחַת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וְרוֹאִין אָנוּ שֶׁהַדְּבָרִים קַל וָחֹמֶר:",
+    "en": "And it seems to me that these things are a kal vachomer.\"",
+    "st": "<b>And it appears to me that these matters</b> can be derived from <b>an a fortiori</b> inference:",
+    "stMore": "If he is liable to bring separate sin offerings for having engaged in intercourse with five menstruating women, who are forbidden by one prohibition, he should certainly be liable to bring separate sin offerings for having engaged in intercourse with his sister, the sister of his father, and the sister of his mother, who are forbidden by three separate prohibitions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרוֹאִין",
+      "en": "and see"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "שֶׁהַדְּבָרִים",
+      "en": "that the things"
+     },
+     {
+      "he": "קַל",
+      "en": "light",
+      "note": "Kal vachomer: if a rule is true in an easier case, it is surely true in a harder one."
+     },
+     {
+      "he": "וָחֹמֶר:",
+      "en": "and heavy"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "Rabbi Akiva asked whether a limb of an animal that is hanging loose makes things tamei. The Rabbis answered from what sick people in Yerushalayim used to do before Pesach.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְעוֹד שְׁאָלָן רַבִּי עֲקִיבָא.",
+    "en": "Rabbi Akiva asked them another question:",
+    "st": "<b>And furthermore, Rabbi Akiva asked</b> Rabban Gamliel and Rabbi Yehoshua in the meat market of Emmaus:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹד",
+      "en": "and more"
+     },
+     {
+      "he": "שְׁאָלָן",
+      "en": "asked them"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא.",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אֵבָר הַמְדֻלְדָּל בִּבְהֵמָה,",
+    "en": "A limb of an animal that is hanging loose,",
+    "st": "<b>What is</b> the status of <b>a dangling limb of an animal?</b>",
+    "stMore": "Does it impart ritual impurity like a severed limb?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵבָר",
+      "en": "a limb"
+     },
+     {
+      "he": "הַמְדֻלְדָּל",
+      "en": "that hangs loose"
+     },
+     {
+      "he": "בִּבְהֵמָה,",
+      "en": "on an animal"
+     }
+    ]
+   },
+   {
+    "he": "מַהוּ. אָמְרוּ לוֹ,",
+    "en": "what is the rule? They said to him,",
+    "st": "<b>They said to</b> Rabbi Akiva:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַהוּ.",
+      "en": "what is it"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שָׁמַעְנוּ.",
+    "en": "\"We did not hear about this.",
+    "st": "<b>We have not heard</b> a ruling from our teachers in that specific case,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שָׁמַעְנוּ.",
+      "en": "we heard"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל שָׁמַעְנוּ בְּאֵבָר הַמְדֻלְדָּל בְּאָדָם,",
+    "en": "But we did hear about a limb of a person that is hanging loose,",
+    "st": "<b>but we have heard</b> with regard to <b>a dangling limb of a person</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "שָׁמַעְנוּ",
+      "en": "we heard"
+     },
+     {
+      "he": "בְּאֵבָר",
+      "en": "about a limb"
+     },
+     {
+      "he": "הַמְדֻלְדָּל",
+      "en": "that hangs loose"
+     },
+     {
+      "he": "בְּאָדָם,",
+      "en": "on a person"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא טָהוֹר.",
+    "en": "that it is tahor.",
+    "st": "<b>that it is ritually pure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "טָהוֹר.",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכָּךְ הָיוּ מֻכֵּי שְׁחִין שֶׁבִּירוּשָׁלַיִם עוֹשִׂין,",
+    "en": "This is what people sick with boils in Yerushalayim used to do:",
+    "st": "<b>And</b> in <b>this</b> manner <b>would</b> the people <b>afflicted with boils,</b> whose limbs were dangling due to their affliction, <b>act in Jerusalem:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכָּךְ",
+      "en": "for so"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "מֻכֵּי",
+      "en": "people struck with"
+     },
+     {
+      "he": "שְׁחִין",
+      "en": "boils"
+     },
+     {
+      "he": "שֶׁבִּירוּשָׁלַיִם",
+      "en": "in Yerushalayim"
+     },
+     {
+      "he": "עוֹשִׂין,",
+      "en": "doing"
+     }
+    ]
+   },
+   {
+    "he": "הוֹלֵךְ לוֹ עֶרֶב פֶּסַח אֵצֶל הָרוֹפֵא",
+    "en": "one would go to the doctor on Erev Pesach,",
+    "st": "Each of them <b>would go on Passover eve to the doctor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹלֵךְ",
+      "en": "he goes"
+     },
+     {
+      "he": "לוֹ",
+      "en": "(for himself)"
+     },
+     {
+      "he": "עֶרֶב",
+      "en": "the eve of"
+     },
+     {
+      "he": "פֶּסַח",
+      "en": "Pesach"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "to"
+     },
+     {
+      "he": "הָרוֹפֵא",
+      "en": "the doctor"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹתְכוֹ עַד שֶׁהוּא מַנִּיחַ בּוֹ כִשְׂעֹרָה,",
+    "en": "and the doctor cuts it almost all the way, leaving only a hair's width,",
+    "st": "who <b>would cut</b> the affected limb almost completely <b>until he would leave</b> it connected <b>by a hairbreadth</b> of flesh,",
+    "stMore": "so that neither the doctor nor the afflicted would be rendered ritually impure by a severed limb.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹתְכוֹ",
+      "en": "and he cuts it"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מַנִּיחַ",
+      "en": "leaves"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כִשְׂעֹרָה,",
+      "en": "like a hair"
+     }
+    ]
+   },
+   {
+    "he": "וְתוֹחֲבוֹ בְסִירָה,",
+    "en": "and sticks it onto a thorn,",
+    "st": "Then, the doctor would <b>impale</b> the limb <b>on a thorn</b>",
+    "stMore": "attached to the floor or the wall,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְתוֹחֲבוֹ",
+      "en": "and he sticks it"
+     },
+     {
+      "he": "בְסִירָה,",
+      "en": "on a thorn"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא נִמְשָׁךְ מִמֶּנּוּ,",
+    "en": "and the sick man pulls away from it.",
+    "st": "<b>and</b> the afflicted <b>would pull away from</b> the thorn,",
+    "stMore": "thereby completely severing the limb.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "נִמְשָׁךְ",
+      "en": "pulls away"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה עוֹשֶׂה פִסְחוֹ,",
+    "en": "Then that man brings his Korban Pesach,",
+    "st": "<b>And that</b> person afflicted with boils <b>would perform</b> the rite of <b>his Paschal offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and that one"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "does"
+     },
+     {
+      "he": "פִסְחוֹ,",
+      "en": "his Pesach"
+     }
+    ]
+   },
+   {
+    "he": "וְהָרוֹפֵא עוֹשֶׂה פִסְחוֹ.",
+    "en": "and the doctor brings his Korban Pesach.",
+    "st": "<b>and the doctor would perform</b> the rite of <b>his Paschal offering,</b>",
+    "stMore": "as neither had come into contact with the limb once it was severed. In any case, as long as it was dangling, the limb did not impart impurity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָרוֹפֵא",
+      "en": "and the doctor"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "does"
+     },
+     {
+      "he": "פִסְחוֹ.",
+      "en": "his Pesach"
+     }
+    ]
+   },
+   {
+    "he": "וְרוֹאִין אָנוּ שֶׁהַדְּבָרִים קַל וָחֹמֶר:",
+    "en": "And it seems to us that these things are a kal vachomer.\"",
+    "st": "<b>And I consider that these matters</b> can be derived from <b>an a fortiori</b> inference.",
+    "stMore": "If a person’s limb, the impurity of which when amputated is severe, does not impart impurity when it is dangling, it is all the more so logical that an animal’s limb, the impurity of which when amputated is lenient, does not impart impurity when it is dangling.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרוֹאִין",
+      "en": "and see"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "שֶׁהַדְּבָרִים",
+      "en": "that the things"
+     },
+     {
+      "he": "קַל",
+      "en": "light"
+     },
+     {
+      "he": "וָחֹמֶר:",
+      "en": "and heavy"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 9,
+  "summary": "Rabbi Akiva asked about one who did the same sin with five korbanos in one time of forgetting. Rabbi Yehoshua answered from the rule of me'ilah, but Rabbi Akiva showed why that proof does not work.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְעוֹד שְׁאָלָן רַבִּי עֲקִיבָא.",
+    "en": "Rabbi Akiva asked them another question:",
+    "st": "<b>And furthermore, Rabbi Akiva asked</b> Rabban Gamliel and Rabbi Yehoshua:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹד",
+      "en": "and more"
+     },
+     {
+      "he": "שְׁאָלָן",
+      "en": "asked them"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא.",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט חֲמִשָּׁה זְבָחִים בַּחוּץ בְּהֶעְלֵם אֶחָד,",
+    "en": "One who shechts five korbanos outside the Beis HaMikdash in one time of forgetting,",
+    "st": "With regard to <b>one who</b> unwittingly <b>slaughters five offerings outside</b> the Temple <b>during one lapse of awareness,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "זְבָחִים",
+      "en": "korbanos"
+     },
+     {
+      "he": "בַּחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מַהוּ. חַיָּב אַחַת עַל כֻּלָּם,",
+    "en": "what is the rule? Must he bring one chatas for all of them,",
+    "st": "<b>what is</b> the halakha? Is he <b>liable</b> to bring five sin offerings, one <b>for each and every</b> act of slaughter,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַהוּ.",
+      "en": "what is it"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כֻּלָּם,",
+      "en": "all of them"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אַחַת עַל כָּל אַחַת וְאֶחָת.",
+    "en": "or one for each and every one?",
+    "st": "<b>or</b> is he liable to bring <b>one</b> sin offering <b>for all</b> the acts of slaughter?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "<b>They said to</b> Rabbi Akiva:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שָׁמָעְנוּ.",
+    "en": "\"We did not hear about this.\"",
+    "st": "<b>We have not heard</b> a ruling from our teachers in that specific case.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שָׁמָעְנוּ.",
+      "en": "we heard"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said,",
+    "st": "<b>Rabbi Yehoshua said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמַעְתִּי בְאוֹכֵל מִזֶּבַח אֶחָד",
+    "en": "\"I heard about one who eats from one korban",
+    "st": "<b>I have heard with regard to one who eats</b> meat <b>from one offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמַעְתִּי",
+      "en": "I heard"
+     },
+     {
+      "he": "בְאוֹכֵל",
+      "en": "about one who eats"
+     },
+     {
+      "he": "מִזֶּבַח",
+      "en": "from a korban"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "בַּחֲמִשָּׁה תַמְחוּיִין בְּהֶעְלֵם אֶחָד,",
+    "en": "from five pots in one time of forgetting,",
+    "st": "<b>from five</b> different <b>pots</b> in which they were prepared, <b>during one lapse of awareness,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחֲמִשָּׁה",
+      "en": "from five"
+     },
+     {
+      "he": "תַמְחוּיִין",
+      "en": "pots"
+     },
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא חַיָּב עַל כָּל",
+    "en": "that he must bring a korban for each",
+    "st": "<b>that he is liable</b> to bring five guilt offerings, which are <b>for</b> the meat prepared in <b>each</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד וְאֶחָד מִשּׁוּם מְעִילָה,",
+    "en": "and every one, because of me'ilah.",
+    "st": "<b>and every</b> pot, <b>due to misuse</b> of consecrated property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "מְעִילָה,",
+      "en": "me'ilah",
+      "note": "Using something that belongs to the Beis HaMikdash for oneself."
+     }
+    ]
+   },
+   {
+    "he": "וְרוֹאֶה אֲנִי שֶׁהַדְּבָרִים קַל וָחֹמֶר.",
+    "en": "And I see that these things are a kal vachomer.\"",
+    "st": "<b>And I consider that these matters</b> can be derived from <b>an a fortiori</b> inference:",
+    "stMore": "If one is liable to bring five guilt offerings for one offering prepared in five pots, all the more so is he liable to bring five sin offerings for slaughtering five offerings outside the Temple.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרוֹאֶה",
+      "en": "and see"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "שֶׁהַדְּבָרִים",
+      "en": "that the things"
+     },
+     {
+      "he": "קַל",
+      "en": "light"
+     },
+     {
+      "he": "וָחֹמֶר.",
+      "en": "and heavy"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי שִׁמְעוֹן,",
+    "en": "Rabbi Shimon said,",
+    "st": "<b>Rabbi Shimon said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן,",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כָךְ שְׁאָלָן רַבִּי עֲקִיבָא.",
+    "en": "\"That is not what Rabbi Akiva asked them.",
+    "st": "It was <b>not that</b> question that <b>Rabbi Akiva asked</b> them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כָךְ",
+      "en": "so"
+     },
+     {
+      "he": "שְׁאָלָן",
+      "en": "asked them"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא.",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא, בְּאוֹכֵל נוֹתָר מֵחֲמִשָּׁה זְבָחִים בְּהֶעְלֵם אֶחָד,",
+    "en": "Rather, about one who eats nosar from five korbanos in one time of forgetting,",
+    "st": "<b>Rather,</b> it was <b>with regard to one who eats notar from five offerings during one lapse of awareness.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא,",
+      "en": "rather"
+     },
+     {
+      "he": "בְּאוֹכֵל",
+      "en": "about one who eats"
+     },
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "מֵחֲמִשָּׁה",
+      "en": "from five"
+     },
+     {
+      "he": "זְבָחִים",
+      "en": "korbanos"
+     },
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מַהוּ. חַיָּב אַחַת עַל כֻּלָּן,",
+    "en": "what is the rule? Must he bring one chatas for all of them,",
+    "st": "<b>What is</b> the halakha? Is he <b>liable</b> to bring <b>one</b> sin offering <b>for all</b> the offerings from which he ate notar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַהוּ.",
+      "en": "what is it"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כֻּלָּן,",
+      "en": "all of them"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אַחַת עַל כָּל אַחַת וְאֶחָת.",
+    "en": "or one for each and every one?",
+    "st": "<b>or</b> is he <b>liable</b> to bring five sin offerings, one <b>for each and every one</b> of the offerings from which he ate notar?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "<b>They said to</b> Rabbi Akiva:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שָׁמָעְנוּ.",
+    "en": "'We did not hear about this.'",
+    "st": "<b>We have not heard</b> a ruling from our teachers in that specific case.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שָׁמָעְנוּ.",
+      "en": "we heard"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said,",
+    "st": "<b>Rabbi Yehoshua said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמַעְתִּי בְאוֹכֵל מִזֶּבַח אֶחָד",
+    "en": "'I heard about one who eats from one korban",
+    "st": "<b>I have heard with regard to one who eats</b> meat <b>from one offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמַעְתִּי",
+      "en": "I heard"
+     },
+     {
+      "he": "בְאוֹכֵל",
+      "en": "about one who eats"
+     },
+     {
+      "he": "מִזֶּבַח",
+      "en": "from a korban"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "בַּחֲמִשָּׁה תַמְחוּיִים בְּהֶעְלֵם אֶחָד,",
+    "en": "from five pots in one time of forgetting,",
+    "st": "that was prepared <b>in five</b> different <b>pots, during one lapse of awareness,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחֲמִשָּׁה",
+      "en": "from five"
+     },
+     {
+      "he": "תַמְחוּיִים",
+      "en": "pots"
+     },
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא חַיָּב עַל כָּל",
+    "en": "that he must bring a korban for each",
+    "st": "<b>that he is liable</b> to bring separate guilt offerings <b>for</b> the meat prepared in <b>each</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת וְאַחַת מִשּׁוּם מְעִילָה,",
+    "en": "and every one, because of me'ilah.",
+    "st": "<b>and every</b> pot, <b>due to misuse</b> of consecrated property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "מְעִילָה,",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "וְרוֹאֶה אֲנִי שֶׁהַדְּבָרִים קַל וָחֹמֶר.",
+    "en": "And I see that these things are a kal vachomer.'",
+    "st": "<b>And I consider that these matters</b> can be derived from <b>an a fortiori</b> inference:",
+    "stMore": "If one is liable to bring five guilt offerings for one offering prepared in five pots, all the more so is he liable to bring five sin offerings for eating the notar of five separate offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרוֹאֶה",
+      "en": "and see"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "שֶׁהַדְּבָרִים",
+      "en": "that the things"
+     },
+     {
+      "he": "קַל",
+      "en": "light"
+     },
+     {
+      "he": "וָחֹמֶר.",
+      "en": "and heavy"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said,",
+    "st": "<b>Rabbi Akiva said to</b> Rabbi Yehoshua:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אִם הֲלָכָה,",
+    "en": "'If it is a halachah you received,",
+    "st": "<b>If</b> you are reporting <b>a halakha</b> that you received from your teachers",
+    "stMore": "with regard to one who eats notar from five offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הֲלָכָה,",
+      "en": "it is a halachah"
+     }
+    ]
+   },
+   {
+    "he": "נְקַבֵּל. וְאִם לָדִין,",
+    "en": "we will accept it. But if it is from reasoning,",
+    "st": "<b>we will accept</b> it, but <b>if</b> it is based merely <b>on</b> the a fortiori <b>inference</b>",
+    "stMore": "from misuse of consecrated property,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְקַבֵּל.",
+      "en": "we will accept"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָדִין,",
+      "en": "for reasoning"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ תְּשׁוּבָה.",
+    "en": "there is an answer against it.'",
+    "st": "<b>there is a response</b> that refutes the inference.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "תְּשׁוּבָה.",
+      "en": "an answer"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him,",
+    "st": "Rabbi Yehoshua <b>said to</b> Rabbi Akiva:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הָשֵׁב. אָמַר לוֹ,",
+    "en": "'Answer!' He said to him,",
+    "st": "<b>Respond.</b> Rabbi Akiva <b>said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָשֵׁב.",
+      "en": "answer"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אָמַרְתָּ בִמְעִילָה שֶׁעָשָׂה בָהּ אֶת",
+    "en": "'No! If you said this about me'ilah, where the Torah made",
+    "st": "<b>And no;</b> one cannot derive the halakha of notar through an a fortiori inference from misuse of consecrated property: <b>If you said with regard to misuse</b>",
+    "stMore": "of consecrated property that one is liable to bring five guilt offerings, perhaps that is because there are additional stringent elements unique to misuse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַרְתָּ",
+      "en": "you said"
+     },
+     {
+      "he": "בִמְעִילָה",
+      "en": "about me'ilah"
+     },
+     {
+      "he": "שֶׁעָשָׂה",
+      "en": "that he made"
+     },
+     {
+      "he": "בָהּ",
+      "en": "with it"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּאֲכִיל כָּאוֹכֵל וְאֶת הַמְהַנֶּה כַּנֶּהֱנֶה,",
+    "en": "one who feeds others like one who eats, and one who lets others benefit like one who benefits,",
+    "st": "<b>As, with regard to</b> misuse, the Torah <b>established</b> that the status of <b>one who feeds</b> another person sacrificial meat is <b>like</b> that of <b>one who eats</b> sacrificial meat, <b>and</b> the status of <b>one who gives benefit</b> to another from consecrated property that is not food is <b>like</b> that of <b>one who derives benefit</b> himself,",
+    "stMore": "in that each is liable to bring a guilt offering for misuse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּאֲכִיל",
+      "en": "one who feeds"
+     },
+     {
+      "he": "כָּאוֹכֵל",
+      "en": "like one who eats"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַמְהַנֶּה",
+      "en": "one who gives benefit"
+     },
+     {
+      "he": "כַּנֶּהֱנֶה,",
+      "en": "like one who benefits"
+     }
+    ]
+   },
+   {
+    "he": "צֵרַף הַמְּעִילָה לִזְמָן מְרֻבֶּה,",
+    "en": "and joined me'ilah over a long time,",
+    "st": "In addition, the Torah <b>joined the misuse</b> of consecrated property that was performed <b>over an extended period,</b>",
+    "stMore": "i.e., if one derived benefit worth half a peruta one day and half a peruta the next, he is liable to bring a guilt offering for misuse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צֵרַף",
+      "en": "joined"
+     },
+     {
+      "he": "הַמְּעִילָה",
+      "en": "the me'ilah"
+     },
+     {
+      "he": "לִזְמָן",
+      "en": "for a time"
+     },
+     {
+      "he": "מְרֻבֶּה,",
+      "en": "long"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמַר בְּנוֹתָר,",
+    "en": "will you say the same about nosar,",
+    "st": "<b>Would you say</b> the same <b>with regard to notar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמַר",
+      "en": "will you say"
+     },
+     {
+      "he": "בְּנוֹתָר,",
+      "en": "about nosar"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין בּוֹ אַחַד מִכָּל אֵלּוּ:",
+    "en": "which has none of these?'\"",
+    "st": "<b>which has none of these</b> halakhot?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "מִכָּל",
+      "en": "of all"
+     },
+     {
+      "he": "אֵלּוּ:",
+      "en": "these"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 10,
+  "summary": "Rabbi Akiva asked Rabbi Eliezer about one who does many melachos of the same kind on many Shabbosos in one time of forgetting. Rabbi Eliezer tried to prove that he brings many chataos, and Rabbi Akiva answered each proof.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said,",
+    "st": "<b>Rabbi Akiva said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "שָׁאַלְתִּי אֶת רַבִּי אֱלִיעֶזֶר,",
+    "en": "\"I asked Rabbi Eliezer:",
+    "st": "<b>I asked Rabbi Eliezer with regard to</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁאַלְתִּי",
+      "en": "I asked"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹשֶׂה מְלָאכוֹת הַרְבֵּה בְּשַׁבָּתוֹת",
+    "en": "One who does many melachos on many Shabbosos,",
+    "st": "one who <b>performs multiple</b> prohibited <b>labors on several Shabbatot,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹשֶׂה",
+      "en": "one who does"
+     },
+     {
+      "he": "מְלָאכוֹת",
+      "en": "melachos"
+     },
+     {
+      "he": "הַרְבֵּה",
+      "en": "many"
+     },
+     {
+      "he": "בְּשַׁבָּתוֹת",
+      "en": "on Shabbosos"
+     }
+    ]
+   },
+   {
+    "he": "הַרְבֵּה מֵעֵין מְלָאכָה אַחַת,",
+    "en": "all of the same kind of melachah,",
+    "st": "and all those labors were <b>subsumed</b> as subcategories of <b>one</b> primary category of prohibited <b>labor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַרְבֵּה",
+      "en": "many"
+     },
+     {
+      "he": "מֵעֵין",
+      "en": "of the type of"
+     },
+     {
+      "he": "מְלָאכָה",
+      "en": "melachah"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "בְּהֶעְלֵם אֶחָד,",
+    "en": "in one time of forgetting,",
+    "st": "and he performed them <b>during one lapse of awareness.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּהֶעְלֵם",
+      "en": "in a forgetting"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מַה הוּא.",
+    "en": "what is the rule?",
+    "st": "<b>What is</b> the halakha?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הוּא.",
+      "en": "is it"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב אַחַת עַל כֻּלָּן,",
+    "en": "Must he bring one chatas for all of them,",
+    "st": "Is he <b>liable</b> to bring <b>one</b> sin offering <b>for</b> unwitting performance of <b>all</b> these labors",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כֻּלָּן,",
+      "en": "all of them"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אַחַת עַל כָּל אַחַת וְאֶחָת.",
+    "en": "or one for each and every one?'",
+    "st": "<b>or</b> is he <b>liable</b> to bring a sin offering <b>for</b> violation of <b>each and every one</b> of the labors?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לִי,",
+    "en": "He said to me,",
+    "st": "Rabbi Eliezer <b>said to</b> Rabbi Akiva:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לִי,",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל כָּל אַחַת וְאַחַת,",
+    "en": "'He must bring one for each and every one,",
+    "st": "He is <b>liable</b> to bring a sin offering <b>for</b> violation of <b>each and every one</b> of the labors,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאַחַת,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "מִקַּל וָחֹמֶר,",
+    "en": "from a kal vachomer:",
+    "st": "and this is derived <b>from an a fortiori</b> inference:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִקַּל",
+      "en": "from light"
+     },
+     {
+      "he": "וָחֹמֶר,",
+      "en": "and heavy"
+     }
+    ]
+   },
+   {
+    "he": "וּמָה אִם הַנִּדָּה,",
+    "en": "If for a niddah,",
+    "st": "<b>Just as</b> in the case of <b>a menstruating woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמָה",
+      "en": "and what"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הַנִּדָּה,",
+      "en": "the niddah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין בָּהּ תּוֹצָאוֹת הַרְבֵּה וְחַטָּאוֹת הַרְבֵּה,",
+    "en": "where there are not many kinds of sins and many chataos,",
+    "st": "<b>with regard to whom there are not multiple</b> actions that <b>result</b> in transgression <b>and</b> that result in <b>multiple sin offerings,</b>",
+    "stMore": "but rather only the prohibition against engaging in intercourse with her,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there are not"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in her"
+     },
+     {
+      "he": "תּוֹצָאוֹת",
+      "en": "results"
+     },
+     {
+      "he": "הַרְבֵּה",
+      "en": "many"
+     },
+     {
+      "he": "וְחַטָּאוֹת",
+      "en": "and chataos"
+     },
+     {
+      "he": "הַרְבֵּה,",
+      "en": "many"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל כָּל אַחַת וְאַחַת,",
+    "en": "one must bring a chatas for each time,",
+    "st": "and nevertheless <b>one</b> is <b>liable</b> to bring a separate sin offering <b>for each and every one</b> of his acts of unwitting intercourse;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאַחַת,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "שַׁבָּת, שֶׁיֶּשׁ בָּהּ תּוֹצָאוֹת הַרְבֵּה וְחַטָּאוֹת הַרְבֵּה,",
+    "en": "then Shabbos, where there are many kinds of sins and many chataos,",
+    "st": "in the case of <b>Shabbat, with regard to which there are multiple</b> primary categories and subcategories of labor that <b>result</b> in transgression <b>and</b> that result in <b>multiple death</b> penalties or sin offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שַׁבָּת,",
+      "en": "Shabbos"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there are"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "תּוֹצָאוֹת",
+      "en": "results"
+     },
+     {
+      "he": "הַרְבֵּה",
+      "en": "many"
+     },
+     {
+      "he": "וְחַטָּאוֹת",
+      "en": "and chataos"
+     },
+     {
+      "he": "הַרְבֵּה,",
+      "en": "many"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ דִין שֶׁיְּהֵא חַיָּב",
+    "en": "isn't it right that he must bring",
+    "st": "<b>is it not right that he will be liable</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "is it not"
+     },
+     {
+      "he": "דִין",
+      "en": "right"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "that he will be"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "liable"
+     }
+    ]
+   },
+   {
+    "he": "עַל כָּל אַחַת וְאֶחָת.",
+    "en": "one for each and every one?'",
+    "st": "to bring a sin offering <b>for</b> performance of <b>each and every one</b> of the prohibited labors?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַרְתִּי לוֹ,",
+    "en": "I said to him,",
+    "st": "Rabbi Akiva continues: <b>I said to</b> Rabbi Eliezer that the inference is not valid:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַרְתִּי",
+      "en": "I said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אָמַרְתָּ בַנִּדָּה,",
+    "en": "'No! If you said this about a niddah,",
+    "st": "<b>If you said</b> one is liable to bring multiple sin offerings <b>in the</b> case of <b>a menstruating woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַרְתָּ",
+      "en": "you said"
+     },
+     {
+      "he": "בַנִּדָּה,",
+      "en": "about the niddah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֶּשׁ בָּהּ שְׁתֵּי אַזְהָרוֹת,",
+    "en": "where there are two warnings,",
+    "st": "<b>with regard to whom there are two prohibitions,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there are"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in her"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "אַזְהָרוֹת,",
+      "en": "warnings"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא מֻזְהָר עַל הַנִּדָּה",
+    "en": "since he is warned about the niddah",
+    "st": "<b>as</b> the man <b>is prohibited</b> from engaging in intercourse <b>with the menstruating woman</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מֻזְהָר",
+      "en": "is warned"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַנִּדָּה",
+      "en": "the niddah"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנִּדָּה מֻזְהֶרֶת עָלָיו,",
+    "en": "and the niddah is warned about him,",
+    "st": "<b>and the menstruating woman is prohibited</b> from engaging in intercourse <b>with him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנִּדָּה",
+      "en": "and the niddah"
+     },
+     {
+      "he": "מֻזְהֶרֶת",
+      "en": "is warned"
+     },
+     {
+      "he": "עָלָיו,",
+      "en": "about him"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמַר בַּשַּׁבָּת,",
+    "en": "will you say the same about Shabbos,",
+    "st": "<b>would you say</b> the same <b>in the</b> case of <b>Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמַר",
+      "en": "will you say"
+     },
+     {
+      "he": "בַּשַּׁבָּת,",
+      "en": "about Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין בָּהּ אֶלָּא אַזְהָרָה אֶחָת.",
+    "en": "where there is only one warning?'",
+    "st": "<b>with regard to which there is only one prohibition?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "אַזְהָרָה",
+      "en": "a warning"
+     },
+     {
+      "he": "אֶחָת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לִי,",
+    "en": "He said to me,",
+    "st": "Rabbi Eliezer <b>said to me:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לִי,",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל הַקְּטַנּוֹת יוֹכִיחַ,",
+    "en": "'The case of young girls who are niddah will prove it,",
+    "st": "The halakha of <b>one who engages in intercourse with minor</b> menstruating <b>girls will prove</b>",
+    "stMore": "this refutation is not valid,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הַקְּטַנּוֹת",
+      "en": "the young girls"
+     },
+     {
+      "he": "יוֹכִיחַ,",
+      "en": "will prove"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין בָּהֶן אֶלָּא אַזְהָרָה אַחַת",
+    "en": "where there is only one warning,",
+    "st": "<b>as in</b> that case <b>there is only one prohibition,</b>",
+    "stMore": "because the minor is exempt from the mitzvot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "אַזְהָרָה",
+      "en": "a warning"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּב עַל כָּל אַחַת וְאֶחָת.",
+    "en": "and still he must bring one for each and every time.'",
+    "st": "<b>and</b> nevertheless the man is <b>liable</b> to bring a separate sin offering <b>for</b> intercourse for <b>each and every one</b> of the acts of intercourse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּב",
+      "en": "and he is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַרְתִּי לוֹ,",
+    "en": "I said to him,",
+    "st": "Rabbi Akiva said: <b>I said to</b> Rabbi Eliezer that the cases of Shabbat and minor menstruating girls are not comparable.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַרְתִּי",
+      "en": "I said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אָמַרְתָּ בַּבָּא עַל הַקְּטַנּוֹת,",
+    "en": "'No! If you said this about the young girls,",
+    "st": "<b>If you said in the</b> case of <b>minor girls</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַרְתָּ",
+      "en": "you said"
+     },
+     {
+      "he": "בַּבָּא",
+      "en": "about one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הַקְּטַנּוֹת,",
+      "en": "the young girls"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאַף עַל פִּי שֶׁאֵין בָּהֶן עַכְשָׁיו,",
+    "en": "that even though there is no warning for them now,",
+    "st": "<b>that although it is not</b> prohibited <b>for them at present</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאַף",
+      "en": "that even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it)"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "עַכְשָׁיו,",
+      "en": "now"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ בָּהֶן לְאַחַר זְמָן,",
+    "en": "there will be later,",
+    "st": "<b>it is</b> prohibited <b>for them after</b> the passage of <b>time,</b> when they reach majority,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "זְמָן,",
+      "en": "a time"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמַר בַּשַּׁבָּת,",
+    "en": "will you say the same about Shabbos,",
+    "st": "<b>would you say</b> the same <b>in the</b> case of <b>Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמַר",
+      "en": "will you say"
+     },
+     {
+      "he": "בַּשַּׁבָּת,",
+      "en": "about Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין בָּהּ לֹא עַכְשָׁיו",
+    "en": "where there is not, not now",
+    "st": "<b>with regard to which there are neither</b> two prohibitions <b>at present, nor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "עַכְשָׁיו",
+      "en": "now"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא לְאַחַר זְמָן.",
+    "en": "and not later?'",
+    "st": "will there be <b>after</b> the passage of <b>time?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "זְמָן.",
+      "en": "a time"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לִי,",
+    "en": "He said to me,",
+    "st": "Rabbi Eliezer <b>said to me:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לִי,",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל הַבְּהֵמָה יוֹכִיחַ.",
+    "en": "'One who sins with an animal will prove it.'",
+    "st": "The halakha of <b>one who copulates with an animal will prove</b>",
+    "stMore": "this refutation is not valid, as there are never two prohibitions in that case, and nevertheless the person is liable to bring a sin offering for each and every act.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הַבְּהֵמָה",
+      "en": "the animal"
+     },
+     {
+      "he": "יוֹכִיחַ.",
+      "en": "will prove"
+     }
+    ]
+   },
+   {
+    "he": "אָמַרְתִּי לוֹ,",
+    "en": "I said to him,",
+    "st": "Rabbi Akiva said: <b>I said to</b> Rabbi Eliezer that no proof can be cited from the case of an animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַרְתִּי",
+      "en": "I said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "בְּהֵמָה כַשַּׁבָּת:",
+    "en": "'An animal is like Shabbos.'\"",
+    "st": "as in my opinion the case of <b>the animal is like</b> that of <b>Shabbat;</b>",
+    "stMore": "there is uncertainty with regard to both cases.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "כַשַּׁבָּת:",
+      "en": "is like Shabbos"
+     }
+    ]
+   }
+  ]
+ }
+]

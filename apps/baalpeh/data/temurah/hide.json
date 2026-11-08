@@ -1,0 +1,13 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "5:2": "Steinsaltz describes a hermaphrodite as having both male and female sexual organs.",
+    "6:1": "Steinsaltz names bestiality (an animal that copulated with a person) and payment to a prostitute.",
+    "6:2": "Steinsaltz speaks of payment to a prostitute and of a maidservant who will lie with a slave and engage in intercourse.",
+    "6:3": "Steinsaltz speaks of payment for intercourse with a dog and the price of a prostitute.",
+    "6:4": "Steinsaltz speaks of paying a prostitute for her services.",
+    "7:4": "Steinsaltz names a miscarried fetus and placenta, an ox stoned for killing a person, and a corpse found with an unknown killer.",
+    "7:6": "Steinsaltz mentions a woman who miscarried and whether it was a fetus."
+  }
+}

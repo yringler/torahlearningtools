@@ -50,10 +50,10 @@ describe("nav: resolving and choosing a masechta", () => {
   it("resolves a catalog id, else Berakhot", () => {
     expect(resolveMasechta("peah")).toBe("peah");
     expect(resolveMasechta("demai")).toBe("demai");
-    for (const bad of [undefined, null, "", "shabbat", "Peah", "berakhot/1", 3]) expect(resolveMasechta(bad)).toBe("berakhot");
+    for (const bad of [undefined, null, "", "shabbos", "Peah", "berakhot/1", 3]) expect(resolveMasechta(bad)).toBe("berakhot");
     expect(lastMasechtaOf(kid("A"))).toBe("berakhot");
     expect(lastMasechtaOf(withLast(kid("A"), "peah"))).toBe("peah");
-    expect(lastMasechtaOf(withLast(kid("A"), "kelim"))).toBe("berakhot");
+    expect(lastMasechtaOf(withLast(kid("A"), "not_listed"))).toBe("berakhot");
   });
 
   it("chooseMasechta writes lastMasechta only when the choice changes", () => {
@@ -91,12 +91,12 @@ describe("nav: masechta and seder tiles", () => {
 
   it("counts each masechta from its own keys, with catalog totals, due reviews and flags", () => {
     const tiles = masechtaTiles(p, "zeraim", "peah", "2026-01-01");
-    expect(tiles.map((t) => [t.id, t.known, t.total, t.due, t.current, t.translated, t.finished])).toEqual([
+    expect(tiles.slice(0, 3).map((t) => [t.id, t.known, t.total, t.due, t.current, t.translated, t.finished])).toEqual([
       ["berakhot", 2, 57, 1, false, true, false],
       ["peah", 1, 69, 0, true, false, false],
       ["demai", 0, 53, 0, false, false, false],
     ]);
-    expect(tiles.map((t) => t.he)).toEqual(["ברכות", "פאה", "דמאי"]);
+    expect(tiles.map((t) => t.he)).toEqual(["ברכות", "פאה", "דמאי", "כלאים", "שביעית", "תרומות", "מעשרות", "מעשר שני", "חלה", "ערלה", "ביכורים"]);
   });
 
   it("gates the due count per masechta when verified sets are given", () => {
@@ -105,8 +105,11 @@ describe("nav: masechta and seder tiles", () => {
   });
 
   it("sums a seder's masechtos", () => {
-    expect(sederTiles(p, "peah", "2026-01-01")).toEqual([
-      { id: "zeraim", he: "זרעים", en: "Zeraim", masechtos: 3, known: 3, total: 179, due: 1, current: true },
+    const [zeraim, ...rest] = sederTiles(p, "peah", "2026-01-01");
+    expect(zeraim).toEqual({ id: "zeraim", he: "זרעים", en: "Zeraim", masechtos: 11, known: 3, total: 650, due: 1, current: true });
+    expect(rest.map((s) => [s.id, s.masechtos, s.known, s.due, s.current])).toEqual([
+      ["moed", 12, 0, 0, false], ["nashim", 7, 0, 0, false], ["nezikin", 10, 0, 0, false],
+      ["kodashim", 11, 0, 0, false], ["tahorot", 12, 0, 0, false],
     ]);
   });
 
@@ -246,7 +249,9 @@ describe("Hebrew-only masechtos", () => {
     expect(isTranslated("demai")).toBe(false);
     expect(isTranslated("unknown")).toBe(false);
     expect(activeMasechtaOf("peah")).toMatchObject({ id: "peah", he: "פאה", en: "Peah", translated: false });
-    expect(CATALOG.filter((e) => !e.translated).map((e) => e.id)).toEqual(["peah", "demai"]);
+    const hebrewOnly = CATALOG.filter((e) => !e.translated).map((e) => e.id);
+    expect(hebrewOnly).toEqual(expect.arrayContaining(["peah", "demai", "kelim", "oktzin"]));
+    expect(hebrewOnly).not.toContain("berakhot");
   });
 
   it("the read step shows no meaning, word panel or tap-for-meaning", () => {
