@@ -180,6 +180,14 @@ export function loadMasechta(id: string, fetcher: typeof fetch = fetch): Promise
   });
 }
 
+/**
+ * A masechta's text without making it active: the library reads its text from the returned object, so it never moves
+ * the active masechta that a (hidden) learning screen may be reading.
+ */
+export function readMasechta(id: string, fetcher: typeof fetch = fetch): Promise<Masechta> {
+  return obtain(id, fetcher);
+}
+
 /** Fetch a masechta into memory (and so into the service worker's cache) without making it active. */
 export function prefetchMasechta(id: string, fetcher: typeof fetch = fetch): Promise<void> {
   return obtain(id, fetcher).then(() => undefined);
