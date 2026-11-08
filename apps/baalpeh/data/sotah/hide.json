@@ -1,0 +1,114 @@
+{
+ "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+ "hideSteinsaltz": {
+  "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+  "1:2": "Steinsaltz spells out sexual intercourse and infidelity.",
+  "1:3": "Steinsaltz names adultery and the husband's intercourse with her.",
+  "1:4": "Steinsaltz repeats \"immoral behavior\" and names adultery.",
+  "1:5": "Steinsaltz names adultery and describes her clothes torn open in detail.",
+  "1:6": "Steinsaltz mentions her breasts and lewdness.",
+  "1:7": "Steinsaltz describes her exposing herself to adulterers, and the thigh and belly.",
+  "1:8": "Steinsaltz names intercourse with his father's concubines, and gouged eyes and spears.",
+  "1:9": "Steinsaltz's verse has \"horsemen\", which contains a blocked word.",
+  "2:3": "Steinsaltz quotes \"if no man has lain with you\" and the thigh and belly curse.",
+  "2:5": "Steinsaltz names adultery and sexual intercourse.",
+  "2:6": "Steinsaltz names promiscuity and sexual intercourse.",
+  "3:4": "Steinsaltz names promiscuity and a sexual relationship, and describes the ordeal graphically.",
+  "3:6": "Steinsaltz names the husband's sexual intercourse with her.",
+  "3:7": "Steinsaltz names sexual intercourse with forbidden partners.",
+  "3:8": "Steinsaltz says a man is stoned naked.",
+  "4:1": "Steinsaltz speaks of her paramour.",
+  "4:2": "Steinsaltz names the husband's sexual intercourse with her.",
+  "4:3": "Steinsaltz speaks of pregnancy by another man and a sexually underdeveloped woman.",
+  "4:4": "Steinsaltz names adultery, forbidden relations and bestiality.",
+  "5:1": "Steinsaltz speaks of her paramour several times.",
+  "6:2": "Steinsaltz names sexual intercourse and adultery.",
+  "9:3": "Steinsaltz describes a corpse found with the head apart from the body.",
+  "9:9": "Steinsaltz names adulterers, harlotry and lewd women.",
+  "9:13": "Steinsaltz names promiscuity.",
+  "9:15": "Steinsaltz names promiscuity."
+ },
+ "override": [
+  {
+   "ref": "1:5",
+   "piece": 12,
+   "set": {
+    "en": "until her clothes come loose,"
+   },
+   "why": "\"Until her heart area is uncovered\" describes the ordeal too graphically."
+  },
+  {
+   "ref": "1:5",
+   "piece": 15,
+   "set": {
+    "en": "If she looked pretty that way,"
+   },
+   "why": "Goes with piece 12."
+  },
+  {
+   "ref": "1:5",
+   "piece": 16,
+   "set": {
+    "en": "he would not do it,"
+   },
+   "why": "Goes with piece 12."
+  },
+  {
+   "ref": "1:7",
+   "piece": 7,
+   "set": {
+    "en": "She began the sin with one part of her body first,"
+   },
+   "why": "Naming the thigh and belly as where the sin began is too explicit."
+  },
+  {
+   "ref": "1:7",
+   "piece": 8,
+   "set": {
+    "en": "and then another part,"
+   },
+   "why": "See piece 7."
+  },
+  {
+   "ref": "1:7",
+   "piece": 9,
+   "set": {
+    "en": "so that part is punished first,"
+   },
+   "why": "See piece 7."
+  },
+  {
+   "ref": "1:7",
+   "piece": 10,
+   "set": {
+    "en": "and then the other part,"
+   },
+   "why": "See piece 7."
+  },
+  {
+   "ref": "1:9",
+   "piece": 12,
+   "set": {
+    "en": "and both chariots and riders went up with him.\""
+   },
+   "why": "\"Horsemen\" contains a blocked word."
+  },
+  {
+   "ref": "1:9",
+   "piece": 12,
+   "word": "פָּרָשִׁים.",
+   "set": {
+    "en": "riders"
+   },
+   "why": "\"Horsemen\" contains a blocked word."
+  },
+  {
+   "ref": "3:4",
+   "piece": 2,
+   "set": {
+    "en": "and her body begins to change,"
+   },
+   "why": "Bulging eyes and swelling veins describe the ordeal too graphically."
+  }
+ ]
+}

@@ -1,0 +1,3236 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "The Torah has thirty-six sins that are so serious that one who does them on purpose gets kares. This mishnah lists all of them.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁלשִׁים וָשֵׁשׁ כְּרֵתוֹת בַּתּוֹרָה.",
+    "en": "There are thirty-six sins in the Torah that bring kares.",
+    "explain": "Kares is a very serious punishment from Hashem.",
+    "st": "There are <b>thirty-six</b> cases <b>in the Torah</b> with regard to which one who performs a prohibited action intentionally is liable to receive <b>excision from the World-to-Come [karet].</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "וָשֵׁשׁ",
+      "en": "and six"
+     },
+     {
+      "he": "כְּרֵתוֹת",
+      "en": "kares sins",
+      "note": "Sins whose punishment is kares, being cut off."
+     },
+     {
+      "he": "בַּתּוֹרָה.",
+      "en": "in the Torah"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל הָאֵם,",
+    "en": "One who sins with his mother,",
+    "st": "They are: <b>One who engages in sexual intercourse with</b> his <b>mother;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הָאֵם,",
+      "en": "the mother"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֵשֶׁת הָאָב,",
+    "en": "or with his father's wife,",
+    "st": "<b>or with the wife of</b> his <b>father,</b>",
+    "stMore": "even if she is not his mother;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַכַּלָּה,",
+    "en": "or with his daughter-in-law.",
+    "st": "<b>or with</b> his <b>daughter-in-law.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "הַכַּלָּה,",
+      "en": "the daughter-in-law",
+      "note": "His son's wife."
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל הַזְּכוּר,",
+    "en": "One who sins with another man,",
+    "st": "The same punishment is imposed on a man <b>who engages in intercourse with</b> another <b>male [hazekhur],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הַזְּכוּר,",
+      "en": "a male"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַבְּהֵמָה,",
+    "en": "or sins with an animal,",
+    "st": "<b>or</b> who copulates <b>with an animal;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "הַבְּהֵמָה,",
+      "en": "the animal"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאִשָּׁה הַמְבִיאָה אֶת הַבְּהֵמָה עָלֶיהָ,",
+    "en": "and a woman who sins with an animal.",
+    "st": "<b>and a woman who brings an animal upon her</b>",
+    "stMore": "to engage in bestiality.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאִשָּׁה",
+      "en": "and the woman"
+     },
+     {
+      "he": "הַמְבִיאָה",
+      "en": "who brings"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּהֵמָה",
+      "en": "the animal"
+     },
+     {
+      "he": "עָלֶיהָ,",
+      "en": "to herself"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל אִשָּׁה וּבִתָּהּ,",
+    "en": "One who sins with a woman and her daughter,",
+    "st": "The same punishment is imposed on <b>one who engages in intercourse with a woman and her daughter,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "וּבִתָּהּ,",
+      "en": "and her daughter"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֵשֶׁת אִישׁ,",
+    "en": "or with a married woman.",
+    "st": "<b>or</b> with <b>a married woman.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אִישׁ,",
+      "en": "a man"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל אֲחוֹתוֹ,",
+    "en": "One who sins with his sister,",
+    "st": "The same punishment is imposed on <b>one who engages in intercourse with his sister,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "one who sins"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "אֲחוֹתוֹ,",
+      "en": "his sister"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֲחוֹת אָבִיו,",
+    "en": "or with his father's sister,",
+    "st": "<b>or with his father’s sister,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֲחוֹת אִמּוֹ,",
+    "en": "or with his mother's sister,",
+    "st": "<b>or with his mother’s sister,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אִמּוֹ,",
+      "en": "his mother"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֲחוֹת אִשְׁתּוֹ,",
+    "en": "or with his wife's sister,",
+    "st": "<b>or with his wife’s sister,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֵשֶׁת אָחִיו,",
+    "en": "or with his brother's wife,",
+    "st": "<b>or with his brother’s wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אָחִיו,",
+      "en": "his brother"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֵשֶׁת אֲחִי אָבִיו,",
+    "en": "or with the wife of his father's brother,",
+    "st": "<b>or with the wife of his father’s brother, or with the wife of his mother’s brother,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אֲחִי",
+      "en": "the brother of"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַנִּדָּה,",
+    "en": "or with a niddah.",
+    "st": "<b>or with a menstruating woman.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "הַנִּדָּה,",
+      "en": "the niddah"
+     }
+    ]
+   },
+   {
+    "he": "הַמְגַדֵּף, וְהָעוֹבֵד עֲבוֹדָה זָרָה,",
+    "en": "One who curses Hashem's Name, and one who serves idols,",
+    "st": "<b>And</b> these too are liable to receive karet: <b>One who blasphemes</b> the name of Heaven, <b>and</b> one who <b>worships an idol,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְגַדֵּף,",
+      "en": "one who curses Hashem"
+     },
+     {
+      "he": "וְהָעוֹבֵד",
+      "en": "and one who serves"
+     },
+     {
+      "he": "עֲבוֹדָה",
+      "en": "worship"
+     },
+     {
+      "he": "זָרָה,",
+      "en": "foreign (idols)"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנּוֹתֵן מִזַּרְעוֹ לַמֹּלֶךְ,",
+    "en": "and one who gives some of his children to the Molech idol,",
+    "st": "<b>and one who gives of his children to Molekh</b> (see Leviticus 20:1–5),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנּוֹתֵן",
+      "en": "and one who gives"
+     },
+     {
+      "he": "מִזַּרְעוֹ",
+      "en": "from his children"
+     },
+     {
+      "he": "לַמֹּלֶךְ,",
+      "en": "to the Molech",
+      "note": "An idol that people served by passing children through fire."
+     }
+    ]
+   },
+   {
+    "he": "וּבַעַל אוֹב,",
+    "en": "and a ba'al ov,",
+    "st": "<b>and a necromancer,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַעַל",
+      "en": "and a master of"
+     },
+     {
+      "he": "אוֹב,",
+      "en": "ov",
+      "note": "A ba'al ov claims to talk with the dead."
+     }
+    ]
+   },
+   {
+    "he": "הַמְחַלֵּל אֶת הַשַּׁבָּת,",
+    "en": "one who breaks Shabbos,",
+    "st": "<b>and</b> one who <b>desecrates Shabbat.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְחַלֵּל",
+      "en": "one who breaks"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "וְטָמֵא שֶׁאָכַל אֶת הַקֹּדֶשׁ,",
+    "en": "and one who is tamei and ate holy food,",
+    "st": "<b>And</b> the same is the punishment of <b>one who is ritually impure who ate sacrificial</b> food;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטָמֵא",
+      "en": "and one who is tamei"
+     },
+     {
+      "he": "שֶׁאָכַל",
+      "en": "who ate"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקֹּדֶשׁ,",
+      "en": "holy food"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבָּא לַמִּקְדָּשׁ טָמֵא,",
+    "en": "and one who goes into the Beis HaMikdash while tamei,",
+    "st": "<b>and one who enters the Temple</b> while <b>ritually impure;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבָּא",
+      "en": "and one who comes"
+     },
+     {
+      "he": "לַמִּקְדָּשׁ",
+      "en": "into the Mikdash"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹכֵל חֵלֶב,",
+    "en": "one who eats chelev,",
+    "st": "<b>and one who eats</b> forbidden <b>fat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹכֵל",
+      "en": "one who eats"
+     },
+     {
+      "he": "חֵלֶב,",
+      "en": "chelev",
+      "note": "Certain fat of an animal that the Torah forbids to eat."
+     }
+    ]
+   },
+   {
+    "he": "וְדָם, נוֹתָר,",
+    "en": "or blood, or nosar,",
+    "st": "<b>or</b> consumes <b>blood, or</b> eats meat <b>left over from an offering after the time allotted for its consumption [notar],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְדָם,",
+      "en": "and blood"
+     },
+     {
+      "he": "נוֹתָר,",
+      "en": "nosar",
+      "note": "Meat of a korban left over after the time to eat it."
+     }
+    ]
+   },
+   {
+    "he": "וּפִגּוּל, הַשּׁוֹחֵט וְהַמַּעֲלֶה בַּחוּץ,",
+    "en": "or piggul, and one who shechts and offers a korban outside the Beis HaMikdash,",
+    "st": "<b>or</b> eats meat of <b>an offering that was sacrificed with the intent to consume it after its designated time [piggul]; and one who slaughters</b> offerings <b>and offers</b> them <b>up outside</b> the Temple.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפִגּוּל,",
+      "en": "and piggul",
+      "note": "A korban made unfit by planning to eat it after its time."
+     },
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "וְהַמַּעֲלֶה",
+      "en": "and one who offers up"
+     },
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹכֵל חָמֵץ בְּפֶסַח,",
+    "en": "one who eats chametz on Pesach,",
+    "st": "<b>And</b> these too are liable to receive karet: <b>One who eats leavened bread on Passover,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹכֵל",
+      "en": "one who eats"
+     },
+     {
+      "he": "חָמֵץ",
+      "en": "chametz"
+     },
+     {
+      "he": "בְּפֶסַח,",
+      "en": "on Pesach"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאוֹכֵל וְהָעוֹשֶׂה מְלָאכָה בְיוֹם הַכִּפּוּרִים,",
+    "en": "and one who eats or does work on Yom Kippur,",
+    "st": "<b>and one who eats or performs</b> prohibited <b>labor on Yom Kippur.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאוֹכֵל",
+      "en": "and one who eats"
+     },
+     {
+      "he": "וְהָעוֹשֶׂה",
+      "en": "and one who does"
+     },
+     {
+      "he": "מְלָאכָה",
+      "en": "work"
+     },
+     {
+      "he": "בְיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים,",
+      "en": "Kippur"
+     }
+    ]
+   },
+   {
+    "he": "הַמְפַטֵּם אֶת הַשֶּׁמֶן,",
+    "en": "one who mixes the special oil,",
+    "st": "<b>And</b> the same is the punishment of <b>one who blends the</b> anointing <b>oil</b>",
+    "stMore": "according to the specifications of the oil prepared by Moses in the wilderness (see Exodus 30:22–33);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְפַטֵּם",
+      "en": "one who mixes"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשֶּׁמֶן,",
+      "en": "the oil"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְפַטֵּם אֶת הַקְּטֹרֶת,",
+    "en": "and one who mixes the ketores,",
+    "st": "<b>and one who blends the incense</b>",
+    "stMore": "according to the specifications of the incense used in the Temple service for purposes other than use in the Temple;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְפַטֵּם",
+      "en": "and one who mixes"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקְּטֹרֶת,",
+      "en": "the ketores",
+      "note": "The special incense burned in the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "וְהַסָּךְ בְּשֶׁמֶן הַמִּשְׁחָה.",
+    "en": "and one who rubs himself with the shemen hamishchah.",
+    "st": "<b>and one who applies the anointing oil</b> to his skin.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַסָּךְ",
+      "en": "and one who rubs"
+     },
+     {
+      "he": "בְּשֶׁמֶן",
+      "en": "with the oil of"
+     },
+     {
+      "he": "הַמִּשְׁחָה.",
+      "en": "the anointing",
+      "note": "The special oil Moshe made to anoint the Kohanim and the Mishkan."
+     }
+    ]
+   },
+   {
+    "he": "הַפֶּסַח וְהַמִּילָה בְּמִצְוֹת עֲשֵׂה:",
+    "en": "Also Korban Pesach and bris milah, which are mitzvos to do.",
+    "st": "<b>And</b> one is liable to receive karet for failure to fulfill the mitzva of bringing <b>the Paschal offering and the</b> mitzva of <b>circumcision,</b> which unlike the cases of prohibitions enumerated in the mishna, are <b>positive mitzvot.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפֶּסַח",
+      "en": "the Pesach"
+     },
+     {
+      "he": "וְהַמִּילָה",
+      "en": "and the bris milah"
+     },
+     {
+      "he": "בְּמִצְוֹת",
+      "en": "among mitzvos"
+     },
+     {
+      "he": "עֲשֵׂה:",
+      "en": "to do"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "For these sins, one who does them on purpose gets kares, and one who does them by mistake brings a chatas. Rabbi Meir and the Sages say which sins are different.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עַל אֵלּוּ חַיָּבִים עַל זְדוֹנָם כָּרֵת,",
+    "en": "For these sins, one who does them on purpose gets kares,",
+    "st": "<b>For</b> any of <b>these</b> prohibitions, one is <b>liable</b> to receive <b>karet for its intentional</b> violation",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "חַיָּבִים",
+      "en": "one is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "זְדוֹנָם",
+      "en": "doing them on purpose"
+     },
+     {
+      "he": "כָּרֵת,",
+      "en": "kares"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל שִׁגְגָתָם חַטָּאת,",
+    "en": "and one who does them by mistake brings a chatas,",
+    "st": "<b>and</b> to bring <b>a sin offering for its unwitting</b> violation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "שִׁגְגָתָם",
+      "en": "doing them by mistake"
+     },
+     {
+      "he": "חַטָּאת,",
+      "en": "a chatas"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל לֹא הוֹדַע שֶׁלָּהֶן אָשָׁם תָּלוּי,",
+    "en": "and one who is not sure if he sinned brings an asham taluy,",
+    "st": "<b>And for their</b> violation in a case where it is <b>unknown</b> to him whether or not he transgressed, he is liable to bring <b>a provisional guilt offering,</b>",
+    "stMore": "which provides provisional atonement until he discovers whether or not he transgressed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הוֹדַע",
+      "en": "being known"
+     },
+     {
+      "he": "שֶׁלָּהֶן",
+      "en": "of theirs"
+     },
+     {
+      "he": "אָשָׁם",
+      "en": "an asham"
+     },
+     {
+      "he": "תָּלוּי,",
+      "en": "taluy",
+      "note": "Hanging: brought when one is not sure he sinned."
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַמְטַמֵּא מִקְדָּשׁ וְקָדָשָׁיו,",
+    "en": "except for one who makes the Beis HaMikdash or its holy things tamei,",
+    "st": "This is the halakha for all of the transgressions listed above <b>except for one who defiles the Temple,</b> i.e., he enters the Temple while ritually impure, <b>or</b> partakes of <b>its consecrated items</b>",
+    "stMore": "while ritually impure.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "for"
+     },
+     {
+      "he": "הַמְטַמֵּא",
+      "en": "one who makes tamei"
+     },
+     {
+      "he": "מִקְדָּשׁ",
+      "en": "the Mikdash"
+     },
+     {
+      "he": "וְקָדָשָׁיו,",
+      "en": "and its holy things"
+     }
+    ]
+   },
+   {
+    "he": "מִפְנֵי שֶׁהוּא בְעוֹלֶה וְיוֹרֵד,",
+    "en": "because he brings a korban oleh v'yored.",
+    "st": "In these cases he does not bring a provisional guilt offering <b>because he is</b> obligated <b>to</b> bring <b>a sliding-scale</b> offering for a definite transgression.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "he"
+     },
+     {
+      "he": "בְעוֹלֶה",
+      "en": "brings an oleh"
+     },
+     {
+      "he": "וְיוֹרֵד,",
+      "en": "v'yored",
+      "note": "A korban that goes up and down: a rich person brings more, a poor person less."
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "This is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אַף הַמְגַדֵּף,",
+    "en": "also one who curses Hashem does not bring them,",
+    "st": "The halakha is the same <b>even</b> with regard to <b>the one who blasphemes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הַמְגַדֵּף,",
+      "en": "one who curses Hashem"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר טו),",
+    "en": "as it says (Bamidbar 15),",
+    "st": "<b>as it is stated</b>",
+    "stMore": "with regard to the sin offering:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it is said"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "טו),",
+      "en": "15)"
+     }
+    ]
+   },
+   {
+    "he": "תּוֹרָה אַחַת יִהְיֶה לָכֶם לָעֹשֶׂה בִּשְׁגָגָה,",
+    "en": "\"You shall have one law for one who does it by mistake.\"",
+    "st": "<b>“You shall have one law for him who performs the action unwittingly”</b> (Numbers 15:29),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תּוֹרָה",
+      "en": "law"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "יִהְיֶה",
+      "en": "shall be"
+     },
+     {
+      "he": "לָכֶם",
+      "en": "for you"
+     },
+     {
+      "he": "לָעֹשֶׂה",
+      "en": "for one who does"
+     },
+     {
+      "he": "בִּשְׁגָגָה,",
+      "en": "by mistake"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא מְגַדֵּף,",
+    "en": "This leaves out one who curses Hashem,",
+    "st": "<b>excluding</b> one who <b>blasphemes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "leaves out"
+     },
+     {
+      "he": "מְגַדֵּף,",
+      "en": "one who curses Hashem"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינוֹ עוֹשֶׂה מַעֲשֶׂה:",
+    "en": "because he does not do an action.",
+    "st": "<b>as he does not perform an action</b> but sins with speech.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "because he does not"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "do"
+     },
+     {
+      "he": "מַעֲשֶׂה:",
+      "en": "an action"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "When a woman loses a pregnancy, sometimes she brings a korban that is eaten, sometimes a korban that is not eaten, and sometimes no korban at all. This mishnah lists the first group.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יֵשׁ מְבִיאוֹת קָרְבָּן וְנֶאֱכָל,",
+    "en": "Some women bring a korban and it is eaten,",
+    "st": "<b>There are</b> some women who <b>bring</b> a sin <b>offering</b> of a woman after childbirth <b>and</b> the offering <b>is eaten</b> by the priests.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "מְבִיאוֹת",
+      "en": "women who bring"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "וְנֶאֱכָל,",
+      "en": "and it is eaten"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵשׁ מְבִיאוֹת וְאֵינוֹ נֶאֱכָל,",
+    "en": "and some bring one but it is not eaten,",
+    "st": "<b>And there are</b> some women who <b>bring</b> a sin <b>offering but it is not eaten.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵשׁ",
+      "en": "and there are"
+     },
+     {
+      "he": "מְבִיאוֹת",
+      "en": "women who bring"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it is not"
+     },
+     {
+      "he": "נֶאֱכָל,",
+      "en": "eaten"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵשׁ שֶׁאֵינָן מְבִיאוֹת.",
+    "en": "and some do not bring one at all.",
+    "st": "<b>And</b> there are <b>some</b> women who <b>do not bring</b> a sin offering at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵשׁ",
+      "en": "and there are"
+     },
+     {
+      "he": "שֶׁאֵינָן",
+      "en": "who do not"
+     },
+     {
+      "he": "מְבִיאוֹת.",
+      "en": "bring"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ מְבִיאוֹת קָרְבָּן וְנֶאֱכָל.",
+    "en": "These bring a korban and it is eaten:",
+    "st": "The mishna elaborates: The following women <b>bring</b> a sin <b>offering and it is eaten</b> by the priests:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "מְבִיאוֹת",
+      "en": "bring"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "וְנֶאֱכָל.",
+      "en": "and it is eaten"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת כְּמִין בְּהֵמָה חַיָּה וָעוֹף,",
+    "en": "A woman who lost a pregnancy that looked like an animal, a wild animal, or a bird.",
+    "st": "<b>One who miscarries</b> a fetus with a form <b>similar to a domesticated animal,</b> one who miscarries a fetus with a form similar to <b>an undomesticated animal, or</b> one who miscarries a fetus with a form similar to <b>a bird;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "a woman who lost a pregnancy"
+     },
+     {
+      "he": "כְּמִין",
+      "en": "like a kind of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "חַיָּה",
+      "en": "a wild animal"
+     },
+     {
+      "he": "וָעוֹף,",
+      "en": "and a bird"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "this is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא בוֹ מִצּוּרַת הָאָדָם.",
+    "en": "it must have the shape of a person.",
+    "st": "She does not bring a sin offering <b>unless</b> the fetus <b>has the form of a person.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "there is"
+     },
+     {
+      "he": "בוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "מִצּוּרַת",
+      "en": "some of the shape of"
+     },
+     {
+      "he": "הָאָדָם.",
+      "en": "a person"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת סַנְדָּל,",
+    "en": "A woman who lost a pregnancy shaped like a sandal,",
+    "st": "With regard to a woman <b>who miscarries a sandal</b> fetus,",
+    "stMore": "i.e., one that has the form of a flat fish;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "a woman who lost"
+     },
+     {
+      "he": "סַנְדָּל,",
+      "en": "a sandal",
+      "note": "A flat shape, like a flat fish."
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שִׁלְיָא,",
+    "en": "or the afterbirth,",
+    "st": "<b>or</b> if she miscarries the <b>placenta;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שִׁלְיָא,",
+      "en": "the afterbirth"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁפִיר מְרֻקָּם,",
+    "en": "or a sac with a shape inside,",
+    "st": "<b>or an amniotic sac</b> in which <b>tissue developed;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁפִיר",
+      "en": "and a sac"
+     },
+     {
+      "he": "מְרֻקָּם,",
+      "en": "with a shape"
+     }
+    ]
+   },
+   {
+    "he": "וְהַיּוֹצֵא מְחֻתָּךְ.",
+    "en": "or one that came out in pieces,",
+    "st": "<b>or</b> a fetus <b>that emerged cut,</b> i.e., in pieces;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַיּוֹצֵא",
+      "en": "and one that came out"
+     },
+     {
+      "he": "מְחֻתָּךְ.",
+      "en": "cut"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן שִׁפְחָה שֶׁהִפִּילָה,",
+    "en": "and also a maidservant who lost a pregnancy,",
+    "st": "<b>and likewise</b> a Canaanite <b>maidservant,</b> owned by a Jew, <b>who miscarried;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and also"
+     },
+     {
+      "he": "שִׁפְחָה",
+      "en": "a maidservant"
+     },
+     {
+      "he": "שֶׁהִפִּילָה,",
+      "en": "who lost a pregnancy"
+     }
+    ]
+   },
+   {
+    "he": "מְבִיאָה קָרְבָּן וְנֶאֱכָל:",
+    "en": "brings a korban and it is eaten.",
+    "st": "in all these cases <b>she brings</b> a sin <b>offering and it is eaten</b> by the priests.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבִיאָה",
+      "en": "brings"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "וְנֶאֱכָל:",
+      "en": "and it is eaten"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Sometimes a woman brings a korban but it is not eaten, because we are not sure she really needed it. Rabbi Yosei says when two women may bring one korban together.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ מְבִיאוֹת וְאֵינוֹ נֶאֱכָל.",
+    "en": "These bring a korban, but it is not eaten:",
+    "st": "<b>And these</b> women <b>bring</b> sin offerings <b>but</b> their sin offerings <b>are not eaten:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "מְבִיאוֹת",
+      "en": "bring"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it is not"
+     },
+     {
+      "he": "נֶאֱכָל.",
+      "en": "eaten"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת וְאֵין יָדוּעַ מַה הִפִּילָה,",
+    "en": "A woman who lost a pregnancy and does not know what it was,",
+    "st": "<b>One who miscarries and does not know</b> the nature of <b>what she miscarried;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "a woman who lost a pregnancy"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and it is not"
+     },
+     {
+      "he": "יָדוּעַ",
+      "en": "known"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הִפִּילָה,",
+      "en": "she lost"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן שְׁתֵּי נָשִׁים שֶׁהִפִּילוּ,",
+    "en": "and also two women who lost pregnancies,",
+    "st": "<b>and two women who miscarried,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and also"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "שֶׁהִפִּילוּ,",
+      "en": "who lost pregnancies"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת מִמִּין פְּטוּר וְאַחַת מִמִּין חוֹבָה.",
+    "en": "one of a kind that needs no korban, and one of a kind that needs a korban.",
+    "st": "in a case where <b>one</b> miscarried a fetus <b>of a type</b> for which a woman is <b>exempt</b> from bringing an offering <b>and</b> the other <b>one</b> miscarried a fetus <b>of a type</b> for which a woman is <b>liable</b> to bring an offering, and they do not know which miscarried which type.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "of a kind"
+     },
+     {
+      "he": "פְּטוּר",
+      "en": "that is free"
+     },
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "of a kind"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "that is a must"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "אֵימָתַי, בִּזְמַן שֶׁהָלְכוּ זוֹ לְמִזְרָח וְזוֹ לְמַעֲרָב.",
+    "en": "When is this? When one went to the east and the other to the west.",
+    "st": "<b>When</b> is their sin offering not eaten? It is <b>when</b> both women <b>went</b> to different places within the Temple to bring their offerings, e.g., <b>this</b> woman went <b>to the east and that</b> woman went <b>to the west.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי,",
+      "en": "when?"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁהָלְכוּ",
+      "en": "that went"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "לְמִזְרָח",
+      "en": "to the east"
+     },
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "לְמַעֲרָב.",
+      "en": "to the west"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אִם הָיוּ שְׁתֵּיהֶן עוֹמְדוֹת כְּאַחַת,",
+    "en": "But if both of them were standing together,",
+    "st": "<b>But if both of them were standing</b> together,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "שְׁתֵּיהֶן",
+      "en": "both of them"
+     },
+     {
+      "he": "עוֹמְדוֹת",
+      "en": "standing"
+     },
+     {
+      "he": "כְּאַחַת,",
+      "en": "as one"
+     }
+    ]
+   },
+   {
+    "he": "מְבִיאוֹת קָרְבָּן וְנֶאֱכָל:",
+    "en": "they bring a korban, and it is eaten.",
+    "st": "<b>both of them</b> together <b>bring</b> one sin <b>offering, and it is eaten.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבִיאוֹת",
+      "en": "they bring"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "וְנֶאֱכָל:",
+      "en": "and it is eaten"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "Some women who lose a pregnancy do not bring a korban at all, because what came out was not a baby. Rabbi Shimon argues about one case.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ שֶׁאֵינָן מְבִיאוֹת.",
+    "en": "These do not bring a korban:",
+    "st": "<b>These</b> women <b>do not bring</b> a sin offering:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "שֶׁאֵינָן",
+      "en": "that do not"
+     },
+     {
+      "he": "מְבִיאוֹת.",
+      "en": "bring"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת שָׁפִיר מָלֵא מַיִם,",
+    "en": "A woman who lost a sac full of water,",
+    "st": "A woman <b>who miscarries an amniotic sac full of water,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "a woman who lost"
+     },
+     {
+      "he": "שָׁפִיר",
+      "en": "a sac"
+     },
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "מַיִם,",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "he": "מָלֵא דָם,",
+    "en": "full of blood,",
+    "st": "or one <b>full of blood,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "דָם,",
+      "en": "blood"
+     }
+    ]
+   },
+   {
+    "he": "מָלֵא גְנִינִים,",
+    "en": "or full of colored things,",
+    "st": "or one <b>full of</b> different <b>colors;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "גְנִינִים,",
+      "en": "colored things"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת כְּמִין דָּגִים וַחֲגָבִים שְׁקָצִים וּרְמָשִׂים,",
+    "en": "a woman who lost something like fish, grasshoppers, or creeping creatures,",
+    "st": "and likewise a woman <b>who miscarries</b> a fetus with a form <b>similar to fish, or grasshoppers, or repugnant creatures, or creeping animals;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "a woman who lost"
+     },
+     {
+      "he": "כְּמִין",
+      "en": "like a kind of"
+     },
+     {
+      "he": "דָּגִים",
+      "en": "fish"
+     },
+     {
+      "he": "וַחֲגָבִים",
+      "en": "and grasshoppers"
+     },
+     {
+      "he": "שְׁקָצִים",
+      "en": "disgusting creatures"
+     },
+     {
+      "he": "וּרְמָשִׂים,",
+      "en": "and crawling creatures"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת יוֹם אַרְבָּעִים,",
+    "en": "a woman who lost a pregnancy on the fortieth day,",
+    "st": "and a woman <b>who miscarries</b> on the <b>fortieth day</b> of her pregnancy;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "a woman who lost"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "אַרְבָּעִים,",
+      "en": "forty"
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹצֵא דֹפֶן.",
+    "en": "and a baby born through the side.",
+    "st": "<b>and</b> a woman who gives birth by <b>caesarean section.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹצֵא",
+      "en": "and one coming out"
+     },
+     {
+      "he": "דֹפֶן.",
+      "en": "the side"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן מְחַיֵּב בְּיוֹצֵא דֹפֶן:",
+    "en": "Rabbi Shimon says she must bring a korban for a baby born through the side.",
+    "st": "<b>Rabbi Shimon deems</b> a woman <b>liable</b> to bring a sin offering <b>in</b> the case where she gives birth by <b>caesarean section.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "מְחַיֵּב",
+      "en": "requires"
+     },
+     {
+      "he": "בְּיוֹצֵא",
+      "en": "for one coming out"
+     },
+     {
+      "he": "דֹפֶן:",
+      "en": "the side"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "After a girl is born, the mother brings her korban on the eighty-first day. Beis Shammai and Beis Hillel argue about a woman who loses a pregnancy on the night before that day: does she need another korban?",
+  "stIntro": "A woman who gives birth to a daughter counts fourteen days during which she is ritually impure. That is followed by sixty-six days during which she remains ritually pure even if she experiences a flow of blood. The Torah obligates a woman to bring her offering on the eighty-first day (see Leviticus 12:1–6). If the woman miscarries another fetus before that day, she is not required to bring an additional offering.",
+  "chunks": [
+   {
+    "he": "הַמַּפֶּלֶת אוֹר לִשְׁמוֹנִים וְאֶחָד,",
+    "en": "A woman who lost a pregnancy on the night before the eighty-first day,",
+    "st": "In the case of a woman <b>who miscarries</b> a fetus <b>on the night of,</b> i.e., preceding, <b>the eighty-first</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "a woman who lost a pregnancy"
+     },
+     {
+      "he": "אוֹר",
+      "en": "on the night"
+     },
+     {
+      "he": "לִשְׁמוֹנִים",
+      "en": "of eighty"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי פּוֹטְרִין מִן הַקָּרְבָּן,",
+    "en": "Beis Shammai say she does not need another korban,",
+    "st": "<b>Beit Shammai deem</b> her <b>exempt from</b> bringing a second <b>offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "פּוֹטְרִין",
+      "en": "free her"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקָּרְבָּן,",
+      "en": "the korban"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית הִלֵּל מְחַיְּבִים.",
+    "en": "and Beis Hillel say she does.",
+    "st": "<b>and Beit Hillel deem</b> her <b>liable</b> to bring a second offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מְחַיְּבִים.",
+      "en": "require her"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ בֵית הִלֵּל לְבֵית שַׁמַּאי,",
+    "en": "Beis Hillel said to Beis Shammai,",
+    "st": "<b>Beit Hillel said to Beit Shammai:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "מַאי שְׁנָא אוֹר לִשְׁמוֹנִים",
+    "en": "\"What is the difference between the night of the eighty-first",
+    "st": "<b>What is different</b> between the <b>night of the eighty-first</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַאי",
+      "en": "what"
+     },
+     {
+      "he": "שְׁנָא",
+      "en": "is different"
+     },
+     {
+      "he": "אוֹר",
+      "en": "the night"
+     },
+     {
+      "he": "לִשְׁמוֹנִים",
+      "en": "of eighty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד מִיּוֹם שְׁמוֹנִים וְאֶחָד.",
+    "en": "and the eighty-first day?",
+    "st": "<b>and</b> the <b>day of the eighty-first?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "מִיּוֹם",
+      "en": "from the day of"
+     },
+     {
+      "he": "שְׁמוֹנִים",
+      "en": "eighty"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אִם שָׁוֶה לוֹ לַטֻּמְאָה,",
+    "en": "If they are the same for tumah,",
+    "st": "<b>If they are equal with regard to</b> the halakhot of <b>ritual impurity,</b>",
+    "stMore": "i.e., the blood flow of this woman on the eighty-first night renders her ritually impure and all the standard strictures of ritual impurity apply to her,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "שָׁוֶה",
+      "en": "it is equal"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "לַטֻּמְאָה,",
+      "en": "for tumah"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִשְׁוֶה לוֹ לַקָּרְבָּן.",
+    "en": "shouldn't they be the same for the korban?\"",
+    "st": "<b>will</b> the two time periods <b>not be equal with regard to</b> liability to bring an additional <b>offering</b> as well?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִשְׁוֶה",
+      "en": "it will be equal"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "לַקָּרְבָּן.",
+      "en": "for the korban"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶם בֵּית שַׁמַּאי,",
+    "en": "Beis Shammai said to them,",
+    "st": "<b>Beit Shammai said to</b> Beit Hillel:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אֲמַרְתֶּם בְּמַפֶּלֶת יוֹם שְׁמוֹנִים וְאֶחָד,",
+    "en": "\"No! If you said this about a woman who lost a pregnancy on the eighty-first day,",
+    "st": "<b>No,</b> there is a difference between that night and the following day. <b>If you said with regard to</b> a woman <b>who miscarries</b> on the <b>eighty-first day</b>",
+    "stMore": "that she is obligated to bring an additional offering, this is logical,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֲמַרְתֶּם",
+      "en": "you said"
+     },
+     {
+      "he": "בְּמַפֶּלֶת",
+      "en": "about a woman who lost"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁמוֹנִים",
+      "en": "eighty"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן יָצְאָה בְשָׁעָה שֶׁהִיא",
+    "en": "that is because she came into a time that is",
+    "st": "<b>as she emerged into a period that is fit</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "because"
+     },
+     {
+      "he": "יָצְאָה",
+      "en": "she came out"
+     },
+     {
+      "he": "בְשָׁעָה",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     }
+    ]
+   },
+   {
+    "he": "רְאוּיָה לְהָבִיא בָהּ קָרְבָּן,",
+    "en": "fit to bring a korban.",
+    "st": "for <b>her to bring</b> her <b>offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רְאוּיָה",
+      "en": "fit"
+     },
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "קָרְבָּן,",
+      "en": "a korban"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמְרוּ בְמַפֶּלֶת אוֹר לִשְׁמוֹנִים וְאֶחָד,",
+    "en": "Will you say the same about one who lost on the night before the eighty-first,",
+    "st": "Would you <b>say</b> the same <b>with regard to</b> a woman <b>who miscarries on the night of</b> the <b>eighty-first</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמְרוּ",
+      "en": "will you say"
+     },
+     {
+      "he": "בְמַפֶּלֶת",
+      "en": "about a woman who lost"
+     },
+     {
+      "he": "אוֹר",
+      "en": "on the night"
+     },
+     {
+      "he": "לִשְׁמוֹנִים",
+      "en": "of eighty"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא יָצְאָה בְשָׁעָה שֶׁהִיא",
+    "en": "who did not come into a time that is",
+    "st": "<b>where she did not emerge into a period that is fit</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יָצְאָה",
+      "en": "she came out"
+     },
+     {
+      "he": "בְשָׁעָה",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     }
+    ]
+   },
+   {
+    "he": "רְאוּיָה לְהָבִיא בָהּ קָרְבָּן.",
+    "en": "fit to bring a korban?\"",
+    "st": "for <b>her to bring</b> her <b>offering,</b>",
+    "stMore": "as offerings are not sacrificed at night?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רְאוּיָה",
+      "en": "fit"
+     },
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "קָרְבָּן.",
+      "en": "a korban"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶן בֵּית הִלֵּל,",
+    "en": "Beis Hillel said to them,",
+    "st": "<b>Beit Hillel said to</b> Beit Shammai:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל,",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲרֵי הַמַּפֶּלֶת יוֹם שְׁמוֹנִים וְאֶחָד",
+    "en": "\"But look at a woman who lost a pregnancy on the eighty-first day",
+    "st": "<b>But let</b> the case of a woman <b>who miscarries on</b> the <b>eighty-first day</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲרֵי",
+      "en": "but here is"
+     },
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "a woman who lost"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁמוֹנִים",
+      "en": "eighty"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁחָל לִהְיוֹת בְּשַׁבָּת תּוֹכִיחַ,",
+    "en": "that falls on Shabbos. It proves our point:",
+    "st": "<b>that occurs on Shabbat prove</b> that this distinction is incorrect,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁחָל",
+      "en": "that fell"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "בְּשַׁבָּת",
+      "en": "on Shabbos"
+     },
+     {
+      "he": "תּוֹכִיחַ,",
+      "en": "will prove"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא יָצְאָה בְשָׁעָה שֶׁהִיא רְאוּיָה",
+    "en": "she did not come into a time that is fit",
+    "st": "<b>as she did not emerge into a period that is fit</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יָצְאָה",
+      "en": "she came out"
+     },
+     {
+      "he": "בְשָׁעָה",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "רְאוּיָה",
+      "en": "fit"
+     }
+    ]
+   },
+   {
+    "he": "לְהָבִיא בָהּ קָרְבָּן וְחַיֶּבֶת בַּקָּרְבָּן.",
+    "en": "to bring a korban, and still she must bring a korban!\"",
+    "st": "for <b>her to bring</b> her <b>offering</b> because individual offerings are not sacrificed on Shabbat, <b>and</b> nevertheless <b>she is obligated to bring</b> an additional <b>offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "וְחַיֶּבֶת",
+      "en": "and she must bring"
+     },
+     {
+      "he": "בַּקָּרְבָּן.",
+      "en": "the korban"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶם בֵּית שַׁמַּאי,",
+    "en": "Beis Shammai said to them,",
+    "st": "<b>Beit Shammai said to</b> Beit Hillel:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אֲמַרְתֶּם בְּמַפֶּלֶת יוֹם שְׁמוֹנִים",
+    "en": "\"No! If you said this about a woman who lost a pregnancy on the eighty-first day",
+    "st": "<b>No,</b> there is a difference between these cases. <b>If you said</b> this ruling with regard to a woman <b>who miscarries on</b> the <b>eighty-first day</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֲמַרְתֶּם",
+      "en": "you said"
+     },
+     {
+      "he": "בְּמַפֶּלֶת",
+      "en": "about a woman who lost"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁמוֹנִים",
+      "en": "eighty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד שֶׁחָל לִהְיוֹת בְּשַׁבָּת,",
+    "en": "that falls on Shabbos,",
+    "st": "<b>that occurs on Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "שֶׁחָל",
+      "en": "that fell"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "בְּשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאַף עַל פִּי שֶׁאֵינוֹ",
+    "en": "that is because, even though Shabbos is not",
+    "st": "the reason is <b>that although</b> Shabbat <b>is unfit for</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאַף",
+      "en": "that even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it)"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "it is not"
+     }
+    ]
+   },
+   {
+    "he": "רָאוּי לְקָרְבַּן יָחִיד,",
+    "en": "fit for the korban of one person,",
+    "st": "the sacrifice of <b>an individual offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאוּי",
+      "en": "fit"
+     },
+     {
+      "he": "לְקָרְבַּן",
+      "en": "for the korban of"
+     },
+     {
+      "he": "יָחִיד,",
+      "en": "one person"
+     }
+    ]
+   },
+   {
+    "he": "רָאוּי לְקָרְבַּן צִבּוּר,",
+    "en": "it is fit for a korban of the whole community.",
+    "st": "it is <b>fit for</b> the sacrifice of <b>a communal offering</b>",
+    "stMore": "whose time is fixed, e.g., the daily offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאוּי",
+      "en": "fit"
+     },
+     {
+      "he": "לְקָרְבַּן",
+      "en": "for the korban of"
+     },
+     {
+      "he": "צִבּוּר,",
+      "en": "the community"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמְרוּ בְמַפֶּלֶת אוֹר לִשְׁמוֹנִים וְאֶחָד,",
+    "en": "Will you say the same about one who lost on the night before the eighty-first,",
+    "st": "Would you <b>say</b> the same <b>with regard to</b> a woman <b>who miscarries on the night of</b> the <b>eighty-first</b> day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמְרוּ",
+      "en": "will you say"
+     },
+     {
+      "he": "בְמַפֶּלֶת",
+      "en": "about a woman who lost"
+     },
+     {
+      "he": "אוֹר",
+      "en": "on the night"
+     },
+     {
+      "he": "לִשְׁמוֹנִים",
+      "en": "of eighty"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין הַלַּיְלָה רָאוּי לֹא לְקָרְבַּן",
+    "en": "when the night is not fit, not for a korban",
+    "st": "<b>as the night is completely unfit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that is not"
+     },
+     {
+      "he": "הַלַּיְלָה",
+      "en": "the night"
+     },
+     {
+      "he": "רָאוּי",
+      "en": "fit"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לְקָרְבַּן",
+      "en": "for the korban of"
+     }
+    ]
+   },
+   {
+    "he": "יָחִיד וְלֹא לְקָרְבַּן צִבּוּר.",
+    "en": "of one person and not for a korban of the community?",
+    "st": "since <b>neither an individual offering nor a communal offering</b> is sacrificed at night?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָחִיד",
+      "en": "one person"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְקָרְבַּן",
+      "en": "for the korban of"
+     },
+     {
+      "he": "צִבּוּר.",
+      "en": "the community"
+     }
+    ]
+   },
+   {
+    "he": "הַדָּמִים אֵינָן מוֹכִיחִין,",
+    "en": "And the tumah of the blood does not prove anything,",
+    "st": "Beit Shammai add: <b>And</b> as for the ritual impurity status of <b>the blood,</b> i.e., Beit Hillel’s opinion that the two time periods are equal with regard to the halakhot of ritual impurity, this <b>does not prove</b>",
+    "stMore": "what the halakha should be with regard to offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַדָּמִים",
+      "en": "the blood"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "do not"
+     },
+     {
+      "he": "מוֹכִיחִין,",
+      "en": "prove"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַמַּפֶּלֶת בְּתוֹךְ מְלֹאת,",
+    "en": "because a woman who lost a pregnancy before her eighty days were complete",
+    "st": "<b>as</b> with regard to a woman <b>who miscarries</b> before the <b>completion</b> of the term of eighty days,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַמַּפֶּלֶת",
+      "en": "because a woman who lost"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "מְלֹאת,",
+      "en": "the completing"
+     }
+    ]
+   },
+   {
+    "he": "דָּמֶיהָ טְמֵאִין,",
+    "en": "is tamei,",
+    "st": "<b>her blood is impure</b>",
+    "stMore": "like the blood of a woman after childbirth,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמֶיהָ",
+      "en": "her blood"
+     },
+     {
+      "he": "טְמֵאִין,",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "וּפְטוּרָה מִן הַקָּרְבָּן:",
+    "en": "and still she does not need to bring a korban.\"",
+    "st": "and nevertheless <b>she is exempt from</b> bringing <b>the offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפְטוּרָה",
+      "en": "and she is free"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקָּרְבָּן:",
+      "en": "the korban"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "A woman who needs many korbanos of birds may bring just one and then eat from korbanos. Rabban Shimon ben Gamliel taught this to bring down the price of birds.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאִשָּׁה שֶׁיֵּשׁ עָלֶיהָ סְפֵק חֲמִשָּׁה",
+    "en": "A woman who is not sure about five",
+    "st": "With regard to <b>a woman who has in her</b> case <b>uncertainty</b> concerning",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "who has"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "on her"
+     },
+     {
+      "he": "סְפֵק",
+      "en": "a doubt of"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     }
+    ]
+   },
+   {
+    "he": "זִיבוֹת וּסְפֵק חֲמִשָּׁה לֵדוֹת,",
+    "en": "times of being a zavah and not sure about five births,",
+    "st": "<b>five births, and</b> likewise a woman with regard to whom there is <b>uncertainty</b> concerning <b>five</b> irregular <b>discharges</b> of blood from the uterus [ziva],",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זִיבוֹת",
+      "en": "zivos",
+      "note": "Times of being a zavah, a kind of tumah."
+     },
+     {
+      "he": "וּסְפֵק",
+      "en": "and a doubt of"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "לֵדוֹת,",
+      "en": "births"
+     }
+    ]
+   },
+   {
+    "he": "מְבִיאָה קָרְבָּן אֶחָד,",
+    "en": "brings one korban,",
+    "st": "<b>she brings one offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבִיאָה",
+      "en": "brings"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹכֶלֶת בַּזְּבָחִים,",
+    "en": "and then she may eat from korbanos,",
+    "st": "<b>and</b> then <b>she may partake of</b> the meat of <b>offerings.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹכֶלֶת",
+      "en": "and she eats"
+     },
+     {
+      "he": "בַּזְּבָחִים,",
+      "en": "from the korbanos"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין הַשְּׁאָר עָלֶיהָ חוֹבָה.",
+    "en": "and she does not have to bring the rest.",
+    "st": "<b>And the remaining</b> offerings <b>are not an obligation for her.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and is not"
+     },
+     {
+      "he": "הַשְּׁאָר",
+      "en": "the rest"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "on her"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "a must"
+     }
+    ]
+   },
+   {
+    "he": "חָמֵשׁ לֵדוֹת וַדָּאוֹת,",
+    "en": "If she had five births for sure,",
+    "st": "If she experienced <b>five definite discharges of a zava or</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "לֵדוֹת",
+      "en": "births"
+     },
+     {
+      "he": "וַדָּאוֹת,",
+      "en": "for sure"
+     }
+    ]
+   },
+   {
+    "he": "חָמֵשׁ זִיבוֹת וַדָּאוֹת,",
+    "en": "or five times of being a zavah for sure,",
+    "st": "<b>five definite births,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "זִיבוֹת",
+      "en": "zivos"
+     },
+     {
+      "he": "וַדָּאוֹת,",
+      "en": "for sure"
+     }
+    ]
+   },
+   {
+    "he": "מְבִיאָה קָרְבָּן אֶחָד,",
+    "en": "she brings one korban,",
+    "st": "<b>she brings one offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבִיאָה",
+      "en": "she brings"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹכֶלֶת בַּזְּבָחִים,",
+    "en": "and then she may eat from korbanos,",
+    "st": "<b>and</b> then <b>she may partake of</b> the meat of <b>offerings.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹכֶלֶת",
+      "en": "and she eats"
+     },
+     {
+      "he": "בַּזְּבָחִים,",
+      "en": "from the korbanos"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁאָר עָלֶיהָ חוֹבָה.",
+    "en": "but she still has to bring the rest.",
+    "st": "<b>And the remaining</b> offerings <b>are an obligation for her.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁאָר",
+      "en": "and the rest"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "on her"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "a must"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה שֶׁעָמְדוּ קִנִּים בִּירוּשָׁלַיִם בְּדִינְרֵי זָהָב.",
+    "en": "Once, a pair of birds cost a gold dinar in Yerushalayim.",
+    "st": "There was <b>an incident where</b> the price of <b>nests,</b> i.e., pairs of birds, <b>stood in Jerusalem at one gold dinar,</b>",
+    "stMore": "as the great demand for birds for the offerings of a woman after childbirth and a zava led to an increase in the price.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "שֶׁעָמְדוּ",
+      "en": "that stood"
+     },
+     {
+      "he": "קִנִּים",
+      "en": "pairs of birds"
+     },
+     {
+      "he": "בִּירוּשָׁלַיִם",
+      "en": "in Yerushalayim"
+     },
+     {
+      "he": "בְּדִינְרֵי",
+      "en": "at dinars of"
+     },
+     {
+      "he": "זָהָב.",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל,",
+    "en": "Rabban Shimon ben Gamliel said,",
+    "st": "<b>Rabban Shimon ben Gamliel said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "הַמָּעוֹן הַזֶּה,",
+    "en": "\"I swear by this house of Hashem,",
+    "st": "I swear by <b>this abode</b> of the Divine Presence",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמָּעוֹן",
+      "en": "the dwelling place"
+     },
+     {
+      "he": "הַזֶּה,",
+      "en": "this",
+      "note": "The Beis HaMikdash, where the Shechinah rests."
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָלִין הַלַּיְלָה,",
+    "en": "I will not go to sleep tonight",
+    "st": "that <b>I will not lie</b> down <b>tonight</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָלִין",
+      "en": "I will sleep"
+     },
+     {
+      "he": "הַלַּיְלָה,",
+      "en": "tonight"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהוּ בְדִינָרִין.",
+    "en": "until they cost silver dinars!\"",
+    "st": "<b>until</b> the price of nests <b>will be in</b> silver <b>dinars.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהוּ",
+      "en": "they will be"
+     },
+     {
+      "he": "בְדִינָרִין.",
+      "en": "at (silver) dinars"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס לְבֵית דִּין וְלִמֵּד,",
+    "en": "He went into the Beis Din and taught:",
+    "st": "<b>Ultimately, he entered the court and taught:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "he went in"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the Beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "Din"
+     },
+     {
+      "he": "וְלִמֵּד,",
+      "en": "and taught"
+     }
+    ]
+   },
+   {
+    "he": "הָאִשָּׁה שֶׁיֵּשׁ עָלֶיהָ חָמֵשׁ לֵדוֹת וַדָּאוֹת,",
+    "en": "A woman who has five births for sure,",
+    "st": "<b>A woman who has in her</b> case <b>five definite discharges of a zava or</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "who has"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "on her"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "לֵדוֹת",
+      "en": "births"
+     },
+     {
+      "he": "וַדָּאוֹת,",
+      "en": "for sure"
+     }
+    ]
+   },
+   {
+    "he": "חָמֵשׁ זִיבוֹת וַדָּאוֹת,",
+    "en": "or five times of being a zavah for sure,",
+    "st": "<b>five definite births</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "זִיבוֹת",
+      "en": "zivos"
+     },
+     {
+      "he": "וַדָּאוֹת,",
+      "en": "for sure"
+     }
+    ]
+   },
+   {
+    "he": "מְבִיאָה קָרְבָּן אֶחָד,",
+    "en": "brings one korban,",
+    "st": "<b>brings one offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבִיאָה",
+      "en": "brings"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹכֶלֶת בַּזְּבָחִים,",
+    "en": "and then she may eat from korbanos,",
+    "st": "<b>and</b> then <b>she may partake of</b> the meat of <b>offerings.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹכֶלֶת",
+      "en": "and she eats"
+     },
+     {
+      "he": "בַּזְּבָחִים,",
+      "en": "from the korbanos"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין הַשְּׁאָר עָלֶיהָ חוֹבָה.",
+    "en": "and she does not have to bring the rest.",
+    "st": "<b>And the remaining</b> offerings <b>are not an obligation for her.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and is not"
+     },
+     {
+      "he": "הַשְּׁאָר",
+      "en": "the rest"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "on her"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "a must"
+     }
+    ]
+   },
+   {
+    "he": "וְעָמְדוּ קִנִּים בּוֹ בַיּוֹם בְּרִבְעָתָיִם:",
+    "en": "That same day, the price of a pair of birds went down to a quarter of a silver dinar.",
+    "st": "<b>And</b> as a result, the price of the <b>nests stood that day at one-quarter</b> of a silver dinar, as the demand for nests decreased.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָמְדוּ",
+      "en": "and stood"
+     },
+     {
+      "he": "קִנִּים",
+      "en": "pairs of birds"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "on it"
+     },
+     {
+      "he": "בַיּוֹם",
+      "en": "on the day"
+     },
+     {
+      "he": "בְּרִבְעָתָיִם:",
+      "en": "at a quarter"
+     }
+    ]
+   }
+  ]
+ }
+]

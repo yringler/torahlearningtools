@@ -1,0 +1,3392 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "If a husband throws a get to his wife, it counts only if it lands in a place that belongs to her, like her house, her lap, or her basket.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַזּוֹרֵק גֵּט לְאִשְׁתּוֹ וְהִיא בְתוֹךְ",
+    "en": "Someone who throws a get to his wife while she is inside",
+    "st": "In a case of <b>one who throws a bill of divorce to his wife, and she is in</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזּוֹרֵק",
+      "en": "one who throws"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ",
+      "en": "to his wife"
+     },
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "בְתוֹךְ",
+      "en": "is inside"
+     }
+    ]
+   },
+   {
+    "he": "בֵּיתָהּ אוֹ בְתוֹךְ חֲצֵרָהּ,",
+    "en": "her house or inside her courtyard,",
+    "st": "<b>her house or in her courtyard</b> at the time,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּיתָהּ",
+      "en": "her house"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "חֲצֵרָהּ,",
+      "en": "her courtyard"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ מְגֹרֶשֶׁת.",
+    "en": "she is divorced.",
+    "st": "then <b>she is divorced</b>",
+    "stMore": "as though he placed the bill of divorce in her hand.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זוֹ",
+      "en": "she"
+     },
+     {
+      "he": "מְגֹרֶשֶׁת.",
+      "en": "is divorced"
+     }
+    ]
+   },
+   {
+    "he": "זְרָקוֹ לָהּ בְּתוֹךְ בֵּיתוֹ",
+    "en": "If he threw it to her inside his house",
+    "st": "If <b>he threw it to her in his house</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זְרָקוֹ",
+      "en": "he threw it"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "בֵּיתוֹ",
+      "en": "his house"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בְתוֹךְ חֲצֵרוֹ,",
+    "en": "or inside his courtyard,",
+    "st": "<b>or in his courtyard,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "חֲצֵרוֹ,",
+      "en": "his courtyard"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ הוּא עִמָּהּ בַּמִּטָּה,",
+    "en": "even if it lands right by her on the bed,",
+    "st": "<b>even if</b> the bill of divorce <b>is with her in the bed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "basisNote": "Steinsaltz explains that the get is with her in the bed.",
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "עִמָּהּ",
+      "en": "with her"
+     },
+     {
+      "he": "בַּמִּטָּה,",
+      "en": "in the bed"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ מְגֹרֶשֶׁת.",
+    "en": "she is not divorced.",
+    "st": "<b>she is not divorced.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she is not"
+     },
+     {
+      "he": "מְגֹרֶשֶׁת.",
+      "en": "divorced"
+     }
+    ]
+   },
+   {
+    "he": "לְתוֹךְ חֵיקָהּ אוֹ לְתוֹךְ קַלְתָּהּ,",
+    "en": "Into her lap or into her basket,",
+    "st": "If he threw the bill of divorce <b>into her lap, or into her basket</b> [<b>kaltah</b>],",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "חֵיקָהּ",
+      "en": "her lap"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "קַלְתָּהּ,",
+      "en": "her basket"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ מְגֹרָשֶׁת:",
+    "en": "she is divorced.",
+    "st": "<b>she is divorced,</b> even if she was in her husband’s house at the time.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זוֹ",
+      "en": "she"
+     },
+     {
+      "he": "מְגֹרָשֶׁת:",
+      "en": "is divorced"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "The husband must tell his wife that he is giving her a get. If he throws it to her in the street, it depends whether it lands closer to her or to him.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר לָהּ,",
+    "en": "If he said to her,",
+    "st": "If <b>he said to</b> his wife:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "כִּנְסִי שְׁטָר חוֹב זֶה,",
+    "en": "\"Take this loan document,\"",
+    "st": "<b>Take this promissory note,</b>",
+    "stMore": "and it was a bill of divorce,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּנְסִי",
+      "en": "take"
+     },
+     {
+      "he": "שְׁטָר",
+      "en": "a document of"
+     },
+     {
+      "he": "חוֹב",
+      "en": "debt"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁמְּצָאָתוֹ מֵאֲחוֹרָיו,",
+    "en": "or she found it behind him,",
+    "st": "<b>or she found it behind him</b>",
+    "stMore": "and he did not tell her what it was but",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁמְּצָאָתוֹ",
+      "en": "that she found it"
+     },
+     {
+      "he": "מֵאֲחוֹרָיו,",
+      "en": "behind him"
+     }
+    ]
+   },
+   {
+    "he": "קוֹרְאָה וַהֲרֵי הוּא גִטָּהּ,",
+    "en": "and she reads it, and it is her get,",
+    "st": "<b>she reads</b> what is written in <b>it and</b> discovers that <b>it is her bill of divorce,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹרְאָה",
+      "en": "she reads it"
+     },
+     {
+      "he": "וַהֲרֵי",
+      "en": "and here"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "גִטָּהּ,",
+      "en": "is her get"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גֵט,",
+    "en": "it is not a get,",
+    "st": "<b>it is not</b> a valid <b>bill of divorce</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "גֵט,",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיֹּאמַר לָהּ,",
+    "en": "until he says to her,",
+    "st": "<b>until he says to her:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֹּאמַר",
+      "en": "that he says"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "הֵא גִטֵּךְ.",
+    "en": "\"Here is your get.\"",
+    "st": "<b>This is your bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵא",
+      "en": "here is"
+     },
+     {
+      "he": "גִטֵּךְ.",
+      "en": "your get"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן בְּיָדָהּ וְהִיא יְשֵׁנָה,",
+    "en": "If he put it in her hand while she was sleeping,",
+    "st": "If <b>he gave it</b> to her <b>in her hand and she</b> was <b>sleeping,</b>",
+    "stMore": "and he then",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "בְּיָדָהּ",
+      "en": "in her hand"
+     },
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "יְשֵׁנָה,",
+      "en": "was sleeping"
+     }
+    ]
+   },
+   {
+    "he": "נֵעוֹרָה, קוֹרְאָה וַהֲרֵי הוּא גִטָּהּ,",
+    "en": "she wakes up, reads it, and it is her get,",
+    "st": "<b>woke her, and</b> when <b>she reads</b> what is written in <b>it,</b> she finds that <b>it is her bill of divorce,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֵעוֹרָה,",
+      "en": "she woke up"
+     },
+     {
+      "he": "קוֹרְאָה",
+      "en": "she reads it"
+     },
+     {
+      "he": "וַהֲרֵי",
+      "en": "and here"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "גִטָּהּ,",
+      "en": "is her get"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גֵט,",
+    "en": "it is not a get,",
+    "st": "<b>it is not</b> a valid <b>bill of divorce</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "גֵט,",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיֹּאמַר לָהּ הֵא זֶה גִטֵּךְ.",
+    "en": "until he says to her, \"Here, this is your get.\"",
+    "st": "<b>until he says to her: This is your bill of divorce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֹּאמַר",
+      "en": "that he says"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "הֵא",
+      "en": "here"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "גִטֵּךְ.",
+      "en": "your get"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה עוֹמֶדֶת בִּרְשׁוּת הָרַבִּים וּזְרָקוֹ לָהּ,",
+    "en": "If she was standing in a public place and he threw it to her,",
+    "st": "If the woman <b>was standing in the public domain</b> and her husband took the bill of divorce <b>and threw it to her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "she was"
+     },
+     {
+      "he": "עוֹמֶדֶת",
+      "en": "standing"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הָרַבִּים",
+      "en": "the public"
+     },
+     {
+      "he": "וּזְרָקוֹ",
+      "en": "and he threw it"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "קָרוֹב לָהּ,",
+    "en": "if it was closer to her,",
+    "st": "if it fell <b>closer to her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרוֹב",
+      "en": "close"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "מְגֹרֶשֶׁת. קָרוֹב לוֹ,",
+    "en": "she is divorced. If closer to him,",
+    "st": "<b>she is divorced,</b> and if it fell <b>closer to him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגֹרֶשֶׁת.",
+      "en": "divorced"
+     },
+     {
+      "he": "קָרוֹב",
+      "en": "close"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ מְגֹרֶשֶׁת.",
+    "en": "she is not divorced.",
+    "st": "<b>she is not divorced.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she is not"
+     },
+     {
+      "he": "מְגֹרֶשֶׁת.",
+      "en": "divorced"
+     }
+    ]
+   },
+   {
+    "he": "מֶחֱצָה עַל מֶחֱצָה,",
+    "en": "If it was right in the middle,",
+    "st": "If it is <b>equally balanced,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֶחֱצָה",
+      "en": "half"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מֶחֱצָה,",
+      "en": "half"
+     }
+    ]
+   },
+   {
+    "he": "מְגֹרֶשֶׁת וְאֵינָהּ מְגֹרָשֶׁת:",
+    "en": "she is divorced and not divorced.",
+    "st": "there is uncertainty as to whether <b>she is divorced or</b> whether <b>she is not divorced.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגֹרֶשֶׁת",
+      "en": "divorced"
+     },
+     {
+      "he": "וְאֵינָהּ",
+      "en": "and she is not"
+     },
+     {
+      "he": "מְגֹרָשֶׁת:",
+      "en": "divorced"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "The same rules about throwing apply to kiddushin and to paying back a loan. The mishnah also teaches about throwing a get onto a roof or down from a roof.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְכֵן לְעִנְיַן קִדּוּשִׁין.",
+    "en": "And the same is true for kiddushin.",
+    "st": "And the <b>same</b> halakhot apply <b>with regard to betrothal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and the same"
+     },
+     {
+      "he": "לְעִנְיַן",
+      "en": "for the matter of"
+     },
+     {
+      "he": "קִדּוּשִׁין.",
+      "en": "kiddushin",
+      "note": "The way a man and woman become married."
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן לְעִנְיַן הַחוֹב.",
+    "en": "And the same is true for a loan.",
+    "st": "<b>And</b> the <b>same</b> halakhot apply <b>with regard to a debt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and the same"
+     },
+     {
+      "he": "לְעִנְיַן",
+      "en": "for the matter of"
+     },
+     {
+      "he": "הַחוֹב.",
+      "en": "the debt"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ בַּעַל חוֹבוֹ,",
+    "en": "If his lender said to him,",
+    "st": "If <b>his creditor said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "חוֹבוֹ,",
+      "en": "his debt"
+     }
+    ]
+   },
+   {
+    "he": "זְרֹק לִי חוֹבִי,",
+    "en": "\"Throw me what you owe me,\"",
+    "st": "<b>Throw</b> the payment for <b>my debt to me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זְרֹק",
+      "en": "throw"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "חוֹבִי,",
+      "en": "my debt"
+     }
+    ]
+   },
+   {
+    "he": "וּזְרָקוֹ לוֹ,",
+    "en": "and he threw it to him,",
+    "st": "<b>and he threw it to him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּזְרָקוֹ",
+      "en": "and he threw it"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "קָרוֹב לַמַּלְוֶה,",
+    "en": "if it was closer to the lender,",
+    "st": "and the money fell <b>closer to the creditor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרוֹב",
+      "en": "close"
+     },
+     {
+      "he": "לַמַּלְוֶה,",
+      "en": "to the lender"
+     }
+    ]
+   },
+   {
+    "he": "זָכָה הַלֹּוֶה.",
+    "en": "the borrower is free.",
+    "st": "the <b>creditor acquired</b> the payment.",
+    "stMore": "The debtor is absolved of his obligation to pay even if the money did not reach the creditor’s hand, e.g., it was stolen or lost after it was thrown and before the creditor was able to take it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָה",
+      "en": "is free"
+     },
+     {
+      "he": "הַלֹּוֶה.",
+      "en": "the borrower"
+     }
+    ]
+   },
+   {
+    "he": "קָרוֹב לַלֹּוֶה,",
+    "en": "If closer to the borrower,",
+    "st": "If it fell <b>closer to the debtor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרוֹב",
+      "en": "close"
+     },
+     {
+      "he": "לַלֹּוֶה,",
+      "en": "to the borrower"
+     }
+    ]
+   },
+   {
+    "he": "הַלֹּוֶה חַיָּב.",
+    "en": "the borrower still owes it.",
+    "st": "and the money was lost, <b>the debtor</b> is still <b>obligated</b> to pay.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַלֹּוֶה",
+      "en": "the borrower"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "owes"
+     }
+    ]
+   },
+   {
+    "he": "מֶחֱצָה עַל מֶחֱצָה,",
+    "en": "If it was right in the middle,",
+    "st": "If it was <b>equally balanced</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֶחֱצָה",
+      "en": "half"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מֶחֱצָה,",
+      "en": "half"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶם יַחֲלֹקוּ.",
+    "en": "the two of them split it.",
+    "st": "and was lost, <b>the two of them divide</b> it, i.e., the debtor owes half of the amount.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "the two of them"
+     },
+     {
+      "he": "יַחֲלֹקוּ.",
+      "en": "should split"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה עוֹמֶדֶת עַל רֹאשׁ",
+    "en": "If she was standing on top of",
+    "st": "If a woman <b>was standing on top of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "she was"
+     },
+     {
+      "he": "עוֹמֶדֶת",
+      "en": "standing"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the top of"
+     }
+    ]
+   },
+   {
+    "he": "הַגַּג וּזְרָקוֹ לָהּ,",
+    "en": "the roof and he threw it to her,",
+    "st": "<b>the roof</b> and her husband was standing below, <b>and he threw</b> a bill of divorce <b>to her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגַּג",
+      "en": "the roof"
+     },
+     {
+      "he": "וּזְרָקוֹ",
+      "en": "and he threw it"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיוָן שֶׁהִגִּיעַ לַאֲוִיר הַגַּג,",
+    "en": "once it reached the air above the roof,",
+    "st": "<b>once</b> the bill of divorce <b>reaches the airspace of the roof,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיוָן",
+      "en": "since"
+     },
+     {
+      "he": "שֶׁהִגִּיעַ",
+      "en": "that it reached"
+     },
+     {
+      "he": "לַאֲוִיר",
+      "en": "to the air of"
+     },
+     {
+      "he": "הַגַּג,",
+      "en": "the roof"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ מְגֹרֶשֶׁת.",
+    "en": "she is divorced.",
+    "st": "<b>she is divorced.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זוֹ",
+      "en": "she"
+     },
+     {
+      "he": "מְגֹרֶשֶׁת.",
+      "en": "is divorced"
+     }
+    ]
+   },
+   {
+    "he": "הוּא מִלְמַעְלָה וְהִיא מִלְּמַטָּה וּזְרָקוֹ לָהּ,",
+    "en": "If he was above and she was below and he threw it to her,",
+    "st": "If <b>he</b> was <b>above</b> on the roof <b>and she</b> was <b>below, and he threw it to her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "מִלְמַעְלָה",
+      "en": "from above"
+     },
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "מִלְּמַטָּה",
+      "en": "from below"
+     },
+     {
+      "he": "וּזְרָקוֹ",
+      "en": "and he threw it"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיוָן שֶׁיָּצָא מֵרְשׁוּת הַגַּג,",
+    "en": "once it left the area of the roof,",
+    "st": "<b>once it leaves the area of the roof,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיוָן",
+      "en": "since"
+     },
+     {
+      "he": "שֶׁיָּצָא",
+      "en": "that it left"
+     },
+     {
+      "he": "מֵרְשׁוּת",
+      "en": "from the area of"
+     },
+     {
+      "he": "הַגַּג,",
+      "en": "the roof"
+     }
+    ]
+   },
+   {
+    "he": "נִמְחַק אוֹ נִשְׂרַף,",
+    "en": "even if it got erased or burned,",
+    "st": "even if the wording <b>was erased or</b> the document <b>was burned</b> before it fell to the ground,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְחַק",
+      "en": "it was erased"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׂרַף,",
+      "en": "it was burned"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ מְגֹרָשֶׁת:",
+    "en": "she is divorced.",
+    "st": "<b>she is divorced.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זוֹ",
+      "en": "she"
+     },
+     {
+      "he": "מְגֹרָשֶׁת:",
+      "en": "is divorced"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "Beis Shammai and Beis Hillel argue whether a man may use an \"old get,\" one he wrote and then was alone with his wife before giving it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "פּוֹטֵר אָדָם אֶת אִשְׁתּוֹ בְגֵט יָשָׁן.",
+    "en": "a man may send away his wife with an old get.",
+    "st": "<b>A man may send,</b> i.e., divorce, <b>his wife with an outdated bill of divorce,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פּוֹטֵר",
+      "en": "may send away"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a man"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     },
+     {
+      "he": "בְגֵט",
+      "en": "with a get"
+     },
+     {
+      "he": "יָשָׁן.",
+      "en": "old"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹסְרִין.",
+    "en": "And Beis Hillel forbid it.",
+    "st": "<b>and Beit Hillel prohibit</b> him from doing so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹסְרִין.",
+      "en": "forbid"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵיזֶהוּ גֵט יָשָׁן,",
+    "en": "And what is an old get?",
+    "st": "<b>And what is an outdated bill of divorce?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵיזֶהוּ",
+      "en": "and which is"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "יָשָׁן,",
+      "en": "old"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁנִּתְיַחֵד עִמָּהּ אַחַר שֶׁכְּתָבוֹ לָהּ:",
+    "en": "Any get where he was alone with her after he wrote it for her.",
+    "st": "<b>Any</b> case <b>where he was secluded with her after he wrote it for her</b> and before he gave it to her.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁנִּתְיַחֵד",
+      "en": "that he was alone"
+     },
+     {
+      "he": "עִמָּהּ",
+      "en": "with her"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שֶׁכְּתָבוֹ",
+      "en": "that he wrote it"
+     },
+     {
+      "he": "לָהּ:",
+      "en": "for her"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "A get with a wrong date, place, or name is not good. If the woman married again with it, she must leave both men, and the mishnah lists many fines that come with this.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּתַב לְשׁוּם מַלְכוּת שְׁאֵינָהּ הוֹגֶנֶת,",
+    "en": "If he wrote the date by a kingdom that is not proper,",
+    "st": "If <b>he wrote</b> the date on the bill of divorce using a calendrical system that counts years <b>in the name of a kingdom that is not legitimate,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתַב",
+      "en": "he wrote"
+     },
+     {
+      "he": "לְשׁוּם",
+      "en": "in the name of"
+     },
+     {
+      "he": "מַלְכוּת",
+      "en": "a kingdom"
+     },
+     {
+      "he": "שְׁאֵינָהּ",
+      "en": "that is not"
+     },
+     {
+      "he": "הוֹגֶנֶת,",
+      "en": "proper"
+     }
+    ]
+   },
+   {
+    "he": "לְשׁוּם מַלְכוּת מָדַי,",
+    "en": "by the kingdom of Madai,",
+    "st": "or he wrote the date <b>in the name of the kingdom of Media,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשׁוּם",
+      "en": "in the name of"
+     },
+     {
+      "he": "מַלְכוּת",
+      "en": "the kingdom of"
+     },
+     {
+      "he": "מָדַי,",
+      "en": "Madai",
+      "note": "Media, an old kingdom."
+     }
+    ]
+   },
+   {
+    "he": "לְשׁוּם מַלְכוּת יָוָן,",
+    "en": "by the kingdom of Yavan,",
+    "st": "or <b>in the name of the Greek Empire,</b> after it ceased to exist,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשׁוּם",
+      "en": "in the name of"
+     },
+     {
+      "he": "מַלְכוּת",
+      "en": "the kingdom of"
+     },
+     {
+      "he": "יָוָן,",
+      "en": "Yavan",
+      "note": "Greece."
+     }
+    ]
+   },
+   {
+    "he": "לְבִנְיַן הַבַּיִת,",
+    "en": "from the building of the Beis HaMikdash,",
+    "st": "or he wrote the date counting <b>to the building of the Temple,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְבִנְיַן",
+      "en": "to the building of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the House"
+     }
+    ]
+   },
+   {
+    "he": "לְחֻרְבַּן הַבַּיִת,",
+    "en": "or from the destruction of the Beis HaMikdash,",
+    "explain": "The Rabbis said a get must be dated the way the government did.",
+    "st": "or counting <b>to the destruction of the Temple,</b>",
+    "stMore": "in all these case, the bill of divorce is not valid. In the time of the mishna, the local government was particular that documents be dated with the official government date. Therefore, the Sages instituted that this must be done in bills of divorce as well. If one deviates from this practice, the rabbinic dictates of bills of divorce have been violated, and the bill of divorce is invalid.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְחֻרְבַּן",
+      "en": "to the destruction of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the House"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה בַמִּזְרָח וְכָתַב בַּמַּעֲרָב,",
+    "en": "if he was in the east and wrote \"in the west,\"",
+    "st": "If <b>he was in the east and he wrote</b> the location in the bill of divorce as <b>in the west,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "בַמִּזְרָח",
+      "en": "in the east"
+     },
+     {
+      "he": "וְכָתַב",
+      "en": "and he wrote"
+     },
+     {
+      "he": "בַּמַּעֲרָב,",
+      "en": "in the west"
+     }
+    ]
+   },
+   {
+    "he": "בַּמַּעֲרָב וְכָתַב בַּמִּזְרָח,",
+    "en": "or in the west and wrote \"in the east,\"",
+    "st": "or if he was <b>in the west and he wrote</b> the location in the bill of divorce as <b>in the east,</b>",
+    "stMore": "the bill of divorce is not valid.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּמַּעֲרָב",
+      "en": "in the west"
+     },
+     {
+      "he": "וְכָתַב",
+      "en": "and he wrote"
+     },
+     {
+      "he": "בַּמִּזְרָח,",
+      "en": "in the east"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא מִזֶּה וּמִזֶּה,",
+    "en": "and she married again, she must leave this husband and that one,",
+    "st": "If he divorced her with this bill of divorce and she remarried, <b>she</b> must <b>leave</b> both <b>this</b> first husband <b>and that</b> second husband,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא",
+      "en": "she must leave"
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה,",
+      "en": "and from that one"
+     }
+    ]
+   },
+   {
+    "he": "וּצְרִיכָה גֵט מִזֶּה וּמִזֶּה,",
+    "en": "and she needs a get from this one and from that one.",
+    "st": "<b>and she needs a bill of divorce from this</b> husband <b>and that</b> husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּצְרִיכָה",
+      "en": "and she needs"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה,",
+      "en": "and from that one"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין לָהּ לֹא כְתֻבָּה וְלֹא",
+    "en": "And she gets no kesubah, and no",
+    "st": "<b>And she does not receive</b> payment of her <b>marriage contract, and not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "לָהּ",
+      "en": "for her"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כְתֻבָּה",
+      "en": "kesubah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "פֵרוֹת וְלֹא מְזוֹנוֹת וְלֹא בְלָאוֹת,",
+    "en": "fruits, no food, and no worn clothes,",
+    "explain": "These are things a wife usually gets from her husband.",
+    "st": "the <b>profits</b> from her properties that her husband consumed, <b>and</b> she does <b>not</b> have a claim to receive <b>sustenance, and</b> she does <b>not</b> have a claim to <b>worn clothes</b> that belonged to her, but which her husband used.",
+    "stMore": "She cannot demand these items,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פֵרוֹת",
+      "en": "fruits"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מְזוֹנוֹת",
+      "en": "food"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְלָאוֹת,",
+      "en": "worn clothes"
+     }
+    ]
+   },
+   {
+    "he": "לֹא עַל זֶה וְלֹא עַל זֶה.",
+    "en": "not from this one and not from that one.",
+    "st": "<b>not of this</b> husband <b>and not of that</b> husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "עַל",
+      "en": "from"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "עַל",
+      "en": "from"
+     },
+     {
+      "he": "זֶה.",
+      "en": "that one"
+     }
+    ]
+   },
+   {
+    "he": "אִם נָטְלָה מִזֶּה וּמִזֶּה,",
+    "en": "If she took from this one or that one,",
+    "st": "<b>If she took</b> any of these items <b>from this</b> husband <b>or from that</b> husband,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָטְלָה",
+      "en": "she took"
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה,",
+      "en": "and from that one"
+     }
+    ]
+   },
+   {
+    "he": "תַּחֲזִיר. וְהַוָּלָד מַמְזֵר מִזֶּה וּמִזֶּה.",
+    "en": "she must give it back. And the child is a mamzer from either one.",
+    "st": "<b>she</b> must <b>return</b> what was taken. <b>And the child</b> that was born <b>from this</b> husband <b>or from that</b> husband that was conceived after she married the second husband is a <b>son born from an adulterous relationship [mamzer].</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּחֲזִיר.",
+      "en": "she must return"
+     },
+     {
+      "he": "וְהַוָּלָד",
+      "en": "and the child"
+     },
+     {
+      "he": "מַמְזֵר",
+      "en": "is a mamzer",
+      "note": "A child from a forbidden marriage."
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה.",
+      "en": "and from that one"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא זֶה וָזֶה מִטַּמְּאִין לָהּ,",
+    "en": "And neither of them, if a Kohen, may become tamei for her,",
+    "st": "<b>And neither this</b> husband <b>nor that</b> husband, if they are priests, is permitted to <b>become ritually impure by her</b> when she dies, which a husband may ordinarily do for his wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "מִטַּמְּאִין",
+      "en": "may become tamei"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "for her"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא זֶה וָזֶה זַכָּאִין לֹא בִמְצִיאָתָהּ",
+    "en": "and neither gets the things she finds,",
+    "st": "<b>And neither this</b> husband <b>nor that</b> husband <b>have the rights to objects she finds,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "זַכָּאִין",
+      "en": "get rights"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בִמְצִיאָתָהּ",
+      "en": "in what she finds"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְמַעֲשֵׂה יָדֶיהָ וְלֹא בַהֲפָרַת נְדָרֶיהָ.",
+    "en": "or her work, or cancelling her nedarim.",
+    "st": "<b>or to her earnings, or to the annulment of her vows.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְמַעֲשֵׂה",
+      "en": "in the work of"
+     },
+     {
+      "he": "יָדֶיהָ",
+      "en": "her hands"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בַהֲפָרַת",
+      "en": "in cancelling"
+     },
+     {
+      "he": "נְדָרֶיהָ.",
+      "en": "her nedarim"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה בַת יִשְׂרָאֵל,",
+    "en": "If she was the daughter of a Yisrael,",
+    "st": "If <b>she was an Israelite woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "she was"
+     },
+     {
+      "he": "בַת",
+      "en": "a daughter of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "a Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נִפְסֶלֶת מִן הַכְּהֻנָּה.",
+    "en": "she may no longer marry a Kohen.",
+    "st": "then through these two marriages <b>she</b> becomes <b>disqualified from</b> marrying into the <b>priesthood,</b>",
+    "stMore": "due to the prohibition against a priest marrying a zona.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִפְסֶלֶת",
+      "en": "she becomes unfit"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּהֻנָּה.",
+      "en": "the Kehunah"
+     }
+    ]
+   },
+   {
+    "he": "בַּת לֵוִי,",
+    "en": "The daughter of a Levi,",
+    "st": "If she was the <b>daughter of a Levite,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּת",
+      "en": "a daughter of"
+     },
+     {
+      "he": "לֵוִי,",
+      "en": "a Levi"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַמַּעֲשֵׂר.",
+    "en": "from eating maaser.",
+    "st": "through these two marriages she becomes prohibited <b>from</b> partaking of <b>the tithe</b> that is given to Levites.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמַּעֲשֵׂר.",
+      "en": "the maaser"
+     }
+    ]
+   },
+   {
+    "he": "בַּת כֹּהֵן,",
+    "en": "The daughter of a Kohen,",
+    "st": "If she was the <b>daughter of a priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּת",
+      "en": "a daughter of"
+     },
+     {
+      "he": "כֹּהֵן,",
+      "en": "a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַתְּרוּמָה.",
+    "en": "from eating terumah.",
+    "st": "she becomes prohibited <b>from</b> partaking of <b>teruma,</b> even after she returns to the house of her father the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתְּרוּמָה.",
+      "en": "the terumah"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין יוֹרְשָׁיו שֶׁל זֶה וְיוֹרְשָׁיו",
+    "en": "And the heirs of this one and the heirs",
+    "st": "<b>And the heirs of this</b> husband <b>and the heirs</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there are not"
+     },
+     {
+      "he": "יוֹרְשָׁיו",
+      "en": "his heirs"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "וְיוֹרְשָׁיו",
+      "en": "and his heirs"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל זֶה יוֹרְשִׁין כְּתֻבָּתָהּ.",
+    "en": "of that one do not inherit her kesubah.",
+    "st": "<b>of that</b> husband <b>do not inherit</b> the rights to collect payment of <b>her marriage contract</b> if she dies.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה",
+      "en": "that one"
+     },
+     {
+      "he": "יוֹרְשִׁין",
+      "en": "inherit"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ.",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מֵתוּ,",
+    "en": "And if they died,",
+    "st": "<b>And if</b> the husbands <b>die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מֵתוּ,",
+      "en": "they died"
+     }
+    ]
+   },
+   {
+    "he": "אָחִיו שֶׁל זֶה וְאָחִיו שֶׁל",
+    "en": "the brother of this one and the brother of",
+    "st": "<b>the brother of this</b> first husband <b>and the brother of that</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָחִיו",
+      "en": "the brother"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "וְאָחִיו",
+      "en": "and the brother"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     }
+    ]
+   },
+   {
+    "he": "זֶה חוֹלְצִין וְלֹא מְיַבְּמִין.",
+    "en": "that one do chalitzah and not yibum.",
+    "st": "second husband <b>perform ḥalitza,</b> since she was betrothed to the second one as well, <b>and they do not consummate the levirate marriage.</b>",
+    "stMore": "The mishna proceeds to teach an additional halakha concerning a bill of divorce written not in accordance with its halakhot:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "that one"
+     },
+     {
+      "he": "חוֹלְצִין",
+      "en": "do chalitzah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מְיַבְּמִין.",
+      "en": "do yibum"
+     }
+    ]
+   },
+   {
+    "he": "שִׁנָּה שְׁמוֹ וּשְׁמָהּ,",
+    "en": "If he changed his name or her name,",
+    "st": "If <b>he changed his name,</b> i.e., he wrote a different name in the bill of divorce, <b>or</b> he changed <b>her name,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁנָּה",
+      "en": "he changed"
+     },
+     {
+      "he": "שְׁמוֹ",
+      "en": "his name"
+     },
+     {
+      "he": "וּשְׁמָהּ,",
+      "en": "and her name"
+     }
+    ]
+   },
+   {
+    "he": "שֵׁם עִירוֹ וְשֵׁם עִירָהּ,",
+    "en": "the name of his city or the name of her city,",
+    "st": "or if he changed <b>the name of his city or the name of her city,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֵׁם",
+      "en": "the name of"
+     },
+     {
+      "he": "עִירוֹ",
+      "en": "his city"
+     },
+     {
+      "he": "וְשֵׁם",
+      "en": "and the name of"
+     },
+     {
+      "he": "עִירָהּ,",
+      "en": "her city"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא מִזֶּה וּמִזֶּה,",
+    "en": "she must leave this one and that one,",
+    "st": "and she remarried on the basis of this bill of divorce, then <b>she</b> must <b>leave</b> both <b>this</b> first husband <b>and that</b> second husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא",
+      "en": "she must leave"
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה,",
+      "en": "and from that one"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַדְּרָכִים הָאֵלּוּ בָהּ:",
+    "en": "and all these ways apply to her.",
+    "st": "<b>And all of those</b> above-mentioned <b>ways</b> of penalizing a woman who remarried based on the bills of divorce detailed in the earlier clause of the mishna apply <b>to her</b> in this case as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַדְּרָכִים",
+      "en": "the ways"
+     },
+     {
+      "he": "הָאֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "בָהּ:",
+      "en": "are in her"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "In some cases a widow's co-wives do not need yibum. If it turns out the rule did not really apply, a co-wife who married someone else must leave him, with all the fines of the last mishnah.",
+  "stIntro": "The mishna teaches another halakha associated with the previous halakhot:",
+  "chunks": [
+   {
+    "he": "כָּל הָעֲרָיוֹת שֶׁאָמְרוּ צָרוֹתֵיהֶן מֻתָּרוֹת,",
+    "en": "All the forbidden relatives whose co-wives, they said, are allowed to marry,",
+    "explain": "A brother may not do yibum with some relatives, so their co-wives are free too.",
+    "st": "With regard to <b>all</b> of those cases in <b>which they said</b> that a man who died without children and left behind a widow who is, to the man’s brother, one of <b>those with whom relations are forbidden,</b> e.g., she is his wife’s sister, not only is there no levirate bond for her, but <b>the rival wives</b> of the brother who died <b>are</b> also <b>permitted</b> to marry without either levirate marriage or ḥalitza.",
+    "stMore": "The mishna discusses another case:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָעֲרָיוֹת",
+      "en": "the forbidden relatives"
+     },
+     {
+      "he": "שֶׁאָמְרוּ",
+      "en": "that they said"
+     },
+     {
+      "he": "צָרוֹתֵיהֶן",
+      "en": "their co-wives"
+     },
+     {
+      "he": "מֻתָּרוֹת,",
+      "en": "are allowed"
+     }
+    ]
+   },
+   {
+    "he": "הָלְכוּ הַצָּרוֹת הָאֵלּוּ וְנִשְּׂאוּ",
+    "en": "if these co-wives went and married,",
+    "st": "<b>These rival wives went and married</b> another man without ḥalitza,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָלְכוּ",
+      "en": "went"
+     },
+     {
+      "he": "הַצָּרוֹת",
+      "en": "the co-wives"
+     },
+     {
+      "he": "הָאֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "וְנִשְּׂאוּ",
+      "en": "and they married"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצְאוּ אֵלּוּ אַיְלוֹנִיּוֹת,",
+    "en": "and it was found that these women could never have children,",
+    "st": "<b>and these</b> widows with whom relationships were forbidden <b>were found</b> to be <b>sexually underdeveloped women</b> incapable of bearing children <b>[ailonit].</b>",
+    "stMore": "Therefore, it became clear, retroactively, that the marriage to the dead brother was never valid, and accordingly, the rival wives were never exempt from the obligation of levirate marriage due to their being the rival wives of a forbidden relationship. Consequently, the rival wives were forbidden to marry anyone else without ḥalitza, and the rival wives must",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצְאוּ",
+      "en": "and were found"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "אַיְלוֹנִיּוֹת,",
+      "en": "to be aylonios"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא מִזֶּה וּמִזֶּה,",
+    "en": "she must leave this one and that one,",
+    "st": "<b>leave</b> both <b>this</b> man whom they remarried, <b>and that</b> yavam,",
+    "stMore": "i.e., they cannot enter into levirate marriage with him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא",
+      "en": "she must leave"
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה,",
+      "en": "and from that one"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַדְּרָכִים הָאֵלּוּ בָהּ:",
+    "en": "and all these ways apply to her.",
+    "st": "<b>And all of those</b> above-mentioned <b>ways</b> of penalizing a woman who remarried based on the bills of divorce detailed in the earlier clause of the mishna apply <b>to her</b> in this case as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַדְּרָכִים",
+      "en": "the ways"
+     },
+     {
+      "he": "הָאֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "בָהּ:",
+      "en": "are in her"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 7,
+  "summary": "If a man did yibum with his brother's widow and her co-wife married someone else, and then they found the widow could never have children, the co-wife must leave.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַכּוֹנֵס אֶת יְבִמְתּוֹ וְהָלְכָה צָרָתָהּ וְנִשֵּׂאת",
+    "en": "Someone who married his brother's widow, and her co-wife went and married",
+    "st": "Similarly, with regard to <b>one who marries his yevama, and her rival wife went and got married to another</b> man,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכּוֹנֵס",
+      "en": "one who marries"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "יְבִמְתּוֹ",
+      "en": "his yevamah",
+      "note": "His brother's widow, whom he marries through yibum."
+     },
+     {
+      "he": "וְהָלְכָה",
+      "en": "and went"
+     },
+     {
+      "he": "צָרָתָהּ",
+      "en": "her co-wife"
+     },
+     {
+      "he": "וְנִשֵּׂאת",
+      "en": "and married"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחֵר וְנִמְצְאָה זֹאת שֶׁהִיא אַיְלוֹנִית,",
+    "en": "someone else, and this one was found to be unable to have children,",
+    "st": "<b>and it was found that this</b> yevama <b>was a sexually underdeveloped woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "וְנִמְצְאָה",
+      "en": "and was found"
+     },
+     {
+      "he": "זֹאת",
+      "en": "this one"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "אַיְלוֹנִית,",
+      "en": "is an aylonis"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא מִזֶּה וּמִזֶּה וְכָל",
+    "en": "she must leave this one and that one, and all",
+    "st": "the rival wife must <b>leave this</b> man whom she remarried <b>and that</b> yavam,",
+    "stMore": "i.e., she cannot enter into levirate marriage with him. Because the yevama was a sexually underdeveloped woman, the obligation of levirate marriage never applied to her, and her levirate marriage did not exempt her rival wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא",
+      "en": "she must leave"
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה",
+      "en": "and from that one"
+     },
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     }
+    ]
+   },
+   {
+    "he": "הַדְּרָכִים הָאֵלּוּ בָהּ:",
+    "en": "these ways apply to her.",
+    "st": "<b>And all of those</b> aforementioned <b>ways</b> of penalizing a woman who remarried based on the bills of divorce detailed in the earlier clause of the mishna apply <b>to her</b> in this case as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַדְּרָכִים",
+      "en": "the ways"
+     },
+     {
+      "he": "הָאֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "בָהּ:",
+      "en": "are in her"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 8,
+  "summary": "If a scribe mixed up a get and a receipt, and the couple never really divorced, the woman must leave her new husband. Beis Shammai and Beis Hillel argue about a get that was written but not used.",
+  "stIntro": "The mishna now discusses another case:",
+  "chunks": [
+   {
+    "he": "כָּתַב סוֹפֵר גֵּט לָאִישׁ וְשׁוֹבֵר לָאִשָּׁה,",
+    "en": "A scribe wrote a get for the man and a receipt for the woman,",
+    "st": "<b>A scribe wrote a bill of divorce for a man,</b> so that the man could divorce his wife with it; <b>and</b> he wrote <b>a receipt for the woman,</b> for her to give to her husband upon receiving payment of her marriage contract, verifying that she received the payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתַב",
+      "en": "wrote"
+     },
+     {
+      "he": "סוֹפֵר",
+      "en": "a scribe"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "לָאִישׁ",
+      "en": "for the man"
+     },
+     {
+      "he": "וְשׁוֹבֵר",
+      "en": "and a receipt"
+     },
+     {
+      "he": "לָאִשָּׁה,",
+      "en": "for the woman"
+     }
+    ]
+   },
+   {
+    "he": "וְטָעָה וְנָתַן גֵּט לָאִשָּׁה וְשׁוֹבֵר לָאִישׁ,",
+    "en": "and he made a mistake and gave the get to the woman and the receipt to the man,",
+    "st": "<b>And</b> the scribe <b>erred and gave</b> the <b>bill of divorce to the woman and</b> the <b>receipt to the man, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטָעָה",
+      "en": "and he made a mistake"
+     },
+     {
+      "he": "וְנָתַן",
+      "en": "and gave"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "לָאִשָּׁה",
+      "en": "to the woman"
+     },
+     {
+      "he": "וְשׁוֹבֵר",
+      "en": "and a receipt"
+     },
+     {
+      "he": "לָאִישׁ,",
+      "en": "to the man"
+     }
+    ]
+   },
+   {
+    "he": "וְנָתְנוּ זֶה לָזֶה,",
+    "en": "and they gave them to each other,",
+    "st": "not knowing what was written in the documents that were in their possession, <b>they gave</b> what they received from the scribe <b>to each other.</b>",
+    "stMore": "The woman gave her husband a bill of divorce and the husband gave his wife a receipt, and consequently, there was no divorce at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָתְנוּ",
+      "en": "and they gave"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "לָזֶה,",
+      "en": "to that one"
+     }
+    ]
+   },
+   {
+    "he": "וּלְאַחַר זְמַן הֲרֵי הַגֵּט",
+    "en": "and after a while, the get",
+    "st": "<b>And after</b> some <b>time, the bill of divorce is</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "זְמַן",
+      "en": "a time"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הַגֵּט",
+      "en": "the get"
+     }
+    ]
+   },
+   {
+    "he": "יוֹצֵא מִיַּד הָאִישׁ,",
+    "en": "comes out from the man's hand,",
+    "st": "<b>in the possession of the man,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצֵא",
+      "en": "comes out"
+     },
+     {
+      "he": "מִיַּד",
+      "en": "from the hand of"
+     },
+     {
+      "he": "הָאִישׁ,",
+      "en": "the man"
+     }
+    ]
+   },
+   {
+    "he": "וְשׁוֹבֵר מִיַּד הָאִשָּׁה,",
+    "en": "and the receipt from the woman's hand,",
+    "st": "<b>and the receipt is in the possession of the woman,</b>",
+    "stMore": "and they discover that the divorce never actually transpired.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשׁוֹבֵר",
+      "en": "and the receipt"
+     },
+     {
+      "he": "מִיַּד",
+      "en": "from the hand of"
+     },
+     {
+      "he": "הָאִשָּׁה,",
+      "en": "the woman"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא מִזֶּה וּמִזֶּה,",
+    "en": "she must leave this one and that one,",
+    "st": "If the woman had remarried another man, <b>she</b> must <b>leave this,</b> the first husband, <b>and that,</b> the second husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא",
+      "en": "she must leave"
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה,",
+      "en": "and from that one"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַדְּרָכִים הָאֵלּוּ בָהּ.",
+    "en": "and all these ways apply to her.",
+    "st": "<b>And all of those</b> above-mentioned <b>ways</b> of penalizing a woman who remarried based on the bills of divorce detailed in the earlier clause of the mishna apply <b>to her</b> in this case as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַדְּרָכִים",
+      "en": "the ways"
+     },
+     {
+      "he": "הָאֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "בָהּ.",
+      "en": "are in her"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Elazar says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם לְאַלְתַּר יָצָא,",
+    "en": "if it came out right away,",
+    "st": "<b>If</b> the bill of divorce <b>is immediately [le’altar] in</b> the husband’s possession,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לְאַלְתַּר",
+      "en": "right away"
+     },
+     {
+      "he": "יָצָא,",
+      "en": "it came out"
+     }
+    ]
+   },
+   {
+    "he": "אֵין זֶה גֵט.",
+    "en": "it is not a get.",
+    "st": "<b>this is not</b> a valid <b>bill of divorce,</b>",
+    "stMore": "since he clearly never gave it to her. But",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "it is not"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט.",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "אִם לְאַחַר זְמַן יָצָא,",
+    "en": "If it came out after a while,",
+    "st": "<b>if it is in</b> his possession <b>after</b> some <b>time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "זְמַן",
+      "en": "a time"
+     },
+     {
+      "he": "יָצָא,",
+      "en": "it came out"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גֵט.",
+    "en": "it is a get.",
+    "st": "then <b>this is</b> a valid <b>bill of divorce,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "so"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "גֵט.",
+      "en": "is a get"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כָל הֵימֶנּוּ מִן הָרִאשׁוֹן",
+    "en": "It is not in the power of the first husband",
+    "st": "since <b>it is not in the power of the first</b> husband",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "לְאַבֵּד זְכוּתוֹ שֶׁל שֵׁנִי.",
+    "en": "to take away the right of the second.",
+    "st": "<b>to eliminate the right of the second</b> husband.",
+    "stMore": "The assumption is that the husband did in fact give her the bill of divorce in the correct manner, but at some point, he took it back from her.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַבֵּד",
+      "en": "to lose"
+     },
+     {
+      "he": "זְכוּתוֹ",
+      "en": "the right"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שֵׁנִי.",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "כָּתַב לְגָרֵשׁ אֶת אִשְׁתּוֹ וְנִמְלַךְ,",
+    "en": "If he wrote a get to divorce his wife and changed his mind,",
+    "st": "If <b>one wrote</b> a bill of divorce <b>to divorce his wife, and reconsidered</b> and did not give it to her,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתַב",
+      "en": "he wrote"
+     },
+     {
+      "he": "לְגָרֵשׁ",
+      "en": "to divorce"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     },
+     {
+      "he": "וְנִמְלַךְ,",
+      "en": "and he changed his mind"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "פְּסָלָהּ מִן הַכְּהֻנָּה.",
+    "en": "he made her unfit to marry a Kohen.",
+    "st": "Although merely writing the bill of divorce does not dissolve the marriage, by doing so <b>he disqualified her from</b> marrying into <b>the priesthood.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּסָלָהּ",
+      "en": "he made her unfit"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּהֻנָּה.",
+      "en": "the Kehunah"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁנְּתָנוֹ לָהּ",
+    "en": "even if he gave it to her",
+    "st": "<b>Even if he gave</b> the bill of divorce <b>to her</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁנְּתָנוֹ",
+      "en": "he gave it"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "עַל תְּנַאי וְלֹא נַעֲשָׂה הַתְּנַאי,",
+    "en": "with a condition, and the condition did not happen,",
+    "st": "<b>conditionally and the condition was not fulfilled,</b>",
+    "stMore": "and therefore the bill of divorce did not take effect,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "תְּנַאי",
+      "en": "condition"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נַעֲשָׂה",
+      "en": "was done"
+     },
+     {
+      "he": "הַתְּנַאי,",
+      "en": "the condition"
+     }
+    ]
+   },
+   {
+    "he": "לֹא פְסָלָהּ מִן הַכְּהֻנָּה:",
+    "en": "he did not make her unfit to marry a Kohen.",
+    "st": "<b>he did not disqualify her from</b> marrying into <b>the priesthood.</b> A woman is disqualified from marrying into the priesthood only if the divorce takes effect.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "פְסָלָהּ",
+      "en": "he made her unfit"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּהֻנָּה:",
+      "en": "the Kehunah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 9,
+  "summary": "Beis Shammai and Beis Hillel argue whether a divorced woman who stayed at an inn with her former husband needs a second get. The mishnah also teaches about a get that is missing signatures.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְגָרֵשׁ אֶת אִשְׁתּוֹ וְלָנָה עִמּוֹ בְּפֻנְדְּקִי,",
+    "en": "Someone who divorces his wife, and she stayed overnight with him at an inn,",
+    "st": "With regard to <b>one who divorces his wife, and</b> afterward <b>she spent the night with him at an inn [befundaki],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְגָרֵשׁ",
+      "en": "one who divorces"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     },
+     {
+      "he": "וְלָנָה",
+      "en": "and she stayed overnight"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "בְּפֻנְדְּקִי,",
+      "en": "at an inn"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ צְרִיכָהּ הֵימֶנּוּ גֵט שֵׁנִי.",
+    "en": "she does not need a second get from him.",
+    "st": "<b>She does not require a second bill of divorce from him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she does not"
+     },
+     {
+      "he": "צְרִיכָהּ",
+      "en": "need"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "שֵׁנִי.",
+      "en": "second"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>and Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "צְרִיכָה הֵימֶנּוּ גֵט שֵׁנִי.",
+    "en": "she needs a second get from him.",
+    "explain": "Maybe they became married again.",
+    "st": "<b>She requires a second bill of divorce from him,</b>",
+    "stMore": "since they may have engaged in sexual intercourse at the inn and thereby betrothed her once again.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צְרִיכָה",
+      "en": "she needs"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "שֵׁנִי.",
+      "en": "second"
+     }
+    ]
+   },
+   {
+    "he": "אֵימָתַי, בִּזְמַן שֶׁנִּתְגָּרְשָׁה מִן הַנִּשּׂוּאִין.",
+    "en": "When? When she was divorced after being fully married.",
+    "st": "<b>When</b> did they say this halakha? <b>When she was divorced following</b> the state of <b>marriage.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי,",
+      "en": "when"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁנִּתְגָּרְשָׁה",
+      "en": "that she was divorced"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַנִּשּׂוּאִין.",
+      "en": "the marriage"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹדִים בְּנִתְגָּרְשָׁה מִן הָאֵרוּסִין שֶׁאֵינָהּ",
+    "en": "And they agree that if she was divorced after only being engaged, she does not",
+    "st": "Beit Hillel <b>concede that when she was divorced following</b> the state of <b>betrothal, she does not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹדִים",
+      "en": "and they agree"
+     },
+     {
+      "he": "בְּנִתְגָּרְשָׁה",
+      "en": "in she was divorced"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאֵרוּסִין",
+      "en": "the engagement"
+     },
+     {
+      "he": "שֶׁאֵינָהּ",
+      "en": "that she does not"
+     }
+    ]
+   },
+   {
+    "he": "צְרִיכָה הֵימֶנּוּ גֵט שֵׁנִי,",
+    "en": "need a second get from him,",
+    "st": "<b>require a second bill of divorce from him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צְרִיכָה",
+      "en": "need"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "גֵט",
+      "en": "a get"
+     },
+     {
+      "he": "שֵׁנִי,",
+      "en": "second"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁאֵין לִבּוֹ גַס בָּהּ.",
+    "en": "because he is not close with her.",
+    "st": "<b>due to</b> the fact that <b>he is not accustomed to her.</b>",
+    "stMore": "Therefore, there is no concern that they engaged in sexual intercourse, even though they spent the night together at the inn.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that is not"
+     },
+     {
+      "he": "לִבּוֹ",
+      "en": "his heart"
+     },
+     {
+      "he": "גַס",
+      "en": "familiar"
+     },
+     {
+      "he": "בָּהּ.",
+      "en": "with her"
+     }
+    ]
+   },
+   {
+    "he": "כְּנָסָהּ בְּגֵט קֵרֵחַ,",
+    "en": "If he married her with a \"bald get,\"",
+    "explain": "A folded get that is missing some signatures.",
+    "st": "If a woman <b>was married</b> by her second husband <b>on the basis of</b> receiving <b>a bare bill of divorce,</b> i.e., a folded and tied bill of divorce that is missing signatures,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּנָסָהּ",
+      "en": "he married her"
+     },
+     {
+      "he": "בְּגֵט",
+      "en": "with a get"
+     },
+     {
+      "he": "קֵרֵחַ,",
+      "en": "bald"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא מִזֶּה וּמִזֶּה,",
+    "en": "she must leave this one and that one,",
+    "st": "<b>she</b> must <b>leave</b> both <b>this,</b> the first husband, <b>and that,</b> the second husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא",
+      "en": "she must leave"
+     },
+     {
+      "he": "מִזֶּה",
+      "en": "from this one"
+     },
+     {
+      "he": "וּמִזֶּה,",
+      "en": "and from that one"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַדְּרָכִים הָאֵלּוּ בָהּ:",
+    "en": "and all these ways apply to her.",
+    "st": "<b>And all of those</b> previously mentioned <b>ways</b> of penalizing a woman who remarried based on the bills of divorce detailed in the earlier mishna (79b) apply <b>to her</b> in this case as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַדְּרָכִים",
+      "en": "the ways"
+     },
+     {
+      "he": "הָאֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "בָהּ:",
+      "en": "are in her"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 10,
+  "summary": "A \"bald get\" is a folded get with more folds than signatures. Ben Nannas and Rabbi Akiva argue about who may sign to complete it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גֵּט קֵרֵחַ,",
+    "en": "A bald get:",
+    "st": "With regard to <b>a bare bill of divorce;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "קֵרֵחַ,",
+      "en": "bald"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל מַשְׁלִימִין עָלָיו,",
+    "en": "anyone may sign to complete it,",
+    "st": "<b>anyone,</b> even those who are disqualified from bearing witness, <b>can complete it,</b>",
+    "stMore": "i.e., sign it in addition to the primary witnesses, so that it will not remain bare.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "מַשְׁלִימִין",
+      "en": "may complete"
+     },
+     {
+      "he": "עָלָיו,",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי בֶן נַנָּס.",
+    "en": "says Ben Nannas.",
+    "st": "This is <b>the statement of ben Nannas.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "בֶן",
+      "en": "Ben"
+     },
+     {
+      "he": "נַנָּס.",
+      "en": "Nannas"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מַשְׁלִימִין עָלָיו אֶלָּא קְרוֹבִים",
+    "en": "only relatives may complete it",
+    "st": "<b>Not</b> all who are disqualified from bearing witness can <b>complete it. Rather, only relatives</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "no one"
+     },
+     {
+      "he": "מַשְׁלִימִין",
+      "en": "may complete"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "קְרוֹבִים",
+      "en": "relatives"
+     }
+    ]
+   },
+   {
+    "he": "הָרְאוּיִין לְהָעִיד בְּמָקוֹם אַחֵר.",
+    "en": "who would be fit to be witnesses in another case.",
+    "st": "<b>who are fit to testify in another case.</b>",
+    "stMore": "Rabbi Akiva permits only the inclusion of witnesses who would ordinarily be valid witnesses, but who are invalid here because they are relatives of either the husband and wife or the other witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרְאוּיִין",
+      "en": "who are fit"
+     },
+     {
+      "he": "לְהָעִיד",
+      "en": "to testify"
+     },
+     {
+      "he": "בְּמָקוֹם",
+      "en": "in a place"
+     },
+     {
+      "he": "אַחֵר.",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵיזֶהוּ גֵּט קֵרֵחַ.",
+    "en": "And what is a bald get?",
+    "st": "<b>And what is a bare bill of divorce?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵיזֶהוּ",
+      "en": "and which is"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "קֵרֵחַ.",
+      "en": "bald"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁקְּשָׁרָיו מְרֻבִּין מֵעֵדָיו:",
+    "en": "Any get whose knots are more than its witnesses.",
+    "explain": "Each fold was tied and should have a signature.",
+    "st": "It is <b>any</b> bill of divorce <b>where</b> the number of <b>its folds</b> is <b>more than</b> the number of <b>its witnesses.</b>",
+    "stMore": "In a folded and tied bill of divorce, the bill of divorce is folded and the folds are then tied. Instead of having two witnesses sign at the bottom of the document, witnesses would sign on each tied fold. A bare bill of divorce has more folds than signatures, i.e., some folds lack signatures.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁקְּשָׁרָיו",
+      "en": "whose knots"
+     },
+     {
+      "he": "מְרֻבִּין",
+      "en": "are more"
+     },
+     {
+      "he": "מֵעֵדָיו:",
+      "en": "than its witnesses"
+     }
+    ]
+   }
+  ]
+ }
+]

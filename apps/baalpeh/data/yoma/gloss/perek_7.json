@@ -1,0 +1,1895 @@
+[
+ {
+  "perek": 7,
+  "mishnah": 1,
+  "summary": "The Kohen Gadol reads from the Torah about Yom Kippur, says one part by heart, and then says eight brachos.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בָּא לוֹ כֹהֵן גָּדוֹל לִקְרוֹת.",
+    "en": "The Kohen Gadol came to read.",
+    "explain": "He reads the parts of the Torah about Yom Kippur.",
+    "st": "<b>The High Priest came to read</b> the Torah.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "לוֹ",
+      "en": "(to him)"
+     },
+     {
+      "he": "כֹהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "לִקְרוֹת.",
+      "en": "to read"
+     }
+    ]
+   },
+   {
+    "he": "אִם רָצָה לִקְרוֹת בְּבִגְדֵי בוּץ,",
+    "en": "If he wanted to read in the linen clothes,",
+    "st": "<b>If he wished to read</b> the Torah while still dressed <b>in</b> the <b>fine linen garments,</b> i.e., the priestly vestments he wore during the previous service,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רָצָה",
+      "en": "he wanted"
+     },
+     {
+      "he": "לִקְרוֹת",
+      "en": "to read"
+     },
+     {
+      "he": "בְּבִגְדֵי",
+      "en": "in clothes of"
+     },
+     {
+      "he": "בוּץ,",
+      "en": "linen"
+     }
+    ]
+   },
+   {
+    "he": "קוֹרֵא. וְאִם לֹא,",
+    "en": "he reads. And if not,",
+    "st": "<b>he</b> may <b>read</b> wearing them; <b>and if not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹרֵא.",
+      "en": "he reads"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לֹא,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "קוֹרֵא בְאִצְטְלִית לָבָן מִשֶּׁלּוֹ.",
+    "en": "he reads in a white robe of his own.",
+    "st": "<b>he</b> is permitted to <b>read in a white robe of his own,</b> which is not a priestly vestment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹרֵא",
+      "en": "he reads"
+     },
+     {
+      "he": "בְאִצְטְלִית",
+      "en": "in a robe"
+     },
+     {
+      "he": "לָבָן",
+      "en": "white"
+     },
+     {
+      "he": "מִשֶּׁלּוֹ.",
+      "en": "of his own"
+     }
+    ]
+   },
+   {
+    "he": "חַזַּן הַכְּנֶסֶת נוֹטֵל סֵפֶר תּוֹרָה",
+    "en": "The chazzan of the shul takes a Sefer Torah",
+    "st": "<b>The synagogue attendant takes a Torah scroll</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַזַּן",
+      "en": "the chazzan of",
+      "note": "The man who takes care of the shul."
+     },
+     {
+      "he": "הַכְּנֶסֶת",
+      "en": "the shul"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "סֵפֶר",
+      "en": "Sefer"
+     },
+     {
+      "he": "תּוֹרָה",
+      "en": "Torah"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתְנוֹ לְרֹאשׁ הַכְּנֶסֶת,",
+    "en": "and gives it to the head of the shul,",
+    "st": "<b>and gives it to the head of the synagogue</b> that stood on the Temple Mount;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתְנוֹ",
+      "en": "and gives it"
+     },
+     {
+      "he": "לְרֹאשׁ",
+      "en": "to the head of"
+     },
+     {
+      "he": "הַכְּנֶסֶת,",
+      "en": "the shul"
+     }
+    ]
+   },
+   {
+    "he": "וְרֹאשׁ הַכְּנֶסֶת נוֹתְנוֹ לַסְּגָן,",
+    "en": "and the head of the shul gives it to the Segan,",
+    "st": "<b>and the head of the synagogue gives it to the deputy</b> High Priest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרֹאשׁ",
+      "en": "and the head of"
+     },
+     {
+      "he": "הַכְּנֶסֶת",
+      "en": "the shul"
+     },
+     {
+      "he": "נוֹתְנוֹ",
+      "en": "gives it"
+     },
+     {
+      "he": "לַסְּגָן,",
+      "en": "to the Segan"
+     }
+    ]
+   },
+   {
+    "he": "וְהַסְּגָן נוֹתְנוֹ לְכֹהֵן גָּדוֹל,",
+    "en": "and the Segan gives it to the Kohen Gadol,",
+    "st": "<b>and the Deputy gives it to the High Priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַסְּגָן",
+      "en": "and the Segan"
+     },
+     {
+      "he": "נוֹתְנוֹ",
+      "en": "gives it"
+     },
+     {
+      "he": "לְכֹהֵן",
+      "en": "to the Kohen"
+     },
+     {
+      "he": "גָּדוֹל,",
+      "en": "Gadol"
+     }
+    ]
+   },
+   {
+    "he": "וְכֹהֵן גָּדוֹל עוֹמֵד וּמְקַבֵּל וְקוֹרֵא עוֹמֵד,",
+    "en": "and the Kohen Gadol stands and takes it, and reads standing,",
+    "st": "<b>and the High Priest stands and receives</b> the scroll from his hands.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֹהֵן",
+      "en": "and the Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "stands"
+     },
+     {
+      "he": "וּמְקַבֵּל",
+      "en": "and takes"
+     },
+     {
+      "he": "וְקוֹרֵא",
+      "en": "and reads"
+     },
+     {
+      "he": "עוֹמֵד,",
+      "en": "standing"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹרֵא אַחֲרֵי מוֹת וְאַךְ בֶּעָשׂוֹר.",
+    "en": "and he reads \"Acharei Mos\" and \"Ach Be'asor.\"",
+    "explain": "These are the two parts in Vayikra about Yom Kippur.",
+    "st": "<b>And he reads</b> from the scroll the Torah portion beginning with the verse: <b>“After the death”</b> (Leviticus 16:1) <b>and</b> the portion beginning with the verse: <b>“But on the tenth”</b> (Leviticus 23:26),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹרֵא",
+      "en": "and reads"
+     },
+     {
+      "he": "אַחֲרֵי",
+      "en": "after"
+     },
+     {
+      "he": "מוֹת",
+      "en": "the death"
+     },
+     {
+      "he": "וְאַךְ",
+      "en": "and but"
+     },
+     {
+      "he": "בֶּעָשׂוֹר.",
+      "en": "on the tenth"
+     }
+    ]
+   },
+   {
+    "he": "וְגוֹלֵל סֵפֶר תּוֹרָה וּמַנִּיחוֹ בְחֵיקוֹ,",
+    "en": "And he rolls up the Sefer Torah and holds it close to him,",
+    "st": "<b>and furls the Torah scroll and places it on his bosom</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְגוֹלֵל",
+      "en": "and rolls up"
+     },
+     {
+      "he": "סֵפֶר",
+      "en": "Sefer"
+     },
+     {
+      "he": "תּוֹרָה",
+      "en": "Torah"
+     },
+     {
+      "he": "וּמַנִּיחוֹ",
+      "en": "and puts it"
+     },
+     {
+      "he": "בְחֵיקוֹ,",
+      "en": "on his chest"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר, יוֹתֵר מִמַּה שֶּׁקָּרָאתִי לִפְנֵיכֶם כָּתוּב כָּאן,",
+    "en": "and says, \"More than what I read before you is written here.\"",
+    "st": "<b>and says: More than what I have read before you is written here.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and says"
+     },
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "מִמַּה",
+      "en": "than what"
+     },
+     {
+      "he": "שֶּׁקָּרָאתִי",
+      "en": "that I read"
+     },
+     {
+      "he": "לִפְנֵיכֶם",
+      "en": "before you"
+     },
+     {
+      "he": "כָּתוּב",
+      "en": "written"
+     },
+     {
+      "he": "כָּאן,",
+      "en": "here"
+     }
+    ]
+   },
+   {
+    "he": "וּבֶעָשׂוֹר שֶׁבְּחֻמַּשׁ הַפְּקוּדִים קוֹרֵא עַל פֶּה,",
+    "en": "And \"Uve'asor\" in Sefer Bamidbar he reads by heart,",
+    "explain": "It is too far to roll to quickly, so he says it from memory.",
+    "st": "The Torah portion beginning with the verse: <b>“And on the tenth,” from the book of Numbers</b> (29:7), <b>he</b> then <b>reads by heart.</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "Bartenura explains why he says it by heart.",
+    "words": [
+     {
+      "he": "וּבֶעָשׂוֹר",
+      "en": "and on the tenth"
+     },
+     {
+      "he": "שֶׁבְּחֻמַּשׁ",
+      "en": "that is in the Chumash of"
+     },
+     {
+      "he": "הַפְּקוּדִים",
+      "en": "the countings",
+      "note": "Sefer Bamidbar, the book of the countings."
+     },
+     {
+      "he": "קוֹרֵא",
+      "en": "he reads"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "פֶּה,",
+      "en": "mouth"
+     }
+    ]
+   },
+   {
+    "he": "וּמְבָרֵךְ עָלֶיהָ שְׁמֹנֶה בְרָכוֹת,",
+    "en": "And he says eight brachos after it:",
+    "st": "<b>And he recites after</b> the reading the following <b>eight blessings:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְבָרֵךְ",
+      "en": "and says a bracha"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "on it"
+     },
+     {
+      "he": "שְׁמֹנֶה",
+      "en": "eight"
+     },
+     {
+      "he": "בְרָכוֹת,",
+      "en": "brachos"
+     }
+    ]
+   },
+   {
+    "he": "עַל הַתּוֹרָה,",
+    "en": "on the Torah,",
+    "st": "<b>Concerning the Torah:</b> Who has given us the Torah of truth;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַתּוֹרָה,",
+      "en": "the Torah"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הָעֲבוֹדָה,",
+    "en": "and on the avodah,",
+    "st": "<b>and concerning the</b> Temple <b>service:</b> Find favor in Your people Israel and accept the service in Your most holy House... for You alone do we serve with reverence;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הָעֲבוֹדָה,",
+      "en": "the avodah",
+      "note": "The service in the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַהוֹדָאָה,",
+    "en": "and on thanking Hashem,",
+    "st": "<b>and concerning thanksgiving:</b> We give thanks to You;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הַהוֹדָאָה,",
+      "en": "the thanks"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל מְחִילַת הֶעָוֹן,",
+    "en": "and on forgiving sins,",
+    "st": "<b>and concerning pardon of iniquity:</b> Pardon our iniquities on this Yom Kippur;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "מְחִילַת",
+      "en": "forgiving of"
+     },
+     {
+      "he": "הֶעָוֹן,",
+      "en": "the sin"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַמִּקְדָּשׁ בִּפְנֵי עַצְמוֹ,",
+    "en": "and on the Beis HaMikdash by itself,",
+    "st": "<b>and concerning the Temple in and of itself,</b> which concludes: Blessed…Who chose the Temple;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הַמִּקְדָּשׁ",
+      "en": "the Mikdash"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "itself"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל יִשְׂרָאֵל בִּפְנֵי עַצְמָן",
+    "en": "and on Yisrael by itself,",
+    "st": "<b>and concerning the Jewish People in and of itself,</b> which concludes: Blessed…Who chose Israel;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "עַצְמָן",
+      "en": "themselves"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל יְרוּשָׁלַיִם בִּפְנֵי עַצְמָהּ",
+    "en": "and on Yerushalayim by itself,",
+    "st": "<b>and concerning Jerusalem in and of itself,</b> which concludes: Blessed…Who chose Jerusalem;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "יְרוּשָׁלַיִם",
+      "en": "Yerushalayim"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "עַצְמָהּ",
+      "en": "itself"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַכֹּהֲנִים בִּפְנֵי עַצְמָן",
+    "en": "and on the Kohanim by themselves,",
+    "st": "<b>and concerning the priests in and of themselves,</b> which concludes: Blessed…Who chose the priests;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הַכֹּהֲנִים",
+      "en": "the Kohanim"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "עַצְמָן",
+      "en": "themselves"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל שְׁאָר הַתְּפִלָּה:",
+    "en": "and on the rest of the tefillah.",
+    "st": "<b>and concerning the rest of the prayer,</b> which concludes: Blessed…Who listens to prayer.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "שְׁאָר",
+      "en": "the rest of"
+     },
+     {
+      "he": "הַתְּפִלָּה:",
+      "en": "the tefillah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 2,
+  "summary": "A person who watches the Kohen Gadol reading cannot also see the bull and goat being burned, because they happen at the same time far apart.",
+  "stIntro": "The Mishna comments:",
+  "chunks": [
+   {
+    "he": "הָרוֹאֶה כֹהֵן גָּדוֹל כְּשֶׁהוּא קוֹרֵא,",
+    "en": "One who sees the Kohen Gadol while he reads",
+    "st": "<b>One who sees the High Priest reading</b> the Torah",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרוֹאֶה",
+      "en": "the one who sees"
+     },
+     {
+      "he": "כֹהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "כְּשֶׁהוּא",
+      "en": "when he"
+     },
+     {
+      "he": "קוֹרֵא,",
+      "en": "reads"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ רוֹאֶה פַר וְשָׂעִיר הַנִּשְׂרָפִים.",
+    "en": "does not see the bull and goat that are burned.",
+    "st": "<b>does not see the bull and goat that are burned;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "רוֹאֶה",
+      "en": "see"
+     },
+     {
+      "he": "פַר",
+      "en": "bull"
+     },
+     {
+      "he": "וְשָׂעִיר",
+      "en": "and goat"
+     },
+     {
+      "he": "הַנִּשְׂרָפִים.",
+      "en": "that are burned"
+     }
+    ]
+   },
+   {
+    "he": "וְהָרוֹאֶה פַר וְשָׂעִיר הַנִּשְׂרָפִים,",
+    "en": "And one who sees the bull and goat that are burned",
+    "st": "<b>and one who sees the bull and goat that are burned</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָרוֹאֶה",
+      "en": "and the one who sees"
+     },
+     {
+      "he": "פַר",
+      "en": "bull"
+     },
+     {
+      "he": "וְשָׂעִיר",
+      "en": "and goat"
+     },
+     {
+      "he": "הַנִּשְׂרָפִים,",
+      "en": "that are burned"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ רוֹאֶה כֹהֵן גָּדוֹל כְּשֶׁהוּא קוֹרֵא.",
+    "en": "does not see the Kohen Gadol while he reads.",
+    "st": "<b>does not see the High Priest reading</b> the Torah.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "רוֹאֶה",
+      "en": "see"
+     },
+     {
+      "he": "כֹהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "כְּשֶׁהוּא",
+      "en": "when he"
+     },
+     {
+      "he": "קוֹרֵא.",
+      "en": "reads"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מִפְּנֵי שֶׁאֵינוֹ רַשַּׁאי,",
+    "en": "And not because he is not allowed,",
+    "st": "The Mishna explains: <b>And</b> this is <b>not due to</b> the fact <b>that one is not permitted</b> to see both,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "רַשַּׁאי,",
+      "en": "allowed"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שֶׁהָיְתָה דֶרֶךְ רְחוֹקָה,",
+    "en": "but because it was a long way between them,",
+    "st": "<b>but because there was a distant path</b> between them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "שֶׁהָיְתָה",
+      "en": "that was"
+     },
+     {
+      "he": "דֶרֶךְ",
+      "en": "a way"
+     },
+     {
+      "he": "רְחוֹקָה,",
+      "en": "far"
+     }
+    ]
+   },
+   {
+    "he": "וּמְלֶאכֶת שְׁנֵיהֶן שָׁוָה כְאֶחָת:",
+    "en": "and both of them are done at the same time.",
+    "st": "<b>and</b> the <b>performance of both of them</b> is undertaken <b>simultaneously.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְלֶאכֶת",
+      "en": "and the work of"
+     },
+     {
+      "he": "שְׁנֵיהֶן",
+      "en": "both of them"
+     },
+     {
+      "he": "שָׁוָה",
+      "en": "is the same"
+     },
+     {
+      "he": "כְאֶחָת:",
+      "en": "as one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 3,
+  "summary": "After reading, the Kohen Gadol toivels and puts on his golden clothes. Rabbi Eliezer and Rabbi Akiva argue when the other korbanos of the day are brought.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אִם בְּבִגְדֵי בוּץ קוֹרֵא,",
+    "en": "If he reads in the linen clothes,",
+    "st": "<b>If</b> the High Priest <b>read</b> the Torah <b>in</b> sacred white <b>fine linen garments,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "בְּבִגְדֵי",
+      "en": "in clothes of"
+     },
+     {
+      "he": "בוּץ",
+      "en": "linen"
+     },
+     {
+      "he": "קוֹרֵא,",
+      "en": "he reads"
+     }
+    ]
+   },
+   {
+    "he": "קִדֵּשׁ יָדָיו וְרַגְלָיו,",
+    "en": "he washed his hands and his feet,",
+    "st": "<b>he</b> then <b>sanctified his hands and feet</b> as he did each time before removing the priestly vestments.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִדֵּשׁ",
+      "en": "he washed"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "his hands"
+     },
+     {
+      "he": "וְרַגְלָיו,",
+      "en": "and his feet"
+     }
+    ]
+   },
+   {
+    "he": "פָּשַׁט יָרַד וְטָבַל,",
+    "en": "took off his clothes, went down and toiveled,",
+    "st": "He then <b>removed</b> the linen garments, <b>descended</b> to the ritual bath, <b>and immersed.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּשַׁט",
+      "en": "took off"
+     },
+     {
+      "he": "יָרַד",
+      "en": "went down"
+     },
+     {
+      "he": "וְטָבַל,",
+      "en": "and toiveled"
+     }
+    ]
+   },
+   {
+    "he": "עָלָה וְנִסְתַּפֵּג.",
+    "en": "came up and dried himself.",
+    "st": "Afterward he <b>ascended and dried himself</b> with a towel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָלָה",
+      "en": "came up"
+     },
+     {
+      "he": "וְנִסְתַּפֵּג.",
+      "en": "and dried himself"
+     }
+    ]
+   },
+   {
+    "he": "הֵבִיאוּ לוֹ בִגְדֵי זָהָב,",
+    "en": "They brought him the golden clothes,",
+    "st": "<b>and they brought him</b> the <b>golden garments</b> of the High Priesthood,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵבִיאוּ",
+      "en": "they brought"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בִגְדֵי",
+      "en": "clothes of"
+     },
+     {
+      "he": "זָהָב,",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "וְלָבַשׁ, וְקִדֵּשׁ יָדָיו וְרַגְלָיו,",
+    "en": "and he put them on, and washed his hands and his feet.",
+    "st": "<b>and he dressed</b> in them <b>and sanctified his hands and feet.</b>",
+    "stMore": "The mishna addresses those offerings whose sacrifice has still not been mentioned. The verses in Leviticus, chapter 16, detail the special offerings of the atonement service of Yom Kippur. Of those offerings, the ram of the High Priest and the ram of the people have still not been addressed. In addition to this, the additional offerings of Yom Kippur detailed in Numbers, chapter 29, have not yet been discussed. These include seven one-year-old lambs and a bull to be brought as a burnt-offering and a goat to be brought as a sin-offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָבַשׁ,",
+      "en": "and he dressed"
+     },
+     {
+      "he": "וְקִדֵּשׁ",
+      "en": "and washed"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "his hands"
+     },
+     {
+      "he": "וְרַגְלָיו,",
+      "en": "and his feet"
+     }
+    ]
+   },
+   {
+    "he": "וְיָצָא וְעָשָׂה אֶת אֵילוֹ",
+    "en": "And he went out and brought his ram",
+    "st": "The mishna continues: <b>He emerged and offered his ram</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָצָא",
+      "en": "and he went out"
+     },
+     {
+      "he": "וְעָשָׂה",
+      "en": "and did"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֵילוֹ",
+      "en": "his ram"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת אֵיל הָעָם,",
+    "en": "and the ram of the people,",
+    "st": "<b>and the ram of the people</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "אֵיל",
+      "en": "the ram of"
+     },
+     {
+      "he": "הָעָם,",
+      "en": "the people"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת שִׁבְעַת כְּבָשִׂים תְּמִימִים בְּנֵי שָׁנָה,",
+    "en": "and the seven perfect lambs, a year old.",
+    "st": "<b>and the seven unblemished year-old lambs</b> mandated to be offered that day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "שִׁבְעַת",
+      "en": "seven"
+     },
+     {
+      "he": "כְּבָשִׂים",
+      "en": "lambs"
+     },
+     {
+      "he": "תְּמִימִים",
+      "en": "perfect",
+      "note": "With no mum, no blemish."
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "sons of"
+     },
+     {
+      "he": "שָׁנָה,",
+      "en": "a year"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי אֱלִיעֶזֶר.",
+    "en": "These are the words of Rabbi Eliezer.",
+    "st": "This is <b>the statement of Rabbi Eliezer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר.",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b> Those offerings were not sacrificed at this point;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עִם תָּמִיד שֶׁל שַׁחַר הָיוּ קְרֵבִין,",
+    "en": "they were brought with the morning tamid,",
+    "st": "<b>rather,</b> they were sacrificed <b>with the daily morning offering;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "תָּמִיד",
+      "en": "the tamid"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שַׁחַר",
+      "en": "morning"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "קְרֵבִין,",
+      "en": "brought"
+     }
+    ]
+   },
+   {
+    "he": "וּפַר הָעוֹלָה וְשָׂעִיר הַנַּעֲשֶׂה בַחוּץ הָיוּ",
+    "en": "and the bull of the olah and the goat that is done outside",
+    "st": "<b>and the bull</b> of the Yom Kippur <b>burnt-offering; and the goat whose</b> services <b>are performed outside</b> of the Sanctuary, i.e., in the Temple courtyard,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפַר",
+      "en": "and the bull of"
+     },
+     {
+      "he": "הָעוֹלָה",
+      "en": "the olah",
+      "note": "A korban that is burned completely on the mizbeach."
+     },
+     {
+      "he": "וְשָׂעִיר",
+      "en": "and the goat"
+     },
+     {
+      "he": "הַנַּעֲשֶׂה",
+      "en": "that is done"
+     },
+     {
+      "he": "בַחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     }
+    ]
+   },
+   {
+    "he": "קְרֵבִין עִם תָּמִיד שֶׁל בֵּין הָעַרְבָּיִם:",
+    "en": "were brought with the afternoon tamid.",
+    "st": "<b>were sacrificed with the daily afternoon offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְרֵבִין",
+      "en": "brought"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "תָּמִיד",
+      "en": "the tamid"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "הָעַרְבָּיִם:",
+      "en": "the evenings"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 4,
+  "summary": "The Kohen Gadol changes his clothes again to take the ketores pan out of the Kodesh HaKodashim, and then to do the afternoon service. At the end he goes home and makes a party for his friends.",
+  "stIntro": "After sacrificing these offerings,",
+  "chunks": [
+   {
+    "he": "קִדֵּשׁ יָדָיו וְרַגְלָיו,",
+    "en": "He washed his hands and his feet,",
+    "st": "<b>he sanctified his hands and feet</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִדֵּשׁ",
+      "en": "he washed"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "his hands"
+     },
+     {
+      "he": "וְרַגְלָיו,",
+      "en": "and his feet"
+     }
+    ]
+   },
+   {
+    "he": "וּפָשַׁט וְיָרַד וְטָבַל וְעָלָה וְנִסְתַּפֵּג.",
+    "en": "and took off his clothes, went down, toiveled, came up and dried himself.",
+    "st": "<b>and removed</b> the golden garments, <b>and he descended</b> into the ritual bath <b>and immersed and ascended and dried himself.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפָשַׁט",
+      "en": "and took off"
+     },
+     {
+      "he": "וְיָרַד",
+      "en": "and went down"
+     },
+     {
+      "he": "וְטָבַל",
+      "en": "and toiveled"
+     },
+     {
+      "he": "וְעָלָה",
+      "en": "and came up"
+     },
+     {
+      "he": "וְנִסְתַּפֵּג.",
+      "en": "and dried himself"
+     }
+    ]
+   },
+   {
+    "he": "הֵבִיאוּ לוֹ בִגְדֵי לָבָן,",
+    "en": "They brought him the white clothes,",
+    "st": "<b>They brought him the white garments</b> again,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵבִיאוּ",
+      "en": "they brought"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בִגְדֵי",
+      "en": "clothes of"
+     },
+     {
+      "he": "לָבָן,",
+      "en": "white"
+     }
+    ]
+   },
+   {
+    "he": "וְלָבַשׁ, וְקִדֵּשׁ יָדָיו וְרַגְלָיו.",
+    "en": "and he put them on, and washed his hands and his feet.",
+    "st": "<b>and he dressed</b> in them <b>and sanctified his hands and feet.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָבַשׁ,",
+      "en": "and he dressed"
+     },
+     {
+      "he": "וְקִדֵּשׁ",
+      "en": "and washed"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "his hands"
+     },
+     {
+      "he": "וְרַגְלָיו.",
+      "en": "and his feet"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס לְהוֹצִיא אֶת הַכַּף וְאֶת הַמַּחְתָּה.",
+    "en": "He went in to take out the spoon and the fire-pan.",
+    "st": "Afterward <b>he entered</b> the Holy of Holies <b>to take out the</b> incense <b>spoon and the coal pan,</b>",
+    "stMore": "which he had brought there earlier.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "he went in"
+     },
+     {
+      "he": "לְהוֹצִיא",
+      "en": "to take out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכַּף",
+      "en": "the spoon"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַמַּחְתָּה.",
+      "en": "the fire-pan"
+     }
+    ]
+   },
+   {
+    "he": "קִדֵּשׁ יָדָיו וְרַגְלָיו,",
+    "en": "He washed his hands and his feet,",
+    "st": "<b>He</b> again <b>sanctified his hands and feet</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִדֵּשׁ",
+      "en": "he washed"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "his hands"
+     },
+     {
+      "he": "וְרַגְלָיו,",
+      "en": "and his feet"
+     }
+    ]
+   },
+   {
+    "he": "וּפָשַׁט וְיָרַד וְטָבָל,",
+    "en": "and took off his clothes, went down and toiveled,",
+    "st": "<b>and removed</b> the white garments <b>and descended</b> to the ritual bath <b>and immersed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפָשַׁט",
+      "en": "and took off"
+     },
+     {
+      "he": "וְיָרַד",
+      "en": "and went down"
+     },
+     {
+      "he": "וְטָבָל,",
+      "en": "and toiveled"
+     }
+    ]
+   },
+   {
+    "he": "עָלָה וְנִסְתַּפֵּג.",
+    "en": "came up and dried himself.",
+    "st": "<b>and ascended and dried himself</b> with a towel.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָלָה",
+      "en": "came up"
+     },
+     {
+      "he": "וְנִסְתַּפֵּג.",
+      "en": "and dried himself"
+     }
+    ]
+   },
+   {
+    "he": "הֵבִיאוּ לוֹ בִגְדֵי זָהָב וְלָבַשׁ,",
+    "en": "They brought him the golden clothes and he put them on,",
+    "st": "<b>They brought him</b> the <b>golden garments, and he dressed</b> in them",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵבִיאוּ",
+      "en": "they brought"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בִגְדֵי",
+      "en": "clothes of"
+     },
+     {
+      "he": "זָהָב",
+      "en": "gold"
+     },
+     {
+      "he": "וְלָבַשׁ,",
+      "en": "and he dressed"
+     }
+    ]
+   },
+   {
+    "he": "וְקִדֵּשׁ יָדָיו וְרַגְלָיו,",
+    "en": "and he washed his hands and his feet,",
+    "st": "<b>and sanctified his hands and feet</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקִדֵּשׁ",
+      "en": "and washed"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "his hands"
+     },
+     {
+      "he": "וְרַגְלָיו,",
+      "en": "and his feet"
+     }
+    ]
+   },
+   {
+    "he": "וְנִכְנַס לְהַקְטִיר קְטֹרֶת שֶׁל בֵּין הָעַרְבַּיִם",
+    "en": "and went in to burn the afternoon ketores",
+    "st": "<b>and entered</b> the Sanctuary <b>to burn the afternoon incense</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִכְנַס",
+      "en": "and went in"
+     },
+     {
+      "he": "לְהַקְטִיר",
+      "en": "to burn"
+     },
+     {
+      "he": "קְטֹרֶת",
+      "en": "ketores"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "הָעַרְבַּיִם",
+      "en": "the evenings"
+     }
+    ]
+   },
+   {
+    "he": "וּלְהֵטִיב אֶת הַנֵּרוֹת,",
+    "en": "and to clean the lamps.",
+    "st": "<b>and to remove</b> the ashes from <b>the lamps,</b>",
+    "stMore": "which signified the end of the day’s service.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְהֵטִיב",
+      "en": "and to clean"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנֵּרוֹת,",
+      "en": "the lamps"
+     }
+    ]
+   },
+   {
+    "he": "וְקִדֵּשׁ יָדָיו וְרַגְלָיו, וּפָשַׁט.",
+    "en": "And he washed his hands and his feet, and took off his clothes.",
+    "st": "<b>And he sanctified his hands and feet and removed</b> the golden garments, <b>and he descended</b> to the ritual bath <b>and immersed and ascended and dried himself.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקִדֵּשׁ",
+      "en": "and washed"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "his hands"
+     },
+     {
+      "he": "וְרַגְלָיו,",
+      "en": "and his feet"
+     },
+     {
+      "he": "וּפָשַׁט.",
+      "en": "and took off"
+     }
+    ]
+   },
+   {
+    "he": "הֵבִיאוּ לוֹ בִגְדֵי עַצְמוֹ, וְלָבַשׁ.",
+    "en": "They brought him his own clothes, and he put them on.",
+    "st": "<b>They</b> then <b>brought him his own clothing and he dressed,</b> since the service was complete and Yom Kippur was over;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵבִיאוּ",
+      "en": "they brought"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בִגְדֵי",
+      "en": "clothes of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     },
+     {
+      "he": "וְלָבַשׁ.",
+      "en": "and he dressed"
+     }
+    ]
+   },
+   {
+    "he": "וּמְלַוִּין אוֹתוֹ עַד בֵּיתוֹ.",
+    "en": "And they walk with him to his house.",
+    "explain": "They do this to give him honor.",
+    "st": "and the people <b>escort him to his house</b> in deference to him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְלַוִּין",
+      "en": "and they escort"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "בֵּיתוֹ.",
+      "en": "his house"
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹם טוֹב הָיָה עוֹשֶׂה לְאוֹהֲבָיו",
+    "en": "And he would make a Yom Tov for the people who love him",
+    "st": "<b>And</b> the High Priest <b>would make a feast for his loved ones</b> and his friends",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹם",
+      "en": "and a day of"
+     },
+     {
+      "he": "טוֹב",
+      "en": "good"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "making"
+     },
+     {
+      "he": "לְאוֹהֲבָיו",
+      "en": "for his loved ones"
+     }
+    ]
+   },
+   {
+    "he": "בְּשָׁעָה שֶׁיָּצָא בְשָׁלוֹם מִן הַקֹּדֶשׁ:",
+    "en": "when he came out safely from the Kodesh.",
+    "st": "<b>when he emerged in peace from the Sanctuary.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּשָׁעָה",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁיָּצָא",
+      "en": "that he came out"
+     },
+     {
+      "he": "בְשָׁלוֹם",
+      "en": "in peace"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקֹּדֶשׁ:",
+      "en": "the Kodesh"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 5,
+  "summary": "A regular Kohen wears four special clothes, and the Kohen Gadol wears eight. Dressed in all eight, he may ask questions of the Urim VeTumim, but only for the king, the beis din, or the needs of the community.",
+  "stIntro": "Throughout the year",
+  "chunks": [
+   {
+    "he": "כֹּהֵן גָּדוֹל מְשַׁמֵּשׁ בִּשְׁמֹנָה כֵלִים.",
+    "en": "The Kohen Gadol serves in eight garments,",
+    "st": "<b>the High Priest serves in eight garments,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "מְשַׁמֵּשׁ",
+      "en": "serves"
+     },
+     {
+      "he": "בִּשְׁמֹנָה",
+      "en": "in eight"
+     },
+     {
+      "he": "כֵלִים.",
+      "en": "garments"
+     }
+    ]
+   },
+   {
+    "he": "וְהַהֶדְיוֹט בְּאַרְבָּעָה,",
+    "en": "and a regular Kohen in four:",
+    "st": "<b>and the common priest</b> serves <b>in four:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַהֶדְיוֹט",
+      "en": "and the regular Kohen"
+     },
+     {
+      "he": "בְּאַרְבָּעָה,",
+      "en": "in four"
+     }
+    ]
+   },
+   {
+    "he": "בְּכֻתֹּנֶת וּמִכְנָסַיִם וּמִצְנֶפֶת וְאַבְנֵט.",
+    "en": "a shirt, pants, a hat and a belt.",
+    "st": "<b>In a tunic and trousers and a mitre and a belt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכֻתֹּנֶת",
+      "en": "in a shirt"
+     },
+     {
+      "he": "וּמִכְנָסַיִם",
+      "en": "and pants"
+     },
+     {
+      "he": "וּמִצְנֶפֶת",
+      "en": "and a hat"
+     },
+     {
+      "he": "וְאַבְנֵט.",
+      "en": "and a belt"
+     }
+    ]
+   },
+   {
+    "he": "מוֹסִיף עָלָיו כֹּהֵן גָּדוֹל,",
+    "en": "The Kohen Gadol adds on top of these:",
+    "st": "<b>The High Priest adds</b> another four garments <b>beyond</b> those worn by the common priest:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹסִיף",
+      "en": "adds"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל,",
+      "en": "Gadol"
+     }
+    ]
+   },
+   {
+    "he": "חשֶׁן וְאֵפוֹד וּמְעִיל וָצִיץ.",
+    "en": "the Choshen, the Eiphod, the Me'il and the Tzitz.",
+    "explain": "The Choshen is the breastplate with twelve stones, and the Tzitz is a gold plate on his forehead.",
+    "st": "<b>A breastplate, and an ephod, and a robe, and a frontplate.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חשֶׁן",
+      "en": "Choshen"
+     },
+     {
+      "he": "וְאֵפוֹד",
+      "en": "and Eiphod"
+     },
+     {
+      "he": "וּמְעִיל",
+      "en": "and Me'il",
+      "note": "A long blue robe."
+     },
+     {
+      "he": "וָצִיץ.",
+      "en": "and Tzitz"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵלּוּ נִשְׁאָלִין בְּאוּרִים וְתֻמִּים.",
+    "en": "In these they ask questions with the Urim VeTumim.",
+    "st": "When dressed <b>in these</b> eight garments, the High Priest may <b>be consulted for</b> the decision of the <b>Urim VeTummim.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵלּוּ",
+      "en": "in these"
+     },
+     {
+      "he": "נִשְׁאָלִין",
+      "en": "they ask"
+     },
+     {
+      "he": "בְּאוּרִים",
+      "en": "with the Urim",
+      "note": "The Urim VeTumim was a holy name of Hashem in the Choshen that helped answer questions."
+     },
+     {
+      "he": "וְתֻמִּים.",
+      "en": "and Tumim"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין נִשְׁאָלִין אֶלָּא לַמֶּלֶךְ",
+    "en": "And they only ask for the king,",
+    "st": "<b>And he may be consulted</b> for the decision of the Urim VeTummim <b>only on behalf of the king,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "נִשְׁאָלִין",
+      "en": "they ask"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "לַמֶּלֶךְ",
+      "en": "for the king"
+     }
+    ]
+   },
+   {
+    "he": "וּלְבֵית דִּין וּלְמִי שֶׁהַצִּבּוּר צָרִיךְ בּוֹ:",
+    "en": "and for the beis din, and for someone the community needs.",
+    "st": "<b>or on behalf of the president of the court, or on behalf of one whom the community needs.</b>",
+    "stMore": "Individual inquiries are not posed to the Urim VeTummim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְבֵית",
+      "en": "and for the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "וּלְמִי",
+      "en": "and for whom"
+     },
+     {
+      "he": "שֶׁהַצִּבּוּר",
+      "en": "that the community"
+     },
+     {
+      "he": "צָרִיךְ",
+      "en": "needs"
+     },
+     {
+      "he": "בּוֹ:",
+      "en": "him"
+     }
+    ]
+   }
+  ]
+ }
+]
