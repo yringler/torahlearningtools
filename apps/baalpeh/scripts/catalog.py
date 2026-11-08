@@ -24,8 +24,12 @@ def load() -> dict:
     for m in cat["masechtos"]:
         if m["seder"] not in sedarim:
             raise SystemExit(f"catalog.json: {m['id']} has unknown seder {m['seder']!r}")
-        if m["sefaria"] != "Mishnah_" + m["en"]:
-            raise SystemExit(f"catalog.json: {m['id']}: en must be the Sefaria name after 'Mishnah_' (app links use it)")
+        if " " in m["sefaria"]:
+            raise SystemExit(f"catalog.json: {m['id']}: sefaria must be Sefaria's book name with underscores, e.g. Mishnah_Rosh_Hashanah (app links use it)")
+        if not isinstance(m.get("glossPending", False), bool):
+            raise SystemExit(f"catalog.json: {m['id']}: glossPending (optional) must be true or false")
+        if "perakim" in m and not (isinstance(m["perakim"], int) and m["perakim"] > 0):
+            raise SystemExit(f"catalog.json: {m['id']}: perakim (optional) must be a positive number")
         for s in m["sources"]:
             if s not in cat["sources"]:
                 raise SystemExit(f"catalog.json: {m['id']} names unknown source {s!r}")

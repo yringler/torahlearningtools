@@ -132,7 +132,7 @@ export function ParentSettings(props: Props) {
           <li>When your child finishes a perek, they tap "I'm ready to show Abba or Ima" and you get an email with the text. Listen, then tap the link and enter your PIN. Only then does the next perek open. You can also mark a perek verified here if you heard it yourself.</li>
           <li>While waiting, your child can keep learning as a guest. Guest learning doesn't count toward their progress.</li>
           <li>Learned mishnayos come back for review after 1, 3, 7, 14, 30 and 60 days. A finished perek is reviewed as a whole.</li>
-          <li>Hebrew text: Torat Emet via Sefaria. Meanings come in two views. <b>Steinsaltz</b> is quoted word for word from the Koren Noé / William Davidson translation (bold = translation, light = explanation). <b>Simple</b> is an AI simplification of Steinsaltz, checked against Bartenura (tr. R. Shraga Silverstein). Tap ⓘ by any meaning to see its source. Please check anything that looks off. <LicensesLink /></li>
+          <li>Hebrew text: Torat Emet via Sefaria. Meanings come in two views. <b>Steinsaltz</b> is quoted word for word from the Koren Noé / William Davidson translation (bold = translation, light = explanation). <b>Simple</b> is an AI simplification of Steinsaltz, checked against Bartenura (tr. R. Shraga Silverstein); a few masechtos without Steinsaltz (Eduyot, Pirkei Avot) have only Simple, from Bartenura. Tap ⓘ by any meaning to see its source. Please check anything that looks off. <LicensesLink /></li>
         </ul>
       </section>
       <AboutNote />

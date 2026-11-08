@@ -12,11 +12,11 @@ export const LICENSES = {
   ccByNc4: { name: "CC BY-NC 4.0", url: "https://creativecommons.org/licenses/by-nc/4.0/" },
 } satisfies Record<string, License>;
 
-/** A masechta on Sefaria in one version. `masechtaEn` is the catalog's `en` (Sefaria's name after "Mishnah_"). */
-const versionUrl = (masechtaEn: string, param: "ven" | "vhe", version: string): string =>
-  `https://www.sefaria.org/Mishnah_${masechtaEn}?${param}=${version}`;
+/** A masechta on Sefaria in one version. `book` is the catalog's `sefaria` (e.g. "Mishnah_Berakhot", "Pirkei_Avot"). */
+const versionUrl = (book: string, param: "ven" | "vhe", version: string): string =>
+  `https://www.sefaria.org/${book}?${param}=${version}`;
 
-export const SOURCES: Record<Source, { name: string; detail: string; license: License; sefaria: (masechtaEn: string) => string }> = {
+export const SOURCES: Record<Source, { name: string; detail: string; license: License; sefaria: (book: string) => string }> = {
   steinsaltz: {
     name: "Steinsaltz",
     detail: "R. Adin Even-Israel Steinsaltz, Koren Noé / William Davidson Edition, via Sefaria",
@@ -34,11 +34,12 @@ export const SOURCES: Record<Source, { name: string; detail: string; license: Li
 export const HEBREW_SOURCE = {
   name: "Torat Emet 357",
   license: LICENSES.publicDomain,
-  sefaria: (masechtaEn: string): string => versionUrl(masechtaEn, "vhe", "Torat_Emet_357"),
+  sefaria: (book: string): string => versionUrl(book, "vhe", "Torat_Emet_357"),
 };
 
 /** Public path of the sources & licenses page. It opens without signing in. */
 export const LICENSES_PATH = "/licenses";
 
-export const sefariaUrl = (masechtaEn: string, perek: number, mishnah: number): string =>
-  `https://www.sefaria.org/Mishnah_${masechtaEn}.${perek}.${mishnah}?lang=bi`;
+/** One mishnah on Sefaria. `book` is the catalog's `sefaria` (e.g. "Mishnah_Berakhot"). */
+export const sefariaUrl = (book: string, perek: number, mishnah: number): string =>
+  `https://www.sefaria.org/${book}.${perek}.${mishnah}?lang=bi`;

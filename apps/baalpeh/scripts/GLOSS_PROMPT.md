@@ -11,6 +11,15 @@ Sources (all in `data/<id>/chunks.json` per mishnah; use only the ones the masec
   Use it to check Steinsaltz and to pick explanations a child will understand.
 - Don't use any other translation (no Open Mishnah/community translations, no Kulp).
 
+**Masechtos with only one source.** Sefaria doesn't have both for every masechta; `sources` in the catalog says which:
+
+- **Steinsaltz only** (e.g. Sotah, Kodashim, Niddah): everything below applies, `basis` is always `["steinsaltz"]`,
+  and there is no `basisNote`.
+- **Bartenura only** (Eduyot, Pirkei Avot): there is no `st`/`stIntro`/`stMore` (the validator rejects them).
+  `en` follows Silverstein's translation, i.e. his text **outside** the [brackets], simplified; use the bracketed
+  explanation only to choose words a child will understand, or for a rare `explain`. Word glosses follow the same
+  translation. `basis` is always `["bartenura"]`.
+
 Output: `data/<id>/gloss/perek_<N>.json` — array, one object per mishnah:
 
 ```json
@@ -45,6 +54,18 @@ Output: `data/<id>/gloss/perek_<N>.json` — array, one object per mishnah:
    short: mostly the bold translation.
 3. `basis` lists the sources the kid meaning (`en`/`explain`) is drawn from: a non-empty subset of
    `["steinsaltz","bartenura"]`. Default `["steinsaltz"]`.
+
+## Children's suitability (do this while glossing)
+
+The app is for young children. Keep `summary`, `en`, `explain` and word glosses clean and vague on intimate topics
+(relations, marital intimacy, bodily discharges, menstruation, immorality, the sotah's ordeal described graphically,
+violence in detail): say "become tamei", "a forbidden relationship", "his wife", "a kind of tumah", and so on, the way
+Berakhot does. Never use these words in your own fields: semen, seminal, consummate, conjugal, intercourse,
+menstruation/menstrual, feces (a test fails the build on them).
+Steinsaltz excerpts must stay verbatim, so they can't be reworded: after the masechta is glossed, list every mishnah
+whose Steinsaltz text is explicit in `data/<id>/hide.json` under `hideSteinsaltz` (with a reason), and reword any of
+your own lines that still slipped through with `override` rules (same file format as `data/berakhot/hide.json`). A
+masechta with nothing to hide has no `hide.json`.
 
 ## Style
 - `en` follows Steinsaltz's bold, simplified. Don't add facts that are in neither source.
