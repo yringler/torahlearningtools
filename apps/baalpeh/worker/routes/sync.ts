@@ -168,6 +168,8 @@ export async function runSync(c: Context<AppEnv>, role: SyncRole): Promise<Respo
               `INSERT INTO children (id, user_id, data, deleted, updated_at, rev, created_at, parent_rev)
                VALUES (?1, ?2, ?3, ?4, ?5, (SELECT rev FROM users WHERE id = ?2), ?5, (SELECT rev FROM users WHERE id = ?2))
                ON CONFLICT(id) DO UPDATE SET
+                 -- settings.lastMasechta is the child's own choice: parent mode never sets it and pushes whatever copy
+                 -- it last pulled, so a stored value always wins (docs/SERVER_PLAN.md §8.1).
                  data = CASE WHEN json_type(children.data, '$.settings.lastMasechta') = 'text'
                              THEN json_set(excluded.data, '$.settings.lastMasechta', json_extract(children.data, '$.settings.lastMasechta'))
                              ELSE excluded.data END,
