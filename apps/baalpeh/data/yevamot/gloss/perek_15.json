@@ -1,0 +1,3778 @@
+[
+ {
+  "perek": 15,
+  "mishnah": 1,
+  "summary": "A woman who traveled with her husband and came back saying he died is believed and may remarry, if there was peace at home and in the world. Rabbi Yehudah adds that she must come crying with torn clothes, but the Sages disagree.",
+  "chunks": [
+   {
+    "he": "הָאִשָּׁה שֶׁהָלְכָה הִיא וּבַעְלָהּ לִמְדִינַת הַיָּם,",
+    "en": "A woman who went with her husband overseas,",
+    "st": "With regard to <b>a woman who went, she and her husband, overseas,</b> if there was",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "שֶׁהָלְכָה",
+      "en": "that went"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "וּבַעְלָהּ",
+      "en": "and her husband"
+     },
+     {
+      "he": "לִמְדִינַת",
+      "en": "to a country of"
+     },
+     {
+      "he": "הַיָּם,",
+      "en": "the sea"
+     }
+    ]
+   },
+   {
+    "he": "שָׁלוֹם בֵּינוֹ לְבֵינָהּ וְשָׁלוֹם בָּעוֹלָם,",
+    "en": "when there was peace between them and peace in the world,",
+    "st": "<b>peace between him and her,</b> i.e., the couple were not fighting at the time, <b>and</b> there was also <b>peace in the world,</b> i.e., there was no war at that time,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלוֹם",
+      "en": "peace"
+     },
+     {
+      "he": "בֵּינוֹ",
+      "en": "between him"
+     },
+     {
+      "he": "לְבֵינָהּ",
+      "en": "and between her"
+     },
+     {
+      "he": "וְשָׁלוֹם",
+      "en": "and peace"
+     },
+     {
+      "he": "בָּעוֹלָם,",
+      "en": "in the world"
+     }
+    ]
+   },
+   {
+    "he": "וּבָאתָה וְאָמְרָה,",
+    "en": "and she came back and said,",
+    "st": "<b>and</b> the woman <b>came</b> back by herself <b>and said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָאתָה",
+      "en": "and she came"
+     },
+     {
+      "he": "וְאָמְרָה,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "מֵת בַּעְלִי,",
+    "en": "\"My husband died,\"",
+    "st": "<b>My husband died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "תִּנָּשֵׂא. מֵת בַּעְלִי,",
+    "en": "she may marry. \"My husband died,\"",
+    "st": "<b>she may marry</b> on the basis of her own testimony. Likewise, if she said: <b>My husband died,</b> and they did not have children, but her husband had a brother,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּנָּשֵׂא.",
+      "en": "she may marry"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "תִּתְיַבֵּם. שָׁלוֹם בֵּינוֹ לְבֵינָהּ וּמִלְחָמָה בָעוֹלָם,",
+    "en": "she may do yibum. Peace between them but war in the world,",
+    "explain": "In a war, she may think he died when he did not.",
+    "st": "<b>she may enter into levirate marriage.</b> If there was <b>peace between him and her</b> when they left <b>but</b> there was <b>war in the world,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּתְיַבֵּם.",
+      "en": "she may do yibum"
+     },
+     {
+      "he": "שָׁלוֹם",
+      "en": "peace"
+     },
+     {
+      "he": "בֵּינוֹ",
+      "en": "between him"
+     },
+     {
+      "he": "לְבֵינָהּ",
+      "en": "and between her"
+     },
+     {
+      "he": "וּמִלְחָמָה",
+      "en": "and war"
+     },
+     {
+      "he": "בָעוֹלָם,",
+      "en": "in the world"
+     }
+    ]
+   },
+   {
+    "he": "קְטָטָה בֵינוֹ לְבֵינָהּ וְשָׁלוֹם בָּעוֹלָם,",
+    "en": "a fight between them but peace in the world,",
+    "st": "or if there was <b>a quarrel between him and her and peace in the world,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְטָטָה",
+      "en": "a fight"
+     },
+     {
+      "he": "בֵינוֹ",
+      "en": "between him"
+     },
+     {
+      "he": "לְבֵינָהּ",
+      "en": "and between her"
+     },
+     {
+      "he": "וְשָׁלוֹם",
+      "en": "and peace"
+     },
+     {
+      "he": "בָּעוֹלָם,",
+      "en": "in the world"
+     }
+    ]
+   },
+   {
+    "he": "וּבָאתָה וְאָמְרָה,",
+    "en": "and she came back and said,",
+    "st": "<b>and she came and said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָאתָה",
+      "en": "and she came"
+     },
+     {
+      "he": "וְאָמְרָה,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "מֵת בַּעְלִי,",
+    "en": "\"My husband died,\"",
+    "st": "<b>My husband died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ נֶאֱמֶנֶת.",
+    "en": "she is not believed.",
+    "st": "<b>she is not deemed credible,</b> as she may be mistaken or lying.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she is not"
+     },
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "believed"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לְעוֹלָם אֵינָהּ נֶאֱמֶנֶת,",
+    "en": "she is never believed,",
+    "st": "<b>She is never deemed credible</b> when she testifies that her husband died,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְעוֹלָם",
+      "en": "ever"
+     },
+     {
+      "he": "אֵינָהּ",
+      "en": "she is not"
+     },
+     {
+      "he": "נֶאֱמֶנֶת,",
+      "en": "believed"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אִם כֵּן בָּאתָה",
+    "en": "unless she came",
+    "st": "<b>unless she came</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "בָּאתָה",
+      "en": "she came"
+     }
+    ]
+   },
+   {
+    "he": "בוֹכָה וּבְגָדֶיהָ קְרוּעִין.",
+    "en": "crying with her clothes torn.",
+    "st": "<b>crying and her clothing was torn,</b> in which case it is apparent that she is speaking the truth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בוֹכָה",
+      "en": "crying"
+     },
+     {
+      "he": "וּבְגָדֶיהָ",
+      "en": "and her clothes"
+     },
+     {
+      "he": "קְרוּעִין.",
+      "en": "torn"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "<b>They said to him:</b> This is an incorrect distinction. Rather,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת זוֹ וְאַחַת זוֹ, תִּנָּשֵׂא:",
+    "en": "\"Either way, she may marry.\"",
+    "st": "<b>both this</b> woman who cries <b>and this</b> woman who does not cry <b>may marry</b> on the basis of their own testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "זוֹ,",
+      "en": "this"
+     },
+     {
+      "he": "תִּנָּשֵׂא:",
+      "en": "she may marry"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 2,
+  "summary": "Beis Hillel first said she is believed only if she came back from the grain harvest, like the story that happened. Beis Shammai said it is the same for any trip, and Beis Hillel agreed.",
+  "chunks": [
+   {
+    "he": "בֵּית הִלֵּל אוֹמְרִים,",
+    "en": "Beis Hillel say,",
+    "st": "<b>Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שָׁמַעְנוּ אֶלָּא בְּבָאָה מִן הַקָּצִיר,",
+    "en": "\"We only heard it about a woman coming from the harvest,",
+    "st": "<b>We heard</b> that one may accept the testimony of a woman concerning the death of her husband <b>only when she comes from the grain harvest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שָׁמַעְנוּ",
+      "en": "we heard"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְּבָאָה",
+      "en": "about one coming"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקָּצִיר,",
+      "en": "the harvest"
+     }
+    ]
+   },
+   {
+    "he": "וּבְאוֹתָהּ מְדִינָה,",
+    "en": "and in that same country,",
+    "st": "<b>and</b> when she testified <b>in the same country</b> where he died,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְאוֹתָהּ",
+      "en": "and in that"
+     },
+     {
+      "he": "מְדִינָה,",
+      "en": "country"
+     }
+    ]
+   },
+   {
+    "he": "וּכְמַעֲשֶׂה שֶׁהָיָה.",
+    "en": "and like the story that happened.\"",
+    "st": "<b>and</b> in circumstances <b>similar to the incident that occurred,</b> in which a lenient ruling was issued, as will be explained.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְמַעֲשֶׂה",
+      "en": "and like the story"
+     },
+     {
+      "he": "שֶׁהָיָה.",
+      "en": "that happened"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶן בֵּית שַׁמַּאי,",
+    "en": "Beis Shammai said to them,",
+    "st": "<b>Beit Shammai said to</b> Beit Hillel: The <b>same</b> halakha applies to a wife",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת הַבָּאָה מִן הַקָּצִיר,",
+    "en": "\"Whether she comes from the grain harvest,",
+    "st": "<b>who comes from the grain harvest, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "both"
+     },
+     {
+      "he": "הַבָּאָה",
+      "en": "the one coming"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקָּצִיר,",
+      "en": "the harvest"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת הַבָּאָה מִן הַזֵּיתִים,",
+    "en": "or comes from the olives,",
+    "st": "<b>one who comes from the olive</b> harvest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and both"
+     },
+     {
+      "he": "הַבָּאָה",
+      "en": "the one coming"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַזֵּיתִים,",
+      "en": "the olives"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת הַבָּאָה מִן הַבָּצִיר,",
+    "en": "or comes from the grape harvest,",
+    "st": "<b>and</b> also <b>one who comes from the grape harvest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and both"
+     },
+     {
+      "he": "הַבָּאָה",
+      "en": "the one coming"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַבָּצִיר,",
+      "en": "the grape harvest"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת הַבָּאָה מִמְּדִינָה לִמְדִינָה.",
+    "en": "or comes from one country to another.",
+    "st": "<b>and</b> even <b>one who comes from one country to</b> another <b>country.</b> Although the incident in question took place during the grain harvest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and both"
+     },
+     {
+      "he": "הַבָּאָה",
+      "en": "the one coming"
+     },
+     {
+      "he": "מִמְּדִינָה",
+      "en": "from country"
+     },
+     {
+      "he": "לִמְדִינָה.",
+      "en": "to country"
+     }
+    ]
+   },
+   {
+    "he": "לֹא דִבְּרוּ חֲכָמִים בַּקָּצִיר אֶלָּא בַהֹוֶה.",
+    "en": "The Sages spoke of the harvest only because that is what happened.\"",
+    "st": "<b>the Sages spoke of the grain harvest only</b> because it was the <b>present</b> occurrence, i.e., that is what happened in practice, but this is no proof that she is deemed credible only when she arrived specifically from the grain harvest. The mishna comments:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "דִבְּרוּ",
+      "en": "spoke"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the Sages"
+     },
+     {
+      "he": "בַּקָּצִיר",
+      "en": "about the harvest"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "בַהֹוֶה.",
+      "en": "about what happened"
+     }
+    ]
+   },
+   {
+    "he": "חָזְרוּ בֵית הִלֵּל לְהוֹרוֹת כְּבֵית שַׁמָּאי:",
+    "en": "Beis Hillel changed their mind and taught like Beis Shammai.",
+    "st": "<b>Beit Hillel retracted</b> their opinion, and decided <b>to teach in accordance with</b> the opinion of <b>Beit Shammai</b> on this issue.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָזְרוּ",
+      "en": "went back"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "לְהוֹרוֹת",
+      "en": "to teach"
+     },
+     {
+      "he": "כְּבֵית",
+      "en": "like Beis"
+     },
+     {
+      "he": "שַׁמָּאי:",
+      "en": "Shammai"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 3,
+  "summary": "Beis Shammai say a woman who is believed that her husband died also gets her kesubah. Beis Hillel first argued, but they changed their mind and agreed.",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b> A woman who testifies that her husband died",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "תִּנָּשֵׂא וְתִטֹּל כְּתֻבָּתָהּ.",
+    "en": "\"She may marry and take her kesubah.\"",
+    "st": "<b>may marry, and take</b> the money guaranteed in <b>her marriage contract.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּנָּשֵׂא",
+      "en": "she may marry"
+     },
+     {
+      "he": "וְתִטֹּל",
+      "en": "and take"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ.",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית הִלֵּל אוֹמְרִים,",
+    "en": "Beis Hillel say,",
+    "st": "<b>Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "תִּנָּשֵׂא וְלֹא תִטֹּל כְּתֻבָּתָהּ.",
+    "en": "\"She may marry, but not take her kesubah.\"",
+    "st": "<b>She may marry, but she may not take her marriage contract,</b> as qualified witnesses are required for monetary matters.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּנָּשֵׂא",
+      "en": "she may marry"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תִטֹּל",
+      "en": "take"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ.",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶן בֵּית שַׁמַּאי,",
+    "en": "Beis Shammai said to them,",
+    "st": "<b>Beit Shammai said to them:</b> If",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "הִתַּרְתֶּם עֶרְוָה חֲמוּרָה,",
+    "en": "\"You allowed a serious matter of a forbidden marriage;",
+    "st": "<b>you have permitted</b> a <b>woman</b> potentially <b>forbidden to him, which is</b> a relatively <b>stringent</b> prohibition, based merely upon her own testimony,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִתַּרְתֶּם",
+      "en": "you allowed"
+     },
+     {
+      "he": "עֶרְוָה",
+      "en": "a forbidden relationship"
+     },
+     {
+      "he": "חֲמוּרָה,",
+      "en": "serious"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תַתִּירוּ אֶת מָמוֹן הַקַּל.",
+    "en": "will you not allow a light matter of money?\"",
+    "st": "<b>will we not permit a monetary matter,</b> which is more <b>lenient,</b> as the money can be returned and this sin does not entail such a severe punishment?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תַתִּירוּ",
+      "en": "will you allow"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "מָמוֹן",
+      "en": "money"
+     },
+     {
+      "he": "הַקַּל.",
+      "en": "the light"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶן בֵּית הִלֵּל,",
+    "en": "Beis Hillel said to them,",
+    "st": "<b>Beit Hillel said to them:</b> This is no proof, as",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל,",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "מָצִינוּ שֶׁאֵין הָאַחִים נִכְנָסִים",
+    "en": "\"We see that the brothers do not take",
+    "st": "<b>we find that the brothers do not come into</b> the",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצִינוּ",
+      "en": "we found"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that are not"
+     },
+     {
+      "he": "הָאַחִים",
+      "en": "the brothers"
+     },
+     {
+      "he": "נִכְנָסִים",
+      "en": "coming in"
+     }
+    ]
+   },
+   {
+    "he": "לַנַּחֲלָה עַל פִּיהָ.",
+    "en": "the inheritance because of her word.\"",
+    "st": "<b>inheritance</b> from the deceased brother <b>based on her</b> testimony.",
+    "stMore": "Evidently, although this testimony is accepted with regard to forbidden sexual relationships, it is not effective for monetary matters.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "to the inheritance"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּיהָ.",
+      "en": "her word"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶם בֵּית שַׁמַּאי,",
+    "en": "Beis Shammai said to them,",
+    "st": "<b>Beit Shammai said to them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא מִסֵּפֶר כְּתֻבָּתָהּ נִלְמֹד,",
+    "en": "\"We can learn from her kesubah document,",
+    "st": "<b>But we can learn this</b> halakha <b>from the scroll of the marriage contract,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "and is it not"
+     },
+     {
+      "he": "מִסֵּפֶר",
+      "en": "from the document of"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "נִלְמֹד,",
+      "en": "we learn"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא כוֹתֵב לָהּ,",
+    "en": "which he writes for her:",
+    "st": "<b>as</b> every husband <b>writes for her that:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "כוֹתֵב",
+      "en": "writes"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "for her"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם תִּנָּשְׂאִי לְאַחֵר,",
+    "en": "'If you marry another man,",
+    "st": "<b>If you marry another</b> man,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "תִּנָּשְׂאִי",
+      "en": "you marry"
+     },
+     {
+      "he": "לְאַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "תִּטְּלִי מַה שֶׁכָּתוּב לִיכִי.",
+    "en": "take what is written for you.'\"",
+    "st": "<b>take what is written for you</b> in this contract.",
+    "stMore": "This shows that her right to receive the money of her marriage contract is dependent upon her eligibility to remarry. In this case, as she is deemed credible when she says her husband died and she may marry again, she is likewise entitled to the money of the marriage contract.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּטְּלִי",
+      "en": "take"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶׁכָּתוּב",
+      "en": "that is written"
+     },
+     {
+      "he": "לִיכִי.",
+      "en": "for you"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזְרוּ בֵית הִלֵּל לְהוֹרוֹת",
+    "en": "And Beis Hillel changed their mind and taught",
+    "st": "<b>And Beit Hillel</b> again <b>retracted</b> their opinion, and decided <b>to teach</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזְרוּ",
+      "en": "and went back"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "לְהוֹרוֹת",
+      "en": "to teach"
+     }
+    ]
+   },
+   {
+    "he": "כְּדִבְרֵי בֵית שַׁמָּאי:",
+    "en": "like Beis Shammai.",
+    "st": "<b>in accordance with</b> the opinion of <b>Beit Shammai.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמָּאי:",
+      "en": "Shammai"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 4,
+  "summary": "Everyone is believed to say a woman's husband died, except some women who may dislike her. The mishnah also teaches what happens when witnesses disagree.",
+  "chunks": [
+   {
+    "he": "הַכֹּל נֶאֱמָנִים לַהֲעִידָהּ,",
+    "en": "Everyone is believed to tell her,",
+    "st": "<b>All are deemed credible</b> when they come <b>to give testimony with regard to</b> the death of a woman’s husband,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "נֶאֱמָנִים",
+      "en": "is believed"
+     },
+     {
+      "he": "לַהֲעִידָהּ,",
+      "en": "to testify for her"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מֵחֲמוֹתָהּ,",
+    "en": "except her mother-in-law,",
+    "st": "<b>apart from her mother-in-law,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵחֲמוֹתָהּ,",
+      "en": "her mother-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וּבַת חֲמוֹתָהּ,",
+    "en": "her mother-in-law's daughter,",
+    "st": "<b>the daughter of her mother-in-law,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַת",
+      "en": "and the daughter of"
+     },
+     {
+      "he": "חֲמוֹתָהּ,",
+      "en": "her mother-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וְצָרָתָהּ, וִיבִמְתָּהּ,",
+    "en": "her co-wife, her sister-in-law,",
+    "st": "<b>her rival wife, the wife of her yavam,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְצָרָתָהּ,",
+      "en": "and her co-wife"
+     },
+     {
+      "he": "וִיבִמְתָּהּ,",
+      "en": "and her sister-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וּבַת בַּעְלָהּ.",
+    "en": "and her husband's daughter.",
+    "explain": "These women may not like her, so they might lie.",
+    "st": "<b>and her husband’s daughter,</b> her stepdaughter. The reason is that these women are likely to hate her and will lie to her detriment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַת",
+      "en": "and the daughter of"
+     },
+     {
+      "he": "בַּעְלָהּ.",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "מַה בֵּין גֵּט לְמִיתָה,",
+    "en": "What is the difference between a get and a death?",
+    "st": "The mishna explains: In the case of a divorce all people, including these women, may bring her bill of divorce and testify that it was written appropriately. <b>What,</b> then, <b>is the difference between a bill of divorce and death?</b> The mishna answers: The difference is <b>that</b> in the case of a bill of divorce",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "לְמִיתָה,",
+      "en": "to death"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַכְּתָב מוֹכִיחַ.",
+    "en": "The writing proves it.",
+    "st": "<b>the writing proves</b> the accuracy of the testimony, i.e., her testimony is supported by the text of the document itself, whereas with regard to the death of her husband there is no proof apart from the statement of the woman herself.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַכְּתָב",
+      "en": "that the writing"
+     },
+     {
+      "he": "מוֹכִיחַ.",
+      "en": "proves"
+     }
+    ]
+   },
+   {
+    "he": "עֵד אוֹמֵר מֵת,",
+    "en": "If one witness says he died,",
+    "st": "If one <b>witness says:</b> The man <b>died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "וְנִשֵּׂאת, וּבָא אַחֵר וְאָמַר לֹא מֵת,",
+    "en": "and she married, and another came and said he did not die,",
+    "st": "<b>and</b> the wife <b>married</b> based on this testimony, <b>and one</b> other witness <b>came and said:</b> He did <b>not die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִשֵּׂאת,",
+      "en": "and she married"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "אַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "וְאָמַר",
+      "en": "and said"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ לֹא תֵצֵא.",
+    "en": "she does not have to leave.",
+    "st": "<b>she</b> need <b>not leave</b> her new husband due to this testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תֵצֵא.",
+      "en": "goes out"
+     }
+    ]
+   },
+   {
+    "he": "עֵד אוֹמֵר מֵת,",
+    "en": "If one witness says he died,",
+    "st": "However, if one <b>witness</b> comes and <b>says:</b> The husband <b>died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנַיִם אוֹמְרִים לֹא מֵת,",
+    "en": "and two say he did not die,",
+    "st": "<b>and two</b> witnesses <b>say:</b> He did <b>not die,</b> then",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנַיִם",
+      "en": "and two"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "say"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁנִּשֵּׂאת,",
+    "en": "even though she married,",
+    "st": "<b>even though she married</b> based on the first witness",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "(though)"
+     },
+     {
+      "he": "פִּי",
+      "en": "though"
+     },
+     {
+      "he": "שֶׁנִּשֵּׂאת,",
+      "en": "that she married"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא. שְׁנַיִם אוֹמְרִים מֵת,",
+    "en": "she must leave. If two say he died,",
+    "st": "<b>she must leave</b> her new husband. If <b>two</b> witnesses <b>say: He died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא.",
+      "en": "she goes out"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "say"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "וְעֵד אוֹמֵר לֹא מֵת,",
+    "en": "and one witness says he did not die,",
+    "st": "<b>and</b> one <b>witness says:</b> He did <b>not die,</b> the testimony of the two witnesses is accepted, and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעֵד",
+      "en": "and a witness"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁלֹּא נִשֵּׂאת, תִּנָּשֵׂא:",
+    "en": "even though she has not married, she may marry.",
+    "st": "<b>even though she did not</b> yet <b>marry, she may marry.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "(though)"
+     },
+     {
+      "he": "פִּי",
+      "en": "though"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִשֵּׂאת,",
+      "en": "she married"
+     },
+     {
+      "he": "תִּנָּשֵׂא:",
+      "en": "she may marry"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 5,
+  "summary": "When two wives of the same man disagree about whether he died, each is treated by her own words. Rabbi Meir and Rabbi Yehudah argue when they disagree about how he died.",
+  "chunks": [
+   {
+    "he": "אַחַת אוֹמֶרֶת מֵת וְאַחַת",
+    "en": "One wife says he died, and one",
+    "st": "If two women who were married to the same man come forward, and <b>one</b> of them <b>says</b> that the husband <b>died, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "מֵת",
+      "en": "he died"
+     },
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֶרֶת לֹא מֵת,",
+    "en": "says he did not die:",
+    "st": "the other <b>one says he did not die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "זוֹ שֶׁאוֹמֶרֶת מֵת תִּנָּשֵׂא וְתִטֹּל כְּתֻבָּתָהּ.",
+    "en": "the one who says he died may marry and take her kesubah,",
+    "st": "<b>the one who says he died may marry</b> on the basis of her own testimony, <b>and she takes</b> the money of <b>her marriage contract.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "שֶׁאוֹמֶרֶת",
+      "en": "that says"
+     },
+     {
+      "he": "מֵת",
+      "en": "he died"
+     },
+     {
+      "he": "תִּנָּשֵׂא",
+      "en": "may marry"
+     },
+     {
+      "he": "וְתִטֹּל",
+      "en": "and take"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ.",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹ שֶׁאוֹמֶרֶת לֹא מֵת לֹא",
+    "en": "and the one who says he did not die may not",
+    "st": "<b>And the one who said he did not die</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "שֶׁאוֹמֶרֶת",
+      "en": "that says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵת",
+      "en": "he died"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "תִנָּשֵׂא וְלֹא תִטֹּל כְּתֻבָּתָהּ.",
+    "en": "marry, and does not take her kesubah.",
+    "st": "<b>may not marry, and does not take</b> the money of <b>her marriage contract.</b> If",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִנָּשֵׂא",
+      "en": "may marry"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תִטֹּל",
+      "en": "take"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ.",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת אוֹמֶרֶת מֵת וְאַחַת אוֹמֶרֶת נֶהֱרָג,",
+    "en": "If one says he died and one says he was killed,",
+    "st": "<b>one</b> wife <b>says: He died</b> in a normal manner, <b>and</b> the other <b>one says: He was killed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "מֵת",
+      "en": "he died"
+     },
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "נֶהֱרָג,",
+      "en": "he was killed"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וּמַכְחִישׁוֹת זוֹ אֶת זוֹ,",
+    "en": "\"Since they say different things,",
+    "st": "<b>Since they contradict one another,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וּמַכְחִישׁוֹת",
+      "en": "and they contradict"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "זוֹ,",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ לֹא יִנָּשֵׂאוּ.",
+    "en": "they may not marry.\"",
+    "st": "<b>these</b> women <b>may not marry.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִנָּשֵׂאוּ.",
+      "en": "may marry"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה וְרַבִּי שִׁמְעוֹן אוֹמְרִים,",
+    "en": "Rabbi Yehudah and Rabbi Shimon say,",
+    "st": "<b>Rabbi Yehuda and Rabbi Shimon say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וְזוֹ וָזוֹ מוֹדוֹת שֶׁאֵינוֹ קַיָּם,",
+    "en": "\"Since both agree he is not alive,",
+    "st": "<b>Since they both agree that he is not alive</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "וָזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "מוֹדוֹת",
+      "en": "agree"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "קַיָּם,",
+      "en": "alive"
+     }
+    ]
+   },
+   {
+    "he": "יִנָּשֵׂאוּ. עֵד אוֹמֵר מֵת וְעֵד",
+    "en": "they may marry.\" If one witness says he died and one witness",
+    "st": "<b>they may marry,</b> despite the fact that they dispute the circumstances of his demise. If <b>a witness says: He died, and a witness says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִנָּשֵׂאוּ.",
+      "en": "they may marry"
+     },
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "מֵת",
+      "en": "he died"
+     },
+     {
+      "he": "וְעֵד",
+      "en": "and a witness"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֵר לֹא מֵת,",
+    "en": "says he did not die,",
+    "st": "<b>He did not die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "אִשָּׁה אוֹמֶרֶת מֵת וְאִשָּׁה",
+    "en": "or one woman says he died and one woman",
+    "st": "or one <b>woman says: He died, and</b> another",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "מֵת",
+      "en": "he died"
+     },
+     {
+      "he": "וְאִשָּׁה",
+      "en": "and a woman"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֶרֶת לֹא מֵת,",
+    "en": "says he did not die,",
+    "st": "<b>woman says: He did not die,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ לֹא תִנָּשֵׂא:",
+    "en": "she may not marry.",
+    "st": "<b>this</b> woman <b>may not marry.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תִנָּשֵׂא:",
+      "en": "may marry"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 6,
+  "summary": "A woman who says her husband died may remarry, but her co-wife may not rely on her. Rabbi Tarfon lets the co-wife still eat terumah; Rabbi Akiva says she may neither remarry nor eat terumah.",
+  "chunks": [
+   {
+    "he": "הָאִשָּׁה שֶׁהָלְכָה הִיא וּבַעְלָהּ לִמְדִינַת הַיָּם,",
+    "en": "A woman who went with her husband overseas,",
+    "st": "In the case of <b>a woman who went, she and her husband, overseas,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "שֶׁהָלְכָה",
+      "en": "that went"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "וּבַעְלָהּ",
+      "en": "and her husband"
+     },
+     {
+      "he": "לִמְדִינַת",
+      "en": "to a country of"
+     },
+     {
+      "he": "הַיָּם,",
+      "en": "the sea"
+     }
+    ]
+   },
+   {
+    "he": "וּבָאָה וְאָמְרָה מֵת בַּעְלִי,",
+    "en": "and came back and said, \"My husband died,\"",
+    "st": "<b>and she comes and says: My husband died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָאָה",
+      "en": "and she came"
+     },
+     {
+      "he": "וְאָמְרָה",
+      "en": "and said"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "תִּנָּשֵׂא וְתִטֹּל כְּתֻבָּתָהּ,",
+    "en": "may marry and take her kesubah,",
+    "st": "<b>she may marry, and she takes her marriage contract</b> based on her own testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּנָּשֵׂא",
+      "en": "she may marry"
+     },
+     {
+      "he": "וְתִטֹּל",
+      "en": "and take"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ,",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "וְצָרָתָהּ אֲסוּרָה.",
+    "en": "but her co-wife is forbidden.",
+    "explain": "A co-wife is not believed about the other wife.",
+    "st": "<b>And it</b> remains <b>prohibited for her rival wife</b> to remarry, as a woman cannot testify on behalf of her rival wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְצָרָתָהּ",
+      "en": "and her co-wife"
+     },
+     {
+      "he": "אֲסוּרָה.",
+      "en": "is forbidden"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה בַת יִשְׂרָאֵל לְכֹהֵן,",
+    "en": "If she was a Jewish woman married to a Kohen,",
+    "st": "If the rival wife <b>was an Israelite woman</b> married <b>to a priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "בַת",
+      "en": "a daughter of"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "לְכֹהֵן,",
+      "en": "to a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאכַל בַּתְּרוּמָה,",
+    "en": "she may eat terumah.",
+    "st": "<b>she may</b> continue to <b>partake of teruma,</b> as she is not permitted to remarry, and therefore the presumption that the husband is still alive is maintained in relation to her. This is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאכַל",
+      "en": "she shall eat"
+     },
+     {
+      "he": "בַּתְּרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי טַרְפוֹן.",
+    "en": "That is what Rabbi Tarfon says.",
+    "st": "<b>the statement of Rabbi Tarfon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן.",
+      "en": "Tarfon"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין זוֹ דֶרֶךְ מוֹצִיאַתָּה מִידֵי עֲבֵרָה,",
+    "en": "\"This is not the way to keep her from sin,",
+    "st": "<b>This is not</b> the <b>way to spare</b> someone <b>from transgression.</b>",
+    "stMore": "According to the opinion of Rabbi Tarfon, there is a concern that she might be eating teruma unlawfully. There is no remedy for this situation",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this is"
+     },
+     {
+      "he": "דֶרֶךְ",
+      "en": "the way"
+     },
+     {
+      "he": "מוֹצִיאַתָּה",
+      "en": "that takes her out"
+     },
+     {
+      "he": "מִידֵי",
+      "en": "from the hands of"
+     },
+     {
+      "he": "עֲבֵרָה,",
+      "en": "sin"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁתְּהֵא אֲסוּרָה לִנָּשֵׂא,",
+    "en": "unless she is forbidden to marry",
+    "st": "<b>unless it is prohibited</b> for the rival wife <b>to marry,</b> as she cannot rely on the testimony of her rival wife,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתְּהֵא",
+      "en": "that she will be"
+     },
+     {
+      "he": "אֲסוּרָה",
+      "en": "forbidden"
+     },
+     {
+      "he": "לִנָּשֵׂא,",
+      "en": "to marry"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲסוּרָה מִלֶּאֱכֹל בַּתְּרוּמָה:",
+    "en": "and forbidden to eat terumah.\"",
+    "st": "<b>and it is</b> also <b>prohibited</b> for her <b>to partake of teruma,</b> lest the other woman was speaking the truth. In other words, the halakha is stringent on both counts.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲסוּרָה",
+      "en": "and forbidden"
+     },
+     {
+      "he": "מִלֶּאֱכֹל",
+      "en": "from eating"
+     },
+     {
+      "he": "בַּתְּרוּמָה:",
+      "en": "terumah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 7,
+  "summary": "More arguments between Rabbi Tarfon and Rabbi Akiva about avoiding sin: about a mother-in-law, about a man who married one of five women and does not know which, and about a man who stole from one of five people.",
+  "chunks": [
+   {
+    "he": "אָמְרָה מֵת בַּעְלִי וְאַחַר",
+    "en": "If she said, \"My husband died, and after",
+    "st": "The mishna discusses a similar case. If a woman <b>said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרָה",
+      "en": "she said"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי",
+      "en": "my husband"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ מֵת חָמִי,",
+    "en": "that my father-in-law died,\"",
+    "st": "<b>My husband died and afterward my father-in-law died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "חָמִי,",
+      "en": "my father-in-law"
+     }
+    ]
+   },
+   {
+    "he": "תִּנָּשֵׂא וְתִטֹּל כְּתֻבָּתָהּ,",
+    "en": "she may marry and take her kesubah,",
+    "st": "<b>she may marry and take her marriage contract,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּנָּשֵׂא",
+      "en": "she may marry"
+     },
+     {
+      "he": "וְתִטֹּל",
+      "en": "and take"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ,",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲמוֹתָהּ אֲסוּרָה.",
+    "en": "but her mother-in-law is forbidden.",
+    "st": "<b>and it is prohibited</b> for <b>her mother-in-law</b> to remarry, as a woman may not testify on behalf of her mother-in-law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲמוֹתָהּ",
+      "en": "and her mother-in-law"
+     },
+     {
+      "he": "אֲסוּרָה.",
+      "en": "is forbidden"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה בַת יִשְׂרָאֵל לְכֹהֵן,",
+    "en": "If she was a Jewish woman married to a Kohen,",
+    "st": "If the mother-in-law <b>was the daughter of an Israelite married to a priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "בַת",
+      "en": "a daughter of"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "לְכֹהֵן,",
+      "en": "to a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאכַל בַּתְּרוּמָה,",
+    "en": "she may eat terumah.",
+    "st": "<b>she may partake of teruma;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאכַל",
+      "en": "she shall eat"
+     },
+     {
+      "he": "בַּתְּרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי טַרְפוֹן.",
+    "en": "That is what Rabbi Tarfon says.",
+    "st": "this is <b>the statement of Rabbi Tarfon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן.",
+      "en": "Tarfon"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין זוֹ דֶרֶךְ מוֹצִיאַתָּה מִידֵי עֲבֵרָה,",
+    "en": "\"This is not the way to keep her from sin,",
+    "st": "<b>This is not</b> the <b>way to spare</b> her <b>from transgression;</b> there is no remedy",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this is"
+     },
+     {
+      "he": "דֶרֶךְ",
+      "en": "the way"
+     },
+     {
+      "he": "מוֹצִיאַתָּה",
+      "en": "that takes her out"
+     },
+     {
+      "he": "מִידֵי",
+      "en": "from the hands of"
+     },
+     {
+      "he": "עֲבֵרָה,",
+      "en": "sin"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁתְּהֵא אֲסוּרָה לִנָּשֵׂא,",
+    "en": "unless she is forbidden to marry",
+    "st": "<b>unless it is prohibited</b> for the mother-in-law <b>to marry</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתְּהֵא",
+      "en": "that she will be"
+     },
+     {
+      "he": "אֲסוּרָה",
+      "en": "forbidden"
+     },
+     {
+      "he": "לִנָּשֵׂא,",
+      "en": "to marry"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲסוּרָה לֶאֱכֹל בַּתְּרוּמָה.",
+    "en": "and forbidden to eat terumah.\"",
+    "st": "<b>and</b> also <b>prohibited</b> for her <b>to partake of teruma.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲסוּרָה",
+      "en": "and forbidden"
+     },
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "בַּתְּרוּמָה.",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "קִדֵּשׁ אַחַת מֵחָמֵשׁ נָשִׁים",
+    "en": "If he made kiddushin with one of five women",
+    "st": "In relation to the dispute between Rabbi Tarfon and Rabbi Akiva in the previous mishna, in which Rabbi Akiva states that one must avoid a possible transgression, the mishna cites two similar cases involving other topics. With regard to one who <b>betrothed one of five women,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִדֵּשׁ",
+      "en": "he made kiddushin"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מֵחָמֵשׁ",
+      "en": "of five"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ יוֹדֵעַ אֵיזוֹ קִדֵּשׁ,",
+    "en": "and does not know which one,",
+    "st": "<b>and he does not know which</b> of them <b>he betrothed,</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "אֵיזוֹ",
+      "en": "which"
+     },
+     {
+      "he": "קִדֵּשׁ,",
+      "en": "he made kiddushin"
+     }
+    ]
+   },
+   {
+    "he": "כָּל אַחַת אוֹמֶרֶת אוֹתִי קִדֵּשׁ,",
+    "en": "and each one says, \"He married me,\"",
+    "st": "<b>each one</b> of them <b>says: He betrothed me,</b> if he does not want to marry any of them",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "אוֹתִי",
+      "en": "me"
+     },
+     {
+      "he": "קִדֵּשׁ,",
+      "en": "he made kiddushin"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן גֵּט לְכָל אַחַת וְאֶחָת,",
+    "en": "he gives a get to each one of them,",
+    "st": "<b>he gives a bill of divorce to each and every one</b> of them so none will have the status of a woman with regard to whom there is uncertainty whether she is divorced.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "לְכָל",
+      "en": "to every"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וּמַנִּיחַ כְּתֻבָּה בֵּינֵיהֶן וּמִסְתַּלֵּק,",
+    "en": "and leaves one kesubah between them and goes away.",
+    "st": "<b>And he leaves the marriage contract among them and departs.</b> The marriage contract remains in dispute between the women until they clarify which of them is entitled to the money. This is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַנִּיחַ",
+      "en": "and leaves"
+     },
+     {
+      "he": "כְּתֻבָּה",
+      "en": "a kesubah"
+     },
+     {
+      "he": "בֵּינֵיהֶן",
+      "en": "between them"
+     },
+     {
+      "he": "וּמִסְתַּלֵּק,",
+      "en": "and goes away"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי טַרְפוֹן.",
+    "en": "That is what Rabbi Tarfon says.",
+    "st": "<b>the statement of Rabbi Tarfon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן.",
+      "en": "Tarfon"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין זוֹ דֶרֶךְ מוֹצִיאַתּוּ מִידֵי עֲבֵרָה,",
+    "en": "\"This is not the way to keep him from sin,",
+    "st": "<b>This is not</b> the <b>way to spare</b> someone <b>from transgression,</b> as perhaps the woman he actually betrothed will not receive the money to which she is entitled. There is no remedy",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this is"
+     },
+     {
+      "he": "דֶרֶךְ",
+      "en": "the way"
+     },
+     {
+      "he": "מוֹצִיאַתּוּ",
+      "en": "that takes him out"
+     },
+     {
+      "he": "מִידֵי",
+      "en": "from the hands of"
+     },
+     {
+      "he": "עֲבֵרָה,",
+      "en": "sin"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּתֵּן גֵּט וּכְתֻבָּה",
+    "en": "unless he gives a get and a kesubah",
+    "st": "<b>unless he gives a bill of divorce and a marriage contract</b> payment",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּתֵּן",
+      "en": "that he gives"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "וּכְתֻבָּה",
+      "en": "and kesubah"
+     }
+    ]
+   },
+   {
+    "he": "לְכָל אַחַת וְאֶחָת.",
+    "en": "to each one of them.\"",
+    "st": "<b>to each and every one.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְכָל",
+      "en": "to every"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "גָּזַל אֶחָד מֵחֲמִשָּׁה וְאֵין",
+    "en": "If he stole from one of five people and does not",
+    "st": "And likewise, in the case of one who <b>stole</b> money <b>from one of five</b> people",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּזַל",
+      "en": "he stole"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵחֲמִשָּׁה",
+      "en": "from five"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and does not"
+     }
+    ]
+   },
+   {
+    "he": "יוֹדֵעַ מֵאֵיזֶה גָזַל,",
+    "en": "know from which one he stole,",
+    "st": "<b>and does not know from which</b> of them <b>he stole,</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "מֵאֵיזֶה",
+      "en": "from which"
+     },
+     {
+      "he": "גָזַל,",
+      "en": "he stole"
+     }
+    ]
+   },
+   {
+    "he": "כָּל אֶחָד אוֹמֵר אוֹתִי גָזַל,",
+    "en": "and each one says, \"He stole from me,\"",
+    "st": "<b>each one says: He stole from me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אוֹתִי",
+      "en": "me"
+     },
+     {
+      "he": "גָזַל,",
+      "en": "he stole"
+     }
+    ]
+   },
+   {
+    "he": "מַנִּיחַ גְּזֵלָה בֵּינֵיהֶן וּמִסְתַּלֵּק,",
+    "en": "he leaves the stolen money between them and goes away.",
+    "st": "<b>he leaves the stolen</b> money <b>among them and departs,</b> and they will decide among themselves how to distribute the money; this is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַנִּיחַ",
+      "en": "he leaves"
+     },
+     {
+      "he": "גְּזֵלָה",
+      "en": "the stolen thing"
+     },
+     {
+      "he": "בֵּינֵיהֶן",
+      "en": "between them"
+     },
+     {
+      "he": "וּמִסְתַּלֵּק,",
+      "en": "and goes away"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי טַרְפוֹן.",
+    "en": "That is what Rabbi Tarfon says.",
+    "st": "<b>the statement of Rabbi Tarfon.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן.",
+      "en": "Tarfon"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין זוֹ דֶרֶךְ מוֹצִיאַתּוּ מִידֵי עֲבֵרָה,",
+    "en": "\"This is not the way to keep him from sin,",
+    "st": "<b>This is not</b> the <b>way to spare</b> him <b>from transgression;</b> there is no remedy",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this is"
+     },
+     {
+      "he": "דֶרֶךְ",
+      "en": "the way"
+     },
+     {
+      "he": "מוֹצִיאַתּוּ",
+      "en": "that takes him out"
+     },
+     {
+      "he": "מִידֵי",
+      "en": "from the hands of"
+     },
+     {
+      "he": "עֲבֵרָה,",
+      "en": "sin"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּשַׁלֵּם גְּזֵלָה לְכָל אֶחָד וְאֶחָד:",
+    "en": "unless he pays back each one of them.\"",
+    "st": "<b>unless he pays each and every one of them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּשַׁלֵּם",
+      "en": "that he pays"
+     },
+     {
+      "he": "גְּזֵלָה",
+      "en": "the stolen thing"
+     },
+     {
+      "he": "לְכָל",
+      "en": "to every"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד:",
+      "en": "and one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 8,
+  "summary": "A woman traveled with her husband and son and came back alone. If she says her husband died first, she is believed and is free. If she says her son died first, she is not believed for yibum, so she does chalitzah.",
+  "chunks": [
+   {
+    "he": "הָאִשָּׁה שֶׁהָלְכָה הִיא וּבַעְלָהּ",
+    "en": "A woman who went with her husband",
+    "st": "In the case of <b>a woman who went, she and her husband,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "שֶׁהָלְכָה",
+      "en": "that went"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "וּבַעְלָהּ",
+      "en": "and her husband"
+     }
+    ]
+   },
+   {
+    "he": "לִמְדִינַת הַיָּם וּבְנָהּ עִמָּהֶם,",
+    "en": "overseas, and her son was with them,",
+    "st": "<b>overseas, and her son</b> was <b>with them, and</b> later",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִמְדִינַת",
+      "en": "to a country of"
+     },
+     {
+      "he": "הַיָּם",
+      "en": "the sea"
+     },
+     {
+      "he": "וּבְנָהּ",
+      "en": "and her son"
+     },
+     {
+      "he": "עִמָּהֶם,",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "וּבָאָה וְאָמְרָה מֵת בַּעְלִי",
+    "en": "and she came back and said, \"My husband died,",
+    "st": "<b>she came</b> back <b>and said: My husband died</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָאָה",
+      "en": "and she came"
+     },
+     {
+      "he": "וְאָמְרָה",
+      "en": "and said"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ מֵת בְּנִי,",
+    "en": "and after that my son died,\"",
+    "st": "<b>and afterward my son died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בְּנִי,",
+      "en": "my son"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמֶנֶת. מֵת בְּנִי וְאַחַר כָּךְ מֵת בַּעְלִי,",
+    "en": "she is believed. \"My son died, and after that my husband died,\"",
+    "st": "<b>she is deemed credible.</b> It is permitted for her to remarry, and she is exempt from levirate marriage. The reason is that she had children when she left, and therefore she retains her presumptive status of one who is exempt from levirate marriage. However, if she said: <b>My son died and afterward my husband died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "she is believed"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בְּנִי",
+      "en": "my son"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ נֶאֱמֶנֶת,",
+    "en": "she is not believed.",
+    "st": "<b>she is not deemed credible,</b> i.e., she may not enter into levirate marriage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she is not"
+     },
+     {
+      "he": "נֶאֱמֶנֶת,",
+      "en": "believed"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹשְׁשִׁים לִדְבָרֶיהָ,",
+    "en": "But we worry about her words,",
+    "st": "<b>And</b> yet <b>we are concerned</b> and give some credence <b>to her statement,</b> in case she was actually widowed by a childless husband, and therefore",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹשְׁשִׁים",
+      "en": "and we worry"
+     },
+     {
+      "he": "לִדְבָרֶיהָ,",
+      "en": "about her words"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹלֶצֶת וְלֹא מִתְיַבֶּמֶת:",
+    "en": "so she does chalitzah, but not yibum.",
+    "st": "<b>she performs ḥalitza</b> to exempt her from the levirate bond with her yavam, <b>and she does not enter into levirate marriage.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹלֶצֶת",
+      "en": "and does chalitzah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִתְיַבֶּמֶת:",
+      "en": "does yibum"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 9,
+  "summary": "A woman says she had a son overseas. If she says the son died before her husband, she is believed. If she says her husband died first, she is not believed, but she still needs chalitzah.",
+  "chunks": [
+   {
+    "he": "נִתַּן לִי בֵן בִּמְדִינַת הַיָּם,",
+    "en": "\"A son was born to me overseas,\"",
+    "st": "If she went with her childless husband and returned alone and testified: <b>A son was born to me overseas,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתַּן",
+      "en": "was given"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בֵן",
+      "en": "a son"
+     },
+     {
+      "he": "בִּמְדִינַת",
+      "en": "in a country of"
+     },
+     {
+      "he": "הַיָּם,",
+      "en": "the sea"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמְרָה מֵת בְּנִי וְאַחַר",
+    "en": "and she said, \"My son died, and after",
+    "st": "<b>and she</b> further <b>said: My son died</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמְרָה",
+      "en": "and she said"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בְּנִי",
+      "en": "my son"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ מֵת בַּעְלִי,",
+    "en": "that my husband died,\"",
+    "st": "<b>and afterward my husband died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמֶנֶת. מֵת בַּעְלִי וְאַחַר כָּךְ מֵת בְּנִי,",
+    "en": "she is believed. \"My husband died, and after that my son died,\"",
+    "st": "<b>she is deemed credible</b> and may even enter into levirate marriage, as she was presumed to be childless when she left and consequently she retains that presumptive status. However, if she said: <b>My husband died and afterward my son died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "she is believed"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי",
+      "en": "my husband"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בְּנִי,",
+      "en": "my son"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ נֶאֱמֶנֶת,",
+    "en": "she is not believed.",
+    "st": "<b>she is not deemed credible</b> for the purpose of exempting her from levirate marriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she is not"
+     },
+     {
+      "he": "נֶאֱמֶנֶת,",
+      "en": "believed"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹשְׁשִׁים לִדְבָרֶיהָ,",
+    "en": "But we worry about her words,",
+    "st": "<b>but</b> the court is <b>concerned about her statement.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹשְׁשִׁים",
+      "en": "and we worry"
+     },
+     {
+      "he": "לִדְבָרֶיהָ,",
+      "en": "about her words"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹלֶצֶת וְלֹא מִתְיַבֶּמֶת:",
+    "en": "so she does chalitzah, but not yibum.",
+    "st": "<b>And</b> therefore <b>she must perform ḥalitza and she does not enter into levirate marriage.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹלֶצֶת",
+      "en": "and does chalitzah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִתְיַבֶּמֶת:",
+      "en": "does yibum"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 15,
+  "mishnah": 10,
+  "summary": "A woman is believed about a brother-in-law born overseas. But if they all left together, she is not believed that the yavam died, and a person is not believed when his words would let him marry someone.",
+  "chunks": [
+   {
+    "he": "נִתַּן לִי יָבָם בִּמְדִינַת הַיָּם,",
+    "en": "\"A yavam was born to me overseas,\"",
+    "st": "If she said: <b>A yavam was born for me overseas,</b> i.e., when the family left the country her husband did not have a brother, and she claims that in the meantime a brother was born to her husband,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתַּן",
+      "en": "was given"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "יָבָם",
+      "en": "a yavam"
+     },
+     {
+      "he": "בִּמְדִינַת",
+      "en": "in a country of"
+     },
+     {
+      "he": "הַיָּם,",
+      "en": "the sea"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרָה מֵת בַּעְלִי וְאַחַר",
+    "en": "and she said, \"My husband died, and after",
+    "st": "and <b>she</b> also <b>said: My husband died</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרָה",
+      "en": "she said"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי",
+      "en": "my husband"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ מֵת יְבָמִי,",
+    "en": "that my yavam died,\"",
+    "st": "<b>and afterward my yavam died,</b> or:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "יְבָמִי,",
+      "en": "my yavam"
+     }
+    ]
+   },
+   {
+    "he": "יְבָמִי וְאַחַר כָּךְ בַּעְלִי,",
+    "en": "or \"my yavam, and after that my husband,\"",
+    "st": "<b>My yavam</b> died <b>and afterward my husband</b> died, in either case",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְבָמִי",
+      "en": "my yavam"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמֶנֶת. הָלְכָה הִיא וּבַעְלָהּ וִיבָמָהּ לִמְדִינַת הַיָּם,",
+    "en": "she is believed. If she, her husband, and her yavam went overseas,",
+    "st": "<b>she is deemed credible.</b> This is because when she left she was not presumed to require levirate marriage, and the suggestion that her husband now has a brother is based solely on her testimony. However, if <b>she went, she and her husband and her yavam, overseas, and</b> upon her return she",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "she is believed"
+     },
+     {
+      "he": "הָלְכָה",
+      "en": "went"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "וּבַעְלָהּ",
+      "en": "and her husband"
+     },
+     {
+      "he": "וִיבָמָהּ",
+      "en": "and her yavam"
+     },
+     {
+      "he": "לִמְדִינַת",
+      "en": "to a country of"
+     },
+     {
+      "he": "הַיָּם,",
+      "en": "the sea"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרָה מֵת בַּעְלִי וְאַחַר",
+    "en": "and she said, \"My husband died, and after",
+    "st": "<b>said: My husband died and afterward</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרָה",
+      "en": "she said"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלִי",
+      "en": "my husband"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ מֵת יְבָמִי,",
+    "en": "that my yavam died,\"",
+    "st": "<b>my yavam</b> died, or:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "יְבָמִי,",
+      "en": "my yavam"
+     }
+    ]
+   },
+   {
+    "he": "יְבָמִי וְאַחַר כָּךְ בַּעְלִי,",
+    "en": "or \"my yavam, and after that my husband,\"",
+    "st": "<b>My yavam</b> died <b>and afterward my husband</b> died,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְבָמִי",
+      "en": "my yavam"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "בַּעְלִי,",
+      "en": "my husband"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ נֶאֱמֶנֶת.",
+    "en": "she is not believed.",
+    "st": "<b>she is not deemed credible, as</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she is not"
+     },
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "believed"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין הָאִשָּׁה נֶאֱמֶנֶת לוֹמַר מֵת יְבָמִי,",
+    "en": "A woman is not believed to say, \"My yavam died,\"",
+    "st": "<b>a woman is not deemed credible</b> if she <b>says: My yavam died,</b> in order",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "for is not"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "נֶאֱמֶנֶת",
+      "en": "believed"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "יְבָמִי,",
+      "en": "my yavam"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁתִּנָּשֵׂא. וְלֹא,",
+    "en": "so that she can marry. Nor,",
+    "st": "<b>that she may marry</b> another man. <b>And</b> she is <b>not</b> deemed credible if she says that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁתִּנָּשֵׂא.",
+      "en": "that she may marry"
+     },
+     {
+      "he": "וְלֹא,",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "מֵתָה אֲחוֹתִי,",
+    "en": "\"My sister died,\"",
+    "st": "<b>her sister died,</b> in order",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵתָה",
+      "en": "died"
+     },
+     {
+      "he": "אֲחוֹתִי,",
+      "en": "my sister"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁתִּכָּנֵס לְבֵיתוֹ.",
+    "en": "so that she can marry her husband.",
+    "st": "<b>that she may enter the house</b> of her sister’s husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁתִּכָּנֵס",
+      "en": "that she may enter"
+     },
+     {
+      "he": "לְבֵיתוֹ.",
+      "en": "into his house"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין הָאִישׁ נֶאֱמָן לוֹמַר מֵת אָחִי,",
+    "en": "And a man is not believed to say, \"My brother died,\"",
+    "st": "<b>And a man is not deemed credible</b> if he <b>says: My brother died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and is not"
+     },
+     {
+      "he": "הָאִישׁ",
+      "en": "the man"
+     },
+     {
+      "he": "נֶאֱמָן",
+      "en": "believed"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אָחִי,",
+      "en": "my brother"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיְּיַבֵּם אִשְׁתּוֹ.",
+    "en": "so that he can do yibum with his wife.",
+    "st": "<b>so that he may enter into levirate marriage with his</b> brother’s <b>wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיְּיַבֵּם",
+      "en": "that he may do yibum"
+     },
+     {
+      "he": "אִשְׁתּוֹ.",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא, מֵתָה אִשְׁתִּי,",
+    "en": "Nor, \"My wife died,\"",
+    "st": "<b>and</b> he is <b>not</b> deemed credible when he says that <b>his wife died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא,",
+      "en": "and not"
+     },
+     {
+      "he": "מֵתָה",
+      "en": "died"
+     },
+     {
+      "he": "אִשְׁתִּי,",
+      "en": "my wife"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיִּשָּׂא אֲחוֹתָהּ:",
+    "en": "so that he can marry her sister.",
+    "st": "in order <b>that</b> he <b>may marry</b> his wife’s <b>sister.</b> The Sages accepted impaired testimony of this kind only when there was a concern about creating a situation of a deserted wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיִּשָּׂא",
+      "en": "that he may marry"
+     },
+     {
+      "he": "אֲחוֹתָהּ:",
+      "en": "her sister"
+     }
+    ]
+   }
+  ]
+ }
+]

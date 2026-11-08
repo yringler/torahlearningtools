@@ -1,0 +1,3679 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "For money cases, each side chooses a judge and a third judge is added. The mishnah also teaches when one side can turn down the other side's judge or witnesses.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "דִּינֵי מָמוֹנוֹת, בִּשְׁלֹשָׁה.",
+    "en": "Money cases are judged by three.",
+    "st": "Cases of <b>monetary law</b> are adjudicated <b>by three.</b> They are chosen in the following manner:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת,",
+      "en": "money"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "by three"
+     }
+    ]
+   },
+   {
+    "he": "זֶה בּוֹרֵר לוֹ אֶחָד",
+    "en": "This one chooses one judge for himself,",
+    "st": "<b>This</b> litigant <b>chooses one for himself </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "בּוֹרֵר",
+      "en": "chooses"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה בּוֹרֵר לוֹ אֶחָד,",
+    "en": "and that one chooses one judge for himself,",
+    "st": "<b>and that</b> litigant <b>chooses one for himself, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "בּוֹרֵר",
+      "en": "chooses"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנֵיהֶן בּוֹרְרִין לָהֶן עוֹד אֶחָד,",
+    "en": "and the two of them choose one more.",
+    "st": "<b>and the two of them choose one more for themselves;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנֵיהֶן",
+      "en": "and the two of them"
+     },
+     {
+      "he": "בּוֹרְרִין",
+      "en": "choose"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "עוֹד",
+      "en": "more"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵי דַיָּנִין בּוֹרְרִין לָהֶן עוֹד אֶחָד.",
+    "en": "the two judges choose one more.",
+    "st": "The <b>two judges</b> that were chosen <b>choose one more</b> judge <b>for themselves. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "דַיָּנִין",
+      "en": "judges"
+     },
+     {
+      "he": "בּוֹרְרִין",
+      "en": "choose"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "עוֹד",
+      "en": "more"
+     },
+     {
+      "he": "אֶחָד.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "זֶה פּוֹסֵל דַּיָּנוֹ שֶׁל זֶה",
+    "en": "This one can turn down that one's judge,",
+    "st": "<b>This</b> litigant can <b>disqualify the judge</b> chosen <b>by that</b> litigant",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "פּוֹסֵל",
+      "en": "turns down"
+     },
+     {
+      "he": "דַּיָּנוֹ",
+      "en": "the judge"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה",
+      "en": "that one"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה פּוֹסֵל דַּיָּנוֹ שֶׁל זֶה,",
+    "en": "and that one can turn down this one's judge.",
+    "st": "<b>and that</b> litigant can <b>disqualify the judge</b> chosen <b>by this</b> litigant;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "פּוֹסֵל",
+      "en": "turns down"
+     },
+     {
+      "he": "דַּיָּנוֹ",
+      "en": "the judge"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵימָתַי, בִּזְמַן שֶׁמֵּבִיא עֲלֵיהֶן רְאָיָה",
+    "en": "when is that? When he brings proof about them",
+    "st": "<b>When</b> can one of the litigants disqualify the judges? Only <b>when he brings evidence about them </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי,",
+      "en": "when"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁמֵּבִיא",
+      "en": "that he brings"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "about them"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵן קְרוֹבִין אוֹ פְסוּלִין,",
+    "en": "that they are relatives or not fit to judge.",
+    "st": "<b>that they are related</b> to one of the litigants or to each other, <b>or</b> that they are <b>disqualified</b> from serving as judges for another reason.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "קְרוֹבִין",
+      "en": "are relatives"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "פְסוּלִין,",
+      "en": "not fit"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אִם הָיוּ כְשֵׁרִים אוֹ מֻמְחִין,",
+    "en": "But if they are fit judges, or experts,",
+    "st": "<b>But if they are fit</b> to serve as judges <b>or are experts</b> ordained <b>by the court, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "כְשֵׁרִים",
+      "en": "fit"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מֻמְחִין,",
+      "en": "experts",
+      "note": "Judges who got semichah."
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לְפָסְלָן.",
+    "en": "he cannot turn them down.",
+    "st": "<b>he cannot disqualify them. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "he can"
+     },
+     {
+      "he": "לְפָסְלָן.",
+      "en": "turn them down"
+     }
+    ]
+   },
+   {
+    "he": "זֶה פּוֹסֵל עֵדָיו שֶׁל זֶה",
+    "en": "This one can turn down that one's witnesses,",
+    "st": "<b>This</b> litigant can <b>disqualify the witnesses of that</b> litigant",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "פּוֹסֵל",
+      "en": "turns down"
+     },
+     {
+      "he": "עֵדָיו",
+      "en": "his witnesses"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה",
+      "en": "that one"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה פּוֹסֵל עֵדָיו שֶׁל זֶה,",
+    "en": "and that one can turn down this one's witnesses.",
+    "st": "<b>and that</b> litigant can <b>disqualify the witnesses of this</b> litigant;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "פּוֹסֵל",
+      "en": "turns down"
+     },
+     {
+      "he": "עֵדָיו",
+      "en": "his witnesses"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵימָתַי, בִּזְמַן שֶׁהוּא מֵבִיא עֲלֵיהֶם רְאָיָה",
+    "en": "when is that? When he brings proof about them",
+    "st": "<b>When</b> can one litigant disqualify the other’s witnesses? Only <b>when he brings evidence about them </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי,",
+      "en": "when"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "brings"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "about them"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵן קְרוֹבִים אוֹ פְסוּלִים.",
+    "en": "that they are relatives or not fit to be witnesses.",
+    "st": "<b>that they are related</b> to one of the litigants or to each other, <b>or</b> that they are <b>disqualified</b> from bearing witness for another reason.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "קְרוֹבִים",
+      "en": "are relatives"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "פְסוּלִים.",
+      "en": "not fit"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אִם הָיוּ כְשֵׁרִים,",
+    "en": "But if they are fit,",
+    "st": "<b>But if they are fit</b> to serve as witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "כְשֵׁרִים,",
+      "en": "fit"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לְפָסְלָן:",
+    "en": "he cannot turn them down.",
+    "st": "<b>he cannot disqualify them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "he can"
+     },
+     {
+      "he": "לְפָסְלָן:",
+      "en": "turn them down"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "What if a person agrees to let someone who is not a proper judge decide his case, or agrees to let the other side make a promise instead of a real shevuah? Can he change his mind?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר לוֹ נֶאֱמָן עָלַי אַבָּא,",
+    "en": "If one said to the other, \"I trust my father to judge my case,\"",
+    "st": "If one litigant <b>says to</b> the other: <b>My father is trusted</b> to adjudicate <b>for me,</b> or:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "נֶאֱמָן",
+      "en": "trusted"
+     },
+     {
+      "he": "עָלַי",
+      "en": "for me"
+     },
+     {
+      "he": "אַבָּא,",
+      "en": "my father"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמָן עָלַי אָבִיךָ,",
+    "en": "or \"I trust your father,\"",
+    "st": "<b>Your father is trusted</b> to adjudicate <b>for me,</b> or:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמָן",
+      "en": "trusted"
+     },
+     {
+      "he": "עָלַי",
+      "en": "for me"
+     },
+     {
+      "he": "אָבִיךָ,",
+      "en": "your father"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמָנִין עָלַי שְׁלֹשָׁה רוֹעֵי בָקָר,",
+    "en": "or \"I trust three cowherds,\"",
+    "explain": "People who do not know the halachos well.",
+    "st": "<b>Three cattle herders,</b> who are not proficient in halakha, <b>are trusted</b> to adjudicate <b>for me,</b>",
+    "stMore": "all of whom are disqualified from serving as judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמָנִין",
+      "en": "trusted"
+     },
+     {
+      "he": "עָלַי",
+      "en": "for me"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "רוֹעֵי",
+      "en": "herders of"
+     },
+     {
+      "he": "בָקָר,",
+      "en": "cattle"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יָכוֹל לַחֲזֹר בּוֹ.",
+    "en": "he can change his mind.",
+    "st": "The one who made the offer <b>can retract it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָכוֹל",
+      "en": "he can"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to go back"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>and the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לַחֲזֹר בּוֹ.",
+    "en": "he cannot change his mind.",
+    "st": "<b>He cannot retract it,</b> but must accept their verdict.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "he can"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to go back"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה חַיָּב לַחֲבֵרוֹ שְׁבוּעָה",
+    "en": "If he had to swear a shevuah to his friend,",
+    "st": "Similarly, one who <b>was obligated</b> by Torah law to take <b>an oath to another,</b> which is done while grasping a sacred object,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "to his friend"
+     },
+     {
+      "he": "שְׁבוּעָה",
+      "en": "a shevuah",
+      "note": "A very serious promise made holding a holy object."
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר לוֹ דּוֹר לִי בְחַיֵּי רֹאשְׁךָ,",
+    "en": "and his friend said to him, \"Just make a promise to me on the life of your head,\"",
+    "st": "<b>and</b> the latter <b>said to him:</b> Instead of taking an oath, merely <b>vow to me by the life of your head</b> that what you claim is true,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "דּוֹר",
+      "en": "promise"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְחַיֵּי",
+      "en": "by the life of"
+     },
+     {
+      "he": "רֹאשְׁךָ,",
+      "en": "your head"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יָכוֹל לַחֲזֹר בּוֹ.",
+    "en": "he can change his mind.",
+    "st": "The one who made the offer <b>can retract it,</b>",
+    "stMore": "and demand that the other litigant take an oath, as he is obligated to do by Torah law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָכוֹל",
+      "en": "he can"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to go back"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין יָכוֹל לַחֲזֹר בּוֹ:",
+    "en": "he cannot change his mind.",
+    "st": "<b>He cannot retract</b>",
+    "stMore": "his offer. Once he has agreed to accept a vow, which is of less severity than an oath, he cannot retract his agreement.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "he can"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to go back"
+     },
+     {
+      "he": "בּוֹ:",
+      "en": "on it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "Some people may not be witnesses because they make money in dishonest ways, like gamblers and people who lend with interest. Rabbi Yehudah says this is only when it is their only job.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְאֵלּוּ הֵן הַפְּסוּלִין,",
+    "en": "These are the people who are not fit to be witnesses:",
+    "st": "<b>And these</b> on the following list <b>are the ones</b> who are <b>disqualified</b>",
+    "stMore": "by the Sages from bearing witness due to their unseemly behavior, as they are considered wicked individuals guilty of monetary transgressions:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "הֵן",
+      "en": "are"
+     },
+     {
+      "he": "הַפְּסוּלִין,",
+      "en": "the ones not fit"
+     }
+    ]
+   },
+   {
+    "he": "הַמְשַׂחֵק בְּקֻבְיָא,",
+    "en": "one who plays with dice for money,",
+    "st": "<b>One who plays with dice [bekubbiyya]</b> for money,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְשַׂחֵק",
+      "en": "the one who plays"
+     },
+     {
+      "he": "בְּקֻבְיָא,",
+      "en": "with dice"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּלְוֶה בְרִבִּית,",
+    "en": "and one who lends with interest,",
+    "st": "<b>and one who lends</b> money <b>with interest, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּלְוֶה",
+      "en": "and the one who lends"
+     },
+     {
+      "he": "בְרִבִּית,",
+      "en": "with interest",
+      "note": "Ribbis: extra money the Torah forbids taking for a loan."
+     }
+    ]
+   },
+   {
+    "he": "וּמַפְרִיחֵי יוֹנִים,",
+    "en": "and those who race pigeons,",
+    "st": "<b>and those who fly pigeons, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַפְרִיחֵי",
+      "en": "and those who fly"
+     },
+     {
+      "he": "יוֹנִים,",
+      "en": "pigeons",
+      "note": "They bet money on which bird wins."
+     }
+    ]
+   },
+   {
+    "he": "וְסוֹחֲרֵי שְׁבִיעִית.",
+    "en": "and those who sell Shemittah fruit.",
+    "st": "<b>and merchants</b> who trade in the produce <b>of the Sabbatical</b>",
+    "stMore": "Year, which may be eaten but may not be sold as an object of commerce.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְסוֹחֲרֵי",
+      "en": "and the traders of"
+     },
+     {
+      "he": "שְׁבִיעִית.",
+      "en": "Shemittah",
+      "note": "Fruit of the seventh year may not be bought and sold for business."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי שִׁמְעוֹן,",
+    "en": "Rabbi Shimon said,",
+    "st": "<b>Rabbi Shimon said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן,",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "בִּתְחִלָּה הָיוּ קוֹרִין אוֹתָן אוֹסְפֵי שְׁבִיעִית,",
+    "en": "At first they called them \"gatherers of Shemittah fruit.\"",
+    "st": "<b>Initially,</b> people <b>would call them: Gatherers</b> of the produce <b>of the Sabbatical</b> Year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּתְחִלָּה",
+      "en": "at first"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "קוֹרִין",
+      "en": "calling"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "אוֹסְפֵי",
+      "en": "gatherers of"
+     },
+     {
+      "he": "שְׁבִיעִית,",
+      "en": "Shemittah"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁרַבּוּ הָאַנָּסִין,",
+    "en": "Once the tax collectors became many,",
+    "st": "<b>Once the tax collectors grew abundant </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁרַבּוּ",
+      "en": "once there were many"
+     },
+     {
+      "he": "הָאַנָּסִין,",
+      "en": "the tax collectors"
+     }
+    ]
+   },
+   {
+    "he": "חָזְרוּ לִקְרוֹתָן סוֹחֲרֵי שְׁבִיעִית.",
+    "en": "they went back to calling them \"traders of Shemittah fruit.\"",
+    "st": "<b>they would then call them: Merchants</b> who trade in the produce <b>of the Sabbatical</b> Year, as the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָזְרוּ",
+      "en": "they went back"
+     },
+     {
+      "he": "לִקְרוֹתָן",
+      "en": "to call them"
+     },
+     {
+      "he": "סוֹחֲרֵי",
+      "en": "traders of"
+     },
+     {
+      "he": "שְׁבִיעִית.",
+      "en": "Shemittah"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוּדָה,",
+    "en": "Rabbi Yehudah said,",
+    "st": "<b>Rabbi Yehuda said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "אֵימָתַי, בִּזְמַן שֶׁאֵין לָהֶם אֻמָּנוּת אֶלָּא הִיא,",
+    "en": "When is this? When they have no other job but this.",
+    "st": "<b>When</b> are the people listed above disqualified from bearing witness? It is <b>when they have no occupation but this one. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי,",
+      "en": "when"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אֻמָּנוּת",
+      "en": "a job"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "הִיא,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל יֵשׁ לָהֶן אֻמָּנוּת שֶׁלֹּא הִיא, כְּשֵׁרִין:",
+    "en": "But if they have another job, they are fit.",
+    "st": "<b>But</b> if <b>they have an occupation other than this one,</b> although they also make money by these inappropriate means, <b>they are fit</b> to bear witness.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "אֻמָּנוּת",
+      "en": "a job"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that is not"
+     },
+     {
+      "he": "הִיא,",
+      "en": "it"
+     },
+     {
+      "he": "כְּשֵׁרִין:",
+      "en": "they are fit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "Relatives may not be witnesses or judges for each other. The mishnah lists which relatives, and teaches what happens if someone stops being a relative.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְאֵלּוּ הֵן הַקְּרוֹבִין,",
+    "en": "These are the relatives:",
+    "st": "<b>And these are</b> the ones disqualified from bearing witness or from serving as judges due to their status as <b>relatives</b> of one of the litigants or of each other:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "הֵן",
+      "en": "are"
+     },
+     {
+      "he": "הַקְּרוֹבִין,",
+      "en": "the relatives"
+     }
+    ]
+   },
+   {
+    "he": "אָבִיו וְאָחִיו וַאֲחִי אָבִיו וַאֲחִי אִמּוֹ",
+    "en": "his father, his brother, his father's brother, his mother's brother,",
+    "st": "One’s <b>father, brother, and his paternal uncle, and his maternal uncle, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְאָחִיו",
+      "en": "and his brother"
+     },
+     {
+      "he": "וַאֲחִי",
+      "en": "and the brother of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וַאֲחִי",
+      "en": "and the brother of"
+     },
+     {
+      "he": "אִמּוֹ",
+      "en": "his mother"
+     }
+    ]
+   },
+   {
+    "he": "וּבַעַל אֲחוֹתוֹ וּבַעַל אֲחוֹת אָבִיו",
+    "en": "his sister's husband, his father's sister's husband,",
+    "st": "<b>and his sister’s husband, and the husband of his paternal aunt, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַעַל",
+      "en": "and the husband of"
+     },
+     {
+      "he": "אֲחוֹתוֹ",
+      "en": "his sister"
+     },
+     {
+      "he": "וּבַעַל",
+      "en": "and the husband of"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וּבַעַל אֲחוֹת אִמּוֹ",
+    "en": "his mother's sister's husband,",
+    "st": "<b>and the husband of his maternal aunt, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַעַל",
+      "en": "and the husband of"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אִמּוֹ",
+      "en": "his mother"
+     }
+    ]
+   },
+   {
+    "he": "וּבַעַל אִמּוֹ וְחָמִיו וְגִיסוֹ,",
+    "en": "his mother's husband, his father-in-law, and his brother-in-law,",
+    "st": "<b>and his mother’s husband, and his father-in-law, and his brother-in-law,</b> i.e., the husband of his wife’s sister.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַעַל",
+      "en": "and the husband of"
+     },
+     {
+      "he": "אִמּוֹ",
+      "en": "his mother"
+     },
+     {
+      "he": "וְחָמִיו",
+      "en": "and his father-in-law"
+     },
+     {
+      "he": "וְגִיסוֹ,",
+      "en": "and his brother-in-law"
+     }
+    ]
+   },
+   {
+    "he": "הֵן וּבְנֵיהֶן וְחַתְנֵיהֶן,",
+    "en": "they, and their sons, and their sons-in-law,",
+    "st": "<b>They</b> themselves, all of these people, <b>and</b> also <b>their sons, and their sons-in-law</b> are considered relatives.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "וּבְנֵיהֶן",
+      "en": "and their sons"
+     },
+     {
+      "he": "וְחַתְנֵיהֶן,",
+      "en": "and their sons-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹרְגוֹ לְבַדּוֹ.",
+    "en": "and his stepson only.",
+    "st": "<b>And his stepson alone</b>",
+    "stMore": "is disqualified, but not his stepson’s sons or sons-in-law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹרְגוֹ",
+      "en": "and his stepson"
+     },
+     {
+      "he": "לְבַדּוֹ.",
+      "en": "alone"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "זוֹ מִשְׁנַת רַבִּי עֲקִיבָא.",
+    "en": "this is the mishnah of Rabbi Akiva.",
+    "st": "<b>This</b> aforementioned halakha <b>is Rabbi Akiva’s</b> version of the <b>mishna. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this is"
+     },
+     {
+      "he": "מִשְׁנַת",
+      "en": "the mishnah of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא.",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מִשְׁנָה רִאשׁוֹנָה,",
+    "en": "But the first mishnah said:",
+    "st": "<b>But the initial</b> version of the <b>mishna</b> reads as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מִשְׁנָה",
+      "en": "the mishnah"
+     },
+     {
+      "he": "רִאשׁוֹנָה,",
+      "en": "first"
+     }
+    ]
+   },
+   {
+    "he": "דּוֹדוֹ וּבֶן דּוֹדוֹ.",
+    "en": "His uncle and his uncle's son,",
+    "st": "<b>His uncle and the son of his uncle, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דּוֹדוֹ",
+      "en": "his uncle"
+     },
+     {
+      "he": "וּבֶן",
+      "en": "and the son of"
+     },
+     {
+      "he": "דּוֹדוֹ.",
+      "en": "his uncle"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הָרָאוּי לְיָרְשׁוֹ,",
+    "en": "and anyone who could inherit from him,",
+    "st": "<b>and anyone who is fit to inherit</b> from <b>him.</b>",
+    "stMore": "Only paternal relatives, who are fit to inherit from him, are disqualified; maternal relatives, who do not inherit from him, are not disqualified from bearing witness about him or from adjudicating his case.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הָרָאוּי",
+      "en": "who is fit"
+     },
+     {
+      "he": "לְיָרְשׁוֹ,",
+      "en": "to inherit from him"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַקָּרוֹב לוֹ בְּאוֹתָהּ שָׁעָה.",
+    "en": "and anyone who is related to him at that time.",
+    "st": "<b>And</b> the halakha disqualifying a relative from bearing witness or serving as a judge is referring to <b>anyone who is related to him at the time</b> of the trial.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַקָּרוֹב",
+      "en": "who is related"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בְּאוֹתָהּ",
+      "en": "at that"
+     },
+     {
+      "he": "שָׁעָה.",
+      "en": "time"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה קָרוֹב וְנִתְרַחֵק,",
+    "en": "If he was a relative and then stopped being related,",
+    "st": "If one <b>was</b> once <b>a relative and became unrelated</b>",
+    "stMore": "by the time of the trial, e.g., he married the daughter of one of the litigants, but she died or they were divorced,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "קָרוֹב",
+      "en": "related"
+     },
+     {
+      "he": "וְנִתְרַחֵק,",
+      "en": "and became distant"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה כָּשֵׁר.",
+    "en": "he is fit.",
+    "st": "in this case <b>he is fit. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "כָּשֵׁר.",
+      "en": "is fit"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ מֵתָה בִתּוֹ",
+    "en": "even if his daughter passed away,",
+    "st": "<b>Even if his daughter died </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "מֵתָה",
+      "en": "died"
+     },
+     {
+      "he": "בִתּוֹ",
+      "en": "his daughter"
+     }
+    ]
+   },
+   {
+    "he": "וְיֶשׁ לוֹ בָנִים מִמֶּנָּה,",
+    "en": "but he has children from her,",
+    "st": "<b>but</b> her husband, the former son-in-law, <b>has children from her, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֶשׁ",
+      "en": "and there are"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בָנִים",
+      "en": "children"
+     },
+     {
+      "he": "מִמֶּנָּה,",
+      "en": "from her"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה קָרוֹב:",
+    "en": "he is still a relative.",
+    "st": "<b>he is</b> still considered <b>a relative;</b> the children cause them to remain related.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "קָרוֹב:",
+      "en": "is related"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "A close friend or an enemy of one side may not be a witness or a judge. The Sages say Jews are not suspected of lying for that reason.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹהֵב וְהַשּׂוֹנֵא.",
+    "en": "The one who loves and the one who hates.",
+    "st": "<b>One who loves or one who hates</b> one of the litigants is also disqualified.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹהֵב",
+      "en": "the one who loves"
+     },
+     {
+      "he": "וְהַשּׂוֹנֵא.",
+      "en": "and the one who hates"
+     }
+    ]
+   },
+   {
+    "he": "אוֹהֵב, זֶה שׁוּשְׁבִינוֹ.",
+    "en": "\"The one who loves\" is his best man at his wedding.",
+    "st": "With regard to one who <b>loves</b> one of the litigants, <b>this</b> is referring to <b>his groomsman.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹהֵב,",
+      "en": "one who loves"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "שׁוּשְׁבִינוֹ.",
+      "en": "his best man"
+     }
+    ]
+   },
+   {
+    "he": "שׂוֹנֵא, כָּל שֶׁלֹּא דִבֶּר עִמּוֹ",
+    "en": "\"The one who hates\" is anyone who did not speak with him",
+    "st": "One who <b>hates</b> is referring to <b>anyone who, out of enmity, did not speak with</b> the litigant for",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׂוֹנֵא,",
+      "en": "one who hates"
+     },
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "דִבֶּר",
+      "en": "spoke"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלֹשָׁה יָמִים בְּאֵיבָה.",
+    "en": "for three days because he was angry at him.",
+    "st": "<b>three days.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "יָמִים",
+      "en": "days"
+     },
+     {
+      "he": "בְּאֵיבָה.",
+      "en": "in anger"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to</b> Rabbi Yehuda:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶחְשְׁדוּ יִשְׂרָאֵל עַל כָּךְ:",
+    "en": "Jews are not suspected of that.",
+    "st": "<b>The Jewish people are not suspected of</b> bearing false witness due to love or hate.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶחְשְׁדוּ",
+      "en": "were suspected"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "כָּךְ:",
+      "en": "that"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "The judges check the witnesses one at a time to make sure they tell the truth. Then the judges discuss the case and decide by a majority.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֵּיצַד בּוֹדְקִים אֶת הָעֵדִים,",
+    "en": "How do they check the witnesses?",
+    "st": "<b>How do</b> the judges <b>examine the witnesses? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "בּוֹדְקִים",
+      "en": "they check"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵדִים,",
+      "en": "the witnesses"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מַכְנִיסִין אוֹתָן וּמְאַיְּמִין עֲלֵיהֶן",
+    "en": "They bring them in and warn them to tell the truth.",
+    "st": "<b>They bring them into a room</b> in the courthouse <b>and intimidate them</b> so that they will speak only the truth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "מַכְנִיסִין",
+      "en": "bring in"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "וּמְאַיְּמִין",
+      "en": "and warn"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹצִיאִין אֶת כָּל הָאָדָם לַחוּץ,",
+    "en": "They send everyone else outside,",
+    "st": "<b>And they take all the people,</b> other than the judges, <b>outside</b>",
+    "stMore": "so that they should not tell the other witnesses the questions the judges ask and the answers the first witness gives,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹצִיאִין",
+      "en": "and they send out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָאָדָם",
+      "en": "the people"
+     },
+     {
+      "he": "לַחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "וּמְשַׁיְּרִין אֶת הַגָּדוֹל שֶׁבָּהֶן,",
+    "en": "and they leave only the oldest of them.",
+    "st": "<b>and they leave</b> only <b>the eldest of</b> the witnesses to testify first.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְשַׁיְּרִין",
+      "en": "and they leave"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the oldest"
+     },
+     {
+      "he": "שֶׁבָּהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמְרִים לוֹ אֱמֹר",
+    "en": "And they say to him, \"Tell us,",
+    "st": "<b>And they say to him: Say </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמְרִים",
+      "en": "and they say"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֱמֹר",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הֵיאַךְ אַתָּה יוֹדֵעַ שֶׁזֶּה חַיָּב לָזֶה.",
+    "en": "how do you know that this one owes money to that one?\"",
+    "st": "<b>how</b> exactly <b>you know that this</b> litigant <b>owes money to that</b> litigant, as the plaintiff claims.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵיאַךְ",
+      "en": "how"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "שֶׁזֶּה",
+      "en": "that this one"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owes"
+     },
+     {
+      "he": "לָזֶה.",
+      "en": "to that one"
+     }
+    ]
+   },
+   {
+    "he": "אִם אָמַר,",
+    "en": "If he said,",
+    "st": "<b>If he said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַר,",
+      "en": "he said"
+     }
+    ]
+   },
+   {
+    "he": "הוּא אָמַר לִי שֶׁאֲנִי חַיָּב לוֹ,",
+    "en": "\"He told me that he owes him,\"",
+    "st": "The defendant <b>said to me:</b> It is true <b>that I owe</b> the plaintiff, or if he says:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "שֶׁאֲנִי",
+      "en": "that I"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owe"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ פְּלוֹנִי אָמַר לִי שֶׁהוּא חַיָּב לוֹ,",
+    "en": "or \"A certain man told me that he owes him,\"",
+    "st": "<b>So-and-so said to me that</b> the defendant <b>owes</b> the plaintiff,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "certain"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owes"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם,",
+    "en": "he has said nothing.",
+    "st": "the witness <b>has said nothing</b> and his testimony is disregarded.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "כְּלוּם,",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיֹּאמַר,",
+    "en": "It does not count until he says,",
+    "st": "It is not valid testimony <b>unless he says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֹּאמַר,",
+      "en": "he says"
+     }
+    ]
+   },
+   {
+    "he": "בְּפָנֵינוּ הוֹדָה לוֹ",
+    "en": "\"In front of us he admitted",
+    "st": "The defendant <b>admitted in our presence to</b> the plaintiff",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּפָנֵינוּ",
+      "en": "in front of us"
+     },
+     {
+      "he": "הוֹדָה",
+      "en": "he admitted"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא חַיָּב לוֹ מָאתַיִם זוּז.",
+    "en": "that he owes him two hundred zuz.\"",
+    "st": "<b>that he owes him,</b> e.g., <b>two hundred dinars.</b>",
+    "stMore": "By admitting to the debt in the presence of witnesses he renders himself liable to pay the amount that he mentioned.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owes"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מָאתַיִם",
+      "en": "two hundred"
+     },
+     {
+      "he": "זוּז.",
+      "en": "zuz",
+      "note": "A kind of coin."
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ מַכְנִיסִין אֶת הַשֵּׁנִי",
+    "en": "Afterward they bring in the second witness",
+    "st": "<b>And afterward they bring in the second</b> witness",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מַכְנִיסִין",
+      "en": "they bring in"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשֵּׁנִי",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "וּבוֹדְקִים אוֹתוֹ.",
+    "en": "and check him.",
+    "st": "<b>and examine him</b> in the same manner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבוֹדְקִים",
+      "en": "and they check"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "אִם נִמְצְאוּ דִבְרֵיהֶם מְכֻוָּנִים,",
+    "en": "If what they say matches,",
+    "st": "<b>If their statements are found to be congruent</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נִמְצְאוּ",
+      "en": "were found"
+     },
+     {
+      "he": "דִבְרֵיהֶם",
+      "en": "their words"
+     },
+     {
+      "he": "מְכֻוָּנִים,",
+      "en": "matching"
+     }
+    ]
+   },
+   {
+    "he": "נוֹשְׂאִין וְנוֹתְנִין בַּדָּבָר.",
+    "en": "the judges discuss the case.",
+    "explain": "They talk it over and give reasons.",
+    "st": "the judges then <b>discuss the matter.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹשְׂאִין",
+      "en": "they take"
+     },
+     {
+      "he": "וְנוֹתְנִין",
+      "en": "and they give"
+     },
+     {
+      "he": "בַּדָּבָר.",
+      "en": "in the matter"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַיִם אוֹמְרִים זַכַּאי,",
+    "en": "If two judges say \"not guilty,\"",
+    "st": "If the opinions of the judges are divided, as <b>two</b> judges <b>say</b> that the defendant is <b>exempt</b> from payment",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "say"
+     },
+     {
+      "he": "זַכַּאי,",
+      "en": "not guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד אוֹמֵר חַיָּב, זַכַּאי.",
+    "en": "and one says \"guilty,\" he is not guilty.",
+    "st": "<b>and one says</b> he is <b>liable</b> to pay, he is <b>exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "guilty"
+     },
+     {
+      "he": "זַכַּאי.",
+      "en": "not guilty"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַיִם אוֹמְרִים חַיָּב,",
+    "en": "If two say \"guilty,\"",
+    "st": "If <b>two say</b> he is <b>liable </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "say"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד אוֹמֵר זַכַּאי, חַיָּב.",
+    "en": "and one says \"not guilty,\" he is guilty.",
+    "st": "<b>and one says</b> he is <b>exempt,</b> he is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "זַכַּאי,",
+      "en": "not guilty"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "guilty"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אוֹמֵר זַכַּאי,",
+    "en": "If one says \"not guilty,\"",
+    "st": "If <b>one says</b> he is <b>liable </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "זַכַּאי,",
+      "en": "not guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד אוֹמֵר חַיָּב,",
+    "en": "and one says \"guilty,\"",
+    "st": "<b>and one says</b> he is <b>exempt,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "guilty"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ שְׁנַיִם מְזַכִּין",
+    "en": "or even if two say \"not guilty\"",
+    "st": "or <b>even</b> if <b>two</b> of the judges <b>deem</b> him <b>exempt </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "מְזַכִּין",
+      "en": "say not guilty"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שְׁנַיִם מְחַיְּבִין",
+    "en": "or two say \"guilty,\"",
+    "st": "<b>or two</b> of them <b>deem</b> him <b>liable, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "say guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד אוֹמֵר אֵינִי יוֹדֵעַ,",
+    "en": "and one says \"I do not know,\"",
+    "st": "<b>and</b> the other <b>one says: I do not know,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "יוֹדֵעַ,",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "יוֹסִיפוּ הַדַּיָּנִין:",
+    "en": "they must add more judges.",
+    "st": "the court <b>must add</b> more <b>judges</b>",
+    "stMore": "and then rule in accordance with the majority opinion. This is because the one who abstains is considered as though he is not a member of the court.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹסִיפוּ",
+      "en": "they shall add"
+     },
+     {
+      "he": "הַדַּיָּנִין:",
+      "en": "the judges"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "When the judges finish, the head judge tells each side the decision. A judge may not tell anyone afterward that he disagreed with the others, because that is like tale-bearing.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גָּמְרוּ אֶת הַדָּבָר,",
+    "en": "When they finished deciding the case,",
+    "st": "After the judges <b>finish the matter</b> and reach a decision,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּמְרוּ",
+      "en": "they finished"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַדָּבָר,",
+      "en": "the matter"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מַכְנִיסִין אוֹתָן.",
+    "en": "they would bring the two sides in.",
+    "st": "<b>they bring in</b> the litigants.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "מַכְנִיסִין",
+      "en": "bring in"
+     },
+     {
+      "he": "אוֹתָן.",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "הַגָּדוֹל שֶׁבַּדַּיָּנִים אוֹמֵר,",
+    "en": "The biggest of the judges says,",
+    "st": "<b>The greatest of the judges says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the biggest"
+     },
+     {
+      "he": "שֶׁבַּדַּיָּנִים",
+      "en": "of the judges"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ פְּלוֹנִי אַתָּה זַכַּאי,",
+    "en": "\"So-and-so, you are not guilty,\"",
+    "st": "<b>So-and-so, you are exempt</b> from paying; or:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "certain"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "זַכַּאי,",
+      "en": "not guilty"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ פְּלוֹנִי אַתָּה חַיָּב.",
+    "en": "or \"So-and-so, you are guilty.\"",
+    "st": "<b>So-and-so, you are liable</b> to pay.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "certain"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "guilty"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנַּיִן לִכְשֶׁיֵּצֵא אֶחָד מִן הַדַּיָּנִים",
+    "en": "And how do we know that when one of the judges goes out",
+    "st": "<b>And from where</b> is it derived that <b>when</b> the judge <b>leaves</b> the courtroom",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנַּיִן",
+      "en": "and from where"
+     },
+     {
+      "he": "לִכְשֶׁיֵּצֵא",
+      "en": "when goes out"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "of"
+     },
+     {
+      "he": "הַדַּיָּנִים",
+      "en": "the judges"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יֹאמַר אֲנִי מְזַכֶּה",
+    "en": "he may not say, \"I said not guilty,",
+    "st": "<b>he may not say: I deemed</b> you <b>exempt </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "he shall say"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מְזַכֶּה",
+      "en": "say not guilty"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲבֵרַי מְחַיְּבִין",
+    "en": "and my friends said guilty,",
+    "st": "<b>and my colleagues deemed</b> you <b>liable, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲבֵרַי",
+      "en": "and my friends"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "say guilty"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מָה אֶעֱשֶׂה שֶׁחֲבֵרַי רַבּוּ עָלָי,",
+    "en": "but what can I do, my friends were more than me\"?",
+    "st": "<b>but what can I do, as my colleagues outnumbered me</b> and consequently you were deemed liable?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אֶעֱשֶׂה",
+      "en": "can I do"
+     },
+     {
+      "he": "שֶׁחֲבֵרַי",
+      "en": "that my friends"
+     },
+     {
+      "he": "רַבּוּ",
+      "en": "were more"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "than me"
+     }
+    ]
+   },
+   {
+    "he": "עַל זֶה נֶאֱמַר",
+    "en": "About this it says,",
+    "st": "<b>About this it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it is said"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תֵלֵךְ רָכִיל בְּעַמֶּךָ (ויקרא יט),",
+    "en": "\"Do not go around as a tale-bearer among your people,\"",
+    "st": "<b>“You shall not go as a talebearer among your people”</b> (Leviticus 19:16),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תֵלֵךְ",
+      "en": "you shall go"
+     },
+     {
+      "he": "רָכִיל",
+      "en": "tale-bearing"
+     },
+     {
+      "he": "בְּעַמֶּךָ",
+      "en": "among your people"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "יט),",
+      "en": "19)"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר הוֹלֵךְ רָכִיל מְגַלֶּה סּוֹד (משלי יא):",
+    "en": "and it says, \"One who goes around as a tale-bearer tells secrets.\"",
+    "st": "<b>and it says: “One who goes about as a talebearer reveals secrets,</b>",
+    "stMore": "but one who is of a faithful spirit conceals a matter” (Proverbs 11:13).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר",
+      "en": "and it says"
+     },
+     {
+      "he": "הוֹלֵךְ",
+      "en": "goes around"
+     },
+     {
+      "he": "רָכִיל",
+      "en": "tale-bearing"
+     },
+     {
+      "he": "מְגַלֶּה",
+      "en": "reveals"
+     },
+     {
+      "he": "סּוֹד",
+      "en": "a secret"
+     },
+     {
+      "he": "(משלי",
+      "en": "(Mishlei"
+     },
+     {
+      "he": "יא):",
+      "en": "11)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "If someone finds new proof after his case was decided, can he change the ruling? The Sages and Rabban Shimon ben Gamliel argue about proof found late, but all agree that hidden proof brought at the last moment is worthless.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל זְמַן שֶׁמֵּבִיא רְאָיָה,",
+    "en": "As long as he brings proof,",
+    "st": "<b>Any time</b> one of the litigants <b>brings</b> additional <b>proof, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "שֶׁמֵּבִיא",
+      "en": "that he brings"
+     },
+     {
+      "he": "רְאָיָה,",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "סוֹתֵר אֶת הַדִּין.",
+    "en": "he can undo the ruling.",
+    "st": "<b>he can overturn the verdict</b>",
+    "stMore": "that was decided according to previous proofs.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוֹתֵר",
+      "en": "he undoes"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַדִּין.",
+      "en": "the ruling"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "If they said to him,",
+    "st": "If one litigant <b>said to</b> the other:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "כָּל רְאָיוֹת שֶׁיֶּשׁ לְךָ הָבֵא",
+    "en": "\"Bring all the proof you have",
+    "st": "<b>Bring all the proofs that you have </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "רְאָיוֹת",
+      "en": "proofs"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there are"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "הָבֵא",
+      "en": "bring"
+     }
+    ]
+   },
+   {
+    "he": "מִכָּאן עַד שְׁלֹשִׁים יוֹם.",
+    "en": "from now until thirty days,\"",
+    "st": "<b>from now until thirty days</b> from now,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם.",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "מָצָא בְתוֹךְ שְׁלֹשִׁים יוֹם, סוֹתֵר.",
+    "en": "if he found it within thirty days, he can undo the ruling.",
+    "st": "if <b>he found</b> additional proof <b>within thirty days, he can overturn</b> the verdict.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "בְתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     },
+     {
+      "he": "סוֹתֵר.",
+      "en": "he undoes"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחַר שְׁלֹשִׁים יוֹם, אֵינוֹ סוֹתֵר.",
+    "en": "After thirty days, he cannot undo it.",
+    "st": "If he found it <b>after thirty days, he cannot overturn</b> the verdict anymore.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "סוֹתֵר.",
+      "en": "he undoes"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל,",
+    "en": "Rabban Shimon ben Gamliel said,",
+    "st": "<b>Rabban Shimon ben Gamliel said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "מַה יַּעֲשֶׂה זֶה",
+    "en": "\"What can this person do,",
+    "st": "He can still overturn the verdict, as <b>what should this</b> litigant,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "יַּעֲשֶׂה",
+      "en": "shall do"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא מָצָא בְתוֹךְ שְׁלֹשִׁים",
+    "en": "who did not find it within thirty days,",
+    "st": "<b>who</b> sought and <b>did not find</b> additional proof <b>within thirty</b> days",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "מָצָא",
+      "en": "he found"
+     },
+     {
+      "he": "בְתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     }
+    ]
+   },
+   {
+    "he": "וּמָצָא לְאַחַר שְׁלֹשִׁים.",
+    "en": "and found it after thirty?\"",
+    "explain": "So he can still undo the ruling.",
+    "st": "<b>but found</b> it <b>after thirty</b> days, <b>have done?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמָצָא",
+      "en": "and he found"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁלֹשִׁים.",
+      "en": "thirty"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ הָבֵא עֵדִים",
+    "en": "If they said to him, \"Bring witnesses,\"",
+    "st": "In a case where one litigant <b>said to</b> the other: <b>Bring witnesses, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "הָבֵא",
+      "en": "bring"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אֵין לִי עֵדִים,",
+    "en": "and he said, \"I have no witnesses,\"",
+    "st": "<b>and</b> the latter <b>said: I have no witnesses,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אֵין",
+      "en": "there are not"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ הָבֵא רְאָיָה",
+    "en": "and they said, \"Bring proof,\"",
+    "st": "and the former <b>said</b> to him: <b>Bring a proof, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "הָבֵא",
+      "en": "bring"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אֵין לִי רְאָיָה,",
+    "en": "and he said, \"I have no proof,\"",
+    "st": "<b>and he said: I have no proof, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "רְאָיָה,",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "וּלְאַחַר זְמָן הֵבִיא רְאָיָה וּמָצָא עֵדִים,",
+    "en": "and later he brought proof or found witnesses,",
+    "st": "<b>and he later brought a proof or found witnesses,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "זְמָן",
+      "en": "a time"
+     },
+     {
+      "he": "הֵבִיא",
+      "en": "he brought"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "וּמָצָא",
+      "en": "and he found"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה אֵינוֹ כְלוּם.",
+    "en": "it is worth nothing.",
+    "st": "in this case, <b>this</b> proof or these witnesses are worth <b>nothing.</b>",
+    "stMore": "It is apparently a false proof or false testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "is not"
+     },
+     {
+      "he": "כְלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל,",
+    "en": "Rabban Shimon ben Gamliel said,",
+    "st": "<b>Rabban Shimon ben Gamliel said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "מַה יַּעֲשֶׂה זֶה",
+    "en": "\"What can this person do,",
+    "st": "<b>What should this</b> litigant,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "יַּעֲשֶׂה",
+      "en": "shall do"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא הָיָה יוֹדֵעַ שֶׁיֶּשׁ לוֹ עֵדִים",
+    "en": "who did not know that he had witnesses,",
+    "st": "<b>who did not know that he has witnesses </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "knowing"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there are"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "וּמָצָא עֵדִים,",
+    "en": "and then found witnesses,",
+    "st": "<b>and</b> ultimately <b>found witnesses,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמָצָא",
+      "en": "and he found"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיָה יוֹדֵעַ שֶׁיֶּשׁ לוֹ רְאָיָה",
+    "en": "or did not know that he had proof,",
+    "st": "or who <b>did not know that he has a proof </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "knowing"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "וּמָצָא רְאָיָה.",
+    "en": "and then found proof?\"",
+    "st": "<b>and</b> ultimately <b>found proof, have done?</b> Therefore, he can still overturn the verdict.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמָצָא",
+      "en": "and he found"
+     },
+     {
+      "he": "רְאָיָה.",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ הָבֵא עֵדִים,",
+    "en": "If they said to him, \"Bring witnesses,\"",
+    "st": "If at the beginning of the discussion in the court",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "הָבֵא",
+      "en": "bring"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר אֵין לִי עֵדִים, הָבֵא רְאָיָה",
+    "en": "and he said, \"I have no witnesses\"; \"Bring proof,\"",
+    "st": "one did not bring witnesses",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "אֵין",
+      "en": "there are not"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     },
+     {
+      "he": "הָבֵא",
+      "en": "bring"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אֵין לִי רְאָיָה,",
+    "en": "and he said, \"I have no proof,\"",
+    "st": "or other evidence for his claims,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "רְאָיָה,",
+      "en": "proof"
+     }
+    ]
+   },
+   {
+    "he": "רָאָה שֶׁמִּתְחַיֵּב בַּדִּין",
+    "en": "and then he saw he was about to lose the case,",
+    "st": "but then <b>he saw that he</b> was about to be <b>deemed liable</b> to pay <b>in the judgment, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאָה",
+      "en": "he saw"
+     },
+     {
+      "he": "שֶׁמִּתְחַיֵּב",
+      "en": "that he is becoming guilty"
+     },
+     {
+      "he": "בַּדִּין",
+      "en": "in the judgment"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר קִרְבוּ פְּלוֹנִי וּפְלוֹנִי וְהַעִידוּנִי,",
+    "en": "and he said, \"Bring over so-and-so and so-and-so to be my witnesses,\"",
+    "st": "<b>and said: Bring so-and-so and so-and-so, and they will testify on my behalf, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "קִרְבוּ",
+      "en": "bring close"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "וּפְלוֹנִי",
+      "en": "and so-and-so"
+     },
+     {
+      "he": "וְהַעִידוּנִי,",
+      "en": "and let them testify for me"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁהוֹצִיא רְאָיָה מִתּוֹךְ אֲפֻנְדָּתוֹ,",
+    "en": "or he took out proof from his belt,",
+    "st": "<b>or he pulled out a proof from under his belt [pundato],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהוֹצִיא",
+      "en": "that he took out"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "מִתּוֹךְ",
+      "en": "from inside"
+     },
+     {
+      "he": "אֲפֻנְדָּתוֹ,",
+      "en": "his belt"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה אֵינוֹ כְלוּם:",
+    "en": "it is worth nothing.",
+    "explain": "If it were true, he would not have hidden it until now.",
+    "st": "even Rabban Shimon ben Gamliel holds <b>that this is</b> worth <b>nothing.</b>",
+    "stMore": "If there was truth in the testimony of these witnesses or in this proof, he would not have hidden it until now.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "is not"
+     },
+     {
+      "he": "כְלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ }
+]

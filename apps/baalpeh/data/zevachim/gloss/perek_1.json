@@ -1,0 +1,1702 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "A korban that was shechted with a different korban in mind is still kosher, but it does not count for the owner. A korban Pesach and a chatas become pasul this way, and Rabbi Eliezer says an asham does too.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַזְּבָחִים שֶׁנִזְבְּחוּ שֶׁלֹּא לִשְׁמָן,",
+    "en": "All korbanos that were shechted for the wrong purpose,",
+    "st": "<b>All slaughtered offerings that were slaughtered not for their own sake,</b>",
+    "stMore": "i.e., during the slaughtering the slaughterer’s intent was to sacrifice a different offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַזְּבָחִים",
+      "en": "the korbanos"
+     },
+     {
+      "he": "שֶׁנִזְבְּחוּ",
+      "en": "that were shechted"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their own sake",
+      "note": "Shechted while thinking of a different kind of korban."
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁרִים, אֶלָּא שֶׁלֹּא עָלוּ לַבְּעָלִים לְשֵׁם חוֹבָה.",
+    "en": "are kosher, but they do not count for the owner's duty.",
+    "st": "<b>are fit,</b> and one may continue their sacrificial rites and partake of their meat where that applies. <b>But</b> these offerings <b>did not satisfy the obligation of the owner,</b> who is therefore required to bring another offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁרִים,",
+      "en": "are kosher"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that did not"
+     },
+     {
+      "he": "עָלוּ",
+      "en": "count",
+      "note": "Literally \"go up.\""
+     },
+     {
+      "he": "לַבְּעָלִים",
+      "en": "for the owners"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "duty"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַפֶּסַח וּמִן הַחַטָּאת.",
+    "en": "Except for the korban Pesach and the chatas.",
+    "st": "This is the halakha with regard to all offerings <b>except for the Paschal offering and the sin offering.</b>",
+    "stMore": "In those cases, if the owner sacrificed them not for their own sake, they are unfit. But there is a difference between the two exceptions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַפֶּסַח",
+      "en": "the korban Pesach"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַחַטָּאת.",
+      "en": "the chatas",
+      "note": "A korban brought for a sin done by mistake."
+     }
+    ]
+   },
+   {
+    "he": "הַפֶּסַח בִּזְמַנּוֹ,",
+    "en": "The korban Pesach is pasul only at its own time,",
+    "st": "<b>The Paschal offering</b> is unfit only when sacrificed not for its sake <b>at its</b> appointed <b>time,</b> on the fourteenth day of Nisan after noon,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפֶּסַח",
+      "en": "the korban Pesach"
+     },
+     {
+      "he": "בִּזְמַנּוֹ,",
+      "en": "at its time",
+      "note": "The fourteenth of Nisan, after midday."
+     }
+    ]
+   },
+   {
+    "he": "וְהַחַטָּאת, בְּכָל זְמָן.",
+    "en": "and the chatas at any time.",
+    "st": "while <b>the sin offering</b> is unfit <b>any time</b> that it is sacrificed not for its sake.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחַטָּאת,",
+      "en": "and the chatas"
+     },
+     {
+      "he": "בְּכָל",
+      "en": "at any"
+     },
+     {
+      "he": "זְמָן.",
+      "en": "time"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הָאָשָׁם.",
+    "en": "also the asham.",
+    "st": "<b>The guilt offering too</b>",
+    "stMore": "is unfit when sacrificed not for its sake. According to his opinion, the correct reading of the mishna is:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הָאָשָׁם.",
+      "en": "the asham",
+      "note": "A korban brought to fix certain sins."
+     }
+    ]
+   },
+   {
+    "he": "הַפֶּסַח בִּזְמַנּוֹ,",
+    "en": "So the korban Pesach is pasul at its own time,",
+    "st": "<b>The Paschal offering</b> is unfit only <b>at its</b> appointed <b>time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפֶּסַח",
+      "en": "the korban Pesach"
+     },
+     {
+      "he": "בִּזְמַנּוֹ,",
+      "en": "at its time"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחַטָּאת וְהָאָשָׁם,",
+    "en": "and the chatas and the asham",
+    "st": "while <b>the sin offering and the guilt offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחַטָּאת",
+      "en": "and the chatas"
+     },
+     {
+      "he": "וְהָאָשָׁם,",
+      "en": "and the asham"
+     }
+    ]
+   },
+   {
+    "he": "בְּכָל זְמָן.",
+    "en": "at any time.",
+    "st": "are unfit <b>at all times.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכָל",
+      "en": "at any"
+     },
+     {
+      "he": "זְמָן.",
+      "en": "time"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said:",
+    "st": "<b>Rabbi Eliezer said</b> in explanation:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "הַחַטָּאת בָּאָה עַל חֵטְא,",
+    "en": "The chatas comes for a sin,",
+    "st": "<b>The sin offering is brought for</b> performance of <b>a transgression</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחַטָּאת",
+      "en": "the chatas"
+     },
+     {
+      "he": "בָּאָה",
+      "en": "comes"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "חֵטְא,",
+      "en": "a sin"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאָשָׁם בָּא עַל חֵטְא.",
+    "en": "and the asham comes for a sin.",
+    "st": "<b>and the guilt offering is brought for</b> performance of <b>a transgression.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאָשָׁם",
+      "en": "and the asham"
+     },
+     {
+      "he": "בָּא",
+      "en": "comes"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "חֵטְא.",
+      "en": "a sin"
+     }
+    ]
+   },
+   {
+    "he": "מַה חַטָּאת פְּסוּלָה שֶׁלֹּא לִשְׁמָהּ,",
+    "en": "Just as a chatas is pasul when it is not for its own sake,",
+    "st": "<b>Just as a sin offering is unfit</b> when sacrificed <b>not for its sake,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "פְּסוּלָה",
+      "en": "is pasul",
+      "note": "Not kosher."
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמָהּ,",
+      "en": "for its own sake"
+     }
+    ]
+   },
+   {
+    "he": "אַף הָאָשָׁם פָּסוּל שֶׁלֹּא לִשְׁמוֹ:",
+    "en": "so too an asham is pasul when it is not for its own sake.",
+    "st": "<b>so too, the guilt offering is unfit</b> when sacrificed <b>not for its sake.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "הָאָשָׁם",
+      "en": "the asham"
+     },
+     {
+      "he": "פָּסוּל",
+      "en": "is pasul"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמוֹ:",
+      "en": "for its own sake"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "Some Rabbis add more rules about a korban shechted for the wrong purpose. Shimon, brother of Azarya, says: if it was shechted for a holier korban it is kosher, but for a less holy korban it is pasul.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יוֹסֵי בֶן חוֹנִי אוֹמֵר,",
+    "en": "Yosei ben Choni says,",
+    "st": "<b>Yosei ben Ḥoni says:</b>",
+    "stMore": "Not only are the Paschal offering and the sin offering unfit when slaughtered not for their sake,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "חוֹנִי",
+      "en": "Choni"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַנִּשְׁחָטִים לְשֵׁם פֶּסַח וּלְשֵׁם חַטָּאת,",
+    "en": "korbanos shechted for the sake of a Pesach or a chatas",
+    "st": "but also other offerings <b>that are slaughtered for the sake of a Paschal offering and for the sake of a sin offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנִּשְׁחָטִים",
+      "en": "those that were shechted"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "פֶּסַח",
+      "en": "a korban Pesach"
+     },
+     {
+      "he": "וּלְשֵׁם",
+      "en": "and for the sake of"
+     },
+     {
+      "he": "חַטָּאת,",
+      "en": "a chatas"
+     }
+    ]
+   },
+   {
+    "he": "פְּסוּלִים. שִׁמְעוֹן אֲחִי עֲזַרְיָה אוֹמֵר,",
+    "en": "are pasul. Shimon, the brother of Azarya, says:",
+    "st": "<b>are unfit. Shimon, brother of Azarya, says</b> that this is the distinction: With regard to all offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּסוּלִים.",
+      "en": "are pasul"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אֲחִי",
+      "en": "the brother of"
+     },
+     {
+      "he": "עֲזַרְיָה",
+      "en": "Azarya"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחָטָן לְשֵׁם גָּבוֹהַּ מֵהֶם,",
+    "en": "If he shechted them for a korban holier than they are,",
+    "st": "if <b>one slaughtered them for the sake of</b> an offering whose level of sanctity is <b>greater than theirs,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחָטָן",
+      "en": "if he shechted them"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "גָּבוֹהַּ",
+      "en": "higher"
+     },
+     {
+      "he": "מֵהֶם,",
+      "en": "than them"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁרִין. לְשֵׁם נָמוּךְ מֵהֶם,",
+    "en": "they are kosher. For a korban less holy than they are,",
+    "st": "<b>they are fit;</b> if one slaughtered them <b>for the sake of</b> an offering whose level of sanctity is <b>less than theirs,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁרִין.",
+      "en": "they are kosher"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "נָמוּךְ",
+      "en": "lower"
+     },
+     {
+      "he": "מֵהֶם,",
+      "en": "than them"
+     }
+    ]
+   },
+   {
+    "he": "פְּסוּלִים. כֵּיצַד.",
+    "en": "they are pasul. How so?",
+    "st": "<b>they are unfit. How so?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּסוּלִים.",
+      "en": "they are pasul"
+     },
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     }
+    ]
+   },
+   {
+    "he": "קָדְשֵׁי קָדָשִׁים שֶׁשְּׁחָטָן לְשֵׁם קָדָשִׁים קַלִּים,",
+    "en": "The holiest korbanos, shechted for the sake of less holy korbanos,",
+    "st": "<b>Offerings of the most sacred order,</b> e.g., sin offerings and burnt offerings, <b>that one slaughtered for the sake of offerings of lesser sanctity,</b> e.g., peace offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדְשֵׁי",
+      "en": "the holiest"
+     },
+     {
+      "he": "קָדָשִׁים",
+      "en": "korbanos",
+      "note": "Like the olah and the chatas."
+     },
+     {
+      "he": "שֶׁשְּׁחָטָן",
+      "en": "that he shechted them"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "קָדָשִׁים",
+      "en": "korbanos"
+     },
+     {
+      "he": "קַלִּים,",
+      "en": "that are less holy",
+      "note": "Like the shelamim."
+     }
+    ]
+   },
+   {
+    "he": "פְּסוּלִין. קָדָשִׁים קַלִּים שֶׁשְּׁחָטָן לְשֵׁם קָדְשֵׁי קָדָשִׁים,",
+    "en": "are pasul. Less holy korbanos shechted for the holiest korbanos",
+    "st": "<b>are unfit. Offerings of lesser sanctity that one slaughtered for the sake of offerings of the most sacred order</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּסוּלִין.",
+      "en": "are pasul"
+     },
+     {
+      "he": "קָדָשִׁים",
+      "en": "korbanos"
+     },
+     {
+      "he": "קַלִּים",
+      "en": "less holy"
+     },
+     {
+      "he": "שֶׁשְּׁחָטָן",
+      "en": "that he shechted them"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "קָדְשֵׁי",
+      "en": "the holiest korbanos"
+     },
+     {
+      "he": "קָדָשִׁים,",
+      "en": "(most holy)"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁרִין. הַבְּכוֹר וְהַמַּעֲשֵׂר שֶׁשְּׁחָטָן לְשֵׁם שְׁלָמִים,",
+    "en": "are kosher. A bechor or maaser shechted for a shelamim",
+    "st": "<b>are fit.</b> Likewise, there is a distinction between different offerings of lesser sanctity. <b>The firstborn</b> animal <b>and the</b> animal <b>tithe that one slaughtered for the sake of a peace offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁרִין.",
+      "en": "are kosher"
+     },
+     {
+      "he": "הַבְּכוֹר",
+      "en": "the bechor",
+      "note": "A firstborn animal, given to the Kohen."
+     },
+     {
+      "he": "וְהַמַּעֲשֵׂר",
+      "en": "and the maaser",
+      "note": "Every tenth animal, set aside as holy."
+     },
+     {
+      "he": "שֶׁשְּׁחָטָן",
+      "en": "that he shechted them"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "שְׁלָמִים,",
+      "en": "shelamim",
+      "note": "A korban that the owner shares in eating."
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁרִין. וּשְׁלָמִים שֶׁשְּׁחָטָן לְשֵׁם בְּכוֹר,",
+    "en": "are kosher. But a shelamim shechted for a bechor",
+    "st": "<b>are fit,</b> as the sanctity of peace offerings is greater. <b>Peace offerings that one slaughtered for the sake of a firstborn</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁרִין.",
+      "en": "are kosher"
+     },
+     {
+      "he": "וּשְׁלָמִים",
+      "en": "and shelamim"
+     },
+     {
+      "he": "שֶׁשְּׁחָטָן",
+      "en": "that he shechted them"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "בְּכוֹר,",
+      "en": "a bechor"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם מַעֲשֵׂר, פְּסוּלִין:",
+    "en": "or for maaser is pasul.",
+    "st": "animal <b>or for the sake of</b> an animal <b>tithe are unfit.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "מַעֲשֵׂר,",
+      "en": "maaser"
+     },
+     {
+      "he": "פְּסוּלִין:",
+      "en": "are pasul"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "A korban Pesach shechted for the wrong purpose on the morning of the fourteenth of Nisan: Rabbi Yehoshua says it is kosher and Ben Beseira says it is pasul. Ben Azzai shares a tradition from seventy-two elders.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַפֶּסַח שֶׁשְּׁחָטוֹ בְשַׁחֲרִית בְּאַרְבָּעָה",
+    "en": "A korban Pesach that he shechted on the morning of the fourteenth",
+    "st": "With regard to <b>the Paschal offering that one slaughtered</b> on the <b>morning of</b> the <b>fourteenth</b>",
+    "stMore": "of Nisan, the day when the Paschal offering should be slaughtered in the afternoon,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפֶּסַח",
+      "en": "the korban Pesach"
+     },
+     {
+      "he": "שֶׁשְּׁחָטוֹ",
+      "en": "that he shechted it"
+     },
+     {
+      "he": "בְשַׁחֲרִית",
+      "en": "in the morning"
+     },
+     {
+      "he": "בְּאַרְבָּעָה",
+      "en": "on the four-"
+     }
+    ]
+   },
+   {
+    "he": "עָשָׂר שֶׁלֹּא לִשְׁמוֹ,",
+    "en": "not for its own sake,",
+    "st": "if he did so <b>not for its sake,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָשָׂר",
+      "en": "-teenth"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמוֹ,",
+      "en": "for its own sake"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוֹשֻׁעַ מַכְשִׁיר,",
+    "en": "Rabbi Yehoshua says it is kosher,",
+    "st": "<b>Rabbi Yehoshua deems it fit</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "מַכְשִׁיר,",
+      "en": "says it is kosher"
+     }
+    ]
+   },
+   {
+    "he": "כְּאִלּוּ נִשְׁחַט בִּשְׁלשָׁה עָשָׂר.",
+    "en": "as if it was shechted on the thirteenth.",
+    "st": "<b>as though it were slaughtered on the thirteenth</b>",
+    "stMore": "of Nisan. An animal consecrated as a Paschal offering that was slaughtered not at its designated time for the sake of a different offering is fit for sacrifice as a peace offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "נִשְׁחַט",
+      "en": "it was shechted"
+     },
+     {
+      "he": "בִּשְׁלשָׁה",
+      "en": "on the three-"
+     },
+     {
+      "he": "עָשָׂר.",
+      "en": "-teenth"
+     }
+    ]
+   },
+   {
+    "he": "בֶּן בְּתֵירָא פּוֹסֵל,",
+    "en": "Ben Beseira says it is pasul,",
+    "st": "<b>Ben Beteira deems it unfit</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "Ben"
+     },
+     {
+      "he": "בְּתֵירָא",
+      "en": "Beseira"
+     },
+     {
+      "he": "פּוֹסֵל,",
+      "en": "says it is pasul"
+     }
+    ]
+   },
+   {
+    "he": "כְּאִלּוּ נִשְׁחַט בֵּין הָעַרְבָּיִם.",
+    "en": "as if it was shechted in the afternoon.",
+    "st": "<b>as though it were slaughtered</b> in the <b>afternoon</b> of the fourteenth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "נִשְׁחַט",
+      "en": "it was shechted"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "הָעַרְבָּיִם.",
+      "en": "the evenings",
+      "note": "The afternoon, the right time for shechting the korban Pesach."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר שִׁמְעוֹן בֶּן עַזַּאי,",
+    "en": "Shimon ben Azzai said,",
+    "st": "<b>Shimon ben Azzai said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "עַזַּאי,",
+      "en": "Azzai"
+     }
+    ]
+   },
+   {
+    "he": "מְקֻבָּל אֲנִי מִפִּי שִׁבְעִים וּשְׁנַיִם זָקֵן,",
+    "en": "I have a tradition from seventy-two elders,",
+    "st": "<b>I received</b> a tradition <b>from seventy-two elders,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקֻבָּל",
+      "en": "I received a tradition"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וּשְׁנַיִם",
+      "en": "and two"
+     },
+     {
+      "he": "זָקֵן,",
+      "en": "elders",
+      "note": "Wise Rabbis of the Sanhedrin."
+     }
+    ]
+   },
+   {
+    "he": "בְּיוֹם שֶׁהוֹשִׁיבוּ רַבִּי אֶלְעָזָר",
+    "en": "on the day they seated Rabbi Elazar",
+    "st": "as the Sanhedrin deliberated and decided <b>on the day that they installed Rabbi Elazar</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day"
+     },
+     {
+      "he": "שֶׁהוֹשִׁיבוּ",
+      "en": "that they seated"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     }
+    ]
+   },
+   {
+    "he": "בֶּן עֲזַרְיָה בַיְשִׁיבָה,",
+    "en": "ben Azarya as head of the yeshivah,",
+    "st": "ben Azarya <b>at</b> the head of <b>the yeshiva</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "עֲזַרְיָה",
+      "en": "Azarya"
+     },
+     {
+      "he": "בַיְשִׁיבָה,",
+      "en": "in the yeshivah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכָּל הַזְּבָחִים הַנֶּאֱכָלִים שֶׁנִּזְבְּחוּ שֶׁלֹּא לִשְׁמָן,",
+    "en": "that all korbanos that are eaten, if shechted for the wrong purpose,",
+    "st": "and ruled <b>that all the slaughtered offerings that are eaten that were slaughtered not for their sake</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכָּל",
+      "en": "that all"
+     },
+     {
+      "he": "הַזְּבָחִים",
+      "en": "the korbanos"
+     },
+     {
+      "he": "הַנֶּאֱכָלִים",
+      "en": "that are eaten"
+     },
+     {
+      "he": "שֶׁנִּזְבְּחוּ",
+      "en": "that were shechted"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their own sake"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁרִים, אֶלָּא שֶׁלֹּא עָלוּ לַבְּעָלִים מִשּׁוּם חוֹבָה,",
+    "en": "are kosher, but they do not count for the owner's duty,",
+    "st": "<b>are fit, but</b> these offerings <b>did not satisfy the obligation of the owner,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁרִים,",
+      "en": "are kosher"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that did not"
+     },
+     {
+      "he": "עָלוּ",
+      "en": "count"
+     },
+     {
+      "he": "לַבְּעָלִים",
+      "en": "for the owners"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "חוֹבָה,",
+      "en": "duty"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַפֶּסַח וּמִן הַחַטָּאת.",
+    "en": "except for the korban Pesach and the chatas.",
+    "st": "<b>except for the Paschal offering and the sin offering.</b> Based on that version,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַפֶּסַח",
+      "en": "the korban Pesach"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַחַטָּאת.",
+      "en": "the chatas"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הוֹסִיף בֶּן עַזַּאי אֶלָּא הָעוֹלָה,",
+    "en": "Ben Azzai added only the olah,",
+    "st": "<b>ben Azzai added</b> to the halakha cited in the first mishna <b>only the burnt offering,</b> which is not eaten,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "הוֹסִיף",
+      "en": "add"
+     },
+     {
+      "he": "בֶּן",
+      "en": "Ben"
+     },
+     {
+      "he": "עַזַּאי",
+      "en": "Azzai"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "הָעוֹלָה,",
+      "en": "the olah",
+      "note": "A korban burned whole on the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הוֹדוּ לוֹ חֲכָמִים:",
+    "en": "and the Sages did not agree with him.",
+    "st": "<b>and the Rabbis</b> disagreed and <b>did not concede to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "agree"
+     },
+     {
+      "he": "לוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "חֲכָמִים:",
+      "en": "the Sages"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "A korban Pesach or chatas becomes pasul if any of its four main jobs is done with the wrong purpose in mind. Rabbi Shimon and Rabbi Eliezer argue about carrying the blood to the mizbeach.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַפֶּסַח וְהַחַטָּאת שֶׁשְּׁחָטָן שֶׁלֹּא לִשְׁמָן,",
+    "en": "A korban Pesach or chatas that he shechted for the wrong purpose,",
+    "st": "With regard to <b>the Paschal offering and the sin offering, where one slaughtered them not for their sake,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפֶּסַח",
+      "en": "the korban Pesach"
+     },
+     {
+      "he": "וְהַחַטָּאת",
+      "en": "and the chatas"
+     },
+     {
+      "he": "שֶׁשְּׁחָטָן",
+      "en": "that he shechted them"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their own sake"
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל, וְהִלֵּךְ,",
+    "en": "or he caught the blood, or carried it,",
+    "st": "or where he <b>collected</b> their blood in a vessel, <b>conveyed</b> this blood to the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל,",
+      "en": "he caught the blood"
+     },
+     {
+      "he": "וְהִלֵּךְ,",
+      "en": "and he carried it"
+     }
+    ]
+   },
+   {
+    "he": "וְזָרַק, שֶׁלֹּא לִשְׁמָן,",
+    "en": "or threw it, for the wrong purpose,",
+    "st": "<b>or sprinkled</b> this blood on the altar <b>not for their sake,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזָרַק,",
+      "en": "and he threw it"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their own sake"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ לִשְׁמָן וְשֶׁלֹּא לִשְׁמָן,",
+    "en": "or for their sake and then not for their sake,",
+    "st": "<b>or</b> where he performed one of these sacrificial rites <b>for their sake and not for their sake,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לִשְׁמָן",
+      "en": "for their sake"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and not"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their sake"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁלֹּא לִשְׁמָן וְלִשְׁמָן,",
+    "en": "or not for their sake and then for their sake,",
+    "st": "<b>or not for their sake and for their sake,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לִשְׁמָן",
+      "en": "for their sake"
+     },
+     {
+      "he": "וְלִשְׁמָן,",
+      "en": "and for their sake"
+     }
+    ]
+   },
+   {
+    "he": "פְּסוּלִים. כֵּיצַד לִשְׁמָן וְשֶׁלֹּא לִשְׁמָן,",
+    "en": "they are pasul. What is for their sake and not for their sake?",
+    "st": "in all these cases the offerings <b>are unfit. How</b> are these rites performed <b>for their sake and not for their sake?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּסוּלִים.",
+      "en": "they are pasul"
+     },
+     {
+      "he": "כֵּיצַד",
+      "en": "how?"
+     },
+     {
+      "he": "לִשְׁמָן",
+      "en": "for their sake"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and not"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their sake"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם פֶּסַח וּלְשֵׁם שְׁלָמִים.",
+    "en": "For the sake of a Pesach and for the sake of a shelamim.",
+    "st": "In a case where one slaughtered the Paschal offering <b>for the sake of a Paschal offering and for the sake of a peace offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "פֶּסַח",
+      "en": "a korban Pesach"
+     },
+     {
+      "he": "וּלְשֵׁם",
+      "en": "and for the sake of"
+     },
+     {
+      "he": "שְׁלָמִים.",
+      "en": "shelamim"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא לִשְׁמָן וְלִשְׁמָן,",
+    "en": "And not for their sake and then for their sake?",
+    "st": "How are these rites performed <b>not for their sake and for their sake?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לִשְׁמָן",
+      "en": "for their sake"
+     },
+     {
+      "he": "וְלִשְׁמָן,",
+      "en": "and for their sake"
+     }
+    ]
+   },
+   {
+    "he": "לְשֵׁם שְׁלָמִים וּלְשֵׁם הַפֶּסַח.",
+    "en": "For the sake of a shelamim and for the sake of a Pesach.",
+    "st": "In a case where one slaughtered the Paschal offering <b>for the sake of a peace offering and for the sake of a Paschal offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשֵׁם",
+      "en": "for the sake of"
+     },
+     {
+      "he": "שְׁלָמִים",
+      "en": "shelamim"
+     },
+     {
+      "he": "וּלְשֵׁם",
+      "en": "and for the sake of"
+     },
+     {
+      "he": "הַפֶּסַח.",
+      "en": "the korban Pesach"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַזֶּבַח נִפְסָל בְּאַרְבָּעָה דְבָרִים,",
+    "en": "Because a korban can become pasul in four jobs:",
+    "st": "The offering is unfit <b>because a slaughtered offering is disqualified</b> due to prohibited intent <b>in four matters:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַזֶּבַח",
+      "en": "because the korban"
+     },
+     {
+      "he": "נִפְסָל",
+      "en": "becomes pasul"
+     },
+     {
+      "he": "בְּאַרְבָּעָה",
+      "en": "in four"
+     },
+     {
+      "he": "דְבָרִים,",
+      "en": "things"
+     }
+    ]
+   },
+   {
+    "he": "בַּשְּׁחִיטָה וּבַקִּבּוּל וּבַהִלּוּךְ וּבַזְּרִיקָה.",
+    "en": "shechting, catching the blood, carrying it, and throwing it.",
+    "st": "<b>In</b> the performance of the sacrificial rites of <b>slaughtering</b> the animal, <b>in collecting</b> the blood, <b>in conveying</b> the blood, <b>and in sprinkling</b> the blood.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשְּׁחִיטָה",
+      "en": "in the shechting"
+     },
+     {
+      "he": "וּבַקִּבּוּל",
+      "en": "and in catching the blood"
+     },
+     {
+      "he": "וּבַהִלּוּךְ",
+      "en": "and in carrying it"
+     },
+     {
+      "he": "וּבַזְּרִיקָה.",
+      "en": "and in throwing it",
+      "note": "On the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן מַכְשִׁיר בְּהִלּוּךְ,",
+    "en": "Rabbi Shimon says it stays kosher if it happened while carrying,",
+    "st": "<b>Rabbi Shimon deems</b> the offering <b>fit</b> if the prohibited intent was <b>during</b> the rite of <b>conveying</b> the blood,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "מַכְשִׁיר",
+      "en": "says it is kosher"
+     },
+     {
+      "he": "בְּהִלּוּךְ,",
+      "en": "in carrying"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָיָה רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "because Rabbi Shimon used to say,",
+    "st": "<b>as he would say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָיָה",
+      "en": "because he was"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "saying"
+     }
+    ]
+   },
+   {
+    "he": "אִי אֶפְשָׁר שֶׁלֹּא בִשְׁחִיטָה",
+    "en": "It is impossible without shechting,",
+    "st": "<b>It is impossible</b> to sacrifice an offering <b>without slaughtering</b> the animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִי",
+      "en": "not"
+     },
+     {
+      "he": "אֶפְשָׁר",
+      "en": "possible"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "without"
+     },
+     {
+      "he": "בִשְׁחִיטָה",
+      "en": "shechting"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁלֹּא בְקַבָּלָה וְשֶׁלֹּא בִזְרִיקָה,",
+    "en": "or without catching the blood or throwing it,",
+    "st": "<b>or without collection</b> of the blood, <b>or without sprinkling</b> the blood,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and without"
+     },
+     {
+      "he": "בְקַבָּלָה",
+      "en": "catching the blood"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and without"
+     },
+     {
+      "he": "בִזְרִיקָה,",
+      "en": "throwing it"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אֶפְשָׁר שֶׁלֹּא בְהִלּוּךְ,",
+    "en": "but it is possible without carrying it.",
+    "st": "<b>but it is possible</b> to sacrifice an offering <b>without conveying</b> the blood to the altar. How so?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אֶפְשָׁר",
+      "en": "it is possible"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "without"
+     },
+     {
+      "he": "בְהִלּוּךְ,",
+      "en": "carrying it"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹחֵט בְּצַד הַמִּזְבֵּחַ וְזוֹרֵק.",
+    "en": "He can shecht next to the mizbeach and throw.",
+    "st": "If one <b>slaughters</b> the animal <b>alongside the altar and sprinkles</b>",
+    "stMore": "the blood, the blood does not need to be conveyed. Therefore, the rite of conveying the blood is not significant enough to cause the offering to be disqualified due to prohibited intent while performing it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹחֵט",
+      "en": "he shechts"
+     },
+     {
+      "he": "בְּצַד",
+      "en": "at the side of"
+     },
+     {
+      "he": "הַמִּזְבֵּחַ",
+      "en": "the mizbeach"
+     },
+     {
+      "he": "וְזוֹרֵק.",
+      "en": "and throws"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַמְהַלֵּךְ בִּמְקוֹם שֶׁהוּא צָרִיךְ לְהַלֵּךְ,",
+    "en": "If he carries where he needs to carry it,",
+    "st": "With regard to <b>one who conveys</b> the blood <b>in a situation where he is required to convey</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְהַלֵּךְ",
+      "en": "one who carries"
+     },
+     {
+      "he": "בִּמְקוֹם",
+      "en": "in a place"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "צָרִיךְ",
+      "en": "needs"
+     },
+     {
+      "he": "לְהַלֵּךְ,",
+      "en": "to carry"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּחֲשָׁבָה פוֹסֶלֶת.",
+    "en": "the wrong thought makes it pasul.",
+    "st": "prohibited <b>intent</b> while conveying it <b>disqualifies</b> the offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּחֲשָׁבָה",
+      "en": "the thought"
+     },
+     {
+      "he": "פוֹסֶלֶת.",
+      "en": "makes it pasul"
+     }
+    ]
+   },
+   {
+    "he": "וּבִמְקוֹם שֶׁאֵין צָרִיךְ לְהַלֵּךְ,",
+    "en": "But where he does not need to carry it,",
+    "st": "If he conveys the blood <b>in a situation where he is not required to convey</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִמְקוֹם",
+      "en": "and in a place"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "צָרִיךְ",
+      "en": "needs"
+     },
+     {
+      "he": "לְהַלֵּךְ,",
+      "en": "to carry"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַמַּחֲשָׁבָה פוֹסָלֶת:",
+    "en": "the wrong thought does not make it pasul.",
+    "st": "prohibited <b>intent</b> while conveying it <b>does not disqualify</b> the offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הַמַּחֲשָׁבָה",
+      "en": "the thought"
+     },
+     {
+      "he": "פוֹסָלֶת:",
+      "en": "makes it pasul"
+     }
+    ]
+   }
+  ]
+ }
+]

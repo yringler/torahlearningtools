@@ -1,0 +1,2187 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "This mishnah lists people who make a korban pasul if they catch its blood, and wrong ways of putting the blood on the mizbeach. In these cases the korban is pasul, but there is no kares for eating it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַזְּבָחִים שֶׁקִּבֵּל דָּמָן זָר,",
+    "en": "All korbanos whose blood was caught by a non-Kohen,",
+    "st": "With regard to <b>all slaughtered offerings,</b> if the one <b>who collected their blood</b> was <b>a non-priest;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַזְּבָחִים",
+      "en": "the korbanos"
+     },
+     {
+      "he": "שֶׁקִּבֵּל",
+      "en": "that caught"
+     },
+     {
+      "he": "דָּמָן",
+      "en": "their blood"
+     },
+     {
+      "he": "זָר,",
+      "en": "a non-Kohen",
+      "note": "Someone who is not a Kohen."
+     }
+    ]
+   },
+   {
+    "he": "אוֹנֵן, טְבוּל יוֹם,",
+    "en": "or by a Kohen in mourning, or one who toveled today,",
+    "st": "or a priest who was <b>an acute mourner,</b> i.e., one whose relative has died and has not yet been buried; or <b>one</b> who was ritually impure <b>who immersed that day</b>",
+    "stMore": "and is waiting for nightfall for the purification process to be completed;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹנֵן,",
+      "en": "a mourner",
+      "note": "A Kohen whose close relative died and is not yet buried."
+     },
+     {
+      "he": "טְבוּל",
+      "en": "one who toveled"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "today",
+      "note": "He went to the mikvah today and becomes tahor only at night."
+     }
+    ]
+   },
+   {
+    "he": "מְחֻסַּר בְּגָדִים, מְחֻסַּר כִּפּוּרִים,",
+    "en": "or a Kohen missing his special clothes, or one who still has to bring his korban to finish becoming tahor,",
+    "st": "<b>or one who has not yet</b> brought <b>an atonement</b> offering, e.g., a zav or leper after the seventh day of the purification process; <b>or</b> a priest <b>lacking</b> the requisite priestly <b>vestments;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְחֻסַּר",
+      "en": "missing"
+     },
+     {
+      "he": "בְּגָדִים,",
+      "en": "clothes",
+      "note": "The special clothes a Kohen wears for the avodah."
+     },
+     {
+      "he": "מְחֻסַּר",
+      "en": "missing"
+     },
+     {
+      "he": "כִּפּוּרִים,",
+      "en": "atonement",
+      "note": "He still has to bring a korban to finish becoming tahor."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא רְחוּץ יָדַיִם וְרַגְלַיִם,",
+    "en": "or one who did not wash his hands and feet,",
+    "st": "or one <b>who did not wash his hands and feet</b>",
+    "stMore": "from the water in the Basin prior to performing the Temple service;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "רְחוּץ",
+      "en": "washed"
+     },
+     {
+      "he": "יָדַיִם",
+      "en": "hands"
+     },
+     {
+      "he": "וְרַגְלַיִם,",
+      "en": "and feet"
+     }
+    ]
+   },
+   {
+    "he": "עָרֵל, טָמֵא,",
+    "en": "or a Kohen without a bris, or one who is tamei,",
+    "st": "or <b>an uncircumcised</b> priest; or <b>a ritually impure</b> priest;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָרֵל,",
+      "en": "one without a bris"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "יוֹשֵׁב, עוֹמֵד עַל גַּבֵּי כֵלִים,",
+    "en": "or one sitting, or standing on top of vessels,",
+    "st": "or if the one who collected the blood was <b>sitting;</b> or if he was <b>standing</b> not on the floor of the Temple but <b>upon vessels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹשֵׁב,",
+      "en": "sitting"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "standing"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "עַל גַּבֵּי בְהֵמָה,",
+    "en": "or on top of an animal,",
+    "st": "or <b>upon an animal,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "בְהֵמָה,",
+      "en": "an animal"
+     }
+    ]
+   },
+   {
+    "he": "עַל גַּבֵּי רַגְלֵי חֲבֵרוֹ,",
+    "en": "or on top of his friend's feet,",
+    "st": "or <b>upon the feet of another,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "רַגְלֵי",
+      "en": "the feet of"
+     },
+     {
+      "he": "חֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "פָּסָל. קִבֵּל בַּשְּׂמֹאל,",
+    "en": "made it pasul. If he caught the blood with his left hand,",
+    "st": "he has <b>disqualified</b> the offering. If <b>he collected</b> the blood <b>with</b> his <b>left</b> hand,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסָל.",
+      "en": "he made it pasul"
+     },
+     {
+      "he": "קִבֵּל",
+      "en": "he caught the blood"
+     },
+     {
+      "he": "בַּשְּׂמֹאל,",
+      "en": "with the left hand"
+     }
+    ]
+   },
+   {
+    "he": "פָּסָל. רַבִּי שִׁמְעוֹן מַכְשִׁיר.",
+    "en": "he made it pasul. Rabbi Shimon says it is kosher.",
+    "st": "he <b>disqualified</b> the blood for offering. In this last case, <b>Rabbi Shimon deems</b> it <b>fit.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסָל.",
+      "en": "he made it pasul"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "מַכְשִׁיר.",
+      "en": "says it is kosher"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁפַּךְ הַדָּם עַל הָרִצְפָּה וַאֲסָפוֹ,",
+    "en": "If the blood spilled on the floor and he gathered it up,",
+    "st": "If <b>the blood spilled on the floor</b> before the priest managed to collect it into a vessel, <b>and</b> the priest then <b>collected it</b> from the floor into a vessel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁפַּךְ",
+      "en": "spilled"
+     },
+     {
+      "he": "הַדָּם",
+      "en": "the blood"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָרִצְפָּה",
+      "en": "the floor"
+     },
+     {
+      "he": "וַאֲסָפוֹ,",
+      "en": "and he gathered it"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל. נְתָנוֹ עַל גַּבֵּי הַכֶּבֶשׁ",
+    "en": "it is pasul. If he put the blood on the ramp,",
+    "st": "it is <b>disqualified.</b> If the priest <b>placed</b> the blood <b>upon the ramp</b> leading up to the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל.",
+      "en": "it is pasul"
+     },
+     {
+      "he": "נְתָנוֹ",
+      "en": "he put it"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "הַכֶּבֶשׁ",
+      "en": "the ramp",
+      "note": "The ramp the Kohanim walked up to reach the top of the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא כְנֶגֶד הַיְסוֹד,",
+    "en": "or on a part of the mizbeach that is not over its base,",
+    "st": "or if he placed it on the wall of the altar in an area <b>that</b> is <b>not opposite the base</b>",
+    "stMore": "of the altar, i.e., in those parts of the altar where there is no foundation;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "כְנֶגֶד",
+      "en": "opposite"
+     },
+     {
+      "he": "הַיְסוֹד,",
+      "en": "the base",
+      "note": "The bottom step of the mizbeach, which did not go all the way around."
+     }
+    ]
+   },
+   {
+    "he": "נָתַן אֶת הַנִּתָּנִין לְמַטָּן,",
+    "en": "or he put blood that goes below",
+    "st": "or if <b>he placed</b> the blood <b>that is</b> to be <b>placed below</b>",
+    "stMore": "the red line that runs along the middle of the altar, e.g., the blood of a burnt offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "לְמַטָּן,",
+      "en": "below",
+      "note": "Below the red line around the middle of the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "לְמַעְלָן, וְאֶת הַנִּתָּנִין לְמַעְלָן,",
+    "en": "above, or blood that goes above,",
+    "st": "<b>above</b> the red line, <b>or</b> if he placed the blood <b>that is</b> to be <b>placed above</b> the red line, e.g., the blood of a sin offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמַעְלָן,",
+      "en": "above"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "לְמַעְלָן,",
+      "en": "above"
+     }
+    ]
+   },
+   {
+    "he": "לְמַטָּן, אֶת הַנִּתָּנִים בִּפְנִים,",
+    "en": "below; or blood that goes inside,",
+    "st": "<b>below</b> the red line; <b>or</b> if he placed the blood <b>that is</b> to be <b>placed inside</b>",
+    "stMore": "the Sanctuary, i.e., on the golden altar or in the Holy of Holies,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמַטָּן,",
+      "en": "below"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנִּתָּנִים",
+      "en": "those that are put"
+     },
+     {
+      "he": "בִּפְנִים,",
+      "en": "inside",
+      "note": "Inside the Heichal, on the golden mizbeach or in the Kodesh HaKodashim."
+     }
+    ]
+   },
+   {
+    "he": "בַּחוּץ, וְאֶת הַנִּתָּנִין בַּחוּץ,",
+    "en": "outside; or blood that goes outside,",
+    "st": "<b>outside</b> the Sanctuary on the external altar, <b>or</b> if he placed the blood <b>that is</b> to be <b>placed outside</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַנִּתָּנִין",
+      "en": "those that are put"
+     },
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְנִים, פָּסוּל וְאֵין בּוֹ כָרֵת:",
+    "en": "inside, it is pasul, but there is no kares.",
+    "st": "the Sanctuary <b>inside</b> the Sanctuary, in all these cases the offering is <b>disqualified.</b> Nevertheless, <b>there is no</b> liability for <b>karet for</b> one who partakes of these offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְנִים,",
+      "en": "inside"
+     },
+     {
+      "he": "פָּסוּל",
+      "en": "it is pasul"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כָרֵת:",
+      "en": "kares",
+      "note": "A punishment from Heaven for very serious sins."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "If someone shechts a korban planning to do its jobs outside the Beis HaMikdash, it is pasul. If he plans to do them the next day, after their time, it becomes piggul, and one who eats it gets kares.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַשּׁוֹחֵט אֶת הַזֶּבַח לִזְרֹק דָּמוֹ",
+    "en": "One who shechts the korban planning to throw its blood",
+    "st": "With regard to <b>one who slaughters the offering</b> with intent <b>to sprinkle its blood</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַזֶּבַח",
+      "en": "the korban"
+     },
+     {
+      "he": "לִזְרֹק",
+      "en": "to throw"
+     },
+     {
+      "he": "דָּמוֹ",
+      "en": "its blood"
+     }
+    ]
+   },
+   {
+    "he": "בַחוּץ אוֹ מִקְצָת דָּמוֹ בַחוּץ,",
+    "en": "outside, or some of its blood outside,",
+    "st": "<b>outside</b> the Temple <b>or</b> to sprinkle <b>part of its blood outside</b> the Temple,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַחוּץ",
+      "en": "outside",
+      "note": "Outside the courtyard of the Beis HaMikdash."
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מִקְצָת",
+      "en": "some of"
+     },
+     {
+      "he": "דָּמוֹ",
+      "en": "its blood"
+     },
+     {
+      "he": "בַחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "לְהַקְטִיר אֶת אֵמוּרָיו בַּחוּץ",
+    "en": "to burn its parts for the mizbeach outside,",
+    "st": "<b>to burn its sacrificial portions outside</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהַקְטִיר",
+      "en": "to burn"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֵמוּרָיו",
+      "en": "its parts for the mizbeach",
+      "note": "The fats and parts of the korban burned on the mizbeach."
+     },
+     {
+      "he": "בַּחוּץ",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מִקְצָת אֵמוּרָיו בַּחוּץ,",
+    "en": "or some of those parts outside,",
+    "st": "the Temple <b>or</b> to burn <b>part of its sacrificial portions outside</b> the Temple,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מִקְצָת",
+      "en": "some of"
+     },
+     {
+      "he": "אֵמוּרָיו",
+      "en": "its parts for the mizbeach"
+     },
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "לֶאֱכֹל בְּשָׂרוֹ בַחוּץ אוֹ כַזַּיִת",
+    "en": "to eat its meat outside, or an olive-size",
+    "st": "<b>to partake of its meat outside</b> the Temple <b>or</b> to partake of <b>an olive-bulk</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "בְּשָׂרוֹ",
+      "en": "its meat"
+     },
+     {
+      "he": "בַחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "an olive-size",
+      "note": "About the size of an olive; the smallest amount that counts as eating."
+     }
+    ]
+   },
+   {
+    "he": "מִבְּשָׂרוֹ בַחוּץ אוֹ לֶאֱכֹל כַּזַּיִת",
+    "en": "of its meat outside, or to eat an olive-size",
+    "st": "<b>of its meat outside</b> the Temple, <b>or to partake of an olive-bulk</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִבְּשָׂרוֹ",
+      "en": "of its meat"
+     },
+     {
+      "he": "בַחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "כַּזַּיִת",
+      "en": "an olive-size"
+     }
+    ]
+   },
+   {
+    "he": "מֵעוֹר הָאַלְיָה בַחוּץ,",
+    "en": "of the skin of the tail outside,",
+    "st": "<b>of the skin of the tail outside</b> the Temple,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵעוֹר",
+      "en": "from the skin of"
+     },
+     {
+      "he": "הָאַלְיָה",
+      "en": "the tail",
+      "note": "The fatty tail of a sheep."
+     },
+     {
+      "he": "בַחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל וְאֵין בּוֹ כָרֵת.",
+    "en": "it is pasul, but there is no kares.",
+    "st": "in all of these cases the offering is <b>disqualified, and there is no</b> liability for <b>karet for</b> one who partakes of it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "it is pasul"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כָרֵת.",
+      "en": "kares"
+     }
+    ]
+   },
+   {
+    "he": "לִזְרֹק דָּמוֹ לְמָחָר אוֹ",
+    "en": "If he planned to throw its blood tomorrow, or",
+    "st": "But if one had intent <b>to sprinkle its blood the next day</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִזְרֹק",
+      "en": "to throw"
+     },
+     {
+      "he": "דָּמוֹ",
+      "en": "its blood"
+     },
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     }
+    ]
+   },
+   {
+    "he": "מִקְצָת דָּמוֹ לְמָחָר,",
+    "en": "some of its blood tomorrow,",
+    "st": "or <b>part of its blood the next day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִקְצָת",
+      "en": "some of"
+     },
+     {
+      "he": "דָּמוֹ",
+      "en": "its blood"
+     },
+     {
+      "he": "לְמָחָר,",
+      "en": "tomorrow"
+     }
+    ]
+   },
+   {
+    "he": "לְהַקְטִיר אֵמוּרָיו לְמָחָר אוֹ",
+    "en": "to burn its parts for the mizbeach tomorrow, or",
+    "st": "<b>to burn its sacrificial portions the next day or</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהַקְטִיר",
+      "en": "to burn"
+     },
+     {
+      "he": "אֵמוּרָיו",
+      "en": "its parts for the mizbeach"
+     },
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     }
+    ]
+   },
+   {
+    "he": "מִקְצָת אֵמוּרָיו לְמָחָר,",
+    "en": "some of those parts tomorrow,",
+    "st": "to burn <b>part of its sacrificial portions the next day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִקְצָת",
+      "en": "some of"
+     },
+     {
+      "he": "אֵמוּרָיו",
+      "en": "its parts for the mizbeach"
+     },
+     {
+      "he": "לְמָחָר,",
+      "en": "tomorrow"
+     }
+    ]
+   },
+   {
+    "he": "לֶאֱכֹל בְּשָׂרוֹ לְמָחָר אוֹ כַזַּיִת מִבְּשָׂרוֹ",
+    "en": "to eat its meat tomorrow, or an olive-size of its meat",
+    "st": "<b>to partake of its meat the next day or</b> to partake of <b>an olive-bulk of its meat</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "בְּשָׂרוֹ",
+      "en": "its meat"
+     },
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "an olive-size"
+     },
+     {
+      "he": "מִבְּשָׂרוֹ",
+      "en": "of its meat"
+     }
+    ]
+   },
+   {
+    "he": "לְמָחָר אוֹ כַּזַּיִת מֵעוֹר הָאַלְיָה לְמָחָר,",
+    "en": "tomorrow, or an olive-size of the skin of the tail tomorrow,",
+    "st": "<b>the next day, or to partake of an olive-bulk of the skin of the tail the next day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "כַּזַּיִת",
+      "en": "an olive-size"
+     },
+     {
+      "he": "מֵעוֹר",
+      "en": "from the skin of"
+     },
+     {
+      "he": "הָאַלְיָה",
+      "en": "the tail"
+     },
+     {
+      "he": "לְמָחָר,",
+      "en": "tomorrow"
+     }
+    ]
+   },
+   {
+    "he": "פִּגּוּל וְחַיָּבִין עָלָיו כָּרֵת:",
+    "en": "it is piggul, and one who eats it gets kares.",
+    "st": "the offering is <b>piggul, and one is liable</b> to receive <b>karet for</b> burning or partaking of <b>it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פִּגּוּל",
+      "en": "piggul",
+      "note": "A korban ruined by planning to eat or offer it after its time."
+     },
+     {
+      "he": "וְחַיָּבִין",
+      "en": "and they are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "כָּרֵת:",
+      "en": "kares"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "The rule: if he plans, during one of the four jobs, to eat or burn the korban in the wrong place, it is pasul. If he plans to do it after its time, it is piggul, as long as everything else was done right.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַשּׁוֹחֵט וְהַמְקַבֵּל וְהַמְהַלֵּךְ וְהַזּוֹרֵק,",
+    "en": "Anyone who shechts, catches the blood, carries it, or throws it,",
+    "st": "With regard to <b>anyone who slaughters</b> the animal, <b>or who collects</b> the blood, <b>or who conveys</b> the blood, <b>or who sprinkles</b> the blood,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "who shechts"
+     },
+     {
+      "he": "וְהַמְקַבֵּל",
+      "en": "and who catches the blood"
+     },
+     {
+      "he": "וְהַמְהַלֵּךְ",
+      "en": "and who carries it"
+     },
+     {
+      "he": "וְהַזּוֹרֵק,",
+      "en": "and who throws it"
+     }
+    ]
+   },
+   {
+    "he": "לֶאֱכֹל דָּבָר שֶׁדַּרְכּוֹ לֶאֱכֹל,",
+    "en": "planning to eat something that is usually eaten,",
+    "st": "with intent <b>to partake of an item whose</b> typical <b>manner</b> is such that one <b>partakes</b> of it, e.g., the meat of the offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "דָּבָר",
+      "en": "a thing"
+     },
+     {
+      "he": "שֶׁדַּרְכּוֹ",
+      "en": "that its way is"
+     },
+     {
+      "he": "לֶאֱכֹל,",
+      "en": "to be eaten"
+     }
+    ]
+   },
+   {
+    "he": "לְהַקְטִיר דָּבָר שֶׁדַּרְכּוֹ לְהַקְטִיר,",
+    "en": "or to burn something that is usually burned,",
+    "st": "<b>or to burn an item whose</b> typical <b>manner</b> is such that one <b>burns</b> it on the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהַקְטִיר",
+      "en": "to burn"
+     },
+     {
+      "he": "דָּבָר",
+      "en": "a thing"
+     },
+     {
+      "he": "שֶׁדַּרְכּוֹ",
+      "en": "that its way is"
+     },
+     {
+      "he": "לְהַקְטִיר,",
+      "en": "to be burned"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ לִמְקוֹמוֹ,",
+    "en": "outside its place,",
+    "st": "if his intent was to partake of or to burn the measure of <b>an olive-bulk outside its</b> designated <b>area,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִמְקוֹמוֹ,",
+      "en": "its place"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל וְאֵין בּוֹ כָרֵת.",
+    "en": "it is pasul, but there is no kares.",
+    "st": "the offering is <b>disqualified, but there is no</b> liability for <b>karet for</b> burning or partaking of <b>it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "it is pasul"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כָרֵת.",
+      "en": "kares"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ לִזְמַנּוֹ,",
+    "en": "After its time,",
+    "st": "If his intent was to do so <b>beyond its</b> designated <b>time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנּוֹ,",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "פִּגּוּל וְחַיָּבִין עָלָיו כָּרֵת,",
+    "en": "it is piggul, and one who eats it gets kares,",
+    "st": "the offering is <b>piggul and one is liable</b> to receive <b>karet for</b> burning or partaking of <b>it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פִּגּוּל",
+      "en": "piggul"
+     },
+     {
+      "he": "וְחַיָּבִין",
+      "en": "and they are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "כָּרֵת,",
+      "en": "kares"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁיִּקְרַב הַמַּתִּיר כְּמִצְוָתוֹ:",
+    "en": "as long as the part that makes it allowed is offered the right way.",
+    "st": "<b>provided that the permitting factor,</b> the blood, <b>is sacrificed in accordance with its mitzva.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "as long as"
+     },
+     {
+      "he": "שֶׁיִּקְרַב",
+      "en": "that is offered"
+     },
+     {
+      "he": "הַמַּתִּיר",
+      "en": "the one that permits",
+      "note": "The blood, which makes the korban allowed once it is thrown."
+     },
+     {
+      "he": "כְּמִצְוָתוֹ:",
+      "en": "as its mitzvah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "When is the blood \"offered the right way\" so the korban can become piggul? Only when the only wrong thought was about time. If there was also a thought about the wrong place, or the wrong purpose, it is not piggul.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֵּיצַד קָרַב הַמַּתִּיר כְּמִצְוָתוֹ.",
+    "en": "How is the part that makes it allowed offered the right way?",
+    "st": "<b>How</b> is <b>the permitting factor sacrificed in accordance with its mitzva?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "קָרַב",
+      "en": "is offered"
+     },
+     {
+      "he": "הַמַּתִּיר",
+      "en": "the one that permits"
+     },
+     {
+      "he": "כְּמִצְוָתוֹ.",
+      "en": "as its mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "שָׁחַט בִּשְׁתִיקָה,",
+    "en": "If he shechted without saying anything,",
+    "st": "If one <b>slaughtered</b> the animal <b>in silence</b> with no specific intent,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁחַט",
+      "en": "he shechted"
+     },
+     {
+      "he": "בִּשְׁתִיקָה,",
+      "en": "in silence",
+      "note": "With no special thought."
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל וְהִלֵּךְ וְזָרַק חוּץ לִזְמַנּוֹ.",
+    "en": "and caught, carried and threw the blood planning to eat it after its time;",
+    "st": "and <b>he collected and conveyed and sprinkled</b> the blood with intent to burn or partake of the offering <b>beyond its</b> designated <b>time;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל",
+      "en": "he caught"
+     },
+     {
+      "he": "וְהִלֵּךְ",
+      "en": "and carried"
+     },
+     {
+      "he": "וְזָרַק",
+      "en": "and threw"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנּוֹ.",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁשָּׁחַט חוּץ לִזְמַנּוֹ,",
+    "en": "or he shechted planning for after its time,",
+    "st": "<b>or</b> if one <b>slaughtered</b> it with intent to burn or partake of the offering <b>beyond its</b> designated <b>time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁשָּׁחַט",
+      "en": "that he shechted"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנּוֹ,",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל וְהִלֵּךְ וְזָרַק בִּשְׁתִיקָה.",
+    "en": "and caught, carried and threw without saying anything;",
+    "st": "<b>and he collected and conveyed and sprinkled</b> the blood <b>in silence;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל",
+      "en": "he caught"
+     },
+     {
+      "he": "וְהִלֵּךְ",
+      "en": "and carried"
+     },
+     {
+      "he": "וְזָרַק",
+      "en": "and threw"
+     },
+     {
+      "he": "בִּשְׁתִיקָה.",
+      "en": "in silence"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁשָּׁחַט,",
+    "en": "or he shechted,",
+    "st": "<b>or</b> if one <b>slaughtered</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁשָּׁחַט,",
+      "en": "that he shechted"
+     }
+    ]
+   },
+   {
+    "he": "וְקִבֵּל וְהִלֵּךְ וְזָרַק חוּץ לִזְמַנּוֹ,",
+    "en": "and caught, carried and threw, all planning for after its time,",
+    "st": "the animal <b>and collected and conveyed and sprinkled</b> the blood with intent to burn or partake of the offering <b>beyond its</b> designated <b>time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקִבֵּל",
+      "en": "and caught"
+     },
+     {
+      "he": "וְהִלֵּךְ",
+      "en": "and carried"
+     },
+     {
+      "he": "וְזָרַק",
+      "en": "and threw"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנּוֹ,",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הוּא שֶׁקָּרַב הַמַּתִּיר כְּמִצְוָתוֹ.",
+    "en": "that is when the part that makes it allowed is offered the right way.",
+    "st": "<b>that is</b> the case <b>where</b> one <b>sacrifices the permitting factor in accordance with its mitzva.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "הוּא",
+      "en": "is"
+     },
+     {
+      "he": "שֶׁקָּרַב",
+      "en": "that is offered"
+     },
+     {
+      "he": "הַמַּתִּיר",
+      "en": "the one that permits"
+     },
+     {
+      "he": "כְּמִצְוָתוֹ.",
+      "en": "as its mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד לֹא קָרַב הַמַּתִּיר כְּמִצְוָתוֹ.",
+    "en": "How is it not offered the right way?",
+    "st": "<b>How</b> is <b>the permitting factor not sacrificed in accordance with its mitzva?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "קָרַב",
+      "en": "is offered"
+     },
+     {
+      "he": "הַמַּתִּיר",
+      "en": "the one that permits"
+     },
+     {
+      "he": "כְּמִצְוָתוֹ.",
+      "en": "as its mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "שָׁחַט חוּץ לִמְקוֹמוֹ,",
+    "en": "If he shechted planning for outside its place,",
+    "st": "If one <b>slaughtered</b> the animal with intent to burn it or partake of it <b>outside its</b> designated <b>area,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁחַט",
+      "en": "he shechted"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִמְקוֹמוֹ,",
+      "en": "its place"
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל וְהִלֵּךְ וְזָרַק חוּץ לִזְמַנּוֹ.",
+    "en": "and caught, carried and threw planning for after its time;",
+    "st": "and <b>he collected and conveyed and sprinkled</b> the blood with intent to burn it or partake of it <b>beyond its</b> designated <b>time;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל",
+      "en": "he caught"
+     },
+     {
+      "he": "וְהִלֵּךְ",
+      "en": "and carried"
+     },
+     {
+      "he": "וְזָרַק",
+      "en": "and threw"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנּוֹ.",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁשָּׁחַט חוּץ לִזְמַנּוֹ,",
+    "en": "or he shechted planning for after its time,",
+    "st": "<b>or</b> if one <b>slaughtered</b> the animal with intent to burn it or partake of it <b>beyond its</b> designated <b>time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁשָּׁחַט",
+      "en": "that he shechted"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנּוֹ,",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל וְהִלֵּךְ וְזָרַק חוּץ לִמְקוֹמוֹ.",
+    "en": "and caught, carried and threw planning for outside its place;",
+    "st": "and <b>collected and conveyed and sprinkled</b> the blood with intent to burn it or partake of it <b>outside its</b> designated <b>area;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל",
+      "en": "he caught"
+     },
+     {
+      "he": "וְהִלֵּךְ",
+      "en": "and carried"
+     },
+     {
+      "he": "וְזָרַק",
+      "en": "and threw"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִמְקוֹמוֹ.",
+      "en": "its place"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁשָּׁחַט,",
+    "en": "or he shechted,",
+    "st": "<b>or</b> if one <b>slaughtered</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁשָּׁחַט,",
+      "en": "that he shechted"
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל, וְהִלֵּךְ,",
+    "en": "caught, carried,",
+    "st": "the animal <b>and collected and conveyed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל,",
+      "en": "he caught"
+     },
+     {
+      "he": "וְהִלֵּךְ,",
+      "en": "and carried"
+     }
+    ]
+   },
+   {
+    "he": "וְזָרַק, חוּץ לִמְקוֹמוֹ.",
+    "en": "and threw, all planning for outside its place.",
+    "st": "<b>and sprinkled</b> the blood with intent to burn it or partake of it <b>outside its</b> designated <b>area,</b>",
+    "stMore": "these are cases in which the permitting factor is not sacrificed in accordance with the mitzva. Similarly,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזָרַק,",
+      "en": "and threw"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִמְקוֹמוֹ.",
+      "en": "its place"
+     }
+    ]
+   },
+   {
+    "he": "הַפֶּסַח וְהַחַטָּאת שֶׁשְּׁחָטָן שֶׁלֹּא לִשְׁמָן,",
+    "en": "Or a korban Pesach or chatas shechted for the wrong purpose,",
+    "st": "in the case of <b>the Paschal offering and the sin offering that one slaughtered not for their sake,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפֶּסַח",
+      "en": "the korban Pesach"
+     },
+     {
+      "he": "וְהַחַטָּאת",
+      "en": "and the chatas"
+     },
+     {
+      "he": "שֶׁשְּׁחָטָן",
+      "en": "that he shechted them"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their own sake"
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל וְהִלֵּךְ וְזָרַק חוּץ לִזְמַנּוֹ.",
+    "en": "and he caught, carried and threw planning for after its time;",
+    "st": "<b>and</b> one <b>collected and conveyed and sprinkled</b> the blood with intent to burn it or partake of it <b>beyond its</b> designated <b>time;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל",
+      "en": "he caught"
+     },
+     {
+      "he": "וְהִלֵּךְ",
+      "en": "and carried"
+     },
+     {
+      "he": "וְזָרַק",
+      "en": "and threw"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנּוֹ.",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁשָּׁחַט חוּץ לִזְמַנּוֹ,",
+    "en": "or he shechted planning for after its time,",
+    "st": "<b>or</b> if one <b>slaughtered</b> the Paschal offering or sin offering with intent to burn it or partake of it <b>beyond its</b> designated <b>time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁשָּׁחַט",
+      "en": "that he shechted"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לִזְמַנּוֹ,",
+      "en": "its time"
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל וְהִלֵּךְ וְזָרַק שֶׁלֹּא לִשְׁמָן.",
+    "en": "and caught, carried and threw for the wrong purpose;",
+    "st": "and <b>he collected and conveyed and sprinkled</b> the blood <b>not for their sake;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל",
+      "en": "he caught"
+     },
+     {
+      "he": "וְהִלֵּךְ",
+      "en": "and carried"
+     },
+     {
+      "he": "וְזָרַק",
+      "en": "and threw"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמָן.",
+      "en": "for their own sake"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶּׁשָּׁחַט,",
+    "en": "or he shechted,",
+    "st": "<b>or that one slaughtered</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶּׁשָּׁחַט,",
+      "en": "that he shechted"
+     }
+    ]
+   },
+   {
+    "he": "קִבֵּל, וְהִלֵּךְ,",
+    "en": "caught, carried,",
+    "st": "the Paschal offering or sin offering <b>and collected and conveyed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבֵּל,",
+      "en": "he caught"
+     },
+     {
+      "he": "וְהִלֵּךְ,",
+      "en": "and carried"
+     }
+    ]
+   },
+   {
+    "he": "וְזָרַק, שֶׁלֹּא לִשְׁמָן.",
+    "en": "and threw, all for the wrong purpose,",
+    "st": "<b>and sprinkled their blood not for their sake,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזָרַק,",
+      "en": "and threw"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לִשְׁמָן.",
+      "en": "for their own sake"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הוּא שֶׁלֹּא קָרַב הַמַּתִּיר כְּמִצְוָתוֹ:",
+    "en": "that is when the part that makes it allowed is not offered the right way.",
+    "st": "<b>that is</b> the case of an offering <b>whose permitting factor is not sacrificed in accordance with its mitzva.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "הוּא",
+      "en": "is"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "קָרַב",
+      "en": "is offered"
+     },
+     {
+      "he": "הַמַּתִּיר",
+      "en": "the one that permits"
+     },
+     {
+      "he": "כְּמִצְוָתוֹ:",
+      "en": "as its mitzvah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "If he planned to eat some of the korban outside its place and some after its time, it is pasul but not piggul. Rabbi Yehudah says it depends on which thought came first. Eating and burning half-sizes do not add up.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "לֶאֱכֹל כַּזַּיִת בַּחוּץ וְכַזַּיִת לְמָחָר,",
+    "en": "If he planned to eat an olive-size outside and an olive-size tomorrow,",
+    "st": "If one performed one of the sacrificial rites with the intent <b>to eat an olive-bulk outside</b> its designated area and <b>an olive-bulk the next day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "כַּזַּיִת",
+      "en": "an olive-size"
+     },
+     {
+      "he": "בַּחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "וְכַזַּיִת",
+      "en": "and an olive-size"
+     },
+     {
+      "he": "לְמָחָר,",
+      "en": "tomorrow"
+     }
+    ]
+   },
+   {
+    "he": "כַּזַּיִת לְמָחָר וְכַזַּיִת בַּחוּץ,",
+    "en": "or an olive-size tomorrow and an olive-size outside,",
+    "st": "or <b>an olive-bulk the next day</b> and <b>an olive-bulk outside</b> its designated area,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּזַּיִת",
+      "en": "an olive-size"
+     },
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "וְכַזַּיִת",
+      "en": "and an olive-size"
+     },
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "כַּחֲצִי זַיִת בַּחוּץ וְכַחֲצִי זַיִת לְמָחָר,",
+    "en": "or half an olive-size outside and half an olive-size tomorrow,",
+    "st": "or <b>half an olive-bulk outside</b> its designated area and <b>half an olive-bulk the next day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "בַּחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "וְכַחֲצִי",
+      "en": "and like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "לְמָחָר,",
+      "en": "tomorrow"
+     }
+    ]
+   },
+   {
+    "he": "כַּחֲצִי זַיִת לְמָחָר וְכַחֲצִי זַיִת בַּחוּץ,",
+    "en": "or half an olive-size tomorrow and half an olive-size outside,",
+    "st": "or <b>half an olive-bulk the next day</b> and <b>half an olive-bulk outside</b> its designated area,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "וְכַחֲצִי",
+      "en": "and like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "בַּחוּץ,",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל וְאֵין בּוֹ כָרֵת.",
+    "en": "it is pasul, but there is no kares.",
+    "st": "the offering is <b>disqualified and there is no</b> liability for <b>karet for</b> burning or partaking of <b>it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "it is pasul"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כָרֵת.",
+      "en": "kares"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוּדָה,",
+    "en": "Rabbi Yehudah said,",
+    "st": "<b>Rabbi Yehuda said</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "this is the rule:",
+    "st": "that <b>this is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "אִם מַחֲשֶׁבֶת הַזְּמָן קָדְמָה לְמַחֲשֶׁבֶת הַמָּקוֹם,",
+    "en": "If the thought about time came before the thought about place,",
+    "st": "In <b>any</b> case <b>where the intent</b> with regard to <b>the time preceded the intent</b> with regard to <b>the area,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מַחֲשֶׁבֶת",
+      "en": "the thought of"
+     },
+     {
+      "he": "הַזְּמָן",
+      "en": "the time"
+     },
+     {
+      "he": "קָדְמָה",
+      "en": "came before"
+     },
+     {
+      "he": "לְמַחֲשֶׁבֶת",
+      "en": "the thought of"
+     },
+     {
+      "he": "הַמָּקוֹם,",
+      "en": "the place"
+     }
+    ]
+   },
+   {
+    "he": "פִּגּוּל וְחַיָּבִים עָלָיו כָּרֵת.",
+    "en": "it is piggul, and one who eats it gets kares.",
+    "st": "the offering is <b>piggul and one is liable</b> to receive <b>karet for</b> burning or partaking of <b>it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פִּגּוּל",
+      "en": "piggul"
+     },
+     {
+      "he": "וְחַיָּבִים",
+      "en": "and they are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "כָּרֵת.",
+      "en": "kares"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מַחֲשֶׁבֶת הַמָּקוֹם קָדְמָה לְמַחֲשֶׁבֶת הַזְּמָן,",
+    "en": "But if the thought about place came before the thought about time,",
+    "st": "<b>And if the intent</b> with regard to <b>the area preceded the intent</b> with regard to <b>the time,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מַחֲשֶׁבֶת",
+      "en": "the thought of"
+     },
+     {
+      "he": "הַמָּקוֹם",
+      "en": "the place"
+     },
+     {
+      "he": "קָדְמָה",
+      "en": "came before"
+     },
+     {
+      "he": "לְמַחֲשֶׁבֶת",
+      "en": "the thought of"
+     },
+     {
+      "he": "הַזְּמָן,",
+      "en": "the time"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל וְאֵין בּוֹ כָרֵת.",
+    "en": "it is pasul, but there is no kares.",
+    "st": "the offering is <b>disqualified and there is no</b> liability for <b>karet for</b> burning or partaking of <b>it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "it is pasul"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כָרֵת.",
+      "en": "kares"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים זֶה וָזֶה",
+    "en": "But the Sages say, both this and that",
+    "st": "<b>And the Rabbis say:</b> In both <b>this</b> case <b>and that</b> case,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "say"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and that"
+     }
+    ]
+   },
+   {
+    "he": "פָסוּל וְאֵין בּוֹ כָרֵת.",
+    "en": "are pasul, but there is no kares.",
+    "st": "the offering is <b>disqualified and there is no</b> liability for <b>karet for</b> burning or partaking of <b>it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָסוּל",
+      "en": "are pasul"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כָרֵת.",
+      "en": "kares"
+     }
+    ]
+   },
+   {
+    "he": "לֶאֱכֹל כַּחֲצִי זַיִת וּלְהַקְטִיר כַּחֲצִי זַיִת,",
+    "en": "If he planned to eat half an olive-size and burn half an olive-size,",
+    "st": "If his intent was <b>to eat half an olive-bulk</b> and <b>to burn half an olive-bulk</b> not at the appropriate time or in the appropriate area,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶאֱכֹל",
+      "en": "to eat"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "וּלְהַקְטִיר",
+      "en": "and to burn"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת,",
+      "en": "an olive"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר, שֶׁאֵין אֲכִילָה וְהַקְטָרָה מִצְטָרְפִין:",
+    "en": "it is kosher, because eating and burning do not add up together.",
+    "st": "the offering is <b>fit because eating and burning do not join together.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר,",
+      "en": "it is kosher"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "because not"
+     },
+     {
+      "he": "אֲכִילָה",
+      "en": "eating"
+     },
+     {
+      "he": "וְהַקְטָרָה",
+      "en": "and burning"
+     },
+     {
+      "he": "מִצְטָרְפִין:",
+      "en": "add up together"
+     }
+    ]
+   }
+  ]
+ }
+]

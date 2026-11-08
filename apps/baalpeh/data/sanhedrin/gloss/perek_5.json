@@ -1,0 +1,2531 @@
+[
+ {
+  "perek": 5,
+  "mishnah": 1,
+  "summary": "In a life-and-death case, the judges ask the witnesses seven main questions about when and where it happened, and other questions about what exactly happened.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָיוּ בוֹדְקִין אוֹתָן בְּשֶׁבַע חֲקִירוֹת,",
+    "en": "They would check the witnesses with seven questions:",
+    "st": "The court <b>would examine</b> the witnesses in capital cases <b>with seven interrogations,</b> i.e., interrogatory questions, and they are:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "בוֹדְקִין",
+      "en": "checking"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "בְּשֶׁבַע",
+      "en": "with seven"
+     },
+     {
+      "he": "חֲקִירוֹת,",
+      "en": "questions"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזֶה שָׁבוּעַ,",
+    "en": "In which seven-year cycle?",
+    "st": "<b>In which seven-year</b>",
+    "stMore": "period, that is, in which cycle of seven years within a jubilee did the event occur;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזֶה",
+      "en": "in which"
+     },
+     {
+      "he": "שָׁבוּעַ,",
+      "en": "seven-year cycle"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזוֹ שָׁנָה,",
+    "en": "In which year?",
+    "st": "<b>in which year</b> of the Sabbatical cycle did the event occur;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזוֹ",
+      "en": "in which"
+     },
+     {
+      "he": "שָׁנָה,",
+      "en": "year"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזֶה חֹדֶשׁ,",
+    "en": "In which month?",
+    "st": "<b>in which month</b> did the event occur;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזֶה",
+      "en": "in which"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "month"
+     }
+    ]
+   },
+   {
+    "he": "בְּכַמָּה בַחֹדֶשׁ,",
+    "en": "On which day of the month?",
+    "st": "<b>on which</b> day <b>of the month</b> did the event occur;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכַמָּה",
+      "en": "on what number"
+     },
+     {
+      "he": "בַחֹדֶשׁ,",
+      "en": "in the month"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזֶה יוֹם,",
+    "en": "On which day of the week?",
+    "st": "<b>on which day</b> of the week did the event occur;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזֶה",
+      "en": "on which"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזוֹ שָׁעָה,",
+    "en": "At what hour?",
+    "st": "<b>at which hour</b> did the event occur;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזוֹ",
+      "en": "at which"
+     },
+     {
+      "he": "שָׁעָה,",
+      "en": "hour"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזֶה מָקוֹם.",
+    "en": "In what place?",
+    "st": "and <b>in what place</b> did the event occur.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזֶה",
+      "en": "in which"
+     },
+     {
+      "he": "מָקוֹם.",
+      "en": "place"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר בְּאֵיזֶה יוֹם,",
+    "en": "Rabbi Yosei says, only: On which day?",
+    "st": "<b>Rabbi Yosei says:</b> The court would examine the witnesses with only three interrogations: <b>On which day</b> did the event occur,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בְּאֵיזֶה",
+      "en": "on which"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזוֹ שָׁעָה,",
+    "en": "At what hour?",
+    "st": "<b>at which hour,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזוֹ",
+      "en": "at which"
+     },
+     {
+      "he": "שָׁעָה,",
+      "en": "hour"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזֶה מָקוֹם.",
+    "en": "In what place?",
+    "st": "and <b>in what place.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזֶה",
+      "en": "in which"
+     },
+     {
+      "he": "מָקוֹם.",
+      "en": "place"
+     }
+    ]
+   },
+   {
+    "he": "מַכִּירִין אַתֶּם אוֹתוֹ.",
+    "en": "\"Do you recognize him?\"",
+    "st": "They would also ask: <b>Do you recognize him</b> as the man who committed the transgression?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַכִּירִין",
+      "en": "recognize"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "הִתְרֵיתֶם בּוֹ.",
+    "en": "\"Did you warn him?\"",
+    "st": "<b>Did you warn him?</b>",
+    "stMore": "They would then ask the witnesses about the particulars of the incident. For example, in the case of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִתְרֵיתֶם",
+      "en": "did you warn"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹבֵד עֲבוֹדָה זָרָה,",
+    "en": "For someone who served idols, they ask:",
+    "st": "<b>one who</b> is an accused <b>idol worshipper,</b> they ask the witnesses:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹבֵד",
+      "en": "the one who serves"
+     },
+     {
+      "he": "עֲבוֹדָה",
+      "en": "service"
+     },
+     {
+      "he": "זָרָה,",
+      "en": "foreign",
+      "note": "Avodah zarah: serving idols."
+     }
+    ]
+   },
+   {
+    "he": "אֶת מִי עָבַד,",
+    "en": "Which idol did he serve,",
+    "st": "<b>Whom,</b> i.e., which idol, <b>did he worship, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "מִי",
+      "en": "whom"
+     },
+     {
+      "he": "עָבַד,",
+      "en": "he served"
+     }
+    ]
+   },
+   {
+    "he": "וּבַמֶּה עָבָד:",
+    "en": "and how did he serve it?",
+    "st": "<b>and in what manner did he worship</b> it, and so on.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַמֶּה",
+      "en": "and with what"
+     },
+     {
+      "he": "עָבָד:",
+      "en": "he served"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 2,
+  "summary": "A judge who asks the witnesses many extra questions is praised. The mishnah explains the difference between the main questions and the extra ones.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַמַּרְבֶּה בִבְדִיקוֹת,",
+    "en": "Whoever asks many extra questions,",
+    "st": "With regard to <b>all</b> judges <b>who increase</b> the number of <b>examinations,</b>",
+    "stMore": "i.e., who add questions about the details of the event,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "הַמַּרְבֶּה",
+      "en": "who adds many"
+     },
+     {
+      "he": "בִבְדִיקוֹת,",
+      "en": "checking questions"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה מְשֻׁבָּח.",
+    "en": "is praised.",
+    "st": "<b>this is praiseworthy,</b>",
+    "stMore": "as this may clarify that the witnesses are lying.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "מְשֻׁבָּח.",
+      "en": "is praised"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה וּבָדַק בֶּן זַכַּאי בְּעֻקְצֵי תְאֵנִים.",
+    "en": "Once ben Zakkai even checked them about the stems of figs.",
+    "st": "<b>An incident</b> occurred <b>and ben Zakkai examined</b> the witnesses by questioning them <b>about</b> the color and shape of <b>the stems of figs</b>",
+    "stMore": "in order to unearth a contradiction between the witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "וּבָדַק",
+      "en": "and checked"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "זַכַּאי",
+      "en": "Zakkai",
+      "note": "Rabban Yochanan ben Zakkai."
+     },
+     {
+      "he": "בְּעֻקְצֵי",
+      "en": "about the stems of"
+     },
+     {
+      "he": "תְאֵנִים.",
+      "en": "figs"
+     }
+    ]
+   },
+   {
+    "he": "וּמַה בֵּין חֲקִירוֹת לִבְדִיקוֹת.",
+    "en": "And what is the difference between main questions and extra questions?",
+    "st": "The mishna explains: <b>What</b> is the difference <b>between interrogations and examinations?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַה",
+      "en": "and what"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "חֲקִירוֹת",
+      "en": "main questions"
+     },
+     {
+      "he": "לִבְדִיקוֹת.",
+      "en": "to checking questions"
+     }
+    ]
+   },
+   {
+    "he": "חֲקִירוֹת, אֶחָד אוֹמֵר אֵינִי יוֹדֵעַ,",
+    "en": "In the main questions, if one says \"I do not know,\"",
+    "st": "With regard to <b>interrogations,</b> if <b>one</b> of the witnesses <b>says: I do not know</b> the answer,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲקִירוֹת,",
+      "en": "main questions"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "יוֹדֵעַ,",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן בְּטֵלָה.",
+    "en": "their testimony does not count.",
+    "st": "<b>their testimony is void</b> immediately.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "בְּטֵלָה.",
+      "en": "is cancelled"
+     }
+    ]
+   },
+   {
+    "he": "בְּדִיקוֹת, אֶחָד אוֹמֵר אֵינִי יוֹדֵעַ,",
+    "en": "In the extra questions, if one says \"I do not know,\"",
+    "st": "With regard to <b>examinations,</b> if <b>one says: I do not know</b> the answer,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּדִיקוֹת,",
+      "en": "checking questions"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "יוֹדֵעַ,",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ שְׁנַיִם אוֹמְרִים אֵין אָנוּ יוֹדְעִין,",
+    "en": "and even if two say \"We do not know,\"",
+    "st": "<b>and even</b> if <b>two say: We do not know</b> the answer,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "say"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "יוֹדְעִין,",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן קַיָּמֶת.",
+    "en": "their testimony still counts.",
+    "st": "<b>their testimony</b> still <b>stands. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "קַיָּמֶת.",
+      "en": "stands"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד חֲקִירוֹת וְאֶחָד בְּדִיקוֹת,",
+    "en": "In both the main and the extra questions,",
+    "st": "<b>Both</b> with regard to <b>interrogations and examinations, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "חֲקִירוֹת",
+      "en": "main questions"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "בְּדִיקוֹת,",
+      "en": "checking questions"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁמַּכְחִישִׁין זֶה אֶת זֶה,",
+    "en": "when they say things that go against each other,",
+    "st": "<b>at a time when</b> the witnesses <b>contradict one another, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁמַּכְחִישִׁין",
+      "en": "that they contradict"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "זֶה,",
+      "en": "that one"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן בְּטֵלָה:",
+    "en": "their testimony does not count.",
+    "st": "<b>their testimony is void.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "בְּטֵלָה:",
+      "en": "is cancelled"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 3,
+  "summary": "Small differences between witnesses, like one day or one hour, can be honest mistakes, so the testimony still counts. Bigger differences cancel the testimony.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֶחָד אוֹמֵר בִּשְׁנַיִם בַּחֹדֶשׁ",
+    "en": "If one says, \"On the second of the month,\"",
+    "st": "The mishna clarifies: If <b>one</b> witness <b>says</b> the event occurred <b>on the second of the month, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בִּשְׁנַיִם",
+      "en": "on two"
+     },
+     {
+      "he": "בַּחֹדֶשׁ",
+      "en": "of the month"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד אוֹמֵר בִּשְׁלֹשָׁה בַחֹדֶשׁ,",
+    "en": "and one says, \"On the third of the month,\"",
+    "st": "<b>and one</b> witness <b>says</b> that the event occurred <b>on the third of the month,</b> this is not regarded as a contradiction and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה",
+      "en": "on three"
+     },
+     {
+      "he": "בַחֹדֶשׁ,",
+      "en": "of the month"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן קַיֶּמֶת,",
+    "en": "their testimony counts,",
+    "st": "<b>their testimony stands,</b> since it is possible to say",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "קַיֶּמֶת,",
+      "en": "stands"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁזֶּה יוֹדֵעַ בְּעִבּוּרוֹ שֶׁל חֹדֶשׁ",
+    "en": "because this one knows that the month was made longer,",
+    "st": "<b>that this</b> witness <b>knows of</b> the <b>addition of</b> a day to the previous <b>month,</b>",
+    "stMore": "and according to his tally the event occurred on the second of the month,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁזֶּה",
+      "en": "that this one"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "knows"
+     },
+     {
+      "he": "בְּעִבּוּרוֹ",
+      "en": "about the lengthening"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "the month"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה אֵינוֹ יוֹדֵעַ בְּעִבּוּרוֹ שֶׁל חֹדֶשׁ.",
+    "en": "and that one does not know that the month was made longer.",
+    "st": "<b>and that</b> witness <b>does not know of</b> the <b>addition of</b> a day to the previous <b>month,</b>",
+    "stMore": "and according to his tally the event occurred on the third of the month. Their testimony is not considered incongruent.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "knows"
+     },
+     {
+      "he": "בְּעִבּוּרוֹ",
+      "en": "about the lengthening"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חֹדֶשׁ.",
+      "en": "the month"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אוֹמֵר בִּשְׁלֹשָׁה וְאֶחָד אוֹמֵר בַּחֲמִשָּׁה,",
+    "en": "If one says, \"On the third,\" and one says, \"On the fifth,\"",
+    "st": "By contrast, if <b>this</b> witness <b>says</b> the event occurred <b>on the third</b> of the month <b>and one</b> witness <b>says</b> the event occurred <b>on the fifth</b> of the month,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה",
+      "en": "on three"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בַּחֲמִשָּׁה,",
+      "en": "on five"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן בְּטֵלָה.",
+    "en": "their testimony does not count.",
+    "st": "<b>their testimony is void,</b>",
+    "stMore": "as this disparity cannot be attributed to a mere error. Therefore, their testimony is not congruent.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "בְּטֵלָה.",
+      "en": "is cancelled"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אוֹמֵר בִּשְׁתֵּי שָׁעוֹת",
+    "en": "If one says, \"At the second hour,\"",
+    "st": "Similarly, if <b>one</b> witness <b>says</b> that the event occurred <b>at two hours,</b>",
+    "stMore": "i.e., the second hour of the day from sunrise,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בִּשְׁתֵּי",
+      "en": "at two"
+     },
+     {
+      "he": "שָׁעוֹת",
+      "en": "hours"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד אוֹמֵר בְּשָׁלֹשׁ שָׁעוֹת,",
+    "en": "and one says, \"At the third hour,\"",
+    "st": "<b>and one</b> witness <b>says</b> that the event occurred <b>at three hours, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בְּשָׁלֹשׁ",
+      "en": "at three"
+     },
+     {
+      "he": "שָׁעוֹת,",
+      "en": "hours"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן קַיֶּמֶת.",
+    "en": "their testimony counts.",
+    "st": "<b>their testimony stands,</b>",
+    "stMore": "as one could reasonably err this amount in estimating the hour of the day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "קַיֶּמֶת.",
+      "en": "stands"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אוֹמֵר בְּשָׁלֹשׁ וְאֶחָד אוֹמֵר בְּחָמֵשׁ,",
+    "en": "If one says, \"At three,\" and one says, \"At five,\"",
+    "st": "By contrast, if <b>one says</b> that the event occurred <b>at three</b> hours, <b>and one says</b> that the event occurred <b>at five</b> hours,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בְּשָׁלֹשׁ",
+      "en": "at three"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בְּחָמֵשׁ,",
+      "en": "at five"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן בְּטֵלָה.",
+    "en": "their testimony does not count.",
+    "st": "<b>their testimony is void. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "בְּטֵלָה.",
+      "en": "is cancelled"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר, קַיָּמֶת.",
+    "en": "Rabbi Yehudah says, it counts.",
+    "st": "<b>Rabbi Yehuda says:</b> Also in this case their testimony <b>stands,</b>",
+    "stMore": "as one could reasonably err concerning even this length of time.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "קַיָּמֶת.",
+      "en": "it stands"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אוֹמֵר בְּחָמֵשׁ וְאֶחָד אוֹמֵר בְּשֶׁבַע,",
+    "en": "If one says, \"At five,\" and one says, \"At seven,\"",
+    "st": "Rabbi Yehuda adds: But if <b>one says</b> that the event occurred <b>at five</b> hours, <b>and one says</b> that the event occurred <b>at seven</b> hours,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בְּחָמֵשׁ",
+      "en": "at five"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "בְּשֶׁבַע,",
+      "en": "at seven"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן בְּטֵלָה,",
+    "en": "their testimony does not count,",
+    "st": "<b>their testimony is void.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "בְּטֵלָה,",
+      "en": "is cancelled"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבְּחָמֵשׁ חַמָּה בַמִּזְרָח וּבְשֶׁבַע חַמָּה בַמַּעֲרָב:",
+    "en": "because at five the sun is in the east, and at seven the sun is in the west.",
+    "explain": "Nobody would mix those up.",
+    "st": "Here the difference is recognizable to all, <b>since at five</b> hours <b>the sun</b> is <b>in the east and at seven the sun</b> is <b>in the west,</b>",
+    "stMore": "and one could not err concerning this. Therefore, their testimony is not congruent.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבְּחָמֵשׁ",
+      "en": "that at five"
+     },
+     {
+      "he": "חַמָּה",
+      "en": "the sun"
+     },
+     {
+      "he": "בַמִּזְרָח",
+      "en": "in the east"
+     },
+     {
+      "he": "וּבְשֶׁבַע",
+      "en": "and at seven"
+     },
+     {
+      "he": "חַמָּה",
+      "en": "the sun"
+     },
+     {
+      "he": "בַמַּעֲרָב:",
+      "en": "in the west"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 4,
+  "summary": "After the witnesses are checked, the judges start by looking for a reason to save the accused. A student with a good reason to save him may join the judges, and even the accused may speak for himself.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְאַחַר כָּךְ מַכְנִיסִין אֶת הַשֵּׁנִי",
+    "en": "Afterward they bring in the second witness",
+    "st": "The mishna continues: <b>And afterward,</b> after the court examines the first witness, <b>they bring in the second</b> witness",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מַכְנִיסִין",
+      "en": "they bring in"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשֵּׁנִי",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "וּבוֹדְקִין אוֹתוֹ.",
+    "en": "and check him.",
+    "st": "<b>and examine him. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבוֹדְקִין",
+      "en": "and they check"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "אִם נִמְצְאוּ דִבְרֵיהֶם מְכֻוָּנִין,",
+    "en": "If what they say matches,",
+    "st": "<b>If the statements</b> of the witnesses <b>are found</b> to be <b>congruent,</b> the court begins to deliberate the matter.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נִמְצְאוּ",
+      "en": "were found"
+     },
+     {
+      "he": "דִבְרֵיהֶם",
+      "en": "their words"
+     },
+     {
+      "he": "מְכֻוָּנִין,",
+      "en": "matching"
+     }
+    ]
+   },
+   {
+    "he": "פּוֹתְחִין בִּזְכוּת.",
+    "en": "they start with a reason for \"not guilty.\"",
+    "st": "<b>They open</b> the deliberations <b>with</b> an appeal to anyone who can find a reason to <b>acquit</b> the accused.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פּוֹתְחִין",
+      "en": "they open"
+     },
+     {
+      "he": "בִּזְכוּת.",
+      "en": "with merit"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר אֶחָד מִן הָעֵדִים",
+    "en": "If one of the witnesses said,",
+    "st": "If <b>one of the witnesses said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעֵדִים",
+      "en": "the witnesses"
+     }
+    ]
+   },
+   {
+    "he": "יֶשׁ לִי לְלַמֵּד עָלָיו זְכוּת,",
+    "en": "\"I have a reason to say he is not guilty,\"",
+    "st": "<b>I can teach</b> a reason to <b>acquit him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "לְלַמֵּד",
+      "en": "to teach"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "about him"
+     },
+     {
+      "he": "זְכוּת,",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ אֶחָד מִן הַתַּלְמִידִים",
+    "en": "or one of the students said,",
+    "st": "<b>or</b> if <b>one of the students</b> sitting before the judges said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתַּלְמִידִים",
+      "en": "the students"
+     }
+    ]
+   },
+   {
+    "he": "יֶשׁ לִי לְלַמֵּד עָלָיו חוֹבָה,",
+    "en": "\"I have a reason to say he is guilty,\"",
+    "st": "<b>I can teach</b> a reason to deem <b>him liable,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "לְלַמֵּד",
+      "en": "to teach"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "about him"
+     },
+     {
+      "he": "חוֹבָה,",
+      "en": "guilt"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁתְּקִין אוֹתוֹ.",
+    "en": "they quiet him.",
+    "st": "the judges <b>silence him,</b>",
+    "stMore": "i.e., both the witness and the student. The reason is that these people are not allowed to offer information such as this.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁתְּקִין",
+      "en": "they silence"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר אֶחָד מִן הַתַּלְמִידִים",
+    "en": "If one of the students said,",
+    "st": "But if <b>one of the students said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתַּלְמִידִים",
+      "en": "the students"
+     }
+    ]
+   },
+   {
+    "he": "יֶשׁ לִי לְלַמֵּד עָלָיו זְכוּת,",
+    "en": "\"I have a reason to say he is not guilty,\"",
+    "st": "<b>I can to teach</b> a reason to <b>acquit him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "לְלַמֵּד",
+      "en": "to teach"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "about him"
+     },
+     {
+      "he": "זְכוּת,",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲלִין אוֹתוֹ וּמוֹשִׁיבִין אוֹתוֹ בֵינֵיהֶן,",
+    "en": "they bring him up and seat him among them,",
+    "st": "<b>they raise him</b> to the seat of the court <b>and seat him among them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲלִין",
+      "en": "they bring up"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "וּמוֹשִׁיבִין",
+      "en": "and they seat"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "בֵינֵיהֶן,",
+      "en": "among them"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הָיָה יוֹרֵד מִשָּׁם",
+    "en": "and he would not go down from there",
+    "st": "<b>and he would not descend from there </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "יוֹרֵד",
+      "en": "going down"
+     },
+     {
+      "he": "מִשָּׁם",
+      "en": "from there"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַיּוֹם כֻּלּוֹ.",
+    "en": "the whole day.",
+    "st": "<b>the entire day,</b>",
+    "stMore": "but would sit and participate in their deliberations.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַיּוֹם",
+      "en": "the day"
+     },
+     {
+      "he": "כֻּלּוֹ.",
+      "en": "all of it"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ מַמָּשׁ בִּדְבָרָיו,",
+    "en": "If there is real sense in his words,",
+    "st": "<b>If the statement of</b> that student <b>has substance,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "מַמָּשׁ",
+      "en": "substance"
+     },
+     {
+      "he": "בִּדְבָרָיו,",
+      "en": "in his words"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמְעִין לוֹ.",
+    "en": "they listen to him.",
+    "st": "the court <b>listens to him. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "they listen"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ הוּא אוֹמֵר",
+    "en": "And even if the accused himself says,",
+    "st": "<b>And</b> if <b>even</b> the accused <b>says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יֶשׁ לִי לְלַמֵּד עַל עַצְמִי זְכוּת,",
+    "en": "\"I have a reason to say I am not guilty,\"",
+    "st": "<b>I can teach</b> a reason to <b>acquit me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "לְלַמֵּד",
+      "en": "to teach"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "עַצְמִי",
+      "en": "myself"
+     },
+     {
+      "he": "זְכוּת,",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמְעִין לוֹ,",
+    "en": "they listen to him,",
+    "st": "the court <b>listens to him</b> and considers his statement,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "they listen"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁיֵּשׁ מַמָּשׁ בִּדְבָרָיו:",
+    "en": "as long as there is real sense in his words.",
+    "st": "<b>provided that his statement has substance.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "and only"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "מַמָּשׁ",
+      "en": "substance"
+     },
+     {
+      "he": "בִּדְבָרָיו:",
+      "en": "in his words"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 5,
+  "summary": "If the judges cannot yet find the accused not guilty, they wait until the next day, think it over all night, and vote again. If the vote is very close, more judges are added.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אִם מָצְאוּ לוֹ זְכוּת, פְּטָרוּהוּ.",
+    "en": "If they found a reason he is not guilty, they let him go.",
+    "st": "<b>And if</b> the court <b>found</b> it fit to <b>acquit him</b> during the deliberations, as all or a majority of the judges agreed to acquit him, <b>they excuse him. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מָצְאוּ",
+      "en": "they found"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "זְכוּת,",
+      "en": "merit"
+     },
+     {
+      "he": "פְּטָרוּהוּ.",
+      "en": "they freed him"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "And if not,",
+    "st": "<b>But if</b> a majority does <b>not</b> find it fit to acquit him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲבִירִין דִּינוֹ לְמָחָר.",
+    "en": "they put off his case until tomorrow.",
+    "st": "<b>they delay</b> his verdict <b>to</b> the <b>following day, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲבִירִין",
+      "en": "they move"
+     },
+     {
+      "he": "דִּינוֹ",
+      "en": "his case"
+     },
+     {
+      "he": "לְמָחָר.",
+      "en": "to tomorrow"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מִזְדַּוְּגִין זוּגוֹת זוּגוֹת,",
+    "en": "The judges would meet in pairs,",
+    "st": "<b>and</b> they then <b>assign pairs</b>",
+    "stMore": "of judges to discuss the matter with each other.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "מִזְדַּוְּגִין",
+      "en": "pair up"
+     },
+     {
+      "he": "זוּגוֹת",
+      "en": "pairs"
+     },
+     {
+      "he": "זוּגוֹת,",
+      "en": "pairs"
+     }
+    ]
+   },
+   {
+    "he": "וּמְמַעֲטִין בְּמַאֲכָל,",
+    "en": "and eat only a little,",
+    "st": "<b>They would minimize</b> their <b>food</b> intake",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְמַעֲטִין",
+      "en": "and make little"
+     },
+     {
+      "he": "בְּמַאֲכָל,",
+      "en": "of food"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הָיוּ שׁוֹתִין יַיִן כָּל הַיּוֹם,",
+    "en": "and they would not drink wine the whole day,",
+    "st": "<b>and they would not drink wine all day. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹתִין",
+      "en": "drinking"
+     },
+     {
+      "he": "יַיִן",
+      "en": "wine"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַיּוֹם,",
+      "en": "the day"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹשְׂאִין וְנוֹתְנִין כָּל הַלַּיְלָה,",
+    "en": "and they would discuss it all night.",
+    "st": "<b>And they</b> would <b>deliberate all night, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹשְׂאִין",
+      "en": "and they take"
+     },
+     {
+      "he": "וְנוֹתְנִין",
+      "en": "and they give"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַלַּיְלָה,",
+      "en": "the night"
+     }
+    ]
+   },
+   {
+    "he": "וְלַמָּחֳרָת מַשְׁכִּימִין וּבָאִין לְבֵית דִּין.",
+    "en": "The next day they get up early and come to court.",
+    "st": "<b>and the following day they</b> would <b>arise early and come to court</b>",
+    "stMore": "and then vote again and tally the votes of the judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלַמָּחֳרָת",
+      "en": "and the next day"
+     },
+     {
+      "he": "מַשְׁכִּימִין",
+      "en": "they get up early"
+     },
+     {
+      "he": "וּבָאִין",
+      "en": "and come"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "דִּין.",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "הַמְזַכֶּה אוֹמֵר אֲנִי מְזַכֶּה",
+    "en": "The one who said \"not guilty\" says, \"I said not guilty,",
+    "st": "<b>One who</b> yesterday was of the opinion to <b>acquit</b> the defendant <b>says: I</b> said to <b>acquit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְזַכֶּה",
+      "en": "the one who says not guilty"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מְזַכֶּה",
+      "en": "say not guilty"
+     }
+    ]
+   },
+   {
+    "he": "וּמְזַכֶּה אֲנִי בִמְקוֹמִי,",
+    "en": "and I still say not guilty.\"",
+    "st": "<b>and I acquit in my place,</b> i.e., I stand by my statement to acquit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְזַכֶּה",
+      "en": "and say not guilty"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "בִמְקוֹמִי,",
+      "en": "in my place"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְחַיֵּב אוֹמֵר אֲנִי מְחַיֵּב",
+    "en": "And the one who said \"guilty\" says, \"I said guilty,",
+    "st": "<b>And one who</b> yesterday was of the opinion to <b>deem</b> him <b>liable says: I</b> said to <b>deem</b> him <b>liable, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְחַיֵּב",
+      "en": "and the one who says guilty"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "מְחַיֵּב",
+      "en": "say guilty"
+     }
+    ]
+   },
+   {
+    "he": "וּמְחַיֵּב אֲנִי בִמְקוֹמִי.",
+    "en": "and I still say guilty.\"",
+    "st": "<b>and I deem</b> him <b>liable in my place. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְחַיֵּב",
+      "en": "and say guilty"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "בִמְקוֹמִי.",
+      "en": "in my place"
+     }
+    ]
+   },
+   {
+    "he": "הַמְלַמֵּד חוֹבָה מְלַמֵּד זְכוּת,",
+    "en": "The one who gave a reason for \"guilty\" may give a reason for \"not guilty,\"",
+    "st": "<b>One who</b> yesterday <b>taught</b> a reason to deem him <b>liable may</b> then <b>teach</b> a reason to <b>acquit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְלַמֵּד",
+      "en": "the one who teaches"
+     },
+     {
+      "he": "חוֹבָה",
+      "en": "guilt"
+     },
+     {
+      "he": "מְלַמֵּד",
+      "en": "may teach"
+     },
+     {
+      "he": "זְכוּת,",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל הַמְלַמֵּד זְכוּת",
+    "en": "but the one who gave a reason for \"not guilty\"",
+    "st": "<b>but one who</b> yesterday <b>taught</b> a reason to <b>acquit </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "הַמְלַמֵּד",
+      "en": "the one who teaches"
+     },
+     {
+      "he": "זְכוּת",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לַחֲזֹר וּלְלַמֵּד חוֹבָה.",
+    "en": "may not switch back to \"guilty.\"",
+    "st": "<b>may not then teach</b> a reason to deem him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "can"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "go back"
+     },
+     {
+      "he": "וּלְלַמֵּד",
+      "en": "and teach"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "guilt"
+     }
+    ]
+   },
+   {
+    "he": "טָעוּ בְדָּבָר,",
+    "en": "If they made a mistake about what they said,",
+    "st": "If <b>they erred in the matter,</b>",
+    "stMore": "as one of the judges forgot what he had said the previous day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָעוּ",
+      "en": "they erred"
+     },
+     {
+      "he": "בְדָּבָר,",
+      "en": "in the matter"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵי סוֹפְרֵי הַדַּיָּנִין מַזְכִּירִין אוֹתָן.",
+    "en": "the two scribes of the judges remind them.",
+    "st": "<b>two judges’ scribes,</b> who recorded the statements of the judges, <b>remind him. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "סוֹפְרֵי",
+      "en": "scribes of"
+     },
+     {
+      "he": "הַדַּיָּנִין",
+      "en": "the judges"
+     },
+     {
+      "he": "מַזְכִּירִין",
+      "en": "remind"
+     },
+     {
+      "he": "אוֹתָן.",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "אִם מָצְאוּ לוֹ זְכוּת, פְּטָרוּהוּ.",
+    "en": "If they found a reason he is not guilty, they let him go.",
+    "st": "<b>If</b> the court then <b>found</b> it fit to <b>acquit him</b> unanimously, <b>they excuse him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מָצְאוּ",
+      "en": "they found"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "זְכוּת,",
+      "en": "merit"
+     },
+     {
+      "he": "פְּטָרוּהוּ.",
+      "en": "they freed him"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "And if not,",
+    "st": "<b>and if not</b> all of the judges determine to acquit,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "עוֹמְדִים לְמִנְיָן.",
+    "en": "they stand up to vote.",
+    "st": "<b>they stand to count</b> the vote.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹמְדִים",
+      "en": "they stand"
+     },
+     {
+      "he": "לְמִנְיָן.",
+      "en": "for counting"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵים עָשָׂר מְזַכִּין וְאַחַד עָשָׂר מְחַיְּבִין, זַכַּאי.",
+    "en": "If twelve say \"not guilty\" and eleven say \"guilty,\" he is not guilty.",
+    "st": "If <b>twelve</b> judges vote to <b>acquit</b> him <b>and eleven</b> judges <b>deem</b> him <b>liable,</b> he is <b>acquitted.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "מְזַכִּין",
+      "en": "say not guilty"
+     },
+     {
+      "he": "וְאַחַד",
+      "en": "and one"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "מְחַיְּבִין,",
+      "en": "say guilty"
+     },
+     {
+      "he": "זַכַּאי.",
+      "en": "not guilty"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵים עָשָׂר מְחַיְּבִין וְאַחַד עָשָׂר מְזַכִּין,",
+    "en": "If twelve say \"guilty\" and eleven say \"not guilty,\"",
+    "st": "The mishna continues: In a case where <b>twelve</b> judges <b>deem</b> him <b>liable and eleven</b> judges <b>acquit; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "say guilty"
+     },
+     {
+      "he": "וְאַחַד",
+      "en": "and one"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "מְזַכִּין,",
+      "en": "say not guilty"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ אַחַד עָשָׂר מְזַכִּין",
+    "en": "or even if eleven say \"not guilty,\"",
+    "st": "<b>or even</b> if <b>eleven</b> judges <b>acquit </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "מְזַכִּין",
+      "en": "say not guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַד עָשָׂר מְחַיְּבִין",
+    "en": "and eleven say \"guilty,\"",
+    "st": "<b>and eleven deem</b> him <b>liable </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַד",
+      "en": "and one"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "say guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד אוֹמֵר אֵינִי יוֹדֵעַ,",
+    "en": "and one says \"I do not know,\"",
+    "st": "<b>and one</b> judge <b>says: I do not know; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "יוֹדֵעַ,",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ עֶשְׂרִים וּשְׁנַיִם מְזַכִּין",
+    "en": "or even if twenty-two say \"not guilty\"",
+    "st": "<b>or even</b> if <b>twenty-two</b> judges <b>acquit </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וּשְׁנַיִם",
+      "en": "and two"
+     },
+     {
+      "he": "מְזַכִּין",
+      "en": "say not guilty"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מְחַיְּבִין",
+    "en": "or say \"guilty,\"",
+    "st": "<b>or deem</b> him <b>liable </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "say guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד אוֹמֵר אֵינִי יוֹדֵעַ,",
+    "en": "and one says \"I do not know,\"",
+    "st": "<b>and one</b> judge <b>says: I do not know,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "יוֹדֵעַ,",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "יוֹסִיפוּ הַדַּיָּנִין.",
+    "en": "they must add more judges.",
+    "st": "the judge who said he does not know is disregarded, and <b>the judges add</b>",
+    "stMore": "additional judges to the court until they reach a definitive ruling.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹסִיפוּ",
+      "en": "they shall add"
+     },
+     {
+      "he": "הַדַּיָּנִין.",
+      "en": "the judges"
+     }
+    ]
+   },
+   {
+    "he": "עַד כַּמָּה מוֹסִיפִין,",
+    "en": "Up to how many do they add?",
+    "st": "<b>And how many</b> judges <b>do they add?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how many"
+     },
+     {
+      "he": "מוֹסִיפִין,",
+      "en": "they add"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַיִם שְׁנַיִם עַד שִׁבְעִים וְאֶחָד.",
+    "en": "Two at a time, up to seventy-one.",
+    "st": "They add <b>pairs of two</b> judges each time they do not reach a ruling <b>until</b> there are <b>seventy-one</b> judges, but no more than that.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלֹשִׁים וְשִׁשָּׁה מְזַכִּין וּשְׁלֹשִׁים וַחֲמִשָּׁה מְחַיְּבִין, זַכַּאי.",
+    "en": "If thirty-six say \"not guilty\" and thirty-five say \"guilty,\" he is not guilty.",
+    "st": "At that point, if <b>thirty-six</b> judges <b>acquit and thirty-five</b> judges <b>deem</b> him <b>liable,</b> he is <b>acquitted.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "וְשִׁשָּׁה",
+      "en": "and six"
+     },
+     {
+      "he": "מְזַכִּין",
+      "en": "say not guilty"
+     },
+     {
+      "he": "וּשְׁלֹשִׁים",
+      "en": "and thirty"
+     },
+     {
+      "he": "וַחֲמִשָּׁה",
+      "en": "and five"
+     },
+     {
+      "he": "מְחַיְּבִין,",
+      "en": "say guilty"
+     },
+     {
+      "he": "זַכַּאי.",
+      "en": "not guilty"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלֹשִׁים וְשִׁשָּׁה מְחַיְּבִין וּשְׁלֹשִׁים וַחֲמִשָּׁה מְזַכִּין,",
+    "en": "If thirty-six say \"guilty\" and thirty-five say \"not guilty,\"",
+    "st": "If <b>thirty-six</b> judges <b>deem</b> him <b>liable and thirty-five</b> judges <b>acquit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "וְשִׁשָּׁה",
+      "en": "and six"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "say guilty"
+     },
+     {
+      "he": "וּשְׁלֹשִׁים",
+      "en": "and thirty"
+     },
+     {
+      "he": "וַחֲמִשָּׁה",
+      "en": "and five"
+     },
+     {
+      "he": "מְזַכִּין,",
+      "en": "say not guilty"
+     }
+    ]
+   },
+   {
+    "he": "דָּנִין אֵלּוּ כְּנֶגֶד אֵלּוּ עַד שֶׁיִּרְאֶה",
+    "en": "these and those discuss it, until",
+    "st": "<b>they</b> continue to <b>deliberate</b> the matter, <b>these</b> judges <b>against those</b> judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּנִין",
+      "en": "they judge"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "כְּנֶגֶד",
+      "en": "against"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "those"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּרְאֶה",
+      "en": "sees"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד מִן הַמְחַיְּבִין דִּבְרֵי הַמְזַכִּין:",
+    "en": "one of those who say \"guilty\" agrees with those who say \"not guilty.\"",
+    "explain": "We do not give a death penalty when the majority is only one judge.",
+    "st": "<b>until one of those who deems</b> him <b>liable sees</b> the validity of <b>the statements of those who acquit</b>",
+    "stMore": "and changes his position, as the court does not condemn a defendant to death by a majority of one judge.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמְחַיְּבִין",
+      "en": "those who say guilty"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "הַמְזַכִּין:",
+      "en": "those who say not guilty"
+     }
+    ]
+   }
+  ]
+ }
+]
