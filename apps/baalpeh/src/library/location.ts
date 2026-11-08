@@ -1,5 +1,6 @@
 import { entryOf, perekSize } from "../data";
 import type { KV } from "../sync/store";
+import type { MeaningView } from "../types";
 
 /**
  * The library's place in the Mishnah, its URL and what it remembers. Pure (no React); the library tracks no progress,
@@ -107,4 +108,15 @@ export function loadScale(kv: KV): number {
 
 export function saveScale(kv: KV, scale: number): void {
   try { kv.setItem(LIBRARY_SCALE_KEY, String(scale)); } catch { /* ignore */ }
+}
+
+/** The library's meaning view (Simple or Steinsaltz), separate from any child's setting. */
+export const LIBRARY_VIEW_KEY = "baalpeh:library:view";
+
+export function loadView(kv: KV): MeaningView {
+  try { return kv.getItem(LIBRARY_VIEW_KEY) === "steinsaltz" ? "steinsaltz" : "simple"; } catch { return "simple"; }
+}
+
+export function saveView(kv: KV, v: MeaningView): void {
+  try { kv.setItem(LIBRARY_VIEW_KEY, v); } catch { /* ignore */ }
 }

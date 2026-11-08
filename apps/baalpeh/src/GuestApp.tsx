@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { loadGuest, saveGuest, sessionGuest } from "./guest";
 import { kv } from "./kv";
+import { useOpenLibrary } from "./library/open";
 import { dueReviews, isKnown, mp, nextInPerek, nextLearning, type Task } from "./progress";
 import { BreakSetting } from "./components/BreakSetting";
 import { AboutNote, LicensesLink, PricingNote } from "./components/Licenses";
@@ -210,11 +211,13 @@ export function GuestApp({ onSignIn, onExit, start }: Props) {
 }
 
 function GuestPill({ saved, onOpen }: { saved: boolean; onOpen: () => void }) {
+  const openLibrary = useOpenLibrary();
   return (
     <div className="guest-bar" dir="ltr">
       <button className="guest-pill" onClick={onOpen} aria-haspopup="dialog">
         {saved ? "Guest · progress saved only in this browser" : "Guest · nothing is saved"}
       </button>
+      {openLibrary && <button className="library-pill" onClick={openLibrary}>📚 Library</button>}
     </div>
   );
 }
@@ -222,6 +225,7 @@ function GuestPill({ saved, onOpen }: { saved: boolean; onOpen: () => void }) {
 function GuestInfo({ onSignIn, onExit, onSettings, onClose }: {
   onSignIn?: () => void; onExit?: () => void; onSettings: () => void; onClose: () => void;
 }) {
+  const openLibrary = useOpenLibrary();
   return (
     <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="guest-title" onClick={onClose}>
       <div className="sheet guest-sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
@@ -238,6 +242,9 @@ function GuestInfo({ onSignIn, onExit, onSettings, onClose }: {
             <p>Nothing you learn as a guest is saved or added to your account. When you switch back, the guest is forgotten, and next time Guest starts fresh.</p>
             {onExit && <button className="btn primary" onClick={onExit}>‹ Back to Who's learning?</button>}
           </>
+        )}
+        {openLibrary && (
+          <button className="btn secondary" onClick={() => { onClose(); openLibrary(); }}>📚 Open the Library</button>
         )}
         <div className="row center">
           <button className="btn ghost-btn small" onClick={onSettings}>⚙ Settings</button>

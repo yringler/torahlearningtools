@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { SESSION_GUEST_EMOJI } from "../guest";
 import { kv } from "../kv";
+import { useOpenLibrary } from "../library/open";
 import type { SyncStatus } from "../sync/engine";
 import type { Profile } from "../types";
 
@@ -36,6 +37,7 @@ export const PARENT_NOTE = "Parents now have their own sign-in, with a 4-digit P
 /** "Who's learning?" — the learner app's first screen. It holds nothing a child could change for the family. */
 export function Profiles({ profiles, status, loading, onPick, onGuest, onParentSignIn }: Props) {
   const [busy, setBusy] = useState(false);
+  const openLibrary = useOpenLibrary();
   const [showNote, setShowNote] = useState(() => !noteSeen());
   const closeNote = () => {
     try { kv.setItem(PARENT_NOTE_KEY, "1"); } catch { /* ignore */ }
@@ -66,6 +68,13 @@ export function Profiles({ profiles, status, loading, onPick, onGuest, onParentS
               <span className="name">Guest</span>
               <span className="sub">nothing saved</span>
             </button>
+            {openLibrary && (
+              <button className="profile-tile library" onClick={openLibrary} aria-label="Library (read any mishnah, nothing saved)">
+                <span className="emoji">📚</span>
+                <span className="name">Library</span>
+                <span className="sub">read anything</span>
+              </button>
+            )}
           </div>
           {showNote && (
             <div className="parent-note" role="note">
@@ -83,6 +92,7 @@ export function Profiles({ profiles, status, loading, onPick, onGuest, onParentS
           <button className="btn primary" disabled={busy} onClick={parent}>🔑 Sign in as parent</button>
           <div className="or-divider" aria-hidden="true"><span>or</span></div>
           <button className="btn guest-first-run" onClick={onGuest}>{SESSION_GUEST_EMOJI} Learn as a guest <span className="sub">nothing saved</span></button>
+          {openLibrary && <button className="btn guest-first-run" onClick={openLibrary}>📚 Open the Library <span className="sub">read any mishnah</span></button>}
         </div>
       )}
       <button className="link-btn parent-link" disabled={busy} onClick={parent}>{busy ? "Opening parent sign-in…" : "Parent? Sign in as parent"}</button>
