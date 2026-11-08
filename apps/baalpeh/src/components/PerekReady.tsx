@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { type LearningEventBody, type Ms } from "../../shared/api";
-import { hebNum, MASECHTA, DEFAULT_MASECHTA_ID } from "../data";
+import { hebNum } from "../data";
 import { kv } from "../kv";
 import { perekPhrases } from "../perekSteps";
 import { agoText, markCelebrated, minutesLeft, wasCelebrated, type RequestResult } from "../perekTest";
 import type { LastTest } from "../sync/store";
 import type { Cue, Profile } from "../types";
+import { useMasechta } from "./MasechtaGate";
 import { GuestOffer, nextPerekOf, OfficialBody } from "./PerekGate";
 import { PerekStrip } from "./PerekStrip";
 import { Recite, type ReciteCard, type ReciteSection } from "./Recite";
@@ -65,10 +66,10 @@ type View =
 const POLL_MS = 30_000;
 
 /** The perek as phrase cards, one section per mishnah (the same pieces as the email). */
-function perekCards(perek: number): { cards: ReciteCard[]; sections: ReciteSection[] } {
+function perekCards(masechta: string, perek: number): { cards: ReciteCard[]; sections: ReciteSection[] } {
   const cards: ReciteCard[] = [];
   const sections: ReciteSection[] = [];
-  for (const { mishnah, phrases } of perekPhrases(perek)) {
+  for (const { mishnah, phrases } of perekPhrases(masechta, perek)) {
     const start = cards.length;
     for (const he of phrases) cards.push({ he });
     sections.push({ label: `משנה ${hebNum(mishnah)}`, start, end: cards.length });
@@ -77,9 +78,10 @@ function perekCards(perek: number): { cards: ReciteCard[]; sections: ReciteSecti
 }
 
 function WholePerek({ perek }: { perek: number }) {
+  const { id } = useMasechta();
   return (
     <>
-      {perekPhrases(perek).map(({ mishnah, phrases }) => (
+      {perekPhrases(id, perek).map(({ mishnah, phrases }) => (
         <section key={mishnah} className="mcard">
           <div className="mcard-label">משנה {hebNum(mishnah)}</div>
           <div className="cards compact">
@@ -98,10 +100,11 @@ function WholePerek({ perek }: { perek: number }) {
  */
 export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFinishGuest, onNext, nextLabel, onEvent }: Props) {
   const name = profile.name;
+  const m = useMasechta();
   const verifiedAt = test?.verifiedAt(perek) ?? null;
   const [view, setView] = useState<View>(() => {
     if (!test) return { v: "ready" };
-    if (verifiedAt !== null) return wasCelebrated(kv, profile.id, DEFAULT_MASECHTA_ID, perek, verifiedAt) ? { v: "already" } : { v: "official" };
+    if (verifiedAt !== null) return wasCelebrated(kv, profile.id, m.id, perek, verifiedAt) ? { v: "already" } : { v: "official" };
     return test.lastTest(perek) ? { v: "waiting" } : { v: "ready" };
   });
   const [, setTick] = useState(0);
@@ -113,8 +116,8 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
     if (view.v !== "official" && view.v !== "already") setView({ v: "official" });
   }, [verifiedAt, view.v]);
   useEffect(() => {
-    if (view.v === "official" && verifiedAt !== null) markCelebrated(kv, profile.id, DEFAULT_MASECHTA_ID, perek, verifiedAt);
-  }, [view.v, verifiedAt, profile.id, perek]);
+    if (view.v === "official" && verifiedAt !== null) markCelebrated(kv, profile.id, m.id, perek, verifiedAt);
+  }, [view.v, verifiedAt, profile.id, perek, m.id]);
 
   // While waiting is on screen: sync on mount, when visible again, on focus, and every 30 s; tick the countdown.
   const waiting = view.v === "waiting" || ((view.v === "read" || view.v === "confirm") && view.back === "waiting");
@@ -136,13 +139,13 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
     };
   }, [waiting, refresh]);
 
-  const { cards, sections } = useMemo(() => perekCards(perek), [perek]);
-  const np = nextPerekOf(perek);
+  const { cards, sections } = useMemo(() => perekCards(m.id, perek), [m.id, perek]);
+  const np = nextPerekOf(m.shape, perek);
   const heading = (
     <div className="celebrate" dir="ltr">
       <div className="big-emoji">🎯</div>
       <h2>You built the whole perek, {name}!</h2>
-      <p><bdi>{MASECHTA.masechta} פרק {hebNum(perek)}</bdi></p>
+      <p><bdi>{m.he} פרק {hebNum(perek)}</bdi></p>
     </div>
   );
 
@@ -201,7 +204,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
       <div className="celebrate" dir="ltr">
         <div className="big-emoji">✔</div>
         <h2>You already showed Abba or Ima this perek!</h2>
-        <p><bdi>{MASECHTA.masechta} פרק {hebNum(perek)}</bdi> is officially done.</p>
+        <p><bdi>{m.he} פרק {hebNum(perek)}</bdi> is officially done.</p>
         {onNext && <button className="btn primary big" onClick={onNext}>{nextLabel ?? "Keep going ›"}</button>}
         <button className={onNext ? "btn secondary" : "btn primary big"} onClick={onMap}>🗺️ See my map</button>
       </div>
@@ -239,7 +242,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
   if (view.v === "read") {
     return (
       <div className="perek-ready">
-        <h2 className="task-title" dir="ltr">Read it through · <bdi>{MASECHTA.masechta} פרק {hebNum(perek)}</bdi></h2>
+        <h2 className="task-title" dir="ltr">Read it through · <bdi>{m.he} פרק {hebNum(perek)}</bdi></h2>
         <WholePerek perek={perek} />
         <div className="actions" dir="ltr">
           <button className="btn primary big" onClick={() => setView({ v: view.back })}>I read it ›</button>
@@ -291,7 +294,7 @@ export function PerekReady({ profile, perek, onPracticeMore, onMap, test, onFini
           <h2>{cooldown ? "We already let Abba or Ima know a few minutes ago!" : "Go show Abba or Ima what you learned!"}</h2>
           <p>
             Say it for them. When they tap the link in the email,{" "}
-            {np !== null ? <><bdi>פרק {hebNum(np)}</bdi> opens.</> : <><bdi>מסכת {MASECHTA.masechta}</bdi> is all done!</>}
+            {np !== null ? <><bdi>פרק {hebNum(np)}</bdi> opens.</> : <><bdi>מסכת {m.he}</bdi> is all done!</>}
             {t && <> Sent {agoText(t.sentAt, now)}.</>}
           </p>
           {!test.online && <p className="hint">Connect to the internet to see if Abba or Ima tapped the link.</p>}

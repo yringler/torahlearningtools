@@ -81,3 +81,48 @@ describe("perek-level recite ranges", () => {
     if (old.ok) expect("from" in (old.value.events[0] ?? {})).toBe(false);
   });
 });
+
+describe("multi-masechta keys and ids", () => {
+  const rec = (kind: "m" | "p", key: string) => {
+    const data = kind === "m" ? { stepIndex: 1, state: "learning", fails: {} } : { chainedThrough: 1, complete: false };
+    return validateSync({ cursor: 0, children: [], events: [], records: [{ kind, childId: crypto.randomUUID(), key, updatedAt: Date.now(), data }] });
+  };
+
+  it("accepts Berakhot's unqualified keys and other masechtos' qualified keys", () => {
+    for (const k of ["1:2", "peah/1:2", "demai/7:8", "bava_kamma/10:3"]) expect(rec("m", k).ok, k).toBe(true);
+    for (const k of ["1", "peah/1", "demai/7"]) expect(rec("p", k).ok, k).toBe(true);
+  });
+
+  it("rejects berakhot/ keys and bad shapes", () => {
+    for (const k of ["berakhot/1:2", "Peah/1:2", "peah/", "peah/1:2:3", "../1:2", "1234:1", "peah/1:1000", "peah/1", "x"]) expect(rec("m", k).ok, k).toBe(false);
+    for (const k of ["berakhot/1", "Peah/1", "peah/", "peah/1:2", "../1", "1000"]) expect(rec("p", k).ok, k).toBe(false);
+  });
+
+  it("keeps a valid lastMasechta and rejects an invalid one", () => {
+    expect(childMeta({ ...base, settings: { fontScale: 1, lastMasechta: "peah" } }, "meta").settings).toEqual({ fontScale: 1, lastMasechta: "peah" });
+    for (const v of ["Peah", "p", "../x", 3, null, "a".repeat(33)]) {
+      expect(() => childMeta({ ...base, settings: { fontScale: 1, lastMasechta: v } }, "meta"), String(v)).toThrow();
+    }
+  });
+
+  it("validates and carries event.masechta on every event type; absent stays absent", () => {
+    const env = { id: crypto.randomUUID(), childId: crypto.randomUUID(), at: Date.now(), day: "2026-11-03" };
+    const bodies = [
+      { type: "recite", task: "learn", perek: 1, mishnah: 1, step: 0, grade: "pass", peeks: 0, ms: 1000 },
+      { type: "check", scope: "mishnah", perek: 1, mishnah: 1, through: null, grade: "pass", slipped: [], slipWords: 0 },
+      { type: "session", startedAt: Date.now() - 1000, ms: 1000, steps: 1 },
+      { type: "reset", perek: 1, mishnah: 1 },
+    ];
+    for (const b of bodies) {
+      const withM = validateSync({ cursor: 0, children: [], records: [], events: [{ ...env, ...b, masechta: "peah" }] });
+      expect(withM.ok, b.type).toBe(true);
+      if (withM.ok) expect(withM.value.events[0]?.masechta).toBe("peah");
+      const without = validateSync({ cursor: 0, children: [], records: [], events: [{ ...env, ...b }] });
+      expect(without.ok).toBe(true);
+      if (without.ok) expect("masechta" in (without.value.events[0] ?? {})).toBe(false);
+      for (const bad of ["Peah", "../x", 1, null]) {
+        expect(validateSync({ cursor: 0, children: [], records: [], events: [{ ...env, ...b, masechta: bad }] }).ok, `${b.type} ${String(bad)}`).toBe(false);
+      }
+    }
+  });
+});

@@ -8,6 +8,10 @@ import {
   buildSteps, groupIndexOf, groupRange, pathGroups, pathGroupsFor, practiceLabel, segments, stepPosition, type PathNode,
 } from "../src/steps";
 import type { Chunk } from "../src/types";
+import { shapeOf as shapeOfBR } from "../src/data";
+
+/** Berakhot: the masechta every test here runs against (tests/setup-data.ts makes it active). */
+const BR = shapeOfBR("berakhot");
 
 /** n chunks with no sentence ends, so segments split evenly (15 → 5 + 5 + 5). */
 const chunks = (n: number): Chunk[] => Array.from({ length: n }, (_, i) => ({ he: `מילה${i},`, en: "", words: [] }));
@@ -132,7 +136,7 @@ const keyOf = (s: PerekStep): string => (s.kind === "mishnah" ? `M${s.mishnah}` 
 describe("perekSteps", () => {
   it("builds a 5-mishnah perek as one cumulative chain", () => {
     expect(mishnayosOf(1)).toHaveLength(5);
-    const steps = perekSteps(1);
+    const steps = perekSteps(BR, 1);
     expect(steps.map(keyOf)).toEqual(["M1", "M2", "C1-2", "M3", "C1-3", "M4", "C1-4", "M5", "C1-5"]);
     expect(steps.map((s) => s.label)).toEqual([
       "Mishnah 1", "Mishnah 2", "Mishnayos 1–2 together", "Mishnah 3", "Mishnayos 1–3 together",
@@ -143,7 +147,7 @@ describe("perekSteps", () => {
 
   it("builds an 8-mishnah perek in two parts, then joins them", () => {
     expect(mishnayosOf(2)).toHaveLength(8);
-    const steps = perekSteps(2);
+    const steps = perekSteps(BR, 2);
     expect(steps.map(keyOf)).toEqual(["M1", "M2", "C1-2", "M3", "C1-3", "M4", "C1-4", "M5", "M6", "C5-6", "M7", "C5-7", "M8", "C5-8", "C1-8"]);
     expect(steps.find((s) => keyOf(s) === "C5-7")?.label).toBe("Part 2 · Mishnayos 5–7 together");
     expect(steps[steps.length - 1]?.label).toBe("The whole perek!");
@@ -179,7 +183,7 @@ describe("perekParts", () => {
   it("every perek in the data: each mishnah once, chains after their mishnayos, ending with the whole perek", () => {
     for (const perek of PERAKIM) {
       const n = mishnayosOf(perek).length;
-      const steps = perekSteps(perek);
+      const steps = perekSteps(BR, perek);
       const ms = steps.filter((s) => s.kind === "mishnah").map((s) => (s.kind === "mishnah" ? s.mishnah : 0));
       expect(ms).toEqual(Array.from({ length: n }, (_, i) => i + 1));
       const seen = new Set<number>();
@@ -195,8 +199,8 @@ describe("perekParts", () => {
 describe("perek path groups", () => {
   it("covers every perek step once, in contiguous groups", () => {
     for (const perek of PERAKIM) {
-      const steps = perekSteps(perek);
-      const groups = pathGroupsFor(perekPathSteps(steps), perekSegs(perek));
+      const steps = perekSteps(BR, perek);
+      const groups = pathGroupsFor(perekPathSteps(steps), perekSegs(BR, perek));
       const seen = groups.flatMap((g) => stepNodes(g.nodes)).map((n) => (n.type === "partTile" ? -1 : n.step)).sort((a, b) => a - b);
       expect(seen).toEqual(steps.map((_, i) => i));
       for (const g of groups) {
@@ -218,9 +222,9 @@ describe("perek path groups", () => {
 
 describe("perek helpers", () => {
   it("names practice ranges", () => {
-    expect(perekPracticeLabel(2, 2, 2)).toBe("Mishnah 2");
-    expect(perekPracticeLabel(2, 1, 2)).toBe("Mishnayos 1–2 together");
-    expect(perekPracticeLabel(2, 1, 8)).toBe("The whole perek");
+    expect(perekPracticeLabel(BR, 2, 2, 2)).toBe("Mishnah 2");
+    expect(perekPracticeLabel(BR, 2, 1, 2)).toBe("Mishnayos 1–2 together");
+    expect(perekPracticeLabel(BR, 2, 1, 8)).toBe("The whole perek");
   });
 
   it("parses chain keys strictly", () => {
@@ -230,7 +234,7 @@ describe("perek helpers", () => {
   });
 
   it("splits the perek phrase by phrase", () => {
-    const text = perekPhrases(1);
+    const text = perekPhrases("berakhot", 1);
     expect(text.map((t) => t.mishnah)).toEqual([1, 2, 3, 4, 5]);
     expect(text[0]?.phrases).toEqual(mishnayosOf(1)[0]?.chunks.map((c) => c.he));
   });

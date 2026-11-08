@@ -4,7 +4,8 @@
  * (Additive, backward-compatible exceptions signed off for docs/PARENT_VERIFICATION.md §4: the perek-test types,
  * SyncResponse.verifications and ReciteTask "pre-test"; and for docs/PARENT_MODE.md §5: sign-in scopes, the PARENT
  * constants, the /api/parent/* and /api/pin-reset types, the PIN error codes, byParent on returned rows, and the PIN
- * fields of the perek-test types.)
+ * fields of the perek-test types; and for multi-masechta progress, docs/SERVER_PLAN.md §8.1: ChildSettings.lastMasechta,
+ * the optional `masechta` on events and StruggleRow.masechta. Key helpers live in shared/progressKey.ts.)
  * Environment-neutral: no DOM or Workers types, no runtime imports.
  */
 
@@ -183,6 +184,8 @@ export interface ChildSettings {
   /** Absent: break suggestions are off. */
   breakMinutes?: number;
   meaningView?: MeaningView;
+  /** Catalog id of the masechta this child last opened (shared/progressKey.ts isMasechtaId). Absent: the default. */
+  lastMasechta?: string;
 }
 
 export interface ChildMeta {
@@ -214,13 +217,13 @@ interface RecordBase {
    *  pending local value for the same key when such a row arrives (docs/PARENT_MODE.md §8.2). */
   byParent?: true;
 }
-/** key "perek:mishnah", e.g. "1:3". */
+/** key "perek:mishnah" for Berakhot ("1:3"), "<masechta>/perek:mishnah" otherwise ("peah/1:3"); shared/progressKey.ts. */
 export interface MishnahRecord extends RecordBase {
   kind: "m";
   key: string;
   data: MishnahProgressData;
 }
-/** key "perek", e.g. "1". */
+/** key "perek" for Berakhot ("1"), "<masechta>/perek" otherwise ("peah/1"); shared/progressKey.ts. */
 export interface PerekRecord extends RecordBase {
   kind: "p";
   key: string;
@@ -256,6 +259,8 @@ export interface ReciteEvent {
   /** Perek-level recites (mishnah null): the 1-based mishnah range said. Absent on older events. */
   from?: number;
   to?: number;
+  /** Catalog id. Absent (older events): Berakhot. */
+  masechta?: string;
 }
 
 export interface CheckEvent {
@@ -271,6 +276,8 @@ export interface CheckEvent {
   slipped: number[];
   /** Number of words the parent tapped. */
   slipWords: number;
+  /** Catalog id. Absent (older events): Berakhot. */
+  masechta?: string;
 }
 
 export interface SessionEvent {
@@ -279,12 +286,16 @@ export interface SessionEvent {
   /** Duration, capped at 3 h by the client. */
   ms: number;
   steps: number;
+  /** Catalog id of the masechta learned in this session. Absent (older events): Berakhot. */
+  masechta?: string;
 }
 
 export interface ResetEvent {
   type: "reset";
   perek: number;
   mishnah: number;
+  /** Catalog id. Absent (older events): Berakhot. */
+  masechta?: string;
 }
 
 export type LearningEventBody = ReciteEvent | CheckEvent | SessionEvent | ResetEvent;
@@ -435,8 +446,10 @@ export interface EventsResponse {
   nextBefore: Ms | null;
 }
 
-/** One row per (perek, mishnah) with recite/check events in the window; mishnah null = perek-level. */
+/** One row per (masechta, perek, mishnah) with recite/check events in the window; mishnah null = perek-level. */
 export interface StruggleRow {
+  /** Catalog id; events without one count as "berakhot". */
+  masechta: string;
   perek: number;
   mishnah: number | null;
   attempts: number;

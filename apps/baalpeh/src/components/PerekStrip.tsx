@@ -1,6 +1,7 @@
-import { hebNum, mishnayosOf } from "../data";
+import { hebNum, mishnahNums } from "../data";
 import { isKnown, joined, mp, type Task } from "../progress";
 import type { Profile } from "../types";
+import { useMasechta } from "./MasechtaGate";
 
 interface Props {
   profile: Profile;
@@ -20,12 +21,13 @@ interface Props {
  * have been said together. Colour is never the only signal: a done join is thick and solid, a todo join dotted.
  */
 export function PerekStrip({ profile, perek, size, next, justJoined, onOpenMishnah }: Props) {
-  const list = mishnayosOf(perek);
+  const { shape: ms } = useMasechta();
+  const list = mishnahNums(ms, perek).map((mishnah) => ({ mishnah }));
   const here = next && next.perek === perek ? next : null;
   const interactive = size === "map" && onOpenMishnah !== undefined;
 
   const circle = (m: number) => {
-    const st = mp(profile, perek, m);
+    const st = mp(profile, ms, perek, m);
     const isHere = here?.type === "learn" && here.mishnah === m;
     const cls = `circle ${st.state}${isHere ? " here" : ""}`;
     const body = (
@@ -48,7 +50,7 @@ export function PerekStrip({ profile, perek, size, next, justJoined, onOpenMishn
   };
 
   const joinCls = (m: number): string => {
-    const done = joined(profile, perek, m);
+    const done = joined(profile, ms, perek, m);
     const isHere = !done && here?.type === "perek-chain" && here.from < m && m <= here.to;
     const just = done && justJoined?.includes(m);
     return `join${done ? " done" : ""}${isHere ? " here" : ""}${just ? " just" : ""}`;

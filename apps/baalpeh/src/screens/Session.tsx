@@ -7,7 +7,8 @@ import { PerekStrip } from "../components/PerekStrip";
 import { ReadPhase } from "../components/ReadPhase";
 import { Recite, type ReciteCard, type ReciteSection } from "../components/Recite";
 import { StepPath } from "../components/StepPath";
-import { getMishnah, hebNum, mishnayosOf, MASECHTA } from "../data";
+import { useMasechta } from "../components/MasechtaGate";
+import { getMishnah, hebNum, mishnayosOf, MASECHTA, perekSize } from "../data";
 import { partOf, perekParts, perekSteps, stepSelKey } from "../perekSteps";
 import {
   checkPerek, completeStep, markDay, mp, nextInPerek, nextLearning, parentCheckMishnah, passPerekChain, perekDone, perekStage,
@@ -39,6 +40,9 @@ interface Props {
 }
 
 type Emit = (e: LearningEventBody) => void;
+
+/** Every event a session logs names its masechta, Berakhot included (shared/api.ts: absent means an older client). */
+export const stampEvent = (e: LearningEventBody, masechta: string): LearningEventBody => ({ ...e, masechta });
 
 const MAX_MS = 3 * 60 * 60 * 1000;
 const elapsed = (since: number): number => Math.min(MAX_MS, Math.max(0, Math.round(Date.now() - since)));
@@ -75,6 +79,8 @@ type View =
   | { v: "empty" };
 
 export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNextOf, onEvent, perekTest }: Props) {
+  // Every task of a session is in the masechta of its gate; every event it logs carries that masechta.
+  const { id: masechta, shape: ms } = useMasechta();
   const [queue, setQueue] = useState<Task[]>(tasks);
   const [view, setView] = useState<View>(tasks.length ? { v: "task" } : { v: "empty" });
   /** Bumped by "Practice it again" to restart a practice run. */
@@ -86,7 +92,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
   const breakShown = useRef(false);
   const onEventRef = useRef(onEvent);
   onEventRef.current = onEvent;
-  const emit: Emit = (e) => onEventRef.current?.(e);
+  const emit: Emit = (e) => onEventRef.current?.(stampEvent(e, masechta));
 
   const task = queue[0];
   const taskStart = useRef(Date.now());
@@ -97,9 +103,9 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
     const startedAt = started.current;
     return () => {
       const ms = Date.now() - startedAt;
-      if (ms >= 5000) onEventRef.current?.({ type: "session", startedAt, ms: Math.min(ms, MAX_MS), steps: stepsThisSession.current });
+      if (ms >= 5000) onEventRef.current?.(stampEvent({ type: "session", startedAt, ms: Math.min(ms, MAX_MS), steps: stepsThisSession.current }, masechta));
     };
-  }, []);
+  }, [masechta]);
 
   const save = (p: Profile) => onProfile(markDay(p));
 
@@ -123,7 +129,8 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
   };
 
   /** What "keep going" leads to after a celebration: the queued task, or else the next new learning. */
-  const upNext: Task | null = queue[0] ?? (upNextOf ?? nextLearning)(profile);
+  const ungatedNext = (p: Profile): Task | null => nextLearning(p, ms);
+  const upNext: Task | null = queue[0] ?? (upNextOf ?? ungatedNext)(profile);
 
   const afterCelebrate = () => {
     if (!queue.length && upNext) setQueue([upNext]);
@@ -197,8 +204,8 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
       </div>
     );
   } else if (view.v === "practiced" && task?.type === "practice") {
-    const st = mp(profile, task.perek, task.mishnah);
-    const reviewDue = isDue(st.review) && !perekDone(profile, task.perek);
+    const st = mp(profile, ms, task.perek, task.mishnah);
+    const reviewDue = isDue(st.review) && !perekDone(profile, ms, task.perek);
     const back = <button className={reviewDue ? "btn secondary" : "btn primary big"} onClick={onExit}>‹ Back to the mishnah</button>;
     body = (
       <div className="celebrate" dir="ltr">
@@ -208,7 +215,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
         {reviewDue ? (
           // The real test is waiting today: offer it first.
           <>
-            <button className="btn primary big" onClick={() => { setQueue([{ type: "review-m", perek: task.perek, mishnah: task.mishnah }]); setView({ v: "task" }); }}>
+            <button className="btn primary big" onClick={() => { setQueue([{ masechta, type: "review-m", perek: task.perek, mishnah: task.mishnah }]); setView({ v: "task" }); }}>
               🔁 Review it now
             </button>
             {back}
@@ -285,7 +292,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
           prompts={["Say the whole mishnah by heart."]}
           onDone={(g, peeks) => {
             emit(recite("review-m", task.perek, task.mishnah, null, g, peeks, taskStart.current));
-            finishTask(reviewMishnah(profile, task.perek, task.mishnah, g), g === "notyet"
+            finishTask(reviewMishnah(profile, ms, task.perek, task.mishnah, g), g === "notyet"
             ? { title: "Let's practice this one again", sub: "It will come back tomorrow.", stars: 0 }
             : { title: "Still strong!", sub: ref(task.perek, task.mishnah), stars: g === "pass" ? 2 : 1 });
           }}
@@ -302,21 +309,21 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
         perek={perek}
         from={from}
         to={to}
-        label={practice ? task.label : perekSteps(perek).find((s) => s.kind === "chain" && s.from === from && s.to === to)?.label ?? `Mishnayos ${from}–${to} together`}
+        label={practice ? task.label : perekSteps(ms, perek).find((s) => s.kind === "chain" && s.from === from && s.to === to)?.label ?? `Mishnayos ${from}–${to} together`}
         practice={practice}
         onEvent={emit}
         onPassed={() => {
           stepsThisSession.current += 1;
           if (practice) { save(profile); setView({ v: "practiced" }); return; }
-          const p2 = passPerekChain(profile, perek, from, to);
-          if (perekStage(p2, perek) === "ready") {
+          const p2 = passPerekChain(profile, ms, perek, from, to);
+          if (perekStage(p2, ms, perek) === "ready") {
             // The whole perek is built: straight on to "ready to be tested".
             save(p2);
-            setQueue([{ type: "perek-finish", perek }, ...queue.slice(1)]);
+            setQueue([{ masechta, type: "perek-finish", perek }, ...queue.slice(1)]);
             setView({ v: "task" });
             return;
           }
-          const n = mishnayosOf(perek).length;
+          const n = perekSize(ms, perek);
           const parts = perekParts(n);
           const part = partOf(n, from, to);
           const partNo = part ? parts.findIndex(([a]) => a === part[0]) + 1 : 0;
@@ -331,13 +338,13 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
     );
   } else if (task.type === "perek-finish") {
     const { perek } = task;
-    body = perekStage(profile, perek) === "building" ? (
+    body = perekStage(profile, ms, perek) === "building" ? (
       <div className="celebrate" dir="ltr">
         <div className="big-emoji">🧱</div>
         <h2>Finish every step first</h2>
         <p><bdi>{ref(perek)}</bdi></p>
         {(() => {
-          const t = nextInPerek(profile, perek);
+          const t = nextInPerek(profile, ms, perek);
           return t ? <button className="btn primary big" onClick={() => setQueue([t, ...queue.slice(1)])}>{nextLabel(t)}</button> : mapBtn(true);
         })()}
       </div>
@@ -352,14 +359,14 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
         onMap={onMap}
         {...(() => {
           // After "It's official!": the next learning (more() reads the gate, which now includes this perek).
-          const t = (upNextOf ?? more ?? nextLearning)(profile);
+          const t = (upNextOf ?? more ?? ungatedNext)(profile);
           return t && !(t.type === "perek-finish" && t.perek === perek)
             ? { onNext: () => { setQueue([t]); setView({ v: "task" }); }, ...(t.type === "perek-finish" ? { nextLabel: nextLabel(t) } : {}) }
             : {};
         })()}
         {...(perekTest ? {} : {
           // Guest mode only: the perek is finished on this device. It never counts and never reaches an account.
-          onFinishGuest: () => finishTask(checkPerek(profile, perek, "pass"), {
+          onFinishGuest: () => finishTask(checkPerek(profile, ms, perek, "pass"), {
             title: `You finished ${ref(perek)}!`,
             sub: "You can say the whole perek in one shot. Mazel tov! In your own profile, you show Abba or Ima before the next perek opens.",
             stars: 3, milestone: "perek",
@@ -374,7 +381,7 @@ export function Session({ profile, tasks, onProfile, onExit, onMap, more, upNext
         perek={task.perek}
         onEvent={emit}
         onDone={(g, slippedMishnayos) =>
-          finishTask(reviewPerek(profile, task.perek, g, slippedMishnayos), { title: g === "notyet" ? "Good try!" : "The whole perek — still strong!", sub: ref(task.perek), stars: g === "pass" ? 2 : 1 })}
+          finishTask(reviewPerek(profile, ms, task.perek, g, slippedMishnayos), { title: g === "notyet" ? "Good try!" : "The whole perek — still strong!", sub: ref(task.perek), stars: g === "pass" ? 2 : 1 })}
       />
     );
   }
@@ -406,16 +413,17 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
   onFinished: (p: Profile, g: Grade) => void;
   onEvent: Emit;
 }) {
+  const { shape: ms } = useMasechta();
   const m = getMishnah(perek, mishnah);
   const steps = useMemo(() => buildSteps(m.chunks), [m]);
-  const stepIndex = mp(profile, perek, mishnah).stepIndex;
+  const stepIndex = mp(profile, ms, perek, mishnah).stepIndex;
   /** Bumped on every jump, so tapping the current step starts it over. */
   const [visit, setVisit] = useState(0);
 
   /** Free navigation: any step, back or forward (steps.length = the parent check). */
   const goTo = (i: number) => {
     setVisit((v) => v + 1);
-    onProfile(setStep(profile, perek, mishnah, i));
+    onProfile(setStep(profile, ms, perek, mishnah, i));
   };
   const path = <StepPath steps={steps} chunks={m.chunks} current={stepIndex} onJump={goTo} />;
 
@@ -434,7 +442,7 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
           cards={m.chunks}
           onDone={(g, slipped, slipWords) => {
             onEvent({ type: "check", scope: "mishnah", perek, mishnah, through: null, grade: g, slipped, slipWords });
-            const p = parentCheckMishnah(profile, perek, mishnah, g);
+            const p = parentCheckMishnah(profile, ms, perek, mishnah, g);
             onProfile(p);
             onFinished(p, g);
           }}
@@ -457,7 +465,7 @@ function LearnTask({ profile, perek, mishnah, onProfile, onStepPassed, onFinishe
       onBack={() => goTo(stepIndex - 1)}
       onNext={() => goTo(stepIndex + 1)}
       onPassed={() => {
-        onProfile(completeStep(profile, perek, mishnah).profile);
+        onProfile(completeStep(profile, ms, perek, mishnah).profile);
         onStepPassed();
       }}
       onProfile={onProfile}
@@ -645,10 +653,11 @@ function PerekStepTask({ profile, perek, from, to, label, practice, onPassed, on
   const start = useRef(Date.now());
   useEffect(() => { start.current = Date.now(); }, [attempt, detour]);
 
-  const n = mishnayosOf(perek).length;
-  const steps = perekSteps(perek);
+  const { shape: ms } = useMasechta();
+  const n = perekSize(ms, perek);
+  const steps = perekSteps(ms, perek);
   const stepIndex = steps.findIndex((s) => (from === to ? s.kind === "mishnah" && s.mishnah === from : s.kind === "chain" && s.from === from && s.to === to));
-  const groups = perekGroups(perek);
+  const groups = perekGroups(ms, perek);
   const group = stepIndex >= 0 ? groupIndexOf(groups, stepIndex) : -1;
   const step = steps[stepIndex];
 

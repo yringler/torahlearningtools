@@ -1,4 +1,5 @@
-import { hebNum, MASECHTA, PERAKIM } from "../data";
+import { hebNum, perakimOf, type MasechtaShape } from "../data";
+import { useMasechta } from "./MasechtaGate";
 import { GUEST_BODY, GUEST_BUTTON, GUEST_LEAD } from "../perekTest";
 
 /**
@@ -74,24 +75,26 @@ export function VerifIntroBanner({ frontier, testReady, onGo, onClose }: { front
 }
 
 /** The perek after this one, or null on the last perek. */
-export const nextPerekOf = (perek: number): number | null => {
-  const i = PERAKIM.indexOf(perek);
-  return i >= 0 ? PERAKIM[i + 1] ?? null : null;
+export const nextPerekOf = (ms: MasechtaShape, perek: number): number | null => {
+  const list = perakimOf(ms);
+  const i = list.indexOf(perek);
+  return i >= 0 ? list[i + 1] ?? null : null;
 };
 
 /** "It's official!" (§10.1 verified state), shown in the test step and, as a sheet, on Home when a row arrives there. */
 export function OfficialBody({ name, perek, nextLabel, onNext, onMap }: {
   name: string; perek: number; nextLabel?: string | undefined; onNext?: (() => void) | undefined; onMap: () => void;
 }) {
-  const np = nextPerekOf(perek);
+  const m = useMasechta();
+  const np = nextPerekOf(m.shape, perek);
   return (
     <div className="celebrate official" dir="ltr">
       <div className="big-emoji">⭐⭐⭐</div>
       <h2>Mazel tov, {name}! It's official!</h2>
       <p>
-        Abba or Ima tested you on <bdi>מסכת {MASECHTA.masechta} פרק {hebNum(perek)}</bdi>.
+        Abba or Ima tested you on <bdi>מסכת {m.he} פרק {hebNum(perek)}</bdi>.
         <br />
-        {np !== null ? <><bdi>פרק {hebNum(np)}</bdi> is open!</> : <>You finished <bdi>מסכת {MASECHTA.masechta}</bdi>! 🏆</>}
+        {np !== null ? <><bdi>פרק {hebNum(np)}</bdi> is open!</> : <>You finished <bdi>מסכת {m.he}</bdi>! 🏆</>}
       </p>
       {np !== null && onNext && <button className="btn primary big" onClick={onNext}>{nextLabel ?? <>Start <bdi>פרק {hebNum(np)}</bdi> ›</>}</button>}
       <button className={np !== null && onNext ? "btn secondary" : "btn primary big"} onClick={onMap}>🗺️ See my map</button>

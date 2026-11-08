@@ -12,6 +12,7 @@ import type {
   SetVerificationsResponse,
   StruggleRow,
 } from "../../shared/api";
+import { LEGACY_MASECHTA_ID } from "../../shared/progressKey";
 import type { AppEnv } from "../env";
 import { auditStmt } from "../lib/audit";
 import { apiError, readJson } from "../lib/http";
@@ -58,6 +59,7 @@ parentChildrenRoutes.get("/:id/events", async (c) => {
 });
 
 interface StruggleDbRow {
+  masechta: string;
   perek: number;
   mishnah: number | null;
   attempts: number;
@@ -81,12 +83,13 @@ parentChildrenRoutes.get("/:id/stats", async (c) => {
   const [agg, perDay] = await db.batch([
     db
       .prepare(
-        `SELECT perek, mishnah, count(*) AS attempts,
+        // Events without a masechta (older clients, and every event before migration 0008) are Berakhot.
+        `SELECT coalesce(masechta, '${LEGACY_MASECHTA_ID}') AS masechta, perek, mishnah, count(*) AS attempts,
            sum(grade = 'pass') AS pass, sum(grade = 'help') AS help, sum(grade = 'notyet') AS notyet,
            sum(coalesce(peeks, 0)) AS peeks, sum(coalesce(slips, 0)) AS slips, max(at) AS last_at
          FROM events
          WHERE child_id = ?1 AND user_id = ?2 AND at >= ?3 AND type IN ('recite', 'check') AND perek IS NOT NULL
-         GROUP BY perek, mishnah`,
+         GROUP BY coalesce(masechta, '${LEGACY_MASECHTA_ID}'), perek, mishnah`,
       )
       .bind(childId, U, since),
     db
@@ -99,6 +102,7 @@ parentChildrenRoutes.get("/:id/stats", async (c) => {
   ]);
 
   const items: StruggleRow[] = ((agg?.results ?? []) as StruggleDbRow[]).map((r) => ({
+    masechta: r.masechta,
     perek: r.perek,
     mishnah: r.mishnah,
     attempts: r.attempts,

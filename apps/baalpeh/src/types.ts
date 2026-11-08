@@ -80,6 +80,8 @@ export interface Settings {
   breakMinutes?: number;
   /** Which meaning view to show while learning (optional for older saved profiles). */
   meaningView?: MeaningView;
+  /** Catalog id of the masechta this child last opened. Absent: the default masechta. */
+  lastMasechta?: string;
 }
 
 export type MeaningView = "simple" | "steinsaltz";
@@ -90,8 +92,10 @@ export interface Profile {
   color: string;
   emoji: string;
   settings: Settings;
-  mishnayos: Record<string, MishnahProgress>; // key "p:m"
-  perakim: Record<string, PerekProgress>; // key "p"
+  /** Keys from shared/progressKey.ts: "p:m" for Berakhot, "<masechta>/p:m" for other masechtos. */
+  mishnayos: Record<string, MishnahProgress>;
+  /** Keys "p" for Berakhot, "<masechta>/p" for other masechtos. */
+  perakim: Record<string, PerekProgress>;
   days: string[]; // ISO dates with any learning (last ~60)
 }
 

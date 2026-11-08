@@ -219,3 +219,68 @@ describe("POST /api/sync", () => {
     expect((await sync("", {})).status).toBe(401);
   });
 });
+
+describe("multi-masechta sync", () => {
+  it("stores Peah and Berakhot rows of the same perek:mishnah separately, and rejects berakhot/ keys", async () => {
+    const { cookie, email } = await login();
+    const cid = crypto.randomUUID();
+    const t = Date.now() - 10_000;
+    await ok(await adminSync(email, { children: [child(cid, t)] }));
+    const records = [mRec(cid, "1:2", t, 3), mRec(cid, "peah/1:2", t, 5), pRec(cid, "1", t), pRec(cid, "peah/1", t)];
+    await ok(await sync(cookie, { records }));
+    const pull = await ok(await sync(cookie, { cursor: 0 }));
+    expect(pull.records.map(key).sort()).toEqual(records.map(key).sort());
+    expect(pull.records.find((r) => r.key === "1:2")).toEqual(records[0]);
+    expect(pull.records.find((r) => r.key === "peah/1:2")).toEqual(records[1]);
+
+    const r = await sync(cookie, { records: [mRec(cid, "berakhot/1:2", t + 1, 9)] });
+    expect(r.status).toBe(400);
+    const n = await db.prepare("SELECT count(*) AS n FROM progress WHERE child_id = ? AND key LIKE 'berakhot/%'").bind(cid).first<{ n: number }>();
+    expect(n!.n).toBe(0);
+  });
+
+  it("fills events.masechta, NULL when the event has none", async () => {
+    const { cookie, email } = await login();
+    const cid = crypto.randomUUID();
+    const t = Date.now() - 10_000;
+    await ok(await adminSync(email, { children: [child(cid, t)] }));
+    const old = recite(cid, t);
+    const peah = recite(cid, t + 1, { masechta: "peah" });
+    await ok(await sync(cookie, { events: [old, peah] }));
+    const col = async (id: string) => (await db.prepare("SELECT masechta FROM events WHERE id = ?").bind(id).first<{ masechta: string | null }>())!.masechta;
+    expect(await col(old.id)).toBeNull();
+    expect(await col(peah.id)).toBe("peah");
+  });
+
+  it("an old client (no lastMasechta in settings) can't wipe the stored one, on either sync", async () => {
+    const { cookie, email } = await login();
+    const cid = crypto.randomUUID();
+    const t = Date.now() - 10_000;
+    const stored = async () => (JSON.parse((await db.prepare("SELECT data FROM children WHERE id = ?").bind(cid).first<{ data: string }>())!.data) as { settings: Record<string, unknown>; name: string });
+    await ok(await adminSync(email, { children: [child(cid, t, { meta: meta({ settings: { fontScale: 1, lastMasechta: "peah" } }) })] }));
+    expect((await stored()).settings).toEqual({ fontScale: 1, lastMasechta: "peah" });
+
+    // Old parent client: a rename that drops the unknown setting.
+    await ok(await adminSync(email, { children: [child(cid, t, { meta: meta({ name: "Avraham", settings: { fontScale: 1.2 } }) })] }));
+    expect(await stored()).toMatchObject({ name: "Avraham", settings: { fontScale: 1.2, lastMasechta: "peah" } });
+    // The change log names what the parent changed, never the learner's lastMasechta.
+    const log = await db.prepare("SELECT detail FROM audit_log WHERE child_id = ? AND action = 'child_edited' ORDER BY at DESC LIMIT 1").bind(cid).first<{ detail: string }>();
+    expect(JSON.parse(log!.detail)).toMatchObject({ fields: ["name", "settings.fontScale"] });
+
+    // Old learner client: a text-size change without it.
+    const pulled = await ok(await sync(cookie, { cursor: 0 }));
+    await ok(await sync(cookie, { cursor: pulled.cursor, children: [child(cid, Date.now(), { meta: meta({ settings: { fontScale: 1.4 } }) })] }));
+    expect((await stored()).settings).toEqual({ fontScale: 1.4, lastMasechta: "peah" });
+
+    // A new learner client changes it.
+    const p2 = await ok(await sync(cookie, { cursor: 0 }));
+    const res = await ok(await sync(cookie, { cursor: p2.cursor, children: [child(cid, Date.now() + 1, { meta: meta({ settings: { fontScale: 1.4, lastMasechta: "demai" } }) })] }));
+    expect(res.children[0]?.meta.settings.lastMasechta).toBe("demai");
+    expect((await stored()).settings).toEqual({ fontScale: 1.4, lastMasechta: "demai" });
+
+    // A parent client holding an older copy (berakhot) edits the child: the child's newer choice stays. Parent mode
+    // never chooses a masechta, so a parent write never changes a stored lastMasechta.
+    await ok(await adminSync(email, { children: [child(cid, t, { meta: meta({ name: "Avi", settings: { fontScale: 1.4, lastMasechta: "berakhot" } }) })] }));
+    expect(await stored()).toMatchObject({ name: "Avi", settings: { fontScale: 1.4, lastMasechta: "demai" } });
+  });
+});

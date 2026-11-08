@@ -1,14 +1,15 @@
 import { useMemo, useRef, useState } from "react";
 import { CueCard } from "../components/CueCard";
 import { LicensesLink } from "../components/Licenses";
+import { useMasechta } from "../components/MasechtaGate";
 import { Meaning, SteinsaltzText, ViewToggle } from "../components/Meaning";
 import { StepPath } from "../components/StepPath";
 import { WordPanel } from "../components/WordPanel";
-import { getMishnah, hebNum, MASECHTA } from "../data";
+import { getMishnah, hebNum } from "../data";
 import { isKnown, mp, perekDone } from "../progress";
 import { isDue } from "../srs";
 import { buildSteps, groupIndexOf, groupRange, pathGroups, practiceLabel } from "../steps";
-import { SOURCES } from "../sources";
+import { sefariaUrl, SOURCES } from "../sources";
 import type { Chunk, MeaningView, Profile, Step } from "../types";
 import { useWordCursor, wordAvail, wordOrdinal } from "../wordCursor";
 
@@ -29,13 +30,16 @@ interface Props {
 }
 
 export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, onPracticeRange, group, onBack, backLabel = "‹ Map", onView }: Props) {
+  const ms = useMasechta();
+  const { translated } = ms;
   const m = getMishnah(perek, mishnah);
   const steps = buildSteps(m.chunks);
-  const st = mp(profile, perek, mishnah);
+  const st = mp(profile, ms.shape, perek, mishnah);
+  const [about, setAbout] = useState(false);
   const [hideMeaning, setHideMeaning] = useState(false);
   const [showFull, setShowFull] = useState(false);
   const fullBtn = useRef<HTMLButtonElement>(null);
-  const fullParts: string[] = [m.stIntro ?? "", ...m.chunks.flatMap((c) => [c.st ?? "", c.stMore ?? ""])].filter(Boolean);
+  const fullParts: string[] = translated ? [m.stIntro ?? "", ...m.chunks.flatMap((c) => [c.st ?? "", c.stMore ?? ""])].filter(Boolean) : [];
   const view = profile.settings.meaningView ?? "simple";
   const avail = useMemo(() => wordAvail(m.chunks), [m]);
   const cur = useWordCursor(avail, true, true, m);
@@ -55,14 +59,14 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
         <button className="btn ghost-btn small" onClick={onBack}>{backLabel}</button>
         <span className="who" style={{ color: profile.color }}>{profile.emoji} {profile.name}</span>
       </div>
-      <h2 className="task-title">{MASECHTA.masechta} {hebNum(perek)}:{hebNum(mishnah)}</h2>
-      {m.summary && <p className="summary" dir="ltr">{m.summary}</p>}
+      <h2 className="task-title">{ms.he} {hebNum(perek)}:{hebNum(mishnah)}</h2>
+      {translated && m.summary && <p className="summary" dir="ltr">{m.summary}</p>}
       {!isKnown(st) && <StepPath steps={steps} chunks={m.chunks} current={st.stepIndex} />}
       <div className="actions" dir="ltr">
         {isKnown(st) ? (
           <button className="btn primary big" onClick={onReview}>
             🔁 Review it
-            {isDue(st.review) && !perekDone(profile, perek) && <span className="sub">due today</span>}
+            {isDue(st.review) && !perekDone(profile, ms.shape, perek) && <span className="sub">due today</span>}
           </button>
         ) : (
           <button className="btn primary big" onClick={onPractice}>
@@ -73,21 +77,32 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
       {isKnown(st) && (
         <PracticePicker key={`${perek}:${mishnah}`} steps={steps} chunks={m.chunks} initialGroup={group} onStart={onPracticeRange} />
       )}
-      <div className="toggles" dir="ltr">
-        <ViewToggle view={view} onChange={onView} allowHide hidden={hideMeaning} onHide={setHideMeaning} />
-      </div>
-      <p className="hint" dir="ltr">Tap any word to see what it means, then tap another word or use Next.</p>
+      {translated ? (
+        <>
+          <div className="toggles" dir="ltr">
+            <ViewToggle view={view} onChange={onView} allowHide hidden={hideMeaning} onHide={setHideMeaning} />
+          </div>
+          <p className="hint" dir="ltr">Tap any word to see what it means, then tap another word or use Next.</p>
+        </>
+      ) : (
+        <p className="hint" dir="ltr">
+          Hebrew only: this masechta has no meanings in the app yet.
+          <button className="info-btn" onClick={() => setAbout(true)} aria-label="About this text">ⓘ</button>
+        </p>
+      )}
       <div className="study">
         {m.chunks.map((c, i) => (
           <div key={i} className="study-row">
             <CueCard
               he={c.he}
               cue={0}
-              glossWords={c.words}
-              onWordTap={(_, w) => cur.tap(i, w)}
-              selectedIndex={cur.sel?.chunk === i ? cur.sel.word : undefined}
+              {...(translated ? {
+                glossWords: c.words,
+                onWordTap: (_: unknown, w: number) => cur.tap(i, w),
+                selectedIndex: cur.sel?.chunk === i ? cur.sel.word : undefined,
+              } : {})}
             />
-            {!hideMeaning && c.en && <Meaning key={view} chunk={c} view={view} perek={perek} mishnah={mishnah} />}
+            {translated && !hideMeaning && c.en && <Meaning key={view} chunk={c} view={view} perek={perek} mishnah={mishnah} />}
           </div>
         ))}
       </div>
@@ -117,7 +132,18 @@ export function MishnahScreen({ profile, perek, mishnah, onPractice, onReview, o
           )}
         </div>
       )}
-      {cur.sel && (
+      {about && (
+        <div className="sheet-backdrop" onClick={() => setAbout(false)}>
+          <div className="sheet source-sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
+            <h3>About this text</h3>
+            <p>The Hebrew text is Torat Emet, from Sefaria. This masechta doesn't have meanings in the app yet, so it shows only the Hebrew.</p>
+            <a className="btn secondary" href={sefariaUrl(ms.en, perek, mishnah)} target="_blank" rel="noreferrer">Open on Sefaria</a>
+            <LicensesLink />
+            <button className="btn ghost-btn" onClick={() => setAbout(false)}>Close</button>
+          </div>
+        </div>
+      )}
+      {translated && cur.sel && (
         <WordPanel
           word={word}
           n={ord.n}

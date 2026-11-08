@@ -4,22 +4,34 @@ import { kv } from "./kv";
 import { dueReviews, isKnown, mp, nextInPerek, nextLearning, type Task } from "./progress";
 import { BreakSetting } from "./components/BreakSetting";
 import { AboutNote, LicensesLink, PricingNote } from "./components/Licenses";
+import { MasechtaGate } from "./components/MasechtaGate";
+import { prefetchMasechta, shapeOf } from "./data";
+import { chooseMasechta, lastMasechtaOf, masechtaTiles, otherDue, resolveMasechta, sederIdOf, sederTiles } from "./nav";
 import { Home } from "./screens/Home";
+import { MasechtaList, SederList } from "./screens/Masechtos";
 import { MishnahScreen } from "./screens/MishnahScreen";
 import { PerekScreen } from "./screens/PerekScreen";
 import { Session } from "./screens/Session";
+import { today } from "./srs";
 import { requestPersist } from "./storage";
 import type { Profile } from "./types";
+import { useNavigatorOnline } from "./useOnline";
 
+/** `m` is the masechta of every screen but settings and the two lists (where it is the current one, outlined). */
 export type Screen =
-  | { s: "home" }
-  | { s: "settings" }
+  | { s: "home"; m: string }
+  | { s: "settings"; m: string }
+  | { s: "sedarim"; m: string }
+  | { s: "masechtos"; m: string; seder: string }
   /** `from: "perek"`: opened from the perek screen, so Back returns there. */
-  | { s: "mishnah"; perek: number; mishnah: number; group?: number; from?: "perek" }
+  | { s: "mishnah"; m: string; perek: number; mishnah: number; group?: number; from?: "perek" }
   /** A perek's build-up. `group`/`sel` restore the path shown and the selection when coming back from a session. */
-  | { s: "perek"; perek: number; group?: number; sel?: string }
+  | { s: "perek"; m: string; perek: number; group?: number; sel?: string }
   /** `scopePerek`: started from the perek screen, so "keep going" stays inside that perek. */
-  | { s: "session"; tasks: Task[]; continueLearning: boolean; back: Screen; scopePerek?: number };
+  | { s: "session"; m: string; tasks: Task[]; continueLearning: boolean; back: Screen; scopePerek?: number };
+
+/** Where "Continue as a guest" opens: this perek of this masechta (its first mishnah, or `mishnah`). */
+export interface GuestStart { masechta: string; perek: number; mishnah?: number }
 
 /**
  * Where guest mode was opened from, which decides what it keeps:
@@ -34,15 +46,16 @@ type Props =
      * "Continue as a guest" from a locked perek or the waiting screen (docs/PARENT_VERIFICATION.md §9): open straight
      * at this perek's first mishnah (or `mishnah`), with "keep going" staying inside that perek.
      */
-    start?: { perek: number; mishnah?: number } | undefined;
+    start?: GuestStart | undefined;
   };
 
-/** The first screen: Home, or a session at `start` (its Back goes to that perek's screen). */
-export function guestStartScreen(start: { perek: number; mishnah?: number } | undefined): Screen {
-  if (!start) return { s: "home" };
+/** The first screen: the perek map of `home`, or a session at `start` (its Back goes to that perek's screen). */
+export function guestStartScreen(start: GuestStart | undefined, home: string): Screen {
+  if (!start) return { s: "home", m: home };
+  const m = resolveMasechta(start.masechta);
   return {
-    s: "session", tasks: [{ type: "learn", perek: start.perek, mishnah: start.mishnah ?? 1 }], continueLearning: false,
-    scopePerek: start.perek, back: { s: "perek", perek: start.perek },
+    s: "session", m, tasks: [{ masechta: m, type: "learn", perek: start.perek, mishnah: start.mishnah ?? 1 }], continueLearning: false,
+    scopePerek: start.perek, back: { s: "perek", m, perek: start.perek },
   };
 }
 
@@ -54,8 +67,9 @@ export function guestStartScreen(start: { perek: number; mishnah?: number } | un
 export function GuestApp({ onSignIn, onExit, start }: Props) {
   const saved = onSignIn !== undefined;
   const [profile, setProfileState] = useState<Profile>(() => (saved ? loadGuest(kv) : sessionGuest()));
-  const [screen, setScreen] = useState<Screen>(() => guestStartScreen(start));
+  const [screen, setScreen] = useState<Screen>(() => guestStartScreen(start, lastMasechtaOf(profile)));
   const [info, setInfo] = useState(false);
+  const online = useNavigatorOnline();
 
   useEffect(() => { if (saved) requestPersist(); }, [saved]);
   useEffect(() => {
@@ -63,90 +77,136 @@ export function GuestApp({ onSignIn, onExit, start }: Props) {
   }, [profile.settings.fontScale]);
   // Don't leave the guest's text size on the picker (or the sign-in screen) after leaving.
   useEffect(() => () => document.documentElement.style.setProperty("--scale", "1"), []);
+  // The saved guest's last masechta opens next time: start downloading it.
+  const last = lastMasechtaOf(profile);
+  useEffect(() => { prefetchMasechta(last).catch(() => undefined); }, [last]);
 
   const setProfile = (p: Profile) => {
     setProfileState(p);
     if (saved) saveGuest(kv, p);
   };
+  const m = screen.m;
+  /** Open masechta `id` (a saved guest remembers it, like a child). */
+  const openMasechta = (id: string) => {
+    const next = chooseMasechta(profile, id);
+    if (next !== profile) setProfile(next);
+    setScreen({ s: "home", m: id });
+  };
+  const toList = () => setScreen({ s: "masechtos", m, seder: sederIdOf(m) });
 
   const pill = <GuestPill saved={saved} onOpen={() => setInfo(true)} />;
   const sheet = info && (
     <GuestInfo
       {...(onSignIn ? { onSignIn } : { onExit })}
-      onSettings={() => { setInfo(false); setScreen({ s: "settings" }); }}
+      onSettings={() => { setInfo(false); setScreen({ s: "settings", m }); }}
       onClose={() => setInfo(false)}
     />
   );
 
   let body: React.ReactNode;
   if (screen.s === "settings") {
-    body = <GuestSettings profile={profile} onChange={setProfile} onBack={() => setScreen({ s: "home" })} {...(onSignIn ? { onSignIn } : {})} />;
-  } else if (screen.s === "home") {
+    body = <GuestSettings profile={profile} onChange={setProfile} onBack={() => setScreen({ s: "home", m })} {...(onSignIn ? { onSignIn } : {})} />;
+  } else if (screen.s === "sedarim") {
     body = (
-      <Home
+      <SederList
         profile={profile}
-        {...(onExit ? { onBack: onExit } : {})}
-        onOpenMishnah={(perek, mishnah) => setScreen({ s: "mishnah", perek, mishnah })}
-        onOpenPerek={(perek) => setScreen({ s: "perek", perek })}
-        onStart={() => {
-          const next = nextLearning(profile);
-          const tasks = [...dueReviews(profile), ...(next ? [next] : [])];
-          setScreen({ s: "session", tasks, continueLearning: true, back: screen });
-        }}
+        tiles={sederTiles(profile, m)}
+        onPick={(seder) => setScreen({ s: "masechtos", m, seder })}
+        onBack={toList}
       />
     );
-  } else if (screen.s === "mishnah") {
-    const { perek, mishnah } = screen;
-    const st = mp(profile, perek, mishnah);
-    const go = (t: Task) => setScreen({ s: "session", tasks: [t], continueLearning: false, back: screen });
+  } else if (screen.s === "masechtos") {
     body = (
-      <MishnahScreen
+      <MasechtaList
         profile={profile}
-        perek={perek}
-        mishnah={mishnah}
-        onBack={() => setScreen(screen.from === "perek" ? { s: "perek", perek } : { s: "home" })}
-        {...(screen.from === "perek" ? { backLabel: "‹ Perek" } : {})}
-        onPractice={() => go({ type: "learn", perek, mishnah })}
-        onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
-        onReview={() => (isKnown(st) ? go({ type: "review-m", perek, mishnah }) : go({ type: "learn", perek, mishnah }))}
-        onPracticeRange={({ from, to, label, group }) =>
-          setScreen({ s: "session", tasks: [{ type: "practice", perek, mishnah, from, to, label }], continueLearning: false, back: { ...screen, group } })}
-        {...(screen.group !== undefined ? { group: screen.group } : {})}
-      />
-    );
-  } else if (screen.s === "perek") {
-    const { perek } = screen;
-    body = (
-      <PerekScreen
-        key={perek}
-        profile={profile}
-        perek={perek}
-        group={screen.group}
-        sel={screen.sel}
-        onBack={() => setScreen({ s: "home" })}
-        onOpenMishnah={(mishnah) => setScreen({ s: "mishnah", perek, mishnah, from: "perek" })}
-        onStart={(task, ui) =>
-          setScreen({ s: "session", tasks: [task], continueLearning: false, scopePerek: perek, back: { s: "perek", perek, ...ui } })}
+        seder={screen.seder}
+        tiles={masechtaTiles(profile, screen.seder, m)}
+        online={online}
+        onPick={openMasechta}
+        onBack={() => setScreen({ s: "home", m })}
+        onSedarim={() => setScreen({ s: "sedarim", m })}
       />
     );
   } else {
-    const scope = screen.scopePerek;
-    const more = scope !== undefined ? (p: Profile) => nextInPerek(p, scope) : screen.continueLearning ? nextLearning : undefined;
-    body = (
-      <Session
-        key={JSON.stringify(screen.tasks)}
-        profile={profile}
-        tasks={screen.tasks}
-        onProfile={setProfile}
-        onExit={() => setScreen(screen.back)}
-        onMap={() => setScreen({ s: "home" })}
-        {...(more ? { more } : {})}
-        {...(scope !== undefined ? { upNextOf: (p: Profile) => nextInPerek(p, scope) } : {})}
-      />
-    );
+    body = <MasechtaGate key={m} id={m} onChooseOther={toList}>{masechtaScreen(screen)}</MasechtaGate>;
   }
 
   return <>{pill}{body}{sheet}</>;
+
+  /** The screens that read masechta `m`'s text, inside its gate. */
+  function masechtaScreen(sc: Exclude<Screen, { s: "settings" | "sedarim" | "masechtos" }>): React.ReactNode {
+    const ms = shapeOf(m);
+    const home: Screen = { s: "home", m };
+    if (sc.s === "home") {
+      return (
+        <Home
+          profile={profile}
+          {...(onExit ? { onBack: onExit } : {})}
+          onOpenMishnah={(perek, mishnah) => setScreen({ s: "mishnah", m, perek, mishnah })}
+          onOpenPerek={(perek) => setScreen({ s: "perek", m, perek })}
+          onStart={() => {
+            const next = nextLearning(profile, ms);
+            const tasks = [...dueReviews(profile, ms), ...(next ? [next] : [])];
+            setScreen({ s: "session", m, tasks, continueLearning: true, back: sc });
+          }}
+          onChooseMasechta={toList}
+          others={otherDue(profile, m, today())}
+          onOpenMasechta={openMasechta}
+        />
+      );
+    }
+    if (sc.s === "mishnah") {
+      const { perek, mishnah } = sc;
+      const st = mp(profile, ms, perek, mishnah);
+      const go = (t: Task) => setScreen({ s: "session", m, tasks: [t], continueLearning: false, back: sc });
+      return (
+        <MishnahScreen
+          profile={profile}
+          perek={perek}
+          mishnah={mishnah}
+          onBack={() => setScreen(sc.from === "perek" ? { s: "perek", m, perek } : home)}
+          {...(sc.from === "perek" ? { backLabel: "‹ Perek" } : {})}
+          onPractice={() => go({ masechta: m, type: "learn", perek, mishnah })}
+          onView={(v) => setProfile({ ...profile, settings: { ...profile.settings, meaningView: v } })}
+          onReview={() => go(isKnown(st) ? { masechta: m, type: "review-m", perek, mishnah } : { masechta: m, type: "learn", perek, mishnah })}
+          onPracticeRange={({ from, to, label, group }) =>
+            setScreen({ s: "session", m, tasks: [{ masechta: m, type: "practice", perek, mishnah, from, to, label }], continueLearning: false, back: { ...sc, group } })}
+          {...(sc.group !== undefined ? { group: sc.group } : {})}
+        />
+      );
+    }
+    if (sc.s === "perek") {
+      const { perek } = sc;
+      return (
+        <PerekScreen
+          key={perek}
+          profile={profile}
+          perek={perek}
+          group={sc.group}
+          sel={sc.sel}
+          onBack={() => setScreen(home)}
+          onOpenMishnah={(mishnah) => setScreen({ s: "mishnah", m, perek, mishnah, from: "perek" })}
+          onStart={(task, ui) =>
+            setScreen({ s: "session", m, tasks: [task], continueLearning: false, scopePerek: perek, back: { s: "perek", m, perek, ...ui } })}
+        />
+      );
+    }
+    const scope = sc.scopePerek;
+    const inScope = (p: Profile) => (scope !== undefined ? nextInPerek(p, ms, scope) : null);
+    const more = scope !== undefined ? inScope : sc.continueLearning ? (p: Profile) => nextLearning(p, ms) : undefined;
+    return (
+      <Session
+        key={JSON.stringify(sc.tasks)}
+        profile={profile}
+        tasks={sc.tasks.filter((t) => t.masechta === m)}
+        onProfile={setProfile}
+        onExit={() => setScreen(sc.back)}
+        onMap={() => setScreen(home)}
+        {...(more ? { more } : {})}
+        {...(scope !== undefined ? { upNextOf: inScope } : {})}
+      />
+    );
+  }
 }
 
 function GuestPill({ saved, onOpen }: { saved: boolean; onOpen: () => void }) {

@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import type { LearningEventBody, Ms } from "../../shared/api";
 import { BreakSetting } from "../components/BreakSetting";
 import { ConfirmSheet } from "../components/ConfirmSheet";
-import { DEFAULT_MASECHTA_ID, hebNum, mishnayosOf, PERAKIM } from "../data";
+import { CATALOG, hebNum, mishnahNums, perakimOf, perekSize, shapeOf, type MasechtaShape } from "../data";
+import { lastMasechtaOf, masechtaEn } from "../nav";
 import { agoText, liveTest } from "../perekTest";
 import { frontier, isKnown, mp, perekLearned, perekPhase, resetMishnah, resetPerek, type Verified } from "../progress";
 import { ChildHistory } from "../screens/ChildHistory";
@@ -13,8 +14,9 @@ import type { Profile } from "../types";
 
 export interface ChildDetailProps {
   profile: Profile;
-  verified: Verified;
-  verifiedAt: (perek: number) => Ms | null;
+  /** The perakim a parent verified, per masechta. */
+  verifiedOf: (masechta: string) => Verified;
+  verifiedAt: (masechta: string, perek: number) => Ms | null;
   /** This device's learner store's last test request for this child, if any. */
   lastTest: LastTest | undefined;
   now: Ms;
@@ -22,7 +24,7 @@ export interface ChildDetailProps {
   /** Saves a changed child (plus events) through the parent sync. */
   save: (p: Profile, events?: LearningEventBody[]) => void;
   remove: () => void;
-  setVerified: (perakim: number[], verified: boolean) => Promise<void>;
+  setVerified: (masechta: string, perakim: number[], verified: boolean) => Promise<void>;
   onBack: () => void;
   toast: (msg: string) => void;
   tab: ChildTab;
@@ -34,26 +36,32 @@ export type ChildTab = "perakim" | "activity" | "settings";
 const dateText = (ms: number) => new Date(ms).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
 
 /** The status chip of one perek in parent mode (docs/PARENT_MODE.md §9.7). */
-export function perekChip(p: Profile, o: { verified: Verified; verifiedAt: (perek: number) => Ms | null; lastTest: LastTest | undefined; now: Ms }, perek: number): string {
-  const phase = perekPhase(p, o.verified, perek);
+export function perekChip(
+  p: Profile, ms: MasechtaShape, o: { verified: Verified; verifiedAt: (perek: number) => Ms | null; lastTest: LastTest | undefined; now: Ms }, perek: number,
+): string {
+  const phase = perekPhase(p, ms, o.verified, perek);
   if (phase === "verified") {
     const at = o.verifiedAt(perek);
     return at !== null ? `✔ Verified ${dateText(at)}` : "✔ Verified";
   }
-  if (phase === "locked") return `🔒 Opens after ${perekHe(frontier(o.verified) ?? perek)}`;
+  if (phase === "locked") return `🔒 Opens after ${perekHe(frontier(ms, o.verified) ?? perek)}`;
   if (phase === "test") {
-    const sent = liveTest(o.lastTest, DEFAULT_MASECHTA_ID, perek, o.now);
+    const sent = liveTest(o.lastTest, ms.id, perek, o.now);
     return sent ? `📬 Test email sent ${agoText(sent.sentAt, o.now)}` : "🙋 Learned, ready for a test";
   }
-  const ms = mishnayosOf(perek);
-  const known = ms.filter((m) => isKnown(mp(p, perek, m.mishnah))).length;
-  const started = ms.some((m) => mp(p, perek, m.mishnah).stepIndex > 0 || mp(p, perek, m.mishnah).state !== "new");
-  return known === 0 && !started ? "Not started" : `In progress ${known}/${ms.length} mishnayos`;
+  const nums = mishnahNums(ms, perek);
+  const known = nums.filter((m) => isKnown(mp(p, ms, perek, m))).length;
+  const started = nums.some((m) => mp(p, ms, perek, m).stepIndex > 0 || mp(p, ms, perek, m).state !== "new");
+  return known === 0 && !started ? "Not started" : `In progress ${known}/${nums.length} mishnayos`;
 }
 
+/** The practice-log events of a parent's reset of these mishnayos (each names its masechta). */
+export const resetEvents = (masechta: string, perek: number, mishnayos: number[]): LearningEventBody[] =>
+  mishnayos.map((mishnah) => ({ type: "reset", perek, mishnah, masechta }));
+
 /** One mishnah's line in an expanded perek. */
-export function mishnahLine(p: Profile, perek: number, mishnah: number): { text: string; resettable: boolean } {
-  const m = mp(p, perek, mishnah);
+export function mishnahLine(p: Profile, ms: MasechtaShape, perek: number, mishnah: number): { text: string; resettable: boolean } {
+  const m = mp(p, ms, perek, mishnah);
   const due = m.review ? new Date(`${m.review.due}T12:00:00`).toLocaleDateString(undefined, { month: "short", day: "numeric" }) : null;
   if (isKnown(m)) return { text: `Known${due ? ` · review ${due}` : ""}`, resettable: true };
   if (m.state === "learning" || m.stepIndex > 0) return { text: "Learning", resettable: true };
@@ -68,42 +76,49 @@ type Sheet =
   | { k: "remove" };
 
 export function ChildDetail(props: ChildDetailProps) {
-  const { profile: p, verified: v, tab } = props;
+  const { profile: p, tab } = props;
+  /** The masechta whose perakim are shown (the child's last one at first). */
+  const [masechta, setMasechta] = useState(() => lastMasechtaOf(p));
+  const ms = shapeOf(masechta);
+  const v = props.verifiedOf(masechta);
+  const chipOpts = { verified: v, verifiedAt: (perek: number) => props.verifiedAt(masechta, perek), lastTest: props.lastTest, now: props.now };
+  const name = masechtaEn(masechta);
   const [sheet, setSheet] = useState<Sheet | null>(null);
   const [menu, setMenu] = useState<number | null>(null);
   const [open, setOpen] = useState<Set<number>>(() => new Set());
   const done = () => props.toast(`Done. ${p.name}'s devices will update when they're online.`);
   const toggle = (perek: number) => setOpen((s) => { const n = new Set(s); if (n.has(perek)) n.delete(perek); else n.add(perek); return n; });
 
-  const f = frontier(v);
+  const f = frontier(ms, v);
   const heb = (perek: number) => <bdi dir="rtl">פרק {hebNum(perek)}</bdi>;
+  const mishnayosIn = (perek: number): number[] => mishnahNums(ms, perek);
 
   let sheetEl: JSX.Element | null = null;
   if (sheet?.k === "verify") {
     const perek = sheet.perek;
     sheetEl = (
-      <ConfirmSheet title={`Mark ${perekHe(perek)} as verified for ${p.name}?`} action="✔ Mark verified" onCancel={() => setSheet(null)}
-        onAct={async () => { await props.setVerified([perek], true); setSheet(null); done(); }}>
+      <ConfirmSheet title={`Mark ${name} ${perekHe(perek)} as verified for ${p.name}?`} action="✔ Mark verified" onCancel={() => setSheet(null)}
+        onAct={async () => { await props.setVerified(masechta, [perek], true); setSheet(null); done(); }}>
         <p>Use this when you've heard {p.name} say the whole perek yourself. The next perek opens on {p.name}'s devices the next time they're online.</p>
-        {!perekLearned(p, perek) && <p className="hint">{p.name} hasn't finished learning this perek in the app yet.</p>}
+        {!perekLearned(p, ms, perek) && <p className="hint">{p.name} hasn't finished learning this perek in the app yet.</p>}
         {f !== null && f < perek && <p className="hint">{perekHe(f)} isn't verified yet, so perakim after it stay locked.</p>}
       </ConfirmSheet>
     );
   } else if (sheet?.k === "unverify") {
     const perek = sheet.perek;
     sheetEl = (
-      <ConfirmSheet title={`Remove the verification of ${perekHe(perek)}?`} action="Remove verification" danger onCancel={() => setSheet(null)}
-        onAct={async () => { await props.setVerified([perek], false); setSheet(null); done(); }}>
+      <ConfirmSheet title={`Remove the verification of ${name} ${perekHe(perek)}?`} action="Remove verification" danger onCancel={() => setSheet(null)}
+        onAct={async () => { await props.setVerified(masechta, [perek], false); setSheet(null); done(); }}>
         <p>Perakim after it lock again until you verify it, here or with a test email. {p.name}'s progress isn't changed. Old test emails for this perek stop working.</p>
       </ConfirmSheet>
     );
   } else if (sheet?.k === "resetPerek") {
     const perek = sheet.perek;
-    const n = mishnayosOf(perek).length;
+    const n = perekSize(ms, perek);
     sheetEl = (
-      <ConfirmSheet title={`Reset all of ${perekHe(perek)} for ${p.name}?`} action="Reset perek" danger onCancel={() => setSheet(null)}
+      <ConfirmSheet title={`Reset all of ${name} ${perekHe(perek)} for ${p.name}?`} action="Reset perek" danger onCancel={() => setSheet(null)}
         onAct={() => {
-          props.save(resetPerek(p, perek), mishnayosOf(perek).map((m) => ({ type: "reset", perek, mishnah: m.mishnah })));
+          props.save(resetPerek(p, ms, perek), resetEvents(masechta, perek, mishnayosIn(perek)));
           setSheet(null);
           done();
         }}>
@@ -114,9 +129,9 @@ export function ChildDetail(props: ChildDetailProps) {
   } else if (sheet?.k === "notKnown") {
     const { perek, mishnah } = sheet;
     sheetEl = (
-      <ConfirmSheet title={`Mark ${perek}:${mishnah} as not known for ${p.name}?`} action="Mark not known" danger onCancel={() => setSheet(null)}
+      <ConfirmSheet title={`Mark ${name} ${perek}:${mishnah} as not known for ${p.name}?`} action="Mark not known" danger onCancel={() => setSheet(null)}
         onAct={() => {
-          props.save(resetMishnah(p, perek, mishnah), [{ type: "reset", perek, mishnah }]);
+          props.save(resetMishnah(p, ms, perek, mishnah), resetEvents(masechta, perek, [mishnah]));
           setSheet(null);
           done();
         }}>
@@ -142,10 +157,18 @@ export function ChildDetail(props: ChildDetailProps) {
       </div>
 
       {tab === "perakim" && (
+        <label className="field masechta-pick">
+          <span>Masechta</span>
+          <select value={masechta} onChange={(e) => { setMasechta(e.target.value); setMenu(null); setOpen(new Set()); }}>
+            {CATALOG.map((e) => <option key={e.id} value={e.id}>{e.en} ({e.he}){e.translated ? "" : " · Hebrew only"}</option>)}
+          </select>
+        </label>
+      )}
+      {tab === "perakim" && (
         <ul className="perek-list">
-          {PERAKIM.map((perek) => {
+          {perakimOf(ms).map((perek) => {
             const isV = v.has(perek);
-            const chip = perekChip(p, props, perek);
+            const chip = perekChip(p, ms, chipOpts, perek);
             return (
               <li key={perek} className="perek-item">
                 <div className="perek-item-head">
@@ -167,13 +190,13 @@ export function ChildDetail(props: ChildDetailProps) {
                 )}
                 {open.has(perek) && (
                   <ul className="mishnah-lines">
-                    {mishnayosOf(perek).map((m) => {
-                      const line = mishnahLine(p, perek, m.mishnah);
+                    {mishnayosIn(perek).map((m) => {
+                      const line = mishnahLine(p, ms, perek, m);
                       return (
-                        <li key={m.mishnah}>
-                          <span>{perek}:{m.mishnah} · {line.text}</span>
+                        <li key={m}>
+                          <span>{perek}:{m} · {line.text}</span>
                           {line.resettable && (
-                            <button className="btn ghost-btn small" onClick={() => setSheet({ k: "notKnown", perek, mishnah: m.mishnah })}>Mark not known</button>
+                            <button className="btn ghost-btn small" onClick={() => setSheet({ k: "notKnown", perek, mishnah: m })}>Mark not known</button>
                           )}
                         </li>
                       );
@@ -186,7 +209,7 @@ export function ChildDetail(props: ChildDetailProps) {
         </ul>
       )}
 
-      {tab === "activity" && <ChildHistory profile={p} verified={v} online={props.online} />}
+      {tab === "activity" && <ChildHistory profile={p} verifiedOf={props.verifiedOf} online={props.online} />}
 
       {tab === "settings" && <ChildSettingsForm p={p} save={(np) => props.save(np)} onRemove={() => setSheet({ k: "remove" })} />}
 

@@ -1,7 +1,9 @@
 import { Fragment, useState } from "react";
 import { VerifIntroBanner } from "../components/PerekGate";
 import { PerekStrip } from "../components/PerekStrip";
-import { hebNum, MASECHTA, PERAKIM } from "../data";
+import { useMasechta } from "../components/MasechtaGate";
+import { hebNum, MASECHTA, perakimOf } from "../data";
+import { nudgeText } from "../nav";
 import { perekSteps } from "../perekSteps";
 import {
   dueReviews, frontier, gatedDueReviews, gatedNextLearning, nextLearning, perekDone, perekPhase, stepSatisfied, type PerekPhase, type Task,
@@ -21,6 +23,11 @@ interface Props {
   onFontScale?: (scale: number) => void;
   /** Signed in: the parent-verification gate (docs/PARENT_VERIFICATION.md §10.2). Guest mode has none (ungated). */
   gate?: HomeGate;
+  /** "Choose a different masechta": the masechta list of this seder. */
+  onChooseMasechta: () => void;
+  /** Other masechtos with due reviews (the nudge rows), and opening one of them. */
+  others?: ReadonlyArray<{ masechta: string; due: number }>;
+  onOpenMasechta?: (masechta: string) => void;
 }
 
 export interface HomeGate {
@@ -89,19 +96,24 @@ function TextSizeSheet({ scale, onChange, onClose }: { scale: number; onChange: 
   );
 }
 
-export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onFontScale, gate }: Props) {
+export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onFontScale, gate, onChooseMasechta, others = [], onOpenMasechta }: Props) {
   const [sizing, setSizing] = useState(false);
+  const m = useMasechta();
+  const ms = m.shape;
+  const PERAKIM = perakimOf(ms);
   const v = gate?.verified;
-  const due = (v ? gatedDueReviews(profile, v) : dueReviews(profile)).length;
-  const next = v ? gatedNextLearning(profile, v) : nextLearning(profile);
-  const f = v ? frontier(v) : null;
-  const testPerek = v && f !== null && perekPhase(profile, v, f) === "test" ? f : null;
+  const due = (v ? gatedDueReviews(profile, ms, v) : dueReviews(profile, ms)).length;
+  const next = v ? gatedNextLearning(profile, ms, v) : nextLearning(profile, ms);
+  const f = v ? frontier(ms, v) : null;
+  const testPerek = v && f !== null && perekPhase(profile, ms, v, f) === "test" ? f : null;
   const label = gate
     ? gatedSubLabel(due, next, testPerek, testPerek !== null && gate.sent(testPerek))
     : due > 0 ? `${reviews(due)}, then new learning` : next ? nextSubLabel(next) : "All caught up!";
-  const phaseOf = (perek: number): PerekPhase | null => (v ? perekPhase(profile, v, perek) : null);
+  const phaseOf = (perek: number): PerekPhase | null => (v ? perekPhase(profile, ms, v, perek) : null);
+  /** Nothing left to learn or review here: the masechta is finished (no automatic move to another one). */
+  const finished = next === null && due === 0;
   /** The gold row: verified when signed in, finished on this device in guest mode. */
-  const gold = (perek: number): boolean => (v ? v.has(perek) : perekDone(profile, perek));
+  const gold = (perek: number): boolean => (v ? v.has(perek) : perekDone(profile, ms, perek));
   return (
     <div className="home">
       <div className="topbar" dir="ltr">
@@ -115,12 +127,26 @@ export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onF
         ▶ Start today's learning
         <span className="sub">{label}</span>
       </button>
+      {finished && (
+        <button className="finished-link" dir="ltr" onClick={onChooseMasechta}>
+          🏆 You finished <bdi dir="rtl">מסכת {m.he}</bdi>! Choose your next masechta ›
+        </button>
+      )}
+      {onOpenMasechta && others.map((o) => (
+        <button key={o.masechta} className="nudge-row" dir="ltr" onClick={() => onOpenMasechta(o.masechta)}>
+          <span><bdi>{nudgeText(o.due, o.masechta)}</bdi></span>
+          <span className="chev" aria-hidden="true">→</span>
+        </button>
+      ))}
       <WeekDots days={profile.days} />
-      <h2 className="masechta">מסכת {MASECHTA.masechta}</h2>
+      <h2 className="masechta">מסכת {m.he}</h2>
+      <div className="masechta-choose" dir="ltr">
+        <button className="btn ghost-btn small" onClick={onChooseMasechta}>Choose a different masechta</button>
+      </div>
       <div className="perek-map">
         {PERAKIM.map((perek, i) => {
-          const steps = perekSteps(perek);
-          const doneSteps = steps.filter((st) => stepSatisfied(profile, perek, st)).length;
+          const steps = perekSteps(ms, perek);
+          const doneSteps = steps.filter((st) => stepSatisfied(profile, ms, perek, st)).length;
           const done = gold(perek);
           const phase = phaseOf(perek);
           const pct = steps.length ? Math.round((100 * doneSteps) / steps.length) : 0;

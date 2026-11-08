@@ -12,25 +12,29 @@ export const LICENSES = {
   ccByNc4: { name: "CC BY-NC 4.0", url: "https://creativecommons.org/licenses/by-nc/4.0/" },
 } satisfies Record<string, License>;
 
-export const SOURCES: Record<Source, { name: string; detail: string; license: License; sefaria: string }> = {
+/** A masechta on Sefaria in one version. `masechtaEn` is the catalog's `en` (Sefaria's name after "Mishnah_"). */
+const versionUrl = (masechtaEn: string, param: "ven" | "vhe", version: string): string =>
+  `https://www.sefaria.org/Mishnah_${masechtaEn}?${param}=${version}`;
+
+export const SOURCES: Record<Source, { name: string; detail: string; license: License; sefaria: (masechtaEn: string) => string }> = {
   steinsaltz: {
     name: "Steinsaltz",
     detail: "R. Adin Even-Israel Steinsaltz, Koren Noé / William Davidson Edition, via Sefaria",
     license: LICENSES.ccByNc4,
-    sefaria: "https://www.sefaria.org/Mishnah_Berakhot?ven=William_Davidson_Edition_-_English",
+    sefaria: (m) => versionUrl(m, "ven", "William_Davidson_Edition_-_English"),
   },
   bartenura: {
     name: "Bartenura",
     detail: "R. Ovadiah of Bartenura, translated by R. Shraga Silverstein, via Sefaria",
     license: LICENSES.ccBy3,
-    sefaria: "https://www.sefaria.org/Mishnah_Berakhot?ven=The_Mishna_with_Obadiah_Bartenura_by_Rabbi_Shraga_Silverstein",
+    sefaria: (m) => versionUrl(m, "ven", "The_Mishna_with_Obadiah_Bartenura_by_Rabbi_Shraga_Silverstein"),
   },
 };
 
 export const HEBREW_SOURCE = {
   name: "Torat Emet 357",
   license: LICENSES.publicDomain,
-  sefaria: "https://www.sefaria.org/Mishnah_Berakhot?vhe=Torat_Emet_357",
+  sefaria: (masechtaEn: string): string => versionUrl(masechtaEn, "vhe", "Torat_Emet_357"),
 };
 
 /** Public path of the sources & licenses page. It opens without signing in. */

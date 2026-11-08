@@ -23,6 +23,10 @@ import { diffProfiles, profileToRows } from "../src/sync/mapping";
 import { applyServerResponse, emptyStore, loadStore, storeKey, verifiedSet, type AccountStore, type KV } from "../src/sync/store";
 import type { MishnahProgress, Profile } from "../src/types";
 import { kid, store, USER } from "./helpers";
+import { shapeOf as shapeOfBR } from "../src/data";
+
+/** Berakhot: the masechta every test here runs against (tests/setup-data.ts makes it active). */
+const BR = shapeOfBR("berakhot");
 
 const T0 = 1_700_000_000_000;
 const known = (due = "2099-01-01"): MishnahProgress => ({ stepIndex: 99, state: "known", fails: {}, review: { box: 0, due, passes: 0 } });
@@ -40,55 +44,55 @@ const V = (...ks: number[]): Verified => new Set(ks);
 describe("gate: frontier, isLocked, perekPhase", () => {
   it("nothing verified and perakim 1–3 learned: frontier 1, 1 is in test, 2 and 3 locked", () => {
     const p = learned(learned(learned(kid("A"), 1), 2), 3);
-    expect(frontier(V())).toBe(1);
-    expect(perekPhase(p, V(), 1)).toBe("test");
-    expect(isLocked(V(), 2)).toBe(true);
-    expect(perekPhase(p, V(), 3)).toBe("locked");
+    expect(frontier(BR, V())).toBe(1);
+    expect(perekPhase(p, BR, V(), 1)).toBe("test");
+    expect(isLocked(BR, V(), 2)).toBe(true);
+    expect(perekPhase(p, BR, V(), 3)).toBe("locked");
   });
 
   it("perek 1 verified and 2 learned: frontier 2", () => {
     const p = learned(learned(kid("A"), 1), 2);
-    expect(frontier(V(1))).toBe(2);
-    expect(perekPhase(p, V(1), 1)).toBe("verified");
-    expect(perekPhase(p, V(1), 2)).toBe("test");
-    expect(perekPhase(p, V(1), 3)).toBe("locked");
+    expect(frontier(BR, V(1))).toBe(2);
+    expect(perekPhase(p, BR, V(1), 1)).toBe("verified");
+    expect(perekPhase(p, BR, V(1), 2)).toBe("test");
+    expect(perekPhase(p, BR, V(1), 3)).toBe("locked");
   });
 
   it("every perek verified: no frontier, nothing locked", () => {
     const all = V(...PERAKIM);
-    expect(frontier(all)).toBeNull();
-    expect(PERAKIM.some((k) => isLocked(all, k))).toBe(false);
+    expect(frontier(BR, all)).toBeNull();
+    expect(PERAKIM.some((k) => isLocked(BR, all, k))).toBe(false);
   });
 
   it("legacy complete: true counts as learned, not verified", () => {
     const p = learned(kid("A"), 1, true);
-    expect(perekStage(p, 1)).toBe("complete");
-    expect(perekLearned(p, 1)).toBe(true);
-    expect(perekPhase(p, V(), 1)).toBe("test");
+    expect(perekStage(p, BR, 1)).toBe("complete");
+    expect(perekLearned(p, BR, 1)).toBe(true);
+    expect(perekPhase(p, BR, V(), 1)).toBe("test");
   });
 
   it("un-verifying perek 1 locks 2 and 3 again with no other state change", () => {
     const p = learned(learned(learned(kid("A"), 1), 2), 3);
-    expect(perekPhase(p, V(1, 2), 3)).toBe("test");
-    expect(perekPhase(p, V(2), 2)).toBe("verified");
-    expect(perekPhase(p, V(2), 3)).toBe("locked");
-    expect(gatedNextLearning(p, V(2))).toEqual({ type: "perek-finish", perek: 1 });
+    expect(perekPhase(p, BR, V(1, 2), 3)).toBe("test");
+    expect(perekPhase(p, BR, V(2), 2)).toBe("verified");
+    expect(perekPhase(p, BR, V(2), 3)).toBe("locked");
+    expect(gatedNextLearning(p, BR, V(2))).toEqual({ masechta: "berakhot", type: "perek-finish", perek: 1 });
   });
 });
 
 describe("gatedNextLearning", () => {
   it("the frontier's build-up while it is being learned", () => {
     const p = kid("A");
-    expect(gatedNextLearning(p, V())).toEqual(nextLearning(p));
-    expect(gatedNextLearning(p, V())).toMatchObject({ type: "learn", perek: 1, mishnah: 1 });
+    expect(gatedNextLearning(p, BR, V())).toEqual(nextLearning(p, BR));
+    expect(gatedNextLearning(p, BR, V())).toMatchObject({ masechta: "berakhot", type: "learn", perek: 1, mishnah: 1 });
   });
 
   it("the test step (perek-finish) for a learned frontier, ready or legacy complete", () => {
-    expect(gatedNextLearning(learned(kid("A"), 1), V())).toEqual({ type: "perek-finish", perek: 1 });
+    expect(gatedNextLearning(learned(kid("A"), 1), BR, V())).toEqual({ masechta: "berakhot", type: "perek-finish", perek: 1 });
     // ungated nextLearning skips a complete perek and would move on: the gate doesn't
     const legacy = learned(kid("B"), 1, true);
-    expect(nextLearning(legacy)?.perek).toBe(2);
-    expect(gatedNextLearning(legacy, V())).toEqual({ type: "perek-finish", perek: 1 });
+    expect(nextLearning(legacy, BR)?.perek).toBe(2);
+    expect(gatedNextLearning(legacy, BR, V())).toEqual({ masechta: "berakhot", type: "perek-finish", perek: 1 });
   });
 
   it("never returns a task past the frontier", () => {
@@ -96,26 +100,26 @@ describe("gatedNextLearning", () => {
     for (const k of PERAKIM) p = learned(p, k, true);
     for (let i = 0; i < PERAKIM.length; i++) {
       const v = V(...PERAKIM.slice(0, i));
-      const f = frontier(v);
-      const t = gatedNextLearning(p, v);
+      const f = frontier(BR, v);
+      const t = gatedNextLearning(p, BR, v);
       expect(t?.perek).toBe(f);
     }
   });
 
   it("moves on once the perek is verified, even if its build-up is only ready", () => {
     const p = learned(kid("A"), 1);
-    expect(gatedNextLearning(p, V(1))).toMatchObject({ type: "learn", perek: 2, mishnah: 1 });
-    expect(gatedNextInPerek(p, V(1), 1)).toBeNull();
+    expect(gatedNextLearning(p, BR, V(1))).toMatchObject({ masechta: "berakhot", type: "learn", perek: 2, mishnah: 1 });
+    expect(gatedNextInPerek(p, BR, V(1), 1)).toBeNull();
   });
 
   it("a verified perek that was reset is relearned first", () => {
     const p = learned(kid("A"), 1);
     const reset = { ...p, mishnayos: { ...p.mishnayos, "1:3": { stepIndex: 0, state: "new" as const, fails: {} } } };
-    expect(gatedNextLearning(reset, V(1))).toMatchObject({ type: "learn", perek: 1, mishnah: 3 });
+    expect(gatedNextLearning(reset, BR, V(1))).toMatchObject({ masechta: "berakhot", type: "learn", perek: 1, mishnah: 3 });
   });
 
   it("gatedNextInPerek: nothing for a locked perek", () => {
-    expect(gatedNextInPerek(kid("A"), V(), 2)).toBeNull();
+    expect(gatedNextInPerek(kid("A"), BR, V(), 2)).toBeNull();
   });
 });
 
@@ -125,10 +129,10 @@ describe("gatedDueReviews and sessionReviews", () => {
     let p = learned(kid("A"), 1, true, past);
     p = learned(p, 2, true, past);
     p = learned(p, 3, false, past);
-    const all = dueReviews(p, "2026-01-01");
+    const all = dueReviews(p, BR, "2026-01-01");
     expect(all.some((t) => t.perek === 3)).toBe(true);
-    const g = gatedDueReviews(p, V(1), "2026-01-01");
-    expect(g).toContainEqual({ type: "review-p", perek: 1 });
+    const g = gatedDueReviews(p, BR, V(1), "2026-01-01");
+    expect(g).toContainEqual({ masechta: "berakhot", type: "review-p", perek: 1 });
     expect(g.some((t) => t.type === "review-p" && t.perek === 2)).toBe(false); // frontier in test
     expect(g.some((t) => t.perek === 3)).toBe(false); // locked
   });
@@ -137,7 +141,7 @@ describe("gatedDueReviews and sessionReviews", () => {
     let p = kid("A");
     for (let m = 1; m <= 5; m++) p = { ...p, mishnayos: { ...p.mishnayos, [`1:${m}`]: known(`2025-01-0${m}`) } };
     for (let m = 1; m <= 5; m++) p = { ...p, mishnayos: { ...p.mishnayos, [`2:${m}`]: known(`2024-01-0${m}`) } };
-    const r = sessionReviews(p, dueReviews(p, "2026-01-01"));
+    const r = sessionReviews(p, dueReviews(p, BR, "2026-01-01"));
     expect(r).toHaveLength(MAX_SESSION_REVIEWS);
     expect(r.slice(0, 5).every((t) => t.perek === 2)).toBe(true);
   });
@@ -146,24 +150,24 @@ describe("gatedDueReviews and sessionReviews", () => {
 describe("completeVerified", () => {
   it("marks a verified ready perek complete with a review; leaves the rest (same object when nothing changes)", () => {
     const p = learned(learned(kid("A"), 1), 2);
-    const q = completeVerified(p, V(1));
-    expect(perekDone(q, 1)).toBe(true);
+    const q = completeVerified(p, BR, V(1));
+    expect(perekDone(q, BR, 1)).toBe(true);
     expect(q.perakim["1"]?.review).toBeDefined();
-    expect(perekDone(q, 2)).toBe(false);
-    expect(completeVerified(q, V(1))).toBe(q);
-    expect(completeVerified(p, V())).toBe(p);
+    expect(perekDone(q, BR, 2)).toBe(false);
+    expect(completeVerified(q, BR, V(1))).toBe(q);
+    expect(completeVerified(p, BR, V())).toBe(p);
   });
 });
 
 describe("the banner and the locked sheet", () => {
   it("needsVerifIntro: learned perakim and no verification at all", () => {
-    expect(needsVerifIntro(kid("A"), V())).toBe(false);
-    expect(needsVerifIntro(learned(kid("A"), 1, true), V())).toBe(true);
-    expect(needsVerifIntro(learned(kid("A"), 1, true), V(1))).toBe(false);
+    expect(needsVerifIntro(kid("A"), BR, V())).toBe(false);
+    expect(needsVerifIntro(learned(kid("A"), 1, true), BR, V())).toBe(true);
+    expect(needsVerifIntro(learned(kid("A"), 1, true), BR, V(1))).toBe(false);
   });
   it("hasProgressIn: saved progress in a locked perek", () => {
-    expect(hasProgressIn(kid("A"), 3)).toBe(false);
-    expect(hasProgressIn(learned(kid("A"), 3), 3)).toBe(true);
+    expect(hasProgressIn(kid("A"), BR, 3)).toBe(false);
+    expect(hasProgressIn(learned(kid("A"), 3), BR, 3)).toBe(true);
   });
 });
 
@@ -285,11 +289,13 @@ describe("test request helpers", () => {
   it("parent mode's perek chips", () => {
     const p = learned(learned(kid("A"), 1), 2);
     const t = { verified: V(1), verifiedAt: () => T0, lastTest: { masechta: "berakhot", perek: 2, sentAt: T0 - 120_000, nextAllowedAt: T0 }, now: T0 };
-    expect(perekChip(p, t, 1)).toMatch(/^✔ Verified /);
-    expect(perekChip(p, t, 2)).toBe("📬 Test email sent 2 minutes ago");
-    expect(perekChip(p, t, 3).replace(/[\u2066-\u2069]/g, "")).toBe("🔒 Opens after פרק ב׳");
-    expect(perekChip(p, { ...t, lastTest: undefined }, 2)).toBe("🙋 Learned, ready for a test");
-    expect(perekChip(kid("B"), { ...t, verified: V() }, 1)).toBe("Not started");
+    expect(perekChip(p, BR, t, 1)).toMatch(/^✔ Verified /);
+    expect(perekChip(p, BR, t, 2)).toBe("📬 Test email sent 2 minutes ago");
+    expect(perekChip(p, BR, t, 3).replace(/[\u2066-\u2069]/g, "")).toBe("🔒 Opens after פרק ב׳");
+    expect(perekChip(p, BR, { ...t, lastTest: undefined }, 2)).toBe("🙋 Learned, ready for a test");
+    expect(perekChip(kid("B"), BR, { ...t, verified: V() }, 1)).toBe("Not started");
+    // A test email for the same perek number of another masechta isn't this perek's.
+    expect(perekChip(p, BR, { ...t, lastTest: { ...t.lastTest, masechta: "peah" } }, 2)).toBe("🙋 Learned, ready for a test");
   });
 });
 
@@ -351,9 +357,12 @@ describe("parent landing page", () => {
 
 describe("guest and import", () => {
   it("GuestApp starts at start.perek's first mishnah, scoped to that perek", () => {
-    expect(guestStartScreen(undefined)).toEqual({ s: "home" });
-    expect(guestStartScreen({ perek: 3 })).toMatchObject({
-      s: "session", tasks: [{ type: "learn", perek: 3, mishnah: 1 }], scopePerek: 3, back: { s: "perek", perek: 3 },
+    expect(guestStartScreen(undefined, "peah")).toEqual({ s: "home", m: "peah" });
+    expect(guestStartScreen({ masechta: "berakhot", perek: 3 }, "peah")).toMatchObject({
+      s: "session", m: "berakhot", tasks: [{ masechta: "berakhot", type: "learn", perek: 3, mishnah: 1 }], scopePerek: 3, back: { s: "perek", m: "berakhot", perek: 3 },
+    });
+    expect(guestStartScreen({ masechta: "demai", perek: 2, mishnah: 4 }, "berakhot")).toMatchObject({
+      s: "session", m: "demai", tasks: [{ masechta: "demai", type: "learn", perek: 2, mishnah: 4 }], back: { s: "perek", m: "demai", perek: 2 },
     });
   });
 
@@ -400,7 +409,7 @@ describe("no in-app check can make a perek official", () => {
   it("Session's perek-finish no longer calls checkPerek except in guest mode", () => {
     const src = readFileSync(resolve(__dirname, "../src/screens/Session.tsx"), "utf8");
     expect(src.match(/checkPerek\(/g)).toHaveLength(1);
-    expect(src).toMatch(/perekTest \? \{\} : \{[\s\S]{0,200}onFinishGuest: \(\) => finishTask\(checkPerek\(profile, perek, "pass"\)/);
+    expect(src).toMatch(/perekTest \? \{\} : \{[\s\S]{0,200}onFinishGuest: \(\) => finishTask\(checkPerek\(profile, ms, perek, "pass"\)/);
     expect(src).not.toContain("PerekFinishTask");
   });
 });

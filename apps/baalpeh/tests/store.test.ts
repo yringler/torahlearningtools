@@ -74,6 +74,30 @@ describe("applyServerResponse", () => {
     expect(pendingCount(s)).toBe(0);
   });
 
+  it("keeps a Peah row separate from the Berakhot row of the same perek:mishnah", () => {
+    const a = kid("A");
+    let s = applyLocalEdit(store([a]), [withM(withM(a, "1:2", 1), "peah/1:2", 2)], T0);
+    expect(Object.keys(s.pending.records).sort()).toEqual([`${a.id}|m|1:2`, `${a.id}|m|peah/1:2`]);
+    const sent = sentOf(s);
+    const rows: RecordRow[] = [
+      { kind: "m", childId: a.id, key: "1:2", updatedAt: T0 + 50, data: learning(5) },
+      { kind: "m", childId: a.id, key: "peah/1:2", updatedAt: T0 + 50, data: learning(7) },
+      { kind: "p", childId: a.id, key: "peah/1", updatedAt: T0 + 50, data: { chainedThrough: 1, complete: false } },
+    ];
+    s = applyServerResponse(s, sent, resp({ records: rows }), T0);
+    expect(s.profiles[0]?.mishnayos["1:2"]?.stepIndex).toBe(5);
+    expect(s.profiles[0]?.mishnayos["peah/1:2"]?.stepIndex).toBe(7);
+    expect(s.profiles[0]?.perakim["peah/1"]).toEqual({ chainedThrough: 1, complete: false });
+    expect(s.profiles[0]?.perakim["1"]).toBeUndefined();
+  });
+
+  it("keeps a pulled lastMasechta in the profile's settings", () => {
+    const a = kid("A");
+    const row: ChildRow = { id: a.id, updatedAt: T0, deleted: false, meta: { ...metaOf(a, 0), settings: { fontScale: 1, lastMasechta: "peah" } } };
+    const s = applyServerResponse(store([a]), { children: [], records: [], events: [] }, resp({ children: [row] }), T0);
+    expect(s.profiles[0]?.settings).toEqual({ fontScale: 1, lastMasechta: "peah" });
+  });
+
   it("removes profiles for tombstones and creates profiles for new children (ordered by sort)", () => {
     const a = kid("A");
     const b = kid("B");

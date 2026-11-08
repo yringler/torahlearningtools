@@ -1,4 +1,5 @@
 import type { Ms } from "../../shared/api";
+import { isMasechtaId, LEGACY_MASECHTA_ID } from "../../shared/progressKey";
 import { profileToRows } from "../sync/mapping";
 import { addPending, type AccountStore } from "../sync/store";
 import type { Profile } from "../types";
@@ -39,6 +40,23 @@ function entries<T>(m: Record<string, T>): Record<string, T> {
   return Object.fromEntries(Object.entries(m).filter(([, v]) => typeof v === "object" && v !== null && !Array.isArray(v)));
 }
 
+const NON_CANONICAL = `${LEGACY_MASECHTA_ID}/`;
+
+/**
+ * Rewrites the non-canonical "berakhot/1:2" ("berakhot/1") to the canonical "1:2" ("1"). When both exist, the
+ * unqualified one wins. Other keys are kept as they are (the sync mapping skips malformed ones).
+ */
+function canonicalKeys<T>(m: Record<string, T>): Record<string, T> {
+  const out: Record<string, T> = {};
+  for (const [k, v] of Object.entries(m)) if (!k.startsWith(NON_CANONICAL)) out[k] = v;
+  for (const [k, v] of Object.entries(m)) {
+    if (!k.startsWith(NON_CANONICAL)) continue;
+    const bare = k.slice(NON_CANONICAL.length);
+    if (bare && !Object.prototype.hasOwnProperty.call(out, bare)) out[bare] = v;
+  }
+  return out;
+}
+
 /** Fills in fields an old or hand-edited backup may lack, so the app and the sync mapping can rely on them. */
 export function normalizeProfile(x: Profile, index: number): Profile {
   const p = (typeof x === "object" && x !== null ? x : {}) as Partial<Profile>;
@@ -54,9 +72,10 @@ export function normalizeProfile(x: Profile, index: number): Profile {
       // The old `dailyMinutes` was always on by default, so it is not carried over: breaks stay off until a parent turns them on.
       ...(typeof settings.breakMinutes === "number" ? { breakMinutes: settings.breakMinutes } : {}),
       ...(settings.meaningView === "simple" || settings.meaningView === "steinsaltz" ? { meaningView: settings.meaningView } : {}),
+      ...(isMasechtaId(settings.lastMasechta) ? { lastMasechta: settings.lastMasechta } : {}),
     },
-    mishnayos: entries(obj(p.mishnayos)),
-    perakim: entries(obj(p.perakim)),
+    mishnayos: canonicalKeys(entries(obj(p.mishnayos))),
+    perakim: canonicalKeys(entries(obj(p.perakim))),
     days: Array.isArray(p.days) ? p.days.filter((d): d is string => typeof d === "string") : [],
   };
 }
