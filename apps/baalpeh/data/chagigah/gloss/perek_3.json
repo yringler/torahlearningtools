@@ -1,0 +1,2223 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "Kodesh, the food of korbanos, has stricter rules of tahara than terumah. This mishnah lists some of those stricter rules.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חֹמֶר בַּקֹּדֶשׁ מִבַּתְּרוּמָה,",
+    "en": "Kodesh has stricter rules than terumah:",
+    "st": "Concerning several matters there is greater <b>stringency with regard to sacrificial</b> food <b>than with regard to teruma,</b>",
+    "stMore": "a portion of the produce designated for the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֹמֶר",
+      "en": "strictness"
+     },
+     {
+      "he": "בַּקֹּדֶשׁ",
+      "en": "in kodesh",
+      "note": "Holy food of korbanos."
+     },
+     {
+      "he": "מִבַּתְּרוּמָה,",
+      "en": "than in terumah",
+      "note": "A gift of food for the Kohanim."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמַּטְבִּילִין כֵּלִים בְּתוֹךְ כֵּלִים לַתְּרוּמָה,",
+    "en": "for terumah we may tovel keilim inside other keilim,",
+    "st": "This expresses itself in many ways, the first being <b>that one may immerse vessels inside</b> other <b>vessels</b> to purify them <b>for teruma;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמַּטְבִּילִין",
+      "en": "that we tovel",
+      "note": "Dip in a mikveh to make tahor."
+     },
+     {
+      "he": "כֵּלִים",
+      "en": "keilim",
+      "note": "Dishes, pots and tools."
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "כֵּלִים",
+      "en": "keilim"
+     },
+     {
+      "he": "לַתְּרוּמָה,",
+      "en": "for terumah"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא לַקֹּדֶשׁ.",
+    "en": "but not for kodesh.",
+    "st": "<b>but not for sacrificial</b> food,",
+    "stMore": "for which one must immerse each vessel separately.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לַקֹּדֶשׁ.",
+      "en": "for kodesh"
+     }
+    ]
+   },
+   {
+    "he": "אֲחוֹרַיִם וְתוֹךְ וּבֵית הַצְּבִיטָה בַּתְּרוּמָה,",
+    "en": "For terumah, the outside, inside and handle of a kli count as separate parts,",
+    "explain": "If one part becomes tamei, the other parts stay tahor.",
+    "st": "Another difference is that the halakhot of <b>the back</b> of a vessel <b>and</b> its <b>inside and</b> its <b>place for gripping</b> apply <b>to</b> vessels used for <b>teruma,</b>",
+    "stMore": "meaning that each part of the vessel has its own use and is considered a separate vessel in that it does not convey impurity to the other parts of the vessel when it contracts impurity;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲחוֹרַיִם",
+      "en": "the back"
+     },
+     {
+      "he": "וְתוֹךְ",
+      "en": "and the inside"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and the place of"
+     },
+     {
+      "he": "הַצְּבִיטָה",
+      "en": "gripping",
+      "note": "The handle, where you hold the kli."
+     },
+     {
+      "he": "בַּתְּרוּמָה,",
+      "en": "in terumah"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא בַקֹּדֶשׁ.",
+    "en": "but not for kodesh.",
+    "st": "<b>but not to sacrificial</b> food,",
+    "stMore": "for which an impure section of the vessel does convey impurity to all the other sections.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַקֹּדֶשׁ.",
+      "en": "in kodesh"
+     }
+    ]
+   },
+   {
+    "he": "הַנּוֹשֵׂא אֶת הַמִּדְרָס נוֹשֵׂא אֶת הַתְּרוּמָה,",
+    "en": "Someone carrying something with midras tumah may also carry terumah,",
+    "st": "Likewise, <b>one who carries an object trodden</b> on by a zav, a man suffering from gonorrhea, <b>may carry teruma</b>",
+    "stMore": "at the same time, if he is careful that neither he nor the impure object should come into contact with the teruma,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹשֵׂא",
+      "en": "the one who carries"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמִּדְרָס",
+      "en": "the midras",
+      "note": "Something with a strong kind of tumah, like a seat a zav sat on."
+     },
+     {
+      "he": "נוֹשֵׂא",
+      "en": "may carry"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתְּרוּמָה,",
+      "en": "the terumah"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא אֶת הַקֹּדֶשׁ.",
+    "en": "but not kodesh.",
+    "st": "<b>but</b> this may <b>not</b> be done with <b>sacrificial</b> food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקֹּדֶשׁ.",
+      "en": "the kodesh"
+     }
+    ]
+   },
+   {
+    "he": "בִּגְדֵי אוֹכְלֵי תְרוּמָה,",
+    "en": "The clothes of those who eat terumah",
+    "st": "<b>The garments of those who eat teruma</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּגְדֵי",
+      "en": "the clothes of"
+     },
+     {
+      "he": "אוֹכְלֵי",
+      "en": "those who eat"
+     },
+     {
+      "he": "תְרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "מִדְרָס לַקֹּדֶשׁ.",
+    "en": "are counted as midras for kodesh.",
+    "st": "are like an object trodden on by a zav <b>with regard to sacrificial</b> food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִדְרָס",
+      "en": "midras"
+     },
+     {
+      "he": "לַקֹּדֶשׁ.",
+      "en": "for kodesh"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כְמִדַּת הַקֹּדֶשׁ מִדַּת הַתְּרוּמָה,",
+    "en": "The rule of terumah is not like the rule of kodesh:",
+    "st": "The mishna lists other stringencies that apply to sacrificial foods but not to teruma: <b>The characteristics of teruma are not like the characteristics of sacrificial</b> food,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כְמִדַּת",
+      "en": "like the rule of"
+     },
+     {
+      "he": "הַקֹּדֶשׁ",
+      "en": "the kodesh"
+     },
+     {
+      "he": "מִדַּת",
+      "en": "the rule of"
+     },
+     {
+      "he": "הַתְּרוּמָה,",
+      "en": "the terumah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבַּקֹּדֶשׁ מַתִּיר וּמְנַגֵּב וּמַטְבִּיל",
+    "en": "for kodesh, he unties a knot, dries it, and tovels it,",
+    "explain": "A knot or wetness could keep the mikveh water from reaching everywhere.",
+    "st": "<b>as in</b> the case of vessels that are used with <b>sacrificial</b> food, if one has a garment or vessel that is tied up <b>he must untie</b> it <b>and dry</b> it if there was any moisture on it,",
+    "stMore": "as both a knot and absorbed moisture are considered interpositions that prevent the water of the ritual bath from reaching the entire garment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבַּקֹּדֶשׁ",
+      "en": "that in kodesh"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "he unties"
+     },
+     {
+      "he": "וּמְנַגֵּב",
+      "en": "and dries"
+     },
+     {
+      "he": "וּמַטְבִּיל",
+      "en": "and tovels"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ קוֹשֵׁר,",
+    "en": "and only after that ties it again;",
+    "st": "<b>And he may</b> then <b>immerse</b> them, <b>and afterward he may tie</b> them up again if he wishes.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "קוֹשֵׁר,",
+      "en": "ties"
+     }
+    ]
+   },
+   {
+    "he": "וּבַתְּרוּמָה קוֹשֵׁר וְאַחַר כָּךְ מַטְבִּיל:",
+    "en": "but for terumah, he may tie it and then tovel it.",
+    "st": "<b>But with regard to teruma he may,</b> if he so desires, <b>tie</b> up the garment <b>and then immerse</b> it without any concern that the knot might be considered an interposition.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַתְּרוּמָה",
+      "en": "but in terumah"
+     },
+     {
+      "he": "קוֹשֵׁר",
+      "en": "ties"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מַטְבִּיל:",
+      "en": "tovels"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "More stricter rules for kodesh than for terumah: about new keilim, food in one kli, levels of tumah, and tamei hands.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֵּלִים הַנִּגְמָרִין בְּטָהֳרָה,",
+    "en": "Keilim that were finished being made while tahor",
+    "st": "<b>Vessels</b> that were fashioned and <b>completed in purity</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּלִים",
+      "en": "keilim"
+     },
+     {
+      "he": "הַנִּגְמָרִין",
+      "en": "that are finished"
+     },
+     {
+      "he": "בְּטָהֳרָה,",
+      "en": "in tahara"
+     }
+    ]
+   },
+   {
+    "he": "צְרִיכִין טְבִילָה לַקֹּדֶשׁ,",
+    "en": "must be toveled before using them for kodesh,",
+    "st": "nevertheless <b>require immersion</b> to be considered pure <b>for sacrificial</b> food<b>s,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צְרִיכִין",
+      "en": "need"
+     },
+     {
+      "he": "טְבִילָה",
+      "en": "tevilah",
+      "note": "Dipping in a mikveh."
+     },
+     {
+      "he": "לַקֹּדֶשׁ,",
+      "en": "for kodesh"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא לַתְּרוּמָה.",
+    "en": "but not for terumah.",
+    "st": "<b>but not for teruma.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לַתְּרוּמָה.",
+      "en": "for terumah"
+     }
+    ]
+   },
+   {
+    "he": "הַכְּלִי מְצָרֵף מַה שֶּׁבְּתוֹכוֹ לַקֹּדֶשׁ,",
+    "en": "A kli joins together all the food inside it for kodesh,",
+    "explain": "If one piece becomes tamei, all the pieces become tamei.",
+    "st": "<b>A vessel combines</b> all the food <b>that is in it</b> with regard <b>to sacrificial</b> food,",
+    "stMore": "meaning that if one piece of food becomes impure all the other pieces become impure as well;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכְּלִי",
+      "en": "the kli"
+     },
+     {
+      "he": "מְצָרֵף",
+      "en": "joins together"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁבְּתוֹכוֹ",
+      "en": "is inside it"
+     },
+     {
+      "he": "לַקֹּדֶשׁ,",
+      "en": "for kodesh"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא לַתְּרוּמָה.",
+    "en": "but not for terumah.",
+    "st": "<b>but not</b> with regard <b>to teruma,</b>",
+    "stMore": "concerning which each piece is treated independently.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לַתְּרוּמָה.",
+      "en": "for terumah"
+     }
+    ]
+   },
+   {
+    "he": "הָרְבִיעִי בַּקֹּדֶשׁ פָּסוּל,",
+    "en": "Kodesh can become pasul even at the fourth level of tumah,",
+    "explain": "Tumah passes from thing to thing in steps, called levels.",
+    "st": "The mishna continues the list of differences between sacrificial food and teruma. <b>Sacrificial</b> food <b>that is impure with fourth-degree</b> impurity <b>is disqualified,</b>",
+    "stMore": "meaning that the sacrificial food is rendered impure but it does not impart impurity to other items.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרְבִיעִי",
+      "en": "the fourth",
+      "note": "The fourth level, or step, of tumah."
+     },
+     {
+      "he": "בַּקֹּדֶשׁ",
+      "en": "in kodesh"
+     },
+     {
+      "he": "פָּסוּל,",
+      "en": "is pasul",
+      "note": "No longer fit to eat."
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁלִישִׁי בַּתְּרוּמָה.",
+    "en": "but terumah only up to the third level.",
+    "st": "<b>Teruma is disqualified when it is impure with third-degree</b> impurity;",
+    "stMore": "it is not susceptible to fourth-degree impurity at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁלִישִׁי",
+      "en": "and the third"
+     },
+     {
+      "he": "בַּתְּרוּמָה.",
+      "en": "in terumah"
+     }
+    ]
+   },
+   {
+    "he": "וּבַתְּרוּמָה, אִם נִטְמֵאת אַחַת מִיָּדָיו,",
+    "en": "And for terumah, if one of his hands became tamei,",
+    "st": "<b>And with regard to teruma, if one of one’s hands became impure</b>",
+    "stMore": "by rabbinic law that renders only the hands impure,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַתְּרוּמָה,",
+      "en": "and in terumah"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נִטְמֵאת",
+      "en": "became tamei"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מִיָּדָיו,",
+      "en": "of his hands"
+     }
+    ]
+   },
+   {
+    "he": "חֲבֶרְתָּהּ טְהוֹרָה.",
+    "en": "the other hand is still tahor.",
+    "st": "<b>its counterpart,</b> i.e., the other hand, remains <b>pure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲבֶרְתָּהּ",
+      "en": "its friend"
+     },
+     {
+      "he": "טְהוֹרָה.",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "וּבַקֹּדֶשׁ, מַטְבִּיל שְׁתֵּיהֶן,",
+    "en": "But for kodesh, he must tovel both hands,",
+    "st": "<b>But with regard to sacrificial</b> food, if one hand becomes impure <b>he must immerse them both,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַקֹּדֶשׁ,",
+      "en": "but in kodesh"
+     },
+     {
+      "he": "מַטְבִּיל",
+      "en": "he tovels"
+     },
+     {
+      "he": "שְׁתֵּיהֶן,",
+      "en": "both of them"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַיָּד מְטַמָּא אֶת חֲבֶרְתָּהּ בַּקֹּדֶשׁ,",
+    "en": "because one hand makes the other hand tamei for kodesh,",
+    "st": "<b>as one hand renders its counterpart impure with regard to sacrificial</b> food",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַיָּד",
+      "en": "because the hand"
+     },
+     {
+      "he": "מְטַמָּא",
+      "en": "makes tamei"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֶרְתָּהּ",
+      "en": "its friend"
+     },
+     {
+      "he": "בַּקֹּדֶשׁ,",
+      "en": "in kodesh"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא בַּתְּרוּמָה:",
+    "en": "but not for terumah.",
+    "st": "<b>but not with regard to teruma.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַּתְּרוּמָה:",
+      "en": "in terumah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "More differences between kodesh and terumah: about eating dry food with tamei hands, and about people who must go to the mikveh before eating kodesh.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אוֹכְלִין אֳכָלִים נְגוּבִין בְּיָדַיִם מְסֹאָבוֹת בַּתְּרוּמָה,",
+    "en": "We may eat dry foods with tamei hands when it is terumah,",
+    "explain": "Dry food cannot become tamei.",
+    "st": "One may eat dry foods, i.e., foods that have never come into contact with liquid and are therefore not susceptible to impurity, <b>with impure hands when</b> it is <b>teruma,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹכְלִין",
+      "en": "we eat"
+     },
+     {
+      "he": "אֳכָלִים",
+      "en": "foods"
+     },
+     {
+      "he": "נְגוּבִין",
+      "en": "dry"
+     },
+     {
+      "he": "בְּיָדַיִם",
+      "en": "with hands"
+     },
+     {
+      "he": "מְסֹאָבוֹת",
+      "en": "tamei"
+     },
+     {
+      "he": "בַּתְּרוּמָה,",
+      "en": "in terumah"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא בַּקֹּדֶשׁ.",
+    "en": "but not when it is kodesh.",
+    "st": "<b>but not</b> when it is <b>sacrificial</b> food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַּקֹּדֶשׁ.",
+      "en": "in kodesh"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹנֵן וּמְחֻסַּר כִּפּוּרִים",
+    "en": "An onen and someone who still has to bring a korban to finish becoming tahor",
+    "st": "<b>An acute mourner [onen],</b> i.e., someone who has experienced the loss of a close relative on that day, who had not come into contact with the deceased; <b>and one who is lacking atonement,</b> i.e., someone who still needs to bring an offering to complete his purification procedure, such as a zav or a woman after childbirth,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹנֵן",
+      "en": "the onen",
+      "note": "Someone whose close relative died that day."
+     },
+     {
+      "he": "וּמְחֻסַּר",
+      "en": "and missing"
+     },
+     {
+      "he": "כִּפּוּרִים",
+      "en": "kapparah",
+      "note": "Someone who still needs to bring a korban to finish becoming tahor."
+     }
+    ]
+   },
+   {
+    "he": "צְרִיכִין טְבִילָה לַקֹּדֶשׁ,",
+    "en": "must go to the mikveh before eating kodesh,",
+    "st": "both <b>require immersion</b> in order <b>to</b> eat <b>sacrificial</b> food.",
+    "stMore": "The onen would immerse after the day has passed and the one lacking atonement would immerse after the requisite offering is brought.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צְרִיכִין",
+      "en": "need"
+     },
+     {
+      "he": "טְבִילָה",
+      "en": "tevilah"
+     },
+     {
+      "he": "לַקֹּדֶשׁ,",
+      "en": "for kodesh"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא לַתְּרוּמָה:",
+    "en": "but not before eating terumah.",
+    "st": "<b>However,</b> immersion in these cases is <b>not</b> necessary <b>for</b> eating <b>teruma.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לַתְּרוּמָה:",
+      "en": "for terumah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "Terumah also has some stricter rules than kodesh. People who are not careful about tahara are believed about kodesh all year, but about terumah only at the time of making wine and oil.",
+  "stIntro": "The previous mishna listed stringencies that apply to sacrificial food but not to teruma. However, there are also",
+  "chunks": [
+   {
+    "he": "חֹמֶר בַּתְּרוּמָה,",
+    "en": "Terumah is stricter in this way:",
+    "st": "<b>stringencies</b> that apply <b>to teruma</b> over sacrificial food:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֹמֶר",
+      "en": "strictness"
+     },
+     {
+      "he": "בַּתְּרוּמָה,",
+      "en": "in terumah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבִּיהוּדָה נֶאֱמָנִים עַל טָהֳרַת יַיִן",
+    "en": "In Yehudah, everyone is believed that wine",
+    "explain": "Even an am ha'aretz, who is not careful about tumah.",
+    "st": "<b>In Judea</b> all people, even people who are not generally meticulous in their observance of the halakhot of ritual purity [amei ha’aretz], <b>are trusted with regard to the purity of</b> consecrated <b>wine</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבִּיהוּדָה",
+      "en": "that in Yehudah"
+     },
+     {
+      "he": "נֶאֱמָנִים",
+      "en": "they are believed"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "טָהֳרַת",
+      "en": "the tahara of"
+     },
+     {
+      "he": "יַיִן",
+      "en": "wine"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁמֶן כָּל יְמוֹת הַשָּׁנָה,",
+    "en": "and oil for the Beis HaMikdash are tahor, all year long.",
+    "st": "<b>and oil</b> throughout <b>all the days of the year.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁמֶן",
+      "en": "and oil"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "יְמוֹת",
+      "en": "the days of"
+     },
+     {
+      "he": "הַשָּׁנָה,",
+      "en": "the year"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׁעַת הַגִּתּוֹת וְהַבַּדִּים אַף עַל הַתְּרוּמָה.",
+    "en": "And at the time of making wine and oil, they are believed even about terumah.",
+    "explain": "Then everyone makes his keilim tahor.",
+    "st": "<b>And during the period of the winepress and olive press,</b> when grapes and olives are pressed and made into wine and oil, respectively, they are trusted <b>even with regard to</b> the purity of <b>teruma,</b>",
+    "stMore": "as all people, including amei ha’aretz, purify their vessels for this season.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׁעַת",
+      "en": "and at the time of"
+     },
+     {
+      "he": "הַגִּתּוֹת",
+      "en": "the winepresses"
+     },
+     {
+      "he": "וְהַבַּדִּים",
+      "en": "and the olive presses"
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַתְּרוּמָה.",
+      "en": "the terumah"
+     }
+    ]
+   },
+   {
+    "he": "עָבְרוּ הַגִּתּוֹת וְהַבַּדִּים וְהֵבִיאוּ לוֹ",
+    "en": "If the time of making wine and oil passed, and someone brought a Kohen",
+    "st": "But once <b>the</b> periods of the <b>winepress and olive press have passed,</b> if amei ha’aretz <b>brought to him,</b> i.e., to a priest who is meticulous concerning the halakhot of ritual purity [ḥaver],",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָבְרוּ",
+      "en": "passed"
+     },
+     {
+      "he": "הַגִּתּוֹת",
+      "en": "the winepresses"
+     },
+     {
+      "he": "וְהַבַּדִּים",
+      "en": "and the olive presses"
+     },
+     {
+      "he": "וְהֵבִיאוּ",
+      "en": "and they brought"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "חָבִית שֶׁל יַיִן שֶׁל תְּרוּמָה,",
+    "en": "a barrel of terumah wine,",
+    "st": "a <b>barrel of teruma wine,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָבִית",
+      "en": "a barrel"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "יַיִן",
+      "en": "wine"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "תְּרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יְקַבְּלֶנָּה מִמֶּנּוּ,",
+    "en": "the Kohen should not take it from him.",
+    "st": "<b>he may not accept it from them,</b>",
+    "stMore": "as amei ha’aretz are not trusted with regard to matters of ritual purity during the rest of the year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יְקַבְּלֶנָּה",
+      "en": "he should take it"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מַנִּיחָהּ לַגַּת הַבָּאָה.",
+    "en": "But he may leave it for the next wine-making time.",
+    "st": "<b>But</b> the giver <b>may leave it</b> over <b>for the following winepress</b> season,",
+    "stMore": "in the following year, at which point the ḥaver priest may accept it from him, although it was prohibited for him to accept the same barrel beforehand.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מַנִּיחָהּ",
+      "en": "he leaves it"
+     },
+     {
+      "he": "לַגַּת",
+      "en": "for the winepress"
+     },
+     {
+      "he": "הַבָּאָה.",
+      "en": "that comes next"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמַר לוֹ,",
+    "en": "And if he told the Kohen,",
+    "st": "<b>And if</b> the giver <b>said to</b> the priest:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הִפְרַשְׁתִּי לְתוֹכָהּ רְבִיעִית קֹדֶשׁ, נֶאֱמָן.",
+    "en": "\"I put a revi'is of kodesh into it,\" he is believed.",
+    "explain": "He is believed about kodesh, so also about the terumah with it.",
+    "st": "<b>I separated</b> and placed <b>into</b> this barrel of teruma <b>a quarter</b>-log <b>of sacrificial</b> wine or oil, <b>he is trusted</b>",
+    "stMore": "with regard to the entire contents of the barrel. Since an am ha’aretz is trusted with regard to the purity of sacrificial food, he is also believed with regard to teruma that is mingled with the sacrificial food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִפְרַשְׁתִּי",
+      "en": "I separated"
+     },
+     {
+      "he": "לְתוֹכָהּ",
+      "en": "into it"
+     },
+     {
+      "he": "רְבִיעִית",
+      "en": "a revi'is",
+      "note": "A small measure, about a cup."
+     },
+     {
+      "he": "קֹדֶשׁ,",
+      "en": "kodesh"
+     },
+     {
+      "he": "נֶאֱמָן.",
+      "en": "he is believed"
+     }
+    ]
+   },
+   {
+    "he": "כַּדֵּי יַיִן וְכַדֵּי שֶׁמֶן הַמְדֻמָּעוֹת,",
+    "en": "Jugs of wine and jugs of oil that have terumah mixed in:",
+    "st": "With regard to <b>jugs of wine and jugs of oil that are mingled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּדֵּי",
+      "en": "jugs of"
+     },
+     {
+      "he": "יַיִן",
+      "en": "wine"
+     },
+     {
+      "he": "וְכַדֵּי",
+      "en": "and jugs of"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "הַמְדֻמָּעוֹת,",
+      "en": "that are mixed with terumah"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמָנִין עֲלֵיהֶם בִּשְׁעַת הַגִּתּוֹת וְהַבַּדִּים,",
+    "en": "people are believed about them at the time of making wine and oil,",
+    "st": "amei ha’aretz <b>are trusted with regard to them during the period of the winepress and the olive press,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמָנִין",
+      "en": "they are believed"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "about them"
+     },
+     {
+      "he": "בִּשְׁעַת",
+      "en": "at the time of"
+     },
+     {
+      "he": "הַגִּתּוֹת",
+      "en": "the winepresses"
+     },
+     {
+      "he": "וְהַבַּדִּים,",
+      "en": "and the olive presses"
+     }
+    ]
+   },
+   {
+    "he": "וְקֹדֶם לַגִּתּוֹת שִׁבְעִים יוֹם:",
+    "en": "and for seventy days before the wine-making time.",
+    "st": "<b>and</b> also up to <b>seventy days before the winepress,</b>",
+    "stMore": "for that is when people begin to purify their vessels in preparation for the wine-pressing season.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקֹדֶם",
+      "en": "and before"
+     },
+     {
+      "he": "לַגִּתּוֹת",
+      "en": "the winepresses"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "יוֹם:",
+      "en": "days"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "Near Yerushalayim, up to the town of Modi'im, every potter is believed that his clay pots are tahor. Farther away, a potter who is not careful is not believed.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִן הַמּוֹדִיעִית וְלִפְנִים,",
+    "en": "From Modi'im and in, toward Yerushalayim,",
+    "st": "<b>From Modi’im and inward</b> toward Jerusalem,",
+    "stMore": "i.e., in the area surrounding Jerusalem, up to the distance of the town of Modi’im, which is fifteen mil from Jerusalem,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמּוֹדִיעִית",
+      "en": "Modi'im",
+      "note": "A town fifteen mil from Yerushalayim."
+     },
+     {
+      "he": "וְלִפְנִים,",
+      "en": "and inward"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמָנִין עַל כְּלֵי חֶרֶס.",
+    "en": "potters are believed about clay keilim.",
+    "st": "all potters, including amei ha’aretz, <b>are deemed credible with regard to</b> the purity of <b>earthenware vessels</b> that they have produced.",
+    "stMore": "Because these places supplied earthenware vessels for the people in Jerusalem, the Sages did not decree impurity for them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמָנִין",
+      "en": "they are believed"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "כְּלֵי",
+      "en": "keilim of"
+     },
+     {
+      "he": "חֶרֶס.",
+      "en": "clay"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַמּוֹדִיעִית וְלַחוּץ,",
+    "en": "From Modi'im and farther out,",
+    "st": "<b>From Modi’im and outward,</b> however,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמּוֹדִיעִית",
+      "en": "Modi'im"
+     },
+     {
+      "he": "וְלַחוּץ,",
+      "en": "and outward"
+     }
+    ]
+   },
+   {
+    "he": "אֵין נֶאֱמָנִים.",
+    "en": "they are not believed.",
+    "st": "<b>they are not deemed credible.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they are not"
+     },
+     {
+      "he": "נֶאֱמָנִים.",
+      "en": "believed"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, הַקַּדָּר שֶׁהוּא מוֹכֵר הַקְּדֵרוֹת,",
+    "en": "How is this? A potter who sells pots",
+    "st": "The details of this ruling are specified: <b>How so? A potter who sells pots,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how?"
+     },
+     {
+      "he": "הַקַּדָּר",
+      "en": "the potter"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "who"
+     },
+     {
+      "he": "מוֹכֵר",
+      "en": "sells"
+     },
+     {
+      "he": "הַקְּדֵרוֹת,",
+      "en": "the pots"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס לִפְנִים מִן הַמּוֹדִיעִית,",
+    "en": "came in past Modi'im:",
+    "st": "if he <b>entered within Modi’im</b> from outside it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "came in"
+     },
+     {
+      "he": "לִפְנִים",
+      "en": "inward"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמּוֹדִיעִית,",
+      "en": "Modi'im"
+     }
+    ]
+   },
+   {
+    "he": "הוּא הַקַּדָּר וְהֵן הַקְּדֵרוֹת וְהֵן הַלּוֹקְחִים, נֶאֱמָן.",
+    "en": "the same potter, the same pots and the same buyers, he is believed.",
+    "explain": "Even though they all came from outside Modi'im.",
+    "st": "although <b>the potter, and the pots, and the customers</b> were all previously located outside Modi’im, where he is not deemed credible with regard to purity, <b>he is</b> now <b>deemed credible.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he is"
+     },
+     {
+      "he": "הַקַּדָּר",
+      "en": "the potter"
+     },
+     {
+      "he": "וְהֵן",
+      "en": "and they are"
+     },
+     {
+      "he": "הַקְּדֵרוֹת",
+      "en": "the pots"
+     },
+     {
+      "he": "וְהֵן",
+      "en": "and they are"
+     },
+     {
+      "he": "הַלּוֹקְחִים,",
+      "en": "the buyers"
+     },
+     {
+      "he": "נֶאֱמָן.",
+      "en": "he is believed"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא, אֵינוֹ נֶאֱמָן:",
+    "en": "If he went out, he is not believed.",
+    "st": "And the opposite is true of the opposite case: If the same person who was deemed credible inside <b>left</b> the boundaries of Modi’im, <b>he is no</b> longer <b>deemed credible.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא,",
+      "en": "went out"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "נֶאֱמָן:",
+      "en": "believed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "Tax collectors or thieves who say they did not touch anything are believed. In Yerushalayim everyone is believed about kodesh, and on Yom Tov even about terumah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַגַּבָּאִין שֶׁנִּכְנְסוּ לְתוֹךְ הַבַּיִת,",
+    "en": "Tax collectors who came into a house,",
+    "st": "In the case of amei ha’aretz tax <b>collectors who entered a house</b> to collect items for a tax,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגַּבָּאִין",
+      "en": "the tax collectors"
+     },
+     {
+      "he": "שֶׁנִּכְנְסוּ",
+      "en": "who came"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן הַגַּנָּבִים שֶׁהֶחֱזִירוּ אֶת הַכֵּלִים,",
+    "en": "and also thieves who brought back the keilim,",
+    "st": "<b>and similarly thieves who returned the vessels</b> they had stolen,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and also"
+     },
+     {
+      "he": "הַגַּנָּבִים",
+      "en": "the thieves"
+     },
+     {
+      "he": "שֶׁהֶחֱזִירוּ",
+      "en": "who returned"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֵּלִים,",
+      "en": "the keilim"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמָנִין לוֹמַר,",
+    "en": "are believed when they say,",
+    "st": "<b>they are deemed credible when they say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמָנִין",
+      "en": "they are believed"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נָגָעְנוּ.",
+    "en": "\"We did not touch the other things.\"",
+    "st": "<b>We did not touch</b>",
+    "stMore": "the rest of the objects in the house, and those items remain pure.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָגָעְנוּ.",
+      "en": "we touched"
+     }
+    ]
+   },
+   {
+    "he": "וּבִירוּשָׁלַיִם נֶאֱמָנִין עַל הַקֹּדֶשׁ,",
+    "en": "And in Yerushalayim everyone is believed about kodesh,",
+    "st": "<b>And in Jerusalem</b> all people, even amei ha’aretz, <b>are deemed credible with regard to sacrificial</b> food throughout the year,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִירוּשָׁלַיִם",
+      "en": "and in Yerushalayim"
+     },
+     {
+      "he": "נֶאֱמָנִין",
+      "en": "they are believed"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַקֹּדֶשׁ,",
+      "en": "the kodesh"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׁעַת הָרֶגֶל אַף עַל הַתְּרוּמָה:",
+    "en": "and at the time of the Yom Tov, even about terumah.",
+    "st": "<b>and during a pilgrimage Festival</b> they are deemed credible <b>even with regard to teruma.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׁעַת",
+      "en": "and at the time of"
+     },
+     {
+      "he": "הָרֶגֶל",
+      "en": "the regel",
+      "note": "The Yom Tov when everyone came to Yerushalayim."
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "הַתְּרוּמָה:",
+      "en": "the terumah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "During Yom Tov everyone is counted as tahor, so after Yom Tov the keilim of the Beis HaMikdash were made tahor again. The mishnah also says when this was done.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַפּוֹתֵחַ אֶת חָבִיתוֹ,",
+    "en": "Someone who opens his barrel of wine to sell,",
+    "st": "In the case of <b>one who opens his barrel</b> of wine for public sale,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹתֵחַ",
+      "en": "the one who opens"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חָבִיתוֹ,",
+      "en": "his barrel"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּתְחִיל בְּעִסָּתוֹ עַל גַּב הָרֶגֶל,",
+    "en": "or starts selling his dough during Yom Tov,",
+    "explain": "People who are not careful about tahara touched it.",
+    "st": "<b>and</b> similarly <b>one who starts</b> selling <b>his dough during the time of the pilgrimage Festival,</b> and these items perforce come into contact with amei ha’aretz,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּתְחִיל",
+      "en": "and the one who starts"
+     },
+     {
+      "he": "בְּעִסָּתוֹ",
+      "en": "with his dough"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּב",
+      "en": "the time of"
+     },
+     {
+      "he": "הָרֶגֶל,",
+      "en": "the regel"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר, יִגְמֹר.",
+    "en": "Rabbi Yehudah says: he may finish selling it after Yom Tov.",
+    "st": "<b>Rabbi Yehuda says:</b> Since the food was pure, despite its contact with amei ha’aretz, when he began selling it, <b>he may finish</b> selling it in a state of purity even after the Festival,",
+    "stMore": "and there is no concern about the contact that has been made by amei ha’aretz during the Festival.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "יִגְמֹר.",
+      "en": "he may finish"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים, לֹא יִגְמֹר.",
+    "en": "And the Sages say: he may not finish.",
+    "st": "<b>But the Rabbis say: He may not finish</b> selling it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִגְמֹר.",
+      "en": "he may finish"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁעָבַר הָרֶגֶל,",
+    "en": "Once Yom Tov was over,",
+    "st": "<b>Once the pilgrimage Festival has passed by,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁעָבַר",
+      "en": "once passed"
+     },
+     {
+      "he": "הָרֶגֶל,",
+      "en": "the regel"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מַעֲבִירִין עַל טָהֳרַת עֲזָרָה.",
+    "en": "they would make the keilim of the Azarah tahor again.",
+    "explain": "Many people had touched them during Yom Tov.",
+    "st": "the priests <b>pass</b> all the vessels of <b>the Temple courtyard</b> through a process of <b>purification,</b>",
+    "stMore": "since they were touched by am ha’aretz priests during the Festival.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "מַעֲבִירִין",
+      "en": "pass"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "טָהֳרַת",
+      "en": "the tahara of"
+     },
+     {
+      "he": "עֲזָרָה.",
+      "en": "the Azarah",
+      "note": "The courtyard of the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "עָבַר הָרֶגֶל בְּיוֹם שִׁשִּׁי,",
+    "en": "If Yom Tov ended and the next day was Friday,",
+    "st": "If <b>the Festival passed by into a Friday,</b> i.e., if the Festival ended on Thursday night,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָבַר",
+      "en": "passed"
+     },
+     {
+      "he": "הָרֶגֶל",
+      "en": "the regel"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on day"
+     },
+     {
+      "he": "שִׁשִּׁי,",
+      "en": "sixth"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיוּ מַעֲבִירִין,",
+    "en": "they would not do it then,",
+    "st": "<b>they would not pass</b> the vessels through the purification process on that day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "מַעֲבִירִין,",
+      "en": "pass"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי כְבוֹד הַשַּׁבָּת.",
+    "en": "because of the honor of Shabbos.",
+    "st": "<b>due to the honor of Shabbat,</b>",
+    "stMore": "in order to give the priests time to prepare the requirements of Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "כְבוֹד",
+      "en": "the honor of"
+     },
+     {
+      "he": "הַשַּׁבָּת.",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says:",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף לֹא בְיוֹם חֲמִישִׁי,",
+    "en": "Not even on Thursday,",
+    "st": "They do <b>not even</b> purify them <b>on Thursday,</b>",
+    "stMore": "in the event that the Festival ended on Wednesday night,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בְיוֹם",
+      "en": "on day"
+     },
+     {
+      "he": "חֲמִישִׁי,",
+      "en": "fifth"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין הַכֹּהֲנִים פְּנוּיִין:",
+    "en": "because the Kohanim are not free.",
+    "st": "because <b>the priests are not free</b> to do so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because are not"
+     },
+     {
+      "he": "הַכֹּהֲנִים",
+      "en": "the Kohanim"
+     },
+     {
+      "he": "פְּנוּיִין:",
+      "en": "free"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "This mishnah tells how they made the keilim of the Beis HaMikdash tahor after Yom Tov. There were extra keilim, so one could be used while another was being toveled.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֵּיצַד מַעֲבִירִים עַל טָהֳרַת עֲזָרָה.",
+    "en": "How did they make the Azarah tahor?",
+    "st": "<b>How do they pass</b> all the vessels of the Temple <b>courtyard</b> through a process of <b>purification?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how?"
+     },
+     {
+      "he": "מַעֲבִירִים",
+      "en": "they pass"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "טָהֳרַת",
+      "en": "the tahara of"
+     },
+     {
+      "he": "עֲזָרָה.",
+      "en": "the Azarah"
+     }
+    ]
+   },
+   {
+    "he": "מַטְבִּילִין אֶת הַכֵּלִים שֶׁהָיוּ בַמִּקְדָּשׁ,",
+    "en": "They toveled the keilim that were in the Beis HaMikdash.",
+    "st": "<b>They immerse the vessels that were in the Temple.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַטְבִּילִין",
+      "en": "they tovel"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֵּלִים",
+      "en": "the keilim"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that were"
+     },
+     {
+      "he": "בַמִּקְדָּשׁ,",
+      "en": "in the Mikdash"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמְרִין לָהֶם,",
+    "en": "And during Yom Tov they would say to the people,",
+    "st": "<b>And they say to</b> the am ha’aretz priests who served in the Temple during the Festival:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמְרִין",
+      "en": "and they say"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "הִזָּהֲרוּ שֶׁלֹּא תִגְּעוּ בַּשֻּׁלְחָן וּבַמְּנוֹרָה וּתְטַמְּאוּהוּ.",
+    "en": "\"Be careful not to touch the Shulchan and the Menorah and make them tamei.\"",
+    "explain": "The Shulchan always had to have the lechem hapanim on it.",
+    "st": "<b>Be careful that you not touch the table</b> of the shewbread.",
+    "stMore": "If you defile it by touching it, it would need to be removed for immersion, and this would lead to the temporary suspension of the mitzva of the shewbread, which had to be on the table at all times.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "Steinsaltz's English mentions only the table; the Hebrew also names the Menorah.",
+    "words": [
+     {
+      "he": "הִזָּהֲרוּ",
+      "en": "be careful"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "תִגְּעוּ",
+      "en": "you touch"
+     },
+     {
+      "he": "בַּשֻּׁלְחָן",
+      "en": "the Shulchan",
+      "note": "The golden table for the lechem hapanim."
+     },
+     {
+      "he": "וּבַמְּנוֹרָה",
+      "en": "and the Menorah"
+     },
+     {
+      "he": "וּתְטַמְּאוּהוּ.",
+      "en": "and make it tamei"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַכֵּלִים שֶׁהָיוּ בַמִּקְדָּשׁ,",
+    "en": "All the keilim that were in the Beis HaMikdash",
+    "st": "The mishna continues: <b>All the vessels that were in the Temple</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַכֵּלִים",
+      "en": "the keilim"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that were"
+     },
+     {
+      "he": "בַמִּקְדָּשׁ,",
+      "en": "in the Mikdash"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ לָהֶם שְׁנִיִּים וּשְׁלִישִׁים,",
+    "en": "had a second and a third set,",
+    "st": "<b>had second and third</b> substitute vessels,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there were"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "שְׁנִיִּים",
+      "en": "seconds"
+     },
+     {
+      "he": "וּשְׁלִישִׁים,",
+      "en": "and thirds"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם נִטְמְאוּ הָרִאשׁוֹנִים,",
+    "en": "so that if the first ones became tamei,",
+    "st": "<b>so that if the first ones became impure</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "נִטְמְאוּ",
+      "en": "became tamei"
+     },
+     {
+      "he": "הָרִאשׁוֹנִים,",
+      "en": "the first ones"
+     }
+    ]
+   },
+   {
+    "he": "יָבִיאוּ שְׁנִיִּים תַּחְתֵּיהֶן.",
+    "en": "they could bring the second ones instead.",
+    "st": "<b>they could bring the second ones in their place.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבִיאוּ",
+      "en": "they would bring"
+     },
+     {
+      "he": "שְׁנִיִּים",
+      "en": "second ones"
+     },
+     {
+      "he": "תַּחְתֵּיהֶן.",
+      "en": "in their place"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַכֵּלִים שֶׁהָיוּ בַמִּקְדָּשׁ,",
+    "en": "All the keilim that were in the Beis HaMikdash",
+    "st": "<b>All the vessels that were in the Temple</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַכֵּלִים",
+      "en": "the keilim"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that were"
+     },
+     {
+      "he": "בַמִּקְדָּשׁ,",
+      "en": "in the Mikdash"
+     }
+    ]
+   },
+   {
+    "he": "טְעוּנִין טְבִילָה,",
+    "en": "needed tevilah after Yom Tov,",
+    "st": "<b>required immersion</b> after the Festival,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְעוּנִין",
+      "en": "need"
+     },
+     {
+      "he": "טְבִילָה,",
+      "en": "tevilah"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִמִּזְבַּח הַזָּהָב וּמִזְבַּח הַנְּחֹשֶׁת,",
+    "en": "except the golden mizbe'ach and the copper mizbe'ach,",
+    "st": "<b>apart from the golden altar and the bronze altar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִמִּזְבַּח",
+      "en": "from the mizbe'ach of"
+     },
+     {
+      "he": "הַזָּהָב",
+      "en": "the gold"
+     },
+     {
+      "he": "וּמִזְבַּח",
+      "en": "and the mizbe'ach of"
+     },
+     {
+      "he": "הַנְּחֹשֶׁת,",
+      "en": "the copper"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן כַּקַּרְקַע,",
+    "en": "because they are like the ground.",
+    "explain": "The ground cannot become tamei.",
+    "st": "<b>because they are</b> considered <b>like the ground</b>",
+    "stMore": "and therefore, like land itself, not susceptible to impurity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "they"
+     },
+     {
+      "he": "כַּקַּרְקַע,",
+      "en": "are like the ground"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי אֱלִיעֶזֶר.",
+    "en": "That is what Rabbi Eliezer says.",
+    "st": "This is <b>the statement of Rabbi Eliezer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר.",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן מְצֻפִּין:",
+    "en": "It is because they are covered with metal.",
+    "st": "It is <b>because they are coated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "they"
+     },
+     {
+      "he": "מְצֻפִּין:",
+      "en": "are covered"
+     }
+    ]
+   }
+  ]
+ }
+]

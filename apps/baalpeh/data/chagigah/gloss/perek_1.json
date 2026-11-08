@@ -1,0 +1,2020 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "Everyone must come to the Beis HaMikdash on the three Yamim Tovim to \"be seen\" there with a korban, except some people the mishnah lists. Beis Shammai and Beis Hillel argue about which small child must come.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַכֹּל חַיָּבִין בָּרְאִיָּה,",
+    "en": "Everyone must come to be seen in the Beis HaMikdash on Yom Tov,",
+    "explain": "This mitzvah is called re'iyah, being seen.",
+    "st": "<b>All are obligated</b> on the three pilgrim Festivals <b>in the</b> mitzva of <b>appearance,</b> i.e., to appear in the Temple as well as to sacrifice an offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "must"
+     },
+     {
+      "he": "בָּרְאִיָּה,",
+      "en": "in re'iyah",
+      "note": "The mitzvah to come to the Beis HaMikdash on Pesach, Shavuos and Sukkos and bring a korban."
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מֵחֵרֵשׁ,",
+    "en": "except a person who cannot hear or speak,",
+    "st": "<b>except for a deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵחֵרֵשׁ,",
+      "en": "from a cheresh",
+      "note": "A person who cannot hear or speak."
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹטֶה וְקָטָן,",
+    "en": "a person whose mind is not well, and a small child,",
+    "st": "<b>an imbecile, and a minor;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹטֶה",
+      "en": "a shoteh",
+      "note": "A person whose mind does not work properly."
+     },
+     {
+      "he": "וְקָטָן,",
+      "en": "and a katan",
+      "note": "A child who is not yet bar mitzvah."
+     }
+    ]
+   },
+   {
+    "he": "וְטֻמְטוּם, וְאַנְדְּרוֹגִינוֹס,",
+    "en": "a tumtum and an androginos,",
+    "st": "<b>and a tumtum, and a hermaphrodite,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטֻמְטוּם,",
+      "en": "and a tumtum",
+      "note": "A person whom we cannot tell is a boy or a girl."
+     },
+     {
+      "he": "וְאַנְדְּרוֹגִינוֹס,",
+      "en": "and an androginos",
+      "note": "A person who seems to be both a boy and a girl."
+     }
+    ]
+   },
+   {
+    "he": "וְנָשִׁים, וַעֲבָדִים שֶׁאֵינָם מְשֻׁחְרָרִים,",
+    "en": "women, and slaves who were not set free,",
+    "st": "<b>and women, and slaves who are not emancipated;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָשִׁים,",
+      "en": "and women"
+     },
+     {
+      "he": "וַעֲבָדִים",
+      "en": "and slaves"
+     },
+     {
+      "he": "שֶׁאֵינָם",
+      "en": "who are not"
+     },
+     {
+      "he": "מְשֻׁחְרָרִים,",
+      "en": "set free"
+     }
+    ]
+   },
+   {
+    "he": "הַחִגֵּר, וְהַסּוּמָא,",
+    "en": "someone who cannot walk well, and a blind person,",
+    "st": "<b>and the lame, and the blind,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחִגֵּר,",
+      "en": "the lame"
+     },
+     {
+      "he": "וְהַסּוּמָא,",
+      "en": "and the blind"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחוֹלֶה, וְהַזָּקֵן,",
+    "en": "a sick person, and an old person,",
+    "st": "<b>and the sick, and the old,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחוֹלֶה,",
+      "en": "and the sick"
+     },
+     {
+      "he": "וְהַזָּקֵן,",
+      "en": "and the old"
+     }
+    ]
+   },
+   {
+    "he": "וּמִי שֶׁאֵינוֹ יָכוֹל לַעֲלוֹת בְּרַגְלָיו.",
+    "en": "and anyone who cannot go up to Yerushalayim on his own feet.",
+    "st": "<b>and one who is unable to ascend</b> to Jerusalem <b>on his</b> own <b>legs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִי",
+      "en": "and one"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "who is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לַעֲלוֹת",
+      "en": "to go up"
+     },
+     {
+      "he": "בְּרַגְלָיו.",
+      "en": "on his feet"
+     }
+    ]
+   },
+   {
+    "he": "אֵיזֶהוּ קָטָן,",
+    "en": "Which child counts as \"a small child\" who does not have to come?",
+    "st": "<b>Who</b> has the status of <b>a minor</b> with regard to this halakha?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵיזֶהוּ",
+      "en": "which is"
+     },
+     {
+      "he": "קָטָן,",
+      "en": "a katan"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁאֵינוֹ יָכוֹל לִרְכּוֹב עַל כְּתֵפָיו",
+    "en": "Any child who cannot ride on the shoulders",
+    "st": "<b>Any</b> child <b>who is unable to ride on his father’s shoulders</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "who is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לִרְכּוֹב",
+      "en": "to ride"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "כְּתֵפָיו",
+      "en": "his shoulders"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל אָבִיו וְלַעֲלוֹת מִירוּשָׁלַיִם לְהַר הַבַּיִת,",
+    "en": "of his father and go up from Yerushalayim to Har HaBayis.",
+    "st": "<b>and ascend from Jerusalem to the Temple Mount;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְלַעֲלוֹת",
+      "en": "and to go up"
+     },
+     {
+      "he": "מִירוּשָׁלַיִם",
+      "en": "from Yerushalayim"
+     },
+     {
+      "he": "לְהַר",
+      "en": "to the Mount of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the Bayis",
+      "note": "Har HaBayis is the mountain where the Beis HaMikdash stood."
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי בֵית שַׁמַּאי.",
+    "en": "That is what Beis Shammai say.",
+    "st": "this is <b>the statement of Beit Shammai.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "שַׁמַּאי.",
+      "en": "Shammai",
+      "note": "Beis Shammai are the students of Shammai."
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and the house of"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel",
+      "note": "Beis Hillel are the students of Hillel."
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁאֵינוֹ יָכוֹל לֶאֱחֹז",
+    "en": "Any child who cannot hold",
+    "st": "<b>Any</b> child <b>who is unable to hold</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "who is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לֶאֱחֹז",
+      "en": "to hold"
+     }
+    ]
+   },
+   {
+    "he": "בְּיָדוֹ שֶׁל אָבִיו",
+    "en": "his father's hand",
+    "st": "<b>his father’s hand</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיָדוֹ",
+      "en": "the hand"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וְלַעֲלוֹת מִירוּשָׁלַיִם לְהַר הַבַּיִת,",
+    "en": "and walk up from Yerushalayim to Har HaBayis.",
+    "st": "<b>and ascend</b> on foot <b>from Jerusalem to the Temple Mount,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלַעֲלוֹת",
+      "en": "and to go up"
+     },
+     {
+      "he": "מִירוּשָׁלַיִם",
+      "en": "from Yerushalayim"
+     },
+     {
+      "he": "לְהַר",
+      "en": "to the Mount of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the Bayis"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמות כג) שָׁלֹשׁ רְגָלִים:",
+    "en": "Because the Torah says \"three regalim.\"",
+    "explain": "Regel also means foot: you go up on your feet.",
+    "st": "<b>as it is stated: “Three times [regalim]”</b> (Exodus 23:14).",
+    "stMore": "Since the term for feet is raglayim, Beit Hillel infer from here that the obligation to ascend involves the use of one’s legs.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כג)",
+      "en": "23)"
+     },
+     {
+      "he": "שָׁלֹשׁ",
+      "en": "three"
+     },
+     {
+      "he": "רְגָלִים:",
+      "en": "regalim",
+      "note": "Times, or Yamim Tovim; the word sounds like raglayim, feet."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "How much money must be spent on the re'iyah korban and the chagigah korban? Beis Shammai and Beis Hillel argue.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הָרְאִיָּה שְׁתֵּי כֶסֶף,",
+    "en": "The re'iyah korban must cost at least two silver coins,",
+    "st": "<b>The</b> burnt-offering of <b>appearance</b> brought on a pilgrim Festival must be worth at least <b>two silver</b> coins,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרְאִיָּה",
+      "en": "the re'iyah",
+      "note": "An olah korban brought when coming to be seen in the Beis HaMikdash."
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "silver coins"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲגִיגָה מָעָה כֶסֶף.",
+    "en": "and the chagigah korban at least one silver ma'ah.",
+    "st": "<b>and the Festival peace</b>-offering must be worth at least one <b>silver ma’a</b> coin.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲגִיגָה",
+      "en": "and the chagigah",
+      "note": "A shelamim korban brought for the Yom Tov and eaten in celebration."
+     },
+     {
+      "he": "מָעָה",
+      "en": "a ma'ah",
+      "note": "A small silver coin."
+     },
+     {
+      "he": "כֶסֶף.",
+      "en": "silver"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and the house of"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "הָרְאִיָּה מָעָה כֶסֶף,",
+    "en": "The re'iyah korban must cost at least one silver ma'ah,",
+    "st": "<b>The</b> burnt-offering of <b>appearance</b> must be worth at least one <b>silver ma’a</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרְאִיָּה",
+      "en": "the re'iyah"
+     },
+     {
+      "he": "מָעָה",
+      "en": "a ma'ah"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "silver"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲגִיגָה שְׁתֵּי כָסֶף:",
+    "en": "and the chagigah korban at least two silver coins.",
+    "st": "<b>and the Festival peace</b>-offering at least <b>two silver</b> coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲגִיגָה",
+      "en": "and the chagigah"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "כָסֶף:",
+      "en": "silver coins"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "Which money may be used to buy the Yom Tov korbanos? Olos must be bought with regular money, but shelamim may be bought with maaser sheni money.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עוֹלוֹת בַּמּוֹעֵד בָּאוֹת מִן הַחֻלִּין,",
+    "en": "Olos brought on Yom Tov must be bought with regular money,",
+    "explain": "Not with maaser sheni money, which is holy.",
+    "st": "<b>Burnt</b>-offerings that one sacrifices <b>on</b> the intermediate days of <b>the Festival</b> must <b>come from non-sacred</b> property,",
+    "stMore": "not from sacred property such as second-tithe money.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹלוֹת",
+      "en": "olos",
+      "note": "Korbanos that are burned completely on the mizbe'ach."
+     },
+     {
+      "he": "בַּמּוֹעֵד",
+      "en": "on the Yom Tov"
+     },
+     {
+      "he": "בָּאוֹת",
+      "en": "come"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחֻלִּין,",
+      "en": "regular money"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁלָמִים מִן הַמַּעֲשֵׂר.",
+    "en": "but the shelamim may come from maaser money.",
+    "st": "<b>But the peace-</b>offerings may be brought <b>from the</b> second <b>tithe,</b>",
+    "stMore": "i.e., from money with which one redeemed second tithe, which is subsequently used to purchase food in Jerusalem.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁלָמִים",
+      "en": "but the shelamim",
+      "note": "Korbanos that are mostly eaten by the people who bring them."
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמַּעֲשֵׂר.",
+      "en": "the maaser",
+      "note": "Maaser sheni: money used to buy food to eat in Yerushalayim."
+     }
+    ]
+   },
+   {
+    "he": "יוֹם טוֹב רִאשׁוֹן שֶׁל פֶּסַח,",
+    "en": "About the chagigah of the first day of Pesach,",
+    "st": "With regard to the Festival peace-offering sacrificed on <b>the first day of the festival of Passover,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹם",
+      "en": "the day"
+     },
+     {
+      "he": "טוֹב",
+      "en": "good",
+      "note": "Yom Tov means a holiday."
+     },
+     {
+      "he": "רִאשׁוֹן",
+      "en": "first"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "פֶּסַח,",
+      "en": "Pesach"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַחֻלִּין,",
+    "en": "it must come from regular money.",
+    "st": "It must come <b>from non-sacred</b> property,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחֻלִּין,",
+      "en": "regular money"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>and Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and the house of"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַמַּעֲשֵׂר:",
+    "en": "It may come from maaser money.",
+    "st": "It may be brought even <b>from the</b> second <b>tithe.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמַּעֲשֵׂר:",
+      "en": "the maaser"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "On Yom Tov there is a mitzvah to be happy by eating meat of korbanos. This mishnah teaches which korbanos count for this mitzvah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יִשְׂרָאֵל יוֹצְאִין יְדֵי חוֹבָתָן",
+    "en": "Regular Jews do their mitzvah of being happy on Yom Tov",
+    "st": "In general, <b>Israelites fulfill their obligation</b> to eat peace-offerings of rejoicing",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisraelim",
+      "note": "Jews who are not Kohanim."
+     },
+     {
+      "he": "יוֹצְאִין",
+      "en": "go out"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hands of"
+     },
+     {
+      "he": "חוֹבָתָן",
+      "en": "their duty"
+     }
+    ]
+   },
+   {
+    "he": "בִּנְדָרִים וּנְדָבוֹת וּבְמַעְשַׂר בְּהֵמָה,",
+    "en": "with korbanos they promised to bring, and with maaser animals.",
+    "st": "<b>with</b> their voluntary <b>vows and gift</b> offerings donated during the year and sacrificed on the Festival; <b>and</b> likewise <b>with animal tithes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּנְדָרִים",
+      "en": "with promised korbanos"
+     },
+     {
+      "he": "וּנְדָבוֹת",
+      "en": "and gift korbanos"
+     },
+     {
+      "he": "וּבְמַעְשַׂר",
+      "en": "and with maaser"
+     },
+     {
+      "he": "בְּהֵמָה,",
+      "en": "animals",
+      "note": "Every tenth animal born was brought as a korban."
+     }
+    ]
+   },
+   {
+    "he": "וְהַכֹּהֲנִים בַּחַטָּאוֹת וּבָאֲשָׁמוֹת",
+    "en": "And the Kohanim do it with chatas and asham korbanos,",
+    "st": "<b>And the priests</b> fulfill their obligation of rejoicing <b>with</b> the meat of <b>sin</b>-offerings <b>and guilt</b>-offerings",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַכֹּהֲנִים",
+      "en": "and the Kohanim"
+     },
+     {
+      "he": "בַּחַטָּאוֹת",
+      "en": "with the chataos",
+      "note": "Korbanos brought for some sins; the Kohanim eat them."
+     },
+     {
+      "he": "וּבָאֲשָׁמוֹת",
+      "en": "and with the ashamos",
+      "note": "Another kind of korban for a sin; the Kohanim eat them."
+     }
+    ]
+   },
+   {
+    "he": "וּבַבְּכוֹר וּבֶחָזֶה וָשׁוֹק,",
+    "en": "with the bechor, and with the chest and leg they get from shelamim.",
+    "st": "<b>and with firstborn</b> offerings, as the priests receive a portion of these, <b>and with the breast and thigh</b> of peace-offerings, to which they are also entitled.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַבְּכוֹר",
+      "en": "and with the bechor",
+      "note": "A firstborn animal, given to the Kohanim."
+     },
+     {
+      "he": "וּבֶחָזֶה",
+      "en": "and with the chest"
+     },
+     {
+      "he": "וָשׁוֹק,",
+      "en": "and leg"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא בָעוֹפוֹת וְלֹא בַמְּנָחוֹת:",
+    "en": "But not with birds and not with flour korbanos.",
+    "explain": "Only eating meat counts as being happy.",
+    "st": "<b>However,</b> they do <b>not</b> fulfill their obligation <b>with birds,</b> e.g., a bird sacrificed as a sin-offering, <b>nor with meal</b>-offerings,",
+    "stMore": "as only the eating of meat constitutes rejoicing.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בָעוֹפוֹת",
+      "en": "with birds"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בַמְּנָחוֹת:",
+      "en": "with the menachos",
+      "note": "Korbanos made of flour."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "A person with a big family should bring more shelamim to feed them, and a rich person with a small family should bring more olos. A person who has a lot should give a lot.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁיֵּשׁ לוֹ אוֹכְלִים מְרֻבִּים",
+    "en": "Someone who has many people to feed",
+    "st": "<b>One who has many eaters,</b> i.e., members of his household,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "who has"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אוֹכְלִים",
+      "en": "eaters"
+     },
+     {
+      "he": "מְרֻבִּים",
+      "en": "many"
+     }
+    ]
+   },
+   {
+    "he": "וּנְכָסִים מֻעָטִים,",
+    "en": "and only a little money",
+    "st": "<b>and a small</b> amount of <b>property,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּנְכָסִים",
+      "en": "and property"
+     },
+     {
+      "he": "מֻעָטִים,",
+      "en": "little"
+     }
+    ]
+   },
+   {
+    "he": "מֵבִיא שְׁלָמִים מְרֻבִּים וְעוֹלוֹת מֻעָטוֹת.",
+    "en": "brings many shelamim and few olos.",
+    "explain": "He can feed his family from the shelamim.",
+    "st": "<b>may bring many peace-</b>offerings <b>and few burnt-</b>offerings,",
+    "stMore": "so he can feed the members of his household with the peace-offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵבִיא",
+      "en": "brings"
+     },
+     {
+      "he": "שְׁלָמִים",
+      "en": "shelamim"
+     },
+     {
+      "he": "מְרֻבִּים",
+      "en": "many"
+     },
+     {
+      "he": "וְעוֹלוֹת",
+      "en": "and olos"
+     },
+     {
+      "he": "מֻעָטוֹת.",
+      "en": "few"
+     }
+    ]
+   },
+   {
+    "he": "נְכָסִים מְרֻבִּים וְאוֹכְלִין מֻעָטִין,",
+    "en": "If he has lots of money and few people to feed,",
+    "st": "If one has <b>much property and few eaters,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "מְרֻבִּים",
+      "en": "much"
+     },
+     {
+      "he": "וְאוֹכְלִין",
+      "en": "and eaters"
+     },
+     {
+      "he": "מֻעָטִין,",
+      "en": "few"
+     }
+    ]
+   },
+   {
+    "he": "מֵבִיא עוֹלוֹת מְרֻבּוֹת וּשְׁלָמִים מֻעָטִין.",
+    "en": "he brings many olos and few shelamim.",
+    "st": "<b>he</b> should <b>bring many burnt-</b>offerings <b>and few peace-</b>offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵבִיא",
+      "en": "brings"
+     },
+     {
+      "he": "עוֹלוֹת",
+      "en": "olos"
+     },
+     {
+      "he": "מְרֻבּוֹת",
+      "en": "many"
+     },
+     {
+      "he": "וּשְׁלָמִים",
+      "en": "and shelamim"
+     },
+     {
+      "he": "מֻעָטִין.",
+      "en": "few"
+     }
+    ]
+   },
+   {
+    "he": "זֶה וָזֶה מֻעָט,",
+    "en": "If he has little of both,",
+    "st": "<b>If</b> both <b>these and those,</b> his property and the members of his household, <b>are few,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and this"
+     },
+     {
+      "he": "מֻעָט,",
+      "en": "is little"
+     }
+    ]
+   },
+   {
+    "he": "עַל זֶה נֶאֱמַר,",
+    "en": "about him the Rabbis said",
+    "st": "<b>with regard to this</b> individual <b>it is stated</b> in the mishna (2a)",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "נֶאֱמַר,",
+      "en": "it was said"
+     }
+    ]
+   },
+   {
+    "he": "מָעָה כֶסֶף וּשְׁתֵּי כָסֶף.",
+    "en": "one silver ma'ah and two silver coins.",
+    "explain": "The smallest amounts taught in the mishnah before.",
+    "st": "that the Sages established the smallest amount of one <b>silver ma’a</b> for the burnt-offering of appearance in the Temple and <b>two silver</b> coins for the Festival peace-offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָעָה",
+      "en": "a ma'ah"
+     },
+     {
+      "he": "כֶסֶף",
+      "en": "silver"
+     },
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "כָסֶף.",
+      "en": "silver coins"
+     }
+    ]
+   },
+   {
+    "he": "זֶה וָזֶה מְרֻבִּים,",
+    "en": "If he has a lot of both,",
+    "st": "<b>If both</b> his eaters and his property <b>are many,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and this"
+     },
+     {
+      "he": "מְרֻבִּים,",
+      "en": "are many"
+     }
+    ]
+   },
+   {
+    "he": "עַל זֶה נֶאֱמַר (דברים טז)",
+    "en": "about him the Torah says:",
+    "st": "<b>with regard to this</b> individual <b>it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it was said"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "טז)",
+      "en": "16)"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ כְּמַתְּנַת יָדוֹ כְּבִרְכַּת יְיָ",
+    "en": "\"Each man as he can give, like the bracha of Hashem",
+    "st": "<b>“Every man shall give as he is able, according to the blessing of the Lord</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "each man"
+     },
+     {
+      "he": "כְּמַתְּנַת",
+      "en": "like the gift of"
+     },
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     },
+     {
+      "he": "כְּבִרְכַּת",
+      "en": "like the bracha of"
+     },
+     {
+      "he": "יְיָ",
+      "en": "Hashem"
+     }
+    ]
+   },
+   {
+    "he": "אֱלֹהֶיךָ אֲשֶׁר נָתַן לָךְ:",
+    "en": "your G-d which He gave you.\"",
+    "st": "<b>your God, which He has given you”</b> (Deuteronomy 16:17).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֱלֹהֶיךָ",
+      "en": "your G-d"
+     },
+     {
+      "he": "אֲשֶׁר",
+      "en": "which"
+     },
+     {
+      "he": "נָתַן",
+      "en": "He gave"
+     },
+     {
+      "he": "לָךְ:",
+      "en": "to you"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "If someone did not bring his chagigah korban on the first day of Yom Tov, he can still bring it later in the Yom Tov. Once Yom Tov is over, he can no longer make it up.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁלֹּא חַג",
+    "en": "Someone who did not bring his chagigah korban",
+    "st": "With regard to <b>one who did not celebrate</b> by bringing <b>the Festival</b> peace-offering",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "who did not"
+     },
+     {
+      "he": "חַג",
+      "en": "celebrate"
+     }
+    ]
+   },
+   {
+    "he": "בְּיוֹם טוֹב הָרִאשׁוֹן שֶׁל חָג,",
+    "en": "on the first day of Sukkos,",
+    "st": "<b>on the first day of the festival</b> of Sukkot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day"
+     },
+     {
+      "he": "טוֹב",
+      "en": "good"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "first"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חָג,",
+      "en": "the Chag",
+      "note": "Sukkos."
+     }
+    ]
+   },
+   {
+    "he": "חוֹגֵג אֶת כָּל הָרֶגֶל",
+    "en": "may bring it all the rest of the Yom Tov",
+    "st": "he <b>may celebrate</b> and bring it during <b>the entire</b> remaining days of <b>the pilgrimage Festival,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוֹגֵג",
+      "en": "celebrates"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָרֶגֶל",
+      "en": "the regel",
+      "note": "The Yom Tov."
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹם טוֹב הָאַחֲרוֹן שֶׁל חָג.",
+    "en": "and even on the last day, Shemini Atzeres.",
+    "st": "<b>and</b> even <b>on the final day of the Festival,</b> i.e., on the Eighth Day of Assembly.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹם",
+      "en": "and the day"
+     },
+     {
+      "he": "טוֹב",
+      "en": "good"
+     },
+     {
+      "he": "הָאַחֲרוֹן",
+      "en": "last"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חָג.",
+      "en": "the Chag"
+     }
+    ]
+   },
+   {
+    "he": "עָבַר הָרֶגֶל וְלֹא חַג,",
+    "en": "If the Yom Tov passed and he did not bring it,",
+    "st": "If <b>the pilgrimage Festival passed and one did not celebrate</b> by bringing <b>the Festival</b> peace-offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָבַר",
+      "en": "passed"
+     },
+     {
+      "he": "הָרֶגֶל",
+      "en": "the regel"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "חַג,",
+      "en": "celebrated"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב בְּאַחֲרָיוּתוֹ.",
+    "en": "he does not have to make it up.",
+    "explain": "It is too late; the chance for the mitzvah is gone.",
+    "st": "<b>he is not obligated</b> to pay <b>restitution</b> for <b>it.</b>",
+    "stMore": "Even if he consecrated an animal for this purpose and it was lost, once the Festival is over he has no obligation to replace it, as he has missed the opportunity for performing this mitzva.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתוֹ.",
+      "en": "for making it up"
+     }
+    ]
+   },
+   {
+    "he": "עַל זֶה נֶאֱמַר (קהלת א)",
+    "en": "About this the pasuk says:",
+    "st": "And <b>about this it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it was said"
+     },
+     {
+      "he": "(קהלת",
+      "en": "(Koheles"
+     },
+     {
+      "he": "א)",
+      "en": "1)"
+     }
+    ]
+   },
+   {
+    "he": "מְעֻוָּת לֹא יוּכַל לִתְקֹן,",
+    "en": "\"Something crooked cannot be made straight,",
+    "st": "<b>“That which is crooked cannot be made straight;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעֻוָּת",
+      "en": "crooked"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יוּכַל",
+      "en": "can"
+     },
+     {
+      "he": "לִתְקֹן,",
+      "en": "be fixed"
+     }
+    ]
+   },
+   {
+    "he": "וְחֶסְרוֹן לֹא יוּכַל לְהִמָּנוֹת:",
+    "en": "and something missing cannot be counted.\"",
+    "st": "<b>and that which is wanting cannot be numbered”</b> (Ecclesiastes 1:15).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֶסְרוֹן",
+      "en": "and something missing"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יוּכַל",
+      "en": "can"
+     },
+     {
+      "he": "לְהִמָּנוֹת:",
+      "en": "be counted"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "Two Rabbis explain the pasuk \"something crooked cannot be made straight.\" Rabbi Shimon ben Yochai says it means a talmid chacham who stops learning Torah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי שִׁמְעוֹן בֶּן מְנַסְיָא אוֹמֵר,",
+    "en": "Rabbi Shimon ben Menasya says:",
+    "st": "<b>Rabbi Shimon ben Menasya says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "מְנַסְיָא",
+      "en": "Menasya"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵיזֶהוּ מְעֻוָּת שֶׁאֵינוֹ יָכוֹל לִתְקֹן,",
+    "en": "What is the crooked thing that cannot be fixed?",
+    "st": "<b>Who is</b> the <b>crooked that cannot be made straight?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵיזֶהוּ",
+      "en": "what is"
+     },
+     {
+      "he": "מְעֻוָּת",
+      "en": "crooked"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לִתְקֹן,",
+      "en": "to be fixed"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַבָּא עַל הָעֶרְוָה",
+    "en": "This is someone who did a forbidden relationship",
+    "st": "<b>This</b> verse is referring to <b>one who engaged in intercourse with a woman forbidden to him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַבָּא",
+      "en": "the one who did"
+     },
+     {
+      "he": "עַל",
+      "en": "(with)"
+     },
+     {
+      "he": "הָעֶרְוָה",
+      "en": "a forbidden relationship"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹלִיד מִמֶּנָּה מַמְזֵר.",
+    "en": "and a mamzer was born from it.",
+    "explain": "A mamzer's status can never be changed.",
+    "st": "<b>and fathered a mamzer with her.</b>",
+    "stMore": "This individual is unable to rectify his sin, because the status of the illegitimate child is permanent.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹלִיד",
+      "en": "and had"
+     },
+     {
+      "he": "מִמֶּנָּה",
+      "en": "from it"
+     },
+     {
+      "he": "מַמְזֵר.",
+      "en": "a mamzer",
+      "note": "A child born from a forbidden relationship; his status stays forever."
+     }
+    ]
+   },
+   {
+    "he": "אִם תֹּאמַר בְּגוֹנֵב וְגוֹזֵל,",
+    "en": "If you say it means someone who steals or robs,",
+    "st": "And <b>if you say</b> that it is referring <b>to one who steals or robs,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "תֹּאמַר",
+      "en": "you say"
+     },
+     {
+      "he": "בְּגוֹנֵב",
+      "en": "it means one who steals"
+     },
+     {
+      "he": "וְגוֹזֵל,",
+      "en": "and robs"
+     }
+    ]
+   },
+   {
+    "he": "יָכוֹל הוּא לְהַחֲזִירוֹ וִיתַקֵּן.",
+    "en": "he can give it back and fix what he did.",
+    "st": "although he is crooked <b>he can return</b> what he stole <b>and</b> in this manner his sin <b>will be rectified.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָכוֹל",
+      "en": "can"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "לְהַחֲזִירוֹ",
+      "en": "give it back"
+     },
+     {
+      "he": "וִיתַקֵּן.",
+      "en": "and fix it"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן בֶּן יוֹחַאי אוֹמֵר,",
+    "en": "Rabbi Shimon ben Yochai says:",
+    "st": "<b>Rabbi Shimon ben Yoḥai says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "יוֹחַאי",
+      "en": "Yochai"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין קוֹרִין מְעֻוָּת אֶלָּא לְמִי",
+    "en": "We call something crooked only if",
+    "st": "<b>One calls crooked only someone</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "קוֹרִין",
+      "en": "call"
+     },
+     {
+      "he": "מְעֻוָּת",
+      "en": "crooked"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "לְמִי",
+      "en": "to one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָיָה מְתֻקָּן בַּתְּחִלָּה וְנִתְעַוֵּת,",
+    "en": "it was straight at first and then became crooked.",
+    "st": "<b>who was initially straight and</b> subsequently <b>became crooked.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָיָה",
+      "en": "who was"
+     },
+     {
+      "he": "מְתֻקָּן",
+      "en": "straight"
+     },
+     {
+      "he": "בַּתְּחִלָּה",
+      "en": "at first"
+     },
+     {
+      "he": "וְנִתְעַוֵּת,",
+      "en": "and became crooked"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵיזֶה, זֶה תַּלְמִיד חָכָם הַפּוֹרֵשׁ מִן הַתּוֹרָה:",
+    "en": "And who is this? A talmid chacham who leaves the Torah.",
+    "st": "<b>And who is this? This is a Torah scholar who leaves</b> his <b>Torah</b> study.",
+    "stMore": "Here is an example of something straight that became crooked.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵיזֶה,",
+      "en": "and who?"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "תַּלְמִיד",
+      "en": "a student of"
+     },
+     {
+      "he": "חָכָם",
+      "en": "a wise man",
+      "note": "A talmid chacham is a Torah scholar."
+     },
+     {
+      "he": "הַפּוֹרֵשׁ",
+      "en": "who leaves"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתּוֹרָה:",
+      "en": "the Torah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 8,
+  "summary": "Some parts of Torah have only a tiny hint in the pasukim but many halachos, and some have a strong source in the Torah. The ones with a strong source are the main parts of the Torah.",
+  "stIntro": "Incidental to the Festival peace-offering, the mishna describes the nature of various areas of Torah study.",
+  "chunks": [
+   {
+    "he": "הֶתֵּר נְדָרִים פּוֹרְחִין בָּאֲוִיר,",
+    "en": "The halachos of undoing a neder fly in the air,",
+    "st": "The halakhot of the <b>dissolution of vows,</b> when one requests from a Sage to dissolve them, <b>fly in the air</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶתֵּר",
+      "en": "undoing"
+     },
+     {
+      "he": "נְדָרִים",
+      "en": "nedarim",
+      "note": "Promises a person makes, which a Rav can undo."
+     },
+     {
+      "he": "פּוֹרְחִין",
+      "en": "fly"
+     },
+     {
+      "he": "בָּאֲוִיר,",
+      "en": "in the air"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין לָהֶם עַל מַה שֶּׁיִּסְמֹכוּ.",
+    "en": "and have almost nothing in the Torah to lean on.",
+    "explain": "The Torah only hints at them.",
+    "st": "<b>and have nothing to support them,</b>",
+    "stMore": "as these halakhot are not mentioned explicitly in the Torah. There is only a slight allusion to the dissolution of vows in the Torah, which is taught by the Sages as part of the oral tradition.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁיִּסְמֹכוּ.",
+      "en": "they can lean"
+     }
+    ]
+   },
+   {
+    "he": "הִלְכוֹת שַׁבָּת,",
+    "en": "The halachos of Shabbos,",
+    "st": "<b>The halakhot of Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִלְכוֹת",
+      "en": "the halachos of"
+     },
+     {
+      "he": "שַׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "חֲגִיגוֹת וְהַמְּעִילוֹת,",
+    "en": "chagigah korbanos, and me'ilah,",
+    "st": "<b>Festival peace</b>-offerings, <b>and misuse</b> of consecrated property",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲגִיגוֹת",
+      "en": "chagigos"
+     },
+     {
+      "he": "וְהַמְּעִילוֹת,",
+      "en": "and me'ilos",
+      "note": "Me'ilah is using something that belongs to the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הֵם כַּהֲרָרִים הַתְּלוּיִין בְּשַׂעֲרָה,",
+    "en": "are like mountains hanging by a hair,",
+    "st": "<b>are like mountains suspended by a hair,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "הֵם",
+      "en": "they"
+     },
+     {
+      "he": "כַּהֲרָרִים",
+      "en": "are like mountains"
+     },
+     {
+      "he": "הַתְּלוּיִין",
+      "en": "that hang"
+     },
+     {
+      "he": "בְּשַׂעֲרָה,",
+      "en": "by a hair"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵן מִקְרָא מֻעָט וַהֲלָכוֹת מְרֻבּוֹת.",
+    "en": "because they have few pesukim and many halachos.",
+    "st": "<b>as they</b> have <b>little</b> written about them in <b>the Torah, and</b> yet the details of their <b>halakhot are numerous.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵן",
+      "en": "because they"
+     },
+     {
+      "he": "מִקְרָא",
+      "en": "pasuk"
+     },
+     {
+      "he": "מֻעָט",
+      "en": "little"
+     },
+     {
+      "he": "וַהֲלָכוֹת",
+      "en": "and halachos"
+     },
+     {
+      "he": "מְרֻבּוֹת.",
+      "en": "many"
+     }
+    ]
+   },
+   {
+    "he": "הַדִּינִין וְהָעֲבוֹדוֹת,",
+    "en": "The laws of judging and the avodah in the Beis HaMikdash,",
+    "st": "The details of <b>monetary law,</b> sacrificial <b>rites,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַדִּינִין",
+      "en": "the dinim",
+      "note": "Laws a beis din judges, like money cases."
+     },
+     {
+      "he": "וְהָעֲבוֹדוֹת,",
+      "en": "and the avodos",
+      "note": "The service in the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "הַטָּהֳרוֹת וְהַטֻּמְאוֹת וַעֲרָיוֹת,",
+    "en": "tahara, tumah, and forbidden relationships,",
+    "st": "<b>ritual purity and impurity, and</b> the halakhot of <b>those with whom relations are forbidden</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטָּהֳרוֹת",
+      "en": "the taharos"
+     },
+     {
+      "he": "וְהַטֻּמְאוֹת",
+      "en": "and the tumos"
+     },
+     {
+      "he": "וַעֲרָיוֹת,",
+      "en": "and arayos",
+      "note": "Relatives a person may not marry."
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ לָהֶן עַל מַה שֶּׁיִּסְמֹכוּ.",
+    "en": "have something in the Torah to lean on.",
+    "st": "all <b>have something to support them,</b> i.e., there is ample basis in the Torah for these halakhot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁיִּסְמֹכוּ.",
+      "en": "they can lean"
+     }
+    ]
+   },
+   {
+    "he": "הֵן הֵן גּוּפֵי תּוֹרָה:",
+    "en": "They are the main parts of the Torah.",
+    "st": "<b>and these are the essential parts of Torah.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "הֵן",
+      "en": "are"
+     },
+     {
+      "he": "גּוּפֵי",
+      "en": "the bodies of"
+     },
+     {
+      "he": "תּוֹרָה:",
+      "en": "Torah"
+     }
+    ]
+   }
+  ]
+ }
+]
