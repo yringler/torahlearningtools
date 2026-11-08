@@ -1,0 +1,16 @@
+{
+  "_about": "Single source of truth for the masechtos the app ships. Read by every script in scripts/ (via scripts/catalog.py). A masechta's sources are the translations its meanings are built from; [] means Hebrew only (no meanings, no glossing). See README > Data pipeline.",
+  "hebrew": {"version": "hebrew|Torat Emet 357"},
+  "sources": {
+    "steinsaltz": {"version": "english|William Davidson Edition - English", "excerpts": true},
+    "bartenura": {"version": "english|The Mishna with Obadiah Bartenura by Rabbi Shraga Silverstein"}
+  },
+  "sedarim": [
+    {"id": "zeraim", "he": "זרעים", "en": "Zeraim"}
+  ],
+  "masechtos": [
+    {"id": "berakhot", "seder": "zeraim", "sefaria": "Mishnah_Berakhot", "he": "ברכות", "en": "Berakhot", "sources": ["steinsaltz", "bartenura"]},
+    {"id": "peah", "seder": "zeraim", "sefaria": "Mishnah_Peah", "he": "פאה", "en": "Peah", "sources": []},
+    {"id": "demai", "seder": "zeraim", "sefaria": "Mishnah_Demai", "he": "דמאי", "en": "Demai", "sources": []}
+  ]
+}
