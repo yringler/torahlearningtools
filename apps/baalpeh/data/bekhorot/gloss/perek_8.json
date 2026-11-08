@@ -1,0 +1,4575 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "A firstborn son can be a bechor for getting a double share of the inheritance, for pidyon haben with a Kohen, for both, or for neither. The mishnah gives examples of each.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יֵשׁ בְּכוֹר לַנַּחֲלָה וְאֵינוֹ בְכוֹר לַכֹּהֵן,",
+    "en": "Some are a bechor for inheritance but not a bechor for the Kohen,",
+    "st": "<b>There is</b> a son who is <b>a firstborn with regard to inheritance but is not a firstborn with regard to</b> the requirement of redemption from <b>a priest.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "בְכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַכֹּהֵן,",
+      "en": "for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "בְּכוֹר לַכֹּהֵן וְאֵינוֹ בְכוֹר לַנַּחֲלָה,",
+    "en": "some are a bechor for the Kohen but not for inheritance,",
+    "st": "There is another who is <b>a firstborn with regard to</b> redemption from <b>a priest but is not a firstborn with regard to inheritance.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "בְכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה,",
+      "en": "for inheritance"
+     }
+    ]
+   },
+   {
+    "he": "בְּכוֹר לַנַּחֲלָה וְלַכֹּהֵן,",
+    "en": "some are a bechor for inheritance and for the Kohen,",
+    "st": "There is another who is <b>a firstborn with regard to inheritance and with regard to</b> redemption from <b>a priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְלַכֹּהֵן,",
+      "en": "and for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ שֶׁאֵינוֹ בְכוֹר לֹא לַנַּחֲלָה וְלֹא לַכֹּהֵן.",
+    "en": "and some are not a bechor, not for inheritance and not for the Kohen.",
+    "st": "<b>And there is</b> another <b>who is not a firstborn</b> at all, <b>neither with regard to inheritance nor with regard to</b> redemption from <b>a priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "בְכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "אֵיזֶהוּ בְּכוֹר לַנַּחֲלָה וְאֵינוֹ בְכוֹר לַכֹּהֵן,",
+    "en": "Who is a bechor for inheritance but not for the Kohen?",
+    "st": "<b>Which is</b> the son who is <b>a firstborn with regard to inheritance but is not a firstborn with regard to</b> redemption from <b>a priest?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵיזֶהוּ",
+      "en": "which is"
+     },
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "בְכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַכֹּהֵן,",
+      "en": "for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא אַחַר הַנְּפָלִים שֶׁיָּצָא רֹאשׁוֹ חַי,",
+    "en": "One born after an earlier baby that did not live, even if it came out alive at first,",
+    "st": "It is a son <b>who came after miscarriage</b> of an underdeveloped fetus, <b>even where</b> the <b>head</b> of the underdeveloped fetus <b>emerged alive; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "הַנְּפָלִים",
+      "en": "the ones that did not live"
+     },
+     {
+      "he": "שֶׁיָּצָא",
+      "en": "that came out"
+     },
+     {
+      "he": "רֹאשׁוֹ",
+      "en": "its head"
+     },
+     {
+      "he": "חַי,",
+      "en": "alive"
+     }
+    ]
+   },
+   {
+    "he": "וּבֶן תִּשְׁעָה שֶׁיָּצָא רֹאשׁוֹ מֵת,",
+    "en": "or after a full-term baby that did not live,",
+    "st": "<b>or</b> after a fully developed <b>nine-</b>month<b>-old</b> fetus <b>whose head emerged dead.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֶן",
+      "en": "and a baby of"
+     },
+     {
+      "he": "תִּשְׁעָה",
+      "en": "nine months"
+     },
+     {
+      "he": "שֶׁיָּצָא",
+      "en": "that came out"
+     },
+     {
+      "he": "רֹאשׁוֹ",
+      "en": "its head"
+     },
+     {
+      "he": "מֵת,",
+      "en": "dead"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּפֶּלֶת כְּמִין בְּהֵמָה חַיָּה וָעוֹף,",
+    "en": "or after a birth that looked like an animal or a bird.",
+    "st": "The same applies to a son born to a woman <b>who</b> had previously <b>miscarried</b> a fetus that had the appearance of <b>a type of domesticated animal, undomesticated animal, or bird,</b>",
+    "stMore": "as that is considered the opening of the womb. This is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּפֶּלֶת",
+      "en": "and the one who lost"
+     },
+     {
+      "he": "כְּמִין",
+      "en": "like a kind of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "animal"
+     },
+     {
+      "he": "חַיָּה",
+      "en": "beast"
+     },
+     {
+      "he": "וָעוֹף,",
+      "en": "and bird"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "<b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "stMore": "The son is not exempted from the requirement of redemption from a priest",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא בוֹ מִצּוּרַת הָאָדָם.",
+    "en": "only if it had the shape of a person.",
+    "st": "<b>unless</b> his birth follows the birth of an animal <b>that takes the form of a person.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "it has"
+     },
+     {
+      "he": "בוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "מִצּוּרַת",
+      "en": "from the shape of"
+     },
+     {
+      "he": "הָאָדָם.",
+      "en": "the person"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת סַנְדָּל, אוֹ שִׁלְיָא,",
+    "en": "A woman who lost an unformed baby or a birth sac,",
+    "st": "In the case of a woman <b>who miscarries</b> a fetus in the form of <b>a sandal fish or</b> from whom <b>an afterbirth </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "the one who lost"
+     },
+     {
+      "he": "סַנְדָּל,",
+      "en": "a sandal",
+      "note": "A shapeless birth that looks like a flat fish."
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שִׁלְיָא,",
+      "en": "a birth sac"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁפִיר מְרֻקָּם, וְהַיּוֹצֵא מְחֻתָּךְ,",
+    "en": "or a sac with a forming baby, or one that came out in parts:",
+    "st": "<b>or a gestational sac</b> in which <b>tissue developed</b> emerged, <b>or</b> who delivered a fetus <b>that emerged in pieces,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁפִיר",
+      "en": "and a sac"
+     },
+     {
+      "he": "מְרֻקָּם,",
+      "en": "formed"
+     },
+     {
+      "he": "וְהַיּוֹצֵא",
+      "en": "and the one that comes out"
+     },
+     {
+      "he": "מְחֻתָּךְ,",
+      "en": "cut up"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא אַחֲרֵיהֶן,",
+    "en": "the one born after them",
+    "st": "the son <b>who follows these </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes"
+     },
+     {
+      "he": "אַחֲרֵיהֶן,",
+      "en": "after them"
+     }
+    ]
+   },
+   {
+    "he": "בְּכוֹר לַנַּחֲלָה וְאֵינוֹ בְכוֹר לַכֹּהֵן.",
+    "en": "is a bechor for inheritance but not for the Kohen.",
+    "st": "<b>is a firstborn with regard to inheritance but is not a firstborn with regard to</b> redemption from <b>a priest.</b> In the case of a son born to",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "בְכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁלֹּא הָיוּ לוֹ בָנִים",
+    "en": "A man who had no sons",
+    "st": "<b>one who did not have sons </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בָנִים",
+      "en": "sons"
+     }
+    ]
+   },
+   {
+    "he": "וְנָשָׂא אִשָּׁה שֶׁכְּבָר יָלְדָה,",
+    "en": "married a woman who already had a child,",
+    "st": "<b>and he married a woman who had already given birth;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָשָׂא",
+      "en": "and married"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "שֶׁכְּבָר",
+      "en": "that already"
+     },
+     {
+      "he": "יָלְדָה,",
+      "en": "gave birth"
+     }
+    ]
+   },
+   {
+    "he": "עוֹדָהּ שִׁפְחָה וְנִשְׁתַּחְרְרָה,",
+    "en": "or she had it while still a maidservant and then was freed,",
+    "st": "or if he married a woman who gave birth when <b>she was still</b> a Canaanite <b>maidservant and she was</b> then <b>emancipated;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹדָהּ",
+      "en": "still she"
+     },
+     {
+      "he": "שִׁפְחָה",
+      "en": "a maidservant"
+     },
+     {
+      "he": "וְנִשְׁתַּחְרְרָה,",
+      "en": "and was freed"
+     }
+    ]
+   },
+   {
+    "he": "עוֹדָהּ נָכְרִית וְנִתְגַּיְּרָה,",
+    "en": "or while still a non-Jew and then became a giyores,",
+    "st": "or one who gave birth when <b>she was still a gentile and she</b> then <b>converted,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹדָהּ",
+      "en": "still she"
+     },
+     {
+      "he": "נָכְרִית",
+      "en": "a non-Jew"
+     },
+     {
+      "he": "וְנִתְגַּיְּרָה,",
+      "en": "and became a giyores"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁבָּאת לְיִשְׁרָאֵל יָלְדָה,",
+    "en": "and once she joined Yisrael she had a son:",
+    "st": "and <b>when</b> the maidservant or the gentile <b>came to</b> join <b>the Jewish people she gave birth</b> to a male,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁבָּאת",
+      "en": "from when she came"
+     },
+     {
+      "he": "לְיִשְׁרָאֵל",
+      "en": "to Yisrael"
+     },
+     {
+      "he": "יָלְדָה,",
+      "en": "she gave birth"
+     }
+    ]
+   },
+   {
+    "he": "בְּכוֹר לַנַּחֲלָה וְאֵינוֹ בְכוֹר לַכֹּהֵן.",
+    "en": "he is a bechor for inheritance but not for the Kohen.",
+    "st": "that son is <b>a firstborn with regard to inheritance but is not a firstborn with regard to</b> redemption from <b>a priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "בְכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי הַגְּלִילִי אוֹמֵר,",
+    "en": "Rabbi Yosei HaGelili says,",
+    "st": "<b>Rabbi Yosei HaGelili says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "הַגְּלִילִי",
+      "en": "HaGelili"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בְּכוֹר לַנַּחֲלָה וְלַכֹּהֵן,",
+    "en": "he is a bechor for inheritance and for the Kohen,",
+    "st": "That son is <b>a firstborn with regard to inheritance and with regard to</b> redemption from <b>a priest, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְלַכֹּהֵן,",
+      "en": "and for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמות יג),",
+    "en": "as the pasuk says,",
+    "st": "<b>as it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "יג),",
+      "en": "chapter 13)"
+     }
+    ]
+   },
+   {
+    "he": "פֶּטֶר כָּל רֶחֶם בִּבְנֵי יִשְׂרָאֵל,",
+    "en": "\"every first one born among Bnei Yisrael,\"",
+    "st": "“Whatever <b>opens the womb among</b> the children of <b>Israel”</b>",
+    "stMore": "(Exodus 13:2). This indicates that the halakhic status of a child born to the mother is not that of one who opens the womb",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פֶּטֶר",
+      "en": "the first-born of"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "רֶחֶם",
+      "en": "womb",
+      "note": "Literally \"the one that opens the womb.\""
+     },
+     {
+      "he": "בִּבְנֵי",
+      "en": "among the children of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּפְטְרוּ רֶחֶם מִיִּשְׂרָאֵל.",
+    "en": "which means the first child born to a Jewish mother.",
+    "st": "<b>unless it opens the womb</b> of a woman <b>from the Jewish people.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּפְטְרוּ",
+      "en": "they open"
+     },
+     {
+      "he": "רֶחֶם",
+      "en": "the womb"
+     },
+     {
+      "he": "מִיִּשְׂרָאֵל.",
+      "en": "from Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁהָיוּ לוֹ בָנִים",
+    "en": "A man who had sons",
+    "st": "In the case of <b>one who had sons </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that there were"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בָנִים",
+      "en": "sons"
+     }
+    ]
+   },
+   {
+    "he": "וְנָשָׂא אִשָּׁה שֶׁלֹא יָלְדָה,",
+    "en": "and married a woman who never had a child,",
+    "st": "<b>and married a woman who had not given birth;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָשָׂא",
+      "en": "and married"
+     },
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "שֶׁלֹא",
+      "en": "that not"
+     },
+     {
+      "he": "יָלְדָה,",
+      "en": "gave birth"
+     }
+    ]
+   },
+   {
+    "he": "נִתְגַּיְּרָה מְעֻבֶּרֶת, נִשְׁתַּחְרְרָה מְעֻבֶּרֶת,",
+    "en": "or she became a giyores or was freed while expecting,",
+    "st": "or if he married a woman who <b>converted while</b> she was <b>pregnant,</b> or a Canaanite maidservant who <b>was emancipated while</b> she was <b>pregnant</b>",
+    "stMore": "and she gave birth to a son, he is a firstborn with regard to redemption from a priest, as he opened his mother’s womb, but he is not a firstborn with regard to inheritance, because he is not the firstborn of his father or because halakhically he has no father.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְגַּיְּרָה",
+      "en": "she became a giyores"
+     },
+     {
+      "he": "מְעֻבֶּרֶת,",
+      "en": "expecting"
+     },
+     {
+      "he": "נִשְׁתַּחְרְרָה",
+      "en": "she was freed"
+     },
+     {
+      "he": "מְעֻבֶּרֶת,",
+      "en": "expecting"
+     }
+    ]
+   },
+   {
+    "he": "יָלְדָה הִיא וְכֹהֶנֶת, הִיא וּלְוִיָּה,",
+    "en": "or she and a Kohen's wife gave birth, or she and a Levi's wife,",
+    "st": "<b>And</b> likewise, if an Israelite woman <b>and</b> the daughter or wife of <b>a priest,</b> neither of whom had given birth yet, or an Israelite woman <b>and</b> the daughter or wife of <b>a Levite,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָלְדָה",
+      "en": "she gave birth"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "וְכֹהֶנֶת,",
+      "en": "and a Kohenes"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "וּלְוִיָּה,",
+      "en": "and a Levi'ah"
+     }
+    ]
+   },
+   {
+    "he": "הִיא וְאִשָּׁה שֶׁכְּבָר יָלְדָה,",
+    "en": "or she and a woman who already had a child, and the babies got mixed up,",
+    "st": "or an Israelite woman <b>and a woman who had already given birth,</b> all women whose sons do not require redemption from the priest, <b>gave birth</b>",
+    "stMore": "in the same place and it is uncertain which son was born to which mother;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "וְאִשָּׁה",
+      "en": "and a woman"
+     },
+     {
+      "he": "שֶׁכְּבָר",
+      "en": "that already"
+     },
+     {
+      "he": "יָלְדָה,",
+      "en": "gave birth"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן מִי שֶׁלֹּא שָׁהֲתָה אַחַר בַּעְלָהּ",
+    "en": "and also a woman who did not wait after her husband died",
+    "st": "<b>and likewise</b> a woman <b>who did not wait three months after</b> the death of <b>her husband </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "שָׁהֲתָה",
+      "en": "waited"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "בַּעְלָהּ",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלשָׁה חֳדָשִׁים וְנִשֵּׂאת וְיָלְדָה,",
+    "en": "three months, and married again and had a baby,",
+    "st": "<b>and she married and gave birth, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "חֳדָשִׁים",
+      "en": "months"
+     },
+     {
+      "he": "וְנִשֵּׂאת",
+      "en": "and she married"
+     },
+     {
+      "he": "וְיָלְדָה,",
+      "en": "and gave birth"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין יָדוּעַ אִם בֶּן תִּשְׁעָה לָרִאשׁוֹן,",
+    "en": "and we do not know if he was born after nine months to the first husband,",
+    "st": "<b>and it is unknown whether</b> the child was born after a pregnancy of <b>nine months</b> and is the <b>son of the first</b> husband,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and it is not"
+     },
+     {
+      "he": "יָדוּעַ",
+      "en": "known"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "בֶּן",
+      "en": "a baby of"
+     },
+     {
+      "he": "תִּשְׁעָה",
+      "en": "nine months"
+     },
+     {
+      "he": "לָרִאשׁוֹן,",
+      "en": "to the first"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בֶן שִׁבְעָה לָאַחֲרוֹן,",
+    "en": "or after seven months to the second:",
+    "st": "or <b>whether</b> he was born after a pregnancy of <b>seven months</b> and is the <b>son of the latter</b> husband,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בֶן",
+      "en": "a baby of"
+     },
+     {
+      "he": "שִׁבְעָה",
+      "en": "seven months"
+     },
+     {
+      "he": "לָאַחֲרוֹן,",
+      "en": "to the last"
+     }
+    ]
+   },
+   {
+    "he": "בְּכוֹר לַכֹּהֵן וְאֵינוֹ בְכוֹר לַנַּחֲלָה.",
+    "en": "he is a bechor for the Kohen but not for inheritance.",
+    "st": "in all these cases the child is <b>a firstborn with regard to</b> redemption from <b>a priest but is not a firstborn with regard to inheritance.</b>",
+    "stMore": "Due to the uncertainty, he is unable to prove he is the firstborn of either father, and therefore he is not entitled to the double portion of the firstborn.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "בְכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה.",
+      "en": "for inheritance"
+     }
+    ]
+   },
+   {
+    "he": "אֵיזֶהוּ בְּכוֹר לַנַּחֲלָה וְלַכֹּהֵן,",
+    "en": "Who is a bechor for inheritance and for the Kohen?",
+    "st": "<b>Which is</b> the offspring <b>that is a firstborn</b> both <b>with regard to inheritance and with regard to</b> redemption from <b>a priest?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵיזֶהוּ",
+      "en": "which is"
+     },
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְלַכֹּהֵן,",
+      "en": "and for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת שְׁפִיר מָלֵא דָם,",
+    "en": "A son born after his mother lost a sac with no baby in it,",
+    "st": "In the case of a woman <b>who miscarried a gestational sac full of water,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "the one who lost"
+     },
+     {
+      "he": "שְׁפִיר",
+      "en": "a sac"
+     },
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "דָם,",
+      "en": "blood"
+     }
+    ]
+   },
+   {
+    "he": "מָלֵא מַיִם, מָלֵא גְנִינִים,",
+    "en": "full of water or full of pieces,",
+    "st": "or one <b>full of blood,</b> or one <b>full of pieces of flesh;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "מַיִם,",
+      "en": "water"
+     },
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "גְנִינִים,",
+      "en": "pieces"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת כְּמִין דָּגִים וַחֲגָבִים שְׁקָצִים וּרְמָשִׂים,",
+    "en": "or lost something shaped like fish, grasshoppers or crawling creatures,",
+    "st": "or one <b>who miscarries</b> a mass <b>resembling a fish, or grasshoppers,</b> or <b>repugnant creatures, or creeping animals, or</b> one <b>who miscarries </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "the one who lost"
+     },
+     {
+      "he": "כְּמִין",
+      "en": "like a kind of"
+     },
+     {
+      "he": "דָּגִים",
+      "en": "fish"
+     },
+     {
+      "he": "וַחֲגָבִים",
+      "en": "and grasshoppers"
+     },
+     {
+      "he": "שְׁקָצִים",
+      "en": "sheratzim"
+     },
+     {
+      "he": "וּרְמָשִׂים,",
+      "en": "and crawling things"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפֶּלֶת יוֹם אַרְבָּעִים,",
+    "en": "or lost a baby on the fortieth day:",
+    "st": "<b>on the fortieth day</b> after conception,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפֶּלֶת",
+      "en": "the one who lost"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "אַרְבָּעִים,",
+      "en": "forty"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא אַחֲרֵיהֶן,",
+    "en": "the son born after them",
+    "st": "<b>the</b> son <b>who follows</b> any of <b>them </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes"
+     },
+     {
+      "he": "אַחֲרֵיהֶן,",
+      "en": "after them"
+     }
+    ]
+   },
+   {
+    "he": "בְּכוֹר לַנַּחֲלָה וְלַכֹּהֵן:",
+    "en": "is a bechor for inheritance and for the Kohen.",
+    "st": "<b>is a firstborn with regard to inheritance and with regard to</b> redemption from <b>a priest.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְלַכֹּהֵן:",
+      "en": "and for the Kohen"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "A baby born through a cut in his mother's side, and the one born after him: Rabbi Shimon says each one counts as a bechor in a different way.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יוֹצֵא דֹפֶן וְהַבָּא אַחֲרָיו,",
+    "en": "A baby born through his mother's side, and the one born after him:",
+    "st": "In the case of a boy <b>born by caesarean section and the</b> son <b>who follows him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצֵא",
+      "en": "one who comes out"
+     },
+     {
+      "he": "דֹפֶן",
+      "en": "the side"
+     },
+     {
+      "he": "וְהַבָּא",
+      "en": "and the one who comes"
+     },
+     {
+      "he": "אַחֲרָיו,",
+      "en": "after him"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶם אֵינָן בְּכוֹר לֹא לַנַּחֲלָה וְלֹא לַכֹּהֵן.",
+    "en": "neither of them is a bechor, not for inheritance and not for the Kohen.",
+    "st": "<b>both of them are not firstborn, neither with regard to inheritance nor with regard to</b> redemption from <b>a priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "are not"
+     },
+     {
+      "he": "בְּכוֹר",
+      "en": "a bechor"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לַנַּחֲלָה",
+      "en": "for inheritance"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "for the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הָרִאשׁוֹן לַנַּחֲלָה,",
+    "en": "the first is a bechor for inheritance,",
+    "st": "<b>The first</b> son is a firstborn <b>with regard to inheritance</b> if he is his father’s first son,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "לַנַּחֲלָה,",
+      "en": "for inheritance"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי לְחָמֵשׁ סְלָעִים:",
+    "en": "and the second for the five sela'im.",
+    "st": "<b>and the second</b> son is a firstborn with regard to redemption from a priest <b>for five sela</b>",
+    "stMore": "coins, because he is the first to emerge from the womb and he emerged in the usual way.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "לְחָמֵשׁ",
+      "en": "for five"
+     },
+     {
+      "he": "סְלָעִים:",
+      "en": "sela'im"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "A man whose wife had twin boys as her first children gives the Kohen five sela'im. The mishnah teaches what happens if one twin or the father dies.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁלֹּא בִכְּרָה אִשְׁתּוֹ",
+    "en": "A man whose wife never had a child before",
+    "st": "With regard to <b>one whose wife had not</b> previously <b>given birth </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בִכְּרָה",
+      "en": "had a firstborn"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְיָלְדָה שְׁנֵי זְכָרִים,",
+    "en": "and she had two boys:",
+    "st": "<b>and</b> then <b>gave birth</b> to <b>two males,</b>",
+    "stMore": "i.e., twin males, and it is unknown which is the firstborn,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָלְדָה",
+      "en": "and she gave birth to"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים,",
+      "en": "males"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חָמֵשׁ סְלָעִים לַכֹּהֵן.",
+    "en": "he gives five sela'im to the Kohen.",
+    "st": "<b>he gives five sela</b> coins <b>to the priest</b> after thirty days have passed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "sela'im"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אֶחָד מֵהֶן בְּתוֹךְ שְׁלשִׁים יוֹם,",
+    "en": "If one of them died within thirty days,",
+    "st": "If <b>one of them dies within thirty days</b>",
+    "stMore": "of birth, before the obligation to redeem the firstborn takes effect,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "הָאָב פָּטוּר.",
+    "en": "the father is free.",
+    "st": "<b>the father is exempt</b>",
+    "stMore": "from the payment due to uncertainty, as perhaps it was the firstborn who died.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "פָּטוּר.",
+      "en": "is free"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הָאָב וְהַבָּנִים קַיָּמִים,",
+    "en": "If the father died and the sons are alive,",
+    "st": "In a case where <b>the father died and the sons are alive, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "וְהַבָּנִים",
+      "en": "and the sons"
+     },
+     {
+      "he": "קַיָּמִים,",
+      "en": "are alive"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם נָתְנוּ עַד שֶׁלֹּא חָלְקוּ, נָתָנוּ.",
+    "en": "if they gave before they split up the property, they gave.",
+    "st": "<b>If they gave</b> the five sela coins to the priest <b>before they divided</b> their father’s property between them, <b>they gave</b>",
+    "stMore": "it, and it remains in the possession of the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָתְנוּ",
+      "en": "they gave"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "חָלְקוּ,",
+      "en": "they divided"
+     },
+     {
+      "he": "נָתָנוּ.",
+      "en": "they gave"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו, פְּטוּרִין.",
+    "en": "But if not, they are free.",
+    "st": "<b>But if not,</b> they are <b>exempt</b>",
+    "stMore": "from giving the redemption money to the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     },
+     {
+      "he": "פְּטוּרִין.",
+      "en": "they are free"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר נִתְחַיְּבוּ נְכָסִים.",
+    "en": "Rabbi Yehudah says, the property already owes it.",
+    "st": "<b>Rabbi Yehuda says: The obligation</b> to redeem the firstborn already <b>took effect on the property</b>",
+    "stMore": "of the father; therefore, in either case the sons, his heirs, are required to pay the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "נִתְחַיְּבוּ",
+      "en": "became owing"
+     },
+     {
+      "he": "נְכָסִים.",
+      "en": "the property"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר וּנְקֵבָה,",
+    "en": "A boy and a girl:",
+    "st": "If the wife gave birth to <b>a male and a female</b> and it is not known which was born first,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "a male"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כָּאן לַכֹּהֵן כְּלוּם:",
+    "en": "the Kohen gets nothing here.",
+    "st": "<b>the priest has nothing here,</b>",
+    "stMore": "as it is possible that the female was born first.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "A man has two wives, and both have their first babies at the same time, and the babies get mixed up. The mishnah teaches how much he gives the Kohen.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁתֵּי נָשִׁים שֶׁלֹּא בִכְּרוּ",
+    "en": "Two wives who never had children before",
+    "st": "With regard to <b>two wives</b> of one man, both of <b>whom had not</b> previously <b>given birth, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that did not"
+     },
+     {
+      "he": "בִכְּרוּ",
+      "en": "have a firstborn"
+     }
+    ]
+   },
+   {
+    "he": "וְיָלְדוּ שְׁנֵי זְכָרִים,",
+    "en": "had two boys:",
+    "st": "<b>and they gave birth</b> to <b>two males,</b>",
+    "stMore": "i.e., each bore one male, and the sons were intermingled, the father",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָלְדוּ",
+      "en": "and they gave birth to"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים,",
+      "en": "males"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֶשֶׂר סְלָעִים לַכֹּהֵן.",
+    "en": "he gives ten sela'im to the Kohen.",
+    "st": "<b>gives ten sela</b> coins <b>to the priest</b>",
+    "stMore": "even if it is unknown which son was born first, because it is certain that each is firstborn of his mother.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "עֶשֶׂר",
+      "en": "ten"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "sela'im"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אֶחָד מֵהֶן בְּתוֹךְ שְׁלשִׁים יוֹם,",
+    "en": "If one of them died within thirty days:",
+    "st": "In a case where <b>one of them dies within thirty days</b> of birth,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "אִם לְכֹהֵן אֶחָד נָתַן,",
+    "en": "if he gave to one Kohen,",
+    "st": "<b>if he gave</b> all ten sela coins <b>to one priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לְכֹהֵן",
+      "en": "to Kohen"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "נָתַן,",
+      "en": "he gave"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲזִיר לוֹ חָמֵשׁ סְלָעִים.",
+    "en": "the Kohen gives him back five sela'im.",
+    "st": "the priest <b>must return five sela to him,</b>",
+    "stMore": "because the father was not obligated to redeem the son who then died.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲזִיר",
+      "en": "he must return"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "אִם לִשְׁנֵי כֹהֲנִים נָתַן,",
+    "en": "If he gave to two Kohanim,",
+    "st": "<b>And if he gave</b> the redemption payment <b>to two</b> different <b>priests, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לִשְׁנֵי",
+      "en": "to two"
+     },
+     {
+      "he": "כֹהֲנִים",
+      "en": "Kohanim"
+     },
+     {
+      "he": "נָתַן,",
+      "en": "he gave"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לְהוֹצִיא מִיָּדָם.",
+    "en": "he cannot take it back from them.",
+    "st": "<b>he cannot reclaim</b> the money <b>from the possession</b>",
+    "stMore": "of either priest, as each could claim that the money that he received was for the living child.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לְהוֹצִיא",
+      "en": "to take out"
+     },
+     {
+      "he": "מִיָּדָם.",
+      "en": "from their hand"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר וּנְקֵבָה אוֹ שְׁנֵי זְכָרִים וּנְקֵבָה,",
+    "en": "A boy and a girl, or two boys and a girl:",
+    "st": "If one mother gave birth to <b>a male and</b> one gave birth to <b>a female,</b> or if between them they gave birth to <b>two males and</b> one <b>female,</b> and the children were intermingled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "a male"
+     },
+     {
+      "he": "וּנְקֵבָה",
+      "en": "and a female"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים",
+      "en": "males"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חָמֵשׁ סְלָעִים לַכֹּהֵן.",
+    "en": "he gives five sela'im to the Kohen.",
+    "st": "the father <b>gives five sela</b> coins <b>to the priest:</b>",
+    "stMore": "In the first case because the male might have preceded the female and in the second case because one of the males is certainly firstborn.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "sela'im"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי נְקֵבוֹת וְזָכָר",
+    "en": "Two girls and a boy,",
+    "st": "If the children were <b>two females and a male, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "נְקֵבוֹת",
+      "en": "females"
+     },
+     {
+      "he": "וְזָכָר",
+      "en": "and a male"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שְׁנֵי זְכָרִים וּשְׁתֵּי נְקֵבוֹת,",
+    "en": "or two boys and two girls:",
+    "st": "<b>or two males and two females, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים",
+      "en": "males"
+     },
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "נְקֵבוֹת,",
+      "en": "females"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כָּאן לַכֹּהֵן כְּלוּם.",
+    "en": "the Kohen gets nothing here.",
+    "st": "<b>the priest has nothing here,</b>",
+    "stMore": "as it is possible the female was born first to each mother.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת בִּכְּרָה",
+    "en": "If one wife had a child before",
+    "st": "If <b>one</b> of his wives <b>had</b> previously <b>given birth </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "בִּכְּרָה",
+      "en": "had a firstborn"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת שֶׁלֹּא בִכְּרָה",
+    "en": "and one did not,",
+    "st": "<b>and one had not</b> previously <b>given birth </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בִכְּרָה",
+      "en": "had a firstborn"
+     }
+    ]
+   },
+   {
+    "he": "וְיָלְדוּ שְׁנֵי זְכָרִים.",
+    "en": "and they had two boys:",
+    "st": "<b>and</b> they <b>gave birth</b> to <b>two males</b> who became intermingled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָלְדוּ",
+      "en": "and they gave birth to"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים.",
+      "en": "males"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חָמֵשׁ סְלָעִים לַכֹּהֵן.",
+    "en": "he gives five sela'im to the Kohen.",
+    "st": "the father <b>gives five sela</b> coins <b>to the priest,</b>",
+    "stMore": "as it is certain that one of them was born to the mother who had not yet given birth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "sela'im"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אֶחָד מֵהֶן בְּתוֹךְ שְׁלשִׁים יוֹם,",
+    "en": "If one of them died within thirty days,",
+    "st": "If <b>one of them dies within thirty days</b> of birth",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "הָאָב פָּטוּר.",
+    "en": "the father is free.",
+    "st": "<b>the father is exempt</b>",
+    "stMore": "from that payment, as it is possible that the one who died was born to the mother who had not yet given birth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "פָּטוּר.",
+      "en": "is free"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הָאָב וְהַבָּנִים קַיָּמִין,",
+    "en": "If the father died and the sons are alive,",
+    "st": "In a case of intermingling where <b>the father died and the sons are alive, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "וְהַבָּנִים",
+      "en": "and the sons"
+     },
+     {
+      "he": "קַיָּמִין,",
+      "en": "are alive"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם נָתְנוּ עַד שֶׁלֹּא חָלְקוּ, נָתָנוּ.",
+    "en": "if they gave before they split up the property, they gave.",
+    "st": "<b>If they gave</b> the five sela coins to the priest <b>before they divided</b> their father’s property between them, <b>they gave</b>",
+    "stMore": "it, and it remains in the possession of the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָתְנוּ",
+      "en": "they gave"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "חָלְקוּ,",
+      "en": "they divided"
+     },
+     {
+      "he": "נָתָנוּ.",
+      "en": "they gave"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו, פְּטוּרִין.",
+    "en": "But if not, they are free.",
+    "st": "<b>But if not,</b> they are <b>exempt</b>",
+    "stMore": "from giving the redemption payment to the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     },
+     {
+      "he": "פְּטוּרִין.",
+      "en": "they are free"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "נִתְחַיְּבוּ נְכָסִים.",
+    "en": "the property already owes it.",
+    "st": "The <b>obligation</b> to redeem the firstborn already <b>took effect</b> on <b>the property</b> of the father.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְחַיְּבוּ",
+      "en": "became owing"
+     },
+     {
+      "he": "נְכָסִים.",
+      "en": "the property"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר וּנְקֵבָה,",
+    "en": "A boy and a girl:",
+    "st": "If the wives gave birth to <b>a male and a female </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "a male"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כָּאן לַכֹּהֵן כְּלוּם:",
+    "en": "the Kohen gets nothing here.",
+    "st": "<b>the priest has nothing here,</b>",
+    "stMore": "as perhaps the female was born to the mother who had not yet given birth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "Two wives of two different men have their first babies, and the babies get mixed up. If it is a boy and a girl, the boy must redeem himself when he grows up.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁתֵּי נָשִׁים שֶׁל שְׁנֵי אֲנָשִׁים",
+    "en": "Two wives of two men",
+    "st": "With regard to <b>two women who had not</b> previously <b>given birth,</b> who were married <b>to two</b> different <b>men, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "אֲנָשִׁים",
+      "en": "men"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא בִכְּרוּ וְיָלְדוּ שְׁנֵי זְכָרִים,",
+    "en": "who never had children before had two boys:",
+    "st": "<b>and they gave birth</b> to <b>two males</b> and the sons were intermingled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that did not"
+     },
+     {
+      "he": "בִכְּרוּ",
+      "en": "have a firstborn"
+     },
+     {
+      "he": "וְיָלְדוּ",
+      "en": "and they gave birth to"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים,",
+      "en": "males"
+     }
+    ]
+   },
+   {
+    "he": "זֶה נוֹתֵן חָמֵשׁ סְלָעִים לַכֹּהֵן,",
+    "en": "this one gives five sela'im to the Kohen,",
+    "st": "<b>this</b> father <b>gives five sela</b> coins <b>to a priest </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "sela'im"
+     },
+     {
+      "he": "לַכֹּהֵן,",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה נוֹתֵן חָמֵשׁ סְלָעִים לַכֹּהֵן.",
+    "en": "and that one gives five sela'im to the Kohen.",
+    "st": "<b>and that</b> father <b>gives five sela</b>",
+    "stMore": "coins to a priest, as each is certainly firstborn to his mother.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "sela'im"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אֶחָד מֵהֶן בְּתוֹךְ שְׁלשִׁים יוֹם,",
+    "en": "If one of them died within thirty days:",
+    "st": "In a case where <b>one of them dies within thirty</b> days of birth,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "אִם לְכֹהֵן אֶחָד נָתְנוּ,",
+    "en": "if they gave to one Kohen,",
+    "st": "<b>if</b> the fathers <b>gave</b> all ten sela coins <b>to one priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לְכֹהֵן",
+      "en": "to Kohen"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "נָתְנוּ,",
+      "en": "they gave"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲזִיר לָהֶן חָמֵשׁ סְלָעִים.",
+    "en": "he gives them back five sela'im.",
+    "st": "the priest <b>must return five sela</b> coins <b>to them. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲזִיר",
+      "en": "he must return"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "אִם לִשְׁנֵי כֹהֲנִים נָתְנוּ,",
+    "en": "If they gave to two Kohanim,",
+    "st": "<b>But if they gave</b> the redemption payment <b>to two</b> different <b>priests </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לִשְׁנֵי",
+      "en": "to two"
+     },
+     {
+      "he": "כֹהֲנִים",
+      "en": "Kohanim"
+     },
+     {
+      "he": "נָתְנוּ,",
+      "en": "they gave"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָן יְכוֹלִין לְהוֹצִיא מִיָּדָם.",
+    "en": "they cannot take it back from them.",
+    "st": "<b>they cannot reclaim</b> the money <b>from the possession of</b>",
+    "stMore": "either priest, as each could claim that the money that he received was for the living child.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָן",
+      "en": "they are not"
+     },
+     {
+      "he": "יְכוֹלִין",
+      "en": "able"
+     },
+     {
+      "he": "לְהוֹצִיא",
+      "en": "to take out"
+     },
+     {
+      "he": "מִיָּדָם.",
+      "en": "from their hand"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר וּנְקֵבָה,",
+    "en": "A boy and a girl:",
+    "st": "If the women gave birth to <b>a male and a female</b> and the children became intermingled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "a male"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "הָאָבוֹת פְּטוּרִין,",
+    "en": "the fathers are free,",
+    "st": "<b>the fathers are exempt,</b>",
+    "stMore": "as each could claim that he is the father of the female,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאָבוֹת",
+      "en": "the fathers"
+     },
+     {
+      "he": "פְּטוּרִין,",
+      "en": "are free"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבֵּן חַיָּב לִפְדּוֹת אֶת עַצְמוֹ.",
+    "en": "and the son must redeem himself.",
+    "st": "<b>but the son is obligated to redeem himself,</b> as he is certainly a firstborn.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבֵּן",
+      "en": "and the son"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "must"
+     },
+     {
+      "he": "לִפְדּוֹת",
+      "en": "redeem"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַצְמוֹ.",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי נְקֵבוֹת וְזָכָר",
+    "en": "Two girls and a boy,",
+    "st": "If <b>two females and a male</b> were born,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "נְקֵבוֹת",
+      "en": "females"
+     },
+     {
+      "he": "וְזָכָר",
+      "en": "and a male"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שְׁנֵי זְכָרִים וּשְׁתֵּי נְקֵבוֹת,",
+    "en": "or two boys and two girls:",
+    "st": "<b>or two females and two males, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים",
+      "en": "males"
+     },
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "נְקֵבוֹת,",
+      "en": "females"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כָּאן לַכֹּהֵן כְּלוּם:",
+    "en": "the Kohen gets nothing here.",
+    "st": "<b>the priest has nothing here,</b>",
+    "stMore": "as it is possible the female was born first to each mother.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "More cases of pidyon haben: what if the baby dies, what if the father dies, and who is redeemed first, a father or his son.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אַחַת בִּכְּרָה",
+    "en": "If one wife had a child before",
+    "st": "If <b>one</b> woman <b>had</b> previously <b>given birth </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "בִּכְּרָה",
+      "en": "had a firstborn"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת שֶׁלֹּא בִכְּרָה",
+    "en": "and one did not,",
+    "st": "<b>and one had not</b> previously <b>given birth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בִכְּרָה",
+      "en": "had a firstborn"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל שְׁנֵי אֲנָשִׁים,",
+    "en": "and they belong to two men,",
+    "st": "and they were married <b>to two men </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "אֲנָשִׁים,",
+      "en": "men"
+     }
+    ]
+   },
+   {
+    "he": "וְיָלְדוּ שְׁנֵי זְכָרִים,",
+    "en": "and they had two boys:",
+    "st": "<b>and they gave birth to two males,</b> who then became intermingled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָלְדוּ",
+      "en": "and they gave birth to"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים,",
+      "en": "males"
+     }
+    ]
+   },
+   {
+    "he": "זֶה שֶׁלֹּא בִכְּרָה אִשְׁתּוֹ,",
+    "en": "the one whose wife never had a child before",
+    "st": "<b>this</b> one <b>whose wife had not</b> previously <b>given birth </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בִכְּרָה",
+      "en": "had a firstborn"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חָמֵשׁ סְלָעִים לַכֹּהֵן.",
+    "en": "gives five sela'im to the Kohen.",
+    "st": "<b>gives five sela</b> coins <b>to the priest.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "sela'im"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר וּנְקֵבָה,",
+    "en": "A boy and a girl:",
+    "st": "If the women gave birth to <b>a male and a female </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "a male"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כָּאן לַכֹּהֵן כְּלוּם.",
+    "en": "the Kohen gets nothing here.",
+    "st": "<b>the priest has nothing here,</b>",
+    "stMore": "as it is possible the female was born to the mother who had not yet given birth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַבֵּן בְּתוֹךְ שְׁלשִׁים יוֹם,",
+    "en": "If the son died within thirty days,",
+    "st": "If <b>the</b> firstborn <b>son dies within thirty days</b> of birth,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַבֵּן",
+      "en": "the son"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁנָּתַן לַכֹּהֵן,",
+    "en": "even though he gave to the Kohen,",
+    "st": "<b>although</b> the father <b>gave</b> five sela <b>to the priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it is so)"
+     },
+     {
+      "he": "שֶׁנָּתַן",
+      "en": "that he gave"
+     },
+     {
+      "he": "לַכֹּהֵן,",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲזִיר (לוֹ חָמֵשׁ סְלָעִים).",
+    "en": "the Kohen gives back the five sela'im.",
+    "st": "the priest <b>must return</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲזִיר",
+      "en": "he must return"
+     },
+     {
+      "he": "(לוֹ",
+      "en": "(to him"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים).",
+      "en": "sela'im)"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחַר שְׁלשִׁים יוֹם,",
+    "en": "After thirty days,",
+    "st": "If the firstborn son dies <b>after thirty days</b> have passed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁלֹּא נָתַן, יִתֵּן.",
+    "en": "even though he did not give, he must give.",
+    "st": "<b>even if</b> the father <b>did not give</b> five sela coins to the priest <b>he must give</b> it then.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it is so)"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נָתַן,",
+      "en": "he gave"
+     },
+     {
+      "he": "יִתֵּן.",
+      "en": "he must give"
+     }
+    ]
+   },
+   {
+    "he": "מֵת בְּיוֹם שְׁלשִׁים, כְּיוֹם שֶׁלְּפָנָיו.",
+    "en": "If he died on the thirtieth day, it is like the day before.",
+    "st": "If the firstborn <b>dies on the thirtieth day,</b> that day’s halakhic status is <b>like</b> that of the <b>day that preceded it,</b>",
+    "stMore": "as the obligation takes effect only after thirty days have elapsed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on day"
+     },
+     {
+      "he": "שְׁלשִׁים,",
+      "en": "thirty"
+     },
+     {
+      "he": "כְּיוֹם",
+      "en": "like the day"
+     },
+     {
+      "he": "שֶׁלְּפָנָיו.",
+      "en": "before it"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "stMore": "If the firstborn dies on the thirtieth day it is a case of uncertainty; therefore,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם נָתַן,",
+    "en": "if he gave,",
+    "st": "<b>if</b> the father already <b>gave</b> the redemption payment to the priest",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָתַן,",
+      "en": "he gave"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִטּוֹל.",
+    "en": "he does not take it back,",
+    "st": "<b>he cannot take</b> it back,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִטּוֹל.",
+      "en": "he takes"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לֹא נָתַן,",
+    "en": "and if he did not give,",
+    "st": "<b>but if he did not</b> yet <b>give</b> payment",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָתַן,",
+      "en": "he gave"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִתֵּן.",
+    "en": "he does not give.",
+    "st": "<b>he does not</b> need to <b>give</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִתֵּן.",
+      "en": "he gives"
+     }
+    ]
+   },
+   {
+    "he": "מֵת הָאָב בְּתוֹךְ שְׁלשִׁים יוֹם,",
+    "en": "If the father died within thirty days,",
+    "st": "If <b>the father</b> of the firstborn <b>dies within thirty</b> days of birth",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "בְּחֶזְקַת שֶׁלֹּא נִפְדָּה,",
+    "en": "we treat the son as not redeemed",
+    "st": "<b>the presumptive status of</b> the son is <b>that he was not redeemed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּחֶזְקַת",
+      "en": "in the status"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִפְדָּה,",
+      "en": "he was redeemed"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיָּבִיא רְאָיָה שֶׁנִּפְדָּה.",
+    "en": "until he brings proof that he was redeemed.",
+    "st": "<b>until</b> the son <b>will bring proof that he was redeemed.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּבִיא",
+      "en": "he brings"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "שֶׁנִּפְדָּה.",
+      "en": "that he was redeemed"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחַר שְׁלשִׁים יוֹם,",
+    "en": "After thirty days,",
+    "st": "If the father dies <b>after thirty days</b> have passed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "בְּחֶזִקַת שֶׁנִּפְדָּה,",
+    "en": "we treat him as redeemed,",
+    "st": "<b>the presumptive status of</b> the son is <b>that he was redeemed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּחֶזִקַת",
+      "en": "in the status"
+     },
+     {
+      "he": "שֶׁנִּפְדָּה,",
+      "en": "that he was redeemed"
+     }
+    ]
+   },
+   {
+    "he": "עַד (שֶׁיָּבִיא רְאָיָה) שֶׁלֹּא נִפְדָּה.",
+    "en": "until people say he was not redeemed.",
+    "st": "<b>until</b> people <b>will tell him that he was not redeemed.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "(שֶׁיָּבִיא",
+      "en": "(he brings"
+     },
+     {
+      "he": "רְאָיָה)",
+      "en": "proof)"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִפְדָּה.",
+      "en": "he was redeemed"
+     }
+    ]
+   },
+   {
+    "he": "הוּא לִפָּדוֹת וּבְנוֹ לִפָּדוֹת,",
+    "en": "If a man needs to be redeemed and his son needs to be redeemed,",
+    "st": "If one had both <b>himself to redeem and his son to redeem, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "לִפָּדוֹת",
+      "en": "to be redeemed"
+     },
+     {
+      "he": "וּבְנוֹ",
+      "en": "and his son"
+     },
+     {
+      "he": "לִפָּדוֹת,",
+      "en": "to be redeemed"
+     }
+    ]
+   },
+   {
+    "he": "הוּא קוֹדֵם אֶת בְּנוֹ.",
+    "en": "he comes before his son.",
+    "st": "<b>his</b> own redemption <b>takes precedence over</b> that of <b>his son. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "קוֹדֵם",
+      "en": "comes before"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּנוֹ.",
+      "en": "his son"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בְּנוֹ קוֹדְמוֹ,",
+    "en": "his son comes first,",
+    "st": "The redemption of <b>his son takes precedence, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "קוֹדְמוֹ,",
+      "en": "comes before him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמִּצְוָתוֹ עַל אָבִיו,",
+    "en": "because his own mitzvah was on his father,",
+    "st": "<b>as the mitzva</b> to redeem the father is incumbent <b>upon his</b> own <b>father, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמִּצְוָתוֹ",
+      "en": "that his mitzvah"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וּמִצְוַת בְּנוֹ עָלָיו:",
+    "en": "and the mitzvah of his son is on him.",
+    "st": "<b>and the mitzva</b> to redeem <b>his son</b> is incumbent <b>upon him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִצְוַת",
+      "en": "and the mitzvah of"
+     },
+     {
+      "he": "בְּנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "עָלָיו:",
+      "en": "on him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 7,
+  "summary": "The money the Torah sets for pidyon haben and for some other payments is counted in holy shekels, using the coins of Tzor.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חָמֵשׁ סְלָעִים שֶׁל בֵּן,",
+    "en": "The five sela'im for a son",
+    "st": "The <b>five sela</b> coins <b>of</b> the redemption of <b>the</b> firstborn <b>son,</b>",
+    "stMore": "with regard to which it is written: “Five shekels of silver, after the shekel of the Sanctuary” (Numbers 18:16),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים",
+      "en": "sela'im"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בֵּן,",
+      "en": "a son"
+     }
+    ]
+   },
+   {
+    "he": "בְּמָנֶה צוֹרִי.",
+    "en": "are in the coins of Tzor.",
+    "st": "are calculated <b>using a Tyrian maneh.</b>",
+    "stMore": "The silver content of the Tyrian coinage is significantly higher than that of provincial coinage, which is worth one-eighth its value.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמָנֶה",
+      "en": "in the maneh"
+     },
+     {
+      "he": "צוֹרִי.",
+      "en": "of Tzor",
+      "note": "Tzor's silver coins were pure and heavy."
+     }
+    ]
+   },
+   {
+    "he": "שְׁלשִׁים שֶׁל עֶבֶד,",
+    "en": "The thirty paid for a slave,",
+    "st": "With regard to the <b>thirty</b> shekels paid to the owner <b>of</b> a Canaanite <b>slave</b> who is killed by an ox (see Exodus 21:32),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֶבֶד,",
+      "en": "a slave"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲמִשִּׁים שֶׁל אוֹנֵס וְשֶׁל מְפַתֶּה,",
+    "en": "and the fifty paid by a man who did wrong to a girl,",
+    "st": "and the <b>fifty</b> shekels paid <b>by a rapist</b> (see Deuteronomy 22:29) <b>and by a seducer</b> (see Exodus 22:16) of a young virgin woman,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲמִשִּׁים",
+      "en": "and fifty"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אוֹנֵס",
+      "en": "one who wronged"
+     },
+     {
+      "he": "וְשֶׁל",
+      "en": "and of"
+     },
+     {
+      "he": "מְפַתֶּה,",
+      "en": "one who fooled"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵאָה שֶׁל מוֹצִיא שֵׁם רָע,",
+    "en": "and the hundred paid by one who spreads a false bad name,",
+    "st": "<b>and</b> the <b>one hundred</b> shekels paid <b>by the defamer</b>",
+    "stMore": "of his bride with the claim that she is not a virgin (see Deuteronomy 22:19),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵאָה",
+      "en": "and a hundred"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מוֹצִיא",
+      "en": "one who brings out"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "a name"
+     },
+     {
+      "he": "רָע,",
+      "en": "bad"
+     }
+    ]
+   },
+   {
+    "he": "כֻּלָּם בְּשֶׁקֶל הַקֹּדֶשׁ,",
+    "en": "all of them are in the holy shekel,",
+    "st": "<b>all of them,</b> even those cases where the word shekel is not explicitly written, are paid <b>in the shekel of the Sanctuary,</b>",
+    "stMore": "whose value is twenty gera (see Numbers 18:16)",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֻּלָּם",
+      "en": "all of them"
+     },
+     {
+      "he": "בְּשֶׁקֶל",
+      "en": "in the shekel of"
+     },
+     {
+      "he": "הַקֹּדֶשׁ,",
+      "en": "the Kodesh"
+     }
+    ]
+   },
+   {
+    "he": "בְּמָנֶה צוֹרִי.",
+    "en": "in the coins of Tzor.",
+    "st": "and that is calculated <b>using a Tyrian maneh. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמָנֶה",
+      "en": "in the maneh"
+     },
+     {
+      "he": "צוֹרִי.",
+      "en": "of Tzor"
+     }
+    ]
+   },
+   {
+    "he": "וְכֻלָּן נִפְדִּין בְּכֶסֶף,",
+    "en": "And they all may be paid with money",
+    "st": "<b>And all</b> monetary obligations <b>are redeemed,</b> i.e., paid, <b>with</b> coins",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֻלָּן",
+      "en": "and all of them"
+     },
+     {
+      "he": "נִפְדִּין",
+      "en": "are redeemed"
+     },
+     {
+      "he": "בְּכֶסֶף,",
+      "en": "with money"
+     }
+    ]
+   },
+   {
+    "he": "וּבְשָׁוֶה כֶסֶף,",
+    "en": "or with things worth money,",
+    "st": "<b>or with</b> items of <b>the equivalent</b> value of <b>money, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְשָׁוֶה",
+      "en": "and with what is worth"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַשְּׁקָלִים:",
+    "en": "except for the shekalim.",
+    "st": "<b>except for the</b> half-<b>shekels</b>",
+    "stMore": "that are donated to the Temple each year, which must be given specifically as coins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשְּׁקָלִים:",
+      "en": "the shekalim",
+      "note": "The half-shekel each Jew gave every year to the Beis HaMikdash."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 8,
+  "summary": "What may be used to pay for pidyon haben, and what happens if the father writes a note, or loses the money he set aside.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין פּוֹדִין לֹא בַעֲבָדִים,",
+    "en": "We do not redeem a son with slaves,",
+    "st": "<b>One may not redeem</b> his firstborn son, <b>neither with</b> Canaanite <b>slaves, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "פּוֹדִין",
+      "en": "we redeem"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַעֲבָדִים,",
+      "en": "with slaves"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בִשְׁטָרוֹת,",
+    "en": "nor with documents of debt,",
+    "st": "<b>nor with</b> promissory <b>notes, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בִשְׁטָרוֹת,",
+      "en": "with documents"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְקַרְקָעוֹת,",
+    "en": "nor with land,",
+    "st": "<b>nor with land, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְקַרְקָעוֹת,",
+      "en": "with lands"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְהֶקְדֵּשׁוֹת.",
+    "en": "nor with hekdesh.",
+    "st": "<b>nor with consecrated items.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְהֶקְדֵּשׁוֹת.",
+      "en": "with hekdesh things"
+     }
+    ]
+   },
+   {
+    "he": "כָּתַב לַכֹּהֵן שֶׁהוּא חַיָּב לוֹ חָמֵשׁ סְלָעִים,",
+    "en": "If he wrote to the Kohen that he owes him five sela'im,",
+    "st": "If the father <b>wrote</b> a promissory note <b>to the priest that he is obligated to give</b> him <b>five sela</b> coins,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתַב",
+      "en": "he wrote"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "to the Kohen"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owes"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים,",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב לִתֵּן לוֹ וּבְנוֹ אֵינוֹ פָדוּי,",
+    "en": "he must give it to him, but his son is not redeemed.",
+    "st": "the father is <b>obligated to give</b> them <b>to him but his son is not redeemed. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he must"
+     },
+     {
+      "he": "לִתֵּן",
+      "en": "give"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "וּבְנוֹ",
+      "en": "and his son"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "is not"
+     },
+     {
+      "he": "פָדוּי,",
+      "en": "redeemed"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם רָצָה הַכֹּהֵן",
+    "en": "So if the Kohen wants",
+    "st": "<b>Therefore, if the priest wished to give</b> back the five sela coins",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רָצָה",
+      "en": "wants"
+     },
+     {
+      "he": "הַכֹּהֵן",
+      "en": "the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "לִתֵּן לוֹ מַתָּנָה, רַשַּׁאי.",
+    "en": "to give it back to him as a present, he may.",
+    "st": "<b>to him as a gift</b> he is <b>permitted</b> to do so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִתֵּן",
+      "en": "to give"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מַתָּנָה,",
+      "en": "a present"
+     },
+     {
+      "he": "רַשַּׁאי.",
+      "en": "he may"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּפְרִישׁ פִּדְיוֹן בְּנוֹ וְאָבַד,",
+    "en": "Someone who set aside money to redeem his son, and lost it,",
+    "st": "With regard to <b>one who designates</b> five sela coins for <b>redemption of his</b> firstborn <b>son and he lost</b> the coins before he gave them to the priest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפְרִישׁ",
+      "en": "one who sets aside"
+     },
+     {
+      "he": "פִּדְיוֹן",
+      "en": "the redemption of"
+     },
+     {
+      "he": "בְּנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "וְאָבַד,",
+      "en": "and it was lost"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב בְּאַחֲרָיוּתוֹ,",
+    "en": "is responsible for it,",
+    "st": "the father <b>bears</b> financial <b>responsibility for their</b> loss,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is responsible"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתוֹ,",
+      "en": "for it"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר יח),",
+    "en": "as the pasuk says,",
+    "st": "<b>as it is stated</b>",
+    "stMore": "to Aaron the priest: “Everything that opens the womb in man and animal",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "יח),",
+      "en": "chapter 18)"
+     }
+    ]
+   },
+   {
+    "he": "יִהְיֶה לָּךְ וּפָדֹה תִפְדֶּה:",
+    "en": "\"It shall be yours, and you shall surely redeem.\"",
+    "st": "<b>shall be yours”; and</b> only afterward it says: <b>“You shall redeem</b>",
+    "stMore": "the firstborn of man” (Numbers 18:15). This indicates that only after the money shall be in the possession of the priest is the son redeemed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִהְיֶה",
+      "en": "it shall be"
+     },
+     {
+      "he": "לָּךְ",
+      "en": "yours"
+     },
+     {
+      "he": "וּפָדֹה",
+      "en": "and redeem"
+     },
+     {
+      "he": "תִפְדֶּה:",
+      "en": "you shall redeem"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 9,
+  "summary": "A bechor gets a double share of his father's property. The mishnah teaches which kinds of property he does not get double from.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַבְּכוֹר נוֹטֵל פִּי שְׁנַיִם בְּנִכְסֵי הָאָב,",
+    "en": "A bechor takes a double share of his father's property,",
+    "st": "<b>The firstborn</b> son <b>takes a double</b> portion, i.e., twice the portion taken by the other sons, <b>when</b> inheriting <b>the property of the father, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבְּכוֹר",
+      "en": "the bechor"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "פִּי",
+      "en": "a mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two",
+      "note": "A double share."
+     },
+     {
+      "he": "בְּנִכְסֵי",
+      "en": "in the property of"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ נוֹטֵל פִּי שְׁנַיִם בְּנִכְסֵי הָאֵם.",
+    "en": "but he does not take a double share of his mother's property.",
+    "st": "<b>but he does not take twice</b> the portion <b>when</b> inheriting <b>the property of the mother. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "take"
+     },
+     {
+      "he": "פִּי",
+      "en": "a mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "בְּנִכְסֵי",
+      "en": "in the property of"
+     },
+     {
+      "he": "הָאֵם.",
+      "en": "the mother"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ נוֹטֵל פִּי שְׁנַיִם בַּשֶּׁבַח,",
+    "en": "And he does not take a double share of the growth in value,",
+    "st": "<b>And neither does he take</b> twice the portion <b>in</b> any <b>enhancement</b>",
+    "stMore": "of the value of the property after the death of the father,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "take"
+     },
+     {
+      "he": "פִּי",
+      "en": "a mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "בַּשֶּׁבַח,",
+      "en": "in the growth"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בָרָאוּי כְּבַמֻּחְזָק.",
+    "en": "or of what was owed to his father, like what he had.",
+    "st": "<b>nor</b> does he take twice the portion <b>in</b> property <b>due</b> the father, <b>as</b> he does <b>in</b> property the father <b>possessed. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בָרָאוּי",
+      "en": "in what was coming"
+     },
+     {
+      "he": "כְּבַמֻּחְזָק.",
+      "en": "like in what was held"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הָאִשָּׁה בִּכְתֻבָּתָהּ,",
+    "en": "And a woman does not, for her kesubah,",
+    "st": "<b>And neither does a woman</b> take these portions, i.e., any enhancement of the value of the property or the property due the husband, from her husband’s property <b>for</b> payment of <b>her marriage contract</b> upon her divorce or her husband’s death;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "בִּכְתֻבָּתָהּ,",
+      "en": "in her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הַבָּנוֹת בִּמְזוֹנוֹתֵיהֶן,",
+    "en": "nor the daughters for their food,",
+    "st": "<b>nor</b> do <b>the daughters</b> take this share of the property <b>for their sustenance,</b>",
+    "stMore": "to which they are entitled from their late father’s possessions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַבָּנוֹת",
+      "en": "the daughters"
+     },
+     {
+      "he": "בִּמְזוֹנוֹתֵיהֶן,",
+      "en": "in their food"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הַיָּבָם.",
+    "en": "nor the yavam.",
+    "st": "<b>Nor</b> does <b>a man whose married brother died childless [yavam]</b>",
+    "stMore": "receive these portions, even though he acquires his brother’s portion of their shared father’s inheritance after performing levirate marriage with his brother’s wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַיָּבָם.",
+      "en": "the yavam",
+      "note": "The brother who marries his brother's widow."
+     }
+    ]
+   },
+   {
+    "he": "וְכֻלָּן אֵין נוֹטְלִין בַּשֶּׁבַח,",
+    "en": "None of them take from the growth in value,",
+    "st": "The mishna summarizes: <b>And all of them do not take</b> a portion <b>in</b> any <b>enhancement</b>",
+    "stMore": "of the value of the property after the death of the owner,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֻלָּן",
+      "en": "and all of them"
+     },
+     {
+      "he": "אֵין",
+      "en": "do not"
+     },
+     {
+      "he": "נוֹטְלִין",
+      "en": "take"
+     },
+     {
+      "he": "בַּשֶּׁבַח,",
+      "en": "in the growth"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בָרָאוּי כְּבַמֻּחְזָק:",
+    "en": "or from what was owed, like what was held.",
+    "st": "<b>nor</b> do they take a portion <b>in</b> property <b>due</b> the deceased, <b>as</b> they do in property <b>in</b> his <b>possession.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בָרָאוּי",
+      "en": "in what was coming"
+     },
+     {
+      "he": "כְּבַמֻּחְזָק:",
+      "en": "like in what was held"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 10,
+  "summary": "Which fields do not go back to their first owners in the Yovel year, and the Rabbis' argument about a gift.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ שֶׁאֵינָן חוֹזְרִין בַּיּוֹבֵל,",
+    "en": "These do not go back in the Yovel:",
+    "st": "<b>And these</b> are the people <b>whose</b> properties, unlike an ancestral field, <b>do not return</b> to their original owners <b>in the Jubilee</b>",
+    "stMore": "Year: The firstborn who inherited his father’s property by the right of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "שֶׁאֵינָן",
+      "en": "that do not"
+     },
+     {
+      "he": "חוֹזְרִין",
+      "en": "go back"
+     },
+     {
+      "he": "בַּיּוֹבֵל,",
+      "en": "in the Yovel",
+      "note": "The fiftieth year, when fields go back to their first owners."
+     }
+    ]
+   },
+   {
+    "he": "הַבְּכוֹרָה, וְהַיּוֹרֵשׁ אֶת אִשְׁתּוֹ,",
+    "en": "the bechor's extra share, and one who inherits from his wife,",
+    "st": "<b>primogeniture</b> need not return the extra portion for redistribution among the brothers; <b>and one who inherits his wife’s</b> property need not return it to her family;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבְּכוֹרָה,",
+      "en": "the bechor's share"
+     },
+     {
+      "he": "וְהַיּוֹרֵשׁ",
+      "en": "and the one who inherits"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְיַבֵּם אֶת אֵשֶׁת אָחִיו,",
+    "en": "and one who does yibum with his brother's widow,",
+    "st": "<b>and one who consummates the levirate marriage with the wife of his brother</b>",
+    "stMore": "and gains the right to his brother’s property need not return it for redistribution among the brothers.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְיַבֵּם",
+      "en": "and the one who does yibum"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אָחִיו,",
+      "en": "his brother"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּתָּנָה, דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "and a gift. That is what Rabbi Meir says.",
+    "st": "<b>And</b> likewise, <b>a gift</b> of land need not be returned to the original owners in the Jubilee Year; this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּתָּנָה,",
+      "en": "and the gift"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מַתָּנָה כְּמֶכֶר.",
+    "en": "a gift is like a sale.",
+    "st": "The halakhic status of <b>a gift</b> is <b>like</b> that of <b>a sale,</b> and it must be returned.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַתָּנָה",
+      "en": "a gift"
+     },
+     {
+      "he": "כְּמֶכֶר.",
+      "en": "is like a sale"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Elazar says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כֻּלָּן חוֹזְרִין בַּיּוֹבֵל.",
+    "en": "they all go back in the Yovel.",
+    "st": "<b>All these</b> lands <b>return in the Jubilee</b> Year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֻּלָּן",
+      "en": "all of them"
+     },
+     {
+      "he": "חוֹזְרִין",
+      "en": "go back"
+     },
+     {
+      "he": "בַּיּוֹבֵל.",
+      "en": "in the Yovel"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹחָנָן בֶּן בְּרוֹקָא אוֹמֵר,",
+    "en": "Rabbi Yochanan ben Beroka says,",
+    "st": "<b>Rabbi Yoḥanan ben Beroka says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "בְּרוֹקָא",
+      "en": "Beroka"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַיּוֹרֵשׁ אֶת אִשְׁתּוֹ,",
+    "en": "one who inherits from his wife",
+    "st": "<b>Even one who inherits his wife’s</b> property",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַיּוֹרֵשׁ",
+      "en": "the one who inherits"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲזִיר לִבְנֵי מִשְׁפָּחָה וִינַכֶּה",
+    "en": "must give it back to her family, and take off",
+    "st": "<b>must return</b> the land <b>to the members of</b> her father’s <b>family and should deduct </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲזִיר",
+      "en": "must return"
+     },
+     {
+      "he": "לִבְנֵי",
+      "en": "to the members of"
+     },
+     {
+      "he": "מִשְׁפָּחָה",
+      "en": "the family"
+     },
+     {
+      "he": "וִינַכֶּה",
+      "en": "and take off"
+     }
+    ]
+   },
+   {
+    "he": "לָהֶם מִן הַדָּמִים:",
+    "en": "some money from them.",
+    "st": "<b>from them the monetary</b>",
+    "stMore": "value of the land, as the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַדָּמִים:",
+      "en": "the money"
+     }
+    ]
+   }
+  ]
+ }
+]
