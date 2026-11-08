@@ -4,7 +4,7 @@ import { needsInternet, type MasechtaTile, type SederTile } from "../nav";
 import type { Profile } from "../types";
 
 /** Which masechtos open without the network: saved by the service worker, or already in memory. */
-function useAvailable(ids: readonly string[]): ReadonlySet<string> {
+export function useAvailable(ids: readonly string[]): ReadonlySet<string> {
   const [avail, setAvail] = useState<ReadonlySet<string>>(() => new Set(ids.filter(isMasechtaCached)));
   const key = ids.join(",");
   useEffect(() => {

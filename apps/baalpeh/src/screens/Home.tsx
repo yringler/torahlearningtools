@@ -1,3 +1,4 @@
+import { TextSizeSheet } from "../components/TextSizeSheet";
 import { Fragment, useState } from "react";
 import { VerifIntroBanner } from "../components/PerekGate";
 import { PerekStrip } from "../components/PerekStrip";
@@ -28,6 +29,8 @@ interface Props {
   /** Other masechtos with due reviews (the nudge rows), and opening one of them. */
   others?: ReadonlyArray<{ masechta: string; due: number }>;
   onOpenMasechta?: (masechta: string) => void;
+  /** "📚 Library": read anything, outside learning. */
+  onLibrary?: () => void;
 }
 
 export interface HomeGate {
@@ -80,23 +83,7 @@ export function nextSubLabel(t: Task): string {
 }
 
 /** "Aa": text size, with a line of the masechta to show it (docs/PARENT_MODE.md §9.3). */
-function TextSizeSheet({ scale, onChange, onClose }: { scale: number; onChange: (s: number) => void; onClose: () => void }) {
-  const [v, setV] = useState(scale);
-  const sample = MASECHTA.mishnayos[0]?.chunks[0]?.he ?? "";
-  return (
-    <div className="sheet-backdrop" role="dialog" aria-modal="true" aria-labelledby="ts-title" onClick={onClose}>
-      <div className="sheet" dir="ltr" onClick={(e) => e.stopPropagation()}>
-        <h3 id="ts-title">Text size</h3>
-        <input type="range" min={0.8} max={1.6} step={0.1} value={v} aria-label="Text size"
-          onChange={(e) => { const n = Number(e.target.value); setV(n); onChange(n); }} />
-        <p className="ts-sample" dir="rtl" lang="he" style={{ fontSize: `calc(1.8rem * ${v})` }}>{sample}</p>
-        <button className="btn primary" onClick={onClose}>Done</button>
-      </div>
-    </div>
-  );
-}
-
-export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onFontScale, gate, onChooseMasechta, others = [], onOpenMasechta }: Props) {
+export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onFontScale, gate, onChooseMasechta, others = [], onOpenMasechta, onLibrary }: Props) {
   const [sizing, setSizing] = useState(false);
   const m = useMasechta();
   const ms = m.shape;
@@ -121,7 +108,7 @@ export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onF
         <span className="who" style={{ color: profile.color }}>{profile.emoji} {profile.name}</span>
         {onFontScale ? <button className="btn ghost-btn small aa" aria-label="Text size" onClick={() => setSizing(true)}>Aa</button> : <span />}
       </div>
-      {sizing && onFontScale && <TextSizeSheet scale={profile.settings.fontScale} onChange={onFontScale} onClose={() => setSizing(false)} />}
+      {sizing && onFontScale && <TextSizeSheet sample={MASECHTA.mishnayos[0]?.chunks[0]?.he ?? ""} scale={profile.settings.fontScale} onChange={onFontScale} onClose={() => setSizing(false)} />}
       {gate?.intro && <VerifIntroBanner {...gate.intro} />}
       <button className="btn primary huge" onClick={onStart} dir="ltr">
         ▶ Start today's learning
@@ -142,6 +129,7 @@ export function Home({ profile, onStart, onOpenMishnah, onOpenPerek, onBack, onF
       <h2 className="masechta">מסכת {m.he}</h2>
       <div className="masechta-choose" dir="ltr">
         <button className="btn ghost-btn small" onClick={onChooseMasechta}>Choose a different masechta</button>
+        {onLibrary && <button className="btn ghost-btn small" onClick={onLibrary}>📚 Library</button>}
       </div>
       <div className="perek-map">
         {PERAKIM.map((perek, i) => {

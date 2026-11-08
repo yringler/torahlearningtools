@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import type { ConfigResponse, SignInAs } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
 import { LicensesLink, PricingNote, PrivacyLink } from "../components/Licenses";
+import { useOpenLibrary } from "../library/open";
 import { Turnstile, type TurnstileHandle } from "./Turnstile";
 
 export const plausibleEmail = (s: string): boolean => {
@@ -51,6 +52,7 @@ export function Choose({ reason, onPick, onGuest }: { reason?: "expired" | undef
       </div>
       <PricingNote />
       <GuestOption onGuest={onGuest} />
+      <LibraryOption />
     </AuthFrame>
   );
 }
@@ -141,6 +143,18 @@ export function GuestOption({ onGuest }: { onGuest: () => void }) {
     <div className="guest-option">
       <button type="button" className="link-btn" onClick={onGuest}>Continue as guest</button>
       <p className="hint">Try without an account. Progress is saved only in this browser.</p>
+    </div>
+  );
+}
+
+/** The library: read any mishnah with its meanings, no account and nothing saved (docs/LIBRARY.md). */
+export function LibraryOption() {
+  const open = useOpenLibrary();
+  if (!open) return null;
+  return (
+    <div className="guest-option">
+      <button type="button" className="link-btn" onClick={() => open()}>📚 Open the Library</button>
+      <p className="hint">Read and learn any mishnah. No account needed.</p>
     </div>
   );
 }

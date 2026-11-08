@@ -1,7 +1,7 @@
 import type {
   ChildMeta, ChildRow, ChildSettings, Ms, MishnahProgressData, PerekProgressData, RecordRow, ReviewItemData,
 } from "../../shared/api";
-import { isMasechtaId, parseProgressKey } from "../../shared/progressKey";
+import { isLibraryPlace, isMasechtaId, parseProgressKey } from "../../shared/progressKey";
 import { chainKey, parseChainKey } from "../perekSteps";
 import type { Profile } from "../types";
 
@@ -22,6 +22,7 @@ function cleanSettings(s: Profile["settings"]): ChildSettings {
   if (typeof s.breakMinutes === "number" && Number.isFinite(s.breakMinutes)) out.breakMinutes = int(s.breakMinutes, 1, 180, 15);
   if (s.meaningView === "simple" || s.meaningView === "steinsaltz") out.meaningView = s.meaningView;
   if (isMasechtaId(s.lastMasechta)) out.lastMasechta = s.lastMasechta;
+  if (isLibraryPlace(s.libraryPlace)) out.libraryPlace = s.libraryPlace;
   return out;
 }
 
@@ -31,6 +32,7 @@ export function settingsOf(s: ChildSettings): Profile["settings"] {
   if (s.breakMinutes !== undefined) out.breakMinutes = s.breakMinutes;
   if (s.meaningView !== undefined) out.meaningView = s.meaningView;
   if (isMasechtaId(s.lastMasechta)) out.lastMasechta = s.lastMasechta;
+  if (isLibraryPlace(s.libraryPlace)) out.libraryPlace = s.libraryPlace;
   return out;
 }
 

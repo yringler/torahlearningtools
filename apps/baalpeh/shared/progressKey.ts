@@ -20,6 +20,16 @@ export function isMasechtaId(v: unknown): v is string {
   return typeof v === "string" && MASECHTA_ID_RE.test(v);
 }
 
+/**
+ * A child's last place in the library, "<masechta>/<perek>/<mishnah>" (e.g. "peah/2/3"), by format only: the client
+ * re-checks it against the catalog when reading it (src/library/location.ts).
+ */
+export function isLibraryPlace(v: unknown): v is string {
+  if (typeof v !== "string" || v.length > 80) return false;
+  const [m, p, n, ...rest] = v.split("/");
+  return rest.length === 0 && isMasechtaId(m) && /^[1-9]\d{0,2}$/.test(p ?? "") && /^[1-9]\d{0,2}$/.test(n ?? "");
+}
+
 const prefix = (masechta: string): string => (masechta === LEGACY_MASECHTA_ID ? "" : `${masechta}/`);
 
 /** Mishnah record key: "1:2" for Berakhot, "peah/1:2" otherwise. */

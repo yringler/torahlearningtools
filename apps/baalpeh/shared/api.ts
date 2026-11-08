@@ -186,6 +186,8 @@ export interface ChildSettings {
   meaningView?: MeaningView;
   /** Catalog id of the masechta this child last opened (shared/progressKey.ts isMasechtaId). Absent: the default. */
   lastMasechta?: string;
+  /** Where this child last read in the library, "<masechta>/<perek>/<mishnah>" (shared/progressKey.ts isLibraryPlace). */
+  libraryPlace?: string;
 }
 
 export interface ChildMeta {

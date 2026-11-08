@@ -107,6 +107,12 @@ change sends a notice email. Once a PIN is set, the perek-test page asks for it 
 
 The design spec this was built from is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
+**Library** ([`docs/LIBRARY.md`](docs/LIBRARY.md)). The whole Mishnah is also open to read at `/library`, with the
+same meanings, Steinsaltz and word glosses, for anyone, with no account and no progress. The ways in are the
+welcome screen, a 📚 tile on "Who's learning?", and a 📚 pill in guest mode. A child's perek map and mishnah screen also
+have a 📚 Library button. Opened that way, the Library remembers that child's last mishnah (`settings.libraryPlace`,
+synced, never progress). Otherwise it remembers the last mishnah on the device. URLs follow the reader (`/library/<masechta>/<perek>/<mishnah>`).
+
 ## Data pipeline
 
 ```

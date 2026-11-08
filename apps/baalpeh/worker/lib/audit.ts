@@ -89,7 +89,7 @@ export function toAuditEntry(r: AuditDbRow): AuditEntry {
 const MAX_KEYS = 60;
 
 /** Settings that are the learner's navigation state, not a parent's edit: never named in the log. */
-const UNLOGGED_SETTINGS = new Set(["lastMasechta"]);
+const UNLOGGED_SETTINGS = new Set(["lastMasechta", "libraryPlace"]);
 
 /** Fields of a child's meta that a log line names. `sort` alone is not logged, nor UNLOGGED_SETTINGS. */
 function changedFields(from: ChildMeta, to: ChildMeta): string[] {

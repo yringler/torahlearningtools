@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useRef, useState } from "react";
 import type { AuthSuccessResponse, ParentMeResponse, SignInAs, User } from "../shared/api";
 import { api, ApiFailure } from "./api/client";
 import { bootPhase, phaseAfterSignIn } from "./auth/boot";
 import { CheckEmail } from "./auth/CheckEmail";
-import { AuthFrame, Choose, GuestOption, Login } from "./auth/Login";
+import { AuthFrame, Choose, GuestOption, LibraryOption, Login } from "./auth/Login";
 import { PinResetLanding, takePinResetToken } from "./auth/PinResetLanding";
 import { takeVerifyToken, VerifyLanding } from "./auth/VerifyLanding";
 import { asksServer, bootRoute, isGuestChosen, setGuestChosen } from "./guest";
@@ -13,6 +13,9 @@ import { LICENSES_PATH } from "./sources";
 import { PerekTestLanding, takePerekTestToken } from "./screens/PerekTestLanding";
 import { kv } from "./kv";
 import { LearningApp } from "./LearningApp";
+import { isLibraryPath, libraryPath, parseLibraryPath, type LibraryPlace, type ReadPlace } from "./library/location";
+import { OpenLibraryContext, type OpenLibraryOptions } from "./library/open";
+import { SEDARIM } from "./data";
 import { ParentApp } from "./parent/ParentApp";
 import { loadCurrentUser, setCurrentUser } from "./sync/store";
 
@@ -57,7 +60,76 @@ export function App() {
   if (perekTestToken !== null) return <PerekTestLanding token={perekTestToken} />;
   if (pinResetToken !== null) return <PinResetLanding token={pinResetToken} />;
   if (typeof window !== "undefined" && window.location.pathname.replace(/\/+$/, "") === LICENSES_PATH) return <LicensesPage />;
-  return <AuthShell />;
+  return <WithLibrary />;
+}
+
+// The library is its own chunk: learners who never open it don't download it up front (the service worker still
+// precaches it with the rest of the build, so it opens offline).
+const LibraryApp = lazy(() => import("./library/LibraryApp"));
+
+const placeFromUrl = (): LibraryPlace => parseLibraryPath(window.location.pathname, SEDARIM.map((s) => s.id));
+
+/**
+ * The library (docs/LIBRARY.md) over the auth shell. Opened from inside the app, it covers the shell, which stays
+ * mounted (hidden) so a guest's in-memory progress and the learner app's state survive the visit; the library never
+ * changes the active masechta those screens read. Opening pushes one history entry, so the browser's (or Android's)
+ * Back leaves the library in one step. A /library link opened cold shows only the library: no sign-in check, no sync,
+ * until "Done" brings up the shell.
+ */
+function WithLibrary() {
+  const [lib, setLib] = useState<LibraryPlace | null>(() => (isLibraryPath(window.location.pathname) ? placeFromUrl() : null));
+  const [shell, setShell] = useState(lib === null);
+  /** Whether the open library sits on a history entry we pushed (so Done can go back instead of replacing). */
+  const pushed = useRef(false);
+  /** Opened for a child: whose place it keeps. */
+  const [opts, setOpts] = useState<OpenLibraryOptions>({});
+
+  useEffect(() => {
+    const onPop = () => {
+      if (isLibraryPath(window.location.pathname)) { setLib(placeFromUrl()); return; }
+      pushed.current = false;
+      setLib(null);
+      setOpts({});
+      setShell(true);
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+
+  const open = useCallback((o: OpenLibraryOptions = {}) => {
+    const place: LibraryPlace = o.at ? { v: "read", ...o.at } : { v: "home" };
+    window.history.pushState({ library: true }, "", libraryPath(place));
+    pushed.current = true;
+    setOpts(o);
+    setLib(place);
+  }, []);
+
+  // The child's place, kept current here too: a popstate remount of the library must not bring back an older one.
+  const onPlace = opts.onPlace;
+  const childPlace = useCallback((p: ReadPlace) => {
+    setOpts((o) => ({ ...o, last: p }));
+    onPlace?.(p);
+  }, [onPlace]);
+
+  const done = () => {
+    if (pushed.current) { window.history.back(); return; } // popstate closes it
+    window.history.replaceState(null, "", "/");
+    setLib(null);
+    setOpts({});
+    setShell(true);
+  };
+
+  return (
+    <OpenLibraryContext.Provider value={open}>
+      {shell && <div hidden={lib !== null}><AuthShell /></div>}
+      {lib && (
+        <Suspense fallback={<AuthFrame><p className="hint">Loading the library…</p></AuthFrame>}>
+          <LibraryApp key={libraryPath(lib)} initial={lib} onDone={done}
+            {...(opts.child ? { child: opts.child, last: opts.last ?? null, onPlace: childPlace } : {})} />
+        </Suspense>
+      )}
+    </OpenLibraryContext.Provider>
+  );
 }
 
 /** Auth shell: decides between the sign-in screens, the learning app and parent mode. */
@@ -188,6 +260,7 @@ function AuthShell() {
           <p>Connect to the internet to sign in.</p>
           <button className="btn primary big" onClick={() => { setPhase({ phase: "boot" }); setMeTry((n) => n + 1); }}>Retry</button>
           <GuestOption onGuest={enterGuest} />
+          <LibraryOption />
         </AuthFrame>
       );
     case "guest":

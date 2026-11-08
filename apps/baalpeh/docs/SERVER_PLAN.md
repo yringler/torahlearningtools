@@ -1069,6 +1069,9 @@ valid as they are. The rules live in `shared/progressKey.ts` (pure, no imports),
   always keeps a stored value (parent mode never chooses a masechta, and a parent client pushes whatever copy it last
   pulled, which may be older than the child's choice). A parent's value is used only when none is stored yet. It is never named in
   the parent change log (it is navigation state, not an edit).
+- **Last library place**: `ChildSettings.libraryPlace?`, `"<masechta>/<perek>/<mishnah>"` (validated with
+  `isLibraryPlace`). It is where the child last read in the library (docs/LIBRARY.md). It is handled exactly like
+  `lastMasechta`: merged by a learner sync, kept by the parent upsert, never logged. It is navigation, not progress.
 - **Events**: `ReciteEvent`, `CheckEvent`, `ResetEvent` and `SessionEvent` take an optional `masechta`. Migration
   `0008_events_masechta.sql` adds `events.masechta TEXT` (`NULL` = Berakhot, no backfill). Parent stats group by
   `coalesce(masechta, 'berakhot')`, and `StruggleRow.masechta` says which masechta a row is.

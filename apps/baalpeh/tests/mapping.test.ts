@@ -177,6 +177,13 @@ describe("multi-masechta keys", () => {
     expect(settingsOf({ fontScale: 1, lastMasechta: "../x" })).toEqual({ fontScale: 1 });
   });
 
+  it("keeps a valid libraryPlace and drops an invalid one", () => {
+    expect(metaOf(kid("A", { settings: { fontScale: 1, libraryPlace: "peah/2/3" } }), 0).settings).toEqual({ fontScale: 1, libraryPlace: "peah/2/3" });
+    expect(metaOf(kid("A", { settings: { fontScale: 1, libraryPlace: "peah/2" } }), 0).settings).toEqual({ fontScale: 1 });
+    expect(settingsOf({ fontScale: 1, libraryPlace: "demai/1/1" })).toEqual({ fontScale: 1, libraryPlace: "demai/1/1" });
+    expect(settingsOf({ fontScale: 1, libraryPlace: "../x/1/1" })).toEqual({ fontScale: 1 });
+  });
+
   it("a lastMasechta change produces one ChildRow", () => {
     const a = kid("A");
     const d = diffProfiles([a], [{ ...a, settings: { ...a.settings, lastMasechta: "peah" } }], NOW);

@@ -105,6 +105,13 @@ describe("multi-masechta keys and ids", () => {
     }
   });
 
+  it("keeps a valid libraryPlace and rejects an invalid one", () => {
+    expect(childMeta({ ...base, settings: { fontScale: 1, libraryPlace: "peah/2/3" } }, "meta").settings).toEqual({ fontScale: 1, libraryPlace: "peah/2/3" });
+    for (const v of ["peah/0/1", "peah/2", "../x/1/1", "Peah/1/1", "peah/1/1/1", "peah/01/1", 3, null]) {
+      expect(() => childMeta({ ...base, settings: { fontScale: 1, libraryPlace: v } }, "meta"), String(v)).toThrow();
+    }
+  });
+
   it("validates and carries event.masechta on every event type; absent stays absent", () => {
     const env = { id: crypto.randomUUID(), childId: crypto.randomUUID(), at: Date.now(), day: "2026-11-03" };
     const bodies = [
