@@ -1,0 +1,2719 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "Beis Shammai and Beis Hillel argue about an egg that a hen laid on Yom Tov: may we eat it that day? They also argue about how much chametz on Pesach is forbidden.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּיצָה שֶׁנּוֹלְדָה בְיוֹם טוֹב,",
+    "en": "An egg that a hen laid on Yom Tov:",
+    "st": "With regard to <b>an egg that was laid on a Festival</b>",
+    "stMore": "(Eduyyot 4:1),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּיצָה",
+      "en": "an egg"
+     },
+     {
+      "he": "שֶׁנּוֹלְדָה",
+      "en": "that was laid"
+     },
+     {
+      "he": "בְיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "טוֹב,",
+      "en": "Yom Tov"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים, תֵּאָכֵל.",
+    "en": "Beis Shammai say: it may be eaten.",
+    "st": "<b>Beit Shammai say: It may be eaten</b>",
+    "stMore": "even on that day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     },
+     {
+      "he": "תֵּאָכֵל.",
+      "en": "may be eaten"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים, לֹא תֵאָכֵל.",
+    "en": "And Beis Hillel say: it may not be eaten.",
+    "st": "<b>and Beit Hillel say: It may not be eaten,</b>",
+    "stMore": "as the Gemara will explain at length. Apropos this exceptional case, in which Beit Shammai are lenient and Beit Hillel are strict, the mishna cites additional halakhot of the Festivals in which this unusual phenomenon occurs (Yoma 79b).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis",
+      "note": "The students of Hillel."
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תֵאָכֵל.",
+      "en": "may be eaten"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "שְׂאֹר בְּכַזַּיִת",
+    "en": "For sourdough, the forbidden amount is the size of an olive,",
+    "st": "<b>Leaven,</b> i.e., dough that has leavened to such an extent that it is no longer used as food but as a leavening agent for other dough, is prohibited on Passover in the measure <b>of an olive-bulk.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׂאֹר",
+      "en": "sourdough",
+      "note": "Very sour dough, used to make other dough rise."
+     },
+     {
+      "he": "בְּכַזַּיִת",
+      "en": "is an olive's size"
+     }
+    ]
+   },
+   {
+    "he": "וְחָמֵץ בְּכַכּוֹתֶבֶת.",
+    "en": "and for chametz bread, it is the size of a big date.",
+    "st": "However, the measure for edible <b>leavened bread</b> is greater, that <b>of a large date-bulk.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָמֵץ",
+      "en": "and chametz"
+     },
+     {
+      "he": "בְּכַכּוֹתֶבֶת.",
+      "en": "is a big date's size"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis",
+      "note": "The students of Hillel."
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "זֶה וָזֶה בְּכַזָּיִת:",
+    "en": "for both, it is the size of an olive.",
+    "st": "For both <b>this and that,</b> the measure is that <b>of an olive-bulk.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and that"
+     },
+     {
+      "he": "בְּכַזָּיִת:",
+      "en": "is an olive's size"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "After shechting a wild animal or a bird, we must cover its blood with earth. This mishnah asks how to do that on Yom Tov.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַשּׁוֹחֵט חַיָּה וָעוֹף בְּיוֹם טוֹב,",
+    "en": "If someone shechts a wild animal or a bird on Yom Tov,",
+    "explain": "Then there is a mitzvah to cover its blood with earth.",
+    "st": "Furthermore, with regard to <b>one who slaughters an undomesticated animal or a bird on a Festival</b>",
+    "stMore": "(Eduyyot 4:2), in which case there is a mitzva from the Torah to cover the blood after slaughtering (Leviticus 17:13),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "חַיָּה",
+      "en": "a wild animal"
+     },
+     {
+      "he": "וָעוֹף",
+      "en": "or a bird"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "טוֹב,",
+      "en": "Yom Tov"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "יַחְפֹּר בְּדֶקֶר וִיכַסֶּה,",
+    "en": "he may dig up earth with a shovel and cover the blood.",
+    "st": "<b>He digs</b> earth <b>with a shovel and covers</b> the blood with that earth ab initio.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחְפֹּר",
+      "en": "he digs"
+     },
+     {
+      "he": "בְּדֶקֶר",
+      "en": "with a shovel"
+     },
+     {
+      "he": "וִיכַסֶּה,",
+      "en": "and covers"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis",
+      "note": "The students of Hillel."
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִשְׁחֹט,",
+    "en": "He should not shecht at all,",
+    "st": "<b>He may not slaughter</b> ab initio,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִשְׁחֹט,",
+      "en": "he may shecht"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אִם כֵּן הָיָה לוֹ",
+    "en": "unless he had",
+    "st": "<b>unless he had</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "הָיָה",
+      "en": "there was"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "עָפָר מוּכָן מִבְּעוֹד יוֹם.",
+    "en": "earth ready from before Yom Tov.",
+    "st": "<b>earth prepared</b> for that purpose <b>while it was still day.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָפָר",
+      "en": "earth"
+     },
+     {
+      "he": "מוּכָן",
+      "en": "ready"
+     },
+     {
+      "he": "מִבְּעוֹד",
+      "en": "while still"
+     },
+     {
+      "he": "יוֹם.",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹדִים, שֶׁאִם שָׁחַט,",
+    "en": "But they agree that if he already shechted,",
+    "st": "<b>But</b> even Beit Hillel <b>concede that if one</b> already <b>slaughtered</b>",
+    "stMore": "the animal or the bird,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹדִים,",
+      "en": "and they agree"
+     },
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "שָׁחַט,",
+      "en": "he shechted"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיַּחְפֹּר בְּדֶקֶר וִיכַסֶּה,",
+    "en": "he should dig with a shovel and cover the blood.",
+    "st": "<b>then he should dig with a shovel and cover</b> the blood.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיַּחְפֹּר",
+      "en": "that he digs"
+     },
+     {
+      "he": "בְּדֶקֶר",
+      "en": "with a shovel"
+     },
+     {
+      "he": "וִיכַסֶּה,",
+      "en": "and covers"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵפֶר כִּירָה מוּכָן הוּא:",
+    "en": "And ashes from a stove count as ready to use.",
+    "st": "Additionally, they agree <b>that the ashes of a stove are</b> considered <b>prepared</b> for the use of covering blood, as will be explained by the Gemara.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵפֶר",
+      "en": "that the ashes of"
+     },
+     {
+      "he": "כִּירָה",
+      "en": "a stove"
+     },
+     {
+      "he": "מוּכָן",
+      "en": "ready"
+     },
+     {
+      "he": "הוּא:",
+      "en": "it is"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "More arguments about Yom Tov: may we carry a ladder to the dovecote to take young doves, and how must we pick out the doves before Yom Tov?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מוֹלִיכִין אֶת הַסֻּלָּם מִשּׁוֹבָךְ לְשׁוֹבָךְ,",
+    "en": "We may not carry a ladder from one dovecote to another,",
+    "st": "<b>One may not carry a ladder,</b> which was used for reaching doves, <b>from one dovecote to another.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we may not"
+     },
+     {
+      "he": "מוֹלִיכִין",
+      "en": "carry"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַסֻּלָּם",
+      "en": "the ladder"
+     },
+     {
+      "he": "מִשּׁוֹבָךְ",
+      "en": "from one dovecote",
+      "note": "A dovecote is a little house where doves live."
+     },
+     {
+      "he": "לְשׁוֹבָךְ,",
+      "en": "to another dovecote"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מַטֵּהוּ מֵחַלּוֹן לְחַלּוֹן.",
+    "en": "but he may tilt it from one window to another.",
+    "st": "<b>However,</b> one may move it slightly so that <b>he tilts it from one window to another</b> in the same dovecote.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מַטֵּהוּ",
+      "en": "he tilts it"
+     },
+     {
+      "he": "מֵחַלּוֹן",
+      "en": "from window"
+     },
+     {
+      "he": "לְחַלּוֹן.",
+      "en": "to window"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַתִּירִין.",
+    "en": "And Beis Hillel allow it.",
+    "st": "<b>And Beit Hillel permit</b> even carrying a ladder from one dovecote to another.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַתִּירִין.",
+      "en": "permit"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים, לֹא יִטֹּל,",
+    "en": "Beis Shammai say: he may not take young doves",
+    "st": "<b>Beit Shammai say: One may not take</b>",
+    "stMore": "fledgling doves from a dovecote on a Festival,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִטֹּל,",
+      "en": "he may take"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אִם כֵּן נִעֲנֵעַ מִבְּעוֹד יוֹם.",
+    "en": "unless he shook them before Yom Tov.",
+    "st": "<b>unless he shook</b> the ones he wished to take <b>while it was still day,</b> thereby preparing them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "נִעֲנֵעַ",
+      "en": "he shook them"
+     },
+     {
+      "he": "מִבְּעוֹד",
+      "en": "while still"
+     },
+     {
+      "he": "יוֹם.",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis",
+      "note": "The students of Hillel."
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "עוֹמֵד וְאוֹמֵר זֶה וָזֶה אֲנִי נוֹטֵל:",
+    "en": "he stands before Yom Tov and says: I will take this one and that one.",
+    "st": "It is not necessary to shake; rather, it is sufficient if one <b>stands</b> the day before <b>and says: I</b> will <b>take this</b> fledgling <b>and that</b> one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹמֵד",
+      "en": "he stands"
+     },
+     {
+      "he": "וְאוֹמֵר",
+      "en": "and says"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "נוֹטֵל:",
+      "en": "will take"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Someone picked out young doves before Yom Tov to use on Yom Tov. What if he finds different doves the next day?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "זִמֵּן שְׁחוֹרִים וּמָצָא לְבָנִים,",
+    "en": "If he picked out black doves and found white ones,",
+    "st": "If, on the eve of a Festival, one <b>designated black</b> fledglings to be slaughtered, <b>and</b> on the following day <b>found white</b>",
+    "stMore": "ones in the dovecote, rather than the birds he had designated,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זִמֵּן",
+      "en": "he picked out"
+     },
+     {
+      "he": "שְׁחוֹרִים",
+      "en": "black ones"
+     },
+     {
+      "he": "וּמָצָא",
+      "en": "and found"
+     },
+     {
+      "he": "לְבָנִים,",
+      "en": "white ones"
+     }
+    ]
+   },
+   {
+    "he": "לְבָנִים וּמָצָא שְׁחוֹרִים,",
+    "en": "or white ones and found black ones,",
+    "st": "or if one designated <b>white</b> ones to be slaughtered <b>and found black</b>",
+    "stMore": "ones,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְבָנִים",
+      "en": "white ones"
+     },
+     {
+      "he": "וּמָצָא",
+      "en": "and found"
+     },
+     {
+      "he": "שְׁחוֹרִים,",
+      "en": "black ones"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַיִם וּמָצָא שְׁלֹשָׁה, אֲסוּרִים.",
+    "en": "or two and found three, they are forbidden.",
+    "explain": "These may not be the doves he picked.",
+    "st": "or if one designated <b>two</b> fledglings to be slaughtered <b>and found three, they are prohibited,</b>",
+    "stMore": "as these are not the same fledglings he had designated earlier.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "וּמָצָא",
+      "en": "and found"
+     },
+     {
+      "he": "שְׁלֹשָׁה,",
+      "en": "three"
+     },
+     {
+      "he": "אֲסוּרִים.",
+      "en": "they are forbidden"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלֹשָׁה וּמָצָא שְׁנַיִם, מֻתָּרִים.",
+    "en": "If he picked three and found two, they are allowed.",
+    "explain": "We say one of them flew away.",
+    "st": "If, however, one designated <b>three</b> to be slaughtered <b>and found</b> only <b>two, they are permitted,</b>",
+    "stMore": "as it is presumed that one of the fledglings escaped.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "וּמָצָא",
+      "en": "and found"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     },
+     {
+      "he": "מֻתָּרִים.",
+      "en": "they are allowed"
+     }
+    ]
+   },
+   {
+    "he": "בְּתוֹךְ הַקֵּן וּמָצָא לִפְנֵי הַקֵּן,",
+    "en": "If he picked them inside the nest and found them in front of the nest,",
+    "st": "If one designated them <b>inside the nest</b> and the next day he cannot find them there, <b>and he found</b> fledglings <b>before the nest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "הַקֵּן",
+      "en": "the nest"
+     },
+     {
+      "he": "וּמָצָא",
+      "en": "and found"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "הַקֵּן,",
+      "en": "the nest"
+     }
+    ]
+   },
+   {
+    "he": "אֲסוּרִים. וְאִם אֵין שָׁם אֶלָּא הֵם,",
+    "en": "they are forbidden. But if those are the only doves there,",
+    "st": "<b>they are prohibited,</b> as they might be fledglings other than the ones he designated and left inside the nest. <b>But if there are only those</b> fledglings in the immediate vicinity,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲסוּרִים.",
+      "en": "they are forbidden"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֵין",
+      "en": "there are not"
+     },
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "הֵם,",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ מֻתָּרִים:",
+    "en": "they are allowed.",
+    "st": "<b>they are permitted,</b> as it can be assumed that these are the ones he designated inside the nest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "these"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "they are"
+     },
+     {
+      "he": "מֻתָּרִים:",
+      "en": "allowed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "More arguments between Beis Shammai and Beis Hillel about what we may move or carry on Yom Tov.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְסַלְּקִין אֶת הַתְּרִיסִין בְּיוֹם טוֹב.",
+    "en": "We may not take down the shutters of a store on Yom Tov.",
+    "st": "<b>One may not remove</b> the <b>shutters [terisin]</b> of a store <b>on a Festival,</b>",
+    "stMore": "due to the prohibition against building and demolishing.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we may not"
+     },
+     {
+      "he": "מְסַלְּקִין",
+      "en": "remove"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתְּרִיסִין",
+      "en": "the shutters"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "טוֹב.",
+      "en": "Yom Tov"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַתִּירִין אַף לְהַחֲזִיר.",
+    "en": "And Beis Hillel allow even putting them back.",
+    "st": "<b>And Beit Hillel permit</b> one not only to open the shutters, but <b>even to replace</b> them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַתִּירִין",
+      "en": "permit"
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "לְהַחֲזִיר.",
+      "en": "to put back"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין נוֹטְלִין אֶת הָעֱלִי",
+    "en": "We may not take the big pestle",
+    "st": "<b>One may not take a large pestle</b>",
+    "stMore": "from a mortar, which is normally used for crushing wheat in the preparation of porridge, for any other purpose on a Festival, e.g.,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we may not"
+     },
+     {
+      "he": "נוֹטְלִין",
+      "en": "take"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֱלִי",
+      "en": "the big pestle",
+      "note": "A heavy wooden club for crushing wheat."
+     }
+    ]
+   },
+   {
+    "he": "לְקַצֵּב עָלָיו בָּשָׂר.",
+    "en": "to cut meat on it.",
+    "st": "<b>to cut meat on it;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְקַצֵּב",
+      "en": "to cut"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "בָּשָׂר.",
+      "en": "meat"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַתִּירִין.",
+    "en": "And Beis Hillel allow it.",
+    "st": "<b>and Beit Hillel permit</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַתִּירִין.",
+      "en": "permit"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "Likewise, <b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין נוֹתְנִין אֶת הָעוֹר",
+    "en": "We may not put a raw animal skin",
+    "st": "<b>One may not place</b> an unprocessed <b>hide</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we may not"
+     },
+     {
+      "he": "נוֹתְנִין",
+      "en": "put"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעוֹר",
+      "en": "the animal skin"
+     }
+    ]
+   },
+   {
+    "he": "לִפְנֵי הַדּוֹרְסָן",
+    "en": "where people will step on it,",
+    "explain": "Stepping on it helps make leather, which is work.",
+    "st": "<b>before those who</b> will <b>tread on it,</b>",
+    "stMore": "as this constitutes the prohibited labor of tanning on a Festival.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "הַדּוֹרְסָן",
+      "en": "those who step on it"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יַגְבִּיהֶנּוּ, אֶלָּא אִם כֵּן יֵשׁ",
+    "en": "and he may not lift it, unless there is",
+    "st": "<b>And one may not lift</b> the hide from its place, as it is considered muktze, <b>unless there is</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and he may not"
+     },
+     {
+      "he": "יַגְבִּיהֶנּוּ,",
+      "en": "lift it"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     }
+    ]
+   },
+   {
+    "he": "עִמּוֹ כַזַּיִת בָּשָׂר.",
+    "en": "an olive's size of meat on it.",
+    "st": "<b>an olive-bulk of meat on it,</b>",
+    "stMore": "in which case it may be carried on account of its meat;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עִמּוֹ",
+      "en": "with it"
+     },
+     {
+      "he": "כַזַּיִת",
+      "en": "an olive's size of"
+     },
+     {
+      "he": "בָּשָׂר.",
+      "en": "meat"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַתִּירִין.",
+    "en": "And Beis Hillel allow it.",
+    "st": "<b>and Beit Hillel permit</b> it in both cases.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַתִּירִין.",
+      "en": "permit"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מוֹצִיאִין לֹא אֶת הַקָּטָן",
+    "en": "We may not carry out a small child,",
+    "st": "<b>One may carry out</b> on a Festival <b>neither a minor</b> child,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we may not carry out"
+     },
+     {
+      "he": "מוֹצִיאִין",
+      "en": "not"
+     },
+     {
+      "he": "לֹא",
+      "en": "(the)"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקָּטָן",
+      "en": "the child"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַלּוּלָב וְלֹא אֶת",
+    "en": "or a lulav, or",
+    "st": "<b>nor a lulav,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַלּוּלָב",
+      "en": "the lulav"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "סֵפֶר תּוֹרָה לִרְשׁוּת הָרַבִּים.",
+    "en": "a Sefer Torah into the street.",
+    "st": "<b>nor a Torah Scroll into the public domain,</b>",
+    "stMore": "as none of these are required for the preparation of food;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֵפֶר",
+      "en": "a Sefer"
+     },
+     {
+      "he": "תּוֹרָה",
+      "en": "Torah"
+     },
+     {
+      "he": "לִרְשׁוּת",
+      "en": "to the domain of"
+     },
+     {
+      "he": "הָרַבִּים.",
+      "en": "the public"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַתִּירִין:",
+    "en": "And Beis Hillel allow it.",
+    "st": "<b>and Beit Hillel permit</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַתִּירִין:",
+      "en": "permit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "May we bring challah and other gifts to a Kohen on Yom Tov? Beis Shammai and Beis Hillel argue and give their reasons.",
+  "stIntro": "The separation of ḥalla is permitted on a Festival, as one is permitted to prepare dough and bake it on a Festival, and bread may not be eaten without first separating ḥalla.",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מוֹלִיכִין חַלָּה וּמַתָּנוֹת",
+    "en": "We may not bring challah or the other gifts",
+    "st": "<b>One may not bring</b> separated <b>ḥalla or</b> any of the other priestly <b>gifts,</b> i.e., the foreleg, the jaw, and the maw of a slaughtered animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we may not"
+     },
+     {
+      "he": "מוֹלִיכִין",
+      "en": "bring"
+     },
+     {
+      "he": "חַלָּה",
+      "en": "challah"
+     },
+     {
+      "he": "וּמַתָּנוֹת",
+      "en": "and gifts",
+      "note": "Parts of an animal that are given to the Kohen."
+     }
+    ]
+   },
+   {
+    "he": "לַכֹּהֵן בְּיוֹם טוֹב,",
+    "en": "to a Kohen on Yom Tov,",
+    "st": "<b>to a priest on a Festival,</b>",
+    "stMore": "though it is permitted to separate them from an animal slaughtered on a Festival.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַכֹּהֵן",
+      "en": "to the Kohen"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "טוֹב,",
+      "en": "Yom Tov"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין שֶׁהוּרְמוּ מֵאֶמֶשׁ,",
+    "en": "whether they were taken off the day before,",
+    "st": "This is prohibited regardless of <b>whether they were separated last evening,</b> i.e., before the Festival,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "שֶׁהוּרְמוּ",
+      "en": "they were taken off"
+     },
+     {
+      "he": "מֵאֶמֶשׁ,",
+      "en": "yesterday"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין שֶׁהוּרְמוּ מֵהַיּוֹם.",
+    "en": "or they were taken off today.",
+    "st": "<b>or whether they were separated today.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהוּרְמוּ",
+      "en": "they were taken off"
+     },
+     {
+      "he": "מֵהַיּוֹם.",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַתִּירִין.",
+    "en": "And Beis Hillel allow it.",
+    "st": "<b>And Beit Hillel permit</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַתִּירִין.",
+      "en": "permit"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶם בֵּית שַׁמַּאי,",
+    "en": "Beis Shammai said to them:",
+    "st": "<b>Beit Shammai said to</b> Beit Hillel:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "גְּזֵרָה שָׁוָה,",
+    "en": "We can compare them:",
+    "st": "This halakha can be derived by <b>an analogy:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּזֵרָה",
+      "en": "a comparison"
+     },
+     {
+      "he": "שָׁוָה,",
+      "en": "that is the same"
+     }
+    ]
+   },
+   {
+    "he": "חַלָּה וּמַתָּנוֹת מַתָּנָה לַכֹּהֵן,",
+    "en": "Challah and the gifts are a gift to the Kohen,",
+    "st": "<b>Ḥalla and</b> the other <b>gifts</b> are both considered <b>a gift to the priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַלָּה",
+      "en": "challah"
+     },
+     {
+      "he": "וּמַתָּנוֹת",
+      "en": "and gifts"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a gift"
+     },
+     {
+      "he": "לַכֹּהֵן,",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "וּתְרוּמָה מַתָּנָה לַכֹּהֵן,",
+    "en": "and terumah is a gift to the Kohen.",
+    "st": "<b>and</b> likewise <b>teruma</b> separated from produce is also <b>a gift to the priest.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְרוּמָה",
+      "en": "and terumah"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a gift"
+     },
+     {
+      "he": "לַכֹּהֵן,",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁם שֶׁאֵין מוֹלִיכִין אֶת הַתְּרוּמָה,",
+    "en": "Just as we may not bring terumah on Yom Tov,",
+    "st": "<b>Just as</b> you agree <b>that one may not bring teruma</b> to a priest on a Festival,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "we may not"
+     },
+     {
+      "he": "מוֹלִיכִין",
+      "en": "bring"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתְּרוּמָה,",
+      "en": "the terumah"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ אֵין מוֹלִיכִין אֶת הַמַּתָּנוֹת.",
+    "en": "so we may not bring the gifts.",
+    "st": "<b>so too, one may not bring the</b> other <b>gifts.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "אֵין",
+      "en": "we may not"
+     },
+     {
+      "he": "מוֹלִיכִין",
+      "en": "bring"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמַּתָּנוֹת.",
+      "en": "the gifts"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶם בֵּית הִלֵּל,",
+    "en": "Beis Hillel said to them:",
+    "st": "<b>Beit Hillel said to them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל,",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אֲמַרְתֶּם בַּתְּרוּמָה,",
+    "en": "No! You said this about terumah,",
+    "st": "<b>No,</b> this analogy is incorrect. <b>If you said</b> that you derive the halakha from <b>teruma,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֲמַרְתֶּם",
+      "en": "you said"
+     },
+     {
+      "he": "בַּתְּרוּמָה,",
+      "en": "about terumah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינוֹ זַכַּאי בַּהֲרָמָתָהּ,",
+    "en": "which we may not take off on Yom Tov.",
+    "st": "where <b>its separation is not allowed</b> on the Festival,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "זַכַּאי",
+      "en": "allowed"
+     },
+     {
+      "he": "בַּהֲרָמָתָהּ,",
+      "en": "to take it off"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמְרוּ בַמַּתָּנוֹת,",
+    "en": "Can you say it about the gifts,",
+    "st": "how <b>will you say</b> the same <b>with regard to the gifts</b> from an animal or ḥalla,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמְרוּ",
+      "en": "would you say"
+     },
+     {
+      "he": "בַמַּתָּנוֹת,",
+      "en": "about the gifts"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁזַּכַּאי בַּהֲרָמָתָן:",
+    "en": "which we may take off on Yom Tov?",
+    "st": "concerning <b>which their separation is allowed</b> on the Festival?",
+    "stMore": "Since it is not prohibited to separate these gifts, they may likewise be brought to a priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁזַּכַּאי",
+      "en": "that he is allowed"
+     },
+     {
+      "he": "בַּהֲרָמָתָן:",
+      "en": "to take them off"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "How may we crush spices and salt on Yom Tov? Beis Shammai say we must do it in a different way than on a weekday.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "תְּבָלִין נִדּוֹכִין בְּמָדוֹךְ שֶׁל עֵץ,",
+    "en": "Spices may be crushed with a wooden pestle,",
+    "st": "<b>Spices may be pounded</b> on a Festival in a slightly unusual manner, <b>with a wooden pestle,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּבָלִין",
+      "en": "spices"
+     },
+     {
+      "he": "נִדּוֹכִין",
+      "en": "are crushed"
+     },
+     {
+      "he": "בְּמָדוֹךְ",
+      "en": "with a pestle"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֵץ,",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמֶּלַח בְּפַךְ,",
+    "en": "and salt with a clay jug",
+    "st": "<b>and salt</b> may be pounded only <b>with</b> an earthenware <b>flask</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמֶּלַח",
+      "en": "and the salt"
+     },
+     {
+      "he": "בְּפַךְ,",
+      "en": "with a jug"
+     }
+    ]
+   },
+   {
+    "he": "וּבְעֵץ הַפָּרוּר.",
+    "en": "or with a wooden spoon.",
+    "st": "<b>or with a wooden pot ladle,</b>",
+    "stMore": "in a manner very different from that of a weekday.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְעֵץ",
+      "en": "or with a wooden"
+     },
+     {
+      "he": "הַפָּרוּר.",
+      "en": "ladle"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis",
+      "note": "The students of Hillel."
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "תְּבָלִין נִדּוֹכִין כְּדַרְכָּן בְּמָדוֹךְ שֶׁל אֶבֶן,",
+    "en": "Spices may be crushed in the usual way, even with a stone pestle,",
+    "st": "<b>Spices may be pounded in their</b> usual <b>manner,</b> even <b>with a stone pestle,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּבָלִין",
+      "en": "spices"
+     },
+     {
+      "he": "נִדּוֹכִין",
+      "en": "are crushed"
+     },
+     {
+      "he": "כְּדַרְכָּן",
+      "en": "in their usual way"
+     },
+     {
+      "he": "בְּמָדוֹךְ",
+      "en": "with a pestle"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶבֶן,",
+      "en": "stone"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמֶּלַח בְּמָדוֹךְ שֶׁל עֵץ:",
+    "en": "and salt with a wooden pestle.",
+    "st": "<b>and</b> as for <b>salt,</b> although it must be pounded in an irregular manner, a slight modification such as pounding it <b>with a wooden pestle</b>",
+    "stMore": "is enough to render the act permitted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמֶּלַח",
+      "en": "and the salt"
+     },
+     {
+      "he": "בְּמָדוֹךְ",
+      "en": "with a pestle"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֵץ:",
+      "en": "wood"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 8,
+  "summary": "How may we pick the bad pieces out of beans on Yom Tov?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַבּוֹרֵר קִטְנִית בְּיוֹם טוֹב,",
+    "en": "Someone who sorts beans on Yom Tov:",
+    "st": "With regard to <b>one who selects legumes on a Festival</b>",
+    "stMore": "by separating the edible and inedible portions,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבּוֹרֵר",
+      "en": "one who picks out"
+     },
+     {
+      "he": "קִטְנִית",
+      "en": "beans"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "טוֹב,",
+      "en": "Yom Tov"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹרֵר אֹכֶל וְאוֹכֵל.",
+    "en": "he picks out the food and eats it right away.",
+    "st": "<b>He may select food and eat</b> it immediately,",
+    "stMore": "while leaving the refuse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹרֵר",
+      "en": "he picks"
+     },
+     {
+      "he": "אֹכֶל",
+      "en": "food"
+     },
+     {
+      "he": "וְאוֹכֵל.",
+      "en": "and eats"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis",
+      "note": "The students of Hillel."
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹרֵר כְּדַרְכּוֹ בְּחֵיקוֹ,",
+    "en": "he may sort in his usual way, in his lap,",
+    "st": "<b>He may select in his</b> usual <b>manner, in his lap,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹרֵר",
+      "en": "he picks"
+     },
+     {
+      "he": "כְּדַרְכּוֹ",
+      "en": "in his usual way"
+     },
+     {
+      "he": "בְּחֵיקוֹ,",
+      "en": "in his lap"
+     }
+    ]
+   },
+   {
+    "he": "בְּקָנוֹן וּבְתַמְחוּי,",
+    "en": "in a basket or in a bowl,",
+    "st": "<b>with a tray, or with a large vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּקָנוֹן",
+      "en": "in a basket"
+     },
+     {
+      "he": "וּבְתַמְחוּי,",
+      "en": "or in a bowl"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא בְטַבְלָא",
+    "en": "but not on a board,",
+    "st": "<b>but he may not</b> do so <b>with a tablet,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בְטַבְלָא",
+      "en": "on a board"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְנָפָה וְלֹא בִכְבָרָה.",
+    "en": "or with a sifter, or with a sieve.",
+    "explain": "These are special sorting tools, so it looks like weekday work.",
+    "st": "<b>nor with a winnow, nor with a sieve,</b>",
+    "stMore": "as these vessels are specially designed for selecting, which gives his action the appearance of a weekday activity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְנָפָה",
+      "en": "with a sifter"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בִכְבָרָה.",
+      "en": "with a sieve"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Gamliel says:",
+    "st": "<b>Rabban Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף מֵדִיחַ וְשׁוֹלֶה:",
+    "en": "he may even wash them and take off the bad bits that float up.",
+    "st": "<b>One may even wash</b> the legumes in water <b>and skim off</b> the refuse floating on top.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "מֵדִיחַ",
+      "en": "he washes"
+     },
+     {
+      "he": "וְשׁוֹלֶה:",
+      "en": "and skims off"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 9,
+  "summary": "What gifts may we send to a friend on Yom Tov?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say:",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis",
+      "note": "The students of Shammai."
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְשַׁלְּחִין בְּיוֹם טוֹב אֶלָּא מָנוֹת.",
+    "en": "On Yom Tov we may send only portions of cooked food.",
+    "st": "<b>One may send only portions</b> of prepared food <b>on a Festival,</b> but not any other gifts.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we may not"
+     },
+     {
+      "he": "מְשַׁלְּחִין",
+      "en": "send"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "טוֹב",
+      "en": "Yom Tov"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "מָנוֹת.",
+      "en": "portions of food"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis",
+      "note": "The students of Hillel."
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלְּחִין בְּהֵמָה חַיָּה וָעוֹף,",
+    "en": "we may send animals and birds,",
+    "st": "<b>One may</b> even <b>send</b> gifts of <b>domesticated animals, undomesticated animals, and fowl,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלְּחִין",
+      "en": "we may send"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "חַיָּה",
+      "en": "a wild animal"
+     },
+     {
+      "he": "וָעוֹף,",
+      "en": "or a bird"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין חַיִּין בֵּין שְׁחוּטִין.",
+    "en": "whether alive or shechted.",
+    "st": "<b>whether alive or slaughtered.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "חַיִּין",
+      "en": "alive"
+     },
+     {
+      "he": "בֵּין",
+      "en": "or"
+     },
+     {
+      "he": "שְׁחוּטִין.",
+      "en": "shechted"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלְּחִין יֵינוֹת שְׁמָנִים וּסְלָתוֹת וְקִטְנִיּוֹת,",
+    "en": "We may send wine, oil, flour and beans,",
+    "st": "Similarly, <b>one may send wines, oils, and</b> vessels of <b>flour, and</b> even <b>legumes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלְּחִין",
+      "en": "we may send"
+     },
+     {
+      "he": "יֵינוֹת",
+      "en": "wines"
+     },
+     {
+      "he": "שְׁמָנִים",
+      "en": "oils"
+     },
+     {
+      "he": "וּסְלָתוֹת",
+      "en": "and flours"
+     },
+     {
+      "he": "וְקִטְנִיּוֹת,",
+      "en": "and beans"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא תְבוּאָה,",
+    "en": "but not grain,",
+    "explain": "Grain must be ground first, and we may not grind on Yom Tov.",
+    "st": "<b>but not grain,</b>",
+    "stMore": "which is unfit for use, as one may not grind it on the Festival.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תְבוּאָה,",
+      "en": "grain"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי שִׁמְעוֹן מַתִּיר בִּתְבוּאָה:",
+    "en": "And Rabbi Shimon allows grain.",
+    "st": "<b>And Rabbi Shimon permits</b> sending gifts even in the case <b>of grain,</b> as it can be made into porridge without being ground.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "permits"
+     },
+     {
+      "he": "בִּתְבוּאָה:",
+      "en": "grain"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 10,
+  "summary": "We may send clothes and things as presents on Yom Tov, as long as they can be used on Yom Tov.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מְשַׁלְּחִין כֵּלִים,",
+    "en": "We may send clothes,",
+    "st": "<b>One may send clothes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלְּחִין",
+      "en": "we may send"
+     },
+     {
+      "he": "כֵּלִים,",
+      "en": "clothes"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין תְּפוּרִין בֵּין שֶׁאֵינָן תְּפוּרִין,",
+    "en": "whether they are sewn or not sewn,",
+    "st": "<b>whether</b> they are <b>sewn or whether they are unsewn,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "תְּפוּרִין",
+      "en": "sewn"
+     },
+     {
+      "he": "בֵּין",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁאֵינָן",
+      "en": "that are not"
+     },
+     {
+      "he": "תְּפוּרִין,",
+      "en": "sewn"
+     }
+    ]
+   },
+   {
+    "he": "וְאַף עַל פִּי שֶׁיֵּשׁ בָּהֶן כִּלְאַיִם,",
+    "en": "even if they have shaatnez in them,",
+    "st": "<b>and even if they contain diverse kinds,</b>",
+    "stMore": "a prohibited mixture of wool and linen [sha’atnez].",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַף",
+      "en": "and even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(even though)"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there are"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "כִּלְאַיִם,",
+      "en": "shaatnez",
+      "note": "Wool and linen mixed together."
+     }
+    ]
+   },
+   {
+    "he": "וְהֵן לְצֹרֶךְ הַמּוֹעֵד,",
+    "en": "as long as they are for Yom Tov.",
+    "st": "<b>But</b> one may do so only if <b>they</b> serve <b>the purposes of the Festival.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵן",
+      "en": "and they are"
+     },
+     {
+      "he": "לְצֹרֶךְ",
+      "en": "for the need of"
+     },
+     {
+      "he": "הַמּוֹעֵד,",
+      "en": "the festival"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא סַנְדָּל הַמְסֻמָּר",
+    "en": "But not a sandal with nails in it,",
+    "explain": "The Rabbis said not to wear it on Shabbos and Yom Tov.",
+    "st": "<b>However, one may not</b> send <b>a spiked sandal,</b>",
+    "stMore": "which has nails fixed to it, as the Sages decreed that one may not wear a sandal of this kind on a Shabbat or Festival,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "סַנְדָּל",
+      "en": "a sandal"
+     },
+     {
+      "he": "הַמְסֻמָּר",
+      "en": "with nails"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מִנְעָל שֶׁאֵינוֹ תָפוּר.",
+    "en": "or a shoe that is not sewn.",
+    "st": "<b>nor an unsewn shoe,</b>",
+    "stMore": "which is not suitable for a Festival.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִנְעָל",
+      "en": "a shoe"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that is not"
+     },
+     {
+      "he": "תָפוּר.",
+      "en": "sewn"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says:",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף לֹא מִנְעָל לָבָן,",
+    "en": "Not even a white shoe,",
+    "st": "<b>One may not even</b> send <b>a white shoe,</b>",
+    "stMore": "which people do not usually wear,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִנְעָל",
+      "en": "a shoe"
+     },
+     {
+      "he": "לָבָן,",
+      "en": "white"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁצָּרִיךְ אֻמָּן.",
+    "en": "because it needs a craftsman to color it.",
+    "st": "<b>because</b> it <b>requires an artisan</b> to paint it black.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁצָּרִיךְ",
+      "en": "it needs"
+     },
+     {
+      "he": "אֻמָּן.",
+      "en": "a craftsman"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the</b> general <b>principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "is the rule"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁנֵּאוֹתִין בּוֹ,",
+    "en": "Anything that we may use",
+    "st": "Anything <b>that one may use</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "anything"
+     },
+     {
+      "he": "שֶׁנֵּאוֹתִין",
+      "en": "that we use"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "בְּיוֹם טוֹב מְשַׁלְּחִין אוֹתוֹ:",
+    "en": "on Yom Tov, we may send it.",
+    "st": "<b>on a Festival, one may send it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "טוֹב",
+      "en": "Yom Tov"
+     },
+     {
+      "he": "מְשַׁלְּחִין",
+      "en": "we may send"
+     },
+     {
+      "he": "אוֹתוֹ:",
+      "en": "it"
+     }
+    ]
+   }
+  ]
+ }
+]

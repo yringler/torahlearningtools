@@ -1,0 +1,2598 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "This mishnah teaches how a woman becomes married (kiddushin), and how a marriage ends. It also teaches about a yevamah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאִשָּׁה נִקְנֵית בְּשָׁלשׁ דְּרָכִים,",
+    "en": "A woman becomes married in three ways,",
+    "st": "<b>A woman is acquired</b> by, i.e., becomes betrothed to, a man to be his wife <b>in three ways,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "נִקְנֵית",
+      "en": "is acquired"
+     },
+     {
+      "he": "בְּשָׁלשׁ",
+      "en": "in three"
+     },
+     {
+      "he": "דְּרָכִים,",
+      "en": "ways"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹנָה אֶת עַצְמָהּ בִּשְׁתֵּי דְרָכִים.",
+    "en": "and she becomes free in two ways.",
+    "explain": "Free means she is no longer married.",
+    "st": "<b> and she acquires herself,</b> i.e., she terminates her marriage, <b>in two ways.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹנָה",
+      "en": "and acquires"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַצְמָהּ",
+      "en": "herself"
+     },
+     {
+      "he": "בִּשְׁתֵּי",
+      "en": "in two"
+     },
+     {
+      "he": "דְרָכִים.",
+      "en": "ways"
+     }
+    ]
+   },
+   {
+    "he": "נִקְנֵית בְּכֶסֶף,",
+    "en": "She becomes married with money,",
+    "st": "The mishna elaborates: <b>She is acquired through money,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִקְנֵית",
+      "en": "she is acquired"
+     },
+     {
+      "he": "בְּכֶסֶף,",
+      "en": "with money"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁטָר, וּבְבִיאָה.",
+    "en": "with a document, and with biah, a private way of marrying.",
+    "st": "<b> through a document, and through sexual intercourse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁטָר,",
+      "en": "with a document"
+     },
+     {
+      "he": "וּבְבִיאָה.",
+      "en": "and with biah",
+      "note": "A private way of getting married."
+     }
+    ]
+   },
+   {
+    "he": "בְּכֶסֶף, בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "With money: Beis Shammai say,",
+    "st": "With regard to a betrothal <b>through money,</b> there is a dispute between tanna’im: <b>Beit Shammai say</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכֶסֶף,",
+      "en": "with money"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai",
+      "note": "The students of Shammai, a great Sage."
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בְּדִינָר וּבְשָׁוֶה דִינָר.",
+    "en": "with a dinar or something worth a dinar.",
+    "st": "that she can be acquired <b>with one dinar or with</b> anything that is <b>worth one dinar.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּדִינָר",
+      "en": "with a dinar",
+      "note": "A silver coin."
+     },
+     {
+      "he": "וּבְשָׁוֶה",
+      "en": "and with something worth"
+     },
+     {
+      "he": "דִינָר.",
+      "en": "a dinar"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b> And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel",
+      "note": "The students of Hillel, a great Sage."
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְרוּטָה וּבְשָׁוֶה פְרוּטָה.",
+    "en": "with a perutah or something worth a perutah.",
+    "explain": "A perutah is a tiny copper coin.",
+    "st": "She can be acquired <b>with one peruta,</b> a small copper coin, <b>or with</b> anything that is <b>worth one peruta.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְרוּטָה",
+      "en": "with a perutah"
+     },
+     {
+      "he": "וּבְשָׁוֶה",
+      "en": "and with something worth"
+     },
+     {
+      "he": "פְרוּטָה.",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "וְכַמָּה הִיא פְרוּטָה,",
+    "en": "And how much is a perutah?",
+    "st": "The mishna further clarifies: <b>And how much is</b> the value of <b>one peruta,</b> by the fixed value of silver?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "הִיא",
+      "en": "is it"
+     },
+     {
+      "he": "פְרוּטָה,",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד מִשְּׁמֹנָה בָאִסָּר הָאִיטַלְקִי.",
+    "en": "One eighth of an Italian issar.",
+    "explain": "An issar was a small silver coin.",
+    "st": "The mishna explains that it is <b>one-eighth of the Italian issar,</b> which is a small silver coin.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִשְּׁמֹנָה",
+      "en": "out of eight"
+     },
+     {
+      "he": "בָאִסָּר",
+      "en": "of the issar",
+      "note": "A small coin."
+     },
+     {
+      "he": "הָאִיטַלְקִי.",
+      "en": "Italian"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹנָה אֶת עַצְמָהּ בְּגֵט וּבְמִיתַת הַבָּעַל.",
+    "en": "And she becomes free with a get, or when her husband dies.",
+    "st": "<b>And</b> a woman <b>acquires herself through a bill of divorce or through the death of the husband.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹנָה",
+      "en": "and acquires"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַצְמָהּ",
+      "en": "herself"
+     },
+     {
+      "he": "בְּגֵט",
+      "en": "with a get",
+      "note": "A document of divorce."
+     },
+     {
+      "he": "וּבְמִיתַת",
+      "en": "and with the death of"
+     },
+     {
+      "he": "הַבָּעַל.",
+      "en": "the husband"
+     }
+    ]
+   },
+   {
+    "he": "הַיְבָמָה נִקְנֵית בְּבִיאָה.",
+    "en": "A yevamah becomes the brother's wife only through biah.",
+    "explain": "A yevamah is a widow whose husband died with no children.",
+    "st": "<b> A woman whose husband, who had a brother, died childless [yevama</b>], can be <b>acquired</b> by the deceased husband’s brother, the yavam, only <b>through intercourse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַיְבָמָה",
+      "en": "the yevamah"
+     },
+     {
+      "he": "נִקְנֵית",
+      "en": "is acquired"
+     },
+     {
+      "he": "בְּבִיאָה.",
+      "en": "with biah"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹנָה אֶת עַצְמָהּ בַּחֲלִיצָה וּבְמִיתַת הַיָּבָם:",
+    "en": "And she becomes free through chalitzah, or when the brother dies.",
+    "explain": "Chalitzah is a ceremony that sets her free from the brother.",
+    "st": "<b> And she acquires herself,</b> i.e., she is released from her levirate bond, <b>through ḥalitza or through the death of the yavam.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹנָה",
+      "en": "and acquires"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַצְמָהּ",
+      "en": "herself"
+     },
+     {
+      "he": "בַּחֲלִיצָה",
+      "en": "with chalitzah"
+     },
+     {
+      "he": "וּבְמִיתַת",
+      "en": "and with the death of"
+     },
+     {
+      "he": "הַיָּבָם:",
+      "en": "the yavam",
+      "note": "The husband's brother."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "This mishnah teaches how a Jewish servant (eved ivri) is bought and how he goes free. A Jewish maidservant has one more way to go free.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עֶבֶד עִבְרִי נִקְנֶה בְכֶסֶף וּבִשְׁטָר,",
+    "en": "A Jewish servant is bought with money or with a document,",
+    "st": "<b>A Hebrew slave</b> can be <b>acquired</b> by his master <b>through money or through a document,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֶבֶד",
+      "en": "a servant"
+     },
+     {
+      "he": "עִבְרִי",
+      "en": "Hebrew"
+     },
+     {
+      "he": "נִקְנֶה",
+      "en": "is acquired"
+     },
+     {
+      "he": "בְכֶסֶף",
+      "en": "with money"
+     },
+     {
+      "he": "וּבִשְׁטָר,",
+      "en": "and with a document"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹנֶה אֶת עַצְמוֹ בַּשָּׁנִים",
+    "en": "and he goes free after his years,",
+    "explain": "He works for six years and then goes free.",
+    "st": "<b> and</b> he can <b>acquire himself,</b> i.e., he is emancipated, <b>through years,</b> i.e., when he completes his six years of labor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹנֶה",
+      "en": "and acquires"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "בַּשָּׁנִים",
+      "en": "with the years"
+     }
+    ]
+   },
+   {
+    "he": "וּבַיּוֹבֵל וּבְגִרְעוֹן כֶּסֶף.",
+    "en": "or at Yovel, or by paying for the time that is left.",
+    "st": "<b>or through the</b> advent of the <b>Jubilee</b> Year, <b>or through the deduction of money.</b>",
+    "stMore": "The slave can redeem himself during the six years by paying for his remaining years of slavery.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַיּוֹבֵל",
+      "en": "and with Yovel",
+      "note": "The fiftieth year, when servants go free."
+     },
+     {
+      "he": "וּבְגִרְעוֹן",
+      "en": "and with taking off"
+     },
+     {
+      "he": "כֶּסֶף.",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "יְתֵרָה עָלָיו אָמָה הָעִבְרִיָּה,",
+    "en": "A Jewish maidservant has one more way than him:",
+    "st": "<b>A Hebrew maidservant</b> has one mode of emancipation <b>more than him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְתֵרָה",
+      "en": "more"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "than him"
+     },
+     {
+      "he": "אָמָה",
+      "en": "the maidservant"
+     },
+     {
+      "he": "הָעִבְרִיָּה,",
+      "en": "Hebrew"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁקּוֹנָה אֶת עַצְמָהּ בְּסִימָנִין.",
+    "en": "she goes free when she shows signs of growing up.",
+    "st": "<b> as she acquires herself through signs</b> indicating puberty.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁקּוֹנָה",
+      "en": "that acquires"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַצְמָהּ",
+      "en": "herself"
+     },
+     {
+      "he": "בְּסִימָנִין.",
+      "en": "with signs",
+      "note": "Signs that she is growing up."
+     }
+    ]
+   },
+   {
+    "he": "הַנִּרְצָע נִקְנֶה בִרְצִיעָה,",
+    "en": "A servant whose ear was pierced is bought for longer by the piercing,",
+    "explain": "A servant who wants to stay after six years gets his ear pierced.",
+    "st": "A slave <b>who is pierced</b> after serving six years is <b>acquired</b> as a slave for a longer period <b>through piercing</b> his ear with an awl,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנִּרְצָע",
+      "en": "the pierced one"
+     },
+     {
+      "he": "נִקְנֶה",
+      "en": "is acquired"
+     },
+     {
+      "he": "בִרְצִיעָה,",
+      "en": "with piercing"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹנֶה אֶת עַצְמוֹ בַיּוֹבֵל וּבְמִיתַת הָאָדוֹן:",
+    "en": "and he goes free at Yovel or when the master dies.",
+    "st": "<b>and</b> he <b>acquires himself through the</b> advent of the <b>Jubilee</b> Year <b>or through</b> the <b>death of the master.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹנֶה",
+      "en": "and acquires"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "בַיּוֹבֵל",
+      "en": "at Yovel"
+     },
+     {
+      "he": "וּבְמִיתַת",
+      "en": "and with the death of"
+     },
+     {
+      "he": "הָאָדוֹן:",
+      "en": "the master"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "This mishnah teaches how a Canaanite servant is bought, and how he can go free. Rabbi Meir and the Sages argue about it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עֶבֶד כְּנַעֲנִי נִקְנֶה בְכֶסֶף וּבִשְׁטָר וּבַחֲזָקָה,",
+    "en": "A Canaanite servant is bought with money, with a document, or by taking hold of him.",
+    "st": "<b>A Canaanite slave is acquired by</b> means of <b>money, by</b> means of <b>a document, or by</b> means of the master <b>taking possession</b> of him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֶבֶד",
+      "en": "a servant"
+     },
+     {
+      "he": "כְּנַעֲנִי",
+      "en": "Canaanite"
+     },
+     {
+      "he": "נִקְנֶה",
+      "en": "is acquired"
+     },
+     {
+      "he": "בְכֶסֶף",
+      "en": "with money"
+     },
+     {
+      "he": "וּבִשְׁטָר",
+      "en": "and with a document"
+     },
+     {
+      "he": "וּבַחֲזָקָה,",
+      "en": "and with taking hold",
+      "note": "Acting as his owner."
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹנֶה אֶת עַצְמוֹ בְכֶסֶף",
+    "en": "And he can go free with money",
+    "st": "<b>And he can acquire himself,</b> i.e., his freedom, <b>by</b> means of <b>money</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹנֶה",
+      "en": "and acquires"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "בְכֶסֶף",
+      "en": "with money"
+     }
+    ]
+   },
+   {
+    "he": "עַל יְדֵי אֲחֵרִים,",
+    "en": "given by other people,",
+    "st": "given <b>by others,</b> i.e., other people can give money to his master,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hands of"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׁטָר עַל יְדֵי עַצְמוֹ,",
+    "en": "or with a document that he takes himself.",
+    "st": "<b>and by</b> means of <b>a bill</b> of manumission if he accepts it <b>by himself.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׁטָר",
+      "en": "and with a document"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hands of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "This is what Rabbi Meir says.",
+    "st": "This is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b> And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בְּכֶסֶף עַל יְדֵי עַצְמוֹ",
+    "en": "with money that he gives himself,",
+    "st": "The slave can be freed <b>by</b> means of <b>money</b> given <b>by himself,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכֶסֶף",
+      "en": "with money"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hands of"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׁטָר עַל יְדֵי אֲחֵרִים,",
+    "en": "and with a document that others take for him,",
+    "st": "<b> and by</b> means of <b>a bill</b> of manumission if it is accepted <b>by others,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׁטָר",
+      "en": "and with a document"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hands of"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁיְּהֵא הַכֶּסֶף מִשֶּׁל אֲחֵרִים:",
+    "en": "as long as the money belongs to others.",
+    "explain": "A servant owns nothing; what he has belongs to his master.",
+    "st": "<b> provided that the money</b> he gives <b>belongs to others,</b> not to him. This is because the slave cannot possess property, as anything owned by a slave is considered his master’s.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "as long as"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "that will be"
+     },
+     {
+      "he": "הַכֶּסֶף",
+      "en": "the money"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from what belongs to"
+     },
+     {
+      "he": "אֲחֵרִים:",
+      "en": "others"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "This mishnah teaches how animals are bought: a big animal by handing it over, and a small one by lifting it or pulling it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בְּהֵמָה גַסָּה נִקְנֵית בִּמְסִירָה,",
+    "en": "A big animal is bought by handing it over,",
+    "explain": "The owner gives the buyer the reins.",
+    "st": "<b>A large domesticated animal is acquired by passing,</b>",
+    "stMore": "when its current owner transfers it to a buyer by giving him the reins or the bit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "גַסָּה",
+      "en": "big"
+     },
+     {
+      "he": "נִקְנֵית",
+      "en": "is acquired"
+     },
+     {
+      "he": "בִּמְסִירָה,",
+      "en": "by handing over"
+     }
+    ]
+   },
+   {
+    "he": "וְהַדַּקָּה בְּהַגְבָּהָה,",
+    "en": "and a small one by lifting it up.",
+    "st": "<b>And a small</b> domesticated animal is acquired <b>by lifting.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַדַּקָּה",
+      "en": "and the small one"
+     },
+     {
+      "he": "בְּהַגְבָּהָה,",
+      "en": "by lifting"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר וְרַבִּי אֱלִיעֶזֶר.",
+    "en": "This is what Rabbi Meir and Rabbi Eliezer say.",
+    "st": "This is <b>the statement of Rabbi Meir and Rabbi Eliezer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר.",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say,",
+    "st": "<b> And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בְּהֵמָה דַקָּה נִקְנֵית בִּמְשִׁיכָה:",
+    "en": "a small animal can be bought by pulling it, too.",
+    "st": "<b> A small domesticated animal can be acquired by pulling</b> also, and there is no need to lift it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "דַקָּה",
+      "en": "small"
+     },
+     {
+      "he": "נִקְנֵית",
+      "en": "is acquired"
+     },
+     {
+      "he": "בִּמְשִׁיכָה:",
+      "en": "by pulling"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "This mishnah teaches how land and things that can be moved are bought, and how they can be bought together.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "נְכָסִים שֶׁיֵּשׁ לָהֶם אַחֲרָיוּת",
+    "en": "Property that is a guarantee,",
+    "explain": "This means land, which cannot be moved.",
+    "st": "<b>Property that serves as a guarantee,</b> i.e., land or other items that are fixed in the earth,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אַחֲרָיוּת",
+      "en": "a guarantee"
+     }
+    ]
+   },
+   {
+    "he": "נִקְנִין בְּכֶסֶף וּבִשְׁטָר וּבַחֲזָקָה.",
+    "en": "is bought with money, with a document, or by taking hold of it.",
+    "st": "<b>can be acquired by</b> means of giving <b>money, by</b> means of giving <b>a document, or by</b> means of taking <b>possession</b> of it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִקְנִין",
+      "en": "are acquired"
+     },
+     {
+      "he": "בְּכֶסֶף",
+      "en": "with money"
+     },
+     {
+      "he": "וּבִשְׁטָר",
+      "en": "and with a document"
+     },
+     {
+      "he": "וּבַחֲזָקָה.",
+      "en": "and with taking hold"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁאֵין לָהֶם אַחֲרָיוּת,",
+    "en": "And property that is not a guarantee,",
+    "explain": "This means things that can be moved.",
+    "st": "Property <b>that does not serve as a guarantee,</b> i.e., movable property,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁאֵין",
+      "en": "and that there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אַחֲרָיוּת,",
+      "en": "a guarantee"
+     }
+    ]
+   },
+   {
+    "he": "אֵין נִקְנִין אֶלָּא בִמְשִׁיכָה.",
+    "en": "is bought only by pulling it.",
+    "st": "<b>can be acquired only by pulling.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "are not"
+     },
+     {
+      "he": "נִקְנִין",
+      "en": "acquired"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בִמְשִׁיכָה.",
+      "en": "by pulling"
+     }
+    ]
+   },
+   {
+    "he": "נְכָסִים שֶׁאֵין לָהֶם אַחֲרָיוּת,",
+    "en": "Property that is not a guarantee",
+    "st": "<b> Property that does not serve as a guarantee</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אַחֲרָיוּת,",
+      "en": "a guarantee"
+     }
+    ]
+   },
+   {
+    "he": "נִקְנִין עִם נְכָסִים שֶׁיֵּשׁ לָהֶם אַחֲרָיוּת,",
+    "en": "can be bought together with property that is a guarantee,",
+    "st": "<b> can be acquired</b> along <b>with property that serves as a guarantee</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִקְנִין",
+      "en": "are acquired"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אַחֲרָיוּת,",
+      "en": "a guarantee"
+     }
+    ]
+   },
+   {
+    "he": "בְּכֶסֶף וּבִשְׁטָר וּבַחֲזָקָה.",
+    "en": "with money, with a document, or by taking hold of it.",
+    "st": "<b> by</b> means of giving <b>money, by</b> means of giving <b>a document, or by</b> means of taking <b>possession</b> of them.",
+    "stMore": "The movable property is transferred to the buyer’s possession when it is purchased together with the land, by means of an act of acquisition performed on the land. Generally, one is not obligated to take an oath concerning the denial of a claim with regard to land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכֶסֶף",
+      "en": "with money"
+     },
+     {
+      "he": "וּבִשְׁטָר",
+      "en": "and with a document"
+     },
+     {
+      "he": "וּבַחֲזָקָה.",
+      "en": "and with taking hold"
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹקְקִין נְכָסִים שֶׁאֵין לָהֶם אַחֲרָיוּת",
+    "en": "And property that is not a guarantee pulls in",
+    "explain": "If he must swear about the movable things, he must swear about the land too.",
+    "st": "The mishna continues: <b>And</b> in a legal dispute involving both land and movable property, if the defendant makes a partial admission of the claim with regard to the movable property, thereby rendering himself obligated to take an oath denying any responsibility for the remaining property, the movable property",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹקְקִין",
+      "en": "and they bind",
+      "note": "They pull in."
+     },
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אַחֲרָיוּת",
+      "en": "a guarantee"
+     }
+    ]
+   },
+   {
+    "he": "אֶת הַנְּכָסִים שֶׁיֵּשׁ לָהֶם אַחֲרָיוּת",
+    "en": "the property that is a guarantee,",
+    "st": "<b>binds the property that serves as a guarantee,</b> i.e., the land,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנְּכָסִים",
+      "en": "the property"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אַחֲרָיוּת",
+      "en": "a guarantee"
+     }
+    ]
+   },
+   {
+    "he": "לִשָּׁבַע עֲלֵיהֶן:",
+    "en": "to swear about it too.",
+    "st": "so that he is forced <b>to take an oath concerning</b> the land as well, despite the fact that one is generally not obligated to take an oath for a claim involving land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִשָּׁבַע",
+      "en": "to swear"
+     },
+     {
+      "he": "עֲלֵיהֶן:",
+      "en": "about them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "When two people trade one thing for another, once one gets his item, the other is responsible for what he is getting. Hekdesh (the Beis HaMikdash) buys things in special ways.",
+  "stIntro": "The mishna discusses a transaction involving the barter of two items.",
+  "chunks": [
+   {
+    "he": "כָּל הַנַּעֲשֶׂה דָמִים בְּאַחֵר,",
+    "en": "Anything that is used as payment for something else,",
+    "explain": "Like trading instead of paying money.",
+    "st": "With regard to <b>all</b> items <b>used as monetary</b> value <b>for another</b> item, i.e., instead of a buyer paying money to the seller, they exchange items of value with each other,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַנַּעֲשֶׂה",
+      "en": "that is made"
+     },
+     {
+      "he": "דָמִים",
+      "en": "payment"
+     },
+     {
+      "he": "בְּאַחֵר,",
+      "en": "for another"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיוָן שֶׁזָּכָה זֶה,",
+    "en": "once this one gets his thing,",
+    "st": "<b>once one</b> party in the transaction <b>acquires</b> the item he is receiving,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיוָן",
+      "en": "once"
+     },
+     {
+      "he": "שֶׁזָּכָה",
+      "en": "that got"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "נִתְחַיֵּב זֶה בַחֲלִיפָיו.",
+    "en": "the other one is responsible for what he gets in the trade.",
+    "explain": "If it gets lost, it is his loss.",
+    "st": "<b>this</b> party <b>is obligated</b> with regard to the item being <b>exchanged for it.</b>",
+    "stMore": "Therefore, if it is destroyed or lost, he incurs the loss.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְחַיֵּב",
+      "en": "is obligated"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "בַחֲלִיפָיו.",
+      "en": "for its trade"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. הֶחֱלִיף שׁוֹר בְּפָרָה אוֹ חֲמוֹר בְּשׁוֹר,",
+    "en": "How so? If he traded an ox for a cow, or a donkey for an ox,",
+    "st": "<b>How so?</b> If <b>one exchanges an ox for a cow, or a donkey for an ox,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "הֶחֱלִיף",
+      "en": "he traded"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "בְּפָרָה",
+      "en": "for a cow"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "חֲמוֹר",
+      "en": "a donkey"
+     },
+     {
+      "he": "בְּשׁוֹר,",
+      "en": "for an ox"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיוָן שֶׁזָּכָה זֶה,",
+    "en": "once this one gets his thing,",
+    "st": "<b> once this</b> party <b>acquires</b> the animal that he is receiving,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיוָן",
+      "en": "once"
+     },
+     {
+      "he": "שֶׁזָּכָה",
+      "en": "that got"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "נִתְחַיֵּב זֶה בַחֲלִיפָיו.",
+    "en": "the other one is responsible for what he gets in the trade.",
+    "st": "this party <b>is obligated</b> with regard to the item being <b>exchanged for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְחַיֵּב",
+      "en": "is obligated"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "בַחֲלִיפָיו.",
+      "en": "for its trade"
+     }
+    ]
+   },
+   {
+    "he": "רְשׁוּת הַגָּבוֹהַּ, בְּכֶסֶף,",
+    "en": "Hekdesh buys with money,",
+    "explain": "Hekdesh means things that belong to the Beis HaMikdash.",
+    "st": "<b> The authority of the Temple</b> treasury effects acquisition <b>by</b> means of <b>money</b> to the seller.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רְשׁוּת",
+      "en": "the power of"
+     },
+     {
+      "he": "הַגָּבוֹהַּ,",
+      "en": "the Most High",
+      "note": "Hashem; here, the Beis HaMikdash."
+     },
+     {
+      "he": "בְּכֶסֶף,",
+      "en": "with money"
+     }
+    ]
+   },
+   {
+    "he": "וּרְשׁוּת הַהֶדְיוֹט, בַּחֲזָקָה.",
+    "en": "and a regular person buys by taking hold.",
+    "st": "<b>And the authority,</b> i.e., the mode of acquisition, <b>of a commoner</b> [<b>hedyot</b>] <b>is by possession.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּרְשׁוּת",
+      "en": "and the power of"
+     },
+     {
+      "he": "הַהֶדְיוֹט,",
+      "en": "the regular person"
+     },
+     {
+      "he": "בַּחֲזָקָה.",
+      "en": "by taking hold"
+     }
+    ]
+   },
+   {
+    "he": "אֲמִירָתוֹ לַגָּבוֹהַּ, כִּמְסִירָתוֹ לַהֶדְיוֹט:",
+    "en": "Saying something is for Hashem is like handing it to a regular person.",
+    "explain": "Just by saying it, it belongs to the Beis HaMikdash.",
+    "st": "Furthermore, <b>one’s declaration to the Most High,</b> i.e., when one consecrates an item through speech, <b>is equivalent to transferring</b> an item <b>to a common person,</b> and the item is acquired by the Temple treasury through his mere speech.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲמִירָתוֹ",
+      "en": "his saying"
+     },
+     {
+      "he": "לַגָּבוֹהַּ,",
+      "en": "to the Most High"
+     },
+     {
+      "he": "כִּמְסִירָתוֹ",
+      "en": "is like his handing it"
+     },
+     {
+      "he": "לַהֶדְיוֹט:",
+      "en": "to the regular person"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "This mishnah teaches which mitzvos men must do and which mitzvos women must do too.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל מִצְוֹת הַבֵּן עַל הָאָב,",
+    "en": "All the mitzvos a father must do for his son,",
+    "explain": "Like teaching him Torah.",
+    "st": "With regard to <b>all mitzvot of a son with regard to</b> his <b>father,</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "Bartenura explains that these are what a father must do for his son.",
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "מִצְוֹת",
+      "en": "mitzvos of"
+     },
+     {
+      "he": "הַבֵּן",
+      "en": "the son"
+     },
+     {
+      "he": "עַל",
+      "en": "upon"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "אֲנָשִׁים חַיָּבִין וְנָשִׁים פְּטוּרוֹת.",
+    "en": "men must do them and women do not have to.",
+    "st": "<b> men are obligated</b> to perform them <b>and women are exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲנָשִׁים",
+      "en": "men"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "are obligated"
+     },
+     {
+      "he": "וְנָשִׁים",
+      "en": "and women"
+     },
+     {
+      "he": "פְּטוּרוֹת.",
+      "en": "are exempt"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מִצְוֹת הָאָב עַל הַבֵּן,",
+    "en": "And all the mitzvos a son must do for his father,",
+    "explain": "Like honoring his parents.",
+    "st": "<b> And</b> with regard to <b>all mitzvot of a father with regard to his son,</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "basisNote": "Bartenura explains that this means honoring and fearing parents.",
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "מִצְוֹת",
+      "en": "mitzvos of"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "עַל",
+      "en": "upon"
+     },
+     {
+      "he": "הַבֵּן,",
+      "en": "the son"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אֲנָשִׁים וְאֶחָד נָשִׁים חַיָּבִין.",
+    "en": "both men and women must do them.",
+    "st": "<b> both men and women are obligated</b> to perform them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אֲנָשִׁים",
+      "en": "men"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "are obligated"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מִצְוַת עֲשֵׂה שֶׁהַזְּמָן גְּרָמָהּ,",
+    "en": "And every mitzvah to do that has a set time,",
+    "explain": "Like sukkah or shofar.",
+    "st": "The mishna notes an additional difference between the obligations of men and women in the performance of mitzvot: With regard to <b>all positive, time-bound mitzvot,</b> i.e., those which must be performed at specific times,",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "מִצְוַת",
+      "en": "mitzvah of"
+     },
+     {
+      "he": "עֲשֵׂה",
+      "en": "doing"
+     },
+     {
+      "he": "שֶׁהַזְּמָן",
+      "en": "that the time"
+     },
+     {
+      "he": "גְּרָמָהּ,",
+      "en": "causes it"
+     }
+    ]
+   },
+   {
+    "he": "אֲנָשִׁים חַיָּבִין וְנָשִׁים פְּטוּרוֹת.",
+    "en": "men must do them and women do not have to.",
+    "st": "<b>men are obligated</b> to perform them <b>and women are exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲנָשִׁים",
+      "en": "men"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "are obligated"
+     },
+     {
+      "he": "וְנָשִׁים",
+      "en": "and women"
+     },
+     {
+      "he": "פְּטוּרוֹת.",
+      "en": "are exempt"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מִצְוַת עֲשֵׂה שֶׁלֹּא הַזְּמָן גְּרָמָהּ,",
+    "en": "And every mitzvah to do that does not have a set time,",
+    "st": "<b> And</b> with regard to <b>all positive mitzvot that are not time bound,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "מִצְוַת",
+      "en": "mitzvah of"
+     },
+     {
+      "he": "עֲשֵׂה",
+      "en": "doing"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הַזְּמָן",
+      "en": "the time"
+     },
+     {
+      "he": "גְּרָמָהּ,",
+      "en": "causes it"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אֲנָשִׁים וְאֶחָד נָשִׁים חַיָּבִין.",
+    "en": "both men and women must do them.",
+    "st": "<b> both men and women are obligated</b> to perform them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אֲנָשִׁים",
+      "en": "men"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "are obligated"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מִצְוַת לֹא תַעֲשֶׂה,",
+    "en": "And every mitzvah of do not do,",
+    "st": "<b>And</b> with regard to <b>all prohibitions,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "מִצְוַת",
+      "en": "mitzvah of"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תַעֲשֶׂה,",
+      "en": "you shall do"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין שֶׁהַזְּמָן גְּרָמָהּ",
+    "en": "whether it has a set time,",
+    "st": "<b> whether</b> they are <b>time-bound</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "שֶׁהַזְּמָן",
+      "en": "that the time"
+     },
+     {
+      "he": "גְּרָמָהּ",
+      "en": "causes it"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין שֶׁלֹּא הַזְּמָן גְּרָמָהּ,",
+    "en": "or does not have a set time,",
+    "st": "or <b>whether</b> they are <b>not time-bound,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הַזְּמָן",
+      "en": "the time"
+     },
+     {
+      "he": "גְּרָמָהּ,",
+      "en": "causes it"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אֲנָשִׁים וְאֶחָד נָשִׁים חַיָּבִין,",
+    "en": "both men and women must keep them,",
+    "st": "<b> both men and women are obligated</b> to observe them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "אֲנָשִׁים",
+      "en": "men"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "women"
+     },
+     {
+      "he": "חַיָּבִין,",
+      "en": "are obligated"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִבַּל תַּשְׁחִית וּבַל תַּקִּיף",
+    "en": "except for: do not destroy the beard, and do not round the head,",
+    "st": "<b>except for</b> the prohibitions of: <b>Do not round</b> the corners of your head, <b>and: Do not destroy</b> the corners of your beard,",
+    "stMore": "which are derived from the verse: “You shall not round the corners of your head and you shall not destroy the corners of your beard” (Leviticus 19:27),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except for"
+     },
+     {
+      "he": "מִבַּל",
+      "en": "do not"
+     },
+     {
+      "he": "תַּשְׁחִית",
+      "en": "destroy"
+     },
+     {
+      "he": "וּבַל",
+      "en": "and do not"
+     },
+     {
+      "he": "תַּקִּיף",
+      "en": "round"
+     }
+    ]
+   },
+   {
+    "he": "וּבַל תִּטַּמָּא לְמֵתִים:",
+    "en": "and the Kohanim's mitzvah not to become tamei to the dead.",
+    "st": "<b>and</b> a prohibition that concerns only priests: <b>Do not contract ritual impurity from a corpse</b> (see Leviticus 21:1).",
+    "stMore": "These mitzvot apply only to men, not women, despite the fact that they are prohibitions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַל",
+      "en": "and do not"
+     },
+     {
+      "he": "תִּטַּמָּא",
+      "en": "become tamei"
+     },
+     {
+      "he": "לְמֵתִים:",
+      "en": "to the dead"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 8,
+  "summary": "Some jobs with korbanos in the Beis HaMikdash are done only by men. Two kinds of women's flour offerings are waved by the women themselves.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַסְּמִיכוֹת, וְהַתְּנוּפוֹת,",
+    "en": "Leaning hands on the korban, and waving,",
+    "st": "With regard to <b>the placing</b> of <b>hands</b> on the head of an offering, <b>and the waving</b> of certain offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַסְּמִיכוֹת,",
+      "en": "the leanings",
+      "note": "Leaning hands on the head of a korban."
+     },
+     {
+      "he": "וְהַתְּנוּפוֹת,",
+      "en": "and the wavings"
+     }
+    ]
+   },
+   {
+    "he": "וְהַהַגָּשׁוֹת, וְהַקְּמִיצוֹת,",
+    "en": "bringing near, and taking a handful,",
+    "st": "<b>and the bringing near</b> of meal-offerings to the corner of the altar, <b>and the removal of a handful</b> from meal-offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַהַגָּשׁוֹת,",
+      "en": "and the bringings near",
+      "note": "Bringing a flour offering to the corner of the mizbe'ach."
+     },
+     {
+      "he": "וְהַקְּמִיצוֹת,",
+      "en": "and the taking of handfuls"
+     }
+    ]
+   },
+   {
+    "he": "וְהַהַקְטָרוֹת, וְהַמְּלִיקוֹת,",
+    "en": "burning on the mizbe'ach, and pinching the bird's neck,",
+    "st": "<b>and the burning</b> of sacrificial parts on the altar, <b>and the pinching</b> of bird-offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַהַקְטָרוֹת,",
+      "en": "and the burnings"
+     },
+     {
+      "he": "וְהַמְּלִיקוֹת,",
+      "en": "and the pinchings",
+      "note": "How a bird korban was done."
+     }
+    ]
+   },
+   {
+    "he": "וְהַהַזָּאוֹת, וְהַקַּבָּלוֹת,",
+    "en": "sprinkling the blood, and catching the blood,",
+    "st": "<b>and the collecting</b> of blood of offerings in a vessel, <b>and the sprinkling</b> of blood,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַהַזָּאוֹת,",
+      "en": "and the sprinklings"
+     },
+     {
+      "he": "וְהַקַּבָּלוֹת,",
+      "en": "and the catchings",
+      "note": "Catching the blood of a korban in a bowl."
+     }
+    ]
+   },
+   {
+    "he": "נוֹהֲגִין בַּאֲנָשִׁים וְלֹא בְנָשִׁים,",
+    "en": "are done by men and not by women,",
+    "st": "these <b>apply to men and not to women.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹהֲגִין",
+      "en": "are done"
+     },
+     {
+      "he": "בַּאֲנָשִׁים",
+      "en": "by men"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְנָשִׁים,",
+      "en": "by women"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִמִּנְחַת סוֹטָה וּנְזִירָה,",
+    "en": "except for the flour offering of a sotah and of a nezirah,",
+    "explain": "A nezirah is a woman who promised not to drink wine.",
+    "st": "All these mitzvot apply specifically to men and not to women, <b>except for the meal-offering of a sota, and</b> the meal-offering of <b>a nazirite woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except for"
+     },
+     {
+      "he": "מִמִּנְחַת",
+      "en": "the flour offering of"
+     },
+     {
+      "he": "סוֹטָה",
+      "en": "a sotah",
+      "note": "A woman whose husband suspected her and brought her to the Beis HaMikdash."
+     },
+     {
+      "he": "וּנְזִירָה,",
+      "en": "and a nezirah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵן מְנִיפוֹת:",
+    "en": "which they wave themselves.",
+    "st": "<b> which</b> these women <b>wave.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "מְנִיפוֹת:",
+      "en": "wave"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 9,
+  "summary": "Mitzvos that depend on the land of Israel are kept only there. Other mitzvos are kept everywhere, except for a few.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל מִצְוָה שֶׁהִיא תְלוּיָה בָאָרֶץ",
+    "en": "Every mitzvah that depends on the land",
+    "st": "<b>Any mitzva that is dependent on the land [aretz]</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "מִצְוָה",
+      "en": "mitzvah"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it"
+     },
+     {
+      "he": "תְלוּיָה",
+      "en": "depends"
+     },
+     {
+      "he": "בָאָרֶץ",
+      "en": "on the land"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ נוֹהֶגֶת אֶלָּא בָאָרֶץ.",
+    "en": "is kept only in Eretz Yisrael.",
+    "explain": "Like terumah and ma'aser from crops.",
+    "st": "<b> applies only in Eretz</b> Yisrael,",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "it is not"
+     },
+     {
+      "he": "נוֹהֶגֶת",
+      "en": "kept"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בָאָרֶץ.",
+      "en": "in the land"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁאֵינָהּ תְּלוּיָה בָאָרֶץ",
+    "en": "And a mitzvah that does not depend on the land",
+    "st": "<b>and</b> any mitzva <b>that is not dependent on the land</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁאֵינָהּ",
+      "en": "and that it is not"
+     },
+     {
+      "he": "תְּלוּיָה",
+      "en": "depends"
+     },
+     {
+      "he": "בָאָרֶץ",
+      "en": "on the land"
+     }
+    ]
+   },
+   {
+    "he": "נוֹהֶגֶת בֵּין בָּאָרֶץ",
+    "en": "is kept both in Eretz Yisrael",
+    "st": "<b> applies both in Eretz</b> Yisrael",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹהֶגֶת",
+      "en": "is kept"
+     },
+     {
+      "he": "בֵּין",
+      "en": "both"
+     },
+     {
+      "he": "בָּאָרֶץ",
+      "en": "in the land"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין בְּחוּצָה לָאָרֶץ,",
+    "en": "and outside of Eretz Yisrael,",
+    "st": "<b>and outside of Eretz</b> Yisrael.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "and"
+     },
+     {
+      "he": "בְּחוּצָה",
+      "en": "in outside"
+     },
+     {
+      "he": "לָאָרֶץ,",
+      "en": "of the land"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הָעָרְלָה וְכִלְאָיִם.",
+    "en": "except for orlah and kilayim.",
+    "explain": "Orlah is fruit of a tree's first three years. Kilayim is mixing kinds of plants.",
+    "st": "This is <b>apart from</b> the mitzvot of <b>orla and diverse kinds,</b> which apply even outside of Eretz Yisrael.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "for"
+     },
+     {
+      "he": "הָעָרְלָה",
+      "en": "the orlah"
+     },
+     {
+      "he": "וְכִלְאָיִם.",
+      "en": "and kilayim"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף מִן הֶחָדָשׁ:",
+    "en": "also the new grain.",
+    "explain": "New grain may not be eaten until the omer is brought.",
+    "st": "This is the halakha <b>even</b> with regard to the prohibition to eat from the <b>new crop</b> before the omer offering has been brought on the sixteenth of Nisan.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הֶחָדָשׁ:",
+      "en": "the new grain",
+      "note": "Grain that grew this year."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 10,
+  "summary": "Someone who does a mitzvah gets good things and the World to Come. Someone who learns Torah and Mishnah and has good ways will not sin quickly.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הָעוֹשֶׂה מִצְוָה אַחַת,",
+    "en": "Whoever does one mitzvah",
+    "st": "<b>Anyone who performs one mitzva</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָעוֹשֶׂה",
+      "en": "who does"
+     },
+     {
+      "he": "מִצְוָה",
+      "en": "mitzvah"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מְטִיבִין לוֹ",
+    "en": "gets good things,",
+    "st": "<b> has goodness bestowed upon him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְטִיבִין",
+      "en": "they do good"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וּמַאֲרִיכִין לוֹ יָמָיו",
+    "en": "and his days are made long,",
+    "st": "<b> his life is lengthened,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַאֲרִיכִין",
+      "en": "and they lengthen"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "יָמָיו",
+      "en": "his days"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹחֵל אֶת הָאָרֶץ.",
+    "en": "and he inherits the land.",
+    "explain": "This means the World to Come.",
+    "st": "<b> and he inherits the land,</b> i.e., life in the World-to-Come.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹחֵל",
+      "en": "and he inherits"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאָרֶץ.",
+      "en": "the land"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל שֶׁאֵינוֹ עוֹשֶׂה מִצְוָה אַחַת,",
+    "en": "And whoever does not do one mitzvah,",
+    "st": "<b>And anyone who does not perform one mitzva</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "who does not"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "do"
+     },
+     {
+      "he": "מִצְוָה",
+      "en": "mitzvah"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְטִיבִין לוֹ",
+    "en": "does not get good things,",
+    "st": "<b> does not have goodness bestowed upon him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "מְטִיבִין",
+      "en": "do good"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מַאֲרִיכִין לוֹ יָמָיו",
+    "en": "and his days are not made long,",
+    "st": "<b> his life is not lengthened,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and they do not"
+     },
+     {
+      "he": "מַאֲרִיכִין",
+      "en": "lengthen"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "יָמָיו",
+      "en": "his days"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ נוֹחֵל אֶת הָאָרֶץ.",
+    "en": "and he does not inherit the land.",
+    "st": "<b> and he does not inherit the land</b> of the World-to-Come.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "נוֹחֵל",
+      "en": "inherit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאָרֶץ.",
+      "en": "the land"
+     }
+    ]
+   },
+   {
+    "he": "כָּל שֶׁיֶּשְׁנוֹ בַמִּקְרָא וּבַמִּשְׁנָה וּבְדֶרֶךְ אֶרֶץ,",
+    "en": "Whoever learns Chumash and Mishnah and has good ways,",
+    "explain": "Good ways means working and acting nicely.",
+    "st": "<b>Anyone who is engaged in</b> the study of <b>Bible, and in</b> the study of <b>Mishna, and in</b> the <b>desired mode of behavior,</b>",
+    "stMore": "i.e., he performs labor and generally acts in an appropriate manner,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "שֶׁיֶּשְׁנוֹ",
+      "en": "who is"
+     },
+     {
+      "he": "בַמִּקְרָא",
+      "en": "in the Mikra",
+      "note": "The written Torah."
+     },
+     {
+      "he": "וּבַמִּשְׁנָה",
+      "en": "and in the Mishnah"
+     },
+     {
+      "he": "וּבְדֶרֶךְ",
+      "en": "and in derech"
+     },
+     {
+      "he": "אֶרֶץ,",
+      "en": "eretz",
+      "note": "Derech eretz is good, proper behavior."
+     }
+    ]
+   },
+   {
+    "he": "לֹא בִמְהֵרָה הוּא חוֹטֵא,",
+    "en": "will not sin quickly,",
+    "st": "<b>will not be quick to sin,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בִמְהֵרָה",
+      "en": "quickly"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "חוֹטֵא,",
+      "en": "sins"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (קהלת ד)",
+    "en": "as it says (Koheles 4):",
+    "st": "<b> as it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(קהלת",
+      "en": "Koheles"
+     },
+     {
+      "he": "ד)",
+      "en": "chapter 4"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחוּט הַמְשֻׁלָּשׁ לֹא בִמְהֵרָה יִנָּתֵק.",
+    "en": "A rope of three strands does not quickly break.",
+    "st": "<b> “And a threefold cord is not quickly broken”</b> (Ecclesiastes 4:12).",
+    "stMore": "One who is involved in all three of these activities will not sin easily.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחוּט",
+      "en": "and the cord"
+     },
+     {
+      "he": "הַמְשֻׁלָּשׁ",
+      "en": "the threefold"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בִמְהֵרָה",
+      "en": "quickly"
+     },
+     {
+      "he": "יִנָּתֵק.",
+      "en": "will break"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל שֶׁאֵינוֹ לֹא בַמִּקְרָא",
+    "en": "And whoever has no Chumash,",
+    "st": "<b>And anyone who does not engage in</b> the study of <b>Bible,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "who is not"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַמִּקְרָא",
+      "en": "in the Mikra"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בַמִּשְׁנָה",
+    "en": "and no Mishnah,",
+    "st": "<b> nor</b> the study of <b>Mishna,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בַמִּשְׁנָה",
+      "en": "in the Mishnah"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְדֶרֶךְ אֶרֶץ,",
+    "en": "and no good ways,",
+    "st": "<b> nor</b> the <b>desired mode of behavior,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְדֶרֶךְ",
+      "en": "in derech"
+     },
+     {
+      "he": "אֶרֶץ,",
+      "en": "eretz"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מִן הַיִּשּׁוּב:",
+    "en": "is not part of the world of people.",
+    "st": "<b> is not part of society,</b> i.e., he is not considered a civilized person at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַיִּשּׁוּב:",
+      "en": "the settled world"
+     }
+    ]
+   }
+  ]
+ }
+]

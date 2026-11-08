@@ -1,0 +1,1904 @@
+[
+ {
+  "perek": 4,
+  "mishnah": 1,
+  "summary": "Four rules about erech: whose money counts, whose age counts, who counts as a man or a woman, and which time counts. First: what a poor person can afford depends on the one who promised.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֶשֵּׂג יָד, בַּנּוֹדֵר.",
+    "en": "What a person can afford depends on the one who made the vow.",
+    "explain": "A poor person who cannot pay the full erech pays what he can.",
+    "st": "<b>Affordability,</b> which is written in the Torah: “According to the means of him who vowed shall the priest valuate him” (Leviticus 27:8), is determined <b>in accordance with</b> the means of the <b>one taking the vow,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶשֵּׂג",
+      "en": "what he can"
+     },
+     {
+      "he": "יָד,",
+      "en": "afford"
+     },
+     {
+      "he": "בַּנּוֹדֵר.",
+      "en": "depends on the one who vows"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשָּׁנִים, בַּנִּדָּר.",
+    "en": "The age depends on the person whose erech was promised.",
+    "st": "<b>and</b> the sum fixed by the Torah based on <b>the years</b> of age is <b>in accordance with</b> the age of <b>the subject of the vow.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשָּׁנִים,",
+      "en": "and the years"
+     },
+     {
+      "he": "בַּנִּדָּר.",
+      "en": "depend on the one vowed for"
+     }
+    ]
+   },
+   {
+    "he": "וְהָעֲרָכִים, בַּנֶּעֱרָךְ,",
+    "en": "Whether it is a man's or a woman's erech depends on the person whose erech was promised.",
+    "st": "<b>And the</b> distinction based on sex that is written in the halakhot of <b>valuations</b> is stated <b>with regard to the one valuated,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָעֲרָכִים,",
+      "en": "and the erech amounts"
+     },
+     {
+      "he": "בַּנֶּעֱרָךְ,",
+      "en": "depend on the one valued"
+     }
+    ]
+   },
+   {
+    "he": "וְהָעֵרֶךְ, בִּזְמַן הָעֵרֶךְ.",
+    "en": "And the erech is set by the time of the promise.",
+    "st": "<b>and the</b> different <b>valuation</b> based on the age of the one valuated is determined <b>at the time</b> one takes <b>the</b> vow of <b>valuation.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָעֵרֶךְ,",
+      "en": "and the erech"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "by the time of"
+     },
+     {
+      "he": "הָעֵרֶךְ.",
+      "en": "the promise"
+     }
+    ]
+   },
+   {
+    "he": "הֶשֵּׂג יָד בַּנּוֹדֵר,",
+    "en": "What a person can afford depends on the one who made the vow.",
+    "st": "The mishna elaborates: <b>Affordability</b> is <b>in accordance with</b> the means of the <b>one taking the vow;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶשֵּׂג",
+      "en": "what he can"
+     },
+     {
+      "he": "יָד",
+      "en": "afford"
+     },
+     {
+      "he": "בַּנּוֹדֵר,",
+      "en": "depends on the one who vows"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. עָנִי שֶׁהֶעֱרִיךְ אֶת הֶעָשִׁיר,",
+    "en": "How so? A poor person who promised the erech of a rich person",
+    "st": "<b>how</b> so? <b>A destitute person who valuated a wealthy person</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "עָנִי",
+      "en": "a poor person"
+     },
+     {
+      "he": "שֶׁהֶעֱרִיךְ",
+      "en": "who promised the erech"
+     },
+     {
+      "he": "אֶת",
+      "en": "of"
+     },
+     {
+      "he": "הֶעָשִׁיר,",
+      "en": "the rich person"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ עָנִי.",
+    "en": "gives the erech of a poor person.",
+    "st": "<b>gives</b> the <b>valuation</b> in accordance with the means <b>of a destitute person,</b> as determined by the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "עָנִי.",
+      "en": "a poor person"
+     }
+    ]
+   },
+   {
+    "he": "וְעָשִׁיר שֶׁהֶעֱרִיךְ אֶת הֶעָנִי,",
+    "en": "And a rich person who promised the erech of a poor person",
+    "st": "<b>And a wealthy person who valuated a destitute person</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָשִׁיר",
+      "en": "and a rich person"
+     },
+     {
+      "he": "שֶׁהֶעֱרִיךְ",
+      "en": "who promised the erech"
+     },
+     {
+      "he": "אֶת",
+      "en": "of"
+     },
+     {
+      "he": "הֶעָנִי,",
+      "en": "the poor person"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ עָשִׁיר:",
+    "en": "gives the erech of a rich person.",
+    "st": "<b>gives</b> the <b>valuation</b> in accordance with the means <b>of a wealthy person,</b> the sum of which is fixed in the Torah.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "עָשִׁיר:",
+      "en": "a rich person"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 2,
+  "summary": "With a metzora's korban, what counts is the metzora who needs it. Rebbi says erech works the same way when a poor person promises what a rich person promised.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֲבָל בַּקָּרְבָּנוֹת אֵינוֹ כֵן.",
+    "en": "But with korbanos it is not like that.",
+    "st": "<b>But with regard to offerings that is not so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בַּקָּרְבָּנוֹת",
+      "en": "with korbanos"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "כֵן.",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי שֶׁאָמַר,",
+    "en": "For if someone said,",
+    "st": "<b>as</b> one <b>who</b> took a vow and <b>said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "for"
+     },
+     {
+      "he": "שֶׁאָמַר,",
+      "en": "one who said"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבָּנוֹ שֶׁל מְצֹרָע זֶה עָלָי.",
+    "en": "\"I will bring the korban of this metzora,\"",
+    "explain": "A metzora brings korbanos when he becomes tahor from tzaraas.",
+    "st": "It is incumbent <b>upon me</b> to provide <b>the offering of this leper,</b>",
+    "stMore": "to a leper who requires it for his purification;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבָּנוֹ",
+      "en": "the korban"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מְצֹרָע",
+      "en": "metzora"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "עָלָי.",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיָה מְצֹרָע עָנִי,",
+    "en": "if the metzora was poor,",
+    "st": "if the one undergoing purification <b>was a destitute leper,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "מְצֹרָע",
+      "en": "the metzora"
+     },
+     {
+      "he": "עָנִי,",
+      "en": "poor"
+     }
+    ]
+   },
+   {
+    "he": "מֵבִיא קָרְבַּן עָנִי.",
+    "en": "he brings a poor person's korban.",
+    "st": "the one who took the vow <b>brings the offering of a destitute</b> leper,",
+    "stMore": "which is one male sheep, a tenth of an ephah of fine flour, and two doves or two pigeons (see Leviticus 14:21–22).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵבִיא",
+      "en": "he brings"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "עָנִי.",
+      "en": "a poor person"
+     }
+    ]
+   },
+   {
+    "he": "עָשִׁיר, מֵבִיא קָרְבַּן עָשִׁיר.",
+    "en": "If the metzora was rich, he brings a rich person's korban.",
+    "st": "If the one undergoing purification <b>was a wealthy</b> leper, the one who took the vow <b>brings the offering of a wealthy</b> leper,",
+    "stMore": "which is two male sheep, a ewe, and three-tenths of a ephah of fine flour (see Leviticus 14:10).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָשִׁיר,",
+      "en": "rich"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "he brings"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "עָשִׁיר.",
+      "en": "a rich person"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אוֹמֵר,",
+    "en": "Rebbi says,",
+    "st": "<b>Rabbi</b> Yehuda HaNasi <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rebbi",
+      "note": "Rabbi Yehuda Hanasi, who put together the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֵר אֲנִי אַף בָּעֲרָכִין כֵּן.",
+    "en": "I say that with erech it is the same.",
+    "st": "<b>I say: Even with regard to valuations</b> it is <b>so.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֵר",
+      "en": "say"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "בָּעֲרָכִין",
+      "en": "with erech payments"
+     },
+     {
+      "he": "כֵּן.",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "וְכִי מִפְּנֵי מָה עָנִי שֶׁהֶעֱרִיךְ",
+    "en": "For why does a poor person who promised the erech",
+    "st": "He explains: <b>For what</b> reason <b>does a destitute person who valuated</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִי",
+      "en": "for"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "עָנִי",
+      "en": "a poor person"
+     },
+     {
+      "he": "שֶׁהֶעֱרִיךְ",
+      "en": "who promised the erech"
+     }
+    ]
+   },
+   {
+    "he": "אֶת הֶעָשִׁיר נוֹתֵן עֵרֶךְ עָנִי,",
+    "en": "of a rich person give the erech of a poor person?",
+    "st": "<b>a wealthy person give</b> the <b>valuation</b> in accordance with the means <b>of a destitute person?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "of"
+     },
+     {
+      "he": "הֶעָשִׁיר",
+      "en": "the rich person"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "עָנִי,",
+      "en": "a poor person"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין הֶעָשִׁיר חַיָּב כְּלוּם.",
+    "en": "Because the rich person does not owe anything.",
+    "st": "It is due to the fact <b>that the wealthy person is not obligated</b> to pay <b>anything,</b>",
+    "stMore": "as the debt was generated by the destitute person who vowed to donate the valuation of a wealthy individual.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because ... not"
+     },
+     {
+      "he": "הֶעָשִׁיר",
+      "en": "the rich person"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owes"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל הֶעָשִׁיר שֶׁאָמַר עֶרְכִּי עָלָי,",
+    "en": "But if a rich person said, \"My erech is on me to give,\"",
+    "st": "<b>But</b> in a case similar to that of the offerings of a leper, in the case of <b>a wealthy person who said:</b> It is incumbent <b>upon me</b> to donate <b>my valuation,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "הֶעָשִׁיר",
+      "en": "the rich person"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "who said"
+     },
+     {
+      "he": "עֶרְכִּי",
+      "en": "my erech"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁמַע הֶעָנִי וְאָמַר,",
+    "en": "and a poor person heard and said,",
+    "st": "<b>and a destitute person heard</b> him <b>and said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁמַע",
+      "en": "and heard"
+     },
+     {
+      "he": "הֶעָנִי",
+      "en": "the poor person"
+     },
+     {
+      "he": "וְאָמַר,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁאָמַר זֶה עָלָי,",
+    "en": "\"What this one said is on me too,\"",
+    "st": "It is incumbent <b>upon me</b> to donate <b>that which he said,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁאָמַר",
+      "en": "that said"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "עָלָי,",
+      "en": "on me"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ עָשִׁיר.",
+    "en": "the poor person gives the erech of a rich person.",
+    "st": "the destitute person <b>gives the valuation of a wealthy person.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "עָשִׁיר.",
+      "en": "a rich person"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה עָנִי וְהֶעֱשִׁיר אוֹ עָשִׁיר וְהֶעֱנִי,",
+    "en": "If he was poor and became rich, or rich and became poor,",
+    "st": "If when one took a vow of valuation <b>he was destitute and he became wealthy,</b> or if <b>he was wealthy and became destitute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "עָנִי",
+      "en": "poor"
+     },
+     {
+      "he": "וְהֶעֱשִׁיר",
+      "en": "and became rich"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "עָשִׁיר",
+      "en": "rich"
+     },
+     {
+      "he": "וְהֶעֱנִי,",
+      "en": "and became poor"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ עָשִׁיר.",
+    "en": "he gives the erech of a rich person.",
+    "st": "<b>he gives the valuation</b> in accordance with the means of <b>a wealthy person.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "עָשִׁיר.",
+      "en": "a rich person"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "stMore": "This is the halakha not only in a case where one was wealthy either at the time he took the vow or at the time of payment;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ עָנִי וְהֶעֱשִׁיר וְחָזַר וְהֶעֱנִי,",
+    "en": "even if he was poor, became rich, and then became poor again,",
+    "st": "even if when one took a vow of valuation <b>he was destitute and he became wealthy and again became destitute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "עָנִי",
+      "en": "poor"
+     },
+     {
+      "he": "וְהֶעֱשִׁיר",
+      "en": "and became rich"
+     },
+     {
+      "he": "וְחָזַר",
+      "en": "and again"
+     },
+     {
+      "he": "וְהֶעֱנִי,",
+      "en": "became poor"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ עָשִׁיר:",
+    "en": "he gives the erech of a rich person.",
+    "st": "<b>he gives</b> the <b>valuation</b> in accordance with the means of <b>a wealthy person.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "עָשִׁיר:",
+      "en": "a rich person"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 3,
+  "summary": "A metzora's korban depends only on what he has now, even if he will soon get lots of money.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֲבָל בַּקָּרְבָּנוֹת אֵינוֹ כֵן,",
+    "en": "But with korbanos it is not like that.",
+    "explain": "His korban depends on how rich he is when he brings it.",
+    "st": "<b>But with regard to</b> the <b>offerings</b> of a leper <b>that is not so,</b>",
+    "stMore": "as the offerings that one brings are determined by his status at the time he brings them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בַּקָּרְבָּנוֹת",
+      "en": "with korbanos"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "כֵן,",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ אָבִיו מֵת וְהִנִּיחַ לוֹ רִבּוֹא,",
+    "en": "Even if his father died and left him ten thousand coins,",
+    "st": "<b>Even</b> if it is common knowledge that <b>his father died and left him</b> an inheritance of <b>ten thousand</b> dinars,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "וְהִנִּיחַ",
+      "en": "and left"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רִבּוֹא,",
+      "en": "ten thousand"
+     }
+    ]
+   },
+   {
+    "he": "סְפִינָתוֹ בַיָּם וּבָאוּ בְרִבּוֹאוֹת,",
+    "en": "or his ship is at sea and is bringing him ten thousands,",
+    "st": "<b>or</b> that <b>his ship is at sea and</b> merchandise valued at <b>ten thousand</b> dinars <b>is coming into his</b> possession,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְפִינָתוֹ",
+      "en": "his ship"
+     },
+     {
+      "he": "בַיָּם",
+      "en": "at sea"
+     },
+     {
+      "he": "וּבָאוּ",
+      "en": "and they come"
+     },
+     {
+      "he": "בְרִבּוֹאוֹת,",
+      "en": "with ten thousands"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לַהֶקְדֵּשׁ בָּהֶן כְּלוּם:",
+    "en": "the Beis Hamikdash has no share in that money.",
+    "st": "<b>the Temple</b> treasury <b>has no</b> share <b>in it.</b>",
+    "stMore": "His payment is determined solely by his present situation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "nothing"
+     },
+     {
+      "he": "לַהֶקְדֵּשׁ",
+      "en": "to the hekdesh"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "at all"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 4,
+  "summary": "The age and the man or woman of the person valued count, and the erech follows the age at the time of the promise. The mishnah also teaches exactly when a person moves up to the next age group.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שָׁנִים בַּנִּדָּר כֵּיצַד,",
+    "en": "How does the age depend on the person whose erech was promised?",
+    "st": "The sum fixed by the Torah based on <b>the years</b> of age is <b>in accordance with</b> the age of <b>the subject of the vow; how</b> so?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁנִים",
+      "en": "the years"
+     },
+     {
+      "he": "בַּנִּדָּר",
+      "en": "depend on the one vowed for"
+     },
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so?"
+     }
+    ]
+   },
+   {
+    "he": "יֶלֶד שֶׁהֶעֱרִיךְ אֶת הַזָּקֵן,",
+    "en": "A young person who promised the erech of an old person",
+    "st": "<b>A youth who valuated an elder</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֶלֶד",
+      "en": "a young person"
+     },
+     {
+      "he": "שֶׁהֶעֱרִיךְ",
+      "en": "who promised the erech"
+     },
+     {
+      "he": "אֶת",
+      "en": "of"
+     },
+     {
+      "he": "הַזָּקֵן,",
+      "en": "the old person"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ זָקֵן.",
+    "en": "gives the erech of an old person.",
+    "st": "<b>gives the valuation of an elder,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "זָקֵן.",
+      "en": "an old person"
+     }
+    ]
+   },
+   {
+    "he": "וְזָקֵן שֶׁהֶעֱרִיךְ אֶת הַיֶּלֶד,",
+    "en": "And an old person who promised the erech of a young person",
+    "st": "<b>and an elder who valuated a youth</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזָקֵן",
+      "en": "and an old person"
+     },
+     {
+      "he": "שֶׁהֶעֱרִיךְ",
+      "en": "who promised the erech"
+     },
+     {
+      "he": "אֶת",
+      "en": "of"
+     },
+     {
+      "he": "הַיֶּלֶד,",
+      "en": "the young person"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ יֶלֶד.",
+    "en": "gives the erech of a young person.",
+    "st": "<b>gives the valuation of a youth.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "יֶלֶד.",
+      "en": "a young person"
+     }
+    ]
+   },
+   {
+    "he": "וַעֲרָכִים בַּנֶּעֱרָךְ כֵּיצַד,",
+    "en": "How does the man-or-woman erech depend on the person valued?",
+    "st": "<b>And the</b> distinction based on sex that is written in the halakhot of <b>valuations</b> is stated <b>with regard to the one valuated; how</b> so?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַעֲרָכִים",
+      "en": "and the erech amounts"
+     },
+     {
+      "he": "בַּנֶּעֱרָךְ",
+      "en": "depend on the one valued"
+     },
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so?"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ שֶׁהֶעֱרִיךְ אֶת הָאִשָּׁה,",
+    "en": "A man who promised the erech of a woman",
+    "st": "<b>A man who valuated a woman</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "שֶׁהֶעֱרִיךְ",
+      "en": "who promised the erech"
+     },
+     {
+      "he": "אֶת",
+      "en": "of"
+     },
+     {
+      "he": "הָאִשָּׁה,",
+      "en": "the woman"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן עֵרֶךְ אִשָּׁה.",
+    "en": "gives the erech of a woman.",
+    "st": "<b>gives the valuation of a woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "אִשָּׁה.",
+      "en": "a woman"
+     }
+    ]
+   },
+   {
+    "he": "וְאִשָּׁה שֶׁהֶעֱרִיכָה אֶת הָאִישׁ,",
+    "en": "And a woman who promised the erech of a man",
+    "st": "<b>and a woman who valuated a man</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִשָּׁה",
+      "en": "and a woman"
+     },
+     {
+      "he": "שֶׁהֶעֱרִיכָה",
+      "en": "who promised the erech"
+     },
+     {
+      "he": "אֶת",
+      "en": "of"
+     },
+     {
+      "he": "הָאִישׁ,",
+      "en": "the man"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֶנֶת עֵרֶךְ אִישׁ.",
+    "en": "gives the erech of a man.",
+    "st": "<b>gives the valuation of a man.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֶנֶת",
+      "en": "she gives"
+     },
+     {
+      "he": "עֵרֶךְ",
+      "en": "the erech of"
+     },
+     {
+      "he": "אִישׁ.",
+      "en": "a man"
+     }
+    ]
+   },
+   {
+    "he": "וְהָעֵרֶךְ בִּזְמַן הָעֵרֶךְ כֵּיצַד,",
+    "en": "How is the erech set by the time of the promise?",
+    "st": "<b>And the</b> different <b>valuation</b> based on the age of the one valuated is determined <b>at the time</b> one takes <b>the</b> vow of <b>valuation; how</b> so?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָעֵרֶךְ",
+      "en": "and the erech"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "by the time of"
+     },
+     {
+      "he": "הָעֵרֶךְ",
+      "en": "the promise"
+     },
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so?"
+     }
+    ]
+   },
+   {
+    "he": "הֶעֱרִיכוֹ פָּחוּת מִבֶּן חָמֵשׁ וְנַעֲשָׂה",
+    "en": "If he promised a child's erech when the child was less than five, and the child became",
+    "st": "If <b>one valuated</b> another when he was <b>less than five years old,</b> when his valuation is five shekels, <b>and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶעֱרִיכוֹ",
+      "en": "he promised his erech"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִבֶּן",
+      "en": "than the age of"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "וְנַעֲשָׂה",
+      "en": "and he became"
+     }
+    ]
+   },
+   {
+    "he": "יוֹתֵר עַל בֶּן חָמֵשׁ,",
+    "en": "more than five,",
+    "st": "before payment to the Temple treasury the subject of the vow <b>became more than five years old,</b> when his valuation is ten shekels;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "בֶּן",
+      "en": "the age of"
+     },
+     {
+      "he": "חָמֵשׁ,",
+      "en": "five"
+     }
+    ]
+   },
+   {
+    "he": "פָּחוּת מִבֶּן עֶשְׂרִים וְנַעֲשָׂה",
+    "en": "or less than twenty, and he became",
+    "st": "or if <b>one valuated</b> another when he was <b>less than twenty years old,</b> when his valuation is ten shekels, <b>and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִבֶּן",
+      "en": "than the age of"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וְנַעֲשָׂה",
+      "en": "and he became"
+     }
+    ]
+   },
+   {
+    "he": "יוֹתֵר עַל בֶּן עֶשְׂרִים,",
+    "en": "more than twenty,",
+    "st": "before payment to the Temple treasury the subject of the vow <b>became more than twenty years old,</b> when his valuation is fifty shekels,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹתֵר",
+      "en": "more"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "בֶּן",
+      "en": "the age of"
+     },
+     {
+      "he": "עֶשְׂרִים,",
+      "en": "twenty"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן כִּזְמַן הָעֵרֶךְ.",
+    "en": "he gives the erech for the age at the time of the promise.",
+    "st": "in all these cases <b>he gives</b> payment according to the age of the subject of the valuation <b>at the time of the valuation.</b>",
+    "stMore": "The Torah provides three age categories that determine the amount of the valuation: From the age of one month until age five, from age five until age twenty, and from age twenty until age sixty. For anyone less than one month old there is no valuation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "כִּזְמַן",
+      "en": "by the time of"
+     },
+     {
+      "he": "הָעֵרֶךְ.",
+      "en": "the promise"
+     }
+    ]
+   },
+   {
+    "he": "יוֹם שְׁלֹשִׁים,",
+    "en": "The thirtieth day of a baby's life",
+    "st": "The halakhic status of the <b>thirtieth day</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁלֹשִׁים,",
+      "en": "thirty"
+     }
+    ]
+   },
+   {
+    "he": "כִּלְמַטָּה מִמֶּנּוּ.",
+    "en": "counts like the days before it.",
+    "explain": "So a baby on his thirtieth day has no erech yet.",
+    "st": "is <b>like</b> that of the period <b>preceding</b> thirty days, and therefore the one who took the vow is exempt.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּלְמַטָּה",
+      "en": "like below"
+     },
+     {
+      "he": "מִמֶּנּוּ.",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַת חָמֵשׁ וּשְׁנַת עֶשְׂרִים,",
+    "en": "The fifth year and the twentieth year",
+    "st": "Likewise, the halakhic status of the <b>fifth year and</b> the <b>twentieth year</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַת",
+      "en": "year"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "וּשְׁנַת",
+      "en": "and year"
+     },
+     {
+      "he": "עֶשְׂרִים,",
+      "en": "twenty"
+     }
+    ]
+   },
+   {
+    "he": "כִּלְמַטָּה מִמֶּנּוּ,",
+    "en": "count like the years before them,",
+    "st": "is <b>like</b> that of the period <b>preceding them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּלְמַטָּה",
+      "en": "like below"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא כז),",
+    "en": "as it says (Vayikra 27),",
+    "st": "<b>As it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כז),",
+      "en": "chapter 27)"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מִבֶּן שִׁשִּׁים שָׁנָה",
+    "en": "\"And if from sixty years old",
+    "st": "<b>“And if it is from sixty years</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מִבֶּן",
+      "en": "from the age of"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "שָׁנָה",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "וָמַעְלָה אִם זָכָר,",
+    "en": "and up, if it is a male.\"",
+    "st": "<b>old and upward”</b> (Leviticus 27:7),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וָמַעְלָה",
+      "en": "and up"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "זָכָר,",
+      "en": "male"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אָנוּ לְמֵדִים בְּכֻלָּם מִשְּׁנַת שִׁשִּׁים.",
+    "en": "We learn all the others from the sixtieth year.",
+    "st": "and <b>we derive all</b> the other age categories <b>from</b> the <b>sixtieth year:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "לְמֵדִים",
+      "en": "learn"
+     },
+     {
+      "he": "בְּכֻלָּם",
+      "en": "all of them"
+     },
+     {
+      "he": "מִשְּׁנַת",
+      "en": "from the year of"
+     },
+     {
+      "he": "שִׁשִּׁים.",
+      "en": "sixty"
+     }
+    ]
+   },
+   {
+    "he": "מַה שְּׁנַת שִׁשִּׁים כִּלְמַטָּה מִמֶּנָּה,",
+    "en": "Just as the sixtieth year counts like the years before it,",
+    "st": "<b>Just as</b> the halakhic status of the <b>sixtieth year,</b> where upward is written, is <b>like</b> that of the period <b>preceding it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "שְּׁנַת",
+      "en": "the year of"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "כִּלְמַטָּה",
+      "en": "like below"
+     },
+     {
+      "he": "מִמֶּנָּה,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "אַף שְׁנַת חָמֵשׁ וּשְׁנַת",
+    "en": "so too the fifth year and the",
+    "st": "<b>so too,</b> the halakhic status of the <b>fifth year and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "שְׁנַת",
+      "en": "the year of"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "וּשְׁנַת",
+      "en": "and the year of"
+     }
+    ]
+   },
+   {
+    "he": "עֶשְׂרִים כִּלְמַטָּה מִמֶּנָּה.",
+    "en": "twentieth year count like the years before them.",
+    "st": "the <b>twentieth year</b> is <b>like</b> that of the period <b>preceding them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "כִּלְמַטָּה",
+      "en": "like below"
+     },
+     {
+      "he": "מִמֶּנָּה.",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "הֵן. אִם עָשָׂה שְׁנַת שִׁשִּׁים",
+    "en": "Is that right? If the sixtieth year was made",
+    "st": "The mishna asks: Is that <b>so?</b> Can one derive a halakha in this manner? <b>If</b> the Torah <b>rendered</b> the halakhic status of the <b>sixtieth year</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן.",
+      "en": "is it so?"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "עָשָׂה",
+      "en": "it made"
+     },
+     {
+      "he": "שְׁנַת",
+      "en": "the year of"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     }
+    ]
+   },
+   {
+    "he": "כִּלְמַטָּה מִמֶּנָּה לְהַחֲמִיר,",
+    "en": "like the years before it, to be strict,",
+    "st": "<b>like</b> that of the period <b>preceding it</b> in order <b>to be stringent</b>",
+    "stMore": "and require one who valuated a sixty-year-old person to pay his valuation to the Temple treasury,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּלְמַטָּה",
+      "en": "like below"
+     },
+     {
+      "he": "מִמֶּנָּה",
+      "en": "it"
+     },
+     {
+      "he": "לְהַחֲמִיר,",
+      "en": "to be strict"
+     }
+    ]
+   },
+   {
+    "he": "נַעֲשֶׂה שְׁנַת חָמֵשׁ וּשְׁנַת",
+    "en": "should we make the fifth year and the",
+    "st": "<b>shall we render</b> the halakhic status of the <b>fifth year and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נַעֲשֶׂה",
+      "en": "shall we make"
+     },
+     {
+      "he": "שְׁנַת",
+      "en": "the year of"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "וּשְׁנַת",
+      "en": "and the year of"
+     }
+    ]
+   },
+   {
+    "he": "עֶשְׂרִים כִּלְמַטָּה מִמֶּנָּה לְהָקֵל.",
+    "en": "twentieth year like the years before them, to be easy?",
+    "st": "the <b>twentieth year like</b> that of the period <b>preceding</b> them in order <b>to be lenient</b> and pay a lower sum?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "כִּלְמַטָּה",
+      "en": "like below"
+     },
+     {
+      "he": "מִמֶּנָּה",
+      "en": "it"
+     },
+     {
+      "he": "לְהָקֵל.",
+      "en": "to be easy"
+     }
+    ]
+   },
+   {
+    "he": "תַּלְמוּד לוֹמַר,",
+    "en": "So the Torah teaches us:",
+    "st": "Therefore, <b>the verse states</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּלְמוּד",
+      "en": "the Torah"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שָׁנָה שָׁנָה,",
+    "en": "the word \"year\" and the word \"year,\"",
+    "st": "<b>“year”</b> with regard to the fifth and twentieth years (see Leviticus 27:3–6), and <b>“year”</b> with regard to the sixtieth year (Leviticus 27:7),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁנָה",
+      "en": "year"
+     },
+     {
+      "he": "שָׁנָה,",
+      "en": "year"
+     }
+    ]
+   },
+   {
+    "he": "לִגְזֵרָה שָׁוָה.",
+    "en": "to learn one from the other.",
+    "explain": "When the same word is used in two places, we learn one from the other.",
+    "st": "<b>for a verbal analogy.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִגְזֵרָה",
+      "en": "for a gezeirah"
+     },
+     {
+      "he": "שָׁוָה.",
+      "en": "shavah",
+      "note": "A way of learning: the same word in two places teaches the same rule."
+     }
+    ]
+   },
+   {
+    "he": "מַה שָּׁנָה הָאֲמוּרָה בִשְׁנַת שִׁשִּׁים,",
+    "en": "Just as the \"year\" said about the sixtieth year",
+    "st": "<b>Just as</b> the halakhic status of the <b>year stated with regard to</b> the <b>sixtieth year</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "שָּׁנָה",
+      "en": "year"
+     },
+     {
+      "he": "הָאֲמוּרָה",
+      "en": "that is said"
+     },
+     {
+      "he": "בִשְׁנַת",
+      "en": "about the year of"
+     },
+     {
+      "he": "שִׁשִּׁים,",
+      "en": "sixty"
+     }
+    ]
+   },
+   {
+    "he": "כִּלְמַטָּה מִמֶּנָּה,",
+    "en": "counts like the years before it,",
+    "st": "is <b>like</b> that of the period <b>preceding</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּלְמַטָּה",
+      "en": "like below"
+     },
+     {
+      "he": "מִמֶּנָּה,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "אַף שָׁנָה הָאֲמוּרָה בִשְׁנַת",
+    "en": "so too the \"year\" said about the",
+    "st": "<b>so too,</b> the halakhic status of the <b>year stated with regard to</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "שָׁנָה",
+      "en": "year"
+     },
+     {
+      "he": "הָאֲמוּרָה",
+      "en": "that is said"
+     },
+     {
+      "he": "בִשְׁנַת",
+      "en": "about the year of"
+     }
+    ]
+   },
+   {
+    "he": "חָמֵשׁ וּשְׁנַת עֶשְׂרִים,",
+    "en": "fifth year and the twentieth year",
+    "st": "the <b>fifth year and</b> the <b>twentieth year</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "וּשְׁנַת",
+      "en": "and the year of"
+     },
+     {
+      "he": "עֶשְׂרִים,",
+      "en": "twenty"
+     }
+    ]
+   },
+   {
+    "he": "כִּלְמַטָּה מִמֶּנָּה,",
+    "en": "counts like the years before them,",
+    "st": "is <b>like</b> that of the period <b>preceding</b> them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּלְמַטָּה",
+      "en": "like below"
+     },
+     {
+      "he": "מִמֶּנָּה,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לְהָקֵל בֵּין לְהַחֲמִיר.",
+    "en": "whether to be easy or to be strict.",
+    "st": "<b>both</b> in order <b>to be lenient and</b> in order <b>to be stringent.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be easy"
+     },
+     {
+      "he": "בֵּין",
+      "en": "or"
+     },
+     {
+      "he": "לְהַחֲמִיר.",
+      "en": "to be strict"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֶלְעָזָר אוֹמֵר,",
+    "en": "Rabbi Elazar says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "stMore": "Their halakhic status remains like that of the period preceding it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar",
+      "note": "A Tanna of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּהְיוּ יְתֵרוֹת עַל",
+    "en": "they still count as before until they are more than",
+    "st": "<b>until they will be</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּהְיוּ",
+      "en": "they will be"
+     },
+     {
+      "he": "יְתֵרוֹת",
+      "en": "more"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     }
+    ]
+   },
+   {
+    "he": "הַשָּׁנִים חֹדֶשׁ וְיוֹם אֶחָד:",
+    "en": "those years by one month and one day.",
+    "st": "aged one <b>month and one day beyond the</b> fifth, twentieth, and sixtieth <b>years.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשָּׁנִים",
+      "en": "the years"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "a month"
+     },
+     {
+      "he": "וְיוֹם",
+      "en": "and a day"
+     },
+     {
+      "he": "אֶחָד:",
+      "en": "one"
+     }
+    ]
+   }
+  ]
+ }
+]
