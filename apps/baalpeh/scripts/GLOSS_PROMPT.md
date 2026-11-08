@@ -1,7 +1,9 @@
 # Gloss brief: sourced, kid-level meanings
 
 The children's meanings must be **grounded in established translations, not invented**.
-Sources (all in `data/chunks.json` per mishnah):
+This brief is for one perek of one masechta, `<id>` (its entry in `data/catalog.json`). Only masechtos with translation
+`sources` are glossed; a Hebrew-only masechta (`"sources": []`) ships without meanings and skips this step.
+Sources (all in `data/<id>/chunks.json` per mishnah; use only the ones the masechta lists):
 
 - `steinsaltz` — **primary**. William Davidson Edition (Koren Noé, R. Adin Steinsaltz). `<b>bold</b>` is the literal
   translation of the Mishnah's words; plain text is his explanation.
@@ -9,7 +11,7 @@ Sources (all in `data/chunks.json` per mishnah):
   Use it to check Steinsaltz and to pick explanations a child will understand.
 - Don't use any other translation (no Open Mishnah/community translations, no Kulp).
 
-Output: `data/gloss/perek_<N>.json` — array, one object per mishnah:
+Output: `data/<id>/gloss/perek_<N>.json` — array, one object per mishnah:
 
 ```json
 {
@@ -31,7 +33,7 @@ Output: `data/gloss/perek_<N>.json` — array, one object per mishnah:
 }
 ```
 
-## Hard rules (checked by `python3 scripts/validate_gloss.py data/gloss/perek_<N>.json`)
+## Hard rules (checked by `python3 scripts/validate_gloss.py <id> <N>`)
 
 1. Hebrew: `he` words are exactly the source words. You may move chunk boundaries (2–6 words, max 7) but never
    change a word. `words[].he` == `he.split(" ")`.

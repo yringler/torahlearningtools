@@ -1,7 +1,20 @@
+import { CATALOG, type CatalogEntry } from "../data";
 import { HEBREW_SOURCE, type License, LICENSES_PATH, SOURCES } from "../sources";
 
 const LicenseLink = ({ license }: { license: License }) => (
   <a href={license.url} target="_blank" rel="noreferrer license">{license.name}</a>
+);
+
+/** "Berakhot, Peah and Demai", each linked to that masechta on Sefaria in the given version. */
+const MasechtaLinks = ({ entries, url }: { entries: readonly CatalogEntry[]; url: (masechtaEn: string) => string }) => (
+  <>
+    {entries.map((e, i) => (
+      <span key={e.id}>
+        {i > 0 && (i === entries.length - 1 ? " and " : ", ")}
+        <a href={url(e.en)} target="_blank" rel="noreferrer">{e.en}</a>
+      </span>
+    ))}
+  </>
 );
 
 /** Small link to the sources & licenses page. Opens in a new tab so a learning session isn't interrupted. */
@@ -40,6 +53,10 @@ export function PricingNote() {
 export function LicensesPage() {
   const st = SOURCES.steinsaltz;
   const bt = SOURCES.bartenura;
+  // Every translated masechta's meanings come from Steinsaltz and Bartenura (data/catalog.json); Hebrew-only ones use
+  // neither.
+  const translated = CATALOG.filter((e) => e.translated);
+  const hebrewOnly = CATALOG.filter((e) => !e.translated);
   return (
     <div className="parent licenses" dir="ltr">
       <div className="topbar">
@@ -50,18 +67,25 @@ export function LicensesPage() {
       <section>
         <h3>Hebrew text</h3>
         <p>
-          The Mishnah's Hebrew text with nikud is <a href={HEBREW_SOURCE.sefaria} target="_blank" rel="noreferrer">{HEBREW_SOURCE.name}</a>,
-          via <a href="https://www.sefaria.org" target="_blank" rel="noreferrer">Sefaria</a>.
+          The Mishnah's Hebrew text with nikud is {HEBREW_SOURCE.name}, via <a href="https://www.sefaria.org" target="_blank" rel="noreferrer">Sefaria</a>{" "}
+          (<MasechtaLinks entries={CATALOG} url={HEBREW_SOURCE.sefaria} />).
           License: <LicenseLink license={HEBREW_SOURCE.license} />.
         </p>
         <p className="hint">Changes: HTML markup removed, Unicode normalized, and each mishnah split into short pieces for memorizing.</p>
+        {hebrewOnly.length > 0 && (
+          <p className="hint">
+            <MasechtaLinks entries={hebrewOnly} url={HEBREW_SOURCE.sefaria} /> {hebrewOnly.length === 1 ? "has" : "have"} the
+            Hebrew text only, with no English meanings.
+          </p>
+        )}
       </section>
 
       <section>
         <h3>Steinsaltz</h3>
         <p>
-          English translation and explanation by R. Adin Even-Israel Steinsaltz, from <a href={st.sefaria} target="_blank" rel="noreferrer">The
-          William Davidson digital edition of the Koren Noé Talmud</a> (Koren Publishers Jerusalem), via Sefaria.
+          English translation and explanation by R. Adin Even-Israel Steinsaltz, from The William Davidson digital
+          edition of the Koren Noé Talmud (Koren Publishers Jerusalem), via Sefaria
+          (<MasechtaLinks entries={translated} url={st.sefaria} />).
           License: <LicenseLink license={st.license} />.
         </p>
         <p className="hint">
@@ -75,7 +99,8 @@ export function LicensesPage() {
       <section>
         <h3>Bartenura</h3>
         <p>
-          The Mishna with Obadiah Bartenura, translated by R. Shraga Silverstein, <a href={bt.sefaria} target="_blank" rel="noreferrer">via Sefaria</a>.
+          The Mishna with Obadiah Bartenura, translated by R. Shraga Silverstein, via Sefaria
+          (<MasechtaLinks entries={translated} url={bt.sefaria} />).
           License: <LicenseLink license={bt.license} />.
         </p>
         <p className="hint">
