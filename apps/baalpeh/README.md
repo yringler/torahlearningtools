@@ -98,15 +98,29 @@ The design spec this was built from is in [`docs/DESIGN.md`](docs/DESIGN.md).
 ## Data pipeline
 
 ```
-scripts/fetch_sefaria.py     → data/raw/berakhot_N.json   (Sefaria v3 API: Hebrew Torat Emet, Steinsaltz, Bartenura/Silverstein)
-scripts/chunk.py             → data/chunks.json           (mechanical phrase chunking)
-(LLM pass, brief in scripts/GLOSS_PROMPT.md)
-                             → data/gloss/perek_N.json    (refined chunks + kid-level meaning per piece and per word)
-scripts/validate_gloss.py    checks that the Hebrew matches the source byte for byte, that the Steinsaltz excerpts rebuild
-                             Steinsaltz exactly (text and bold), and that every word has a gloss and every piece names its sources
-scripts/build_data.py        → public/data/m/<id>.<hash>.json   (one file per masechta, fetched when opened; applies data/hide.json)
-                             → src/data/index.json              (small catalog bundled into the app)
+data/catalog.json                  the masechtos (seder, Sefaria book, names) and each one's translation sources
+scripts/fetch_sefaria.py <id>      → data/<id>/raw/perek_N.json    (Sefaria API: Hebrew Torat Emet + the masechta's sources)
+scripts/chunk.py <id>              → data/<id>/chunks.json         (mechanical phrase chunking)
+(LLM pass, brief in scripts/GLOSS_PROMPT.md; translated masechtos only)
+                                   → data/<id>/gloss/perek_N.json  (refined chunks + kid-level meaning per piece and per word)
+scripts/validate_gloss.py <id> [N…]  checks that the Hebrew matches the source byte for byte, that the Steinsaltz excerpts
+                                   rebuild Steinsaltz exactly (text and bold), and that every word has a gloss and every
+                                   piece names its sources
+scripts/build_data.py              → public/data/m/<id>.<hash>.json   (one file per masechta, fetched when opened;
+                                                                       applies data/<id>/hide.json)
+                                   → src/data/index.json              (small catalog bundled into the app, by seder)
+                                   → worker/data/text.json            (the Hebrew pieces, for the perek-test email)
 ```
+
+All scripts read `data/catalog.json` through `scripts/catalog.py`. `fetch_sefaria.py` takes the number of perakim from
+Sefaria's index API, retries Sefaria's frequent 503/504 errors with backoff (`--keep` resumes, skipping perakim already
+fetched), and stops if a version is missing rather than writing an empty text.
+
+**Translation is optional per masechta.** A masechta whose `sources` in `data/catalog.json` is `[]` ships in Hebrew
+only: `build_data.py` builds it from the mechanical chunks, with an empty summary and `en: ""` on every piece and word
+(the same shape as a translated masechta), and `src/data/index.json` marks it `"translated": false`. Peah and Demai are
+like this, because Sefaria has neither Steinsaltz nor Silverstein's Bartenura for them. A masechta that does list
+sources must be fully glossed, or the build fails.
 
 The text is **not** in the JavaScript bundle. Each masechta is its own JSON file named by content hash, so it can be
 cached forever and a fix to one masechta re-downloads only that one. The full Mishnah would be roughly 20 MB raw
@@ -140,12 +154,13 @@ Translations used: Steinsaltz (primary) and Bartenura translated by R. Shraga Si
 Not used: Open Mishnah (a community translation), Mishnah Yomit (Kulp), and De Sola & Raphall (on Sefaria it covers
 only perek 1 of Brachos).
 
-The simple lines are AI-written paraphrases of Steinsaltz. If one reads oddly, it's an easy fix in `data/gloss/`.
+The simple lines are AI-written paraphrases of Steinsaltz. If one reads oddly, it's an easy fix in `data/<id>/gloss/`.
 
 ### Hidden content
 
 Some mishnayos deal with topics that aren't suitable for young children (in Brachos: 2:5, the wedding night, and 3:4–3:6,
-ba'al keri, niddah and similar). The simple lines already keep these vague. `data/hide.json` covers the rest at build time:
+ba'al keri, niddah and similar). The simple lines already keep these vague. `data/<id>/hide.json` (here `data/berakhot/hide.json`) covers the rest at
+build time:
 
 - `hideSteinsaltz` lists mishnayos whose Steinsaltz text is left out. Those pieces show only the simple meaning, and the
   Steinsaltz toggle and "full Steinsaltz" button don't appear.
@@ -154,11 +169,31 @@ ba'al keri, niddah and similar). The simple lines already keep these vague. `dat
 
 The gloss files keep the original text, so `validate_gloss.py` still checks it against the source, and removing a rule
 brings it back. A rule that no longer matches the gloss stops the build. `tests/data.test.ts` fails if certain
-explicit words appear in the built data.
+explicit words appear in the built data. A Hebrew-only masechta has no meanings to hide, so it has no `hide.json`.
 
-To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline, generate gloss files, and add a line
-to `MASECHTOS` in `build_data.py`. Note that progress keys (`"perek:mishnah"`, locally and in D1) don't name a masechta
-yet, so the app currently learns the first masechta in the catalog. Learning more than one needs those keys extended.
+### Adding a masechta
+
+Run everything from `apps/baalpeh`.
+
+1. **Catalog entry.** Add the masechta to `masechtos` in `data/catalog.json`, in learning order: `id` (lowercase, used
+   in file names and URLs; never rename one once shipped), `seder` (add the seder to `sedarim` if it's new), `sefaria`
+   (the book, e.g. `Mishnah_Peah`), `he`, `en` (exactly Sefaria's name after `Mishnah_`, since app links are built from
+   it) and `sources`: `["steinsaltz", "bartenura"]` if Sefaria has those translations for it, `[]` for Hebrew only.
+2. **Fetch:** `python3 scripts/fetch_sefaria.py <id>` (rerun with `--keep` if Sefaria keeps failing).
+3. **Chunk:** `python3 scripts/chunk.py <id>`.
+4. **Gloss** (only if it has translation sources; Hebrew-only masechtos skip steps 4 and 5). Follow
+   `scripts/GLOSS_PROMPT.md`, one agent per perek, each writing `data/<id>/gloss/perek_N.json`. A perek is done only
+   when `python3 scripts/validate_gloss.py <id> N` prints OK; finish with `python3 scripts/validate_gloss.py <id>`,
+   which checks every perek.
+5. **Content-suitability sweep.** Read the whole gloss (simple lines, word glosses, Steinsaltz excerpts) for topics
+   that aren't suitable for young children, as was done for Berakhot, and write `data/<id>/hide.json` with the same
+   `hideSteinsaltz` and `override` rules (see "Hidden content" above), each with its reason.
+6. **Build and test:** `npm run data`, then `npm test` and `npm run build`. The build writes the masechta's file in
+   `public/data/m/`, its line in `src/data/index.json` and its text in `worker/data/text.json`; commit all of them with
+   `data/<id>/`. Other masechtos' files keep their names unless their data changed.
+
+Progress keys that don't name a masechta (`"perek:mishnah"`) mean `DEFAULT_MASECHTA_ID` in `src/data.ts`, which is fixed
+to Berakhot, so adding a masechta or changing the catalog's order never changes what old progress refers to.
 
 ## Develop
 
@@ -203,7 +238,8 @@ On iPad/iPhone, open the site and use "Add to Home Screen".
 Hebrew text: Torat Emet 357 via [Sefaria](https://www.sefaria.org) (public domain). English: William Davidson
 Edition (Steinsaltz, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)) and The Mishna with Obadiah
 Bartenura by R. Shraga Silverstein ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)), via Sefaria. The
-"Simple" and word meanings adapt Steinsaltz, so they're CC BY-NC too. Details, including what was changed, are in
+"Simple" and word meanings adapt Steinsaltz, so they're CC BY-NC too. The English is used only for translated
+masechtos (Berakhot); Hebrew-only masechtos (Peah, Demai) ship the public-domain Hebrew alone. Details, including what was changed, are in
 [`data/LICENSES.md`](data/LICENSES.md). The app shows the attribution at `/licenses` (no sign-in needed), with links from
 the sign-in screen, each meaning's ⓘ, parent mode's settings and guest settings.
 

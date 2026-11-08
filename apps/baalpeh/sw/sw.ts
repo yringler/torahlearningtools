@@ -16,6 +16,9 @@
  *                      self-hosted here too (Fontsource, see src/fonts.css).
  *   /data/m/*          cache first, kept across deploys: one file per masechta, also content-hashed. A masechta is
  *                      saved the first time it is opened; when a new version arrives the old one is deleted.
+ *                      Every masechta has its own entry in "data-v1", so several stay downloaded side by side
+ *                      (src/data.ts isDownloaded() reads this cache). A masechta dropped from the catalog keeps its
+ *                      cached file until the browser evicts it: the worker doesn't know the catalog.
  *   /api/*, other origins (Turnstile)   never touched
  */
 export {};

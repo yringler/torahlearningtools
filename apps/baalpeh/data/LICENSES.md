@@ -1,18 +1,21 @@
 # Text sources and licenses for `data/`
 
-The files in this folder (and the bundled `src/data/berakhot.json` built from them) contain or adapt the texts below,
-all downloaded from [Sefaria](https://www.sefaria.org) by `scripts/fetch_sefaria.py`. The app shows the same
-attribution at `/licenses`.
+The files in this folder (one subfolder per masechta, `data/<id>/`), and the app files built from them
+(`public/data/m/<id>.<hash>.json`, `worker/data/text.json`), contain or adapt the texts below, all downloaded from
+[Sefaria](https://www.sefaria.org) by `scripts/fetch_sefaria.py`. The app shows the same attribution at `/licenses`.
+Which translations each masechta uses is set by its `sources` in `catalog.json`: Berakhot uses Steinsaltz and
+Bartenura; Peah and Demai are Hebrew only (public domain), with no English.
 
 | Text | Sefaria version | License | Where it appears |
 |---|---|---|---|
-| Mishnah, Hebrew with nikud | Torat Emet 357 | [Public domain](https://en.wikipedia.org/wiki/Public_domain) | `raw/*.json` (`he`), `chunks.json`, `gloss/*.json` (`he`) |
-| Steinsaltz English, R. Adin Even-Israel Steinsaltz, from The William Davidson digital edition of the Koren Noé Talmud (Koren Publishers Jerusalem) | William Davidson Edition - English | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | `raw/*.json` (`steinsaltz`); verbatim excerpts in `gloss/*.json` (`stIntro`, `st`, `stMore`) |
-| The Mishna with Obadiah Bartenura, tr. R. Shraga Silverstein | The Mishna with Obadiah Bartenura by Rabbi Shraga Silverstein | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | `raw/*.json` (`bartenura`) |
+| Mishnah, Hebrew with nikud | Torat Emet 357 | [Public domain](https://en.wikipedia.org/wiki/Public_domain) | `<id>/raw/*.json` (`he`), `<id>/chunks.json`, `<id>/gloss/*.json` (`he`) |
+| Steinsaltz English, R. Adin Even-Israel Steinsaltz, from The William Davidson digital edition of the Koren Noé Talmud (Koren Publishers Jerusalem) | William Davidson Edition - English | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | `<id>/raw/*.json` (`steinsaltz`); verbatim excerpts in `<id>/gloss/*.json` (`stIntro`, `st`, `stMore`) |
+| The Mishna with Obadiah Bartenura, tr. R. Shraga Silverstein | The Mishna with Obadiah Bartenura by Rabbi Shraga Silverstein | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) | `<id>/raw/*.json` (`bartenura`) |
 
 ## Changes and adaptations
 
-- Markup is stripped, Unicode is NFC-normalized, and the Hebrew is split into short pieces (`chunks.json`, `gloss/`).
+- Markup is stripped, Unicode is NFC-normalized, and the Hebrew is split into short pieces (`chunks.json`, `gloss/`). The
+  end-of-masechta line "סליק מסכת …" that Sefaria appends to some masechtos is dropped.
 - Steinsaltz excerpts in `gloss/` are verbatim, split to line up with the Hebrew pieces.
 - The `summary`, `en`, `explain` and word `en`/`note` fields in `gloss/` are AI-written simplifications of Steinsaltz's
   translation, checked against Bartenura (`basis` on each piece lists which). Because they adapt CC BY-NC material,
