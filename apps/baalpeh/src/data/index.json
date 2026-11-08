@@ -1,3 +1,7 @@
-{"masechtos": [
-  {"id": "berakhot", "he": "ברכות", "en": "Berakhot", "file": "/data/m/berakhot.4b6dfb81e3.json", "bytes": 268948, "perakim": [5, 8, 6, 7, 5, 8, 5, 8, 5]}
+{"sedarim": [
+  {"id": "zeraim", "he": "זרעים", "en": "Zeraim", "masechtos": [
+    {"id": "berakhot", "he": "ברכות", "en": "Berakhot", "file": "/data/m/berakhot.4b6dfb81e3.json", "bytes": 268948, "perakim": [5, 8, 6, 7, 5, 8, 5, 8, 5], "translated": true},
+    {"id": "peah", "he": "פאה", "en": "Peah", "file": "/data/m/peah.e604271c7c.json", "bytes": 154947, "perakim": [6, 8, 8, 11, 8, 11, 8, 9], "translated": false},
+    {"id": "demai", "he": "דמאי", "en": "Demai", "file": "/data/m/demai.e4c602bab1.json", "bytes": 117348, "perakim": [4, 5, 6, 7, 11, 12, 8], "translated": false}
+  ]}
 ]}
