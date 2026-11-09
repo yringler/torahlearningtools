@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { sefariaUrl, SOURCES } from "../sources";
 import type { MeaningView, Mishnah } from "../types";
 import { useWordCursor, wordAvail, wordOrdinal } from "../wordCursor";
@@ -21,6 +21,16 @@ export function MishnahStudy({ m, perek, mishnah, view, onView }: {
   const { translated } = ms;
   const [about, setAbout] = useState(false);
   const [hideMeaning, setHideMeaning] = useState(false);
+  // While meanings are hidden, the lines the learner tapped open to check themselves.
+  const [revealed, setRevealed] = useState<ReadonlySet<number>>(new Set());
+  useEffect(() => setRevealed(new Set()), [m]);
+  const onHide = (h: boolean): void => { setHideMeaning(h); setRevealed(new Set()); };
+  const toggleLine = (i: number): void =>
+    setRevealed((prev) => {
+      const next = new Set(prev);
+      if (!next.delete(i)) next.add(i);
+      return next;
+    });
   const [showFull, setShowFull] = useState(false);
   const fullBtn = useRef<HTMLButtonElement>(null);
   const fullParts: string[] = translated ? [m.stIntro ?? "", ...m.chunks.flatMap((c) => [c.st ?? "", c.stMore ?? ""])].filter(Boolean) : [];
@@ -41,9 +51,13 @@ export function MishnahStudy({ m, perek, mishnah, view, onView }: {
       {translated ? (
         <>
           <div className="toggles" dir="ltr">
-            <ViewToggle view={view} onChange={onView} allowHide hidden={hideMeaning} onHide={setHideMeaning} steinsaltz={ms.steinsaltz} />
+            <ViewToggle view={view} onChange={onView} allowHide hidden={hideMeaning} onHide={onHide} steinsaltz={ms.steinsaltz} />
           </div>
-          <p className="hint" dir="ltr">Tap any word to see what it means, then tap another word or use Next.</p>
+          <p className="hint" dir="ltr">
+            {hideMeaning
+              ? "Tap any word to see what it means. Tap a line's box to show or hide its meaning."
+              : "Tap any word to see what it means, then tap another word or use Next."}
+          </p>
         </>
       ) : (
         <p className="hint" dir="ltr">
@@ -52,7 +66,10 @@ export function MishnahStudy({ m, perek, mishnah, view, onView }: {
         </p>
       )}
       <div className="study">
-        {m.chunks.map((c, i) => (
+        {m.chunks.map((c, i) => {
+          const canToggle = translated && hideMeaning && !!c.en;
+          const open = !hideMeaning || revealed.has(i);
+          return (
           <div key={i} className="study-row">
             <CueCard
               he={c.he}
@@ -62,10 +79,12 @@ export function MishnahStudy({ m, perek, mishnah, view, onView }: {
                 onWordTap: (_: unknown, w: number) => cur.tap(i, w),
                 selectedIndex: cur.sel?.chunk === i ? cur.sel.word : undefined,
               } : {})}
+              {...(canToggle ? { onCardTap: () => toggleLine(i), cardTapHint: open ? "🙈" : "👁" } : {})}
             />
-            {translated && !hideMeaning && c.en && <Meaning key={view} chunk={c} view={view} perek={perek} mishnah={mishnah} />}
+            {translated && open && c.en && <Meaning key={view} chunk={c} view={view} perek={perek} mishnah={mishnah} />}
           </div>
-        ))}
+          );
+        })}
       </div>
       {fullParts.length > 0 && (
         <div className="full-st-wrap" dir="ltr">
