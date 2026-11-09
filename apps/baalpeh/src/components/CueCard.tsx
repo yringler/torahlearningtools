@@ -12,6 +12,10 @@ interface Props {
   selectedIndex?: number | undefined;
   /** Hidden cards (cue ≥ 2) can be tapped to peek for 2 seconds. */
   onPeek?: (() => void) | undefined;
+  /** Tapping the card outside a word (when it can't peek) calls this, e.g. to toggle the line's meaning. */
+  onCardTap?: (() => void) | undefined;
+  /** Shown as a quiet corner icon when `onCardTap` is set, to hint that the card is tappable. */
+  cardTapHint?: string | undefined;
   highlight?: boolean;
 }
 
@@ -24,7 +28,7 @@ function renderWord(w: string, cue: Cue, i: number): string {
   return "";
 }
 
-export function CueCard({ he, cue, glossWords, onWordTap, selectedIndex, onPeek, highlight = false }: Props) {
+export function CueCard({ he, cue, glossWords, onWordTap, selectedIndex, onPeek, onCardTap, cardTapHint, highlight = false }: Props) {
   const [peeking, setPeeking] = useState(false);
   const selectedRef = useRef<HTMLButtonElement>(null);
   // Keep the highlighted word on screen when Next/Back moves to it (scroll-margin keeps it clear of a sticky panel).
@@ -40,12 +44,14 @@ export function CueCard({ he, cue, glossWords, onWordTap, selectedIndex, onPeek,
   const shown: Cue = peeking ? 0 : cue;
   const ws = words(he);
   const canPeek = cue >= 2 && onPeek !== undefined && !peeking;
+  const canTap = !canPeek && onCardTap !== undefined;
 
-  const cls = ["card", `cue-${shown}`, highlight ? "card-new" : "", canPeek ? "peekable" : "", peeking ? "peeking" : ""]
+  const cls = ["card", `cue-${shown}`, highlight ? "card-new" : "", canPeek || canTap ? "peekable" : "", peeking ? "peeking" : ""]
     .filter(Boolean)
     .join(" ");
 
   const handleCard = () => {
+    if (canTap) { onCardTap?.(); return; }
     if (!canPeek) return;
     setPeeking(true);
     onPeek?.();
@@ -84,6 +90,7 @@ export function CueCard({ he, cue, glossWords, onWordTap, selectedIndex, onPeek,
         })
       )}
       {canPeek && <span className="peek-hint" aria-hidden="true">👁</span>}
+      {canTap && cardTapHint && <span className="peek-hint" aria-hidden="true">{cardTapHint}</span>}
     </div>
   );
 }
