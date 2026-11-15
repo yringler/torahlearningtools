@@ -4,7 +4,7 @@ import type { Step } from "./types";
 /**
  * The perek build-up (docs/PEREK_BUILDUP.md §1): mishnah 1 → mishnah 2 → 1+2 → mishnah 3 → 1–3 … → the whole perek,
  * the same cumulative chaining a mishnah uses for its pieces. Long perakim are split into parts of at most
- * MAX_PEREK_PART mishnayos, then the parts are joined.
+ * MAX_PEREK_PART mishnayos, and the parts are chained the same way: part 1, part 2, parts 1–2, part 3, parts 1–3 …
  *
  * Progress is stored as passed mishnah *ranges* (PerekProgress.chains), never as an index into this list, so the
  * split can change later without misplacing saved progress. Everything but perekPhrases needs only the masechta's
@@ -43,11 +43,9 @@ export function stepsForCount(n: number): PerekStep[] {
       steps.push({ kind: "mishnah", mishnah: m, label: `Mishnah ${m}` });
       if (m > a) steps.push({ kind: "chain", from: a, to: m, newest: m, label: chainLabel(a, m, si + 1) });
     }
+    // Join this part to the ones before it right away, before the next part starts.
+    if (si > 0) steps.push({ kind: "chain", from: 1, to: b, newest: b, label: b === n ? "The whole perek!" : `Parts 1–${si + 1} together` });
   });
-  for (let si = 1; si < parts.length; si++) {
-    const end = parts[si]?.[1] ?? n;
-    steps.push({ kind: "chain", from: 1, to: end, newest: end, label: end === n ? "The whole perek!" : `Parts 1–${si + 1} together` });
-  }
   return steps;
 }
 

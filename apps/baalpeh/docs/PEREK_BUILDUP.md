@@ -42,10 +42,11 @@ export function perekPracticeLabel(perek: number, from: number, to: number): str
 - **`perekSteps`**:
   - For each part `[a..b]`, the steps are `M a, M a+1, C[a..a+1], M a+2, C[a..a+2] … C[a..b]`.
   - A one-mishnah part gets **no** solo chain step, because a known mishnah has already been said by heart. A one-mishnah part can only happen when n = 1.
-  - After the parts come the joins `C[1..end of part si]` for si = 2..count.
+  - Right after part si (si = 2..count) comes its join `C[1..end of part si]`, before part si+1 starts: the parts chain like pieces.
   - Examples:
     - n=5: `M1 M2 C1-2 M3 C1-3 M4 C1-4 M5 C1-5`
     - n=8: `M1 M2 C1-2 M3 C1-3 M4 C1-4 M5 M6 C5-6 M7 C5-7 M8 C5-8 C1-8`
+    - n=12: `M1 … C1-4 M5 … C5-8 C1-8 M9 … C9-12 C1-12`
     - n=1: `[M1]`
   - **Invariant:** for n ≥ 2, the last step is `C[1..n]`. This is the "review the whole perek" step that item 2 puts right before "I'm ready to be tested".
   - `newest` is the chain's `to`.

@@ -44,7 +44,7 @@ Each mishnah is cut into child-sized **pieces** (2–6 words, split at natural p
 
 ```
 piece 1 → piece 2 → 1+2 → piece 3 → 1–3 → … → whole part
-(long mishnah) part 2 the same way → parts 1+2 → … → whole mishnah → parent check ✓
+(long mishnah) part 2 the same way → parts 1+2 → part 3 → parts 1–3 → … → whole mishnah → parent check ✓
 ```
 
 A **perek** is built up the same way, with mishnayos in place of pieces:
@@ -54,8 +54,8 @@ mishnah 1 → mishnah 2 → 1+2 → mishnah 3 → 1–3 → … → whole perek 
 → the parent listens, taps the link in the email and confirms → perek verified → the next perek opens
 ```
 
-Perakim longer than 5 mishnayos are split evenly into parts (8 → 4+4), each part is built up, then the parts are
-joined (1–8). Saying mishnayos together is self-checked like a chain inside a mishnah.
+Perakim longer than 5 mishnayos are split evenly into parts (8 → 4+4) and the parts are chained like pieces: part 1,
+part 2, parts 1+2 (1–8), part 3, parts 1–3, …; each join comes right after the part it adds. Saying mishnayos together is self-checked like a chain inside a mishnah.
 
 **Moving to the next perek is not on the honor system.** At the end of a perek the child can look the whole perek
 over (and say it once alone), then taps "I'm ready to be tested" and confirms. The server emails the account's address:
