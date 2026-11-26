@@ -95,12 +95,20 @@
       </div>
       <ul class="cards" role="list">
         <li>
-          <a class="card card--yichud" href="https://www.shaarhayichudresources.com/">
-            <span class="card-hebrew" lang="he" dir="rtl">שַׁעַר הַיִּחוּד</span>
-            <span class="card-title">Shaar Hayichud</span>
-            <span class="card-text">Texts, an English translation and classes on Shaar Hayichud.</span>
+          <div class="card card--yichud">
+            <span class="card-hebrew" lang="he" dir="rtl" aria-hidden="true">שַׁעַר הַיִּחוּד</span>
+            <a class="card-title card-link" href="https://www.shaarhayichudresources.com/" aria-describedby="yichud-desc">Shaar Hayichud</a>
+            <span class="card-text" id="yichud-desc">Texts, an English translation and classes on Shaar Hayichud.</span>
             <span class="card-cta" aria-hidden="true">Start studying <span class="arrow">&rarr;</span></span>
-          </a>
+            <div class="card-apps" role="group" aria-labelledby="yichud-apps">
+              <span class="card-apps-label" id="yichud-apps">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
+                Also as an app
+              </span>
+              <a class="card-app" href="https://apps.apple.com/us/app/shaar-hayichud-classes/id1542889125" aria-label="Shaar Hayichud on the App Store">App Store</a>
+              <a class="card-app" href="https://play.google.com/store/apps/details?id=org.yrappdev.shaar_hayichud" aria-label="Shaar Hayichud on Google Play">Google Play</a>
+            </div>
+          </div>
         </li>
         <li>
           <a class="card card--library" href="https://storylibrary.torahlearningtools.com/">
