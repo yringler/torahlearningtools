@@ -237,6 +237,45 @@ main { flex: 1; padding-bottom: 2.5rem; }
 .card-cta .arrow { transition: transform 160ms ease; }
 .card:hover .card-cta .arrow { transform: translateX(4px); }
 
+/* A card whose main link is stretched over the whole card, so the card can
+   also hold other links (e.g. app stores) without nesting <a> elements. */
+.card-link { color: inherit; text-decoration: none; }
+.card-link::after { content: ""; position: absolute; inset: 0; }
+.card:has(.card-link:focus-visible) { outline: 3px solid var(--accent); outline-offset: 4px; }
+@supports selector(:has(*)) { .card-link:focus { outline: none; } }
+
+.card-apps {
+  position: relative; z-index: 1; /* above the stretched link */
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  margin-top: 1rem; padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.card-apps-label {
+  flex-basis: 100%;
+  display: inline-flex; align-items: center; gap: 0.4em;
+  font-size: 0.9rem; font-weight: 600; color: var(--muted);
+}
+.card-apps-label svg {
+  width: 1.1em; height: 1.1em;
+  fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round;
+}
+.card-app {
+  flex: 1 1 9rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 2.75rem; padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--accent); font-weight: 700; font-size: 0.95rem;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+.card-app:hover { background: var(--accent-soft); border-color: var(--accent); }
+.card-app:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 2px;
+  background: var(--accent-soft);
+}
+.card:has(.card-app:hover) .card-cta .arrow { transform: none; }
+
 /* Sections */
 .section-head { text-align: center; margin: 0 0 1.5rem; }
 .section-title {
@@ -306,7 +345,7 @@ main { flex: 1; padding-bottom: 2.5rem; }
 .footer a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
-  .card, .card-cta .arrow { transition: none; }
+  .card, .card-cta .arrow, .card-app { transition: none; }
   .card:hover { transform: none; }
 }
 
