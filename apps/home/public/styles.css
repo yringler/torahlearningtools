@@ -28,7 +28,6 @@
   --library: #85581a;
   --library-soft: #f6ecd9;
 
-  --brand-soft: #f6e3cf;
   --kids-panel: #f8ecd6;
   --kids-panel-line: #eedab6;
 
@@ -68,7 +67,6 @@
     --library-soft: #33281a;
     /* --bedtime-night and --bedtime-gold stay the same in dark mode. */
 
-    --brand-soft: #3a2a1c;
     --kids-panel: #221d17;
     --kids-panel-line: #3a3026;
   }
@@ -241,14 +239,6 @@ main { flex: 1; padding-bottom: 2.5rem; }
 
 /* Sections */
 .section-head { text-align: center; margin: 0 0 1.5rem; }
-.section-kicker {
-  display: inline-block;
-  margin: 0 0 0.3rem;
-  font-family: var(--font-hebrew);
-  font-weight: 700;
-  font-size: 1.35rem;
-  line-height: 1.3;
-}
 .section-title {
   font-family: var(--font-display);
   font-weight: 700;
@@ -264,12 +254,6 @@ main { flex: 1; padding-bottom: 2.5rem; }
   border: 1px solid var(--kids-panel-line);
   border-radius: calc(var(--radius) + 10px);
   padding: 1.75rem 0.75rem 1rem;
-}
-.section--kids .section-kicker {
-  color: var(--brand);
-  background: var(--brand-soft);
-  padding: 0.05em 0.6em 0.1em;
-  border-radius: 999px;
 }
 .section--kids .section-title { color: var(--brand); }
 @media (min-width: 44rem) {
@@ -289,7 +273,6 @@ main { flex: 1; padding-bottom: 2.5rem; }
 .hero-mark.divider-mark { width: 1.75rem; height: 1.75rem; margin: 0; flex: none; }
 
 /* General: calm, scholarly */
-.section--general .section-kicker { color: var(--muted); }
 .section--general .card { border-radius: 16px; }
 .section--general .card::before { height: 3px; }
 .section--general .card-hebrew {
