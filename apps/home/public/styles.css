@@ -19,6 +19,17 @@
   --books-soft: #f0e6f6;
   --yichud: #9b2d45;
   --yichud-soft: #f8e4e8;
+  --stories: #b53a26;
+  --stories-soft: #fbe6e1;
+  --bedtime: #2f3a85;
+  --bedtime-soft: #e6e8f6;
+  --bedtime-night: #151b3d;
+  --bedtime-gold: #f4c56a;
+  --library: #85581a;
+  --library-soft: #f6ecd9;
+
+  --kids-panel: #f8ecd6;
+  --kids-panel-line: #eedab6;
 
   --radius: 22px;
   --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -48,6 +59,16 @@
     --books-soft: #2e2238;
     --yichud: #f2a0b0;
     --yichud-soft: #3a1f26;
+    --stories: #f59a88;
+    --stories-soft: #3a221d;
+    --bedtime: #aab4f0;
+    --bedtime-soft: #1f2340;
+    --library: #e0b46a;
+    --library-soft: #33281a;
+    /* --bedtime-night and --bedtime-gold stay the same in dark mode. */
+
+    --kids-panel: #221d17;
+    --kids-panel-line: #3a3026;
   }
 }
 
@@ -128,6 +149,8 @@ main { flex: 1; padding-bottom: 2.5rem; }
   display: grid;
   gap: 1.25rem;
 }
+/* Lets grid items shrink below their content width, so phones (320px) don't scroll sideways. */
+.cards > li { min-width: 0; }
 
 @media (min-width: 44rem) {
   .cards { grid-template-columns: 1fr 1fr; gap: 1.75rem; }
@@ -160,6 +183,11 @@ main { flex: 1; padding-bottom: 2.5rem; }
 .card--cheder { --accent: var(--cheder); --accent-soft: var(--cheder-soft); }
 .card--books { --accent: var(--books); --accent-soft: var(--books-soft); }
 .card--yichud { --accent: var(--yichud); --accent-soft: var(--yichud-soft); }
+.card--stories { --accent: var(--stories); --accent-soft: var(--stories-soft); }
+.card--bedtime { --accent: var(--bedtime); --accent-soft: var(--bedtime-soft); }
+.card--library { --accent: var(--library); --accent-soft: var(--library-soft); }
+.card--bedtime .card-hebrew,
+.card--bedtime .card-cta { color: var(--bedtime-gold); background: var(--bedtime-night); }
 
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
 .card:active { transform: translateY(0); }
@@ -208,6 +236,63 @@ main { flex: 1; padding-bottom: 2.5rem; }
 }
 .card-cta .arrow { transition: transform 160ms ease; }
 .card:hover .card-cta .arrow { transform: translateX(4px); }
+
+/* Sections */
+.section-head { text-align: center; margin: 0 0 1.5rem; }
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.6rem, 5vw, 2.1rem);
+  line-height: 1.15;
+  margin: 0;
+}
+.section-sub { margin: 0.35rem auto 0; max-width: 32rem; color: var(--muted); }
+
+/* Kids: warm panel */
+.section--kids {
+  background: var(--kids-panel);
+  border: 1px solid var(--kids-panel-line);
+  border-radius: calc(var(--radius) + 10px);
+  padding: 1.75rem 0.75rem 1rem;
+}
+.section--kids .section-title { color: var(--brand); }
+@media (min-width: 44rem) {
+  .section--kids { padding: 2.25rem 1.75rem 1.75rem; }
+}
+
+/* Divider: the hero's open book between two rules */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 36rem;
+  margin: 2.5rem auto;
+}
+.divider::before,
+.divider::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+.hero-mark.divider-mark { width: 1.75rem; height: 1.75rem; margin: 0; flex: none; }
+
+/* General: calm, scholarly */
+.section--general .card { border-radius: 16px; }
+.section--general .card::before { height: 3px; }
+.section--general .card-hebrew {
+  background: none;
+  border-radius: 0;
+  padding: 0 0 0.15em;
+  font-size: clamp(2rem, 7vw, 2.4rem);
+  border-bottom: 2px solid var(--border);
+  border-bottom-color: color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.section--general .card-cta { background: none; padding: 0.35rem 0; }
+
+.archive-note {
+  max-width: 36rem;
+  margin: 1.75rem auto 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.archive-note a { color: var(--brand); }
 
 /* Footer */
 .footer {
