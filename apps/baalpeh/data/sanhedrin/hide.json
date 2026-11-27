@@ -1,0 +1,27 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "1:1": "Steinsaltz names rape, seduction of a virgin and adultery.",
+    "1:4": "Steinsaltz describes bestiality in detail.",
+    "2:1": "Steinsaltz speaks of consummating levirate marriage.",
+    "2:2": "Steinsaltz speaks of consummating levirate marriage.",
+    "6:3": "Steinsaltz names nakedness and covering the genitals.",
+    "6:4": "Steinsaltz describes the stoning and the hanging of the body in graphic detail.",
+    "7:2": "Steinsaltz describes execution by burning in graphic detail and names adultery.",
+    "7:3": "Steinsaltz describes beheading and strangling in graphic detail.",
+    "7:4": "Steinsaltz lists forbidden relations explicitly, naming intercourse.",
+    "7:6": "Steinsaltz describes the crude worship of Ba'al Peor (defecating).",
+    "7:9": "Steinsaltz names intercourse with a betrothed virgin.",
+    "8:1": "Steinsaltz names pubic hair and genitals.",
+    "8:4": "Steinsaltz names the genitals.",
+    "8:7": "Steinsaltz names sodomy and rape.",
+    "9:1": "Steinsaltz lists forbidden relations explicitly, naming intercourse and adultery.",
+    "9:3": "Steinsaltz names adultery.",
+    "9:4": "Steinsaltz names intercourse with a mother-in-law.",
+    "9:5": "Steinsaltz describes a death by the belly rupturing.",
+    "9:6": "Steinsaltz names intercourse with a gentile woman and a priest's skull being split.",
+    "11:1": "Steinsaltz names adultery and intercourse, and quotes a gemara passage.",
+    "11:6": "Steinsaltz names intercourse, consummation and adultery."
+  }
+}

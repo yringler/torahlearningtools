@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import type { ConfigResponse } from "../../shared/api";
+import type { ConfigResponse, SignInAs } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
 import { AndroidAppNote, LicensesLink, PricingNote, PrivacyLink } from "../components/Licenses";
+import { useOpenLibrary } from "../library/open";
 import { Turnstile, type TurnstileHandle } from "./Turnstile";
 
 export const plausibleEmail = (s: string): boolean => {
@@ -10,9 +11,15 @@ export const plausibleEmail = (s: string): boolean => {
 };
 
 interface Props {
+  /** Which sign-in: the learner app or parent mode (docs/PARENT_MODE.md §9.2). */
+  as: SignInAs;
   initialEmail?: string | undefined;
+  /** Coming from learner mode: the account's email, read-only. */
+  lockEmail?: boolean | undefined;
   reason?: "expired" | undefined;
   onSent: (email: string) => void;
+  /** "‹ Back" to the choice. */
+  onBack?: (() => void) | undefined;
   /** "Continue as guest": use the app with no account. */
   onGuest?: (() => void) | undefined;
 }
@@ -27,7 +34,31 @@ export function AuthFrame({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function Login({ initialEmail, reason, onSent, onGuest }: Props) {
+/** Step 1 of signing in: learner or parent. */
+export function Choose({ reason, onPick, onGuest }: { reason?: "expired" | undefined; onPick: (as: SignInAs) => void; onGuest: () => void }) {
+  return (
+    <AuthFrame>
+      {reason === "expired" && <p className="notice">Your sign-in expired. Please sign in again.</p>}
+      <h2>Welcome</h2>
+      <div className="choice-list">
+        <button className="choice" onClick={() => onPick("learner")}>
+          <span className="choice-icon" aria-hidden="true">📖</span>
+          <span className="choice-text"><b>Sign in as learner</b><span className="sub">For children learning on this device</span></span>
+        </button>
+        <button className="choice" onClick={() => onPick("parent")}>
+          <span className="choice-icon" aria-hidden="true">🔑</span>
+          <span className="choice-text"><b>Sign in as parent</b><span className="sub">Add children, see progress, change settings. First time here? Start here.</span></span>
+        </button>
+      </div>
+      <PricingNote />
+      <GuestOption onGuest={onGuest} />
+      <LibraryOption />
+      <AndroidAppNote />
+    </AuthFrame>
+  );
+}
+
+export function Login({ as, initialEmail, lockEmail, reason, onSent, onBack, onGuest }: Props) {
   const [config, setConfig] = useState<ConfigResponse | null>(null);
   const [configError, setConfigError] = useState(false);
   const [email, setEmail] = useState(initialEmail ?? "");
@@ -49,7 +80,7 @@ export function Login({ initialEmail, reason, onSent, onGuest }: Props) {
     setError("");
     const addr = email.trim();
     try {
-      await api.requestLogin({ email: addr, turnstileToken: token });
+      await api.requestLogin({ email: addr, turnstileToken: token, as });
       widget.current?.reset();
       onSent(addr);
       return;
@@ -72,15 +103,21 @@ export function Login({ initialEmail, reason, onSent, onGuest }: Props) {
 
   return (
     <AuthFrame>
-      <h2>Parent sign-in</h2>
+      {onBack && <button type="button" className="link-btn back-link" onClick={onBack}>‹ Back</button>}
+      <h2>{as === "parent" ? "Parent sign-in" : "Learner sign-in"}</h2>
       {reason === "expired" && <p className="notice">Your sign-in expired. Please sign in again.</p>}
-      <p className="hint">We'll email you a sign-in link and a code. No password needed.</p>
+      <p className="hint">{as === "parent"
+        ? "We'll email you a parent sign-in link and a code. Then you'll enter your 4-digit parent PIN, or choose one the first time."
+        : "Use your family's account email. We'll email a sign-in link and a code to it. No password needed."}</p>
       <form onSubmit={(e) => void submit(e)} className="auth-form">
         <label className="field">
           <span>Email</span>
-          <input type="email" autoComplete="email" inputMode="email" value={email} placeholder="you@example.com"
+          <input type="email" autoComplete="email" inputMode="email" value={email} placeholder="you@example.com" readOnly={lockEmail === true}
             onChange={(e) => setEmail(e.target.value)} required />
         </label>
+        {lockEmail && (
+          <p className="hint">We'll send it to {email}. <span className="small">Different account? Sign this device out in parent mode first.</span></p>
+        )}
         {config ? (
           <Turnstile ref={widget} siteKey={config.turnstileSiteKey} onToken={setToken}
             onLoadError={() => setError("The security check couldn't load. Check your connection and reload.")} />
@@ -97,7 +134,6 @@ export function Login({ initialEmail, reason, onSent, onGuest }: Props) {
       </form>
       <PricingNote />
       {onGuest && <GuestOption onGuest={onGuest} />}
-      <AndroidAppNote />
     </AuthFrame>
   );
 }
@@ -108,6 +144,18 @@ export function GuestOption({ onGuest }: { onGuest: () => void }) {
     <div className="guest-option">
       <button type="button" className="link-btn" onClick={onGuest}>Continue as guest</button>
       <p className="hint">Try without an account. Progress is saved only in this browser.</p>
+    </div>
+  );
+}
+
+/** The library: read any mishnah with its meanings, no account and nothing saved (docs/LIBRARY.md). */
+export function LibraryOption() {
+  const open = useOpenLibrary();
+  if (!open) return null;
+  return (
+    <div className="guest-option">
+      <button type="button" className="link-btn" onClick={() => open()}>📚 Open the Library</button>
+      <p className="hint">Read and learn any mishnah. No account needed.</p>
     </div>
   );
 }

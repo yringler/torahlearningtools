@@ -1,0 +1,3888 @@
+[
+ {
+  "perek": 4,
+  "mishnah": 1,
+  "summary": "A shevuas ha'eidus is when people swear that they do not know any testimony for someone. It applies only to people who are allowed to be witnesses. Rabbi Meir and the Sages discuss when they become chayav.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁבוּעַת הָעֵדוּת נוֹהֶגֶת בַּאֲנָשִׁים וְלֹא בְנָשִׁים,",
+    "en": "A shevuas ha'eidus applies to men and not to women,",
+    "st": "<b>The oath of testimony is practiced with regard to men but not with regard to women, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעַת",
+      "en": "an oath of"
+     },
+     {
+      "he": "הָעֵדוּת",
+      "en": "the testimony",
+      "note": "Shevuas ha'eidus: witnesses swear that they know no testimony for someone."
+     },
+     {
+      "he": "נוֹהֶגֶת",
+      "en": "applies"
+     },
+     {
+      "he": "בַּאֲנָשִׁים",
+      "en": "to men"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְנָשִׁים,",
+      "en": "to women"
+     }
+    ]
+   },
+   {
+    "he": "בִּרְחוֹקִין וְלֹא בִקְרוֹבִין,",
+    "en": "to strangers and not to relatives,",
+    "st": "<b>with regard to non-relatives</b> of the litigants <b>but not with regard to relatives, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּרְחוֹקִין",
+      "en": "to far ones"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בִקְרוֹבִין,",
+      "en": "to close ones"
+     }
+    ]
+   },
+   {
+    "he": "בִּכְשֵׁרִים וְלֹא בִפְסוּלִין.",
+    "en": "to people fit to be witnesses, and not to people who are not fit.",
+    "st": "<b>with regard to</b> those <b>fit</b> to testify <b>but not with regard to</b> those <b>unfit</b> to testify due to a transgression that they performed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּכְשֵׁרִים",
+      "en": "to the fit ones"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בִפְסוּלִין.",
+      "en": "to the unfit ones"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָהּ נוֹהֶגֶת אֶלָּא בָרְאוּיִין לְהָעִיד,",
+    "en": "It applies only to people who are able to testify.",
+    "st": "<b>And</b> the oath of testimony <b>is practiced only with regard to</b> those <b>fit to testify.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָהּ",
+      "en": "and it does not"
+     },
+     {
+      "he": "נוֹהֶגֶת",
+      "en": "apply"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בָרְאוּיִין",
+      "en": "to those fit"
+     },
+     {
+      "he": "לְהָעִיד,",
+      "en": "to testify"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְנֵי בֵית דִּין וְשֶׁלֹּא",
+    "en": "In front of a beis din or not",
+    "st": "The oath of testimony is practiced both <b>in the presence of a court and not </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְנֵי בֵית דִּין,",
+    "en": "in front of a beis din,",
+    "st": "<b>in the presence of a court,</b> when the potential witness takes the oath",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "מִפִּי עַצְמוֹ,",
+    "en": "when he swears by himself.",
+    "st": "<b>on his own. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "וּמִפִּי אֲחֵרִים,",
+    "en": "But if others make him swear,",
+    "st": "<b>But</b> if the oath is administered <b>by others</b>",
+    "stMore": "and those denying that they witnessed the incident in question neither take an oath nor answer amen to the administered oath,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִפִּי",
+      "en": "and from the mouth of"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "אֵין חַיָּבִין עַד שֶׁיִּכְפְּרוּ",
+    "en": "they are not chayav until they deny",
+    "st": "<b>they are not liable until they deny</b> any knowledge of the incident in question",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּכְפְּרוּ",
+      "en": "they deny"
+     }
+    ]
+   },
+   {
+    "he": "בָהֶן בְּבֵית דִּין,",
+    "en": "it in front of a beis din.",
+    "st": "<b>in court.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָהֶן",
+      "en": "about it"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "This is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין מִפִּי עַצְמוֹ וּבֵין מִפִּי אֲחֵרִים,",
+    "en": "Whether he swears by himself or others make him swear,",
+    "st": "<b>Whether</b> one of the witnesses takes the oath <b>on his own or whether</b> the oath is administered <b>by others,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "or whether"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָן חַיָּבִין עַד שֶׁיִּכְפְּרוּ",
+    "en": "they are not chayav until they deny",
+    "st": "the witnesses <b>are not liable until they deny</b> any knowledge of the incident in question before the litigants",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָן",
+      "en": "they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּכְפְּרוּ",
+      "en": "they deny"
+     }
+    ]
+   },
+   {
+    "he": "בָהֶן בְּבֵית דִּין:",
+    "en": "it in front of a beis din.",
+    "st": "<b>in court.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָהֶן",
+      "en": "about it"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "דִּין:",
+      "en": "judgment"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 2,
+  "summary": "Witnesses who swear falsely bring a korban oleh v'yored. They are chayav if they knew they were witnesses, even if they made a mistake about the oath.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְחַיָּבִין עַל זְדוֹן הַשְּׁבוּעָה,",
+    "en": "One is chayav for swearing falsely on purpose,",
+    "st": "<b>And one is liable for</b> the act of taking a false <b>oath with intent </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּבִין",
+      "en": "and they are liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "זְדוֹן",
+      "en": "doing on purpose"
+     },
+     {
+      "he": "הַשְּׁבוּעָה,",
+      "en": "the oath"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל שִׁגְגָתָהּ עִם זְדוֹן הָעֵדוּת,",
+    "en": "and for a mistake about the oath, when he knew about the testimony.",
+    "explain": "He knew he saw it, but did not know the oath was so serious.",
+    "st": "<b>and for an unwitting</b> act of taking a false oath, i.e., he is unaware of the liability for taking a false oath, provided that he takes the oath <b>with intent</b> in terms of <b>the testimony,</b>",
+    "stMore": "i.e., he takes an oath that he has no knowledge of the matter even though he knows that he witnessed the incident.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "שִׁגְגָתָהּ",
+      "en": "its mistake"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "זְדוֹן",
+      "en": "knowing on purpose"
+     },
+     {
+      "he": "הָעֵדוּת,",
+      "en": "the testimony"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָן חַיָּבִין עַל שִׁגְגָתָהּ.",
+    "en": "But they are not chayav for a mistake about the testimony.",
+    "explain": "They really thought they knew nothing.",
+    "st": "<b>But</b> witnesses <b>are not liable for</b> taking the oath if they were <b>unwitting</b>",
+    "stMore": "in terms of the testimony, i.e., they believe that they have no knowledge of the matter.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָן",
+      "en": "and they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "שִׁגְגָתָהּ.",
+      "en": "its mistake"
+     }
+    ]
+   },
+   {
+    "he": "וּמַה הֵן חַיָּבִין עַל זְדוֹן הַשְּׁבוּעָה,",
+    "en": "And what are they chayav for swearing falsely on purpose?",
+    "st": "<b>And what are they liable for</b> by taking a false <b>oath with intent?</b> They are liable to bring",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַה",
+      "en": "and what"
+     },
+     {
+      "he": "הֵן",
+      "en": "are they"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "זְדוֹן",
+      "en": "doing on purpose"
+     },
+     {
+      "he": "הַשְּׁבוּעָה,",
+      "en": "the oath"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבָּן עוֹלֶה וְיוֹרֵד:",
+    "en": "A korban oleh v'yored.",
+    "st": "<b>a sliding-scale offering.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבָּן",
+      "en": "a korban"
+     },
+     {
+      "he": "עוֹלֶה",
+      "en": "that goes up"
+     },
+     {
+      "he": "וְיוֹרֵד:",
+      "en": "and down"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 3,
+  "summary": "How a shevuas ha'eidus works: the witnesses swear that they know nothing. If he made them swear many times outside beis din and then they denied in beis din, they are chayav for each oath; inside beis din, only once.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁבוּעַת הָעֵדוּת כֵּיצַד.",
+    "en": "How does a shevuas ha'eidus work?",
+    "st": "Liability to bring a sliding-scale offering for taking a false <b>oath of testimony, how so?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעַת",
+      "en": "an oath of"
+     },
+     {
+      "he": "הָעֵדוּת",
+      "en": "the testimony"
+     },
+     {
+      "he": "כֵּיצַד.",
+      "en": "how"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לִשְׁנַיִם בֹּאוּ וַהֲעִידוּנִי.",
+    "en": "If someone said to two people, \"Come and testify for me,\"",
+    "st": "In a case where the plaintiff <b>said to two</b> individuals: <b>Come and testify</b> on <b>my</b> behalf, and they replied:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לִשְׁנַיִם",
+      "en": "to two"
+     },
+     {
+      "he": "בֹּאוּ",
+      "en": "come"
+     },
+     {
+      "he": "וַהֲעִידוּנִי.",
+      "en": "and testify for me"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין אָנוּ יוֹדְעִין לְךָ עֵדוּת,",
+    "en": "and they said, \"We swear we do not know any testimony for you,\"",
+    "st": "On our <b>oath we do not know any testimony on your</b>",
+    "stMore": "behalf, i.e., we do not have any knowledge of the matter you speak of,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "עֵדוּת,",
+      "en": "testimony"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁאָמְרוּ לוֹ אֵין",
+    "en": "or they said to him, \"We do not",
+    "st": "<b>or</b> in a case where <b>they said to him: We do not </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁאָמְרוּ",
+      "en": "that they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "אָנוּ יוֹדְעִין לְךָ עֵדוּת,",
+    "en": "know any testimony for you,\"",
+    "st": "<b>know</b> any <b>testimony on your</b> behalf, and he said to them:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "עֵדוּת,",
+      "en": "testimony"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם וְאָמְרוּ אָמֵן,",
+    "en": "and he said, \"I make you swear,\" and they said \"Amen,\"",
+    "st": "<b>I administer an oath to you, and they said: Amen;</b> if it was determined that they lied,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם",
+      "en": "upon you"
+     },
+     {
+      "he": "וְאָמְרוּ",
+      "en": "and they said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ חַיָּבִין.",
+    "en": "they are chayav.",
+    "st": "<b>these</b> two witnesses <b>are liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "are chayav"
+     }
+    ]
+   },
+   {
+    "he": "הִשְׁבִּיעַ עֲלֵיהֶן חֲמִשָּׁה פְעָמִים חוּץ לְבֵית דִּין",
+    "en": "If he made them swear five times outside of beis din,",
+    "st": "If <b>he administered an oath to them five times outside the court, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִשְׁבִּיעַ",
+      "en": "he made swear"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "upon them"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "פְעָמִים",
+      "en": "times"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "of the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "וּבָאוּ לְבֵית דִּין וְהוֹדוּ,",
+    "en": "and then they came to beis din and admitted,",
+    "st": "<b>and they came to court and admitted</b> that they had knowledge of the incident in question and testified,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָאוּ",
+      "en": "and they came"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "וְהוֹדוּ,",
+      "en": "and admitted"
+     }
+    ]
+   },
+   {
+    "he": "פְּטוּרִים. כָּפְרוּ,",
+    "en": "they are patur. If they denied,",
+    "st": "they are <b>exempt.</b> But if <b>they denied</b> knowledge of the incident in court as well,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּטוּרִים.",
+      "en": "they are patur"
+     },
+     {
+      "he": "כָּפְרוּ,",
+      "en": "they denied"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִים עַל כָּל אַחַת וְאֶחָת.",
+    "en": "they are chayav for each and every oath.",
+    "st": "they are <b>liable for each and every one</b> of the oaths administered to them outside the court.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִים",
+      "en": "they are chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "הִשְׁבִּיעַ עֲלֵיהֶן חֲמִשָּׁה פְעָמִים",
+    "en": "If he made them swear five times",
+    "st": "If <b>he administered an oath to them five times </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִשְׁבִּיעַ",
+      "en": "he made swear"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "upon them"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "פְעָמִים",
+      "en": "times"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְנֵי בֵית דִּין וְכָפְרוּ,",
+    "en": "in front of beis din, and they denied,",
+    "st": "<b>before the court, and they denied</b> knowledge of the incident,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "וְכָפְרוּ,",
+      "en": "and they denied"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָן חַיָּבִין אֶלָּא אַחַת.",
+    "en": "they are chayav only once.",
+    "st": "<b>they are liable</b> for taking <b>only one</b> false oath.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָן",
+      "en": "they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "chayav"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי שִׁמְעוֹן,",
+    "en": "Rabbi Shimon said,",
+    "st": "<b>Rabbi Shimon said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן,",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "מַה טַּעַם,",
+    "en": "What is the reason?",
+    "st": "<b>What is the reason</b> for this ruling?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "טַּעַם,",
+      "en": "is the reason"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וְאֵינָם יְכוֹלִין לַחֲזֹר וּלְהוֹדוֹת:",
+    "en": "Because they cannot go back and admit.",
+    "explain": "Once they denied in beis din, they cannot take it back.",
+    "st": "<b>Since</b> once they denied that they had any knowledge of the incident <b>they can no</b> longer <b>retract</b> that denial <b>and admit</b> that they have knowledge of the matter.",
+    "stMore": "Therefore, there was only one oath of testimony, and there is no liability for the remaining oaths.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וְאֵינָם",
+      "en": "and they are not"
+     },
+     {
+      "he": "יְכוֹלִין",
+      "en": "able"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to go back"
+     },
+     {
+      "he": "וּלְהוֹדוֹת:",
+      "en": "and to admit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 4,
+  "summary": "If both witnesses deny together, both are chayav. If one denies after the other, only the first is chayav. With two groups of witnesses, both groups can be chayav.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּפְרוּ שְׁנֵיהֶן כְּאַחַת,",
+    "en": "If both witnesses denied together,",
+    "st": "If <b>both of</b> the witnesses <b>denied</b> knowledge of the incident <b>together, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּפְרוּ",
+      "en": "they denied"
+     },
+     {
+      "he": "שְׁנֵיהֶן",
+      "en": "both of them"
+     },
+     {
+      "he": "כְּאַחַת,",
+      "en": "as one"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶן חַיָּבִין.",
+    "en": "both are chayav.",
+    "st": "<b>both of them are liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶן",
+      "en": "both of them"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "are chayav"
+     }
+    ]
+   },
+   {
+    "he": "בָּזֶה אַחַר זֶה,",
+    "en": "If one after the other,",
+    "st": "If they denied knowledge <b>one after the other, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּזֶה",
+      "en": "this"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "זֶה,",
+      "en": "that"
+     }
+    ]
+   },
+   {
+    "he": "הָרִאשׁוֹן חַיָּב וְהַשֵּׁנִי פָטוּר.",
+    "en": "the first is chayav and the second is patur.",
+    "explain": "After the first denies, one witness alone cannot win the case.",
+    "st": "<b>the first</b> who denied knowledge is <b>liable, and the second</b> is <b>exempt,</b>",
+    "stMore": "as once the first witness denies knowledge of the incident, the second is an individual witness, whose testimony is not decisive.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is chayav"
+     },
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "פָטוּר.",
+      "en": "is patur"
+     }
+    ]
+   },
+   {
+    "he": "כָּפַר אֶחָד וְהוֹדָה אֶחָד,",
+    "en": "If one denied and one admitted,",
+    "st": "If <b>one</b> of the two witnesses <b>denied</b> knowledge of the incident, <b>and</b> the other <b>one admitted</b> that he had knowledge and proceeded to testify,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּפַר",
+      "en": "denied"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְהוֹדָה",
+      "en": "and admitted"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "הַכּוֹפֵר חַיָּב.",
+    "en": "the one who denied is chayav.",
+    "st": "<b>the one who denies</b> knowledge of the incident is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכּוֹפֵר",
+      "en": "the one who denies"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "is chayav"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ שְׁתֵּי כִתֵּי עֵדִים,",
+    "en": "If there were two groups of witnesses,",
+    "st": "If <b>there were two sets of witnesses</b> that took the oath of testimony,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "כִתֵּי",
+      "en": "groups of"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "כָּפְרָה הָרִאשׁוֹנָה וְאַחַר כָּךְ כָּפְרָה הַשְּׁנִיָּה,",
+    "en": "and the first group denied, and then the second group denied,",
+    "st": "and <b>the first</b> set <b>denied</b> knowledge of the matter <b>and then the second</b> set <b>denied</b> knowledge of the matter,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּפְרָה",
+      "en": "denied"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "כָּפְרָה",
+      "en": "denied"
+     },
+     {
+      "he": "הַשְּׁנִיָּה,",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּיהֶם חַיָּבוֹת,",
+    "en": "both groups are chayav,",
+    "st": "<b>both of</b> the sets <b>are liable, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "חַיָּבוֹת,",
+      "en": "are chayav"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהָעֵדוּת יְכוֹלָה לְהִתְקַיֵּם בִּשְׁתֵּיהֶן:",
+    "en": "because either group could have given the testimony.",
+    "st": "<b>because the testimony can exist with either of them,</b>",
+    "stMore": "as even after the first set denies knowledge of the incident, the second remains capable of providing decisive testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהָעֵדוּת",
+      "en": "that the testimony"
+     },
+     {
+      "he": "יְכוֹלָה",
+      "en": "can"
+     },
+     {
+      "he": "לְהִתְקַיֵּם",
+      "en": "stand"
+     },
+     {
+      "he": "בִּשְׁתֵּיהֶן:",
+      "en": "with both of them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 5,
+  "summary": "If the witnesses swore one general oath that they know nothing, they are chayav once. If they named each thing in their oath, they are chayav for each one.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם אִם לֹא תָבֹאוּ",
+    "en": "If he said, \"I make you swear that you will come",
+    "st": "In a case where the plaintiff said to the witnesses: <b>I administer an oath to you</b> concerning your refusal to testify <b>if you do not come </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם",
+      "en": "upon you"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תָבֹאוּ",
+      "en": "you come"
+     }
+    ]
+   },
+   {
+    "he": "וּתְעִידוּנִי שֶׁיֵּשׁ לִי בְיַד פְּלוֹנִי פִּקָּדוֹן",
+    "en": "and testify that so-and-so has my deposit,",
+    "st": "<b>and testify on my behalf that I have in the possession of so-and-so a deposit, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְעִידוּנִי",
+      "en": "and testify for me"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "פִּקָּדוֹן",
+      "en": "a deposit",
+      "note": "Something given to someone to watch."
+     }
+    ]
+   },
+   {
+    "he": "וּתְשׂוּמֶת יָד וְגָזֵל וַאֲבֵדָה.",
+    "en": "and my loan, and a stolen thing, and a lost thing,\"",
+    "st": "an outstanding <b>loan, and a stolen item, and a lost item,</b> and they lied in reply:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְשׂוּמֶת",
+      "en": "and the putting of"
+     },
+     {
+      "he": "יָד",
+      "en": "hand",
+      "note": "A loan."
+     },
+     {
+      "he": "וְגָזֵל",
+      "en": "and a stolen thing"
+     },
+     {
+      "he": "וַאֲבֵדָה.",
+      "en": "and a lost thing"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין אָנוּ יוֹדְעִין לְךָ עֵדוּת,",
+    "en": "and they said, \"We swear we do not know any testimony for you,\"",
+    "st": "On our <b>oath we do not know</b> any <b>testimony on your behalf, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "עֵדוּת,",
+      "en": "testimony"
+     }
+    ]
+   },
+   {
+    "he": "אֵין חַיָּבִין אֶלָּא אַחַת.",
+    "en": "they are chayav only once.",
+    "st": "<b>they are liable</b> for taking <b>only one</b> false oath of testimony.",
+    "stMore": "But if they lied in reply:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין אָנוּ יוֹדְעִין שֶׁיֵּשׁ",
+    "en": "But if they said, \"We swear we do not know that",
+    "st": "On our <b>oath we do not know that </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     }
+    ]
+   },
+   {
+    "he": "לְךָ בְיַד פְּלוֹנִי פִּקָּדוֹן",
+    "en": "so-and-so has your deposit,",
+    "st": "<b>you have in the possession of so-and-so a deposit, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "פִּקָּדוֹן",
+      "en": "a deposit"
+     }
+    ]
+   },
+   {
+    "he": "וּתְשׂוּמֶת יָד וְגָזֵל וַאֲבֵדָה,",
+    "en": "or loan, or stolen thing, or lost thing,\"",
+    "st": "an outstanding <b>loan, and a stolen item, and a lost item, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְשׂוּמֶת",
+      "en": "and the putting of"
+     },
+     {
+      "he": "יָד",
+      "en": "hand"
+     },
+     {
+      "he": "וְגָזֵל",
+      "en": "and a stolen thing"
+     },
+     {
+      "he": "וַאֲבֵדָה,",
+      "en": "and a lost thing"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עַל כָּל אַחַת וְאֶחָת.",
+    "en": "they are chayav for each and every one.",
+    "st": "<b>they are liable for each and every one</b> of the components of the claim.",
+    "stMore": "It is as though they took a separate oath with regard to each of the details of the claim. In a case where the plaintiff said to the witnesses:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם אִם לֹא",
+    "en": "If he said, \"I make you swear that you will",
+    "st": "<b>I administer an oath to you</b> concerning your refusal to testify <b>if you do not </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם",
+      "en": "upon you"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "תָבֹאוּ וּתְעִידוּנִי שֶׁיֵּשׁ לִי בְיַד",
+    "en": "come and testify that I have, with",
+    "st": "<b>come and testify that I have in the possession of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תָבֹאוּ",
+      "en": "you come"
+     },
+     {
+      "he": "וּתְעִידוּנִי",
+      "en": "and testify for me"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיַד",
+      "en": "in the hand of"
+     }
+    ]
+   },
+   {
+    "he": "פְּלוֹנִי פִּקְדוֹן חִטִּין וּשְׂעֹרִין וְכֻסְּמִין.",
+    "en": "so-and-so, a deposit of wheat, barley and spelt,\"",
+    "st": "<b>so-and-so a deposit of wheat, and barley, and spelt,</b> and they lied in reply:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "פִּקְדוֹן",
+      "en": "a deposit of"
+     },
+     {
+      "he": "חִטִּין",
+      "en": "wheat"
+     },
+     {
+      "he": "וּשְׂעֹרִין",
+      "en": "and barley"
+     },
+     {
+      "he": "וְכֻסְּמִין.",
+      "en": "and spelt"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין אָנוּ יוֹדְעִין לְךָ עֵדוּת,",
+    "en": "and they said, \"We swear we do not know any testimony for you,\"",
+    "st": "On our <b>oath we do not know</b> any <b>testimony on your</b> behalf,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "עֵדוּת,",
+      "en": "testimony"
+     }
+    ]
+   },
+   {
+    "he": "אֵין חַיָּבִין אֶלָּא אַחַת.",
+    "en": "they are chayav only once.",
+    "st": "<b>they are liable</b> for taking <b>only one</b> false oath of testimony.",
+    "stMore": "But if they lied in reply:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין אָנוּ יוֹדְעִין לְךָ",
+    "en": "But if they said, \"We swear we do not know for you",
+    "st": "On our <b>oath we do not know</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּת שֶׁיֵּשׁ לְךָ בְיַד פְּלוֹנִי",
+    "en": "testimony that so-and-so has your",
+    "st": "any <b>testimony on your</b> behalf <b>that you have in the possession of so-and-so </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "חִטִּין וּשְׂעֹרִין וְכֻסְּמִין,",
+    "en": "wheat, barley and spelt,\"",
+    "st": "<b>wheat, and barley, and spelt, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חִטִּין",
+      "en": "wheat"
+     },
+     {
+      "he": "וּשְׂעֹרִין",
+      "en": "and barley"
+     },
+     {
+      "he": "וְכֻסְּמִין,",
+      "en": "and spelt"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עַל כָּל אַחַת וְאֶחָת:",
+    "en": "they are chayav for each and every one.",
+    "st": "<b>they are liable for each and every one</b> of the components of the claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "they are liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת:",
+      "en": "and one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 6,
+  "summary": "More examples of claims for money: damages, a thief's extra payments, and payments for hurting someone. If witnesses swear falsely that they know nothing about it, they are chayav.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם אִם לֹא",
+    "en": "If he said, \"I make you swear that you will",
+    "st": "In a case where the plaintiff said to the witnesses: <b>I administer an oath to you</b> concerning your refusal to testify <b>if you do not </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם",
+      "en": "upon you"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "תָבֹאוּ וּתְעִידוּנִי שֶׁיֵּשׁ לִי בְיַד",
+    "en": "come and testify that I have, from",
+    "st": "<b>come and testify on my behalf that I have in the possession of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תָבֹאוּ",
+      "en": "you come"
+     },
+     {
+      "he": "וּתְעִידוּנִי",
+      "en": "and testify for me"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיַד",
+      "en": "in the hand of"
+     }
+    ]
+   },
+   {
+    "he": "פְּלוֹנִי נֶזֶק וַחֲצִי נֶזֶק,",
+    "en": "so-and-so, money for damage, or half-damage,",
+    "st": "<b>so-and-so</b> an outstanding payment for <b>damage; or</b> an outstanding payment for <b>half the damage,</b>",
+    "stMore": "which the owner pays for damage caused by his innocuous ox goring another animal;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "וַחֲצִי",
+      "en": "and half"
+     },
+     {
+      "he": "נֶזֶק,",
+      "en": "damage",
+      "note": "Half-damage is paid when an ox that usually does not gore causes damage."
+     }
+    ]
+   },
+   {
+    "he": "תַּשְׁלוּמֵי כֶפֶל,",
+    "en": "or double payment,",
+    "st": "<b>or</b> with regard to an outstanding <b>payment of double</b> the principal that a thief must pay the owner of the stolen item;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "כֶפֶל,",
+      "en": "double",
+      "note": "A thief must pay back double what he stole."
+     }
+    ]
+   },
+   {
+    "he": "תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה,",
+    "en": "or payment of four or five times,",
+    "st": "<b>or</b> with regard to an outstanding <b>payment of four or five</b>",
+    "stMore": "times the principal that a thief pays when he stole a sheep or an ox, respectively, and then slaughtered or sold it;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה,",
+      "en": "and five",
+      "note": "A thief who stole a sheep or an ox and then slaughtered or sold it pays four or five times."
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁאָנַס אִישׁ פְּלוֹנִי אֶת בִּתִּי,",
+    "en": "or that a man did a terrible wrong to my daughter,",
+    "st": "<b>or</b> in a case where the plaintiff said: I administer an oath to you concerning your refusal to testify if you do not come and testify <b>that so-and-so raped my daughter; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁאָנַס",
+      "en": "and that he harmed"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בִּתִּי,",
+      "en": "my daughter"
+     }
+    ]
+   },
+   {
+    "he": "וּפִתָּה אֶת בִּתִּי,",
+    "en": "or tricked my daughter,",
+    "st": "<b>or, he seduced my daughter; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפִתָּה",
+      "en": "and he tricked"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בִּתִּי,",
+      "en": "my daughter"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁהִכַּנִי בְנִי,",
+    "en": "or that my son hit me,",
+    "st": "<b>or, that my son struck me; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁהִכַּנִי",
+      "en": "and that he hit me"
+     },
+     {
+      "he": "בְנִי,",
+      "en": "my son"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁחָבַל בִּי חֲבֵרִי,",
+    "en": "or that my friend hurt me,",
+    "st": "<b>or, that another injured me; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁחָבַל",
+      "en": "and that he hurt"
+     },
+     {
+      "he": "בִּי",
+      "en": "me"
+     },
+     {
+      "he": "חֲבֵרִי,",
+      "en": "my friend"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁהִדְלִיק אֶת גְּדִישִׁי בְיוֹם הַכִּפּוּרִים,",
+    "en": "or that he set my pile of grain on fire on Yom Kippur,\"",
+    "st": "<b>or, that he set my stack of grain on fire on Yom Kippur;</b>",
+    "stMore": "if in any of these cases the witnesses took an oath falsely denying any knowledge of the matter on behalf of the plaintiff,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁהִדְלִיק",
+      "en": "and that he lit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "גְּדִישִׁי",
+      "en": "my pile of grain"
+     },
+     {
+      "he": "בְיוֹם",
+      "en": "on Yom"
+     },
+     {
+      "he": "הַכִּפּוּרִים,",
+      "en": "Kippur"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ חַיָּבִין:",
+    "en": "these witnesses are chayav.",
+    "st": "<b>these</b> witnesses <b>are liable</b> for taking a false oath of testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "חַיָּבִין:",
+      "en": "are chayav"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 7,
+  "summary": "If the testimony is not about money, like whether someone is a Kohen or a Levi, witnesses who swear falsely that they know nothing are patur.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם אִם לֹא",
+    "en": "If he said, \"I make you swear that you will",
+    "st": "In a case where the plaintiff said to two witnesses: <b>I administer an oath to you</b> concerning your refusal to testify <b>if you do not </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם",
+      "en": "upon you"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "תָבֹאוּ וּתְעִידוּנִי שֶׁאֲנִי כֹהֵן,",
+    "en": "come and testify that I am a Kohen,\"",
+    "st": "<b>come and testify that I am a priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תָבֹאוּ",
+      "en": "you come"
+     },
+     {
+      "he": "וּתְעִידוּנִי",
+      "en": "and testify for me"
+     },
+     {
+      "he": "שֶׁאֲנִי",
+      "en": "that I am"
+     },
+     {
+      "he": "כֹהֵן,",
+      "en": "a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֲנִי לֵוִי,",
+    "en": "or \"that I am a Levi,\"",
+    "st": "or <b>that I am a Levite,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֲנִי",
+      "en": "that I am"
+     },
+     {
+      "he": "לֵוִי,",
+      "en": "a Levi"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינִי בֶן גְּרוּשָׁה,",
+    "en": "or \"that I am not the son of a divorced woman,\"",
+    "explain": "That my father, a Kohen, did not marry a woman a Kohen may not marry.",
+    "st": "or <b>that I am not the son of</b> a priest and <b>a divorced woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I am not"
+     },
+     {
+      "he": "בֶן",
+      "en": "the son of"
+     },
+     {
+      "he": "גְּרוּשָׁה,",
+      "en": "a divorced woman"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינִי בֶן חֲלוּצָה,",
+    "en": "or \"that I am not the son of a chalutzah,\"",
+    "st": "or <b>that I am not the son of</b> a priest and <b>a ḥalutza,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I am not"
+     },
+     {
+      "he": "בֶן",
+      "en": "the son of"
+     },
+     {
+      "he": "חֲלוּצָה,",
+      "en": "a chalutzah",
+      "note": "A widow who did chalitzah; a Kohen may not marry her."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִישׁ פְּלוֹנִי כֹהֵן,",
+    "en": "or \"that so-and-so is a Kohen,\"",
+    "st": "or <b>that so-and-so is a priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִישׁ",
+      "en": "that a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "כֹהֵן,",
+      "en": "is a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִישׁ פְּלוֹנִי לֵוִי,",
+    "en": "or \"that so-and-so is a Levi,\"",
+    "st": "or <b>that so-and-so is a Levite,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִישׁ",
+      "en": "that a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "לֵוִי,",
+      "en": "is a Levi"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינוֹ בֶן גְּרוּשָׁה,",
+    "en": "or \"that he is not the son of a divorced woman,\"",
+    "st": "or <b>that he is not the son of</b> a priest and <b>a divorced woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "בֶן",
+      "en": "the son of"
+     },
+     {
+      "he": "גְּרוּשָׁה,",
+      "en": "a divorced woman"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינוֹ בֶן חֲלוּצָה,",
+    "en": "or \"that he is not the son of a chalutzah,\"",
+    "st": "or <b>that he is not the son of</b> a priest and <b>a ḥalutza;</b>",
+    "stMore": "in all these cases the witnesses are exempt from liability for taking a false oath of testimony, because these do not involve monetary claims. Likewise, if the plaintiff said to them:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "בֶן",
+      "en": "the son of"
+     },
+     {
+      "he": "חֲלוּצָה,",
+      "en": "a chalutzah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאָנַס אִישׁ פְּלוֹנִי אֶת בִּתּוֹ,",
+    "en": "or \"that a man did a terrible wrong to his daughter,\"",
+    "st": "I administer an oath to you concerning your refusal to testify if you do not come and testify <b>that so-and-so raped his daughter, or</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאָנַס",
+      "en": "that he harmed"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בִּתּוֹ,",
+      "en": "his daughter"
+     }
+    ]
+   },
+   {
+    "he": "וּפִתָּה אֶת בִּתּוֹ,",
+    "en": "or \"tricked his daughter,\"",
+    "st": "that <b>he seduced his daughter, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפִתָּה",
+      "en": "and he tricked"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בִּתּוֹ,",
+      "en": "his daughter"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁחָבַל בִּי בְנִי,",
+    "en": "or \"that my son hurt me,\"",
+    "st": "<b>or that my son injured me, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁחָבַל",
+      "en": "and that he hurt"
+     },
+     {
+      "he": "בִּי",
+      "en": "me"
+     },
+     {
+      "he": "בְנִי,",
+      "en": "my son"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁחָבַל בִּי חֲבֵרִי,",
+    "en": "or \"that my friend hurt me\" on Shabbos,",
+    "st": "<b>or that another</b> person <b>wounded me</b> on Shabbat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁחָבַל",
+      "en": "and that he hurt"
+     },
+     {
+      "he": "בִּי",
+      "en": "me"
+     },
+     {
+      "he": "חֲבֵרִי,",
+      "en": "my friend"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁהִדְלִיק גְּדִישִׁי בְשַׁבָּת,",
+    "en": "or \"that he set my pile of grain on fire on Shabbos,\"",
+    "st": "or <b>that he set my stack of grain on fire on Shabbat;</b> in all these cases",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁהִדְלִיק",
+      "en": "and that he lit"
+     },
+     {
+      "he": "גְּדִישִׁי",
+      "en": "my pile of grain"
+     },
+     {
+      "he": "בְשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פְטוּרִין:",
+    "en": "these witnesses are patur.",
+    "explain": "These cases are not about money that must be paid.",
+    "st": "<b>these</b> witnesses <b>are exempt,</b>",
+    "stMore": "as each case is punishable with the death penalty, and therefore they are cases that do not involve monetary payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "פְטוּרִין:",
+      "en": "are patur"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 8,
+  "summary": "Witnesses are chayav only for testimony about money that someone must pay, like a deposit. A promise to give a present does not count.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם,",
+    "en": "If he said, \"I make you swear:",
+    "st": "If one said to witnesses: <b>I administer an oath to you</b> concerning your refusal to testify",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם,",
+      "en": "upon you"
+     }
+    ]
+   },
+   {
+    "he": "אִם לֹא תָבֹאוּ וּתְעִידוּנִי שֶׁאָמַר",
+    "en": "come and testify for me that",
+    "st": "<b>if you do not come and testify on my behalf that </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תָבֹאוּ",
+      "en": "you come"
+     },
+     {
+      "he": "וּתְעִידוּנִי",
+      "en": "and testify for me"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "that he said"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ פְּלוֹנִי לִתֶּן לִי מָאתַיִם",
+    "en": "so-and-so said he would give me two hundred",
+    "st": "<b>so-and-so said</b> he is going <b>to give me two hundred </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "לִתֶּן",
+      "en": "to give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "מָאתַיִם",
+      "en": "two hundred"
+     }
+    ]
+   },
+   {
+    "he": "זוּז וְלֹא נָתַן לִי,",
+    "en": "zuz, and he did not give it to me,\"",
+    "st": "<b>dinars and he did not give</b>",
+    "stMore": "them to me, and they take false oaths that they have no knowledge of the matter,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוּז",
+      "en": "zuz",
+      "note": "A silver coin."
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "לִי,",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פְטוּרִים,",
+    "en": "these witnesses are patur,",
+    "st": "<b>they are exempt</b>",
+    "stMore": "from liability to bring an offering for taking a false oath of testimony,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "פְטוּרִים,",
+      "en": "are patur"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין חַיָּבִין אֶלָּא עַל",
+    "en": "because one is chayav only for",
+    "st": "<b>as one is liable</b> for taking a false oath of testimony <b>only</b> in a case involving",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "for they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     }
+    ]
+   },
+   {
+    "he": "תְּבִיעַת מָמוֹן כְּפִקָּדוֹן:",
+    "en": "a claim for money, like a deposit.",
+    "explain": "A promise to give a present is not money he must pay.",
+    "st": "<b>a monetary claim like a deposit</b>",
+    "stMore": "in the sense that were the witnesses to testify, the individual would be liable to pay. In the case of a promise to give a gift he could claim that he merely reconsidered.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּבִיעַת",
+      "en": "a claim of"
+     },
+     {
+      "he": "מָמוֹן",
+      "en": "money"
+     },
+     {
+      "he": "כְּפִקָּדוֹן:",
+      "en": "like a deposit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 9,
+  "summary": "An oath given before the witnesses even know anything does not count.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם,",
+    "en": "If he said, \"I make you swear",
+    "st": "If one said to witnesses: <b>I administer an oath to you </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם,",
+      "en": "upon you"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֶׁתֵּדְעוּן לִי עֵדוּת שֶׁתָּבֹאוּ וּתְעִידוּנִי,",
+    "en": "that when you know testimony for me, you will come and testify for me,\"",
+    "st": "<b>that when you will know testimony</b> relevant <b>to me you will come and testify on my behalf, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֶׁתֵּדְעוּן",
+      "en": "when you will know"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "שֶׁתָּבֹאוּ",
+      "en": "that you will come"
+     },
+     {
+      "he": "וּתְעִידוּנִי,",
+      "en": "and testify for me"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פְטוּרִים,",
+    "en": "these witnesses are patur,",
+    "st": "<b>these</b> witnesses <b>are exempt</b>",
+    "stMore": "from liability for taking a false oath of testimony even if they do not testify,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "פְטוּרִים,",
+      "en": "are patur"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁקָּדְמָה שְׁבוּעָה לָעֵדוּת:",
+    "en": "because the oath came before they knew the testimony.",
+    "st": "<b>due to</b> the fact <b>that the oath preceded</b> their knowledge of the relevant <b>testimony.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁקָּדְמָה",
+      "en": "that it came first"
+     },
+     {
+      "he": "שְׁבוּעָה",
+      "en": "the oath"
+     },
+     {
+      "he": "לָעֵדוּת:",
+      "en": "to the testimony"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 10,
+  "summary": "A general oath said to everyone in shul does not count. He must mean the witnesses themselves.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עָמַד בְּבֵית הַכְּנֶסֶת וְאָמַר,",
+    "en": "If he stood in the shul and said,",
+    "st": "If one <b>stood in the synagogue and said</b> for all to hear:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָמַד",
+      "en": "he stood"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת",
+      "en": "the gathering",
+      "note": "The shul."
+     },
+     {
+      "he": "וְאָמַר,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם שֶׁאִם אַתֶּם",
+    "en": "\"I make you swear that if you",
+    "st": "<b>I administer an oath to you that if you </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם",
+      "en": "upon you"
+     },
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     }
+    ]
+   },
+   {
+    "he": "יוֹדְעִים לִי עֵדוּת שֶׁתָּבֹאוּ וּתְעִידוּנִי,",
+    "en": "know testimony for me, you will come and testify for me,\"",
+    "st": "<b>know testimony</b> relevant <b>to me you will come and testify on my behalf, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹדְעִים",
+      "en": "know"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "שֶׁתָּבֹאוּ",
+      "en": "that you will come"
+     },
+     {
+      "he": "וּתְעִידוּנִי,",
+      "en": "and testify for me"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פְטוּרִין,",
+    "en": "these people are patur,",
+    "st": "<b>these</b> witnesses <b>are exempt </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "פְטוּרִין,",
+      "en": "are patur"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּהְיֶה מִתְכַּוֵּן לָהֶם:",
+    "en": "unless he means them in particular.",
+    "st": "<b>until he directs</b> his demand <b>to</b> specific individuals.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּהְיֶה",
+      "en": "that he will be"
+     },
+     {
+      "he": "מִתְכַּוֵּן",
+      "en": "intending"
+     },
+     {
+      "he": "לָהֶם:",
+      "en": "to them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 11,
+  "summary": "If the witnesses only heard about it from someone else, or one of them is a relative or not allowed to testify, they are patur, since their testimony would not count anyway.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר לִשְׁנַיִם,",
+    "en": "If he said to two people,",
+    "st": "If <b>one said to two</b> people:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לִשְׁנַיִם,",
+      "en": "to two"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם אִישׁ פְּלוֹנִי וּפְלוֹנִי,",
+    "en": "\"I make you swear, so-and-so and so-and-so,",
+    "st": "<b>I administer an oath to you, so-and-so and so-and-so, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם",
+      "en": "upon you"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "וּפְלוֹנִי,",
+      "en": "and so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם אַתֶּם יוֹדְעִין לִי",
+    "en": "that if you know, for me,",
+    "st": "<b>that if you know </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "לִי",
+      "en": "for me"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּת שֶׁתָּבֹאוּ וּתְעִידוּנִי,",
+    "en": "any testimony, you will come and testify for me,\"",
+    "st": "<b>testimony</b> relevant <b>to me you will come and testify on my behalf,</b> and they respond:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "שֶׁתָּבֹאוּ",
+      "en": "that you will come"
+     },
+     {
+      "he": "וּתְעִידוּנִי,",
+      "en": "and testify for me"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין אָנוּ יוֹדְעִין לְךָ עֵדוּת,",
+    "en": "and they said, \"We swear we do not know any testimony for you,\"",
+    "st": "On our <b>oath we do not know</b> any <b>testimony</b> relevant <b>to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "עֵדוּת,",
+      "en": "testimony"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵם יוֹדְעִין לוֹ עֵדוּת עֵד",
+    "en": "and they do know testimony for him, but only what a witness",
+    "st": "<b>and they know testimony</b> relevant <b>to him,</b> not based on an incident they witnessed but based on",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵם",
+      "en": "and they"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     }
+    ]
+   },
+   {
+    "he": "מִפִּי עֵד אוֹ שֶׁהָיָה אֶחָד",
+    "en": "told them, or one of them was",
+    "explain": "Hearing it from another witness does not count as testimony.",
+    "st": "<b>hearsay testimony,</b> which is not valid testimony, <b>or</b> if <b>one of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מֵהֶן קָרוֹב אוֹ פָסוּל,",
+    "en": "a relative or not allowed to be a witness,",
+    "st": "the witnesses <b>is found</b> to be <b>a relative or disqualified, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "קָרוֹב",
+      "en": "a relative"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "פָסוּל,",
+      "en": "unfit"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פְטוּרִין:",
+    "en": "these witnesses are patur.",
+    "st": "<b>these</b> witnesses <b>are exempt</b>",
+    "stMore": "from liability for taking a false oath of testimony because they are unfit witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "פְטוּרִין:",
+      "en": "are patur"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 12,
+  "summary": "The witnesses are chayav only if the person who is owed the money asks them himself, not through his servant and not through the other side.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שִׁלַּח בְּיַד עַבְדּוֹ,",
+    "en": "If he sent his servant to make them swear,",
+    "st": "If the plaintiff <b>sent</b> the demand for their testimony <b>by means of his slave, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁלַּח",
+      "en": "he sent"
+     },
+     {
+      "he": "בְּיַד",
+      "en": "by the hand of"
+     },
+     {
+      "he": "עַבְדּוֹ,",
+      "en": "his servant"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁאָמַר לָהֶן הַנִּתְבָּע",
+    "en": "or if the one being sued said to them,",
+    "st": "<b>or</b> in a case <b>where the defendant said to</b> the witnesses:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "that said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "הַנִּתְבָּע",
+      "en": "the defendant",
+      "note": "The person someone is claiming money from."
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם שֶׁאִם אַתֶּם יוֹדְעִין",
+    "en": "\"I make you swear that if you know",
+    "st": "<b>I administer an oath to you that if you know</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם",
+      "en": "upon you"
+     },
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "לוֹ עֵדוּת שֶׁתָּבֹאוּ וּתְעִידוּהוּ,",
+    "en": "any testimony for him, you will come and testify for him,\"",
+    "st": "any <b>testimony</b> relevant <b>to</b> the plaintiff <b>that you will come and testify on his behalf,</b> and they took a false oath that they have no knowledge of the matter,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "שֶׁתָּבֹאוּ",
+      "en": "that you will come"
+     },
+     {
+      "he": "וּתְעִידוּהוּ,",
+      "en": "and testify for him"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פְטוּרִין עַד",
+    "en": "these witnesses are patur, unless",
+    "st": "<b>these</b> witnesses <b>are exempt</b> from liability for taking a false oath of testimony",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "פְטוּרִין",
+      "en": "are patur"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיִּשְׁמְעוּ מִפִּי הַתּוֹבֵעַ:",
+    "en": "they hear it from the claimant himself.",
+    "st": "<b>until they will hear</b> the demand to testify directly <b>from the mouth of the plaintiff.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיִּשְׁמְעוּ",
+      "en": "that they hear"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "הַתּוֹבֵעַ:",
+      "en": "the claimant",
+      "note": "The person who is claiming the money."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 13,
+  "summary": "Which words make an oath? \"I make you swear,\" \"I command you,\" or any of Hashem's Names count; swearing by heaven and earth does not. The mishnah also teaches about cursing with Hashem's Names.",
+  "stIntro": "The mishna discusses the formula of an oath of testimony. If the plaintiff said to the witnesses: ",
+  "chunks": [
+   {
+    "he": "מַשְׁבִּיעַ אֲנִי עֲלֵיכֶם,",
+    "en": "If he said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b>",
+    "stMore": "concerning your refusal to testify if you do not come and testify on my behalf, or even if he said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעַ",
+      "en": "make swear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם,",
+      "en": "upon you"
+     }
+    ]
+   },
+   {
+    "he": "מְצַוֶּה אֲנִי עֲלֵיכֶם,",
+    "en": "or \"I command you,\"",
+    "st": "<b>I command you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְצַוֶּה",
+      "en": "command"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "עֲלֵיכֶם,",
+      "en": "upon you"
+     }
+    ]
+   },
+   {
+    "he": "אוֹסֶרְכֶם אָנִי,",
+    "en": "or \"I bind you,\"",
+    "st": "or <b>I bind you,</b> although he did not employ an unequivocal formula of an oath,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹסֶרְכֶם",
+      "en": "bind you"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ חַיָּבִין.",
+    "en": "these witnesses are chayav.",
+    "st": "<b>these</b> witnesses <b>are liable</b> for taking a false oath of testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "are chayav"
+     }
+    ]
+   },
+   {
+    "he": "בַּשָּׁמַיִם וּבָאָרֶץ,",
+    "en": "If he made them swear by the heavens and by the earth,",
+    "st": "If one administered the oath to the witnesses <b>in the</b> name of <b>heaven and in the</b> name of <b>earth, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשָּׁמַיִם",
+      "en": "by the heavens"
+     },
+     {
+      "he": "וּבָאָרֶץ,",
+      "en": "and by the earth"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פְטוּרִין.",
+    "en": "these witnesses are patur.",
+    "explain": "Because it is not an oath in Hashem's Name.",
+    "st": "<b>these</b> witnesses are <b>exempt</b>",
+    "stMore": "from liability for taking a false oath of testimony, as that is not an oath in the name of God.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "פְטוּרִין.",
+      "en": "are patur"
+     }
+    ]
+   },
+   {
+    "he": "בְּאל\"ף דל\"ת,",
+    "en": "If he made them swear with Alef-Dalet,",
+    "explain": "The first letters of one of Hashem's Names.",
+    "st": "If one administered the oath to the witnesses <b>in</b> the name of <b>alef dalet,</b> i.e., Adonai;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאל\"ף",
+      "en": "with Alef"
+     },
+     {
+      "he": "דל\"ת,",
+      "en": "Dalet"
+     }
+    ]
+   },
+   {
+    "he": "בְּיו\"ד ה\"א,",
+    "en": "with Yud-Hei,",
+    "st": "<b>in</b> the name of <b>yod heh,</b> the Tetragrammaton;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיו\"ד",
+      "en": "with Yud"
+     },
+     {
+      "he": "ה\"א,",
+      "en": "Hei"
+     }
+    ]
+   },
+   {
+    "he": "בְּשַׁדַּי, בִּצְבָאוֹת,",
+    "en": "with Shakai, with Tzevakos,",
+    "st": "<b>in</b> the name of the <b>Almighty [Shaddai]; in</b> the name of the Lord of <b>Hosts [Tzevaot]; in</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּשַׁדַּי,",
+      "en": "with Shakai"
+     },
+     {
+      "he": "בִּצְבָאוֹת,",
+      "en": "with Tzevakos"
+     }
+    ]
+   },
+   {
+    "he": "בְּחַנּוּן וְרַחוּם,",
+    "en": "with \"Gracious and Merciful,\"",
+    "st": "the name of the <b>Gracious and Compassionate</b> One;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּחַנּוּן",
+      "en": "with Gracious"
+     },
+     {
+      "he": "וְרַחוּם,",
+      "en": "and Merciful"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֶרֶךְ אַפַּיִם וְרַב חֶסֶד,",
+    "en": "with \"Slow to Anger and Full of Kindness,\"",
+    "st": "<b>in</b> the name of He Who is <b>Slow to Anger; in</b> the name of He Who is <b>Abounding in Loving-kindness; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֶרֶךְ",
+      "en": "with long"
+     },
+     {
+      "he": "אַפַּיִם",
+      "en": "anger",
+      "note": "Erech apayim: slow to get angry."
+     },
+     {
+      "he": "וְרַב",
+      "en": "and great"
+     },
+     {
+      "he": "חֶסֶד,",
+      "en": "kindness"
+     }
+    ]
+   },
+   {
+    "he": "וּבְכָל הַכִּנּוּיִין,",
+    "en": "or with any of Hashem's other names,",
+    "st": "<b>or in</b> the name of <b>any of the appellations</b> of God, even though he did not mention the ineffable name of God,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְכָל",
+      "en": "and with all"
+     },
+     {
+      "he": "הַכִּנּוּיִין,",
+      "en": "the names"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ חַיָּבִין.",
+    "en": "these witnesses are chayav.",
+    "st": "<b>these</b> witnesses are <b>liable</b> for taking a false oath of testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "are chayav"
+     }
+    ]
+   },
+   {
+    "he": "הַמְקַלֵּל בְּכֻלָּן,",
+    "en": "One who curses Hashem with any of these names",
+    "st": "<b>One who curses</b> God <b>employing any of</b> these names or appellations of God is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַלֵּל",
+      "en": "one who curses"
+     },
+     {
+      "he": "בְּכֻלָּן,",
+      "en": "with all of them"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, דִּבְרֵי רַבִּי מֵאִיר,",
+    "en": "is chayav. These are the words of Rabbi Meir.",
+    "st": "<b>liable</b> to be executed through stoning; this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "is chayav"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר,",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים פּוֹטְרִין.",
+    "en": "But the Sages say he is patur.",
+    "explain": "Only Hashem's special Name counts for this.",
+    "st": "<b>And the Rabbis deem</b> him <b>exempt,</b>",
+    "stMore": "as they hold that one is liable for cursing God only if he employs the ineffable name of God.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "פּוֹטְרִין.",
+      "en": "exempt"
+     }
+    ]
+   },
+   {
+    "he": "הַמְקַלֵּל אָבִיו וְאִמּוֹ בְּכֻלָּן,",
+    "en": "One who curses his father and mother with any of these names",
+    "st": "<b>One who curses his father or his mother employing any of</b> these names or appellations of God is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַלֵּל",
+      "en": "one who curses"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְאִמּוֹ",
+      "en": "and his mother"
+     },
+     {
+      "he": "בְּכֻלָּן,",
+      "en": "with all of them"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, דִּבְרֵי רַבִּי מֵאִיר,",
+    "en": "is chayav. These are the words of Rabbi Meir.",
+    "st": "<b>liable</b> to be executed through stoning; this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "is chayav"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר,",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים פּוֹטְרִין.",
+    "en": "But the Sages say he is patur.",
+    "st": "<b>And the Rabbis deem</b> him <b>exempt,</b>",
+    "stMore": "as they hold that one is liable for cursing his father and his mother only if he employs the ineffable name of God.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "פּוֹטְרִין.",
+      "en": "exempt"
+     }
+    ]
+   },
+   {
+    "he": "הַמְקַלֵּל עַצְמוֹ וַחֲבֵרוֹ בְּכֻלָּן,",
+    "en": "One who curses himself or someone else with any of them",
+    "st": "<b>One who curses himself or another employing any of</b> these names or appellations of God",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַלֵּל",
+      "en": "one who curses"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "וַחֲבֵרוֹ",
+      "en": "and his friend"
+     },
+     {
+      "he": "בְּכֻלָּן,",
+      "en": "with all of them"
+     }
+    ]
+   },
+   {
+    "he": "עוֹבֵר בְּלֹא תַעֲשֶׂה.",
+    "en": "breaks a \"do not\" mitzvah.",
+    "st": "<b>violates a prohibition.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹבֵר",
+      "en": "breaks"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "a \"do not\""
+     },
+     {
+      "he": "תַעֲשֶׂה.",
+      "en": "mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "יַכְּכָה אֱלֹהִים,",
+    "en": "If he said, \"Hashem will strike you,\"",
+    "st": "If one says: <b>The Lord God shall strike you</b> (see Deuteronomy 28:22),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַכְּכָה",
+      "en": "will strike you"
+     },
+     {
+      "he": "אֱלֹהִים,",
+      "en": "Hashem"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן יַכְּכָה אֱלֹהִים,",
+    "en": "or \"so may Hashem strike you,\"",
+    "st": "<b>and likewise</b> if one says: <b>God shall strike you</b> if you do not come to testify,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "יַכְּכָה",
+      "en": "will strike you"
+     },
+     {
+      "he": "אֱלֹהִים,",
+      "en": "Hashem"
+     }
+    ]
+   },
+   {
+    "he": "זוֹ הִיא אָלָה הַכְּתוּבָה בַתּוֹרָה.",
+    "en": "this is the curse written in the Torah.",
+    "explain": "Such an oath counts, and the witnesses are chayav.",
+    "st": "<b>that is a curse that is written in the Torah,</b> and in such a case one is certainly liable if he fails to testify.",
+    "stMore": "If one says to the witnesses:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "הִיא",
+      "en": "is"
+     },
+     {
+      "he": "אָלָה",
+      "en": "the curse"
+     },
+     {
+      "he": "הַכְּתוּבָה",
+      "en": "that is written"
+     },
+     {
+      "he": "בַתּוֹרָה.",
+      "en": "in the Torah"
+     }
+    ]
+   },
+   {
+    "he": "אַל יַכְּךָ,",
+    "en": "If he said, \"May Hashem not strike you,\"",
+    "st": "God <b>shall not strike you, or:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַל",
+      "en": "not"
+     },
+     {
+      "he": "יַכְּךָ,",
+      "en": "will He strike you"
+     }
+    ]
+   },
+   {
+    "he": "וִיבָרֶכְךָ, וְיֵיטִיב לְךָ,",
+    "en": "or \"May He bless you,\" or \"May He be good to you,\"",
+    "st": "God <b>shall bless you, or:</b> God <b>shall benefit you</b> if you come and testify,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וִיבָרֶכְךָ,",
+      "en": "and He will bless you"
+     },
+     {
+      "he": "וְיֵיטִיב",
+      "en": "and He will be good"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר מְחַיֵּב",
+    "en": "Rabbi Meir says they are chayav,",
+    "st": "<b>Rabbi Meir deems</b> him <b>liable,</b>",
+    "stMore": "as one may infer from that statement that if he fails to testify God will strike him, or will not bless or benefit him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "מְחַיֵּב",
+      "en": "makes chayav"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים פּוֹטְרִין:",
+    "en": "and the Sages say they are patur.",
+    "st": "<b>And the Rabbis deem</b> him <b>exempt</b> because the curse is not explicitly stated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "פּוֹטְרִין:",
+      "en": "exempt"
+     }
+    ]
+   }
+  ]
+ }
+]

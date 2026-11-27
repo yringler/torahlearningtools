@@ -1,0 +1,2879 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "The firstborn of a cow, sheep or goat is a bechor only if it belongs fully to a Jew. Kohanim and Levi'im do have this mitzvah, because they were freed only from redeeming a firstborn son and a firstborn donkey.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַלּוֹקֵחַ עֻבַּר פָּרָתוֹ שֶׁל נָכְרִי,",
+    "en": "Someone who buys the unborn calf of a non-Jew's cow,",
+    "st": "With regard to <b>one who purchases the fetus of a cow</b> that <b>belongs to a gentile; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַלּוֹקֵחַ",
+      "en": "one who buys"
+     },
+     {
+      "he": "עֻבַּר",
+      "en": "the unborn baby of"
+     },
+     {
+      "he": "פָּרָתוֹ",
+      "en": "his cow"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "נָכְרִי,",
+      "en": "a non-Jew"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמּוֹכֵר לוֹ אַף עַל פִּי שֶׁאֵינוֹ רַשַּׁאי,",
+    "en": "or sells his cow's unborn calf to a non-Jew, even though he is not allowed to,",
+    "st": "<b>one who sells</b> the fetus of his cow <b>to</b> a gentile, <b>even though one is not permitted</b> to sell a large animal to a gentile;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמּוֹכֵר",
+      "en": "and one who sells"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it is so)"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "רַשַּׁאי,",
+      "en": "allowed"
+     }
+    ]
+   },
+   {
+    "he": "הַמִּשְׁתַּתֵּף לוֹ,",
+    "en": "or becomes partners with a non-Jew,",
+    "st": "<b>one who enters into a partnership with</b> a gentile with regard to a cow or its fetus;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמִּשְׁתַּתֵּף",
+      "en": "one who becomes partners"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְקַבֵּל מִמֶּנּוּ,",
+    "en": "or takes a cow from a non-Jew to care for it,",
+    "st": "<b>one who receives</b> a cow <b>from</b>",
+    "stMore": "a gentile to tend to it in exchange for partnership in its offspring;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְקַבֵּל",
+      "en": "and one who takes"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנּוֹתֵן לוֹ בְקַבָּלָה,",
+    "en": "or gives his cow to a non-Jew to care for it,",
+    "st": "<b>and one who gives</b> his cow to a gentile <b>in receivership,</b>",
+    "stMore": "so that the gentile owns a share of the cow’s offspring;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנּוֹתֵן",
+      "en": "and one who gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בְקַבָּלָה,",
+      "en": "to care for"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר מִן הַבְּכוֹרָה,",
+    "en": "the calf is not a bechor,",
+    "st": "in all of these cases, one is <b>exempt from</b> the obligation of redeeming <b>the firstborn</b> offspring,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "is free"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַבְּכוֹרָה,",
+      "en": "the bechor"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר ג),",
+    "en": "because the pasuk says,",
+    "st": "<b>as it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "ג),",
+      "en": "chapter 3)"
+     }
+    ]
+   },
+   {
+    "he": "בְּיִשְׂרָאֵל, אֲבָל לֹא בַאֲחֵרִים.",
+    "en": "\"the firstborns in Yisrael,\" but not those of others.",
+    "st": "“I sanctified to Me all the firstborn <b>in Israel,</b> both man and animal” (Numbers 3:13), indicating that the mitzva is incumbent upon the Jewish people, <b>but not upon others.</b>",
+    "stMore": "If the firstborn belongs even partially to a gentile, the sanctity of firstborn does not apply to it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיִשְׂרָאֵל,",
+      "en": "in Yisrael"
+     },
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַאֲחֵרִים.",
+      "en": "in others"
+     }
+    ]
+   },
+   {
+    "he": "כֹּהֲנִים וּלְוִיִּם חַיָּבִין.",
+    "en": "Kohanim and Levi'im must keep this mitzvah.",
+    "st": "The mishna continues: <b>The priests and the Levites are obligated</b>",
+    "stMore": "in the mitzva, i.e., their animals have firstborn sanctity,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּהֲנִים",
+      "en": "Kohanim"
+     },
+     {
+      "he": "וּלְוִיִּם",
+      "en": "and Levi'im"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "must"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נִפְטְרוּ מִבְּכוֹר בְּהֵמָה טְהוֹרָה,",
+    "en": "They were not freed from the bechor of a kosher animal,",
+    "st": "<b>as they were not exempted from</b> the mitzva of the male <b>firstborn of a kosher animal; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נִפְטְרוּ",
+      "en": "they were freed"
+     },
+     {
+      "he": "מִבְּכוֹר",
+      "en": "from the bechor of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "טְהוֹרָה,",
+      "en": "kosher"
+     }
+    ]
+   },
+   {
+    "he": "(וְלֹא נִפְטְרוּ) אֶלָּא מִפִּדְיוֹן הַבֵּן וּמִפֶּטֶר חֲמוֹר:",
+    "en": "they were freed only from redeeming a firstborn son and a firstborn donkey.",
+    "st": "<b>rather,</b> they were exempted only <b>from redemption of the</b> firstborn <b>son and from</b> the redemption of <b>the firstborn donkey.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "(וְלֹא",
+      "en": "(and not"
+     },
+     {
+      "he": "נִפְטְרוּ)",
+      "en": "were they freed)"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מִפִּדְיוֹן",
+      "en": "from redeeming"
+     },
+     {
+      "he": "הַבֵּן",
+      "en": "the son"
+     },
+     {
+      "he": "וּמִפֶּטֶר",
+      "en": "and from the firstborn of"
+     },
+     {
+      "he": "חֲמוֹר:",
+      "en": "a donkey"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "An animal that had a lasting blemish before it was made holy can be redeemed. After that it is almost like a regular animal, except for a bechor and ma'aser.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַקֳּדָשִׁים שֶׁקָּדַם מוּם קָבוּעַ לְהֶקְדֵּשָׁן,",
+    "en": "All holy animals that had a lasting blemish before they were made holy,",
+    "st": "<b>All sacrificial</b> animals in <b>which a permanent blemish preceded their consecration</b>",
+    "stMore": "do not assume inherent sanctity and only their value is consecrated,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַקֳּדָשִׁים",
+      "en": "the holy animals"
+     },
+     {
+      "he": "שֶׁקָּדַם",
+      "en": "that came first"
+     },
+     {
+      "he": "מוּם",
+      "en": "a blemish"
+     },
+     {
+      "he": "קָבוּעַ",
+      "en": "lasting"
+     },
+     {
+      "he": "לְהֶקְדֵּשָׁן,",
+      "en": "to their being made holy"
+     }
+    ]
+   },
+   {
+    "he": "וְנִפְדּוּ, חַיָּבִים בַּבְּכוֹרָה וּבַמַּתָּנוֹת,",
+    "en": "once they are redeemed, their babies can be a bechor, and the Kohen gets his gifts from them,",
+    "st": "<b>and</b> once <b>they were redeemed,</b> they <b>are obligated in</b> the mitzva of <b>a firstborn,</b> i.e., their offspring are subject to being counted a firstborn, <b>and in the</b> priestly <b>gifts</b> of the foreleg, the jaw, and the maw,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִפְדּוּ,",
+      "en": "and they were redeemed"
+     },
+     {
+      "he": "חַיָּבִים",
+      "en": "they must"
+     },
+     {
+      "he": "בַּבְּכוֹרָה",
+      "en": "in the bechor"
+     },
+     {
+      "he": "וּבַמַּתָּנוֹת,",
+      "en": "and in the gifts",
+      "note": "Parts of the animal given to the Kohen."
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹצְאִין לְחֻלִּין לִגָּזֵז וּלְהֵעָבֵד,",
+    "en": "and they become regular animals, to be sheared and to do work.",
+    "st": "<b>and they can emerge</b> from their sacred status and assume complete <b>non-sacred</b> status in order <b>to be shorn and to be utilized for labor.</b> And",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹצְאִין",
+      "en": "and they go out"
+     },
+     {
+      "he": "לְחֻלִּין",
+      "en": "to regular"
+     },
+     {
+      "he": "לִגָּזֵז",
+      "en": "to be sheared"
+     },
+     {
+      "he": "וּלְהֵעָבֵד,",
+      "en": "and to do work"
+     }
+    ]
+   },
+   {
+    "he": "וּוְלָדָן וַחֲלָבָן מֻתָּר לְאַחַר פִּדְיוֹנָן,",
+    "en": "Their babies and their milk are allowed after they are redeemed.",
+    "st": "<b>their offspring and their milk are permitted after their redemption. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּוְלָדָן",
+      "en": "and their babies"
+     },
+     {
+      "he": "וַחֲלָבָן",
+      "en": "and their milk"
+     },
+     {
+      "he": "מֻתָּר",
+      "en": "are allowed"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "פִּדְיוֹנָן,",
+      "en": "their redemption"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׁוֹחֲטָן בַּחוּץ פָּטוּר,",
+    "en": "Someone who shechts them outside the Beis HaMikdash is not punished,",
+    "st": "<b>And one who slaughters them outside</b> the Temple courtyard is <b>exempt</b> from karet,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׁוֹחֲטָן",
+      "en": "and one who shechts them"
+     },
+     {
+      "he": "בַּחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "פָּטוּר,",
+      "en": "is free"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין עוֹשִׂים תְּמוּרָה,",
+    "en": "and they do not make a temurah,",
+    "st": "<b>and</b> those animals <b>do not render</b> an animal that was <b>a substitute</b> for them consecrated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "עוֹשִׂים",
+      "en": "they make"
+     },
+     {
+      "he": "תְּמוּרָה,",
+      "en": "a temurah",
+      "note": "An animal that someone tried to swap for a holy animal; it becomes holy too."
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מֵתוּ יִפָּדוּ,",
+    "en": "and if they died, they may be redeemed,",
+    "st": "<b>And if</b> these animals <b>died</b> before they were redeemed, <b>they may be redeemed</b>",
+    "stMore": "and fed to dogs, and they do not require burial,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מֵתוּ",
+      "en": "they died"
+     },
+     {
+      "he": "יִפָּדוּ,",
+      "en": "they may be redeemed"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַבְּכוֹר וּמִן הַמַּעֲשֵׂר:",
+    "en": "except for a bechor and ma'aser.",
+    "st": "<b>except for the firstborn and the</b> animal <b>tithe.</b>",
+    "stMore": "With regard to these two types of offerings, even if they were blemished before they became consecrated they assume inherent sanctity, like other offerings that were consecrated and subsequently became blemished.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַבְּכוֹר",
+      "en": "the bechor"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַמַּעֲשֵׂר:",
+      "en": "the ma'aser",
+      "note": "Every tenth animal, which is holy."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "An animal that was made holy first and only later got a lasting blemish stays much holier. Even after it is redeemed, it cannot be sheared or used for work.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֹּל שֶׁקָּדַם הֶקְדֵּשָׁן אֶת מוּמָן,",
+    "en": "All animals that were made holy before they got a blemish,",
+    "st": "<b>And all</b> sacrificial animals <b>whose consecration preceded their blemish, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "all"
+     },
+     {
+      "he": "שֶׁקָּדַם",
+      "en": "that came first"
+     },
+     {
+      "he": "הֶקְדֵּשָׁן",
+      "en": "their being made holy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(to)"
+     },
+     {
+      "he": "מוּמָן,",
+      "en": "their blemish"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מוּם עוֹבֵר לְהֶקְדֵּשָׁן,",
+    "en": "or that had a passing blemish before they were made holy,",
+    "st": "<b>or</b> who had <b>a temporary blemish</b> prior <b>to their consecration </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מוּם",
+      "en": "a blemish"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "passing"
+     },
+     {
+      "he": "לְהֶקְדֵּשָׁן,",
+      "en": "to their being made holy"
+     }
+    ]
+   },
+   {
+    "he": "וּלְאַחַר מִכָּאן נוֹלָד לָהֶם מוּם קָבוּעַ (וְנִפְדּוּ),",
+    "en": "and later they got a lasting blemish and were redeemed,",
+    "st": "<b>and afterward developed a permanent blemish and they were redeemed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "this"
+     },
+     {
+      "he": "נוֹלָד",
+      "en": "was born"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "מוּם",
+      "en": "a blemish"
+     },
+     {
+      "he": "קָבוּעַ",
+      "en": "lasting"
+     },
+     {
+      "he": "(וְנִפְדּוּ),",
+      "en": "(and they were redeemed)"
+     }
+    ]
+   },
+   {
+    "he": "פְּטוּרִין מִן הַבְּכוֹרָה וּמִן הַמַּתָּנוֹת,",
+    "en": "their babies are not a bechor, and the Kohen does not get his gifts from them,",
+    "st": "<b>they are exempt from,</b> i.e., their offspring are not counted, <b>a firstborn, and from the gifts</b> of the foreleg, the jaw, and the maw,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּטוּרִין",
+      "en": "they are free"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַבְּכוֹרָה",
+      "en": "the bechor"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַמַּתָּנוֹת,",
+      "en": "the gifts"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָן יוֹצְאִין לְחֻלִּין לִגָּזֵז וּלְהֵעָבֵד,",
+    "en": "and they do not become regular animals, to be sheared and to do work.",
+    "st": "<b>and they do not</b> completely <b>emerge</b> from their sacred status and assume <b>non-sacred</b> status in order <b>to be shorn and to be utilized for labor.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָן",
+      "en": "and they do not"
+     },
+     {
+      "he": "יוֹצְאִין",
+      "en": "go out"
+     },
+     {
+      "he": "לְחֻלִּין",
+      "en": "to regular"
+     },
+     {
+      "he": "לִגָּזֵז",
+      "en": "to be sheared"
+     },
+     {
+      "he": "וּלְהֵעָבֵד,",
+      "en": "and to do work"
+     }
+    ]
+   },
+   {
+    "he": "וּוְלָדָן וַחֲלָבָן אָסוּר לְאַחַר פִּדְיוֹנָן,",
+    "en": "Their babies and their milk are forbidden after they are redeemed.",
+    "st": "And <b>their offspring,</b> which were conceived prior to redemption, <b>and their milk, are prohibited after their redemption. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּוְלָדָן",
+      "en": "and their babies"
+     },
+     {
+      "he": "וַחֲלָבָן",
+      "en": "and their milk"
+     },
+     {
+      "he": "אָסוּר",
+      "en": "are forbidden"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "פִּדְיוֹנָן,",
+      "en": "their redemption"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׁוֹחֲטָן בַּחוּץ חַיָּב,",
+    "en": "Someone who shechts them outside the Beis HaMikdash is punished,",
+    "st": "<b>And one who slaughters them outside</b> the Temple courtyard is <b>liable</b> to receive karet,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׁוֹחֲטָן",
+      "en": "and one who shechts them"
+     },
+     {
+      "he": "בַּחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "is guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְעוֹשִׂין תְּמוּרָה,",
+    "en": "and they do make a temurah,",
+    "st": "<b>and</b> those animals <b>render</b> an animal that was <b>a substitute</b> for them consecrated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹשִׂין",
+      "en": "and they make"
+     },
+     {
+      "he": "תְּמוּרָה,",
+      "en": "a temurah"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מֵתוּ יִקָּבֵרוּ:",
+    "en": "and if they died, they must be buried.",
+    "st": "<b>And if</b> these animals <b>died</b> before they were redeemed, they may not be redeemed and fed to dogs; rather, <b>they must be buried.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מֵתוּ",
+      "en": "they died"
+     },
+     {
+      "he": "יִקָּבֵרוּ:",
+      "en": "they must be buried"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "A Jew who takes animals from a non-Jew in a \"tzon barzel\" deal still owes the non-Jew for them, so their babies are not a bechor. The mishnah teaches which later babies are a bechor.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל צֹאן בַּרְזֶל מִן הַנָּכְרִי,",
+    "en": "Someone who takes \"iron sheep\" from a non-Jew:",
+    "st": "With regard to <b>one who receives</b> animals as part of <b>a guaranteed investment from a gentile,</b>",
+    "stMore": "i.e., the Jew receives the animals to raise them and commits to pay a fixed price at a later date even if they die or their value decreases, and the offspring born in the interim are divided between the gentile and the Jew,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "one who takes"
+     },
+     {
+      "he": "צֹאן",
+      "en": "sheep"
+     },
+     {
+      "he": "בַּרְזֶל",
+      "en": "iron",
+      "note": "A deal where he must pay their full value no matter what happens to them."
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַנָּכְרִי,",
+      "en": "the non-Jew"
+     }
+    ]
+   },
+   {
+    "he": "וְלָדוֹת פְּטוּרִין,",
+    "en": "their babies are not a bechor,",
+    "st": "<b>their</b> direct <b>offspring are exempt</b>",
+    "stMore": "from the mitzva of the firstborn if they give birth to a male,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָדוֹת",
+      "en": "babies"
+     },
+     {
+      "he": "פְּטוּרִין,",
+      "en": "are free"
+     }
+    ]
+   },
+   {
+    "he": "וּוַלְדֵי וְלָדוֹת חַיָּבִין.",
+    "en": "but the babies of their babies are.",
+    "st": "but <b>the offspring of their</b> direct <b>offspring are obligated</b>",
+    "stMore": "in the mitzva of the firstborn if they gave birth to a male.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּוַלְדֵי",
+      "en": "and babies of"
+     },
+     {
+      "he": "וְלָדוֹת",
+      "en": "babies"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "must"
+     }
+    ]
+   },
+   {
+    "he": "הֶעֱמִיד וְלָדוֹת תַּחַת אִמּוֹתֵיהֶם,",
+    "en": "If he set up the babies in place of their mothers,",
+    "st": "If the Jew <b>established their offspring in place of their mothers</b> for collection in case the mothers die,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶעֱמִיד",
+      "en": "he set up"
+     },
+     {
+      "he": "וְלָדוֹת",
+      "en": "babies"
+     },
+     {
+      "he": "תַּחַת",
+      "en": "in place of"
+     },
+     {
+      "he": "אִמּוֹתֵיהֶם,",
+      "en": "their mothers"
+     }
+    ]
+   },
+   {
+    "he": "וַלְדֵי וְלָדוֹת פְטוּרִין,",
+    "en": "the babies of the babies are not a bechor,",
+    "st": "<b>the offspring of</b> their direct <b>offspring are exempt </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַלְדֵי",
+      "en": "babies of"
+     },
+     {
+      "he": "וְלָדוֹת",
+      "en": "babies"
+     },
+     {
+      "he": "פְטוּרִין,",
+      "en": "are free"
+     }
+    ]
+   },
+   {
+    "he": "וּוַלְדֵי וַלְדֵי וְלָדוֹת חַיָּבִין.",
+    "en": "but the babies of their babies' babies are.",
+    "st": "<b>and the offspring of the offspring of</b> their direct <b>offspring are obligated. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּוַלְדֵי",
+      "en": "and babies of"
+     },
+     {
+      "he": "וַלְדֵי",
+      "en": "babies of"
+     },
+     {
+      "he": "וְלָדוֹת",
+      "en": "babies"
+     },
+     {
+      "he": "חַיָּבִין.",
+      "en": "must"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ עַד עֲשָׂרָה דוֹרוֹת,",
+    "en": "even for ten generations,",
+    "st": "<b>Even until ten</b> generations,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "עֲשָׂרָה",
+      "en": "ten"
+     },
+     {
+      "he": "דוֹרוֹת,",
+      "en": "generations"
+     }
+    ]
+   },
+   {
+    "he": "פְּטוּרִין, שֶׁאַחֲרָיוּתָן לַנָּכְרִי:",
+    "en": "they are not a bechor, because they all promise payment to the non-Jew.",
+    "st": "the offspring are <b>exempt, as they</b> all serve <b>as a guarantee for the gentile,</b>",
+    "stMore": "because if he does not receive the fixed payment for the animal, he will collect his debt from any offspring born to it or its offspring.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּטוּרִין,",
+      "en": "they are free"
+     },
+     {
+      "he": "שֶׁאַחֲרָיוּתָן",
+      "en": "that their guarantee"
+     },
+     {
+      "he": "לַנָּכְרִי:",
+      "en": "to the non-Jew"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "If a sheep gives birth to a baby that looks like a goat, or the other way around, it is not a bechor, unless it looks a bit like its mother.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רָחֵל שֶׁיָּלְדָה כְּמִין עֵז,",
+    "en": "A sheep that gave birth to a baby that looks like a goat,",
+    "st": "<b>A ewe that gave birth to a goat of sorts </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָחֵל",
+      "en": "a sheep"
+     },
+     {
+      "he": "שֶׁיָּלְדָה",
+      "en": "that gave birth"
+     },
+     {
+      "he": "כְּמִין",
+      "en": "like a kind of"
+     },
+     {
+      "he": "עֵז,",
+      "en": "goat"
+     }
+    ]
+   },
+   {
+    "he": "וְעֵז שֶׁיָּלְדָה כְּמִין רָחֵל,",
+    "en": "or a goat that gave birth to a baby that looks like a sheep,",
+    "st": "<b>and a goat that gave birth to a ewe of sorts </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעֵז",
+      "en": "and a goat"
+     },
+     {
+      "he": "שֶׁיָּלְדָה",
+      "en": "that gave birth"
+     },
+     {
+      "he": "כְּמִין",
+      "en": "like a kind of"
+     },
+     {
+      "he": "רָחֵל,",
+      "en": "sheep"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר מִן הַבְּכוֹרָה.",
+    "en": "it is not a bechor.",
+    "st": "<b>are exempt</b> from the mitzva of the <b>firstborn. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "is free"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַבְּכוֹרָה.",
+      "en": "the bechor"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם יֵשׁ בּוֹ מִקְצָת סִימָנִין, חַיָּב:",
+    "en": "But if it has some of its mother's signs, it is a bechor.",
+    "st": "<b>And if</b> the offspring <b>has some of the characteristics</b> of its mother, it is <b>obligated</b> in the mitzva of firstborn.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "מִקְצָת",
+      "en": "some"
+     },
+     {
+      "he": "סִימָנִין,",
+      "en": "signs"
+     },
+     {
+      "he": "חַיָּב:",
+      "en": "it must"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 6,
+  "summary": "A sheep's first two male lambs were born with their heads coming out together. The Rabbis argue who gets them, and what happens if one dies.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רָחֵל שֶׁלֹּא בִכְּרָה וְיָלְדָה",
+    "en": "A sheep that never gave birth before gave birth",
+    "st": "In the case of <b>a ewe that had not</b> previously <b>given birth, and it gave birth to </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָחֵל",
+      "en": "a sheep"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that did not"
+     },
+     {
+      "he": "בִכְּרָה",
+      "en": "give birth before"
+     },
+     {
+      "he": "וְיָלְדָה",
+      "en": "and gave birth"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵי זְכָרִים וְיָצְאוּ שְׁנֵי רָאשֵׁיהֶן כְּאֶחָד,",
+    "en": "to two males, and both their heads came out at once.",
+    "st": "<b>two males and both their heads emerged as one, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים",
+      "en": "males"
+     },
+     {
+      "he": "וְיָצְאוּ",
+      "en": "and came out"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "רָאשֵׁיהֶן",
+      "en": "their heads"
+     },
+     {
+      "he": "כְּאֶחָד,",
+      "en": "as one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי הַגְּלִילִי אוֹמֵר,",
+    "en": "Rabbi Yosei HaGelili says,",
+    "st": "<b>Rabbi Yosei HaGelili says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "הַגְּלִילִי",
+      "en": "HaGelili",
+      "note": "From the Galil."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶן לַכֹּהֵן.",
+    "en": "both of them go to the Kohen,",
+    "st": "<b>Both of them</b> are given <b>to the priest, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶן",
+      "en": "both of them"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמות יג),",
+    "en": "as the pasuk says,",
+    "st": "<b>as it is stated</b> in the plural:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "יג),",
+      "en": "chapter 13)"
+     }
+    ]
+   },
+   {
+    "he": "הַזְּכָרִים לַה'.",
+    "en": "\"The males are for Hashem.\"",
+    "st": "“Every firstborn that you have of animals, <b>the males shall be to the Lord”</b> (Exodus 13:12).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזְּכָרִים",
+      "en": "the males"
+     },
+     {
+      "he": "לַה'.",
+      "en": "to Hashem"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b> It is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אִי אֶפְשָׁר,",
+    "en": "it cannot be that they came out at the very same moment.",
+    "st": "<b>impossible</b> for two events <b>to coincide precisely,</b>",
+    "stMore": "i.e., their births were not at precisely the same time.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִי",
+      "en": "it is not"
+     },
+     {
+      "he": "אֶפְשָׁר,",
+      "en": "possible"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אֶחָד לוֹ וְאֶחָד לַכֹּהֵן.",
+    "en": "So one lamb is the owner's and one goes to the Kohen.",
+    "st": "<b>Rather,</b> one preceded the other, and therefore <b>one</b> of the males is given <b>to</b> the owner <b>and one to the priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּהֵן בּוֹרֵר לוֹ אֶת הַיָפֶה.",
+    "en": "the Kohen chooses the nicer one for himself.",
+    "st": "<b>The priest chooses the better</b> of the two.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּהֵן",
+      "en": "the Kohen"
+     },
+     {
+      "he": "בּוֹרֵר",
+      "en": "chooses"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיָפֶה.",
+      "en": "the nice one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁמְּנִים בֵּינֵיהֶן,",
+    "en": "we figure out their worth between them,",
+    "st": "<b>They assess</b> the value of the lambs <b>between them</b>",
+    "stMore": "and the priest takes the leaner of the two, as will be explained in the Gemara.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁמְּנִים",
+      "en": "we estimate"
+     },
+     {
+      "he": "בֵּינֵיהֶן,",
+      "en": "between them"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי יִרְעֶה עַד שֶׁיִּסְתָּאֵב.",
+    "en": "and the second lamb must graze until it gets a blemish.",
+    "st": "<b>And</b> with regard to <b>the second</b> lamb that remains in the possession of the owner, since he may not partake of it due to its uncertain status as a firstborn, it <b>must graze until it becomes blemished,</b> at which point he may slaughter and eat it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "יִרְעֶה",
+      "en": "shall graze"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּסְתָּאֵב.",
+      "en": "it gets a blemish"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּב בַּמַּתָּנוֹת.",
+    "en": "And the Kohen's gifts must be given from it.",
+    "st": "<b>And</b> when he slaughters the animal he is <b>obligated to</b> have <b>the gifts</b>",
+    "stMore": "of the priesthood taken from it, i.e., the gifts that one is required to give a priest from a non-sacred animal: The foreleg, the jaw, and the maw.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּב",
+      "en": "and it must"
+     },
+     {
+      "he": "בַּמַּתָּנוֹת.",
+      "en": "in the gifts"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי פּוֹטֵר.",
+    "en": "Rabbi Yosei says it does not have to.",
+    "st": "<b>And Rabbi Yosei deems</b> him <b>exempt</b> from giving those gifts.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "פּוֹטֵר.",
+      "en": "frees it"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אֶחָד מֵהֶן,",
+    "en": "If one of them died,",
+    "st": "If <b>one of</b> the two born together <b>died, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲלוֹקוּ.",
+    "en": "they split the other one.",
+    "st": "The priest and the owner <b>divide</b> the remaining lamb.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲלוֹקוּ.",
+      "en": "they split"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "stMore": "Since there is uncertainty to whom it belongs, it remains in the possession of the owner, as",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה.",
+    "en": "whoever wants to take from his friend must bring the proof.",
+    "st": "<b>the burden of proof rests upon the claimant.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹצִיא",
+      "en": "the one who takes out"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "הָרְאָיָה.",
+      "en": "is the proof"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר וּנְקֵבָה,",
+    "en": "If a male and a female were born,",
+    "st": "If <b>a male and a female</b> offspring were born together,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "a male"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כָּאן לַכֹּהֵן כְּלוּם:",
+    "en": "the Kohen gets nothing here.",
+    "st": "everyone agrees that <b>the priest has nothing here.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 7,
+  "summary": "Two sheep that never gave birth before have lambs. The mishnah teaches when the Kohen gets the males, and when the Kohen gets nothing.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁתֵּי רְחֵלוֹת שֶׁלֹּא בִכְּרוּ,",
+    "en": "Two sheep that never gave birth before",
+    "st": "If <b>one’s two ewes had not</b> previously <b>given birth </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "רְחֵלוֹת",
+      "en": "sheep"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that did not"
+     },
+     {
+      "he": "בִכְּרוּ,",
+      "en": "give birth before"
+     }
+    ]
+   },
+   {
+    "he": "וְיָלְדוּ שְׁנֵי זְכָרִים,",
+    "en": "gave birth to two males:",
+    "st": "<b>and they gave birth to two males, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָלְדוּ",
+      "en": "and they gave birth to"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים,",
+      "en": "males"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן שְׁנֵיהֶם לַכֹּהֵן.",
+    "en": "he gives both of them to the Kohen.",
+    "st": "<b>both of them</b> are given <b>to the priest,</b> as each is its mother’s firstborn.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר וּנְקֵבָה,",
+    "en": "A male and a female:",
+    "st": "If one gave birth to <b>a male and</b> the other to <b>a female, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "a male"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "הַזָּכָר לַכֹּהֵן.",
+    "en": "the male goes to the Kohen.",
+    "st": "<b>the male</b> is given <b>to the priest,</b> as it is its mother’s firstborn.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזָּכָר",
+      "en": "the male"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵי זְכָרִים וּנְקֵבָה,",
+    "en": "Two males and a female:",
+    "st": "If they gave birth to <b>two males and a female, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים",
+      "en": "males"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד לוֹ וְאֶחָד לַכֹּהֵן.",
+    "en": "one is his and one goes to the Kohen.",
+    "st": "<b>one</b> of the males is kept <b>by him and one</b> is given <b>to the priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּהֵן בּוֹרֵר לוֹ אֶת הַיָּפֶה.",
+    "en": "the Kohen chooses the nicer one for himself.",
+    "st": "<b>The priest chooses the better</b> of the two.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּהֵן",
+      "en": "the Kohen"
+     },
+     {
+      "he": "בּוֹרֵר",
+      "en": "chooses"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיָּפֶה.",
+      "en": "the nice one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁמְּנִים בֵּינֵיהֶן,",
+    "en": "we figure out their worth between them,",
+    "st": "<b>They assess</b> the value of the lambs <b>between them,</b> and the priest takes the leaner of the two.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁמְּנִים",
+      "en": "we estimate"
+     },
+     {
+      "he": "בֵּינֵיהֶן,",
+      "en": "between them"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי יִרְעֶה עַד שֶׁיִּסְתָּאֵב.",
+    "en": "and the second lamb must graze until it gets a blemish.",
+    "st": "<b>And the second</b> lamb must <b>graze until it becomes blemished,</b>",
+    "stMore": "at which point the owner may slaughter and eat it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "יִרְעֶה",
+      "en": "shall graze"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּסְתָּאֵב.",
+      "en": "it gets a blemish"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּב בַּמַּתָּנוֹת.",
+    "en": "And the Kohen's gifts must be given from it.",
+    "st": "<b>And</b> when the owner slaughters the animal, he is <b>obligated to</b> have <b>gifts</b>",
+    "stMore": "of the priesthood, i.e., the foreleg, the jaw, and the maw, taken from it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּב",
+      "en": "and it must"
+     },
+     {
+      "he": "בַּמַּתָּנוֹת.",
+      "en": "in the gifts"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי פּוֹטֵר.",
+    "en": "Rabbi Yosei says it does not have to.",
+    "st": "<b>Rabbi Yosei deems</b> him <b>exempt</b> from giving the gifts.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "פּוֹטֵר.",
+      "en": "frees it"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אֶחָד מֵהֶן,",
+    "en": "If one of them died,",
+    "st": "If <b>one of</b> the two born together <b>died, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲלוֹקוּ.",
+    "en": "they split the other one.",
+    "st": "The priest and the owner <b>divide</b> the value of the remaining lamb.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲלוֹקוּ.",
+      "en": "they split"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "stMore": "Since there is uncertainty to whom it belongs, it remains in the possession of the owner, as",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה.",
+    "en": "whoever wants to take from his friend must bring the proof.",
+    "st": "<b>the burden of proof rests upon the claimant.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹצִיא",
+      "en": "the one who takes out"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "הָרְאָיָה.",
+      "en": "is the proof"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי נְקֵבוֹת וְזָכָר,",
+    "en": "Two females and a male,",
+    "st": "If they gave birth to <b>two females and a male </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "נְקֵבוֹת",
+      "en": "females"
+     },
+     {
+      "he": "וְזָכָר,",
+      "en": "and a male"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שְׁנֵי זְכָרִים וּשְׁתֵּי נְקֵבוֹת,",
+    "en": "or two males and two females:",
+    "st": "<b>or</b> to <b>two males and two females, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים",
+      "en": "males"
+     },
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "נְקֵבוֹת,",
+      "en": "females"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כָּאן לַכֹּהֵן כְּלוּם:",
+    "en": "the Kohen gets nothing here.",
+    "st": "<b>the priest has nothing here,</b>",
+    "stMore": "as perhaps both ewes gave birth to females first.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 8,
+  "summary": "One sheep had given birth before and one had not, and they had two males. One goes to the Kohen, and the Rabbis argue about the other.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אַחַת בִּכְּרָה",
+    "en": "If one sheep had given birth before,",
+    "st": "If <b>one</b> of his ewes <b>had</b> previously <b>given birth </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "בִּכְּרָה",
+      "en": "had given birth before"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת שֶׁלֹּא בִכְּרָה",
+    "en": "and one had not given birth before,",
+    "st": "<b>and one had not</b> previously <b>given birth, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that had not"
+     },
+     {
+      "he": "בִכְּרָה",
+      "en": "given birth before"
+     }
+    ]
+   },
+   {
+    "he": "וְיָלְדוּ שְׁנֵי זְכָרִים,",
+    "en": "and they gave birth to two males:",
+    "st": "<b>and they gave birth to two males, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיָלְדוּ",
+      "en": "and they gave birth to"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "זְכָרִים,",
+      "en": "males"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד לוֹ וְאֶחָד לַכֹּהֵן.",
+    "en": "one is his and one goes to the Kohen.",
+    "st": "<b>one</b> of the males is kept <b>by him and one</b> is given <b>to the priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּהֵן בּוֹרֵר לוֹ אֶת הַיָּפֶה.",
+    "en": "the Kohen chooses the nicer one for himself.",
+    "st": "<b>The priest chooses the better</b> of the two.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּהֵן",
+      "en": "the Kohen"
+     },
+     {
+      "he": "בּוֹרֵר",
+      "en": "chooses"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיָּפֶה.",
+      "en": "the nice one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁמְּנִין בֵּינֵיהֶן,",
+    "en": "we figure out their worth between them,",
+    "st": "<b>They assess</b> the value of the lambs <b>between them</b> and the priest takes the leaner of the two.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁמְּנִין",
+      "en": "we estimate"
+     },
+     {
+      "he": "בֵּינֵיהֶן,",
+      "en": "between them"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי יִרְעֶה עַד שֶׁיִּסְתָּאֵב.",
+    "en": "and the second lamb must graze until it gets a blemish.",
+    "st": "<b>And the second</b> lamb must <b>graze until it becomes blemished,</b> at which point he may slaughter and eat it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "יִרְעֶה",
+      "en": "shall graze"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּסְתָּאֵב.",
+      "en": "it gets a blemish"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּב בַּמַּתָּנוֹת.",
+    "en": "And the Kohen's gifts must be given from it.",
+    "st": "<b>And</b> when he slaughters the animal he <b>is obligated to</b> have <b>gifts</b> of the priesthood taken from it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּב",
+      "en": "and it must"
+     },
+     {
+      "he": "בַּמַּתָּנוֹת.",
+      "en": "in the gifts"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי פּוֹטֵר,",
+    "en": "Rabbi Yosei says it does not have to,",
+    "st": "<b>Rabbi Yosei deems</b> him <b>exempt</b> him from giving those gifts,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "פּוֹטֵר,",
+      "en": "frees it"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָיָה רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "because Rabbi Yosei used to say,",
+    "st": "<b>as Rabbi Yosei says:</b> With regard to",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָיָה",
+      "en": "because used to"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁחֲלִיפָיו בְּיַד כֹּהֵן,",
+    "en": "any animal whose replacement is in the Kohen's hand",
+    "st": "<b>any</b> animal <b>whose replacements are in the possession of a priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁחֲלִיפָיו",
+      "en": "whose replacement"
+     },
+     {
+      "he": "בְּיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "כֹּהֵן,",
+      "en": "a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר מִן הַמַתָּנוֹת.",
+    "en": "does not have to give the gifts.",
+    "st": "its owner <b>is exempt from</b> the mitzva of giving <b>the</b> priestly <b>gifts. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "is free"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמַתָּנוֹת.",
+      "en": "the gifts"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר מְחַיֵּב.",
+    "en": "Rabbi Meir says it must.",
+    "st": "<b>And Rabbi Meir deems</b> him <b>obligated</b> to give the gifts.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "מְחַיֵּב.",
+      "en": "says it must"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אֶחָד מֵהֶן,",
+    "en": "If one of them died,",
+    "st": "If <b>one of</b> the animals <b>died, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יַחֲלוֹקוּ.",
+    "en": "they split the other one.",
+    "st": "The priest and the owner <b>divide</b> the value of the remaining lamb.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַחֲלוֹקוּ.",
+      "en": "they split"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "stMore": "Since there is uncertainty to whom it belongs, it remains in the possession of the owner, as",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַמּוֹצִיא מֵחֲבֵרוֹ עָלָיו הָרְאָיָה.",
+    "en": "whoever wants to take from his friend must bring the proof.",
+    "st": "<b>the burden of proof rests upon the claimant.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹצִיא",
+      "en": "the one who takes out"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "הָרְאָיָה.",
+      "en": "is the proof"
+     }
+    ]
+   },
+   {
+    "he": "זָכָר וּנְקֵבָה,",
+    "en": "If a male and a female were born,",
+    "st": "If <b>a male and a female</b> offspring were born together,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכָר",
+      "en": "a male"
+     },
+     {
+      "he": "וּנְקֵבָה,",
+      "en": "and a female"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כָּאן לַכֹּהֵן כְּלוּם:",
+    "en": "the Kohen gets nothing here.",
+    "st": "everyone agrees that <b>the priest has nothing here,</b>",
+    "stMore": "as perhaps the one that had already given birth bore the male, and the one that had not given birth bore the female, in which case neither of the animals would have firstborn status.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "לַכֹּהֵן",
+      "en": "for the Kohen"
+     },
+     {
+      "he": "כְּלוּם:",
+      "en": "anything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 9,
+  "summary": "A lamb born through a cut in its mother's side, and the one born after it: is either of them a bechor?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יוֹצֵא דֹּפֶן וְהַבָּא אַחֲרָיו,",
+    "en": "A lamb born through a cut in its mother's side, and the one born after it:",
+    "st": "With regard to an animal <b>born by caesarean section and</b> the offspring <b>that follows it,</b>",
+    "stMore": "since there is uncertainty whether each is a firstborn, neither is given to the priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצֵא",
+      "en": "one that comes out"
+     },
+     {
+      "he": "דֹּפֶן",
+      "en": "the side"
+     },
+     {
+      "he": "וְהַבָּא",
+      "en": "and the one that comes"
+     },
+     {
+      "he": "אַחֲרָיו,",
+      "en": "after it"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says,",
+    "st": "<b>Rabbi Tarfon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶם יִרְעוּ עַד שֶׁיִּסְתָּאֲבוּ",
+    "en": "both must graze until they get a blemish,",
+    "st": "<b>Both of them must graze until they become unfit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "יִרְעוּ",
+      "en": "shall graze"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּסְתָּאֲבוּ",
+      "en": "they get a blemish"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵאָכְלוּ בְמוּמָן לַבְּעָלִים.",
+    "en": "and the owners may eat them with their blemish.",
+    "st": "<b>and they may be eaten in their blemished</b> state <b>by their owner. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵאָכְלוּ",
+      "en": "and they are eaten"
+     },
+     {
+      "he": "בְמוּמָן",
+      "en": "with their blemish"
+     },
+     {
+      "he": "לַבְּעָלִים.",
+      "en": "by the owners"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶן אֵינָן בְּכוֹר,",
+    "en": "neither of them is a bechor:",
+    "st": "<b>Neither of them is firstborn; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶן",
+      "en": "both of them"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "are not"
+     },
+     {
+      "he": "בְּכוֹר,",
+      "en": "a bechor"
+     }
+    ]
+   },
+   {
+    "he": "הָרִאשׁוֹן מִשּׁוּם שֶׁאֵינוֹ פֶטֶר רֶחֶם,",
+    "en": "the first because it did not open the womb,",
+    "st": "<b>the first because it is not</b> the one <b>that opens the womb</b>",
+    "stMore": "(see Exodus 13:12), as this animal did not itself open the womb,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that it is not"
+     },
+     {
+      "he": "פֶטֶר",
+      "en": "the opener of",
+      "note": "The Torah calls a bechor \"the one that opens the womb\", the first one born the normal way."
+     },
+     {
+      "he": "רֶחֶם,",
+      "en": "the womb"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי מִשּׁוּם שֶׁקִּדְּמוֹ אַחֵר:",
+    "en": "and the second because another one came before it.",
+    "st": "<b>and the second because</b> the <b>other</b> one <b>preceded it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁקִּדְּמוֹ",
+      "en": "that came before it"
+     },
+     {
+      "he": "אַחֵר:",
+      "en": "another"
+     }
+    ]
+   }
+  ]
+ }
+]

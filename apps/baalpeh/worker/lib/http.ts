@@ -5,7 +5,7 @@ import type { AppEnv } from "../env";
 
 export const MAX_BODY_BYTES = 1_000_000;
 
-type Extra = Pick<ApiError, "retryAfterSec" | "attemptsLeft">;
+type Extra = Pick<ApiError, "retryAfterSec" | "attemptsLeft" | "reason">;
 
 export function apiError(
   c: Context<AppEnv>,

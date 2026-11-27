@@ -1,0 +1,2410 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "Two partners who share a courtyard and want to split it build a dividing wall right in the middle. Each one gives half of the land the wall stands on, and if the wall falls, the place and the stones belong to both.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַשֻּׁתָּפִין שֶׁרָצוּ לַעֲשׂוֹת מְחִצָּה בֶּחָצֵר,",
+    "en": "Partners who want to make a dividing wall in their courtyard",
+    "st": "<b>Partners who wished to make a partition [meḥitza] in</b> a jointly owned <b>courtyard</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשֻּׁתָּפִין",
+      "en": "the partners",
+      "note": "People who own something together."
+     },
+     {
+      "he": "שֶׁרָצוּ",
+      "en": "who wanted"
+     },
+     {
+      "he": "לַעֲשׂוֹת",
+      "en": "to make"
+     },
+     {
+      "he": "מְחִצָּה",
+      "en": "a dividing wall"
+     },
+     {
+      "he": "בֶּחָצֵר,",
+      "en": "in the courtyard"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹנִין אֶת הַכֹּתֶל בָּאֶמְצַע.",
+    "en": "build the wall in the middle.",
+    "st": "<b>build the wall</b> for the partition <b>in the middle</b> of the courtyard.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹנִין",
+      "en": "build"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּתֶל",
+      "en": "the wall"
+     },
+     {
+      "he": "בָּאֶמְצַע.",
+      "en": "in the middle"
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁנָּהֲגוּ לִבְנוֹת גָּוִיל,",
+    "en": "In a place where people usually build with rough stones,",
+    "st": "What is this wall fashioned from? In <b>a place where it is customary to build</b> such a wall with <b>non-chiseled stone [gevil],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they are used"
+     },
+     {
+      "he": "לִבְנוֹת",
+      "en": "to build"
+     },
+     {
+      "he": "גָּוִיל,",
+      "en": "rough stones",
+      "note": "Stones that were not cut smooth."
+     }
+    ]
+   },
+   {
+    "he": "גָּזִית, כְּפִיסִין,",
+    "en": "or cut stones, or small bricks,",
+    "st": "or <b>chiseled stone [gazit],</b> or <b>small bricks [kefisin],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּזִית,",
+      "en": "cut stones"
+     },
+     {
+      "he": "כְּפִיסִין,",
+      "en": "small bricks"
+     }
+    ]
+   },
+   {
+    "he": "לְבֵנִים, בּוֹנִים,",
+    "en": "or large bricks, they build with that.",
+    "st": "or <b>large bricks [leveinim], they must build</b> the wall with that material.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְבֵנִים,",
+      "en": "large bricks"
+     },
+     {
+      "he": "בּוֹנִים,",
+      "en": "they build"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל כְּמִנְהַג הַמְּדִינָה.",
+    "en": "It all follows the custom of the place.",
+    "st": "<b>Everything is in accordance with the regional custom.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "כְּמִנְהַג",
+      "en": "like the custom of"
+     },
+     {
+      "he": "הַמְּדִינָה.",
+      "en": "the land"
+     }
+    ]
+   },
+   {
+    "he": "בְּגָוִיל, זֶה נוֹתֵן שְׁלֹשָׁה טְפָחִים,",
+    "en": "With rough stones, this one gives three tefachim of land,",
+    "st": "If they build the wall with <b>non-chiseled stone, this</b> partner <b>provides three handbreadths</b> of his portion of the courtyard",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּגָוִיל,",
+      "en": "with rough stones"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "טְפָחִים,",
+      "en": "tefachim",
+      "note": "A tefach is about the width of a hand."
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה נוֹתֵן שְׁלֹשָׁה טְפָחִים.",
+    "en": "and that one gives three tefachim.",
+    "st": "<b>and that</b> partner <b>provides three handbreadths,</b>",
+    "stMore": "since the thickness of such a wall is six handbreadths.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "טְפָחִים.",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "בְּגָזִית, זֶה נוֹתֵן טְפָחַיִם וּמֶחֱצָה,",
+    "en": "With cut stones, this one gives two and a half tefachim,",
+    "st": "If they build the wall with <b>chiseled stone, this</b> partner <b>provides two and a half handbreadths</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּגָזִית,",
+      "en": "with cut stones"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "טְפָחַיִם",
+      "en": "two tefachim"
+     },
+     {
+      "he": "וּמֶחֱצָה,",
+      "en": "and a half"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה נוֹתֵן טְפָחַיִם וּמֶחֱצָה.",
+    "en": "and that one gives two and a half tefachim.",
+    "st": "<b>and that</b> partner <b>provides two and a half handbreadths,</b> since such a wall is five handbreadths thick.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "טְפָחַיִם",
+      "en": "two tefachim"
+     },
+     {
+      "he": "וּמֶחֱצָה.",
+      "en": "and a half"
+     }
+    ]
+   },
+   {
+    "he": "בִּכְפִיסִין, זֶה נוֹתֵן טְפָחַיִם,",
+    "en": "With small bricks, this one gives two tefachim,",
+    "st": "If they build the wall <b>with small bricks, this</b> one <b>provides two handbreadths</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּכְפִיסִין,",
+      "en": "with small bricks"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "טְפָחַיִם,",
+      "en": "two tefachim"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה נוֹתֵן טְפָחַיִם.",
+    "en": "and that one gives two tefachim.",
+    "st": "<b>and that</b> one <b>provides two handbreadths,</b>",
+    "stMore": "since the thickness of such a wall is four handbreadths.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "טְפָחַיִם.",
+      "en": "two tefachim"
+     }
+    ]
+   },
+   {
+    "he": "בִּלְבֵנִים, זֶה נוֹתֵן טֶפַח וּמֶחֱצָה,",
+    "en": "With large bricks, this one gives one and a half tefachim,",
+    "st": "If they build <b>with large bricks, this</b> one <b>provides one and a half handbreadths</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּלְבֵנִים,",
+      "en": "with large bricks"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "טֶפַח",
+      "en": "a tefach"
+     },
+     {
+      "he": "וּמֶחֱצָה,",
+      "en": "and a half"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה נוֹתֵן טֶפַח וּמֶחֱצָה.",
+    "en": "and that one gives one and a half tefachim.",
+    "st": "<b>and that</b> one <b>provides one and a half handbreadths,</b>",
+    "stMore": "since the thickness of such a wall is three handbreadths.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "טֶפַח",
+      "en": "a tefach"
+     },
+     {
+      "he": "וּמֶחֱצָה.",
+      "en": "and a half"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם נָפַל הַכֹּתֶל,",
+    "en": "So if the wall falls down,",
+    "st": "<b>Therefore, if the wall</b> later <b>falls,</b> the assumption is that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָפַל",
+      "en": "fell"
+     },
+     {
+      "he": "הַכֹּתֶל,",
+      "en": "the wall"
+     }
+    ]
+   },
+   {
+    "he": "הַמָּקוֹם וְהָאֲבָנִים שֶׁל שְׁנֵיהֶם:",
+    "en": "the place and the stones belong to both of them.",
+    "st": "<b>the space</b> where the wall stood <b>and the stones belong to both of them,</b> to be divided equally.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמָּקוֹם",
+      "en": "the place"
+     },
+     {
+      "he": "וְהָאֲבָנִים",
+      "en": "and the stones"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁנֵיהֶם:",
+      "en": "both of them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "In a place where people usually fence off gardens, a neighbor must help build the fence. In open fields where people do not fence, one who wants a fence builds it on his own land and marks it as his.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְכֵן בְּגִנָּה,",
+    "en": "And it is the same with a garden:",
+    "st": "<b>And similarly with regard to a garden,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "בְּגִנָּה,",
+      "en": "in a garden"
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁנָּהֲגוּ לִגְדֹּר מְחַיְּבִין אוֹתוֹ.",
+    "en": "where people usually build a fence, the neighbor must help.",
+    "st": "in <b>a place where it is customary to build a partition</b> in the middle of a garden jointly owned by two people, and one of them wishes to build such a partition, the court <b>obligates</b>",
+    "stMore": "his neighbor to join in building the partition.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they are used"
+     },
+     {
+      "he": "לִגְדֹּר",
+      "en": "to fence"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "they make him help"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל בְּבִקְעָה,",
+    "en": "But in open fields,",
+    "st": "<b>But with regard to</b> an expanse of <b>fields [babbika],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בְּבִקְעָה,",
+      "en": "in a valley",
+      "note": "Open fields."
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁנָּהֲגוּ שֶׁלֹּא לִגְדֹּר",
+    "en": "where people usually do not fence,",
+    "st": "in <b>a place where it is customary not to build a partition</b>",
+    "stMore": "between two people’s fields, and one person wishes to build a partition between his field and that of his neighbor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "where they are used"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לִגְדֹּר",
+      "en": "to fence"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְחַיְּבִין אוֹתוֹ,",
+    "en": "the neighbor does not have to help.",
+    "st": "the court <b>does not obligate</b> his neighbor to build such a partition.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "they make him help"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אִם רוֹצֶה כּוֹנֵס",
+    "en": "But if one wants a fence, he moves in",
+    "st": "<b>Rather, if</b> one person <b>wishes</b> to erect a partition,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רוֹצֶה",
+      "en": "he wants"
+     },
+     {
+      "he": "כּוֹנֵס",
+      "en": "he moves in"
+     }
+    ]
+   },
+   {
+    "he": "לְתוֹךְ שֶׁלּוֹ וּבוֹנֶה,",
+    "en": "onto his own land and builds it,",
+    "st": "<b>he must withdraw into his own</b> field <b>and build</b> the partition there.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "שֶׁלּוֹ",
+      "en": "his own"
+     },
+     {
+      "he": "וּבוֹנֶה,",
+      "en": "and builds"
+     }
+    ]
+   },
+   {
+    "he": "וְעוֹשֶׂה חֲזִית מִבַּחוּץ.",
+    "en": "and he makes a mark on the outside.",
+    "explain": "The mark shows that the wall is all his.",
+    "st": "<b>And he makes</b> a border <b>mark on the outer side</b>",
+    "stMore": "of the barrier facing his neighbor’s property, indicating that he built the entire structure of his own materials and on his own land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹשֶׂה",
+      "en": "and he makes"
+     },
+     {
+      "he": "חֲזִית",
+      "en": "a mark"
+     },
+     {
+      "he": "מִבַּחוּץ.",
+      "en": "on the outside"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם נָפַל הַכֹּתֶל,",
+    "en": "So if the wall falls down,",
+    "st": "<b>Therefore, if the wall</b> later <b>falls,</b> the assumption is that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָפַל",
+      "en": "fell"
+     },
+     {
+      "he": "הַכֹּתֶל,",
+      "en": "the wall"
+     }
+    ]
+   },
+   {
+    "he": "הַמָּקוֹם וְהָאֲבָנִים שֶׁלּוֹ.",
+    "en": "the place and the stones are his.",
+    "st": "<b>the space</b> where the wall stood <b>and the stones</b> belong only <b>to him,</b>",
+    "stMore": "as is indicated by the mark on the wall. Nevertheless, in a place where it is not customary to build a partition between two people’s fields,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמָּקוֹם",
+      "en": "the place"
+     },
+     {
+      "he": "וְהָאֲבָנִים",
+      "en": "and the stones"
+     },
+     {
+      "he": "שֶׁלּוֹ.",
+      "en": "are his"
+     }
+    ]
+   },
+   {
+    "he": "אִם עָשׂוּ מִדַּעַת שְׁנֵיהֶן,",
+    "en": "If they made it with both of them agreeing,",
+    "st": "<b>if they made</b> such a partition <b>with the agreement of the two of them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "עָשׂוּ",
+      "en": "they made it"
+     },
+     {
+      "he": "מִדַּעַת",
+      "en": "with the agreement of"
+     },
+     {
+      "he": "שְׁנֵיהֶן,",
+      "en": "both of them"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹנִין אֶת הַכֹּתֶל בָּאֶמְצַע,",
+    "en": "they build the wall in the middle,",
+    "st": "<b>they build it in the middle,</b> i.e., on the property line,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹנִין",
+      "en": "they build"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּתֶל",
+      "en": "the wall"
+     },
+     {
+      "he": "בָּאֶמְצַע,",
+      "en": "in the middle"
+     }
+    ]
+   },
+   {
+    "he": "וְעוֹשִׂין חָזִית מִכָּאן וּמִכָּאן.",
+    "en": "and make a mark on this side and on that side.",
+    "st": "<b>and make</b> a border <b>mark on the one</b> side <b>and on the other</b> side.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹשִׂין",
+      "en": "and they make"
+     },
+     {
+      "he": "חָזִית",
+      "en": "a mark"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וּמִכָּאן.",
+      "en": "and from here"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם נָפַל הַכֹּתֶל,",
+    "en": "So if the wall falls down,",
+    "st": "<b>Therefore, if the wall</b> later <b>falls,</b> the assumption is that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נָפַל",
+      "en": "fell"
+     },
+     {
+      "he": "הַכֹּתֶל,",
+      "en": "the wall"
+     }
+    ]
+   },
+   {
+    "he": "הַמָּקוֹם וְהָאֲבָנִים שֶׁל שְׁנֵיהֶם:",
+    "en": "the place and the stones belong to both of them.",
+    "st": "<b>the space</b> where the wall stood <b>and the stones</b> belong <b>to both of them,</b> to be divided equally.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמָּקוֹם",
+      "en": "the place"
+     },
+     {
+      "he": "וְהָאֲבָנִים",
+      "en": "and the stones"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁנֵיהֶם:",
+      "en": "both of them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "If someone owns fields on three sides of his neighbor's field and fences them, the neighbor does not have to pay. Rabbi Yosei says that if he fences the fourth side too, the neighbor must share the cost of all of it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּקִּיף אֶת חֲבֵרוֹ מִשְּׁלשׁ רוּחוֹתָיו,",
+    "en": "If someone's fields go around his neighbor's field on three sides,",
+    "st": "With regard to <b>one who surrounds another on three sides,</b>",
+    "stMore": "that is, he owns parcels of land on three sides of the other person’s field,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּקִּיף",
+      "en": "one who surrounds"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "מִשְּׁלשׁ",
+      "en": "from three"
+     },
+     {
+      "he": "רוּחוֹתָיו,",
+      "en": "of his sides"
+     }
+    ]
+   },
+   {
+    "he": "וְגָדַר אֶת הָרִאשׁוֹנָה",
+    "en": "and he fenced the first side,",
+    "st": "<b>and he built a partition</b> on <b>the first,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְגָדַר",
+      "en": "and he fenced"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת הַשְּׁנִיָּה וְאֶת הַשְּׁלִישִׁית,",
+    "en": "and the second and the third,",
+    "st": "<b>the second, and the third</b> sides,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and the"
+     },
+     {
+      "he": "הַשְּׁנִיָּה",
+      "en": "the second"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and the"
+     },
+     {
+      "he": "הַשְּׁלִישִׁית,",
+      "en": "the third"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְחַיְּבִין אוֹתוֹ.",
+    "en": "the neighbor does not have to pay.",
+    "st": "the court <b>does not obligate</b>",
+    "stMore": "the neighbor who owns the inner field to contribute to the construction of the partition if he does not wish to do so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "they make him pay"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says:",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם עָמַד וְגָדַר אֶת הָרְבִיעִית,",
+    "en": "If he went and fenced the fourth side too,",
+    "st": "<b>If he arose and built a partition</b> on <b>the fourth</b> side of the field,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "עָמַד",
+      "en": "he went"
+     },
+     {
+      "he": "וְגָדַר",
+      "en": "and fenced"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרְבִיעִית,",
+      "en": "the fourth"
+     }
+    ]
+   },
+   {
+    "he": "מְגַלְגְּלִין עָלָיו אֶת הַכֹּל:",
+    "en": "they make the neighbor pay his share of it all.",
+    "st": "the court <b>imposes upon</b> the owner of the inner field the responsibility to pay his share for <b>all</b> of the partitions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגַלְגְּלִין",
+      "en": "they roll onto"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּל:",
+      "en": "everything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "If a courtyard wall shared by two neighbors falls, each must help rebuild it up to four amos high. If one later builds on the taller part, he must pay his share of all of it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֹּתֶל חָצֵר שֶׁנָּפַל,",
+    "en": "A shared courtyard wall that fell down:",
+    "st": "In the case of a dividing <b>wall</b> in a jointly owned <b>courtyard that fell,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּתֶל",
+      "en": "a wall of"
+     },
+     {
+      "he": "חָצֵר",
+      "en": "a courtyard"
+     },
+     {
+      "he": "שֶׁנָּפַל,",
+      "en": "that fell"
+     }
+    ]
+   },
+   {
+    "he": "מְחַיְּבִין אוֹתוֹ לִבְנוֹתוֹ עַד אַרְבַּע אַמּוֹת,",
+    "en": "they make each neighbor help build it up to four amos high.",
+    "st": "if one of the owners wishes to rebuild the wall, the court <b>obligates</b> the other owner <b>to build</b> the wall with him <b>up to</b> a height of <b>four cubits.</b>",
+    "stMore": "If after the wall was built one of the neighbors claims he alone constructed it and the other did not participate in its building, the latter is nevertheless",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְחַיְּבִין",
+      "en": "they make him"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "לִבְנוֹתוֹ",
+      "en": "to build it"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "אַמּוֹת,",
+      "en": "amos",
+      "note": "An amah is about the length of an arm, from elbow to fingertip."
+     }
+    ]
+   },
+   {
+    "he": "בְּחֶזְקַת שֶׁנָּתַן,",
+    "en": "We assume he already gave his share,",
+    "st": "<b>presumed to have given</b> his share of the money,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּחֶזְקַת",
+      "en": "with the assumption"
+     },
+     {
+      "he": "שֶׁנָּתַן,",
+      "en": "that he gave"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיָּבִיא רְאָיָה שֶׁלֹּא נָתָן.",
+    "en": "unless the other brings proof that he did not give.",
+    "st": "<b>unless</b> the claimant <b>brings proof that</b> the other <b>did not give</b> his part.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּבִיא",
+      "en": "he brings"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נָתָן.",
+      "en": "he gave"
+     }
+    ]
+   },
+   {
+    "he": "מֵאַרְבַּע אַמּוֹת וּלְמַעְלָה, אֵין מְחַיְּבִין אוֹתוֹ.",
+    "en": "Higher than four amos, they do not make him help.",
+    "st": "The court <b>does not obligate</b> the reluctant neighbor to contribute to the building of the wall <b>higher than four cubits.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאַרְבַּע",
+      "en": "from four"
+     },
+     {
+      "he": "אַמּוֹת",
+      "en": "amos"
+     },
+     {
+      "he": "וּלְמַעְלָה,",
+      "en": "and up"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְחַיְּבִין",
+      "en": "they make him help"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "סָמַךְ לוֹ כֹתֶל אַחֵר,",
+    "en": "But if he built another wall up against it,",
+    "st": "But if the reluctant neighbor <b>built another wall close</b> to the wall that had been built higher than four cubits, in order to set a roof over the room that was thereby created, the court <b>imposes upon him</b> the responsibility to pay his share for <b>all</b> of the rebuilt wall,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סָמַךְ",
+      "en": "he leaned against"
+     },
+     {
+      "he": "לוֹ",
+      "en": "it"
+     },
+     {
+      "he": "כֹתֶל",
+      "en": "a wall"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁלֹּא",
+    "en": "even though he has not",
+    "st": "<b>even though he has not</b> yet",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן עָלָיו אֶת הַתִּקְרָה,",
+    "en": "yet put a roof on it,",
+    "st": "<b>set a roof over it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתִּקְרָה,",
+      "en": "the roof"
+     }
+    ]
+   },
+   {
+    "he": "מְגַלְגְּלִין עָלָיו אֶת הַכֹּל,",
+    "en": "they make him pay his share for all of it.",
+    "explain": "He showed he wants to use the tall wall.",
+    "st": "Since he has demonstrated his desire to make use of what his neighbor built, he must participate in the cost of its construction. If the builder of the first wall later claims that he did not receive payment from his neighbor, the neighbor",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגַלְגְּלִין",
+      "en": "they roll onto"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "him"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּל,",
+      "en": "everything"
+     }
+    ]
+   },
+   {
+    "he": "בְּחֶזְקַת שֶׁלֹּא נָתַן,",
+    "en": "Here we assume he did not give his share,",
+    "st": "<b>is presumed not to have given</b> his share of the money,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּחֶזְקַת",
+      "en": "with the assumption"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that he did not"
+     },
+     {
+      "he": "נָתַן,",
+      "en": "give"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיָּבִיא רְאָיָה שֶׁנָּתָן:",
+    "en": "unless he brings proof that he did give.",
+    "st": "<b>unless he brings proof that he did</b> in fact <b>give</b> money for the building of the wall.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּבִיא",
+      "en": "he brings"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "שֶׁנָּתָן:",
+      "en": "that he gave"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "People who share a courtyard can make each other help pay for a gatehouse and a door, and people in a city can make each other help pay for a city wall. Someone counts as a person of the city after twelve months, or right away if he buys a house there.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כּוֹפִין אוֹתוֹ לִבְנוֹת",
+    "en": "They can make each neighbor help build",
+    "st": "The residents of a courtyard <b>can compel</b> each inhabitant of that courtyard <b>to</b> financially participate in the <b>building of a</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹפִין",
+      "en": "they force"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "לִבְנוֹת",
+      "en": "to build"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁעַר וְדֶלֶת לֶחָצֵר.",
+    "en": "a gatehouse and a door for the courtyard.",
+    "st": "<b>gatehouse and a door to the</b> jointly owned <b>courtyard.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "שַׁעַר",
+      "en": "a gate",
+      "note": "A little room at the gate for a guard."
+     },
+     {
+      "he": "וְדֶלֶת",
+      "en": "and a door"
+     },
+     {
+      "he": "לֶחָצֵר.",
+      "en": "for the courtyard"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says:",
+    "st": "<b>Rabban Shimon ben Gamliel</b> disagrees and <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban",
+      "note": "A title for the head of the Sanhedrin."
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כָל הַחֲצֵרוֹת רְאוּיוֹת לְבֵית שָׁעַר.",
+    "en": "Not every courtyard needs a gatehouse.",
+    "st": "<b>Not all courtyards require a gatehouse,</b>",
+    "stMore": "and each courtyard must be considered on its own in accordance with its specific needs. Similarly, the residents of a city",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַחֲצֵרוֹת",
+      "en": "the courtyards"
+     },
+     {
+      "he": "רְאוּיוֹת",
+      "en": "need"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "שָׁעַר.",
+      "en": "a gate"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹפִין אוֹתוֹ לִבְנוֹת",
+    "en": "They can make each person help build",
+    "st": "<b>can compel</b> each inhabitant of that city <b>to</b> contribute to the <b>building of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹפִין",
+      "en": "they force"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "לִבְנוֹת",
+      "en": "to build"
+     }
+    ]
+   },
+   {
+    "he": "לָעִיר חוֹמָה וּדְלָתַיִם וּבְרִיחַ.",
+    "en": "for the city a wall, doors, and a bolt.",
+    "st": "<b>a wall, double doors, and a crossbar for the city.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָעִיר",
+      "en": "for the city"
+     },
+     {
+      "he": "חוֹמָה",
+      "en": "a wall"
+     },
+     {
+      "he": "וּדְלָתַיִם",
+      "en": "and doors"
+     },
+     {
+      "he": "וּבְרִיחַ.",
+      "en": "and a bolt",
+      "note": "A bar that locks the doors shut."
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says:",
+    "st": "<b>Rabban Shimon ben Gamliel</b> disagrees and <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כָל הָעֲיָרוֹת רְאוּיוֹת לְחוֹמָה.",
+    "en": "Not every town needs a wall.",
+    "st": "<b>Not all towns require a wall.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הָעֲיָרוֹת",
+      "en": "the towns"
+     },
+     {
+      "he": "רְאוּיוֹת",
+      "en": "need"
+     },
+     {
+      "he": "לְחוֹמָה.",
+      "en": "a wall"
+     }
+    ]
+   },
+   {
+    "he": "כַּמָּה יְהֵא בָעִיר וִיהֵא כְאַנְשֵׁי הָעִיר,",
+    "en": "How long must someone be in the city to count as one of its people?",
+    "st": "With regard to this latter obligation, the mishna asks: <b>How long</b> must one live <b>in the city to be</b> considered <b>like</b> one of <b>the people of the city</b>",
+    "stMore": "and therefore obligated to contribute to these expenses?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּמָּה",
+      "en": "how long"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "must he be"
+     },
+     {
+      "he": "בָעִיר",
+      "en": "in the city"
+     },
+     {
+      "he": "וִיהֵא",
+      "en": "and be"
+     },
+     {
+      "he": "כְאַנְשֵׁי",
+      "en": "like the people of"
+     },
+     {
+      "he": "הָעִיר,",
+      "en": "the city"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵים עָשָׂר חֹדֶשׁ.",
+    "en": "Twelve months.",
+    "st": "<b>Twelve months.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten",
+      "note": "Together, twelve."
+     },
+     {
+      "he": "חֹדֶשׁ.",
+      "en": "months"
+     }
+    ]
+   },
+   {
+    "he": "קָנָה בָהּ בֵּית דִּירָה,",
+    "en": "If he bought a house to live in there,",
+    "st": "But if he <b>bought</b> himself <b>a residence in</b> the city,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָנָה",
+      "en": "he bought"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּירָה,",
+      "en": "living"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הוּא כְאַנְשֵׁי הָעִיר מִיָּד:",
+    "en": "he is like the people of the city right away.",
+    "st": "<b>he is immediately</b> considered <b>like</b> one of <b>the people of the city.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "כְאַנְשֵׁי",
+      "en": "like the people of"
+     },
+     {
+      "he": "הָעִיר",
+      "en": "the city"
+     },
+     {
+      "he": "מִיָּד:",
+      "en": "right away"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "Partners can only make each other split a shared courtyard, field, garden or building if each part is still big enough to be used and keep its name. If both want to split, they may, but they may never cut up a holy scroll.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין חוֹלְקִין אֶת הֶחָצֵר,",
+    "en": "We do not split a shared courtyard",
+    "st": "The court <b>does not divide a courtyard</b> at the request of one of the joint owners",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "חוֹלְקִין",
+      "en": "we divide"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הֶחָצֵר,",
+      "en": "the courtyard"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא אַרְבַּע אַמּוֹת",
+    "en": "unless there will be four amos",
+    "st": "<b>unless there will be</b> in it four by <b>four cubits</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "there will be"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "אַמּוֹת",
+      "en": "amos"
+     }
+    ]
+   },
+   {
+    "he": "לָזֶה וְאַרְבַּע אַמּוֹת לָזֶה.",
+    "en": "for this one and four amos for that one.",
+    "st": "<b>for this one and</b> four by <b>four cubits for that one,</b>",
+    "stMore": "i.e., this minimum area for each of the joint owners.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָזֶה",
+      "en": "for this one"
+     },
+     {
+      "he": "וְאַרְבַּע",
+      "en": "and four"
+     },
+     {
+      "he": "אַמּוֹת",
+      "en": "amos"
+     },
+     {
+      "he": "לָזֶה.",
+      "en": "for that one"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַשָּׂדֶה,",
+    "en": "And not a field,",
+    "st": "<b>And</b> the court does <b>not</b> divide <b>a</b> jointly owned <b>field</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשָּׂדֶה,",
+      "en": "the field"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא בָהּ תִּשְׁעָה קַבִּין",
+    "en": "unless it has room to plant nine kav of seed",
+    "st": "<b>unless there is</b> space <b>in it</b> to plant <b>nine kav</b> of seed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "there is"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "תִּשְׁעָה",
+      "en": "nine"
+     },
+     {
+      "he": "קַבִּין",
+      "en": "kav",
+      "note": "A kav is a measure of seed or grain."
+     }
+    ]
+   },
+   {
+    "he": "לָזֶה וְתִשְׁעָה קַבִּין לָזֶה.",
+    "en": "for this one and nine kav for that one.",
+    "st": "<b>for this one and nine kav</b> of seed <b>for that one.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָזֶה",
+      "en": "for this one"
+     },
+     {
+      "he": "וְתִשְׁעָה",
+      "en": "and nine"
+     },
+     {
+      "he": "קַבִּין",
+      "en": "kav"
+     },
+     {
+      "he": "לָזֶה.",
+      "en": "for that one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says:",
+    "st": "<b>Rabbi Yehuda says:</b> The court does not divide a field",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא בָהּ תִּשְׁעַת חֲצָאֵי קַבִּין",
+    "en": "unless it has room for nine half-kav",
+    "st": "<b>unless there is</b> space <b>in it</b> to plant <b>nine half-kav</b> of seed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "there is"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "תִּשְׁעַת",
+      "en": "nine"
+     },
+     {
+      "he": "חֲצָאֵי",
+      "en": "halves of"
+     },
+     {
+      "he": "קַבִּין",
+      "en": "kav"
+     }
+    ]
+   },
+   {
+    "he": "לָזֶה וְתִשְׁעַת חֲצָאֵי קַבִּין לָזֶה.",
+    "en": "for this one and nine half-kav for that one.",
+    "st": "<b>for this one and nine half-kav</b> of seed <b>for that one.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָזֶה",
+      "en": "for this one"
+     },
+     {
+      "he": "וְתִשְׁעַת",
+      "en": "and nine"
+     },
+     {
+      "he": "חֲצָאֵי",
+      "en": "halves of"
+     },
+     {
+      "he": "קַבִּין",
+      "en": "kav"
+     },
+     {
+      "he": "לָזֶה.",
+      "en": "for that one"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַגִּנָּה,",
+    "en": "And not a garden,",
+    "st": "<b>And</b> the court does <b>not</b> divide a jointly owned <b>garden</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגִּנָּה,",
+      "en": "the garden"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא בָהּ חֲצִי קַב",
+    "en": "unless it has room for half a kav",
+    "st": "<b>unless there is</b> space <b>in it</b> to plant <b>a half-kav</b> of seed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "there is"
+     },
+     {
+      "he": "בָהּ",
+      "en": "in it"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half"
+     },
+     {
+      "he": "קַב",
+      "en": "a kav"
+     }
+    ]
+   },
+   {
+    "he": "לָזֶה וַחֲצִי קַב לָזֶה.",
+    "en": "for this one and half a kav for that one.",
+    "st": "<b>for this one and a half-kav</b> of seed <b>for that one.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָזֶה",
+      "en": "for this one"
+     },
+     {
+      "he": "וַחֲצִי",
+      "en": "and half"
+     },
+     {
+      "he": "קַב",
+      "en": "a kav"
+     },
+     {
+      "he": "לָזֶה.",
+      "en": "for that one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says:",
+    "st": "<b>Rabbi Akiva says</b>",
+    "stMore": "that half that amount is sufficient, i.e., the",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית רֹבַע.",
+    "en": "room to plant a quarter kav is enough.",
+    "st": "<b>area required for sowing a quarter-kav of seed [beit rova].</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "a place of"
+     },
+     {
+      "he": "רֹבַע.",
+      "en": "a quarter"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַטְּרַקְלִין,",
+    "en": "And we do not split a big hall,",
+    "st": "Similarly, the court does <b>not</b> divide <b>a hall [hateraklin],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַטְּרַקְלִין,",
+      "en": "the big hall"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַמּוֹרָן,",
+    "en": "and not a sitting room,",
+    "st": "<b>a drawing room,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמּוֹרָן,",
+      "en": "the sitting room"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַשּׁוֹבָךְ,",
+    "en": "and not a dovecote,",
+    "st": "<b>a dovecote,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשּׁוֹבָךְ,",
+      "en": "the dovecote",
+      "note": "A house for doves."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַטַּלִּית,",
+    "en": "and not a cloak,",
+    "st": "<b>a cloak,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַטַּלִּית,",
+      "en": "the cloak"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת הַמֶּרְחָץ,",
+    "en": "and not a bathhouse,",
+    "st": "<b>a bathhouse,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמֶּרְחָץ,",
+      "en": "the bathhouse"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת בֵּית הַבַּד,",
+    "en": "and not an olive press,",
+    "st": "<b>an olive press, and an irrigated field</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בֵּית",
+      "en": "house of"
+     },
+     {
+      "he": "הַבַּד,",
+      "en": "the press",
+      "note": "A place where olives are squeezed for oil."
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא בָהֶן כְּדֵי",
+    "en": "unless there is enough",
+    "st": "<b>unless there is enough for this one</b> to use the property in the usual manner",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "there is"
+     },
+     {
+      "he": "בָהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "enough"
+     }
+    ]
+   },
+   {
+    "he": "לָזֶה וּכְדֵי לָזֶה.",
+    "en": "for this one and enough for that one.",
+    "st": "<b>and enough for that one</b> to use the property in the usual manner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָזֶה",
+      "en": "for this one"
+     },
+     {
+      "he": "וּכְדֵי",
+      "en": "and enough"
+     },
+     {
+      "he": "לָזֶה.",
+      "en": "for that one"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כָּל שֶׁיֵּחָלֵק וּשְׁמוֹ עָלָיו, חוֹלְקִין.",
+    "en": "Anything that can be split and still keep its name, we split.",
+    "st": "<b>Anything</b> for <b>which</b> when it <b>is divided,</b> each of the parts is large enough to <b>retain the name</b> of the original item, the court <b>divides</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anything"
+     },
+     {
+      "he": "שֶׁיֵּחָלֵק",
+      "en": "that will be split"
+     },
+     {
+      "he": "וּשְׁמוֹ",
+      "en": "and its name"
+     },
+     {
+      "he": "עָלָיו,",
+      "en": "on it"
+     },
+     {
+      "he": "חוֹלְקִין.",
+      "en": "we divide"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו, אֵין חוֹלְקִין.",
+    "en": "And if not, we do not split it.",
+    "st": "<b>But if</b> the parts will <b>not</b> retain the original name, the court <b>does not divide</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "חוֹלְקִין.",
+      "en": "we divide"
+     }
+    ]
+   },
+   {
+    "he": "אֵימָתַי, בִּזְמַן שֶׁאֵין שְׁנֵיהֶם רוֹצִים.",
+    "en": "When is this? When they do not both want to.",
+    "st": "<b>When</b> does this rule apply? It applies <b>when</b> the joint owners <b>do not both wish</b>",
+    "stMore": "to divide the item; when only one of the owners wishes to divide the property, he cannot force the other to do so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי,",
+      "en": "when"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "רוֹצִים.",
+      "en": "want"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל בִּזְמַן שֶׁשְּׁנֵיהֶם רוֹצִים,",
+    "en": "But when both of them want,",
+    "st": "<b>But when both of them wish</b> to divide the item,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at a time"
+     },
+     {
+      "he": "שֶׁשְּׁנֵיהֶם",
+      "en": "that both of them"
+     },
+     {
+      "he": "רוֹצִים,",
+      "en": "want"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ בְפָחוֹת מִכָּאן, יַחֲלֹקוּ.",
+    "en": "even with less than this, they may split it.",
+    "st": "<b>they may divide</b> it, <b>even</b> if each of the owners will receive <b>less than</b> the amounts specified above.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "בְפָחוֹת",
+      "en": "with less"
+     },
+     {
+      "he": "מִכָּאן,",
+      "en": "than this"
+     },
+     {
+      "he": "יַחֲלֹקוּ.",
+      "en": "they may divide"
+     }
+    ]
+   },
+   {
+    "he": "וְכִתְבֵי הַקֹּדֶשׁ,",
+    "en": "But holy scrolls,",
+    "st": "<b>But</b> in the case of <b>sacred writings,</b>",
+    "stMore": "i.e., a scroll of any of the twenty-four books of the Bible, that were inherited by two people,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִתְבֵי",
+      "en": "and the writings of"
+     },
+     {
+      "he": "הַקֹּדֶשׁ,",
+      "en": "the holy"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁשְּׁנֵיהֶם רוֹצִים, לֹא יַחֲלֹקוּ:",
+    "en": "even if both of them want, they may not split them.",
+    "st": "<b>they may not divide</b> them, <b>even if both of them wish</b>",
+    "stMore": "to do so, because it would be a show of disrespect to cut the scroll in half.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁשְּׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "רוֹצִים,",
+      "en": "want"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַחֲלֹקוּ:",
+      "en": "they may divide"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,4744 @@
+[
+ {
+  "perek": 7,
+  "mishnah": 1,
+  "summary": "The court had four kinds of death penalty. The Tanna Kamma and Rabbi Shimon list them in different orders, from the most severe to the least.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אַרְבַּע מִיתוֹת נִמְסְרוּ לְבֵית דִּין,",
+    "en": "Four kinds of death penalty were given to the court:",
+    "st": "<b>Four types of</b> the <b>death</b> penalty <b>were given over to</b> the <b>court,</b>",
+    "stMore": "with which those who committed certain transgressions are executed. They are, in descending order of severity:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "מִיתוֹת",
+      "en": "deaths"
+     },
+     {
+      "he": "נִמְסְרוּ",
+      "en": "were given"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "סְקִילָה, שְׂרֵפָה,",
+    "en": "stoning, burning,",
+    "st": "<b>Stoning, burning, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְקִילָה,",
+      "en": "stoning"
+     },
+     {
+      "he": "שְׂרֵפָה,",
+      "en": "burning"
+     }
+    ]
+   },
+   {
+    "he": "הֶרֶג, וָחֶנֶק.",
+    "en": "the sword, and choking.",
+    "st": "<b>killing</b> by decapitation, <b>and strangulation. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶרֶג,",
+      "en": "killing"
+     },
+     {
+      "he": "וָחֶנֶק.",
+      "en": "and choking"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b> They are, in descending order of severity:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׂרֵפָה, סְקִילָה,",
+    "en": "burning, stoning,",
+    "st": "<b>Burning, stoning, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׂרֵפָה,",
+      "en": "burning"
+     },
+     {
+      "he": "סְקִילָה,",
+      "en": "stoning"
+     }
+    ]
+   },
+   {
+    "he": "חֶנֶק, וָהֶרֶג.",
+    "en": "choking, and the sword.",
+    "st": "<b>strangulation, and killing. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֶנֶק,",
+      "en": "choking"
+     },
+     {
+      "he": "וָהֶרֶג.",
+      "en": "and killing"
+     }
+    ]
+   },
+   {
+    "he": "זוֹ מִצְוַת הַנִּסְקָלִין:",
+    "en": "What we learned before is how stoning is done.",
+    "st": "<b>This</b> execution, described in the previous chapter, is referring to <b>the mitzva of those who are stoned,</b> i.e., to the process of execution by stoning.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this is"
+     },
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "הַנִּסְקָלִין:",
+      "en": "those who are stoned"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 2,
+  "summary": "This mishnah tells how the punishment of burning was done by the court. Rabbi Yehudah and Rabbi Elazar ben Tzadok add their opinions.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִצְוַת הַנִּשְׂרָפִין,",
+    "en": "How the punishment of burning is done:",
+    "st": "<b>The mitzva of those who are burned,</b>",
+    "stMore": "i.e., the process of execution by burning, is carried out in the following manner:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "הַנִּשְׂרָפִין,",
+      "en": "those who are burned"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מְשַׁקְּעִין אוֹתוֹ בַזֶּבֶל עַד אַרְכֻּבּוֹתָיו",
+    "en": "They would stand him in soft ground up to his knees,",
+    "explain": "So he could not move.",
+    "st": "The executioners <b>submerge</b> the condemned one <b>in dung up to his knees</b> so he cannot move,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מְשַׁקְּעִין",
+      "en": "sinking"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "בַזֶּבֶל",
+      "en": "in the dung"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "אַרְכֻּבּוֹתָיו",
+      "en": "his knees"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתְנִין סוּדָר קָשָׁה לְתוֹךְ הָרַכָּה",
+    "en": "and they put a hard cloth inside a soft one",
+    "st": "<b>and they place a rough scarf within a soft one,</b> so his throat will not be wounded,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתְנִין",
+      "en": "and they put"
+     },
+     {
+      "he": "סוּדָר",
+      "en": "a cloth"
+     },
+     {
+      "he": "קָשָׁה",
+      "en": "hard"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "הָרַכָּה",
+      "en": "the soft one"
+     }
+    ]
+   },
+   {
+    "he": "וְכוֹרֵךְ עַל צַוָּארוֹ.",
+    "en": "and wrap it around his neck.",
+    "st": "<b>and wrap</b> these scarves <b>around his neck. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכוֹרֵךְ",
+      "en": "and wraps"
+     },
+     {
+      "he": "עַל",
+      "en": "around"
+     },
+     {
+      "he": "צַוָּארוֹ.",
+      "en": "his neck"
+     }
+    ]
+   },
+   {
+    "he": "זֶה מוֹשֵׁךְ אֶצְלוֹ וְזֶה מוֹשֵׁךְ אֶצְלוֹ",
+    "en": "This one pulls it toward himself and that one pulls it toward himself",
+    "st": "<b>This</b> one, i.e., one of the witnesses, <b>pulls</b> the scarf <b>toward himself, and that</b> one, the other witness, <b>pulls</b> it <b>toward himself, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "מוֹשֵׁךְ",
+      "en": "pulls"
+     },
+     {
+      "he": "אֶצְלוֹ",
+      "en": "toward himself"
+     },
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "מוֹשֵׁךְ",
+      "en": "pulls"
+     },
+     {
+      "he": "אֶצְלוֹ",
+      "en": "toward himself"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁפּוֹתֵחַ אֶת פִּיו,",
+    "en": "until he opens his mouth.",
+    "st": "<b>until</b> the condemned one is forced to <b>open his mouth,</b> as he is choking.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁפּוֹתֵחַ",
+      "en": "that he opens"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "פִּיו,",
+      "en": "his mouth"
+     }
+    ]
+   },
+   {
+    "he": "וּמַדְלִיק אֶת הַפְּתִילָה",
+    "en": "And he lights a wick",
+    "st": "<b>And</b> another person then <b>lights the wick </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַדְלִיק",
+      "en": "and lights"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפְּתִילָה",
+      "en": "the wick"
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹרְקָהּ לְתוֹךְ פִּיו",
+    "en": "and puts it into his mouth,",
+    "st": "<b>and throws it into his mouth, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹרְקָהּ",
+      "en": "and throws it"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "פִּיו",
+      "en": "his mouth"
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹרֶדֶת לְתוֹךְ מֵעָיו",
+    "en": "and it goes down inside him",
+    "st": "<b>and it goes down into his intestines </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹרֶדֶת",
+      "en": "and it goes down"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "מֵעָיו",
+      "en": "his insides"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹמֶרֶת אֶת בְּנֵי מֵעָיו.",
+    "en": "and burns him inside.",
+    "st": "<b>and burns his intestines</b> and he dies.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹמֶרֶת",
+      "en": "and burns"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "the inner parts of"
+     },
+     {
+      "he": "מֵעָיו.",
+      "en": "his insides"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הוּא אִם מֵת בְּיָדָם",
+    "en": "if he died while they were holding him,",
+    "st": "<b>But if this</b> one who is condemned to death by burning accidentally <b>died at their hands</b> by strangulation,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מֵת",
+      "en": "he died"
+     },
+     {
+      "he": "בְּיָדָם",
+      "en": "in their hands"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיוּ מְקַיְּמִין בּוֹ מִצְוַת שְׂרֵפָה,",
+    "en": "they did not do the mitzvah of burning.",
+    "st": "<b>they have not fulfilled the mitzva of</b> execution by <b>burning for</b> this person.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מְקַיְּמִין",
+      "en": "fulfilling"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "שְׂרֵפָה,",
+      "en": "burning"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא פוֹתְחִין אֶת פִּיו בִּצְבָת",
+    "en": "Instead, they open his mouth with tongs",
+    "st": "<b>Rather,</b> the process is carried out in the following manner: One <b>opens the mouth of</b> the condemned person <b>with prongs, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "פוֹתְחִין",
+      "en": "they open"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "פִּיו",
+      "en": "his mouth"
+     },
+     {
+      "he": "בִּצְבָת",
+      "en": "with tongs"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא בְטוֹבָתוֹ",
+    "en": "against his will,",
+    "st": "<b>against his will, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בְטוֹבָתוֹ",
+      "en": "with his goodwill"
+     }
+    ]
+   },
+   {
+    "he": "וּמַדְלִיק אֶת הַפְּתִילָה",
+    "en": "and he lights the wick",
+    "st": "<b>and</b> one <b>lights the wick </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַדְלִיק",
+      "en": "and lights"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפְּתִילָה",
+      "en": "the wick"
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹרְקָהּ לְתוֹךְ פִּיו",
+    "en": "and puts it into his mouth,",
+    "st": "<b>and throws it into his mouth, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹרְקָהּ",
+      "en": "and throws it"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "פִּיו",
+      "en": "his mouth"
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹרֶדֶת לְתוֹךְ מֵעָיו וְחוֹמֶרֶת אֶת בְּנֵי מֵעָיו.",
+    "en": "and it goes down inside him and burns him.",
+    "st": "<b>and it goes down into his intestines and burns his intestines</b> and he dies.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹרֶדֶת",
+      "en": "and it goes down"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "מֵעָיו",
+      "en": "his insides"
+     },
+     {
+      "he": "וְחוֹמֶרֶת",
+      "en": "and burns"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "the inner parts of"
+     },
+     {
+      "he": "מֵעָיו.",
+      "en": "his insides"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי אֱלִיעֶזֶר בֶּן צָדוֹק,",
+    "en": "Rabbi Elazar ben Tzadok said,",
+    "st": "<b>Rabbi Elazar ben Tzadok said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Elazar"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "צָדוֹק,",
+      "en": "Tzadok"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה בְּבַת כֹּהֵן אַחַת שֶׁזִּנְּתָה,",
+    "en": "\"Once a daughter of a Kohen did a terrible sin,",
+    "st": "<b>An incident</b> occurred <b>with regard to a certain priest’s daughter who committed adultery, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בְּבַת",
+      "en": "with a daughter of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "a Kohen"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁזִּנְּתָה,",
+      "en": "that did a forbidden sin"
+     }
+    ]
+   },
+   {
+    "he": "וְהִקִּיפוּהָ חֲבִילֵי זְמוֹרוֹת וּשְׂרָפוּהָ.",
+    "en": "and they put bundles of branches around her and burned her.\"",
+    "st": "<b>and they wrapped her in bundles of branches and burned her,</b>",
+    "stMore": "contrary to the process described in the mishna.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִקִּיפוּהָ",
+      "en": "and they surrounded her"
+     },
+     {
+      "he": "חֲבִילֵי",
+      "en": "bundles of"
+     },
+     {
+      "he": "זְמוֹרוֹת",
+      "en": "branches"
+     },
+     {
+      "he": "וּשְׂרָפוּהָ.",
+      "en": "and burned her"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Sages <b>said to him:</b> That court did not act properly; they did so",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁלֹּא הָיָה בֵית דִּין",
+    "en": "\"That was because the court",
+    "st": "<b>because the court </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל אוֹתָהּ שָׁעָה בָּקִי:",
+    "en": "of that time did not know the halachah well.\"",
+    "st": "<b>at that time was not proficient</b> in halakha.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אוֹתָהּ",
+      "en": "that"
+     },
+     {
+      "he": "שָׁעָה",
+      "en": "time"
+     },
+     {
+      "he": "בָּקִי:",
+      "en": "expert"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 3,
+  "summary": "This mishnah tells how the punishments of the sword and of choking were done by the court.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִצְוַת הַנֶּהֱרָגִים,",
+    "en": "How the punishment of the sword is done:",
+    "st": "<b>The mitzva of those who are killed,</b>",
+    "stMore": "i.e., the process of execution by decapitation, is carried out in the following manner:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "הַנֶּהֱרָגִים,",
+      "en": "those who are killed"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מַתִּיזִין אֶת רֹאשׁוֹ בְסַיִף",
+    "en": "They would cut off his head with a sword,",
+    "st": "The executioners <b>cut off his head with a sword, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מַתִּיזִין",
+      "en": "cutting off"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רֹאשׁוֹ",
+      "en": "his head"
+     },
+     {
+      "he": "בְסַיִף",
+      "en": "with a sword"
+     }
+    ]
+   },
+   {
+    "he": "כְּדֶרֶךְ שֶׁהַמַּלְכוּת עוֹשָׂה.",
+    "en": "the way the kingdom does.",
+    "st": "<b>the way that the monarchy does</b> when a king sentences a person to death.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדֶרֶךְ",
+      "en": "like the way"
+     },
+     {
+      "he": "שֶׁהַמַּלְכוּת",
+      "en": "that the kingdom"
+     },
+     {
+      "he": "עוֹשָׂה.",
+      "en": "does"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "נִוּוּל הוּא זֶה,",
+    "en": "that is a disgrace.",
+    "st": "This manner of execution is improper, as <b>it degrades him. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִוּוּל",
+      "en": "a disgrace"
+     },
+     {
+      "he": "הוּא",
+      "en": "it is"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מַנִּיחִין אֶת רֹאשׁוֹ עַל הַסַּדָּן",
+    "en": "Instead, they put his head on a block",
+    "st": "<b>Rather, they place the head of</b> the condemned <b>on the block, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מַנִּיחִין",
+      "en": "they put"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רֹאשׁוֹ",
+      "en": "his head"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַסַּדָּן",
+      "en": "the block"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹצֵץ בְּקוֹפִיץ.",
+    "en": "and cut with an axe.",
+    "st": "<b>and chop</b> it off <b>with a cleaver [bekofitz].</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹצֵץ",
+      "en": "and cuts"
+     },
+     {
+      "he": "בְּקוֹפִיץ.",
+      "en": "with an axe"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מִיתָה מְנֻוֶּלֶת מִזּוֹ.",
+    "en": "\"No death is more of a disgrace than that.\"",
+    "st": "If you are concerned about his degradation, <b>there is no death</b> penalty more <b>degrading than that.</b>",
+    "stMore": "It is better for him to be executed in the manner described first.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "מִיתָה",
+      "en": "a death"
+     },
+     {
+      "he": "מְנֻוֶּלֶת",
+      "en": "disgraced"
+     },
+     {
+      "he": "מִזּוֹ.",
+      "en": "more than this"
+     }
+    ]
+   },
+   {
+    "he": "מִצְוַת הַנֶּחֱנָקִין,",
+    "en": "How the punishment of choking is done:",
+    "st": "<b>The mitzva of those who are strangled</b> is carried out in the following manner:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "הַנֶּחֱנָקִין,",
+      "en": "those who are choked"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מְשַׁקְּעִין אוֹתוֹ בַזֶּבֶל עַד אַרְכֻּבּוֹתָיו",
+    "en": "They would stand him in soft ground up to his knees,",
+    "st": "The agents of the court <b>submerge</b> the condemned one <b>in dung up to his knees</b> so he cannot move,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מְשַׁקְּעִין",
+      "en": "sinking"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "בַזֶּבֶל",
+      "en": "in the dung"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "אַרְכֻּבּוֹתָיו",
+      "en": "his knees"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתְנִין סוּדָר קָשָׁה לְתוֹךְ הָרַכָּה",
+    "en": "and they put a hard cloth inside a soft one",
+    "st": "<b>and</b> one of them <b>places a rough scarf within a soft one, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתְנִין",
+      "en": "and they put"
+     },
+     {
+      "he": "סוּדָר",
+      "en": "a cloth"
+     },
+     {
+      "he": "קָשָׁה",
+      "en": "hard"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "הָרַכָּה",
+      "en": "the soft one"
+     }
+    ]
+   },
+   {
+    "he": "וְכוֹרֵךְ עַל צַוָּארוֹ,",
+    "en": "and wrap it around his neck.",
+    "st": "<b>and wraps</b> it <b>around his neck. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכוֹרֵךְ",
+      "en": "and wraps"
+     },
+     {
+      "he": "עַל",
+      "en": "around"
+     },
+     {
+      "he": "צַוָּארוֹ,",
+      "en": "his neck"
+     }
+    ]
+   },
+   {
+    "he": "זֶה מוֹשֵׁךְ אֶצְלוֹ וְזֶה מוֹשֵׁךְ אֶצְלוֹ,",
+    "en": "This one pulls toward himself and that one pulls toward himself,",
+    "st": "<b>This</b> one, i.e., one of the witnesses, <b>pulls</b> the scarf <b>toward him, and that</b> one, the other witness, <b>pulls</b> it <b>toward him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "מוֹשֵׁךְ",
+      "en": "pulls"
+     },
+     {
+      "he": "אֶצְלוֹ",
+      "en": "toward himself"
+     },
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "מוֹשֵׁךְ",
+      "en": "pulls"
+     },
+     {
+      "he": "אֶצְלוֹ,",
+      "en": "toward himself"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁנַּפְשׁוֹ יוֹצְאָה:",
+    "en": "until his soul goes out.",
+    "st": "<b>until the soul of</b> the condemned one <b>departs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁנַּפְשׁוֹ",
+      "en": "that his soul"
+     },
+     {
+      "he": "יוֹצְאָה:",
+      "en": "goes out"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 4,
+  "summary": "This mishnah lists the people who get the punishment of stoning, like one who serves idols, breaks Shabbos, or curses his father or mother, and those who did certain forbidden relationships.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ הֵן הַנִּסְקָלִין,",
+    "en": "These are the ones who are stoned:",
+    "st": "<b>These</b> transgressors <b>are those who are stoned</b> to death:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "הֵן",
+      "en": "are"
+     },
+     {
+      "he": "הַנִּסְקָלִין,",
+      "en": "those who are stoned"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל הָאֵם,",
+    "en": "one who sins with his mother,",
+    "st": "<b>One who engages in intercourse with</b> his <b>mother; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes",
+      "note": "Who does a forbidden relationship."
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הָאֵם,",
+      "en": "the mother"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֵשֶׁת הָאָב,",
+    "en": "or with his father's wife,",
+    "st": "<b>or with</b> his <b>father’s wife,</b> even if she is not his mother;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַכַּלָּה,",
+    "en": "or with his daughter-in-law,",
+    "st": "<b>or with</b> his <b>daughter-in-law; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "הַכַּלָּה,",
+      "en": "the daughter-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַזְּכוּר,",
+    "en": "or with a man,",
+    "st": "<b>or with a male; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "הַזְּכוּר,",
+      "en": "the male"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַבְּהֵמָה,",
+    "en": "or with an animal,",
+    "st": "<b>or with an animal; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "הַבְּהֵמָה,",
+      "en": "the animal"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאִשָּׁה הַמְבִיאָה אֶת הַבְּהֵמָה,",
+    "en": "and a woman who sins with an animal,",
+    "st": "<b>and a woman who engages in intercourse with an animal. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאִשָּׁה",
+      "en": "and the woman"
+     },
+     {
+      "he": "הַמְבִיאָה",
+      "en": "who brings"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּהֵמָה,",
+      "en": "the animal"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְגַדֵּף, וְהָעוֹבֵד עֲבוֹדָה זָרָה,",
+    "en": "and one who curses Hashem, and one who serves idols,",
+    "st": "<b>And one who blasphemes, and one who engages in idol worship. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְגַדֵּף,",
+      "en": "and the one who curses Hashem"
+     },
+     {
+      "he": "וְהָעוֹבֵד",
+      "en": "and the one who serves"
+     },
+     {
+      "he": "עֲבוֹדָה",
+      "en": "service"
+     },
+     {
+      "he": "זָרָה,",
+      "en": "foreign"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנּוֹתֵן מִזַּרְעוֹ לַמֹּלֶךְ,",
+    "en": "and one who gives his child to the Molech,",
+    "st": "<b>And one who gives of his offspring to Molekh, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנּוֹתֵן",
+      "en": "and the one who gives"
+     },
+     {
+      "he": "מִזַּרְעוֹ",
+      "en": "from his children"
+     },
+     {
+      "he": "לַמֹּלֶךְ,",
+      "en": "to the Molech",
+      "note": "An idol that children were given to."
+     }
+    ]
+   },
+   {
+    "he": "וּבַעַל אוֹב וְיִדְּעוֹנִי,",
+    "en": "and a ba'al ov and a yidoni,",
+    "st": "<b>and a necromancer, and a sorcerer. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַעַל",
+      "en": "and a master of"
+     },
+     {
+      "he": "אוֹב",
+      "en": "ov",
+      "note": "A kind of witchcraft that claims to talk with the dead."
+     },
+     {
+      "he": "וְיִדְּעוֹנִי,",
+      "en": "and a yidoni",
+      "note": "Another kind of witchcraft."
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְחַלֵּל אֶת הַשַּׁבָּת,",
+    "en": "and one who breaks Shabbos,",
+    "st": "<b>And one who desecrates Shabbat, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְחַלֵּל",
+      "en": "and the one who breaks"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְקַלֵּל אָבִיו וְאִמּוֹ,",
+    "en": "and one who curses his father or his mother,",
+    "st": "<b>and one who curses his father or his mother, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְקַלֵּל",
+      "en": "and the one who curses"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְאִמּוֹ,",
+      "en": "and his mother"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבָּא עַל נַעֲרָה הַמְאֹרָסָה,",
+    "en": "and one who sins with a girl who is engaged,",
+    "st": "<b>and one who engages in intercourse with a betrothed young woman, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבָּא",
+      "en": "and the one who comes"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "נַעֲרָה",
+      "en": "a girl"
+     },
+     {
+      "he": "הַמְאֹרָסָה,",
+      "en": "who is engaged",
+      "note": "She had kiddushin but the wedding had not happened yet."
+     }
+    ]
+   },
+   {
+    "he": "וְהַמֵּסִית, וְהַמַּדִּיחַ,",
+    "en": "and one who tempts others to serve idols, and one who leads a whole city to serve idols,",
+    "st": "<b>and an inciter</b> who incites individuals to idol worship, <b>and a subverter</b> who incites an entire city to idol worship,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמֵּסִית,",
+      "en": "and the one who tempts",
+      "note": "He tempts a person to serve idols."
+     },
+     {
+      "he": "וְהַמַּדִּיחַ,",
+      "en": "and the one who leads astray",
+      "note": "He leads a whole city to serve idols."
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְכַשֵּׁף, וּבֵן סוֹרֵר וּמוֹרֶה.",
+    "en": "and a sorcerer, and a ben sorer u'moreh.",
+    "st": "<b>and a warlock, and a stubborn and rebellious son.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְכַשֵּׁף,",
+      "en": "and the sorcerer"
+     },
+     {
+      "he": "וּבֵן",
+      "en": "and a son"
+     },
+     {
+      "he": "סוֹרֵר",
+      "en": "wayward"
+     },
+     {
+      "he": "וּמוֹרֶה.",
+      "en": "and rebellious",
+      "note": "A boy who steals and eats and drinks wildly, taught in the next perek."
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל הָאֵם,",
+    "en": "One who sins with his mother",
+    "st": "The mishna elaborates: <b>One who</b> unwittingly <b>engages in intercourse with</b> his <b>mother</b> who is also his father’s wife",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הָאֵם,",
+      "en": "the mother"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלֶיהָ מִשּׁוּם אֵם",
+    "en": "is chayav for her because she is his mother,",
+    "st": "is <b>liable</b> to bring two sin-offerings <b>for</b> his intercourse with <b>her:</b> One <b>due to</b> the prohibition against engaging in intercourse with one’s <b>mother </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "is chayav"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "אֵם",
+      "en": "mother"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשּׁוּם אֵשֶׁת אָב.",
+    "en": "and because she is his father's wife.",
+    "st": "<b>and</b> one <b>due to</b> the prohibition against engaging in intercourse with one’s <b>father’s wife. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשּׁוּם",
+      "en": "and because of"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אָב.",
+      "en": "father"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב אֶלָּא מִשּׁוּם הָאֵם בִּלְבָד.",
+    "en": "he is chayav only because she is his mother.",
+    "st": "<b>He is liable</b> to bring <b>only</b> one sin-offering, <b>due to</b> the prohibition against engaging in intercourse with one’s <b>mother. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "he is chayav"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "הָאֵם",
+      "en": "the mother"
+     },
+     {
+      "he": "בִּלְבָד.",
+      "en": "only"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל אֵשֶׁת אָב",
+    "en": "One who sins with his father's wife",
+    "st": "<b>One who</b> unwittingly <b>engages in intercourse with</b> his <b>father’s wife</b> while his father is married to her",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אָב",
+      "en": "father"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלֶיהָ מִשּׁוּם אֵשֶׁת אָב",
+    "en": "is chayav because she is his father's wife",
+    "st": "is <b>liable</b> to bring two sin-offerings: One <b>due to</b> the prohibition against engaging in intercourse with one’s <b>father’s wife </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "is chayav"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אָב",
+      "en": "father"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשּׁוּם אֵשֶׁת אִישׁ,",
+    "en": "and because she is a married woman,",
+    "st": "<b>and</b> one <b>due to</b> the prohibition against engaging in intercourse with <b>a married woman.</b> He is liable due to the former prohibition",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשּׁוּם",
+      "en": "and because of"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אִישׁ,",
+      "en": "a man"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין בְּחַיֵּי אָבִיו",
+    "en": "whether while his father is alive",
+    "st": "<b>both during his father’s lifetime </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בְּחַיֵּי",
+      "en": "in the life of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לְאַחַר מִיתַת אָבִיו,",
+    "en": "or after his father passed away,",
+    "st": "<b>and after his father’s death,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מִיתַת",
+      "en": "the death of"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין מִן הָאֵרוּסִין בֵּין מִן הַנִּשּׂוּאִין.",
+    "en": "whether she was only engaged or already married to him.",
+    "st": "and <b>whether</b> the relationship between the woman and his father is one <b>of betrothal or</b> one <b>of marriage.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאֵרוּסִין",
+      "en": "the engagement"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַנִּשּׂוּאִין.",
+      "en": "the marriage"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל כַּלָּתוֹ,",
+    "en": "One who sins with his daughter-in-law",
+    "st": "Likewise, <b>one who</b> unwittingly <b>engages in intercourse with his daughter-in-law</b> during his son’s lifetime",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "כַּלָּתוֹ,",
+      "en": "his daughter-in-law"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלֶיהָ מִשּׁוּם כַּלָּתוֹ",
+    "en": "is chayav because she is his daughter-in-law",
+    "st": "is <b>liable</b> to bring two sin-offerings <b>for</b> his intercourse with <b>her:</b> One <b>due to</b> the prohibition against engaging in intercourse with one’s <b>daughter-in-law, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "is chayav"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for her"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "כַּלָּתוֹ",
+      "en": "his daughter-in-law"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשּׁוּם אֵשֶׁת אִישׁ,",
+    "en": "and because she is a married woman,",
+    "st": "<b>and</b> one <b>due to</b> the prohibition against engaging in intercourse with <b>a married woman.</b> The former liability applies",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשּׁוּם",
+      "en": "and because of"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אִישׁ,",
+      "en": "a man"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין בְּחַיֵּי בְנוֹ",
+    "en": "whether while his son is alive",
+    "st": "<b>both during his son’s lifetime</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בְּחַיֵּי",
+      "en": "in the life of"
+     },
+     {
+      "he": "בְנוֹ",
+      "en": "his son"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לְאַחַר מִיתַת בְּנוֹ,",
+    "en": "or after his son passed away,",
+    "st": "<b>after his son’s death,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מִיתַת",
+      "en": "the death of"
+     },
+     {
+      "he": "בְּנוֹ,",
+      "en": "his son"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין מִן הָאֵרוּסִין בֵּין מִן הַנִּשּׂוּאִין.",
+    "en": "whether she was only engaged or already married to him.",
+    "st": "and <b>whether</b> the relationship between the woman and his son is one <b>of betrothal or</b> one <b>of marriage.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאֵרוּסִין",
+      "en": "the engagement"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַנִּשּׂוּאִין.",
+      "en": "the marriage"
+     }
+    ]
+   },
+   {
+    "he": "הַבָּא עַל הַזְּכוּר וְעַל הַבְּהֵמָה,",
+    "en": "One who sins with a man or with an animal,",
+    "st": "A man <b>who engages in intercourse with a male or with an animal, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הַזְּכוּר",
+      "en": "the male"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and with"
+     },
+     {
+      "he": "הַבְּהֵמָה,",
+      "en": "the animal"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאִשָּׁה הַמְבִיאָה אֶת הַבְּהֵמָה,",
+    "en": "and a woman who sins with an animal, are stoned.",
+    "st": "<b>and a woman who engages in intercourse with an animal,</b> are executed <b>by stoning.</b> The animal is likewise stoned to death.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאִשָּׁה",
+      "en": "and the woman"
+     },
+     {
+      "he": "הַמְבִיאָה",
+      "en": "who brings"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּהֵמָה,",
+      "en": "the animal"
+     }
+    ]
+   },
+   {
+    "he": "אִם אָדָם חָטָא,",
+    "en": "If the person sinned,",
+    "st": "The mishna asks: <b>If</b> the <b>person sinned</b> by doing this,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "חָטָא,",
+      "en": "sinned"
+     }
+    ]
+   },
+   {
+    "he": "בְּהֵמָה מֶה חָטָאת,",
+    "en": "what did the animal do wrong?",
+    "st": "<b>how did the animal sin? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "מֶה",
+      "en": "what"
+     },
+     {
+      "he": "חָטָאת,",
+      "en": "did it sin"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא לְפִי שֶׁבָּאת לָאָדָם",
+    "en": "But because a person came",
+    "st": "<b>Rather, because </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "לְפִי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁבָּאת",
+      "en": "that came"
+     },
+     {
+      "he": "לָאָדָם",
+      "en": "to a person"
+     }
+    ]
+   },
+   {
+    "he": "תַּקָּלָה עַל יָדָהּ,",
+    "en": "to a terrible sin through it,",
+    "st": "<b>a calamity was caused to a person by it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּקָּלָה",
+      "en": "a stumbling"
+     },
+     {
+      "he": "עַל",
+      "en": "through"
+     },
+     {
+      "he": "יָדָהּ,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אָמַר הַכָּתוּב תִּסָּקֵל.",
+    "en": "that is why the Torah says it shall be stoned.",
+    "st": "<b>therefore the verse states</b> that <b>it should be stoned,</b> so that it does not cause another to sin.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "הַכָּתוּב",
+      "en": "the Torah"
+     },
+     {
+      "he": "תִּסָּקֵל.",
+      "en": "it shall be stoned"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר אַחֵר,",
+    "en": "Another reason:",
+    "st": "<b>Alternatively,</b> it is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא תְהֵא בְּהֵמָה עוֹבֶרֶת בַּשּׁוּק וְיֹאמְרוּ",
+    "en": "so that an animal will not walk through the market, and people will say,",
+    "st": "<b>so that</b> this <b>animal will not pass through the marketplace, and</b> those who see it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "תְהֵא",
+      "en": "shall be"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "עוֹבֶרֶת",
+      "en": "passing"
+     },
+     {
+      "he": "בַּשּׁוּק",
+      "en": "in the market"
+     },
+     {
+      "he": "וְיֹאמְרוּ",
+      "en": "and they will say"
+     }
+    ]
+   },
+   {
+    "he": "זוֹ הִיא שֶׁנִּסְקַל פְּלוֹנִי עַל יָדָהּ:",
+    "en": "\"This is the one because of which so-and-so was stoned.\"",
+    "explain": "That would shame the person who was punished.",
+    "st": "<b>will say: This is</b> the animal <b>because of which so-and-so was stoned,</b> and its existence would shame his memory.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "הִיא",
+      "en": "is"
+     },
+     {
+      "he": "שֶׁנִּסְקַל",
+      "en": "that was stoned"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "עַל",
+      "en": "through"
+     },
+     {
+      "he": "יָדָהּ:",
+      "en": "it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 5,
+  "summary": "One who curses Hashem is only punished if he used Hashem's real name. The judges are very careful never to say the curse more than needed, and they tear their clothes when they hear it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְגַדֵּף אֵינוֹ חַיָּב עַד שֶׁיְּפָרֵשׁ הַשֵּׁם.",
+    "en": "One who curses Hashem is not chayav unless he says Hashem's name clearly.",
+    "st": "<b>One who blasphemes,</b> i.e., one who curses God, <b>is not liable unless he utters the name</b> of God and curses it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְגַדֵּף",
+      "en": "the one who curses Hashem"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is chayav"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּפָרֵשׁ",
+      "en": "he says clearly"
+     },
+     {
+      "he": "הַשֵּׁם.",
+      "en": "the Name"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוֹשֻׁעַ בֶּן קָרְחָה,",
+    "en": "Rabbi Yehoshua ben Korchah said,",
+    "st": "<b>Rabbi Yehoshua ben Korḥa said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "קָרְחָה,",
+      "en": "Korchah"
+     }
+    ]
+   },
+   {
+    "he": "בְּכָל יוֹם דָּנִין אֶת הָעֵדִים",
+    "en": "Every day of the case, they question the witnesses",
+    "st": "<b>On every day</b> of a blasphemer’s trial, when the judges <b>judge the witnesses,</b> i.e., interrogate the witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכָל",
+      "en": "on every"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "דָּנִין",
+      "en": "they judge"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵדִים",
+      "en": "the witnesses"
+     }
+    ]
+   },
+   {
+    "he": "בְּכִנּוּי יַכֶּה יוֹסֵי אֶת יוֹסֵי.",
+    "en": "using another name: \"Let Yosei hit Yosei.\"",
+    "explain": "Instead of saying Hashem's name in the curse.",
+    "st": "they ask the witnesses to use <b>an appellation</b> for the name of God, so that they do not utter a curse of God’s name. Specifically, the witnesses would say: <b>Let Yosei smite Yosei,</b>",
+    "stMore": "as the name Yosei has four letters in Hebrew, as does the Tetragrammaton.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכִנּוּי",
+      "en": "with a nickname"
+     },
+     {
+      "he": "יַכֶּה",
+      "en": "let hit"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "יוֹסֵי.",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "נִגְמַר הַדִּין,",
+    "en": "When the case is finished,",
+    "st": "When <b>the judgment is over,</b>",
+    "stMore": "and the court votes to deem the defendant guilty,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִגְמַר",
+      "en": "was finished"
+     },
+     {
+      "he": "הַדִּין,",
+      "en": "the case"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הוֹרְגִים בְּכִנּוּי,",
+    "en": "they do not punish him because of the nickname.",
+    "st": "<b>they do not sentence</b> him <b>to death based on</b> the testimony of the witnesses in which they used <b>an appellation</b>",
+    "stMore": "for the name of God, without having ever heard the exact wording of the curse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הוֹרְגִים",
+      "en": "they kill"
+     },
+     {
+      "he": "בְּכִנּוּי,",
+      "en": "with a nickname"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מוֹצִיאִים כָּל אָדָם לַחוּץ",
+    "en": "Instead, they send everyone outside",
+    "st": "<b>Rather, they remove all</b> the <b>people</b>",
+    "stMore": "who are not required to be there from the court, so that the curse is not heard publicly,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מוֹצִיאִים",
+      "en": "they send out"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "אָדָם",
+      "en": "people"
+     },
+     {
+      "he": "לַחוּץ",
+      "en": "outside"
+     }
+    ]
+   },
+   {
+    "he": "וְשׁוֹאֲלִים אֶת הַגָּדוֹל שֶׁבָּהֶן",
+    "en": "and they ask the oldest of the witnesses,",
+    "st": "and the judges <b>interrogate the eldest of</b> the witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשׁוֹאֲלִים",
+      "en": "and they ask"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the oldest"
+     },
+     {
+      "he": "שֶׁבָּהֶן",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמְרִים לוֹ אֱמֹר מַה שֶּׁשָּׁמַעְתָּ בְּפֵרוּשׁ,",
+    "en": "and they say to him, \"Say exactly what you heard.\"",
+    "st": "<b>and say to him: Say what you heard explicitly. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמְרִים",
+      "en": "and they say"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֱמֹר",
+      "en": "say"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁשָּׁמַעְתָּ",
+      "en": "that you heard"
+     },
+     {
+      "he": "בְּפֵרוּשׁ,",
+      "en": "clearly"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר,",
+    "en": "And he says it.",
+    "st": "<b>And he says</b> exactly what he heard.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "וְהַדַּיָּנִים עוֹמְדִין עַל רַגְלֵיהֶן",
+    "en": "And the judges stand on their feet",
+    "st": "<b>And the judges stand on their feet </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַדַּיָּנִים",
+      "en": "and the judges"
+     },
+     {
+      "he": "עוֹמְדִין",
+      "en": "stand"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "רַגְלֵיהֶן",
+      "en": "their feet"
+     }
+    ]
+   },
+   {
+    "he": "וְקוֹרְעִין וְלֹא מְאַחִין.",
+    "en": "and tear their clothes, and never sew them back.",
+    "explain": "To show how terrible it is to curse Hashem.",
+    "st": "<b>and make a tear</b> in their garments, as an act of mourning for the desecration of the honor of God. <b>And they do not</b> ever fully <b>stitch</b> it back together again.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקוֹרְעִין",
+      "en": "and they tear"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מְאַחִין.",
+      "en": "they sew back"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי אוֹמֵר אַף אֲנִי כָּמוֹהוּ,",
+    "en": "And the second witness says, \"I heard the same as him.\"",
+    "st": "<b>And the second</b> witness <b>says: I too</b> heard <b>as he</b>",
+    "stMore": "did, but he does not repeat the curse explicitly.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "כָּמוֹהוּ,",
+      "en": "like him"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁלִישִׁי אוֹמֵר אַף אֲנִי כָּמוֹהוּ:",
+    "en": "And the third witness says, \"I heard the same as him.\"",
+    "st": "<b>And the third</b> witness, in the event that there is one, <b>says: I too</b> heard <b>as he</b>",
+    "stMore": "did. In this manner, the repetition of the invective sentence is limited to what is absolutely necessary.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁלִישִׁי",
+      "en": "and the third"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "כָּמוֹהוּ:",
+      "en": "like him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 6,
+  "summary": "One who serves an idol in one of the ways Hashem is served, or in the idol's own special way, gets the punishment of stoning. Other kinds of honor to an idol are also forbidden, but without the death penalty.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָעוֹבֵד עֲבוֹדָה זָרָה,",
+    "en": "One who serves idols:",
+    "st": "<b>One who worships idols</b> is executed by stoning.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹבֵד",
+      "en": "the one who serves"
+     },
+     {
+      "he": "עֲבוֹדָה",
+      "en": "service"
+     },
+     {
+      "he": "זָרָה,",
+      "en": "foreign"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד הָעוֹבֵד,",
+    "en": "whether one who serves it,",
+    "st": "This includes <b>one who worships</b> an idol,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "הָעוֹבֵד,",
+      "en": "the one who serves"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הַזּוֹבֵחַ,",
+    "en": "or one who slaughters an animal for it,",
+    "st": "<b>and one who slaughters</b> an animal as an idolatrous offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַזּוֹבֵחַ,",
+      "en": "the one who slaughters"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הַמְקַטֵּר,",
+    "en": "or one who burns incense for it,",
+    "st": "<b>and one who burns</b> incense as an idolatrous offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַמְקַטֵּר,",
+      "en": "the one who burns incense"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הַמְנַסֵּךְ,",
+    "en": "or one who pours wine for it,",
+    "st": "<b>and one who pours a libation</b> in idol worship,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַמְנַסֵּךְ,",
+      "en": "the one who pours"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הַמִּשְׁתַּחֲוֶה,",
+    "en": "or one who bows to it,",
+    "st": "<b>and one who bows</b> to an idol,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַמִּשְׁתַּחֲוֶה,",
+      "en": "the one who bows"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הַמְקַבְּלוֹ עָלָיו לֶאֱלוֹהַּ,",
+    "en": "or one who accepts it as his god,",
+    "st": "<b>and one who</b> declares that he <b>accepts</b> an idol <b>upon himself as a god, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַמְקַבְּלוֹ",
+      "en": "the one who accepts it"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "upon himself"
+     },
+     {
+      "he": "לֶאֱלוֹהַּ,",
+      "en": "as a god"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאוֹמֵר לוֹ אֵלִי אָתָּה.",
+    "en": "or one who says to it, \"You are my god.\"",
+    "st": "<b>and one who says to</b> an idol: <b>You are my god. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאוֹמֵר",
+      "en": "and the one who says"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "אֵלִי",
+      "en": "my god"
+     },
+     {
+      "he": "אָתָּה.",
+      "en": "you are"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל הַמְגַפֵּף וְהַמְנַשֵּׁק וְהַמְכַבֵּד וְהַמְּרַבֵּץ וְהַמַּרְחִיץ,",
+    "en": "But one who hugs it, kisses it, cleans it, sprinkles water before it, washes it,",
+    "st": "<b>But</b> with regard to <b>one who hugs</b> an idol, <b>or one who kisses</b> it, <b>or one who cleans</b> it, <b>or one who sprays</b> water before it, <b>or one who washes</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "הַמְגַפֵּף",
+      "en": "the one who hugs"
+     },
+     {
+      "he": "וְהַמְנַשֵּׁק",
+      "en": "and the one who kisses"
+     },
+     {
+      "he": "וְהַמְכַבֵּד",
+      "en": "and the one who cleans"
+     },
+     {
+      "he": "וְהַמְּרַבֵּץ",
+      "en": "and the one who sprinkles"
+     },
+     {
+      "he": "וְהַמַּרְחִיץ,",
+      "en": "and the one who washes"
+     }
+    ]
+   },
+   {
+    "he": "הַסָּךְ, הַמַּלְבִּישׁ וְהַמַּנְעִיל,",
+    "en": "rubs it with oil, dresses it, or puts shoes on it,",
+    "st": "<b>or one who rubs</b> it with oil, <b>or one who dresses</b> it, <b>or one who puts its shoes on</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַסָּךְ,",
+      "en": "the one who rubs with oil"
+     },
+     {
+      "he": "הַמַּלְבִּישׁ",
+      "en": "the one who dresses"
+     },
+     {
+      "he": "וְהַמַּנְעִיל,",
+      "en": "and the one who puts shoes on"
+     }
+    ]
+   },
+   {
+    "he": "עוֹבֵר בְּלֹא תַעֲשֶׂה.",
+    "en": "breaks a mitzvah of the Torah.",
+    "st": "he <b>transgresses a prohibition</b>",
+    "stMore": "but is not liable to receive capital punishment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹבֵר",
+      "en": "transgresses"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "with a"
+     },
+     {
+      "he": "תַעֲשֶׂה.",
+      "en": "do-not mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "הַנּוֹדֵר בִּשְׁמוֹ וְהַמְקַיֵּם בִּשְׁמוֹ,",
+    "en": "One who makes a promise in its name or swears in its name",
+    "st": "With regard to <b>one who vows in</b> an idol’s <b>name and one who affirms</b> his statement by an oath <b>in its name,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹדֵר",
+      "en": "the one who vows"
+     },
+     {
+      "he": "בִּשְׁמוֹ",
+      "en": "in its name"
+     },
+     {
+      "he": "וְהַמְקַיֵּם",
+      "en": "and the one who swears"
+     },
+     {
+      "he": "בִּשְׁמוֹ,",
+      "en": "in its name"
+     }
+    ]
+   },
+   {
+    "he": "עוֹבֵר בְּלֹא תַעֲשֶׂה.",
+    "en": "breaks a mitzvah of the Torah.",
+    "st": "he <b>transgresses a prohibition. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹבֵר",
+      "en": "transgresses"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "with a"
+     },
+     {
+      "he": "תַעֲשֶׂה.",
+      "en": "do-not mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹעֵר עַצְמוֹ לְבַעַל פְּעוֹר,",
+    "en": "One who does the disgusting act for Ba'al Peor is stoned,",
+    "st": "<b>One who defecates before</b> the idol known as <b>Ba’al-Peor</b>",
+    "stMore": "is liable to receive capital punishment, even though defecating is a degrading act, as",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹעֵר",
+      "en": "the one who uncovers"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "לְבַעַל",
+      "en": "for Ba'al"
+     },
+     {
+      "he": "פְּעוֹר,",
+      "en": "Peor",
+      "note": "An idol served in a very disgusting way."
+     }
+    ]
+   },
+   {
+    "he": "זוֹ הִיא עֲבוֹדָתוֹ.",
+    "en": "because that is how it is served.",
+    "st": "<b>that is its</b> form of <b>worship.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "הִיא",
+      "en": "is"
+     },
+     {
+      "he": "עֲבוֹדָתוֹ.",
+      "en": "its service"
+     }
+    ]
+   },
+   {
+    "he": "הַזּוֹרֵק אֶבֶן לְמַרְקוּלִיס,",
+    "en": "One who throws a stone at Markulis is stoned,",
+    "st": "Likewise, <b>one who throws a stone at Mercury</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזּוֹרֵק",
+      "en": "the one who throws"
+     },
+     {
+      "he": "אֶבֶן",
+      "en": "a stone"
+     },
+     {
+      "he": "לְמַרְקוּלִיס,",
+      "en": "at Markulis",
+      "note": "An idol that people served by throwing stones at it."
+     }
+    ]
+   },
+   {
+    "he": "זוֹ הִיא עֲבוֹדָתוֹ:",
+    "en": "because that is how it is served.",
+    "st": "is liable to receive capital punishment, as <b>that is its</b> form of <b>worship.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "הִיא",
+      "en": "is"
+     },
+     {
+      "he": "עֲבוֹדָתוֹ:",
+      "en": "its service"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 7,
+  "summary": "One who gives his child to the Molech is only chayav if he does both parts of that idol's service. The mishnah also explains two kinds of witchcraft.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַנּוֹתֵן מִזַּרְעוֹ לַמֹּלֶךְ,",
+    "en": "One who gives his child to the Molech",
+    "st": "<b>One who gives of his offspring to Molekh,</b> for which one is executed by stoning,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹתֵן",
+      "en": "the one who gives"
+     },
+     {
+      "he": "מִזַּרְעוֹ",
+      "en": "from his children"
+     },
+     {
+      "he": "לַמֹּלֶךְ,",
+      "en": "to the Molech"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב עַד שֶׁיִּמְסֹר לַמֹּלֶךְ",
+    "en": "is not chayav until he hands him over to the Molech",
+    "st": "<b>is not liable unless he hands over</b> his child <b>to the</b> priests of <b>Molekh </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is chayav"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּמְסֹר",
+      "en": "he hands over"
+     },
+     {
+      "he": "לַמֹּלֶךְ",
+      "en": "to the Molech"
+     }
+    ]
+   },
+   {
+    "he": "וְיַעֲבִיר בָּאֵשׁ.",
+    "en": "and passes him through the fire.",
+    "st": "<b>and passes</b> the child <b>through the fire.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיַעֲבִיר",
+      "en": "and passes"
+     },
+     {
+      "he": "בָּאֵשׁ.",
+      "en": "through the fire"
+     }
+    ]
+   },
+   {
+    "he": "מָסַר לַמֹּלֶךְ וְלֹא הֶעֱבִיר בָּאֵשׁ,",
+    "en": "If he handed him over to the Molech but did not pass him through the fire,",
+    "st": "If <b>he handed over</b> the child <b>to the</b> priests of <b>Molekh but did not pass</b> him <b>through the fire,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָסַר",
+      "en": "he handed over"
+     },
+     {
+      "he": "לַמֹּלֶךְ",
+      "en": "to the Molech"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הֶעֱבִיר",
+      "en": "passed"
+     },
+     {
+      "he": "בָּאֵשׁ,",
+      "en": "through the fire"
+     }
+    ]
+   },
+   {
+    "he": "הֶעֱבִיר בָּאֵשׁ וְלֹא מָסַר לַמֹּלֶךְ,",
+    "en": "or passed him through the fire but did not hand him over to the Molech,",
+    "st": "or if <b>he passed</b> him <b>through the fire but did not hand</b> him <b>over to the</b> priests of <b>Molekh, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶעֱבִיר",
+      "en": "he passed"
+     },
+     {
+      "he": "בָּאֵשׁ",
+      "en": "through the fire"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מָסַר",
+      "en": "handed over"
+     },
+     {
+      "he": "לַמֹּלֶךְ,",
+      "en": "to the Molech"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב,",
+    "en": "he is not chayav,",
+    "st": "<b>he is not liable, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "is chayav"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּמְסֹר לַמֹּלֶךְ וְיַעֲבִיר בָּאֵשׁ.",
+    "en": "until he hands him over to the Molech and passes him through the fire.",
+    "st": "<b>unless he hands</b> the child <b>over to the</b> priests of <b>Molekh and passes</b> him <b>through the fire.</b>",
+    "stMore": "The list of those liable to be executed by stoning includes those who practice various types of sorcery. The mishna describes them:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּמְסֹר",
+      "en": "he hands over"
+     },
+     {
+      "he": "לַמֹּלֶךְ",
+      "en": "to the Molech"
+     },
+     {
+      "he": "וְיַעֲבִיר",
+      "en": "and passes"
+     },
+     {
+      "he": "בָּאֵשׁ.",
+      "en": "through the fire"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל אוֹב זֶה פִתּוֹם הַמְדַבֵּר מִשֶּׁחְיוֹ,",
+    "en": "A ba'al ov is a pisom who seems to speak from his armpit,",
+    "st": "<b>A necromancer is a pitom from whose armpit</b> the voice of the dead appears to <b>speak. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "a master of"
+     },
+     {
+      "he": "אוֹב",
+      "en": "ov"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "פִתּוֹם",
+      "en": "a pisom",
+      "note": "A kind of sorcerer."
+     },
+     {
+      "he": "הַמְדַבֵּר",
+      "en": "who speaks"
+     },
+     {
+      "he": "מִשֶּׁחְיוֹ,",
+      "en": "from his armpit"
+     }
+    ]
+   },
+   {
+    "he": "וְיִדְּעוֹנִי זֶה הַמְדַבֵּר בְּפִיו,",
+    "en": "and a yidoni is one who speaks with his mouth.",
+    "st": "<b>And a sorcerer is</b> one <b>from whose mouth</b> the dead appears to <b>speak. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיִדְּעוֹנִי",
+      "en": "and a yidoni"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַמְדַבֵּר",
+      "en": "the one who speaks"
+     },
+     {
+      "he": "בְּפִיו,",
+      "en": "with his mouth"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ בִסְקִילָה,",
+    "en": "These are stoned,",
+    "st": "<b>These,</b> the necromancer and the sorcerer, <b>are</b> executed <b>by stoning, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "בִסְקִילָה,",
+      "en": "with stoning"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנִּשְׁאָל בָּהֶם בְּאַזְהָרָה:",
+    "en": "and one who asks them questions breaks a mitzvah of the Torah.",
+    "st": "<b>and one who inquires</b> about the future <b>through them is in</b> violation of <b>a prohibition.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנִּשְׁאָל",
+      "en": "and the one who asks"
+     },
+     {
+      "he": "בָּהֶם",
+      "en": "through them"
+     },
+     {
+      "he": "בְּאַזְהָרָה:",
+      "en": "with a warning"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 8,
+  "summary": "One who breaks Shabbos is stoned only for a melachah that brings kareis. One who curses his father or mother is stoned only if he used Hashem's name.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְחַלֵּל אֶת הַשַּׁבָּת,",
+    "en": "One who breaks Shabbos",
+    "st": "Also liable to be executed by stoning is <b>one who desecrates Shabbat </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְחַלֵּל",
+      "en": "the one who breaks"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "בְּדָבָר שֶׁחַיָּבִין עַל זְדוֹנוֹ כָרֵת",
+    "en": "by doing something that, done on purpose, brings kareis,",
+    "st": "<b>by</b> performing <b>a matter that for its intentional</b> performance one is liable to receive <b>karet </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּדָבָר",
+      "en": "with a thing"
+     },
+     {
+      "he": "שֶׁחַיָּבִין",
+      "en": "that they are chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "זְדוֹנוֹ",
+      "en": "doing it on purpose"
+     },
+     {
+      "he": "כָרֵת",
+      "en": "kareis",
+      "note": "A punishment from Heaven of being cut off."
+     }
+    ]
+   },
+   {
+    "he": "וְעַל שִׁגְגָתוֹ חַטָּאת.",
+    "en": "and done by mistake, needs a korban chatas.",
+    "st": "<b>and for its unwitting</b> performance one is obligated to bring <b>a sin-offering. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "שִׁגְגָתוֹ",
+      "en": "doing it by mistake"
+     },
+     {
+      "he": "חַטָּאת.",
+      "en": "a chatas",
+      "note": "A korban brought for a sin done by mistake."
+     }
+    ]
+   },
+   {
+    "he": "הַמְקַלֵּל אָבִיו וְאִמּוֹ,",
+    "en": "One who curses his father or his mother",
+    "st": "<b>One who curses his father or his mother </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַלֵּל",
+      "en": "the one who curses"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְאִמּוֹ,",
+      "en": "and his mother"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב עַד שֶׁיְּקַלְּלֵם בַּשֵּׁם.",
+    "en": "is not chayav unless he curses them with Hashem's name.",
+    "st": "<b>is not liable</b> to be executed by stoning <b>unless he curses them with the name</b> of God.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is chayav"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּקַלְּלֵם",
+      "en": "he curses them"
+     },
+     {
+      "he": "בַּשֵּׁם.",
+      "en": "with the Name"
+     }
+    ]
+   },
+   {
+    "he": "קִלְּלָם בְּכִנּוּי,",
+    "en": "If he cursed them using another name of Hashem,",
+    "st": "If <b>he cursed them with an appellation</b> of the name of God,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִלְּלָם",
+      "en": "he cursed them"
+     },
+     {
+      "he": "בְּכִנּוּי,",
+      "en": "with a nickname"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר מְחַיֵּב וַחֲכָמִים פּוֹטְרִין:",
+    "en": "Rabbi Meir says he is chayav, and the Sages say he is patur.",
+    "st": "<b>Rabbi Meir deems</b> him <b>liable, and the Rabbis deem</b> him <b>exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "מְחַיֵּב",
+      "en": "holds chayav"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "פּוֹטְרִין:",
+      "en": "hold patur"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 9,
+  "summary": "This mishnah explains exactly when the punishment of stoning is given for a forbidden relationship with an engaged girl.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַבָּא עַל נַעֲרָה הַמְאֹרָסָה,",
+    "en": "One who sins with a girl who is engaged",
+    "st": "<b>One who engages in intercourse with a betrothed young woman </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבָּא",
+      "en": "the one who comes",
+      "note": "Who does a forbidden relationship."
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "נַעֲרָה",
+      "en": "a girl"
+     },
+     {
+      "he": "הַמְאֹרָסָה,",
+      "en": "who is engaged"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב עַד שֶׁתְּהֵא נַעֲרָה",
+    "en": "is not chayav unless she is a young girl,",
+    "st": "<b>is not liable</b> to be executed by stoning <b>unless she is a young woman,</b> i.e., neither a minor nor an adult;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is chayav"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתְּהֵא",
+      "en": "she is"
+     },
+     {
+      "he": "נַעֲרָה",
+      "en": "a young girl"
+     }
+    ]
+   },
+   {
+    "he": "בְתוּלָה מְאֹרָסָה",
+    "en": "never married before, and engaged,",
+    "st": "<b>a virgin; betrothed</b> but not yet married;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְתוּלָה",
+      "en": "unmarried"
+     },
+     {
+      "he": "מְאֹרָסָה",
+      "en": "engaged"
+     }
+    ]
+   },
+   {
+    "he": "וְהִיא בְבֵית אָבִיהָ.",
+    "en": "and she is still in her father's house.",
+    "st": "<b>and she</b> lives <b>in her father’s home,</b> having yet to move in with her husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "בְבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "אָבִיהָ.",
+      "en": "her father"
+     }
+    ]
+   },
+   {
+    "he": "בָּאוּ עָלֶיהָ שְׁנַיִם,",
+    "en": "If two men sinned with her,",
+    "st": "If <b>two</b> men <b>engaged in intercourse with her, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּאוּ",
+      "en": "came"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "with her"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "הָרִאשׁוֹן בִּסְקִילָה וְהַשֵּׁנִי בְּחֶנֶק:",
+    "en": "the first is stoned, and the second is choked.",
+    "st": "<b>the first</b> is liable to be executed <b>by stoning, and the second</b> is liable to be executed <b>by strangulation.</b>",
+    "stMore": "The second man is executed in this manner in accordance with the halakha of one who engages in intercourse with a married or non-virgin betrothed woman, as she was no longer a virgin when he engaged in intercourse with her.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "בִּסְקִילָה",
+      "en": "with stoning"
+     },
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "בְּחֶנֶק:",
+      "en": "with choking"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 10,
+  "summary": "A meisis is someone who tries to talk another person into serving idols. This is the only case where the court may hide witnesses to catch him. A maddiach leads a whole city to serve idols.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמֵּסִית, זֶה הֶדְיוֹט",
+    "en": "The meisis is a regular person",
+    "st": "With regard to the case of <b>an inciter,</b> listed among those liable to be executed by stoning, <b>this is an ordinary person,</b> not a prophet.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמֵּסִית,",
+      "en": "the one who tempts"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הֶדְיוֹט",
+      "en": "a regular person"
+     }
+    ]
+   },
+   {
+    "he": "הַמֵּסִית אֶת הַהֶדְיוֹט.",
+    "en": "who tempts another regular person.",
+    "st": "<b>And</b> it is referring to <b>one who incites an ordinary person</b> and not a multitude of people.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמֵּסִית",
+      "en": "who tempts"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַהֶדְיוֹט.",
+      "en": "the regular person"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ יֵשׁ יִרְאָה בְמָקוֹם פְּלוֹנִי,",
+    "en": "He says to him, \"There is an idol in such-and-such a place.",
+    "st": "What does the inciter do? <b>He says: There is an idol in such and such a place,</b> which",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "יִרְאָה",
+      "en": "an idol"
+     },
+     {
+      "he": "בְמָקוֹם",
+      "en": "in a place"
+     },
+     {
+      "he": "פְּלוֹנִי,",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ אוֹכֶלֶת, כָּךְ שׁוֹתָה,",
+    "en": "This is how it eats, this is how it drinks,",
+    "st": "<b>eats like this, drinks like this, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "אוֹכֶלֶת,",
+      "en": "it eats"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "שׁוֹתָה,",
+      "en": "it drinks"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ מֵטִיבָה, כָּךְ מְרֵעָה.",
+    "en": "this is how it does good, this is how it does harm.\"",
+    "st": "<b>does good</b> for its worshippers <b>like this,</b> and <b>harms</b> those who do not worship it <b>like this.</b>",
+    "stMore": "The mishna states a principle with regard to the halakha of an inciter: With regard to",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "מֵטִיבָה,",
+      "en": "it does good"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "מְרֵעָה.",
+      "en": "it does harm"
+     }
+    ]
+   },
+   {
+    "he": "כָּל חַיָּבֵי מִיתוֹת שֶׁבַּתּוֹרָה",
+    "en": "For everyone in the Torah who can get a death penalty,",
+    "st": "<b>all of those</b> mentioned <b>in the Torah</b> who <b>are liable to</b> receive <b>the death</b>",
+    "stMore": "penalty, if there are no witnesses to their transgressions,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "חַיָּבֵי",
+      "en": "those chayav"
+     },
+     {
+      "he": "מִיתוֹת",
+      "en": "death"
+     },
+     {
+      "he": "שֶׁבַּתּוֹרָה",
+      "en": "that are in the Torah"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מַכְמִינִין עֲלֵיהֶם, חוּץ מִזּוֹ.",
+    "en": "we do not hide witnesses to catch them, except for this one.",
+    "st": "the court <b>does not hide</b> witnesses in order <b>to</b> ensnare and punish <b>them, except for this</b> case of an inciter.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מַכְמִינִין",
+      "en": "we hide"
+     },
+     {
+      "he": "עֲלֵיהֶם,",
+      "en": "about them"
+     },
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִזּוֹ.",
+      "en": "from this one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לִשְׁנַיִם וְהֵן עֵדָיו,",
+    "en": "If he said it to two people, they are his witnesses,",
+    "st": "The mishna elaborates: If the inciter <b>said</b> his words of incitement <b>to two</b> men, <b>they are his witnesses, and</b>",
+    "stMore": "he does not need to be warned before the transgression;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לִשְׁנַיִם",
+      "en": "to two"
+     },
+     {
+      "he": "וְהֵן",
+      "en": "and they"
+     },
+     {
+      "he": "עֵדָיו,",
+      "en": "his witnesses"
+     }
+    ]
+   },
+   {
+    "he": "מְבִיאִין אוֹתוֹ לְבֵית דִּין וְסוֹקְלִין אוֹתוֹ.",
+    "en": "and they bring him to court and stone him.",
+    "st": "<b>they bring him to court and stone him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבִיאִין",
+      "en": "they bring"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "וְסוֹקְלִין",
+      "en": "and stone"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לְאֶחָד,",
+    "en": "If he said it to only one,",
+    "st": "If <b>he said</b> his words of incitement <b>to one</b>",
+    "stMore": "man alone, that man’s testimony would not be sufficient to have the inciter executed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לְאֶחָד,",
+      "en": "to one"
+     }
+    ]
+   },
+   {
+    "he": "הוּא אוֹמֵר יֶשׁ לִי חֲבֵרִים רוֹצִים בְּכָךְ.",
+    "en": "he says to him, \"I have friends who want this too.\"",
+    "st": "Therefore <b>he says</b> to the inciter: <b>I have friends who are interested in this;</b>",
+    "stMore": "tell them too. This way there will be more witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "חֲבֵרִים",
+      "en": "friends"
+     },
+     {
+      "he": "רוֹצִים",
+      "en": "wanting"
+     },
+     {
+      "he": "בְּכָךְ.",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיָה עָרוּם",
+    "en": "If he is sly",
+    "st": "The mishna continues: <b>If</b> the inciter <b>is cunning, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "עָרוּם",
+      "en": "sly"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ יָכוֹל לְדַבֵּר בִּפְנֵיהֶם,",
+    "en": "and will not speak in front of them,",
+    "st": "<b>and</b> he knows that <b>he cannot speak in front of</b> two men,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "he can"
+     },
+     {
+      "he": "לְדַבֵּר",
+      "en": "to speak"
+     },
+     {
+      "he": "בִּפְנֵיהֶם,",
+      "en": "in front of them"
+     }
+    ]
+   },
+   {
+    "he": "מַכְמִינִין לוֹ עֵדִים אֲחוֹרֵי הַגָּדֵר,",
+    "en": "they hide witnesses for him behind the fence,",
+    "st": "the court <b>hides witnesses for him behind the fence</b> so that he will not see them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַכְמִינִין",
+      "en": "they hide"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "אֲחוֹרֵי",
+      "en": "behind"
+     },
+     {
+      "he": "הַגָּדֵר,",
+      "en": "the fence"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לוֹ",
+    "en": "and he says to him,",
+    "st": "<b>and</b> the man whom the inciter had previously tried to incite <b>says to him: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֱמֹר מַה שֶּׁאָמַרְתָּ לִּי בְיִחוּד,",
+    "en": "\"Say what you told me in private.\"",
+    "st": "<b>Say what you said</b> to me when we were <b>in seclusion. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֱמֹר",
+      "en": "say"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁאָמַרְתָּ",
+      "en": "that you said"
+     },
+     {
+      "he": "לִּי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיִחוּד,",
+      "en": "in private"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה אוֹמֵר לוֹ,",
+    "en": "And the meisis says it to him,",
+    "st": "<b>And the other</b> person, the inciter, <b>says to him</b> again that he should worship the idol.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and that one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לוֹ",
+    "en": "and he answers him,",
+    "st": "<b>And he says to</b> the inciter:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הֵיאַךְ נַנִּיחַ אֶת אֱלֹהֵינוּ שֶׁבַּשָּׁמַיִם",
+    "en": "\"How can we leave our God in Heaven",
+    "st": "<b>How can we forsake our God in Heaven </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵיאַךְ",
+      "en": "how"
+     },
+     {
+      "he": "נַנִּיחַ",
+      "en": "shall we leave"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֱלֹהֵינוּ",
+      "en": "our God"
+     },
+     {
+      "he": "שֶׁבַּשָּׁמַיִם",
+      "en": "that is in Heaven"
+     }
+    ]
+   },
+   {
+    "he": "וְנֵלֵךְ וְנַעֲבֹד עֵצִים וַאֲבָנִים.",
+    "en": "and go and serve wood and stones?\"",
+    "st": "<b>and go and worship wood and stones? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֵלֵךְ",
+      "en": "and we will go"
+     },
+     {
+      "he": "וְנַעֲבֹד",
+      "en": "and we will serve"
+     },
+     {
+      "he": "עֵצִים",
+      "en": "woods"
+     },
+     {
+      "he": "וַאֲבָנִים.",
+      "en": "and stones"
+     }
+    ]
+   },
+   {
+    "he": "אִם חוֹזֵר בּוֹ, הֲרֵי זֶה מוּטָב.",
+    "en": "If he takes it back, that is good.",
+    "st": "<b>If</b> the inciter <b>retracts</b> his suggestion, <b>that is good. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "חוֹזֵר",
+      "en": "he goes back"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "on it"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "מוּטָב.",
+      "en": "is good"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמַר כָּךְ הִיא חוֹבָתֵנוּ",
+    "en": "But if he says, \"This is our duty,",
+    "st": "<b>But if he says: This</b> idol worship <b>is our duty; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "הִיא",
+      "en": "is"
+     },
+     {
+      "he": "חוֹבָתֵנוּ",
+      "en": "our duty"
+     }
+    ]
+   },
+   {
+    "he": "וְכָךְ יָפֶה לָנוּ,",
+    "en": "and this is good for us,\"",
+    "st": "<b>this</b> is what <b>suits us,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָךְ",
+      "en": "and so"
+     },
+     {
+      "he": "יָפֶה",
+      "en": "good"
+     },
+     {
+      "he": "לָנוּ,",
+      "en": "for us"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹמְדִין מֵאֲחוֹרֵי הַגָּדֵר",
+    "en": "those standing behind the fence",
+    "st": "then <b>those standing behind the fence </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹמְדִין",
+      "en": "those standing"
+     },
+     {
+      "he": "מֵאֲחוֹרֵי",
+      "en": "from behind"
+     },
+     {
+      "he": "הַגָּדֵר",
+      "en": "the fence"
+     }
+    ]
+   },
+   {
+    "he": "מְבִיאִין אוֹתוֹ לְבֵית דִּין וְסוֹקְלִין אוֹתוֹ.",
+    "en": "bring him to court and stone him.",
+    "st": "<b>bring him to court and have him stoned.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבִיאִין",
+      "en": "bring"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "וְסוֹקְלִין",
+      "en": "and stone"
+     },
+     {
+      "he": "אוֹתוֹ.",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר אֶעֱבֹד,",
+    "en": "A meisis is one who says, \"I will serve,\"",
+    "st": "The halakha of an inciter includes <b>one who says: I shall worship</b> idols, or one of the following statements:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "אֶעֱבֹד,",
+      "en": "I will serve"
+     }
+    ]
+   },
+   {
+    "he": "אֵלֵךְ וְאֶעֱבֹד, נֵלֵךְ וְנַעֲבֹד.",
+    "en": "\"I will go and serve,\" \"Let us go and serve,\"",
+    "st": "<b>I shall go and worship</b> idols, or: <b>let us go and worship</b> idols,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלֵךְ",
+      "en": "I will go"
+     },
+     {
+      "he": "וְאֶעֱבֹד,",
+      "en": "and I will serve"
+     },
+     {
+      "he": "נֵלֵךְ",
+      "en": "let us go"
+     },
+     {
+      "he": "וְנַעֲבֹד.",
+      "en": "and serve"
+     }
+    ]
+   },
+   {
+    "he": "אֲזַבֵּחַ, אֵלֵךְ וַאֲזַבֵּחַ, נֵלֵךְ וּנְזַבֵּחַ.",
+    "en": "\"I will sacrifice,\" \"I will go and sacrifice,\" \"Let us go and sacrifice,\"",
+    "st": "or: <b>I shall sacrifice</b> an idolatrous offering, or: <b>I shall go and sacrifice</b> an idolatrous offering, or: <b>Let us go and sacrifice</b> an idolatrous offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲזַבֵּחַ,",
+      "en": "I will sacrifice"
+     },
+     {
+      "he": "אֵלֵךְ",
+      "en": "I will go"
+     },
+     {
+      "he": "וַאֲזַבֵּחַ,",
+      "en": "and I will sacrifice"
+     },
+     {
+      "he": "נֵלֵךְ",
+      "en": "let us go"
+     },
+     {
+      "he": "וּנְזַבֵּחַ.",
+      "en": "and sacrifice"
+     }
+    ]
+   },
+   {
+    "he": "אַקְטִיר, אֵלֵךְ וְאַקְטִיר, נֵלֵךְ וְנַקְטִיר.",
+    "en": "\"I will burn incense,\" \"I will go and burn incense,\" \"Let us go and burn incense,\"",
+    "st": "or: <b>I shall burn</b> incense as an idolatrous offering, or: <b>I shall go and burn</b> incense, or: <b>Let us go and burn</b> incense,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַקְטִיר,",
+      "en": "I will burn incense"
+     },
+     {
+      "he": "אֵלֵךְ",
+      "en": "I will go"
+     },
+     {
+      "he": "וְאַקְטִיר,",
+      "en": "and I will burn incense"
+     },
+     {
+      "he": "נֵלֵךְ",
+      "en": "let us go"
+     },
+     {
+      "he": "וְנַקְטִיר.",
+      "en": "and burn incense"
+     }
+    ]
+   },
+   {
+    "he": "אֲנַסֵּךְ, אֵלֵךְ וַאֲנַסֵּךְ, נֵלֵךְ וּנְנַסֵּךְ.",
+    "en": "\"I will pour wine,\" \"I will go and pour,\" \"Let us go and pour,\"",
+    "st": "or: <b>I shall pour</b> an idolatrous libation, or: <b>I shall go and pour</b> a libation, or: <b>Let us go and pour</b> a libation,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲנַסֵּךְ,",
+      "en": "I will pour"
+     },
+     {
+      "he": "אֵלֵךְ",
+      "en": "I will go"
+     },
+     {
+      "he": "וַאֲנַסֵּךְ,",
+      "en": "and I will pour"
+     },
+     {
+      "he": "נֵלֵךְ",
+      "en": "let us go"
+     },
+     {
+      "he": "וּנְנַסֵּךְ.",
+      "en": "and pour"
+     }
+    ]
+   },
+   {
+    "he": "אֶשְׁתַּחֲוֶה, אֵלֵךְ וְאֶשְׁתַּחֲוֶה, נֵלֵךְ וְנִשְׁתַּחֲוֶה.",
+    "en": "\"I will bow,\" \"I will go and bow,\" \"Let us go and bow.\"",
+    "st": "or: <b>I shall bow</b> to an idol, or: <b>I shall go and bow,</b> or: <b>Let us go and bow.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶשְׁתַּחֲוֶה,",
+      "en": "I will bow"
+     },
+     {
+      "he": "אֵלֵךְ",
+      "en": "I will go"
+     },
+     {
+      "he": "וְאֶשְׁתַּחֲוֶה,",
+      "en": "and I will bow"
+     },
+     {
+      "he": "נֵלֵךְ",
+      "en": "let us go"
+     },
+     {
+      "he": "וְנִשְׁתַּחֲוֶה.",
+      "en": "and bow"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּדִּיחַ, זֶה הָאוֹמֵר,",
+    "en": "The maddiach is one who says to many people,",
+    "st": "With regard to the case of <b>the subverter</b> listed among those liable to be executed by stoning, <b>this is one who says</b> to a multitude of people:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּדִּיחַ,",
+      "en": "the one who leads astray"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הָאוֹמֵר,",
+      "en": "the one who says"
+     }
+    ]
+   },
+   {
+    "he": "נֵלֵךְ וְנַעֲבֹד עֲבוֹדָה זָרָה:",
+    "en": "\"Let us go and serve idols.\"",
+    "st": "<b>Let us go and worship idols.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֵלֵךְ",
+      "en": "let us go"
+     },
+     {
+      "he": "וְנַעֲבֹד",
+      "en": "and serve"
+     },
+     {
+      "he": "עֲבוֹדָה",
+      "en": "service"
+     },
+     {
+      "he": "זָרָה:",
+      "en": "foreign"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 11,
+  "summary": "A sorcerer who really does magic is stoned, but one who only fools people's eyes is not. Rabbi Akiva gives an example with two people gathering cucumbers.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְכַשֵּׁף הָעוֹשֶׂה מַעֲשֶׂה חַיָּב,",
+    "en": "A sorcerer who really does an act is chayav,",
+    "st": "<b>The warlock</b> is also liable to be executed by stoning. <b>One who performs</b> a real <b>act</b> of sorcery <b>is liable, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְכַשֵּׁף",
+      "en": "the sorcerer"
+     },
+     {
+      "he": "הָעוֹשֶׂה",
+      "en": "who does"
+     },
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "an act"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "is chayav"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הָאוֹחֵז אֶת הָעֵינָיִם.",
+    "en": "but not one who only fools the eyes.",
+    "st": "<b>but not one who deceives the eyes,</b>",
+    "stMore": "making it appear as though he is performing sorcery, as that is not considered sorcery.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָאוֹחֵז",
+      "en": "the one who holds"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵינָיִם.",
+      "en": "the eyes",
+      "note": "Does tricks that only look like magic."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר מִשּׁוּם רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Akiva says in the name of Rabbi Yehoshua,",
+    "st": "<b>Rabbi Akiva says in the name of Rabbi Yehoshua:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "in the name of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַיִם לוֹקְטִין קִשּׁוּאִין,",
+    "en": "two people gather cucumbers by magic.",
+    "st": "For example, <b>two</b> people can each <b>gather cucumbers</b> by sorcery.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "לוֹקְטִין",
+      "en": "gather"
+     },
+     {
+      "he": "קִשּׁוּאִין,",
+      "en": "cucumbers"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד לוֹקֵט פָּטוּר וְאֶחָד לוֹקֵט חַיָּב,",
+    "en": "One who gathers is patur, and one who gathers is chayav.",
+    "st": "<b>One</b> of them <b>gathers</b> cucumbers and he is <b>exempt, and</b> the other <b>one gathers</b> cucumbers and he is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "לוֹקֵט",
+      "en": "gathers"
+     },
+     {
+      "he": "פָּטוּר",
+      "en": "is patur"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "לוֹקֵט",
+      "en": "gathers"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "is chayav"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹשֶׂה מַעֲשֶׂה חַיָּב,",
+    "en": "The one who really does an act is chayav,",
+    "st": "How so? <b>The one who performs</b> a real <b>act</b> of sorcery is <b>liable,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹשֶׂה",
+      "en": "the one who does"
+     },
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "an act"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "is chayav"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹחֵז אֶת הָעֵינַיִם פָּטוּר:",
+    "en": "the one who only fools the eyes is patur.",
+    "st": "and <b>the one who deceives the eyes is exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹחֵז",
+      "en": "the one who holds"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵינַיִם",
+      "en": "the eyes"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "is patur"
+     }
+    ]
+   }
+  ]
+ }
+]

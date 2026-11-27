@@ -1,0 +1,3160 @@
+[
+ {
+  "perek": 6,
+  "mishnah": 1,
+  "summary": "Shevuas hadayanim: when someone admits to part of a claim, beis din makes him swear about the rest. The mishnah teaches the smallest amounts, and that the admission must be the same kind as the claim.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁבוּעַת הַדַּיָּנִין,",
+    "en": "The oath that the judges give:",
+    "st": "By Torah law, the <b>oath</b> imposed <b>by the judges</b> upon one who admits to part of a claim is administered only when",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעַת",
+      "en": "the oath of"
+     },
+     {
+      "he": "הַדַּיָּנִין,",
+      "en": "the judges",
+      "note": "Shevuas hadayanim: an oath beis din gives a person who admits to part of a claim."
+     }
+    ]
+   },
+   {
+    "he": "הַטַּעֲנָה שְׁתֵּי כֶסֶף,",
+    "en": "the claim must be at least two silver ma'ah,",
+    "st": "<b>the claim is</b> for the value of at least <b>two silver</b> ma’a,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטַּעֲנָה",
+      "en": "the claim"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "silver ma'ah",
+      "note": "A ma'ah is a small silver coin."
+     }
+    ]
+   },
+   {
+    "he": "וְהַהוֹדָאָה בְּשָׁוֶה פְרוּטָה.",
+    "en": "and he must admit to at least a perutah's worth.",
+    "st": "<b>and the</b> defendant’s <b>admission is</b> for <b>the value of</b> at least <b>one peruta. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַהוֹדָאָה",
+      "en": "and the admission"
+     },
+     {
+      "he": "בְּשָׁוֶה",
+      "en": "worth"
+     },
+     {
+      "he": "פְרוּטָה.",
+      "en": "a perutah",
+      "note": "The smallest coin."
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אֵין הַהוֹדָאָה מִמִּין הַטַּעֲנָה,",
+    "en": "And if what he admits is not the same kind as the claim,",
+    "st": "<b>And</b> furthermore, <b>if the admission is not of</b> the same <b>type</b> as <b>the claim,</b>",
+    "stMore": "i.e., the defendant admitted to a debt that the claimant did not claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֵין",
+      "en": "is not"
+     },
+     {
+      "he": "הַהוֹדָאָה",
+      "en": "the admission"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "of the kind of"
+     },
+     {
+      "he": "הַטַּעֲנָה,",
+      "en": "the claim"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. כֵּיצַד,",
+    "en": "he is patur. How so?",
+    "st": "the defendant is <b>exempt</b> from taking an oath. <b>How so?</b> If the claimant said to the defendant:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     },
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי כֶסֶף לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have two silver ma'ah with you,\"",
+    "st": "<b>I have two silver</b> ma’a <b>in your possession,</b> and the latter responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "כֶסֶף",
+      "en": "silver ma'ah"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי אֶלָּא פְרוּטָה,",
+    "en": "and the other said, \"You have only a perutah with me,\"",
+    "st": "<b>You have only one peruta,</b> a coin made from copper, <b>in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "פְרוּטָה,",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "he is <b>exempt</b> from taking an oath (see 39b).",
+    "stMore": "But if the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי כֶסֶף וּפְרוּטָה לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have two silver ma'ah and a perutah with you,\"",
+    "st": "<b>I have two silver</b> ma’a <b>and one peruta in your possession,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "כֶסֶף",
+      "en": "silver ma'ah"
+     },
+     {
+      "he": "וּפְרוּטָה",
+      "en": "and a perutah"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי אֶלָּא פְרוּטָה,",
+    "en": "and the other said, \"You have only a perutah with me,\"",
+    "st": "<b>You have only one peruta in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "פְרוּטָה,",
+      "en": "a perutah"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav to swear.",
+    "st": "he is <b>liable</b> to take an oath.",
+    "stMore": "If the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "מָנֶה לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have a maneh with you,\"",
+    "st": "<b>I have one hundred dinars in your possession,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָנֶה",
+      "en": "a maneh",
+      "note": "A hundred zuz."
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי,",
+    "en": "and the other said, \"You have nothing with me,\"",
+    "st": "<b>Nothing</b> of <b>yours</b> is <b>in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי,",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "he is <b>exempt,</b> as he denies the entire claim.",
+    "stMore": "But if the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "מָנֶה לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have a maneh with you,\"",
+    "st": "<b>I have one hundred dinars in your possession,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי אֶלָּא חֲמִשִּׁים דִּינָר,",
+    "en": "and the other said, \"You have only fifty dinar with me,\"",
+    "st": "<b>You have only fifty dinars in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "דִּינָר,",
+      "en": "dinar"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav to swear.",
+    "st": "he is <b>liable</b> to take an oath, as he admitted to a part of the claim.",
+    "stMore": "If the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "מָנֶה לְאַבָּא בְיָדֶךָ,",
+    "en": "If he said, \"My father had a maneh with you,\"",
+    "st": "My late <b>father had one hundred dinars in your possession,</b> and I am now claiming them, and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "לְאַבָּא",
+      "en": "to father"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי אֶלָּא חֲמִשִּׁים דִּינָר,",
+    "en": "and the other said, \"You have only fifty dinar with me,\"",
+    "st": "<b>You have only fifty dinars in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "דִּינָר,",
+      "en": "dinar"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר, מִפְּנֵי שֶׁהוּא כְמֵשִׁיב אֲבֵדָה:",
+    "en": "he is patur, because he is like one who returns a lost item.",
+    "explain": "He could have denied it all, so he is being honest.",
+    "st": "he is <b>exempt</b> from taking an oath, <b>as he is like one returning a lost item,</b> since he could have easily denied the entire claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר,",
+      "en": "he is patur"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he is"
+     },
+     {
+      "he": "כְמֵשִׁיב",
+      "en": "like one who returns"
+     },
+     {
+      "he": "אֲבֵדָה:",
+      "en": "a lost item"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 2,
+  "summary": "If someone admitted a debt and later says he already paid it, he is patur. But if he was told to pay only in front of witnesses, he must pay.",
+  "stIntro": "The mishna discusses other cases where the defendant denies an entire claim. In a case where one said to another: ",
+  "chunks": [
+   {
+    "he": "מָנֶה לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have a maneh with you,\"",
+    "st": "<b>I have one hundred dinars in your possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ בִּפְנֵי עֵדִים הֵן.",
+    "en": "and the other said to him in front of witnesses, \"Yes,\"",
+    "st": "and the latter <b>said to him: Yes,</b> I acknowledge that claim;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "הֵן.",
+      "en": "yes"
+     }
+    ]
+   },
+   {
+    "he": "לְמָחָר אָמַר לוֹ תְּנֵהוּ לִי.",
+    "en": "and the next day he said to him, \"Give it to me,\"",
+    "st": "and <b>the next day</b> the claimant <b>said to him: Give</b> the money <b>to me,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "תְּנֵהוּ",
+      "en": "give it"
+     },
+     {
+      "he": "לִי.",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "נְתַתִּיו לָךְ,",
+    "en": "and the other said, \"I gave it to you,\"",
+    "st": "<b>I</b> already <b>gave it to you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְתַתִּיו",
+      "en": "I gave it"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. אֵין לְךָ בְיָדִי,",
+    "en": "he is patur. But if he said, \"You have nothing with me,\"",
+    "st": "he is <b>exempt.</b> But if he responded: <b>Nothing</b> of <b>yours</b> is <b>in my possession,</b> i.e., he denies that a debt ever existed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי,",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav.",
+    "explain": "He already admitted the debt.",
+    "st": "he is <b>liable</b> to pay, as he already admitted that he owed him the amount.",
+    "stMore": "In a case where the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "מָנֶה לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have a maneh with you,\"",
+    "st": "<b>I have one hundred dinars in your possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ הֵן,",
+    "en": "and the other said to him, \"Yes,\"",
+    "st": "and the defendant <b>said to him: Yes,</b> to which the claimant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "הֵן,",
+      "en": "yes"
+     }
+    ]
+   },
+   {
+    "he": "אַל תִּתְּנֵהוּ לִי אֶלָּא בְעֵדִים.",
+    "en": "and he said, \"Give it to me only in front of witnesses,\"",
+    "st": "<b>Give</b> the money <b>to me only in</b> the presence of <b>witnesses,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַל",
+      "en": "do not"
+     },
+     {
+      "he": "תִּתְּנֵהוּ",
+      "en": "give it"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְעֵדִים.",
+      "en": "with witnesses"
+     }
+    ]
+   },
+   {
+    "he": "לְמָחָר אָמַר לוֹ תְּנֵהוּ לִי,",
+    "en": "and the next day he said to him, \"Give it to me,\"",
+    "st": "then if <b>the next day</b> the claimant <b>said to him: Give</b> the money <b>to me,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "תְּנֵהוּ",
+      "en": "give it"
+     },
+     {
+      "he": "לִי,",
+      "en": "to me"
+     }
+    ]
+   },
+   {
+    "he": "נְתַתִּיו לָךְ,",
+    "en": "and the other said, \"I gave it to you,\"",
+    "st": "<b>I</b> already <b>gave it to you,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְתַתִּיו",
+      "en": "I gave it"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, מִפְּנֵי שֶׁצָּרִיךְ לִתְּנוֹ לוֹ בְעֵדִים:",
+    "en": "he is chayav, because he had to give it to him in front of witnesses.",
+    "st": "he is <b>liable</b> to pay, <b>as</b> he is <b>required to give it</b> to him <b>in</b> the presence of <b>witnesses,</b> and he cannot prove that he did so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "he is chayav"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁצָּרִיךְ",
+      "en": "that he needed"
+     },
+     {
+      "he": "לִתְּנוֹ",
+      "en": "to give it"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בְעֵדִים:",
+      "en": "with witnesses"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 3,
+  "summary": "What he admits must be the same kind as the claim. All coins count as one kind, and beans are part of produce. Admon and Rabban Gamliel say jugs count for a claim of jugs of oil. Movable things can pull along an oath about land.",
+  "stIntro": "The mishna resumes discussion of the oath imposed by the court in a case where the defendant admits to a part of a claim. If the claimant said: ",
+  "chunks": [
+   {
+    "he": "לִיטְרָא זָהָב יֶשׁ לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have a litra of gold with you,\"",
+    "st": "<b>I have a litra,</b> i.e., a specific weight, <b>of gold in your possession,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִיטְרָא",
+      "en": "a litra",
+      "note": "A weight."
+     },
+     {
+      "he": "זָהָב",
+      "en": "of gold"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי אֶלָּא לִיטְרָא כֶסֶף,",
+    "en": "and the other said, \"You have only a litra of silver with me,\"",
+    "st": "<b>You have only a litra of silver in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "לִיטְרָא",
+      "en": "a litra of"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "silver"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "he is <b>exempt</b>",
+    "stMore": "from taking an oath, as his admission relates to a different item than that which the claim relates to. But if the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "דִּינַר זָהָב יֶשׁ לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have a gold dinar with you,\"",
+    "st": "<b>I have a gold dinar in your possession,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינַר",
+      "en": "a dinar of"
+     },
+     {
+      "he": "זָהָב",
+      "en": "gold"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי אֶלָּא דִּינַר כֶּסֶף,",
+    "en": "and the other said, \"You have only a silver dinar,",
+    "st": "<b>You have only a silver dinar, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "דִּינַר",
+      "en": "a dinar of"
+     },
+     {
+      "he": "כֶּסֶף,",
+      "en": "silver"
+     }
+    ]
+   },
+   {
+    "he": "וּטְרִיסִית וּפֻנְדְּיוֹן וּפְרוּטָה,",
+    "en": "or a tereisis, or a pundyon, or a perutah,\"",
+    "st": "<b>or a tereisit, or a pundeyon, or a peruta in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּטְרִיסִית",
+      "en": "and a tereisis",
+      "note": "Kinds of smaller coins."
+     },
+     {
+      "he": "וּפֻנְדְּיוֹן",
+      "en": "and a pundyon"
+     },
+     {
+      "he": "וּפְרוּטָה,",
+      "en": "and a perutah"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, שֶׁהַכֹּל מִין מַטְבֵּעַ אַחַת.",
+    "en": "he is chayav, because they are all one kind: coins.",
+    "st": "he is <b>liable</b> to take an oath, <b>as</b> they are <b>all</b> of <b>one type;</b> they are all <b>coins.</b>",
+    "stMore": "Since the claim concerns money, the difference between the different types of coins is disregarded, as the claim is essentially referring to the monetary value, not to a specific type of coin. If the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "he is chayav"
+     },
+     {
+      "he": "שֶׁהַכֹּל",
+      "en": "for everything"
+     },
+     {
+      "he": "מִין",
+      "en": "is the kind of"
+     },
+     {
+      "he": "מַטְבֵּעַ",
+      "en": "coin"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹר תְּבוּאָה יֶשׁ לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have a kor of grain with you,\"",
+    "st": "<b>I have a kor of grain in your possession,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹר",
+      "en": "a kor",
+      "note": "A large measure."
+     },
+     {
+      "he": "תְּבוּאָה",
+      "en": "of grain"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי אֶלָּא לֶתֶךְ קִטְנִית,",
+    "en": "and the other said, \"You have only a half-kor of beans with me,\"",
+    "st": "<b>You have only a half-kor of legumes in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "לֶתֶךְ",
+      "en": "a half-kor of"
+     },
+     {
+      "he": "קִטְנִית,",
+      "en": "beans"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "he is <b>exempt.</b> But if the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹר פֵּרוֹת יֶשׁ לִי בְיָדֶךָ,",
+    "en": "If he said, \"I have a kor of produce with you,\"",
+    "st": "<b>I have a kor of produce in your possession,</b> and the defendant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹר",
+      "en": "a kor of"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "produce"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לְךָ בְיָדִי אֶלָּא לֶתֶךְ קִטְנִית,",
+    "en": "and the other said, \"You have only a half-kor of beans with me,\"",
+    "st": "<b>You have only a half-kor of legumes in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "לֶתֶךְ",
+      "en": "a half-kor of"
+     },
+     {
+      "he": "קִטְנִית,",
+      "en": "beans"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, שֶׁהַקִּטְנִית בִּכְלַל פֵּרוֹת.",
+    "en": "he is chayav, because beans are part of produce.",
+    "st": "he is <b>liable, as legumes are included in produce.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "he is chayav"
+     },
+     {
+      "he": "שֶׁהַקִּטְנִית",
+      "en": "for the beans"
+     },
+     {
+      "he": "בִּכְלַל",
+      "en": "are included in"
+     },
+     {
+      "he": "פֵּרוֹת.",
+      "en": "produce"
+     }
+    ]
+   },
+   {
+    "he": "טְעָנוֹ חִטִּין,",
+    "en": "If he claimed wheat from him,",
+    "st": "If one <b>claimed</b> that another owes <b>him wheat, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְעָנוֹ",
+      "en": "he claimed from him"
+     },
+     {
+      "he": "חִטִּין,",
+      "en": "wheat"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹדָה לוֹ בִשְׂעֹרִים,",
+    "en": "and the other admitted to barley,",
+    "st": "<b>and</b> the defendant <b>admitted to</b> owing <b>him barley,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹדָה",
+      "en": "and he admitted"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בִשְׂעֹרִים,",
+      "en": "barley"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. וְרַבָּן גַּמְלִיאֵל מְחַיֵּב.",
+    "en": "he is patur. But Rabban Gamliel says he must swear.",
+    "st": "he is <b>exempt; and Rabban Gamliel deems</b> him <b>liable</b> to take an oath.",
+    "stMore": "According to Rabban Gamliel, one who admits to a part of the claim is liable to take an oath even if the admission is not of the same type as the claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     },
+     {
+      "he": "וְרַבָּן",
+      "en": "and Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "מְחַיֵּב.",
+      "en": "makes chayav"
+     }
+    ]
+   },
+   {
+    "he": "הַטּוֹעֵן לַחֲבֵרוֹ בְכַדֵּי שֶׁמֶן",
+    "en": "If someone claims jugs of oil from his friend,",
+    "st": "With regard to <b>one who claims</b> that <b>another</b> owes him <b>jugs of oil, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטּוֹעֵן",
+      "en": "one who claims"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "בְכַדֵּי",
+      "en": "jugs of"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹדָה לוֹ בַקַּנְקַנִּים,",
+    "en": "and the friend admitted to the empty jugs,",
+    "st": "the latter then <b>admitted</b> that he owes <b>him pitchers,</b> i.e., the jugs themselves, but not the oil,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹדָה",
+      "en": "and he admitted"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בַקַּנְקַנִּים,",
+      "en": "the jugs"
+     }
+    ]
+   },
+   {
+    "he": "אַדְמוֹן אוֹמֵר,",
+    "en": "Admon says,",
+    "st": "<b>Admon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַדְמוֹן",
+      "en": "Admon",
+      "note": "A judge in Yerushalayim."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וְהוֹדָה לוֹ מִקְצָת מִמִּין הַטַּעֲנָה,",
+    "en": "Since he admitted part of the same kind as the claim,",
+    "st": "<b>Since he admitted to him</b> with regard to <b>a part</b> of the claim, and his admission was <b>of the</b> same <b>type</b> as <b>the claim,</b>",
+    "stMore": "i.e., the claim included both containers and oil and he admitted to owing him containers,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וְהוֹדָה",
+      "en": "and he admitted"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מִקְצָת",
+      "en": "part"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "of the kind of"
+     },
+     {
+      "he": "הַטַּעֲנָה,",
+      "en": "the claim"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁבֵעַ. וַחֲכָמִים אוֹמְרִים,",
+    "en": "he must swear. But the Sages say,",
+    "st": "<b>he must take an oath. And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁבֵעַ.",
+      "en": "he must swear"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַהוֹדָאָה מִמִּין הַטַּעֲנָה.",
+    "en": "the admission is not the same kind as the claim.",
+    "st": "<b>The</b> partial <b>admission</b> in this case <b>is not of</b> the same <b>type</b> as <b>the claim,</b> as he completely denied owing him oil.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "is not"
+     },
+     {
+      "he": "הַהוֹדָאָה",
+      "en": "the admission"
+     },
+     {
+      "he": "מִמִּין",
+      "en": "of the kind of"
+     },
+     {
+      "he": "הַטַּעֲנָה.",
+      "en": "the claim"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן גַּמְלִיאֵל,",
+    "en": "Rabban Gamliel said,",
+    "st": "<b>Rabban Gamliel said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאֶה אֲנִי אֶת דִּבְרֵי אַדְמוֹן.",
+    "en": "I agree with the words of Admon.",
+    "st": "<b>I see the statement of Admon</b> as correct.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאֶה",
+      "en": "see"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "אַדְמוֹן.",
+      "en": "Admon"
+     }
+    ]
+   },
+   {
+    "he": "טְעָנוֹ כֵלִים וְקַרְקָעוֹת,",
+    "en": "If he claimed things and land from him,",
+    "st": "If one <b>claimed</b> that another owes <b>him vessels and land, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְעָנוֹ",
+      "en": "he claimed from him"
+     },
+     {
+      "he": "כֵלִים",
+      "en": "things"
+     },
+     {
+      "he": "וְקַרְקָעוֹת,",
+      "en": "and land"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹדָה בַכֵּלִים וְכָפַר בַּקַּרְקָעוֹת,",
+    "en": "and the other admitted to the things but denied the land,",
+    "st": "<b>and</b> the defendant <b>admitted to</b> owing him <b>vessels but denied</b> the claim of <b>land,</b> or conversely,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹדָה",
+      "en": "and he admitted"
+     },
+     {
+      "he": "בַכֵּלִים",
+      "en": "to the things"
+     },
+     {
+      "he": "וְכָפַר",
+      "en": "and denied"
+     },
+     {
+      "he": "בַּקַּרְקָעוֹת,",
+      "en": "the land"
+     }
+    ]
+   },
+   {
+    "he": "בַּקַּרְקָעוֹת וְכָפַר בַּכֵּלִים,",
+    "en": "or admitted to the land but denied the things,",
+    "st": "he admitted <b>to</b> owing him <b>land but denied</b> the claim of <b>vessels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּקַּרְקָעוֹת",
+      "en": "to the land"
+     },
+     {
+      "he": "וְכָפַר",
+      "en": "and denied"
+     },
+     {
+      "he": "בַּכֵּלִים,",
+      "en": "the things"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "explain": "Beis din does not make a person swear about land.",
+    "st": "he is <b>exempt</b>",
+    "stMore": "from taking an oath, as oaths are not taken concerning claims involving land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "הוֹדָה בְמִקְצָת הַקַּרְקָעוֹת,",
+    "en": "If he admitted to part of the land,",
+    "st": "If <b>he admitted to part</b> of the claim about <b>the land,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹדָה",
+      "en": "he admitted"
+     },
+     {
+      "he": "בְמִקְצָת",
+      "en": "to part of"
+     },
+     {
+      "he": "הַקַּרְקָעוֹת,",
+      "en": "the land"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "he is <b>exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "בְּמִקְצָת הַכֵּלִים,",
+    "en": "If he admitted to part of the things,",
+    "st": "If he admitted <b>to part</b> of the claim about <b>the vessels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמִקְצָת",
+      "en": "to part of"
+     },
+     {
+      "he": "הַכֵּלִים,",
+      "en": "the things"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב,",
+    "en": "he is chayav to swear,",
+    "st": "he is <b>liable</b> to take an oath concerning the entire claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַנְּכָסִים שֶׁאֵין לָהֶם אַחֲרָיוּת זוֹקְקִין אֶת",
+    "en": "because movable things pull along",
+    "st": "<b>as property that does not serve as a guarantee,</b> i.e., movable property, <b>binds </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַנְּכָסִים",
+      "en": "because the property"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "אַחֲרָיוּת",
+      "en": "guarantee",
+      "note": "Achrayus: a debt can be collected from land, but not from movable things."
+     },
+     {
+      "he": "זוֹקְקִין",
+      "en": "pull along"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הַנְּכָסִים שֶׁיֵּשׁ לָהֶן אַחֲרָיוּת לִשָּׁבַע עֲלֵיהֶן:",
+    "en": "the land, so he must swear about it too.",
+    "st": "<b>the property that serves as a guarantee,</b> i.e., the land, so that the oath about the movable property can be extended to require him <b>to take an oath concerning</b> the land as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנְּכָסִים",
+      "en": "the property"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "אַחֲרָיוּת",
+      "en": "guarantee"
+     },
+     {
+      "he": "לִשָּׁבַע",
+      "en": "to swear"
+     },
+     {
+      "he": "עֲלֵיהֶן:",
+      "en": "about them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 4,
+  "summary": "Beis din does not make someone swear because of a claim by a cheresh, a shoteh or a child, and does not make a child swear. But one does swear to a child or to hekdesh.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין נִשְׁבָּעִין עַל טַעֲנַת",
+    "en": "We do not swear because of a claim of",
+    "st": "<b>One does not take an oath concerning the claim of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "נִשְׁבָּעִין",
+      "en": "swear"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "טַעֲנַת",
+      "en": "the claim of"
+     }
+    ]
+   },
+   {
+    "he": "חֵרֵשׁ שׁוֹטֶה וְקָטָן,",
+    "en": "a cheresh, a shoteh, or a child,",
+    "st": "<b>a deaf-mute, an imbecile, or a minor. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֵרֵשׁ",
+      "en": "a cheresh",
+      "note": "A person who cannot hear or speak."
+     },
+     {
+      "he": "שׁוֹטֶה",
+      "en": "a shoteh",
+      "note": "A person whose mind does not work properly."
+     },
+     {
+      "he": "וְקָטָן,",
+      "en": "and a child"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מַשְׁבִּיעִין אֶת הַקָּטָן,",
+    "en": "and we do not make a child swear,",
+    "st": "<b>And</b> the court <b>does not administer an oath to a minor. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and we do not"
+     },
+     {
+      "he": "מַשְׁבִּיעִין",
+      "en": "make swear"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקָּטָן,",
+      "en": "the child"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל נִשְׁבָּעִים לַקָּטָן וְלַהֶקְדֵּשׁ:",
+    "en": "but we do swear to a child and to hekdesh.",
+    "st": "<b>But one does take an oath to a minor, or to</b> a representative of <b>the Temple</b> treasury with regard to consecrated property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "נִשְׁבָּעִים",
+      "en": "we swear"
+     },
+     {
+      "he": "לַקָּטָן",
+      "en": "to the child"
+     },
+     {
+      "he": "וְלַהֶקְדֵּשׁ:",
+      "en": "and to hekdesh",
+      "note": "Things that belong to the Beis HaMikdash."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 5,
+  "summary": "There are things that one does not swear about: servants, documents, land and hekdesh. Rabbi Shimon says one does swear about hekdesh that he is responsible for.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְאֵלּוּ דְבָרִים שֶׁאֵין נִשְׁבָּעִין עֲלֵיהֶן,",
+    "en": "These are things that one does not swear about:",
+    "st": "<b>And these are items concerning which one does not take an oath</b> by Torah law:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "are things"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that we do not"
+     },
+     {
+      "he": "נִשְׁבָּעִין",
+      "en": "swear"
+     },
+     {
+      "he": "עֲלֵיהֶן,",
+      "en": "about them"
+     }
+    ]
+   },
+   {
+    "he": "הָעֲבָדִים, וְהַשְּׁטָרוֹת,",
+    "en": "servants, and documents,",
+    "st": "Canaanite <b>slaves, and</b> financial <b>documents, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֲבָדִים,",
+      "en": "the servants"
+     },
+     {
+      "he": "וְהַשְּׁטָרוֹת,",
+      "en": "and the documents"
+     }
+    ]
+   },
+   {
+    "he": "וְהַקַּרְקָעוֹת, וְהַהֶקְדֵּשׁוֹת.",
+    "en": "and land, and hekdesh.",
+    "st": "<b>and land, and consecrated</b> property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַקַּרְקָעוֹת,",
+      "en": "and the lands"
+     },
+     {
+      "he": "וְהַהֶקְדֵּשׁוֹת.",
+      "en": "and the hekdesh things"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בָּהֶן תַּשְׁלוּמֵי כֶפֶל",
+    "en": "If they are stolen, there is no double payment,",
+    "st": "<b>In</b> a case where <b>these</b> items are stolen, <b>there is no payment of double</b> the principal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "כֶפֶל",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא תַשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "and no payment of four or five.",
+    "st": "<b>nor is there payment of four or five</b>",
+    "stMore": "times the principal in a case where one stole a consecrated animal and slaughtered or sold it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תַשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמֵר חִנָּם אֵינוֹ נִשְׁבָּע.",
+    "en": "An unpaid watchman does not swear.",
+    "st": "<b>An unpaid bailee</b> who lost one of these items <b>does not take an oath</b> that he was not negligent in safeguarding it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמֵר",
+      "en": "a watchman",
+      "note": "A shomer: someone who watches another person's things."
+     },
+     {
+      "he": "חִנָּם",
+      "en": "for free"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "נִשְׁבָּע.",
+      "en": "swear"
+     }
+    ]
+   },
+   {
+    "he": "נוֹשֵׂא שָׂכָר אֵינוֹ מְשַׁלֵּם.",
+    "en": "A paid watchman does not pay.",
+    "st": "and <b>a paid bailee does not pay</b> for the loss or theft of one of these items.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹשֵׂא",
+      "en": "one who takes"
+     },
+     {
+      "he": "שָׂכָר",
+      "en": "pay"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "מְשַׁלֵּם.",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says</b>",
+    "stMore": "there is a distinction between different types of consecrated property:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "קָדָשִׁים שֶׁחַיָּב בְּאַחֲרָיוּתָן,",
+    "en": "Hekdesh things that he is responsible for,",
+    "explain": "Like an animal he set aside for a korban he promised to bring.",
+    "st": "With regard to <b>consecrated</b> property <b>for which</b> one <b>bears</b> the financial <b>responsibility</b> to compensate the Temple treasury in the event <b>of their</b>",
+    "stMore": "loss, such as in a case where he vowed to bring an offering and then set aside an animal to be sacrificed in fulfillment of the vow,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדָשִׁים",
+      "en": "holy things"
+     },
+     {
+      "he": "שֶׁחַיָּב",
+      "en": "that he is chayav"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָן,",
+      "en": "in their responsibility"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּעִין עֲלֵיהֶן.",
+    "en": "we swear about them.",
+    "st": "<b>one takes an oath concerning them,</b> as they are considered his own property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּעִין",
+      "en": "we swear"
+     },
+     {
+      "he": "עֲלֵיהֶן.",
+      "en": "about them"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁאֵינוֹ חַיָּב בְּאַחֲרָיוּתָן,",
+    "en": "But those he is not responsible for,",
+    "st": "<b>But</b> with regard to consecrated property <b>for which</b> he <b>does not bear</b> the financial <b>responsibility for their</b> loss,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁאֵינוֹ",
+      "en": "and that he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "chayav"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָן,",
+      "en": "in their responsibility"
+     }
+    ]
+   },
+   {
+    "he": "אֵין נִשְׁבָּעִין עֲלֵיהֶם:",
+    "en": "we do not swear about them.",
+    "st": "<b>one does not take an oath concerning them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "נִשְׁבָּעִין",
+      "en": "swear"
+     },
+     {
+      "he": "עֲלֵיהֶם:",
+      "en": "about them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 6,
+  "summary": "Rabbi Meir says vines full of grapes are not like land, so one swears about them; the Sages say anything attached to the ground is like land. One swears only about a clear amount: a size, a weight, or a number.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ דְּבָרִים שֶׁהֵן כַּקַּרְקַע וְאֵינָן כַּקַּרְקַע,",
+    "en": "There are things that are on the land but are not like land,",
+    "st": "<b>There are</b> certain <b>items that are</b> physically <b>on the land but are not</b> treated <b>like land</b> from a halakhic perspective,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "דְּבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that are"
+     },
+     {
+      "he": "כַּקַּרְקַע",
+      "en": "like land"
+     },
+     {
+      "he": "וְאֵינָן",
+      "en": "and are not"
+     },
+     {
+      "he": "כַּקַּרְקַע,",
+      "en": "like land"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין חֲכָמִים מוֹדִים לוֹ.",
+    "en": "and the Sages do not agree with him.",
+    "st": "<b>and the Rabbis do not concede to him</b> concerning this point.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and do not"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the Sages"
+     },
+     {
+      "he": "מוֹדִים",
+      "en": "agree"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, עֶשֶׂר גְּפָנִים טְעוּנוֹת מָסַרְתִּי לָךְ,",
+    "en": "How so? \"I gave you ten vines full of grapes to watch,\"",
+    "st": "<b>How so?</b> If one makes the claim: <b>I assigned you ten grapevines laden</b> with fruit to safeguard,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so"
+     },
+     {
+      "he": "עֶשֶׂר",
+      "en": "ten"
+     },
+     {
+      "he": "גְּפָנִים",
+      "en": "vines"
+     },
+     {
+      "he": "טְעוּנוֹת",
+      "en": "full of fruit"
+     },
+     {
+      "he": "מָסַרְתִּי",
+      "en": "I gave"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה אוֹמֵר אֵינָן אֶלָּא חָמֵשׁ,",
+    "en": "and the other says, \"There were only five,\"",
+    "st": "<b>and the other one says: They are only five</b> vines,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and the other"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "they are not"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "חָמֵשׁ,",
+      "en": "five"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר מְחַיֵּב שְׁבוּעָה.",
+    "en": "Rabbi Meir says he must swear.",
+    "st": "<b>Rabbi Meir deems</b> the defendant <b>liable</b> to take <b>an oath,</b>",
+    "stMore": "as he admitted to a part of the claim, and although the claim concerned grapevines, the primary aspect of the claim was the grapes.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "מְחַיֵּב",
+      "en": "makes chayav"
+     },
+     {
+      "he": "שְׁבוּעָה.",
+      "en": "an oath"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b> The halakhic status of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמְחֻבָּר לַקַּרְקַע הֲרֵי הוּא כַקַּרְקַע.",
+    "en": "anything attached to the ground is like the ground.",
+    "st": "<b>anything that is attached to the land is like the land</b> itself, and therefore he is exempt from taking an oath.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anything"
+     },
+     {
+      "he": "הַמְחֻבָּר",
+      "en": "attached"
+     },
+     {
+      "he": "לַקַּרְקַע",
+      "en": "to the ground"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "הוּא",
+      "en": "it is"
+     },
+     {
+      "he": "כַקַּרְקַע.",
+      "en": "like the ground"
+     }
+    ]
+   },
+   {
+    "he": "אֵין נִשְׁבָּעִין אֶלָּא עַל",
+    "en": "We swear only about",
+    "st": "<b>One takes an oath only concerning </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "נִשְׁבָּעִין",
+      "en": "swear"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר שֶׁבַּמִּדָּה וְשֶׁבַּמִּשְׁקָל וְשֶׁבַּמִּנְיָן.",
+    "en": "something with a size, a weight, or a number.",
+    "st": "<b>an item that is</b> defined <b>by size, by weight, or by number. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "a thing"
+     },
+     {
+      "he": "שֶׁבַּמִּדָּה",
+      "en": "that is by size"
+     },
+     {
+      "he": "וְשֶׁבַּמִּשְׁקָל",
+      "en": "and by weight"
+     },
+     {
+      "he": "וְשֶׁבַּמִּנְיָן.",
+      "en": "and by number"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, בַּיִת מָלֵא מָסַרְתִּי לָךְ",
+    "en": "How so? \"I gave you a full house,\"",
+    "st": "<b>How so?</b> If the claimant says: <b>I transferred to you a house full</b> of produce,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so"
+     },
+     {
+      "he": "בַּיִת",
+      "en": "a house"
+     },
+     {
+      "he": "מָלֵא",
+      "en": "full"
+     },
+     {
+      "he": "מָסַרְתִּי",
+      "en": "I gave"
+     },
+     {
+      "he": "לָךְ",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "וְכִיס מָלֵא מָסַרְתִּי לָךְ,",
+    "en": "or \"I gave you a full purse,\"",
+    "st": "<b>or: I transferred to you a pouch full</b> of money,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִיס",
+      "en": "and a purse"
+     },
+     {
+      "he": "מָלֵא",
+      "en": "full"
+     },
+     {
+      "he": "מָסַרְתִּי",
+      "en": "I gave"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה אוֹמֵר אֵינִי יוֹדֵעַ אֶלָּא",
+    "en": "and the other says, \"I don't know, but",
+    "st": "<b>and the other</b> person <b>says: I do not know</b> how much you gave me, <b>but </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and the other"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁהִנַּחְתָּ אַתָּה נוֹטֵל,",
+    "en": "what you left, you may take,\"",
+    "st": "<b>what you left</b> in my possession <b>you may take,</b>",
+    "stMore": "and the amount in the house or pouch at that time is less than that claimed by the claimant,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁהִנַּחְתָּ",
+      "en": "that you left"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "נוֹטֵל,",
+      "en": "take"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "explain": "Neither of them said an exact amount.",
+    "st": "the defendant is <b>exempt</b>",
+    "stMore": "from taking an oath, as the amounts in the claim and the admission are undefined.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "זֶה אוֹמֵר עַד הַזִּיז",
+    "en": "If one says, \"It was full up to the ledge,\"",
+    "st": "But if <b>this</b> party <b>says</b> that the house was full <b>up to the ledge, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "הַזִּיז",
+      "en": "the ledge"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה אוֹמֵר עַד הַחַלּוֹן, חַיָּב:",
+    "en": "and the other says, \"Only up to the window,\" he must swear.",
+    "st": "<b>and that</b> party <b>says</b> that it was full <b>up to the window,</b> the defendant is <b>liable</b> to take an oath, as the dispute relates to a defined amount.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "הַחַלּוֹן,",
+      "en": "the window"
+     },
+     {
+      "he": "חַיָּב:",
+      "en": "he is chayav"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 7,
+  "summary": "When a mashkon is lost, the lender and the borrower argue about how much it was worth. Whoever admits part of the other's claim must swear. The lender is the one who swears, because the mashkon was with him.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּלְוֶה אֶת חֲבֵרוֹ עַל",
+    "en": "If someone lends money to his friend with",
+    "st": "There is a case of <b>one who lends</b> money <b>to another on</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּלְוֶה",
+      "en": "one who lends"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּשְׁכּוֹן וְאָבַד הַמַּשְׁכּוֹן,",
+    "en": "a mashkon, and the mashkon got lost,",
+    "st": "the basis of <b>collateral, and the collateral was lost</b> while in the possession of the creditor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּשְׁכּוֹן",
+      "en": "the mashkon",
+      "note": "Something the borrower leaves with the lender until he pays back."
+     },
+     {
+      "he": "וְאָבַד",
+      "en": "and was lost"
+     },
+     {
+      "he": "הַמַּשְׁכּוֹן,",
+      "en": "the mashkon"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ סֶלַע הִלְוִיתִיךָ",
+    "en": "and the lender said, \"I lent you a sela",
+    "st": "<b>and</b> the creditor <b>says to</b> the debtor: <b>I lent you a sela </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "סֶלַע",
+      "en": "a sela",
+      "note": "A silver coin worth four dinar."
+     },
+     {
+      "he": "הִלְוִיתִיךָ",
+      "en": "I lent you"
+     }
+    ]
+   },
+   {
+    "he": "עָלָיו וְשֶׁקֶל הָיָה שָׁוֶה,",
+    "en": "on it, and it was worth only a shekel,\"",
+    "explain": "So you still owe me a shekel.",
+    "st": "<b>on</b> the basis of that collateral <b>and</b> that collateral <b>was worth a shekel,</b> i.e., a half-sela.",
+    "stMore": "Therefore, you owe me a shekel.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "וְשֶׁקֶל",
+      "en": "and a shekel",
+      "note": "Half a sela."
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שָׁוֶה,",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה אוֹמֵר לֹא כִי אֶלָּא",
+    "en": "and the other says, \"Not so! Rather,",
+    "st": "<b>And the other</b> individual, the debtor, <b>says</b> in response to that claim: <b>That is not</b> the case.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and the other"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כִי",
+      "en": "so"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     }
+    ]
+   },
+   {
+    "he": "סֶלַע הִלְוִיתַנִי עָלָיו וְסֶלַע הָיָה שָׁוֶה,",
+    "en": "you lent me a sela on it, and it was worth a sela,\"",
+    "st": "<b>Rather, you lent me a sela on</b> the basis of that collateral, <b>and</b> the collateral <b>was worth a sela;</b> I owe you nothing.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֶלַע",
+      "en": "a sela"
+     },
+     {
+      "he": "הִלְוִיתַנִי",
+      "en": "you lent me"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "וְסֶלַע",
+      "en": "and a sela"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שָׁוֶה,",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "In this case, the debtor is <b>exempt</b> from payment.",
+    "stMore": "There is a case of a creditor who claims:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "סֶלַע הִלְוִיתִיךָ עָלָיו וְשֶׁקֶל הָיָה שָׁוֶה,",
+    "en": "If he said, \"I lent you a sela on it, and it was worth a shekel,\"",
+    "st": "<b>I lent you a sela on</b> the basis of that collateral <b>and it was worth a shekel. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֶלַע",
+      "en": "a sela"
+     },
+     {
+      "he": "הִלְוִיתִיךָ",
+      "en": "I lent you"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "וְשֶׁקֶל",
+      "en": "and a shekel"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שָׁוֶה,",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה אוֹמֵר לֹא כִי אֶלָּא",
+    "en": "and the other says, \"Not so! Rather,",
+    "st": "<b>And the other</b> individual, the debtor, <b>says: That is not</b> the case;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and the other"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כִי",
+      "en": "so"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     }
+    ]
+   },
+   {
+    "he": "סֶלַע הִלְוִיתַנִי עָלָיו וּשְׁלשָׁה דִינָרִים הָיָה שָׁוֶה,",
+    "en": "you lent me a sela on it, and it was worth three dinar,\"",
+    "st": "<b>rather, you lent me a sela on</b> the basis of that collateral, <b>and</b> the collateral <b>was worth three dinars,</b> i.e., three-quarters of a sela.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֶלַע",
+      "en": "a sela"
+     },
+     {
+      "he": "הִלְוִיתַנִי",
+      "en": "you lent me"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "וּשְׁלשָׁה",
+      "en": "and three"
+     },
+     {
+      "he": "דִינָרִים",
+      "en": "dinar"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שָׁוֶה,",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he must swear.",
+    "explain": "He admitted part of the claim.",
+    "st": "In this case, the debtor is <b>liable</b>",
+    "stMore": "to take an oath, due to the fact that he responded to the claim of the creditor with a partial admission. If in that case the debtor said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "סֶלַע הִלְוִיתַנִי עָלָיו וּשְׁתַּיִם הָיָה שָׁוֶה,",
+    "en": "If the borrower said, \"You lent me a sela on it, and it was worth two,\"",
+    "st": "<b>You lent me a sela on</b> the basis of that collateral <b>and</b> the collateral <b>was worth two</b> sela, so now you owe me a sela.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֶלַע",
+      "en": "a sela"
+     },
+     {
+      "he": "הִלְוִיתַנִי",
+      "en": "you lent me"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "וּשְׁתַּיִם",
+      "en": "and two"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שָׁוֶה,",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה אוֹמֵר לֹא כִי אֶלָּא",
+    "en": "and the other says, \"Not so! Rather,",
+    "st": "<b>And the other</b> party, i.e., the creditor, <b>said: That is not</b> the case;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and the other"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כִי",
+      "en": "so"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     }
+    ]
+   },
+   {
+    "he": "סֶלַע הִלְוִיתִיךָ עָלָיו וְסֶלַע הָיָה שָׁוֶה,",
+    "en": "I lent you a sela on it, and it was worth a sela,\"",
+    "st": "<b>rather, I lent you a sela on</b> the basis of that collateral <b>and</b> the collateral <b>was worth a sela.</b> Here,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֶלַע",
+      "en": "a sela"
+     },
+     {
+      "he": "הִלְוִיתִיךָ",
+      "en": "I lent you"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "וְסֶלַע",
+      "en": "and a sela"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שָׁוֶה,",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "the creditor is <b>exempt.</b> If in that case the debtor said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "סֶלַע הִלְוִיתַנִי עָלָיו וּשְׁתַּיִם הָיָה שָׁוֶה,",
+    "en": "If the borrower said, \"You lent me a sela on it, and it was worth two,\"",
+    "st": "<b>You lent me a sela on</b> the basis of that collateral <b>and</b> the collateral <b>was worth two</b> sela.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֶלַע",
+      "en": "a sela"
+     },
+     {
+      "he": "הִלְוִיתַנִי",
+      "en": "you lent me"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "וּשְׁתַּיִם",
+      "en": "and two"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שָׁוֶה,",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה אוֹמֵר לֹא כִי אֶלָּא",
+    "en": "and the other says, \"Not so! Rather,",
+    "st": "<b>And the other</b> party, i.e., the creditor, <b>said: That is not</b> the case;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and the other"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כִי",
+      "en": "so"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     }
+    ]
+   },
+   {
+    "he": "סֶלַע הִלְוִיתִיךָ עָלָיו וַחֲמִשָּׁה דִינָרִים הָיָה שָׁוֶה,",
+    "en": "I lent you a sela on it, and it was worth five dinar,\"",
+    "st": "<b>rather, I lent you a sela on</b> the basis of that collateral <b>and</b> the collateral <b>was worth five dinars.</b> Here,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סֶלַע",
+      "en": "a sela"
+     },
+     {
+      "he": "הִלְוִיתִיךָ",
+      "en": "I lent you"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "וַחֲמִשָּׁה",
+      "en": "and five"
+     },
+     {
+      "he": "דִינָרִים",
+      "en": "dinar"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שָׁוֶה,",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he must swear.",
+    "st": "the creditor is <b>liable</b>",
+    "stMore": "to take an oath due to the fact that he responded to the claim of the debtor with a partial admission.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "וּמִי נִשְׁבָּע,",
+    "en": "And who swears?",
+    "st": "<b>And who takes</b> the <b>oath? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִי",
+      "en": "and who"
+     },
+     {
+      "he": "נִשְׁבָּע,",
+      "en": "swears"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁהַפִּקָּדוֹן אֶצְלוֹ,",
+    "en": "The one who had the deposit with him,",
+    "explain": "The lender, who had the mashkon.",
+    "st": "<b>The one</b> in <b>whose</b> possession <b>the deposit had been</b> located, i.e., the creditor, who took collateral from the debtor.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "the one"
+     },
+     {
+      "he": "שֶׁהַפִּקָּדוֹן",
+      "en": "that the deposit"
+     },
+     {
+      "he": "אֶצְלוֹ,",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא יִשָּׁבַע זֶה",
+    "en": "so that this one does not swear,",
+    "st": "The Sages instituted this provision <b>lest this</b> party, i.e., the debtor, <b>take an oath </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "perhaps"
+     },
+     {
+      "he": "יִשָּׁבַע",
+      "en": "will swear"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹצִיא הַלָּה אֶת הַפִּקָּדוֹן:",
+    "en": "and then the other brings out the mashkon.",
+    "explain": "That would show the oath was false.",
+    "st": "<b>and the other</b> party, i.e., the creditor, <b>produce the deposit</b> and prove the oath false.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹצִיא",
+      "en": "and will take out"
+     },
+     {
+      "he": "הַלָּה",
+      "en": "the other"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפִּקָּדוֹן:",
+      "en": "the deposit"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,2176 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "All meat may not be cooked with milk, except fish and grasshoppers, and meat may not be put on the same table as cheese. Beis Shammai and Beis Hillel argue about chicken, and the rule is only for the table we eat on.",
+  "chunks": [
+   {
+    "he": "כָּל הַבָּשָׂר אָסוּר לְבַשֵּׁל בְּחָלָב,",
+    "en": "All meat may not be cooked in milk,",
+    "st": "It is <b>prohibited to cook any meat</b> of domesticated and undomesticated animals and birds <b>in milk,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַבָּשָׂר",
+      "en": "the meat"
+     },
+     {
+      "he": "אָסוּר",
+      "en": "is forbidden"
+     },
+     {
+      "he": "לְבַשֵּׁל",
+      "en": "to cook"
+     },
+     {
+      "he": "בְּחָלָב,",
+      "en": "in milk"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִבְּשַׂר דָּגִים וַחֲגָבִים.",
+    "en": "except for the meat of fish and grasshoppers.",
+    "st": "<b>except for the meat of fish and grasshoppers,</b> whose halakhic status is not that of meat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except for"
+     },
+     {
+      "he": "מִבְּשַׂר",
+      "en": "the meat of"
+     },
+     {
+      "he": "דָּגִים",
+      "en": "fish"
+     },
+     {
+      "he": "וַחֲגָבִים.",
+      "en": "and grasshoppers"
+     }
+    ]
+   },
+   {
+    "he": "וְאָסוּר לְהַעֲלוֹתוֹ עִם הַגְּבִינָה עַל הַשֻּׁלְחָן,",
+    "en": "And it is forbidden to put it with cheese on the table,",
+    "st": "<b>And</b> likewise, the Sages issued a decree that it is <b>prohibited to place</b> any meat together <b>with</b> milk products, e.g., <b>cheese, on</b> one <b>table.</b>",
+    "stMore": "The reason for this prohibition is that one might come to eat them after they absorb substances from each other. This prohibition applies to all types of meat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָסוּר",
+      "en": "and it is forbidden"
+     },
+     {
+      "he": "לְהַעֲלוֹתוֹ",
+      "en": "to bring it up"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הַגְּבִינָה",
+      "en": "the cheese"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַשֻּׁלְחָן,",
+      "en": "the table"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִבְּשַׂר דָּגִים וַחֲגָבִים.",
+    "en": "except for the meat of fish and grasshoppers.",
+    "st": "<b>except for the meat of fish and grasshoppers.</b> And",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except for"
+     },
+     {
+      "he": "מִבְּשַׂר",
+      "en": "the meat of"
+     },
+     {
+      "he": "דָּגִים",
+      "en": "fish"
+     },
+     {
+      "he": "וַחֲגָבִים.",
+      "en": "and grasshoppers"
+     }
+    ]
+   },
+   {
+    "he": "הַנּוֹדֵר מִן הַבָּשָׂר,",
+    "en": "Someone who makes a neder not to eat meat",
+    "explain": "A neder is a promise that makes something forbidden to oneself.",
+    "st": "<b>one who takes a vow</b> that <b>meat</b> is prohibited to him is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹדֵר",
+      "en": "one who vows"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַבָּשָׂר,",
+      "en": "the meat"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר בִּבְשַׂר דָּגִים וַחֲגָבִים.",
+    "en": "may eat fish and grasshoppers.",
+    "st": "<b>permitted to</b> eat <b>the meat of fish and grasshoppers.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר",
+      "en": "is allowed"
+     },
+     {
+      "he": "בִּבְשַׂר",
+      "en": "in the meat of"
+     },
+     {
+      "he": "דָּגִים",
+      "en": "fish"
+     },
+     {
+      "he": "וַחֲגָבִים.",
+      "en": "and grasshoppers"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹף עוֹלֶה עִם הַגְּבִינָה",
+    "en": "Chicken may go up with cheese",
+    "st": "<b>The</b> meat of <b>birds may be placed with cheese</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹף",
+      "en": "the bird"
+     },
+     {
+      "he": "עוֹלֶה",
+      "en": "goes up"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הַגְּבִינָה",
+      "en": "the cheese"
+     }
+    ]
+   },
+   {
+    "he": "עַל הַשֻּׁלְחָן וְאֵינוֹ נֶאֱכָל,",
+    "en": "on the table, but it is not eaten with it.",
+    "st": "<b>on</b> one <b>table but</b> may <b>not be eaten</b> together with it; this is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַשֻּׁלְחָן",
+      "en": "the table"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it is not"
+     },
+     {
+      "he": "נֶאֱכָל,",
+      "en": "eaten"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי בֵית שַׁמַּאי.",
+    "en": "That is what Beis Shammai say.",
+    "st": "<b>the statement of Beit Shammai.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say:",
+    "st": "<b>And Beit Hillel say:</b> It may",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "לֹא עוֹלֶה וְלֹא נֶאֱכָל.",
+    "en": "It may not go up on the table, and it is not eaten.",
+    "st": "<b>neither be placed</b> on one table <b>nor be eaten</b> with cheese.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "עוֹלֶה",
+      "en": "goes up"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נֶאֱכָל.",
+      "en": "eaten"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said:",
+    "st": "<b>Rabbi Yosei said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "זוֹ מִקֻּלֵּי בֵית שַׁמַּאי",
+    "en": "This is one of the cases where Beis Shammai are more lenient",
+    "st": "<b>This is</b> one <b>of the</b> disputes involving <b>leniencies of Beit Shammai</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this is"
+     },
+     {
+      "he": "מִקֻּלֵּי",
+      "en": "from the lenient rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵחֻמְרֵי בֵית הִלֵּל.",
+    "en": "and Beis Hillel are more strict.",
+    "st": "<b>and stringencies of Beit Hillel.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵחֻמְרֵי",
+      "en": "and from the strict rulings of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל.",
+      "en": "Hillel"
+     }
+    ]
+   },
+   {
+    "he": "בְּאֵיזֶה שֻׁלְחָן אָמְרוּ,",
+    "en": "Which table did they mean?",
+    "st": "The mishna elaborates: <b>With regard to which table</b> are these halakhot <b>stated?</b> It is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאֵיזֶה",
+      "en": "on which"
+     },
+     {
+      "he": "שֻׁלְחָן",
+      "en": "table"
+     },
+     {
+      "he": "אָמְרוּ,",
+      "en": "did they say"
+     }
+    ]
+   },
+   {
+    "he": "בַּשֻּׁלְחָן שֶׁאוֹכֵל עָלָיו.",
+    "en": "The table he eats on.",
+    "st": "<b>with regard to a table upon which one eats.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשֻּׁלְחָן",
+      "en": "on the table"
+     },
+     {
+      "he": "שֶׁאוֹכֵל",
+      "en": "that he eats"
+     },
+     {
+      "he": "עָלָיו.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל בַּשֻּׁלְחָן שֶׁסּוֹדֵר עָלָיו אֶת הַתַּבְשִׁיל,",
+    "en": "But on a table where he sets out the cooked food,",
+    "st": "<b>But on a table upon which one prepares the cooked food,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בַּשֻּׁלְחָן",
+      "en": "on the table"
+     },
+     {
+      "he": "שֶׁסּוֹדֵר",
+      "en": "that he arranges"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתַּבְשִׁיל,",
+      "en": "the food"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן זֶה בְצַד זֶה וְאֵינוֹ חוֹשֵׁשׁ:",
+    "en": "he may put one next to the other and not worry.",
+    "st": "<b>one</b> may <b>place this</b> meat <b>alongside that</b> cheese or vice versa, <b>and</b> need <b>not be concerned</b>",
+    "stMore": "that perhaps they will be mixed and one will come to eat them together.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he puts"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "בְצַד",
+      "en": "next to"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "חוֹשֵׁשׁ:",
+      "en": "worry"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "A person may wrap meat and cheese in one cloth if they do not touch. Two guests who do not know each other may eat at one table, one meat and one cheese.",
+  "chunks": [
+   {
+    "he": "צוֹרֵר אָדָם בָּשָׂר וּגְבִינָה בְּמִטְפַּחַת אַחַת,",
+    "en": "A person may wrap meat and cheese in one cloth,",
+    "st": "<b>A person may bind meat and cheese in one cloth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צוֹרֵר",
+      "en": "may wrap"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "meat"
+     },
+     {
+      "he": "וּגְבִינָה",
+      "en": "and cheese"
+     },
+     {
+      "he": "בְּמִטְפַּחַת",
+      "en": "in a cloth"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁלֹּא יְהוּ נוֹגְעִין זֶה בָזֶה.",
+    "en": "as long as they do not touch each other.",
+    "st": "<b>provided that they do not come into contact with each other.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "as long as"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יְהוּ",
+      "en": "they will be"
+     },
+     {
+      "he": "נוֹגְעִין",
+      "en": "touching"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "בָזֶה.",
+      "en": "with this"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says:",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵי אַכְסְנָאִין אוֹכְלִין עַל שֻׁלְחָן אֶחָד,",
+    "en": "Two guests may eat at one table,",
+    "st": "<b>Two</b> unacquainted <b>guests [akhsena’in] may eat</b> together <b>on one table,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "אַכְסְנָאִין",
+      "en": "guests"
+     },
+     {
+      "he": "אוֹכְלִין",
+      "en": "eat"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "שֻׁלְחָן",
+      "en": "table"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "זֶה בָּשָׂר וָזֶה גְּבִינָה,",
+    "en": "this one meat and that one cheese,",
+    "st": "<b>this</b> one eating <b>meat and that</b> one eating <b>cheese,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "בָּשָׂר",
+      "en": "meat"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and this one"
+     },
+     {
+      "he": "גְּבִינָה,",
+      "en": "cheese"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין חוֹשְׁשִׁין:",
+    "en": "and we do not worry.",
+    "st": "<b>and they</b> need <b>not be concerned</b>",
+    "stMore": "lest they come to violate the prohibition of eating meat and milk by partaking of the food of the other.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and we do not"
+     },
+     {
+      "he": "חוֹשְׁשִׁין:",
+      "en": "worry"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "A drop of milk that fell on meat makes it forbidden if there is enough to give a taste. The udder and the heart should be cut open first, but if not, he has not broken a Torah law.",
+  "chunks": [
+   {
+    "he": "טִפַּת חָלָב שֶׁנָּפְלָה עַל הַחֲתִיכָה,",
+    "en": "A drop of milk that fell on a piece of meat:",
+    "st": "In the case of <b>a drop of milk that fell on a piece</b> of meat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טִפַּת",
+      "en": "a drop of"
+     },
+     {
+      "he": "חָלָב",
+      "en": "milk"
+     },
+     {
+      "he": "שֶׁנָּפְלָה",
+      "en": "that fell"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַחֲתִיכָה,",
+      "en": "the piece"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֶשׁ בָּהּ בְּנוֹתֵן",
+    "en": "if it has enough to give",
+    "st": "<b>if</b> the drop <b>contains</b> enough milk",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "בְּנוֹתֵן",
+      "en": "enough to give"
+     }
+    ]
+   },
+   {
+    "he": "טַעַם בְּאוֹתָהּ חֲתִיכָה,",
+    "en": "a taste to that piece,",
+    "st": "<b>to impart flavor to that piece</b> of meat,",
+    "stMore": "i.e., the meat is less than sixty times the size of the drop, the meat is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טַעַם",
+      "en": "taste"
+     },
+     {
+      "he": "בְּאוֹתָהּ",
+      "en": "in that"
+     },
+     {
+      "he": "חֲתִיכָה,",
+      "en": "piece"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. נִעֵר אֶת הַקְּדֵרָה,",
+    "en": "it is forbidden. If he stirred the pot,",
+    "st": "<b>forbidden.</b> If <b>one stirred</b> the contents of <b>the pot</b> and the piece was submerged in the gravy before it absorbed the milk,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden"
+     },
+     {
+      "he": "נִעֵר",
+      "en": "he stirred"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקְּדֵרָה,",
+      "en": "the pot"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֶשׁ בָּהּ בְּנוֹתֵן",
+    "en": "if it has enough to give",
+    "st": "<b>if</b> the drop <b>contains</b> enough milk",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "בְּנוֹתֵן",
+      "en": "enough to give"
+     }
+    ]
+   },
+   {
+    "he": "טַעַם בְּאוֹתָהּ קְדֵרָה,",
+    "en": "a taste to that whole pot,",
+    "st": "<b>to impart flavor to</b> the contents of <b>that</b> entire <b>pot,</b> the contents of the entire pot are",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טַעַם",
+      "en": "taste"
+     },
+     {
+      "he": "בְּאוֹתָהּ",
+      "en": "in that"
+     },
+     {
+      "he": "קְדֵרָה,",
+      "en": "pot"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. הַכְּחָל,",
+    "en": "it is forbidden. The udder:",
+    "st": "<b>forbidden.</b> One who wants to eat <b>the udder</b> of a slaughtered animal",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden"
+     },
+     {
+      "he": "הַכְּחָל,",
+      "en": "the udder"
+     }
+    ]
+   },
+   {
+    "he": "קוֹרְעוֹ וּמוֹצִיא אֶת חֲלָבוֹ.",
+    "en": "he tears it open and takes out its milk.",
+    "st": "<b>tears it and removes its milk,</b>",
+    "stMore": "and only then is it permitted to cook it. If",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹרְעוֹ",
+      "en": "he tears it"
+     },
+     {
+      "he": "וּמוֹצִיא",
+      "en": "and takes out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲלָבוֹ.",
+      "en": "its milk"
+     }
+    ]
+   },
+   {
+    "he": "לֹא קְרָעוֹ,",
+    "en": "If he did not tear it,",
+    "st": "<b>he did not tear</b> the udder before cooking it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "קְרָעוֹ,",
+      "en": "he tore it"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עוֹבֵר עָלָיו.",
+    "en": "he does not break the law because of it.",
+    "st": "<b>he does not violate</b> the prohibition against cooking and eating meat and milk and does not receive lashes <b>for it,</b>",
+    "stMore": "as the halakhic status of the milk in the udder is not that of milk.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "transgress"
+     },
+     {
+      "he": "עָלָיו.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "הַלֵּב, קוֹרְעוֹ וּמוֹצִיא אֶת דָּמוֹ.",
+    "en": "The heart: he tears it open and takes out its blood.",
+    "st": "One who wants to eat <b>the heart</b> of a slaughtered animal <b>tears it and removes its blood,</b> and only then may he cook and eat it. If",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַלֵּב,",
+      "en": "the heart"
+     },
+     {
+      "he": "קוֹרְעוֹ",
+      "en": "he tears it"
+     },
+     {
+      "he": "וּמוֹצִיא",
+      "en": "and takes out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "דָּמוֹ.",
+      "en": "its blood"
+     }
+    ]
+   },
+   {
+    "he": "לֹא קְרָעוֹ,",
+    "en": "If he did not tear it,",
+    "st": "<b>he did not tear</b> the heart before cooking and eating it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "קְרָעוֹ,",
+      "en": "he tore it"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עוֹבֵר עָלָיו.",
+    "en": "he does not break the law because of it.",
+    "st": "<b>he does not violate</b> the prohibition against consuming blood and is not liable to receive karet <b>for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "transgress"
+     },
+     {
+      "he": "עָלָיו.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּעֲלֶה אֶת הָעוֹף עִם",
+    "en": "Someone who puts chicken",
+    "st": "<b>One who places</b> the meat of <b>birds</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּעֲלֶה",
+      "en": "one who brings up"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעוֹף",
+      "en": "the bird"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     }
+    ]
+   },
+   {
+    "he": "הַגְּבִינָה עַל הַשֻּׁלְחָן,",
+    "en": "with cheese on the table",
+    "st": "<b>with cheese on the table</b> upon which he eats",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגְּבִינָה",
+      "en": "the cheese"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַשֻּׁלְחָן,",
+      "en": "the table"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עוֹבֵר בְּלֹא תַעֲשֶׂה:",
+    "en": "does not break a Torah law.",
+    "st": "<b>does not</b> thereby <b>violate</b> a Torah <b>prohibition.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "transgress"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "with a \"do not\"",
+      "note": "A lo sa'aseh, a \"do not\" mitzvah of the Torah."
+     },
+     {
+      "he": "תַעֲשֶׂה:",
+      "en": "mitzvah"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "The Torah forbids cooking meat of a kosher animal in milk of a kosher animal, and even getting any benefit from it. Rabbi Akiva and Rabbi Yosei HaGelili explain from the pesukim why wild animals and birds are not included in the Torah law.",
+  "chunks": [
+   {
+    "he": "בְּשַׂר בְּהֵמָה טְהוֹרָה בַּחֲלֵב בְּהֵמָה טְהוֹרָה,",
+    "en": "Meat of a kosher animal in milk of a kosher animal:",
+    "st": "It is <b>prohibited to cook the meat of a kosher animal in the milk of</b> any <b>kosher animal,</b> not merely the milk of its mother,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּשַׂר",
+      "en": "meat of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "טְהוֹרָה",
+      "en": "kosher"
+     },
+     {
+      "he": "בַּחֲלֵב",
+      "en": "in milk of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "טְהוֹרָה,",
+      "en": "kosher"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר לְבַשֵּׁל וְאָסוּר בַּהֲנָאָה.",
+    "en": "it is forbidden to cook, and forbidden to get any benefit from.",
+    "st": "<b>and</b> deriving <b>benefit</b> from that mixture is <b>prohibited.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר",
+      "en": "is forbidden"
+     },
+     {
+      "he": "לְבַשֵּׁל",
+      "en": "to cook"
+     },
+     {
+      "he": "וְאָסוּר",
+      "en": "and is forbidden"
+     },
+     {
+      "he": "בַּהֲנָאָה.",
+      "en": "in benefit"
+     }
+    ]
+   },
+   {
+    "he": "בְּשַׂר בְּהֵמָה טְהוֹרָה בַּחֲלֵב בְּהֵמָה טְמֵאָה,",
+    "en": "Meat of a kosher animal in milk of a non-kosher animal,",
+    "st": "It is <b>permitted to cook the meat of a kosher animal in the milk of a non-kosher animal,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּשַׂר",
+      "en": "meat of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "טְהוֹרָה",
+      "en": "kosher"
+     },
+     {
+      "he": "בַּחֲלֵב",
+      "en": "in milk of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "טְמֵאָה,",
+      "en": "non-kosher"
+     }
+    ]
+   },
+   {
+    "he": "בְּשַׂר בְּהֵמָה טְמֵאָה בַּחֲלֵב בְּהֵמָה טְהוֹרָה,",
+    "en": "or meat of a non-kosher animal in milk of a kosher animal:",
+    "st": "or <b>the meat of a non-kosher animal in the milk of a kosher animal,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּשַׂר",
+      "en": "meat of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "טְמֵאָה",
+      "en": "non-kosher"
+     },
+     {
+      "he": "בַּחֲלֵב",
+      "en": "in milk of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "טְהוֹרָה,",
+      "en": "kosher"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר לְבַשֵּׁל וּמֻתָּר בַּהֲנָאָה.",
+    "en": "it is allowed to cook, and allowed to get benefit from.",
+    "st": "<b>and</b> deriving <b>benefit</b> from that mixture is <b>permitted.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר",
+      "en": "is allowed"
+     },
+     {
+      "he": "לְבַשֵּׁל",
+      "en": "to cook"
+     },
+     {
+      "he": "וּמֻתָּר",
+      "en": "and is allowed"
+     },
+     {
+      "he": "בַּהֲנָאָה.",
+      "en": "in benefit"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says:",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּה וָעוֹף אֵינָם מִן הַתּוֹרָה,",
+    "en": "Wild animals and birds are not from the Torah,",
+    "st": "Cooking the meat of <b>an undomesticated animal or bird</b> in milk is <b>not</b> prohibited <b>by Torah law,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּה",
+      "en": "wild animal"
+     },
+     {
+      "he": "וָעוֹף",
+      "en": "and bird"
+     },
+     {
+      "he": "אֵינָם",
+      "en": "are not"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתּוֹרָה,",
+      "en": "the Torah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר, לֹא תְבַשֵּׁל גְּדִי בַּחֲלֵב אִמּוֹ,",
+    "en": "because it says: \"Do not cook a kid in its mother's milk\"",
+    "st": "<b>as it is stated: “You shall not cook a kid in its mother’s milk”</b> (Exodus 23:19, 34:26; Deuteronomy 14:21)",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר,",
+      "en": "as it is said"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תְבַשֵּׁל",
+      "en": "shall you cook"
+     },
+     {
+      "he": "גְּדִי",
+      "en": "a kid",
+      "note": "A baby goat."
+     },
+     {
+      "he": "בַּחֲלֵב",
+      "en": "in the milk of"
+     },
+     {
+      "he": "אִמּוֹ,",
+      "en": "its mother"
+     }
+    ]
+   },
+   {
+    "he": "שָׁלשׁ פְּעָמִים,",
+    "en": "three times,",
+    "st": "<b>three times.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "פְּעָמִים,",
+      "en": "times"
+     }
+    ]
+   },
+   {
+    "he": "פְּרָט לְחַיָּה וּלְעוֹף וְלִבְהֵמָה טְמֵאָה.",
+    "en": "to leave out wild animals, birds, and non-kosher animals.",
+    "st": "The repetition of the word “kid” three times <b>excludes an undomesticated animal, a bird, and a non-kosher animal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּרָט",
+      "en": "leaving out"
+     },
+     {
+      "he": "לְחַיָּה",
+      "en": "wild animal"
+     },
+     {
+      "he": "וּלְעוֹף",
+      "en": "and bird"
+     },
+     {
+      "he": "וְלִבְהֵמָה",
+      "en": "and animal"
+     },
+     {
+      "he": "טְמֵאָה.",
+      "en": "non-kosher"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי הַגְּלִילִי אוֹמֵר,",
+    "en": "Rabbi Yosei HaGelili says:",
+    "st": "<b>Rabbi Yosei HaGelili says</b> that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "הַגְּלִילִי",
+      "en": "HaGelili"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמַר (דברים יד),",
+    "en": "It says (Devarim 14):",
+    "st": "<b>it is stated: “</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמַר",
+      "en": "it is said"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יד),",
+      "en": "chapter 14)"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תֹאכְלוּ כָל נְבֵלָה,",
+    "en": "\"Do not eat any neveilah,\"",
+    "st": "<b>You shall not eat of any animal carcass”</b> (Deuteronomy 14:21),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תֹאכְלוּ",
+      "en": "shall you eat"
+     },
+     {
+      "he": "כָל",
+      "en": "any"
+     },
+     {
+      "he": "נְבֵלָה,",
+      "en": "neveilah"
+     }
+    ]
+   },
+   {
+    "he": "וְנֶאֱמַר (שם),",
+    "en": "and it says (there):",
+    "st": "<b>and</b> in the same verse <b>it is stated: “</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶאֱמַר",
+      "en": "and it is said"
+     },
+     {
+      "he": "(שם),",
+      "en": "(there)"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תְבַשֵּׁל גְּדִי בַּחֲלֵב אִמּוֹ.",
+    "en": "\"Do not cook a kid in its mother's milk.\"",
+    "st": "<b>You shall not cook a kid in its mother’s milk.”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תְבַשֵּׁל",
+      "en": "shall you cook"
+     },
+     {
+      "he": "גְּדִי",
+      "en": "a kid"
+     },
+     {
+      "he": "בַּחֲלֵב",
+      "en": "in the milk of"
+     },
+     {
+      "he": "אִמּוֹ.",
+      "en": "its mother"
+     }
+    ]
+   },
+   {
+    "he": "אֶת שֶׁאָסוּר מִשּׁוּם נְבֵלָה,",
+    "en": "What is forbidden because of neveilah",
+    "st": "This indicates that meat of an animal <b>that</b> is subject to be <b>prohibited due to</b> the prohibition of eating <b>an unslaughtered carcass</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שֶׁאָסוּר",
+      "en": "that is forbidden"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "נְבֵלָה,",
+      "en": "neveilah"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר לְבַשֵּׁל בְּחָלָב.",
+    "en": "is forbidden to cook in milk.",
+    "st": "is <b>prohibited</b> for one <b>to cook in milk.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר",
+      "en": "is forbidden"
+     },
+     {
+      "he": "לְבַשֵּׁל",
+      "en": "to cook"
+     },
+     {
+      "he": "בְּחָלָב.",
+      "en": "in milk"
+     }
+    ]
+   },
+   {
+    "he": "עוֹף, שֶׁאָסוּר מִשּׁוּם נְבֵלָה,",
+    "en": "A bird, which is forbidden because of neveilah,",
+    "st": "Consequently, with regard to meat of <b>birds, which</b> is subject to be <b>prohibited due to</b> the prohibition of eating <b>an unslaughtered carcass,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹף,",
+      "en": "a bird"
+     },
+     {
+      "he": "שֶׁאָסוּר",
+      "en": "that is forbidden"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "נְבֵלָה,",
+      "en": "neveilah"
+     }
+    ]
+   },
+   {
+    "he": "יָכוֹל יְהֵא אָסוּר לְבַשֵּׁל בְּחָלָב,",
+    "en": "you might think it is forbidden to cook in milk.",
+    "st": "one <b>might</b> have thought that it <b>would be prohibited to cook</b> it <b>in milk.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָכוֹל",
+      "en": "you might think"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "it will be"
+     },
+     {
+      "he": "אָסוּר",
+      "en": "forbidden"
+     },
+     {
+      "he": "לְבַשֵּׁל",
+      "en": "to cook"
+     },
+     {
+      "he": "בְּחָלָב,",
+      "en": "in milk"
+     }
+    ]
+   },
+   {
+    "he": "תַּלְמוּד לוֹמַר בַּחֲלֵב אִמּוֹ,",
+    "en": "So the pasuk says \"in its mother's milk\":",
+    "st": "Therefore, <b>the verse states: “In its mother’s milk,”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּלְמוּד",
+      "en": "teaching"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say",
+      "note": "The pasuk teaches."
+     },
+     {
+      "he": "בַּחֲלֵב",
+      "en": "in the milk of"
+     },
+     {
+      "he": "אִמּוֹ,",
+      "en": "its mother"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא עוֹף,",
+    "en": "that leaves out a bird,",
+    "st": "<b>excluding a bird,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "leaves out"
+     },
+     {
+      "he": "עוֹף,",
+      "en": "a bird"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין לוֹ חֲלֵב אֵם:",
+    "en": "which has no mother's milk.",
+    "st": "<b>which has no mother’s milk.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is no"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "חֲלֵב",
+      "en": "milk of"
+     },
+     {
+      "he": "אֵם:",
+      "en": "a mother"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "Milk found in the stomach of a non-kosher-slaughtered animal is forbidden. If cheese was made using a kosher stomach skin, it is forbidden if the skin gives a taste. The milk in a calf's stomach follows the animal it nursed from.",
+  "chunks": [
+   {
+    "he": "קֵבַת נָכְרִי וְשֶׁל נְבֵלָה,",
+    "en": "The stomach of a non-Jew's animal and of a neveilah",
+    "explain": "Meaning the milk found inside it.",
+    "st": "The congealed milk in <b>the stomach</b> of the animal <b>of a gentile and of an</b> unslaughtered <b>animal carcass</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קֵבַת",
+      "en": "the stomach of"
+     },
+     {
+      "he": "נָכְרִי",
+      "en": "a non-Jew"
+     },
+     {
+      "he": "וְשֶׁל",
+      "en": "and that of"
+     },
+     {
+      "he": "נְבֵלָה,",
+      "en": "a neveilah"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ אֲסוּרָה.",
+    "en": "is forbidden.",
+    "st": "<b>is prohibited.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "אֲסוּרָה.",
+      "en": "is forbidden"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּעֲמִיד בְּעוֹר שֶׁל קֵבָה כְשֵׁרָה,",
+    "en": "Someone who makes cheese using the skin of a kosher stomach:",
+    "st": "With regard to <b>one who curdled milk by</b> using <b>the skin of the stomach of a kosher</b> animal as a coagulant to make cheese, which may then have the taste of meat cooked in milk,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּעֲמִיד",
+      "en": "one who curdles"
+     },
+     {
+      "he": "בְּעוֹר",
+      "en": "with the skin"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "קֵבָה",
+      "en": "a stomach"
+     },
+     {
+      "he": "כְשֵׁרָה,",
+      "en": "kosher"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ בְּנוֹתֵן טַעַם,",
+    "en": "if it is enough to give a taste,",
+    "st": "<b>if</b> the measure of the skin is enough <b>to impart flavor</b> to the milk,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בְּנוֹתֵן",
+      "en": "enough to give"
+     },
+     {
+      "he": "טַעַם,",
+      "en": "taste"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ אֲסוּרָה.",
+    "en": "it is forbidden.",
+    "st": "<b>that</b> cheese <b>is prohibited.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "אֲסוּרָה.",
+      "en": "is forbidden"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁרָה שֶׁיָּנְקָה מִן הַטְּרֵפָה,",
+    "en": "A kosher animal that nursed from a treifah:",
+    "st": "In the case of <b>a kosher</b> animal <b>that suckled</b> milk <b>from a tereifa,</b> the milk in",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁרָה",
+      "en": "a kosher one"
+     },
+     {
+      "he": "שֶׁיָּנְקָה",
+      "en": "that nursed"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַטְּרֵפָה,",
+      "en": "the treifah"
+     }
+    ]
+   },
+   {
+    "he": "קֵבָתָהּ אֲסוּרָה.",
+    "en": "the milk in its stomach is forbidden.",
+    "st": "<b>its stomach is prohibited,</b> as the milk is from the tereifa.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קֵבָתָהּ",
+      "en": "its stomach"
+     },
+     {
+      "he": "אֲסוּרָה.",
+      "en": "is forbidden"
+     }
+    ]
+   },
+   {
+    "he": "טְרֵפָה שֶׁיָּנְקָה מִן הַכְּשֵׁרָה,",
+    "en": "A treifah that nursed from a kosher animal:",
+    "st": "If it was <b>a tereifa that suckled</b> milk <b>from a kosher</b> animal, the milk in",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְרֵפָה",
+      "en": "a treifah"
+     },
+     {
+      "he": "שֶׁיָּנְקָה",
+      "en": "that nursed"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּשֵׁרָה,",
+      "en": "the kosher one"
+     }
+    ]
+   },
+   {
+    "he": "קֵבָתָהּ מֻתֶּרֶת,",
+    "en": "the milk in its stomach is allowed,",
+    "st": "<b>its stomach is permitted,</b>",
+    "stMore": "as the milk is from the kosher animal. In both cases, the milk that an animal suckles has the status of the animal from which it was suckled, and not that of the animal which suckled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קֵבָתָהּ",
+      "en": "its stomach"
+     },
+     {
+      "he": "מֻתֶּרֶת,",
+      "en": "is allowed"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁכָּנוּס בְּמֵעֶיהָ:",
+    "en": "because the milk is only gathered inside it.",
+    "st": "<b>because</b> the milk <b>is collected in its innards</b> and is not an integral part of its body.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁכָּנוּס",
+      "en": "that it is gathered"
+     },
+     {
+      "he": "בְּמֵעֶיהָ:",
+      "en": "in its insides"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "Cheilev (forbidden fat) and blood are both forbidden. Cheilev is stricter in some ways, for korbanos, and blood is stricter because it applies to all animals and birds.",
+  "chunks": [
+   {
+    "he": "חֹמֶר בַּחֵלֶב מִבַּדָּם,",
+    "en": "There is something stricter about cheilev than blood,",
+    "explain": "Cheilev is certain fat that may not be eaten.",
+    "st": "there are elements more <b>stringent in</b> the prohibition of <b>fat than in</b> that of <b>blood,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֹמֶר",
+      "en": "stricter"
+     },
+     {
+      "he": "בַּחֵלֶב",
+      "en": "with cheilev"
+     },
+     {
+      "he": "מִבַּדָּם,",
+      "en": "than with blood"
+     }
+    ]
+   },
+   {
+    "he": "וְחֹמֶר בַּדָּם מִבַּחֵלֶב.",
+    "en": "and something stricter about blood than cheilev.",
+    "st": "<b>and</b> likewise there are elements more <b>stringent in</b> the prohibition of <b>blood than in</b> that of <b>fat.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֹמֶר",
+      "en": "and stricter"
+     },
+     {
+      "he": "בַּדָּם",
+      "en": "with blood"
+     },
+     {
+      "he": "מִבַּחֵלֶב.",
+      "en": "than with cheilev"
+     }
+    ]
+   },
+   {
+    "he": "חֹמֶר בַּחֵלֶב,",
+    "en": "Cheilev is stricter,",
+    "st": "The elements more <b>stringent in</b> the prohibition of <b>fat are</b> the following: The first is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֹמֶר",
+      "en": "stricter"
+     },
+     {
+      "he": "בַּחֵלֶב,",
+      "en": "with cheilev"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַחֵלֶב מוֹעֲלִין בּוֹ,",
+    "en": "because with cheilev there is me'ilah,",
+    "explain": "Me'ilah: using holy things for oneself.",
+    "st": "<b>that</b> with regard to <b>fat</b> of an offering, one who derives benefit <b>from it</b> is liable for <b>misuse</b> of consecrated property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַחֵלֶב",
+      "en": "that the cheilev"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּבִין עָלָיו מִשּׁוּם פִּגּוּל וְנוֹתָר וְטָמֵא,",
+    "en": "and one is liable for it because of piggul, nosar, and being tamei,",
+    "explain": "Piggul and nosar are korbanos that became forbidden to eat.",
+    "st": "<b>And</b> second, one is <b>liable for</b> eating <b>it due to</b> violation of the prohibition of <b>piggul,</b> if it was from an offering that was slaughtered with the intent to sprinkle its blood or partake of it beyond its designated time, <b>and</b> due to the prohibition of <b>notar,</b> if it was from an offering whose period for consumption has expired. <b>And</b> third, if one is ritually impure, he is liable due to the prohibition of partaking of it while <b>impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּבִין",
+      "en": "and are liable"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל",
+      "en": "piggul"
+     },
+     {
+      "he": "וְנוֹתָר",
+      "en": "and nosar"
+     },
+     {
+      "he": "וְטָמֵא,",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁאֵין כֵּן בַּדָּם.",
+    "en": "which is not so with blood.",
+    "st": "<b>This is not so with regard to blood,</b>",
+    "stMore": "as one is not liable in these cases for violating the prohibitions of piggul, notar, and partaking of offerings while impure, but rather is liable only for violating the prohibition of consuming blood.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁאֵין",
+      "en": "that it is not"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "בַּדָּם.",
+      "en": "with blood"
+     }
+    ]
+   },
+   {
+    "he": "וְחֹמֶר בַּדָּם,",
+    "en": "And blood is stricter,",
+    "st": "<b>And</b> the more <b>stringent</b> element <b>in</b> the prohibition of <b>blood</b> is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֹמֶר",
+      "en": "and stricter"
+     },
+     {
+      "he": "בַּדָּם,",
+      "en": "with blood"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַדָּם נוֹהֵג בִּבְהֵמָה וְחַיָּה וָעוֹף,",
+    "en": "because blood applies to farm animals, wild animals and birds,",
+    "st": "<b>that</b> the prohibition of <b>blood applies to domesticated animals, undomesticated animals, and birds,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַדָּם",
+      "en": "that the blood"
+     },
+     {
+      "he": "נוֹהֵג",
+      "en": "applies"
+     },
+     {
+      "he": "בִּבְהֵמָה",
+      "en": "to farm animals"
+     },
+     {
+      "he": "וְחַיָּה",
+      "en": "and wild animals"
+     },
+     {
+      "he": "וָעוֹף,",
+      "en": "and birds"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין טְמֵאִים וּבֵין טְהוֹרִים,",
+    "en": "both non-kosher ones and kosher ones,",
+    "st": "<b>both kosher and non-kosher,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "טְמֵאִים",
+      "en": "non-kosher"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and whether"
+     },
+     {
+      "he": "טְהוֹרִים,",
+      "en": "kosher"
+     }
+    ]
+   },
+   {
+    "he": "וְחֵלֶב אֵינוֹ נוֹהֵג אֶלָּא",
+    "en": "and cheilev applies only",
+    "st": "<b>but</b> the prohibition of forbidden <b>fat</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֵלֶב",
+      "en": "and cheilev"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "נוֹהֵג",
+      "en": "apply"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     }
+    ]
+   },
+   {
+    "he": "בִּבְהֵמָה טְהוֹרָה בִלְבָד:",
+    "en": "to a kosher farm animal.",
+    "st": "<b>applies only to a kosher domesticated animal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּבְהֵמָה",
+      "en": "in an animal"
+     },
+     {
+      "he": "טְהוֹרָה",
+      "en": "kosher"
+     },
+     {
+      "he": "בִלְבָד:",
+      "en": "only"
+     }
+    ]
+   }
+  ],
+  "stIntro": "Although animal fats and blood are similar in that they are both prohibited by Torah law and punishable by karet,"
+ }
+]

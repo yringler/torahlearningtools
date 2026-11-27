@@ -7,3 +7,8 @@ declare namespace Cloudflare {
     TEST_MIGRATIONS: TestD1Migration[];
   }
 }
+
+/** Vite's import.meta.glob (the worker tsconfig has no vite/client types); used by the scope grep test. */
+interface ImportMeta {
+  glob<T>(patterns: string | string[], options: { query?: string; import?: string; eager: true }): Record<string, T>;
+}

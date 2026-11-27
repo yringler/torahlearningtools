@@ -1,0 +1,2687 @@
+[
+ {
+  "perek": 5,
+  "mishnah": 1,
+  "summary": "A shevuas hapikadon is when someone swears falsely that he does not have another person's things. It applies to everyone. If he did it on purpose, he pays back with an extra fifth and brings a korban asham.",
+  "stIntro": "One who takes a false oath denying that he is in possession of an item that another deposited with him is liable to return the item with an additional one-fifth of its value and to bring a guilt-offering (see Leviticus 5:20–26). ",
+  "chunks": [
+   {
+    "he": "שְׁבוּעַת הַפִּקָּדוֹן נוֹהֶגֶת בַּאֲנָשִׁים וּבְנָשִׁים,",
+    "en": "A shevuas hapikadon applies to men and to women,",
+    "st": "The halakhot of <b>an oath on a deposit apply to men and to women, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעַת",
+      "en": "an oath of"
+     },
+     {
+      "he": "הַפִּקָּדוֹן",
+      "en": "the deposit",
+      "note": "Shevuas hapikadon: someone swears falsely that he is not holding another person's things."
+     },
+     {
+      "he": "נוֹהֶגֶת",
+      "en": "applies"
+     },
+     {
+      "he": "בַּאֲנָשִׁים",
+      "en": "to men"
+     },
+     {
+      "he": "וּבְנָשִׁים,",
+      "en": "and to women"
+     }
+    ]
+   },
+   {
+    "he": "בִּרְחוֹקִים וּבִקְרוֹבִים,",
+    "en": "to strangers and to relatives,",
+    "st": "<b>to non-relatives and to relatives,</b>",
+    "stMore": "i.e., even if the owner of the deposit and the purported bailee are related,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּרְחוֹקִים",
+      "en": "to far ones"
+     },
+     {
+      "he": "וּבִקְרוֹבִים,",
+      "en": "and to close ones"
+     }
+    ]
+   },
+   {
+    "he": "בִּכְשֵׁרִים וּבִפְסוּלִים,",
+    "en": "to people fit to be witnesses and to people who are not,",
+    "st": "<b>to</b> those <b>fit</b> to serve as witnesses <b>and to</b> those <b>disqualified</b> from doing so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּכְשֵׁרִים",
+      "en": "to the fit ones"
+     },
+     {
+      "he": "וּבִפְסוּלִים,",
+      "en": "and to the unfit ones"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְנֵי בֵית דִּין וְשֶׁלֹּא",
+    "en": "in front of a beis din, and not",
+    "st": "These halakhot apply when the oath is taken <b>in the presence of a court and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "בִּפְנֵי בֵית דִּין,",
+    "en": "in front of a beis din,",
+    "st": "when taken <b>not in the presence of a court,</b> as long as the oath is taken",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "מִפִּי עַצְמוֹ.",
+    "en": "when he swears by himself.",
+    "st": "<b>on his own,</b> i.e., stated by the defendant himself.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ.",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "וּמִפִּי אֲחֵרִים,",
+    "en": "But if others make him swear,",
+    "st": "<b>But</b> if the oath is administered <b>by others,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִפִּי",
+      "en": "and from the mouth of"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב עַד שֶׁיִּכְפֹּר",
+    "en": "he is not chayav unless he denies",
+    "st": "he is <b>not liable unless he denies</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "chayav"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּכְפֹּר",
+      "en": "he denies"
+     }
+    ]
+   },
+   {
+    "he": "בּוֹ בְּבֵית דִּין,",
+    "en": "it in beis din.",
+    "st": "the claim <b>in court;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹ",
+      "en": "about it"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין מִפִּי עַצְמוֹ בֵּין מִפִּי אֲחֵרִים,",
+    "en": "Whether he swears by himself or others make him swear,",
+    "st": "<b>Both</b> when the defendant takes an oath <b>on his own and</b> when the oath is administered <b>by others, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיוָן שֶׁכָּפַר בּוֹ,",
+    "en": "once he denies it,",
+    "st": "<b>once</b> he has falsely <b>denied</b> the claim against him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיוָן",
+      "en": "once"
+     },
+     {
+      "he": "שֶׁכָּפַר",
+      "en": "that he denied"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. וְחַיָּב עַל זְדוֹן הַשְּׁבוּעָה וְעַל",
+    "en": "he is chayav. He is chayav for swearing falsely on purpose, and",
+    "st": "he is <b>liable</b> to bring a guilt-offering and to pay restitution and an additional one-fifth, even if the oath was not administered in the presence of a court. <b>And</b> one is <b>liable</b> to bring an offering <b>for intentionally</b> taking a false <b>oath</b> on a deposit <b>and for </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     },
+     {
+      "he": "וְחַיָּב",
+      "en": "and he is chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "זְדוֹן",
+      "en": "doing on purpose"
+     },
+     {
+      "he": "הַשְּׁבוּעָה",
+      "en": "the oath"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     }
+    ]
+   },
+   {
+    "he": "שִׁגְגָתָהּ עִם זְדוֹן הַפִּקָּדוֹן,",
+    "en": "for a mistake about the oath, when he knew about the deposit.",
+    "explain": "He knew he had it, but did not know the oath was so serious.",
+    "st": "<b>unwittingly</b> taking a false oath about the <b>intentional</b> misappropriation of <b>the deposit,</b>",
+    "stMore": "i.e., if one knowingly took a false oath but was unaware that he is liable to bring an offering for taking the oath.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁגְגָתָהּ",
+      "en": "its mistake"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "זְדוֹן",
+      "en": "knowing on purpose"
+     },
+     {
+      "he": "הַפִּקָּדוֹן,",
+      "en": "the deposit"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ חַיָּב עַל שִׁגְגָתָהּ.",
+    "en": "But he is not chayav for a mistake about the deposit itself.",
+    "explain": "He really thought he owed nothing.",
+    "st": "<b>But he is not liable for unwittingly</b> taking a false oath <b>by itself,</b> where he mistakenly thought that he did not owe anything.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "שִׁגְגָתָהּ.",
+      "en": "its mistake"
+     }
+    ]
+   },
+   {
+    "he": "וּמַה חַיָּב עַל זְדוֹנָהּ,",
+    "en": "And what is he chayav for swearing falsely on purpose?",
+    "st": "<b>And what is he liable for</b> when he <b>intentionally</b> takes a false oath?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַה",
+      "en": "and what"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is he chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "זְדוֹנָהּ,",
+      "en": "doing it on purpose"
+     }
+    ]
+   },
+   {
+    "he": "אָשָׁם בְּכֶסֶף שְׁקָלִים:",
+    "en": "A korban asham worth two silver shekels.",
+    "st": "He must bring <b>a guilt-offering worth</b> at least two <b>silver shekels.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָשָׁם",
+      "en": "an asham",
+      "note": "A korban for certain aveiros, like swearing falsely about money."
+     },
+     {
+      "he": "בְּכֶסֶף",
+      "en": "worth silver"
+     },
+     {
+      "he": "שְׁקָלִים:",
+      "en": "shekels"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 2,
+  "summary": "How a shevuas hapikadon works. If he swore falsely many times, he brings a korban for each one, because each time he could have admitted the truth.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁבוּעַת הַפִּקָּדוֹן כֵּיצַד.",
+    "en": "How does a shevuas hapikadon work?",
+    "st": "The mishna continues: <b>What</b> is the case of <b>an oath on a deposit?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעַת",
+      "en": "an oath of"
+     },
+     {
+      "he": "הַפִּקָּדוֹן",
+      "en": "the deposit"
+     },
+     {
+      "he": "כֵּיצַד.",
+      "en": "how"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "If someone said to him,",
+    "st": "It is where the claimant <b>said to</b> the defendant:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "תֶּן לִי פִקְדוֹנִי שֶׁיֵּשׁ לִי בְיָדֶךָ,",
+    "en": "\"Give me my deposit that you have,\"",
+    "st": "<b>Give me my deposit, which is in your possession,</b> and the defendant replied:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֶּן",
+      "en": "give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "פִקְדוֹנִי",
+      "en": "my deposit"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין לְךָ בְיָדִי,",
+    "en": "and he answered, \"I swear you have nothing with me,\"",
+    "st": "On my <b>oath nothing</b> of <b>yours</b> is <b>in my possession; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי,",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁאָמַר לוֹ אֵין לְךָ בְיָדִי,",
+    "en": "or he said, \"You have nothing with me,\"",
+    "st": "<b>or</b> the defendant <b>said to him: Nothing</b> of <b>yours</b> is <b>in my possession,</b> the claimant responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "that he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי,",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the man said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and</b> the defendant <b>said: Amen.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה חַיָּב.",
+    "en": "he is chayav.",
+    "st": "In either case <b>this</b> defendant is <b>liable</b> to bring a guilt-offering if he lied.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "is chayav"
+     }
+    ]
+   },
+   {
+    "he": "הִשְׁבִּיעַ עָלָיו חֲמִשָּׁה פְעָמִים,",
+    "en": "If he made him swear five times,",
+    "st": "If the claimant <b>administered an oath to him five times, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִשְׁבִּיעַ",
+      "en": "he made swear"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "upon him"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "פְעָמִים,",
+      "en": "times"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין בִּפְנֵי בֵית דִּין וּבֵין",
+    "en": "whether in front of beis din or",
+    "st": "<b>whether in the presence of a court </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "or whether"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא בִּפְנֵי בֵית דִּין,",
+    "en": "not in front of beis din,",
+    "st": "<b>or not in the presence of a court, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "וְכָפַר, חַיָּב עַל כָּל אַחַת וְאֶחָת.",
+    "en": "and he denied, he is chayav for each and every one.",
+    "st": "<b>and</b> the defendant falsely <b>denied</b> each claim, he is <b>liable</b> to bring a guilt-offering <b>for each and every</b> denial.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָפַר,",
+      "en": "and he denied"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "he is chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי שִׁמְעוֹן,",
+    "en": "Rabbi Shimon said,",
+    "st": "<b>Rabbi Shimon said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן,",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "מַה טַּעַם,",
+    "en": "What is the reason?",
+    "st": "<b>What is the reason?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "טַּעַם,",
+      "en": "is the reason"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁיָּכוֹל לַחֲזֹר וּלְהוֹדוֹת:",
+    "en": "Because he could go back and admit.",
+    "explain": "After each oath he could have admitted, so each oath is a new denial.",
+    "st": "It is <b>due to</b> the fact <b>that he is able to retract and confess</b> after each oath and repay the claimant.",
+    "stMore": "Since he did not do so, each oath is considered a separate denial of a monetary claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁיָּכוֹל",
+      "en": "that he is able"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to go back"
+     },
+     {
+      "he": "וּלְהוֹדוֹת:",
+      "en": "and to admit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 3,
+  "summary": "If he swore one oath to five people together, or about many things together, he brings one korban. If he swore to each one, or named each thing, he brings a korban for each.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָיוּ חֲמִשָּׁה תוֹבְעִין אוֹתוֹ,",
+    "en": "If five people were claiming from him,",
+    "st": "If <b>five</b> people <b>were suing him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "תוֹבְעִין",
+      "en": "claiming"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ תֶּן לָנוּ",
+    "en": "and they said to him, \"Give us",
+    "st": "and <b>they said to him: Give us</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "תֶּן",
+      "en": "give"
+     },
+     {
+      "he": "לָנוּ",
+      "en": "to us"
+     }
+    ]
+   },
+   {
+    "he": "פִקָּדוֹן שֶׁיֵּשׁ לָנוּ בְיָדֶךָ,",
+    "en": "the deposit of ours that you have,\"",
+    "st": "back <b>our deposit that is in your possession,</b> and the defendant says:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פִקָּדוֹן",
+      "en": "a deposit"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לָנוּ",
+      "en": "to us"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין לָכֶם בְּיָדִי,",
+    "en": "and he said, \"I swear you have nothing with me,\"",
+    "st": "On my <b>oath nothing</b> of <b>yours</b> is <b>in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לָכֶם",
+      "en": "to you"
+     },
+     {
+      "he": "בְּיָדִי,",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב אֶלָּא אַחַת.",
+    "en": "he is chayav only once.",
+    "st": "he is <b>liable</b> for <b>only one</b> false oath.",
+    "stMore": "But if he responds to each claimant:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "chayav"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין לְךָ בְיָדִי",
+    "en": "But if he said, \"I swear you have nothing with me,",
+    "st": "On my <b>oath nothing</b> of <b>yours</b> is <b>in my possession, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא לְךָ וְלֹא לְךָ,",
+    "en": "nor you, nor you,\"",
+    "st": "<b>and nothing</b> of <b>yours, and nothing</b> of <b>yours,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל כָּל אַחַת וְאֶחָת.",
+    "en": "he is chayav for each and every one.",
+    "st": "he is <b>liable for</b> his oath concerning <b>each and every</b> claim that he denied.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b> He is not liable for his oath concerning each claim",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיֹּאמַר שְׁבוּעָה בָאַחֲרוֹנָה.",
+    "en": "only if he says \"I swear\" at the end.",
+    "explain": "Then the oath goes on each one of them.",
+    "st": "<b>unless he says:</b> On my <b>oath, at the end</b> of the denial, i.e., he says:",
+    "stMore": "Nothing of yours is in my possession, and nothing of yours, on my oath, so that it is clear that he is taking an oath to each one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֹּאמַר",
+      "en": "that he says"
+     },
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "בָאַחֲרוֹנָה.",
+      "en": "at the end"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b> He is not liable for his oath concerning each claim",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיֹּאמַר שְׁבוּעָה לְכָל אֶחָד וְאֶחָד.",
+    "en": "only if he says \"I swear\" to each and every one.",
+    "st": "<b>unless he says:</b> On my <b>oath, to each and every</b> claimant, i.e., he says:",
+    "stMore": "On my oath nothing of yours is in my possession, and on my oath nothing of yours, to each claimant separately. In a case where the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֹּאמַר",
+      "en": "that he says"
+     },
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "לְכָל",
+      "en": "to each"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "תֶּן לִי פִקָּדוֹן וּתְשׂוּמֶת יָד",
+    "en": "If he said, \"Give me the deposit, the loan,",
+    "st": "<b>Give me</b> back <b>my deposit, and pledge, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֶּן",
+      "en": "give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "פִקָּדוֹן",
+      "en": "a deposit"
+     },
+     {
+      "he": "וּתְשׂוּמֶת",
+      "en": "and the putting of"
+     },
+     {
+      "he": "יָד",
+      "en": "hand",
+      "note": "A loan."
+     }
+    ]
+   },
+   {
+    "he": "גָּזֵל וַאֲבֵדָה שֶׁיֵּשׁ לִי בְיָדֶךָ,",
+    "en": "the stolen thing and the lost thing that you have,\"",
+    "st": "<b>stolen item, and lost item that are in your possession,</b> and the defendant responds:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּזֵל",
+      "en": "a stolen thing"
+     },
+     {
+      "he": "וַאֲבֵדָה",
+      "en": "and a lost thing"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין לְךָ בְיָדִי,",
+    "en": "and he said, \"I swear you have nothing with me,\"",
+    "st": "On my <b>oath nothing</b> of <b>yours</b> is <b>in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי,",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב אֶלָּא אַחַת.",
+    "en": "he is chayav only once.",
+    "st": "he is <b>liable</b> for <b>only one</b> false oath.",
+    "stMore": "But if he responds:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "chayav"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין לְךָ בְיָדִי פִקָּדוֹן",
+    "en": "But if he said, \"I swear I do not have your deposit,",
+    "st": "On my <b>oath I do not have in my possession your deposit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     },
+     {
+      "he": "פִקָּדוֹן",
+      "en": "a deposit"
+     }
+    ]
+   },
+   {
+    "he": "וּתְשׂוּמֶת יָד וְגָזֵל וַאֲבֵדָה,",
+    "en": "or loan, or stolen thing, or lost thing,\"",
+    "st": "<b>or pledge, stolen item, or lost item,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְשׂוּמֶת",
+      "en": "and the putting of"
+     },
+     {
+      "he": "יָד",
+      "en": "hand"
+     },
+     {
+      "he": "וְגָזֵל",
+      "en": "and a stolen thing"
+     },
+     {
+      "he": "וַאֲבֵדָה,",
+      "en": "and a lost thing"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל כָּל אַחַת וְאֶחָת.",
+    "en": "he is chayav for each and every one.",
+    "st": "he is <b>liable for</b> his oath concerning <b>each and every</b> claim.",
+    "stMore": "In a case where the claimant said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "תֶּן לִי חִטִּין וּשְׂעֹרִין",
+    "en": "If he said, \"Give me the wheat and barley",
+    "st": "<b>Give me</b> back <b>my wheat, and barley, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֶּן",
+      "en": "give"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "חִטִּין",
+      "en": "wheat"
+     },
+     {
+      "he": "וּשְׂעֹרִין",
+      "en": "and barley"
+     }
+    ]
+   },
+   {
+    "he": "וְכֻסְּמִין שֶׁיֵּשׁ לִי בְיָדֶךָ,",
+    "en": "and spelt of mine that you have,\"",
+    "st": "<b>and spelt that are in your possession,</b> if the defendant responds:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֻסְּמִין",
+      "en": "and spelt"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "בְיָדֶךָ,",
+      "en": "in your hand"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין לְךָ בְיָדִי,",
+    "en": "and he said, \"I swear you have nothing with me,\"",
+    "st": "On my <b>oath nothing of yours</b> is <b>in my possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי,",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב אֶלָּא אַחַת.",
+    "en": "he is chayav only once.",
+    "st": "he is <b>liable</b> for <b>only one</b> false oath.",
+    "stMore": "But if he responds:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "chayav"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵין לְךָ בְיָדִי",
+    "en": "But if he said, \"I swear I do not have your",
+    "st": "On my <b>oath I do not have in my possession </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "בְיָדִי",
+      "en": "in my hand"
+     }
+    ]
+   },
+   {
+    "he": "חִטִּין וּשְׂעֹרִין וְכֻסְּמִים,",
+    "en": "wheat, barley or spelt,\"",
+    "st": "<b>your wheat, barley, or spelt,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חִטִּין",
+      "en": "wheat"
+     },
+     {
+      "he": "וּשְׂעֹרִין",
+      "en": "and barley"
+     },
+     {
+      "he": "וְכֻסְּמִים,",
+      "en": "and spelt"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל כָּל אַחַת וְאֶחָת.",
+    "en": "he is chayav for each and every one.",
+    "st": "he is <b>liable for</b> his oath concerning <b>each and every</b> claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ אָמַר חִטָּה וּשְׂעֹרָה וְכֻסֶּמֶת,",
+    "en": "Even if he said \"a grain of wheat, a grain of barley, a grain of spelt,\"",
+    "st": "<b>Even</b> if the defendant <b>says:</b> On my oath I do not have in my possession your <b>grain of wheat, or grain of barley, or grain of spelt,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "חִטָּה",
+      "en": "a grain of wheat"
+     },
+     {
+      "he": "וּשְׂעֹרָה",
+      "en": "and a grain of barley"
+     },
+     {
+      "he": "וְכֻסֶּמֶת,",
+      "en": "and a grain of spelt"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל כָּל אַחַת וְאֶחָת:",
+    "en": "he is chayav for each and every one.",
+    "st": "he is <b>liable for</b> his oath concerning <b>each and every</b> claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he is chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת:",
+      "en": "and one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 4,
+  "summary": "If someone swore falsely that he did not do a terrible wrong to a man's daughter, Rabbi Shimon says he is patur, because that payment is a k'nas (a fine). The Sages say he is chayav, because some of what he must pay is for real damage.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָנַסְתָּ וּפִתִּיתָ אֶת בִּתִּי,",
+    "en": "If someone said, \"You did a terrible wrong to my daughter, or tricked her,\"",
+    "st": "The mishna continues: If one accuses another: <b>You raped or you seduced my daughter, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָנַסְתָּ",
+      "en": "you harmed"
+     },
+     {
+      "he": "וּפִתִּיתָ",
+      "en": "and you tricked"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בִּתִּי,",
+      "en": "my daughter"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לֹא אָנַסְתִּי וְלֹא פִתִּיתִי.",
+    "en": "and he said, \"I did not do it, and I did not trick her,\"",
+    "st": "<b>and</b> the other <b>says: I did not rape and I did not seduce</b> your daughter, to which the father replied:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָנַסְתִּי",
+      "en": "I harmed"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "פִתִּיתִי.",
+      "en": "I tricked"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the father said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and</b> the defendant <b>said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. רַבִּי שִׁמְעוֹן פּוֹטֵר,",
+    "en": "he is chayav. Rabbi Shimon says he is patur,",
+    "st": "the defendant is <b>liable</b> to bring a guilt-offering if it is a false oath. <b>Rabbi Shimon deems</b> him <b>exempt, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "פּוֹטֵר,",
+      "en": "exempts"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינוֹ מְשַׁלֵּם קְנָס עַל פִּי עַצְמוֹ.",
+    "en": "because a person does not pay a k'nas just because he admits it himself.",
+    "st": "<b>since one does not pay a fine based on his own</b> admission.",
+    "stMore": "Had he confessed he would have been exempt from paying the fine; he is therefore not liable for his denial.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "for he does not"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "קְנָס",
+      "en": "a fine",
+      "note": "K'nas: a set payment the Torah adds as a punishment."
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ.",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to him: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵינוֹ מְשַׁלֵּם",
+    "en": "Even though he does not pay",
+    "st": "<b>Even though he does not pay</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he does not"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "קְנָס עַל פִּי עַצְמוֹ,",
+    "en": "the k'nas because he admits it himself,",
+    "st": "the <b>fine based on his own</b> admission,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְנָס",
+      "en": "a fine"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם בּשֶׁת וּפְגָם עַל פִּי עַצְמוֹ:",
+    "en": "he does pay for shame and harm because he admits it himself.",
+    "explain": "These are payments for real damage, not a fine, so his oath counts.",
+    "st": "<b>he does pay</b> compensation for <b>humiliation and</b> compensation for <b>degradation</b> resulting from her being raped or seduced, which are monetary claims and not fines, <b>based on his own</b> admission.",
+    "stMore": "He is therefore liable for a false oath, as he denied a monetary claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "בּשֶׁת",
+      "en": "shame"
+     },
+     {
+      "he": "וּפְגָם",
+      "en": "and harm"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ:",
+      "en": "himself"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 5,
+  "summary": "The rule: if he would have to pay just by admitting it, a false oath makes him chayav a korban. If he would not pay by admitting (like a k'nas), he is patur.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גָּנַבְתָּ אֶת שׁוֹרִי,",
+    "en": "If he said, \"You stole my ox,\"",
+    "st": "Similarly, in a case where one person accuses another: <b>You stole my ox, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַבְתָּ",
+      "en": "you stole"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "my ox"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לֹא גָנַבְתִּי,",
+    "en": "and the other said, \"I did not steal it,\"",
+    "st": "<b>and the</b> defendant <b>says: I did not steal</b> your ox, if the claimant replied:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "גָנַבְתִּי,",
+      "en": "I stole"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and he said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and</b> the defendant <b>said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav.",
+    "st": "he is <b>liable</b>",
+    "stMore": "to pay for the ox due to the theft and to bring a guilt-offering if he lied, since by his oath he is denying that he owes the value of the ox that he would have to pay if he admitted to stealing it. But in a case where the claimant accuses the defendant of stealing the ox and slaughtering or selling it, and the defendant says:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַבְתִּי אֲבָל לֹא טָבַחְתִּי וְלֹא מָכָרְתִּי,",
+    "en": "If he said, \"I stole it, but I did not slaughter it or sell it,\"",
+    "explain": "A thief who slaughtered or sold the ox pays five times; that extra is a k'nas.",
+    "st": "<b>I stole</b> the ox, <b>but I did not slaughter or sell</b> it, and this is a lie, if the claimant replied:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַבְתִּי",
+      "en": "I stole"
+     },
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "טָבַחְתִּי",
+      "en": "I slaughtered"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מָכָרְתִּי,",
+      "en": "I sold"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and he said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and he said: Amen,</b> then the defendant is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "<b>exempt</b>",
+    "stMore": "from the fivefold payment for slaughtering or selling another’s ox, since it is a fine. If the claimant says:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "הֵמִית שׁוֹרְךָ אֶת שׁוֹרִי,",
+    "en": "If he said, \"Your ox killed my ox,\"",
+    "st": "<b>Your ox killed my ox, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵמִית",
+      "en": "killed"
+     },
+     {
+      "he": "שׁוֹרְךָ",
+      "en": "your ox"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "my ox"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לֹא הֵמִית,",
+    "en": "and the other said, \"It did not kill it,\"",
+    "st": "<b>and</b> the defendant lies and <b>says: It did not kill</b> your ox, to which the claimant replied:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הֵמִית,",
+      "en": "it killed"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and he said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and he said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav.",
+    "st": "then he is <b>liable</b> for his false oath.",
+    "stMore": "But if the claimant says:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "הֵמִית שׁוֹרְךָ אֶת עַבְדִּי,",
+    "en": "If he said, \"Your ox killed my servant,\"",
+    "explain": "For a servant, the owner of the ox pays thirty shekels, which is a k'nas.",
+    "st": "<b>Your ox killed my</b> Canaanite <b>slave</b> and you are therefore liable to pay me a fine of thirty shekels,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵמִית",
+      "en": "killed"
+     },
+     {
+      "he": "שׁוֹרְךָ",
+      "en": "your ox"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עַבְדִּי,",
+      "en": "my servant"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לֹא הֵמִית,",
+    "en": "and the other said, \"It did not kill him,\"",
+    "st": "<b>and he</b> lies and <b>says:</b> It <b>did not kill</b> your slave, to which the claimant replied:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הֵמִית,",
+      "en": "it killed"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and he said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and he said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "then he is <b>exempt,</b> because payment for the slave is a fine.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "If he said to him,",
+    "st": "If the claimant <b>said to him: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "חָבַלְתָּ בִי וְעָשִׂיתָ בִּי חַבּוּרָה,",
+    "en": "\"You hurt me and gave me a wound,\"",
+    "st": "<b>You injured me and caused me a wound, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָבַלְתָּ",
+      "en": "you hurt"
+     },
+     {
+      "he": "בִי",
+      "en": "me"
+     },
+     {
+      "he": "וְעָשִׂיתָ",
+      "en": "and you made"
+     },
+     {
+      "he": "בִּי",
+      "en": "in me"
+     },
+     {
+      "he": "חַבּוּרָה,",
+      "en": "a wound"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לֹא חָבַלְתִּי",
+    "en": "and the other said, \"I did not hurt you,",
+    "st": "<b>and</b> the defendant <b>says: I did not injure</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "חָבַלְתִּי",
+      "en": "I hurt"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא עָשִׂיתִי בְךָ חַבּוּרָה,",
+    "en": "and I did not give you a wound,\"",
+    "st": "you <b>and I did not cause you a wound,</b> to which the claimant replies:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "עָשִׂיתִי",
+      "en": "I made"
+     },
+     {
+      "he": "בְךָ",
+      "en": "in you"
+     },
+     {
+      "he": "חַבּוּרָה,",
+      "en": "a wound"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and he said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and he said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav.",
+    "st": "he is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ עַבְדּוֹ,",
+    "en": "If his servant said to him,",
+    "st": "But if <b>one’s</b> Canaanite <b>slave said to him: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "עַבְדּוֹ,",
+      "en": "his servant"
+     }
+    ]
+   },
+   {
+    "he": "הִפַּלְתָּ אֶת שִׁנִּי וְסִמִּיתָ אֶת עֵינִי,",
+    "en": "\"You knocked out my tooth,\" or \"You blinded my eye,\"",
+    "explain": "Then the master must set the servant free.",
+    "st": "<b>You knocked out my tooth, or: You blinded my eye,</b> and you are therefore required to emancipate me,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִפַּלְתָּ",
+      "en": "you knocked out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שִׁנִּי",
+      "en": "my tooth"
+     },
+     {
+      "he": "וְסִמִּיתָ",
+      "en": "and you blinded"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עֵינִי,",
+      "en": "my eye"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לֹא הִפַּלְתִּי וְלֹא סִמִּיתִי,",
+    "en": "and he said, \"I did not knock it out, and I did not blind it,\"",
+    "st": "<b>and he says: I did not knock out</b> your tooth, <b>or: I did not blind</b> your eye, to which the slave replies:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הִפַּלְתִּי",
+      "en": "I knocked out"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "סִמִּיתִי,",
+      "en": "I blinded"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the servant said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and he said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "he is <b>exempt</b>",
+    "stMore": "from bringing a guilt-offering even though he lied, since the obligation to emancipate one’s slave in these cases is a penalty.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמְשַׁלֵּם עַל פִּי עַצְמוֹ,",
+    "en": "Whenever a person would pay because he admitted it himself,",
+    "st": "For <b>any</b> claim that the defendant would have to <b>pay based on his own</b> admission,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "הַמְשַׁלֵּם",
+      "en": "who pays"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav.",
+    "st": "he is <b>liable</b>",
+    "stMore": "to bring a guilt-offering for taking a false oath concerning that claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁאֵינוֹ מְשַׁלֵּם עַל פִּי עַצְמוֹ, פָּטוּר:",
+    "en": "And whenever he would not pay because he admitted it himself, he is patur.",
+    "st": "<b>And</b> for any claim <b>that</b> he would <b>not pay based on his own</b> admission but would pay only by the testimony of witnesses, he is <b>exempt</b>",
+    "stMore": "from bringing a guilt-offering for taking a false oath concerning that claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁאֵינוֹ",
+      "en": "and that he does not"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "he is patur"
+     }
+    ]
+   }
+  ]
+ }
+]

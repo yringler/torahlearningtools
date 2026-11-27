@@ -1,6 +1,6 @@
 # משנה בעל פה — Mishnah Ba'al Peh
 
-A tablet-friendly web app that helps children memorize Mishnayos by heart, starting with **Maseches Brachos**.
+A tablet-friendly web app that helps children memorize Mishnayos by heart, covering the **whole Mishnah**: all six sedarim, 63 masechtos.
 Parents sign in with an emailed link or code. Progress is saved on the device first and synced to a small
 Cloudflare Worker (Hono + D1), so it works offline and follows the family across tablets.
 
@@ -28,14 +28,49 @@ Full steps: [§15 of the server plan](docs/SERVER_PLAN.md#15-deployment-steps-fo
 
 ## How the learning works
 
+**Seder → masechta → perek.** Picking a child opens the perek map of the masechta that child last learned (Berakhot
+at first). "Choose a different masechta" under the map's title lists the masechtos of its seder, each with how many
+mishnayos are known, reviews due, "Hebrew only" for a masechta without meanings, and "needs internet" when it isn't
+saved on the device yet; "Choose a different seder" lists the sedarim. The choice is remembered per child
+(`settings.lastMasechta`, synced). Each masechta has its own progress, perek tests and verifications. "Start today's
+learning" works in the masechta on screen; when another masechta has reviews due, the map shows a row like
+"🔁 3 reviews waiting in מסכת ברכות →" that opens it, and a finished masechta links to the masechta list (there is no
+automatic move to the next one). A masechta's text downloads the first time it is opened (then it works offline).
+Hebrew-only masechtos (most of Zeraim and Tahorot, Middot, Kinnim) show the Hebrew, the cue cards and the recitation steps, without meanings, word
+glosses or Steinsaltz.
+
 Each mishnah is cut into child-sized **pieces** (2–6 words, split at natural phrase breaks). Pieces are grouped into
 **parts** of up to 6. The child goes through a cumulative chain:
 
 ```
 piece 1 → piece 2 → 1+2 → piece 3 → 1–3 → … → whole part
-(long mishnah) part 2 the same way → parts 1+2 → … → whole mishnah → parent check ✓
-mishnayos 1–2 in a row → 1–3 in a row → … → whole perek in one shot (parent check) = perek complete
+(long mishnah) part 2 the same way → parts 1+2 → part 3 → parts 1–3 → … → whole mishnah → parent check ✓
 ```
+
+A **perek** is built up the same way, with mishnayos in place of pieces:
+
+```
+mishnah 1 → mishnah 2 → 1+2 → mishnah 3 → 1–3 → … → whole perek → 🎯 "I'm ready to be tested" → email to the parent
+→ the parent listens, taps the link in the email and confirms → perek verified → the next perek opens
+```
+
+Perakim longer than 5 mishnayos are split evenly into parts (8 → 4+4) and the parts are chained like pieces: part 1,
+part 2, parts 1+2 (1–8), part 3, parts 1–3, …; each join comes right after the part it adds. Saying mishnayos together is self-checked like a chain inside a mishnah.
+
+**Moving to the next perek is not on the honor system.** At the end of a perek the child can look the whole perek
+over (and say it once alone), then taps "I'm ready to be tested" and confirms. The server emails the account's address:
+the child's name, the perek phrase by phrase, and a link (at most one email per child every 10 minutes). Only the
+parent's tap on that link, then "knows it" on the page it opens (`/perek-test`), verifies the perek, on the server; no
+in-app check and nothing the device sends can. Every perek after the first unverified one is greyed out and can't be
+opened; its saved progress and stars stay. While waiting, the child can "Continue as a guest": guest mode is ungated and
+never counts. Progress saved on the device (guest or pre-account) can be imported only into an account with no
+children. See [`docs/PARENT_VERIFICATION.md`](docs/PARENT_VERIFICATION.md). On the map, each perek row has a progress ring and its mishnah circles joined by golden threads (gold
+once those two mishnayos were said together), with a golden spine down to the next perek. Tapping the perek opens the
+**perek screen**: its step path, where tapping selects "mishnah 2 alone", "mishnayos 1–2 together", a whole part or the
+🎯 test, and one button runs it (practice of known mishnayos changes no progress). Older saved progress is read as it is:
+"mishnayos 1–k in a row" counts for every chain inside 1–k, and a perek finished before verification counts as learned
+(its next step is the parent's test). See
+[`docs/PEREK_BUILDUP.md`](docs/PEREK_BUILDUP.md).
 
 Hints fade as the child learns:
 
@@ -49,30 +84,69 @@ Hints fade as the child learns:
 Without speech recognition, honesty comes from **peeks**: tapping a hidden card shows it for 2 seconds and is counted.
 A clean round passes. One peek means repeat once. Two or more steps back a hint level, and after three misses the
 app runs extra practice on the hardest piece together with the one before it. The "I said it" button is locked for a few seconds so it
-can't be tapped through. At the end of every mishnah and every "in a row" chain, a **parent check** screen shows the
-parent the full text. The parent taps any words the child slipped on, then grades the recitation.
+can't be tapped through. At the end of every mishnah, and in every perek review, a **parent check** screen shows the
+parent the full text. The parent taps any words the child slipped on, then grades the recitation. The end of a perek is
+the emailed test above, not an in-app check.
 
-**Review**: known mishnayos come back after 1, 3, 7, 14, 30, 60 days (Leitner boxes). Once a perek is complete, the
-whole perek is reviewed as one item. "Start today's learning" always does due reviews first, then continues new learning,
+**Review**: known mishnayos come back after 1, 3, 7, 14, 30, 60 days (Leitner boxes). Once a perek is verified, the
+whole perek is reviewed as one item. Reviews of locked perakim wait until they open. "Start today's learning" always does
+due reviews first (at most 6, oldest first), then continues new learning,
 and suggests stopping after the session length set by the parent (default 15 min).
 
-Other features: a profile for each child, a parent area (hold the lock button for 2 s) with settings, backup
-export/import, and per-mishnah reset.
+**Two ways in.** The sign-in page offers "Sign in as learner" and "Sign in as parent"; both email a link and a code to
+the family's account email. Learner mode is only learning: pick a child, choose a seder and masechta, learn, guest mode, the meaning view and an
+"Aa" text-size sheet, plus a small "Parent? Sign in as parent" link. **Parent mode** is a separate area with no learning
+screens, opened by a parent sign-in plus a 4-digit PIN (chosen on the first parent sign-in), and re-locked after
+5 minutes idle, a minute in the background, or on leaving. It holds everything else: adding, editing and removing
+children; their settings (name, picture, breaks, meanings, text size); each child's perakim (one masechta at a time,
+chosen at the top; the child's card shows a line per masechta), where a parent can mark a
+perek verified or remove the verification, reset a perek or mark a mishnah not known; the child's activity; a change log
+of every PIN change and parental edit with the time and the login that made it; backup export/import; moving guest
+progress into the account; signing out and deleting the account. "Forgot PIN?" emails a link to `/parent-pin`; every PIN
+change sends a notice email. Once a PIN is set, the perek-test page asks for it before "knows it" confirms.
 
 The design spec this was built from is in [`docs/DESIGN.md`](docs/DESIGN.md).
+
+**Library** ([`docs/LIBRARY.md`](docs/LIBRARY.md)). The whole Mishnah is also open to read at `/library`, with the
+same meanings, Steinsaltz and word glosses, for anyone, with no account and no progress. The ways in are the
+welcome screen, a 📚 tile on "Who's learning?", and a 📚 pill in guest mode. A child's perek map and mishnah screen also
+have a 📚 Library button. Opened that way, the Library remembers that child's last mishnah (`settings.libraryPlace`,
+synced, never progress). Otherwise it remembers the last mishnah on the device. URLs follow the reader (`/library/<masechta>/<perek>/<mishnah>`).
 
 ## Data pipeline
 
 ```
-scripts/fetch_sefaria.py     → data/raw/berakhot_N.json   (Sefaria v3 API: Hebrew Torat Emet, Steinsaltz, Bartenura/Silverstein)
-scripts/chunk.py             → data/chunks.json           (mechanical phrase chunking)
-(LLM pass, brief in scripts/GLOSS_PROMPT.md)
-                             → data/gloss/perek_N.json    (refined chunks + kid-level meaning per piece and per word)
-scripts/validate_gloss.py    checks that the Hebrew matches the source byte for byte, that the Steinsaltz excerpts rebuild
-                             Steinsaltz exactly (text and bold), and that every word has a gloss and every piece names its sources
-scripts/build_data.py        → public/data/m/<id>.<hash>.json   (one file per masechta, fetched when opened)
-                             → src/data/index.json              (small catalog bundled into the app)
+data/catalog.json                  the masechtos (seder, Sefaria book, names) and each one's translation sources
+scripts/fetch_sefaria.py <id>      → data/<id>/raw/perek_N.json    (Sefaria API: Hebrew Torat Emet + the masechta's sources)
+scripts/chunk.py <id>              → data/<id>/chunks.json         (mechanical phrase chunking)
+(LLM pass, brief in scripts/GLOSS_PROMPT.md; translated masechtos only)
+                                   → data/<id>/gloss/perek_N.json  (refined chunks + kid-level meaning per piece and per word)
+scripts/validate_gloss.py <id> [N…]  checks that the Hebrew matches the source byte for byte, that the Steinsaltz excerpts
+                                   rebuild Steinsaltz exactly (text and bold), and that every word has a gloss and every
+                                   piece names its sources
+scripts/build_data.py              → public/data/m/<id>.<hash>.json   (one file per masechta, fetched when opened;
+                                                                       applies data/<id>/hide.json)
+                                   → src/data/index.json              (small catalog bundled into the app, by seder)
+                                   → worker/data/text.json            (the Hebrew pieces, for the perek-test email)
 ```
+
+All scripts read `data/catalog.json` through `scripts/catalog.py`. `fetch_sefaria.py` takes the number of perakim from
+Sefaria's index API, retries Sefaria's frequent 503/504 errors with backoff (`--keep` resumes, skipping perakim already
+fetched), and stops if a version is missing rather than writing an empty text.
+
+**Translation is optional per masechta.** A masechta whose `sources` in `data/catalog.json` is `[]` ships in Hebrew
+only: `build_data.py` builds it from the mechanical chunks, with an empty summary and `en: ""` on every piece and word
+(the same shape as a translated masechta), and `src/data/index.json` marks it `"translated": false`. Zeraim (except
+Berakhot), Middot, Kinnim and Tahorot (except Niddah) are like this, because Sefaria has neither Steinsaltz nor
+Silverstein's Bartenura for them. A masechta that does list sources must be fully glossed, or the build fails.
+
+Sefaria doesn't have both translations everywhere, so `sources` is what it has: both for most of Moed, Nashim and
+Nezikin; **Steinsaltz only** for Sotah, Kodashim (Zevachim–Tamid) and Niddah; **Bartenura only** for Eduyot and Pirkei
+Avot. A Bartenura-only masechta has the Simple view and word meanings but no Steinsaltz view (the toggle is hidden).
+`src/data/index.json` carries each masechta's `sources` and its Sefaria book name (`sefaria`), which app links use
+(Avot is `Pirkei_Avot`). Optional catalog fields: `perakim` ships fewer perakim than Sefaria lists (Bikkurim: 3, since
+its perek 4 isn't in Torat Emet); `"glossPending": true` builds a masechta with sources as Hebrew only while its gloss is
+being written (remove it once `validate_gloss.py <id>` passes).
 
 The text is **not** in the JavaScript bundle. Each masechta is its own JSON file named by content hash, so it can be
 cached forever and a fix to one masechta re-downloads only that one. The full Mishnah would be roughly 20 MB raw
@@ -106,11 +180,49 @@ Translations used: Steinsaltz (primary) and Bartenura translated by R. Shraga Si
 Not used: Open Mishnah (a community translation), Mishnah Yomit (Kulp), and De Sola & Raphall (on Sefaria it covers
 only perek 1 of Brachos).
 
-The simple lines are AI-written paraphrases of Steinsaltz. If one reads oddly, it's an easy fix in `data/gloss/`.
+The simple lines are AI-written paraphrases of Steinsaltz. If one reads oddly, it's an easy fix in `data/<id>/gloss/`.
 
-To add another masechta: change `BOOK` in `fetch_sefaria.py`, rerun the pipeline, generate gloss files, and add a line
-to `MASECHTOS` in `build_data.py`. Note that progress keys (`"perek:mishnah"`, locally and in D1) don't name a masechta
-yet, so the app currently learns the first masechta in the catalog. Learning more than one needs those keys extended.
+### Hidden content
+
+Some mishnayos deal with topics that aren't suitable for young children (in Brachos: 2:5, the wedding night, and 3:4–3:6,
+ba'al keri, niddah and similar). The simple lines already keep these vague. `data/<id>/hide.json` (here `data/berakhot/hide.json`) covers the rest at
+build time:
+
+- `hideSteinsaltz` lists mishnayos whose Steinsaltz text is left out. Those pieces show only the simple meaning, and the
+  Steinsaltz toggle and "full Steinsaltz" button don't appear.
+- `override` rewords single simple lines or word glosses (`ref`, `piece` (1-based), optional `word` (matched on letters,
+  ignoring nikud), and the fields to `set`).
+
+The gloss files keep the original text, so `validate_gloss.py` still checks it against the source, and removing a rule
+brings it back. A rule that no longer matches the gloss stops the build. `tests/data.test.ts` fails if certain
+explicit words appear in the built data. A Hebrew-only masechta has no meanings to hide, so it has no `hide.json`.
+
+### Adding a masechta
+
+Run everything from `apps/baalpeh`.
+
+1. **Catalog entry.** Add the masechta to `masechtos` in `data/catalog.json`, in learning order: `id` (lowercase, used
+   in file names and URLs; never rename one once shipped), `seder` (add the seder to `sedarim` if it's new), `sefaria`
+   (Sefaria's book name with underscores, e.g. `Mishnah_Rosh_Hashanah`; app links are built from it), `he`, `en` (the
+   English name shown in the app) and `sources`: whichever of `"steinsaltz"` and `"bartenura"` Sefaria has for it
+   (`[]` for Hebrew only).
+2. **Fetch:** `python3 scripts/fetch_sefaria.py <id>` (rerun with `--keep` if Sefaria keeps failing).
+3. **Chunk:** `python3 scripts/chunk.py <id>`.
+4. **Gloss** (only if it has translation sources; Hebrew-only masechtos skip steps 4 and 5). Follow
+   `scripts/GLOSS_PROMPT.md`, one agent per masechta (or per perek for a small job), writing `data/<id>/gloss/perek_N.json`. A perek is done only
+   when `python3 scripts/validate_gloss.py <id> N` prints OK; finish with `python3 scripts/validate_gloss.py <id>`,
+   which checks every perek.
+5. **Content-suitability sweep.** Read the whole gloss (simple lines, word glosses, Steinsaltz excerpts) for topics
+   that aren't suitable for young children, as was done for Berakhot, and write `data/<id>/hide.json` with the same
+   `hideSteinsaltz` and `override` rules (see "Hidden content" above), each with its reason.
+6. **Build and test:** `npm run data`, then `npm test` and `npm run build`. The build writes the masechta's file in
+   `public/data/m/`, its line in `src/data/index.json` and its text in `worker/data/text.json`; commit all of them with
+   `data/<id>/`. Other masechtos' files keep their names unless their data changed.
+
+Progress keys name the masechta (`shared/progressKey.ts`): Berakhot keeps the original `"1:2"` / `"1"`, every other
+masechta writes `"<id>/1:2"` / `"<id>/1"` (docs/SERVER_PLAN.md §8.1). Unqualified keys always mean Berakhot
+(`DEFAULT_MASECHTA_ID` in `src/data.ts` is fixed to it), so adding a masechta or reordering the catalog never changes
+what old progress refers to. A new id needs no server change; the Worker checks the id's format only.
 
 ## Develop
 
@@ -128,6 +240,21 @@ npm run build        # → dist/
 The server lives in `worker/` (API under `/api/*`), the schema in `migrations/`, and the HTTP contract shared by both
 sides in `shared/api.ts`. The full design is in [`docs/SERVER_PLAN.md`](docs/SERVER_PLAN.md).
 
+**Parent mode** ([`docs/PARENT_MODE.md`](docs/PARENT_MODE.md)) is a separate, server-enforced area: an email sign-in
+"as parent" (its own 14-day session cookie) plus a 4-digit PIN (hashed, 5 tries, reset by email, every change emailed).
+It holds every power: children, settings, progress edits, marking perakim verified or not, and a change log. The client
+is in `src/parent/` (`ParentApp.tsx` shell, `useParent.ts` in-memory store, `pin.ts` and `log.ts` pure logic), with
+`src/components/PinPad.tsx`, `src/auth/PinResetLanding.tsx` (`/parent-pin`) and the login choice in `src/auth/Login.tsx`.
+
+| API | Session | Purpose |
+|---|---|---|
+| `POST /api/auth/request`, `verify-link`, `verify-code` | none | email sign-in; `as: "learner" \| "parent"` picks the session |
+| `GET /api/me`, `POST /api/sync` | learner | learning; sync can't add, delete or rename children |
+| `POST /api/perek-tests`, `/lookup`, `/confirm`, `/forgot-pin` | learner / none | the perek test email; confirm needs the PIN once set |
+| `/api/parent/me`, `/unlock`, `/lock`, `/pin`, `/pin/forgot`, `/logout` | parent | PIN and session |
+| `/api/parent/sync`, `/children/:id/{events,stats,verifications}`, `/log`, `/learner-session`, `DELETE /account` | parent, unlocked | parent powers |
+| `POST /api/pin-reset/lookup`, `POST /api/pin-reset` | none (emailed token) | "Forgot PIN?" |
+
 **Deploy**: one Cloudflare Worker serves the app and the API. First-time setup (D1 database, Turnstile widget, Resend
 domain and API key, `AUTH_SECRET`, custom domain) is described step by step in
 [§15 of the server plan](docs/SERVER_PLAN.md#15-deployment-steps-for-the-owner). After that, `npm run deploy` (or a push to
@@ -140,11 +267,13 @@ On iPad/iPhone, open the site and use "Add to Home Screen".
 Hebrew text: Torat Emet 357 via [Sefaria](https://www.sefaria.org) (public domain). English: William Davidson
 Edition (Steinsaltz, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)) and The Mishna with Obadiah
 Bartenura by R. Shraga Silverstein ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)), via Sefaria. The
-"Simple" and word meanings adapt Steinsaltz, so they're CC BY-NC too. Details, including what was changed, are in
+"Simple" and word meanings adapt Steinsaltz, so they're CC BY-NC too. The English is used only for translated
+masechtos; Hebrew-only masechtos ship the public-domain Hebrew alone. Eduyot's and Avot's meanings adapt only
+Bartenura (CC BY 3.0). Details, including what was changed, are in
 [`data/LICENSES.md`](data/LICENSES.md). The app shows the attribution at `/licenses` (no sign-in needed), with links from
-the sign-in screen, each meaning's ⓘ, the parent area and guest settings.
+the sign-in screen, each meaning's ⓘ, parent mode's settings and guest settings.
 
-The app is free and non-commercial, as the CC BY-NC source requires. The sign-in screen, the parent area and the
+The app is free and non-commercial, as the CC BY-NC source requires. The sign-in screen, parent mode and the
 guest sheet say accounts may later become a small yearly family subscription (about $5–10), and that guest mode would
 stay free. Before charging, get written permission from Koren or rebuild the meanings from Bartenura/public-domain
 sources only (see `data/LICENSES.md`).

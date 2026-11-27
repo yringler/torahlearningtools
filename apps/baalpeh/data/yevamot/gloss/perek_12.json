@@ -1,0 +1,2075 @@
+[
+ {
+  "perek": 12,
+  "mishnah": 1,
+  "summary": "Chalitzah is done in front of three judges. The mishnah teaches which kinds of shoes count for chalitzah, and when a yavam missing part of his leg can still do it.",
+  "chunks": [
+   {
+    "he": "מִצְוַת חֲלִיצָה בִּשְׁלֹשָׁה דַיָּנִין,",
+    "en": "The mitzvah of chalitzah is in front of three judges,",
+    "st": "<b>The mitzva of ḥalitza,</b> the ritual through which the yavam frees the yevama of her levirate bonds, <b>must be</b> performed before <b>three judges, and</b> the ritual does not require the judges to be experts fit to adjudicate other matters, as",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "חֲלִיצָה",
+      "en": "chalitzah"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה",
+      "en": "with three"
+     },
+     {
+      "he": "דַיָּנִין,",
+      "en": "judges"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ שְׁלָשְׁתָּן הֶדְיוֹטוֹת.",
+    "en": "and even if all three are regular people.",
+    "st": "<b>even if all three are laymen,</b> it is acceptable. <b>If</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "שְׁלָשְׁתָּן",
+      "en": "all three of them"
+     },
+     {
+      "he": "הֶדְיוֹטוֹת.",
+      "en": "regular people"
+     }
+    ]
+   },
+   {
+    "he": "חָלְצָה בְמִנְעָל,",
+    "en": "If she did chalitzah with a leather shoe,",
+    "explain": "She takes the shoe off the yavam's foot.",
+    "st": "<b>she performed ḥalitza</b> while he was wearing <b>a shoe</b> made of soft leather that covers the whole foot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָלְצָה",
+      "en": "she did chalitzah"
+     },
+     {
+      "he": "בְמִנְעָל,",
+      "en": "with a shoe"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ כְּשֵׁרָה.",
+    "en": "her chalitzah counts.",
+    "st": "<b>her ḥalitza is valid,</b> but if she performed ḥalitza while he was wearing",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "כְּשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "בְּאַנְפִּילִין, חֲלִיצָתָהּ פְּסוּלָה.",
+    "en": "With a cloth shoe, her chalitzah does not count.",
+    "st": "<b>a soft shoe [anpileya]</b> made of cloth, <b>her ḥalitza is invalid,</b> as it is not considered a real shoe. If ḥalitza was performed while he was wearing",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאַנְפִּילִין,",
+      "en": "with a cloth shoe"
+     },
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "פְּסוּלָה.",
+      "en": "is not kosher"
+     }
+    ]
+   },
+   {
+    "he": "בְּסַנְדָּל שֶׁיֶּשׁ לוֹ עָקֵב,",
+    "en": "With a sandal that has a heel,",
+    "st": "<b>a sandal,</b> i.e., footwear made of hard leather, <b>that has a heel,</b> it is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּסַנְדָּל",
+      "en": "with a sandal"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "עָקֵב,",
+      "en": "a heel"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר. וְשֶׁאֵין לוֹ עָקֵב,",
+    "en": "it counts. But one with no heel",
+    "st": "<b>valid; but</b> if performed with a sandal <b>without a heel, it is</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר.",
+      "en": "kosher"
+     },
+     {
+      "he": "וְשֶׁאֵין",
+      "en": "and that there is not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "עָקֵב,",
+      "en": "a heel"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל. מִן הָאַרְכֻּבָּה וּלְמַטָּה,",
+    "en": "does not count. From the knee and down,",
+    "explain": "If the yavam lost part of his leg and wears the shoe on what is left.",
+    "st": "<b>invalid</b> ḥalitza. If the leg of the yavam was amputated anywhere <b>from the knee down</b> and she performed ḥalitza as he wore a shoe on the stump of his leg,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל.",
+      "en": "not kosher"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאַרְכֻּבָּה",
+      "en": "the knee"
+     },
+     {
+      "he": "וּלְמַטָּה,",
+      "en": "and down"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ כְּשֵׁרָה.",
+    "en": "her chalitzah counts.",
+    "st": "<b>it is valid ḥalitza.</b> If, however, the leg was amputated anywhere",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "כְּשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "מִן הָאַרְכֻּבָּה וּלְמַעְלָה,",
+    "en": "From the knee and up,",
+    "st": "<b>from the knee and above,</b> and she performed ḥalitza as he wore a shoe on the stump of his leg,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאַרְכֻּבָּה",
+      "en": "the knee"
+     },
+     {
+      "he": "וּלְמַעְלָה,",
+      "en": "and up"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ פְּסוּלָה:",
+    "en": "her chalitzah does not count.",
+    "st": "<b>it is invalid ḥalitza. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "פְּסוּלָה:",
+      "en": "is not kosher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 2,
+  "summary": "More rules about the shoe and the time of chalitzah. Chalitzah with a shoe that is not his, made of wood, or too big or small still counts. Rabbi Eliezer argues about doing it at night or on the left foot.",
+  "chunks": [
+   {
+    "he": "חָלְצָה בְסַנְדָּל שֶׁאֵינוֹ שֶׁלּוֹ,",
+    "en": "If she did chalitzah with a sandal that is not his,",
+    "st": "If she performed ḥalitza while the man was wearing <b>a sandal that did not belong to him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָלְצָה",
+      "en": "she did chalitzah"
+     },
+     {
+      "he": "בְסַנְדָּל",
+      "en": "with a sandal"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that it is not"
+     },
+     {
+      "he": "שֶׁלּוֹ,",
+      "en": "his"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בְסַנְדָּל שֶׁל עֵץ,",
+    "en": "or with a wooden sandal,",
+    "st": "<b>or a sandal made of wood,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְסַנְדָּל",
+      "en": "with a sandal"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֵץ,",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בְשֶׁל שְׂמֹאל בַּיָּמִין,",
+    "en": "or with a left shoe on his right foot,",
+    "st": "<b>or on the left</b> shoe, <b>which was</b> being worn <b>on his right</b> foot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְשֶׁל",
+      "en": "with that of"
+     },
+     {
+      "he": "שְׂמֹאל",
+      "en": "left"
+     },
+     {
+      "he": "בַּיָּמִין,",
+      "en": "on the right"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ כְּשֵׁרָה.",
+    "en": "her chalitzah counts.",
+    "st": "<b>it is valid ḥalitza.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "כְּשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "חָלְצָה בְגָדוֹל שֶׁהוּא יָכוֹל לַהֲלוֹךְ בּוֹ,",
+    "en": "If she did chalitzah with a big shoe that he can walk in,",
+    "st": "<b>If she performed ḥalitza</b> as the man was wearing a shoe that was too <b>large</b> for him but <b>which he can</b> still <b>walk in,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָלְצָה",
+      "en": "she did chalitzah"
+     },
+     {
+      "he": "בְגָדוֹל",
+      "en": "with a big one"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "is able"
+     },
+     {
+      "he": "לַהֲלוֹךְ",
+      "en": "to walk"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "in it"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בְקָטָן שֶׁהוּא חוֹפֶה",
+    "en": "or a small one that covers",
+    "st": "<b>or</b> a shoe that was too <b>small</b> but <b>that covered</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְקָטָן",
+      "en": "with a small one"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "חוֹפֶה",
+      "en": "covers"
+     }
+    ]
+   },
+   {
+    "he": "אֶת רֹב רַגְלוֹ,",
+    "en": "most of his foot,",
+    "st": "<b>most of his foot,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רֹב",
+      "en": "most of"
+     },
+     {
+      "he": "רַגְלוֹ,",
+      "en": "his foot"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ כְּשֵׁרָה.",
+    "en": "her chalitzah counts.",
+    "st": "<b>her ḥalitza is valid.</b> If a woman",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "כְּשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "חָלְצָה בַלַּיְלָה,",
+    "en": "If she did chalitzah at night,",
+    "st": "<b>performed ḥalitza at night,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָלְצָה",
+      "en": "she did chalitzah"
+     },
+     {
+      "he": "בַלַּיְלָה,",
+      "en": "at night"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ כְּשֵׁרָה,",
+    "en": "her chalitzah counts,",
+    "st": "<b>her ḥalitza is valid, but</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "כְּשֵׁרָה,",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי אֱלִיעֶזֶר פּוֹסֵל.",
+    "en": "but Rabbi Eliezer says it does not.",
+    "st": "<b>Rabbi Elazar invalidates it.</b> If she performed ḥalitza",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "פּוֹסֵל.",
+      "en": "says it is not kosher"
+     }
+    ]
+   },
+   {
+    "he": "בַּשְּׂמֹאל, חֲלִיצָתָהּ פְּסוּלָה,",
+    "en": "On the left foot, her chalitzah does not count,",
+    "st": "<b>on</b> the <b>left foot, her ḥalitza is invalid,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשְּׂמֹאל,",
+      "en": "on the left"
+     },
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "פְּסוּלָה,",
+      "en": "is not kosher"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי אֱלִיעֶזֶר מַכְשִׁיר:",
+    "en": "but Rabbi Eliezer says it does.",
+    "st": "<b>but Rabbi Elazar validates it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "מַכְשִׁיר:",
+      "en": "says it is kosher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 3,
+  "summary": "Chalitzah has three parts: taking off the shoe, spitting, and saying the words. Taking off the shoe is a must. Rabbi Eliezer and Rabbi Akiva argue about the spitting.",
+  "chunks": [
+   {
+    "he": "חָלְצָה וְרָקְקָה,",
+    "en": "If she took off the shoe and spat,",
+    "st": "If she, i.e., the yevama, <b>removed</b> the shoe <b>and spat</b> in accordance with the halakha",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָלְצָה",
+      "en": "she did chalitzah"
+     },
+     {
+      "he": "וְרָקְקָה,",
+      "en": "and spat"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא קָרְאָה,",
+    "en": "but did not say the words,",
+    "st": "<b>but did not recite</b> the necessary text,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "קָרְאָה,",
+      "en": "she read"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ כְּשֵׁרָה.",
+    "en": "her chalitzah counts.",
+    "st": "<b>her ḥalitza is valid.</b> If",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "כְּשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "קָרְאָה וְרָקְקָה,",
+    "en": "If she said the words and spat,",
+    "st": "<b>she recited</b> the text <b>and spat</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְאָה",
+      "en": "she read"
+     },
+     {
+      "he": "וְרָקְקָה,",
+      "en": "and spat"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא חָלְצָה,",
+    "en": "but did not take off the shoe,",
+    "st": "<b>but did not remove</b> the shoe,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "חָלְצָה,",
+      "en": "she did chalitzah"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ פְּסוּלָה.",
+    "en": "her chalitzah does not count.",
+    "st": "<b>her ḥalitza is disqualified.</b> If",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "פְּסוּלָה.",
+      "en": "is not kosher"
+     }
+    ]
+   },
+   {
+    "he": "חָלְצָה וְקָרְאָה,",
+    "en": "If she took off the shoe and said the words,",
+    "st": "<b>she removed</b> the shoe <b>and recited</b> the text",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָלְצָה",
+      "en": "she did chalitzah"
+     },
+     {
+      "he": "וְקָרְאָה,",
+      "en": "and read"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל לֹא רָקְקָה,",
+    "en": "but did not spit,",
+    "st": "<b>but did not spit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "רָקְקָה,",
+      "en": "she spat"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Elazar says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ פְּסוּלָה.",
+    "en": "her chalitzah does not count.",
+    "st": "<b>Her ḥalitza is disqualified,</b> while",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "פְּסוּלָה.",
+      "en": "is not kosher"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ כְּשֵׁרָה.",
+    "en": "her chalitzah counts.",
+    "st": "<b>Her ḥalitza is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "כְּשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said,",
+    "st": "<b>Rabbi Elazar said to him:</b> The verse states: <b>“</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "כָּכָה יֵעָשֶׂה (דברים כה),",
+    "en": "\"'So shall it be done' (Devarim 25):",
+    "st": "<b>So shall it be done</b> to the man who does not build his brother’s house” (Deuteronomy 25:9).",
+    "stMore": "“So” is an exclusionary term indicating that only precisely in this fashion is ḥalitza valid. Therefore,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּכָה",
+      "en": "so"
+     },
+     {
+      "he": "יֵעָשֶׂה",
+      "en": "shall be done"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "כה),",
+      "en": "25)"
+     }
+    ]
+   },
+   {
+    "he": "כָּל דָּבָר שֶׁהוּא מַעֲשֶׂה,",
+    "en": "anything that is an action",
+    "st": "<b>any term that constitutes an action</b> for ḥalitza",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "מַעֲשֶׂה,",
+      "en": "an action"
+     }
+    ]
+   },
+   {
+    "he": "מְעַכֵּב. אָמַר לוֹ רַבִּי עֲקִיבָא,",
+    "en": "is a must.\" Rabbi Akiva said to him,",
+    "st": "<b>is indispensable. Rabbi Akiva said to him:</b> You derive",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעַכֵּב.",
+      "en": "holds it back"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "מִשָּׁם רְאָיָה,",
+    "en": "\"From there is your proof?",
+    "st": "<b>proof from there?</b> But it states: <b>“</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשָּׁם",
+      "en": "from there"
+     },
+     {
+      "he": "רְאָיָה,",
+      "en": "a proof"
+     }
+    ]
+   },
+   {
+    "he": "כָּכָה יֵעָשֶׂה לָאִישׁ,",
+    "en": "'So shall it be done to the man' —",
+    "st": "<b>So shall it be done to the man”</b> indicating that only",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּכָה",
+      "en": "so"
+     },
+     {
+      "he": "יֵעָשֶׂה",
+      "en": "shall be done"
+     },
+     {
+      "he": "לָאִישׁ,",
+      "en": "to the man"
+     }
+    ]
+   },
+   {
+    "he": "כָּל דָּבָר שֶׁהוּא מַעֲשֶׂה בָאִישׁ:",
+    "en": "only an action done to the man is a must.\"",
+    "explain": "Taking off his shoe is done to him; spitting is not.",
+    "st": "<b>a term constituting an action toward the man,</b> namely any aspect of ḥalitza that concerns the man’s body, such as removal of his shoe, is indispensable.",
+    "stMore": "But spitting, which does not involve the man, although it takes place in his presence, is not indispensable.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "an action"
+     },
+     {
+      "he": "בָאִישׁ:",
+      "en": "to the man"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 4,
+  "summary": "Chalitzah does not count if one of them cannot hear or speak, or if the yavam is a child. A young girl who did chalitzah must do it again when she grows up.",
+  "chunks": [
+   {
+    "he": "הַחֵרֵשׁ שֶׁנֶּחֱלַץ וְהַחֵרֶשֶׁת שֶׁחָלְצָה,",
+    "en": "A deaf-mute man who had chalitzah done, or a deaf-mute woman who did chalitzah,",
+    "st": "The mishna lists additional halakhot with regard to ḥalitza. <b>If a deaf-mute man underwent ḥalitza, or a deaf-mute woman performed ḥalitza,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחֵרֵשׁ",
+      "en": "the deaf-mute man"
+     },
+     {
+      "he": "שֶׁנֶּחֱלַץ",
+      "en": "that had chalitzah"
+     },
+     {
+      "he": "וְהַחֵרֶשֶׁת",
+      "en": "and the deaf-mute woman"
+     },
+     {
+      "he": "שֶׁחָלְצָה,",
+      "en": "that did chalitzah"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחוֹלֶצֶת לַקָּטָן,",
+    "en": "or one who did chalitzah with a young boy,",
+    "st": "<b>or if an</b> adult <b>woman performs ḥalitza with a male minor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחוֹלֶצֶת",
+      "en": "and the one who does chalitzah"
+     },
+     {
+      "he": "לַקָּטָן,",
+      "en": "to the young boy"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ פְּסוּלָה.",
+    "en": "her chalitzah does not count.",
+    "st": "<b>her ḥalitza is invalid</b> and the woman may not marry.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "פְּסוּלָה.",
+      "en": "is not kosher"
+     }
+    ]
+   },
+   {
+    "he": "קְטַנָּה שֶׁחָלְצָה,",
+    "en": "A young girl who did chalitzah",
+    "st": "<b>If a female minor performed ḥalitza,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְטַנָּה",
+      "en": "a young girl"
+     },
+     {
+      "he": "שֶׁחָלְצָה,",
+      "en": "that did chalitzah"
+     }
+    ]
+   },
+   {
+    "he": "תַּחֲלֹץ מִשֶּׁתַּגְדִּיל.",
+    "en": "must do chalitzah again when she grows up.",
+    "st": "<b>she must perform ḥalitza</b> a second time <b>once she becomes an adult,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּחֲלֹץ",
+      "en": "shall do chalitzah"
+     },
+     {
+      "he": "מִשֶּׁתַּגְדִּיל.",
+      "en": "when she grows up"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לֹא חָלְצָה,",
+    "en": "And if she does not,",
+    "st": "<b>and if she does not perform</b> the second <b>ḥalitza,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "חָלְצָה,",
+      "en": "she did chalitzah"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ פְּסוּלָה:",
+    "en": "her chalitzah does not count.",
+    "st": "<b>her</b> first <b>ḥalitza is invalid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "פְּסוּלָה:",
+      "en": "is not kosher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 5,
+  "summary": "If one of the judges at a chalitzah turns out to be a relative or unfit, the chalitzah does not count. Rabbi Shimon and Rabbi Yochanan HaSandlar say it counts, and Rabbi Akiva once allowed a chalitzah done privately in prison.",
+  "chunks": [
+   {
+    "he": "חָלְצָה בִשְׁנַיִם,",
+    "en": "If she did chalitzah with two",
+    "st": "If she performed ḥalitza before two",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָלְצָה",
+      "en": "she did chalitzah"
+     },
+     {
+      "he": "בִשְׁנַיִם,",
+      "en": "with two"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בִשְׁלֹשָׁה,",
+    "en": "or three judges,",
+    "st": "or three judges",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בִשְׁלֹשָׁה,",
+      "en": "with three"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצָא אֶחָד מֵהֶן קָרוֹב אוֹ פָסוּל,",
+    "en": "and one of them was found to be a relative or unfit,",
+    "st": "<b>and one of them is found to be a relative or disqualified</b> as a judge for some other reason,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצָא",
+      "en": "and was found"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "קָרוֹב",
+      "en": "a relative"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "פָסוּל,",
+      "en": "unfit"
+     }
+    ]
+   },
+   {
+    "he": "חֲלִיצָתָהּ פְּסוּלָה.",
+    "en": "her chalitzah does not count.",
+    "st": "<b>her ḥalitza is invalid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "פְּסוּלָה.",
+      "en": "is not kosher"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן וְרַבִּי יוֹחָנָן הַסַּנְדְּלָר מַכְשִׁירִין.",
+    "en": "Rabbi Shimon and Rabbi Yochanan HaSandlar say it counts.",
+    "st": "<b>Rabbi Shimon and Rabbi Yoḥanan the Cobbler validate</b> the ḥalitza in this case.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "הַסַּנְדְּלָר",
+      "en": "HaSandlar",
+      "note": "Sandlar means shoemaker."
+     },
+     {
+      "he": "מַכְשִׁירִין.",
+      "en": "say it is kosher"
+     }
+    ]
+   },
+   {
+    "he": "וּמַעֲשֶׂה בְאֶחָד שֶׁחָלַץ בֵּינוֹ",
+    "en": "It once happened that a man did chalitzah just between",
+    "st": "<b>And an incident</b> occurred <b>involving a certain</b> person <b>who performed ḥalitza between him and her</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַעֲשֶׂה",
+      "en": "and it happened"
+     },
+     {
+      "he": "בְאֶחָד",
+      "en": "with one"
+     },
+     {
+      "he": "שֶׁחָלַץ",
+      "en": "that did chalitzah"
+     },
+     {
+      "he": "בֵּינוֹ",
+      "en": "between him"
+     }
+    ]
+   },
+   {
+    "he": "לְבֵינָהּ בְּבֵית הָאֲסוּרִין,",
+    "en": "him and her in prison,",
+    "st": "<b>alone in prison,</b> i.e., not in the presence of others,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְבֵינָהּ",
+      "en": "and between her"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "הָאֲסוּרִין,",
+      "en": "prisoners"
+     }
+    ]
+   },
+   {
+    "he": "וּבָא מַעֲשֶׂה לִפְנֵי רַבִּי עֲקִיבָא וְהִכְשִׁיר:",
+    "en": "and the case came before Rabbi Akiva, and he said it counts.",
+    "st": "<b>and the case came before Rabbi Akiva and he validated</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "the case"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "וְהִכְשִׁיר:",
+      "en": "and he said it is kosher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 6,
+  "summary": "How chalitzah is done: the judges give advice, the yevamah and yavam say verses from the Torah in Hebrew, she takes off his shoe and spits, and everyone says \"the one whose shoe was taken off.\"",
+  "chunks": [
+   {
+    "he": "מִצְוַת חֲלִיצָה.",
+    "en": "The mitzvah of chalitzah:",
+    "st": "<b>The mitzva of ḥalitza</b> is performed as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "חֲלִיצָה.",
+      "en": "chalitzah"
+     }
+    ]
+   },
+   {
+    "he": "בָּא הוּא וִיבִמְתּוֹ לְבֵית דִּין,",
+    "en": "he and his yevamah come to beis din,",
+    "st": "<b>He and his yevama come to the court,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "comes"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "וִיבִמְתּוֹ",
+      "en": "and his yevamah"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "דִּין,",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵן מַשִּׂיאִין לוֹ עֵצָה הַהוֹגֶנֶת לוֹ,",
+    "en": "and they give him advice that is good for him,",
+    "st": "<b>and</b> the scholars of the court <b>give him advice appropriate for him,</b> whether to enter levirate marriage or to perform ḥalitza,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵן",
+      "en": "and they"
+     },
+     {
+      "he": "מַשִּׂיאִין",
+      "en": "give"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "עֵצָה",
+      "en": "advice"
+     },
+     {
+      "he": "הַהוֹגֶנֶת",
+      "en": "that is fitting"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "for him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר, (דברים כה) וְקָרְאוּ לוֹ",
+    "en": "as it says (Devarim 25), \"And they shall call him,",
+    "st": "<b>as it is stated: “And</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר,",
+      "en": "as it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "כה)",
+      "en": "25)"
+     },
+     {
+      "he": "וְקָרְאוּ",
+      "en": "and they shall call"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "זִקְנֵי עִירוֹ וְדִבְּרוּ אֵלָיו.",
+    "en": "the elders of his city, and speak to him.\"",
+    "st": "<b>the Elders of his city shall call him and speak to him”</b> (Deuteronomy 25:8).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זִקְנֵי",
+      "en": "the elders of"
+     },
+     {
+      "he": "עִירוֹ",
+      "en": "his city"
+     },
+     {
+      "he": "וְדִבְּרוּ",
+      "en": "and they shall speak"
+     },
+     {
+      "he": "אֵלָיו.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וְהִיא אוֹמֶרֶת,",
+    "en": "And she says,",
+    "st": "If they decide to perform ḥalitza,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "אוֹמֶרֶת,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מֵאֵן יְבָמִי לְהָקִים לְאָחִיו שֵׁם בְּיִשְׂרָאֵל,",
+    "en": "\"My yavam refuses to set up a name for his brother in Yisrael;",
+    "st": "<b>she says: “My brother-in-law refused to establish a name for his brother in Israel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאֵן",
+      "en": "refuses"
+     },
+     {
+      "he": "יְבָמִי",
+      "en": "my yavam"
+     },
+     {
+      "he": "לְהָקִים",
+      "en": "to set up"
+     },
+     {
+      "he": "לְאָחִיו",
+      "en": "for his brother"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "a name"
+     },
+     {
+      "he": "בְּיִשְׂרָאֵל,",
+      "en": "in Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָבָה יַבְּמִי.",
+    "en": "my yavam does not want to.\"",
+    "st": "<b>he did not wish to consummate the levirate marriage”</b> (Deuteronomy 25:7),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָבָה",
+      "en": "wanted"
+     },
+     {
+      "he": "יַבְּמִי.",
+      "en": "my yavam"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר,",
+    "en": "And he says,",
+    "st": "<b>and</b> afterward <b>he says: “</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא חָפַצְתִּי לְקַחְתָּהּ.",
+    "en": "\"I do not want to take her.\"",
+    "st": "<b>I do not wish to take her”</b> (Deuteronomy 25:8).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "חָפַצְתִּי",
+      "en": "I wanted"
+     },
+     {
+      "he": "לְקַחְתָּהּ.",
+      "en": "to take her"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְשׁוֹן הַקֹּדֶשׁ הָיוּ אוֹמְרִים.",
+    "en": "And they would say it in Lashon HaKodesh.",
+    "explain": "Lashon HaKodesh is the holy language, Hebrew.",
+    "st": "<b>And they would say</b> these statements <b>in the sacred</b> Hebrew <b>language</b> and not in any other language. Afterward, the shoe is removed and she spits before him, as is written: <b>“</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְשׁוֹן",
+      "en": "and in the language of"
+     },
+     {
+      "he": "הַקֹּדֶשׁ",
+      "en": "the holiness"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "אוֹמְרִים.",
+      "en": "saying"
+     }
+    ]
+   },
+   {
+    "he": "וְנִגְּשָׁה יְבִמְתּוֹ אֵלָיו לְעֵינֵי הַזְּקֵנִים וְחָלְצָה",
+    "en": "\"And his yevamah shall come to him in front of the elders and take off",
+    "st": "<b>His yevama shall approach him, before the Elders,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִגְּשָׁה",
+      "en": "and she shall come"
+     },
+     {
+      "he": "יְבִמְתּוֹ",
+      "en": "his yevamah"
+     },
+     {
+      "he": "אֵלָיו",
+      "en": "to him"
+     },
+     {
+      "he": "לְעֵינֵי",
+      "en": "before the eyes of"
+     },
+     {
+      "he": "הַזְּקֵנִים",
+      "en": "the elders"
+     },
+     {
+      "he": "וְחָלְצָה",
+      "en": "and take off"
+     }
+    ]
+   },
+   {
+    "he": "נַעֲלוֹ מֵעַל רַגְלוֹ וְיָרְקָה בְּפָנָיו,",
+    "en": "his shoe from his foot and spit in front of him,\"",
+    "st": "<b>and remove his shoe from on his foot and spit before him”</b> (Deuteronomy 25:9),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נַעֲלוֹ",
+      "en": "his shoe"
+     },
+     {
+      "he": "מֵעַל",
+      "en": "from on"
+     },
+     {
+      "he": "רַגְלוֹ",
+      "en": "his foot"
+     },
+     {
+      "he": "וְיָרְקָה",
+      "en": "and spit"
+     },
+     {
+      "he": "בְּפָנָיו,",
+      "en": "before him"
+     }
+    ]
+   },
+   {
+    "he": "רֹק הַנִּרְאֶה לַדַּיָּנִים.",
+    "en": "spit that the judges can see.",
+    "st": "which indicates that <b>this spittle</b> must be <b>visible to the judges. “</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רֹק",
+      "en": "spit"
+     },
+     {
+      "he": "הַנִּרְאֶה",
+      "en": "that is seen"
+     },
+     {
+      "he": "לַדַּיָּנִים.",
+      "en": "by the judges"
+     }
+    ]
+   },
+   {
+    "he": "וְעָנְתָה וְאָמְרָה כָּכָה יֵעָשֶׂה לָאִישׁ אֲשֶׁר",
+    "en": "\"And she shall answer and say: So shall it be done to the man who",
+    "st": "<b>And</b> she shall <b>respond and say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָנְתָה",
+      "en": "and she shall answer"
+     },
+     {
+      "he": "וְאָמְרָה",
+      "en": "and say"
+     },
+     {
+      "he": "כָּכָה",
+      "en": "so"
+     },
+     {
+      "he": "יֵעָשֶׂה",
+      "en": "shall be done"
+     },
+     {
+      "he": "לָאִישׁ",
+      "en": "to the man"
+     },
+     {
+      "he": "אֲשֶׁר",
+      "en": "who"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִבְנֶה אֶת בֵּית אָחִיו,",
+    "en": "does not build up his brother's house.\"",
+    "st": "<b>So shall it be done to the man who does not build his brother’s house”</b> (Deuteronomy 25:9).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִבְנֶה",
+      "en": "builds"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "אָחִיו,",
+      "en": "his brother"
+     }
+    ]
+   },
+   {
+    "he": "עַד כָּאן הָיוּ מַקְרִין.",
+    "en": "Until here they would help them say it.",
+    "st": "<b>Up until this point</b> the judges <b>would prompt</b> the parties <b>to recite</b> the text that they are required to say.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מַקְרִין.",
+      "en": "prompting"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁהִקְרָא רַבִּי הֻרְקְנוֹס תַּחַת הָאֵלָה בִּכְפַר",
+    "en": "And when Rabbi Hurkenos prompted under the oak tree in the village",
+    "st": "<b>And when Rabbi Hyrkanus once prompted</b> the participants in ḥalitza <b>under the ela tree in the village</b> of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁהִקְרָא",
+      "en": "and when he prompted"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "הֻרְקְנוֹס",
+      "en": "Hurkenos"
+     },
+     {
+      "he": "תַּחַת",
+      "en": "under"
+     },
+     {
+      "he": "הָאֵלָה",
+      "en": "the oak"
+     },
+     {
+      "he": "בִּכְפַר",
+      "en": "in the village of"
+     }
+    ]
+   },
+   {
+    "he": "עֵיטָם וְגָמַר אֶת כָּל הַפָּרָשָׁה,",
+    "en": "of Eitam and finished the whole parshah,",
+    "st": "<b>Eitam, he</b> prompted them to <b>finish reciting the whole</b> Torah <b>passage,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵיטָם",
+      "en": "Eitam"
+     },
+     {
+      "he": "וְגָמַר",
+      "en": "and finished"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַפָּרָשָׁה,",
+      "en": "the parshah"
+     }
+    ]
+   },
+   {
+    "he": "הֻחְזְקוּ לִהְיוֹת גּוֹמְרִין כָּל הַפָּרָשָׁה.",
+    "en": "it became the way to finish the whole parshah:",
+    "st": "after which <b>they established the custom of completing the whole</b> Torah <b>passage.</b> Therefore, they continue and say the following verse: <b>“</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֻחְזְקוּ",
+      "en": "they became set"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "גּוֹמְרִין",
+      "en": "finishing"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַפָּרָשָׁה.",
+      "en": "the parshah"
+     }
+    ]
+   },
+   {
+    "he": "וְנִקְרָא שְׁמוֹ בְּיִשְׂרָאֵל בֵּית חֲלוּץ הַנָּעַל.",
+    "en": "\"And his name shall be called in Yisrael: the house of the one whose shoe was taken off.\"",
+    "st": "<b>And his name shall be called in Israel: The house of he who had his shoe removed”</b> (Deuteronomy 25:10).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִקְרָא",
+      "en": "and shall be called"
+     },
+     {
+      "he": "שְׁמוֹ",
+      "en": "his name"
+     },
+     {
+      "he": "בְּיִשְׂרָאֵל",
+      "en": "in Yisrael"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "חֲלוּץ",
+      "en": "taken off"
+     },
+     {
+      "he": "הַנָּעַל.",
+      "en": "the shoe"
+     }
+    ]
+   },
+   {
+    "he": "מִצְוָה בַדַּיָּנִין,",
+    "en": "The mitzvah is on the judges,",
+    "st": "<b>This mitzva</b> of saying: The house of he who had his shoe removed, applies <b>to the judges,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוָה",
+      "en": "a mitzvah"
+     },
+     {
+      "he": "בַדַּיָּנִין,",
+      "en": "on the judges"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מִצְוָה בַתַּלְמִידִים.",
+    "en": "and not on the students.",
+    "st": "<b>but not to the students,</b> i.e., the students of the judges and other onlookers who are present.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִצְוָה",
+      "en": "a mitzvah"
+     },
+     {
+      "he": "בַתַּלְמִידִים.",
+      "en": "on the students"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מִצְוָה עַל כָּל הָעוֹמְדִים שָׁם לוֹמַר,",
+    "en": "it is a mitzvah on everyone standing there to say,",
+    "st": "<b>It is a mitzva upon all those present to say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוָה",
+      "en": "a mitzvah"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָעוֹמְדִים",
+      "en": "those standing"
+     },
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "to say"
+     }
+    ]
+   },
+   {
+    "he": "חֲלוּץ הַנָּעַל,",
+    "en": "\"The one whose shoe was taken off,",
+    "st": "<b>He who</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלוּץ",
+      "en": "taken off"
+     },
+     {
+      "he": "הַנָּעַל,",
+      "en": "the shoe"
+     }
+    ]
+   },
+   {
+    "he": "חֲלוּץ הַנָּעַל,",
+    "en": "the one whose shoe was taken off,",
+    "st": "<b>had his shoe</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלוּץ",
+      "en": "taken off"
+     },
+     {
+      "he": "הַנָּעַל,",
+      "en": "the shoe"
+     }
+    ]
+   },
+   {
+    "he": "חֲלוּץ הַנָּעַל:",
+    "en": "the one whose shoe was taken off!\"",
+    "st": "<b>removed.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלוּץ",
+      "en": "taken off"
+     },
+     {
+      "he": "הַנָּעַל:",
+      "en": "the shoe"
+     }
+    ]
+   }
+  ]
+ }
+]

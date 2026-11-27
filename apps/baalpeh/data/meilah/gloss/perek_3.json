@@ -1,0 +1,2761 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "Some korbanos chatas are left to die, like the baby of a chatas or a chatas whose owner died. A lost chatas that was found with a blemish is treated one way if the owner already got his kapparah, and another way if he did not.",
+  "stIntro": "This mishna, which also appears in tractate Temura, deals with the five sin offerings left to die. It is cited here because of its relevance to the halakhot of misuse. The mishna first mentions three of those offerings:",
+  "chunks": [
+   {
+    "he": "וְלַד חַטָּאת וּתְמוּרַת חַטָּאת",
+    "en": "The baby of a chatas, and the temurah of a chatas,",
+    "st": "<b>The offspring of a sin offering, and</b> an animal that is <b>the substitute for a sin offering,</b>",
+    "stMore": "whether or not the owners achieved atonement by means of another offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלַד",
+      "en": "the baby of"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas",
+      "note": "A korban brought for doing an aveirah by mistake."
+     },
+     {
+      "he": "וּתְמוּרַת",
+      "en": "and the temurah of",
+      "note": "An animal someone tried to swap for a korban; it becomes holy too."
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     }
+    ]
+   },
+   {
+    "he": "וְחַטָּאת שֶׁמֵּתוּ בְעָלֶיהָ, יָמוּתוּ.",
+    "en": "and a chatas whose owner died, must die.",
+    "explain": "They are left alone until they die.",
+    "st": "<b>and a sin offering whose owners have died</b> before the offering was sacrificed, <b>shall die.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַטָּאת",
+      "en": "and a chatas"
+     },
+     {
+      "he": "שֶׁמֵּתוּ",
+      "en": "that died"
+     },
+     {
+      "he": "בְעָלֶיהָ,",
+      "en": "its owners"
+     },
+     {
+      "he": "יָמוּתוּ.",
+      "en": "must die"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁעָבְרָה שְׁנָתָהּ,",
+    "en": "One whose year passed,",
+    "st": "<b> And</b> the other two sin offerings left to die are the sin offering <b>whose year</b> since birth <b>passed</b>",
+    "stMore": "and is therefore unfit for sacrifice,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁעָבְרָה",
+      "en": "that passed"
+     },
+     {
+      "he": "שְׁנָתָהּ,",
+      "en": "its year"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁאָבְדָה וְשֶׁנִּמְצֵאת בַּעֲלַת מוּם,",
+    "en": "or that got lost and was found with a blemish,",
+    "st": "<b>and</b> a sin offering <b>that was lost and</b> when it was <b>found</b> it was <b>blemished,</b>",
+    "stMore": "with regard to which the halakhot are as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁאָבְדָה",
+      "en": "and that got lost"
+     },
+     {
+      "he": "וְשֶׁנִּמְצֵאת",
+      "en": "and that was found"
+     },
+     {
+      "he": "בַּעֲלַת",
+      "en": "having"
+     },
+     {
+      "he": "מוּם,",
+      "en": "a blemish"
+     }
+    ]
+   },
+   {
+    "he": "אִם מִשֶּׁכִּפְּרוּ הַבְּעָלִים,",
+    "en": "if the owner already got his kapparah,",
+    "st": "<b>If</b> the sin offering was found <b>after the owner achieved atonement</b> through the sacrifice of another animal as a sin offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מִשֶּׁכִּפְּרוּ",
+      "en": "after got kapparah"
+     },
+     {
+      "he": "הַבְּעָלִים,",
+      "en": "the owners"
+     }
+    ]
+   },
+   {
+    "he": "תָּמוּת, וְאֵינָהּ עוֹשָׂה תְמוּרָה,",
+    "en": "it must die, and it does not make a temurah,",
+    "st": "then the blemished animal <b>shall die, and it does not render</b> a non-sacred animal exchanged for it <b>a substitute,</b>",
+    "stMore": "as it is has neither inherent sanctity, which would make it fit for sacrifice on the altar, nor sanctity that inheres in its value.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תָּמוּת,",
+      "en": "it must die"
+     },
+     {
+      "he": "וְאֵינָהּ",
+      "en": "and it does not"
+     },
+     {
+      "he": "עוֹשָׂה",
+      "en": "make"
+     },
+     {
+      "he": "תְמוּרָה,",
+      "en": "a temurah"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא נֶהֱנִים,",
+    "en": "and one may not benefit from it,",
+    "st": "<b>And</b> one <b>may not derive benefit</b> from the found animal ab initio,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נֶהֱנִים,",
+      "en": "may benefit"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מוֹעֲלִין.",
+    "en": "but there is no me'ilah.",
+    "st": "<b>but</b> if he derived benefit from the animal he is <b>not</b> liable for its <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין.",
+      "en": "me'ilah",
+      "note": "Me'ilah is using something that belongs to the Beis HaMikdash for yourself."
+     }
+    ]
+   },
+   {
+    "he": "וְאִם עַד שֶׁלֹּא כִפְּרוּ הַבְּעָלִים,",
+    "en": "And if the owner did not yet get his kapparah,",
+    "st": "<b> And if</b> the animal whose year passed was found <b>before the owner achieved atonement,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "כִפְּרוּ",
+      "en": "got kapparah"
+     },
+     {
+      "he": "הַבְּעָלִים,",
+      "en": "the owners"
+     }
+    ]
+   },
+   {
+    "he": "תִּרְעֶה עַד שֶׁתִּסְתָּאֵב,",
+    "en": "it grazes until it gets a blemish,",
+    "st": "the found animal <b>shall graze until it becomes blemished [shetista’ev],</b> at which point it may not be sacrificed;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּרְעֶה",
+      "en": "it grazes"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתִּסְתָּאֵב,",
+      "en": "it gets a blemish"
+     }
+    ]
+   },
+   {
+    "he": "וְתִמָּכֵר, וְיָבִיא בְדָמֶיהָ אַחֶרֶת,",
+    "en": "and it is sold, and he brings another one with its money,",
+    "st": "<b>and it shall be sold and</b> the owner <b>shall purchase another</b> animal <b>with</b> the <b>money</b> received from <b>its</b> sale.",
+    "stMore": "The animal that was found blemished may be sold immediately, and the owner shall purchase another animal with the money received from its sale.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְתִמָּכֵר,",
+      "en": "and it is sold"
+     },
+     {
+      "he": "וְיָבִיא",
+      "en": "and he brings"
+     },
+     {
+      "he": "בְדָמֶיהָ",
+      "en": "with its money"
+     },
+     {
+      "he": "אַחֶרֶת,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "וְעוֹשָׂה תְמוּרָה,",
+    "en": "and it makes a temurah,",
+    "st": "In both cases, the animal <b>renders</b> a non-sacred animal exchanged for it <b>a substitute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹשָׂה",
+      "en": "and it makes"
+     },
+     {
+      "he": "תְמוּרָה,",
+      "en": "a temurah"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹעֲלִים בָּהּ:",
+    "en": "and it has me'ilah.",
+    "st": "and one who derives benefit from it is liable for <b>misusing it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹעֲלִים",
+      "en": "and there is me'ilah"
+     },
+     {
+      "he": "בָּהּ:",
+      "en": "with it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "A nazir set aside money for his korbanos without saying which money is for which korban. There is no me'ilah, since all of it could be used for a shelamim. The mishnah teaches what happens to the money if he dies.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּפְרִישׁ מָעוֹת לִנְזִירוּתוֹ,",
+    "en": "Someone who set aside money for his korbanos of nezirus,",
+    "st": "In the case of a nazirite <b>who designated money for</b> the three offerings he is obligated to bring upon completion of <b>his naziriteship,</b>",
+    "stMore": "a sin offering, a burnt offering, and a peace offering, but he did not specify which money was designated for which offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפְרִישׁ",
+      "en": "one who sets aside"
+     },
+     {
+      "he": "מָעוֹת",
+      "en": "money"
+     },
+     {
+      "he": "לִנְזִירוּתוֹ,",
+      "en": "for his nezirus",
+      "note": "A nazir promises not to drink wine or cut his hair; at the end he brings korbanos."
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִין וְלֹא מוֹעֲלִין,",
+    "en": "may not benefit from it, but there is no me'ilah,",
+    "st": "since it is not clear what the money is intended for, one <b>may not derive benefit</b> from the money ab initio, <b>but</b> if he derived benefit from the money he is <b>not</b> liable for its <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין,",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן רְאוּיִין לָבֹא כֻלָּן שְׁלָמִים.",
+    "en": "because all of it could be used for shelamim.",
+    "st": "This is <b>due to</b> the fact <b>that all</b> the money <b>is fit</b> for purchase of the <b>peace offering,</b>",
+    "stMore": "for which one is liable for misuse only after its blood is sprinkled, and therefore there is no liability for its misuse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "רְאוּיִין",
+      "en": "are fit"
+     },
+     {
+      "he": "לָבֹא",
+      "en": "to be brought"
+     },
+     {
+      "he": "כֻלָּן",
+      "en": "all of them"
+     },
+     {
+      "he": "שְׁלָמִים.",
+      "en": "as shelamim",
+      "note": "Peace offerings, shared by the mizbeach, the Kohanim and the owners."
+     }
+    ]
+   },
+   {
+    "he": "מֵת, הָיוּ סְתוּמִים,",
+    "en": "If he died and the money was not specified,",
+    "st": "If the nazirite <b>died and he had undesignated funds,</b>",
+    "stMore": "meaning he did not specify which money was for each of the three offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "סְתוּמִים,",
+      "en": "not specified"
+     }
+    ]
+   },
+   {
+    "he": "יִפְּלוּ לִנְדָבָה.",
+    "en": "it goes for nedavah korbanos.",
+    "st": "all the money <b>will be allocated for</b> purchase of communal <b>gift</b> offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִפְּלוּ",
+      "en": "they go"
+     },
+     {
+      "he": "לִנְדָבָה.",
+      "en": "for nedavah",
+      "note": "Korbanos given as a gift, by choice."
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מְפֹרָשִׁים,",
+    "en": "If the money was specified,",
+    "st": "If the nazirite died and he had <b>specified money,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מְפֹרָשִׁים,",
+      "en": "specified"
+     }
+    ]
+   },
+   {
+    "he": "דְּמֵי חַטָּאת יֵלְכוּ לְיָם הַמֶּלַח,",
+    "en": "the money for the chatas goes to the Dead Sea,",
+    "explain": "It is thrown away there.",
+    "st": "the <b>money</b> specified for purchase <b>of</b> the <b>sin offering shall go to the Dead Sea</b>",
+    "stMore": "for disposal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּמֵי",
+      "en": "the money of"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "יֵלְכוּ",
+      "en": "goes"
+     },
+     {
+      "he": "לְיָם",
+      "en": "to the Sea of"
+     },
+     {
+      "he": "הַמֶּלַח,",
+      "en": "the Salt",
+      "note": "The Dead Sea."
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִים וְלֹא מוֹעֲלִין בָּהֶן.",
+    "en": "one may not benefit from it, but there is no me'ilah with it.",
+    "st": "because one <b>may not derive benefit</b> ab initio from the money of a sin offering whose owner has died. But if it was not disposed of, <b>and</b> one derived benefit from the money, he is <b>not</b> liable for its <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִים",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "me'ilah"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "דְּמֵי עוֹלָה,",
+    "en": "The money for the olah,",
+    "st": "With the <b>money</b> specified for purchase <b>of</b> the <b>burnt offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּמֵי",
+      "en": "the money of"
+     },
+     {
+      "he": "עוֹלָה,",
+      "en": "an olah",
+      "note": "A korban that is burned completely on the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "יָבִיאוּ עוֹלָה וּמוֹעֲלִין בָּהֶן.",
+    "en": "they bring an olah, and it has me'ilah.",
+    "st": "<b> one shall bring</b> a gift <b>burnt offering, and one is liable for misusing</b> the funds.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבִיאוּ",
+      "en": "they bring"
+     },
+     {
+      "he": "עוֹלָה",
+      "en": "an olah"
+     },
+     {
+      "he": "וּמוֹעֲלִין",
+      "en": "and there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "וּדְמֵי שְׁלָמִים,",
+    "en": "And the money for the shelamim,",
+    "st": "With the <b>money</b> specified for purchase <b>of</b> the <b>peace offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּדְמֵי",
+      "en": "and the money of"
+     },
+     {
+      "he": "שְׁלָמִים,",
+      "en": "shelamim"
+     }
+    ]
+   },
+   {
+    "he": "יָבִיאוּ שְׁלָמִים,",
+    "en": "they bring shelamim,",
+    "st": "<b> one shall bring</b> a gift <b>peace offering.</b>",
+    "stMore": "Although it is a gift offering, the restrictions of the peace offering of the naziriteship apply,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבִיאוּ",
+      "en": "they bring"
+     },
+     {
+      "he": "שְׁלָמִים,",
+      "en": "shelamim"
+     }
+    ]
+   },
+   {
+    "he": "וְנֶאֱכָלִים לְיוֹם אֶחָד,",
+    "en": "and it is eaten for one day,",
+    "st": "<b>and</b> therefore it is <b>eaten for one day</b>",
+    "stMore": "and that same night, not the standard two days and one night of a regular peace offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶאֱכָלִים",
+      "en": "and they are eaten"
+     },
+     {
+      "he": "לְיוֹם",
+      "en": "for day"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָן טְעוּנִין לָחֶם:",
+    "en": "and it does not need the loaves.",
+    "st": "<b>And</b> nevertheless the peace offering <b>does not require</b> the bringing of the <b>loaves</b> that accompany the peace offering of naziriteship, as it is written with regard to the loaves: “And shall place them on the hands of the nazirite” (Numbers 6:19), and in this case the nazirite is dead.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָן",
+      "en": "and they do not"
+     },
+     {
+      "he": "טְעוּנִין",
+      "en": "need"
+     },
+     {
+      "he": "לָחֶם:",
+      "en": "bread"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "Rabbi Yishmael teaches that the blood of korbanos has no me'ilah at first but does at the end, while the wine offerings have me'ilah at first but not at the end.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי יִשְׁמָעֵאל אוֹמֵר,",
+    "en": "Rabbi Yishmael says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יִשְׁמָעֵאל",
+      "en": "Yishmael",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַדָּם, קַל בִּתְחִלָּתוֹ וְחָמוּר בְּסוֹפוֹ,",
+    "en": "The blood is light at the start and strict at the end,",
+    "st": "With regard to misuse of <b>the blood</b> of offerings that is to be sprinkled on the altar, the halakha is <b>lenient</b> with regard to the status of the blood <b>at the outset and stringent at its conclusion.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַדָּם,",
+      "en": "the blood"
+     },
+     {
+      "he": "קַל",
+      "en": "light"
+     },
+     {
+      "he": "בִּתְחִלָּתוֹ",
+      "en": "at its start"
+     },
+     {
+      "he": "וְחָמוּר",
+      "en": "and strict"
+     },
+     {
+      "he": "בְּסוֹפוֹ,",
+      "en": "at its end"
+     }
+    ]
+   },
+   {
+    "he": "וְהַנְּסָכִים, חֹמֶר בִּתְחִלָּתָן וְקַל בְּסוֹפָן.",
+    "en": "and the wine offerings are strict at the start and light at the end.",
+    "st": "With regard to misuse of the wine of the <b>libations</b> that accompany the offerings, the halakha is <b>stringent</b> with regard to the status of the wine <b>at their outset and lenient at their conclusion.</b>",
+    "stMore": "The mishna explains:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַנְּסָכִים,",
+      "en": "and the wine offerings",
+      "note": "Nesachim: wine poured on the mizbeach with korbanos."
+     },
+     {
+      "he": "חֹמֶר",
+      "en": "strict"
+     },
+     {
+      "he": "בִּתְחִלָּתָן",
+      "en": "at their start"
+     },
+     {
+      "he": "וְקַל",
+      "en": "and light"
+     },
+     {
+      "he": "בְּסוֹפָן.",
+      "en": "at their end"
+     }
+    ]
+   },
+   {
+    "he": "הַדָּם, בַּתְּחִלָּה אֵין מוֹעֲלִים בּוֹ.",
+    "en": "The blood: at the start there is no me'ilah with it.",
+    "st": "With regard to <b>blood, at its outset,</b> before it is sprinkled on the altar, <b>one is not liable for misusing</b> it;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַדָּם,",
+      "en": "the blood"
+     },
+     {
+      "he": "בַּתְּחִלָּה",
+      "en": "at the start"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "מוֹעֲלִים",
+      "en": "me'ilah"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא לְנַחַל קִדְרוֹן,",
+    "en": "Once it goes out to Nachal Kidron,",
+    "st": "but once its remainder has been poured on the base of the altar and it <b>emerges</b> via the canal that runs through the Temple <b>to the Kidron Valley</b>",
+    "stMore": "at the foot of the Temple Mount,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "it went out"
+     },
+     {
+      "he": "לְנַחַל",
+      "en": "to the stream of"
+     },
+     {
+      "he": "קִדְרוֹן,",
+      "en": "Kidron",
+      "note": "A valley next to the Har HaBayis, where the leftover blood flowed out."
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִים בּוֹ.",
+    "en": "there is me'ilah with it.",
+    "st": "<b>one is liable for misusing it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִים",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "הַנְּסָכִים, בַּתְּחִלָּה מוֹעֲלִים בָּהֶן.",
+    "en": "The wine offerings: at the start there is me'ilah with them.",
+    "st": "With regard to <b>libations, at their outset,</b> from the moment they were consecrated, <b>one</b> is liable for <b>misusing them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנְּסָכִים,",
+      "en": "the wine offerings"
+     },
+     {
+      "he": "בַּתְּחִלָּה",
+      "en": "at the start"
+     },
+     {
+      "he": "מוֹעֲלִים",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "יָצְאוּ לַשִּׁיתִין,",
+    "en": "Once they go down into the shissin,",
+    "st": "but once <b>they</b> have <b>descended to the drainpipes</b>",
+    "stMore": "built into the altar and which extend beneath it, through which the libations flowed out of the Temple,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצְאוּ",
+      "en": "they went down"
+     },
+     {
+      "he": "לַשִּׁיתִין,",
+      "en": "to the shissin",
+      "note": "Pipes under the mizbeach that the wine flowed down into."
+     }
+    ]
+   },
+   {
+    "he": "אֵין מוֹעֲלִים בָּהֶם:",
+    "en": "there is no me'ilah with them.",
+    "st": "<b>one is no</b> longer liable for <b>misusing them,</b> as their mitzva was fulfilled and therefore their sanctity has ceased.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "מוֹעֲלִים",
+      "en": "me'ilah"
+     },
+     {
+      "he": "בָּהֶם:",
+      "en": "with them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "Some things may not be used, but if someone did use them there is no me'ilah: the ashes from the inner mizbeach and the Menorah, and doves that are too young or too old for a korban. Rabbi Shimon disagrees about the young turtledoves.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "דִּשּׁוּן מִזְבֵּחַ הַפְּנִימִי וְהַמְּנוֹרָה,",
+    "en": "The ashes cleared from the inner mizbeach and the Menorah,",
+    "st": "With regard to <b>the removal of ash</b> from <b>the inner altar</b> to the place where the ashes lifted from the outer altar are deposited, <b>and</b> similarly with regard to the wicks of <b>the Candelabrum,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּשּׁוּן",
+      "en": "the ashes cleared from"
+     },
+     {
+      "he": "מִזְבֵּחַ",
+      "en": "the mizbeach"
+     },
+     {
+      "he": "הַפְּנִימִי",
+      "en": "the inner",
+      "note": "The golden mizbeach inside the Heichal, for the ketores."
+     },
+     {
+      "he": "וְהַמְּנוֹרָה,",
+      "en": "and the Menorah"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִין וְלֹא מוֹעֲלִין.",
+    "en": "may not be used, but there is no me'ilah.",
+    "st": "one <b>may not derive benefit</b> from them ab initio; <b>but</b> if one derived benefit from them he is <b>not</b> liable for their <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין.",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּקְדִּישׁ דִּשּׁוּן בַּתְּחִלָּה,",
+    "en": "Someone who makes the ashes hekdesh all over again,",
+    "st": "In the case of <b>one who consecrates anew</b> the <b>ash</b> that has been <b>removed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּקְדִּישׁ",
+      "en": "one who makes hekdesh"
+     },
+     {
+      "he": "דִּשּׁוּן",
+      "en": "ashes"
+     },
+     {
+      "he": "בַּתְּחִלָּה,",
+      "en": "from the start"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִים בּוֹ.",
+    "en": "there is me'ilah with them.",
+    "st": "he is liable for <b>misusing it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִים",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "תּוֹרִים שֶׁלֹּא הִגִּיעַ זְמַנָּן,",
+    "en": "Turtledoves whose time has not yet come,",
+    "st": "With regard to <b>doves whose time</b> of fitness for sacrifice <b>has not arrived,</b>",
+    "stMore": "as they are too young,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תּוֹרִים",
+      "en": "turtledoves",
+      "note": "Torim: a kind of dove brought as a korban when grown up."
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הִגִּיעַ",
+      "en": "arrived"
+     },
+     {
+      "he": "זְמַנָּן,",
+      "en": "their time"
+     }
+    ]
+   },
+   {
+    "he": "וּבְנֵי יוֹנָה שֶׁעָבַר זְמַנָּן,",
+    "en": "and young pigeons whose time has passed,",
+    "st": "<b>and pigeons whose time</b> of fitness for sacrifice <b>has passed,</b>",
+    "stMore": "as they are too old,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְנֵי",
+      "en": "and young of"
+     },
+     {
+      "he": "יוֹנָה",
+      "en": "pigeon",
+      "note": "Pigeons are brought as a korban only while young."
+     },
+     {
+      "he": "שֶׁעָבַר",
+      "en": "that passed"
+     },
+     {
+      "he": "זְמַנָּן,",
+      "en": "their time"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִים וְלֹא מוֹעֲלִים.",
+    "en": "may not be used, but there is no me'ilah.",
+    "st": "one <b>may not derive benefit</b> from them ab initio; <b>but</b> if one derived benefit from them he is <b>not</b> liable for their <b>misuse.</b>",
+    "stMore": "The previous [mishna] teaches that one may not derive benefit from doves whose time of fitness for sacrifice has not arrived and from pigeons whose time of fitness for sacrifice has passed, but one who derived benefit from them is not liable for their misuse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִים",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִים.",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon</b> disagrees with this ruling and <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "תּוֹרִין שֶׁלֹּא הִגִּיעַ זְמַנָּן,",
+    "en": "turtledoves whose time has not yet come,",
+    "st": "With regard to <b>doves whose time</b> of fitness for sacrifice <b>has not arrived,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תּוֹרִין",
+      "en": "turtledoves"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הִגִּיעַ",
+      "en": "arrived"
+     },
+     {
+      "he": "זְמַנָּן,",
+      "en": "their time"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶן.",
+    "en": "have me'ilah.",
+    "st": "one is liable for <b>misusing them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "וּבְנֵי יוֹנָה שֶׁעָבַר זְמַנָּן,",
+    "en": "And young pigeons whose time has passed,",
+    "st": "With regard to <b>pigeons whose time</b> of fitness for sacrifice <b>has passed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְנֵי",
+      "en": "and young of"
+     },
+     {
+      "he": "יוֹנָה",
+      "en": "pigeon"
+     },
+     {
+      "he": "שֶׁעָבַר",
+      "en": "that passed"
+     },
+     {
+      "he": "זְמַנָּן,",
+      "en": "their time"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִין וְלֹא מוֹעֲלִין:",
+    "en": "may not be used, but there is no me'ilah.",
+    "st": "one <b>may not derive benefit</b> ab initio, <b>but</b> if one derived benefit from them he is <b>not</b> liable for their <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין:",
+      "en": "me'ilah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "The milk of korban animals and the eggs of korban doves may not be used, but there is no me'ilah. That is only for things given to the mizbeach; for things given to fix the Beis HaMikdash, there is me'ilah with the eggs and milk too.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חֲלֵב הַמֻּקְדָּשִׁין וּבֵיצֵי תוֹרִין,",
+    "en": "The milk of korban animals and the eggs of turtledoves",
+    "st": "With regard to <b>the milk of sacrificial</b> animals <b>and the eggs of</b> sacrificial <b>doves,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲלֵב",
+      "en": "the milk of"
+     },
+     {
+      "he": "הַמֻּקְדָּשִׁין",
+      "en": "korban animals"
+     },
+     {
+      "he": "וּבֵיצֵי",
+      "en": "and the eggs of"
+     },
+     {
+      "he": "תוֹרִין,",
+      "en": "turtledoves"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִין וְלֹא מוֹעֲלִים.",
+    "en": "may not be used, but there is no me'ilah.",
+    "st": "one <b>may not derive benefit</b> from them ab initio, <b>but</b> if one derived benefit from them after the fact he is <b>not</b> liable for their <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִים.",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "בַּמֶּה דְבָרִים אֲמוּרִים,",
+    "en": "When is this said?",
+    "st": "<b> In what</b> case <b>is this statement,</b> that if one derived benefit from the eggs or milk of sacrificial animals, he is not liable for their misuse, <b>said?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּמֶּה",
+      "en": "with what"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "אֲמוּרִים,",
+      "en": "are said"
+     }
+    ]
+   },
+   {
+    "he": "בְּקָדְשֵׁי מִזְבֵּחַ.",
+    "en": "With things given for the mizbeach.",
+    "st": "It is stated <b>in</b> the case of <b>sacrificial</b> animals offered on the <b>altar,</b>",
+    "stMore": "as their eggs and milk are not brought to the altar and therefore they are considered distinct from the offerings themselves.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּקָדְשֵׁי",
+      "en": "with holy things of"
+     },
+     {
+      "he": "מִזְבֵּחַ.",
+      "en": "the mizbeach"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל בְּקָדְשֵׁי בֶדֶק הַבַּיִת,",
+    "en": "But with things given for fixing the Beis HaMikdash,",
+    "st": "<b>But</b> this is not the halakha <b>in</b> the case of animals that are not sacrificed and are <b>consecrated</b> only <b>for Temple maintenance.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בְּקָדְשֵׁי",
+      "en": "with holy things for"
+     },
+     {
+      "he": "בֶדֶק",
+      "en": "fixing"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the House",
+      "note": "Bedek HaBayis: things given for fixing and building the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "הִקְדִּישׁ תַּרְנְגֹלֶת,",
+    "en": "if he made a hen hekdesh,",
+    "st": "For example, if one <b>consecrated a hen</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִקְדִּישׁ",
+      "en": "he made hekdesh"
+     },
+     {
+      "he": "תַּרְנְגֹלֶת,",
+      "en": "a hen"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהּ וּבְבֵיצָתָהּ.",
+    "en": "there is me'ilah with it and with its egg.",
+    "st": "he is liable for <b>misusing it and for</b> misusing <b>its egg;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     },
+     {
+      "he": "וּבְבֵיצָתָהּ.",
+      "en": "and with its egg"
+     }
+    ]
+   },
+   {
+    "he": "חֲמוֹר, מוֹעֲלִין בָּהּ וּבַחֲלָבָהּ:",
+    "en": "A donkey: there is me'ilah with it and with its milk.",
+    "st": "if one consecrated <b>a donkey</b> he is liable for <b>misusing it and for</b> misusing <b>its milk,</b> as the animal and its milk, and likewise the hen and its eggs, are both consecrated for Temple maintenance and are deemed a single unit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲמוֹר,",
+      "en": "a donkey"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     },
+     {
+      "he": "וּבַחֲלָבָהּ:",
+      "en": "and with its milk"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "Anything made hekdesh has me'ilah, whether it is fit for the mizbeach, for fixing the Beis HaMikdash, or for neither. Rabbi Yehudah and Rabbi Shimon argue about things that grew after it was made hekdesh, and the mishnah ends with animals, workers and cows near hekdesh food.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הָרָאוּי לַמִּזְבֵּחַ וְלֹא לְבֶדֶק הַבַּיִת,",
+    "en": "Anything that is fit for the mizbeach and not for fixing the Beis HaMikdash,",
+    "st": "With regard to <b>any</b> consecrated item <b>that is fit for</b> sacrifice on <b>the altar but is not</b> fit <b>for Temple maintenance,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anything"
+     },
+     {
+      "he": "הָרָאוּי",
+      "en": "that is fit"
+     },
+     {
+      "he": "לַמִּזְבֵּחַ",
+      "en": "for the mizbeach"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְבֶדֶק",
+      "en": "for fixing"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the House"
+     }
+    ]
+   },
+   {
+    "he": "לְבֶדֶק הַבַּיִת וְלֹא לַמִּזְבֵּחַ,",
+    "en": "for fixing the Beis HaMikdash and not for the mizbeach,",
+    "st": "or if it is fit <b>for Temple maintenance but not for</b> sacrifice on <b>the altar,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְבֶדֶק",
+      "en": "for fixing"
+     },
+     {
+      "he": "הַבַּיִת",
+      "en": "the House"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לַמִּזְבֵּחַ,",
+      "en": "for the mizbeach"
+     }
+    ]
+   },
+   {
+    "he": "לֹא לַמִּזְבֵּחַ וְלֹא לְבֶדֶק הַבַּיִת,",
+    "en": "not for the mizbeach and not for fixing the Beis HaMikdash,",
+    "st": "or fit <b>neither for the altar nor for Temple maintenance,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לַמִּזְבֵּחַ",
+      "en": "for the mizbeach"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְבֶדֶק",
+      "en": "for fixing"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the House"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בּוֹ.",
+    "en": "has me'ilah.",
+    "st": "nevertheless one is liable for <b>misusing it.</b>",
+    "stMore": "The mishna clarifies each of these categories: Fit for Temple maintenance but not for sacrifice on the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, הִקְדִּישׁ בּוֹר מָלֵא מַיִם,",
+    "en": "How? If he made a pit full of water hekdesh,",
+    "st": "<b>how so?</b> In a case where <b>one consecrated a cistern full of water,</b>",
+    "stMore": "the water is not fit for sacrifice on the altar, as only water from the Siloam pool is used for the altar. Nevertheless, it is fit for Temple maintenance, e.g., to knead clay with it for use in reinforcing the walls of the Temple.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how?"
+     },
+     {
+      "he": "הִקְדִּישׁ",
+      "en": "he made hekdesh"
+     },
+     {
+      "he": "בּוֹר",
+      "en": "a pit",
+      "note": "A bor: a hole dug to collect rainwater."
+     },
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "מַיִם,",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "he": "אַשְׁפָּה מְלֵאָה זֶבֶל,",
+    "en": "a garbage heap full of manure,",
+    "st": "What is the case of an item fit neither for the altar nor for Temple maintenance? If one consecrated <b>garbage</b> dumps <b>full of manure,</b>",
+    "stMore": "the place and its contents are fit neither for the altar nor for Temple maintenance. Rather, they are sold and the money received from the sale is donated to the Temple.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַשְׁפָּה",
+      "en": "a garbage heap"
+     },
+     {
+      "he": "מְלֵאָה",
+      "en": "full of"
+     },
+     {
+      "he": "זֶבֶל,",
+      "en": "manure"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹבָךְ מָלֵא יוֹנִים,",
+    "en": "a dovecote full of doves,",
+    "st": "What is the case of an item fit for sacrifice on the altar but not fit for Temple maintenance? If one consecrated <b>a dovecote full of pigeons,</b>",
+    "stMore": "the pigeons are fit for the altar while the dovecote is not fit even for Temple maintenance.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹבָךְ",
+      "en": "a dovecote",
+      "note": "A little house for doves."
+     },
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "יוֹנִים,",
+      "en": "doves"
+     }
+    ]
+   },
+   {
+    "he": "אִילָן מָלֵא פֵרוֹת,",
+    "en": "a tree full of fruit,",
+    "st": "Or if one consecrated <b>a tree full of fruit,</b>",
+    "stMore": "as the fruit is fit for the altar whereas the tree is not fit even for Temple maintenance. For example, grapes are fit for the altar as wine, but the vines are not fit for Temple maintenance, as they are too flimsy for construction.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִילָן",
+      "en": "a tree"
+     },
+     {
+      "he": "מָלֵא",
+      "en": "full of"
+     },
+     {
+      "he": "פֵרוֹת,",
+      "en": "fruit"
+     }
+    ]
+   },
+   {
+    "he": "שָׂדֶה מְלֵאָה עֲשָׂבִים,",
+    "en": "a field full of grass,",
+    "st": "Another case where the consecrated item is fit for neither the altar nor Temple maintenance is <b>a field full of grass.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מְלֵאָה",
+      "en": "full of"
+     },
+     {
+      "he": "עֲשָׂבִים,",
+      "en": "grass"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶם וּבְמַה שֶּׁבְּתוֹכָן.",
+    "en": "there is me'ilah with them and with what is inside them.",
+    "st": "In all those cases, one is liable for <b>misusing</b> both <b>them and that which is within</b> them,",
+    "stMore": "as those that are unfit for use in the Temple will be sold and their money will be used for the altar or for Temple maintenance.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶם",
+      "en": "with them"
+     },
+     {
+      "he": "וּבְמַה",
+      "en": "and with what"
+     },
+     {
+      "he": "שֶּׁבְּתוֹכָן.",
+      "en": "is inside them"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אִם הִקְדִּישׁ בּוֹר",
+    "en": "But if he made a pit hekdesh",
+    "st": "<b>But if one consecrated</b> an empty <b>cistern</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הִקְדִּישׁ",
+      "en": "he made hekdesh"
+     },
+     {
+      "he": "בּוֹר",
+      "en": "a pit"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ נִתְמַלֵּא מַיִם,",
+    "en": "and afterwards it filled up with water,",
+    "st": "<b> and it was subsequently filled with water,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this"
+     },
+     {
+      "he": "נִתְמַלֵּא",
+      "en": "filled up with"
+     },
+     {
+      "he": "מַיִם,",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "he": "אַשְׁפָּה וְאַחַר כָּךְ נִתְמַלְאָה זֶבֶל,",
+    "en": "a garbage heap and afterwards it filled up with manure,",
+    "st": "or if one consecrated an empty <b>garbage</b> dump <b>and it was subsequently filled with manure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַשְׁפָּה",
+      "en": "a garbage heap"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this"
+     },
+     {
+      "he": "נִתְמַלְאָה",
+      "en": "filled up with"
+     },
+     {
+      "he": "זֶבֶל,",
+      "en": "manure"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹבָךְ וְאַחַר כָּךְ נִתְמַלֵּא יוֹנִים,",
+    "en": "a dovecote and afterwards it filled up with doves,",
+    "st": "or an empty <b>dovecote and it was subsequently filled with pigeons,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹבָךְ",
+      "en": "a dovecote"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this"
+     },
+     {
+      "he": "נִתְמַלֵּא",
+      "en": "filled up with"
+     },
+     {
+      "he": "יוֹנִים,",
+      "en": "doves"
+     }
+    ]
+   },
+   {
+    "he": "אִילָן וְאַחַר כָּךְ נִתְמַלֵּא פֵרוֹת,",
+    "en": "a tree and afterwards it filled up with fruit,",
+    "st": "or <b>a tree</b> without fruit <b>and it was subsequently filled with fruit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִילָן",
+      "en": "a tree"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this"
+     },
+     {
+      "he": "נִתְמַלֵּא",
+      "en": "filled up with"
+     },
+     {
+      "he": "פֵרוֹת,",
+      "en": "fruit"
+     }
+    ]
+   },
+   {
+    "he": "שָׂדֶה וְאַחַר כָּךְ נִתְמַלְאָה עֲשָׂבִים,",
+    "en": "a field and afterwards it filled up with grass,",
+    "st": "<b> or</b> an empty <b>field and it was subsequently filled with grass;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this"
+     },
+     {
+      "he": "נִתְמַלְאָה",
+      "en": "filled up with"
+     },
+     {
+      "he": "עֲשָׂבִים,",
+      "en": "grass"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶן,",
+    "en": "there is me'ilah with them,",
+    "st": "in all these cases one is liable for <b>misusing them</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן,",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מוֹעֲלִין בְּמַה שֶּׁבְּתוֹכָן,",
+    "en": "but there is no me'ilah with what is inside them.",
+    "st": "<b> but</b> one is <b>not</b> liable for <b>misusing that which is within</b> them.",
+    "stMore": "There is no misuse with regard to enhancements that developed in consecrated property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "me'ilah"
+     },
+     {
+      "he": "בְּמַה",
+      "en": "with what"
+     },
+     {
+      "he": "שֶּׁבְּתוֹכָן,",
+      "en": "is inside them"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי יְהוּדָה. וְרַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "These are the words of Rabbi Yehudah. But Rabbi Shimon says,",
+    "st": "<b>Rabbi Yosei</b> disagrees in two of the above cases and <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה.",
+      "en": "Yehudah",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "but Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּקְדִּישׁ שָׂדֶה וְאִילָן,",
+    "en": "Someone who makes a field or a tree hekdesh,",
+    "st": "In the case of <b>one who consecrates the</b> empty <b>field</b> in which grass grew <b>or the</b> empty <b>tree</b>",
+    "stMore": "on which fruit grew,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּקְדִּישׁ",
+      "en": "one who makes hekdesh"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "וְאִילָן,",
+      "en": "and a tree"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶם וּבְגִדּוּלֵיהֶם,",
+    "en": "there is me'ilah with them and with what grows on them,",
+    "st": "he is liable for <b>misusing</b> both <b>them and their growth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶם",
+      "en": "with them"
+     },
+     {
+      "he": "וּבְגִדּוּלֵיהֶם,",
+      "en": "and with what grows on them"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהֵן גִּדּוּלֵי הֶקְדֵּשׁ.",
+    "en": "because they are things that grew from hekdesh.",
+    "st": "<b> because these are growths of consecrated</b> property,",
+    "stMore": "despite the fact that they grew there only after the property was consecrated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "גִּדּוּלֵי",
+      "en": "growths of"
+     },
+     {
+      "he": "הֶקְדֵּשׁ.",
+      "en": "hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "וְלַד מְעֻשֶּׂרֶת לֹא יִינַק מִן הַמְעֻשֶּׂרֶת.",
+    "en": "The baby of a maaser animal may not drink milk from the maaser animal.",
+    "st": "Apropos the growths of consecrated property, the mishna states that <b>an offspring</b> born <b>to a tithed</b> animal before it was tithed <b>may not</b> be given to <b>suckle from the tithed</b> mother,",
+    "stMore": "as it is a non-sacred animal that may not be allowed to derive benefit from consecrated property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלַד",
+      "en": "the baby of"
+     },
+     {
+      "he": "מְעֻשֶּׂרֶת",
+      "en": "a maaser animal",
+      "note": "Every tenth animal is set aside as maaser and brought as a korban."
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִינַק",
+      "en": "may nurse"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמְעֻשֶּׂרֶת.",
+      "en": "the maaser animal"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחֵרִים מִתְנַדְּבִים כֵּן.",
+    "en": "And some people give theirs on this condition.",
+    "explain": "They make it hekdesh except for the milk.",
+    "st": "<b>And</b> there are <b>others</b> who <b>stipulate</b> in <b>this</b> manner,",
+    "stMore": "i.e., that the consecration does not apply to the milk.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחֵרִים",
+      "en": "and others"
+     },
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "give"
+     },
+     {
+      "he": "כֵּן.",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "וְלַד מֻקְדָּשִׁין לֹא יִינַק מִן הַמֻּקְדָּשִׁין.",
+    "en": "The baby of korban animals may not drink milk from the korban animals.",
+    "st": "The same is true of the <b>offspring of sacrificial</b> animals born to them before their consecration; they <b>may not suckle from the sacrificial</b> animal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלַד",
+      "en": "the baby of"
+     },
+     {
+      "he": "מֻקְדָּשִׁין",
+      "en": "korban animals"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִינַק",
+      "en": "may nurse"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמֻּקְדָּשִׁין.",
+      "en": "the korban animals"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲחֵרִים מִתְנַדְּבִים כֵּן.",
+    "en": "And some people give theirs on this condition.",
+    "st": "<b>And</b> in this case as well, there are <b>others</b> who <b>stipulate</b> in <b>this</b> manner,",
+    "stMore": "i.e., to enable the offspring to suckle.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲחֵרִים",
+      "en": "and others"
+     },
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "give"
+     },
+     {
+      "he": "כֵּן.",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "הַפּוֹעֲלִים לֹא יֹאכְלוּ מִגְּרוֹגָרוֹת שֶׁל הֶקְדֵּשׁ.",
+    "en": "The workers may not eat from dried figs of hekdesh.",
+    "st": "<b>The laborers,</b> who are generally permitted to eat the food of their employer, <b>may not eat from consecrated dried figs,</b>",
+    "stMore": "if they work with Temple produce. Rather, they can buy food with the money they are paid.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפּוֹעֲלִים",
+      "en": "the workers"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאכְלוּ",
+      "en": "may eat"
+     },
+     {
+      "he": "מִגְּרוֹגָרוֹת",
+      "en": "from dried figs"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "הֶקְדֵּשׁ.",
+      "en": "hekdesh",
+      "note": "Hekdesh means set aside for the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן פָּרָה לֹא תֹאכַל מִכַּרְשִׁינֵי הֶקְדֵּשׁ:",
+    "en": "And so too a cow may not eat from vetch of hekdesh.",
+    "st": "<b>And likewise, a cow</b> working with consecrated property, e.g., threshing Temple produce, may not eat <b>from consecrated vetch [mikarshinei].</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "פָּרָה",
+      "en": "a cow"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תֹאכַל",
+      "en": "may eat"
+     },
+     {
+      "he": "מִכַּרְשִׁינֵי",
+      "en": "from the vetch of",
+      "note": "A plant used as animal food."
+     },
+     {
+      "he": "הֶקְדֵּשׁ:",
+      "en": "hekdesh"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "Roots that grow between hekdesh land and an ordinary person's land, a spring in a hekdesh field, and the water of Sukkos in its golden jug may not be used, but there is no me'ilah. Once the water is put into the holy flask, there is me'ilah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שָׁרְשֵׁי אִילָן שֶׁל הֶדְיוֹט בָּאִין בְּשֶׁל",
+    "en": "Roots of an ordinary person's tree that go into land of",
+    "st": "With regard to <b>the roots of</b> the non-sacred <b>tree of an ordinary person that enter into consecrated</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁרְשֵׁי",
+      "en": "the roots of"
+     },
+     {
+      "he": "אִילָן",
+      "en": "a tree"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "הֶדְיוֹט",
+      "en": "an ordinary person"
+     },
+     {
+      "he": "בָּאִין",
+      "en": "that come"
+     },
+     {
+      "he": "בְּשֶׁל",
+      "en": "into that of"
+     }
+    ]
+   },
+   {
+    "he": "הֶקְדֵּשׁ וְשֶׁל הֶקְדֵּשׁ בָּאִין בְּשֶׁל הֶדְיוֹט,",
+    "en": "hekdesh, or roots of hekdesh that go into an ordinary person's land,",
+    "st": "land, <b>and</b> the roots of <b>a consecrated</b> tree <b>that enter into</b> the non-sacred land <b>of an ordinary person,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶקְדֵּשׁ",
+      "en": "hekdesh"
+     },
+     {
+      "he": "וְשֶׁל",
+      "en": "and those of"
+     },
+     {
+      "he": "הֶקְדֵּשׁ",
+      "en": "hekdesh"
+     },
+     {
+      "he": "בָּאִין",
+      "en": "that come"
+     },
+     {
+      "he": "בְּשֶׁל",
+      "en": "into that of"
+     },
+     {
+      "he": "הֶדְיוֹט,",
+      "en": "an ordinary person"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִין וְלֹא מוֹעֲלִין.",
+    "en": "may not be used, but there is no me'ilah.",
+    "st": "one <b>may not derive benefit</b> from them ab initio, <b>but</b> if he derived benefit from them he is <b>not</b> liable for their <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין.",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּעְיָן שֶׁהוּא יוֹצֵא מִתּוֹךְ שְׂדֵה הֶקְדֵּשׁ,",
+    "en": "A spring that flows out through a field of hekdesh,",
+    "st": "With regard to water of <b>a spring</b> that flows in a non-sacred field but <b>which emerges from</b> that field and flows <b>into a consecrated field,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּעְיָן",
+      "en": "the spring"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "יוֹצֵא",
+      "en": "comes out"
+     },
+     {
+      "he": "מִתּוֹךְ",
+      "en": "from inside"
+     },
+     {
+      "he": "שְׂדֵה",
+      "en": "a field of"
+     },
+     {
+      "he": "הֶקְדֵּשׁ,",
+      "en": "hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִין וְלֹא מוֹעֲלִין.",
+    "en": "may not be used, but there is no me'ilah.",
+    "st": "when it is in the consecrated field one <b>may not derive benefit</b> from it ab initio, <b>but</b> if one derived benefit from it he is <b>not</b> liable for its <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין.",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא חוּץ לַשָּׂדֶה,",
+    "en": "Once it goes out of the field,",
+    "st": "Once the spring <b>emerges outside</b> the consecrated field",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "it went out"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לַשָּׂדֶה,",
+      "en": "the field"
+     }
+    ]
+   },
+   {
+    "he": "נֶהֱנִין מִמֶּנּוּ.",
+    "en": "one may use it.",
+    "st": "<b>one may derive benefit from</b> the water.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "מִמֶּנּוּ.",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּיִם שֶׁבְּכַד שֶׁל זָהָב,",
+    "en": "The water in the golden jug",
+    "st": "With regard to <b>the water that</b> was drawn from the Siloam pool <b>into</b> the <b>golden jug,</b>",
+    "stMore": "which was not consecrated as a service vessel, to bring it to the altar for libation on the festival of Sukkot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּיִם",
+      "en": "the water"
+     },
+     {
+      "he": "שֶׁבְּכַד",
+      "en": "that is in the jug"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זָהָב,",
+      "en": "gold",
+      "note": "On Sukkos, water was poured on the mizbeach. It was carried in a golden jug."
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִין וְלֹא מוֹעֲלִין.",
+    "en": "may not be used, but there is no me'ilah.",
+    "st": "one <b>may not derive benefit</b> from the water ab initio, as it was drawn for use in the Temple service. <b>But</b> if one derived benefit from it he is <b>not</b> liable for its <b>misuse,</b>",
+    "stMore": "since it was not consecrated in a service vessel.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין.",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "נִתְּנוּ בִצְלוֹחִית,",
+    "en": "Once it is put into the flask,",
+    "st": "Once <b>one places</b> the water from the jug for libation <b>into the flask,</b>",
+    "stMore": "which is a service vessel, the water is consecrated and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְּנוּ",
+      "en": "it was put"
+     },
+     {
+      "he": "בִצְלוֹחִית,",
+      "en": "into the flask",
+      "note": "A holy kli for pouring the water on the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶם.",
+    "en": "there is me'ilah with it.",
+    "st": "he is liable for <b>misusing</b> the water.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶם.",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "עֲרָבָה, לֹא נֶהֱנִין וְלֹא מוֹעֲלִין.",
+    "en": "The aravah may not be used, but there is no me'ilah.",
+    "st": "With regard to the <b>willow</b>",
+    "stMore": "branches that are placed on the sides of the altar on the festival of Sukkot, before their placement one <b>may not derive benefit</b> from them ab initio, <b>but</b> if he derived benefit from them he is <b>not</b> liable for their <b>misuse.</b> After their placement their mitzva has been fulfilled, and therefore at that time one may derive benefit from the willow branches ab initio.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲרָבָה,",
+      "en": "the aravah",
+      "note": "Willow branches placed around the mizbeach on Sukkos."
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין.",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֶלְעָזָר בְּרַבִּי צָדוֹק אוֹמֵר,",
+    "en": "Rabbi Elazar the son of Rabbi Tzadok says,",
+    "st": "<b>Rabbi Elazar, son of Rabbi Tzadok, says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     },
+     {
+      "he": "בְּרַבִּי",
+      "en": "son of Rabbi"
+     },
+     {
+      "he": "צָדוֹק",
+      "en": "Tzadok"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתְנִין הָיוּ מִמֶּנָּה זְקֵנִים בְּלוּלְבֵיהֶם:",
+    "en": "the elders used to take from it for their lulavim.",
+    "st": "<b> The elders were accustomed to derive benefit from</b> the willow branches even before their placement on the sides of the altar, by cutting small branches for use <b>in their lulav,</b> in fulfillment of the mitzva of the four species.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתְנִין",
+      "en": "would put"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "used to"
+     },
+     {
+      "he": "מִמֶּנָּה",
+      "en": "from it"
+     },
+     {
+      "he": "זְקֵנִים",
+      "en": "the elders"
+     },
+     {
+      "he": "בְּלוּלְבֵיהֶם:",
+      "en": "in their lulavim"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "A nest on top of a hekdesh tree may not be used, but there is no me'ilah. If someone makes a forest hekdesh, all of it has me'ilah, but wood bought by the treasurers has no me'ilah in its sawdust and leaves.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "קֵן שֶׁבְּרֹאשׁ הָאִילָן שֶׁל הֶקְדֵּשׁ,",
+    "en": "A nest on top of a hekdesh tree,",
+    "st": "With regard to a bird’s <b>nest that is atop the consecrated tree,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קֵן",
+      "en": "a nest"
+     },
+     {
+      "he": "שֶׁבְּרֹאשׁ",
+      "en": "that is on top of"
+     },
+     {
+      "he": "הָאִילָן",
+      "en": "the tree"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "הֶקְדֵּשׁ,",
+      "en": "hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱנִין וְלֹא מוֹעֲלִין.",
+    "en": "may not be used, but there is no me'ilah.",
+    "st": "one <b>may not derive benefit</b> from it ab initio, <b>but</b> if one derived benefit from it he is <b>not</b> liable for its <b>misuse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱנִין",
+      "en": "may benefit"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and no"
+     },
+     {
+      "he": "מוֹעֲלִין.",
+      "en": "me'ilah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבַּאֲשֵׁרָה, יַתִּיז בְּקָנֶה.",
+    "en": "One that is on an asheirah, he knocks it down with a stick.",
+    "st": "In order to acquire a bird’s nest <b>that is</b> atop <b>a tree worshipped as idolatry,</b> from which one may not derive benefit even by climbing it, <b>one should dislodge</b> the nest from its place by striking it <b>with a pole.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבַּאֲשֵׁרָה,",
+      "en": "that is on an asheirah",
+      "note": "A tree that people worshipped as avodah zarah."
+     },
+     {
+      "he": "יַתִּיז",
+      "en": "he knocks it down"
+     },
+     {
+      "he": "בְּקָנֶה.",
+      "en": "with a stick"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּקְדִּישׁ אֶת הַחֹרֶשׁ,",
+    "en": "Someone who makes a forest hekdesh,",
+    "st": "In the case of <b>one who consecrates</b> his <b>forest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּקְדִּישׁ",
+      "en": "one who makes hekdesh"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחֹרֶשׁ,",
+      "en": "the forest"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בְּכֻלּוֹ.",
+    "en": "all of it has me'ilah.",
+    "st": "<b> one is</b> liable for <b>misusing</b> everything <b>in the entire</b> forest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בְּכֻלּוֹ.",
+      "en": "with all of it"
+     }
+    ]
+   },
+   {
+    "he": "הַגִּזְבָּרִים שֶׁלָּקְחוּ אֶת הָעֵצִים,",
+    "en": "The treasurers who bought the wood,",
+    "st": "In the case of <b>the</b> Temple <b>treasurers who purchased</b> non-sacred <b>logs</b>",
+    "stMore": "to use for repairs in the Temple,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגִּזְבָּרִים",
+      "en": "the treasurers",
+      "note": "The people in charge of the money of the Beis HaMikdash."
+     },
+     {
+      "he": "שֶׁלָּקְחוּ",
+      "en": "who bought"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵצִים,",
+      "en": "the wood"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּעֵצִים,",
+    "en": "there is me'ilah with the wood,",
+    "st": "one is liable for <b>misusing the wood</b> itself,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּעֵצִים,",
+      "en": "with the wood"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מוֹעֲלִין לֹא בַשִּׁפּוּי וְלֹא בַנְּוִיָּה:",
+    "en": "but no me'ilah with the sawdust or with the leaves.",
+    "st": "<b>but</b> one is <b>not</b> liable for <b>misusing</b> the <b>sawdust, nor</b> is he liable <b>for</b> the <b>leaves [baneviyya]</b> that fall from the log, as the treasurers purchased for the Temple only those materials fit for use in its construction.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "me'ilah"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַשִּׁפּוּי",
+      "en": "with the sawdust"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בַנְּוִיָּה:",
+      "en": "with the leaves"
+     }
+    ]
+   }
+  ]
+ }
+]

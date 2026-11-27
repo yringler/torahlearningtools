@@ -1,0 +1,2120 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "Rosh Chodesh must be declared by a Beis Din of three before night. This mishnah teaches what to do if it got dark too soon, or if the judges themselves saw the moon.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רָאוּהוּ בֵית דִּין וְכָל יִשְׂרָאֵל,",
+    "en": "If the Beis Din and all of Yisrael saw the new moon,",
+    "st": "If <b>the court and all of</b> the <b>Jewish people saw</b> the new moon,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאוּהוּ",
+      "en": "they saw it"
+     },
+     {
+      "he": "בֵית",
+      "en": "the Beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "Din"
+     },
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "נֶחְקְרוּ הָעֵדִים,",
+    "en": "and the witnesses were questioned,",
+    "st": "and <b>the witnesses were interrogated, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶחְקְרוּ",
+      "en": "were questioned"
+     },
+     {
+      "he": "הָעֵדִים,",
+      "en": "the witnesses"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הִסְפִּיקוּ לוֹמַר מְקֻדָּשׁ,",
+    "en": "but they did not have time to say \"It is made holy\"",
+    "st": "<b>but</b> the court <b>did not manage to say: Sanctified, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הִסְפִּיקוּ",
+      "en": "they had time"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "מְקֻדָּשׁ,",
+      "en": "it is made holy"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁחֲשֵׁכָה,",
+    "en": "until it got dark,",
+    "st": "<b>before nightfall,</b>",
+    "stMore": "so that the thirtieth day already passed, the previous month",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁחֲשֵׁכָה,",
+      "en": "it got dark"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה מְעֻבָּר.",
+    "en": "then the month has thirty days.",
+    "explain": "Rosh Chodesh will be the next day.",
+    "st": "<b>is</b> rendered <b>a full,</b>",
+    "stMore": "thirty-day month, and the following day is observed as the New Moon.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "this is"
+     },
+     {
+      "he": "זֶה",
+      "en": "(it)"
+     },
+     {
+      "he": "מְעֻבָּר.",
+      "en": "made full"
+     }
+    ]
+   },
+   {
+    "he": "רָאוּהוּ בֵית דִּין בִּלְבַד,",
+    "en": "If only the Beis Din saw it,",
+    "st": "If <b>the court alone saw</b> the new moon,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאוּהוּ",
+      "en": "saw it"
+     },
+     {
+      "he": "בֵית",
+      "en": "the Beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "Din"
+     },
+     {
+      "he": "בִּלְבַד,",
+      "en": "alone"
+     }
+    ]
+   },
+   {
+    "he": "יַעַמְדוּ שְׁנַיִם וְיָעִידוּ בִפְנֵיהֶם,",
+    "en": "two of them stand and testify before the others,",
+    "st": "<b>two</b> members of the court <b>should stand and testify before the others, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַעַמְדוּ",
+      "en": "shall stand"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "וְיָעִידוּ",
+      "en": "and testify"
+     },
+     {
+      "he": "בִפְנֵיהֶם,",
+      "en": "before them"
+     }
+    ]
+   },
+   {
+    "he": "וְיֹאמְרוּ מְקֻדָּשׁ מְקֻדָּשׁ.",
+    "en": "and they say, \"It is made holy! It is made holy!\"",
+    "st": "<b>and</b> the court <b>should say: Sanctified, sanctified.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֹאמְרוּ",
+      "en": "and they shall say"
+     },
+     {
+      "he": "מְקֻדָּשׁ",
+      "en": "it is made holy"
+     },
+     {
+      "he": "מְקֻדָּשׁ.",
+      "en": "it is made holy"
+     }
+    ]
+   },
+   {
+    "he": "רָאוּהוּ שְׁלשָׁה וְהֵן בֵּית דִּין,",
+    "en": "If three people saw it, and they are the Beis Din,",
+    "st": "If <b>three</b> people <b>saw</b> the new moon, <b>and they are</b> themselves members of <b>a court</b> for this purpose,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאוּהוּ",
+      "en": "saw it"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "וְהֵן",
+      "en": "and they are"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the Beis"
+     },
+     {
+      "he": "דִּין,",
+      "en": "Din"
+     }
+    ]
+   },
+   {
+    "he": "יַעַמְדוּ הַשְּׁנַיִם וְיוֹשִׁיבוּ מֵחַבְרֵיהֶם",
+    "en": "two of them stand up and seat other judges",
+    "st": "<b>two</b> of them <b>should stand and seat</b> two <b>of their colleagues </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַעַמְדוּ",
+      "en": "shall stand"
+     },
+     {
+      "he": "הַשְּׁנַיִם",
+      "en": "the two"
+     },
+     {
+      "he": "וְיוֹשִׁיבוּ",
+      "en": "and seat"
+     },
+     {
+      "he": "מֵחַבְרֵיהֶם",
+      "en": "some of their friends"
+     }
+    ]
+   },
+   {
+    "he": "אֵצֶל הַיָּחִיד וְיָעִידוּ בִפְנֵיהֶם,",
+    "en": "next to the one who is left, and testify before them,",
+    "st": "<b>next to the individual</b> who remains of the three, thereby forming a new court of three. The two standing judges <b>should</b> then <b>testify before</b>",
+    "stMore": "the three seated judges that they saw the new moon",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵצֶל",
+      "en": "next to"
+     },
+     {
+      "he": "הַיָּחִיד",
+      "en": "the one"
+     },
+     {
+      "he": "וְיָעִידוּ",
+      "en": "and testify"
+     },
+     {
+      "he": "בִפְנֵיהֶם,",
+      "en": "before them"
+     }
+    ]
+   },
+   {
+    "he": "וְיֹאמְרוּ מְקֻדָּשׁ מְקֻדָּשׁ,",
+    "en": "and they say, \"It is made holy! It is made holy!\"",
+    "st": "and the seated judges <b>say: Sanctified, sanctified.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֹאמְרוּ",
+      "en": "and they shall say"
+     },
+     {
+      "he": "מְקֻדָּשׁ",
+      "en": "it is made holy"
+     },
+     {
+      "he": "מְקֻדָּשׁ,",
+      "en": "it is made holy"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין הַיָּחִיד נֶאֱמָן עַל יְדֵי עַצְמוֹ:",
+    "en": "because one person alone cannot declare it.",
+    "explain": "A Beis Din needs three judges.",
+    "st": "This procedure is necessary <b>because an individual is not authorized</b> to declare the month sanctified <b>by himself.</b> Rather, a court of three is required.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because not"
+     },
+     {
+      "he": "הַיָּחִיד",
+      "en": "the single one"
+     },
+     {
+      "he": "נֶאֱמָן",
+      "en": "is trusted"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "(hands of)"
+     },
+     {
+      "he": "עַצְמוֹ:",
+      "en": "himself"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "Almost any horn may be used as a shofar, except a cow's horn. Rabbi Yosei asks why, since every shofar is called a \"keren.\"",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַשּׁוֹפָרוֹת כְּשֵׁרִין חוּץ מִשֶּׁל פָּרָה,",
+    "en": "All shofaros are kosher except one from a cow,",
+    "st": "The mishna begins to discuss the primary mitzva of Rosh HaShana, sounding the shofar. <b>All shofarot are fit</b> for blowing <b>except for</b> the horn <b>of a cow, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַשּׁוֹפָרוֹת",
+      "en": "the shofaros"
+     },
+     {
+      "he": "כְּשֵׁרִין",
+      "en": "are kosher"
+     },
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from that of"
+     },
+     {
+      "he": "פָּרָה,",
+      "en": "a cow"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא קֶרֶן.",
+    "en": "because it is called a keren, not a shofar.",
+    "st": "<b>because it is a horn [keren]</b> and not a shofar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "קֶרֶן.",
+      "en": "a keren",
+      "note": "A horn; the Torah calls a cow's horn a \"keren.\""
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא כָל הַשּׁוֹפָרוֹת נִקְרְאוּ קֶרֶן,",
+    "en": "\"But aren't all shofaros called keren?",
+    "st": "<b>But aren’t all shofarot called horn, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "but aren't"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַשּׁוֹפָרוֹת",
+      "en": "the shofaros"
+     },
+     {
+      "he": "נִקְרְאוּ",
+      "en": "called"
+     },
+     {
+      "he": "קֶרֶן,",
+      "en": "keren"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (יהושע ו),",
+    "en": "As it says in Yehoshua,",
+    "st": "<b>as it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(יהושע",
+      "en": "(Yehoshua"
+     },
+     {
+      "he": "ו),",
+      "en": "6)"
+     }
+    ]
+   },
+   {
+    "he": "בִּמְשֹׁךְ בְּקֶרֶן הַיּוֹבֵל:",
+    "en": "'When they blow long with the keren of a ram.'\"",
+    "st": "“And it shall come to pass, <b>that when they sound a long blast with the horn [keren] of a ram [yovel]”</b>",
+    "stMore": "(Joshua 6:5), and a ram’s horn is a shofar fit for sounding on Rosh HaShana?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּמְשֹׁךְ",
+      "en": "when blowing long"
+     },
+     {
+      "he": "בְּקֶרֶן",
+      "en": "with the horn of"
+     },
+     {
+      "he": "הַיּוֹבֵל:",
+      "en": "the ram",
+      "note": "A ram's horn is a kosher shofar."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "In the Beis HaMikdash on Rosh Hashanah, the shofar was blown with two trumpets next to it. The shofar blew longer, because the mitzvah of the day is the shofar.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שׁוֹפָר שֶׁל רֹאשׁ הַשָּׁנָה שֶׁל יָעֵל,",
+    "en": "The shofar of Rosh Hashanah in the Beis HaMikdash was from a wild goat,",
+    "st": "<b>The shofar</b> that was used <b>on Rosh HaShana</b> in the Temple was made from the",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹפָר",
+      "en": "the shofar"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "Rosh"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "Hashanah"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "יָעֵל,",
+      "en": "a wild goat",
+      "note": "An ibex, a goat that lives in the mountains."
+     }
+    ]
+   },
+   {
+    "he": "פָּשׁוּט, וּפִיו מְצֻפֶּה זָהָב,",
+    "en": "straight, and its mouth was covered with gold.",
+    "st": "<b>straight</b> horn <b>of an ibex, and its mouth,</b> the mouthpiece into which one blows, <b>was plated with gold. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּשׁוּט,",
+      "en": "straight"
+     },
+     {
+      "he": "וּפִיו",
+      "en": "and its mouth"
+     },
+     {
+      "he": "מְצֻפֶּה",
+      "en": "covered with"
+     },
+     {
+      "he": "זָהָב,",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁתֵּי חֲצוֹצְרוֹת מִן הַצְּדָדִין.",
+    "en": "And there were two trumpets, one on each side.",
+    "st": "<b>And</b> there were <b>two trumpets,</b> one <b>on</b> each of <b>the</b> two <b>sides</b> of the person sounding the shofar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "חֲצוֹצְרוֹת",
+      "en": "trumpets"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַצְּדָדִין.",
+      "en": "the sides"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹפָר מַאֲרִיךְ וַחֲצוֹצְרוֹת מְקַצְּרוֹת,",
+    "en": "The shofar blew long and the trumpets blew short,",
+    "st": "<b>The shofar would sound a long</b> blast, <b>whereas the trumpets would sound a short</b> blast,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹפָר",
+      "en": "the shofar"
+     },
+     {
+      "he": "מַאֲרִיךְ",
+      "en": "blows long"
+     },
+     {
+      "he": "וַחֲצוֹצְרוֹת",
+      "en": "and the trumpets"
+     },
+     {
+      "he": "מְקַצְּרוֹת,",
+      "en": "blow short"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמִּצְוַת הַיּוֹם בַּשּׁוֹפָר:",
+    "en": "because the mitzvah of the day is with the shofar.",
+    "st": "<b>because the mitzva of the day is with the shofar.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמִּצְוַת",
+      "en": "because the mitzvah of"
+     },
+     {
+      "he": "הַיּוֹם",
+      "en": "the day"
+     },
+     {
+      "he": "בַּשּׁוֹפָר:",
+      "en": "is with the shofar"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "On fast days in the Beis HaMikdash it was the other way: the trumpets blew longer than the shofar, because the mitzvah of that day is the trumpets.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בַּתַּעֲנִיּוֹת, בְּשֶׁל זְכָרִים,",
+    "en": "On fast days, they used shofaros made from rams' horns,",
+    "st": "<b>And</b> in contrast, the shofarot used <b>on</b> public <b>fast days</b> were made from",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּתַּעֲנִיּוֹת,",
+      "en": "on fast days"
+     },
+     {
+      "he": "בְּשֶׁל",
+      "en": "with those of"
+     },
+     {
+      "he": "זְכָרִים,",
+      "en": "rams"
+     }
+    ]
+   },
+   {
+    "he": "כְּפוּפִין, וּפִיהֶן מְצֻפֶּה כֶסֶף,",
+    "en": "bent, and their mouths covered with silver.",
+    "st": "<b>the curved</b> horns <b>of rams, and their mouths were plated with silver.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּפוּפִין,",
+      "en": "bent"
+     },
+     {
+      "he": "וּפִיהֶן",
+      "en": "and their mouths"
+     },
+     {
+      "he": "מְצֻפֶּה",
+      "en": "covered with"
+     },
+     {
+      "he": "כֶסֶף,",
+      "en": "silver"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁתֵּי חֲצוֹצְרוֹת בָּאֶמְצַע.",
+    "en": "And two trumpets were in the middle.",
+    "st": "There were <b>two trumpets in the middle</b> between the shofarot, and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "חֲצוֹצְרוֹת",
+      "en": "trumpets"
+     },
+     {
+      "he": "בָּאֶמְצַע.",
+      "en": "in the middle"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹפָר מְקַצֵּר וַחֲצוֹצְרוֹת מַאֲרִיכוֹת,",
+    "en": "The shofar blew short and the trumpets blew long,",
+    "st": "<b>the shofar would sound a short blast, whereas the trumpets would sound a long</b> blast,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹפָר",
+      "en": "the shofar"
+     },
+     {
+      "he": "מְקַצֵּר",
+      "en": "blows short"
+     },
+     {
+      "he": "וַחֲצוֹצְרוֹת",
+      "en": "and the trumpets"
+     },
+     {
+      "he": "מַאֲרִיכוֹת,",
+      "en": "blow long"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמִּצְוַת הַיּוֹם בַּחֲצוֹצְרוֹת:",
+    "en": "because the mitzvah of the day is with the trumpets.",
+    "st": "<b>for the mitzva of the day is with the trumpets.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמִּצְוַת",
+      "en": "because the mitzvah of"
+     },
+     {
+      "he": "הַיּוֹם",
+      "en": "the day"
+     },
+     {
+      "he": "בַּחֲצוֹצְרוֹת:",
+      "en": "is with the trumpets"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "On Yom Kippur of the Yovel year, the shofar is blown like on Rosh Hashanah. Rabbi Yehudah says the kind of shofar is different.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שָׁוֶה הַיּוֹבֵל לְרֹאשׁ הַשָּׁנָה לַתְּקִיעָה וְלַבְּרָכוֹת.",
+    "en": "Yom Kippur of the Yovel year is like Rosh Hashanah, for the shofar blowing and for the brachos.",
+    "st": "Yom Kippur of <b>the Jubilee Year is the same as Rosh HaShana with regard to</b> both <b>the</b> shofar <b>blasts</b> that are sounded <b>and the</b> additional <b>blessings</b> that are recited in the Amida prayer.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁוֶה",
+      "en": "is the same"
+     },
+     {
+      "he": "הַיּוֹבֵל",
+      "en": "the Yovel",
+      "note": "The fiftieth year, when the shofar is blown on Yom Kippur."
+     },
+     {
+      "he": "לְרֹאשׁ",
+      "en": "as Rosh"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "Hashanah"
+     },
+     {
+      "he": "לַתְּקִיעָה",
+      "en": "for the blowing"
+     },
+     {
+      "he": "וְלַבְּרָכוֹת.",
+      "en": "and for the brachos",
+      "note": "The extra brachos in Shemoneh Esrei."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda</b> disagrees and <b>says:</b> There is a difference between the two days:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בְּרֹאשׁ הַשָּׁנָה תּוֹקְעִין בְּשֶׁל זְכָרִים,",
+    "en": "On Rosh Hashanah we blow with rams' horns,",
+    "st": "<b>On Rosh HaShana one blows with</b> horns <b>of rams, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּרֹאשׁ",
+      "en": "on Rosh"
+     },
+     {
+      "he": "הַשָּׁנָה",
+      "en": "Hashanah"
+     },
+     {
+      "he": "תּוֹקְעִין",
+      "en": "we blow"
+     },
+     {
+      "he": "בְּשֶׁל",
+      "en": "with those of"
+     },
+     {
+      "he": "זְכָרִים,",
+      "en": "rams"
+     }
+    ]
+   },
+   {
+    "he": "וּבַיּוֹבְלוֹת בְּשֶׁל יְעֵלִים:",
+    "en": "and in the Yovel years, with wild goats' horns.",
+    "st": "<b>whereas in Jubilee Years</b> one blows <b>with</b> horns <b>of ibexes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַיּוֹבְלוֹת",
+      "en": "and in the Yovel years"
+     },
+     {
+      "he": "בְּשֶׁל",
+      "en": "with those of"
+     },
+     {
+      "he": "יְעֵלִים:",
+      "en": "wild goats"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "A shofar that cracked and was glued, or was made from glued pieces, may not be used. If it had a hole that was closed up, it depends on whether the sound is changed.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שׁוֹפָר שֶׁנִּסְדַּק וְדִבְּקוֹ,",
+    "en": "A shofar that cracked and was glued back together",
+    "st": "<b>A shofar that was cracked and</b> then <b>glued together,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹפָר",
+      "en": "a shofar"
+     },
+     {
+      "he": "שֶׁנִּסְדַּק",
+      "en": "that cracked"
+     },
+     {
+      "he": "וְדִבְּקוֹ,",
+      "en": "and he glued it"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל. דִּבֵּק שִׁבְרֵי שׁוֹפָרוֹת,",
+    "en": "is not kosher. If someone glued broken pieces of shofaros together,",
+    "st": "even though it appears to be whole, is <b>unfit.</b> Similarly, if <b>one glued together broken fragments of shofarot</b> to form a complete shofar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל.",
+      "en": "is not kosher"
+     },
+     {
+      "he": "דִּבֵּק",
+      "en": "he glued"
+     },
+     {
+      "he": "שִׁבְרֵי",
+      "en": "broken pieces of"
+     },
+     {
+      "he": "שׁוֹפָרוֹת,",
+      "en": "shofaros"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל. נִקַּב וּסְתָמוֹ,",
+    "en": "it is not kosher. If it got a hole and he closed it up,",
+    "st": "the shofar is <b>unfit.</b> If the shofar <b>was punctured and</b> the puncture <b>was sealed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל.",
+      "en": "is not kosher"
+     },
+     {
+      "he": "נִקַּב",
+      "en": "it got a hole"
+     },
+     {
+      "he": "וּסְתָמוֹ,",
+      "en": "and he closed it"
+     }
+    ]
+   },
+   {
+    "he": "אִם מְעַכֵּב אֶת הַתְּקִיעָה,",
+    "en": "if it gets in the way of the blowing,",
+    "st": "<b>if it impedes the blowing,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מְעַכֵּב",
+      "en": "it gets in the way of"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתְּקִיעָה,",
+      "en": "the blowing"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל. וְאִם לָאו, כָּשֵׁר:",
+    "en": "it is not kosher. And if not, it is kosher.",
+    "st": "the shofar is <b>unfit, but if not,</b> it is <b>fit.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל.",
+      "en": "not kosher"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     },
+     {
+      "he": "כָּשֵׁר:",
+      "en": "kosher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "To do the mitzvah of shofar, you must hear the real shofar sound, not an echo, and you must have in mind to do the mitzvah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַתּוֹקֵעַ לְתוֹךְ הַבּוֹר אוֹ לְתוֹךְ",
+    "en": "If someone blows into a pit, or into",
+    "st": "If <b>one sounds</b> a shofar <b>into a pit, or into </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַתּוֹקֵעַ",
+      "en": "one who blows"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "הַבּוֹר",
+      "en": "the pit"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     }
+    ]
+   },
+   {
+    "he": "הַדּוּת אוֹ לְתוֹךְ הַפִּטָּס,",
+    "en": "a water hole, or into a big jug,",
+    "st": "<b>a cistern, or into</b> a large <b>jug, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַדּוּת",
+      "en": "the cistern",
+      "note": "A hole for keeping water."
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "הַפִּטָּס,",
+      "en": "the big jug"
+     }
+    ]
+   },
+   {
+    "he": "אִם קוֹל שׁוֹפָר שָׁמַע,",
+    "en": "if he heard the sound of the shofar,",
+    "st": "<b>if he</b> clearly <b>heard the sound of the shofar, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "שׁוֹפָר",
+      "en": "the shofar"
+     },
+     {
+      "he": "שָׁמַע,",
+      "en": "he heard"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא. וְאִם קוֹל הֲבָרָה שָׁמַע,",
+    "en": "he has done the mitzvah. But if he heard the sound of an echo,",
+    "st": "<b>he has fulfilled</b> his obligation; <b>but if he heard the sound of an echo, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא.",
+      "en": "he has done the mitzvah"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "הֲבָרָה",
+      "en": "an echo"
+     },
+     {
+      "he": "שָׁמַע,",
+      "en": "he heard"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יָצָא.",
+    "en": "he has not done the mitzvah.",
+    "st": "<b>he has not fulfilled</b> his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָצָא.",
+      "en": "he has done the mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן מִי שֶׁהָיָה עוֹבֵר",
+    "en": "And also someone who was passing",
+    "st": "<b>And similarly,</b> if <b>one was passing </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "מִי",
+      "en": "someone"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "who was"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "passing"
+     }
+    ]
+   },
+   {
+    "he": "אֲחוֹרֵי בֵית הַכְּנֶסֶת,",
+    "en": "behind the shul,",
+    "st": "<b>behind a synagogue,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲחוֹרֵי",
+      "en": "behind"
+     },
+     {
+      "he": "בֵית",
+      "en": "the house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת,",
+      "en": "gathering (shul)"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁהָיָה בֵיתוֹ סָמוּךְ לְבֵית הַכְּנֶסֶת,",
+    "en": "or whose house was next to the shul,",
+    "st": "<b>or his house was adjacent to the synagogue, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "בֵיתוֹ",
+      "en": "his house"
+     },
+     {
+      "he": "סָמוּךְ",
+      "en": "next"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת,",
+      "en": "gathering (shul)"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁמַע קוֹל שׁוֹפָר אוֹ קוֹל מְגִלָּה,",
+    "en": "and he heard the sound of the shofar or the sound of the Megillah,",
+    "st": "<b>and he heard the sound of the shofar or the sound of the Scroll</b> of Esther being read,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁמַע",
+      "en": "and he heard"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "שׁוֹפָר",
+      "en": "the shofar"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "מְגִלָּה,",
+      "en": "the Megillah"
+     }
+    ]
+   },
+   {
+    "he": "אִם כִּוֵּן לִבּוֹ,",
+    "en": "if he had in mind to do the mitzvah,",
+    "st": "<b>if he focused his heart,</b> i.e. his intent, to fulfill his obligation,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כִּוֵּן",
+      "en": "he aimed"
+     },
+     {
+      "he": "לִבּוֹ,",
+      "en": "his heart"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא, וְאִם לָאו,",
+    "en": "he has done the mitzvah. And if not,",
+    "st": "<b>he has fulfilled</b> his obligation; <b>but if not, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא,",
+      "en": "he has done the mitzvah"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יָצָא.",
+    "en": "he has not done the mitzvah.",
+    "st": "<b>he has not fulfilled</b>",
+    "stMore": "his obligation. It is therefore possible for two people to hear the shofar blasts, but only one of them fulfills his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָצָא.",
+      "en": "he has done the mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁזֶּה",
+    "en": "Even though this one",
+    "st": "<b>Even though this one </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁזֶּה",
+      "en": "that this one"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמַע וְזֶה שָׁמַע,",
+    "en": "heard, and that one heard,",
+    "st": "<b>heard and</b> also <b>the other one heard,</b> nevertheless,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמַע",
+      "en": "heard"
+     },
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     },
+     {
+      "he": "שָׁמַע,",
+      "en": "heard"
+     }
+    ]
+   },
+   {
+    "he": "זֶה כִּוֵּן לִבּוֹ וְזֶה",
+    "en": "this one had it in mind, and that one",
+    "st": "<b>this one focused his heart</b> to fulfill his obligation and has therefore indeed fulfilled it, <b>but the other one </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "כִּוֵּן",
+      "en": "aimed"
+     },
+     {
+      "he": "לִבּוֹ",
+      "en": "his heart"
+     },
+     {
+      "he": "וְזֶה",
+      "en": "and that one"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כִוֵּן לִבּוֹ:",
+    "en": "did not have it in mind.",
+    "st": "<b>did not focus his heart,</b> and so he has not fulfilled his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כִוֵּן",
+      "en": "aimed"
+     },
+     {
+      "he": "לִבּוֹ:",
+      "en": "his heart"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "Moshe's raised hands and the copper snake helped only when Yisrael looked up and gave their hearts to Hashem. Also, someone who does not have to do a mitzvah cannot do it for others.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְהָיָה כַּאֲשֶׁר יָרִים משֶׁה יָדוֹ",
+    "en": "\"And when Moshe raised his hand,",
+    "st": "Incidental to the discussion of the required intent when sounding the shofar, the mishna cites the verse: <b>“And it came to pass, when Moses held up his hand, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and it was"
+     },
+     {
+      "he": "כַּאֲשֶׁר",
+      "en": "when"
+     },
+     {
+      "he": "יָרִים",
+      "en": "would raise"
+     },
+     {
+      "he": "משֶׁה",
+      "en": "Moshe"
+     },
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     }
+    ]
+   },
+   {
+    "he": "וְגָבַר יִשְׂרָאֵל וְגוֹ' (שמות יז),",
+    "en": "Yisrael won, and so on\" (Shemos 17).",
+    "st": "<b>that Israel prevailed;</b>",
+    "stMore": "and when he let down his hand, Amalek prevailed” (Exodus 17:11).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְגָבַר",
+      "en": "and won"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "וְגוֹ'",
+      "en": "and so on"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "יז),",
+      "en": "17)"
+     }
+    ]
+   },
+   {
+    "he": "וְכִי יָדָיו שֶׁל משֶׁה עוֹשׂוֹת",
+    "en": "Did Moshe's hands make",
+    "st": "It may be asked: <b>Did the hands of Moses make </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִי",
+      "en": "and do"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "the hands"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "משֶׁה",
+      "en": "Moshe"
+     },
+     {
+      "he": "עוֹשׂוֹת",
+      "en": "make"
+     }
+    ]
+   },
+   {
+    "he": "מִלְחָמָה אוֹ שׁוֹבְרוֹת מִלְחָמָה.",
+    "en": "the war win, or make it lose?",
+    "st": "<b>war</b> when he raised them <b>or break war</b> when he lowered them?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִלְחָמָה",
+      "en": "war"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שׁוֹבְרוֹת",
+      "en": "break"
+     },
+     {
+      "he": "מִלְחָמָה.",
+      "en": "war"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא לוֹמַר לְךָ,",
+    "en": "Rather, this teaches you:",
+    "st": "<b>Rather,</b> the verse comes <b>to tell you</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "כָּל זְמַן שֶׁהָיוּ יִשְׂרָאֵל מִסְתַּכְּלִים",
+    "en": "as long as Yisrael looked",
+    "st": "that <b>as long as the Jewish people turned their eyes </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that were"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "מִסְתַּכְּלִים",
+      "en": "looking"
+     }
+    ]
+   },
+   {
+    "he": "כְּלַפֵּי מַעְלָה וּמְשַׁעְבְּדִין אֶת לִבָּם",
+    "en": "up, and gave their hearts",
+    "st": "<b>upward and subjected their hearts </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּלַפֵּי",
+      "en": "toward"
+     },
+     {
+      "he": "מַעְלָה",
+      "en": "above"
+     },
+     {
+      "he": "וּמְשַׁעְבְּדִין",
+      "en": "and gave over",
+      "note": "Made their hearts serve."
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "לִבָּם",
+      "en": "their hearts"
+     }
+    ]
+   },
+   {
+    "he": "לַאֲבִיהֶם שֶׁבַּשָּׁמַיִם הָיוּ מִתְגַּבְּרִים.",
+    "en": "to their Father in Heaven, they would win.",
+    "st": "<b>to their Father in Heaven, they prevailed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַאֲבִיהֶם",
+      "en": "to their Father"
+     },
+     {
+      "he": "שֶׁבַּשָּׁמַיִם",
+      "en": "in Heaven"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "מִתְגַּבְּרִים.",
+      "en": "win"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "And if not,",
+    "st": "<b>but if not, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ נוֹפְלִין.",
+    "en": "they would lose.",
+    "st": "<b>they fell. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "נוֹפְלִין.",
+      "en": "fall"
+     }
+    ]
+   },
+   {
+    "he": "כַּיּוֹצֵא בַדָּבָר אַתָּה אוֹמֵר (במדבר כא),",
+    "en": "In the same way, you can say (Bamidbar 21):",
+    "st": "<b>Similarly, you can say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּיּוֹצֵא",
+      "en": "similar"
+     },
+     {
+      "he": "בַדָּבָר",
+      "en": "to the thing"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "say"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "כא),",
+      "en": "21)"
+     }
+    ]
+   },
+   {
+    "he": "עֲשֵׂה לְךָ שָׂרָף וְשִׂים",
+    "en": "\"Make for yourself a fiery snake, and put",
+    "st": "The verse states: <b>“Make for yourself a fiery serpent, and set </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲשֵׂה",
+      "en": "make"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for yourself"
+     },
+     {
+      "he": "שָׂרָף",
+      "en": "a fiery snake"
+     },
+     {
+      "he": "וְשִׂים",
+      "en": "and put"
+     }
+    ]
+   },
+   {
+    "he": "אֹתוֹ עַל נֵס,",
+    "en": "it on a pole,",
+    "st": "<b>it upon a pole; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "נֵס,",
+      "en": "a pole"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה כָּל הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָי.",
+    "en": "and everyone who is bitten will look at it and live.\"",
+    "st": "<b>and it shall come to pass, that everyone that is bitten, when he sees it, he shall live”</b> (Numbers 21:8).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and it will be"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "הַנָּשׁוּךְ",
+      "en": "one who is bitten"
+     },
+     {
+      "he": "וְרָאָה",
+      "en": "and sees"
+     },
+     {
+      "he": "אֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "וָחָי.",
+      "en": "and lives"
+     }
+    ]
+   },
+   {
+    "he": "וְכִי נָחָשׁ מֵמִית,",
+    "en": "Does a snake kill,",
+    "st": "Once again it may be asked: <b>Did the serpent kill, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִי",
+      "en": "and does"
+     },
+     {
+      "he": "נָחָשׁ",
+      "en": "a snake"
+     },
+     {
+      "he": "מֵמִית,",
+      "en": "kill"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נָחָשׁ מְחַיֶּה.",
+    "en": "or does a snake give life?",
+    "st": "<b>or did the serpent preserve life? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נָחָשׁ",
+      "en": "a snake"
+     },
+     {
+      "he": "מְחַיֶּה.",
+      "en": "give life"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא, בִּזְמַן שֶׁיִּשְׂרָאֵל מִסְתַּכְּלִין כְּלַפֵּי מַעְלָה",
+    "en": "Rather, when Yisrael looked up",
+    "st": "<b>Rather, when the Jewish people turned their eyes upward </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא,",
+      "en": "rather"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁיִּשְׂרָאֵל",
+      "en": "that Yisrael"
+     },
+     {
+      "he": "מִסְתַּכְּלִין",
+      "en": "look"
+     },
+     {
+      "he": "כְּלַפֵּי",
+      "en": "toward"
+     },
+     {
+      "he": "מַעְלָה",
+      "en": "above"
+     }
+    ]
+   },
+   {
+    "he": "וּמְשַׁעְבְּדִין אֶת לִבָּם לַאֲבִיהֶן שֶׁבַּשָּׁמַיִם,",
+    "en": "and gave their hearts to their Father in Heaven,",
+    "st": "<b>and subjected their hearts to their Father in Heaven, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְשַׁעְבְּדִין",
+      "en": "and give over"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "לִבָּם",
+      "en": "their hearts"
+     },
+     {
+      "he": "לַאֲבִיהֶן",
+      "en": "to their Father"
+     },
+     {
+      "he": "שֶׁבַּשָּׁמַיִם,",
+      "en": "in Heaven"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מִתְרַפְּאִים,",
+    "en": "they were healed.",
+    "st": "<b>they were healed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "מִתְרַפְּאִים,",
+      "en": "be healed"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "And if not,",
+    "st": "<b>but if not, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ נִמּוֹקִים.",
+    "en": "they would waste away.",
+    "st": "<b>they rotted</b>",
+    "stMore": "from their snakebites. Returning to its halakhic discussion, the mishna continues:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "נִמּוֹקִים.",
+      "en": "waste away"
+     }
+    ]
+   },
+   {
+    "he": "חֵרֵשׁ, שׁוֹטֶה,",
+    "en": "A deaf person, a shoteh,",
+    "st": "<b>A deaf-mute, an imbecile, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֵרֵשׁ,",
+      "en": "a deaf person",
+      "note": "Someone who cannot hear or speak."
+     },
+     {
+      "he": "שׁוֹטֶה,",
+      "en": "a shoteh",
+      "note": "Someone whose mind does not work properly."
+     }
+    ]
+   },
+   {
+    "he": "וְקָטָן, אֵין מוֹצִיאִין אֶת הָרַבִּים יְדֵי חוֹבָתָן.",
+    "en": "or a child cannot blow the shofar for everyone else.",
+    "st": "<b>or a minor</b> who sounds the shofar <b>cannot discharge the obligation on behalf of the community. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקָטָן,",
+      "en": "and a child"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מוֹצִיאִין",
+      "en": "let fulfill"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרַבִּים",
+      "en": "the many"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "(the hands of)"
+     },
+     {
+      "he": "חוֹבָתָן.",
+      "en": "their duty"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle</b> with regard to similar matters:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁאֵינוֹ מְחֻיָּב בַּדָּבָר,",
+    "en": "Anyone who does not have to do a mitzvah",
+    "st": "<b>Whoever is not obligated to</b> do <b>a</b> certain <b>matter </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "anyone"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that is not"
+     },
+     {
+      "he": "מְחֻיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "בַּדָּבָר,",
+      "en": "in the thing"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מוֹצִיא אֶת הָרַבִּים יְדֵי חוֹבָתָן:",
+    "en": "cannot do it for everyone else.",
+    "st": "<b>cannot discharge the obligation on behalf of the community.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "cannot"
+     },
+     {
+      "he": "מוֹצִיא",
+      "en": "let fulfill"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרַבִּים",
+      "en": "the many"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "(the hands of)"
+     },
+     {
+      "he": "חוֹבָתָן:",
+      "en": "their duty"
+     }
+    ]
+   }
+  ]
+ }
+]

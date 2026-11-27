@@ -39,13 +39,15 @@ export function segments(chunks: Chunk[]): Array<[number, number]> {
 }
 
 /**
- * The cumulative-chaining sequence for one mishnah:
- * per segment: C1, C2, [1-2], C3, [1-3] … [1-n]; then cumulative joins of the segments
- * ([A+B], [A+B+C] …). The final step is always the whole mishnah.
+ * The cumulative-chaining sequence for one mishnah, the same at both levels:
+ * pieces in a part: C1, C2, [1-2], C3, [1-3] … [1-n] (the whole part);
+ * parts in the mishnah: part 1, part 2, [parts 1-2], part 3, [parts 1-3] … — each join comes right after the part it
+ * adds, before the next part starts. The final step is always the whole mishnah.
  */
 export function buildSteps(chunks: Chunk[]): Step[] {
   const segs = segments(chunks);
   const steps: Step[] = [];
+  const first = segs[0];
   segs.forEach(([a, b], si) => {
     const part = segs.length > 1 ? `Part ${si + 1} · ` : "";
     for (let c = a; c <= b; c++) {
@@ -58,14 +60,11 @@ export function buildSteps(chunks: Chunk[]): Step[] {
       // A one-chunk segment still needs a chain step to count as "said cold".
       steps.push({ kind: "chain", from: a, to: b, newest: b, label: `${part}Say it by heart` });
     }
+    if (si > 0 && first) {
+      const label = si === segs.length - 1 ? "The whole mishnah!" : `Parts 1–${si + 1} together`;
+      steps.push({ kind: "chain", from: first[0], to: b, newest: b, label });
+    }
   });
-  for (let si = 1; si < segs.length; si++) {
-    const seg = segs[si];
-    const first = segs[0];
-    if (!seg || !first) continue;
-    const label = si === segs.length - 1 ? "The whole mishnah!" : `Parts 1–${si + 1} together`;
-    steps.push({ kind: "chain", from: first[0], to: seg[1], newest: seg[1], label });
-  }
   return steps;
 }
 
@@ -94,15 +93,17 @@ export type PathNode =
 export interface PathGroup {
   key: number | "join";
   nodes: PathNode[];
-  /** Step indices in this group, ascending. */
+  /** Step indices in this group, ascending. A part's are contiguous; the join group's are spread between the parts. */
   steps: number[];
   /** Pieces in the part, or the number of parts for the join group. */
   pieces: number;
 }
 
 /** Groups the steps into drawable parts: one per segment, then (for 2+ segments) the join group. */
-export function pathGroups(steps: Step[], chunks: Chunk[]): PathGroup[] {
-  const segs = segments(chunks);
+export const pathGroups = (steps: Step[], chunks: Chunk[]): PathGroup[] => pathGroupsFor(steps, segments(chunks));
+
+/** pathGroups() for any segmentation (the perek path passes its parts, 0-based). */
+export function pathGroupsFor(steps: Step[], segs: Array<[number, number]>): PathGroup[] {
   const keys = steps.map((s) => groupOf(s, segs));
   const groups: PathGroup[] = segs.map(([a, b], si) => {
     const nodes: PathNode[] = [];
@@ -152,7 +153,10 @@ export function stepPosition(groups: PathGroup[], i: number): StepPosition | nul
   return null;
 }
 
-/** First and last step index of a group (its steps are contiguous). Null for an empty group. */
+/**
+ * First and last step index of a group. Null for an empty group. A part's steps are contiguous; the join group's
+ * range runs from "parts 1–2 together" to the whole mishnah, so it takes in the later parts built up between joins.
+ */
 export function groupRange(g: PathGroup): [number, number] | null {
   const first = g.steps[0];
   const last = g.steps[g.steps.length - 1];
@@ -170,7 +174,7 @@ export function practiceLabel(groups: PathGroup[], sel: { step: number } | { gro
   if ("group" in sel) {
     const g = groups[sel.group];
     if (!g || groups.length === 1) return "all the steps";
-    return g.key === "join" ? "joining the parts" : `Part ${g.key + 1}`;
+    return g.key === "join" ? "building up the parts" : `Part ${g.key + 1}`;
   }
   const pos = stepPosition(groups, sel.step);
   if (!pos) return "all the steps";

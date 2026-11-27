@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import type { Chunk, MeaningView } from "../types";
 import { useWordCursor, wordAvail, wordOrdinal } from "../wordCursor";
 import { CueCard } from "./CueCard";
+import { useMasechta } from "./MasechtaGate";
 import { Meaning, ViewToggle } from "./Meaning";
 import { Chevron, WordPanel } from "./WordPanel";
 
@@ -15,15 +16,19 @@ interface Props {
   onDone: () => void;
 }
 
-/** First exposure: full text + meaning; tap words (or step with Next/Back) for glosses; read it out loud twice, then tap once to move on. */
+/**
+ * First exposure: full text + meaning; tap words (or step with Next/Back) for glosses; read it out loud twice, then tap
+ * once to move on. A Hebrew-only masechta has no meanings: just the text and the button.
+ */
 export function ReadPhase({ chunk, context = [], perek, mishnah, view, onView, onDone }: Props) {
+  const { translated } = useMasechta();
   const avail = useMemo(() => wordAvail([chunk]), [chunk]);
   const cur = useWordCursor(avail, false, true, chunk);
   const word = cur.sel ? (chunk.words[cur.sel.word] ?? null) : null;
   const ord = cur.sel ? wordOrdinal(avail, cur.sel, false) : { n: 0, total: 0 };
   return (
     <div className="recite">
-      <div className="prompt" dir="ltr">Read it out loud 2 times. Tap a word to see what it means.</div>
+      <div className="prompt" dir="ltr">{translated ? "Read it out loud 2 times. Tap a word to see what it means." : "Read it out loud 2 times."}</div>
       {context.length > 0 && (
         <div className="context">{context.map((c) => c.he).join(" ")}</div>
       )}
@@ -31,13 +36,11 @@ export function ReadPhase({ chunk, context = [], perek, mishnah, view, onView, o
         <CueCard
           he={chunk.he}
           cue={0}
-          glossWords={chunk.words}
-          onWordTap={(_, i) => cur.tap(0, i)}
-          selectedIndex={cur.sel?.word}
+          {...(translated ? { glossWords: chunk.words, onWordTap: (_: unknown, i: number) => cur.tap(0, i), selectedIndex: cur.sel?.word } : {})}
           highlight
         />
       </div>
-      <WordPanel
+      {translated && <WordPanel
         word={word}
         n={ord.n}
         total={ord.total}
@@ -46,9 +49,9 @@ export function ReadPhase({ chunk, context = [], perek, mishnah, view, onView, o
         canNext={cur.canNext}
         canPrev={cur.canPrev}
         placeholder="Tap a word, or press Next to go word by word."
-      />
-      {chunk.en && <Meaning key={view} chunk={chunk} view={view} perek={perek} mishnah={mishnah} />}
-      {chunk.st && <ViewToggle view={view} onChange={onView} />}
+      />}
+      {translated && chunk.en && <Meaning key={view} chunk={chunk} view={view} perek={perek} mishnah={mishnah} />}
+      {translated && chunk.st && <ViewToggle view={view} onChange={onView} />}
       <div className="actions">
         {/* Forward points left, matching the word panel's Next (Hebrew reads right to left). */}
         <button className="btn primary big btn-next" dir="ltr" onClick={onDone}>

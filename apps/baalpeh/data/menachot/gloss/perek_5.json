@@ -1,0 +1,3187 @@
+[
+ {
+  "perek": 5,
+  "mishnah": 1,
+  "summary": "All menachos are brought as matzah, except the chametz loaves of the todah and the two loaves of Shavuos. Rabbi Meir and Rabbi Yehuda argue about how to make those loaves rise.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַמְּנָחוֹת בָּאוֹת מַצָּה,",
+    "en": "All the menachos are brought as matzah,",
+    "st": "<b>All the meal offerings come</b> to be offered as <b>matza,</b> with care taken to prevent leavening,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַמְּנָחוֹת",
+      "en": "the menachos"
+     },
+     {
+      "he": "בָּאוֹת",
+      "en": "are brought"
+     },
+     {
+      "he": "מַצָּה,",
+      "en": "matzah"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מֵחָמֵץ שֶׁבַּתּוֹדָה וּשְׁתֵּי הַלֶּחֶם,",
+    "en": "except the chametz loaves of the todah and the two loaves,",
+    "st": "<b>except for</b> ten loaves of <b>leavened bread</b> among the forty loaves <b>that</b> accompany <b>the thanks offering, and</b> the meal offering of <b>the two loaves</b> that are brought on the festival of Shavuot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵחָמֵץ",
+      "en": "for the chametz"
+     },
+     {
+      "he": "שֶׁבַּתּוֹדָה",
+      "en": "that is in the todah",
+      "note": "Ten of the todah's forty loaves are chametz."
+     },
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and the two of"
+     },
+     {
+      "he": "הַלֶּחֶם,",
+      "en": "the bread",
+      "note": "The two loaves of Shavuos."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵן בָּאוֹת חָמֵץ.",
+    "en": "which are brought as chametz.",
+    "st": "<b>as they come</b> to be offered as <b>leavened bread.</b> The Sages disagree as to the manner in which those meal offerings are leavened.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "בָּאוֹת",
+      "en": "are brought"
+     },
+     {
+      "he": "חָמֵץ.",
+      "en": "chametz"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says:",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׂאֹר בּוֹדֶה לָהֶן מִתּוֹכָן וּמְחַמְּצָן.",
+    "en": "He takes some of their own flour to make the sourdough, and makes them rise with it.",
+    "st": "With regard to <b>the leaven</b> added to the dough to facilitate leavening, <b>one separates [bodeh]</b> part of the flour <b>for</b> the meal offerings <b>from within</b> the flour of the meal offerings themselves, causes it to become leaven, <b>and leavens</b> the meal offerings with it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׂאֹר",
+      "en": "sourdough",
+      "note": "Dough left to rise, used to make other dough rise."
+     },
+     {
+      "he": "בּוֹדֶה",
+      "en": "takes out"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "מִתּוֹכָן",
+      "en": "from inside them"
+     },
+     {
+      "he": "וּמְחַמְּצָן.",
+      "en": "and makes them chametz"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says:",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הִיא אֵינָהּ מִן הַמֻּבְחָר,",
+    "en": "That way is also not the best,",
+    "st": "<b>That is also not the optimal</b> manner in which to fulfill the mitzva, as aged leaven is a more effective leavening agent.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הִיא",
+      "en": "it"
+     },
+     {
+      "he": "אֵינָהּ",
+      "en": "is not"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמֻּבְחָר,",
+      "en": "the best"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מֵבִיא אֶת הַשְּׂאֹר,",
+    "en": "but he brings the sourdough,",
+    "st": "<b>Rather, one brings the leaven</b> from another, aged, dough",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "he brings"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשְּׂאֹר,",
+      "en": "the sourdough"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתֵן לְתוֹךְ הַמִּדָּה,",
+    "en": "and puts it into the measure,",
+    "st": "<b>and places it into the measuring</b> vessel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and puts it"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "הַמִּדָּה,",
+      "en": "the measure",
+      "note": "The cup used to measure an issaron of flour."
+     }
+    ]
+   },
+   {
+    "he": "וּמְמַלֵּא אֶת הַמִּדָּה.",
+    "en": "and fills up the measure.",
+    "st": "<b>and</b> then he adds flour until he <b>fills the measuring</b> vessel, to ensure the appropriate measure of a tenth of an ephah of flour.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְמַלֵּא",
+      "en": "and fills"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמִּדָּה.",
+      "en": "the measure"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him:",
+    "st": "The Rabbis <b>said to</b> Rabbi Yehuda:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אַף הִיא הָיְתָה חֲסֵרָה אוֹ יְתֵרָה:",
+    "en": "That way, too, it would come out too little or too much.",
+    "st": "<b>That too</b> is inappropriate, as in that manner the meal offering <b>will</b> either be <b>lacking</b> the requisite measure <b>or</b> be <b>greater</b> than the required measure, as the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הִיא",
+      "en": "it"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "would be"
+     },
+     {
+      "he": "חֲסֵרָה",
+      "en": "too little"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "יְתֵרָה:",
+      "en": "too much"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 2,
+  "summary": "Menachos must be watched so they do not become chametz. Even if only the leftovers become chametz, a person does an aveirah, and he is punished for kneading, shaping or baking it as chametz.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כָּל הַמְּנָחוֹת נִלּוֹשׁוֹת בְּפוֹשְׁרִין,",
+    "en": "All the menachos are kneaded with lukewarm water,",
+    "st": "<b>All the meal-offerings</b> that come as matza <b>are</b> to be <b>kneaded with lukewarm</b> water so that the dough will bake well, as only a small amount of oil is added.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַמְּנָחוֹת",
+      "en": "the menachos"
+     },
+     {
+      "he": "נִלּוֹשׁוֹת",
+      "en": "are kneaded"
+     },
+     {
+      "he": "בְּפוֹשְׁרִין,",
+      "en": "with lukewarm water"
+     }
+    ]
+   },
+   {
+    "he": "וּמְשַׁמְּרָן שֶׁלֹּא יַחֲמִיצוּ.",
+    "en": "and he watches them so they do not become chametz.",
+    "st": "<b>And one must watch over them</b> to ensure <b>that they do not</b> become <b>leaven</b> while kneading and shaping them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְשַׁמְּרָן",
+      "en": "and he watches them"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יַחֲמִיצוּ.",
+      "en": "they become chametz"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הֶחֱמִיצוּ שְׁיָרֶיהָ,",
+    "en": "And if its leftovers became chametz,",
+    "st": "<b>and if</b> a meal offering or even only <b>its remainder becomes leaven,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הֶחֱמִיצוּ",
+      "en": "became chametz"
+     },
+     {
+      "he": "שְׁיָרֶיהָ,",
+      "en": "its leftovers"
+     }
+    ]
+   },
+   {
+    "he": "עוֹבֵר בְּלֹא תַעֲשֶׂה,",
+    "en": "he breaks a \"do not\" mitzvah,",
+    "st": "<b>one violates a prohibition,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹבֵר",
+      "en": "he breaks"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "a \"do not\""
+     },
+     {
+      "he": "תַעֲשֶׂה,",
+      "en": "mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא ב),",
+    "en": "as it says (Vayikra 2):",
+    "st": "<b>as it is stated: “</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "ב),",
+      "en": "2)"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמִּנְחָה אֲשֶׁר תַּקְרִיבוּ",
+    "en": "\"Any mincha that you bring",
+    "st": "<b>No meal offering that you shall bring</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "הַמִּנְחָה",
+      "en": "the mincha"
+     },
+     {
+      "he": "אֲשֶׁר",
+      "en": "that"
+     },
+     {
+      "he": "תַּקְרִיבוּ",
+      "en": "you bring"
+     }
+    ]
+   },
+   {
+    "he": "לַה' לֹא תֵעָשֶׂה חָמֵץ.",
+    "en": "to Hashem must not be made chametz.\"",
+    "st": "<b>to the Lord shall be made with leaven;</b>",
+    "stMore": "as you shall burn no leaven nor any honey as an offering made by fire to the Lord” (Leviticus 2:11).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַה'",
+      "en": "to Hashem"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תֵעָשֶׂה",
+      "en": "shall be made"
+     },
+     {
+      "he": "חָמֵץ.",
+      "en": "chametz"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּבִים עַל לִישָׁתָהּ,",
+    "en": "And he is punished for kneading it,",
+    "st": "<b>And one is liable</b> to be flogged <b>for kneading</b> the meal offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּבִים",
+      "en": "and they are liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "לִישָׁתָהּ,",
+      "en": "its kneading"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל עֲרִיכָתָהּ,",
+    "en": "and for shaping it,",
+    "st": "<b>and for shaping</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "עֲרִיכָתָהּ,",
+      "en": "its shaping"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל אֲפִיָּתָהּ:",
+    "en": "and for baking it.",
+    "st": "<b>and for baking</b> it, if the meal offering becomes leaven.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "אֲפִיָּתָהּ:",
+      "en": "its baking"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 3,
+  "summary": "Some menachos need both oil and frankincense, some only oil, some only frankincense, and some neither. The mishnah lists which are which.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יֵשׁ טְעוּנוֹת שֶׁמֶן וּלְבוֹנָה,",
+    "en": "Some need oil and frankincense,",
+    "st": "<b>There are</b> four types of meal offerings: Those <b>that require</b> both <b>oil and frankincense,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "טְעוּנוֹת",
+      "en": "ones that need"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וּלְבוֹנָה,",
+      "en": "and frankincense"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמֶן וְלֹא לְבוֹנָה,",
+    "en": "some need oil but not frankincense,",
+    "st": "those that require <b>oil but not frankincense,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְבוֹנָה,",
+      "en": "frankincense"
+     }
+    ]
+   },
+   {
+    "he": "לְבוֹנָה וְלֹא שֶׁמֶן,",
+    "en": "some need frankincense but not oil,",
+    "st": "those that require <b>frankincense but not oil,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְבוֹנָה",
+      "en": "frankincense"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "שֶׁמֶן,",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שֶׁמֶן וְלֹא לְבוֹנָה.",
+    "en": "and some need neither oil nor frankincense.",
+    "st": "and those that require <b>neither frankincense nor oil.</b> The mishna elaborates:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְבוֹנָה.",
+      "en": "frankincense"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ טְעוּנוֹת שֶׁמֶן וּלְבוֹנָה,",
+    "en": "These need oil and frankincense:",
+    "st": "<b>And these</b> are the meal offerings that <b>require</b> both <b>oil and frankincense:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "טְעוּנוֹת",
+      "en": "need"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וּלְבוֹנָה,",
+      "en": "and frankincense"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת הַסֹּלֶת,",
+    "en": "the mincha of fine flour,",
+    "st": "<b>The fine-flour meal offering,</b> as it is stated:",
+    "stMore": "“And he shall pour oil upon it, and put frankincense thereon” (Leviticus 2:1);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "הַסֹּלֶת,",
+      "en": "the fine flour"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּחֲבַת, וְהַמַּרְחֶשֶׁת,",
+    "en": "and the one made in a flat pan, and the one made in a deep pan,",
+    "st": "<b>the</b> meal offering prepared in <b>a pan</b> (see Leviticus 2:5–6); <b>the</b> meal offering prepared in <b>a deep pan</b> (see Leviticus 2:7–10);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּחֲבַת,",
+      "en": "and the flat pan"
+     },
+     {
+      "he": "וְהַמַּרְחֶשֶׁת,",
+      "en": "and the deep pan"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחַלּוֹת, וְהָרְקִיקִין,",
+    "en": "and the loaves and the wafers baked in an oven,",
+    "st": "<b>and the</b> meal offering baked in an oven, which can be brought in the form of <b>loaves or</b> in the form of <b>wafers</b> (see Leviticus 2:4).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחַלּוֹת,",
+      "en": "and the loaves"
+     },
+     {
+      "he": "וְהָרְקִיקִין,",
+      "en": "and the wafers",
+      "note": "Thin crackers."
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת כֹּהֲנִים,",
+    "en": "the mincha of Kohanim,",
+    "st": "Additional meal offerings that require both oil and frankincense are <b>the meal offering of priests;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "כֹּהֲנִים,",
+      "en": "Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנְחַת כֹּהֵן מָשִׁיחַ,",
+    "en": "and the mincha of the Kohen Gadol,",
+    "st": "<b>the meal offering of the anointed priest,</b>",
+    "stMore": "i.e., the griddle-cake offering brought by the High Priest every day, half in the morning and half in the evening;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "מָשִׁיחַ,",
+      "en": "anointed",
+      "note": "The Kohen Gadol."
+     }
+    ]
+   },
+   {
+    "he": "וּמִנְחַת גּוֹיִם,",
+    "en": "and the mincha of non-Jews,",
+    "st": "<b>the meal offering of a gentile;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "גּוֹיִם,",
+      "en": "non-Jews"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנְחַת נָשִׁים,",
+    "en": "and the mincha of women,",
+    "st": "<b>a meal offering</b> brought <b>by women;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "נָשִׁים,",
+      "en": "women"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנְחַת הָעֹמֶר.",
+    "en": "and the mincha of the omer.",
+    "st": "and <b>the omer meal offering</b> (see Leviticus 23:15).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "הָעֹמֶר.",
+      "en": "the omer",
+      "note": "The barley offering brought on the second day of Pesach."
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת נְסָכִין טְעוּנָה שֶׁמֶן,",
+    "en": "The mincha of nesachim needs oil,",
+    "st": "<b>The meal offering</b> brought with <b>libations</b> that accompany burnt offerings and peace offerings <b>requires oil</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "נְסָכִין",
+      "en": "nesachim"
+     },
+     {
+      "he": "טְעוּנָה",
+      "en": "needs"
+     },
+     {
+      "he": "שֶׁמֶן,",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין טְעוּנָה לְבוֹנָה.",
+    "en": "but does not need frankincense.",
+    "st": "<b>but does not require frankincense.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and does not"
+     },
+     {
+      "he": "טְעוּנָה",
+      "en": "need"
+     },
+     {
+      "he": "לְבוֹנָה.",
+      "en": "frankincense"
+     }
+    ]
+   },
+   {
+    "he": "לֶחֶם הַפָּנִים טָעוּן לְבוֹנָה,",
+    "en": "The lechem hapanim needs frankincense,",
+    "st": "<b>The shewbread requires frankincense</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶחֶם",
+      "en": "the lechem"
+     },
+     {
+      "he": "הַפָּנִים",
+      "en": "hapanim"
+     },
+     {
+      "he": "טָעוּן",
+      "en": "needs"
+     },
+     {
+      "he": "לְבוֹנָה,",
+      "en": "frankincense"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין טָעוּן שָׁמֶן.",
+    "en": "but does not need oil.",
+    "st": "<b>but does not require oil.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and does not"
+     },
+     {
+      "he": "טָעוּן",
+      "en": "need"
+     },
+     {
+      "he": "שָׁמֶן.",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי הַלֶּחֶם,",
+    "en": "The two loaves,",
+    "st": "<b>The two loaves</b> brought on the festival of Shavuot (see Leviticus 23:17),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "הַלֶּחֶם,",
+      "en": "the bread"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת חוֹטֵא וּמִנְחַת קְנָאוֹת,",
+    "en": "the mincha of a sinner and the mincha of jealousy,",
+    "st": "<b>the meal offering of a sinner, and the meal offering of jealousy</b> brought by a sota",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "חוֹטֵא",
+      "en": "a sinner"
+     },
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "קְנָאוֹת,",
+      "en": "jealousy"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שֶׁמֶן וְלֹא לְבוֹנָה:",
+    "en": "need neither oil nor frankincense.",
+    "st": "<b>require neither oil nor frankincense.</b>",
+    "stMore": "The two loaves do not require oil or frankincense because these additions are not mentioned with regard to it. The meal offering of a sinner does not require them, as it is written: “He shall not put oil upon it, neither shall he give any frankincense upon it; for it is a sin offering” (Leviticus 5:11). With regard to the meal offering brought by a sota, it is similarly written: “He shall pour no oil upon it, nor give frankincense upon it, for it is a meal offering of jealousy, a meal offering of memorial, bringing iniquity to remembrance” (Numbers 5:15).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְבוֹנָה:",
+      "en": "frankincense"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 4,
+  "summary": "Putting oil on a mincha of a sinner or of a sotah is an aveirah, and so is putting frankincense on it. Oil makes it pasul, but frankincense can be picked off. Putting oil on the leftovers, or a vessel of oil on top of its vessel, is not a problem.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְחַיָּב עַל הַשֶּׁמֶן בִּפְנֵי עַצְמוֹ,",
+    "en": "He is punished for the oil by itself,",
+    "st": "<b>And</b> if one places oil or frankincense on the meal offering of a sinner or on the meal offering of jealousy brought by a sota, he is <b>liable</b> to be flogged <b>for</b> violating the prohibition against placing <b>the oil by itself,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּב",
+      "en": "and he is liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַשֶּׁמֶן",
+      "en": "the oil"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "by"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "itself"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַלְּבוֹנָה בִּפְנֵי עַצְמָהּ.",
+    "en": "and for the frankincense by itself.",
+    "st": "<b>and</b> he is <b>liable</b> to be flogged <b>for</b> violating the prohibition against placing <b>the frankincense by itself,</b> as these are two separate prohibitions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "הַלְּבוֹנָה",
+      "en": "the frankincense"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "by"
+     },
+     {
+      "he": "עַצְמָהּ.",
+      "en": "itself"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן עָלֶיהָ שֶׁמֶן,",
+    "en": "If he put oil on it,",
+    "st": "If <b>one placed oil upon</b> the meal offering",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "on it"
+     },
+     {
+      "he": "שֶׁמֶן,",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "פְּסָלָהּ. לְבוֹנָה,",
+    "en": "he made it pasul. If he put frankincense,",
+    "st": "<b>he has disqualified it,</b> but if one placed <b>frankincense</b> upon the meal offering",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּסָלָהּ.",
+      "en": "he made it pasul"
+     },
+     {
+      "he": "לְבוֹנָה,",
+      "en": "frankincense"
+     }
+    ]
+   },
+   {
+    "he": "יִלְקְטֶנָּה. נָתַן שֶׁמֶן עַל שְׁיָרֶיהָ,",
+    "en": "he should pick it off. If he put oil on its leftovers,",
+    "st": "<b>he should gather</b> the frankincense and remove <b>it.</b> In this manner, the meal offering can be salvaged. Furthermore, one violates the prohibition only by placing oil on the meal offering prior to the removal of the handful; if <b>he placed oil on its remainder</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִלְקְטֶנָּה.",
+      "en": "he should pick it off"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "שְׁיָרֶיהָ,",
+      "en": "its leftovers"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עוֹבֵר בְּלֹא תַעֲשֶׂה.",
+    "en": "he does not break a \"do not\" mitzvah.",
+    "st": "<b>he does not violate a prohibition.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "break"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "a \"do not\""
+     },
+     {
+      "he": "תַעֲשֶׂה.",
+      "en": "mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן כְּלִי עַל גַּבֵּי כְּלִי,",
+    "en": "If he put a vessel on top of the vessel,",
+    "st": "If <b>one placed a vessel</b> with oil <b>on top of a vessel</b> that contains a meal offering of a sinner or a meal offering brought by a sota",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he put"
+     },
+     {
+      "he": "כְּלִי",
+      "en": "a vessel"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "כְּלִי,",
+      "en": "a vessel"
+     }
+    ]
+   },
+   {
+    "he": "לֹא פְסָלָהּ:",
+    "en": "he did not make it pasul.",
+    "st": "<b>he did not disqualify</b> the meal offering, as the oil was not placed on the meal offering itself.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "פְסָלָהּ:",
+      "en": "he made it pasul"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 5,
+  "summary": "Some menachos need to be brought near the corner of the mizbeach (hagashah), some need waving (tenufah), some need both, and some need neither. Rabbi Shimon says that menachos with no handful taken also need no hagashah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יֵשׁ טְעוּנוֹת הַגָּשָׁה וְאֵינָן טְעוּנוֹת תְּנוּפָה,",
+    "en": "Some need to be brought near the mizbeach but do not need waving,",
+    "st": "<b>There are</b> four categories of meal offerings: Those that <b>require bringing near,</b> a rite that requires the priests to carry the offering in their hands and bring it near the southwest corner of the altar, <b>but do not require waving;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "טְעוּנוֹת",
+      "en": "ones that need"
+     },
+     {
+      "he": "הַגָּשָׁה",
+      "en": "bringing near",
+      "note": "Bringing the mincha to the corner of the mizbeach."
+     },
+     {
+      "he": "וְאֵינָן",
+      "en": "and they do not"
+     },
+     {
+      "he": "טְעוּנוֹת",
+      "en": "need"
+     },
+     {
+      "he": "תְּנוּפָה,",
+      "en": "waving"
+     }
+    ]
+   },
+   {
+    "he": "תְּנוּפָה וְלֹא הַגָּשָׁה, הַגָּשָׁה וּתְנוּפָה,",
+    "en": "some need waving but not bringing near, some need bringing near and waving,",
+    "st": "those that require both <b>bringing near and waving;</b> those that require <b>waving but not bringing near;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַגָּשָׁה,",
+      "en": "bringing near"
+     },
+     {
+      "he": "הַגָּשָׁה",
+      "en": "bringing near"
+     },
+     {
+      "he": "וּתְנוּפָה,",
+      "en": "and waving"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תְנוּפָה וְלֹא הַגָּשָׁה.",
+    "en": "and some need neither waving nor bringing near.",
+    "st": "and those that require <b>neither waving nor bringing near.</b> The mishna elaborates:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תְנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַגָּשָׁה.",
+      "en": "bringing near"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ טְעוּנוֹת הַגָּשָׁה וְאֵינָן טְעוּנוֹת תְּנוּפָה,",
+    "en": "These need bringing near but do not need waving:",
+    "st": "<b>And these</b> are the meal offerings that <b>require bringing near but do not require waving:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "טְעוּנוֹת",
+      "en": "need"
+     },
+     {
+      "he": "הַגָּשָׁה",
+      "en": "bringing near"
+     },
+     {
+      "he": "וְאֵינָן",
+      "en": "and they do not"
+     },
+     {
+      "he": "טְעוּנוֹת",
+      "en": "need"
+     },
+     {
+      "he": "תְּנוּפָה,",
+      "en": "waving"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת הַסֹּלֶת,",
+    "en": "the mincha of fine flour,",
+    "st": "<b>The fine-flour meal offering;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "הַסֹּלֶת,",
+      "en": "the fine flour"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּחֲבַת, וְהַמַּרְחֶשֶׁת,",
+    "en": "and the one made in a flat pan, and the one made in a deep pan,",
+    "st": "<b>the</b> meal offering prepared in <b>a pan; the</b> meal offering prepared in <b>a deep pan;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּחֲבַת,",
+      "en": "and the flat pan"
+     },
+     {
+      "he": "וְהַמַּרְחֶשֶׁת,",
+      "en": "and the deep pan"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחַלּוֹת, וְהָרְקִיקִין,",
+    "en": "and the loaves and the wafers,",
+    "st": "<b>the</b> meal offering baked in an oven, which can be brought in the form of <b>loaves or</b> in the form of <b>wafers;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחַלּוֹת,",
+      "en": "and the loaves"
+     },
+     {
+      "he": "וְהָרְקִיקִין,",
+      "en": "and the wafers"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת כֹּהֲנִים,",
+    "en": "the mincha of Kohanim,",
+    "st": "<b>the meal offering of priests;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "כֹּהֲנִים,",
+      "en": "Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת כֹּהֵן מָשִׁיחַ,",
+    "en": "the mincha of the Kohen Gadol,",
+    "st": "<b>the meal offering of the anointed priest;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "מָשִׁיחַ,",
+      "en": "anointed"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת גּוֹיִם,",
+    "en": "the mincha of non-Jews,",
+    "st": "<b>the meal offering of gentiles;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "גּוֹיִם,",
+      "en": "non-Jews"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת נָשִׁים,",
+    "en": "the mincha of women,",
+    "st": "<b>a meal offering</b> brought <b>by women;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "נָשִׁים,",
+      "en": "women"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת חוֹטֵא.",
+    "en": "and the mincha of a sinner.",
+    "st": "<b>and the meal offering of a sinner.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "חוֹטֵא.",
+      "en": "a sinner"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says:",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת כֹּהֲנִים,",
+    "en": "The mincha of Kohanim",
+    "st": "<b>The meal offering of priests</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "כֹּהֲנִים,",
+      "en": "Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת כֹּהֵן מָשִׁיחַ,",
+    "en": "and the mincha of the Kohen Gadol",
+    "st": "<b>and the meal offering of the anointed priest</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "מָשִׁיחַ,",
+      "en": "anointed"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בָּהֶן הַגָּשָׁה,",
+    "en": "do not need bringing near,",
+    "st": "<b>do not require bringing</b> of the meal offering <b>near</b> to the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "הַגָּשָׁה,",
+      "en": "bringing near"
+     }
+    ]
+   },
+   {
+    "he": "מִפְנֵי שֶׁאֵין בָּהֶן קְמִיצָה.",
+    "en": "because no handful is taken from them.",
+    "st": "<b>due to</b> the fact <b>that there is no removal of a handful in their</b> sacrifice,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "קְמִיצָה.",
+      "en": "taking a handful",
+      "note": "They are burned whole."
+     }
+    ]
+   },
+   {
+    "he": "וְכֹל שֶׁאֵין בָּהֶן קְמִיצָה,",
+    "en": "And whenever no handful is taken,",
+    "st": "<b>and</b> there is a principle that with regard to <b>any</b> meal offering <b>where there is no removal of a handful in their</b> sacrifice,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֹל",
+      "en": "and all"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is no"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "קְמִיצָה,",
+      "en": "taking a handful"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בָּהֶן הַגָּשָׁה:",
+    "en": "there is no bringing near.",
+    "st": "<b>there is</b> also <b>no bringing near.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "הַגָּשָׁה:",
+      "en": "bringing near"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 6,
+  "summary": "Some things need waving but not bringing near, like the metzora's oil and asham, bikkurim, parts of shelamim, and the two loaves with the lambs of Shavuos. The mishnah explains how the waving is done. The omer and the sotah's mincha need both, and the lechem hapanim and the mincha of nesachim need neither.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ טְעוּנִין תְּנוּפָה וְאֵין טְעוּנִין הַגָּשָׁה,",
+    "en": "These need waving but do not need bringing near:",
+    "st": "<b>These</b> are the items that <b>require waving and do not require bringing near</b> to the altar:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "טְעוּנִין",
+      "en": "need"
+     },
+     {
+      "he": "תְּנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and they do not"
+     },
+     {
+      "he": "טְעוּנִין",
+      "en": "need"
+     },
+     {
+      "he": "הַגָּשָׁה,",
+      "en": "bringing near"
+     }
+    ]
+   },
+   {
+    "he": "לֹג שֶׁמֶן שֶׁל מְצֹרָע וַאֲשָׁמוֹ,",
+    "en": "the log of oil of a metzora and his asham,",
+    "st": "<b>The log of oil</b> that accompanies the guilt offering <b>of</b> a recovered <b>leper and his guilt offering</b> itself, as it is written:",
+    "stMore": "“And the priest shall take one of the lambs and sacrifice it for a guilt offering, and the log of oil, and wave them for a wave offering before the Lord” (Leviticus 14:12);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹג",
+      "en": "the log of",
+      "note": "A small measure, about the size of six eggs."
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מְצֹרָע",
+      "en": "a metzora"
+     },
+     {
+      "he": "וַאֲשָׁמוֹ,",
+      "en": "and his asham",
+      "note": "His guilt-offering korban."
+     }
+    ]
+   },
+   {
+    "he": "וְהַבִּכּוּרִים כְּדִבְרֵי רַבִּי אֱלִיעֶזֶר בֶּן יַעֲקֹב,",
+    "en": "and bikkurim, as Rabbi Eliezer ben Yaakov says,",
+    "st": "<b>and the first fruits, in accordance with the statement of Rabbi Eliezer ben Ya’akov;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבִּכּוּרִים",
+      "en": "and the bikkurim",
+      "note": "The first fruits brought to the Beis HaMikdash."
+     },
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "according to the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "יַעֲקֹב,",
+      "en": "Yaakov"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵמוּרֵי שַׁלְמֵי יָחִיד וְחָזֶה וָשׁוֹק שֶׁלָּהֶן,",
+    "en": "and the parts for the mizbeach of a person's shelamim, with their chest and thigh,",
+    "st": "<b>and the sacrificial portions of the peace offerings of an individual and their breast and thigh,</b> as it is written:",
+    "stMore": "“The thigh of heaving and the breast of waving shall they bring with the offerings of the portions consumed by fire, to wave it for a wave offering before the Lord” (Leviticus 10:15).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵמוּרֵי",
+      "en": "and the parts for the mizbeach of"
+     },
+     {
+      "he": "שַׁלְמֵי",
+      "en": "the shelamim of",
+      "note": "A peace offering that is shared by the mizbeach, the Kohanim and the owner."
+     },
+     {
+      "he": "יָחִיד",
+      "en": "one person"
+     },
+     {
+      "he": "וְחָזֶה",
+      "en": "and the chest"
+     },
+     {
+      "he": "וָשׁוֹק",
+      "en": "and the thigh"
+     },
+     {
+      "he": "שֶׁלָּהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אֲנָשִׁים,",
+    "en": "whether of men",
+    "st": "This requirement applies to peace offerings belonging <b>both</b> to <b>men</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "whether"
+     },
+     {
+      "he": "אֲנָשִׁים,",
+      "en": "men"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד נָשִׁים,",
+    "en": "or of women,",
+    "st": "<b>and</b> to <b>women,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "or"
+     },
+     {
+      "he": "נָשִׁים,",
+      "en": "women"
+     }
+    ]
+   },
+   {
+    "he": "בְּיִשְׂרָאֵל אֲבָל לֹא בַאֲחֵרִים,",
+    "en": "for Jews but not for others,",
+    "st": "<b>by</b> male <b>Jews and not by others.</b> The Gemara will explain this seemingly contradictory statement on 61b.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיִשְׂרָאֵל",
+      "en": "in Yisrael"
+     },
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בַאֲחֵרִים,",
+      "en": "for others"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁתֵּי הַלֶּחֶם,",
+    "en": "and the two loaves,",
+    "st": "In addition, <b>the two loaves and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and the two of"
+     },
+     {
+      "he": "הַלֶּחֶם,",
+      "en": "the bread"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנֵי כִבְשֵׂי עֲצָרֶת.",
+    "en": "and the two lambs of Shavuos.",
+    "st": "the accompanying peace offering of <b>two lambs</b> brought on <b>Shavuot</b> also do not require bringing near but do require waving, as it is written:",
+    "stMore": "“And the priest shall wave them with the bread of the first fruits for a wave offering before the Lord, with the two lambs” (Leviticus 23:20).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנֵי",
+      "en": "and two"
+     },
+     {
+      "he": "כִבְשֵׂי",
+      "en": "lambs of"
+     },
+     {
+      "he": "עֲצָרֶת.",
+      "en": "Shavuos"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד הוּא עוֹשֶׂה,",
+    "en": "How does he do it?",
+    "st": "<b>How does one perform</b> this waving?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "עוֹשֶׂה,",
+      "en": "does"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן שְׁתֵּי הַלֶּחֶם עַל גַּבֵּי שְׁנֵי כְבָשִׂים,",
+    "en": "He puts the two loaves on top of the two lambs,",
+    "st": "<b>He places the two loaves on top</b> of the <b>two lambs</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he puts"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "הַלֶּחֶם",
+      "en": "the bread"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "כְבָשִׂים,",
+      "en": "lambs"
+     }
+    ]
+   },
+   {
+    "he": "וּמַנִּיחַ שְׁתֵּי יָדָיו מִלְּמַטָּן,",
+    "en": "and puts his two hands under them,",
+    "st": "<b>and places his two hands below</b> the loaves and the lambs,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַנִּיחַ",
+      "en": "and he places"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "יָדָיו",
+      "en": "his hands"
+     },
+     {
+      "he": "מִלְּמַטָּן,",
+      "en": "underneath them"
+     }
+    ]
+   },
+   {
+    "he": "מוֹלִיךְ וּמֵבִיא,",
+    "en": "moves them forward and back,",
+    "st": "<b>extends</b> the offerings to each of the four directions <b>and brings</b> them <b>back,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹלִיךְ",
+      "en": "he moves it away"
+     },
+     {
+      "he": "וּמֵבִיא,",
+      "en": "and brings it back"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲלֶה וּמוֹרִיד,",
+    "en": "and raises them up and lowers them,",
+    "st": "then <b>raises and lowers</b> them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲלֶה",
+      "en": "he raises"
+     },
+     {
+      "he": "וּמוֹרִיד,",
+      "en": "and lowers"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמות כט),",
+    "en": "as it says (Shemos 29):",
+    "st": "<b>as it is stated</b> with regard to the waving of the ram of the inauguration of the priests:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כט),",
+      "en": "29)"
+     }
+    ]
+   },
+   {
+    "he": "אֲשֶׁר הוּנַף וַאֲשֶׁר הוּרָם.",
+    "en": "\"which was waved and which was raised.\"",
+    "st": "<b>“Which is waved, and which is heaved up”</b> (Exodus 29:27); i.e., waved back and forth, and heaved up and down.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲשֶׁר",
+      "en": "which"
+     },
+     {
+      "he": "הוּנַף",
+      "en": "was waved"
+     },
+     {
+      "he": "וַאֲשֶׁר",
+      "en": "and which"
+     },
+     {
+      "he": "הוּרָם.",
+      "en": "was raised"
+     }
+    ]
+   },
+   {
+    "he": "תְּנוּפָה הָיְתָה בַמִּזְרָח,",
+    "en": "The waving was done on the east side,",
+    "st": "<b>Waving was</b> able to be performed <b>to the east</b> of the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "בַמִּזְרָח,",
+      "en": "on the east"
+     }
+    ]
+   },
+   {
+    "he": "וְהַגָּשָׁה בַּמַּעֲרָב.",
+    "en": "and the bringing near on the west side.",
+    "st": "<b>but</b> the <b>bringing near</b> of meal offerings had to be done <b>to the west,</b> i.e., the southwest corner of the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַגָּשָׁה",
+      "en": "and the bringing near"
+     },
+     {
+      "he": "בַּמַּעֲרָב.",
+      "en": "on the west"
+     }
+    ]
+   },
+   {
+    "he": "וּתְנוּפוֹת קוֹדְמוֹת לְהַגָּשׁוֹת.",
+    "en": "And the wavings come before the bringings near.",
+    "st": "Also, with regard to all meal offerings, <b>the wavings precede the</b> actions of <b>bringing near.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְנוּפוֹת",
+      "en": "and the wavings"
+     },
+     {
+      "he": "קוֹדְמוֹת",
+      "en": "come before"
+     },
+     {
+      "he": "לְהַגָּשׁוֹת.",
+      "en": "the bringings near"
+     }
+    ]
+   },
+   {
+    "he": "מִנְחַת הָעֹמֶר וּמִנְחַת קְנָאוֹת,",
+    "en": "The mincha of the omer and the mincha of jealousy",
+    "st": "<b>The omer meal offering and the meal offering of jealousy</b> brought by a sota",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנְחַת",
+      "en": "the mincha of"
+     },
+     {
+      "he": "הָעֹמֶר",
+      "en": "the omer"
+     },
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "קְנָאוֹת,",
+      "en": "jealousy"
+     }
+    ]
+   },
+   {
+    "he": "טְעוּנוֹת תְּנוּפָה וְהַגָּשָׁה.",
+    "en": "need waving and bringing near.",
+    "st": "<b>require</b> both <b>bringing near and waving.</b> The meal offering of the omer requires waving, as it is written:",
+    "stMore": "“And he shall wave the omer before the Lord” (Leviticus 23:11), and likewise with regard to the meal offering brought by a sota it is written: “And the priest shall take the meal offering of jealousy out of the woman’s hand and shall wave the meal offering before the Lord” (Numbers 5:25). The requirement of bringing near is derived as explained earlier.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְעוּנוֹת",
+      "en": "need"
+     },
+     {
+      "he": "תְּנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "וְהַגָּשָׁה.",
+      "en": "and bringing near"
+     }
+    ]
+   },
+   {
+    "he": "לֶחֶם הַפָּנִים וּמִנְחַת נְסָכִים,",
+    "en": "The lechem hapanim and the mincha of nesachim",
+    "st": "<b>The shewbread and the meal offering</b> brought with <b>libations</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶחֶם",
+      "en": "the lechem"
+     },
+     {
+      "he": "הַפָּנִים",
+      "en": "hapanim"
+     },
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "נְסָכִים,",
+      "en": "nesachim"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תְנוּפָה וְלֹא הַגָּשָׁה:",
+    "en": "need neither waving nor bringing near.",
+    "st": "<b>require neither bringing near nor waving.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תְנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַגָּשָׁה:",
+      "en": "bringing near"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 7,
+  "summary": "Rabbi Shimon says there are three korbanos that each have two of these three mitzvos: semichah (leaning hands), waving while alive, and waving after shechitah. He explains which two each one has.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says:",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁלשָׁה מִינִים טְעוּנִים שָׁלשׁ מִצְוֹת,",
+    "en": "Three kinds need three mitzvos,",
+    "st": "There are <b>three types</b> of offerings that <b>require</b> performance of <b>three mitzvot.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "מִינִים",
+      "en": "kinds"
+     },
+     {
+      "he": "טְעוּנִים",
+      "en": "need"
+     },
+     {
+      "he": "שָׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "מִצְוֹת,",
+      "en": "mitzvos"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתַּיִם בְּכָל אַחַת וְאַחַת,",
+    "en": "two in each and every one,",
+    "st": "<b>Two</b> mitzvot are performed <b>on each and every one</b> of them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתַּיִם",
+      "en": "two"
+     },
+     {
+      "he": "בְּכָל",
+      "en": "in each"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאַחַת,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁלִישִׁית אֵין בָּהֶן.",
+    "en": "and the third one is not in them.",
+    "st": "<b>but the third</b> mitzva <b>is not</b> performed <b>in their</b>",
+    "stMore": "sacrifice, meaning that each of these offerings requires two out of the same three mitzvot, but not necessarily the same two as the others.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁלִישִׁית",
+      "en": "and the third"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "in them"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ הֵן,",
+    "en": "And these are they:",
+    "st": "<b>And these are the</b> three offerings:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "הֵן,",
+      "en": "are they"
+     }
+    ]
+   },
+   {
+    "he": "זִבְחֵי שַׁלְמֵי יָחִיד,",
+    "en": "a person's shelamim,",
+    "st": "<b>Peace offerings</b> brought as gift offerings by an <b>individual,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זִבְחֵי",
+      "en": "korbanos of"
+     },
+     {
+      "he": "שַׁלְמֵי",
+      "en": "the shelamim of"
+     },
+     {
+      "he": "יָחִיד,",
+      "en": "one person"
+     }
+    ]
+   },
+   {
+    "he": "וְזִבְחֵי שַׁלְמֵי צִבּוּר,",
+    "en": "and the shelamim of the community,",
+    "st": "<b>communal peace offerings,</b> i.e., the two lambs brought with the two loaves on Shavuot,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזִבְחֵי",
+      "en": "and korbanos of"
+     },
+     {
+      "he": "שַׁלְמֵי",
+      "en": "the shelamim of"
+     },
+     {
+      "he": "צִבּוּר,",
+      "en": "the community",
+      "note": "The two lambs of Shavuos."
+     }
+    ]
+   },
+   {
+    "he": "וַאֲשַׁם מְצֹרָע.",
+    "en": "and the asham of a metzora.",
+    "st": "<b>and the guilt offering of a leper</b> (see Leviticus 14:12–14).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲשַׁם",
+      "en": "and the asham of"
+     },
+     {
+      "he": "מְצֹרָע.",
+      "en": "a metzora"
+     }
+    ]
+   },
+   {
+    "he": "זִבְחֵי שַׁלְמֵי יָחִיד,",
+    "en": "A person's shelamim",
+    "st": "<b>Peace offerings</b> brought by <b>individuals</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זִבְחֵי",
+      "en": "korbanos of"
+     },
+     {
+      "he": "שַׁלְמֵי",
+      "en": "the shelamim of"
+     },
+     {
+      "he": "יָחִיד,",
+      "en": "one person"
+     }
+    ]
+   },
+   {
+    "he": "טְעוּנִים סְמִיכָה חַיִּים,",
+    "en": "need semichah while alive,",
+    "st": "<b>require placing hands</b> on the head of the animals while the animals are still <b>alive,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְעוּנִים",
+      "en": "need"
+     },
+     {
+      "he": "סְמִיכָה",
+      "en": "semichah",
+      "note": "Leaning both hands on the animal's head."
+     },
+     {
+      "he": "חַיִּים,",
+      "en": "alive"
+     }
+    ]
+   },
+   {
+    "he": "וּתְנוּפָה שְׁחוּטִים,",
+    "en": "and waving after shechitah,",
+    "st": "<b>and waving</b> when they are",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְנוּפָה",
+      "en": "and waving"
+     },
+     {
+      "he": "שְׁחוּטִים,",
+      "en": "slaughtered"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בָּהֶם תְּנוּפָה חַיִּים.",
+    "en": "but they do not have waving while alive.",
+    "st": "<b>slaughtered, but there is no</b> obligation of <b>waving them</b> while they are <b>alive.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "בָּהֶם",
+      "en": "in them"
+     },
+     {
+      "he": "תְּנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "חַיִּים.",
+      "en": "alive"
+     }
+    ]
+   },
+   {
+    "he": "זִבְחֵי שַׁלְמֵי צִבּוּר,",
+    "en": "The shelamim of the community",
+    "st": "<b>Communal peace offerings</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זִבְחֵי",
+      "en": "korbanos of"
+     },
+     {
+      "he": "שַׁלְמֵי",
+      "en": "the shelamim of"
+     },
+     {
+      "he": "צִבּוּר,",
+      "en": "the community"
+     }
+    ]
+   },
+   {
+    "he": "טְעוּנִים תְּנוּפָה חַיִּים וּשְׁחוּטִים,",
+    "en": "need waving while alive and after shechitah,",
+    "st": "<b>require waving</b> both while the animals are still <b>alive and</b> after they are <b>slaughtered,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְעוּנִים",
+      "en": "need"
+     },
+     {
+      "he": "תְּנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "חַיִּים",
+      "en": "alive"
+     },
+     {
+      "he": "וּשְׁחוּטִים,",
+      "en": "and slaughtered"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בָּהֶן סְמִיכָה.",
+    "en": "but they do not have semichah.",
+    "st": "<b>but there is no</b> obligation of <b>placing hands</b> on them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "in them"
+     },
+     {
+      "he": "סְמִיכָה.",
+      "en": "semichah"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲשַׁם מְצֹרָע,",
+    "en": "And the asham of a metzora",
+    "st": "<b>And the guilt offering of a leper</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲשַׁם",
+      "en": "and the asham of"
+     },
+     {
+      "he": "מְצֹרָע,",
+      "en": "a metzora"
+     }
+    ]
+   },
+   {
+    "he": "טָעוּן סְמִיכָה וּתְנוּפָה חַי,",
+    "en": "needs semichah and waving while alive,",
+    "st": "<b>requires placing hands and waving</b> while the animal is still <b>alive,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָעוּן",
+      "en": "needs"
+     },
+     {
+      "he": "סְמִיכָה",
+      "en": "semichah"
+     },
+     {
+      "he": "וּתְנוּפָה",
+      "en": "and waving"
+     },
+     {
+      "he": "חַי,",
+      "en": "alive"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בּוֹ תְנוּפָה שָׁחוּט:",
+    "en": "but it does not have waving after shechitah.",
+    "st": "<b>but there is no</b> obligation of <b>waving</b> it after it is <b>slaughtered.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "תְנוּפָה",
+      "en": "waving"
+     },
+     {
+      "he": "שָׁחוּט:",
+      "en": "slaughtered"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 8,
+  "summary": "If someone promises to bring a mincha made in a machavas (flat pan), he may not bring one made in a marcheshes (deep pan), and the other way around. Two Rabbis explain the difference between the two pans.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר הֲרֵי עָלַי בְּמַחֲבַת,",
+    "en": "If someone says, \"I take upon myself a mincha made in a flat pan,\"",
+    "st": "<b>One who</b> takes a vow to bring a meal offering to the Temple and <b>says: It is</b> incumbent <b>upon me</b> to bring a meal offering prepared <b>in a maḥavat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "בְּמַחֲבַת,",
+      "en": "in a flat pan",
+      "note": "A machavas."
+     }
+    ]
+   },
+   {
+    "he": "לֹא יָבִיא בְמַרְחֶשֶׁת.",
+    "en": "he may not bring one made in a deep pan.",
+    "st": "<b>may not bring</b> one prepared <b>in a marḥeshet.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָבִיא",
+      "en": "he may bring"
+     },
+     {
+      "he": "בְמַרְחֶשֶׁת.",
+      "en": "in a deep pan",
+      "note": "A marcheshes."
+     }
+    ]
+   },
+   {
+    "he": "בְּמַרְחֶשֶׁת, לֹא יָבִיא בְמַחֲבָת.",
+    "en": "If he said \"in a deep pan,\" he may not bring one made in a flat pan.",
+    "st": "Similarly, if he says: It is incumbent upon me to bring a meal offering prepared <b>in a marḥeshet, he may not bring</b> one prepared <b>in a maḥavat.</b> The mishna clarifies:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמַרְחֶשֶׁת,",
+      "en": "in a deep pan"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָבִיא",
+      "en": "he may bring"
+     },
+     {
+      "he": "בְמַחֲבָת.",
+      "en": "in a flat pan"
+     }
+    ]
+   },
+   {
+    "he": "וּמַה בֵּין מַחֲבַת לְמַרְחֶשֶׁת,",
+    "en": "And what is the difference between a flat pan and a deep pan?",
+    "st": "<b>What is</b> the difference <b>between a maḥavat and a marḥeshet?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַה",
+      "en": "and what"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "מַחֲבַת",
+      "en": "a flat pan"
+     },
+     {
+      "he": "לְמַרְחֶשֶׁת,",
+      "en": "and a deep pan"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שֶׁהַמַּרְחֶשֶׁת יֶשׁ לָהּ כִּסּוּי,",
+    "en": "Only that the deep pan has a cover,",
+    "st": "<b>A marḥeshet has a cover,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "שֶׁהַמַּרְחֶשֶׁת",
+      "en": "that the deep pan"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to it"
+     },
+     {
+      "he": "כִּסּוּי,",
+      "en": "a cover"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּחֲבַת אֵין לָהּ כִּסּוּי,",
+    "en": "and the flat pan does not have a cover.",
+    "st": "whereas <b>a maḥavat does not have a cover;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּחֲבַת",
+      "en": "and the flat pan"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to it"
+     },
+     {
+      "he": "כִּסּוּי,",
+      "en": "a cover"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי יוֹסֵי הַגְּלִילִי.",
+    "en": "That is what Rabbi Yosei HaGlili says.",
+    "st": "this is <b>the statement of Rabbi Yosei HaGelili.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "הַגְּלִילִי.",
+      "en": "HaGlili",
+      "note": "From the Galil."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי חֲנַנְיָה בֶן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabbi Chanina ben Gamliel says:",
+    "st": "<b>Rabbi Ḥanina ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "חֲנַנְיָה",
+      "en": "Chanina"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מַרְחֶשֶׁת עֲמֻקָּה וּמַעֲשֶׂיהָ רוֹחֲשִׁים,",
+    "en": "The deep pan is deep, and what is made in it is soft and moves about,",
+    "st": "<b>A marḥeshet is deep, and</b> due to the large amount of oil, <b>its product</b> is soft because it <b>moves about [roḥashin]</b> in the oil.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַרְחֶשֶׁת",
+      "en": "a deep pan"
+     },
+     {
+      "he": "עֲמֻקָּה",
+      "en": "is deep"
+     },
+     {
+      "he": "וּמַעֲשֶׂיהָ",
+      "en": "and what is made in it"
+     },
+     {
+      "he": "רוֹחֲשִׁים,",
+      "en": "moves about",
+      "note": "In a lot of oil."
+     }
+    ]
+   },
+   {
+    "he": "וּמַחֲבַת צָפָה וּמַעֲשֶׂיהָ קָשִׁים:",
+    "en": "and the flat pan is flat, and what is made in it is hard.",
+    "st": "<b>A maḥavat</b> is flat, as the sides of the pan are <b>level</b> with the pan, <b>and</b> due to the small amount of oil, <b>its product is hard.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַחֲבַת",
+      "en": "and a flat pan"
+     },
+     {
+      "he": "צָפָה",
+      "en": "is flat"
+     },
+     {
+      "he": "וּמַעֲשֶׂיהָ",
+      "en": "and what is made in it"
+     },
+     {
+      "he": "קָשִׁים:",
+      "en": "hard"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 9,
+  "summary": "If someone promises a mincha baked in an oven, he must bring one from a real oven, not from a small stove or tiles or pits; Rabbi Yehuda allows a small stove. If he promised a baked mincha, he may not bring half loaves and half wafers; Rabbi Shimon allows it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר הֲרֵי עָלַי בַּתַּנּוּר,",
+    "en": "If someone says, \"I take upon myself a mincha baked in an oven,\"",
+    "st": "If one says: <b>It</b> is incumbent <b>upon me</b> to bring a meal offering baked <b>in an oven,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "בַּתַּנּוּר,",
+      "en": "in the oven"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יָבִיא מַאֲפֵה כֻפָּח",
+    "en": "he may not bring one baked on a small stove,",
+    "st": "<b>he may not bring</b> a meal offering <b>baked</b> on <b>a small oven [kupaḥ],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָבִיא",
+      "en": "he may bring"
+     },
+     {
+      "he": "מַאֲפֵה",
+      "en": "baked on"
+     },
+     {
+      "he": "כֻפָּח",
+      "en": "a small stove",
+      "note": "A kupach."
+     }
+    ]
+   },
+   {
+    "he": "וּמַאֲפֵה רְעָפִים וּמַאֲפֵה יוֹרוֹת הָעַרְבִיִּים.",
+    "en": "or baked on roof tiles, or baked in the pits of the Arabs.",
+    "st": "<b>nor a</b> meal offering <b>baked</b> on roofing <b>tiles, nor</b> a meal offering <b>baked</b> in the baking <b>pits</b> of <b>the Arabs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַאֲפֵה",
+      "en": "or baked on"
+     },
+     {
+      "he": "רְעָפִים",
+      "en": "roof tiles"
+     },
+     {
+      "he": "וּמַאֲפֵה",
+      "en": "or baked in"
+     },
+     {
+      "he": "יוֹרוֹת",
+      "en": "the pits of"
+     },
+     {
+      "he": "הָעַרְבִיִּים.",
+      "en": "the Arabs"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says:",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם רָצָה,",
+    "en": "If he wants,",
+    "st": "If he so <b>wishes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רָצָה,",
+      "en": "he wants"
+     }
+    ]
+   },
+   {
+    "he": "יָבִיא מַאֲפֵה כֻפָּח.",
+    "en": "he may bring one baked on a small stove.",
+    "st": "he may <b>bring</b> a meal offering <b>baked</b> on <b>a kupaḥ.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבִיא",
+      "en": "he may bring"
+     },
+     {
+      "he": "מַאֲפֵה",
+      "en": "baked on"
+     },
+     {
+      "he": "כֻפָּח.",
+      "en": "a small stove"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי עָלַי מִנְחַת מַאֲפֶה,",
+    "en": "If he said, \"I take upon myself a baked mincha,\"",
+    "st": "If one says: <b>It</b> is incumbent <b>upon me</b> to bring <b>a baked meal offering,</b> without specifying loaves or wafers,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "מִנְחַת",
+      "en": "a mincha of"
+     },
+     {
+      "he": "מַאֲפֶה,",
+      "en": "baked"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יָבִיא מֶחֱצָה חַלּוֹת וּמֶחֱצָה רְקִיקִין.",
+    "en": "he may not bring half loaves and half wafers.",
+    "st": "<b>he may not bring half</b> the required offering in the form of <b>loaves and</b> the other <b>half</b> in the form of <b>wafers;</b> rather, they must all be of one form or the other.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָבִיא",
+      "en": "he may bring"
+     },
+     {
+      "he": "מֶחֱצָה",
+      "en": "half"
+     },
+     {
+      "he": "חַלּוֹת",
+      "en": "loaves"
+     },
+     {
+      "he": "וּמֶחֱצָה",
+      "en": "and half"
+     },
+     {
+      "he": "רְקִיקִין.",
+      "en": "wafers"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן מַתִּיר,",
+    "en": "Rabbi Shimon allows it,",
+    "st": "<b>Rabbi Shimon deems</b> this <b>permitted,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "מַתִּיר,",
+      "en": "allows"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא קָרְבָּן אֶחָד:",
+    "en": "because it is one korban.",
+    "st": "<b>due to</b> the fact <b>that</b> both loaves and wafers are written with regard to this meal offering, which indicates that <b>it is one offering</b> of two possible forms.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "korban"
+     },
+     {
+      "he": "אֶחָד:",
+      "en": "one"
+     }
+    ]
+   }
+  ]
+ }
+]

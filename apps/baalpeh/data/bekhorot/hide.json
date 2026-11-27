@@ -1,0 +1,16 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "3:1": "Steinsaltz describes discharges from the womb, an afterbirth and a fetal sac, including in a woman.",
+    "6:5": "Steinsaltz names the genitals of the animal.",
+    "6:6": "Steinsaltz names testicles and the scrotum throughout.",
+    "6:10": "Steinsaltz names testicles.",
+    "6:12": "Steinsaltz spells out bestiality and names sexual organs.",
+    "7:5": "Steinsaltz names breasts, the scrotum, the penis and testicles.",
+    "7:7": "Steinsaltz names bestiality.",
+    "8:1": "Steinsaltz describes miscarriages in detail (fetuses, afterbirth, a sac full of blood).",
+    "8:7": "Steinsaltz names a rapist, a seducer and a virgin.",
+    "8:10": "Steinsaltz says the levir consummates the marriage."
+  }
+}

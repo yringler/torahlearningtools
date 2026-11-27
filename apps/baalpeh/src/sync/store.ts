@@ -1,4 +1,4 @@
-import type { ChildRow, LearningEvent, Ms, RecordRow, SyncResponse, User } from "../../shared/api";
+import type { ChildRow, LearningEvent, Ms, PerekVerificationRow, RecordRow, SyncResponse, User } from "../../shared/api";
 import type { Profile } from "../types";
 import { blankProfileFromRow, diffProfiles, settingsOf } from "./mapping";
 
@@ -17,6 +17,55 @@ export interface AccountStore {
   lastSyncAt: Ms | null;
   /** v1 localStorage import prompt state for this account on this device. */
   importDecision: "none" | "imported" | "dismissed";
+  /**
+   * SERVER-OWNED perek verifications (docs/PARENT_VERIFICATION.md §7.3): childId → "masechta|perek" → entry.
+   * Never pending, never diffed, never exported, never part of Profile; applied from SyncResponse.verifications only.
+   */
+  verified: Record<string, Record<string, VerifiedEntry>>;
+  /** 1 once this device has done the catch-up sync (cursor 0) that understands `verifications`. */
+  verifSchema?: 1;
+  /** Server clock minus device clock, from the last SyncResponse or test request. */
+  clockOffset?: number;
+  /** This device's last successful test request per child (for the waiting screen and the parent area). */
+  lastTest?: Record<string, LastTest>;
+}
+
+export interface VerifiedEntry {
+  verified: boolean;
+  verifiedAt: Ms | null;
+  updatedAt: Ms;
+}
+
+export interface LastTest {
+  masechta: string;
+  perek: number;
+  sentAt: Ms;
+  nextAllowedAt: Ms;
+}
+
+export const verifKey = (masechta: string, perek: number): string => `${masechta}|${perek}`;
+
+/** The perakim of one masechta a parent has verified for this child. */
+export function verifiedSet(s: Pick<AccountStore, "verified">, childId: string, masechta: string): Set<number> {
+  const out = new Set<number>();
+  for (const [k, e] of Object.entries(s.verified[childId] ?? {})) {
+    const i = k.lastIndexOf("|");
+    const perek = Number(k.slice(i + 1));
+    if (e.verified && k.slice(0, i) === masechta && Number.isInteger(perek)) out.add(perek);
+  }
+  return out;
+}
+
+/** Applies server verification rows (the server wins: no pending check). Rows of children not on this device are ignored. */
+export function applyVerifications(s: AccountStore, rows: PerekVerificationRow[]): AccountStore {
+  if (rows.length === 0) return s;
+  const ids = new Set(s.profiles.map((p) => p.id));
+  const verified = { ...s.verified };
+  for (const r of rows) {
+    if (!ids.has(r.childId)) continue;
+    verified[r.childId] = { ...verified[r.childId], [verifKey(r.masechta, r.perek)]: { verified: r.verified, verifiedAt: r.verifiedAt, updatedAt: r.updatedAt } };
+  }
+  return { ...s, verified };
 }
 
 /** Exactly what one sync request carried. */
@@ -41,7 +90,38 @@ export const recordKey = (r: Pick<RecordRow, "childId" | "kind" | "key">): strin
 
 export const emptyStore = (user: User): AccountStore => ({
   version: 2, user, cursor: 0, profiles: [], pending: { children: {}, records: {}, events: [] }, lastSyncAt: null, importDecision: "none",
+  verified: {},
 });
+
+const isObj = (x: unknown): x is Record<string, unknown> => typeof x === "object" && x !== null && !Array.isArray(x);
+
+/** A stored `verified` map, keeping only well-formed entries (a pre-feature store has none). */
+function cleanVerified(x: unknown): AccountStore["verified"] {
+  const out: AccountStore["verified"] = {};
+  if (!isObj(x)) return out;
+  for (const [child, m] of Object.entries(x)) {
+    if (!isObj(m)) continue;
+    const entries: Record<string, VerifiedEntry> = {};
+    for (const [k, e] of Object.entries(m)) {
+      if (isObj(e) && typeof e["verified"] === "boolean" && typeof e["updatedAt"] === "number") {
+        entries[k] = { verified: e["verified"], verifiedAt: typeof e["verifiedAt"] === "number" ? e["verifiedAt"] : null, updatedAt: e["updatedAt"] };
+      }
+    }
+    out[child] = entries;
+  }
+  return out;
+}
+
+function cleanLastTest(x: unknown): Record<string, LastTest> | undefined {
+  if (!isObj(x)) return undefined;
+  const out: Record<string, LastTest> = {};
+  for (const [child, t] of Object.entries(x)) {
+    if (isObj(t) && typeof t["masechta"] === "string" && typeof t["perek"] === "number" && typeof t["sentAt"] === "number" && typeof t["nextAllowedAt"] === "number") {
+      out[child] = { masechta: t["masechta"], perek: t["perek"], sentAt: t["sentAt"], nextAllowedAt: t["nextAllowedAt"] };
+    }
+  }
+  return out;
+}
 
 function isUser(x: unknown): x is User {
   const u = x as User;
@@ -63,7 +143,14 @@ export function loadStore(kv: KV, user: User): AccountStore {
       const parsed: unknown = JSON.parse(raw);
       if (isStore(parsed, user.id)) {
         const importDecision = parsed.importDecision === "imported" || parsed.importDecision === "dismissed" ? parsed.importDecision : "none";
-        return { ...parsed, user, importDecision, lastSyncAt: parsed.lastSyncAt ?? null };
+        const { verifSchema, clockOffset, lastTest, ...rest } = parsed;
+        const lt = cleanLastTest(lastTest);
+        return {
+          ...rest, user, importDecision, lastSyncAt: parsed.lastSyncAt ?? null, verified: cleanVerified(parsed.verified),
+          ...(verifSchema === 1 ? { verifSchema } : {}),
+          ...(typeof clockOffset === "number" && Number.isFinite(clockOffset) ? { clockOffset } : {}),
+          ...(lt ? { lastTest: lt } : {}),
+        };
       }
     }
   } catch {
@@ -147,9 +234,17 @@ export function clearSent(s: AccountStore, sent: SentBatch): AccountStore {
   return { ...s, pending: { children, records, events } };
 }
 
-/** §6.4 step 3. Server rows never create pending rows and never overwrite a key that is still pending. */
-export function applyServerResponse(s0: AccountStore, sent: SentBatch, r: SyncResponse, now: Ms): AccountStore {
-  const s = clearSent(s0, sent);
+/**
+ * §6.4 step 3. Server rows never create pending rows and never overwrite a key that is still pending, with one
+ * exception (docs/PARENT_MODE.md §8.2): a row a parent wrote (`byParent`) wins over a pending local value for the same
+ * key, which is dropped. Such a row reaches a device only when it hasn't pulled the parent's edit yet (or as the echo
+ * of a push the server's fence refused), so the pending value was made without seeing it.
+ * The parent's own store passes `parentWins: false`: every row it gets back is byParent (its own echo), and a value it
+ * edited again while that push was in flight must not be lost.
+ */
+export function applyServerResponse(s0: AccountStore, sent: SentBatch, r: SyncResponse, now: Ms, opts: { parentWins?: boolean } = {}): AccountStore {
+  const cleared = clearSent(s0, sent);
+  const s = opts.parentWins === false ? cleared : dropForParent(cleared, r);
   const { pending } = s;
   let profiles = [...s.profiles];
   const sortOf = new Map<string, number>(profiles.map((p, i) => [p.id, i]));
@@ -189,5 +284,26 @@ export function applyServerResponse(s0: AccountStore, sent: SentBatch, r: SyncRe
     profiles[i] = next;
   }
 
-  return { ...s, profiles, cursor: r.cursor, lastSyncAt: now };
+  // Verifications: drop entries of children that are gone (tombstoned), then apply the pulled rows.
+  const live = new Set(profiles.map((p) => p.id));
+  const verified = Object.fromEntries(Object.entries(s.verified ?? {}).filter(([id]) => live.has(id)));
+  const has = Array.isArray(r.verifications);
+  const next = applyVerifications({ ...s, profiles, verified }, has ? r.verifications ?? [] : []);
+  return {
+    ...next, cursor: r.cursor, lastSyncAt: now,
+    ...(typeof r.serverTime === "number" ? { clockOffset: r.serverTime - now } : {}),
+    ...(has ? { verifSchema: 1 as const } : {}),
+  };
+}
+
+/** Removes pending children and records that a parent-written row in this response replaces (§8.2). */
+function dropForParent(s: AccountStore, r: SyncResponse): AccountStore {
+  const kids = r.children.filter((c) => c.byParent === true && s.pending.children[c.id]);
+  const recs = r.records.filter((x) => x.byParent === true && s.pending.records[recordKey(x)]);
+  if (kids.length === 0 && recs.length === 0) return s;
+  const children = { ...s.pending.children };
+  const records = { ...s.pending.records };
+  for (const c of kids) delete children[c.id];
+  for (const x of recs) delete records[recordKey(x)];
+  return { ...s, pending: { ...s.pending, children, records } };
 }

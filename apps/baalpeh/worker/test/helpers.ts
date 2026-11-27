@@ -1,7 +1,7 @@
 import { createExecutionContext, waitOnExecutionContext } from "cloudflare:test";
 import { env } from "cloudflare:workers";
 import { vi } from "vitest";
-import type { AuthSuccessResponse, ChildMeta, ChildRow, LearningEvent, RecordRow, User } from "../../shared/api";
+import type { AuthSuccessResponse, ChildMeta, ChildRow, LearningEvent, RecordRow, SignInAs, User } from "../../shared/api";
 import worker from "../index";
 import { RESEND_URL } from "../email/resend";
 import type { Env } from "../env";
@@ -106,6 +106,24 @@ export function sessionSetCookie(res: Response): string | undefined {
   return res.headers.getSetCookie().find((c) => /^(__Host-)?bp_session=/.test(c));
 }
 
+/** "name=value" of the parent cookie set by the response, or null. */
+export function parentCookieOf(res: Response): string | null {
+  for (const c of res.headers.getSetCookie()) {
+    const m = /^((?:__Host-)?bp_parent)=([^;]*)/.exec(c);
+    if (m && m[2]) return `${m[1]}=${m[2]}`;
+  }
+  return null;
+}
+
+export function parentSetCookie(res: Response): string | undefined {
+  return res.headers.getSetCookie().find((c) => /^(__Host-)?bp_parent=/.test(c));
+}
+
+/** The token part of "name=value". */
+export function tokenOf(cookie: string): string {
+  return cookie.slice(cookie.indexOf("=") + 1);
+}
+
 /** The newest captured login email for `email`: its token and code. */
 export function lastLogin(email: string): { token: string; code: string; mail: SentEmail } {
   const mail = [...sentEmails].reverse().find((m) => m.to === email);
@@ -116,8 +134,8 @@ export function lastLogin(email: string): { token: string; code: string; mail: S
   return { token, code, mail };
 }
 
-export async function requestLogin(email: string, ip?: string): Promise<Response> {
-  return req("/api/auth/request", { body: { email, turnstileToken: "tok" }, ...(ip ? { ip } : {}) });
+export async function requestLogin(email: string, ip?: string, as?: SignInAs): Promise<Response> {
+  return req("/api/auth/request", { body: { email, turnstileToken: "tok", ...(as ? { as } : {}) }, ...(ip ? { ip } : {}) });
 }
 
 /** Full login via code. Requires mockTurnstile(true). */
@@ -131,6 +149,58 @@ export async function login(email = uniqueEmail()): Promise<{ cookie: string; us
   const cookie = cookieOf(r2);
   if (!cookie) throw new Error("no cookie");
   return { cookie, user: body.user, email };
+}
+
+/** Full parent sign-in via code (locked: no PIN entered). Requires mockTurnstile(true). */
+export async function parentLogin(email = uniqueEmail()): Promise<{ cookie: string; user: User; email: string }> {
+  const r1 = await requestLogin(email, undefined, "parent");
+  if (r1.status !== 200) throw new Error("request failed: " + r1.status + " " + (await r1.text()));
+  const { code } = lastLogin(email);
+  const r2 = await req("/api/auth/verify-code", { body: { email, code, as: "parent" } });
+  if (r2.status !== 200) throw new Error("verify failed: " + r2.status + " " + (await r2.text()));
+  const body = await r2.json<AuthSuccessResponse>();
+  const cookie = parentCookieOf(r2);
+  if (!cookie) throw new Error("no parent cookie");
+  return { cookie, user: body.user, email };
+}
+
+export function setPin(cookie: string, pin: string, tz?: string, o: Partial<ReqOptions> = {}) {
+  return req("/api/parent/pin", { cookie, body: { pin, ...(tz ? { tz } : {}) }, ...o });
+}
+
+export function unlock(cookie: string, pin: string, o: Partial<ReqOptions> = {}) {
+  return req("/api/parent/unlock", { cookie, body: { pin }, ...o });
+}
+
+export function parentSync(cookie: string, body: { cursor?: number; children?: ChildRow[]; records?: RecordRow[]; events?: LearningEvent[] }) {
+  return req("/api/parent/sync", {
+    cookie,
+    body: { cursor: body.cursor ?? 0, children: body.children ?? [], records: body.records ?? [], events: body.events ?? [] },
+  });
+}
+
+/**
+ * An unlocked parent session for `email`'s account WITHOUT setting a PIN (the unlock is written to the DB), so
+ * tests that only need to add or delete children keep PIN-free test confirms. Cached per email.
+ */
+const adminCookies = new Map<string, string>();
+export async function adminCookie(email: string): Promise<string> {
+  let cookie = adminCookies.get(email);
+  if (!cookie) {
+    cookie = (await parentLogin(email)).cookie;
+    adminCookies.set(email, cookie);
+  }
+  const t = Date.now();
+  await db
+    .prepare("UPDATE sessions SET unlocked_at = ?2, unlocked_until = ?3 WHERE token_hash = ?1")
+    .bind(await sha256(tokenOf(cookie)), t, t + 5 * 60_000)
+    .run();
+  return cookie;
+}
+
+/** Parent sync for `email`'s account (adds, edits, deletes children). */
+export async function adminSync(email: string, body: { cursor?: number; children?: ChildRow[]; records?: RecordRow[]; events?: LearningEvent[] }) {
+  return parentSync(await adminCookie(email), body);
 }
 
 export async function sha256(s: string): Promise<string> {

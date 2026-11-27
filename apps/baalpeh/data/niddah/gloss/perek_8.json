@@ -1,0 +1,1563 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "When a woman finds a stain on her body or her clothes, it depends on where it is: if it could have come from her, she is tamei; if not, she is tahor.",
+  "chunks": [
+   {
+    "he": "הָרוֹאָה כֶתֶם עַל בְּשָׂרָהּ",
+    "en": "A woman who sees a stain on her body",
+    "st": "A woman <b>who sees</b> a blood <b>stain on her flesh adjacent to</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרוֹאָה",
+      "en": "the one who sees"
+     },
+     {
+      "he": "כֶתֶם",
+      "en": "a stain"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "בְּשָׂרָהּ",
+      "en": "her body"
+     }
+    ]
+   },
+   {
+    "he": "כְּנֶגֶד בֵּית הַתֻּרְפָּה טְמֵאָה.",
+    "en": "in a place it could have come from her, is tamei.",
+    "st": "her <b>vagina [beit haturpa],</b> i.e., a place where blood that originated in her vagina could be found, <b>becomes ritually impure,</b>",
+    "stMore": "as there is a concern that it originated in the uterus and is menstrual blood.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּנֶגֶד",
+      "en": "across from"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the place"
+     },
+     {
+      "he": "הַתֻּרְפָּה",
+      "en": "the hidden",
+      "note": "The place it could have come from her."
+     },
+     {
+      "he": "טְמֵאָה.",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁלֹּא כְנֶגֶד בֵּית הַתֻּרְפָּה,",
+    "en": "And not across from that place,",
+    "st": "<b>And</b> if it was discovered on her flesh in an area <b>not adjacent to</b> her <b>vagina</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and that is not"
+     },
+     {
+      "he": "כְנֶגֶד",
+      "en": "across from"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the place"
+     },
+     {
+      "he": "הַתֻּרְפָּה,",
+      "en": "the hidden"
+     }
+    ]
+   },
+   {
+    "he": "טְהוֹרָה.",
+    "en": "she is tahor.",
+    "st": "she remains <b>ritually pure,</b>",
+    "stMore": "as it certainly did not originate in the uterus. If the stain was discovered",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְהוֹרָה.",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "עַל עֲקֵבָהּ וְעַל רֹאשׁ גּוּדָלָהּ,",
+    "en": "On her heel or on the tip of her big toe,",
+    "st": "<b>on her heel or on the tip of her large toe,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "עֲקֵבָהּ",
+      "en": "her heel"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the tip of"
+     },
+     {
+      "he": "גּוּדָלָהּ,",
+      "en": "her big toe"
+     }
+    ]
+   },
+   {
+    "he": "טְמֵאָה.",
+    "en": "she is tamei.",
+    "st": "although it is not adjacent to her vagina she is <b>ritually impure,</b>",
+    "stMore": "as blood from the uterus could have reached there. In a case where the stain was discovered",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְמֵאָה.",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "עַל שׁוֹקָהּ וְעַל פַּרְסוֹתֶיהָ,",
+    "en": "On her leg or on her feet,",
+    "st": "<b>on her leg or on her feet,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "שׁוֹקָהּ",
+      "en": "her leg"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "פַּרְסוֹתֶיהָ,",
+      "en": "her feet"
+     }
+    ]
+   },
+   {
+    "he": "מִבִּפְנִים, טְמֵאָה.",
+    "en": "on the inside, she is tamei.",
+    "st": "if it was <b>on the inner</b> side she is <b>ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִבִּפְנִים,",
+      "en": "on the inside"
+     },
+     {
+      "he": "טְמֵאָה.",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "מִבַּחוּץ, טְהוֹרָה.",
+    "en": "On the outside, she is tahor.",
+    "st": "as blood from the uterus could have reached there. If it was <b>on the outer</b> side she is <b>ritually pure, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִבַּחוּץ,",
+      "en": "on the outside"
+     },
+     {
+      "he": "טְהוֹרָה.",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הַצְּדָדִין מִכָּאן וּמִכָּאן,",
+    "en": "And on the sides, on this side or that side,",
+    "st": "if it was <b>on the sides,</b> either <b>from here,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הַצְּדָדִין",
+      "en": "the sides"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וּמִכָּאן,",
+      "en": "and from here"
+     }
+    ]
+   },
+   {
+    "he": "טְהוֹרָה.",
+    "en": "she is tahor.",
+    "st": "i.e., on the front of her leg or foot, <b>or from there,</b> i.e., on the back of her leg or foot, she is also <b>ritually pure,</b>",
+    "stMore": "as blood from the uterus could not have reached there. In a case where the woman",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְהוֹרָה.",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "רָאֲתָה עַל חֲלוּקָהּ,",
+    "en": "If she saw it on her shirt,",
+    "st": "<b>saw</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאֲתָה",
+      "en": "she saw"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "חֲלוּקָהּ,",
+      "en": "her shirt"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַחֲגוֹר וּלְמַטָּה,",
+    "en": "from the belt and down,",
+    "st": "a blood stain <b>on her robe,</b> if it was <b>from the belt and below</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחֲגוֹר",
+      "en": "the belt"
+     },
+     {
+      "he": "וּלְמַטָּה,",
+      "en": "and down"
+     }
+    ]
+   },
+   {
+    "he": "טְמֵאָה.",
+    "en": "she is tamei.",
+    "st": "she is <b>ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְמֵאָה.",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַחֲגוֹר וּלְמַעְלָה,",
+    "en": "From the belt and up,",
+    "st": "as blood from the uterus could have reached there; if it was <b>from the belt and above</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחֲגוֹר",
+      "en": "the belt"
+     },
+     {
+      "he": "וּלְמַעְלָה,",
+      "en": "and up"
+     }
+    ]
+   },
+   {
+    "he": "טְהוֹרָה.",
+    "en": "she is tahor.",
+    "st": "she is <b>ritually pure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְהוֹרָה.",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "רָאֲתָה עַל בֵּית יָד שֶׁל חָלוּק,",
+    "en": "If she saw it on the sleeve of the shirt,",
+    "st": "In a case where <b>she saw</b> the stain <b>on the</b> end of the <b>sleeve of the robe, if</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאֲתָה",
+      "en": "she saw"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the place of"
+     },
+     {
+      "he": "יָד",
+      "en": "the hand"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חָלוּק,",
+      "en": "the shirt"
+     }
+    ]
+   },
+   {
+    "he": "אִם מַגִּיעַ כְּנֶגֶד בֵּית הַתֻּרְפָּה,",
+    "en": "if it reaches across from that place,",
+    "st": "the sleeve can <b>reach adjacent to</b> her <b>vagina</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מַגִּיעַ",
+      "en": "it reaches"
+     },
+     {
+      "he": "כְּנֶגֶד",
+      "en": "across from"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the place"
+     },
+     {
+      "he": "הַתֻּרְפָּה,",
+      "en": "the hidden"
+     }
+    ]
+   },
+   {
+    "he": "טְמֵאָה.",
+    "en": "she is tamei.",
+    "st": "she is <b>ritually impure; and if not,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְמֵאָה.",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "And if not,",
+    "st": "i.e., if the stain is in a place on the sleeve that does not reach adjacent to the vagina, she is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "טְהוֹרָה.",
+    "en": "she is tahor.",
+    "st": "<b>ritually pure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְהוֹרָה.",
+      "en": "is tahor"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה פוֹשַׁטְתּוֹ וּמִתְכַּסָּה בוֹ בַּלַּיְלָה,",
+    "en": "If she used to take it off and cover herself with it at night,",
+    "st": "If it was a robe which <b>she would remove and with which she would cover</b> herself <b>at night,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "she was"
+     },
+     {
+      "he": "פוֹשַׁטְתּוֹ",
+      "en": "taking it off"
+     },
+     {
+      "he": "וּמִתְכַּסָּה",
+      "en": "and covering herself"
+     },
+     {
+      "he": "בוֹ",
+      "en": "with it"
+     },
+     {
+      "he": "בַּלַּיְלָה,",
+      "en": "at night"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מָקוֹם שֶׁנִּמְצָא בוֹ כֶתֶם,",
+    "en": "any place where a stain is found on it,",
+    "st": "<b>wherever</b> on the robe <b>that the stain is found,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁנִּמְצָא",
+      "en": "that is found"
+     },
+     {
+      "he": "בוֹ",
+      "en": "on it"
+     },
+     {
+      "he": "כֶתֶם,",
+      "en": "a stain"
+     }
+    ]
+   },
+   {
+    "he": "טְמֵאָה, מִפְּנֵי שֶׁהוּא חוֹזֵר.",
+    "en": "she is tamei, because it moves around.",
+    "st": "the stain renders her <b>ritually impure, due to</b> the fact <b>that</b> the robe <b>moves</b> while the woman is asleep and therefore the blood could have originated in the uterus. <b>And likewise with regard to a kerchief [bapoleyos],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְמֵאָה,",
+      "en": "is tamei"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "חוֹזֵר.",
+      "en": "moves around"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן בַּפַּלְיוֹם:",
+    "en": "And the same with a head scarf.",
+    "st": "no matter where the blood is found on the kerchief, the woman is impure.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "בַּפַּלְיוֹם:",
+      "en": "with the scarf"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "A woman who finds a stain may blame it on something else that could have caused it, and then she is tahor.",
+  "chunks": [
+   {
+    "he": "וְתוֹלָה בְכָל דָּבָר שֶׁהִיא יְכוֹלָה לִתְלוֹת.",
+    "en": "And she may blame it on anything she can blame it on.",
+    "st": "<b>And</b> a woman who discovers a blood stain on her body or her garment <b>may attribute</b> its existence <b>to any matter to which she can attribute</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְתוֹלָה",
+      "en": "and she blames"
+     },
+     {
+      "he": "בְכָל",
+      "en": "on any"
+     },
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "יְכוֹלָה",
+      "en": "can"
+     },
+     {
+      "he": "לִתְלוֹת.",
+      "en": "blame"
+     }
+    ]
+   },
+   {
+    "he": "שָׁחֲטָה בְהֵמָה,",
+    "en": "If she shechted an animal,",
+    "st": "it: If she",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁחֲטָה",
+      "en": "she shechted"
+     },
+     {
+      "he": "בְהֵמָה,",
+      "en": "an animal"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּה וָעוֹף,",
+    "en": "a wild animal or a bird,",
+    "st": "<b>slaughtered a domesticated animal, an undomesticated animal, or a bird;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּה",
+      "en": "a wild animal"
+     },
+     {
+      "he": "וָעוֹף,",
+      "en": "and a bird"
+     }
+    ]
+   },
+   {
+    "he": "נִתְעַסְּקָה בִכְתָמִים אוֹ שֶׁיָּשְׁבָה",
+    "en": "or worked with stains, or sat",
+    "st": "or if she <b>was occupied with</b> the removal of blood <b>stains</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְעַסְּקָה",
+      "en": "she worked"
+     },
+     {
+      "he": "בִכְתָמִים",
+      "en": "with stains"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁיָּשְׁבָה",
+      "en": "that she sat"
+     }
+    ]
+   },
+   {
+    "he": "בְצַד הָעֲסוּקִים בָּהֶן,",
+    "en": "next to people working with them,",
+    "st": "from the garments of other women or from her own garment, from any source, such as blood that originated from a wound elsewhere on her body or even her own menstrual blood from a prior menstrual cycle;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְצַד",
+      "en": "next to"
+     },
+     {
+      "he": "הָעֲסוּקִים",
+      "en": "those working"
+     },
+     {
+      "he": "בָּהֶן,",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "הָרְגָה מַאֲכֹלֶת,",
+    "en": "or killed a bug,",
+    "st": "<b>or if she sat alongside</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרְגָה",
+      "en": "she killed"
+     },
+     {
+      "he": "מַאֲכֹלֶת,",
+      "en": "a bug"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ תּוֹלָה בָהּ.",
+    "en": "she may blame it on that.",
+    "st": "others <b>who were occupied with</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "she is"
+     },
+     {
+      "he": "זוֹ",
+      "en": "(she)"
+     },
+     {
+      "he": "תּוֹלָה",
+      "en": "blames"
+     },
+     {
+      "he": "בָהּ.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "עַד כַּמָּה הִיא תוֹלָה.",
+    "en": "Up to what size may she blame it?",
+    "st": "removing blood stains; or if <b>she killed a louse;</b> in all of these cases, <b>that</b> woman <b>may attribute</b> the blood stain <b>to it. How large</b> a stain may a woman <b>attribute</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "תוֹלָה.",
+      "en": "blames"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי חֲנִינָא בֶן אַנְטִיגְנוֹס אוֹמֵר,",
+    "en": "Rabbi Chanina ben Antigonus says,",
+    "st": "to a louse? <b>Rabbi Ḥanina ben Antigonus says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "חֲנִינָא",
+      "en": "Chanina"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "אַנְטִיגְנוֹס",
+      "en": "Antigonus"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "עַד כַּגְּרִיס שֶׁל פּוֹל,",
+    "en": "up to the size of a split bean,",
+    "st": "It can be <b>up to</b> the area <b>of a split bean. And</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "כַּגְּרִיס",
+      "en": "like a split part"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "פּוֹל,",
+      "en": "a bean"
+     }
+    ]
+   },
+   {
+    "he": "וְאַף עַל פִּי שֶׁלֹּא הָרְגָה.",
+    "en": "and even if she did not kill one.",
+    "st": "she may attribute the stain to a louse <b>even if she does not</b> remember that <b>she killed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַף",
+      "en": "and even"
+     },
+     {
+      "he": "עַל",
+      "en": "(on)"
+     },
+     {
+      "he": "פִּי",
+      "en": "(the)"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הָרְגָה.",
+      "en": "she killed"
+     }
+    ]
+   },
+   {
+    "he": "וְתוֹלָה בִבְנָהּ אוֹ בְּבַעְלָהּ.",
+    "en": "And she may blame it on her son or her husband.",
+    "st": "it. <b>And she may attribute</b> the blood stain <b>to her son or to her husband</b>",
+    "stMore": "in a case where one of them is near her and has a wound. Furthermore,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְתוֹלָה",
+      "en": "and she blames"
+     },
+     {
+      "he": "בִבְנָהּ",
+      "en": "on her son"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְּבַעְלָהּ.",
+      "en": "on her husband"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֶשׁ בָּהּ מַכָּה וְהִיא",
+    "en": "If she has a wound and it",
+    "st": "<b>if</b> the woman herself <b>has a wound,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "on her"
+     },
+     {
+      "he": "מַכָּה",
+      "en": "a wound"
+     },
+     {
+      "he": "וְהִיא",
+      "en": "and it"
+     }
+    ]
+   },
+   {
+    "he": "יְכוֹלָה לְהִגָּלַע וּלְהוֹצִיא דָם,",
+    "en": "can open up again and bleed,",
+    "st": "even if the wound scabbed over and is no longer bleeding, <b>but it can reopen and bleed, that</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְכוֹלָה",
+      "en": "can"
+     },
+     {
+      "he": "לְהִגָּלַע",
+      "en": "open up"
+     },
+     {
+      "he": "וּלְהוֹצִיא",
+      "en": "and bring out"
+     },
+     {
+      "he": "דָם,",
+      "en": "blood"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ תּוֹלָה בָהּ:",
+    "en": "she may blame it on that.",
+    "st": "woman <b>may attribute</b> the blood stain to that wound.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "she is"
+     },
+     {
+      "he": "זוֹ",
+      "en": "(she)"
+     },
+     {
+      "he": "תּוֹלָה",
+      "en": "blames"
+     },
+     {
+      "he": "בָהּ:",
+      "en": "on it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "A woman came to Rabbi Akiva with a stain, and he found a way to say she was tahor. He taught his students that the Sages were lenient about stains.",
+  "chunks": [
+   {
+    "he": "מַעֲשֶׂה בְאִשָּׁה אַחַת שֶׁבָּאת",
+    "en": "It once happened that a woman came",
+    "st": "There was <b>an incident involving one woman who came</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בְאִשָּׁה",
+      "en": "with a woman"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁבָּאת",
+      "en": "who came"
+     }
+    ]
+   },
+   {
+    "he": "לִפְנֵי רַבִּי עֲקִיבָא,",
+    "en": "before Rabbi Akiva.",
+    "st": "<b>before Rabbi Akiva.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרָה לוֹ,",
+    "en": "She said to him,",
+    "st": "<b>She said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרָה",
+      "en": "she said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "רָאִיתִי כָתֶם.",
+    "en": "\"I saw a stain.\"",
+    "st": "<b>I saw</b> a blood <b>stain.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאִיתִי",
+      "en": "I saw"
+     },
+     {
+      "he": "כָתֶם.",
+      "en": "a stain"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהּ,",
+    "en": "He said to her,",
+    "st": "Rabbi Akiva <b>said to her: Perhaps</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא מַכָּה הָיְתָה בִיךְ.",
+    "en": "\"Maybe you had a wound?\"",
+    "st": "there <b>was a wound on your</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "maybe"
+     },
+     {
+      "he": "מַכָּה",
+      "en": "a wound"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "there was"
+     },
+     {
+      "he": "בִיךְ.",
+      "en": "on you"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרָה לוֹ,",
+    "en": "She said to him,",
+    "st": "body? <b>She said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרָה",
+      "en": "she said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הֵן, וְחָיְתָה.",
+    "en": "\"Yes, and it healed.\"",
+    "st": "<b>Yes,</b> there was a wound <b>and it healed. He said to her:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן,",
+      "en": "yes"
+     },
+     {
+      "he": "וְחָיְתָה.",
+      "en": "and it healed"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהּ,",
+    "en": "He said to her,",
+    "st": "Was it <b>perhaps</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא יְכוֹלָה לְהִגָּלַע וּלְהוֹצִיא דָם.",
+    "en": "\"Maybe it can open up again and bleed?\"",
+    "st": "a wound that <b>could reopen and bleed?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "maybe"
+     },
+     {
+      "he": "יְכוֹלָה",
+      "en": "it can"
+     },
+     {
+      "he": "לְהִגָּלַע",
+      "en": "open up"
+     },
+     {
+      "he": "וּלְהוֹצִיא",
+      "en": "and bring out"
+     },
+     {
+      "he": "דָם.",
+      "en": "blood"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרָה לוֹ,",
+    "en": "She said to him,",
+    "st": "<b>She said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרָה",
+      "en": "she said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הֵן. וְטִהֲרָהּ רַבִּי עֲקִיבָא.",
+    "en": "\"Yes.\" And Rabbi Akiva said she is tahor.",
+    "st": "<b>Yes</b> it was. <b>And Rabbi Akiva deemed her ritually pure.</b> Rabbi Akiva",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן.",
+      "en": "yes"
+     },
+     {
+      "he": "וְטִהֲרָהּ",
+      "en": "and said she is tahor"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא.",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "רָאָה תַלְמִידָיו מִסְתַּכְּלִין זֶה בָזֶה.",
+    "en": "He saw his students looking at one another.",
+    "st": "<b>saw his students looking at each other,</b> wondering why he ruled leniently in this case. Rabbi Akiva <b>said to them: What</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאָה",
+      "en": "he saw"
+     },
+     {
+      "he": "תַלְמִידָיו",
+      "en": "his students"
+     },
+     {
+      "he": "מִסְתַּכְּלִין",
+      "en": "looking"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "בָזֶה.",
+      "en": "at this one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them,",
+    "st": "in this",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "מַה הַדָּבָר קָשֶׁה בְעֵינֵיכֶם.",
+    "en": "\"Why is this hard in your eyes?",
+    "st": "<b>matter is difficult in your eyes?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "why"
+     },
+     {
+      "he": "הַדָּבָר",
+      "en": "the thing"
+     },
+     {
+      "he": "קָשֶׁה",
+      "en": "is hard"
+     },
+     {
+      "he": "בְעֵינֵיכֶם.",
+      "en": "in your eyes"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא אָמְרוּ חֲכָמִים הַדָּבָר",
+    "en": "The Sages did not say this rule",
+    "st": "The reason I ruled this way is <b>that the Sages did not state the matter</b> of the impurity of blood stains in order <b>to be stringent; rather,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the Sages"
+     },
+     {
+      "he": "הַדָּבָר",
+      "en": "the thing"
+     }
+    ]
+   },
+   {
+    "he": "לְהַחְמִיר אֶלָּא לְהָקֵל,",
+    "en": "to be strict, but to be lenient,",
+    "st": "they instituted this impurity in order <b>to be lenient,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהַחְמִיר",
+      "en": "to be strict"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "לְהָקֵל,",
+      "en": "to be lenient"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא טו),",
+    "en": "as it says (Vayikra 15),",
+    "st": "<b>as it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it is said"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "טו),",
+      "en": "15)"
+     }
+    ]
+   },
+   {
+    "he": "וְאִשָּׁה כִּי תִהְיֶה זָבָה",
+    "en": "'And if a woman has a flow,",
+    "st": "<b>“And if a woman has an issue,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִשָּׁה",
+      "en": "and a woman"
+     },
+     {
+      "he": "כִּי",
+      "en": "if"
+     },
+     {
+      "he": "תִהְיֶה",
+      "en": "will"
+     },
+     {
+      "he": "זָבָה",
+      "en": "have a flow"
+     }
+    ]
+   },
+   {
+    "he": "דָּם יִהְיֶה זֹבָהּ בִּבְשָׂרָהּ,",
+    "en": "her flow in her flesh shall be blood':",
+    "st": "<b>and her issue in her flesh shall be blood”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּם",
+      "en": "blood"
+     },
+     {
+      "he": "יִהְיֶה",
+      "en": "shall be"
+     },
+     {
+      "he": "זֹבָהּ",
+      "en": "her flow"
+     },
+     {
+      "he": "בִּבְשָׂרָהּ,",
+      "en": "in her flesh"
+     }
+    ]
+   },
+   {
+    "he": "דָּם וְלֹא כָתֶם:",
+    "en": "blood, and not a stain.\"",
+    "st": "(Leviticus 15:19), from which it is derived that by Torah law, <b>“blood”</b> deems her impure, <b>but not a stain.</b>",
+    "stMore": "Impurity from a blood stain was instituted by the Sages, and they rule leniently in any case where the stain can be attributed to another source.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּם",
+      "en": "blood"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "כָתֶם:",
+      "en": "a stain"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "A checking cloth was left under a pillow and a mark was found on it. Its shape tells us whether it is tamei.",
+  "chunks": [
+   {
+    "he": "עֵד שֶׁהוּא נָתוּן תַּחַת",
+    "en": "A checking cloth that was put under",
+    "st": "With regard to <b>an examination cloth that was placed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵד",
+      "en": "a checking cloth"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "נָתוּן",
+      "en": "was put"
+     },
+     {
+      "he": "תַּחַת",
+      "en": "under"
+     }
+    ]
+   },
+   {
+    "he": "הַכַּר וְנִמְצָא עָלָיו דָּם,",
+    "en": "the pillow and blood was found on it,",
+    "st": "<b>beneath the pillow and blood was found on</b>",
+    "stMore": "the cloth, and it is unclear whether it is the blood of an examination or the blood of a louse that was crushed beneath it, if the stain is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכַּר",
+      "en": "the pillow"
+     },
+     {
+      "he": "וְנִמְצָא",
+      "en": "and was found"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on it"
+     },
+     {
+      "he": "דָּם,",
+      "en": "blood"
+     }
+    ]
+   },
+   {
+    "he": "עָגֹל, טָהוֹר.",
+    "en": "if it is round, it is tahor.",
+    "explain": "A round mark probably came from a squashed bug.",
+    "st": "<b>round</b> the woman is <b>ritually pure,</b> as an examination to determine whether a woman is menstruating would not leave a round stain. If the stain is <b>elongated</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָגֹל,",
+      "en": "round"
+     },
+     {
+      "he": "טָהוֹר.",
+      "en": "tahor"
+     }
+    ]
+   },
+   {
+    "he": "מָשׁוּךְ, טָמֵא,",
+    "en": "If it is long, it is tamei.",
+    "st": "the woman is <b>ritually impure;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָשׁוּךְ,",
+      "en": "long"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי אֶלְעָזָר בַּר רַבִּי צָדוֹק:",
+    "en": "These are the words of Rabbi Elazar the son of Rabbi Tzadok.",
+    "st": "this is <b>the statement of Rabbi Eliezer, son of Rabbi Tzadok.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     },
+     {
+      "he": "בַּר",
+      "en": "son of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "צָדוֹק:",
+      "en": "Tzadok"
+     }
+    ]
+   }
+  ]
+ }
+]

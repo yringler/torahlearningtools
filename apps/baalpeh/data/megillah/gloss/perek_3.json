@@ -1,0 +1,2182 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "When a town sells something holy, it may use the money only to buy something holier, never something less holy. Rabbi Yehudah says a town may not sell its holy things to one person.",
+  "chunks": [
+   {
+    "he": "בְּנֵי הָעִיר שֶׁמָּכְרוּ רְחוֹבָהּ שֶׁל עִיר,",
+    "en": "People of a town who sold the town square,",
+    "explain": "The square was a bit holy because people davened there sometimes.",
+    "st": "<b>Residents of a town who sold the town square,</b>",
+    "stMore": "which was at times used for public prayer and therefore attained a certain degree of sanctity, may use the proceeds of the sale only to purchase something of a greater degree of sanctity.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בְּנֵי",
+      "en": "the people of"
+     },
+     {
+      "he": "הָעִיר",
+      "en": "the town"
+     },
+     {
+      "he": "שֶׁמָּכְרוּ",
+      "en": "who sold"
+     },
+     {
+      "he": "רְחוֹבָהּ",
+      "en": "its square"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עִיר,",
+      "en": "the town"
+     }
+    ]
+   },
+   {
+    "he": "לוֹקְחִין בְּדָמָיו בֵּית הַכְּנֶסֶת.",
+    "en": "may buy a shul with the money.",
+    "st": "They may therefore <b>purchase a synagogue with the proceeds</b> of the sale.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹקְחִין",
+      "en": "may buy"
+     },
+     {
+      "he": "בְּדָמָיו",
+      "en": "with its money"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת.",
+      "en": "gathering",
+      "note": "Together: a shul."
+     }
+    ]
+   },
+   {
+    "he": "בֵּית הַכְּנֶסֶת,",
+    "en": "If they sold a shul,",
+    "st": "If they sold <b>a synagogue,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת,",
+      "en": "gathering"
+     }
+    ]
+   },
+   {
+    "he": "לוֹקְחִין תֵּבָה.",
+    "en": "they may buy an aron.",
+    "explain": "The aron is the cabinet that holds the sefarim.",
+    "st": "<b>they may purchase an ark</b> in which to house sacred scrolls.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹקְחִין",
+      "en": "may buy"
+     },
+     {
+      "he": "תֵּבָה.",
+      "en": "an aron",
+      "note": "The holy ark for the sefarim."
+     }
+    ]
+   },
+   {
+    "he": "תֵּבָה, לוֹקְחִין מִטְפָּחוֹת.",
+    "en": "If they sold an aron, they may buy cloths.",
+    "st": "If they sold <b>an ark, they may purchase wrapping cloths</b> for the sacred scrolls.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּבָה,",
+      "en": "an aron"
+     },
+     {
+      "he": "לוֹקְחִין",
+      "en": "may buy"
+     },
+     {
+      "he": "מִטְפָּחוֹת.",
+      "en": "cloths",
+      "note": "Wrappings for the sefarim."
+     }
+    ]
+   },
+   {
+    "he": "מִטְפָּחוֹת, לוֹקְחִין סְפָרִים.",
+    "en": "If they sold cloths, they may buy sefarim.",
+    "st": "If they sold <b>wrapping cloths, they may purchase scrolls</b> of the Prophets and the Writings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִטְפָּחוֹת,",
+      "en": "cloths"
+     },
+     {
+      "he": "לוֹקְחִין",
+      "en": "may buy"
+     },
+     {
+      "he": "סְפָרִים.",
+      "en": "sefarim",
+      "note": "Books of Nevi'im and Kesuvim."
+     }
+    ]
+   },
+   {
+    "he": "סְפָרִים, לוֹקְחִין תּוֹרָה.",
+    "en": "If they sold sefarim, they may buy a Sefer Torah.",
+    "st": "If they sold <b>scrolls</b> of the Prophets and Writings, <b>they may purchase a Torah</b> scroll.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְפָרִים,",
+      "en": "sefarim"
+     },
+     {
+      "he": "לוֹקְחִין",
+      "en": "may buy"
+     },
+     {
+      "he": "תּוֹרָה.",
+      "en": "a Torah"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אִם מָכְרוּ תוֹרָה,",
+    "en": "But if they sold a Sefer Torah,",
+    "st": "<b>However,</b> the proceeds of a sale of a sacred item may not be used to purchase an item of a lesser degree of sanctity. Therefore, <b>if they sold a Torah</b> scroll,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מָכְרוּ",
+      "en": "they sold"
+     },
+     {
+      "he": "תוֹרָה,",
+      "en": "a Torah"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִקְחוּ סְפָרִים.",
+    "en": "they may not buy sefarim.",
+    "st": "<b>they may not</b> use the proceeds to <b>purchase scrolls</b> of the Prophets and the Writings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִקְחוּ",
+      "en": "they may buy"
+     },
+     {
+      "he": "סְפָרִים.",
+      "en": "sefarim"
+     }
+    ]
+   },
+   {
+    "he": "סְפָרִים, לֹא יִקְחוּ מִטְפָּחוֹת.",
+    "en": "If they sold sefarim, they may not buy cloths.",
+    "st": "If they sold <b>scrolls</b> of the Prophets and Writings, <b>they may not purchase wrapping cloths.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְפָרִים,",
+      "en": "sefarim"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִקְחוּ",
+      "en": "they may buy"
+     },
+     {
+      "he": "מִטְפָּחוֹת.",
+      "en": "cloths"
+     }
+    ]
+   },
+   {
+    "he": "מִטְפָּחוֹת, לֹא יִקְחוּ תֵבָה.",
+    "en": "If they sold cloths, they may not buy an aron.",
+    "st": "If they sold <b>wrapping cloths, they may not purchase an ark.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִטְפָּחוֹת,",
+      "en": "cloths"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִקְחוּ",
+      "en": "they may buy"
+     },
+     {
+      "he": "תֵבָה.",
+      "en": "an aron"
+     }
+    ]
+   },
+   {
+    "he": "תֵּבָה, לֹא יִקְחוּ בֵית הַכְּנֶסֶת.",
+    "en": "If they sold an aron, they may not buy a shul.",
+    "st": "If they sold <b>an ark, they may not purchase a synagogue.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּבָה,",
+      "en": "an aron"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִקְחוּ",
+      "en": "they may buy"
+     },
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת.",
+      "en": "gathering"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית הַכְּנֶסֶת,",
+    "en": "If they sold a shul,",
+    "st": "If they sold <b>a synagogue,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת,",
+      "en": "gathering"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִקְחוּ אֶת הָרְחוֹב.",
+    "en": "they may not buy the town square.",
+    "st": "<b>they may not purchase a town square.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִקְחוּ",
+      "en": "they may buy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרְחוֹב.",
+      "en": "the square"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן בְּמוֹתְרֵיהֶן.",
+    "en": "And the same is true for the money left over.",
+    "explain": "Extra money must also be used only for something holier.",
+    "st": "<b>And similarly,</b> the same limitation applies <b>to</b> any <b>surplus funds</b>",
+    "stMore": "from the sale of sacred items, i.e., if after selling an item and purchasing something of a greater degree of sanctity there remain additional, unused funds, the leftover funds are subject to the same principle and may be used to purchase only something of a degree of sanctity greater than that of the original item.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and the same"
+     },
+     {
+      "he": "בְּמוֹתְרֵיהֶן.",
+      "en": "with their leftovers"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מוֹכְרִין אֶת שֶׁל רַבִּים לְיָחִיד,",
+    "en": "We may not sell a holy thing of the many people to one person,",
+    "st": "<b>They may not sell</b> a sacred object <b>belonging to the community to an individual,</b>",
+    "stMore": "even if the object will still be used for the same purpose,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מוֹכְרִין",
+      "en": "we sell"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "that of"
+     },
+     {
+      "he": "רַבִּים",
+      "en": "the many"
+     },
+     {
+      "he": "לְיָחִיד,",
+      "en": "to one person"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁמּוֹרִידִין אוֹתוֹ מִקְּדֻשָּׁתוֹ,",
+    "en": "because that lowers its holiness.",
+    "st": "<b>due to</b> the fact <b>that</b> by doing so <b>they downgrade its</b> degree of <b>sanctity,</b>",
+    "stMore": "as an item used by fewer people is considered to have a lower degree of sanctity than one used by many;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁמּוֹרִידִין",
+      "en": "they lower"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "מִקְּדֻשָּׁתוֹ,",
+      "en": "from its holiness"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי יְהוּדָה.",
+    "en": "These are the words of Rabbi Yehudah.",
+    "st": "this is <b>the statement of Rabbi Yehuda.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה.",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן,",
+    "en": "If so,",
+    "st": "<b>If so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן,",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "אַף לֹא מֵעִיר גְּדוֹלָה לְעִיר קְטַנָּה:",
+    "en": "it would also not be allowed from a big town to a small town!",
+    "explain": "But that is surely allowed, so selling to one person is allowed too.",
+    "st": "by your logic, it should <b>also not</b> be permitted to sell a sacred object <b>from a large town to a small town.</b> However, such a sale is certainly permitted, and therefore it must also be permitted to sell such an object to an individual.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵעִיר",
+      "en": "from a town"
+     },
+     {
+      "he": "גְּדוֹלָה",
+      "en": "big"
+     },
+     {
+      "he": "לְעִיר",
+      "en": "to a town"
+     },
+     {
+      "he": "קְטַנָּה:",
+      "en": "small"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "Rabbi Meir says a shul may be sold only if the sellers can take it back. The Sages say it may be sold forever, but not to be used for four disrespectful things.",
+  "chunks": [
+   {
+    "he": "אֵין מוֹכְרִין בֵּית הַכְּנֶסֶת,",
+    "en": "We may not sell a shul",
+    "st": "<b>They may sell a synagogue</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מוֹכְרִין",
+      "en": "we sell"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת,",
+      "en": "gathering"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַל תְּנַאי שֶׁאִם יִרְצוּ יַחֲזִירוּהוּ,",
+    "en": "except on the condition that if they want, they can get it back.",
+    "st": "<b>only with a stipulation that if</b> the sellers so <b>desire it,</b> the buyers <b>will return it</b> to them;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "תְּנַאי",
+      "en": "condition"
+     },
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "יִרְצוּ",
+      "en": "they want"
+     },
+     {
+      "he": "יַחֲזִירוּהוּ,",
+      "en": "they will return it"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מוֹכְרִים אוֹתוֹ מִמְכַּר עוֹלָם,",
+    "en": "We may sell it forever,",
+    "st": "<b>They may sell a synagogue with a permanent sale</b> for any usage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹכְרִים",
+      "en": "we sell"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "מִמְכַּר",
+      "en": "a sale of"
+     },
+     {
+      "he": "עוֹלָם,",
+      "en": "forever"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מֵאַרְבָּעָה דְּבָרִים,",
+    "en": "except for four things:",
+    "st": "<b>except</b> the following <b>four things,</b> which would be an affront to the synagogue’s previous sanctity:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except for"
+     },
+     {
+      "he": "מֵאַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "דְּבָרִים,",
+      "en": "things"
+     }
+    ]
+   },
+   {
+    "he": "לְמֶרְחָץ וּלְבֻרְסְקִי וְלִטְבִילָה וּלְבֵית הַמָּיִם.",
+    "en": "for a bathhouse, a tannery, a mikveh, or a washroom.",
+    "explain": "A tannery is where animal skins are made into leather; it smells bad.",
+    "st": "<b>For a bathhouse,</b> where people stand undressed; <b>or for a tannery [burseki],</b> due to the foul smell; <b>for immersion,</b> i.e., to be used as a ritual bath, where people also stand undressed; <b>or for a lavatory.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמֶרְחָץ",
+      "en": "for a bathhouse"
+     },
+     {
+      "he": "וּלְבֻרְסְקִי",
+      "en": "and for a tannery"
+     },
+     {
+      "he": "וְלִטְבִילָה",
+      "en": "and for a mikveh"
+     },
+     {
+      "he": "וּלְבֵית",
+      "en": "and for a house of"
+     },
+     {
+      "he": "הַמָּיִם.",
+      "en": "the water"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מוֹכְרִין אוֹתוֹ לְשֵׁם חָצֵר,",
+    "en": "We may sell it to be a courtyard,",
+    "st": "<b>They may sell</b> a synagogue <b>for</b> the generic purpose of <b>serving as a courtyard,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹכְרִין",
+      "en": "we sell"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the name of"
+     },
+     {
+      "he": "חָצֵר,",
+      "en": "a courtyard"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלּוֹקֵחַ מַה שֶּׁיִּרְצֶה יַעֲשֶׂה:",
+    "en": "and the buyer may do with it whatever he wants.",
+    "st": "<b>and</b> then <b>the buyer may</b> then <b>do</b> with it <b>as he wishes,</b> even if that is one of the above four purposes.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלּוֹקֵחַ",
+      "en": "and the buyer"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁיִּרְצֶה",
+      "en": "that he wants"
+     },
+     {
+      "he": "יַעֲשֶׂה:",
+      "en": "he may do"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "Even a shul that was destroyed is still holy, so we may not use it for everyday things. But if grass grows there, we leave it, so that people will be sad and want to rebuild it.",
+  "chunks": [
+   {
+    "he": "וְעוֹד אָמַר רַבִּי יְהוּדָה,",
+    "en": "And Rabbi Yehudah also said,",
+    "st": "<b>And Rabbi Yehuda said further:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹד",
+      "en": "and also"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית הַכְּנֶסֶת שֶׁחָרַב,",
+    "en": "A shul that was destroyed,",
+    "st": "<b>A synagogue that fell into ruin</b>",
+    "stMore": "still may not be used for a mundane purpose.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "הַכְּנֶסֶת",
+      "en": "gathering"
+     },
+     {
+      "he": "שֶׁחָרַב,",
+      "en": "that was destroyed"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מַסְפִּידִין בְּתוֹכוֹ,",
+    "en": "we may not say a eulogy in it,",
+    "st": "Therefore, <b>one may not eulogize in it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מַסְפִּידִין",
+      "en": "we say a eulogy"
+     },
+     {
+      "he": "בְּתוֹכוֹ,",
+      "en": "inside it"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מַפְשִׁילִין בְּתוֹכוֹ חֲבָלִים,",
+    "en": "and we may not stretch out ropes in it,",
+    "st": "<b>And nor may one stretch out</b> and repair <b>ropes in it.</b>",
+    "stMore": "The wide expanse of the synagogue would have been particularly suitable for this.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "מַפְשִׁילִין",
+      "en": "we stretch out"
+     },
+     {
+      "he": "בְּתוֹכוֹ",
+      "en": "inside it"
+     },
+     {
+      "he": "חֲבָלִים,",
+      "en": "ropes"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין פּוֹרְשִׂין לְתוֹכוֹ מְצוּדוֹת,",
+    "en": "and we may not spread out traps in it,",
+    "st": "<b>And nor may one spread</b> animal <b>traps within it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "פּוֹרְשִׂין",
+      "en": "we spread"
+     },
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "מְצוּדוֹת,",
+      "en": "traps"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין שׁוֹטְחִין עַל גַּגּוֹ פֵרוֹת,",
+    "en": "and we may not spread out fruit on its roof,",
+    "st": "<b>And nor may one spread out produce upon its roof</b> to dry.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "שׁוֹטְחִין",
+      "en": "we spread out"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּגּוֹ",
+      "en": "its roof"
+     },
+     {
+      "he": "פֵרוֹת,",
+      "en": "fruit"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין עוֹשִׂין אוֹתוֹ קַפַּנְדַּרְיָא,",
+    "en": "and we may not make it into a shortcut,",
+    "st": "<b>And nor may one make it</b> into <b>a shortcut.</b>",
+    "stMore": "The halakha that a synagogue in disrepair still may not be used for mundane purposes is derived from a verse,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "we make"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "קַפַּנְדַּרְיָא,",
+      "en": "a shortcut",
+      "note": "A path to walk through to save time."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא כו),",
+    "en": "as it says,",
+    "st": "<b>as it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כו),",
+      "en": "26)"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲשִׁמּוֹתִי אֶת מִקְדְּשֵׁיכֶם,",
+    "en": "\"And I will make your holy places empty.\"",
+    "st": "<b>“And I will bring desolation to your sanctuaries”</b> (Leviticus 26:31).",
+    "stMore": "The fact that the word “sanctuaries” appears after the word “desolation” indicates that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲשִׁמּוֹתִי",
+      "en": "and I will make empty"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "מִקְדְּשֵׁיכֶם,",
+      "en": "your holy places"
+     }
+    ]
+   },
+   {
+    "he": "קְדֻשָּׁתָן אַף כְּשֶׁהֵן שׁוֹמֵמִין.",
+    "en": "They are still holy even when they are empty.",
+    "st": "<b>their sanctity</b> remains upon them <b>even when they are desolate.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְדֻשָּׁתָן",
+      "en": "their holiness"
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "כְּשֶׁהֵן",
+      "en": "when they"
+     },
+     {
+      "he": "שׁוֹמֵמִין.",
+      "en": "are empty"
+     }
+    ]
+   },
+   {
+    "he": "עָלוּ בוֹ עֲשָׂבִים,",
+    "en": "If grass grew up in it,",
+    "st": "However, if <b>grass sprang up</b> of its own accord <b>in</b> the ruined synagogue,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָלוּ",
+      "en": "came up"
+     },
+     {
+      "he": "בוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "עֲשָׂבִים,",
+      "en": "grasses"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִתְלֹשׁ,",
+    "en": "he should not pull it out,",
+    "st": "although it is not befitting its sanctity, <b>one should not pick</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִתְלֹשׁ,",
+      "en": "he should pull out"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי עָגְמַת נָפֶשׁ:",
+    "en": "because it makes people sad.",
+    "explain": "Seeing it will remind them to rebuild the shul.",
+    "st": "<b>due to</b> the <b>anguish</b> that it will bring to those who see it. It will remind them of the disrepair of the synagogue and the need to rebuild it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "עָגְמַת",
+      "en": "sadness of"
+     },
+     {
+      "he": "נָפֶשׁ:",
+      "en": "the soul"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "In the weeks around Adar, special parshiyos are read: Shekalim, Zachor, Parah and HaChodesh. On special days, we stop the regular order and read about that day.",
+  "stIntro": "On four Shabbatot during and surround-ing the month of Adar, a Torah portion of seasonal significance is read.",
+  "chunks": [
+   {
+    "he": "רֹאשׁ חֹדֶשׁ אֲדָר שֶׁחָל לִהְיוֹת בְּשַׁבָּת,",
+    "en": "When Rosh Chodesh Adar falls on Shabbos,",
+    "st": "When <b>the New Moon of Adar occurs on Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "the month of"
+     },
+     {
+      "he": "אֲדָר",
+      "en": "Adar"
+     },
+     {
+      "he": "שֶׁחָל",
+      "en": "that falls"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "בְּשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "קוֹרִין בְּפָרָשַׁת שְׁקָלִים (שמות ל).",
+    "en": "we read Parshas Shekalim.",
+    "explain": "It tells about the half-shekel everyone gave.",
+    "st": "the congregation <b>reads the portion of Shekalim</b> on that Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹרִין",
+      "en": "we read"
+     },
+     {
+      "he": "בְּפָרָשַׁת",
+      "en": "in the parshah of"
+     },
+     {
+      "he": "שְׁקָלִים",
+      "en": "Shekalim"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "ל).",
+      "en": "30)"
+     }
+    ]
+   },
+   {
+    "he": "חָל לִהְיוֹת בְּתוֹךְ הַשַּׁבָּת,",
+    "en": "If it falls during the week,",
+    "st": "If the New Moon <b>occurs during</b> the middle of <b>the week,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָל",
+      "en": "falls"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "in the middle of"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "the week"
+     }
+    ]
+   },
+   {
+    "he": "מַקְדִּימִין לְשֶׁעָבַר וּמַפְסִיקִין לְשַׁבָּת אַחֶרֶת.",
+    "en": "we read it the Shabbos before, and skip the next Shabbos.",
+    "st": "<b>they advance</b> the reading of that portion <b>to the previous</b> Shabbat, <b>and,</b> in such a case, <b>they interrupt</b> the reading of the four portions <b>on the following Shabbat,</b>",
+    "stMore": "which would be the first Shabbat of the month of Adar, and no additional portion is read on it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַקְדִּימִין",
+      "en": "we read early"
+     },
+     {
+      "he": "לְשֶׁעָבַר",
+      "en": "to the one that passed"
+     },
+     {
+      "he": "וּמַפְסִיקִין",
+      "en": "and we stop"
+     },
+     {
+      "he": "לְשַׁבָּת",
+      "en": "for Shabbos"
+     },
+     {
+      "he": "אַחֶרֶת.",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "בַּשְּׁנִיָּה, זָכוֹר (דברים כה).",
+    "en": "On the second Shabbos, Zachor.",
+    "explain": "Zachor tells us to remember what Amalek did.",
+    "st": "<b>On the second</b> Shabbat, the Shabbat prior to Purim, they read the portion: <b>“Remember</b> what Amalek did” (Deuteronomy 25:17–19),",
+    "stMore": "which details the mitzva to remember and destroy the nation of Amalek.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשְּׁנִיָּה,",
+      "en": "on the second"
+     },
+     {
+      "he": "זָכוֹר",
+      "en": "Zachor",
+      "note": "\"Remember.\""
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "כה).",
+      "en": "25)"
+     }
+    ]
+   },
+   {
+    "he": "בַּשְּׁלִישִׁית, פָּרָה אֲדֻמָּה (במדבר י״ט: ב׳).",
+    "en": "On the third, Parah Adumah.",
+    "explain": "Parah Adumah tells how to become tahor from the tumah of a dead person.",
+    "st": "<b>On the third</b> Shabbat, they read the portion of <b>the Red Heifer [Para]</b> (Numbers 19:1–22),",
+    "stMore": "which details the purification process for one who became ritually impure through contact with a corpse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשְּׁלִישִׁית,",
+      "en": "on the third"
+     },
+     {
+      "he": "פָּרָה",
+      "en": "the cow"
+     },
+     {
+      "he": "אֲדֻמָּה",
+      "en": "red"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "י״ט:",
+      "en": "19:"
+     },
+     {
+      "he": "ב׳).",
+      "en": "2)"
+     }
+    ]
+   },
+   {
+    "he": "בָּרְבִיעִית, הַחֹדֶשׁ הַזֶּה לָכֶם (שמות יב).",
+    "en": "On the fourth, \"This month is for you.\"",
+    "explain": "It tells about the month of Nissan and the korban Pesach.",
+    "st": "<b>On the fourth</b> Shabbat, they read the portion: <b>“This month [haḥodesh] shall be for you”</b> (Exodus 12:1–20),",
+    "stMore": "which describes the offering of the Paschal lamb.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּרְבִיעִית,",
+      "en": "on the fourth"
+     },
+     {
+      "he": "הַחֹדֶשׁ",
+      "en": "the month"
+     },
+     {
+      "he": "הַזֶּה",
+      "en": "this"
+     },
+     {
+      "he": "לָכֶם",
+      "en": "for you"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "יב).",
+      "en": "12)"
+     }
+    ]
+   },
+   {
+    "he": "בָּחֲמִישִׁית, חוֹזְרִין לִכְסִדְרָן.",
+    "en": "On the fifth, we go back to the regular order.",
+    "st": "<b>On the fifth</b> Shabbat, <b>they resume the</b> regular weekly <b>order</b> of readings and no special portion is read.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּחֲמִישִׁית,",
+      "en": "on the fifth"
+     },
+     {
+      "he": "חוֹזְרִין",
+      "en": "we go back"
+     },
+     {
+      "he": "לִכְסִדְרָן.",
+      "en": "to their order"
+     }
+    ]
+   },
+   {
+    "he": "לַכֹּל מַפְסִיקִין,",
+    "en": "For all special days we stop the order:",
+    "st": "<b>For all</b> special days, the congregation <b>interrupts</b>",
+    "stMore": "the regular weekly order of readings, and a special portion relating to the character of the day is read.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַכֹּל",
+      "en": "for all"
+     },
+     {
+      "he": "מַפְסִיקִין,",
+      "en": "we stop"
+     }
+    ]
+   },
+   {
+    "he": "בְּרָאשֵׁי חֳדָשִׁים,",
+    "en": "on Rosh Chodesh,",
+    "st": "This applies <b>on the New Moons,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּרָאשֵׁי",
+      "en": "on the heads of"
+     },
+     {
+      "he": "חֳדָשִׁים,",
+      "en": "months"
+     }
+    ]
+   },
+   {
+    "he": "בַּחֲנֻכָּה וּבְפוּרִים,",
+    "en": "on Chanukah and on Purim,",
+    "st": "<b>on Hanukkah, and on Purim,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחֲנֻכָּה",
+      "en": "on Chanukah"
+     },
+     {
+      "he": "וּבְפוּרִים,",
+      "en": "and on Purim"
+     }
+    ]
+   },
+   {
+    "he": "בַּתַּעֲנִיּוֹת וּבַמַּעֲמָדוֹת וּבְיוֹם הַכִּפּוּרִים:",
+    "en": "on fast days, on the maamados, and on Yom Kippur.",
+    "explain": "The maamados were groups of people who davened while their Kohanim served.",
+    "st": "<b>on fast days, and on the</b> non-priestly <b>watches, and on Yom Kippur.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּתַּעֲנִיּוֹת",
+      "en": "on the fast days"
+     },
+     {
+      "he": "וּבַמַּעֲמָדוֹת",
+      "en": "and on the maamados"
+     },
+     {
+      "he": "וּבְיוֹם",
+      "en": "and on the day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים:",
+      "en": "Kippur"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "This mishnah tells which part of the Torah we read on Pesach, Shavuos, Rosh Hashanah, Yom Kippur and Sukkos.",
+  "chunks": [
+   {
+    "he": "בְּפֶסַח קוֹרִין בְּפָרָשַׁת מוֹעֲדוֹת",
+    "en": "On Pesach we read the parshah of the Yamim Tovim",
+    "st": "<b>On</b> the first day of <b>Passover,</b> the congregation <b>reads from the portion of the Festivals</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּפֶסַח",
+      "en": "on Pesach"
+     },
+     {
+      "he": "קוֹרִין",
+      "en": "we read"
+     },
+     {
+      "he": "בְּפָרָשַׁת",
+      "en": "in the parshah of"
+     },
+     {
+      "he": "מוֹעֲדוֹת",
+      "en": "the Yamim Tovim"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל תּוֹרַת כֹּהֲנִים (ויקרא כב).",
+    "en": "in Toras Kohanim.",
+    "explain": "Toras Kohanim is Sefer Vayikra.",
+    "st": "<b>of Leviticus</b> (Leviticus 22:26–23:44).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "תּוֹרַת",
+      "en": "the Torah of"
+     },
+     {
+      "he": "כֹּהֲנִים",
+      "en": "Kohanim",
+      "note": "Sefer Vayikra."
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כב).",
+      "en": "22)"
+     }
+    ]
+   },
+   {
+    "he": "בַּעֲצֶרֶת, שִׁבְעָה שָׁבֻעוֹת (דברים טז).",
+    "en": "On Shavuos, \"Seven weeks.\"",
+    "st": "<b>On Shavuot</b> they read the portion of <b>“Seven weeks”</b> (Deuteronomy 16:9–12).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעֲצֶרֶת,",
+      "en": "on Atzeres",
+      "note": "Shavuos."
+     },
+     {
+      "he": "שִׁבְעָה",
+      "en": "seven"
+     },
+     {
+      "he": "שָׁבֻעוֹת",
+      "en": "weeks"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "טז).",
+      "en": "16)"
+     }
+    ]
+   },
+   {
+    "he": "בְּרֹאשׁ הַשָּׁנָה,",
+    "en": "On Rosh Hashanah,",
+    "st": "<b>On Rosh HaShana</b> they read the portion of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּרֹאשׁ",
+      "en": "on the head of"
+     },
+     {
+      "he": "הַשָּׁנָה,",
+      "en": "the year"
+     }
+    ]
+   },
+   {
+    "he": "בַּחֹדֶשׁ הַשְּׁבִיעִי בְּאֶחָד לַחֹדֶשׁ (ויקרא כג).",
+    "en": "\"In the seventh month, on the first of the month.\"",
+    "st": "“And <b>on the seventh month on the first of the month”</b> (Leviticus 23:23–25).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחֹדֶשׁ",
+      "en": "in the month"
+     },
+     {
+      "he": "הַשְּׁבִיעִי",
+      "en": "the seventh"
+     },
+     {
+      "he": "בְּאֶחָד",
+      "en": "on the first"
+     },
+     {
+      "he": "לַחֹדֶשׁ",
+      "en": "of the month"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כג).",
+      "en": "23)"
+     }
+    ]
+   },
+   {
+    "he": "בְּיוֹם הַכִּפּוּרִים,",
+    "en": "On Yom Kippur,",
+    "st": "<b>On Yom Kippur</b> they read the portion of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים,",
+      "en": "Kippur"
+     }
+    ]
+   },
+   {
+    "he": "אַחֲרֵי מוֹת (שם טז).",
+    "en": "\"After the death.\"",
+    "explain": "It tells about the avodah of the Kohen Gadol on Yom Kippur.",
+    "st": "<b>“After the death”</b> (Leviticus 16).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחֲרֵי",
+      "en": "after"
+     },
+     {
+      "he": "מוֹת",
+      "en": "the death of"
+     },
+     {
+      "he": "(שם",
+      "en": "(there"
+     },
+     {
+      "he": "טז).",
+      "en": "16)"
+     }
+    ]
+   },
+   {
+    "he": "בְּיוֹם טוֹב הָרִאשׁוֹן שֶׁל חָג קוֹרִין",
+    "en": "On the first day of Sukkos we read",
+    "st": "<b>On the first Festival day of Sukkot they read</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day"
+     },
+     {
+      "he": "טוֹב",
+      "en": "Tov"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חָג",
+      "en": "the Chag",
+      "note": "Sukkos."
+     },
+     {
+      "he": "קוֹרִין",
+      "en": "we read"
+     }
+    ]
+   },
+   {
+    "he": "בְּפָרָשַׁת מוֹעֲדוֹת שֶׁבְּתוֹרַת כֹּהֲנִים (ויקרא כג),",
+    "en": "the parshah of the Yamim Tovim in Toras Kohanim,",
+    "st": "<b>from the portion of the Festivals of Leviticus</b> (Leviticus 22:26–23:44),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּפָרָשַׁת",
+      "en": "in the parshah of"
+     },
+     {
+      "he": "מוֹעֲדוֹת",
+      "en": "the Yamim Tovim"
+     },
+     {
+      "he": "שֶׁבְּתוֹרַת",
+      "en": "that is in the Torah of"
+     },
+     {
+      "he": "כֹּהֲנִים",
+      "en": "Kohanim"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כג),",
+      "en": "23)"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׁאָר כָּל יְמוֹת הֶחָג",
+    "en": "and on all the other days of Sukkos,",
+    "st": "<b>and on the other days of Sukkot</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׁאָר",
+      "en": "and on the rest of"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "יְמוֹת",
+      "en": "the days of"
+     },
+     {
+      "he": "הֶחָג",
+      "en": "the Chag"
+     }
+    ]
+   },
+   {
+    "he": "בְּקָרְבְּנוֹת הֶחָג (במדבר כט):",
+    "en": "we read about the korbanos of Sukkos.",
+    "st": "they read selections <b>from</b> the portion of <b>the offerings of Sukkot</b> (Numbers 29:12–39).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּקָרְבְּנוֹת",
+      "en": "in the korbanos of"
+     },
+     {
+      "he": "הֶחָג",
+      "en": "the Chag"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "כט):",
+      "en": "29)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "This mishnah tells what we read from the Torah on Chanukah, Purim, Rosh Chodesh and fast days. It also teaches that we read about each Yom Tov on its own day.",
+  "chunks": [
+   {
+    "he": "בַּחֲנֻכָּה, בַּנְּשִׂיאִים (שם ז).",
+    "en": "On Chanukah, the parshah of the Nesi'im.",
+    "explain": "The Nesi'im were the heads of the shevatim who brought gifts for the Mishkan.",
+    "st": "<b>On</b> each day of <b>Hanukkah</b> they read selections <b>from</b> the portion of the dedication of the altar by <b>the</b> tribal <b>princes</b> (Numbers 7).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּחֲנֻכָּה,",
+      "en": "on Chanukah"
+     },
+     {
+      "he": "בַּנְּשִׂיאִים",
+      "en": "in the Nesi'im",
+      "note": "The heads of the shevatim."
+     },
+     {
+      "he": "(שם",
+      "en": "(there"
+     },
+     {
+      "he": "ז).",
+      "en": "7)"
+     }
+    ]
+   },
+   {
+    "he": "בְּפוּרִים, וַיָּבֹא עֲמָלֵק (שמות יז).",
+    "en": "On Purim, \"And Amalek came.\"",
+    "st": "<b>On Purim</b> they read the portion of <b>“And Amalek came”</b> (Exodus 17:8–16).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּפוּרִים,",
+      "en": "on Purim"
+     },
+     {
+      "he": "וַיָּבֹא",
+      "en": "and came"
+     },
+     {
+      "he": "עֲמָלֵק",
+      "en": "Amalek"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "יז).",
+      "en": "17)"
+     }
+    ]
+   },
+   {
+    "he": "בְּרָאשֵׁי חֳדָשִׁים,",
+    "en": "On Rosh Chodesh,",
+    "st": "<b>On the New Moon</b> they read the portion of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּרָאשֵׁי",
+      "en": "on the heads of"
+     },
+     {
+      "he": "חֳדָשִׁים,",
+      "en": "months"
+     }
+    ]
+   },
+   {
+    "he": "וּבְרָאשֵׁי חָדְשֵׁיכֶם (במדבר כח).",
+    "en": "\"And on your Roshei Chodesh.\"",
+    "st": "<b>“And in the beginnings of your months”</b> (Numbers 28:11–15).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְרָאשֵׁי",
+      "en": "and on the heads of"
+     },
+     {
+      "he": "חָדְשֵׁיכֶם",
+      "en": "your months"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "כח).",
+      "en": "28)"
+     }
+    ]
+   },
+   {
+    "he": "בַּמַּעֲמָדוֹת, בְּמַעֲשֵׂה בְּרֵאשִׁית (בראשית א).",
+    "en": "At the maamados, the story of how the world was made.",
+    "st": "<b>And in the</b> non-priestly <b>watches</b> they read <b>the act of Creation</b> (Genesis 1:1–2:3).",
+    "stMore": "The Jewish people were divided into twenty-four watches. Each week, it would be the turn of a different watch to send representatives to Jerusalem to be present in the Temple to witness the sacrificial service. Those remaining behind would fast during the week, from Monday to Thursday, offer special prayers, and read the account of Creation from the Torah.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּמַּעֲמָדוֹת,",
+      "en": "at the maamados"
+     },
+     {
+      "he": "בְּמַעֲשֵׂה",
+      "en": "in the story of"
+     },
+     {
+      "he": "בְּרֵאשִׁית",
+      "en": "the beginning"
+     },
+     {
+      "he": "(בראשית",
+      "en": "(Bereishis"
+     },
+     {
+      "he": "א).",
+      "en": "1)"
+     }
+    ]
+   },
+   {
+    "he": "בַּתַּעֲנִיּוֹת, בְּרָכוֹת וּקְלָלוֹת (ויקרא כו).",
+    "en": "On fast days, the brachos and the curses.",
+    "st": "<b>On fast days,</b> they read the portion of <b>blessings and curses</b> (Leviticus, chapter 26).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּתַּעֲנִיּוֹת,",
+      "en": "on the fast days"
+     },
+     {
+      "he": "בְּרָכוֹת",
+      "en": "blessings"
+     },
+     {
+      "he": "וּקְלָלוֹת",
+      "en": "and curses"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כו).",
+      "en": "26)"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מַפְסִיקִין בַּקְּלָלוֹת,",
+    "en": "We do not stop in the middle of the curses,",
+    "st": "<b>One should not interrupt</b> the reading of the <b>curses</b> by having two different people read them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מַפְסִיקִין",
+      "en": "we stop"
+     },
+     {
+      "he": "בַּקְּלָלוֹת,",
+      "en": "in the curses"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אֶחָד קוֹרֵא אֶת כֻּלָּן.",
+    "en": "but one person reads all of them.",
+    "st": "<b>Rather, one person reads all of them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "קוֹרֵא",
+      "en": "reads"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כֻּלָּן.",
+      "en": "all of them"
+     }
+    ]
+   },
+   {
+    "he": "בַּשֵּׁנִי וּבַחֲמִישִׁי וּבְשַׁבָּת בַּמִּנְחָה,",
+    "en": "On Monday, Thursday, and Shabbos at Minchah,",
+    "st": "<b>On Mondays, and on Thursdays,</b> and <b>on Shabbat during the afternoon</b> service,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשֵּׁנִי",
+      "en": "on the second day"
+     },
+     {
+      "he": "וּבַחֲמִישִׁי",
+      "en": "and on the fifth day"
+     },
+     {
+      "he": "וּבְשַׁבָּת",
+      "en": "and on Shabbos"
+     },
+     {
+      "he": "בַּמִּנְחָה,",
+      "en": "at Minchah"
+     }
+    ]
+   },
+   {
+    "he": "קוֹרִין כְּסִדְרָן,",
+    "en": "we read in the regular order,",
+    "st": "<b>they read in accordance</b> with the regular weekly <b>order,</b>",
+    "stMore": "i.e., they proceed to read the first section of the Torah portion that follows the portion that was read on the previous Shabbat morning.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹרִין",
+      "en": "we read"
+     },
+     {
+      "he": "כְּסִדְרָן,",
+      "en": "in their order"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין עוֹלִין לָהֶם מִן הַחֶשְׁבּוֹן,",
+    "en": "but they do not count toward the order.",
+    "explain": "On Shabbos morning, we start again from the same place.",
+    "st": "<b>However,</b> these readings <b>are not counted</b> as a progression <b>in the reckoning</b>",
+    "stMore": "of reading the Torah portions, i.e., they do not proceed on Monday to read the section that immediately follows the section read on Shabbat during the afternoon, and then the following section on Thursday. Rather, until the reading on the following Shabbat morning, they return to and read the same first section of the Torah portion that follows the portion that was read on the previous Shabbat morning. On Festivals and holidays, they read a portion relating to the character of the day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "עוֹלִין",
+      "en": "they go up"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחֶשְׁבּוֹן,",
+      "en": "the count"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא כג),",
+    "en": "as it says,",
+    "st": "<b>as</b> it <b>is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כג),",
+      "en": "23)"
+     }
+    ]
+   },
+   {
+    "he": "וַיְדַבֵּר מֹשֶׁה אֶת מֹעֲדֵי יְיָ",
+    "en": "\"And Moshe told the special times of Hashem",
+    "st": "<b>“And Moses declared</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַיְדַבֵּר",
+      "en": "and spoke"
+     },
+     {
+      "he": "מֹשֶׁה",
+      "en": "Moshe"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "מֹעֲדֵי",
+      "en": "the special times of"
+     },
+     {
+      "he": "יְיָ",
+      "en": "Hashem"
+     }
+    ]
+   },
+   {
+    "he": "אֶל בְּנֵי יִשְׂרָאֵל,",
+    "en": "to the Bnei Yisrael.\"",
+    "st": "<b>to the children of Israel the appointed seasons of the Lord”</b> (Leviticus 23:44),",
+    "stMore": "which indicates that part of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶל",
+      "en": "to"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "the children of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "מִצְוָתָן שֶׁיְּהוּ קוֹרִין",
+    "en": "Their mitzvah is that we read",
+    "st": "<b>the mitzva</b> of the Festivals is <b>that</b> the people <b>should read</b> the portion relating to them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוָתָן",
+      "en": "their mitzvah"
+     },
+     {
+      "he": "שֶׁיְּהוּ",
+      "en": "that they will"
+     },
+     {
+      "he": "קוֹרִין",
+      "en": "read"
+     }
+    ]
+   },
+   {
+    "he": "כָּל אֶחָד וְאֶחָד בִּזְמַנּוֹ:",
+    "en": "each one at its own time.",
+    "st": "<b>each one in its</b> appointed <b>time.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "בִּזְמַנּוֹ:",
+      "en": "in its time"
+     }
+    ]
+   }
+  ]
+ }
+]

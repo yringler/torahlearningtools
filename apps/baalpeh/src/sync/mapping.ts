@@ -1,12 +1,14 @@
 import type {
   ChildMeta, ChildRow, ChildSettings, Ms, MishnahProgressData, PerekProgressData, RecordRow, ReviewItemData,
 } from "../../shared/api";
+import { isLibraryPlace, isMasechtaId, parseProgressKey } from "../../shared/progressKey";
+import { chainKey, parseChainKey } from "../perekSteps";
 import type { Profile } from "../types";
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
-const M_KEY = /^\d{1,3}:\d{1,3}$/;
-const P_KEY = /^\d{1,3}$/;
 const COLOR = /^#[0-9a-fA-F]{6}$/;
+/** Server limit on PerekProgressData.chains (worker/lib/validate.ts). */
+const MAX_CHAINS = 64;
 
 const int = (v: unknown, lo: number, hi: number, dflt: number): number => {
   const n = typeof v === "number" && Number.isFinite(v) ? Math.round(v) : dflt;
@@ -19,6 +21,8 @@ function cleanSettings(s: Profile["settings"]): ChildSettings {
   const out: ChildSettings = { fontScale };
   if (typeof s.breakMinutes === "number" && Number.isFinite(s.breakMinutes)) out.breakMinutes = int(s.breakMinutes, 1, 180, 15);
   if (s.meaningView === "simple" || s.meaningView === "steinsaltz") out.meaningView = s.meaningView;
+  if (isMasechtaId(s.lastMasechta)) out.lastMasechta = s.lastMasechta;
+  if (isLibraryPlace(s.libraryPlace)) out.libraryPlace = s.libraryPlace;
   return out;
 }
 
@@ -27,6 +31,8 @@ export function settingsOf(s: ChildSettings): Profile["settings"] {
   const out: Profile["settings"] = { fontScale: s.fontScale };
   if (s.breakMinutes !== undefined) out.breakMinutes = s.breakMinutes;
   if (s.meaningView !== undefined) out.meaningView = s.meaningView;
+  if (isMasechtaId(s.lastMasechta)) out.lastMasechta = s.lastMasechta;
+  if (isLibraryPlace(s.libraryPlace)) out.libraryPlace = s.libraryPlace;
   return out;
 }
 
@@ -55,10 +61,23 @@ export function cleanMishnah(m: MishnahProgressData): MishnahProgressData {
   return out;
 }
 
+/** Passed perek chain ranges as the server accepts them: valid "from-to" keys, deduped, sorted, at most 64. */
+function cleanChains(chains: unknown[]): string[] {
+  const seen = new Map<string, [number, number]>();
+  for (const k of chains) {
+    const r = parseChainKey(k);
+    if (r) seen.set(chainKey(r[0], r[1]), r);
+  }
+  return [...seen.values()].sort((x, y) => x[0] - y[0] || x[1] - y[1]).slice(0, MAX_CHAINS).map(([a, b]) => chainKey(a, b));
+}
+
 export function cleanPerek(p: PerekProgressData): PerekProgressData {
   const out: PerekProgressData = { chainedThrough: int(p.chainedThrough, 0, 999, 0), complete: p.complete === true };
   const review = cleanReview(p.review);
   if (review) out.review = review;
+  // Old-shape rows (no array) keep no `chains` key, so they round-trip unchanged.
+  const chains: unknown = (p as { chains?: unknown }).chains;
+  if (Array.isArray(chains)) out.chains = cleanChains(chains);
   return out;
 }
 
@@ -72,15 +91,19 @@ const pRow = (childId: string, key: string, data: PerekProgressData, now: Ms): R
   ({ kind: "p", childId, key, data: cleanPerek(data), updatedAt: now });
 const dRow = (childId: string, day: string, now: Ms): RecordRow => ({ kind: "d", childId, key: day, data: {}, updatedAt: now });
 
+/**
+ * Only canonical keys are pushed (shared/progressKey.ts): the server rejects the whole batch for one bad key, so a
+ * non-canonical "berakhot/1:2" or a garbage key in local data must never reach it.
+ */
 function recordRows(p: Profile, prev: Profile | undefined, now: Ms): RecordRow[] {
   const out: RecordRow[] = [];
   for (const [k, v] of Object.entries(p.mishnayos)) {
-    if (!M_KEY.test(k)) continue;
+    if (parseProgressKey("m", k) === null) continue;
     const before = prev?.mishnayos[k];
     if (before === undefined || JSON.stringify(before) !== JSON.stringify(v)) out.push(mRow(p.id, k, v, now));
   }
   for (const [k, v] of Object.entries(p.perakim)) {
-    if (!P_KEY.test(k)) continue;
+    if (parseProgressKey("p", k) === null) continue;
     const before = prev?.perakim[k];
     if (before === undefined || JSON.stringify(before) !== JSON.stringify(v)) out.push(pRow(p.id, k, v, now));
   }
@@ -94,16 +117,26 @@ export function profileToRows(p: Profile, sort: number, now: Ms): { child: Child
   return { child: childRow(p, sort, now), records: recordRows(p, undefined, now) };
 }
 
-/** The rows that turn `prev` into `next` (§6.4). Removed map keys and days produce nothing. */
+/**
+ * The rows that turn `prev` into `next` (§6.4). Removed map keys and days produce nothing.
+ * `sort` only orders the list, so gaps and ties are harmless: when the children kept from `prev` are still in the
+ * same order (a child was only added or removed), a kept child whose index merely shifted sends no row. Otherwise
+ * removing a child would rewrite every later sibling with this device's possibly stale copy of its meta (a parent's
+ * removal would overwrite a learner's newer text size and log an edit nobody made).
+ */
 export function diffProfiles(prev: Profile[], next: Profile[], now: Ms): { children: ChildRow[]; records: RecordRow[] } {
   const children: ChildRow[] = [];
   const records: RecordRow[] = [];
   const prevIndex = new Map(prev.map((p, i) => [p.id, i] as const));
   const nextIds = new Set(next.map((p) => p.id));
+  const keptPrev = prev.filter((p) => nextIds.has(p.id)).map((p) => p.id);
+  const keptNext = next.filter((p) => prevIndex.has(p.id)).map((p) => p.id);
+  const orderKept = keptPrev.every((id, k) => keptNext[k] === id);
   next.forEach((p, i) => {
     const j = prevIndex.get(p.id);
     const before = j === undefined ? undefined : prev[j];
-    if (!before || JSON.stringify(metaOf(before, j ?? 0)) !== JSON.stringify(metaOf(p, i))) children.push(childRow(p, i, now));
+    const changed = (bs: number, ns: number) => before !== undefined && JSON.stringify(metaOf(before, bs)) !== JSON.stringify(metaOf(p, ns));
+    if (!before || (orderKept ? changed(0, 0) : changed(j ?? 0, i))) children.push(childRow(p, i, now));
     records.push(...recordRows(p, before, now));
   });
   prev.forEach((p, i) => {

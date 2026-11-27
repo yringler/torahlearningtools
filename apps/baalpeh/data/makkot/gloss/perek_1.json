@@ -1,0 +1,4487 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "This mishnah teaches about eidim zomemin: witnesses proven false because other witnesses say, \"You were with us somewhere else!\" Sometimes they cannot get the punishment they wanted to cause, so they get lashes or pay money instead.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֵּיצַד הָעֵדִים נַעֲשִׂים זוֹמְמִין,",
+    "en": "How do witnesses become eidim zomemin?",
+    "explain": "Other witnesses prove they were somewhere else at that time.",
+    "st": "<b>How are witnesses rendered conspiring</b> witnesses?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "הָעֵדִים",
+      "en": "the witnesses"
+     },
+     {
+      "he": "נַעֲשִׂים",
+      "en": "become"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin",
+      "note": "Plotting witnesses, proven false because they were somewhere else."
+     }
+    ]
+   },
+   {
+    "he": "מְעִידִין אָנוּ בְאִישׁ פְּלוֹנִי",
+    "en": "If they said, \"We testify about a certain man",
+    "st": "This applies in a case where two witnesses came before the court and said: <b>We testify with regard to so-and-so,</b> who is a priest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בְאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא בֶן גְּרוּשָׁה אוֹ בֶן חֲלוּצָה,",
+    "en": "that he is the son of a divorced woman or the son of a chalutzah,\"",
+    "explain": "That would mean this Kohen may not serve as a Kohen.",
+    "st": "<b>that he is the son of a divorced woman or the son of a ḥalutza,</b>",
+    "stMore": "a yevama who performed the rite of ḥalitza to free herself from the levirate bond. Those testimonies render him a ḥalal (see Leviticus 21:6–7), one disqualified from the priesthood due to flawed lineage. If a second set of witnesses testifies in court and renders the first set conspiring witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he is"
+     },
+     {
+      "he": "בֶן",
+      "en": "the son of"
+     },
+     {
+      "he": "גְּרוּשָׁה",
+      "en": "a divorced woman"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בֶן",
+      "en": "the son of"
+     },
+     {
+      "he": "חֲלוּצָה,",
+      "en": "a chalutzah",
+      "note": "A widow who did chalitzah instead of marrying her husband's brother."
+     }
+    ]
+   },
+   {
+    "he": "אֵין אוֹמְרִים יֵעָשֶׂה זֶה",
+    "en": "we do not say, \"Let this witness become",
+    "st": "<b>one does not say</b> with regard to each of the conspiring witnesses: <b>This</b> witness",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "we say"
+     },
+     {
+      "he": "יֵעָשֶׂה",
+      "en": "shall become"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "בֶן גְּרוּשָׁה אוֹ בֶן חֲלוּצָה תַחְתָּיו,",
+    "en": "the son of a divorced woman or a chalutzah instead of him.\"",
+    "st": "<b>shall be rendered the son of a divorced woman or the son of a ḥalutza in his stead.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֶן",
+      "en": "the son of"
+     },
+     {
+      "he": "גְּרוּשָׁה",
+      "en": "a divorced woman"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בֶן",
+      "en": "the son of"
+     },
+     {
+      "he": "חֲלוּצָה",
+      "en": "a chalutzah"
+     },
+     {
+      "he": "תַחְתָּיו,",
+      "en": "instead of him"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא לוֹקֶה אַרְבָּעִים.",
+    "en": "Instead, he gets forty lashes.",
+    "st": "<b>Rather, he receives forty lashes</b> as punishment for his false testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but rather"
+     },
+     {
+      "he": "לוֹקֶה",
+      "en": "he is lashed"
+     },
+     {
+      "he": "אַרְבָּעִים.",
+      "en": "forty"
+     }
+    ]
+   },
+   {
+    "he": "מְעִידִין אָנוּ בְאִישׁ פְּלוֹנִי",
+    "en": "If they said, \"We testify about a certain man",
+    "st": "Likewise, in a case where two witnesses came before the court and said: <b>We testify with regard to so-and-so</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בְאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא חַיָּב לִגְלוֹת,",
+    "en": "that he must go into exile,\"",
+    "explain": "Someone who killed by accident had to go live in a city of refuge.",
+    "st": "<b>that he is liable to be exiled</b> to a city of refuge for unwittingly killing another (see Numbers 35:11),",
+    "stMore": "and a second set of witnesses testifies in court and renders the first set conspiring witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "must"
+     },
+     {
+      "he": "לִגְלוֹת,",
+      "en": "go into exile"
+     }
+    ]
+   },
+   {
+    "he": "אֵין אוֹמְרִים יִגְלֶה זֶה תַחְתָּיו,",
+    "en": "we do not say, \"Let this witness go into exile instead of him.\"",
+    "st": "<b>one does not say</b> with regard to each of the conspiring witnesses: <b>This</b> witness <b>shall be exiled in his stead.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "we say"
+     },
+     {
+      "he": "יִגְלֶה",
+      "en": "shall go into exile"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "תַחְתָּיו,",
+      "en": "instead of him"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא לוֹקֶה אַרְבָּעִים.",
+    "en": "Instead, he gets forty lashes.",
+    "st": "<b>Rather, he receives forty lashes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but rather"
+     },
+     {
+      "he": "לוֹקֶה",
+      "en": "he is lashed"
+     },
+     {
+      "he": "אַרְבָּעִים.",
+      "en": "forty"
+     }
+    ]
+   },
+   {
+    "he": "מְעִידִין אָנוּ בְאִישׁ פְּלוֹנִי",
+    "en": "If they said, \"We testify about a certain man",
+    "st": "In the case of witnesses who said: <b>We testify</b> with regard to <b>a man</b> called <b>so-and-so</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בְאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁגֵּרַשׁ אֶת אִשְׁתּוֹ",
+    "en": "that he divorced his wife",
+    "st": "<b>that he divorced his wife</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁגֵּרַשׁ",
+      "en": "that he divorced"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא נָתַן לָהּ כְּתֻבָּתָהּ,",
+    "en": "and did not give her the kesubah money,\"",
+    "explain": "The kesubah is money a husband promises his wife.",
+    "st": "<b>and did not give her</b> payment of <b>her marriage contract,</b>",
+    "stMore": "and they were then rendered conspiring witnesses, the question arises with regard to the manner in which the sum of their payment is calculated. It is not possible to render the witnesses liable to pay the entire sum of the marriage contract, as they can claim:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "לָהּ",
+      "en": "her"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ,",
+      "en": "her kesubah",
+      "note": "The money a husband promises to give his wife if they divorce or he dies."
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא בֵּין הַיּוֹם וּבֵין לְמָחָר",
+    "en": "But won't he, today or tomorrow,",
+    "st": "<b>But isn’t</b> it so that <b>either today or tomorrow,</b> i.e., at some point in the future,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "but isn't it so"
+     },
+     {
+      "he": "בֵּין",
+      "en": "either"
+     },
+     {
+      "he": "הַיּוֹם",
+      "en": "today"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "or"
+     },
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     }
+    ]
+   },
+   {
+    "he": "סוֹפוֹ לִתֵּן לָהּ כְּתֻבָּתָהּ,",
+    "en": "have to give her the kesubah money in the end anyway?",
+    "st": "he may divorce his wife or die and <b>ultimately he</b> will be liable <b>to give her</b> payment of <b>her marriage contract?</b>",
+    "stMore": "That being the case, the witnesses did not conspire to render him liable to pay a sum that he would otherwise not be liable to pay.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוֹפוֹ",
+      "en": "in the end he will"
+     },
+     {
+      "he": "לִתֵּן",
+      "en": "give"
+     },
+     {
+      "he": "לָהּ",
+      "en": "her"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ,",
+      "en": "her kesubah"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמְדִין כַּמָּה אָדָם רוֹצֶה",
+    "en": "So Beis Din estimates how much a person would want",
+    "st": "The sum of their payment is calculated as follows: The court <b>assesses how much</b> money another <b>person</b> would be <b>willing</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמְדִין",
+      "en": "they estimate"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "רוֹצֶה",
+      "en": "would want"
+     }
+    ]
+   },
+   {
+    "he": "לִתֵּן בִּכְתֻבָּתָהּ שֶׁל זוֹ,",
+    "en": "to pay to buy this woman's kesubah,",
+    "explain": "He pays now, hoping to collect her kesubah money later.",
+    "st": "<b>to give in</b> order to purchase the rights to <b>this</b> woman’s <b>marriage contract,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִתֵּן",
+      "en": "to give"
+     },
+     {
+      "he": "בִּכְתֻבָּתָהּ",
+      "en": "for her kesubah"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זוֹ,",
+      "en": "this woman"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם נִתְאַלְמְנָה אוֹ נִתְגָּרְשָׁה,",
+    "en": "since if she becomes a widow or is divorced, he collects it,",
+    "st": "cognizant of the uncertainty <b>that if she was widowed or divorced</b> the purchaser will receive payment of the marriage contract",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "נִתְאַלְמְנָה",
+      "en": "she becomes a widow"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִתְגָּרְשָׁה,",
+      "en": "she is divorced"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מֵתָה יִירָשֶׁנָּה בַעְלָהּ.",
+    "en": "but if she dies, her husband inherits from her and he gets nothing.",
+    "st": "<b>but if she dies, her husband will inherit</b> from <b>her,</b>",
+    "stMore": "and the one who purchased her marriage contract will receive nothing.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מֵתָה",
+      "en": "she dies"
+     },
+     {
+      "he": "יִירָשֶׁנָּה",
+      "en": "will inherit her"
+     },
+     {
+      "he": "בַעְלָהּ.",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "מְעִידִין אָנוּ בְאִישׁ פְּלוֹנִי",
+    "en": "If they said, \"We testify about a certain man",
+    "st": "In the case of witnesses who said: <b>We testify with regard to a man</b> called <b>so-and-so</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בְאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא חַיָּב לַחֲבֵרוֹ אֶלֶף זוּז",
+    "en": "that he owes his friend a thousand zuz",
+    "st": "<b>that he owes another</b> person <b>one thousand dinars</b> that he borrowed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owes"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "to his friend"
+     },
+     {
+      "he": "אֶלֶף",
+      "en": "a thousand"
+     },
+     {
+      "he": "זוּז",
+      "en": "zuz",
+      "note": "A silver coin."
+     }
+    ]
+   },
+   {
+    "he": "עַל מְנָת לִתְּנָן לוֹ",
+    "en": "on condition to pay him back",
+    "st": "<b>on the condition</b> that he is <b>to give</b> the money back <b>to him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "לִתְּנָן",
+      "en": "to give them"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מִכָּאן וְעַד שְׁלשִׁים יוֹם,",
+    "en": "within thirty days,\"",
+    "st": "<b>from now until thirty days</b> have passed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִכָּאן",
+      "en": "from now"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר מִכָּאן וְעַד עֶשֶׂר שָׁנִים,",
+    "en": "and the borrower says, \"It was to be paid back within ten years,\"",
+    "st": "<b>and</b> the borrower <b>says</b> that he borrowed that sum but it was on the condition that he is to give the money back to him <b>from now until ten years</b> have passed,",
+    "stMore": "and they were rendered conspiring witnesses, here too, it is not possible to render the witnesses liable to pay the entire sum.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from now"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "עֶשֶׂר",
+      "en": "ten"
+     },
+     {
+      "he": "שָׁנִים,",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמְדִין כַּמָּה אָדָם רוֹצֶה לִתֵּן",
+    "en": "Beis Din estimates how much a person would pay",
+    "st": "Rather, the court <b>estimates how much</b> money <b>a person</b> would be <b>willing to give</b> so that he",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמְדִין",
+      "en": "they estimate"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "רוֹצֶה",
+      "en": "would want"
+     },
+     {
+      "he": "לִתֵּן",
+      "en": "to give"
+     }
+    ]
+   },
+   {
+    "he": "וְיִהְיוּ בְיָדוֹ אֶלֶף זוּז,",
+    "en": "to keep a thousand zuz in his hands,",
+    "st": "<b>would</b> keep a loan of <b>one thousand dinars in his possession,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיִהְיוּ",
+      "en": "and there will be"
+     },
+     {
+      "he": "בְיָדוֹ",
+      "en": "in his hand"
+     },
+     {
+      "he": "אֶלֶף",
+      "en": "a thousand"
+     },
+     {
+      "he": "זוּז,",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין נוֹתְנָן מִכָּאן וְעַד שְׁלשִׁים יוֹם,",
+    "en": "if he must pay it back within thirty days,",
+    "st": "and one calculates the difference <b>between</b> that sum in a situation where he would be required to <b>give</b> the money back <b>from now until thirty days</b> have passed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "נוֹתְנָן",
+      "en": "giving them"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from now"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין נוֹתְנָן מִכָּאן וְעַד עֶשֶׂר שָׁנִים:",
+    "en": "compared to paying it back within ten years. The witnesses pay the difference.",
+    "st": "<b>and</b> that same sum in a situation where he would be required to <b>give</b> the money back <b>from now until ten years</b> have passed.",
+    "stMore": "That difference is the sum that the testimony of the conspiring witnesses sought to have the borrower lose; therefore, it is the sum that they must pay.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "and between"
+     },
+     {
+      "he": "נוֹתְנָן",
+      "en": "giving them"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from now"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "עֶשֶׂר",
+      "en": "ten"
+     },
+     {
+      "he": "שָׁנִים:",
+      "en": "years"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "False witnesses who tried to make someone pay money get lashes and also pay, says Rabbi Meir. The Sages say: whoever pays does not also get lashes.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מְעִידִין אָנוּ בְאִישׁ פְּלוֹנִי",
+    "en": "If they said, \"We testify about a certain man",
+    "st": "If witnesses said: <b>We testify with regard to a man</b> called <b>so-and-so</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בְאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁחַיָּב לַחֲבֵרוֹ מָאתַיִם זוּז,",
+    "en": "that he owes his friend two hundred zuz,\"",
+    "st": "<b>that he is liable to</b> pay <b>another</b> person <b>two hundred dinars,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁחַיָּב",
+      "en": "that he owes"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "to his friend"
+     },
+     {
+      "he": "מָאתַיִם",
+      "en": "two hundred"
+     },
+     {
+      "he": "זוּז,",
+      "en": "zuz",
+      "note": "A silver coin."
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצְאוּ זוֹמְמִין,",
+    "en": "and they were found to be zomemin,",
+    "st": "<b>and they were found</b> to be <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצְאוּ",
+      "en": "and they were found"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin",
+      "note": "Plotting witnesses, proven false."
+     }
+    ]
+   },
+   {
+    "he": "לוֹקִין וּמְשַׁלְּמִין,",
+    "en": "they get lashes and they pay.",
+    "st": "<b>they are flogged, and they pay</b> the money they sought to render him liable to pay.",
+    "stMore": "Why do they receive two punishments?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹקִין",
+      "en": "they are lashed"
+     },
+     {
+      "he": "וּמְשַׁלְּמִין,",
+      "en": "and they pay"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא הַשֵּׁם הַמְבִיאוֹ לִידֵי מַכּוֹת,",
+    "en": "Because the reason that brings them to lashes",
+    "explain": "The lashes are for testifying falsely.",
+    "st": "It is due to the fact <b>that the source that brings them to</b> liability to receive <b>lashes</b> is <b>not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "because not"
+     },
+     {
+      "he": "הַשֵּׁם",
+      "en": "the reason"
+     },
+     {
+      "he": "הַמְבִיאוֹ",
+      "en": "that brings him"
+     },
+     {
+      "he": "לִידֵי",
+      "en": "to"
+     },
+     {
+      "he": "מַכּוֹת,",
+      "en": "lashes"
+     }
+    ]
+   },
+   {
+    "he": "מְבִיאוֹ לִידֵי תַשְׁלוּמִין,",
+    "en": "is not the same reason that brings them to pay.",
+    "explain": "The paying is for trying to make him lose money.",
+    "st": "the source that <b>brings them to</b> liability for <b>payment;</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְבִיאוֹ",
+      "en": "brings him"
+     },
+     {
+      "he": "לִידֵי",
+      "en": "to"
+     },
+     {
+      "he": "תַשְׁלוּמִין,",
+      "en": "payment"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir",
+      "note": "A great Rabbi of the Mishnah."
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמְשַׁלֵּם אֵינוֹ לוֹקֶה:",
+    "en": "Whoever pays does not get lashes.",
+    "st": "<b>Anyone who pays</b> as punishment for a transgression <b>is not flogged</b> for that same transgression.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "הַמְשַׁלֵּם",
+      "en": "who pays"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "לוֹקֶה:",
+      "en": "is lashed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "Rabbi Meir says false witnesses who tried to get someone lashes get eighty lashes, for two reasons. The Sages say forty. Money is split among the witnesses, but lashes are not split: each witness gets the full lashes.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מְעִידִין אָנוּ בְאִישׁ פְּלוֹנִי",
+    "en": "If they said, \"We testify about a certain man",
+    "st": "Likewise, if witnesses said: <b>We testify with regard to a man</b> called <b>so-and-so</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בְאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא חַיָּב מַלְקוּת אַרְבָּעִים,",
+    "en": "that he must get forty lashes,\"",
+    "st": "<b>that he is liable</b> to receive <b>forty lashes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "must get"
+     },
+     {
+      "he": "מַלְקוּת",
+      "en": "lashes"
+     },
+     {
+      "he": "אַרְבָּעִים,",
+      "en": "forty"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצְאוּ זוֹמְמִין,",
+    "en": "and they were found to be zomemin,",
+    "st": "<b>and they were discovered</b> to be <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצְאוּ",
+      "en": "and they were found"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin",
+      "note": "Plotting witnesses, proven false."
+     }
+    ]
+   },
+   {
+    "he": "לוֹקִין שְׁמֹנִים,",
+    "en": "they get eighty lashes:",
+    "st": "<b>they are flogged</b> with <b>eighty</b> lashes;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹקִין",
+      "en": "they are lashed"
+     },
+     {
+      "he": "שְׁמֹנִים,",
+      "en": "eighty"
+     }
+    ]
+   },
+   {
+    "he": "מִשּׁוּם לֹא תַעֲנֶה בְרֵעֲךָ",
+    "en": "once because of \"Do not testify against your friend",
+    "st": "one set of lashes <b>due to</b> violation of the prohibition: <b>“You shall not bear</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תַעֲנֶה",
+      "en": "you shall testify"
+     },
+     {
+      "he": "בְרֵעֲךָ",
+      "en": "against your friend"
+     }
+    ]
+   },
+   {
+    "he": "עֵד שָׁקֶר (שמות כ),",
+    "en": "as a false witness,\"",
+    "st": "<b>false witness against your neighbor”</b> (Exodus 20:13),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "שָׁקֶר",
+      "en": "false"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כ),",
+      "en": "20)"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשּׁוּם וַעֲשִׂיתֶם לוֹ כַּאֲשֶׁר",
+    "en": "and once because of \"You shall do to him as he plotted",
+    "st": "<b>and</b> one set of lashes <b>due to</b> the verse: <b>“And you shall do to him as he</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשּׁוּם",
+      "en": "and because of"
+     },
+     {
+      "he": "וַעֲשִׂיתֶם",
+      "en": "and you shall do"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "כַּאֲשֶׁר",
+      "en": "as"
+     }
+    ]
+   },
+   {
+    "he": "זָמַם (דברים יט),",
+    "en": "to do to his brother.\"",
+    "st": "<b>conspired”</b> (Deuteronomy 19:19),",
+    "stMore": "which is the punishment for conspiring witnesses;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָמַם",
+      "en": "he plotted"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יט),",
+      "en": "19)"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָן לוֹקִין אֶלָּא אַרְבָּעִים.",
+    "en": "They get only forty lashes.",
+    "st": "<b>They are flogged</b> with <b>only forty</b> lashes,",
+    "stMore": "due to the verse “And you shall do to him as he conspired.”",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָן",
+      "en": "not they"
+     },
+     {
+      "he": "לוֹקִין",
+      "en": "are lashed"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "אַרְבָּעִים.",
+      "en": "forty"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלְּשִׁין בְּמָמוֹן וְאֵין מְשַׁלְּשִׁין בְּמַכּוֹת.",
+    "en": "Money is split among them, but lashes are not split.",
+    "st": "When punishing conspiring witnesses based on the verse: “As he conspired to do to his brother” (Deuteronomy 19:19), <b>one divides</b> the punishment <b>of money</b> among them, <b>but one does not divide</b> the punishment <b>of lashes</b> among them;",
+    "stMore": "each receives thirty-nine lashes.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלְּשִׁין",
+      "en": "they split"
+     },
+     {
+      "he": "בְּמָמוֹן",
+      "en": "money"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "מְשַׁלְּשִׁין",
+      "en": "they split"
+     },
+     {
+      "he": "בְּמַכּוֹת.",
+      "en": "lashes"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, הֱעִידוּהוּ שֶׁהוּא חַיָּב לַחֲבֵרוֹ מָאתַיִם זוּז,",
+    "en": "How so? If they testified that he owes his friend two hundred zuz,",
+    "st": "The mishna elaborates: <b>How so?</b> If the witnesses <b>testified about</b> someone <b>that he owes another</b> person <b>two hundred dinars</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so?"
+     },
+     {
+      "he": "הֱעִידוּהוּ",
+      "en": "they testified about him"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owes"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "to his friend"
+     },
+     {
+      "he": "מָאתַיִם",
+      "en": "two hundred"
+     },
+     {
+      "he": "זוּז,",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצְאוּ זוֹמְמִין,",
+    "en": "and they were found to be zomemin,",
+    "st": "<b>and they were</b> then <b>found</b> to be <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצְאוּ",
+      "en": "and they were found"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלְּשִׁין בֵּינֵיהֶם.",
+    "en": "they split the payment between them.",
+    "st": "the witnesses <b>divide</b> the sum <b>among themselves</b> and pay a total of two hundred dinars.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלְּשִׁין",
+      "en": "they split"
+     },
+     {
+      "he": "בֵּינֵיהֶם.",
+      "en": "between them"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אִם הֱעִידוּהוּ שֶׁהוּא",
+    "en": "But if they testified that he",
+    "st": "<b>But if they testified about</b> someone <b>that he</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הֱעִידוּהוּ",
+      "en": "they testified about him"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב מַלְקוּת אַרְבָּעִים,",
+    "en": "must get forty lashes,",
+    "st": "<b>was liable</b> to receive <b>forty lashes</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "must get"
+     },
+     {
+      "he": "מַלְקוּת",
+      "en": "lashes"
+     },
+     {
+      "he": "אַרְבָּעִים,",
+      "en": "forty"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצְאוּ זוֹמְמִין,",
+    "en": "and they were found to be zomemin,",
+    "st": "<b>and they were</b> then <b>found</b> to be <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצְאוּ",
+      "en": "and they were found"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "כָּל אֶחָד וְאֶחָד לוֹקֶה אַרְבָּעִים:",
+    "en": "each and every one of them gets forty lashes.",
+    "st": "<b>each and every one</b> of the witnesses <b>receives forty lashes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "לוֹקֶה",
+      "en": "is lashed"
+     },
+     {
+      "he": "אַרְבָּעִים:",
+      "en": "forty"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Witnesses only become zomemin when the new witnesses say about them, \"You were with us somewhere else!\" If the new witnesses only argue about what happened, the first witnesses are not zomemin.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין הָעֵדִים נַעֲשִׂים זוֹמְמִין",
+    "en": "Witnesses do not become zomemin",
+    "st": "<b>Witnesses are not rendered conspiring</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הָעֵדִים",
+      "en": "the witnesses"
+     },
+     {
+      "he": "נַעֲשִׂים",
+      "en": "become"
+     },
+     {
+      "he": "זוֹמְמִין",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיָּזוֹמוּ אֶת עַצְמָן.",
+    "en": "until the new witnesses prove that they themselves were not there.",
+    "st": "witnesses <b>until</b> the witnesses who come to render them conspiring <b>impeach</b> the witnesses <b>themselves</b>",
+    "stMore": "and not merely their testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּזוֹמוּ",
+      "en": "they prove plotting"
+     },
+     {
+      "he": "אֶת",
+      "en": "(about)"
+     },
+     {
+      "he": "עַצְמָן.",
+      "en": "themselves"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד,",
+    "en": "How so?",
+    "st": "<b>How so?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so?"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ מְעִידִין אָנוּ בְאִישׁ פְּלוֹנִי",
+    "en": "Witnesses said, \"We testify about a certain man",
+    "st": "A set of witnesses <b>said: We testify with regard to a man</b> called <b>so-and-so</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בְאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָרַג אֶת הַנֶּפֶשׁ,",
+    "en": "that he killed a person.\"",
+    "st": "<b>that he killed a person,</b>",
+    "stMore": "and they attested to the precise time and place that the murder took place.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָרַג",
+      "en": "that he killed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנֶּפֶשׁ,",
+      "en": "a person"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶן הֵיאַךְ אַתֶּם מְעִידִין,",
+    "en": "New witnesses said to them, \"How can you testify this?",
+    "st": "Then, a second set of witnesses came to court and <b>said to them: How can you testify</b> about this event?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "הֵיאַךְ",
+      "en": "how"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "מְעִידִין,",
+      "en": "testify"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֲרֵי נֶהֱרָג זֶה אוֹ הַהוֹרֵג",
+    "en": "The one who was killed, or the killer,",
+    "st": "<b>This</b> person who <b>was killed, or this</b> person <b>who killed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֲרֵי",
+      "en": "for behold"
+     },
+     {
+      "he": "נֶהֱרָג",
+      "en": "the one killed"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "הַהוֹרֵג",
+      "en": "the killer"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה עִמָּנוּ אוֹתוֹ הַיּוֹם בְּמָקוֹם פְּלוֹנִי,",
+    "en": "was with us that day in a different place!\"",
+    "st": "<b>was with us,</b> i.e., with the second set of witnesses, on <b>that day in such and such place,</b>",
+    "stMore": "which is not the location identified by the first set of witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "עִמָּנוּ",
+      "en": "with us"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "that"
+     },
+     {
+      "he": "הַיּוֹם",
+      "en": "day"
+     },
+     {
+      "he": "בְּמָקוֹם",
+      "en": "in a place"
+     },
+     {
+      "he": "פְּלוֹנִי,",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "אֵין אֵלּוּ זוֹמְמִין.",
+    "en": "These first witnesses are not zomemin.",
+    "explain": "The new witnesses only argue about what happened.",
+    "st": "In that case, although the second set of witnesses contradicted the testimony of the first set, <b>these</b> first witnesses are <b>not</b> rendered <b>conspiring</b> witnesses.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "זוֹמְמִין.",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אָמְרוּ לָהֶם הֵיאַךְ אַתֶּם מְעִידִין,",
+    "en": "But if they said to them, \"How can you testify this?",
+    "st": "<b>But</b> if the second set of witnesses came to court and <b>said to them: How can you testify</b> about that event?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "הֵיאַךְ",
+      "en": "how"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "מְעִידִין,",
+      "en": "testify"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֲרֵי אַתֶּם הֱיִיתֶם עִמָּנוּ",
+    "en": "You yourselves were with us",
+    "st": "<b>You were with us</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֲרֵי",
+      "en": "for behold"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "הֱיִיתֶם",
+      "en": "were"
+     },
+     {
+      "he": "עִמָּנוּ",
+      "en": "with us"
+     }
+    ]
+   },
+   {
+    "he": "אוֹתוֹ הַיּוֹם בְּמָקוֹם פְּלוֹנִי,",
+    "en": "that day in a different place!\"",
+    "st": "on <b>that day in such and such place.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹתוֹ",
+      "en": "that"
+     },
+     {
+      "he": "הַיּוֹם",
+      "en": "day"
+     },
+     {
+      "he": "בְּמָקוֹם",
+      "en": "in a place"
+     },
+     {
+      "he": "פְּלוֹנִי,",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ זוֹמְמִין,",
+    "en": "then these are zomemin,",
+    "st": "In this case, <b>these</b> first witnesses are rendered <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "then behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "וְנֶהֱרָגִין עַל פִּיהֶם:",
+    "en": "and they are put to death because of what the new witnesses said.",
+    "st": "<b>and are executed on the basis of their,</b> i.e., the second set’s, testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶהֱרָגִין",
+      "en": "and they are killed"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּיהֶם:",
+      "en": "their word"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "If one pair of witnesses proves many groups of witnesses false, the Sages say all of them are punished. Rabbi Yehuda says this looks like a plot, so only the first group is punished.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בָּאוּ אֲחֵרִים וְהִזִּימוּם,",
+    "en": "Others came and the same witnesses proved them false,",
+    "st": "If <b>other</b> witnesses, i.e., a third set, <b>came</b> and corroborated the testimony of the first set of witnesses, and the second set of witnesses testified that this third set of witnesses were also with them elsewhere that day <b>and rendered them conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּאוּ",
+      "en": "came"
+     },
+     {
+      "he": "אֲחֵרִים",
+      "en": "others"
+     },
+     {
+      "he": "וְהִזִּימוּם,",
+      "en": "and they proved them zomemin"
+     }
+    ]
+   },
+   {
+    "he": "בָּאוּ אֲחֵרִים וְהִזִּימוּם,",
+    "en": "more others came and they proved them false too,",
+    "st": "and similarly, if yet <b>other</b> witnesses, i.e., a fourth set, <b>came</b> and corroborated the testimony of the first set of witnesses <b>and</b> the second set <b>rendered them conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּאוּ",
+      "en": "came"
+     },
+     {
+      "he": "אֲחֵרִים",
+      "en": "others"
+     },
+     {
+      "he": "וְהִזִּימוּם,",
+      "en": "and they proved them zomemin"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ מֵאָה,",
+    "en": "even a hundred groups,",
+    "st": "<b>even</b> if <b>one hundred</b> sets of witnesses were all rendered conspiring witnesses by the same second set of witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "מֵאָה,",
+      "en": "a hundred"
+     }
+    ]
+   },
+   {
+    "he": "כֻּלָּם יֵהָרֵגוּ.",
+    "en": "all of them are put to death.",
+    "st": "<b>all of them are executed</b> on the basis of their testimony,",
+    "stMore": "as the authority of two witnesses is equivalent to the authority of numerous witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֻּלָּם",
+      "en": "all of them"
+     },
+     {
+      "he": "יֵהָרֵגוּ.",
+      "en": "will be killed"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִסְטָסִית הִיא זוֹ,",
+    "en": "This is a plot!",
+    "explain": "The new pair seems out to reject every witness.",
+    "st": "<b>This</b> situation where a set of witnesses renders all the others conspiring witnesses <b>is a conspiracy [istatit],</b>",
+    "stMore": "as there is room for suspicion that they simply decided to impeach all witnesses who offer that testimony,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִסְטָסִית",
+      "en": "a plot"
+     },
+     {
+      "he": "הִיא",
+      "en": "it is"
+     },
+     {
+      "he": "זוֹ,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָהּ נֶהֱרֶגֶת אֶלָּא כַת הָרִאשׁוֹנָה בִלְבָד:",
+    "en": "Only the first group is put to death.",
+    "st": "<b>and</b> it is <b>only the first set alone</b> that is <b>executed.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָהּ",
+      "en": "and not"
+     },
+     {
+      "he": "נֶהֱרֶגֶת",
+      "en": "is killed"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "כַת",
+      "en": "the group"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "בִלְבָד:",
+      "en": "alone"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "False witnesses are only punished if they are caught after Beis Din has decided the case, but before the person is put to death. The Tzedukim said they are punished only after he was killed, and the Sages show them they are wrong from the pasuk.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין הָעֵדִים זוֹמְמִין נֶהֱרָגִין,",
+    "en": "Zomemin witnesses are not put to death",
+    "st": "<b>The conspiring witnesses are executed only</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הָעֵדִים",
+      "en": "the witnesses"
+     },
+     {
+      "he": "זוֹמְמִין",
+      "en": "zomemin"
+     },
+     {
+      "he": "נֶהֱרָגִין,",
+      "en": "are killed"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּגָּמֵר הַדִּין,",
+    "en": "unless they are caught after the judgment is decided.",
+    "st": "if they are rendered conspiring witnesses after <b>the verdict</b> of the accused <b>is concluded.</b>",
+    "stMore": "This is in contrast to the opinion of the Sadducees,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּגָּמֵר",
+      "en": "is finished"
+     },
+     {
+      "he": "הַדִּין,",
+      "en": "the judgment"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֲרֵי הַצְּדוֹקִין אוֹמְרִים,",
+    "en": "The Tzedukim say,",
+    "st": "<b>as the Sadducees say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֲרֵי",
+      "en": "for behold"
+     },
+     {
+      "he": "הַצְּדוֹקִין",
+      "en": "the Tzedukim",
+      "note": "A group who did not believe in the Oral Torah."
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיֵּהָרֵג,",
+    "en": "only after the man was put to death,",
+    "st": "Conspiring witnesses are executed <b>only</b> if they are rendered conspiring witnesses after the accused <b>is killed</b> on the basis of their testimony,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֵּהָרֵג,",
+      "en": "he is killed"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר נֶפֶשׁ תַּחַת נָפֶשׁ.",
+    "en": "as it says, \"A life for a life.\"",
+    "st": "<b>as it is stated: “A life for a life”</b> (Exodus 21:23; see Deuteronomy 19:21).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "נֶפֶשׁ",
+      "en": "a life"
+     },
+     {
+      "he": "תַּחַת",
+      "en": "for"
+     },
+     {
+      "he": "נָפֶשׁ.",
+      "en": "a life"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶם חֲכָמִים,",
+    "en": "The Sages said to them,",
+    "st": "<b>The Rabbis said to</b> the Sadducees:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "חֲכָמִים,",
+      "en": "the Sages"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא כְבָר נֶאֱמַר (דברים יט) וַעֲשִׂיתֶם",
+    "en": "But it already says, \"You shall do",
+    "st": "<b>But wasn’t it already stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "but isn't it so"
+     },
+     {
+      "he": "כְבָר",
+      "en": "already"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יט)",
+      "en": "19)"
+     },
+     {
+      "he": "וַעֲשִׂיתֶם",
+      "en": "and you shall do"
+     }
+    ]
+   },
+   {
+    "he": "לוֹ כַּאֲשֶׁר זָמַם לַעֲשׂוֹת לְאָחִיו,",
+    "en": "to him as he plotted to do to his brother,\"",
+    "st": "<b>“And you shall do to him as he conspired to do to his brother”</b> (Deuteronomy 19:19),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "כַּאֲשֶׁר",
+      "en": "as"
+     },
+     {
+      "he": "זָמַם",
+      "en": "he plotted"
+     },
+     {
+      "he": "לַעֲשׂוֹת",
+      "en": "to do"
+     },
+     {
+      "he": "לְאָחִיו,",
+      "en": "to his brother"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲרֵי אָחִיו קַיָּם.",
+    "en": "and his brother is still alive!",
+    "st": "<b>and</b> this latter verse indicates that <b>his</b> accused <b>brother is alive?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲרֵי",
+      "en": "and behold"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "קַיָּם.",
+      "en": "is alive"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם כֵּן לָמָּה נֶאֱמַר",
+    "en": "If so, why does it say",
+    "st": "<b>And if so, why is it stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "לָמָּה",
+      "en": "why"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it says"
+     }
+    ]
+   },
+   {
+    "he": "נֶפֶשׁ תַּחַת נָפֶשׁ,",
+    "en": "\"A life for a life\"?",
+    "st": "<b>“A life for a life”?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶפֶשׁ",
+      "en": "a life"
+     },
+     {
+      "he": "תַּחַת",
+      "en": "for"
+     },
+     {
+      "he": "נָפֶשׁ,",
+      "en": "a life"
+     }
+    ]
+   },
+   {
+    "he": "יָכוֹל מִשָּׁעָה שֶׁקִּבְּלוּ עֵדוּתָן יֵהָרֵגוּ,",
+    "en": "You might think they are put to death as soon as their testimony was accepted.",
+    "st": "One <b>might</b> have thought that if they are rendered conspiring witnesses <b>from the moment</b> the judges <b>accepted their testimony</b> in court, <b>they will be executed,</b> even though no verdict was concluded.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָכוֹל",
+      "en": "one might think"
+     },
+     {
+      "he": "מִשָּׁעָה",
+      "en": "from the time"
+     },
+     {
+      "he": "שֶׁקִּבְּלוּ",
+      "en": "that they accepted"
+     },
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "יֵהָרֵגוּ,",
+      "en": "they will be killed"
+     }
+    ]
+   },
+   {
+    "he": "תַּלְמוּד לוֹמַר,",
+    "en": "So the pasuk says,",
+    "st": "Therefore, <b>the verse states:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּלְמוּד",
+      "en": "the Torah"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "teaches"
+     }
+    ]
+   },
+   {
+    "he": "נֶפֶשׁ תַּחַת נָפֶשׁ,",
+    "en": "\"A life for a life,\"",
+    "st": "<b>“A life for a life,”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶפֶשׁ",
+      "en": "a life"
+     },
+     {
+      "he": "תַּחַת",
+      "en": "for"
+     },
+     {
+      "he": "נָפֶשׁ,",
+      "en": "a life"
+     }
+    ]
+   },
+   {
+    "he": "הָא אֵינָן נֶהֱרָגִין עַד שֶׁיִּגָּמֵר הַדִּין:",
+    "en": "so they are not put to death until the judgment is decided.",
+    "st": "teaching that <b>they are executed only</b> if they are rendered conspiring witnesses after <b>the verdict</b> of the accused <b>will be concluded,</b> from the moment that the court is on the verge of taking his life.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָא",
+      "en": "so"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "not they"
+     },
+     {
+      "he": "נֶהֱרָגִין",
+      "en": "are killed"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּגָּמֵר",
+      "en": "is finished"
+     },
+     {
+      "he": "הַדִּין:",
+      "en": "the judgment"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "The pasuk says \"two or three witnesses\" to teach that three witnesses are like two. Rabbi Akiva learns from this: if someone who joins sinners is punished like them, someone who joins people doing a mitzvah surely gets a reward like them!",
+  "stIntro": "It is written:",
+  "chunks": [
+   {
+    "he": "עַל פִּי שְׁנַיִם עֵדִים אוֹ שְׁלשָׁה",
+    "en": "\"By the word of two witnesses or three",
+    "st": "<b>“At the mouth of two witnesses or three</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "עֵדִים יוּמַת הַמֵּת (שם יז),",
+    "en": "witnesses shall the one who must die be put to death.\"",
+    "st": "<b>witnesses shall he who is to die be executed”</b> (Deuteronomy 17:6).",
+    "stMore": "The question is:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "יוּמַת",
+      "en": "shall be put to death"
+     },
+     {
+      "he": "הַמֵּת",
+      "en": "the one to die"
+     },
+     {
+      "he": "(שם",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יז),",
+      "en": "17)"
+     }
+    ]
+   },
+   {
+    "he": "אִם מִתְקַיֶּמֶת הָעֵדוּת בִּשְׁנַיִם,",
+    "en": "If the testimony works with two,",
+    "st": "<b>If the testimony is valid with two</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מִתְקַיֶּמֶת",
+      "en": "stands"
+     },
+     {
+      "he": "הָעֵדוּת",
+      "en": "the testimony"
+     },
+     {
+      "he": "בִּשְׁנַיִם,",
+      "en": "with two"
+     }
+    ]
+   },
+   {
+    "he": "לָמָּה פָרַט הַכָּתוּב בִּשְׁלשָׁה,",
+    "en": "why did the pasuk mention three?",
+    "st": "witnesses, <b>why did the verse specify</b> that it is valid <b>with three?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָמָּה",
+      "en": "why"
+     },
+     {
+      "he": "פָרַט",
+      "en": "specified"
+     },
+     {
+      "he": "הַכָּתוּב",
+      "en": "the pasuk"
+     },
+     {
+      "he": "בִּשְׁלשָׁה,",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא לְהַקִּישׁ שְׁלשָׁה לִשְׁנַיִם,",
+    "en": "Only to compare three to two:",
+    "st": "<b>Rather,</b> it is <b>to juxtapose</b> and liken <b>three to two:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but rather"
+     },
+     {
+      "he": "לְהַקִּישׁ",
+      "en": "to compare"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "לִשְׁנַיִם,",
+      "en": "to two"
+     }
+    ]
+   },
+   {
+    "he": "מַה שְּׁלשָׁה מַזִּימִין אֶת הַשְּׁנַיִם,",
+    "en": "Just as three witnesses can prove two to be zomemin,",
+    "st": "<b>Just as three</b> witnesses <b>can render the two</b> witnesses <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "שְּׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "מַזִּימִין",
+      "en": "prove plotting"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשְּׁנַיִם,",
+      "en": "the two"
+     }
+    ]
+   },
+   {
+    "he": "אַף הַשְּׁנַיִם יָזוֹמּוֹ אֶת הַשְּׁלשָׁה.",
+    "en": "so too two can prove three to be zomemin.",
+    "st": "<b>so too, the two</b> witnesses <b>can render the three</b> wit-nesses <b>conspiring</b> witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "הַשְּׁנַיִם",
+      "en": "the two"
+     },
+     {
+      "he": "יָזוֹמּוֹ",
+      "en": "can prove plotting"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשְּׁלשָׁה.",
+      "en": "the three"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנַּיִן אֲפִלּוּ מֵאָה,",
+    "en": "And how do we know this even for a hundred?",
+    "st": "<b>And from where</b> is it derived that two witnesses can render <b>even one hundred</b> witnesses conspiring witnesses?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנַּיִן",
+      "en": "and from where"
+     },
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "מֵאָה,",
+      "en": "a hundred"
+     }
+    ]
+   },
+   {
+    "he": "תַּלְמוּד לוֹמַר,",
+    "en": "The pasuk says,",
+    "st": "It is derived from a verse, as <b>the verse states:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּלְמוּד",
+      "en": "the Torah"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "teaches"
+     }
+    ]
+   },
+   {
+    "he": "עֵדִים.",
+    "en": "\"witnesses.\"",
+    "st": "“Three <b>witnesses.”</b>",
+    "stMore": "Since the verse is obviously discussing witnesses, the term witnesses is superfluous, as it could have stated: Two or three. The term “witnesses” teaches that two witnesses can render a set of witnesses conspiring witnesses irrespective of their number.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדִים.",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says</b> that three witnesses are mentioned in the verse in order to teach:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מַה שְּׁנַיִם אֵינָן נֶהֱרָגִין",
+    "en": "Just as two are not put to death",
+    "st": "<b>Just as two</b> witnesses who testified that a person is liable to be executed <b>are not killed</b> for this testimony",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "שְּׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "not they"
+     },
+     {
+      "he": "נֶהֱרָגִין",
+      "en": "are killed"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהוּ שְׁנֵיהֶם זוֹמְמִין,",
+    "en": "unless both of them are zomemin,",
+    "st": "<b>unless both of them are</b> found to be <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהוּ",
+      "en": "they are"
+     },
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "אַף שְׁלשָׁה אֵינָן נֶהֱרָגִין",
+    "en": "so too three are not put to death",
+    "st": "<b>so too, three</b> witnesses who testified together <b>are not killed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "not they"
+     },
+     {
+      "he": "נֶהֱרָגִין",
+      "en": "are killed"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּהְיוּ שְׁלָשְׁתָּן זוֹמְמִין.",
+    "en": "unless all three of them are zomemin.",
+    "st": "<b>unless</b> all <b>three of them are</b> found to be <b>conspiring</b> witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּהְיוּ",
+      "en": "they are"
+     },
+     {
+      "he": "שְׁלָשְׁתָּן",
+      "en": "all three of them"
+     },
+     {
+      "he": "זוֹמְמִין.",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנַּיִן אֲפִלּוּ מֵאָה,",
+    "en": "And how do we know this even for a hundred?",
+    "st": "<b>And from where</b> is it derived that the same halakha applies <b>even</b> to <b>one hundred</b> witnesses?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנַּיִן",
+      "en": "and from where"
+     },
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "מֵאָה,",
+      "en": "a hundred"
+     }
+    ]
+   },
+   {
+    "he": "תַּלְמוּד לוֹמַר,",
+    "en": "The pasuk says,",
+    "st": "It is derived from a verse, as <b>the verse states:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּלְמוּד",
+      "en": "the Torah"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "teaches"
+     }
+    ]
+   },
+   {
+    "he": "עֵדִים.",
+    "en": "\"witnesses.\"",
+    "st": "“Three <b>witnesses.”</b>",
+    "stMore": "The superfluous term “witnesses” teaches that the status of all witnesses who come to court as a single set of witnesses is that of one testimony with regard to this halakha.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדִים.",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא בָא הַשְּׁלִישִׁי אֶלָּא לְהַחְמִיר",
+    "en": "The third witness is mentioned only to be strict",
+    "st": "<b>The third</b> witness mentioned in this verse <b>does not come</b> for the judges <b>to be lenient</b> concerning him; <b>rather,</b> its mention comes for the judges <b>to be stringent</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בָא",
+      "en": "came"
+     },
+     {
+      "he": "הַשְּׁלִישִׁי",
+      "en": "the third"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but rather"
+     },
+     {
+      "he": "לְהַחְמִיר",
+      "en": "to be strict"
+     }
+    ]
+   },
+   {
+    "he": "עָלָיו וְלַעֲשׂוֹת דִּינוֹ כַיּוֹצֵא בָאֵלּוּ.",
+    "en": "with him, and to judge him just like the other two.",
+    "st": "<b>concerning him and to render his halakhic status like</b> that of <b>these</b> two witnesses who testified with him.",
+    "stMore": "One could claim that since the testimony of the third witness is superfluous, as the testimony of the other two witnesses sufficed, the third witness and any other witnesses beyond the first two should be exempt. Therefore, the verse teaches that since he testified with them and was rendered a conspiring witness with them, he too is executed. One can learn a moral from this halakha:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָלָיו",
+      "en": "with him"
+     },
+     {
+      "he": "וְלַעֲשׂוֹת",
+      "en": "and to make"
+     },
+     {
+      "he": "דִּינוֹ",
+      "en": "his judgment"
+     },
+     {
+      "he": "כַיּוֹצֵא",
+      "en": "like"
+     },
+     {
+      "he": "בָאֵלּוּ.",
+      "en": "these"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם כֵּן עָנַשׁ הַכָּתוּב לַנִּטְפָּל",
+    "en": "If the pasuk punished someone who just joined",
+    "st": "<b>And if the verse punished one who associates with transgressors</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "עָנַשׁ",
+      "en": "punished"
+     },
+     {
+      "he": "הַכָּתוּב",
+      "en": "the pasuk"
+     },
+     {
+      "he": "לַנִּטְפָּל",
+      "en": "the one who joins"
+     }
+    ]
+   },
+   {
+    "he": "לְעוֹבְרֵי עֲבֵרָה כְעוֹבְרֵי עֲבֵרָה,",
+    "en": "people doing an aveirah, just like those doing the aveirah,",
+    "st": "with a punishment <b>like</b> the one received by the <b>transgressors,</b> even though his role in the transgression is ancillary,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְעוֹבְרֵי",
+      "en": "to those who do"
+     },
+     {
+      "he": "עֲבֵרָה",
+      "en": "an aveirah"
+     },
+     {
+      "he": "כְעוֹבְרֵי",
+      "en": "like those who do"
+     },
+     {
+      "he": "עֲבֵרָה,",
+      "en": "an aveirah"
+     }
+    ]
+   },
+   {
+    "he": "עַל אַחַת כַּמָּה וְכַמָּה יְשַׁלֵּם שָׂכָר",
+    "en": "how much more will Hashem give a reward",
+    "st": "<b>all the more so will</b> God <b>pay a reward</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much more"
+     },
+     {
+      "he": "יְשַׁלֵּם",
+      "en": "will pay"
+     },
+     {
+      "he": "שָׂכָר",
+      "en": "reward"
+     }
+    ]
+   },
+   {
+    "he": "לַנִּטְפָּל לְעוֹשֵׂי מִצְוָה כְעוֹשֵׂי מִצְוָה:",
+    "en": "to someone who joins people doing a mitzvah, just like those doing the mitzvah!",
+    "st": "<b>to one who associates with those who perform a mitzva like</b> the reward of those <b>who perform</b> the <b>mitzva</b>",
+    "stMore": "themselves, even though his role in performing the mitzva is ancillary.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַנִּטְפָּל",
+      "en": "to the one who joins"
+     },
+     {
+      "he": "לְעוֹשֵׂי",
+      "en": "to those who do"
+     },
+     {
+      "he": "מִצְוָה",
+      "en": "a mitzvah"
+     },
+     {
+      "he": "כְעוֹשֵׂי",
+      "en": "like those who do"
+     },
+     {
+      "he": "מִצְוָה:",
+      "en": "a mitzvah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 8,
+  "summary": "If one of the witnesses in a group is a relative or not allowed to testify, the whole group's testimony is no good. Rabbi Yosei says this is only for cases of life and death. Rabbi says it is only when they all came to be witnesses.",
+  "stIntro": "The mishna cites another derivation based on the juxtaposition of two to three:",
+  "chunks": [
+   {
+    "he": "מַה שְּׁנַיִם נִמְצָא אַחַד מֵהֶן",
+    "en": "Just as with two, if one of them is found",
+    "st": "<b>And just as</b> with regard to <b>two</b> witnesses, if <b>one of them is found</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "שְּׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "נִמְצָא",
+      "en": "is found"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "קָרוֹב אוֹ פָסוּל עֵדוּתָן בְּטֵלָה,",
+    "en": "to be a relative or not allowed to testify, their testimony is no good,",
+    "st": "to be <b>a relative or</b> is otherwise <b>disqualified, their</b> entire <b>testimony is voided,</b>",
+    "stMore": "as it is no longer the testimony of two witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרוֹב",
+      "en": "a relative"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "פָסוּל",
+      "en": "unfit"
+     },
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "בְּטֵלָה,",
+      "en": "is void"
+     }
+    ]
+   },
+   {
+    "he": "אַף שְׁלשָׁה",
+    "en": "so too with three,",
+    "st": "<b>so too,</b> with regard to <b>three</b> witnesses who came to testify as one set,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא אֶחָד מֵהֶן קָרוֹב אוֹ פָסוּל,",
+    "en": "if one of them is found to be a relative or not allowed to testify,",
+    "st": "if <b>one of them is found</b> to be <b>a relative or</b> is otherwise <b>disqualified,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "is found"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "קָרוֹב",
+      "en": "a relative"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "פָסוּל,",
+      "en": "unfit"
+     }
+    ]
+   },
+   {
+    "he": "עֵדוּתָן בְּטֵלָה.",
+    "en": "their testimony is no good.",
+    "st": "<b>their</b> entire <b>testimony is voided,</b>",
+    "stMore": "even though two valid witnesses remain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדוּתָן",
+      "en": "their testimony"
+     },
+     {
+      "he": "בְּטֵלָה.",
+      "en": "is void"
+     }
+    ]
+   },
+   {
+    "he": "מִנַּיִן אֲפִלּוּ מֵאָה,",
+    "en": "How do we know this even for a hundred?",
+    "st": "<b>From where</b> is it derived that the same halakha applies <b>even</b> in the case of <b>one hundred</b> witnesses?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִנַּיִן",
+      "en": "from where"
+     },
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "מֵאָה,",
+      "en": "a hundred"
+     }
+    ]
+   },
+   {
+    "he": "תַּלְמוּד לוֹמַר,",
+    "en": "The pasuk says,",
+    "st": "It is derived from a verse, as <b>the verse states:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּלְמוּד",
+      "en": "the Torah"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "teaches"
+     }
+    ]
+   },
+   {
+    "he": "עֵדִים.",
+    "en": "\"witnesses.\"",
+    "st": "<b>“Witnesses.”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדִים.",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "בַּמֶּה דְבָרִים אֲמוּרִים,",
+    "en": "When is this true?",
+    "st": "<b>In what</b> case <b>is this statement,</b> that if one of the three witnesses is disqualified the entire testimony is voided, <b>said?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּמֶּה",
+      "en": "in what"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "אֲמוּרִים,",
+      "en": "are said"
+     }
+    ]
+   },
+   {
+    "he": "בְּדִינֵי נְפָשׁוֹת.",
+    "en": "In cases of life and death.",
+    "st": "It is said <b>with regard to</b> cases of <b>capital law,</b>",
+    "stMore": "which are adjudicated stringently.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּדִינֵי",
+      "en": "in cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת.",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל בְּדִינֵי מָמוֹנוֹת,",
+    "en": "But in cases of money,",
+    "st": "<b>But with regard to</b> cases of <b>monetary law,</b>",
+    "stMore": "which are adjudicated more leniently, even if one of the witnesses is disqualified,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בְּדִינֵי",
+      "en": "in cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "תִּתְקַיֵּם הָעֵדוּת בַּשְּׁאָר.",
+    "en": "the testimony stands with the rest of the witnesses.",
+    "st": "<b>the testimony will be validated with</b> the testimony of <b>the rest</b> of the witnesses,",
+    "stMore": "and if it is sufficient the case can be adjudicated on that basis.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּתְקַיֵּם",
+      "en": "will stand"
+     },
+     {
+      "he": "הָעֵדוּת",
+      "en": "the testimony"
+     },
+     {
+      "he": "בַּשְּׁאָר.",
+      "en": "with the rest"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אוֹמֵר,",
+    "en": "Rabbi Yehuda HaNasi says,",
+    "st": "<b>Rabbi</b> Yehuda HaNasi disagrees and <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi",
+      "note": "Rabbi Yehuda HaNasi, who wrote down the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד דִּינֵי מָמוֹנוֹת וְאֶחָד דִּינֵי נְפָשׁוֹת.",
+    "en": "It is the same for money cases and for life and death cases.",
+    "st": "If one of the three witnesses is disqualified the entire testimony is voided in <b>both</b> cases of <b>monetary law and</b> cases of <b>capital law.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת.",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁהִתְרוּ בָהֶן,",
+    "en": "That is when they warned the sinner before the aveirah, showing they came to be witnesses.",
+    "st": "<b>And when</b> does one disqualified witness void the entire testimony? Only <b>when</b> the witnesses <b>forewarned them</b> before they performed the transgression,",
+    "stMore": "thereby demonstrating their desire to fill the role of witnesses in that case.",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהִתְרוּ",
+      "en": "that they warned"
+     },
+     {
+      "he": "בָהֶן,",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל בִּזְמַן שֶׁלֹּא הִתְרוּ בָהֶן,",
+    "en": "But when they did not warn them,",
+    "st": "<b>But when they did not forewarn them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הִתְרוּ",
+      "en": "they warned"
+     },
+     {
+      "he": "בָהֶן,",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "מַה יַּעֲשׂוּ שְׁנֵי אַחִין שֶׁרָאוּ",
+    "en": "what should two brothers do who saw",
+    "st": "<b>what shall two brothers do</b> in a case <b>where</b> they, together with others, <b>saw</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "יַּעֲשׂוּ",
+      "en": "should do"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "אַחִין",
+      "en": "brothers"
+     },
+     {
+      "he": "שֶׁרָאוּ",
+      "en": "who saw"
+     }
+    ]
+   },
+   {
+    "he": "בְאֶחָד שֶׁהָרַג אֶת הַנָּפֶשׁ:",
+    "en": "someone kill a person? Their being there does not ruin the testimony.",
+    "st": "<b>someone who killed a person?</b>",
+    "stMore": "Will the murderer escape punishment because two relatives happened to be there at the time of the murder and their presence voids the entire testimony? No, the testimony is voided by the presence of relatives or disqualified witnesses only when their intent was to testify. If that was not their intent, they do not void the testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְאֶחָד",
+      "en": "someone"
+     },
+     {
+      "he": "שֶׁהָרַג",
+      "en": "who killed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנָּפֶשׁ:",
+      "en": "a person"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 9,
+  "summary": "When two pairs of witnesses watch from two windows, whether they count as one group or two depends on whether they can see each other. Rabbi Yosei says the witnesses themselves must warn the sinner, and Beis Din must hear witnesses directly, not through a translator.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָיוּ שְׁנַיִם רוֹאִין אוֹתוֹ מֵחַלּוֹן זֶה",
+    "en": "If two people were watching him from this window",
+    "st": "In a case where there <b>were two</b> witnesses <b>observing</b> an individual violating a capital transgression <b>from this window</b> in a house,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "רוֹאִין",
+      "en": "watching"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "מֵחַלּוֹן",
+      "en": "from window"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנַיִם רוֹאִין אוֹתוֹ מֵחַלּוֹן זֶה",
+    "en": "and two were watching him from that window,",
+    "st": "<b>and two observing him from that window</b> in a house,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנַיִם",
+      "en": "and two"
+     },
+     {
+      "he": "רוֹאִין",
+      "en": "watching"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "מֵחַלּוֹן",
+      "en": "from window"
+     },
+     {
+      "he": "זֶה",
+      "en": "that"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד מַתְרֶה בוֹ בָּאֶמְצַע,",
+    "en": "and one person in the middle was warning him,",
+    "st": "<b>and one</b> person was <b>forewarning</b> the transgressor <b>in the middle</b> between the two sets of witnesses,",
+    "stMore": "the halakha depends on the circumstances.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "מַתְרֶה",
+      "en": "warning"
+     },
+     {
+      "he": "בוֹ",
+      "en": "him"
+     },
+     {
+      "he": "בָּאֶמְצַע,",
+      "en": "in the middle"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁמִּקְצָתָן רוֹאִין אֵלּוּ אֶת אֵלּוּ,",
+    "en": "if some of them can see each other,",
+    "st": "In a situation <b>where some of</b> the witnesses observing from the two windows <b>see each other,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁמִּקְצָתָן",
+      "en": "that some of them"
+     },
+     {
+      "he": "רוֹאִין",
+      "en": "see"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֵלּוּ,",
+      "en": "these"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ עֵדוּת אַחַת.",
+    "en": "then they are one testimony.",
+    "st": "the testimony of all <b>these</b> witnesses constitutes <b>one testimony,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these are"
+     },
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "אַחַת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "But if not,",
+    "st": "<b>but if</b> they do <b>not</b> see each other,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ שְׁתֵּי עֵדֻיּוֹת.",
+    "en": "they are two separate testimonies.",
+    "st": "the testimony of <b>these</b> witnesses constitutes <b>two</b> independent <b>testimonies.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these are"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "עֵדֻיּוֹת.",
+      "en": "testimonies"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם נִמְצֵאת אַחַת מֵהֶן זוֹמֶמֶת,",
+    "en": "So if one group is found to be zomemin,",
+    "st": "<b>Therefore,</b> as two independent sets of witnesses, <b>if one of</b> the sets <b>was found</b> to be a set of <b>conspiring</b> witnesses,",
+    "stMore": "while the testimony of the other set remained valid,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נִמְצֵאת",
+      "en": "is found"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "זוֹמֶמֶת,",
+      "en": "zomemes",
+      "note": "Proven to be plotting, false witnesses."
+     }
+    ]
+   },
+   {
+    "he": "הוּא וָהֵן נֶהֱרָגִין וְהַשְּׁנִיָּה פְּטוּרָה.",
+    "en": "the sinner and the zomemin are put to death, and the second group is free.",
+    "st": "both <b>he,</b> the one accused of violating the capital transgression, <b>and they,</b> the conspiring witnesses, <b>are executed, and the second</b> set, whose testimony remained valid, <b>is exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "וָהֵן",
+      "en": "and they"
+     },
+     {
+      "he": "נֶהֱרָגִין",
+      "en": "are killed"
+     },
+     {
+      "he": "וְהַשְּׁנִיָּה",
+      "en": "and the second"
+     },
+     {
+      "he": "פְּטוּרָה.",
+      "en": "is exempt"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says,",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לְעוֹלָם אֵין נֶהֱרָגִין",
+    "en": "Someone is never put to death",
+    "st": "Transgressors <b>are never executed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְעוֹלָם",
+      "en": "ever"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱרָגִין",
+      "en": "are killed"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהוּ פִּי שְׁנֵי עֵדָיו מַתְרִין בּוֹ,",
+    "en": "unless his two witnesses are the ones who warn him,",
+    "st": "<b>unless his two witnesses are</b> the ones <b>forewarning him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהוּ",
+      "en": "they are"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "עֵדָיו",
+      "en": "his witnesses"
+     },
+     {
+      "he": "מַתְרִין",
+      "en": "warning"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (דברים יז) עַל פִּי שְׁנַיִם עֵדִים.",
+    "en": "as it says, \"By the word of two witnesses.\"",
+    "st": "<b>as it is stated: “At the mouth of two witnesses</b>",
+    "stMore": "<b>…</b>he who is to be put to death shall die” (Deuteronomy 17:6), from which it is derived that it is from the mouths of the two witnesses that the accused must be forewarned, and forewarning issued by someone else is insufficient.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יז)",
+      "en": "17)"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "עֵדִים.",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר אַחֵר,",
+    "en": "Another explanation:",
+    "st": "<b>Alternatively,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "עַל פִּי שְׁנַיִם עֵדִים,",
+    "en": "\"By the word of two witnesses\"",
+    "st": "from the phrase <b>“at the mouth of two witnesses”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא תְהֵא סַנְהֶדְרִין שׁוֹמַעַת מִפִּי הַתֻּרְגְּמָן:",
+    "en": "means the Sanhedrin may not hear the witnesses through a translator.",
+    "explain": "The judges must hear the witnesses' own words.",
+    "st": "one derives <b>that</b> the judges must hear the testimony directly from the witnesses, and the <b>Sanhedrin will not hear</b> testimony <b>from the mouth of an interpreter.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "תְהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "סַנְהֶדְרִין",
+      "en": "Sanhedrin",
+      "note": "The great Beis Din of seventy-one judges."
+     },
+     {
+      "he": "שׁוֹמַעַת",
+      "en": "hear"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "הַתֻּרְגְּמָן:",
+      "en": "the translator"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 10,
+  "summary": "Someone whose case was decided by Beis Din cannot run away to escape it. The Sanhedrin was so careful that putting someone to death was very rare; the mishnah tells how rare it should be.",
+  "stIntro": "This mishna continues to discuss the matter of testimony in the case of one who is liable to be executed. Concerning",
+  "chunks": [
+   {
+    "he": "מִי שֶׁנִּגְמַר דִּינוֹ וּבָרַח",
+    "en": "Someone whose judgment was decided, and he ran away,",
+    "st": "<b>one whose verdict was delivered</b> and he was sentenced to death <b>and he fled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁנִּגְמַר",
+      "en": "was finished"
+     },
+     {
+      "he": "דִּינוֹ",
+      "en": "his judgment"
+     },
+     {
+      "he": "וּבָרַח",
+      "en": "and he ran away"
+     }
+    ]
+   },
+   {
+    "he": "וּבָא לִפְנֵי אוֹתוֹ בֵית דִּין,",
+    "en": "and then came before the same Beis Din,",
+    "st": "<b>and he</b> then <b>came before the same court</b> that sentenced him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "that same"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "דִּין,",
+      "en": "Din"
+     }
+    ]
+   },
+   {
+    "he": "אֵין סוֹתְרִים אֶת דִּינוֹ.",
+    "en": "we do not undo his judgment.",
+    "st": "<b>they do not overturn his verdict</b> and retry him.",
+    "stMore": "Rather, the court administers the previous verdict.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "סוֹתְרִים",
+      "en": "we undo"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "דִּינוֹ.",
+      "en": "his judgment"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מָקוֹם שֶׁיַּעַמְדוּ שְׁנַיִם וְיֹאמְרוּ,",
+    "en": "Anywhere that two witnesses stand up and say,",
+    "st": "Consequently, in <b>any place where two</b> witnesses <b>will stand and say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁיַּעַמְדוּ",
+      "en": "that will stand"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "וְיֹאמְרוּ,",
+      "en": "and will say"
+     }
+    ]
+   },
+   {
+    "he": "מְעִידִין אָנוּ בְאִישׁ פְּלוֹנִי",
+    "en": "\"We testify about a certain man",
+    "st": "<b>We testify with regard to a man</b> called <b>so-and-so</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "בְאִישׁ",
+      "en": "about a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנִּגְמַר דִּינוֹ בְּבֵית דִּינוֹ שֶׁל פְּלוֹנִי,",
+    "en": "that his judgment was decided in the Beis Din of so-and-so,",
+    "st": "<b>that his verdict was delivered</b> and he was sentenced to death <b>in the court of so-and-so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנִּגְמַר",
+      "en": "that was finished"
+     },
+     {
+      "he": "דִּינוֹ",
+      "en": "his judgment"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the Beis"
+     },
+     {
+      "he": "דִּינוֹ",
+      "en": "Din"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "פְּלוֹנִי,",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "וּפְלוֹנִי וּפְלוֹנִי עֵדָיו,",
+    "en": "and so-and-so and so-and-so were his witnesses,\"",
+    "st": "<b>and so-and-so and so-and-so</b> were <b>his witnesses,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפְלוֹנִי",
+      "en": "and so-and-so"
+     },
+     {
+      "he": "וּפְלוֹנִי",
+      "en": "and so-and-so"
+     },
+     {
+      "he": "עֵדָיו,",
+      "en": "his witnesses"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה יֵהָרֵג.",
+    "en": "then he is put to death.",
+    "st": "<b>that</b> person <b>shall be executed</b> on the basis of that testimony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "יֵהָרֵג.",
+      "en": "will be killed"
+     }
+    ]
+   },
+   {
+    "he": "סַנְהֶדְרִין נוֹהֶגֶת בָּאָרֶץ וּבְחוּצָה לָאָרֶץ.",
+    "en": "A Sanhedrin works both in Eretz Yisrael and outside Eretz Yisrael.",
+    "st": "The mishna continues: The mitzva to establish <b>a Sanhedrin</b> with the authority to administer capital punishments <b>is in effect</b> both <b>in Eretz</b> Yisrael <b>and outside Eretz</b> Yisrael.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סַנְהֶדְרִין",
+      "en": "Sanhedrin"
+     },
+     {
+      "he": "נוֹהֶגֶת",
+      "en": "is in effect"
+     },
+     {
+      "he": "בָּאָרֶץ",
+      "en": "in the Land"
+     },
+     {
+      "he": "וּבְחוּצָה",
+      "en": "and outside"
+     },
+     {
+      "he": "לָאָרֶץ.",
+      "en": "the Land"
+     }
+    ]
+   },
+   {
+    "he": "סַנְהֶדְרִין הַהוֹרֶגֶת אֶחָד בְּשָׁבוּעַ נִקְרֵאת חָבְלָנִית.",
+    "en": "A Sanhedrin that puts someone to death once in seven years is called a destructive Sanhedrin.",
+    "explain": "They checked so carefully that it almost never happened.",
+    "st": "<b>A Sanhedrin that executes</b> a transgressor <b>once in seven years is characterized</b> as <b>a destructive</b> tribunal.",
+    "stMore": "Since the Sanhedrin would subject the testimony to exacting scrutiny, it was extremely rare for a defendant to be executed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סַנְהֶדְרִין",
+      "en": "Sanhedrin"
+     },
+     {
+      "he": "הַהוֹרֶגֶת",
+      "en": "that kills"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בְּשָׁבוּעַ",
+      "en": "in seven years"
+     },
+     {
+      "he": "נִקְרֵאת",
+      "en": "is called"
+     },
+     {
+      "he": "חָבְלָנִית.",
+      "en": "destructive"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֶלְעָזָר בֶּן עֲזַרְיָה אוֹמֵר,",
+    "en": "Rabbi Elazar ben Azarya says,",
+    "st": "<b>Rabbi Elazar ben Azarya says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "עֲזַרְיָה",
+      "en": "Azarya"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד לְשִׁבְעִים שָׁנָה.",
+    "en": "even once in seventy years.",
+    "st": "This categorization applies to a Sanhedrin that executes a transgressor <b>once in seventy years.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "לְשִׁבְעִים",
+      "en": "in seventy"
+     },
+     {
+      "he": "שָׁנָה.",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן וְרַבִּי עֲקִיבָא אוֹמְרִים,",
+    "en": "Rabbi Tarfon and Rabbi Akiva say,",
+    "st": "<b>Rabbi Tarfon and Rabbi Akiva say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אִלּוּ הָיִינוּ בַסַּנְהֶדְרִין",
+    "en": "If we had been in the Sanhedrin,",
+    "st": "<b>If we had been</b> members <b>of the Sanhedrin,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִלּוּ",
+      "en": "if"
+     },
+     {
+      "he": "הָיִינוּ",
+      "en": "we had been"
+     },
+     {
+      "he": "בַסַּנְהֶדְרִין",
+      "en": "in the Sanhedrin"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נֶהֱרַג אָדָם מֵעוֹלָם.",
+    "en": "no person would ever have been put to death.",
+    "st": "we would have conducted trials in a manner whereby <b>no person would have ever been executed.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נֶהֱרַג",
+      "en": "was killed"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "מֵעוֹלָם.",
+      "en": "ever"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הֵן מַרְבִּין שׁוֹפְכֵי דָמִים בְּיִשְׂרָאֵל:",
+    "en": "Then they would also make more murderers among the Jewish people.",
+    "explain": "People would not be afraid of being punished.",
+    "st": "In adopting that approach, <b>they too</b> would <b>increase</b> the number of <b>murderers among the Jewish people.</b>",
+    "stMore": "The death penalty would lose its deterrent value, as all potential murderers would know that no one is ever executed.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "מַרְבִּין",
+      "en": "increase"
+     },
+     {
+      "he": "שׁוֹפְכֵי",
+      "en": "spillers of"
+     },
+     {
+      "he": "דָמִים",
+      "en": "blood"
+     },
+     {
+      "he": "בְּיִשְׂרָאֵל:",
+      "en": "in Yisrael"
+     }
+    ]
+   }
+  ]
+ }
+]

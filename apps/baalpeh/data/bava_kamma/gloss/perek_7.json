@@ -1,0 +1,2736 @@
+[
+ {
+  "perek": 7,
+  "mishnah": 1,
+  "summary": "A thief pays double for anything he steals. If he steals an ox or a sheep and then shechts or sells it, he pays four or five times. Someone who steals from a thief does not pay these extra amounts.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מְרֻבָּה מִדַּת תַּשְׁלוּמֵי כֶפֶל",
+    "en": "The rule of paying double covers more",
+    "st": "<b>The principle of double payment</b> applies",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְרֻבָּה",
+      "en": "greater"
+     },
+     {
+      "he": "מִדַּת",
+      "en": "is the rule of"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "כֶפֶל",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "מִמִּדַּת תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה,",
+    "en": "than the rule of paying four and five times,",
+    "st": "<b>more broadly than the principle of fourfold or fivefold payment,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִמִּדַּת",
+      "en": "than the rule of"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה,",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמִּדַּת תַּשְׁלוּמֵי כֶפֶל נוֹהֶגֶת בֵּין בְּדָבָר",
+    "en": "because the rule of double works both for something",
+    "st": "<b>as the principle of double payment applies both to</b> the theft of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמִּדַּת",
+      "en": "that the rule of"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "כֶפֶל",
+      "en": "double"
+     },
+     {
+      "he": "נוֹהֶגֶת",
+      "en": "applies"
+     },
+     {
+      "he": "בֵּין",
+      "en": "both"
+     },
+     {
+      "he": "בְּדָבָר",
+      "en": "for a thing"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֶּשׁ בּוֹ רוּחַ חַיִּים וּבֵין בְּדָבָר",
+    "en": "that is alive and for something",
+    "st": "<b>something that is alive and to</b> the theft of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "רוּחַ",
+      "en": "a spirit of"
+     },
+     {
+      "he": "חַיִּים",
+      "en": "life"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and both"
+     },
+     {
+      "he": "בְּדָבָר",
+      "en": "for a thing"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין בּוֹ רוּחַ חַיִּים,",
+    "en": "that is not alive,",
+    "st": "<b>something that is not alive,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "רוּחַ",
+      "en": "a spirit of"
+     },
+     {
+      "he": "חַיִּים,",
+      "en": "life"
+     }
+    ]
+   },
+   {
+    "he": "וּמִדַּת תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה אֵינָהּ",
+    "en": "but the rule of four and five does not",
+    "st": "<b>but the principle of fourfold or fivefold payment</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִדַּת",
+      "en": "and the rule of"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה",
+      "en": "and five"
+     },
+     {
+      "he": "אֵינָהּ",
+      "en": "does not"
+     }
+    ]
+   },
+   {
+    "he": "נוֹהֶגֶת אֶלָּא בְּשׁוֹר וָשֶׂה בִּלְבַד,",
+    "en": "work except for an ox or a sheep only,",
+    "st": "<b>applies only to</b> the theft of <b>an ox or a sheep,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹהֶגֶת",
+      "en": "apply"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְּשׁוֹר",
+      "en": "for an ox"
+     },
+     {
+      "he": "וָשֶׂה",
+      "en": "and a sheep"
+     },
+     {
+      "he": "בִּלְבַד,",
+      "en": "only"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמות כא) כִּי יִגְנֹב",
+    "en": "as it says, \"If",
+    "st": "<b>as it is stated: “If</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it is said"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כא)",
+      "en": "21)"
+     },
+     {
+      "he": "כִּי",
+      "en": "if"
+     },
+     {
+      "he": "יִגְנֹב",
+      "en": "he steals"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ",
+    "en": "a man steals an ox or a sheep and shechts it",
+    "st": "<b>a man steal an ox or a sheep, and slaughter it</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׂה",
+      "en": "sheep"
+     },
+     {
+      "he": "וּטְבָחוֹ",
+      "en": "and shechts it"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מְכָרוֹ וְגוֹ'.",
+    "en": "or sells it...\"",
+    "explain": "Then he pays five oxen for an ox and four sheep for a sheep.",
+    "st": "<b>or sell it,</b> he shall pay five oxen for an ox and four sheep for a sheep” (Exodus 21:37).",
+    "stMore": "Having stated a limitation to the halakha of fourfold and fivefold payment, the mishna mentions a further limitation, which applies to all three types of payments.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מְכָרוֹ",
+      "en": "sells it"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַגּוֹנֵב אַחַר הַגַּנָּב",
+    "en": "Someone who steals from a thief",
+    "st": "<b>One who steals</b> an item <b>after a thief</b> has already stolen it, i.e., one who steals a stolen item,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "does not"
+     },
+     {
+      "he": "הַגּוֹנֵב",
+      "en": "the one who steals"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "הַגַּנָּב",
+      "en": "the thief"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל,",
+    "en": "does not pay double,",
+    "st": "<b>does not pay</b> the <b>double payment</b> to the thief or to the prior owner,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "כֶפֶל,",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הַטּוֹבֵחַ וְלֹא הַמּוֹכֵר אַחַר",
+    "en": "and someone who shechts or sells after",
+    "st": "<b>nor does one who slaughters or sells</b> an ox or a sheep",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַטּוֹבֵחַ",
+      "en": "the one who shechts"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַמּוֹכֵר",
+      "en": "the seller"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     }
+    ]
+   },
+   {
+    "he": "הַגַּנָּב מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה:",
+    "en": "the thief does not pay four or five times.",
+    "st": "<b>after a thief</b> has already stolen it <b>pay</b> the <b>fourfold or fivefold payment.</b>",
+    "stMore": "Rather, he pays only the principal, i.e., the value of the item he stole.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגַּנָּב",
+      "en": "the thief"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה:",
+      "en": "and five"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 2,
+  "summary": "Cases where a thief who stole an animal and then shechted or sold it still pays four or five times, even if he did it in a sinful way. Rabbi Shimon disagrees about two cases.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גָּנַב עַל פִּי שְׁנַיִם,",
+    "en": "If he stole, as two witnesses said,",
+    "st": "The mishna lists a series of cases in which a thief is required to pay the fourfold or fivefold penalty. If one <b>stole</b> an animal, as established <b>based on</b> the testimony of <b>two</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "וְטָבַח וּמָכַר עַל פִּיהֶם אוֹ",
+    "en": "and shechted or sold it, as they said, or",
+    "st": "<b>and he</b> subsequently <b>slaughtered</b> the animal <b>or sold</b> it, also <b>based on</b> the testimony of the same witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטָבַח",
+      "en": "and he shechted"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and he sold"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּיהֶם",
+      "en": "their mouth"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     }
+    ]
+   },
+   {
+    "he": "עַל פִּי שְׁנַיִם אֲחֵרִים,",
+    "en": "as two other witnesses said,",
+    "st": "<b>or based on</b> the testimony of <b>two other</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "he pays four or five times.",
+    "st": "he <b>pays</b> the <b>fourfold or fivefold payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב וּמָכַר בְּשַׁבָּת,",
+    "en": "If he stole it and sold it on Shabbos,",
+    "st": "If one <b>stole</b> an animal <b>and sold</b> it <b>on Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     },
+     {
+      "he": "בְּשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב וּמָכַר לַעֲבוֹדָה זָרָה,",
+    "en": "stole it and sold it for avodah zarah,",
+    "st": "or if <b>he stole</b> it <b>and sold</b> it <b>for idol worship,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     },
+     {
+      "he": "לַעֲבוֹדָה",
+      "en": "for avodah"
+     },
+     {
+      "he": "זָרָה,",
+      "en": "zarah",
+      "note": "Worshiping idols."
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב וְטָבַח בְּיוֹם הַכִּפּוּרִים,",
+    "en": "stole it and shechted it on Yom Kippur,",
+    "st": "or if <b>he stole</b> it <b>and slaughtered</b> it <b>on Yom Kippur,</b> he pays the fourfold or fivefold payment.",
+    "stMore": "Although his sale or slaughter in these circumstances involved a sin, he is not liable to receive the death penalty for the sale and must consequently pay the fourfold or fivefold payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים,",
+      "en": "Kippur"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב מִשֶּׁל אָבִיו וְטָבַח וּמָכַר",
+    "en": "stole from his father's animals and shechted or sold it,",
+    "st": "If one <b>stole</b> an animal <b>of his father’s and</b> then <b>slaughtered</b> it <b>or sold</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from that of"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ מֵת אָבִיו,",
+    "en": "and after that his father died,",
+    "st": "<b>and afterward his father died</b> and he inherited his father’s estate either on his own or in partnership with his brothers,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב וְטָבַח וְאַחַר כָּךְ הִקְדִּישׁ,",
+    "en": "stole and shechted it and after that made it hekdesh:",
+    "st": "or if <b>he stole</b> an animal <b>and slaughtered</b> it <b>and afterward he consecrated</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "הִקְדִּישׁ,",
+      "en": "made it hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "he pays four or five times.",
+    "st": "he <b>pays</b> the <b>fourfold or fivefold payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב וְטָבַח לִרְפוּאָה אוֹ לִכְלָבִים,",
+    "en": "If he stole and shechted it for medicine or for dogs,",
+    "st": "In the case of one who <b>stole</b> an animal <b>and slaughtered it,</b> not for the purpose of eating its meat, but to use it <b>for medicinal purposes or to</b> feed the meat to <b>dogs,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "לִרְפוּאָה",
+      "en": "for medicine"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לִכְלָבִים,",
+      "en": "for dogs"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט וְנִמְצָא טְרֵפָה,",
+    "en": "or one who shechts and it turns out to be treifah,",
+    "st": "and likewise a thief <b>who slaughters</b> the animal to eat its meat <b>but it was found to be an animal with a condition that will cause it to die within twelve months [tereifa],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "the one who shechts"
+     },
+     {
+      "he": "וְנִמְצָא",
+      "en": "and it was found"
+     },
+     {
+      "he": "טְרֵפָה,",
+      "en": "treifah",
+      "note": "An animal with a sickness or injury that makes it not kosher."
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט חֻלִּין בָּעֲזָרָה,",
+    "en": "or one who shechts a regular animal in the Azarah,",
+    "explain": "The Azarah is the courtyard of the Beis HaMikdash.",
+    "st": "or a thief <b>who slaughters a non-sacred</b> animal <b>in the</b> Temple <b>courtyard,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "the one who shechts"
+     },
+     {
+      "he": "חֻלִּין",
+      "en": "regular food"
+     },
+     {
+      "he": "בָּעֲזָרָה,",
+      "en": "in the Azarah",
+      "note": "The courtyard of the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "he pays four or five times.",
+    "st": "he <b>pays the fourfold or fivefold payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן פּוֹטֵר בִּשְׁנֵי אֵלּוּ:",
+    "en": "Rabbi Shimon says he does not pay in these two cases.",
+    "st": "<b>Rabbi Shimon exempts</b> the thief from the fourfold or fivefold payment <b>in these</b> last <b>two</b> cases,",
+    "stMore": "as he maintains that the legal status of an act of slaughter that is not fit for accomplishing its full ritual purpose is not considered an act of slaughter.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "פּוֹטֵר",
+      "en": "exempts"
+     },
+     {
+      "he": "בִּשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "אֵלּוּ:",
+      "en": "these"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 3,
+  "summary": "If witnesses who said a person stole and shechted are found to be eidim zomemin (lying witnesses), they must pay what they tried to make him pay.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גָּנַב עַל פִּי שְׁנַיִם",
+    "en": "He stole, as two witnesses said,",
+    "st": "If one <b>stole</b> an ox or a sheep, as established <b>based on</b> the testimony of <b>two</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "וְטָבַח וּמָכַר עַל פִּיהֶם,",
+    "en": "and shechted or sold it, as they said,",
+    "st": "<b>and he</b> subsequently <b>slaughtered</b> the animal <b>or sold</b> it, also <b>based on</b> the testimony of the same witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטָבַח",
+      "en": "and he shechted"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and he sold"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּיהֶם,",
+      "en": "their mouth"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצְאוּ זוֹמְמִין,",
+    "en": "and they turned out to be eidim zomemin:",
+    "explain": "Witnesses proven to be lying, because they were somewhere else.",
+    "st": "<b>and</b> these witnesses <b>were found</b> to be <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצְאוּ",
+      "en": "and they were found"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin",
+      "note": "Lying witnesses, shown to have been somewhere else at the time."
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלְּמִין הַכֹּל.",
+    "en": "they pay everything.",
+    "st": "these witnesses <b>pay everything,</b> i.e., not only the principal amount but also the fourfold or fivefold payment.",
+    "stMore": "This is in accordance with the Torah’s decree with regard to conspiring witnesses: “You shall do to him as he had conspired to do to his brother” (Deuteronomy 19:19). Since these witnesses attempted to obligate the alleged thief to pay the fourfold or fivefold payment, they themselves must pay that full amount.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלְּמִין",
+      "en": "they pay"
+     },
+     {
+      "he": "הַכֹּל.",
+      "en": "everything"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב עַל פִּי שְׁנַיִם וְטָבַח",
+    "en": "He stole, as two witnesses said, and shechted",
+    "st": "With regard to one who <b>stole</b> an ox or a sheep, as established <b>based on</b> the testimony of <b>two</b> witnesses, <b>and he</b> subsequently <b>slaughtered</b> the animal",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     }
+    ]
+   },
+   {
+    "he": "וּמָכַר עַל פִּי שְׁנַיִם אֲחֵרִים,",
+    "en": "or sold it, as two other witnesses said,",
+    "st": "<b>or sold</b> it, <b>based on</b> the testimony of <b>two other</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ וְאֵלּוּ נִמְצְאוּ זוֹמְמִין,",
+    "en": "and both groups turned out to be zomemin:",
+    "st": "if both <b>these</b> witnesses <b>and those</b> witnesses <b>were found</b> to be <b>conspiring</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "נִמְצְאוּ",
+      "en": "were found"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "הָרִאשׁוֹנִים מְשַׁלְּמִים תַּשְׁלוּמֵי כֶפֶל,",
+    "en": "the first ones pay double,",
+    "st": "<b>the first</b> set of witnesses, who testified about the theft of the animal, <b>pay</b> the alleged thief the <b>double payment,</b> which is what they had conspired to cause him to pay.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרִאשׁוֹנִים",
+      "en": "the first ones"
+     },
+     {
+      "he": "מְשַׁלְּמִים",
+      "en": "pay"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "כֶפֶל,",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאַחֲרוֹנִים מְשַׁלְּמִין תַּשְׁלוּמֵי שְׁלֹשָׁה.",
+    "en": "and the last ones pay three times.",
+    "explain": "Three is what is left over above the double.",
+    "st": "<b>And the last</b> set of witnesses, who attested to the slaughter or sale of the animal, <b>pay</b> the alleged thief a twofold payment for a sheep or <b>a threefold payment</b> for an ox, which they had conspired to cause him to pay over and above the double payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאַחֲרוֹנִים",
+      "en": "and the last ones"
+     },
+     {
+      "he": "מְשַׁלְּמִין",
+      "en": "pay"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "שְׁלֹשָׁה.",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצְאוּ אַחֲרוֹנִים זוֹמְמִין,",
+    "en": "If only the last ones turned out to be zomemin,",
+    "st": "If only the witnesses in the <b>last</b> set <b>were found</b> to be <b>conspiring</b> witnesses, while the testimony about the theft remains intact,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצְאוּ",
+      "en": "were found"
+     },
+     {
+      "he": "אַחֲרוֹנִים",
+      "en": "the last ones"
+     },
+     {
+      "he": "זוֹמְמִין,",
+      "en": "zomemin"
+     }
+    ]
+   },
+   {
+    "he": "הוּא מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל,",
+    "en": "he pays double,",
+    "st": "the thief <b>pays</b> the <b>double payment</b> to the animal’s owner",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "כֶפֶל,",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵן מְשַׁלְּמִין תַּשְׁלוּמֵי שְׁלֹשָׁה.",
+    "en": "and they pay three times.",
+    "st": "<b>and</b> the second set of witnesses <b>pay</b> the alleged thief the twofold or <b>threefold payment,</b> the amount over and above the double payment, which is what they had conspired to cause him to pay.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵן",
+      "en": "and they"
+     },
+     {
+      "he": "מְשַׁלְּמִין",
+      "en": "pay"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "שְׁלֹשָׁה.",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד מִן הָאַחֲרוֹנִים זוֹמֵם,",
+    "en": "If one of the last ones is a zomem,",
+    "st": "If only <b>one</b> individual <b>from the last</b> set of witnesses was found to be <b>a conspiring</b> witness,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאַחֲרוֹנִים",
+      "en": "the last ones"
+     },
+     {
+      "he": "זוֹמֵם,",
+      "en": "zomem"
+     }
+    ]
+   },
+   {
+    "he": "בָּטְלָה עֵדוּת שְׁנִיָּה.",
+    "en": "the second testimony is cancelled.",
+    "st": "<b>the second testimony</b> is <b>nullified,</b> as it was not submitted by two valid witnesses, whereas the first testimony remains intact.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּטְלָה",
+      "en": "is cancelled"
+     },
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "שְׁנִיָּה.",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד מִן הָרִאשׁוֹנִים זוֹמֵם,",
+    "en": "If one of the first ones is a zomem,",
+    "st": "If <b>one</b> individual <b>from the first</b> set of witnesses is found to be <b>a conspiring</b> witness,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָרִאשׁוֹנִים",
+      "en": "the first ones"
+     },
+     {
+      "he": "זוֹמֵם,",
+      "en": "zomem"
+     }
+    ]
+   },
+   {
+    "he": "בָּטְלָה כָּל הָעֵדוּת,",
+    "en": "the whole testimony is cancelled,",
+    "st": "<b>the entire testimony</b> concerning the thief is <b>nullified.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּטְלָה",
+      "en": "is cancelled"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָעֵדוּת,",
+      "en": "the testimony"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם אֵין גְּנֵיבָה אֵין",
+    "en": "because if there was no stealing, there is no",
+    "st": "The reason is <b>that if there is no theft</b> established by reliable testimony <b>there is no</b> liability for",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "גְּנֵיבָה",
+      "en": "stealing"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     }
+    ]
+   },
+   {
+    "he": "טְבִיחָה וְאֵין מְכִירָה:",
+    "en": "shechting and no selling.",
+    "st": "<b>slaughtering</b> the animal <b>and there is no</b> liability for <b>selling</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טְבִיחָה",
+      "en": "shechting"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "מְכִירָה:",
+      "en": "selling"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 4,
+  "summary": "Cases where a thief pays only double, not four or five times: when there was only one witness for the shechting, or when the shechting or selling was not really his to pay for. Rabbi Shimon adds a rule about korbanos.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גָּנַב עַל פִּי שְׁנַיִם,",
+    "en": "He stole, as two witnesses said,",
+    "st": "If one <b>stole</b> an ox or a sheep, as established <b>based on</b> the testimony of <b>two</b> witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "וְטָבַח וּמָכַר עַל פִּי עֵד אֶחָד,",
+    "en": "and shechted or sold it, as one witness said,",
+    "st": "<b>and he</b> subsequently <b>slaughtered or sold</b> the stolen animal, as established <b>based on</b> the testimony of <b>one witness</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עֵד",
+      "en": "witness"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ עַל פִּי עַצְמוֹ,",
+    "en": "or as he said himself:",
+    "st": "<b>or based on his own</b> admission, i.e., he himself admitted that he performed these acts, without there being any witness testimony,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל,",
+    "en": "he pays double,",
+    "st": "<b>he pays</b> the <b>double payment,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "כֶפֶל,",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "but he does not pay four or five times.",
+    "st": "<b>but he does not pay</b> the <b>fourfold or fivefold payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב וְטָבַח בְּשַׁבָּת,",
+    "en": "If he stole and shechted it on Shabbos,",
+    "st": "If one <b>stole</b> an animal <b>and slaughtered</b> it <b>on Shabbat,</b> which is a capital offense,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "בְּשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב וְטָבַח לַעֲבוֹדָה זָרָה,",
+    "en": "stole and shechted it for avodah zarah,",
+    "st": "or if <b>he stole</b> an animal <b>and slaughtered</b> it <b>for the</b> purpose of <b>idol worship,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "לַעֲבוֹדָה",
+      "en": "for avodah"
+     },
+     {
+      "he": "זָרָה,",
+      "en": "zarah"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב מִשֶּׁל אָבִיו,",
+    "en": "stole from his father's animals,",
+    "st": "or if <b>he stole his father’s</b> animal",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from that of"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת אָבִיו,",
+    "en": "and his father died,",
+    "st": "<b>and</b> subsequently <b>his father died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת",
+      "en": "and died"
+     },
+     {
+      "he": "אָבִיו,",
+      "en": "his father"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ טָבַח וּמָכַר,",
+    "en": "and after that he shechted or sold it,",
+    "st": "<b>and afterward he slaughtered or sold</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "טָבַח",
+      "en": "shechted"
+     },
+     {
+      "he": "וּמָכַר,",
+      "en": "and sold"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב וְהִקְדִּישׁ וְאַחַר כָּךְ טָבַח וּמָכַר,",
+    "en": "stole and made it hekdesh and after that shechted or sold it:",
+    "st": "or if <b>he stole</b> an animal <b>and</b> subsequently <b>he consecrated</b> it as an offering <b>and afterward he slaughtered or sold</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וְהִקְדִּישׁ",
+      "en": "and made it hekdesh"
+     },
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "טָבַח",
+      "en": "shechted"
+     },
+     {
+      "he": "וּמָכַר,",
+      "en": "and sold"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל וְאֵינוֹ",
+    "en": "he pays double, and he does not",
+    "st": "in all these cases the thief <b>pays</b> the <b>double payment,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "כֶפֶל",
+      "en": "double"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "pay four or five times.",
+    "st": "<b>but he does not pay</b> the <b>fourfold or fivefold payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "קָדָשִׁים שֶׁחַיָּב בְּאַחֲרָיוּתָם,",
+    "en": "korbanos that the owner must replace if lost:",
+    "st": "In the case of <b>sacrificial</b> animals <b>for which</b> the owner <b>bears</b> financial <b>responsibility</b> to replace with another animal if one of the original animals that one stole is lost or dies,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדָשִׁים",
+      "en": "korbanos"
+     },
+     {
+      "he": "שֶׁחַיָּב",
+      "en": "that he is obligated"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָם,",
+      "en": "in their responsibility"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "he pays four or five times.",
+    "st": "the thief is obligated to <b>pay</b> the <b>fourfold or fivefold payment</b> if he slaughters one of the animals.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין חַיָּב בְּאַחֲרָיוּתָם, פָּטוּר:",
+    "en": "If the owner does not need to replace them, he does not pay.",
+    "st": "If it is a sacrificial animal <b>for which</b> the owner <b>bears no</b> financial <b>responsibility,</b> the thief <b>is exempt</b> from the fourfold or fivefold payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָם,",
+      "en": "in their responsibility"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "exempt"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 5,
+  "summary": "More cases where the thief pays only double: if he did not sell the whole animal, or the shechitah was not kosher. Stealing only counts once the animal leaves the owner's property.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מְכָרוֹ חוּץ מֵאֶחָד מִמֵּאָה שֶׁבּוֹ,",
+    "en": "If he sold it except for one hundredth of it,",
+    "st": "If a thief <b>sold</b> a stolen animal in a partial fashion, e.g., <b>except for</b> one <b>one-hundredth of it,</b> which he kept for himself;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְכָרוֹ",
+      "en": "he sold it"
+     },
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵאֶחָד",
+      "en": "for one"
+     },
+     {
+      "he": "מִמֵּאָה",
+      "en": "of a hundred"
+     },
+     {
+      "he": "שֶׁבּוֹ,",
+      "en": "that is in it"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁהָיְתָה לוֹ בוֹ שֻׁתָּפוּת,",
+    "en": "or he was a partner in it,",
+    "st": "<b>or</b> if <b>he had a partnership in</b> owning the animal before stealing it;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהָיְתָה",
+      "en": "that there was"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "שֻׁתָּפוּת,",
+      "en": "partnership"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט וְנִתְנַבְּלָה בְיָדוֹ,",
+    "en": "or one who shechted and it became neveilah in his hand,",
+    "explain": "Neveilah: an animal that is not kosher because it was not shechted right.",
+    "st": "or in the case of a thief <b>who slaughtered</b> the stolen animal <b>and it became non-kosher</b> meat <b>in his hand</b> because he slaughtered it improperly;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "the one who shechts"
+     },
+     {
+      "he": "וְנִתְנַבְּלָה",
+      "en": "and it became neveilah",
+      "note": "Not kosher, because the shechitah was not done right."
+     },
+     {
+      "he": "בְיָדוֹ,",
+      "en": "in his hand"
+     }
+    ]
+   },
+   {
+    "he": "הַנּוֹחֵר, וְהַמְעַקֵּר,",
+    "en": "or one who killed it in a way that is not shechitah,",
+    "st": "or in the case of a thief <b>who ripped open</b> the animal rather than slaughtering it halakhically; <b>or</b> in the case of a thief <b>who tore loose</b> the gullet or windpipe of the animal as he slaughtered it, rendering the slaughter invalid,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹחֵר,",
+      "en": "the one who stabs"
+     },
+     {
+      "he": "וְהַמְעַקֵּר,",
+      "en": "and the one who tears out"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל וְאֵינוֹ",
+    "en": "he pays double, and he does not",
+    "st": "in all these cases <b>he pays</b> the <b>double payment</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "כֶפֶל",
+      "en": "double"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "pay four or five times.",
+    "st": "<b>but does not pay</b> the <b>fourfold or fivefold payment.</b>",
+    "stMore": "The fourfold or five-fold payment applies only if the animal is entirely sold or if it is slaughtered in accordance with the halakhic definition of animal slaughter.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "גָּנַב בִּרְשׁוּת הַבְּעָלִים וְטָבַח",
+    "en": "If he stole it on the owner's property, and shechted",
+    "st": "If one <b>stole</b> an animal <b>in</b> its <b>owner’s domain,</b> i.e., he took hold of it or established control over it but had not yet removed it from the owner’s premises, <b>and</b> then <b>he slaughtered</b> it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הַבְּעָלִים",
+      "en": "the owners"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     }
+    ]
+   },
+   {
+    "he": "וּמָכַר חוּץ מֵרְשׁוּתָם,",
+    "en": "or sold it outside their property,",
+    "st": "<b>or sold</b> it <b>outside</b> of the owner’s <b>domain;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "מֵרְשׁוּתָם,",
+      "en": "their domain"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁגָּנַב חוּץ מֵרְשׁוּתָם",
+    "en": "or he stole it outside their property",
+    "st": "<b>or</b> if <b>he stole</b> an animal <b>outside</b> of the owner’s <b>domain</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁגָּנַב",
+      "en": "that he stole"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "מֵרְשׁוּתָם",
+      "en": "their domain"
+     }
+    ]
+   },
+   {
+    "he": "וְטָבַח וּמָכַר בִּרְשׁוּתָם,",
+    "en": "and shechted or sold it on their property,",
+    "st": "<b>and slaughtered</b> it <b>or sold</b> it <b>in</b> the owner’s <b>domain;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     },
+     {
+      "he": "בִּרְשׁוּתָם,",
+      "en": "in their domain"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁגָּנַב וְטָבַח וּמָכַר חוּץ מֵרְשׁוּתָם,",
+    "en": "or he stole, shechted and sold it, all outside their property:",
+    "st": "<b>or</b> if <b>he stole</b> an animal <b>and slaughtered</b> it <b>or sold</b> it, and all of this occurred <b>outside</b> the owner’s <b>domain,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁגָּנַב",
+      "en": "that he stole"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "מֵרְשׁוּתָם,",
+      "en": "their domain"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "he pays four or five times.",
+    "st": "in all of these cases, <b>he must pay</b> the <b>fourfold or fivefold payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payments of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל גָּנַב וְטָבַח וּמָכַר בִּרְשׁוּתָם, פָּטוּר:",
+    "en": "But if he stole, shechted and sold it all on their property, he does not pay.",
+    "st": "<b>But</b> if <b>he stole</b> it <b>and slaughtered or sold</b> it, and all of this occurred <b>in</b> the owner’s <b>domain,</b> he is <b>exempt</b> from any of the fines for theft,",
+    "stMore": "as it is not considered theft until the stolen object is actually removed from the owner’s premises.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "גָּנַב",
+      "en": "he stole"
+     },
+     {
+      "he": "וְטָבַח",
+      "en": "and shechted"
+     },
+     {
+      "he": "וּמָכַר",
+      "en": "and sold"
+     },
+     {
+      "he": "בִּרְשׁוּתָם,",
+      "en": "in their domain"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "exempt"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 6,
+  "summary": "A thief is only responsible once he lifts the animal or takes it out of the owner's property. The same is true if he gave it to someone else who did this for him.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָיָה מוֹשְׁכוֹ וְיוֹצֵא,",
+    "en": "If he was pulling it to go out,",
+    "st": "If the thief <b>was</b> in the process of <b>leading</b> the animal <b>and leaving</b> the owner’s premises,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "מוֹשְׁכוֹ",
+      "en": "pulling it"
+     },
+     {
+      "he": "וְיוֹצֵא,",
+      "en": "and going out"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת בִּרְשׁוּת הַבְּעָלִים,",
+    "en": "and it died on the owner's property,",
+    "st": "<b>and it died</b> while it was still <b>in the owner’s domain,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת",
+      "en": "and it died"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הַבְּעָלִים,",
+      "en": "the owners"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. הִגְבִּיהוֹ אוֹ שֶׁהוֹצִיאוֹ מֵרְשׁוּת הַבְּעָלִים,",
+    "en": "he does not pay. If he lifted it or took it out of the owner's property,",
+    "st": "the thief is <b>exempt</b> from payment. If <b>he lifted it up or led it out of</b> the <b>owner’s domain</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "הִגְבִּיהוֹ",
+      "en": "he lifted it"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהוֹצִיאוֹ",
+      "en": "that he took it out"
+     },
+     {
+      "he": "מֵרְשׁוּת",
+      "en": "from the domain of"
+     },
+     {
+      "he": "הַבְּעָלִים,",
+      "en": "the owners"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת, חַיָּב.",
+    "en": "and it died, he must pay.",
+    "st": "<b>and</b> then the animal <b>died,</b> he is <b>liable</b> for his theft.",
+    "stMore": "For an act to be considered theft, the thief must acquire the item by pulling it or moving it, which are ineffective forms of acquisition on the owner’s premises; or by lifting it up, which is effective even when performed in the owner’s domain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת,",
+      "en": "and it died"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "נְתָנוֹ לִבְכוֹרוֹת בְּנוֹ אוֹ לְבַעַל חוֹבוֹ,",
+    "en": "If he gave it to redeem his firstborn son, or to someone he owed,",
+    "st": "If the thief <b>gave</b> the animal as payment <b>for the redemption of his firstborn son, or</b> as payment <b>to a creditor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְתָנוֹ",
+      "en": "he gave it"
+     },
+     {
+      "he": "לִבְכוֹרוֹת",
+      "en": "for the firstborn of"
+     },
+     {
+      "he": "בְּנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לְבַעַל",
+      "en": "to the owner of"
+     },
+     {
+      "he": "חוֹבוֹ,",
+      "en": "his debt"
+     }
+    ]
+   },
+   {
+    "he": "לְשׁוֹמֵר חִנָּם,",
+    "en": "to a watchman who is not paid,",
+    "st": "or conveyed it for safeguarding <b>to an unpaid bailee,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשׁוֹמֵר",
+      "en": "to a watchman"
+     },
+     {
+      "he": "חִנָּם,",
+      "en": "for free"
+     }
+    ]
+   },
+   {
+    "he": "וּלְשׁוֹאֵל, לְנוֹשֵׂא שָׂכָר,",
+    "en": "or to a borrower, to a paid watchman,",
+    "st": "or lent it <b>to a borrower,</b> or conveyed it for safeguarding <b>to a paid bailee,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְשׁוֹאֵל,",
+      "en": "and to a borrower"
+     },
+     {
+      "he": "לְנוֹשֵׂא",
+      "en": "to one who takes"
+     },
+     {
+      "he": "שָׂכָר,",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "וּלְשׂוֹכֵר, וְהָיָה מוֹשְׁכוֹ,",
+    "en": "or to a renter, and he was pulling it,",
+    "st": "<b>or</b> leased it <b>to a renter, and he was leading out</b> the animal",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְשׂוֹכֵר,",
+      "en": "and to a renter"
+     },
+     {
+      "he": "וְהָיָה",
+      "en": "and he was"
+     },
+     {
+      "he": "מוֹשְׁכוֹ,",
+      "en": "pulling it"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת בִּרְשׁוּת הַבְּעָלִים,",
+    "en": "and it died on the owner's property,",
+    "st": "<b>and it died in the owner’s domain,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת",
+      "en": "and it died"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הַבְּעָלִים,",
+      "en": "the owners"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. הִגְבִּיהוֹ אוֹ שֶׁהוֹצִיאוֹ מֵרְשׁוּת הַבְּעָלִים,",
+    "en": "he does not pay. If he lifted it or took it out of the owner's property,",
+    "st": "the thief is <b>exempt</b> from payment. If that individual, following the thief’s instructions, <b>lifted up</b> the animal <b>or led it out of the owner’s domain,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "הִגְבִּיהוֹ",
+      "en": "he lifted it"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁהוֹצִיאוֹ",
+      "en": "that he took it out"
+     },
+     {
+      "he": "מֵרְשׁוּת",
+      "en": "from the domain of"
+     },
+     {
+      "he": "הַבְּעָלִים,",
+      "en": "the owners"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת, חַיָּב:",
+    "en": "and it died, he must pay.",
+    "st": "<b>and it</b> subsequently <b>died,</b> the thief is <b>liable</b> for the theft.",
+    "stMore": "The thief is liable for instructing another to remove the animal for the purposes of payment of a debt, safekeeping, borrowing, or rental, as this is tantamount to the thief taking it with his own hands.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת,",
+      "en": "and it died"
+     },
+     {
+      "he": "חַיָּב:",
+      "en": "obligated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 7,
+  "mishnah": 7,
+  "summary": "Rules to keep animals from causing harm: where sheep, goats and chickens may not be raised, that pigs may not be raised, that dogs must be chained, and that traps for pigeons must be far from towns.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין מְגַדְּלִין בְּהֵמָה דַּקָּה בְּאֶרֶץ יִשְׂרָאֵל,",
+    "en": "We may not raise sheep and goats in Eretz Yisrael,",
+    "explain": "They would eat people's crops.",
+    "st": "<b>One may not raise small domesticated animals,</b> i.e., sheep and goats, <b>in</b> settled areas of <b>Eretz Yisrael,</b>",
+    "stMore": "as they graze on people’s crops.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְגַדְּלִין",
+      "en": "raise"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "animals"
+     },
+     {
+      "he": "דַּקָּה",
+      "en": "small",
+      "note": "Small animals: sheep and goats."
+     },
+     {
+      "he": "בְּאֶרֶץ",
+      "en": "in the land of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Israel"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מְגַדְּלִין בְּסוּרְיָא,",
+    "en": "but we may raise them in Surya,",
+    "st": "<b>But one may raise</b> them <b>in Syria,</b>",
+    "stMore": "despite the fact that with regard to many other halakhot Syria is treated like Eretz Yisrael,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מְגַדְּלִין",
+      "en": "we raise"
+     },
+     {
+      "he": "בְּסוּרְיָא,",
+      "en": "in Surya",
+      "note": "Syria, a land north of Eretz Yisrael."
+     }
+    ]
+   },
+   {
+    "he": "וּבַמִּדְבָּרוֹת שֶׁבְּאֶרֶץ יִשְׂרָאֵל.",
+    "en": "and in the deserts of Eretz Yisrael.",
+    "st": "<b>and in the wilderness of Eretz Yisrael.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַמִּדְבָּרוֹת",
+      "en": "and in the deserts"
+     },
+     {
+      "he": "שֶׁבְּאֶרֶץ",
+      "en": "that are in the land of"
+     },
+     {
+      "he": "יִשְׂרָאֵל.",
+      "en": "Israel"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְגַדְּלִין תַּרְנְגוֹלִים בִּירוּשָׁלַיִם,",
+    "en": "We may not raise chickens in Yerushalayim,",
+    "st": "<b>One may not raise chickens in Jerusalem,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְגַדְּלִין",
+      "en": "raise"
+     },
+     {
+      "he": "תַּרְנְגוֹלִים",
+      "en": "chickens"
+     },
+     {
+      "he": "בִּירוּשָׁלַיִם,",
+      "en": "in Yerushalayim"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי הַקָּדָשִׁים,",
+    "en": "because of the korbanos,",
+    "explain": "Chickens might make korbanos tamei.",
+    "st": "<b>due to the sacrificial meat</b> that is common there.",
+    "stMore": "There is a concern that chickens will pick up garbage that imparts ritual impurity and bring it into contact with sacrificial meat, thereby rendering it ritually impure.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "הַקָּדָשִׁים,",
+      "en": "the korbanos"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא כֹהֲנִים בְּאֶרֶץ יִשְׂרָאֵל,",
+    "en": "and Kohanim may not raise them in Eretz Yisrael,",
+    "st": "<b>And priests may not</b> raise chickens anywhere <b>in Eretz Yisrael,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "כֹהֲנִים",
+      "en": "Kohanim"
+     },
+     {
+      "he": "בְּאֶרֶץ",
+      "en": "in the land of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Israel"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי הַטָּהֳרוֹת.",
+    "en": "because of their pure foods.",
+    "explain": "Like terumah, which must stay tahor.",
+    "st": "<b>because of the</b> many foods in a priest’s possession that must be kept <b>ritually pure,</b> e.g., teruma.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "הַטָּהֳרוֹת.",
+      "en": "the pure foods"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְגַדְּלִין חֲזִירִים בְּכָל מָקוֹם.",
+    "en": "We may not raise pigs anywhere.",
+    "st": "Furthermore, <b>one may not raise pigs anywhere,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְגַדְּלִין",
+      "en": "raise"
+     },
+     {
+      "he": "חֲזִירִים",
+      "en": "pigs"
+     },
+     {
+      "he": "בְּכָל",
+      "en": "in any"
+     },
+     {
+      "he": "מָקוֹם.",
+      "en": "place"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יְגַדֵּל אָדָם אֶת הַכֶּלֶב,",
+    "en": "A person may not raise a dog,",
+    "st": "and <b>a person may not raise a dog</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יְגַדֵּל",
+      "en": "shall raise"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֶּלֶב,",
+      "en": "the dog"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אִם כֵּן הָיָה קָשׁוּר בְּשַׁלְשֶׁלֶת.",
+    "en": "unless it is tied with a chain.",
+    "st": "<b>unless it is tied with chains.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "קָשׁוּר",
+      "en": "tied"
+     },
+     {
+      "he": "בְּשַׁלְשֶׁלֶת.",
+      "en": "with a chain"
+     }
+    ]
+   },
+   {
+    "he": "אֵין פּוֹרְסִין נִשְׁבִּים לַיּוֹנִים.",
+    "en": "We may not spread traps for pigeons,",
+    "st": "<b>One may spread out traps [nishovim] for pigeons</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹרְסִין",
+      "en": "spread"
+     },
+     {
+      "he": "נִשְׁבִּים",
+      "en": "traps"
+     },
+     {
+      "he": "לַיּוֹנִים.",
+      "en": "for pigeons"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אִם כֵּן הָיָה רָחוֹק",
+    "en": "unless it is far",
+    "st": "<b>only if</b> this was performed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "רָחוֹק",
+      "en": "far"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַיִּשּׁוּב שְׁלֹשִׁים רִיס:",
+    "en": "from a town thirty ris.",
+    "explain": "A ris is a measure of distance.",
+    "st": "<b>at a distance of</b> at least <b>thirty ris,</b> which is 8,000 cubits, <b>from</b> any <b>settled area,</b>",
+    "stMore": "to ensure that privately owned pigeons are not caught in the traps.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַיִּשּׁוּב",
+      "en": "the town"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "רִיס:",
+      "en": "ris",
+      "note": "A measure of distance."
+     }
+    ]
+   }
+  ]
+ }
+]

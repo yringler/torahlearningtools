@@ -1,0 +1,4313 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "Someone who kills a person by accident must go into galus, to a city of refuge. This mishnah teaches the rule: if it happened while something was moving downward, he goes into galus; if not, he does not.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ הֵן הַגּוֹלִין,",
+    "en": "These are the people who go into galus:",
+    "explain": "Galus means going to live in a city of refuge.",
+    "st": "<b>These are</b> the people <b>who are exiled:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "הֵן",
+      "en": "are"
+     },
+     {
+      "he": "הַגּוֹלִין,",
+      "en": "the ones who are exiled"
+     }
+    ]
+   },
+   {
+    "he": "הַהוֹרֵג נֶפֶשׁ בִּשְׁגָגָה.",
+    "en": "someone who kills a person by accident.",
+    "st": "Anyone <b>who kills a person unintentionally.</b>",
+    "stMore": "Whether one is liable to be exiled depends on the particular circumstances of the case:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַהוֹרֵג",
+      "en": "the one who kills"
+     },
+     {
+      "he": "נֶפֶשׁ",
+      "en": "a person"
+     },
+     {
+      "he": "בִּשְׁגָגָה.",
+      "en": "by accident"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה מְעַגֵּל בְּמַעְגִּילָה וְנָפְלָה עָלָיו וַהֲרָגַתּוּ,",
+    "en": "If he was rolling a roller on his roof, and it fell on someone and killed him,",
+    "explain": "A heavy roller was used to smooth a roof.",
+    "st": "If <b>one was rolling a roller</b> to smooth the covering of mortar that he applied to seal his roof <b>and</b> the roller <b>fell upon</b> a person <b>and killed him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "מְעַגֵּל",
+      "en": "rolling"
+     },
+     {
+      "he": "בְּמַעְגִּילָה",
+      "en": "with a roller"
+     },
+     {
+      "he": "וְנָפְלָה",
+      "en": "and it fell"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "וַהֲרָגַתּוּ,",
+      "en": "and killed him"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה מְשַׁלְשֵׁל בְּחָבִית וְנָפְלָה עָלָיו וַהֲרָגַתּוּ,",
+    "en": "or he was lowering a barrel, and it fell on someone and killed him,",
+    "st": "or if <b>one was lowering a barrel</b> from the roof <b>and it fell on</b> a person <b>and killed him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "מְשַׁלְשֵׁל",
+      "en": "lowering"
+     },
+     {
+      "he": "בְּחָבִית",
+      "en": "a barrel"
+     },
+     {
+      "he": "וְנָפְלָה",
+      "en": "and it fell"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "וַהֲרָגַתּוּ,",
+      "en": "and killed him"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה יוֹרֵד בְּסֻלָּם וְנָפַל עָלָיו וַהֲרָגוֹ,",
+    "en": "or he was going down a ladder, and he fell on someone and killed him,",
+    "st": "or if he <b>was descending a ladder and he fell on</b> a person <b>and killed him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "יוֹרֵד",
+      "en": "going down"
+     },
+     {
+      "he": "בְּסֻלָּם",
+      "en": "a ladder"
+     },
+     {
+      "he": "וְנָפַל",
+      "en": "and he fell"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "וַהֲרָגוֹ,",
+      "en": "and killed him"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גוֹלֶה.",
+    "en": "he goes into galus.",
+    "st": "in all of these cases, <b>he is exiled.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "גוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל אִם הָיָה מוֹשֵׁךְ בְּמַעְגִּילָה",
+    "en": "But if he was pulling a roller toward himself,",
+    "st": "<b>But if one was pulling a roller</b> toward him",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "מוֹשֵׁךְ",
+      "en": "pulling"
+     },
+     {
+      "he": "בְּמַעְגִּילָה",
+      "en": "a roller"
+     }
+    ]
+   },
+   {
+    "he": "וְנָפְלָה עָלָיו וַהֲרָגַתּוּ,",
+    "en": "and it fell on someone and killed him,",
+    "st": "<b>and it fell</b> from his hands <b>upon</b> a person <b>and killed him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָפְלָה",
+      "en": "and it fell"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "וַהֲרָגַתּוּ,",
+      "en": "and killed him"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה דוֹלֶה בְחָבִית",
+    "en": "or he was pulling up a barrel,",
+    "st": "or if <b>one was lifting a barrel</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "דוֹלֶה",
+      "en": "pulling up"
+     },
+     {
+      "he": "בְחָבִית",
+      "en": "a barrel"
+     }
+    ]
+   },
+   {
+    "he": "וְנִפְסַק הַחֶבֶל וְנָפְלָה עָלָיו וַהֲרָגַתּוּ,",
+    "en": "and the rope tore and it fell on someone and killed him,",
+    "st": "<b>and the rope was severed and it fell upon</b> a person <b>and killed him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִפְסַק",
+      "en": "and was torn"
+     },
+     {
+      "he": "הַחֶבֶל",
+      "en": "the rope"
+     },
+     {
+      "he": "וְנָפְלָה",
+      "en": "and it fell"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "וַהֲרָגַתּוּ,",
+      "en": "and killed him"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה עוֹלֶה בְסֻלָּם וְנָפַל עָלָיו וַהֲרָגוֹ,",
+    "en": "or he was climbing up a ladder, and he fell on someone and killed him,",
+    "st": "or if <b>one was climbing a ladder and he fell upon</b> a person <b>and killed him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "עוֹלֶה",
+      "en": "going up"
+     },
+     {
+      "he": "בְסֻלָּם",
+      "en": "a ladder"
+     },
+     {
+      "he": "וְנָפַל",
+      "en": "and he fell"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "וַהֲרָגוֹ,",
+      "en": "and killed him"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה אֵינוֹ גוֹלֶה.",
+    "en": "he does not go into galus.",
+    "st": "<b>that</b> unintentional murderer <b>is not exiled.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁבְּדֶרֶךְ יְרִידָתוֹ,",
+    "en": "Whenever it happened while moving downward,",
+    "st": "<b>Any</b> murderer <b>who</b> kills unintentionally <b>through his downward</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "whenever"
+     },
+     {
+      "he": "שֶׁבְּדֶרֶךְ",
+      "en": "that in the way of"
+     },
+     {
+      "he": "יְרִידָתוֹ,",
+      "en": "his going down"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹלֶה.",
+    "en": "he goes into galus.",
+    "st": "motion <b>is exiled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁלֹּא בְדֶרֶךְ יְרִידָתוֹ,",
+    "en": "And when it was not while moving downward,",
+    "st": "<b>and</b> one <b>who</b> kills <b>not through his downward</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and that not"
+     },
+     {
+      "he": "בְדֶרֶךְ",
+      "en": "in the way of"
+     },
+     {
+      "he": "יְרִידָתוֹ,",
+      "en": "his going down"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גוֹלֶה.",
+    "en": "he does not go into galus.",
+    "st": "motion <b>is not exiled.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁמַט הַבַּרְזֶל מִקַּתּוֹ וְהָרַג,",
+    "en": "If the iron head of an ax slipped off its handle and killed someone,",
+    "st": "If <b>the blade</b> of an ax or hatchet <b>was displaced from its handle,</b> and it flew through the air <b>and killed</b> a person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁמַט",
+      "en": "slipped off"
+     },
+     {
+      "he": "הַבַּרְזֶל",
+      "en": "the iron"
+     },
+     {
+      "he": "מִקַּתּוֹ",
+      "en": "from its handle"
+     },
+     {
+      "he": "וְהָרַג,",
+      "en": "and killed"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אוֹמֵר,",
+    "en": "Rabbi Yehuda HaNasi says,",
+    "st": "<b>Rabbi</b> Yehuda HaNasi <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גוֹלֶה.",
+    "en": "he does not go into galus.",
+    "st": "<b>He is not exiled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>and the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹלֶה.",
+    "en": "he goes into galus.",
+    "st": "He is <b>exiled.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "מִן הָעֵץ הַמִּתְבַּקֵּעַ,",
+    "en": "If a piece of wood flew off a log being chopped and killed someone,",
+    "st": "If part <b>of a tree that is being split</b> flew through the air and killed a person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעֵץ",
+      "en": "the wood"
+     },
+     {
+      "he": "הַמִּתְבַּקֵּעַ,",
+      "en": "that is being split"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אוֹמֵר,",
+    "en": "Rabbi Yehuda HaNasi says,",
+    "st": "<b>Rabbi</b> Yehuda HaNasi <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹלֶה.",
+    "en": "he goes into galus.",
+    "st": "The murderer is <b>exiled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>and the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גוֹלֶה:",
+    "en": "he does not go into galus.",
+    "st": "<b>He is not exiled.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה:",
+      "en": "is exiled"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "Someone who throws a stone and kills by accident goes into galus only if the person was allowed to be in that place. Abba Shaul adds that someone doing a mitzvah, like a father teaching his son, does not go into galus.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַזּוֹרֵק אֶבֶן לִרְשׁוּת הָרַבִּים וְהָרַג,",
+    "en": "Someone who threw a stone into a public place and killed someone",
+    "st": "<b>One who threw a stone into the public domain and killed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזּוֹרֵק",
+      "en": "the one who throws"
+     },
+     {
+      "he": "אֶבֶן",
+      "en": "a stone"
+     },
+     {
+      "he": "לִרְשׁוּת",
+      "en": "into the domain of"
+     },
+     {
+      "he": "הָרַבִּים",
+      "en": "the public"
+     },
+     {
+      "he": "וְהָרַג,",
+      "en": "and killed"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גּוֹלֶה.",
+    "en": "goes into galus.",
+    "st": "a person <b>is exiled.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "גּוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר בֶּן יַעֲקֹב אוֹמֵר,",
+    "en": "Rabbi Eliezer ben Yaakov says,",
+    "st": "<b>Rabbi Eliezer ben Ya’akov says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "יַעֲקֹב",
+      "en": "Yaakov"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם מִכְּשֶׁיָּצְאתָה הָאֶבֶן מִיָּדוֹ",
+    "en": "If after the stone left his hand,",
+    "st": "<b>If after the stone left his hand</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מִכְּשֶׁיָּצְאתָה",
+      "en": "after it left"
+     },
+     {
+      "he": "הָאֶבֶן",
+      "en": "the stone"
+     },
+     {
+      "he": "מִיָּדוֹ",
+      "en": "from his hand"
+     }
+    ]
+   },
+   {
+    "he": "הוֹצִיא הַלָּז אֶת רֹאשׁוֹ וְקִבְּלָהּ,",
+    "en": "the other person stuck out his head and got hit,",
+    "st": "<b>the other</b> person <b>placed his head out</b> into the public domain <b>and received</b> a blow from the stone,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹצִיא",
+      "en": "stuck out"
+     },
+     {
+      "he": "הַלָּז",
+      "en": "that one"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רֹאשׁוֹ",
+      "en": "his head"
+     },
+     {
+      "he": "וְקִבְּלָהּ,",
+      "en": "and received it"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה פָטוּר.",
+    "en": "he is free.",
+    "explain": "When he threw it, nobody was there.",
+    "st": "<b>he is exempt,</b>",
+    "stMore": "as when he cast the stone into the public domain there was no one there.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "פָטוּר.",
+      "en": "is exempt"
+     }
+    ]
+   },
+   {
+    "he": "זָרַק אֶת הָאֶבֶן לַחֲצֵרוֹ וְהָרַג,",
+    "en": "If he threw a stone into his own courtyard and killed someone,",
+    "st": "In the case of one who <b>threw the stone into his courtyard and killed</b> a person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָרַק",
+      "en": "he threw"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאֶבֶן",
+      "en": "the stone"
+     },
+     {
+      "he": "לַחֲצֵרוֹ",
+      "en": "into his courtyard"
+     },
+     {
+      "he": "וְהָרַג,",
+      "en": "and killed"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ רְשׁוּת לַנִּזָּק לִכָּנֵס לְשָׁם,",
+    "en": "if the person who got hurt was allowed to go in there,",
+    "st": "<b>if the victim had permission to enter into there,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "רְשׁוּת",
+      "en": "permission"
+     },
+     {
+      "he": "לַנִּזָּק",
+      "en": "to the injured one"
+     },
+     {
+      "he": "לִכָּנֵס",
+      "en": "to enter"
+     },
+     {
+      "he": "לְשָׁם,",
+      "en": "there"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹלֶה.",
+    "en": "he goes into galus.",
+    "st": "the murderer is <b>exiled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם לָאו,",
+    "en": "But if not,",
+    "st": "<b>but if not,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גוֹלֶה,",
+    "en": "he does not go into galus,",
+    "st": "<b>he is not exiled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה,",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (דברים יט) וַאֲשֶׁר",
+    "en": "as it says, \"And someone who goes",
+    "st": "<b>as it is stated</b> with regard to the cities of refuge: <b>“And as one</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יט)",
+      "en": "19)"
+     },
+     {
+      "he": "וַאֲשֶׁר",
+      "en": "and someone who"
+     }
+    ]
+   },
+   {
+    "he": "יָבֹא אֶת רֵעֵהוּ בַיַּעַר,",
+    "en": "with his friend into the forest.\"",
+    "st": "<b>who goes with his neighbor into the forest”</b> (Deuteronomy 19:5),",
+    "stMore": "from which it is derived:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבֹא",
+      "en": "will come"
+     },
+     {
+      "he": "אֶת",
+      "en": "with"
+     },
+     {
+      "he": "רֵעֵהוּ",
+      "en": "his friend"
+     },
+     {
+      "he": "בַיַּעַר,",
+      "en": "into the forest"
+     }
+    ]
+   },
+   {
+    "he": "מַה הַיַּעַר רְשׁוּת לַנִּזָּק",
+    "en": "Just as the forest is a place where the one who gets hurt",
+    "st": "<b>Just as</b> with regard to <b>a forest, the victim</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "הַיַּעַר",
+      "en": "the forest"
+     },
+     {
+      "he": "רְשׁוּת",
+      "en": "is permitted"
+     },
+     {
+      "he": "לַנִּזָּק",
+      "en": "to the injured one"
+     }
+    ]
+   },
+   {
+    "he": "וְלַמַּזִּיק לִכָּנֵס לְשָׁם,",
+    "en": "and the one who hurts are both allowed to go in,",
+    "st": "<b>and the assailant</b> both <b>have</b> equal <b>permission to enter there,</b>",
+    "stMore": "<b>so too,</b> with regard to <b>all</b> places that <b>the victim and the assailant have permission to enter there,</b> the killer is liable.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלַמַּזִּיק",
+      "en": "and to the injurer"
+     },
+     {
+      "he": "לִכָּנֵס",
+      "en": "to enter"
+     },
+     {
+      "he": "לְשָׁם,",
+      "en": "there"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא חֲצַר בַּעַל הַבַּיִת",
+    "en": "this leaves out a homeowner's courtyard,",
+    "st": "This serves <b>to exclude</b> the <b>courtyard of the homeowner,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "leaves out"
+     },
+     {
+      "he": "חֲצַר",
+      "en": "the courtyard of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַבַּיִת",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין רְשׁוּת לַנִּזָּק וְלַמַּזִּיק לִכָּנֵס לְשָׁם.",
+    "en": "where the one who gets hurt and the one who hurts are not both allowed to go in.",
+    "st": "<b>where the victim and the assailant do not</b> both <b>have permission to enter there.</b>",
+    "stMore": "Since the victim had no right to enter his courtyard, the unintentional murderer is exempt from exile.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is no"
+     },
+     {
+      "he": "רְשׁוּת",
+      "en": "permission"
+     },
+     {
+      "he": "לַנִּזָּק",
+      "en": "to the injured one"
+     },
+     {
+      "he": "וְלַמַּזִּיק",
+      "en": "and to the injurer"
+     },
+     {
+      "he": "לִכָּנֵס",
+      "en": "to enter"
+     },
+     {
+      "he": "לְשָׁם.",
+      "en": "there"
+     }
+    ]
+   },
+   {
+    "he": "אַבָּא שָׁאוּל אוֹמֵר,",
+    "en": "Abba Shaul says,",
+    "st": "<b>Abba Shaul says:</b>",
+    "stMore": "Another halakha can be derived from that verse:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַבָּא",
+      "en": "Abba"
+     },
+     {
+      "he": "שָׁאוּל",
+      "en": "Shaul"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מַה חֲטָבַת עֵצִים רְשׁוּת,",
+    "en": "Just as chopping wood is something a person chooses to do,",
+    "explain": "Galus is only when he did not have to be doing it.",
+    "st": "<b>Just as the cutting of wood</b> that is mentioned in the verse is <b>optional,</b>",
+    "stMore": "<b>so too, all</b> those liable to be exiled are examples of cases where the unintentional murderer was engaged in an activity that is <b>optional.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "חֲטָבַת",
+      "en": "chopping of"
+     },
+     {
+      "he": "עֵצִים",
+      "en": "wood"
+     },
+     {
+      "he": "רְשׁוּת,",
+      "en": "is optional"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא הָאָב הַמַּכֶּה אֶת בְּנוֹ,",
+    "en": "this leaves out a father who hits his son to teach him,",
+    "st": "This serves <b>to exclude a father who strikes his son,</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "leaves out"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "הַמַּכֶּה",
+      "en": "who hits"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בְּנוֹ,",
+      "en": "his son"
+     }
+    ]
+   },
+   {
+    "he": "וְהָרַב הָרוֹדֶה אֶת תַּלְמִידוֹ,",
+    "en": "and a teacher who hits his student,",
+    "st": "<b>and a teacher who oppresses his student,</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהָרַב",
+      "en": "and the teacher"
+     },
+     {
+      "he": "הָרוֹדֶה",
+      "en": "who disciplines"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "תַּלְמִידוֹ,",
+      "en": "his student"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁלִיחַ בֵּית דִּין:",
+    "en": "and the messenger of Beis Din who gives lashes.",
+    "st": "<b>and an agent of the court</b> deputized to flog transgressors.",
+    "stMore": "If, in the course of performing the mitzva with which they are charged, they unintentionally murdered the son, the student, or the person being flogged, respectively, they are exempt.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁלִיחַ",
+      "en": "and the messenger of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "דִּין:",
+      "en": "Din"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "This mishnah teaches who goes into galus for killing whom by accident. Someone who hated the person he killed usually does not go into galus, because it may not have been an accident.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאָב גּוֹלֶה עַל יְדֵי הַבֵּן,",
+    "en": "A father goes into galus because of his son,",
+    "st": "<b>The father is exiled</b> to a city of refuge <b>due to</b> his unintentional murder of his <b>son.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "גּוֹלֶה",
+      "en": "is exiled"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hand of"
+     },
+     {
+      "he": "הַבֵּן,",
+      "en": "the son"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבֵּן גּוֹלֶה עַל יְדֵי הָאָב.",
+    "en": "and a son goes into galus because of his father.",
+    "st": "<b>And the son is exiled due to</b> his unintentional murder of his <b>father.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבֵּן",
+      "en": "and the son"
+     },
+     {
+      "he": "גּוֹלֶה",
+      "en": "is exiled"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hand of"
+     },
+     {
+      "he": "הָאָב.",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל גּוֹלִין עַל יְדֵי יִשְׂרָאֵל,",
+    "en": "Everyone goes into galus because of a Jew,",
+    "st": "<b>Everyone is exiled due to</b> their unintentional murder of <b>a Jew,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "גּוֹלִין",
+      "en": "is exiled"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hand of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "a Jew"
+     }
+    ]
+   },
+   {
+    "he": "וְיִשְׂרָאֵל גּוֹלִין עַל יְדֵיהֶן,",
+    "en": "and a Jew goes into galus because of any of them,",
+    "st": "<b>and a Jew is exiled due to</b> his unintentional murder of any of <b>them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיִשְׂרָאֵל",
+      "en": "and a Jew"
+     },
+     {
+      "he": "גּוֹלִין",
+      "en": "is exiled"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵיהֶן,",
+      "en": "their hand"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מֵעַל יְדֵי גֵּר תּוֹשָׁב.",
+    "en": "except because of a ger toshav.",
+    "explain": "A non-Jew living in Eretz Yisrael who keeps the seven mitzvos of Noach.",
+    "st": "<b>except for</b> the unintentional murder of <b>a gentile who resides in Eretz Yisrael and observes the seven Noahide mitzvot [ger toshav].</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מֵעַל",
+      "en": "for by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hand of"
+     },
+     {
+      "he": "גֵּר",
+      "en": "a ger"
+     },
+     {
+      "he": "תּוֹשָׁב.",
+      "en": "toshav"
+     }
+    ]
+   },
+   {
+    "he": "וְגֵר תּוֹשָׁב אֵינוֹ גוֹלֶה אֶלָּא",
+    "en": "And a ger toshav goes into galus only",
+    "st": "<b>And a ger toshav is exiled only</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְגֵר",
+      "en": "and a ger"
+     },
+     {
+      "he": "תּוֹשָׁב",
+      "en": "toshav"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה",
+      "en": "is exiled"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     }
+    ]
+   },
+   {
+    "he": "עַל יְדֵי גֵּר תּוֹשָׁב.",
+    "en": "because of a ger toshav.",
+    "st": "<b>due to</b> his unintentional murder of <b>a ger toshav.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hand of"
+     },
+     {
+      "he": "גֵּר",
+      "en": "a ger"
+     },
+     {
+      "he": "תּוֹשָׁב.",
+      "en": "toshav"
+     }
+    ]
+   },
+   {
+    "he": "הַסּוּמָא אֵינוֹ גוֹלֶה,",
+    "en": "A blind person does not go into galus.",
+    "st": "<b>A blind person</b> who unintentionally murdered another <b>is not exiled;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַסּוּמָא",
+      "en": "the blind person"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה,",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי יְהוּדָה.",
+    "en": "These are the words of Rabbi Yehuda.",
+    "st": "this is <b>the statement of Rabbi Yehuda.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה.",
+      "en": "Yehuda"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹלֶה.",
+    "en": "he goes into galus.",
+    "st": "He is <b>exiled.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׂוֹנֵא אֵינוֹ גוֹלֶה.",
+    "en": "Someone who hated the person does not go into galus.",
+    "st": "<b>The enemy</b> of the victim <b>is not exiled,</b>",
+    "stMore": "as presumably it was not a completely unintentional act.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׂוֹנֵא",
+      "en": "the enemy"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי בַּר יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yosei bar Yehuda says,",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "בַּר",
+      "en": "son of"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׂוֹנֵא נֶהֱרָג,",
+    "en": "The one who hated him is put to death,",
+    "st": "Not only is <b>an enemy</b> not exiled, but he <b>is executed</b> by the court,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׂוֹנֵא",
+      "en": "the enemy"
+     },
+     {
+      "he": "נֶהֱרָג,",
+      "en": "is killed"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא כְמוּעָד.",
+    "en": "because he is like someone who was warned.",
+    "explain": "He probably did it on purpose.",
+    "st": "<b>because</b> his halakhic status is <b>like</b> that of one who is <b>forewarned</b> by witnesses",
+    "stMore": "not to perform the action, as presumably he performed the action intentionally.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "he is"
+     },
+     {
+      "he": "כְמוּעָד.",
+      "en": "like one who was warned"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ שׂוֹנֵא גוֹלֶה",
+    "en": "There is an enemy who goes into galus,",
+    "st": "<b>There is an enemy who is exiled</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "שׂוֹנֵא",
+      "en": "an enemy"
+     },
+     {
+      "he": "גוֹלֶה",
+      "en": "who is exiled"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵשׁ שׂוֹנֵא שֶׁאֵינוֹ גוֹלֶה.",
+    "en": "and there is an enemy who does not go into galus.",
+    "st": "<b>and there is an enemy who is not exiled.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵשׁ",
+      "en": "and there is"
+     },
+     {
+      "he": "שׂוֹנֵא",
+      "en": "an enemy"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "who not"
+     },
+     {
+      "he": "גוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁהוּא יָכוֹל לוֹמַר לְדַעַת הָרַג,",
+    "en": "Whenever one could say he killed on purpose,",
+    "st": "In <b>any</b> case <b>where</b> an observer <b>could say he killed knowingly,</b>",
+    "stMore": "where circumstances lead to the assumption that it was an intentional act,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "whenever"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that one"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "could"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "say"
+     },
+     {
+      "he": "לְדַעַת",
+      "en": "knowingly"
+     },
+     {
+      "he": "הָרַג,",
+      "en": "he killed"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גוֹלֶה.",
+    "en": "he does not go into galus.",
+    "st": "the enemy <b>is not exiled,</b>",
+    "stMore": "even if he claims that he acted unintentionally.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁלֹּא לְדַעַת הָרַג,",
+    "en": "But if he clearly killed without meaning to,",
+    "st": "<b>And</b> if it is clear that <b>he killed unknowingly,</b>",
+    "stMore": "as circumstances indicate that he acted unintentionally,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and that not"
+     },
+     {
+      "he": "לְדַעַת",
+      "en": "knowingly"
+     },
+     {
+      "he": "הָרַג,",
+      "en": "he killed"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה גוֹלֶה:",
+    "en": "he goes into galus.",
+    "st": "<b>he is exiled,</b> even though the victim is his enemy.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "גוֹלֶה:",
+      "en": "is exiled"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "Someone who killed by accident goes to one of the six cities of refuge: three across the Yarden and three in Eretz Yisrael. The cities only started working once all six were chosen.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "לְהֵיכָן גּוֹלִין,",
+    "en": "Where do they go into galus?",
+    "st": "<b>To where are</b> the unintentional murderers <b>exiled?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהֵיכָן",
+      "en": "to where"
+     },
+     {
+      "he": "גּוֹלִין,",
+      "en": "are they exiled"
+     }
+    ]
+   },
+   {
+    "he": "לְעָרֵי מִקְלָט.",
+    "en": "To the cities of refuge:",
+    "explain": "Special cities where he is safe from the relatives of the one he killed.",
+    "st": "They are exiled <b>to cities of refuge,</b>",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "לְעָרֵי",
+      "en": "to the cities of"
+     },
+     {
+      "he": "מִקְלָט.",
+      "en": "refuge"
+     }
+    ]
+   },
+   {
+    "he": "לַשָּׁלשׁ שֶׁבְּעֵבֶר הַיַּרְדֵּן וְלַשָּׁלשׁ שֶׁבְּאֶרֶץ כְּנַעַן,",
+    "en": "to the three across the Yarden and the three in the land of Canaan,",
+    "st": "<b>to three</b> cities <b>that</b> were <b>in</b> the east <b>bank of the Jordan and to three cities that</b> were <b>in the land of Canaan,</b>",
+    "stMore": "i.e., Eretz Yisrael,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַשָּׁלשׁ",
+      "en": "to the three"
+     },
+     {
+      "he": "שֶׁבְּעֵבֶר",
+      "en": "that are across"
+     },
+     {
+      "he": "הַיַּרְדֵּן",
+      "en": "the Yarden"
+     },
+     {
+      "he": "וְלַשָּׁלשׁ",
+      "en": "and to the three"
+     },
+     {
+      "he": "שֶׁבְּאֶרֶץ",
+      "en": "that are in the land of"
+     },
+     {
+      "he": "כְּנַעַן,",
+      "en": "Canaan"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר לה) אֵת שְׁלשׁ הֶעָרִים",
+    "en": "as it says, \"Three cities",
+    "st": "<b>as it is stated: “Three cities</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "לה)",
+      "en": "35)"
+     },
+     {
+      "he": "אֵת",
+      "en": "(the)"
+     },
+     {
+      "he": "שְׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "הֶעָרִים",
+      "en": "the cities"
+     }
+    ]
+   },
+   {
+    "he": "תִּתְּנוּ מֵעֵבֶר לַיַּרְדֵּן וְאֵת שְׁלשׁ הֶעָרִים",
+    "en": "you shall give across the Yarden, and three cities",
+    "st": "<b>shall you give beyond the Jordan and three cities</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּתְּנוּ",
+      "en": "you shall give"
+     },
+     {
+      "he": "מֵעֵבֶר",
+      "en": "across"
+     },
+     {
+      "he": "לַיַּרְדֵּן",
+      "en": "the Yarden"
+     },
+     {
+      "he": "וְאֵת",
+      "en": "and (the)"
+     },
+     {
+      "he": "שְׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "הֶעָרִים",
+      "en": "the cities"
+     }
+    ]
+   },
+   {
+    "he": "תִּתְּנוּ בְּאֶרֶץ כְּנָעַן וְגוֹ'.",
+    "en": "you shall give in the land of Canaan.\"",
+    "st": "<b>shall you give in the land of Canaan;</b> they shall be cities of refuge” (Numbers 35:14).",
+    "stMore": "The mishna comments:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּתְּנוּ",
+      "en": "you shall give"
+     },
+     {
+      "he": "בְּאֶרֶץ",
+      "en": "in the land of"
+     },
+     {
+      "he": "כְּנָעַן",
+      "en": "Canaan"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "etc."
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁלֹּא נִבְחֲרוּ שָׁלשׁ שֶׁבְּאֶרֶץ יִשְׂרָאֵל,",
+    "en": "Until the three in Eretz Yisrael were chosen,",
+    "st": "<b>Until</b> the <b>three</b> cities of refuge <b>that</b> were <b>in Eretz Yisrael were selected,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִבְחֲרוּ",
+      "en": "were chosen"
+     },
+     {
+      "he": "שָׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "שֶׁבְּאֶרֶץ",
+      "en": "that are in the land of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיוּ שָׁלשׁ שֶׁבְּעֵבֶר הַיַּרְדֵּן קוֹלְטוֹת,",
+    "en": "the three across the Yarden did not take anyone in,",
+    "st": "an unintentional murderer <b>would not be admitted</b> to the <b>three that</b> were <b>in</b> the east <b>bank of the Jordan,</b>",
+    "stMore": "even though the latter three were already selected by Moses (see Deuteronomy 4:41),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "שָׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "שֶׁבְּעֵבֶר",
+      "en": "that are across"
+     },
+     {
+      "he": "הַיַּרְדֵּן",
+      "en": "the Yarden"
+     },
+     {
+      "he": "קוֹלְטוֹת,",
+      "en": "taking in"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם) שֵׁשׁ עָרֵי מִקְלָט תִּהְיֶינָה,",
+    "en": "as it says, \"Six cities of refuge shall there be,\"",
+    "st": "<b>as it is stated: “Six cities of refuge shall they be”</b> (Numbers 35:13),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שם)",
+      "en": "(there)"
+     },
+     {
+      "he": "שֵׁשׁ",
+      "en": "six"
+     },
+     {
+      "he": "עָרֵי",
+      "en": "cities of"
+     },
+     {
+      "he": "מִקְלָט",
+      "en": "refuge"
+     },
+     {
+      "he": "תִּהְיֶינָה,",
+      "en": "shall be"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּהְיוּ שֶׁשְׁתָּן קוֹלְטוֹת כְּאֶחָד:",
+    "en": "so they work only when all six take people in together.",
+    "st": "from which it is derived that they do not become cities of refuge <b>until</b> all <b>six of them admit</b> unintentional murderers <b>as one.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּהְיוּ",
+      "en": "will be"
+     },
+     {
+      "he": "שֶׁשְׁתָּן",
+      "en": "all six"
+     },
+     {
+      "he": "קוֹלְטוֹת",
+      "en": "taking in"
+     },
+     {
+      "he": "כְּאֶחָד:",
+      "en": "as one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "Straight roads were made to the cities of refuge. Two Torah scholars went with the one running there, to talk to the angry relative so he would not hurt him.",
+  "stIntro": "The mishna continues:",
+  "chunks": [
+   {
+    "he": "וּמְכֻוָּנוֹת לָהֶן דְּרָכִים מִזּוֹ לָזוֹ,",
+    "en": "And roads were made straight for them from one city to another,",
+    "st": "<b>And roads were aligned for them from this</b> city, i.e., all cities, <b>to that</b> city,",
+    "stMore": "i.e., they would pave and straighten the access roads to the cities of refuge,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְכֻוָּנוֹת",
+      "en": "and are straightened"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "דְּרָכִים",
+      "en": "roads"
+     },
+     {
+      "he": "מִזּוֹ",
+      "en": "from this one"
+     },
+     {
+      "he": "לָזוֹ,",
+      "en": "to that one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (דברים יט) תָּכִין",
+    "en": "as it says, \"Prepare for yourself",
+    "st": "<b>as it is stated: “Prepare for you</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יט)",
+      "en": "19)"
+     },
+     {
+      "he": "תָּכִין",
+      "en": "prepare"
+     }
+    ]
+   },
+   {
+    "he": "לְךָ הַדֶּרֶךְ וְשִׁלַּשְׁתָּ וְגוֹ'.",
+    "en": "the road, and divide your land in three.\"",
+    "st": "<b>the road, and divide</b> the borders of your land, which the Lord your God causes you to inherit, into three parts, that every murderer may flee there” (Deuteronomy 19:3).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "הַדֶּרֶךְ",
+      "en": "the road"
+     },
+     {
+      "he": "וְשִׁלַּשְׁתָּ",
+      "en": "and you shall divide in three"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "etc."
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹסְרִין לָהֶן שְׁנֵי תַלְמִידֵי חֲכָמִים,",
+    "en": "And they send two Torah scholars with him,",
+    "st": "<b>And</b> the court <b>would provide</b> the unintentional murderers fleeing to a city of refuge with <b>two Torah scholars,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹסְרִין",
+      "en": "and they hand over"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "תַלְמִידֵי",
+      "en": "students of"
+     },
+     {
+      "he": "חֲכָמִים,",
+      "en": "the Sages"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא יַהַרְגֶנּוּ בַדֶּרֶךְ,",
+    "en": "in case the relative of the one who was killed tries to kill him on the way,",
+    "st": "due to the concern that <b>perhaps</b> the blood redeemer, i.e., a relative of the murder victim seeking to avenge his death, <b>will</b> seek to <b>kill him in transit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "perhaps"
+     },
+     {
+      "he": "יַהַרְגֶנּוּ",
+      "en": "he will kill him",
+      "note": "The go'el hadam, a relative of the one who was killed."
+     },
+     {
+      "he": "בַדֶּרֶךְ,",
+      "en": "on the way"
+     }
+    ]
+   },
+   {
+    "he": "וִידַבְּרוּ אֵלָיו.",
+    "en": "and they will talk to that relative.",
+    "st": "<b>and</b> in that case <b>they,</b> the scholars, <b>will talk to</b> the blood redeemer",
+    "stMore": "and dissuade him from killing the unintentional murderer.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וִידַבְּרוּ",
+      "en": "and they will speak"
+     },
+     {
+      "he": "אֵלָיו.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הוּא מְדַבֵּר עַל יְדֵי עַצְמוֹ,",
+    "en": "He also speaks for himself,",
+    "st": "The unintentional murderer <b>also speaks [medabber] on his own behalf</b>",
+    "stMore": "to dissuade the blood redeemer,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "מְדַבֵּר",
+      "en": "speaks"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hand of"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם) וְזֶה דְּבַר הָרֹצֵחַ:",
+    "en": "as it says, \"And this is the matter of the killer.\"",
+    "explain": "The word \"devar\" hints that he speaks for himself.",
+    "st": "<b>as it is stated: “And this is the matter [devar] of the murderer,</b> who shall flee there and live” (Deuteronomy 19:4),",
+    "stMore": "indicating that the murderer himself speaks.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שם)",
+      "en": "(there)"
+     },
+     {
+      "he": "וְזֶה",
+      "en": "and this is"
+     },
+     {
+      "he": "דְּבַר",
+      "en": "the matter of"
+     },
+     {
+      "he": "הָרֹצֵחַ:",
+      "en": "the killer"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 6,
+  "summary": "Anyone who killed would first run to a city of refuge, and Beis Din would bring him back for judgment. One who must go into galus stays there until the Kohen Gadol dies.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי יוֹסֵי בַּר יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yosei bar Yehuda says,",
+    "st": "<b>Rabbi Yosei bar Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "בַּר",
+      "en": "son of"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בַּתְּחִלָּה, אֶחָד שׁוֹגֵג וְאֶחָד מֵזִיד",
+    "en": "At first, both one who killed by accident and one who killed on purpose",
+    "st": "<b>Initially, either</b> one who killed another <b>unintentionally</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּתְּחִלָּה,",
+      "en": "at first"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "שׁוֹגֵג",
+      "en": "by accident"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "מֵזִיד",
+      "en": "on purpose"
+     }
+    ]
+   },
+   {
+    "he": "מַקְדִּימִין לְעָרֵי מִקְלָט,",
+    "en": "hurry to the cities of refuge,",
+    "st": "<b>or</b> one who killed another <b>intentionally</b> would <b>hurry</b> and flee <b>to the cities of refuge,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַקְדִּימִין",
+      "en": "go early"
+     },
+     {
+      "he": "לְעָרֵי",
+      "en": "to the cities of"
+     },
+     {
+      "he": "מִקְלָט,",
+      "en": "refuge"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית דִּין שׁוֹלְחִין וּמְבִיאִין אוֹתוֹ מִשָּׁם.",
+    "en": "and Beis Din sends for him and brings him from there.",
+    "st": "<b>and the court</b> in his city would <b>send</b> for him <b>and</b> would <b>bring him from there</b> to stand trial.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "Din"
+     },
+     {
+      "he": "שׁוֹלְחִין",
+      "en": "send"
+     },
+     {
+      "he": "וּמְבִיאִין",
+      "en": "and bring"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "מִשָּׁם.",
+      "en": "from there"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁנִּתְחַיֵּב מִיתָה בְּבֵית דִּין,",
+    "en": "One who was found to deserve death in Beis Din,",
+    "st": "For <b>one who was</b> found <b>liable</b> to receive the <b>death</b> penalty <b>in court</b> for intentional murder,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁנִּתְחַיֵּב",
+      "en": "was found liable"
+     },
+     {
+      "he": "מִיתָה",
+      "en": "death"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in Beis"
+     },
+     {
+      "he": "דִּין,",
+      "en": "Din"
+     }
+    ]
+   },
+   {
+    "he": "הֲרָגוּהוּ.",
+    "en": "they put him to death.",
+    "st": "the court would <b>execute him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרָגוּהוּ.",
+      "en": "they killed him"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁלֹּא נִתְחַיֵּב מִיתָה,",
+    "en": "One who did not deserve death,",
+    "st": "<b>and</b> for <b>one who was not</b> found <b>liable</b> to receive the <b>death</b> penalty, e.g., if they deemed that the death occurred due to circumstances beyond his control,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and that not"
+     },
+     {
+      "he": "נִתְחַיֵּב",
+      "en": "was found liable"
+     },
+     {
+      "he": "מִיתָה,",
+      "en": "death"
+     }
+    ]
+   },
+   {
+    "he": "פְּטָרוּהוּ.",
+    "en": "they let him go.",
+    "st": "<b>they</b> would <b>free him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּטָרוּהוּ.",
+      "en": "they freed him"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁנִּתְחַיֵּב גָּלוּת,",
+    "en": "One who had to go into galus,",
+    "st": "For <b>one who was</b> found <b>liable to be exiled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁנִּתְחַיֵּב",
+      "en": "was found liable"
+     },
+     {
+      "he": "גָּלוּת,",
+      "en": "exile"
+     }
+    ]
+   },
+   {
+    "he": "מַחֲזִירִין אוֹתוֹ לִמְקוֹמוֹ,",
+    "en": "they bring him back to his place there,",
+    "st": "the court would <b>restore him to his place</b> in the city of refuge,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַחֲזִירִין",
+      "en": "they bring back"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "לִמְקוֹמוֹ,",
+      "en": "to his place"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר לה) וְהֵשִׁיבוּ אֹתוֹ",
+    "en": "as it says, \"And they shall bring him back,",
+    "st": "<b>as it is stated:</b> “And the congregation shall judge between the murderer and the blood redeemer…<b>and the congregation shall restore him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "לה)",
+      "en": "35)"
+     },
+     {
+      "he": "וְהֵשִׁיבוּ",
+      "en": "and they shall bring back"
+     },
+     {
+      "he": "אֹתוֹ",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "הָעֵדָה אֶל עִיר מִקְלָטוֹ וְגוֹ'.",
+    "en": "the congregation, to his city of refuge.\"",
+    "st": "<b>to his city of refuge,</b>",
+    "stMore": "that he fled there” (Numbers 35:24–25), indicating that he had been in a city of refuge before his trial. The Torah states that an unintentional murderer is required to remain in the city of refuge to which he fled until the death of the High Priest. The mishna elaborates: With regard to High Priests, who were appointed in several different manners,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֵדָה",
+      "en": "the congregation"
+     },
+     {
+      "he": "אֶל",
+      "en": "to"
+     },
+     {
+      "he": "עִיר",
+      "en": "city of"
+     },
+     {
+      "he": "מִקְלָטוֹ",
+      "en": "his refuge"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "etc."
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד מָשׁוּחַ בְּשֶׁמֶן הַמִּשְׁחָה",
+    "en": "A Kohen Gadol anointed with the special oil,",
+    "st": "<b>one anointed with the anointing oil,</b>",
+    "stMore": "which was the method through which High Priests were consecrated until the oil was sequestered toward the end of the First Temple period;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מָשׁוּחַ",
+      "en": "anointed"
+     },
+     {
+      "he": "בְּשֶׁמֶן",
+      "en": "with oil of"
+     },
+     {
+      "he": "הַמִּשְׁחָה",
+      "en": "the anointing"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד הַמְרֻבֶּה בִבְגָדִים",
+    "en": "or one who wears the extra special clothes,",
+    "explain": "The eight special clothes of the Kohen Gadol.",
+    "st": "<b>and one</b> consecrated by donning <b>multiple garments,</b>",
+    "stMore": "the eight vestments unique to the High Priest, which was the practice during the Second Temple period;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "הַמְרֻבֶּה",
+      "en": "who has many"
+     },
+     {
+      "he": "בִבְגָדִים",
+      "en": "clothes"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד שֶׁעָבַר מִמְּשִׁיחָתוֹ,",
+    "en": "or one who was a Kohen Gadol for a while and stepped down,",
+    "st": "<b>and one</b> who received a temporary appointment due to the unfitness of the serving High Priest, <b>who departed from his anointment</b>",
+    "stMore": "with the restoration of the serving High Priest to active service,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "שֶׁעָבַר",
+      "en": "who passed"
+     },
+     {
+      "he": "מִמְּשִׁיחָתוֹ,",
+      "en": "from his anointing"
+     }
+    ]
+   },
+   {
+    "he": "מַחֲזִירִין אֶת הָרוֹצֵחַ.",
+    "en": "when they die, the killer goes back home.",
+    "st": "their deaths <b>facilitate</b> the <b>return of the murderer</b>",
+    "stMore": "from the city of refuge to his home.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַחֲזִירִין",
+      "en": "bring back"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרוֹצֵחַ.",
+      "en": "the killer"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף מְשׁוּחַ מִלְחָמָה מַחֲזִיר אֶת הָרוֹצֵחַ.",
+    "en": "Even the Kohen anointed for war sends the killer back home.",
+    "st": "<b>Even</b> the death of a priest <b>anointed for war</b> to address the soldiers (see Deuteronomy 20:1–7) <b>facilitates</b> the <b>return of the murderer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "מְשׁוּחַ",
+      "en": "anointed for"
+     },
+     {
+      "he": "מִלְחָמָה",
+      "en": "war"
+     },
+     {
+      "he": "מַחֲזִיר",
+      "en": "brings back"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרוֹצֵחַ.",
+      "en": "the killer"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִמּוֹתֵיהֶן שֶׁל כֹּהֲנִים",
+    "en": "So the mothers of the Kohanim Gedolim",
+    "st": "The mishna continues: <b>Therefore, the mothers of</b> High <b>Priests</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִמּוֹתֵיהֶן",
+      "en": "their mothers"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "כֹּהֲנִים",
+      "en": "Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "מְסַפְּקוֹת לָהֶן מִחְיָה וּכְסוּת,",
+    "en": "give food and clothing to the people in galus,",
+    "st": "would <b>provide</b> those exiled to cities of refuge with <b>sustenance and garments</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְסַפְּקוֹת",
+      "en": "provide"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "מִחְיָה",
+      "en": "food"
+     },
+     {
+      "he": "וּכְסוּת,",
+      "en": "and clothing"
+     }
+    ]
+   },
+   {
+    "he": "כְּדֵי שֶׁלֹּא יִתְפַּלְּלוּ עַל בְּנֵיהֶם שֶׁיָּמוּתוּ.",
+    "en": "so that they will not daven that their sons should die.",
+    "st": "<b>so that they would not pray that their sons would die.</b>",
+    "stMore": "The more comfortable their lives in the city of refuge, the less urgency they would feel to leave, and the less likely it would be that they would pray for the death of the High Priests.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדֵי",
+      "en": "so"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יִתְפַּלְּלוּ",
+      "en": "they will pray"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "בְּנֵיהֶם",
+      "en": "their sons"
+     },
+     {
+      "he": "שֶׁיָּמוּתוּ.",
+      "en": "that they will die"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁנִּגְמַר דִּינוֹ מֵת כֹּהֵן גָּדוֹל,",
+    "en": "If after his judgment was decided, the Kohen Gadol died,",
+    "st": "If, <b>after</b> the unintentional murderer’s <b>verdict was decided</b> and he was sentenced to exile, <b>the High Priest died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁנִּגְמַר",
+      "en": "after was finished"
+     },
+     {
+      "he": "דִּינוֹ",
+      "en": "his judgment"
+     },
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל,",
+      "en": "Gadol"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה אֵינוֹ גוֹלֶה.",
+    "en": "he does not go into galus.",
+    "st": "he <b>is not exiled,</b>",
+    "stMore": "as the death of the High Priest exempts him from exile.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹלֶה.",
+      "en": "is exiled"
+     }
+    ]
+   },
+   {
+    "he": "אִם עַד שֶׁלֹּא נִגְמַר דִּינוֹ",
+    "en": "If before his judgment was decided,",
+    "st": "<b>If</b> it was <b>before his verdict was decided</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נִגְמַר",
+      "en": "was finished"
+     },
+     {
+      "he": "דִּינוֹ",
+      "en": "his judgment"
+     }
+    ]
+   },
+   {
+    "he": "מֵת כֹּהֵן גָּדוֹל וּמִנּוּ אַחֵר תַּחְתָּיו,",
+    "en": "the Kohen Gadol died and they chose another in his place,",
+    "st": "that <b>the High Priest died and they appointed another in his place,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "וּמִנּוּ",
+      "en": "and they appointed"
+     },
+     {
+      "he": "אַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "תַּחְתָּיו,",
+      "en": "in his place"
+     }
+    ]
+   },
+   {
+    "he": "וּלְאַחַר מִכֵּן נִגְמַר דִּינוֹ,",
+    "en": "and after that his judgment was decided,",
+    "st": "<b>and thereafter his verdict was decided,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "מִכֵּן",
+      "en": "that"
+     },
+     {
+      "he": "נִגְמַר",
+      "en": "was finished"
+     },
+     {
+      "he": "דִּינוֹ,",
+      "en": "his judgment"
+     }
+    ]
+   },
+   {
+    "he": "חוֹזֵר בְּמִיתָתוֹ שֶׁל שֵׁנִי:",
+    "en": "he goes home when the second one dies.",
+    "st": "<b>he returns</b> from exile <b>with the death of the second</b> High Priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוֹזֵר",
+      "en": "returns"
+     },
+     {
+      "he": "בְּמִיתָתוֹ",
+      "en": "with the death"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שֵׁנִי:",
+      "en": "the second"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 7,
+  "summary": "In some cases the one in galus can never leave the city of refuge, not even to be a witness or to help the Jewish people. The mishnah also teaches about the area around the city, and what happens if he leaves it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "נִגְמַר דִּינוֹ בְלֹא כֹהֵן גָּדוֹל,",
+    "en": "If his judgment was decided when there was no Kohen Gadol,",
+    "st": "If <b>the verdict of</b> a murderer <b>was decided</b> at a time <b>when</b> there was <b>no High Priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִגְמַר",
+      "en": "was finished"
+     },
+     {
+      "he": "דִּינוֹ",
+      "en": "his judgment"
+     },
+     {
+      "he": "בְלֹא",
+      "en": "without"
+     },
+     {
+      "he": "כֹהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל,",
+      "en": "Gadol"
+     }
+    ]
+   },
+   {
+    "he": "הַהוֹרֵג כֹּהֵן גָּדוֹל,",
+    "en": "or he killed a Kohen Gadol,",
+    "st": "<b>and</b> likewise in the cases of <b>one who</b> unintentionally <b>killed a High Priest</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַהוֹרֵג",
+      "en": "the one who kills"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל,",
+      "en": "Gadol"
+     }
+    ]
+   },
+   {
+    "he": "וְכֹהֵן גָּדוֹל שֶׁהָרַג,",
+    "en": "or he is a Kohen Gadol who killed,",
+    "st": "<b>and</b> in the case of <b>a High Priest who killed</b> unintentionally,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֹהֵן",
+      "en": "and Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "שֶׁהָרַג,",
+      "en": "who killed"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יוֹצֵא מִשָּׁם לְעוֹלָם.",
+    "en": "he never leaves there.",
+    "st": "the unintentional murderer <b>never leaves</b> the city of refuge.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יוֹצֵא",
+      "en": "he goes out"
+     },
+     {
+      "he": "מִשָּׁם",
+      "en": "from there"
+     },
+     {
+      "he": "לְעוֹלָם.",
+      "en": "ever"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ יוֹצֵא לֹא לְעֵדוּת מִצְוָה",
+    "en": "And he does not leave to be a witness for a mitzvah,",
+    "st": "<b>And</b> one who is exiled may <b>not leave</b> the city at all, <b>either for testimony</b> relating to <b>a mitzva,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and not"
+     },
+     {
+      "he": "יוֹצֵא",
+      "en": "he goes out"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לְעֵדוּת",
+      "en": "for testimony of"
+     },
+     {
+      "he": "מִצְוָה",
+      "en": "a mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא לְעֵדוּת מָמוֹן",
+    "en": "or to be a witness about money,",
+    "st": "<b>or for testimony</b> relating to <b>monetary matters,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְעֵדוּת",
+      "en": "for testimony of"
+     },
+     {
+      "he": "מָמוֹן",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא לְעֵדוּת נְפָשׁוֹת.",
+    "en": "or to be a witness in a case of life and death.",
+    "st": "<b>or for testimony</b> relating to <b>capital</b> matters.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לְעֵדוּת",
+      "en": "for testimony of"
+     },
+     {
+      "he": "נְפָשׁוֹת.",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ יִשְׂרָאֵל צְרִיכִים לוֹ,",
+    "en": "And even if the Jewish people need him,",
+    "st": "<b>And even</b> if <b>the Jewish people require</b> his services,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "צְרִיכִים",
+      "en": "need"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ שַׂר צְבָא יִשְׂרָאֵל",
+    "en": "and even if he is the general of the army of Yisrael",
+    "st": "<b>and even</b> if he is <b>the general of the army of Israel</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "שַׂר",
+      "en": "the general of"
+     },
+     {
+      "he": "צְבָא",
+      "en": "the army of"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "כְּיוֹאָב בֶּן צְרוּיָה,",
+    "en": "like Yoav ben Tzeruyah,",
+    "st": "<b>like Joab ben Zeruiah,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּיוֹאָב",
+      "en": "like Yoav",
+      "note": "King Dovid's general."
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "צְרוּיָה,",
+      "en": "Tzeruyah"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יוֹצֵא מִשָּׁם לְעוֹלָם,",
+    "en": "he never leaves there,",
+    "st": "<b>he never leaves</b> the city of refuge,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יוֹצֵא",
+      "en": "he goes out"
+     },
+     {
+      "he": "מִשָּׁם",
+      "en": "from there"
+     },
+     {
+      "he": "לְעוֹלָם,",
+      "en": "ever"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר לה) אֲשֶׁר נָס שָׁמָּה,",
+    "en": "as it says, \"where he ran away to.\"",
+    "st": "<b>as it is stated:</b> “And the congregation shall restore him to his city of refuge, <b>that he fled there”</b>",
+    "stMore": "(Numbers 35:25), from which it is derived:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "לה)",
+      "en": "35)"
+     },
+     {
+      "he": "אֲשֶׁר",
+      "en": "where"
+     },
+     {
+      "he": "נָס",
+      "en": "he fled"
+     },
+     {
+      "he": "שָׁמָּה,",
+      "en": "there"
+     }
+    ]
+   },
+   {
+    "he": "שָׁם תְּהֵא דִירָתוֹ,",
+    "en": "There he shall live,",
+    "st": "<b>There shall be his dwelling,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "תְּהֵא",
+      "en": "shall be"
+     },
+     {
+      "he": "דִירָתוֹ,",
+      "en": "his dwelling"
+     }
+    ]
+   },
+   {
+    "he": "שָׁם תְּהֵא מִיתָתוֹ,",
+    "en": "there he shall pass away,",
+    "st": "<b>there shall be his death,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "תְּהֵא",
+      "en": "shall be"
+     },
+     {
+      "he": "מִיתָתוֹ,",
+      "en": "his death"
+     }
+    ]
+   },
+   {
+    "he": "שָׁם תְּהֵא קְבוּרָתוֹ.",
+    "en": "there he shall be buried.",
+    "st": "<b>there shall be his burial.</b>",
+    "stMore": "The mishna continues:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "תְּהֵא",
+      "en": "shall be"
+     },
+     {
+      "he": "קְבוּרָתוֹ.",
+      "en": "his burial"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁם שֶׁהָעִיר קוֹלֶטֶת,",
+    "en": "Just as the city protects him,",
+    "st": "<b>Just as</b> an unintentional murderer <b>is admitted</b> to <b>the city</b> of refuge,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁהָעִיר",
+      "en": "that the city"
+     },
+     {
+      "he": "קוֹלֶטֶת,",
+      "en": "takes in"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ תְּחוּמָהּ קוֹלֵט.",
+    "en": "so does the area around it protect him.",
+    "st": "<b>so is he admitted</b> to <b>its outskirts, located</b> within the Shabbat <b>boundary.</b>",
+    "stMore": "Once he entered the outskirts of the city, the blood redeemer may not kill him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "תְּחוּמָהּ",
+      "en": "its boundary",
+      "note": "The area around the city, up to the Shabbos boundary."
+     },
+     {
+      "he": "קוֹלֵט.",
+      "en": "takes in"
+     }
+    ]
+   },
+   {
+    "he": "רוֹצֵחַ שֶׁיָּצָא חוּץ לַתְּחוּם",
+    "en": "If the killer went out past the boundary",
+    "st": "In a case <b>where a murderer emerged beyond the</b> Shabbat <b>boundary</b> of the city of refuge",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹצֵחַ",
+      "en": "a killer"
+     },
+     {
+      "he": "שֶׁיָּצָא",
+      "en": "who went out"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לַתְּחוּם",
+      "en": "the boundary"
+     }
+    ]
+   },
+   {
+    "he": "וּמְצָאוֹ גוֹאֵל הַדָּם,",
+    "en": "and the go'el hadam found him,",
+    "st": "<b>and the blood redeemer found him</b> there,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְצָאוֹ",
+      "en": "and found him"
+     },
+     {
+      "he": "גוֹאֵל",
+      "en": "the redeemer of"
+     },
+     {
+      "he": "הַדָּם,",
+      "en": "the blood",
+      "note": "The go'el hadam, a relative of the one who was killed."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי הַגְּלִילִי אוֹמֵר,",
+    "en": "Rabbi Yosei HaGelili says,",
+    "st": "<b>Rabbi Yosei HaGelili says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "הַגְּלִילִי",
+      "en": "HaGelili"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מִצְוָה בְיַד גּוֹאֵל הַדָּם,",
+    "en": "it is a mitzvah for the go'el hadam to kill him,",
+    "st": "It is <b>a mitzva for the blood redeemer</b> to kill him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוָה",
+      "en": "a mitzvah"
+     },
+     {
+      "he": "בְיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "גּוֹאֵל",
+      "en": "the redeemer of"
+     },
+     {
+      "he": "הַדָּם,",
+      "en": "the blood"
+     }
+    ]
+   },
+   {
+    "he": "וּרְשׁוּת בְּיַד כָּל אָדָם.",
+    "en": "and anyone else is allowed to.",
+    "st": "<b>and</b> it is <b>optional for every</b> other <b>person</b> to do so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּרְשׁוּת",
+      "en": "and permission"
+     },
+     {
+      "he": "בְּיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אָדָם.",
+      "en": "person"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "רְשׁוּת בְּיַד גּוֹאֵל הַדָּם,",
+    "en": "The go'el hadam is allowed to,",
+    "st": "It is <b>optional for the blood redeemer,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רְשׁוּת",
+      "en": "permission"
+     },
+     {
+      "he": "בְּיַד",
+      "en": "in the hand of"
+     },
+     {
+      "he": "גּוֹאֵל",
+      "en": "the redeemer of"
+     },
+     {
+      "he": "הַדָּם,",
+      "en": "the blood"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל אָדָם אֵין חַיָּבִין עָלָיו.",
+    "en": "but anyone else is punished for it.",
+    "st": "<b>and every</b> other <b>person is liable for</b> killing <b>him.</b>",
+    "stMore": "The previous mishna teaches that the halakhic status of the outskirts of the city is like that of the city itself in terms of the unintentional murderer being provided refuge there. The mishna adds:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and every"
+     },
+     {
+      "he": "אָדָם",
+      "en": "person"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "are liable"
+     },
+     {
+      "he": "עָלָיו.",
+      "en": "for him"
+     }
+    ]
+   },
+   {
+    "he": "אִילָן שֶׁהוּא עוֹמֵד בְּתוֹךְ הַתְּחוּם",
+    "en": "A tree that stands inside the boundary",
+    "st": "With regard to <b>a tree that stands within the</b> Shabbat <b>boundary</b> of a city of refuge,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִילָן",
+      "en": "a tree"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "stands"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "הַתְּחוּם",
+      "en": "the boundary"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹפוֹ נוֹטֶה חוּץ לַתְּחוּם,",
+    "en": "with its branches leaning outside the boundary,",
+    "st": "<b>whose boughs extend outside the boundary,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹפוֹ",
+      "en": "and its branches"
+     },
+     {
+      "he": "נוֹטֶה",
+      "en": "lean"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לַתְּחוּם,",
+      "en": "the boundary"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ עוֹמֵד חוּץ לַתְּחוּם",
+    "en": "or it stands outside the boundary",
+    "st": "<b>or</b> a tree that <b>stands outside the boundary</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "stands"
+     },
+     {
+      "he": "חוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "לַתְּחוּם",
+      "en": "the boundary"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹפוֹ נוֹטֶה לְתוֹךְ הַתְּחוּם,",
+    "en": "with its branches leaning inside the boundary:",
+    "st": "<b>and its boughs extend inside the boundary,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹפוֹ",
+      "en": "and its branches"
+     },
+     {
+      "he": "נוֹטֶה",
+      "en": "lean"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "הַתְּחוּם,",
+      "en": "the boundary"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל הוֹלֵךְ אַחַר הַנּוֹף.",
+    "en": "it all follows the branches.",
+    "st": "the status of the tree, whether it is considered inside or outside the boundary, in <b>all</b> cases <b>follows the boughs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "הוֹלֵךְ",
+      "en": "goes"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "הַנּוֹף.",
+      "en": "the branches"
+     }
+    ]
+   },
+   {
+    "he": "הָרַג בְּאוֹתָהּ הָעִיר,",
+    "en": "If he killed by accident in that same city,",
+    "st": "If an unintentional murderer, exiled to a city of refuge, unintentionally <b>killed</b> a person <b>in the same city,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרַג",
+      "en": "he killed"
+     },
+     {
+      "he": "בְּאוֹתָהּ",
+      "en": "in that same"
+     },
+     {
+      "he": "הָעִיר,",
+      "en": "city"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹלֶה מִשְּׁכוּנָה לִשְׁכוּנָה.",
+    "en": "he moves from one neighborhood to another.",
+    "st": "he <b>is exiled from</b> that <b>neighborhood</b> where he resided <b>to</b> another <b>neighborhood</b> within that city.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹלֶה",
+      "en": "is exiled"
+     },
+     {
+      "he": "מִשְּׁכוּנָה",
+      "en": "from neighborhood"
+     },
+     {
+      "he": "לִשְׁכוּנָה.",
+      "en": "to neighborhood"
+     }
+    ]
+   },
+   {
+    "he": "וּבֶן לֵוִי,",
+    "en": "And a Levi who lives there",
+    "st": "<b>And a Levite</b> who is a permanent resident of a city of refuge and unintentionally killed a person",
+    "basis": [
+     "steinsaltz",
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבֶן",
+      "en": "and son of"
+     },
+     {
+      "he": "לֵוִי,",
+      "en": "Levi"
+     }
+    ]
+   },
+   {
+    "he": "גוֹלֶה מֵעִיר לְעִיר:",
+    "en": "moves from one city to another.",
+    "st": "<b>is exiled from</b> that <b>city to</b> another <b>city.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גוֹלֶה",
+      "en": "is exiled"
+     },
+     {
+      "he": "מֵעִיר",
+      "en": "from city"
+     },
+     {
+      "he": "לְעִיר:",
+      "en": "to city"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 8,
+  "summary": "The one in galus must tell people why he is there, but he may accept their honor. The Tannaim argue whether he paid rent to the Leviim, and whether he gets back his old job when he goes home.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כַּיּוֹצֵא בוֹ,",
+    "en": "Similarly,",
+    "st": "<b>Similarly,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּיּוֹצֵא",
+      "en": "like what comes out"
+     },
+     {
+      "he": "בוֹ,",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "רוֹצֵחַ שֶׁגָּלָה לְעִיר מִקְלָטוֹ",
+    "en": "a killer who went into galus to his city of refuge,",
+    "st": "in the case of <b>a murderer who was exiled to a city of refuge</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹצֵחַ",
+      "en": "a killer"
+     },
+     {
+      "he": "שֶׁגָּלָה",
+      "en": "who was exiled"
+     },
+     {
+      "he": "לְעִיר",
+      "en": "to the city of"
+     },
+     {
+      "he": "מִקְלָטוֹ",
+      "en": "his refuge"
+     }
+    ]
+   },
+   {
+    "he": "וְרָצוּ אַנְשֵׁי הָעִיר לְכַבְּדוֹ,",
+    "en": "and the people of the city wanted to honor him,",
+    "st": "<b>and the people of the city sought to honor him</b> due to his prominence,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרָצוּ",
+      "en": "and wanted"
+     },
+     {
+      "he": "אַנְשֵׁי",
+      "en": "the people of"
+     },
+     {
+      "he": "הָעִיר",
+      "en": "the city"
+     },
+     {
+      "he": "לְכַבְּדוֹ,",
+      "en": "to honor him"
+     }
+    ]
+   },
+   {
+    "he": "יֹאמַר לָהֶם רוֹצֵחַ אָנִי.",
+    "en": "he should tell them, \"I killed someone.\"",
+    "st": "<b>he shall say to them: I am a murderer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֹאמַר",
+      "en": "he shall say"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "רוֹצֵחַ",
+      "en": "a killer"
+     },
+     {
+      "he": "אָנִי.",
+      "en": "I am"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ אַף עַל פִּי כֵן,",
+    "en": "If they say to him, \"Even so,\"",
+    "st": "If the residents of the city <b>say to him:</b> We are aware of your status and <b>nevertheless,</b> we wish to honor you,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "it is"
+     },
+     {
+      "he": "כֵן,",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "יְקַבֵּל מֵהֶן,",
+    "en": "he may accept it from them,",
+    "st": "<b>he may accept</b> the honor <b>from them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְקַבֵּל",
+      "en": "he may accept"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "from them"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (דברים יט) וְזֶה דְּבַר הָרֹצֵחַ.",
+    "en": "as it says, \"And this is the word of the killer.\"",
+    "explain": "He only needs to say it once.",
+    "st": "<b>as it is stated: “And this is the matter [devar] of the murderer”</b> (Deuteronomy 19:4),",
+    "stMore": "from which it is derived that the murderer is required to say [ledabber] to them that he is a murderer. He is not required to tell them any more than that.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יט)",
+      "en": "19)"
+     },
+     {
+      "he": "וְזֶה",
+      "en": "and this is"
+     },
+     {
+      "he": "דְּבַר",
+      "en": "the word of"
+     },
+     {
+      "he": "הָרֹצֵחַ.",
+      "en": "the killer"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲלִים הָיוּ שָׂכָר לַלְוִיִּם,",
+    "en": "They would pay rent to the Leviim,",
+    "explain": "The cities of refuge belonged to the Leviim.",
+    "st": "The unintentional murderers <b>would pay a fee to the Levites</b>",
+    "stMore": "as rent for their living quarters in the cities of refuge, which were Levite cities;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲלִים",
+      "en": "would pay"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שָׂכָר",
+      "en": "rent"
+     },
+     {
+      "he": "לַלְוִיִּם,",
+      "en": "to the Leviim"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי יְהוּדָה.",
+    "en": "These are the words of Rabbi Yehuda.",
+    "st": "this is <b>the statement of Rabbi Yehuda.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה.",
+      "en": "Yehuda"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיוּ מַעֲלִים לָהֶן שָׂכָר.",
+    "en": "They did not pay them rent.",
+    "st": "<b>They would not pay a fee to them,</b>",
+    "stMore": "but would reside rent free, as they are required to live there by Torah law. They also disagreed with regard to the status of the unintentional murderer when he returns home after the death of the High Priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מַעֲלִים",
+      "en": "paying"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "שָׂכָר.",
+      "en": "rent"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹזֵר לַשְּׂרָרָה שֶׁהָיָה בָהּ,",
+    "en": "And he goes back to the important job he had before,",
+    "st": "<b>He returns to the</b> same public <b>office that he occupied</b> prior to his exile;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹזֵר",
+      "en": "and he returns"
+     },
+     {
+      "he": "לַשְּׂרָרָה",
+      "en": "to the position"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that he was"
+     },
+     {
+      "he": "בָהּ,",
+      "en": "in it"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיָה חוֹזֵר לַשְּׂרָרָה שֶׁהָיָה בָהּ:",
+    "en": "He does not go back to the important job he had.",
+    "st": "<b>He does not return to the office that he occupied.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "חוֹזֵר",
+      "en": "returning"
+     },
+     {
+      "he": "לַשְּׂרָרָה",
+      "en": "to the position"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that he was"
+     },
+     {
+      "he": "בָהּ:",
+      "en": "in it"
+     }
+    ]
+   }
+  ]
+ }
+]

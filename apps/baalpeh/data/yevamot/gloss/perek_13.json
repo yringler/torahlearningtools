@@ -1,0 +1,4170 @@
+[
+ {
+  "perek": 13,
+  "mishnah": 1,
+  "summary": "A young girl married off by her mother or brothers may do mi'un, saying she does not want the marriage. Beis Shammai and Beis Hillel argue about when and how she may do it.",
+  "stIntro": "The Sages decreed that in the case of a minor girl whose father died, her mother or brothers may marry her off. However, such a marriage does not have the same legal status as the marriage of an adult. Therefore, if the minor regrets having married, she is allowed to make a declaration of refusal to her husband, thereby annulling the marital bond. The Sages disagreed with regard to the details of this halakha:",
+  "chunks": [
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְמָאֲנִין אֶלָּא אֲרוּסוֹת.",
+    "en": "only engaged girls may do mi'un.",
+    "st": "<b>Only betrothed girls may refuse.</b>",
+    "stMore": "A girl may refuse, upon reaching adulthood, to remain married to the man to whom her mother or brothers married her as a minor after the death of her father.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "מְמָאֲנִין",
+      "en": "do mi'un",
+      "note": "A young girl saying \"I do not want this husband,\" which ends the marriage."
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אֲרוּסוֹת.",
+      "en": "engaged girls"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>But Beit Hillel say</b> that both",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֲרוּסוֹת וּנְשׂוּאוֹת.",
+    "en": "both engaged and married girls.",
+    "st": "<b>betrothed and fully married</b> girls may refuse.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲרוּסוֹת",
+      "en": "engaged girls"
+     },
+     {
+      "he": "וּנְשׂוּאוֹת.",
+      "en": "and married girls"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b> Refusal may be directed only",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בַּבַּעַל וְלֹא בַיָּבָם.",
+    "en": "to the husband, but not to the yavam.",
+    "st": "<b>at</b> her <b>husband and not at</b> her <b>yavam.</b> In such a situation, she must perform ḥalitza in order to dissolve the levirate bond.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּבַּעַל",
+      "en": "to the husband"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בַיָּבָם.",
+      "en": "to the yavam"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>But Beit Hillel say:</b> It may be directed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בַּבַּעַל וּבַיָּבָם.",
+    "en": "to the husband and to the yavam.",
+    "st": "<b>at</b> her <b>husband or</b> her <b>yavam.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּבַּעַל",
+      "en": "to the husband"
+     },
+     {
+      "he": "וּבַיָּבָם.",
+      "en": "and to the yavam"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b> The refusal must take place specifically",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בְּפָנָיו. וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "in front of him. And Beis Hillel say,",
+    "st": "<b>in the presence of</b> the husband. <b>But Beit Hillel say:</b> It may take place",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּפָנָיו.",
+      "en": "in front of him"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בְּפָנָיו וְשֶׁלֹּא בְפָנָיו.",
+    "en": "in front of him or not in front of him.",
+    "st": "<b>either in his presence or in his absence.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּפָנָיו",
+      "en": "in front of him"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and that not"
+     },
+     {
+      "he": "בְפָנָיו.",
+      "en": "in front of him"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b> The refusal must take place specifically",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בְּבֵית דִּין.",
+    "en": "in beis din.",
+    "st": "<b>in court.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּבֵית",
+      "en": "in beis"
+     },
+     {
+      "he": "דִּין.",
+      "en": "din"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>But Beit Hillel say:</b> It may take place",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בְּבֵית דִּין וְשֶׁלֹּא בְבֵית דִּין.",
+    "en": "in beis din or not in beis din.",
+    "st": "<b>either in court, or not in court.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּבֵית",
+      "en": "in beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "din"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and that not"
+     },
+     {
+      "he": "בְבֵית",
+      "en": "in beis"
+     },
+     {
+      "he": "דִּין.",
+      "en": "din"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶן בֵּית הִלֵּל לְבֵית שַׁמַּאי,",
+    "en": "Beis Hillel said to Beis Shammai,",
+    "st": "<b>Beit Hillel said to Beit Shammai:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "מְמָאֶנֶת וְהִיא קְטַנָּה,",
+    "en": "\"She may do mi'un while she is young,",
+    "st": "<b>She may refuse as long as she is a minor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְמָאֶנֶת",
+      "en": "she does mi'un"
+     },
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "קְטַנָּה,",
+      "en": "is young"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ אַרְבָּעָה וַחֲמִשָּׁה פְעָמִים.",
+    "en": "even four or five times.\"",
+    "st": "<b>even four or five times</b> if her relatives married her off again to another man after each refusal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה",
+      "en": "and five"
+     },
+     {
+      "he": "פְעָמִים.",
+      "en": "times"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהֶן בֵּית שַׁמַּאי,",
+    "en": "Beis Shammai said to them,",
+    "st": "<b>Beit Shammai said to them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי,",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בְּנוֹת יִשְׂרָאֵל הֶפְקֵר,",
+    "en": "\"Jewish girls are not ownerless!",
+    "explain": "They should not be passed from man to man.",
+    "st": "<b>The daughters of Israel are not to be treated with disregard</b> and should not be passed from one man to another.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there are not"
+     },
+     {
+      "he": "בְּנוֹת",
+      "en": "daughters of"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "הֶפְקֵר,",
+      "en": "ownerless"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מְמָאֶנֶת וּמַמְתֶּנֶת עַד שֶׁתַּגְדִּיל,",
+    "en": "Rather, she does mi'un and waits until she grows up,",
+    "st": "<b>Rather, she refuses</b> once. <b>And</b> then <b>she must wait until she reaches majority,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מְמָאֶנֶת",
+      "en": "she does mi'un"
+     },
+     {
+      "he": "וּמַמְתֶּנֶת",
+      "en": "and waits"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתַּגְדִּיל,",
+      "en": "she grows up"
+     }
+    ]
+   },
+   {
+    "he": "וּתְמָאֵן וְתִנָּשֵׂא:",
+    "en": "and then does mi'un and marries.\"",
+    "st": "<b>and refuse, and marry.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּתְמָאֵן",
+      "en": "and does mi'un"
+     },
+     {
+      "he": "וְתִנָּשֵׂא:",
+      "en": "and marries"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 2,
+  "summary": "Which young girl needs to do mi'un? One who was married off with her agreement. Rabbi Chanina and Rabbi Eliezer say some girls do not need mi'un at all.",
+  "chunks": [
+   {
+    "he": "אֵיזוֹ הִיא קְטַנָּה שֶׁצְּרִיכָה לְמָאֵן,",
+    "en": "Which young girl needs to do mi'un?",
+    "st": "<b>Who is a minor girl who needs to perform refusal</b> in order to annul her marriage?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵיזוֹ",
+      "en": "which"
+     },
+     {
+      "he": "הִיא",
+      "en": "is"
+     },
+     {
+      "he": "קְטַנָּה",
+      "en": "a young girl"
+     },
+     {
+      "he": "שֶׁצְּרִיכָה",
+      "en": "that needs"
+     },
+     {
+      "he": "לְמָאֵן,",
+      "en": "to do mi'un"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁהִשִּׂיאוּהָ אִמָּהּ וְאַחֶיהָ לְדַעְתָּהּ.",
+    "en": "Any whose mother and brothers married her off with her agreement.",
+    "st": "<b>Any</b> minor <b>whose mother or brother married her off with her consent.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁהִשִּׂיאוּהָ",
+      "en": "that married her off"
+     },
+     {
+      "he": "אִמָּהּ",
+      "en": "her mother"
+     },
+     {
+      "he": "וְאַחֶיהָ",
+      "en": "and her brothers"
+     },
+     {
+      "he": "לְדַעְתָּהּ.",
+      "en": "with her agreement"
+     }
+    ]
+   },
+   {
+    "he": "הִשִּׂיאוּהָ שֶׁלֹּא לְדַעְתָּהּ,",
+    "en": "If they married her off without her agreement,",
+    "st": "<b>If they married her off without her consent,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִשִּׂיאוּהָ",
+      "en": "they married her off"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "לְדַעְתָּהּ,",
+      "en": "with her agreement"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ צְרִיכָה לְמָאֵן.",
+    "en": "she does not need to do mi'un.",
+    "st": "<b>she need not refuse</b> her husband at all and may leave her husband without a declaration of refusal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she does not"
+     },
+     {
+      "he": "צְרִיכָה",
+      "en": "need"
+     },
+     {
+      "he": "לְמָאֵן.",
+      "en": "to do mi'un"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי חֲנִינָא בֶּן אַנְטִיגְנוֹס אוֹמֵר,",
+    "en": "Rabbi Chanina ben Antignos says,",
+    "st": "<b>Rabbi Ḥanina ben Antigonus says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "חֲנִינָא",
+      "en": "Chanina"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "אַנְטִיגְנוֹס",
+      "en": "Antignos"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּל תִּינוֹקֶת שֶׁאֵינָהּ יְכוֹלָה לִשְׁמֹר קִדּוּשֶׁיהָ,",
+    "en": "any little girl who cannot take care of her kiddushin",
+    "st": "<b>Any girl who</b> is so young that she <b>cannot keep her betrothal,</b> i.e., the money or document of betrothal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "תִּינוֹקֶת",
+      "en": "little girl"
+     },
+     {
+      "he": "שֶׁאֵינָהּ",
+      "en": "that is not"
+     },
+     {
+      "he": "יְכוֹלָה",
+      "en": "able"
+     },
+     {
+      "he": "לִשְׁמֹר",
+      "en": "to guard"
+     },
+     {
+      "he": "קִדּוּשֶׁיהָ,",
+      "en": "her kiddushin"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ צְרִיכָה לְמָאֵן.",
+    "en": "does not need to do mi'un.",
+    "st": "<b>safe does not need to refuse,</b> as the Sages instituted marriage only for a girl old enough to understand what she is doing.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she does not"
+     },
+     {
+      "he": "צְרִיכָה",
+      "en": "need"
+     },
+     {
+      "he": "לְמָאֵן.",
+      "en": "to do mi'un"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Elazar says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מַעֲשֵׂה קְטַנָּה כְלוּם,",
+    "en": "what a young girl does is nothing;",
+    "st": "<b>The act of a minor girl is nothing,</b> so that if a minor girl’s mother or brothers marry her off, the marriage is essentially invalid.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "מַעֲשֵׂה",
+      "en": "the act of"
+     },
+     {
+      "he": "קְטַנָּה",
+      "en": "a young girl"
+     },
+     {
+      "he": "כְלוּם,",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כִמְפֻתָּה.",
+    "en": "she is like a girl who was not really married.",
+    "st": "<b>Rather,</b> her status is <b>as though she were</b> a <b>seduced</b> unmarried woman.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "כִמְפֻתָּה.",
+      "en": "like one who was tricked"
+     }
+    ]
+   },
+   {
+    "he": "בַּת יִשְׂרָאֵל לְכֹהֵן,",
+    "en": "A Jewish girl married to a Kohen",
+    "st": "Therefore, a minor <b>daughter of a non-priest married to a priest</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּת",
+      "en": "a daughter of"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "לְכֹהֵן,",
+      "en": "to a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תֹאכַל בַּתְּרוּמָה.",
+    "en": "may not eat terumah.",
+    "st": "<b>may not eat teruma,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תֹאכַל",
+      "en": "shall eat"
+     },
+     {
+      "he": "בַּתְּרוּמָה.",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "בַּת כֹּהֵן לְיִשְׂרָאֵל,",
+    "en": "A Kohen's daughter married to a regular Jew",
+    "st": "and <b>the</b> minor <b>daughter of a priest married to an Israelite</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּת",
+      "en": "a daughter of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "לְיִשְׂרָאֵל,",
+      "en": "to a Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאכַל בַּתְּרוּמָה:",
+    "en": "may eat terumah.",
+    "st": "<b>may eat teruma.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאכַל",
+      "en": "shall eat"
+     },
+     {
+      "he": "בַּתְּרוּמָה:",
+      "en": "terumah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 3,
+  "summary": "Rabbi Eliezer ben Yaakov gives a rule: if the problem comes from the man, she is treated as his wife; if not, she is not.",
+  "chunks": [
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר בֶּן יַעֲקֹב אוֹמֵר,",
+    "en": "Rabbi Eliezer ben Yaakov says,",
+    "st": "<b>Rabbi Eliezer ben Ya’akov says</b> otherwise: If there is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "יַעֲקֹב",
+      "en": "Yaakov"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּל עַכָּבָה שֶׁהִיא מִן הָאִישׁ,",
+    "en": "any holding back that comes from the man",
+    "st": "<b>any obstruction</b> in the matter <b>due to the man,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "עַכָּבָה",
+      "en": "holding back"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאִישׁ,",
+      "en": "the man"
+     }
+    ]
+   },
+   {
+    "he": "כְּאִלּוּ הִיא אִשְׁתּוֹ.",
+    "en": "is as if she is his wife.",
+    "st": "<b>it is as if she were his wife.</b> If there is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הִיא",
+      "en": "she is"
+     },
+     {
+      "he": "אִשְׁתּוֹ.",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל עַכָּבָה שֶׁאֵינָהּ מִן הָאִישׁ,",
+    "en": "And any holding back that does not come from the man",
+    "st": "<b>any obstruction in the matter that is not due to the man,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and any"
+     },
+     {
+      "he": "עַכָּבָה",
+      "en": "holding back"
+     },
+     {
+      "he": "שֶׁאֵינָהּ",
+      "en": "that it is not"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאִישׁ,",
+      "en": "the man"
+     }
+    ]
+   },
+   {
+    "he": "כְּאִלּוּ אֵינָהּ אִשְׁתּוֹ:",
+    "en": "is as if she is not his wife.",
+    "st": "<b>it is as if she were not his wife.</b> This statement will be explained in the Gemara.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "אֵינָהּ",
+      "en": "she is not"
+     },
+     {
+      "he": "אִשְׁתּוֹ:",
+      "en": "his wife"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 4,
+  "summary": "Mi'un undoes the marriage, so she is not like a divorced woman. A get makes her divorced. The mishnah gives a rule about which one came last.",
+  "chunks": [
+   {
+    "he": "הַמְמָאֶנֶת בָּאִישׁ,",
+    "en": "A girl who does mi'un to a man:",
+    "st": "If a minor girl <b>refuses a man,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְמָאֶנֶת",
+      "en": "the one who does mi'un"
+     },
+     {
+      "he": "בָּאִישׁ,",
+      "en": "to the man"
+     }
+    ]
+   },
+   {
+    "he": "הוּא מֻתָּר בִּקְרוֹבוֹתֶיהָ,",
+    "en": "he is allowed to her relatives,",
+    "st": "<b>he is permitted to</b> marry <b>her close relatives,</b> such as her mother or her sister,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "מֻתָּר",
+      "en": "is allowed"
+     },
+     {
+      "he": "בִּקְרוֹבוֹתֶיהָ,",
+      "en": "to her relatives"
+     }
+    ]
+   },
+   {
+    "he": "וְהִיא מֻתֶּרֶת בִּקְרוֹבָיו,",
+    "en": "and she is allowed to his relatives,",
+    "st": "<b>and she is permitted to</b> marry <b>his close relatives,</b> such as his father or brother,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "מֻתֶּרֶת",
+      "en": "is allowed"
+     },
+     {
+      "he": "בִּקְרוֹבָיו,",
+      "en": "to his relatives"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא פְסָלָהּ מִן הַכְּהֻנָּה.",
+    "en": "and he did not make her unfit to marry a Kohen.",
+    "st": "<b>and he has not disqualified her from</b> marrying into <b>the priesthood,</b> as she is not considered divorced. However, if",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "פְסָלָהּ",
+      "en": "made her unfit"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּהֻנָּה.",
+      "en": "the Kehunah"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן לָהּ גֵּט,",
+    "en": "If he gave her a get,",
+    "st": "<b>he gave her a bill of divorce,</b> then even though the marriage was valid according to rabbinic law and not Torah law,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "גֵּט,",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "הוּא אָסוּר בִּקְרוֹבוֹתֶיהָ,",
+    "en": "he is forbidden to her relatives,",
+    "st": "<b>he is prohibited from</b> marrying <b>her close relatives,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "אָסוּר",
+      "en": "is forbidden"
+     },
+     {
+      "he": "בִּקְרוֹבוֹתֶיהָ,",
+      "en": "to her relatives"
+     }
+    ]
+   },
+   {
+    "he": "וְהִיא אֲסוּרָה בִקְרוֹבָיו,",
+    "en": "and she is forbidden to his relatives,",
+    "st": "<b>and she is prohibited from</b> marrying <b>his close relatives,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "אֲסוּרָה",
+      "en": "is forbidden"
+     },
+     {
+      "he": "בִקְרוֹבָיו,",
+      "en": "to his relatives"
+     }
+    ]
+   },
+   {
+    "he": "וּפְסָלָהּ מִן הַכְּהֻנָּה.",
+    "en": "and he made her unfit to marry a Kohen.",
+    "st": "<b>and he has disqualified her from</b> marrying into <b>the priesthood.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפְסָלָהּ",
+      "en": "and made her unfit"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּהֻנָּה.",
+      "en": "the Kehunah"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן לָהּ גֵּט וְהֶחֱזִירָהּ,",
+    "en": "If he gave her a get and took her back,",
+    "st": "<b>If he gave her a bill of divorce but</b> afterward <b>remarried her, and</b> she subsequently",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "וְהֶחֱזִירָהּ,",
+      "en": "and took her back"
+     }
+    ]
+   },
+   {
+    "he": "מֵאֲנָה בוֹ וְנִשֵּׂאת לְאַחֵר",
+    "en": "and she did mi'un and married another man",
+    "st": "<b>refused him and married another</b> man,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאֲנָה",
+      "en": "she did mi'un"
+     },
+     {
+      "he": "בוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "וְנִשֵּׂאת",
+      "en": "and married"
+     },
+     {
+      "he": "לְאַחֵר",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "וְנִתְאַרְמְלָה אוֹ נִתְגָּרְשָׁה,",
+    "en": "and was widowed or divorced,",
+    "st": "<b>and then she was widowed or divorced</b> from her second husband,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִתְאַרְמְלָה",
+      "en": "and was widowed"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִתְגָּרְשָׁה,",
+      "en": "was divorced"
+     }
+    ]
+   },
+   {
+    "he": "מֻתֶּרֶת לַחֲזֹר לוֹ.",
+    "en": "she may go back to him.",
+    "st": "<b>she is permitted to return to him.</b>",
+    "stMore": "Since she left him the last time by means of refusal, the refusal cancels the bill of divorce that he gave her previously, and her status is that of a minor girl who refused her husband, who is not forbidden to her first husband after a second marriage. However, if the order was different, and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתֶּרֶת",
+      "en": "she is allowed"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to return"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מֵאֲנָה בוֹ וְהֶחֱזִירָהּ,",
+    "en": "If she did mi'un and he took her back,",
+    "st": "<b>if she refused him and he</b> subsequently <b>remarried her, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאֲנָה",
+      "en": "she did mi'un"
+     },
+     {
+      "he": "בוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "וְהֶחֱזִירָהּ,",
+      "en": "and he took her back"
+     }
+    ]
+   },
+   {
+    "he": "נָתַן לָהּ גֵּט וְנִשֵּׂאת",
+    "en": "and he gave her a get, and she married",
+    "st": "this time <b>he gave her a bill of divorce and she married</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "וְנִשֵּׂאת",
+      "en": "and she married"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחֵר וְנִתְאַרְמְלָה אוֹ נִתְגָּרְשָׁה,",
+    "en": "another man and was widowed or divorced,",
+    "st": "<b>another</b> man, <b>and she was widowed or divorced,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "וְנִתְאַרְמְלָה",
+      "en": "and was widowed"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִתְגָּרְשָׁה,",
+      "en": "was divorced"
+     }
+    ]
+   },
+   {
+    "he": "אֲסוּרָה לַחֲזֹר לוֹ.",
+    "en": "she may not go back to him.",
+    "st": "<b>she is forbidden to return to him,</b> like any divorced woman who married another man.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲסוּרָה",
+      "en": "she is forbidden"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to return"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle</b> concerning a minor girl who refused her husband and then married several times:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "גֵּט אַחַר מֵאוּן,",
+    "en": "a get after mi'un —",
+    "st": "<b>If the bill of divorce followed the refusal</b> and she remarried,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּט",
+      "en": "a get"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מֵאוּן,",
+      "en": "mi'un"
+     }
+    ]
+   },
+   {
+    "he": "אֲסוּרָה לַחֲזֹר לוֹ.",
+    "en": "she may not go back to him.",
+    "st": "<b>she is forbidden to return to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲסוּרָה",
+      "en": "she is forbidden"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to return"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מֵאוּן אַחַר גֵּט,",
+    "en": "Mi'un after a get —",
+    "st": "<b>If the refusal followed the bill of divorce,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאוּן",
+      "en": "mi'un"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "גֵּט,",
+      "en": "a get"
+     }
+    ]
+   },
+   {
+    "he": "מֻתֶּרֶת לַחֲזֹר לוֹ:",
+    "en": "she may go back to him.",
+    "st": "<b>she is permitted to return to him.</b>",
+    "stMore": "Since the refusal followed the bill of divorce it is clear that she was a minor and neither the marriage nor the divorce were valid by Torah law. However, when the ultimate separation is by means of a bill of divorce, there is no indication that she was a minor at the time and there is potential for confusion with an adult divorcée.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתֶּרֶת",
+      "en": "she is allowed"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to return"
+     },
+     {
+      "he": "לוֹ:",
+      "en": "to him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 5,
+  "summary": "A young girl who married several men, leaving some with mi'un and some with a get, may go back to the ones she left with mi'un, but not to the ones she left with a get.",
+  "chunks": [
+   {
+    "he": "הַמְמָאֶנֶת בָּאִישׁ וְנִשֵּׂאת לְאַחֵר וְגֵרְשָׁהּ,",
+    "en": "A girl who did mi'un to a man, and married another who divorced her,",
+    "st": "If a minor girl <b>refuses</b> one <b>man and marries another, and he divorces her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְמָאֶנֶת",
+      "en": "the one who does mi'un"
+     },
+     {
+      "he": "בָּאִישׁ",
+      "en": "to the man"
+     },
+     {
+      "he": "וְנִשֵּׂאת",
+      "en": "and married"
+     },
+     {
+      "he": "לְאַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "וְגֵרְשָׁהּ,",
+      "en": "and he divorced her"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחֵר וּמֵאֲנָה בוֹ,",
+    "en": "then another, and she did mi'un,",
+    "st": "and then she marries <b>another</b> man <b>and refuses him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחֵר",
+      "en": "to another"
+     },
+     {
+      "he": "וּמֵאֲנָה",
+      "en": "and she did mi'un"
+     },
+     {
+      "he": "בוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחֵר וְגֵרְשָׁהּ,",
+    "en": "then another, who divorced her,",
+    "st": "<b>and</b> then she marries <b>another</b> man <b>and he divorces her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחֵר",
+      "en": "to another"
+     },
+     {
+      "he": "וְגֵרְשָׁהּ,",
+      "en": "and he divorced her"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחֵר וּמֵאֲנָה בוֹ,",
+    "en": "then another, and she did mi'un:",
+    "st": "<b>this is the principle</b> for this case: With regard to",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחֵר",
+      "en": "to another"
+     },
+     {
+      "he": "וּמֵאֲנָה",
+      "en": "and she did mi'un"
+     },
+     {
+      "he": "בוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁיָּצָאת הֵימֶנּוּ בְגֵט,",
+    "en": "anyone she left with a get,",
+    "st": "<b>anyone she leaves by means of a bill of divorce,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "anyone"
+     },
+     {
+      "he": "שֶׁיָּצָאת",
+      "en": "that she left"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "בְגֵט,",
+      "en": "with a get"
+     }
+    ]
+   },
+   {
+    "he": "אֲסוּרָה לַחֲזֹר לוֹ.",
+    "en": "she may not go back to him.",
+    "st": "<b>it is prohibited for her to return to him.</b> With regard to anyone she leaves",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲסוּרָה",
+      "en": "she is forbidden"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to return"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "בְּמֵאוּן, מֻתֶּרֶת לַחֲזֹר לוֹ:",
+    "en": "With mi'un, she may go back to him.",
+    "st": "<b>by means of refusal, she is permitted to return to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמֵאוּן,",
+      "en": "with mi'un"
+     },
+     {
+      "he": "מֻתֶּרֶת",
+      "en": "she is allowed"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "to return"
+     },
+     {
+      "he": "לוֹ:",
+      "en": "to him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 6,
+  "summary": "A man who divorced his wife and took her back, then died: she may do yibum, but Rabbi Eliezer forbids it. The mishnah also discusses a young girl married off by her father and then divorced.",
+  "chunks": [
+   {
+    "he": "הַמְגָרֵשׁ אֶת הָאִשָּׁה וְהֶחֱזִירָהּ,",
+    "en": "Someone who divorces a woman and takes her back:",
+    "st": "With regard to <b>one who divorces a woman and remarries her</b> and then dies childless, his wife",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְגָרֵשׁ",
+      "en": "the one who divorces"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "וְהֶחֱזִירָהּ,",
+      "en": "and took her back"
+     }
+    ]
+   },
+   {
+    "he": "מֻתֶּרֶת לַיָּבָם.",
+    "en": "she is allowed to the yavam,",
+    "st": "<b>is permitted to</b> enter into levirate marriage with her <b>yavam,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתֶּרֶת",
+      "en": "allowed"
+     },
+     {
+      "he": "לַיָּבָם.",
+      "en": "to the yavam"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי אֱלִיעֶזֶר אוֹסֵר.",
+    "en": "but Rabbi Eliezer forbids.",
+    "st": "<b>but Rabbi Elazar prohibits</b> this.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹסֵר.",
+      "en": "forbids"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן הַמְגָרֵשׁ אֶת הַיְתוֹמָה וְהֶחֱזִירָהּ,",
+    "en": "And so too, someone who divorces a young orphan girl and takes her back:",
+    "st": "<b>Likewise,</b> with regard to <b>one who divorces an orphaned</b> minor <b>girl</b> whose mother and brothers married her off <b>and remarries her</b> and subsequently dies,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "הַמְגָרֵשׁ",
+      "en": "the one who divorces"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיְתוֹמָה",
+      "en": "the orphan girl"
+     },
+     {
+      "he": "וְהֶחֱזִירָהּ,",
+      "en": "and took her back"
+     }
+    ]
+   },
+   {
+    "he": "מֻתֶּרֶת לַיָּבָם.",
+    "en": "she is allowed to the yavam,",
+    "st": "<b>she is permitted to the yavam</b> in levirate marriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתֶּרֶת",
+      "en": "allowed"
+     },
+     {
+      "he": "לַיָּבָם.",
+      "en": "to the yavam"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי אֱלִיעֶזֶר אוֹסֵר.",
+    "en": "but Rabbi Eliezer forbids.",
+    "st": "<b>and Rabbi Elazar prohibits</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹסֵר.",
+      "en": "forbids"
+     }
+    ]
+   },
+   {
+    "he": "קְטַנָּה שֶׁהִשִּׂיאָהּ אָבִיהָ וְנִתְגָּרְשָׁה,",
+    "en": "A young girl whose father married her off, and she was divorced,",
+    "st": "<b>A minor girl whose father married her off,</b> in which case the marriage is valid by Torah law, <b>and who was</b> subsequently <b>divorced</b> while she was still a minor",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְטַנָּה",
+      "en": "a young girl"
+     },
+     {
+      "he": "שֶׁהִשִּׂיאָהּ",
+      "en": "that married her off"
+     },
+     {
+      "he": "אָבִיהָ",
+      "en": "her father"
+     },
+     {
+      "he": "וְנִתְגָּרְשָׁה,",
+      "en": "and was divorced"
+     }
+    ]
+   },
+   {
+    "he": "כִּיתוֹמָה בְחַיֵּי הָאָב.",
+    "en": "is like an orphan while her father is alive.",
+    "explain": "Her father can no longer marry her off.",
+    "st": "<b>is like an orphan during the lifetime of</b> her <b>father,</b> as he no longer has the right to marry her off, and she cannot become fully married because she is a minor. <b>And if</b> the husband",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּיתוֹמָה",
+      "en": "like an orphan"
+     },
+     {
+      "he": "בְחַיֵּי",
+      "en": "in the life of"
+     },
+     {
+      "he": "הָאָב.",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "הֶחֱזִירָהּ, דִּבְרֵי הַכֹּל,",
+    "en": "If he took her back, everyone agrees",
+    "st": "<b>remarries her</b> while she is still a minor and then dies childless, <b>everyone agrees</b> that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶחֱזִירָהּ,",
+      "en": "he took her back"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "הַכֹּל,",
+      "en": "everyone"
+     }
+    ]
+   },
+   {
+    "he": "אֲסוּרָה לַיָּבָם:",
+    "en": "she is forbidden to the yavam.",
+    "st": "<b>she is forbidden to the yavam</b> and may not enter into levirate marriage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲסוּרָה",
+      "en": "forbidden"
+     },
+     {
+      "he": "לַיָּבָם:",
+      "en": "to the yavam"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 7,
+  "summary": "Two brothers married two sisters who were young orphans. If one husband dies, his widow is his brother's wife's sister. The Tannaim argue what to do when the widow is grown up but the wife is still young.",
+  "chunks": [
+   {
+    "he": "שְׁנֵי אַחִין נְשׂוּאִין לִשְׁתֵּי",
+    "en": "Two brothers married to two",
+    "st": "If <b>two brothers are married to two minor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "אַחִין",
+      "en": "brothers"
+     },
+     {
+      "he": "נְשׂוּאִין",
+      "en": "married"
+     },
+     {
+      "he": "לִשְׁתֵּי",
+      "en": "to two"
+     }
+    ]
+   },
+   {
+    "he": "אֲחָיוֹת יְתוֹמוֹת קְטַנּוֹת,",
+    "en": "sisters who were young orphans,",
+    "st": "<b>sisters,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲחָיוֹת",
+      "en": "sisters"
+     },
+     {
+      "he": "יְתוֹמוֹת",
+      "en": "orphans"
+     },
+     {
+      "he": "קְטַנּוֹת,",
+      "en": "young"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת בַּעְלָהּ שֶׁל אַחַת מֵהֶן,",
+    "en": "and the husband of one of them died:",
+    "st": "<b>and the husband of one of them dies</b> childless,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת",
+      "en": "and died"
+     },
+     {
+      "he": "בַּעְלָהּ",
+      "en": "the husband"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא מִשּׁוּם אֲחוֹת אִשָּׁה.",
+    "en": "she goes out because she is his wife's sister.",
+    "st": "<b>this</b> widowed girl <b>shall be exempt</b> from levirate marriage <b>due to</b> her status as a forbidden relative, <b>as</b> one is prohibited from marrying the <b>sister</b> of <b>his wife.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא",
+      "en": "she goes out"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אִשָּׁה.",
+      "en": "a wife"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן שְׁתֵּי חֵרְשׁוֹת גְדוֹלָה וּקְטַנָּה,",
+    "en": "And so too with two deaf-mute sisters, or a grown one and a young one:",
+    "st": "<b>The same</b> halakha applies to <b>two deaf-mute women,</b> whose status is like that of two minors in this matter, as their marriages are valid by rabbinic law. And if two brothers were married to two sisters, one of them <b>an adult and</b> the other <b>a minor,</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "חֵרְשׁוֹת",
+      "en": "deaf-mute women"
+     },
+     {
+      "he": "גְדוֹלָה",
+      "en": "a grown one"
+     },
+     {
+      "he": "וּקְטַנָּה,",
+      "en": "and a young one"
+     }
+    ]
+   },
+   {
+    "he": "מֵת בַּעְלָהּ שֶׁל קְטַנָּה,",
+    "en": "if the young one's husband died,",
+    "st": "<b>the husband of the minor dies,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלָהּ",
+      "en": "the husband"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "קְטַנָּה,",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "תֵּצֵא הַקְּטַנָּה מִשּׁוּם אֲחוֹת אִשָּׁה.",
+    "en": "the young one goes out because she is his wife's sister.",
+    "st": "<b>the minor shall leave due to</b> her status as the <b>sister</b> of <b>a wife,</b> as in the first case in the mishna. But",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֵּצֵא",
+      "en": "goes out"
+     },
+     {
+      "he": "הַקְּטַנָּה",
+      "en": "the young one"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אִשָּׁה.",
+      "en": "a wife"
+     }
+    ]
+   },
+   {
+    "he": "מֵת בַּעְלָהּ שֶׁל גְּדוֹלָה,",
+    "en": "If the grown one's husband died,",
+    "st": "<b>if the husband of the adult dies,</b> it generates a Torah obligation of levirate marriage, which is not abrogated by the rabbinic prohibition proscribing the yevama as his wife’s sister.",
+    "stMore": "This prohibition is by rabbinic law, because marriage to a minor is rabbinic in origin. What does one do under such circumstances?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "בַּעְלָהּ",
+      "en": "the husband"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "גְּדוֹלָה,",
+      "en": "the grown one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְלַמְּדִין אֶת הַקְּטַנָּה שֶׁתְּמָאֵן בּוֹ.",
+    "en": "we teach the young one to do mi'un to him.",
+    "explain": "Then he may do yibum with her grown sister.",
+    "st": "<b>We instruct the minor,</b> i.e., his wife, <b>to refuse him,</b> so that her marriage is dissolved and he may then enter into levirate marriage with her adult sister, the widow of his childless brother.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְלַמְּדִין",
+      "en": "we teach"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקְּטַנָּה",
+      "en": "the young one"
+     },
+     {
+      "he": "שֶׁתְּמָאֵן",
+      "en": "that she do mi'un"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Gamliel says,",
+    "st": "<b>Rabban Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם מֵאֲנָה,",
+    "en": "if she did mi'un,",
+    "st": "<b>If</b> the minor <b>refuses</b> of her own accord,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מֵאֲנָה,",
+      "en": "she did mi'un"
+     }
+    ]
+   },
+   {
+    "he": "מֵאֲנָה. וְאִם לָאו,",
+    "en": "then she did mi'un. And if not,",
+    "st": "<b>her refusal is valid. And if not,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאֲנָה.",
+      "en": "she did mi'un"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "לָאו,",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "תַּמְתִּין עַד שֶׁתַּגְדִּיל,",
+    "en": "she waits until she grows up,",
+    "st": "<b>she should wait until she reaches majority,</b> whereupon her marriage is valid by Torah law,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּמְתִּין",
+      "en": "she waits"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתַּגְדִּיל,",
+      "en": "she grows up"
+     }
+    ]
+   },
+   {
+    "he": "וְתֵצֵא הַלָּזוּ מִשּׁוּם אֲחוֹת אִשָּׁה.",
+    "en": "and the other goes out because she is his wife's sister.",
+    "st": "<b>and that</b> widowed adult sister <b>shall be exempt</b> from levirate marriage <b>due to</b> her status as the <b>sister</b> of <b>a wife.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְתֵצֵא",
+      "en": "and goes out"
+     },
+     {
+      "he": "הַלָּזוּ",
+      "en": "that one"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "אֲחוֹת",
+      "en": "the sister of"
+     },
+     {
+      "he": "אִשָּׁה.",
+      "en": "a wife"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוֹשֻׁעַ אוֹמֵר,",
+    "en": "Rabbi Yehoshua says,",
+    "st": "<b>Rabbi Yehoshua says:</b> When the brother married to the adult sister dies, leaving the brother married to the minor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִי לוֹ עַל אִשְׁתּוֹ,",
+    "en": "\"Woe to him for his wife,",
+    "st": "<b>woe [ee] to him for his wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִי",
+      "en": "woe"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "וְאִי לוֹ עַל אֵשֶׁת אָחִיו.",
+    "en": "and woe to him for his brother's wife!\"",
+    "st": "<b>woe to him for his brother’s wife.</b> Under these circumstances, he loses both women:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִי",
+      "en": "and woe"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "אָחִיו.",
+      "en": "his brother"
+     }
+    ]
+   },
+   {
+    "he": "מוֹצִיא אֶת אִשְׁתּוֹ בְגֵט,",
+    "en": "He sends away his wife with a get,",
+    "st": "<b>He must release his own wife with a bill of divorce</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹצִיא",
+      "en": "he sends out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     },
+     {
+      "he": "בְגֵט,",
+      "en": "with a get"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵשֶׁת אָחִיו בַּחֲלִיצָה:",
+    "en": "and his brother's wife with chalitzah.",
+    "st": "<b>his brother’s wife by</b> performing <b>ḥalitza.</b>",
+    "stMore": "He cannot stay married to his wife because she is the sister of his yevama, and he cannot enter into levirate marriage with the yevama even after divorcing his wife, because the yevama is his wife’s sister. The principle that one is completely absolved from levirate marriage when the potential yevama is a forbidden relative does not apply because Torah law does not recognize his marriage to his minor wife. That marriage’s rabbinic sanction does not suffice to render the yevama, his wife’s sister, a forbidden relative who is not a candidate for levirate marriage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵשֶׁת",
+      "en": "and the wife of"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "בַּחֲלִיצָה:",
+      "en": "with chalitzah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 8,
+  "summary": "When a man had two wives and died, yibum or chalitzah with one frees the other only if both had the same kind of marriage. A wife whose marriage is stronger frees the other, but not the other way.",
+  "chunks": [
+   {
+    "he": "מִי שֶׁהָיָה נָשׂוּי לִשְׁתֵּי יְתוֹמוֹת קְטַנּוֹת,",
+    "en": "Someone who was married to two young orphan girls",
+    "st": "If <b>a man was married to two orphaned minors</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "נָשׂוּי",
+      "en": "married"
+     },
+     {
+      "he": "לִשְׁתֵּי",
+      "en": "to two"
+     },
+     {
+      "he": "יְתוֹמוֹת",
+      "en": "orphan girls"
+     },
+     {
+      "he": "קְטַנּוֹת,",
+      "en": "young"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת, בִּיאָתָהּ אוֹ חֲלִיצָתָהּ שֶׁל",
+    "en": "and died: the yibum or chalitzah of",
+    "st": "<b>and died, consummation</b> of levirate marriage <b>or ḥalitza with</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת,",
+      "en": "and he died"
+     },
+     {
+      "he": "בִּיאָתָהּ",
+      "en": "her yibum"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "חֲלִיצָתָהּ",
+      "en": "her chalitzah"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת מֵהֶן פּוֹטֶרֶת צָרָתָהּ.",
+    "en": "one of them frees her co-wife.",
+    "st": "<b>one of them exempts her rival wife</b> from either levirate marriage or ḥalitza, rendering her free to remarry.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "פּוֹטֶרֶת",
+      "en": "frees"
+     },
+     {
+      "he": "צָרָתָהּ.",
+      "en": "her co-wife"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן שְׁתֵּי חֵרְשׁוֹת.",
+    "en": "And so with two deaf-mute women.",
+    "st": "<b>Likewise,</b> if <b>two deaf-mutes</b> were married to one man who died, consummation of levirate marriage or ḥalitza with one of them exempts her rival wife.",
+    "stMore": "In both of these cases, both women are married by rabbinic law and consequently become yevamot by rabbinic law. Since their statuses are equal, one can exempt the other.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "חֵרְשׁוֹת.",
+      "en": "deaf-mute women"
+     }
+    ]
+   },
+   {
+    "he": "קְטַנָּה וְחֵרֶשֶׁת,",
+    "en": "A young girl and a deaf-mute:",
+    "st": "If one wife is a <b>minor and</b> the other is <b>a deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְטַנָּה",
+      "en": "a young girl"
+     },
+     {
+      "he": "וְחֵרֶשֶׁת,",
+      "en": "and a deaf-mute woman"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בִּיאַת אַחַת מֵהֶן פּוֹטֶרֶת צָרָתָהּ.",
+    "en": "yibum with one of them does not free her co-wife.",
+    "st": "<b>consummation</b> of levirate marriage or ḥalitza <b>with one of them does not exempt her rival wife.</b> Although both women are married by rabbinic law, their statuses are not the same and one cannot exempt the other.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "בִּיאַת",
+      "en": "the yibum of"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "פּוֹטֶרֶת",
+      "en": "frees"
+     },
+     {
+      "he": "צָרָתָהּ.",
+      "en": "her co-wife"
+     }
+    ]
+   },
+   {
+    "he": "פִּקַּחַת וְחֵרֶשֶׁת,",
+    "en": "One who can hear and speak and a deaf-mute:",
+    "st": "If one of them <b>was</b> halakhically <b>competent and</b> one was <b>a deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פִּקַּחַת",
+      "en": "one who can hear and speak"
+     },
+     {
+      "he": "וְחֵרֶשֶׁת,",
+      "en": "and a deaf-mute woman"
+     }
+    ]
+   },
+   {
+    "he": "בִּיאַת הַפִּקַּחַת פּוֹטֶרֶת אֶת הַחֵרֶשֶׁת,",
+    "en": "yibum with the one who can hear frees the deaf-mute,",
+    "st": "<b>consummation</b> of levirate marriage <b>with the</b> halakhically <b>competent</b> wife <b>exempts the deaf-mute,</b> as the halakhically competent women’s marriage and levirate marriage are by Torah law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּיאַת",
+      "en": "the yibum of"
+     },
+     {
+      "he": "הַפִּקַּחַת",
+      "en": "the one who hears"
+     },
+     {
+      "he": "פּוֹטֶרֶת",
+      "en": "frees"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת,",
+      "en": "the deaf-mute"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בִּיאַת הַחֵרֶשֶׁת פּוֹטֶרֶת אֶת הַפִּקַּחַת.",
+    "en": "but yibum with the deaf-mute does not free the one who hears.",
+    "st": "<b>But consummation</b> of levirate marriage <b>with the deaf-mute does not exempt the</b> halakhically <b>competent</b> wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בִּיאַת",
+      "en": "the yibum of"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת",
+      "en": "the deaf-mute"
+     },
+     {
+      "he": "פּוֹטֶרֶת",
+      "en": "frees"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפִּקַּחַת.",
+      "en": "the one who hears"
+     }
+    ]
+   },
+   {
+    "he": "גְּדוֹלָה וּקְטַנָּה,",
+    "en": "A grown woman and a young girl:",
+    "st": "Likewise, if one was <b>an adult woman and one a minor girl,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּדוֹלָה",
+      "en": "a grown one"
+     },
+     {
+      "he": "וּקְטַנָּה,",
+      "en": "and a young one"
+     }
+    ]
+   },
+   {
+    "he": "בִּיאַת הַגְּדוֹלָה פוֹטֶרֶת אֶת הַקְּטַנָּה,",
+    "en": "yibum with the grown one frees the young one,",
+    "st": "<b>consummation</b> of levirate marriage <b>with the adult exempts the minor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּיאַת",
+      "en": "the yibum of"
+     },
+     {
+      "he": "הַגְּדוֹלָה",
+      "en": "the grown one"
+     },
+     {
+      "he": "פוֹטֶרֶת",
+      "en": "frees"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקְּטַנָּה,",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בִּיאַת הַקְּטַנָּה פוֹטֶרֶת אֶת הַגְּדוֹלָה:",
+    "en": "but yibum with the young one does not free the grown one.",
+    "st": "<b>but consummation</b> of levirate marriage <b>with the minor does not exempt the adult.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בִּיאַת",
+      "en": "the yibum of"
+     },
+     {
+      "he": "הַקְּטַנָּה",
+      "en": "the young one"
+     },
+     {
+      "he": "פוֹטֶרֶת",
+      "en": "frees"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגְּדוֹלָה:",
+      "en": "the grown one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 9,
+  "summary": "A yavam did yibum with one widow and then wrongly with the other. Whether the first stays his wife depends on what kind of marriages the two widows had.",
+  "chunks": [
+   {
+    "he": "מִי שֶׁהָיָה נָשׂוּי לִשְׁתֵּי יְתוֹמוֹת קְטַנּוֹת,",
+    "en": "Someone who was married to two young orphan girls",
+    "st": "If <b>a man was married to two minor orphans</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "נָשׂוּי",
+      "en": "married"
+     },
+     {
+      "he": "לִשְׁתֵּי",
+      "en": "to two"
+     },
+     {
+      "he": "יְתוֹמוֹת",
+      "en": "orphan girls"
+     },
+     {
+      "he": "קְטַנּוֹת,",
+      "en": "young"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵת, בָּא יָבָם עַל הָרִאשׁוֹנָה,",
+    "en": "and died: if the yavam did yibum with the first,",
+    "st": "<b>and he died, and a yavam engaged in intercourse with the first</b> of them to consummate the levirate marriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵת,",
+      "en": "and he died"
+     },
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "יָבָם",
+      "en": "the yavam"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה,",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזַר וּבָא עַל הַשְּׁנִיָּה,",
+    "en": "and then went back and did it with the second,",
+    "st": "<b>and then engaged in intercourse with the second,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַשְּׁנִיָּה,",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁבָּא אָחִיו עַל הַשְּׁנִיָּה,",
+    "en": "or his brother did it with the second,",
+    "st": "<b>or if his brother</b> who is also their yavam <b>engaged in intercourse with the second,</b> the yavam or his brother",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַשְּׁנִיָּה,",
+      "en": "the second"
+     }
+    ]
+   },
+   {
+    "he": "לֹא פָסַל אֶת הָרִאשׁוֹנָה.",
+    "en": "he did not make the first one unfit.",
+    "st": "<b>did not disqualify the first</b> girl from staying married to him, as her levirate marriage was consummated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "פָסַל",
+      "en": "made unfit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה.",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן שְׁתֵּי חֵרְשׁוֹת.",
+    "en": "And so with two deaf-mute women.",
+    "st": "<b>Likewise,</b> if the two wives were <b>two female deaf-mutes,</b> the first wife may remain married to the yavam.",
+    "stMore": "Intercourse with the second wife, though prohibited, has no effect: If the marriage was of uncertain status, then either the levirate marriage was concluded when he engaged in intercourse with the first, or neither wife was really married to the first husband, and they are therefore not rival wives. If the initial marriage was partial, then since both wives have the same standing, the levirate marriage with the first wife fully realizes whatever degree of levirate marriage is available.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "חֵרְשׁוֹת.",
+      "en": "deaf-mute women"
+     }
+    ]
+   },
+   {
+    "he": "קְטַנָּה וְחֵרֶשֶׁת,",
+    "en": "A young girl and a deaf-mute:",
+    "st": "If one wife was <b>a minor and</b> the other <b>a deaf-mute,</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְטַנָּה",
+      "en": "a young girl"
+     },
+     {
+      "he": "וְחֵרֶשֶׁת,",
+      "en": "and a deaf-mute woman"
+     }
+    ]
+   },
+   {
+    "he": "בָּא יָבָם עַל הַקְּטַנָּה,",
+    "en": "if the yavam did yibum with the young one,",
+    "st": "<b>the yavam engaged in intercourse with the minor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "יָבָם",
+      "en": "the yavam"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַקְּטַנָּה,",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזַר וּבָא עַל הַחֵרֶשֶׁת,",
+    "en": "and then went back and did it with the deaf-mute,",
+    "st": "<b>and then engaged in intercourse with the deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת,",
+      "en": "the deaf-mute"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁבָּא אָחִיו עַל הַחֵרֶשֶׁת,",
+    "en": "or his brother did it with the deaf-mute,",
+    "st": "<b>or if his brother engaged in intercourse with the deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת,",
+      "en": "the deaf-mute"
+     }
+    ]
+   },
+   {
+    "he": "לֹא פָסַל אֶת הַקְּטַנָּה.",
+    "en": "he did not make the young one unfit.",
+    "st": "then the yavam or his brother <b>disqualified the minor</b> from staying married due to the Sages’ decree, lest it be confused with a situation where the intercourse with the deaf-mute was first.",
+    "basis": [
+     "bartenura"
+    ],
+    "basisNote": "Our Hebrew text says \"not unfit.\" Steinsaltz follows the Gemara's version, \"made unfit.\"",
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "פָסַל",
+      "en": "made unfit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקְּטַנָּה.",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "בָּא יָבָם עַל הַחֵרֶשֶׁת,",
+    "en": "If the yavam did yibum with the deaf-mute,",
+    "st": "If <b>the yavam engaged in intercourse with the deaf-mute</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "יָבָם",
+      "en": "the yavam"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת,",
+      "en": "the deaf-mute"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזַר וּבָא עַל הַקְּטַנָּה,",
+    "en": "and then went back and did it with the young one,",
+    "st": "<b>and then engaged in intercourse with the minor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַקְּטַנָּה,",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁבָּא אָחִיו עַל הַקְּטַנָּה,",
+    "en": "or his brother did it with the young one,",
+    "st": "<b>or if his brother engaged in intercourse with the minor,</b> then the yavam or his brother",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַקְּטַנָּה,",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "פָּסַל אֶת הַחֵרֶשֶׁת:",
+    "en": "he made the deaf-mute unfit.",
+    "st": "<b>disqualified the deaf-mute</b> from staying married.",
+    "stMore": "The marriage to the deaf-mute creates a partial acquisition that does not exempt the second wife from levirate marriage, as she, as a minor, has a different standing. Accordingly, intercourse with the second wife also creates a partial acquisition and thereby both women are prohibited to the yavam, as it is prohibited to consummate levirate marriage with more than one wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסַל",
+      "en": "made unfit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת:",
+      "en": "the deaf-mute"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 10,
+  "summary": "One widow can hear and speak and the other is a deaf-mute. Yibum with the one who can hear counts fully, so a later wrong act does not make her unfit. Yibum with the deaf-mute counts only partly.",
+  "chunks": [
+   {
+    "he": "פִּקַּחַת וְחֵרֶשֶׁת,",
+    "en": "One who can hear and speak and a deaf-mute:",
+    "st": "If one widow was halakhically <b>competent and</b> one widow was <b>a deaf-mute,</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פִּקַּחַת",
+      "en": "one who can hear and speak"
+     },
+     {
+      "he": "וְחֵרֶשֶׁת,",
+      "en": "and a deaf-mute woman"
+     }
+    ]
+   },
+   {
+    "he": "בָּא יָבָם עַל הַפִּקַּחַת,",
+    "en": "if the yavam did yibum with the one who hears,",
+    "st": "<b>the yavam engaged in intercourse with the</b> halakhically <b>competent woman</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "יָבָם",
+      "en": "the yavam"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַפִּקַּחַת,",
+      "en": "the one who hears"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזַר וּבָא עַל הַחֵרֶשֶׁת,",
+    "en": "and then went back and did it with the deaf-mute,",
+    "st": "<b>and then engaged in intercourse with the deaf-mute, or</b> if",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת,",
+      "en": "the deaf-mute"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁבָּא אָחִיו עַל הַחֵרֶשֶׁת,",
+    "en": "or his brother did it with the deaf-mute,",
+    "st": "<b>his brother</b> then <b>engaged in intercourse with the deaf-mute,</b> the yavam or his brother",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת,",
+      "en": "the deaf-mute"
+     }
+    ]
+   },
+   {
+    "he": "לֹא פָסַל אֶת הַפִּקַּחַת.",
+    "en": "he did not make the one who hears unfit.",
+    "st": "<b>did not disqualify the</b> halakhically <b>competent woman</b> from staying married.",
+    "stMore": "Since the yavam consummated the levirate marriage with her first, the levirate bond was entirely dissolved and the intercourse with the deaf-mute, though forbidden, had no effect. If",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "פָסַל",
+      "en": "made unfit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפִּקַּחַת.",
+      "en": "the one who hears"
+     }
+    ]
+   },
+   {
+    "he": "בָּא יָבָם עַל הַחֵרֶשֶׁת",
+    "en": "If the yavam did yibum with the deaf-mute,",
+    "st": "<b>the yavam engaged in intercourse with the deaf-mute</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "יָבָם",
+      "en": "the yavam"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת",
+      "en": "the deaf-mute"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזַר וּבָא עַל הַפִּקַּחַת,",
+    "en": "and then went back and did it with the one who hears,",
+    "st": "<b>and then engaged in intercourse with the</b> halakhically <b>competent woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַפִּקַּחַת,",
+      "en": "the one who hears"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁבָּא אָחִיו עַל הַפִּקַּחַת,",
+    "en": "or his brother did it with the one who hears,",
+    "st": "<b>or if his brother engaged in intercourse with the</b> halakhically <b>competent woman,</b> the yavam or his brother",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַפִּקַּחַת,",
+      "en": "the one who hears"
+     }
+    ]
+   },
+   {
+    "he": "פָּסַל אֶת הַחֵרֶשֶׁת:",
+    "en": "he made the deaf-mute unfit.",
+    "st": "<b>disqualified the deaf-mute</b> from staying married.",
+    "stMore": "Consummation of the levirate marriage with the deaf-mute creates only a partial acquisition that does not fully dissolve the levirate bond.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסַל",
+      "en": "made unfit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחֵרֶשֶׁת:",
+      "en": "the deaf-mute"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 11,
+  "summary": "One widow is grown up and the other is a young girl. Yibum with the grown one counts fully; yibum with the young one does not. Rabbi Elazar says the young one is taught to do mi'un.",
+  "chunks": [
+   {
+    "he": "גְּדוֹלָה וּקְטַנָּה,",
+    "en": "A grown one and a young one:",
+    "st": "If the deceased brother had two wives, <b>an adult and a minor,</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּדוֹלָה",
+      "en": "a grown one"
+     },
+     {
+      "he": "וּקְטַנָּה,",
+      "en": "and a young one"
+     }
+    ]
+   },
+   {
+    "he": "בָּא יָבָם עַל הַגְּדוֹלָה,",
+    "en": "if the yavam did yibum with the grown one,",
+    "st": "<b>the yavam engaged in sexual intercourse with the adult,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "יָבָם",
+      "en": "the yavam"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַגְּדוֹלָה,",
+      "en": "the grown one"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזַר וּבָא עַל הַקְּטַנָּה,",
+    "en": "and then went back and did it with the young one,",
+    "st": "<b>then engaged in intercourse with the minor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַקְּטַנָּה,",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁבָּא אָחִיו עַל הַקְּטַנָּה,",
+    "en": "or his brother did it with the young one,",
+    "st": "<b>or if his brother engaged in intercourse with the minor,</b> the yavam or his brother",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַקְּטַנָּה,",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "לֹא פָסַל אֶת הַגְּדוֹלָה.",
+    "en": "he did not make the grown one unfit.",
+    "st": "<b>did not disqualify the adult</b> from staying married, as the consummation of the levirate marriage with the adult completely dissolves the levirate bond.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "פָסַל",
+      "en": "made unfit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַגְּדוֹלָה.",
+      "en": "the grown one"
+     }
+    ]
+   },
+   {
+    "he": "בָּא יָבָם עַל הַקְּטַנָּה,",
+    "en": "If the yavam did yibum with the young one,",
+    "st": "If <b>the yavam engaged in intercourse with the minor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "יָבָם",
+      "en": "the yavam"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַקְּטַנָּה,",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "וְחָזַר וּבָא עַל הַגְּדוֹלָה,",
+    "en": "and then went back and did it with the grown one,",
+    "st": "<b>and then engaged in intercourse with the adult,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחָזַר",
+      "en": "and went back"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַגְּדוֹלָה,",
+      "en": "the grown one"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁבָּא אָחִיו עַל הַגְּדוֹלָה,",
+    "en": "or his brother did it with the grown one,",
+    "st": "<b>or if his brother engaged in intercourse with the adult,</b> the yavam or his brother",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "אָחִיו",
+      "en": "his brother"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הַגְּדוֹלָה,",
+      "en": "the grown one"
+     }
+    ]
+   },
+   {
+    "he": "פָּסַל אֶת הַקְּטַנָּה.",
+    "en": "he made the young one unfit.",
+    "st": "<b>disqualified the minor</b> from staying married.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסַל",
+      "en": "made unfit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקְּטַנָּה.",
+      "en": "the young one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֶלְעָזָר אוֹמֵר,",
+    "en": "Rabbi Elazar says,",
+    "st": "<b>Rabbi Elazar says:</b> The court",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְלַמְּדִין הַקְּטַנָּה שֶׁתְּמָאֵן בּוֹ:",
+    "en": "we teach the young one to do mi'un to him.",
+    "st": "<b>instructs the minor to refuse him</b> thereby annulling her marriage retroactively, and then the minor is permitted to marry any man.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְלַמְּדִין",
+      "en": "we teach"
+     },
+     {
+      "he": "הַקְּטַנָּה",
+      "en": "the young one"
+     },
+     {
+      "he": "שֶׁתְּמָאֵן",
+      "en": "that she do mi'un"
+     },
+     {
+      "he": "בּוֹ:",
+      "en": "to him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 12,
+  "summary": "A young yavam who did yibum stays married and grows up with his wife. If a yevamah says the yibum was never completed, beis din makes or asks the yavam to do chalitzah.",
+  "chunks": [
+   {
+    "he": "יָבָם קָטָן שֶׁבָּא עַל יְבָמָה קְטַנָּה,",
+    "en": "A young yavam who did yibum with a young yevamah:",
+    "st": "If <b>a minor yavam engaged in sexual intercourse with a minor yevama,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבָם",
+      "en": "a yavam"
+     },
+     {
+      "he": "קָטָן",
+      "en": "young"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "יְבָמָה",
+      "en": "a yevamah"
+     },
+     {
+      "he": "קְטַנָּה,",
+      "en": "young"
+     }
+    ]
+   },
+   {
+    "he": "יִגְדְּלוּ זֶה עִם זֶה.",
+    "en": "they grow up together.",
+    "st": "<b>they should grow up together,</b> living as a married couple. He may not divorce her, as he is a minor.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִגְדְּלוּ",
+      "en": "they shall grow up"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "זֶה.",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "בָּא עַל יְבָמָה גְדוֹלָה,",
+    "en": "If he did yibum with a grown yevamah,",
+    "st": "<b>If he engaged in sexual intercourse with an adult yevama,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "he came"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "יְבָמָה",
+      "en": "a yevamah"
+     },
+     {
+      "he": "גְדוֹלָה,",
+      "en": "grown"
+     }
+    ]
+   },
+   {
+    "he": "תְּגַדְּלֶנּוּ. הַיְבָמָה שֶׁאָמְרָה בְּתוֹךְ שְׁלֹשִׁים יוֹם,",
+    "en": "she raises him. A yevamah who said within thirty days,",
+    "st": "<b>she should raise him,</b> i.e., they must stay married, as there is no way for him to divorce her until he reaches majority. When a <b>yevama said within thirty days</b> of her marriage:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּגַדְּלֶנּוּ.",
+      "en": "she shall raise him"
+     },
+     {
+      "he": "הַיְבָמָה",
+      "en": "the yevamah"
+     },
+     {
+      "he": "שֶׁאָמְרָה",
+      "en": "that said"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "within"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נִבְעָלְתִּי,",
+    "en": "\"He did not really marry me,\"",
+    "st": "<b>I have not engaged in sexual intercourse</b> with him, the court",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נִבְעָלְתִּי,",
+      "en": "I was married"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹפִין אוֹתוֹ שֶׁיַּחֲלֹץ לָהּ.",
+    "en": "we force him to do chalitzah with her.",
+    "st": "<b>forces him to perform ḥalitza with her.</b> If she said this",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹפִין",
+      "en": "we force"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "שֶׁיַּחֲלֹץ",
+      "en": "that he do chalitzah"
+     },
+     {
+      "he": "לָהּ.",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחַר שְׁלֹשִׁים יוֹם,",
+    "en": "After thirty days,",
+    "st": "<b>after thirty days</b> but he claimed that he had engaged in sexual intercourse, the court",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁלֹשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "מְבַקְשִׁים הֵימֶנּוּ שְׁיַּחֲלֹץ לָהּ.",
+    "en": "we ask him to do chalitzah with her.",
+    "st": "<b>asks him to perform ḥalitza with her,</b> as there are grounds to believe him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבַקְשִׁים",
+      "en": "we ask"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "שְׁיַּחֲלֹץ",
+      "en": "that he do chalitzah"
+     },
+     {
+      "he": "לָהּ.",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "וּבִזְמַן שֶׁהוּא מוֹדֶה,",
+    "en": "And when he agrees with her,",
+    "st": "<b>And when he admits</b> that he did not engage in intercourse with her,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִזְמַן",
+      "en": "and at the time"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מוֹדֶה,",
+      "en": "agrees"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ לְאַחַר שְׁנֵים עָשָׂר חֹדֶשׁ",
+    "en": "even after twelve months",
+    "st": "<b>even after twelve months,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "twelve"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "(twelve)"
+     },
+     {
+      "he": "חֹדֶשׁ",
+      "en": "months"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹפִין אוֹתוֹ שֶׁיַּחֲלֹץ לָהּ:",
+    "en": "we force him to do chalitzah with her.",
+    "st": "the court <b>forces him to perform ḥalitza with her.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹפִין",
+      "en": "we force"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "שֶׁיַּחֲלֹץ",
+      "en": "that he do chalitzah"
+     },
+     {
+      "he": "לָהּ:",
+      "en": "to her"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 13,
+  "mishnah": 13,
+  "summary": "A widow who made a neder not to get any benefit from her yavam cannot do yibum. If she made it while her husband was alive, beis din forces him to do chalitzah; if after, they only ask him.",
+  "chunks": [
+   {
+    "he": "הַנּוֹדֶרֶת הֲנָאָה מִיְבָמָהּ בְּחַיֵּי בַעְלָהּ,",
+    "en": "A woman who makes a neder not to benefit from her yavam while her husband is alive:",
+    "st": "If a woman <b>vows during her husband’s lifetime</b> to derive no <b>benefit from her yavam,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹדֶרֶת",
+      "en": "the one who vows"
+     },
+     {
+      "he": "הֲנָאָה",
+      "en": "benefit"
+     },
+     {
+      "he": "מִיְבָמָהּ",
+      "en": "from her yavam"
+     },
+     {
+      "he": "בְּחַיֵּי",
+      "en": "in the life of"
+     },
+     {
+      "he": "בַעְלָהּ,",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹפִין אוֹתוֹ שֶׁיַּחֲלֹץ לָהּ.",
+    "en": "we force him to do chalitzah with her.",
+    "st": "the court <b>forces him to perform ḥalitza with her</b> as it is forbidden for her to engage in sexual intercourse with him to consummate the levirate marriage. If she vowed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹפִין",
+      "en": "we force"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "שֶׁיַּחֲלֹץ",
+      "en": "that he do chalitzah"
+     },
+     {
+      "he": "לָהּ.",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחַר מִיתַת בַּעְלָהּ,",
+    "en": "After her husband died,",
+    "st": "<b>after the death of her husband</b> to derive no benefit from her yavam, the court",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מִיתַת",
+      "en": "the death of"
+     },
+     {
+      "he": "בַּעְלָהּ,",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "מְבַקְשִׁין הֵימֶנּוּ שֶׁיַּחֲלֹץ לָהּ.",
+    "en": "we ask him to do chalitzah with her.",
+    "st": "<b>asks him to perform ḥalitza with her.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבַקְשִׁין",
+      "en": "we ask"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "שֶׁיַּחֲלֹץ",
+      "en": "that he do chalitzah"
+     },
+     {
+      "he": "לָהּ.",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם נִתְכַּוְּנָה לְכָךְ,",
+    "en": "And if she meant it for this,",
+    "explain": "She made the neder to get out of yibum.",
+    "st": "<b>And if she intended to do so,</b> i.e., she had an ulterior motive of avoiding levirate marriage when she vowed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "נִתְכַּוְּנָה",
+      "en": "she intended"
+     },
+     {
+      "he": "לְכָךְ,",
+      "en": "for this"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ בְחַיֵּי בַעְלָהּ,",
+    "en": "even while her husband was alive,",
+    "st": "<b>even</b> if she made the vow <b>during her husband’s lifetime,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "בְחַיֵּי",
+      "en": "in the life of"
+     },
+     {
+      "he": "בַעְלָהּ,",
+      "en": "her husband"
+     }
+    ]
+   },
+   {
+    "he": "מְבַקְשִׁין הֵימֶנּוּ שֶׁיַּחֲלֹץ לָהּ:",
+    "en": "we only ask him to do chalitzah with her.",
+    "st": "the court merely <b>asks him to perform ḥalitza with her.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבַקְשִׁין",
+      "en": "we ask"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "שֶׁיַּחֲלֹץ",
+      "en": "that he do chalitzah"
+     },
+     {
+      "he": "לָהּ:",
+      "en": "to her"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,2295 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "A neder that compares food to something the Torah already forbids, like pig meat, does not work. But a neder against something the person himself does, like sleeping, does work.",
+  "chunks": [
+   {
+    "he": "וְאֵלּוּ מֻתָּרִין.",
+    "en": "And these nedarim do not work; the thing stays permitted:",
+    "st": "<b>And these are</b>",
+    "stMore": "the vows in which the one who takes the vow attempts to create a prohibition on an item by associating it with an item in an ineffective manner, rendering the vow void and leaving the item",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "מֻתָּרִין.",
+      "en": "are permitted."
+     }
+    ]
+   },
+   {
+    "he": "חֻלִּין שֶׁאֹכַל לָךְ,",
+    "en": "\"What I eat of yours is chullin,\"",
+    "st": "<b>permitted:</b> If one says: <b>That which I will eat of yours</b> will be <b>non-sacred [ḥullin];</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֻלִּין",
+      "en": "chullin",
+      "note": "Plain food that is not holy."
+     },
+     {
+      "he": "שֶׁאֹכַל",
+      "en": "that I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "כִּבְשַׂר חֲזִיר,",
+    "en": "\"like pig meat,\"",
+    "st": "or: That which I will eat of yours will be <b>like pig meat;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּבְשַׂר",
+      "en": "like the meat of"
+     },
+     {
+      "he": "חֲזִיר,",
+      "en": "a pig"
+     }
+    ]
+   },
+   {
+    "he": "כַּעֲבוֹדָה זָרָה,",
+    "en": "\"like avodah zarah,\"",
+    "st": "or: <b>Like</b> an object of <b>idol worship;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּעֲבוֹדָה",
+      "en": "like avodah"
+     },
+     {
+      "he": "זָרָה,",
+      "en": "zarah",
+      "note": "Avodah zarah: idol worship."
+     }
+    ]
+   },
+   {
+    "he": "כְּעוֹרוֹת לְבוּבִין,",
+    "en": "\"like the skins of animals used for avodah zarah,\"",
+    "st": "or: <b>Like</b> the <b>hides</b> of animal offerings <b>whose hearts were removed</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּעוֹרוֹת",
+      "en": "like the skins of"
+     },
+     {
+      "he": "לְבוּבִין,",
+      "en": "animals used for avodah zarah"
+     }
+    ]
+   },
+   {
+    "he": "כִּנְבֵלוֹת, כִּטְרֵפוֹת,",
+    "en": "\"like neveilos,\" \"like treifos,\"",
+    "st": "as a form of idol worship, and it is therefore prohibited to derive benefit from those animals; or: <b>Like animal carcasses and animals with a wound that will cause them to die within twelve months [tereifot];</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּנְבֵלוֹת,",
+      "en": "like neveilos",
+      "note": "Animals that died without shechitah."
+     },
+     {
+      "he": "כִּטְרֵפוֹת,",
+      "en": "like treifos",
+      "note": "Animals with a deadly injury."
+     }
+    ]
+   },
+   {
+    "he": "כִּשְׁקָצִים, כִּרְמָשִׂים,",
+    "en": "\"like sheratzim,\" \"like crawling creatures,\"",
+    "st": "or: <b>Like</b> non-kosher <b>repugnant creatures and</b> non-kosher <b>creeping animals;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּשְׁקָצִים,",
+      "en": "like sheratzim",
+      "note": "Small creatures that are not kosher."
+     },
+     {
+      "he": "כִּרְמָשִׂים,",
+      "en": "like crawling creatures"
+     }
+    ]
+   },
+   {
+    "he": "כְּחַלַּת אַהֲרֹן וְכִתְרוּמָתוֹ,",
+    "en": "\"like the challah of Aharon, or his terumah,\"",
+    "st": "or: <b>Like the ḥalla of Aaron,</b> the first priest, <b>or like his teruma;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּחַלַּת",
+      "en": "like the challah of"
+     },
+     {
+      "he": "אַהֲרֹן",
+      "en": "Aharon"
+     },
+     {
+      "he": "וְכִתְרוּמָתוֹ,",
+      "en": "and like his terumah"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר.",
+    "en": "it is permitted.",
+    "st": "in all these cases, the food is <b>permitted.</b>",
+    "stMore": "Although none of these items may be eaten, they are forbidden by Torah law, not by means of a vow. Therefore, it is impossible to extend their prohibition to other items by means of a vow that associates them with those items.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר.",
+      "en": "it is permitted."
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר לְאִשְׁתּוֹ,",
+    "en": "If a man says to his wife,",
+    "st": "With regard to a man <b>who says to his wife:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ,",
+      "en": "to his wife"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אַתְּ עָלַי כְּאִמָּא,",
+    "en": "\"You are to me like my mother,\"",
+    "st": "<b> You are hereby to me like</b> my <b>mother,</b>",
+    "stMore": "i.e., deriving benefit from you should be forbidden to me like engaging in sexual intercourse with my mother, dissolution",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "אַתְּ",
+      "en": "you are"
+     },
+     {
+      "he": "עָלַי",
+      "en": "to me"
+     },
+     {
+      "he": "כְּאִמָּא,",
+      "en": "like mother"
+     }
+    ]
+   },
+   {
+    "he": "פּוֹתְחִין לוֹ פֶתַח מִמָּקוֹם אַחֵר,",
+    "en": "the Rabbis find him another reason to undo his neder,",
+    "explain": "A Rabbi undoes it, but uses a different reason.",
+    "st": "<b>is broached with him by</b> suggesting <b>a different extenuation,</b>",
+    "stMore": "i.e., a halakhic authority suggests other, extenuating circumstances that enable the dissolution of the vow. Although this vow does not take effect either, as engaging in sexual intercourse with one’s mother is prohibited by Torah law, by rabbinic law this is treated like an actual vow and requires dissolution by a halakhic authority, so",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פּוֹתְחִין",
+      "en": "we open"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "פֶתַח",
+      "en": "an opening"
+     },
+     {
+      "he": "מִמָּקוֹם",
+      "en": "from a place"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא יָקֵל רֹאשׁוֹ לְכָךְ.",
+    "en": "so that he does not take nedarim lightly.",
+    "st": "<b>that he will not</b> take genuine vows <b>lightly.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "so that he does not"
+     },
+     {
+      "he": "יָקֵל",
+      "en": "take lightly"
+     },
+     {
+      "he": "רֹאשׁוֹ",
+      "en": "his head",
+      "note": "Here: himself."
+     },
+     {
+      "he": "לְכָךְ.",
+      "en": "about this."
+     }
+    ]
+   },
+   {
+    "he": "קוֹנָם שֶׁאֵינִי יָשֵׁן,",
+    "en": "\"Konam, that I will not sleep,\"",
+    "st": "With regard to one who says: <b>Sleeping is</b> forbidden <b>for me as if</b> it were <b>an offering [konam],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹנָם",
+      "en": "konam"
+     },
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I do not"
+     },
+     {
+      "he": "יָשֵׁן,",
+      "en": "sleep"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינִי מְדַבֵּר,",
+    "en": "\"that I will not talk,\"",
+    "st": "thereby prohibiting himself from sleeping; or: <b>Speaking is</b> konam <b>for me;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I do not"
+     },
+     {
+      "he": "מְדַבֵּר,",
+      "en": "talk"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינִי מְהַלֵּךְ,",
+    "en": "\"that I will not walk,\"",
+    "st": "or: <b>Walking is</b> konam <b>for me;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I do not"
+     },
+     {
+      "he": "מְהַלֵּךְ,",
+      "en": "walk"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר לְאִשְׁתּוֹ,",
+    "en": "If a man says to his wife,",
+    "st": "or <b>one who says to his wife:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ,",
+      "en": "to his wife"
+     }
+    ]
+   },
+   {
+    "he": "קוֹנָם שֶׁאֵינִי מְשַׁמְּשֵׁךְ,",
+    "en": "\"Konam, that I will not be close with you,\"",
+    "st": "<b> Engaging in sexual intercourse with you is konam for me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹנָם",
+      "en": "konam"
+     },
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I will not"
+     },
+     {
+      "he": "מְשַׁמְּשֵׁךְ,",
+      "en": "be close with you"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה בְלֹא יַחֵל דְּבָרוֹ.",
+    "en": "he must keep his word, as the Torah says, \"He shall not break his word.\"",
+    "st": "if he violates the vow <b>he is in</b> violation of the prohibition <b>“He shall not profane his word”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "this"
+     },
+     {
+      "he": "זֶה",
+      "en": "is"
+     },
+     {
+      "he": "בְלֹא",
+      "en": "under \"he shall not"
+     },
+     {
+      "he": "יַחֵל",
+      "en": "break"
+     },
+     {
+      "he": "דְּבָרוֹ.",
+      "en": "his word.\""
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֵינִי יָשֵׁן,",
+    "en": "If he says, \"A shevuah that I will not sleep,\"",
+    "st": "(Numbers 30:3). If one says: I take <b>an oath that I will not sleep,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I will not"
+     },
+     {
+      "he": "יָשֵׁן,",
+      "en": "sleep"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינִי מְדַבֵּר,",
+    "en": "\"that I will not talk,\"",
+    "st": "or: <b>That I will not speak,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I will not"
+     },
+     {
+      "he": "מְדַבֵּר,",
+      "en": "talk"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵינִי מְהַלֵּךְ, אָסוּר:",
+    "en": "\"that I will not walk,\" it is forbidden.",
+    "st": "or: <b>That I will not walk,</b> this activity is <b>prohibited</b> to him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵינִי",
+      "en": "that I will not"
+     },
+     {
+      "he": "מְהַלֵּךְ,",
+      "en": "walk"
+     },
+     {
+      "he": "אָסוּר:",
+      "en": "it is forbidden."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "Saying \"korban\" the wrong way does not make a neder, but a shevuah works even then. A shevuah can't stop someone from doing a mitzvah, but a neder can.",
+  "stIntro": "As taught earlier (10a), one of the primary methods of taking a vow is by invoking an offering. The mishna provides several examples where invoking the term korban is not effective. If one says:",
+  "chunks": [
+   {
+    "he": "קָרְבָּן לֹא אֹכַל לָךְ,",
+    "en": "\"Korban, I will not eat of yours,\"",
+    "st": "<b>An offering [korban] that I will not eat of yours,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבָּן",
+      "en": "korban"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֹכַל",
+      "en": "will I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבָּן שֶׁאֹכַל לָךְ,",
+    "en": "\"Korban, what I eat of yours,\"",
+    "st": "or: <b>This offering [ha korban] that I will eat of yours,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבָּן",
+      "en": "korban"
+     },
+     {
+      "he": "שֶׁאֹכַל",
+      "en": "that I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "לֹא קָרְבָּן לֹא אֹכַל לָךְ,",
+    "en": "\"Not korban, I will not eat of yours,\"",
+    "st": "or: That which <b>I will not eat of yours</b> is <b>not an offering [la korban],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "קָרְבָּן",
+      "en": "korban"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֹכַל",
+      "en": "will I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר.",
+    "en": "it is permitted.",
+    "st": "the food is <b>permitted.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר.",
+      "en": "it is permitted."
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה לֹא אֹכַל לָךְ,",
+    "en": "\"A shevuah, I will not eat of yours,\"",
+    "st": "If one says: <b>An oath</b> that <b>I will not eat of yours,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֹכַל",
+      "en": "will I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁאֹכַל לָךְ,",
+    "en": "\"A shevuah, what I eat of yours,\"",
+    "st": "or: <b>This</b> is <b>an oath that I will eat of yours [she’okhal lekha],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁאֹכַל",
+      "en": "that I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שְׁבוּעָה לֹא אֹכַל לָךְ,",
+    "en": "\"Not a shevuah, I will not eat of yours,\"",
+    "st": "or: <b>Not an oath that I will not eat of yours,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֹכַל",
+      "en": "will I eat"
+     },
+     {
+      "he": "לָךְ,",
+      "en": "of yours"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. זֶה חֹמֶר בַּשְּׁבוּעוֹת מִבַּנְּדָרִים.",
+    "en": "it is forbidden. This is a way a shevuah is stronger than a neder.",
+    "st": "the food <b>is forbidden. This</b> rule, that oaths can render actions, which do not have actual substance, either prohibited or obligatory, <b>is a stringency of oaths vis-à-vis vows,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "חֹמֶר",
+      "en": "a stronger point"
+     },
+     {
+      "he": "בַּשְּׁבוּעוֹת",
+      "en": "in oaths"
+     },
+     {
+      "he": "מִבַּנְּדָרִים.",
+      "en": "than in vows."
+     }
+    ]
+   },
+   {
+    "he": "וְחֹמֶר בַּנְּדָרִים מִבַּשְּׁבוּעוֹת,",
+    "en": "And a neder is stronger than a shevuah in another way.",
+    "st": "which do not take effect with regard to matters that do not have actual substance. <b>And</b> there is also <b>a stringency of vows vis-à-vis oaths.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחֹמֶר",
+      "en": "and a stronger point"
+     },
+     {
+      "he": "בַּנְּדָרִים",
+      "en": "in vows"
+     },
+     {
+      "he": "מִבַּשְּׁבוּעוֹת,",
+      "en": "than in oaths"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, אָמַר,",
+    "en": "How? If he said,",
+    "st": "<b> How so?</b> With regard to one who <b>said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how?"
+     },
+     {
+      "he": "אָמַר,",
+      "en": "he said"
+     }
+    ]
+   },
+   {
+    "he": "קוֹנָם סֻכָּה שֶׁאֲנִי עוֹשֶׂה,",
+    "en": "\"Konam is the sukkah that I make,\"",
+    "st": "<b> Making a sukka is konam for me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹנָם",
+      "en": "konam"
+     },
+     {
+      "he": "סֻכָּה",
+      "en": "sukkah"
+     },
+     {
+      "he": "שֶׁאֲנִי",
+      "en": "that I"
+     },
+     {
+      "he": "עוֹשֶׂה,",
+      "en": "make"
+     }
+    ]
+   },
+   {
+    "he": "לוּלָב שֶׁאֲנִי נוֹטֵל,",
+    "en": "\"the lulav that I take,\"",
+    "st": "or: <b>Taking a lulav is</b> konam <b>for me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לוּלָב",
+      "en": "lulav"
+     },
+     {
+      "he": "שֶׁאֲנִי",
+      "en": "that I"
+     },
+     {
+      "he": "נוֹטֵל,",
+      "en": "take"
+     }
+    ]
+   },
+   {
+    "he": "תְּפִלִּין שֶׁאֲנִי מֵנִיחַ,",
+    "en": "\"the tefillin that I put on,\"",
+    "st": "or: <b>Donning phylacteries is</b> konam <b>for me,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּפִלִּין",
+      "en": "tefillin"
+     },
+     {
+      "he": "שֶׁאֲנִי",
+      "en": "that I"
+     },
+     {
+      "he": "מֵנִיחַ,",
+      "en": "put on"
+     }
+    ]
+   },
+   {
+    "he": "בַּנְּדָרִים אָסוּר,",
+    "en": "with a neder, it is forbidden;",
+    "st": "<b> in</b> the case of <b>vows,</b> the items are rendered <b>forbidden,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּנְּדָרִים",
+      "en": "with vows"
+     },
+     {
+      "he": "אָסוּר,",
+      "en": "it is forbidden"
+     }
+    ]
+   },
+   {
+    "he": "בַּשְּׁבוּעוֹת מֻתָּר,",
+    "en": "with a shevuah, it is permitted,",
+    "st": "and he may not perform the mitzva until the vow is dissolved. However, <b>in</b> the case of similar <b>oaths,</b> these items are <b>permitted,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּשְּׁבוּעוֹת",
+      "en": "with oaths"
+     },
+     {
+      "he": "מֻתָּר,",
+      "en": "it is permitted"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין נִשְׁבָּעִין לַעֲבֹר עַל הַמִּצְוֹת:",
+    "en": "because a shevuah cannot be made to break a mitzvah.",
+    "explain": "A neder makes the thing forbidden; a shevuah is about the person.",
+    "st": "<b> as one cannot take an oath to transgress the mitzvot.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because one cannot"
+     },
+     {
+      "he": "נִשְׁבָּעִין",
+      "en": "make an oath"
+     },
+     {
+      "he": "לַעֲבֹר",
+      "en": "to go"
+     },
+     {
+      "he": "עַל",
+      "en": "against"
+     },
+     {
+      "he": "הַמִּצְוֹת:",
+      "en": "the mitzvos."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "A second neder on the same thing still counts, but a second shevuah on the same thing does not add anything.",
+  "chunks": [
+   {
+    "he": "יֵשׁ נֶדֶר בְּתוֹךְ נֶדֶר,",
+    "en": "A neder can take hold on top of a neder,",
+    "st": "<b>There is a vow within a vow.</b>",
+    "stMore": "It is possible to impose an additional prohibition, by means of a vow, on an item that is already forbidden by means of a vow.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "נֶדֶר",
+      "en": "a vow"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "נֶדֶר,",
+      "en": "a vow"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין שְׁבוּעָה בְּתוֹךְ שְׁבוּעָה.",
+    "en": "but a shevuah cannot take hold on top of a shevuah.",
+    "st": "<b>But there is no oath within an oath.</b>",
+    "stMore": "If one takes an oath twice with regard to the same action, the second oath does not take effect.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "שְׁבוּעָה",
+      "en": "oath"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "inside"
+     },
+     {
+      "he": "שְׁבוּעָה.",
+      "en": "an oath."
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, אָמַר הֲרֵינִי נָזִיר אִם אֹכַל,",
+    "en": "How? If he said, \"I am a nazir if I eat,\"",
+    "st": "<b>How so?</b> If one <b>said: I am hereby a nazirite if I eat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how?"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "הֲרֵינִי",
+      "en": "here I am"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֹכַל,",
+      "en": "I eat"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵינִי נָזִיר אִם אֹכַל,",
+    "en": "\"I am a nazir if I eat,\"",
+    "st": "and then repeated: <b>I am hereby a nazirite if I eat, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵינִי",
+      "en": "here I am"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֹכַל,",
+      "en": "I eat"
+     }
+    ]
+   },
+   {
+    "he": "וְאָכַל, חַיָּב עַל כָּל אַחַת וְאֶחָת.",
+    "en": "and he ate, he must keep both.",
+    "explain": "He must be a nazir two times.",
+    "st": "then <b>he ate, he is obligated</b> to observe naziriteship for thirty days <b>for each and every one</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָכַל,",
+      "en": "and he ate"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "he must keep"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָת.",
+      "en": "and one."
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁלֹּא אֹכַל,",
+    "en": "\"A shevuah that I will not eat,\"",
+    "st": "of the vows, as both vows took effect. However, if he said: I hereby take <b>an oath that I will not eat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that I will not"
+     },
+     {
+      "he": "אֹכַל,",
+      "en": "eat"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּעָה שֶׁלֹּא אֹכַל,",
+    "en": "\"A shevuah that I will not eat,\"",
+    "st": "and repeated: I hereby take <b>an oath that I will not eat, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּעָה",
+      "en": "an oath"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that I will not"
+     },
+     {
+      "he": "אֹכַל,",
+      "en": "eat"
+     }
+    ]
+   },
+   {
+    "he": "וְאָכַל, אֵינוֹ חַיָּב אֶלָּא אֶחָת:",
+    "en": "and he ate, he is only guilty one time.",
+    "st": "then <b>he ate, he is liable</b> to bring an offering <b>for only one</b> violation of an oath.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָכַל,",
+      "en": "and he ate"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "guilty"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אֶחָת:",
+      "en": "one time."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "A neder that is not clear is treated strictly, but if the person explains it, we follow his explanation in a lenient way. The mishnah gives examples, and tells how people in Yehudah and the Galil spoke differently.",
+  "chunks": [
+   {
+    "he": "סְתָם נְדָרִים לְהַחְמִיר,",
+    "en": "An unclear neder is treated strictly,",
+    "st": "<b>Unspecified vows</b> are treated <b>stringently,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְתָם",
+      "en": "unclear"
+     },
+     {
+      "he": "נְדָרִים",
+      "en": "vows"
+     },
+     {
+      "he": "לְהַחְמִיר,",
+      "en": "to be strict"
+     }
+    ]
+   },
+   {
+    "he": "וּפֵרוּשָׁם לְהָקֵל.",
+    "en": "but when he explains it, it is treated leniently.",
+    "st": "<b> but their specification,</b> if specification is necessary, is treated <b>leniently.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפֵרוּשָׁם",
+      "en": "and their explanation"
+     },
+     {
+      "he": "לְהָקֵל.",
+      "en": "to be lenient."
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, אָמַר הֲרֵי עָלַי כְּבָשָׂר מָלִיחַ,",
+    "en": "How? If he said, \"This is to me like salted meat,\"",
+    "st": "<b> How so?</b> If one <b>said: This</b> item is prohibited <b>to me like salted meat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how?"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "this is"
+     },
+     {
+      "he": "עָלַי",
+      "en": "to me"
+     },
+     {
+      "he": "כְּבָשָׂר",
+      "en": "like meat"
+     },
+     {
+      "he": "מָלִיחַ,",
+      "en": "salted"
+     }
+    ]
+   },
+   {
+    "he": "כְּיֵין נֶסֶךְ,",
+    "en": "\"like wine of nesech,\"",
+    "st": "or: This item is prohibited to me <b>like</b> the <b>wine</b> used for <b>libations,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּיֵין",
+      "en": "like wine of"
+     },
+     {
+      "he": "נֶסֶךְ,",
+      "en": "nesech",
+      "note": "Wine poured as a korban."
+     }
+    ]
+   },
+   {
+    "he": "אִם שֶׁל שָׁמַיִם נָדַר,",
+    "en": "if he meant for Hashem,",
+    "st": "<b> if he vowed in reference to</b> meat or libations <b>of a peace-offering,</b>",
+    "stMore": "i.e., if he claimed that his intention was that the item will be forbidden to him like the salted meat of an offering, or like wine that is used for libations on the altar, it is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שָׁמַיִם",
+      "en": "Heaven"
+     },
+     {
+      "he": "נָדַר,",
+      "en": "he vowed"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. אִם שֶׁל עֲבוֹדָה זָרָה נָדַר,",
+    "en": "it is forbidden. If he meant for avodah zarah,",
+    "st": "<b>forbidden,</b> as he associated the item of the vow with an item forbidden by means of a vow, i.e., the offering. <b>If</b> he claims that <b>he vowed in reference to</b> meat or libations <b>of idol worship,</b>",
+    "stMore": "i.e., that the item will be like the salted meat of an offering for an idol, or like wine that is used for libations as idol worship, it is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֲבוֹדָה",
+      "en": "avodah"
+     },
+     {
+      "he": "זָרָה",
+      "en": "zarah"
+     },
+     {
+      "he": "נָדַר,",
+      "en": "he vowed"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר. וְאִם סְתָם,",
+    "en": "it is permitted. And if he did not say,",
+    "st": "<b>permitted,</b> as the item of the vow was associated with an item forbidden by the Torah. By enabling the one who took the vow to later clarify his intent, the vow is treated leniently. <b>And if</b> the vow was <b>without specification,</b>",
+    "stMore": "i.e., the one who took the vow did not specify whether his intention was to associate the item with an offering for Heaven or to associate the item with idol worship, it is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר.",
+      "en": "it is permitted."
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "סְתָם,",
+      "en": "unclear"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. הֲרֵי עָלַי כְּחֵרֶם,",
+    "en": "it is forbidden. \"This is to me like cherem,\"",
+    "st": "<b>forbidden.</b> Similarly, if one said: <b>This</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "this is"
+     },
+     {
+      "he": "עָלַי",
+      "en": "to me"
+     },
+     {
+      "he": "כְּחֵרֶם,",
+      "en": "like cherem"
+     }
+    ]
+   },
+   {
+    "he": "אִם כְּחֵרֶם שֶׁל שָׁמַיִם,",
+    "en": "if he meant like cherem for Hashem,",
+    "st": "item is <b>hereby</b> forbidden <b>to me</b> like an item dedicated to the Temple, <b>if</b> his intention was that it would be <b>like a dedication to Heaven,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כְּחֵרֶם",
+      "en": "like cherem"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שָׁמַיִם,",
+      "en": "Heaven"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. וְאִם כְּחֵרֶם שֶׁל כֹּהֲנִים,",
+    "en": "it is forbidden. If he meant like cherem for Kohanim,",
+    "st": "which is a form of consecration, <b>it is forbidden. And if</b> his intention was that it would be <b>like a dedication to priests,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "כְּחֵרֶם",
+      "en": "like cherem"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "כֹּהֲנִים,",
+      "en": "Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר. וְאִם סְתָם,",
+    "en": "it is permitted. And if he did not say,",
+    "st": "whereby one pledges his asset as a gift to priests, <b>it is permitted,</b> as this type of gift is not forbidden at all. <b>And if</b> he said it <b>without specification,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר.",
+      "en": "it is permitted."
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "סְתָם,",
+      "en": "unclear"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. הֲרֵי עָלַי כְּמַעֲשֵׂר,",
+    "en": "it is forbidden. \"This is to me like maaser,\"",
+    "st": "it is <b>forbidden.</b> Likewise, if he said: <b>This</b> item <b>is hereby</b> forbidden <b>to me like tithes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "this is"
+     },
+     {
+      "he": "עָלַי",
+      "en": "to me"
+     },
+     {
+      "he": "כְּמַעֲשֵׂר,",
+      "en": "like maaser"
+     }
+    ]
+   },
+   {
+    "he": "אִם כְּמַעְשַׂר בְּהֵמָה נָדַר,",
+    "en": "if he meant like maaser of animals,",
+    "st": "<b> if he took a vow</b> with the intention that it would be <b>like the animal tithe,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כְּמַעְשַׂר",
+      "en": "like maaser of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "animals"
+     },
+     {
+      "he": "נָדַר,",
+      "en": "he vowed"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. וְאִם שֶׁל גֹּרֶן,",
+    "en": "it is forbidden. If he meant maaser of the threshing floor,",
+    "st": "it is <b>forbidden,</b> as the item of the vow was associated with an item forbidden by a vow. <b>And if</b> his intention was that it will be like the tithe <b>of the granary,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "גֹּרֶן,",
+      "en": "the threshing floor"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר. וְאִם סְתָם,",
+    "en": "it is permitted. And if he did not say,",
+    "st": "i.e., grain that is given to the Levites and has no sanctity, it is <b>permitted. And if</b> he said it <b>without specification,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר.",
+      "en": "it is permitted."
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "סְתָם,",
+      "en": "unclear"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. הֲרֵי עָלַי כִּתְרוּמָה,",
+    "en": "it is forbidden. \"This is to me like terumah,\"",
+    "st": "it is <b>forbidden.</b> Similarly, if he said: <b>This</b> item <b>is hereby</b> forbidden <b>to me like teruma,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "this is"
+     },
+     {
+      "he": "עָלַי",
+      "en": "to me"
+     },
+     {
+      "he": "כִּתְרוּמָה,",
+      "en": "like terumah"
+     }
+    ]
+   },
+   {
+    "he": "אִם כִּתְרוּמַת הַלִּשְׁכָּה נָדַר,",
+    "en": "if he meant the terumah of the Lishkah,",
+    "st": "<b> if he took a vow</b> with the intention that it would be <b>like the collection of the</b> Temple treasury <b>chamber [terumat halishka],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כִּתְרוּמַת",
+      "en": "like terumah of"
+     },
+     {
+      "he": "הַלִּשְׁכָּה",
+      "en": "the Lishkah",
+      "note": "The room in the Beis HaMikdash where money for korbanos was kept."
+     },
+     {
+      "he": "נָדַר,",
+      "en": "he vowed"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר. וְאִם שֶׁל גֹּרֶן,",
+    "en": "it is forbidden. If he meant terumah of the threshing floor,",
+    "st": "which is a tax for the communal offerings, it is <b>forbidden,</b> his vow was associated with an item forbidden by a vow. <b>And if</b> his intention was that it would be like teruma <b>of the granary</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר.",
+      "en": "it is forbidden."
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "גֹּרֶן,",
+      "en": "the threshing floor"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּר. וְאִם סְתָם,",
+    "en": "it is permitted. And if he did not say,",
+    "st": "that is given to the priests, it is <b>permitted,</b> as teruma is not an item forbidden by a vow. <b>And if</b> the vow was taken <b>without specification,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּר.",
+      "en": "it is permitted."
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "סְתָם,",
+      "en": "unclear"
+     }
+    ]
+   },
+   {
+    "he": "אָסוּר, דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "it is forbidden. These are the words of Rabbi Meir.",
+    "st": "it is <b>forbidden.</b> This is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָסוּר,",
+      "en": "it is forbidden"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b> Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "סְתָם תְּרוּמָה בִּיהוּדָה אֲסוּרָה,",
+    "en": "unclear terumah in Yehudah is forbidden,",
+    "st": "<b> Unspecified teruma in Judea is forbidden.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְתָם",
+      "en": "unclear"
+     },
+     {
+      "he": "תְּרוּמָה",
+      "en": "terumah"
+     },
+     {
+      "he": "בִּיהוּדָה",
+      "en": "in Yehudah"
+     },
+     {
+      "he": "אֲסוּרָה,",
+      "en": "is forbidden"
+     }
+    ]
+   },
+   {
+    "he": "בַּגָּלִיל מֻתֶּרֶת,",
+    "en": "but in the Galil it is permitted,",
+    "st": "However, <b>in the Galilee it is permitted,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּגָּלִיל",
+      "en": "in the Galil"
+     },
+     {
+      "he": "מֻתֶּרֶת,",
+      "en": "it is permitted"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין אַנְשֵׁי גָלִיל מַכִּירִין",
+    "en": "because people in the Galil do not know",
+    "st": "<b> as the people of the Galilee are unfamiliar with</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because ... not"
+     },
+     {
+      "he": "אַנְשֵׁי",
+      "en": "people of"
+     },
+     {
+      "he": "גָלִיל",
+      "en": "the Galil"
+     },
+     {
+      "he": "מַכִּירִין",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "אֶת תְּרוּמַת הַלִּשְׁכָּה.",
+    "en": "about the terumah of the Lishkah.",
+    "st": "<b> the collection of the chamber.</b>",
+    "stMore": "When they say teruma they are referring to the teruma allotted to the priests, which is familiar to them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(about)"
+     },
+     {
+      "he": "תְּרוּמַת",
+      "en": "the terumah of"
+     },
+     {
+      "he": "הַלִּשְׁכָּה.",
+      "en": "the Lishkah."
+     }
+    ]
+   },
+   {
+    "he": "סְתָם חֲרָמִים,",
+    "en": "Unclear cherem",
+    "st": "Conversely, <b>unspecified dedications</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְתָם",
+      "en": "unclear"
+     },
+     {
+      "he": "חֲרָמִים,",
+      "en": "cherems"
+     }
+    ]
+   },
+   {
+    "he": "בִּיהוּדָה מֻתָּרִין,",
+    "en": "in Yehudah is permitted,",
+    "st": "<b> in Judea are permitted,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּיהוּדָה",
+      "en": "in Yehudah"
+     },
+     {
+      "he": "מֻתָּרִין,",
+      "en": "are permitted"
+     }
+    ]
+   },
+   {
+    "he": "וּבַגָּלִיל אֲסוּרִין,",
+    "en": "but in the Galil it is forbidden,",
+    "st": "but <b>in the Galilee they are forbidden,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַגָּלִיל",
+      "en": "and in the Galil"
+     },
+     {
+      "he": "אֲסוּרִין,",
+      "en": "are forbidden"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין אַנְשֵׁי גָלִיל מַכִּירִין",
+    "en": "because people in the Galil do not know",
+    "st": "<b> as the people of the Galilee are unfamiliar with</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because ... not"
+     },
+     {
+      "he": "אַנְשֵׁי",
+      "en": "people of"
+     },
+     {
+      "he": "גָלִיל",
+      "en": "the Galil"
+     },
+     {
+      "he": "מַכִּירִין",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "אֶת חֶרְמֵי הַכֹּהֲנִים:",
+    "en": "about the cherem for Kohanim.",
+    "st": "<b> dedications</b> allotted <b>to the priests,</b> so when they say dedication they are referring to dedication to Heaven.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(about)"
+     },
+     {
+      "he": "חֶרְמֵי",
+      "en": "the cherems of"
+     },
+     {
+      "he": "הַכֹּהֲנִים:",
+      "en": "the Kohanim."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "Someone who made a neder and then says he meant something silly, so it never counted. Rabbi Meir and the Sages argue about how to deal with him.",
+  "chunks": [
+   {
+    "he": "נָדַר בְּחֵרֶם וְאָמַר,",
+    "en": "If he made a neder with \"cherem\" and said,",
+    "st": "One who <b>took a vow</b> by associating an item <b>with a dedication [ḥerem],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָדַר",
+      "en": "he vowed"
+     },
+     {
+      "he": "בְּחֵרֶם",
+      "en": "with cherem"
+     },
+     {
+      "he": "וְאָמַר,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נָדַרְתִּי אֶלָּא בְחֶרְמוֹ שֶׁל יָם.",
+    "en": "\"I only meant a fishing net.\"",
+    "explain": "A fishing net is also called \"cherem.\"",
+    "st": "saying: This item is hereby forbidden to me like an item dedicated to the Temple, <b>and</b> then <b>said: I took a vow only with</b> the intention that it would be like <b>a sea net [ḥermo shel yam]</b> that is used to catch fish;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָדַרְתִּי",
+      "en": "I vowed"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְחֶרְמוֹ",
+      "en": "with the net"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "יָם.",
+      "en": "the sea."
+     }
+    ]
+   },
+   {
+    "he": "בְּקָרְבָּן, וְאָמַר,",
+    "en": "Or with \"korban,\" and he said,",
+    "st": "or one who took a vow by associating an item <b>with an offering, and</b> then <b>said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּקָרְבָּן,",
+      "en": "with korban"
+     },
+     {
+      "he": "וְאָמַר,",
+      "en": "and he said"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נָדַרְתִּי אֶלָּא בְקָרְבָּנוֹת שֶׁל מְלָכִים.",
+    "en": "\"I only meant presents for kings.\"",
+    "st": "<b> I took a vow only with</b> reference to <b>offerings to kings,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָדַרְתִּי",
+      "en": "I vowed"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְקָרְבָּנוֹת",
+      "en": "with presents"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מְלָכִים.",
+      "en": "kings."
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי עַצְמִי קָרְבָּן,",
+    "en": "\"I myself am a korban,\"",
+    "st": "i.e., a gift for a king, not an offering to God. Or one who said: <b>I am hereby an offering myself [atzmi], and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "עַצְמִי",
+      "en": "myself"
+     },
+     {
+      "he": "קָרְבָּן,",
+      "en": "is a korban"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר, לֹא נָדַרְתִּי אֶלָּא בְעֶצֶם שֶׁהִנַּחְתִּי",
+    "en": "and he said, \"I only meant a bone that I put aside",
+    "explain": "The word \"atzmi\" can mean \"myself\" or \"my bone.\"",
+    "st": "then <b>said: I took a vow only with</b> reference to <b>a bone [etzem] that I set aside</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר,",
+      "en": "and he said"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָדַרְתִּי",
+      "en": "I vowed"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְעֶצֶם",
+      "en": "with a bone"
+     },
+     {
+      "he": "שֶׁהִנַּחְתִּי",
+      "en": "that I put aside"
+     }
+    ]
+   },
+   {
+    "he": "לִי לִהְיוֹת נוֹדֵר בּוֹ.",
+    "en": "for myself to make nedarim with.\"",
+    "st": "<b> for myself to vow with,</b>",
+    "stMore": "as atzmi means both myself and my bone, i.e., he set aside a bone so as to pretend to take a vow upon himself; or one who said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִי",
+      "en": "for me"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "נוֹדֵר",
+      "en": "vowing"
+     },
+     {
+      "he": "בּוֹ.",
+      "en": "with it."
+     }
+    ]
+   },
+   {
+    "he": "קוֹנָם אִשְׁתִּי נֶהֱנֵית לִי,",
+    "en": "\"Konam, my wife may not get any benefit from me,\"",
+    "st": "<b>Deriving benefit from me is konam for my wife, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קוֹנָם",
+      "en": "konam"
+     },
+     {
+      "he": "אִשְׁתִּי",
+      "en": "my wife"
+     },
+     {
+      "he": "נֶהֱנֵית",
+      "en": "benefits"
+     },
+     {
+      "he": "לִי,",
+      "en": "from me"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר לֹא נָדַרְתִּי אֶלָּא",
+    "en": "and he said, \"I only meant",
+    "st": "then <b>said: I took a vow only with regard to</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָדַרְתִּי",
+      "en": "I vowed"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     }
+    ]
+   },
+   {
+    "he": "בְאִשְׁתִּי הָרִאשׁוֹנָה שֶׁגֵּרַשְׁתִּי,",
+    "en": "my first wife, whom I divorced,\"",
+    "st": "<b> my first wife whom I divorced,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְאִשְׁתִּי",
+      "en": "about my wife"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "שֶׁגֵּרַשְׁתִּי,",
+      "en": "whom I divorced"
+     }
+    ]
+   },
+   {
+    "he": "עַל כֻּלָּן אֵין נִשְׁאָלִים לָהֶם.",
+    "en": "for all of these, they do not need to ask a Rabbi to undo them.",
+    "st": "not with regard to my current wife. <b>For all</b> of the above vows, those who took them <b>do not</b> need to <b>request</b> of a halakhic authority to dissolve <b>them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "כֻּלָּן",
+      "en": "all of them"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "נִשְׁאָלִים",
+      "en": "do we ask"
+     },
+     {
+      "he": "לָהֶם.",
+      "en": "for them."
+     }
+    ]
+   },
+   {
+    "he": "וְאִם נִשְׁאֲלוּ,",
+    "en": "And if they asked,",
+    "st": "as the speaker interpreted the vows in a manner that caused them not to take effect at all. <b>However, if they requested</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "נִשְׁאֲלוּ,",
+      "en": "they asked"
+     }
+    ]
+   },
+   {
+    "he": "עוֹנְשִׁין אוֹתָן וּמַחְמִירִין עֲלֵיהֶן,",
+    "en": "we punish them and are strict with them.",
+    "st": "dissolution, apparently due to their being uncertain of their explanations, the court <b>punishes them and treats them stringently</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹנְשִׁין",
+      "en": "we punish"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "וּמַחְמִירִין",
+      "en": "and are strict"
+     },
+     {
+      "he": "עֲלֵיהֶן,",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "and the vows are not dissolved. This is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir."
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b> And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "פּוֹתְחִין לָהֶם פֶּתַח מִמָּקוֹם אַחֵר,",
+    "en": "we find them another reason to undo the neder,",
+    "st": "These vows are not treated stringently. Rather, dissolution <b>is broached with them by</b> suggesting <b>a different extenuation,</b>",
+    "stMore": "i.e., the halakhic authority suggests extenuating circumstances that undermine the vow but do not pertain to its wording.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פּוֹתְחִין",
+      "en": "we open"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "פֶּתַח",
+      "en": "an opening"
+     },
+     {
+      "he": "מִמָּקוֹם",
+      "en": "from a place"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "וּמְלַמְּדִים אוֹתָן כְּדֵי שֶׁלֹּא",
+    "en": "and we teach them, so that they will not",
+    "st": "<b>And we teach them</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְלַמְּדִים",
+      "en": "and we teach"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "so"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     }
+    ]
+   },
+   {
+    "he": "יִנְהֲגוּ קַלּוּת רֹאשׁ בַּנְּדָרִים:",
+    "en": "take nedarim lightly.",
+    "st": "that they should not take this kind of vow in the future, <b>in order that they will not take vows lightly.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִנְהֲגוּ",
+      "en": "they act"
+     },
+     {
+      "he": "קַלּוּת",
+      "en": "lightly"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "of the head"
+     },
+     {
+      "he": "בַּנְּדָרִים:",
+      "en": "with vows."
+     }
+    ]
+   }
+  ]
+ }
+]

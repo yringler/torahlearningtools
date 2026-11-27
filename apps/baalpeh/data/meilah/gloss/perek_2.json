@@ -1,0 +1,2211 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "A bird chatas has me'ilah from the time it is made hekdesh. Once its blood is sprinkled, the Kohanim may eat it, so there is no more me'ilah, but the issurim of piggul, nosar and tamei apply.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חַטַּאת הָעוֹף,",
+    "en": "A chatas of a bird",
+    "st": "<b>One</b> who derives benefit <b>from a bird sin offering is</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטַּאת",
+      "en": "the chatas of",
+      "note": "A korban brought for doing an aveirah by mistake."
+     },
+     {
+      "he": "הָעוֹף,",
+      "en": "the bird"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהּ מִשֶּׁהֻקְדְּשָׁה.",
+    "en": "has me'ilah from the time it was made hekdesh.",
+    "st": "liable for <b>misuse</b> of consecrated property <b>from</b> the moment <b>that it was consecrated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah",
+      "note": "Me'ilah is using something that belongs to the Beis HaMikdash for yourself."
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדְּשָׁה.",
+      "en": "from when it was made hekdesh",
+      "note": "Hekdesh means set aside for the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "נִמְלְקָה, הֻכְשְׁרָה לְהִפָּסֵל בִּטְבוּל יוֹם",
+    "en": "Once its neck was pinched, it can become pasul through a tevul yom,",
+    "explain": "A tevul yom toveled today and must wait for night to be fully tahor.",
+    "st": "Once the nape of its neck <b>was pinched, it was rendered susceptible to disqualification</b> for sacrifice <b>through</b> contact with <b>one</b> who was ritually impure <b>who immersed</b> in a ritual bath <b>that day</b>",
+    "stMore": "and is waiting for nightfall for the purification process to be completed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְלְקָה,",
+      "en": "once its neck was pinched",
+      "note": "Melikah: the Kohen kills a bird korban by pinching its neck with his nail."
+     },
+     {
+      "he": "הֻכְשְׁרָה",
+      "en": "it became ready"
+     },
+     {
+      "he": "לְהִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "וּבִמְחֻסַּר כִּפּוּרִים וּבְלִינָה.",
+    "en": "through someone still missing his korban to become tahor, and by staying overnight.",
+    "st": "<b>and through</b> contact with <b>one who has not yet</b> brought <b>an atonement</b> offering to complete his purification process, e.g., a zav and a leper, who are not yet permitted to partake of sacrificial meat; <b>and through</b> it being <b>left overnight,</b>",
+    "stMore": "i.e., if its blood was not sprinkled before sunset.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     },
+     {
+      "he": "כִּפּוּרִים",
+      "en": "his korban to become tahor"
+     },
+     {
+      "he": "וּבְלִינָה.",
+      "en": "and by staying overnight"
+     }
+    ]
+   },
+   {
+    "he": "הֻזָּה דָמָהּ,",
+    "en": "Once its blood was sprinkled,",
+    "st": "Once <b>its blood was sprinkled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֻזָּה",
+      "en": "was sprinkled"
+     },
+     {
+      "he": "דָמָהּ,",
+      "en": "its blood"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עָלֶיהָ מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for eating it as piggul,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating <b>it due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul",
+      "note": "A korban made pasul by a wrong thought about when it would be eaten."
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא,",
+    "en": "nosar, or tamei,",
+    "st": "and the prohibition of <b>notar, and</b> the prohibition of partaking of sacrificial meat while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar",
+      "note": "Meat of a korban left over past its time."
+     },
+     {
+      "he": "וְטָמֵא,",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בָּהּ מְעִילָה:",
+    "en": "and there is no me'ilah with it.",
+    "st": "<b> But there is no</b> liability for <b>misuse</b>",
+    "stMore": "of consecrated property, because after the blood is sprinkled it is permitted for priests to partake of its meat and it is no longer consecrated exclusively to God.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     },
+     {
+      "he": "מְעִילָה:",
+      "en": "me'ilah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "A bird olah has me'ilah from the time it is made hekdesh. Even after its blood is squeezed out there is still me'ilah, because nobody eats it, until it is taken out to the ash place.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "עוֹלַת הָעוֹף,",
+    "en": "A bird olah",
+    "st": "<b>One is</b> liable for <b>misusing a bird burnt offering</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹלַת",
+      "en": "the olah of",
+      "note": "A korban that is burned completely on the mizbeach."
+     },
+     {
+      "he": "הָעוֹף,",
+      "en": "the bird"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהּ מִשֶּׁהֻקְדְּשָׁה.",
+    "en": "has me'ilah from the time it was made hekdesh.",
+    "st": "<b> from</b> the moment <b>that it was consecrated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדְּשָׁה.",
+      "en": "from when it was made hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "נִמְלְקָה, הֻכְשְׁרָה לְהִפָּסֵל בִּטְבוּל יוֹם",
+    "en": "Once its neck was pinched, it can become pasul through a tevul yom,",
+    "st": "When the nape of its neck <b>was pinched, it was rendered susceptible to disqualification</b> for sacrifice <b>through</b> contact with <b>one who immersed</b> in a ritual bath <b>that day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְלְקָה,",
+      "en": "once its neck was pinched"
+     },
+     {
+      "he": "הֻכְשְׁרָה",
+      "en": "it became ready"
+     },
+     {
+      "he": "לְהִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "וּבִמְחֻסַּר כִּפּוּרִים וּבְלִינָה.",
+    "en": "through someone still missing his korban to become tahor, and by staying overnight.",
+    "st": "<b> and through</b> contact with <b>one who has not yet</b> brought <b>an atonement</b> offering, <b>and through</b> its blood being <b>left overnight.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     },
+     {
+      "he": "כִּפּוּרִים",
+      "en": "his korban to become tahor"
+     },
+     {
+      "he": "וּבְלִינָה.",
+      "en": "and by staying overnight"
+     }
+    ]
+   },
+   {
+    "he": "מִצָּה דָמָהּ,",
+    "en": "Once its blood was squeezed out,",
+    "st": "Once <b>its blood was squeezed out,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצָּה",
+      "en": "was squeezed out"
+     },
+     {
+      "he": "דָמָהּ,",
+      "en": "its blood"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עָלֶיהָ מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for eating it as piggul,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating <b>it, due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא.",
+    "en": "nosar, or tamei.",
+    "st": "and the prohibition of <b>notar, and</b> the prohibition of partaking of sacrificial meat while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא.",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹעֲלִין בָּהּ עַד שֶׁתֵּצֵא לְבֵית הַדָּשֶׁן:",
+    "en": "And it has me'ilah until it goes out to the place of the ashes.",
+    "st": "<b> And</b> as it may not be eaten, <b>one is</b> liable for <b>its misuse until it leaves to the place of the ashes,</b> where it is burned.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹעֲלִין",
+      "en": "and there is me'ilah"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתֵּצֵא",
+      "en": "it goes out"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the place of"
+     },
+     {
+      "he": "הַדָּשֶׁן:",
+      "en": "the ashes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "The special bulls and goats that are burned have me'ilah from the time they are made hekdesh, and even in the place of the ashes, until the meat is burned up.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "פָּרִים הַנִּשְׂרָפִין וּשְׂעִירִים הַנִּשְׂרָפִין,",
+    "en": "The bulls that are burned and the goats that are burned",
+    "st": "<b>One is</b> liable for <b>misuse of bulls that are burned and goats that are burned</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּרִים",
+      "en": "the bulls"
+     },
+     {
+      "he": "הַנִּשְׂרָפִין",
+      "en": "that are burned"
+     },
+     {
+      "he": "וּשְׂעִירִים",
+      "en": "and the goats"
+     },
+     {
+      "he": "הַנִּשְׂרָפִין,",
+      "en": "that are burned"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶן מִשֶּׁהֻקְדְּשׁוּ.",
+    "en": "have me'ilah from the time they were made hekdesh.",
+    "st": "<b> from</b> the moment <b>that they were consecrated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדְּשׁוּ.",
+      "en": "from when they were made hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁחֲטוּ, הֻכְשְׁרוּ לְהִפָּסֵל בִּטְבוּל יוֹם",
+    "en": "Once they were shechted, they can become pasul through a tevul yom,",
+    "st": "Once <b>they were slaughtered, they were rendered susceptible to disqualification</b> for sacrifice <b>through</b> contact with <b>one who immersed that day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁחֲטוּ,",
+      "en": "once they were shechted"
+     },
+     {
+      "he": "הֻכְשְׁרוּ",
+      "en": "they became ready"
+     },
+     {
+      "he": "לְהִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "וּבִמְחֻסַּר כִּפּוּרִים וּבְלִינָה.",
+    "en": "through someone still missing his korban to become tahor, and by staying overnight.",
+    "st": "<b> and through</b> contact with <b>one who has not yet</b> brought <b>an atonement</b> offering, <b>and through</b> its blood being <b>left overnight.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     },
+     {
+      "he": "כִּפּוּרִים",
+      "en": "his korban to become tahor"
+     },
+     {
+      "he": "וּבְלִינָה.",
+      "en": "and by staying overnight"
+     }
+    ]
+   },
+   {
+    "he": "הֻזָּה דָמָן,",
+    "en": "Once their blood was sprinkled,",
+    "st": "Once <b>its blood was sprinkled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֻזָּה",
+      "en": "was sprinkled"
+     },
+     {
+      "he": "דָמָן,",
+      "en": "their blood"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עֲלֵיהֶן מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for eating them as piggul,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating <b>it, due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא.",
+    "en": "nosar, or tamei.",
+    "st": "and the prohibition of <b>notar, and</b> the prohibition of partaking of sacrificial meat while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא.",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹעֲלִין בָּהֶן בְּבֵית הַדֶּשֶׁן",
+    "en": "And they have me'ilah even in the place of the ashes,",
+    "st": "<b> And one is</b> liable for <b>its misuse</b> even when it is <b>in the place of the ashes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹעֲלִין",
+      "en": "and there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the place of"
+     },
+     {
+      "he": "הַדֶּשֶׁן",
+      "en": "the ashes"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיֻּתַּךְ הַבָּשָׂר:",
+    "en": "until the meat is all burned up.",
+    "st": "<b> until the flesh has been</b> completely <b>scorched.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיֻּתַּךְ",
+      "en": "is burned up"
+     },
+     {
+      "he": "הַבָּשָׂר:",
+      "en": "the meat"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "An olah has me'ilah from the time it is made hekdesh. After its blood is sprinkled there is no me'ilah with its skin, but there is with its meat until it goes out to the place of the ashes.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָעוֹלָה, מוֹעֲלִין בָּהּ מִשֶּׁהֻקְדְּשָׁה.",
+    "en": "An olah has me'ilah from the time it was made hekdesh.",
+    "st": "<b>One is</b> liable for <b>misuse of the burnt offering from</b> the moment <b>that it was consecrated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹלָה,",
+      "en": "the olah"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "with it"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדְּשָׁה.",
+      "en": "from when it was made hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁחֲטָה, הֻכְשְׁרָה לְהִפָּסֵל בִּטְבוּל יוֹם",
+    "en": "Once it was shechted, it can become pasul through a tevul yom,",
+    "st": "Once <b>it was slaughtered it was rendered susceptible to disqualification</b> for sacrifice <b>through</b> contact with <b>one who immersed that day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁחֲטָה,",
+      "en": "once it was shechted"
+     },
+     {
+      "he": "הֻכְשְׁרָה",
+      "en": "it became ready"
+     },
+     {
+      "he": "לְהִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "וּבִמְחֻסַּר כִּפּוּרִים וּבְלִינָה.",
+    "en": "through someone still missing his korban to become tahor, and by staying overnight.",
+    "st": "<b> and through</b> contact with <b>one who has not yet</b> brought <b>an atonement</b> offering, <b>and through</b> its blood being <b>left overnight.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     },
+     {
+      "he": "כִּפּוּרִים",
+      "en": "his korban to become tahor"
+     },
+     {
+      "he": "וּבְלִינָה.",
+      "en": "and by staying overnight"
+     }
+    ]
+   },
+   {
+    "he": "נִזְרַק דָּמָהּ,",
+    "en": "Once its blood was sprinkled,",
+    "st": "Once <b>its blood was sprinkled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִזְרַק",
+      "en": "was sprinkled"
+     },
+     {
+      "he": "דָּמָהּ,",
+      "en": "its blood"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עָלֶיהָ מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for eating it as piggul,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating <b>it, due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא.",
+    "en": "nosar, or tamei.",
+    "st": "and the prohibition of <b>notar, and</b> the prohibition of partaking of sacrificial meat while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא.",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מוֹעֲלִין בְּעוֹרָהּ,",
+    "en": "There is no me'ilah with its skin,",
+    "st": "<b> And one is not</b> liable for <b>misuse of the hides,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "me'ilah"
+     },
+     {
+      "he": "בְּעוֹרָהּ,",
+      "en": "with its skin"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מוֹעֲלִין בַּבָּשָׂר עַד",
+    "en": "but there is me'ilah with the meat until",
+    "st": "<b> but one is</b> liable for <b>misuse of the flesh until</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בַּבָּשָׂר",
+      "en": "with the meat"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּצֵא לְבֵית הַדָּשֶׁן:",
+    "en": "it goes out to the place of the ashes.",
+    "st": "<b> it leaves to the place of the ashes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּצֵא",
+      "en": "it goes out"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the place of"
+     },
+     {
+      "he": "הַדָּשֶׁן:",
+      "en": "the ashes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "A chatas, an asham and the community's shelamim have me'ilah from the time they are made hekdesh. After the blood is sprinkled, the meat has no me'ilah, but the parts for the mizbeach do, until they go out to the place of the ashes.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חַטָּאת וְאָשָׁם וְזִבְחֵי שַׁלְמֵי צִבּוּר,",
+    "en": "A chatas, an asham, and the community's shelamim",
+    "st": "<b>One is</b> liable for <b>misuse of a sin offering, and a guilt offering, and communal peace offerings</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "וְאָשָׁם",
+      "en": "and an asham",
+      "note": "A korban brought to fix certain aveiros."
+     },
+     {
+      "he": "וְזִבְחֵי",
+      "en": "and the korbanos of"
+     },
+     {
+      "he": "שַׁלְמֵי",
+      "en": "shelamim of",
+      "note": "Peace offerings, shared by the mizbeach, the Kohanim and the owners."
+     },
+     {
+      "he": "צִבּוּר,",
+      "en": "the community"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶן מִשֶּׁהֻקְדְּשׁוּ.",
+    "en": "have me'ilah from the time they were made hekdesh.",
+    "st": "<b> from</b> the moment <b>that they were consecrated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדְּשׁוּ.",
+      "en": "from when they were made hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁחֲטוּ, הֻכְשְׁרוּ לְהִפָּסֵל בִּטְבוּל יוֹם",
+    "en": "Once they were shechted, they can become pasul through a tevul yom,",
+    "st": "Once <b>they were slaughtered they were rendered susceptible to disqualification</b> for sacrifice <b>through</b> contact with <b>one who immersed that day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁחֲטוּ,",
+      "en": "once they were shechted"
+     },
+     {
+      "he": "הֻכְשְׁרוּ",
+      "en": "they became ready"
+     },
+     {
+      "he": "לְהִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "וּבִמְחֻסַּר כִּפּוּרִים וּבְלִינָה.",
+    "en": "through someone still missing his korban to become tahor, and by staying overnight.",
+    "st": "<b> and through</b> contact with <b>one who has not yet</b> brought <b>an atonement</b> offering, <b>and through</b> its blood being <b>left overnight.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     },
+     {
+      "he": "כִּפּוּרִים",
+      "en": "his korban to become tahor"
+     },
+     {
+      "he": "וּבְלִינָה.",
+      "en": "and by staying overnight"
+     }
+    ]
+   },
+   {
+    "he": "נִזְרַק דָּמָן,",
+    "en": "Once their blood was sprinkled,",
+    "st": "Once <b>their blood was sprinkled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִזְרַק",
+      "en": "was sprinkled"
+     },
+     {
+      "he": "דָּמָן,",
+      "en": "their blood"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עֲלֵיהֶם מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for eating them as piggul,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating <b>them, due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא.",
+    "en": "nosar, or tamei.",
+    "st": "and the prohibition of <b>notar, and</b> the prohibition of partaking of sacrificial meat while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא.",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מוֹעֲלִין בַּבָּשָׂר,",
+    "en": "There is no me'ilah with the meat,",
+    "st": "<b> One is not</b> liable for <b>misuse of the flesh,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "me'ilah"
+     },
+     {
+      "he": "בַּבָּשָׂר,",
+      "en": "with the meat"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מוֹעֲלִין בָּאֵמוּרִים עַד",
+    "en": "but there is me'ilah with the parts for the mizbeach until",
+    "st": "<b> but one is</b> liable for <b>misuse of their sacrificial portions,</b>",
+    "stMore": "i.e., the portions that are to be consumed on the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּאֵמוּרִים",
+      "en": "with the parts for the mizbeach",
+      "note": "The fats and parts of a korban that are burned on the mizbeach."
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּצְאוּ לְבֵית הַדָּשֶׁן:",
+    "en": "they go out to the place of the ashes.",
+    "st": "<b>until they leave to the place of the ashes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּצְאוּ",
+      "en": "they go out"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the place of"
+     },
+     {
+      "he": "הַדָּשֶׁן:",
+      "en": "the ashes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 6,
+  "summary": "The two loaves of Shavuos have me'ilah from the time they are made hekdesh. Once the blood of the two lambs brought with them is sprinkled, the Kohanim may eat them, so there is no more me'ilah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁתֵּי הַלֶּחֶם,",
+    "en": "The two loaves",
+    "st": "<b>One is</b> liable for <b>misuse of the two loaves</b>",
+    "stMore": "brought on the festival of Shavuot",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "the two of"
+     },
+     {
+      "he": "הַלֶּחֶם,",
+      "en": "the loaves",
+      "note": "Two loaves of bread brought in the Beis HaMikdash on Shavuos."
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶן מִשֶּׁהֻקְדְּשׁוּ.",
+    "en": "have me'ilah from the time they were made hekdesh.",
+    "st": "<b>from</b> the moment <b>that they were consecrated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדְּשׁוּ.",
+      "en": "from when they were made hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "קָרְמוּ בַתַּנּוּר,",
+    "en": "Once they formed a crust in the oven,",
+    "st": "Once <b>they formed a crust,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְמוּ",
+      "en": "they formed a crust"
+     },
+     {
+      "he": "בַתַּנּוּר,",
+      "en": "in the oven"
+     }
+    ]
+   },
+   {
+    "he": "הֻכְשְׁרוּ לְהִפָּסֵל בִּטְבוּל יוֹם וּבִמְחֻסַּר",
+    "en": "they can become pasul through a tevul yom, and through someone missing",
+    "st": "<b> they were rendered susceptible to disqualification</b> for sacrifice <b>through</b> contact with <b>one who immersed that day, and through</b> contact with <b>one who has not yet</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֻכְשְׁרוּ",
+      "en": "they became ready"
+     },
+     {
+      "he": "לְהִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     },
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     }
+    ]
+   },
+   {
+    "he": "כִּפּוּרִים וְלִשְׁחֹט עֲלֵיהֶם אֶת הַזָּבַח.",
+    "en": "his korban to become tahor, and the lambs may be shechted with them.",
+    "st": "brought <b>an atonement</b> offering, <b>and through</b> its blood being <b>left overnight, and</b> they are rendered eligible <b>to slaughter with them the</b> accompanying <b>offering</b> of the two lambs.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּפּוּרִים",
+      "en": "his korban to become tahor"
+     },
+     {
+      "he": "וְלִשְׁחֹט",
+      "en": "and to shecht"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "with them"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַזָּבַח.",
+      "en": "the korban"
+     }
+    ]
+   },
+   {
+    "he": "נִזְרַק דָּמָן שֶׁל כְּבָשִׂים,",
+    "en": "Once the blood of the lambs was sprinkled,",
+    "st": "Once <b>the blood of</b> the <b>lambs is sprinkled,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִזְרַק",
+      "en": "was sprinkled"
+     },
+     {
+      "he": "דָּמָן",
+      "en": "their blood"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "כְּבָשִׂים,",
+      "en": "the lambs"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עֲלֵיהֶן מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for eating them as piggul,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating the loaves, <b>due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא,",
+    "en": "nosar, or tamei,",
+    "st": "and the prohibition of <b>notar, and</b> the prohibition of partaking of consecrated food while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא,",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בָּהֶן מְעִילָה:",
+    "en": "and there is no me'ilah with them.",
+    "st": "<b> And they are not</b> subject to the halakhot of <b>misuse,</b>",
+    "stMore": "as at that point their consumption is permitted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "מְעִילָה:",
+      "en": "me'ilah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 7,
+  "summary": "The Lechem HaPanim has me'ilah from the time it is made hekdesh. Once the bowls of levonah are offered, the Kohanim may eat it, so there is no more me'ilah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "לֶחֶם הַפָּנִים,",
+    "en": "The Lechem HaPanim",
+    "st": "<b>One is</b> liable for <b>misuse of the shewbread,</b>",
+    "stMore": "which is arranged on the Golden Table in the Sanctuary each Shabbat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶחֶם",
+      "en": "the bread of"
+     },
+     {
+      "he": "הַפָּנִים,",
+      "en": "the Panim",
+      "note": "The Lechem HaPanim is the special bread set on the Shulchan in the Beis HaMikdash every Shabbos."
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בּוֹ מִשֶּׁהֻקְדַּשׁ.",
+    "en": "has me'ilah from the time it was made hekdesh.",
+    "st": "<b>from</b> the moment <b>that it was consecrated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "with it"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדַּשׁ.",
+      "en": "from when it was made hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "קָרַם בַּתַּנּוּר,",
+    "en": "Once it formed a crust in the oven,",
+    "st": "Once <b>it formed a crust in the oven</b>",
+    "stMore": "it assumes the status of bread and its halakhic status is like that of offerings of the most sacred order after the animal was slaughtered, in that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרַם",
+      "en": "it formed a crust"
+     },
+     {
+      "he": "בַּתַּנּוּר,",
+      "en": "in the oven"
+     }
+    ]
+   },
+   {
+    "he": "הֻכְשַׁר לְהִפָּסֵל בִּטְבוּל יוֹם וּבִמְחֻסַּר כִּפּוּרִים,",
+    "en": "it can become pasul through a tevul yom and through someone missing his korban to become tahor,",
+    "st": "<b>it was rendered susceptible to disqualification through</b> contact with <b>one who immersed that day, and through</b> contact with <b>one who has not yet</b> brought <b>an atonement</b> offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֻכְשַׁר",
+      "en": "it became ready"
+     },
+     {
+      "he": "לְהִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     },
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     },
+     {
+      "he": "כִּפּוּרִים,",
+      "en": "his korban to become tahor"
+     }
+    ]
+   },
+   {
+    "he": "וּלְהִסָּדֵר עַל גַּבֵּי הַשֻּׁלְחָן.",
+    "en": "and it may be set out on the Shulchan.",
+    "st": "<b>and</b> it is rendered eligible <b>for arrangement upon the Table</b>",
+    "stMore": "in the Sanctuary.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְהִסָּדֵר",
+      "en": "and to be set out"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּי",
+      "en": "top of"
+     },
+     {
+      "he": "הַשֻּׁלְחָן.",
+      "en": "the Shulchan",
+      "note": "The golden table in the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "קָרְבוּ הַבְּזִיכִין,",
+    "en": "Once the bowls of levonah were offered,",
+    "st": "Once <b>the bowls</b> of frankincense brought with the shewbread of the previous week <b>were sacrificed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבוּ",
+      "en": "were offered"
+     },
+     {
+      "he": "הַבְּזִיכִין,",
+      "en": "the bowls",
+      "note": "Two small bowls of levonah, a sweet spice, set next to the bread."
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עָלָיו מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for eating it as piggul,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating the loaves <b>due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא,",
+    "en": "nosar, or tamei,",
+    "st": "and the prohibition of <b>notar, and</b> the prohibition of partaking of consecrated food while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא,",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בָּהֶן מְעִילָה:",
+    "en": "and there is no me'ilah with it.",
+    "st": "<b> But it is not</b> subject to the halakhot of <b>misuse,</b>",
+    "stMore": "as at that point its consumption is permitted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "מְעִילָה:",
+      "en": "me'ilah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 8,
+  "summary": "Menachos have me'ilah from the time they are made hekdesh. Once the kometz is offered, the rest that the Kohanim eat has no me'ilah, but the kometz does, until it goes out to the place of the ashes.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְּנָחוֹת, מוֹעֲלִין בָּהֶן מִשֶּׁהֻקְדְּשׁוּ.",
+    "en": "Menachos have me'ilah from the time they were made hekdesh.",
+    "st": "<b>One is</b> liable for <b>misuse of the meal offerings from</b> the moment <b>that they were consecrated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְּנָחוֹת,",
+      "en": "the menachos",
+      "note": "Flour offerings."
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדְּשׁוּ.",
+      "en": "from when they were made hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "קָדְשׁוּ בַכְּלִי,",
+    "en": "Once they became holy in a kli,",
+    "st": "Once <b>they were consecrated</b> through placement of the flour <b>in</b> a service <b>vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדְשׁוּ",
+      "en": "they became holy"
+     },
+     {
+      "he": "בַכְּלִי,",
+      "en": "in the kli",
+      "note": "A special vessel used in the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "הֻכְשְׁרוּ לִפָּסֵל בִּטְבוּל יוֹם",
+    "en": "they can become pasul through a tevul yom,",
+    "st": "<b> they were rendered susceptible to disqualification</b> for sacrifice <b>through</b> contact with <b>one who immersed that day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֻכְשְׁרוּ",
+      "en": "they became ready"
+     },
+     {
+      "he": "לִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "וּבִמְחֻסַּר כִּפּוּרִים וּבְלִינָה.",
+    "en": "through someone still missing his korban to become tahor, and by staying overnight.",
+    "st": "<b> and through</b> contact with <b>one who has not yet</b> brought <b>an atonement</b> offering, <b>and through</b> its blood being <b>left overnight.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     },
+     {
+      "he": "כִּפּוּרִים",
+      "en": "his korban to become tahor"
+     },
+     {
+      "he": "וּבְלִינָה.",
+      "en": "and by staying overnight"
+     }
+    ]
+   },
+   {
+    "he": "קָרַב הַקֹּמֶץ,",
+    "en": "Once the kometz was offered,",
+    "st": "<b> Once the handful</b> taken from the meal offering <b>was sacrificed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרַב",
+      "en": "was offered"
+     },
+     {
+      "he": "הַקֹּמֶץ,",
+      "en": "the kometz",
+      "note": "A handful of flour taken from a mincha and burned on the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עָלָיו מִשּׁוּם פִּגּוּל,",
+    "en": "one is punished for eating it as piggul,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating the meal offering <b>due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא.",
+    "en": "nosar, or tamei.",
+    "st": "and the prohibition of <b>notar, and</b> the prohibition of partaking of consecrated food while <b>ritually impure.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא.",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מוֹעֲלִין בַּשְּׁיָרִים,",
+    "en": "There is no me'ilah with the leftovers,",
+    "st": "<b> And one is not</b> liable for <b>misuse of the remainder</b>",
+    "stMore": "of the meal offering, which is eaten by the priests,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "מוֹעֲלִין",
+      "en": "me'ilah"
+     },
+     {
+      "he": "בַּשְּׁיָרִים,",
+      "en": "with the leftovers"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מוֹעֲלִים בַּקֹּמֶץ עַד",
+    "en": "but there is me'ilah with the kometz until",
+    "st": "<b>but one is</b> liable for <b>misuse of the handful</b>",
+    "stMore": "that is sacrificed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מוֹעֲלִים",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בַּקֹּמֶץ",
+      "en": "with the kometz"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּצֵא לְבֵית הַדָּשֶׁן:",
+    "en": "it goes out to the place of the ashes.",
+    "st": "<b>until it leaves to the place of the ashes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּצֵא",
+      "en": "it goes out"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the place of"
+     },
+     {
+      "he": "הַדָּשֶׁן:",
+      "en": "the ashes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 9,
+  "summary": "Things that are burned completely, like the kometz, the levonah and the ketores, have me'ilah from when they are made hekdesh. The mishnah gives a rule: piggul only applies to something that has another thing that makes it allowed.",
+  "stIntro": "The mishna lists sacrificial items that are consumed in their entirety on the altar and of which the priests have no share.",
+  "chunks": [
+   {
+    "he": "הַקֹּמֶץ, וְהַלְּבוֹנָה,",
+    "en": "The kometz, and the levonah,",
+    "st": "<b>One is</b> liable for <b>misuse of the handful</b> taken from the meal offering, <b>and the frankincense</b>",
+    "stMore": "burned with the handful on the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַקֹּמֶץ,",
+      "en": "the kometz"
+     },
+     {
+      "he": "וְהַלְּבוֹנָה,",
+      "en": "and the levonah",
+      "note": "A sweet-smelling spice burned on the mizbeach."
+     }
+    ]
+   },
+   {
+    "he": "וְהַקְּטֹרֶת, וּמְנָחוֹת כֹּהֲנִים,",
+    "en": "and the ketores, and the menachos of Kohanim,",
+    "st": "<b>and the incense</b> burned each day on the golden altar in the Sanctuary, <b>and the meal offering of priests,</b>",
+    "stMore": "from which a handful is not taken but which is burned in its entirety,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַקְּטֹרֶת,",
+      "en": "and the ketores",
+      "note": "The special incense burned in the Beis HaMikdash."
+     },
+     {
+      "he": "וּמְנָחוֹת",
+      "en": "and the menachos of"
+     },
+     {
+      "he": "כֹּהֲנִים,",
+      "en": "Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנְחַת כֹּהֵן מָשִׁיחַ,",
+    "en": "and the mincha of the Kohen Gadol,",
+    "st": "<b>and the meal offering of the anointed priest,</b> i.e., the High Priest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "the Kohen"
+     },
+     {
+      "he": "מָשִׁיחַ,",
+      "en": "anointed",
+      "note": "The Kohen Gadol."
+     }
+    ]
+   },
+   {
+    "he": "וּמִנְחַת נְסָכִין,",
+    "en": "and the mincha brought with the wine offerings,",
+    "st": "<b>and the meal offering</b> sacrificed with the <b>libations</b> that accompany offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנְחַת",
+      "en": "and the mincha of"
+     },
+     {
+      "he": "נְסָכִין,",
+      "en": "wine offerings"
+     }
+    ]
+   },
+   {
+    "he": "מוֹעֲלִין בָּהֶן מִשֶּׁהֻקְדְּשׁוּ.",
+    "en": "have me'ilah from the time they were made hekdesh.",
+    "st": "In all these cases, one is liable for misuse <b>from</b> the moment <b>that they were consecrated</b> through declaration.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹעֲלִין",
+      "en": "there is me'ilah"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "מִשֶּׁהֻקְדְּשׁוּ.",
+      "en": "from when they were made hekdesh"
+     }
+    ]
+   },
+   {
+    "he": "קָדְשׁוּ בַכְּלִי,",
+    "en": "Once they became holy in a kli,",
+    "st": "Once <b>one consecrated them</b> by placing them <b>in</b> the appropriate service <b>vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָדְשׁוּ",
+      "en": "they became holy"
+     },
+     {
+      "he": "בַכְּלִי,",
+      "en": "in the kli"
+     }
+    ]
+   },
+   {
+    "he": "הֻכְשְׁרוּ לִפָּסֵל בִּטְבוּל יוֹם",
+    "en": "they can become pasul through a tevul yom,",
+    "st": "each <b>was rendered susceptible to disqualification</b> for sacrifice <b>through</b> contact with <b>one who immersed</b> in a ritual bath <b>that day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֻכְשְׁרוּ",
+      "en": "they became ready"
+     },
+     {
+      "he": "לִפָּסֵל",
+      "en": "to become pasul"
+     },
+     {
+      "he": "בִּטְבוּל",
+      "en": "through one who toveled"
+     },
+     {
+      "he": "יוֹם",
+      "en": "today"
+     }
+    ]
+   },
+   {
+    "he": "וּבִמְחֻסַּר כִּפּוּרִים וּבְלִינָה,",
+    "en": "through someone still missing his korban to become tahor, and by staying overnight,",
+    "st": "<b> and through</b> contact with <b>one who has not yet</b> brought <b>an atonement</b> offering, <b>and through</b> its blood being <b>left overnight,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִמְחֻסַּר",
+      "en": "and through one missing"
+     },
+     {
+      "he": "כִּפּוּרִים",
+      "en": "his korban to become tahor"
+     },
+     {
+      "he": "וּבְלִינָה,",
+      "en": "and by staying overnight"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּבִין עֲלֵיהֶן מִשּׁוּם נוֹתָר וּמִשּׁוּם טָמֵא,",
+    "en": "and one is punished for them because of nosar and because of tamei,",
+    "st": "<b> and one is liable</b> to receive karet <b>for</b> eating <b>it, due to</b> violation of the prohibition of <b>notar, and due to</b> the prohibition of partaking of it while <b>ritually impure;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּבִין",
+      "en": "and are punished"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וּמִשּׁוּם",
+      "en": "and because of"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "וּפִגּוּל אֵין בָּהֶן.",
+    "en": "but there is no piggul with them.",
+    "st": "<b> but there is no</b> liability for <b>piggul in</b> each of these cases.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפִגּוּל",
+      "en": "and piggul"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "with them"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle</b>",
+    "stMore": "that applies to piggul:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁיֶּשׁ לוֹ מַתִּירִין,",
+    "en": "anything that has something else that makes it allowed,",
+    "st": "With regard to <b>any</b> consecrated item <b>that has permitting factors,</b>",
+    "stMore": "i.e., there is another item whose sacrifice renders it permitted for consumption by the altar or by an individual,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "anything"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for it"
+     },
+     {
+      "he": "מַתִּירִין,",
+      "en": "things that make it allowed",
+      "note": "Like the blood of a korban, which lets its meat be eaten."
+     }
+    ]
+   },
+   {
+    "he": "אֵין חַיָּבִין עָלָיו מִשּׁוּם פִּגּוּל,",
+    "en": "one is not punished for it because of piggul,",
+    "st": "<b>one is not liable due to</b> violation of the prohibition of <b>piggul,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "punished"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "פִּגּוּל,",
+      "en": "piggul"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתָר וְטָמֵא,",
+    "en": "nosar, or tamei,",
+    "st": "<b> and</b> the prohibition of <b>notar, and</b> the prohibition of partaking of it while <b>ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וְטָמֵא,",
+      "en": "and tamei"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּקְרְבוּ מַתִּירָיו.",
+    "en": "until the things that make it allowed are offered.",
+    "st": "<b> until they sacrifice</b> the <b>permitting factors.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּקְרְבוּ",
+      "en": "are offered"
+     },
+     {
+      "he": "מַתִּירָיו.",
+      "en": "the things that make it allowed"
+     }
+    ]
+   },
+   {
+    "he": "וְכֹל שֶׁאֵין לוֹ מַתִּירִין,",
+    "en": "And anything that has nothing else that makes it allowed,",
+    "st": "<b> And</b> with regard to <b>any</b> item <b>that does not have permitting factors,</b>",
+    "stMore": "e.g., the handful and the frankincense, as they render other items permitted whereas no other items are needed to render them permitted,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֹל",
+      "en": "and anything"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for it"
+     },
+     {
+      "he": "מַתִּירִין,",
+      "en": "things that make it allowed"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיוָן שֶׁקָּדַשׁ בַּכְּלִי,",
+    "en": "once it became holy in a kli,",
+    "st": "<b>once one sanctified</b> them <b>in the</b> appropriate service <b>vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיוָן",
+      "en": "once"
+     },
+     {
+      "he": "שֶׁקָּדַשׁ",
+      "en": "that it became holy"
+     },
+     {
+      "he": "בַּכְּלִי,",
+      "en": "in the kli"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין עָלָיו מִשּׁוּם נוֹתָר וּמִשּׁוּם טָמֵא,",
+    "en": "one is punished for it because of nosar and because of tamei,",
+    "st": "<b> one is liable</b> to receive karet <b>for</b> eating <b>it, due to</b> violation of the prohibition of <b>notar, and</b> the prohibition of partaking of it while <b>ritually impure;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are punished"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "נוֹתָר",
+      "en": "nosar"
+     },
+     {
+      "he": "וּמִשּׁוּם",
+      "en": "and because of"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "tamei"
+     }
+    ]
+   },
+   {
+    "he": "וּפִגּוּל אֵין בּוֹ:",
+    "en": "but there is no piggul with it.",
+    "st": "<b> but there is no</b> liability for <b>piggul in</b> those cases.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפִגּוּל",
+      "en": "and piggul"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "בּוֹ:",
+      "en": "with it"
+     }
+    ]
+   }
+  ]
+ }
+]

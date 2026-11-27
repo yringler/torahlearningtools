@@ -1,0 +1,2843 @@
+[
+ {
+  "perek": 5,
+  "mishnah": 1,
+  "summary": "An ox killed a cow, and a dead calf is found next to it. We don't know if the calf was born before or after, so the owner pays half for the cow and a quarter for the calf. The same kind of rule works when the cow did the goring.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שׁוֹר שֶׁנָּגַח אֶת הַפָּרָה",
+    "en": "An ox that gored a cow,",
+    "st": "In the case of an innocuous <b>ox that gored</b> and killed <b>a cow,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "שֶׁנָּגַח",
+      "en": "that gored"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפָּרָה",
+      "en": "the cow"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצָא עֻבָּרָהּ בְּצִדָּהּ,",
+    "en": "and its unborn calf was found next to it,",
+    "st": "<b>and</b> the cow’s <b>fetus was found</b> dead <b>at its side,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצָא",
+      "en": "and was found"
+     },
+     {
+      "he": "עֻבָּרָהּ",
+      "en": "its unborn calf"
+     },
+     {
+      "he": "בְּצִדָּהּ,",
+      "en": "at its side"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין יָדוּעַ אִם עַד",
+    "en": "and we don't know whether before",
+    "st": "<b>and it is not known whether</b> the cow",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and it is not"
+     },
+     {
+      "he": "יָדוּעַ",
+      "en": "known"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "עַד",
+      "en": "before"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא נְגָחָהּ יָלְדָה,",
+    "en": "it was gored it gave birth,",
+    "st": "<b>gave birth before</b> the ox <b>gored it</b> and the fetus’s death is unrelated to the goring",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "נְגָחָהּ",
+      "en": "it gored it"
+     },
+     {
+      "he": "יָלְדָה,",
+      "en": "it gave birth"
+     }
+    ]
+   },
+   {
+    "he": "אִם מִשֶּׁנְּגָחָהּ יָלְדָה,",
+    "en": "or after it was gored it gave birth:",
+    "st": "or <b>whether it gave birth after</b> the ox <b>gored it</b> and the fetus died on account of the goring,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "or"
+     },
+     {
+      "he": "מִשֶּׁנְּגָחָהּ",
+      "en": "from when it gored it"
+     },
+     {
+      "he": "יָלְדָה,",
+      "en": "it gave birth"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם חֲצִי נֶזֶק לַפָּרָה",
+    "en": "he pays half damage for the cow",
+    "st": "the owner of the ox <b>pays half</b> the cost of <b>the damage for the cow</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half"
+     },
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "לַפָּרָה",
+      "en": "for the cow"
+     }
+    ]
+   },
+   {
+    "he": "וּרְבִיעַ נֶזֶק לַוָּלָד.",
+    "en": "and a quarter damage for the calf.",
+    "explain": "Since we are not sure, he pays half of half.",
+    "st": "<b>and one-quarter</b> of the cost <b>of the damage for the offspring.</b>",
+    "stMore": "Since it is uncertain whether the ox was responsible for the death of the fetus, in which case he would pay half the damages, its owner pays only half the amount for the fetus that he would ordinarily be required to pay, i.e., one-quarter.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּרְבִיעַ",
+      "en": "and a quarter"
+     },
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "לַוָּלָד.",
+      "en": "for the calf"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן פָּרָה שֶׁנָּגְחָה אֶת",
+    "en": "And so too, a cow that gored",
+    "st": "<b>And likewise,</b> there is uncertainty in the case of an innocuous <b>cow that gored</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so too"
+     },
+     {
+      "he": "פָּרָה",
+      "en": "a cow"
+     },
+     {
+      "he": "שֶׁנָּגְחָה",
+      "en": "that gored"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹר וְנִמְצָא וְלָדָהּ בְּצִדָּהּ,",
+    "en": "an ox, and its calf was found next to it,",
+    "st": "<b>an ox, and</b> the cow’s newborn <b>offspring was found at its side</b> dead or alive,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹר",
+      "en": "the ox"
+     },
+     {
+      "he": "וְנִמְצָא",
+      "en": "and was found"
+     },
+     {
+      "he": "וְלָדָהּ",
+      "en": "its calf"
+     },
+     {
+      "he": "בְּצִדָּהּ,",
+      "en": "at its side"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין יָדוּעַ אִם עַד",
+    "en": "and we don't know whether before",
+    "st": "<b>and it is not known whether</b> the cow",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and it is not"
+     },
+     {
+      "he": "יָדוּעַ",
+      "en": "known"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "עַד",
+      "en": "before"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא נָגְחָה יָלְדָה,",
+    "en": "it gored it gave birth,",
+    "st": "<b>gave birth before it gored</b> the ox",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "נָגְחָה",
+      "en": "it gored"
+     },
+     {
+      "he": "יָלְדָה,",
+      "en": "it gave birth"
+     }
+    ]
+   },
+   {
+    "he": "אִם מִשֶּׁנָּגְחָה יָלְדָה,",
+    "en": "or after it gored it gave birth:",
+    "st": "or <b>whether</b> the cow <b>gave birth after it gored.</b>",
+    "stMore": "When damage is caused by an innocuous animal, the liability of the owner is limited to the value of the animal that gored.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "or"
+     },
+     {
+      "he": "מִשֶּׁנָּגְחָה",
+      "en": "from when it gored"
+     },
+     {
+      "he": "יָלְדָה,",
+      "en": "it gave birth"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם חֲצִי נֶזֶק מִן הַפָּרָה",
+    "en": "he is paid half damage from the cow",
+    "st": "Therefore, <b>half</b> the cost of <b>the damage is paid from</b> the value of <b>the cow,</b> as in the standard case of an innocuous animal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "חֲצִי",
+      "en": "half"
+     },
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַפָּרָה",
+      "en": "the cow"
+     }
+    ]
+   },
+   {
+    "he": "וּרְבִיעַ נֶזֶק מִן הַוָּלָד:",
+    "en": "and a quarter damage from the calf.",
+    "st": "<b>And</b> if that does not suffice to pay for half the cost of the damage, <b>one-quarter of</b> the cost of <b>the damage</b> is paid <b>from the offspring.</b>",
+    "stMore": "Since it is uncertain whether the offspring was part of the cow at the time the cow gored, the owner pays only half of what he would pay if it were certain that it was part of the cow.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּרְבִיעַ",
+      "en": "and a quarter"
+     },
+     {
+      "he": "נֶזֶק",
+      "en": "damage"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַוָּלָד:",
+      "en": "the calf"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 2,
+  "summary": "If someone brings his pots or fruit into another person's yard without permission, the owner of the yard doesn't pay if his animal ruins them. With permission, the yard owner must pay.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַקַּדָּר שֶׁהִכְנִיס קְדֵרוֹתָיו לַחֲצַר",
+    "en": "A potter who brought his pots into the yard of",
+    "st": "In the case of <b>a potter who brought his pots into a homeowner’s courtyard</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַקַּדָּר",
+      "en": "the potter"
+     },
+     {
+      "he": "שֶׁהִכְנִיס",
+      "en": "that brought in"
+     },
+     {
+      "he": "קְדֵרוֹתָיו",
+      "en": "his pots"
+     },
+     {
+      "he": "לַחֲצַר",
+      "en": "to the yard of"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל הַבַּיִת שֶׁלֹּא בִרְשׁוּת,",
+    "en": "a homeowner without permission,",
+    "st": "<b>without permission,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַבַּיִת",
+      "en": "the house"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בִרְשׁוּת,",
+      "en": "with permission"
+     }
+    ]
+   },
+   {
+    "he": "וְשִׁבְּרָתַן בְּהֶמְתּוֹ שֶׁל בַּעַל הַבַּיִת,",
+    "en": "and the homeowner's animal broke them,",
+    "st": "<b>and the homeowner’s animal broke</b> the pots,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשִׁבְּרָתַן",
+      "en": "and it broke them"
+     },
+     {
+      "he": "בְּהֶמְתּוֹ",
+      "en": "his animal"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. וְאִם הֻזְּקָה בָהֶן,",
+    "en": "he does not pay. And if it got hurt by them,",
+    "st": "the homeowner is <b>exempt. If</b> the owner’s animal <b>was injured by</b> the pots,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הֻזְּקָה",
+      "en": "it was hurt"
+     },
+     {
+      "he": "בָהֶן,",
+      "en": "by them"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל הַקְּדֵרוֹת חַיָּב.",
+    "en": "the owner of the pots must pay.",
+    "st": "<b>the owner of the pots is liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַקְּדֵרוֹת",
+      "en": "the pots"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הִכְנִיס בִּרְשׁוּת,",
+    "en": "And if he brought them in with permission,",
+    "st": "<b>But if</b> the potter <b>brought</b> them <b>inside with permission,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הִכְנִיס",
+      "en": "he brought in"
+     },
+     {
+      "he": "בִּרְשׁוּת,",
+      "en": "with permission"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל חָצֵר חַיָּב.",
+    "en": "the owner of the yard must pay.",
+    "st": "<b>the owner of the courtyard is liable</b> if his animal caused damage to the pots.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "חָצֵר",
+      "en": "yard"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "הִכְנִיס פֵּרוֹתָיו לַחֲצַר בַּעַל",
+    "en": "If he brought his fruit into the yard of",
+    "st": "Similarly, if someone <b>brought his produce into the</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִכְנִיס",
+      "en": "he brought in"
+     },
+     {
+      "he": "פֵּרוֹתָיו",
+      "en": "his fruit"
+     },
+     {
+      "he": "לַחֲצַר",
+      "en": "to the yard of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     }
+    ]
+   },
+   {
+    "he": "הַבַּיִת שֶׁלֹּא בִרְשׁוּת,",
+    "en": "the homeowner without permission,",
+    "st": "<b>homeowner’s courtyard without permission,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבַּיִת",
+      "en": "the house"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בִרְשׁוּת,",
+      "en": "with permission"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲכָלָתַן בְּהֶמְתּוֹ שֶׁל בַּעַל הַבַּיִת,",
+    "en": "and the homeowner's animal ate them,",
+    "st": "<b>and the homeowner’s animal ate them,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲכָלָתַן",
+      "en": "and it ate them"
+     },
+     {
+      "he": "בְּהֶמְתּוֹ",
+      "en": "his animal"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. וְאִם הֻזְּקָה בָהֶן,",
+    "en": "he does not pay. And if it got hurt by them,",
+    "st": "the homeowner is <b>exempt. If</b> his animal was <b>injured by them,</b> e.g., if it slipped on them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הֻזְּקָה",
+      "en": "it was hurt"
+     },
+     {
+      "he": "בָהֶן,",
+      "en": "by them"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל הַפֵּרוֹת חַיָּב.",
+    "en": "the owner of the fruit must pay.",
+    "st": "<b>the owner of the produce is liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַפֵּרוֹת",
+      "en": "the fruit"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הִכְנִיס בִּרְשׁוּת,",
+    "en": "And if he brought them in with permission,",
+    "st": "<b>But if he brought</b> his produce <b>inside with permission,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הִכְנִיס",
+      "en": "he brought in"
+     },
+     {
+      "he": "בִּרְשׁוּת,",
+      "en": "with permission"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל הֶחָצֵר חַיָּב:",
+    "en": "the owner of the yard must pay.",
+    "st": "<b>the owner of the courtyard is liable</b> for the damage caused by his animal to them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הֶחָצֵר",
+      "en": "the yard"
+     },
+     {
+      "he": "חַיָּב:",
+      "en": "obligated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 3,
+  "summary": "If someone brings his ox into another person's yard without permission, the yard owner does not pay if his animals hurt it, but the ox's owner pays for any damage it does. Rebbi says the yard owner pays only if he agreed to watch it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הִכְנִיס שׁוֹרוֹ לַחֲצַר בַּעַל",
+    "en": "If he brought his ox into the yard of",
+    "st": "Similarly, if one <b>brought his ox into the</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִכְנִיס",
+      "en": "he brought in"
+     },
+     {
+      "he": "שׁוֹרוֹ",
+      "en": "his ox"
+     },
+     {
+      "he": "לַחֲצַר",
+      "en": "to the yard of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     }
+    ]
+   },
+   {
+    "he": "הַבַּיִת שֶׁלֹּא בִרְשׁוּת,",
+    "en": "the homeowner without permission,",
+    "st": "<b>homeowner’s courtyard without permission,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבַּיִת",
+      "en": "the house"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "בִרְשׁוּת,",
+      "en": "with permission"
+     }
+    ]
+   },
+   {
+    "he": "וּנְגָחוֹ שׁוֹרוֹ שֶׁל בַּעַל הַבַּיִת,",
+    "en": "and the homeowner's ox gored it,",
+    "st": "<b>and the homeowner’s ox gored it</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּנְגָחוֹ",
+      "en": "and gored it"
+     },
+     {
+      "he": "שׁוֹרוֹ",
+      "en": "his ox"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁנְּשָׁכוֹ כַלְבּוֹ שֶׁל בַּעַל הַבַּיִת,",
+    "en": "or the homeowner's dog bit it,",
+    "st": "<b>or the homeowner’s dog bit it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁנְּשָׁכוֹ",
+      "en": "that bit it"
+     },
+     {
+      "he": "כַלְבּוֹ",
+      "en": "his dog"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. נָגַח הוּא שׁוֹרוֹ שֶׁל בַּעַל הַבַּיִת,",
+    "en": "he does not pay. If it gored the homeowner's ox,",
+    "st": "the homeowner is <b>exempt.</b> If it <b>gored the homeowner’s ox,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "נָגַח",
+      "en": "it gored"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "שׁוֹרוֹ",
+      "en": "the ox"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. נָפַל לְבוֹרוֹ וְהִבְאִישׁ מֵימָיו,",
+    "en": "he must pay. If it fell into his well and made its water bad,",
+    "st": "the owner of the goring ox is <b>liable.</b> Furthermore, if the ox that he brought into the courtyard without permission <b>fell into</b> the owner’s <b>pit and contaminated its water,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "נָפַל",
+      "en": "it fell"
+     },
+     {
+      "he": "לְבוֹרוֹ",
+      "en": "into his well"
+     },
+     {
+      "he": "וְהִבְאִישׁ",
+      "en": "and made smelly"
+     },
+     {
+      "he": "מֵימָיו,",
+      "en": "its water"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. הָיָה אָבִיו אוֹ בְנוֹ לְתוֹכוֹ,",
+    "en": "he must pay. If his father or his son was inside it,",
+    "explain": "And the person died from the ox falling on him.",
+    "st": "the owner of the ox is <b>liable</b> to pay compensation for despoiling the water. If the homeowner’s <b>father or son were inside</b> the pit at the time the ox fell and the person died as a result,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְנוֹ",
+      "en": "his son"
+     },
+     {
+      "he": "לְתוֹכוֹ,",
+      "en": "inside it"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם אֶת הַכֹּפֶר.",
+    "en": "he pays the kofer.",
+    "st": "the owner of the ox <b>pays the ransom.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּפֶר.",
+      "en": "the kofer"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הִכְנִיס בִּרְשׁוּת,",
+    "en": "And if he brought it in with permission,",
+    "st": "<b>But if he brought</b> the ox into the courtyard <b>with permission,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הִכְנִיס",
+      "en": "he brought in"
+     },
+     {
+      "he": "בִּרְשׁוּת,",
+      "en": "with permission"
+     }
+    ]
+   },
+   {
+    "he": "בַּעַל הֶחָצֵר חַיָּב.",
+    "en": "the owner of the yard must pay.",
+    "st": "<b>the owner of the courtyard is liable</b> for the damage caused.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הֶחָצֵר",
+      "en": "the yard"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אוֹמֵר,",
+    "en": "Rebbi says,",
+    "st": "<b>Rabbi</b> Yehuda HaNasi <b>says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rebbi",
+      "note": "Rabbi Yehuda HaNasi, who wrote down the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בְּכֻלָּן אֵינוֹ חַיָּב,",
+    "en": "In all of them he does not pay,",
+    "st": "The homeowner <b>is not liable in any</b> of the cases in the mishna, even if he gave his permission for the items to be brought into his premises,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּכֻלָּן",
+      "en": "in all of them"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּקַבֵּל עָלָיו לִשְׁמֹר:",
+    "en": "unless he agrees to watch them.",
+    "st": "<b>unless he</b> explicitly <b>accepts</b> responsibility <b>upon himself to safeguard</b> them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּקַבֵּל",
+      "en": "that he accepts"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "upon himself"
+     },
+     {
+      "he": "לִשְׁמֹר:",
+      "en": "to guard"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 4,
+  "summary": "If an ox hits a woman who is expecting a baby and she loses the baby, the owner does not pay; but a person who does this must pay. The Sages explain how this payment is figured out and who gets it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שׁוֹר שֶׁהָיָה מִתְכַּוֵּן לַחֲבֵרוֹ וְהִכָּה",
+    "en": "An ox that meant to hit another ox, and hit",
+    "st": "In the case of <b>an ox that was intending to</b> gore <b>another</b> ox <b>but struck</b> a pregnant",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "מִתְכַּוֵּן",
+      "en": "intending"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "for its friend"
+     },
+     {
+      "he": "וְהִכָּה",
+      "en": "and hit"
+     }
+    ]
+   },
+   {
+    "he": "אֶת הָאִשָּׁה וְיָצְאוּ יְלָדֶיהָ,",
+    "en": "a woman, and she lost the babies she was expecting,",
+    "st": "<b>woman, and her offspring,</b> i.e., the fetuses, <b>emerged</b> due to miscarriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "וְיָצְאוּ",
+      "en": "and came out"
+     },
+     {
+      "he": "יְלָדֶיהָ,",
+      "en": "her babies"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר מִדְּמֵי וְלָדוֹת.",
+    "en": "the owner does not pay for the babies.",
+    "st": "the owner of the ox is <b>exempt from</b> paying <b>compensation for</b> miscarried <b>offspring.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "exempt"
+     },
+     {
+      "he": "מִדְּמֵי",
+      "en": "from the money of"
+     },
+     {
+      "he": "וְלָדוֹת.",
+      "en": "babies"
+     }
+    ]
+   },
+   {
+    "he": "וְאָדָם שֶׁהָיָה מִתְכַּוֵּן לַחֲבֵרוֹ וְהִכָּה",
+    "en": "But a person who meant to hit his friend, and hit",
+    "st": "<b>But</b> in the case of <b>a person who was intending to</b> injure <b>another but struck</b> a pregnant <b>woman</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָדָם",
+      "en": "and a person"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "מִתְכַּוֵּן",
+      "en": "intending"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "for his friend"
+     },
+     {
+      "he": "וְהִכָּה",
+      "en": "and hit"
+     }
+    ]
+   },
+   {
+    "he": "אֶת הָאִשָּׁה וְיָצְאוּ יְלָדֶיהָ,",
+    "en": "a woman, and she lost the babies she was expecting,",
+    "st": "instead, <b>and her offspring emerged</b> due to miscarriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "וְיָצְאוּ",
+      "en": "and came out"
+     },
+     {
+      "he": "יְלָדֶיהָ,",
+      "en": "her babies"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם דְּמֵי וְלָדוֹת.",
+    "en": "must pay for the babies.",
+    "st": "<b>he pays compensation for</b> miscarried <b>offspring.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the money of"
+     },
+     {
+      "he": "וְלָדוֹת.",
+      "en": "babies"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד מְשַׁלֵּם דְּמֵי וְלָדוֹת,",
+    "en": "How does he pay for the babies?",
+    "st": "<b>How does he pay compensation for</b> miscarried <b>offspring,</b> i.e., how is their value assessed?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the money of"
+     },
+     {
+      "he": "וְלָדוֹת,",
+      "en": "babies"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמִין אֶת הָאִשָּׁה כַּמָּה הִיא",
+    "en": "They figure out how much the woman is",
+    "st": "The court <b>appraises</b> the value of <b>the woman</b> by calculating <b>how much she</b> would be",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמִין",
+      "en": "they estimate"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הִיא",
+      "en": "she"
+     }
+    ]
+   },
+   {
+    "he": "יָפָה עַד שֶׁלֹּא יָלְדָה וְכַמָּה",
+    "en": "worth before she gave birth, and how much",
+    "st": "<b>worth</b> if sold as a maidservant <b>before giving birth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָפָה",
+      "en": "worth"
+     },
+     {
+      "he": "עַד",
+      "en": "before"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "יָלְדָה",
+      "en": "she gave birth"
+     },
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     }
+    ]
+   },
+   {
+    "he": "הִיא יָפָה מִשֶּׁיָּלָדָה.",
+    "en": "she is worth after she gave birth.",
+    "st": "<b>and how much she</b> would be <b>worth after giving birth.</b>",
+    "stMore": "He then pays the difference in value to the woman’s husband.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "יָפָה",
+      "en": "worth"
+     },
+     {
+      "he": "מִשֶּׁיָּלָדָה.",
+      "en": "from when she gave birth"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל,",
+    "en": "Rabban Shimon ben Gamliel said,",
+    "st": "<b>Rabban Shimon ben Gamliel said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן,",
+    "en": "If so,",
+    "st": "<b>If so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן,",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁהָאִשָּׁה יוֹלֶדֶת,",
+    "en": "once a woman has given birth,",
+    "st": "the consequences would be absurd, as <b>when a woman gives birth</b> her value",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁהָאִשָּׁה",
+      "en": "from when the woman"
+     },
+     {
+      "he": "יוֹלֶדֶת,",
+      "en": "gives birth"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבַּחַת. אֶלָּא שָׁמִין אֶת הַוְּלָדוֹת",
+    "en": "she is worth more! Rather, they figure out the babies:",
+    "st": "<b>increases. Rather,</b> the court",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבַּחַת.",
+      "en": "she becomes better"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "שָׁמִין",
+      "en": "they estimate"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַוְּלָדוֹת",
+      "en": "the babies"
+     }
+    ]
+   },
+   {
+    "he": "כַּמָּה הֵן יָפִין,",
+    "en": "how much they are worth,",
+    "st": "<b>appraises how much the offspring are worth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "יָפִין,",
+      "en": "are worth"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתֵן לַבַּעַל.",
+    "en": "and he gives it to the husband.",
+    "st": "<b>and</b> the one liable for the damage <b>gives</b> that amount <b>to the husband.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and he gives"
+     },
+     {
+      "he": "לַבַּעַל.",
+      "en": "to the husband"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אֵין לָהּ בַּעַל,",
+    "en": "And if she has no husband,",
+    "st": "<b>And if she does not have a husband,</b> e.g., her husband died,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "בַּעַל,",
+      "en": "husband"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לְיוֹרְשָׁיו.",
+    "en": "he gives it to his heirs.",
+    "st": "he <b>gives</b> the money <b>to his heirs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לְיוֹרְשָׁיו.",
+      "en": "to his heirs"
+     }
+    ]
+   },
+   {
+    "he": "הָיְתָה שִׁפְחָה וְנִשְׁתַּחְרְרָה,",
+    "en": "If she was a maidservant who was set free,",
+    "st": "If the pregnant woman <b>was</b> a Canaanite <b>maidservant and</b> then <b>she was emancipated,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "she was"
+     },
+     {
+      "he": "שִׁפְחָה",
+      "en": "a maidservant"
+     },
+     {
+      "he": "וְנִשְׁתַּחְרְרָה,",
+      "en": "and was set free"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ גִיּוֹרֶת, פָּטוּר:",
+    "en": "or a giyores, he does not pay.",
+    "explain": "Her husband had no heirs to get the money.",
+    "st": "<b>or a convert,</b> and she was married to an emancipated Canaanite slave or to a convert who died without any heirs, the one who caused the damage is <b>exempt</b> from pay-ing compensation for miscarried offspring.",
+    "stMore": "This is because this payment is made specifically to the husband, not to the woman.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "גִיּוֹרֶת,",
+      "en": "a giyores",
+      "note": "A woman who became Jewish."
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "exempt"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 5,
+  "summary": "Someone who digs a pit where it can hurt others must pay if an animal falls in. A pit ten tefachim deep can kill; a smaller one only hurts.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַחוֹפֵר בּוֹר בִּרְשׁוּת הַיָּחִיד",
+    "en": "Someone who digs a pit on his own land",
+    "st": "<b>One who digs</b> part of <b>a pit on private property</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹפֵר",
+      "en": "the one who digs"
+     },
+     {
+      "he": "בּוֹר",
+      "en": "a pit"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הַיָּחִיד",
+      "en": "the individual"
+     }
+    ]
+   },
+   {
+    "he": "וּפְתָחוֹ לִרְשׁוּת הָרַבִּים,",
+    "en": "and opens it to the street,",
+    "st": "<b>and opens its</b> entrance <b>in the public domain,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפְתָחוֹ",
+      "en": "and opens it"
+     },
+     {
+      "he": "לִרְשׁוּת",
+      "en": "to the domain of"
+     },
+     {
+      "he": "הָרַבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ בִרְשׁוּת הָרַבִּים וּפְתָחוֹ לִרְשׁוּת הַיָּחִיד,",
+    "en": "or in the street and opens it to private land,",
+    "st": "<b>or</b> digs a pit <b>in the public domain and opens its</b> entrance <b>on private property,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בִרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הָרַבִּים",
+      "en": "the many"
+     },
+     {
+      "he": "וּפְתָחוֹ",
+      "en": "and opens it"
+     },
+     {
+      "he": "לִרְשׁוּת",
+      "en": "to the domain of"
+     },
+     {
+      "he": "הַיָּחִיד,",
+      "en": "the individual"
+     }
+    ]
+   },
+   {
+    "he": "בִּרְשׁוּת הַיָּחִיד וּפְתָחוֹ לִרְשׁוּת הַיָּחִיד אַחֵר,",
+    "en": "or on private land and opens it to another person's land,",
+    "st": "or digs a pit <b>on private property and opens its</b> entrance <b>on another</b> person’s <b>private property,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הַיָּחִיד",
+      "en": "the individual"
+     },
+     {
+      "he": "וּפְתָחוֹ",
+      "en": "and opens it"
+     },
+     {
+      "he": "לִרְשׁוּת",
+      "en": "to the domain of"
+     },
+     {
+      "he": "הַיָּחִיד",
+      "en": "the individual"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. הַחוֹפֵר בּוֹר בִּרְשׁוּת הָרַבִּים,",
+    "en": "must pay. Someone who digs a pit in the street,",
+    "st": "is <b>liable</b> for damage caused by the pit in each case. In the case of <b>one who digs a pit in the public domain</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "הַחוֹפֵר",
+      "en": "the one who digs"
+     },
+     {
+      "he": "בּוֹר",
+      "en": "a pit"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in the domain of"
+     },
+     {
+      "he": "הָרַבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "וְנָפַל לְתוֹכוֹ שׁוֹר אוֹ חֲמוֹר וָמֵת,",
+    "en": "and an ox or donkey fell into it and died,",
+    "st": "<b>and an ox or a donkey fell into it and died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָפַל",
+      "en": "and fell"
+     },
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "חֲמוֹר",
+      "en": "donkey"
+     },
+     {
+      "he": "וָמֵת,",
+      "en": "and died"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. אֶחָד הַחוֹפֵר בּוֹר,",
+    "en": "must pay. Whether one digs a pit,",
+    "st": "he is <b>liable.</b> The halakha is the <b>same</b> for <b>one who digs</b> either <b>a pit;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "the same"
+     },
+     {
+      "he": "הַחוֹפֵר",
+      "en": "the one who digs"
+     },
+     {
+      "he": "בּוֹר,",
+      "en": "a pit"
+     }
+    ]
+   },
+   {
+    "he": "שִׁיחַ וּמְעָרָה,",
+    "en": "a ditch, or a cave,",
+    "st": "<b>a ditch,</b> which is narrow and long; <b>or a cave,</b> which is rectangular and roofed;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁיחַ",
+      "en": "a ditch"
+     },
+     {
+      "he": "וּמְעָרָה,",
+      "en": "and a cave"
+     }
+    ]
+   },
+   {
+    "he": "חֲרִיצִין וּנְעִיצִין,",
+    "en": "trenches or water channels,",
+    "st": "<b>trenches and</b> water <b>channels.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲרִיצִין",
+      "en": "trenches"
+     },
+     {
+      "he": "וּנְעִיצִין,",
+      "en": "and water channels"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. אִם כֵּן,",
+    "en": "he must pay. If so,",
+    "st": "In all these cases he is <b>liable. If so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן,",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "לָמָּה נֶאֱמַר בּוֹר,",
+    "en": "why does the Torah say \"pit\"?",
+    "st": "<b>why is</b> the verse <b>stated</b> as referring to <b>a pit,</b> as it states: “And if a man shall open a pit” (Exodus 21:33)?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָמָּה",
+      "en": "why"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "is it said"
+     },
+     {
+      "he": "בּוֹר,",
+      "en": "pit"
+     }
+    ]
+   },
+   {
+    "he": "מַה בּוֹר שֶׁיֶּשׁ בּוֹ כְדֵי לְהָמִית,",
+    "en": "Just as a pit that can kill",
+    "st": "To teach that <b>just as a pit that has sufficient</b> depth <b>to cause death</b> when falling into it is at least",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "בּוֹר",
+      "en": "a pit"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כְדֵי",
+      "en": "enough"
+     },
+     {
+      "he": "לְהָמִית,",
+      "en": "to kill"
+     }
+    ]
+   },
+   {
+    "he": "עֲשָׂרָה טְפָחִים,",
+    "en": "is ten tefachim deep,",
+    "st": "<b>ten handbreadths</b> deep,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲשָׂרָה",
+      "en": "ten"
+     },
+     {
+      "he": "טְפָחִים,",
+      "en": "tefachim",
+      "note": "A tefach is a handbreadth, about the width of a hand."
+     }
+    ]
+   },
+   {
+    "he": "אַף כֹּל שֶׁיֶּשׁ בּוֹ כְדֵי לְהָמִית,",
+    "en": "so too anything that can kill",
+    "st": "<b>so too, any</b> other excavations <b>that have sufficient</b> depth <b>to cause death</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "כֹּל",
+      "en": "anything"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כְדֵי",
+      "en": "enough"
+     },
+     {
+      "he": "לְהָמִית,",
+      "en": "to kill"
+     }
+    ]
+   },
+   {
+    "he": "עֲשָׂרָה טְפָחִים.",
+    "en": "is ten tefachim deep.",
+    "st": "may be no less than <b>ten handbreadths.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲשָׂרָה",
+      "en": "ten"
+     },
+     {
+      "he": "טְפָחִים.",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ פְחוּתִין מֵעֲשָׂרָה טְפָחִים,",
+    "en": "If they were less than ten tefachim,",
+    "st": "If any of the types of excavations <b>were less than ten handbreadths</b> deep,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "פְחוּתִין",
+      "en": "less"
+     },
+     {
+      "he": "מֵעֲשָׂרָה",
+      "en": "than ten"
+     },
+     {
+      "he": "טְפָחִים,",
+      "en": "tefachim"
+     }
+    ]
+   },
+   {
+    "he": "וְנָפַל לְתוֹכוֹ שׁוֹר אוֹ חֲמוֹר וָמֵת,",
+    "en": "and an ox or donkey fell into it and died,",
+    "st": "<b>and an ox or a donkey fell into</b> one of <b>them and died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָפַל",
+      "en": "and fell"
+     },
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "חֲמוֹר",
+      "en": "donkey"
+     },
+     {
+      "he": "וָמֵת,",
+      "en": "and died"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. וְאִם הֻזַּק בּוֹ, חַיָּב:",
+    "en": "he does not pay. But if it got hurt in it, he must pay.",
+    "st": "the digger of the excavation is <b>exempt. But if it was injured in it,</b> not killed, he is <b>liable</b> to pay damages.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הֻזַּק",
+      "en": "it was hurt"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "in it"
+     },
+     {
+      "he": "חַיָּב:",
+      "en": "obligated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 6,
+  "summary": "Rules about who must pay when an animal falls into an uncovered pit: partners, a pit covered well or not, an animal scared by digging, and what kinds of things the pit owner pays for.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בּוֹר שֶׁל שְׁנֵי שֻׁתָּפִין,",
+    "en": "A pit of two partners:",
+    "st": "If <b>a pit belonging to two partners</b> was uncovered and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹר",
+      "en": "a pit"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "שֻׁתָּפִין,",
+      "en": "partners"
+     }
+    ]
+   },
+   {
+    "he": "עָבַר עָלָיו הָרִאשׁוֹן וְלֹא כִסָּהוּ,",
+    "en": "the first walked past and did not cover it,",
+    "st": "<b>the first</b> partner <b>passed by it and did not cover it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָבַר",
+      "en": "passed"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "by it"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "כִסָּהוּ,",
+      "en": "cover it"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשֵּׁנִי וְלֹא כִסָּהוּ,",
+    "en": "and the second did not cover it either:",
+    "st": "<b>and</b> then <b>the second</b> passed by it <b>and did not cover it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשֵּׁנִי",
+      "en": "and the second"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "כִסָּהוּ,",
+      "en": "cover it"
+     }
+    ]
+   },
+   {
+    "he": "הַשֵּׁנִי חַיָּב.",
+    "en": "the second one must pay.",
+    "st": "<b>the second</b> is <b>liable</b> for any damage caused by means of the pit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשֵּׁנִי",
+      "en": "the second"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "כִּסָּהוּ הָרִאשׁוֹן,",
+    "en": "If the first one covered it,",
+    "st": "The mishna lists several halakhot that pertain to damage classified as Pit: In the case of a pit that <b>the first</b> person who passed by <b>covered</b> after using <b>it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּסָּהוּ",
+      "en": "covered it"
+     },
+     {
+      "he": "הָרִאשׁוֹן,",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "וּבָא הַשֵּׁנִי וּמְצָאוֹ מְגֻלֶּה וְלֹא כִסָּהוּ,",
+    "en": "and the second came and found it open and did not cover it,",
+    "st": "<b>and</b> then <b>the second came</b> to use it <b>and found it uncovered</b> after the cover fell off or was damaged, <b>and</b> he <b>did not cover it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "הַשֵּׁנִי",
+      "en": "the second"
+     },
+     {
+      "he": "וּמְצָאוֹ",
+      "en": "and found it"
+     },
+     {
+      "he": "מְגֻלֶּה",
+      "en": "uncovered"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "כִסָּהוּ,",
+      "en": "cover it"
+     }
+    ]
+   },
+   {
+    "he": "הַשֵּׁנִי חַיָּב.",
+    "en": "the second one must pay.",
+    "st": "<b>the second</b> one is <b>liable</b> for damage caused by the pit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשֵּׁנִי",
+      "en": "the second"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "כִּסָּהוּ כָרָאוּי,",
+    "en": "If he covered it properly,",
+    "st": "If the owner <b>covered</b> the pit <b>appropriately</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּסָּהוּ",
+      "en": "he covered it"
+     },
+     {
+      "he": "כָרָאוּי,",
+      "en": "properly"
+     }
+    ]
+   },
+   {
+    "he": "וְנָפַל לְתוֹכוֹ שׁוֹר אוֹ חֲמוֹר וָמֵת,",
+    "en": "and an ox or donkey fell into it and died,",
+    "st": "<b>and an ox or a donkey fell into it and died,</b> he is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָפַל",
+      "en": "and fell"
+     },
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "חֲמוֹר",
+      "en": "donkey"
+     },
+     {
+      "he": "וָמֵת,",
+      "en": "and died"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. לֹא כִסָּהוּ כָרָאוּי,",
+    "en": "he does not pay. If he did not cover it properly,",
+    "st": "<b>exempt.</b> If he <b>did not cover</b> the pit <b>appropriately</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כִסָּהוּ",
+      "en": "he covered it"
+     },
+     {
+      "he": "כָרָאוּי,",
+      "en": "properly"
+     }
+    ]
+   },
+   {
+    "he": "וְנָפַל לְתוֹכוֹ שׁוֹר אוֹ חֲמוֹר וָמֵת,",
+    "en": "and an ox or donkey fell into it and died,",
+    "st": "<b>and an ox or a donkey fell into it and died,</b> he is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָפַל",
+      "en": "and fell"
+     },
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "חֲמוֹר",
+      "en": "donkey"
+     },
+     {
+      "he": "וָמֵת,",
+      "en": "and died"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. נָפַל לְפָנָיו מִקּוֹל הַכְּרִיָּה,",
+    "en": "he must pay. If it fell forward from the sound of the digging,",
+    "st": "<b>liable.</b> If a man was digging or widening a pit, and an ox passing by <b>fell forward</b> into it in fright <b>due to the sound</b> of <b>the digging,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "נָפַל",
+      "en": "it fell"
+     },
+     {
+      "he": "לְפָנָיו",
+      "en": "before it"
+     },
+     {
+      "he": "מִקּוֹל",
+      "en": "from the sound of"
+     },
+     {
+      "he": "הַכְּרִיָּה,",
+      "en": "the digging"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. לְאַחֲרָיו מִקּוֹל הַכְּרִיָּה,",
+    "en": "he must pay. Backward from the sound of the digging,",
+    "st": "he is <b>liable.</b> If it fell <b>backward</b> into the pit <b>due to the sound</b> of <b>the digging,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "לְאַחֲרָיו",
+      "en": "behind it"
+     },
+     {
+      "he": "מִקּוֹל",
+      "en": "from the sound of"
+     },
+     {
+      "he": "הַכְּרִיָּה,",
+      "en": "the digging"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. נָפַל לְתוֹכוֹ שׁוֹר וְכֵלָיו וְנִשְׁתַּבְּרוּ,",
+    "en": "he does not pay. If an ox and its things fell into it and broke,",
+    "st": "he is <b>exempt.</b> If <b>an ox and its accoutrements,</b> i.e., the vessels it was carrying, <b>fell into</b> the pit <b>and</b> the vessels <b>were broken,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "נָפַל",
+      "en": "fell"
+     },
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "וְכֵלָיו",
+      "en": "and its things"
+     },
+     {
+      "he": "וְנִשְׁתַּבְּרוּ,",
+      "en": "and they broke"
+     }
+    ]
+   },
+   {
+    "he": "חֲמוֹר וְכֵלָיו וְנִתְקָרְעוּ,",
+    "en": "or a donkey and its things, and they tore,",
+    "st": "or if <b>a donkey and its accoutrements</b> fell in <b>and</b> the accoutrements <b>were torn,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲמוֹר",
+      "en": "a donkey"
+     },
+     {
+      "he": "וְכֵלָיו",
+      "en": "and its things"
+     },
+     {
+      "he": "וְנִתְקָרְעוּ,",
+      "en": "and they tore"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל הַבְּהֵמָה וּפָטוּר עַל הַכֵּלִים.",
+    "en": "he pays for the animal but not for the things.",
+    "st": "the owner of the pit is <b>liable for</b> damage to <b>the animal</b> caused by the pit, <b>but</b> he is <b>exempt</b> from liability <b>for</b> damage caused to <b>the vessels,</b>",
+    "stMore": "by Torah edict.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַבְּהֵמָה",
+      "en": "the animal"
+     },
+     {
+      "he": "וּפָטוּר",
+      "en": "and exempt"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַכֵּלִים.",
+      "en": "the things"
+     }
+    ]
+   },
+   {
+    "he": "נָפַל לְתוֹכוֹ שׁוֹר חֵרֵשׁ,",
+    "en": "If an ox that was deaf fell into it,",
+    "st": "If <b>an ox</b> that was impaired by being <b>deaf,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָפַל",
+      "en": "fell"
+     },
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "חֵרֵשׁ,",
+      "en": "deaf"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹטֶה וְקָטָן,",
+    "en": "or not of sound mind, or very young,",
+    "st": "or an ox that was <b>an imbecile, or</b> an ox that was very <b>young fell into</b> the pit,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹטֶה",
+      "en": "not of sound mind"
+     },
+     {
+      "he": "וְקָטָן,",
+      "en": "and young"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. בֵּן אוֹ בַת,",
+    "en": "he must pay. A boy or a girl,",
+    "st": "he is <b>liable.</b> If <b>a boy or a girl,</b> a Canaanite",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "בֵּן",
+      "en": "a son"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בַת,",
+      "en": "a daughter"
+     }
+    ]
+   },
+   {
+    "he": "עֶבֶד אוֹ אָמָה, פָּטוּר:",
+    "en": "a servant or maidservant: he does not pay.",
+    "explain": "The Torah says the pit owner pays only for animals.",
+    "st": "<b>slave or</b> a Canaanite <b>maidservant</b> fell in, he is <b>exempt,</b>",
+    "stMore": "since there is a Torah edict that the digger of a pit is liable only for damage caused to an animal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֶבֶד",
+      "en": "a servant"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָמָה,",
+      "en": "a maidservant"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "exempt"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 5,
+  "mishnah": 7,
+  "summary": "The Torah often says \"ox\" or \"donkey,\" but the same rules work for all animals and birds. The Torah just talks about what is most common.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֶחָד שׁוֹר וְאֶחָד כָּל",
+    "en": "The rules are the same for an ox and for every",
+    "st": "The halakha is the same <b>whether</b> concerning <b>an ox or whether</b> concerning <b>any</b> other",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "the same"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "ox"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and the same"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     }
+    ]
+   },
+   {
+    "he": "בְּהֵמָה לִנְפִילַת הַבּוֹר,",
+    "en": "animal, for falling into a pit,",
+    "st": "<b>animal with regard to</b> liability for <b>falling</b> into <b>a pit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּהֵמָה",
+      "en": "animal"
+     },
+     {
+      "he": "לִנְפִילַת",
+      "en": "for falling into"
+     },
+     {
+      "he": "הַבּוֹר,",
+      "en": "the pit"
+     }
+    ]
+   },
+   {
+    "he": "וּלְהַפְרָשַׁת הַר סִינַי,",
+    "en": "for staying away from Har Sinai,",
+    "st": "<b>and with regard to</b> keeping its <b>distance</b> from <b>Mount Sinai</b> at the time of the receiving of the Torah, when it was forbidden for any animal to ascend the mountain,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְהַפְרָשַׁת",
+      "en": "and for keeping away from"
+     },
+     {
+      "he": "הַר",
+      "en": "Mount"
+     },
+     {
+      "he": "סִינַי,",
+      "en": "Sinai"
+     }
+    ]
+   },
+   {
+    "he": "וּלְתַשְׁלוּמֵי כֶפֶל,",
+    "en": "for paying double,",
+    "explain": "A thief pays back double.",
+    "st": "<b>and with regard to the payment of double</b> the principal by a thief,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְתַשְׁלוּמֵי",
+      "en": "and for payments of"
+     },
+     {
+      "he": "כֶפֶל,",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "וְלַהֲשָׁבַת אֲבֵדָה,",
+    "en": "for returning a lost thing,",
+    "st": "<b>and with regard to</b> the mitzva of <b>returning a lost item,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלַהֲשָׁבַת",
+      "en": "and for returning"
+     },
+     {
+      "he": "אֲבֵדָה,",
+      "en": "a lost thing"
+     }
+    ]
+   },
+   {
+    "he": "לִפְרִיקָה, לַחֲסִימָה,",
+    "en": "for unloading its burden, for muzzling,",
+    "explain": "It is forbidden to muzzle an animal while it works with grain.",
+    "st": "<b>and with regard to unloading</b> its burden, and <b>with regard to</b> the prohibition of <b>muzzling</b> it while threshing,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִפְרִיקָה,",
+      "en": "for unloading"
+     },
+     {
+      "he": "לַחֲסִימָה,",
+      "en": "for muzzling"
+     }
+    ]
+   },
+   {
+    "he": "לְכִלְאַיִם, וּלְשַׁבָּת.",
+    "en": "for kilayim, and for Shabbos.",
+    "st": "and <b>with regard to</b> the prohibition of <b>diverse kinds, and with regard to</b> the prohibition against its working on <b>Shabbat.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְכִלְאַיִם,",
+      "en": "for kilayim",
+      "note": "Mixing different kinds, like plowing with an ox and a donkey together."
+     },
+     {
+      "he": "וּלְשַׁבָּת.",
+      "en": "and for Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן חַיָּה וָעוֹף כַּיּוֹצֵא בָהֶן.",
+    "en": "And so too wild animals and birds are like them.",
+    "st": "<b>And similarly, undomesticated animals and birds</b> are subject to the same halakhot <b>as</b> domesticated animals.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so too"
+     },
+     {
+      "he": "חַיָּה",
+      "en": "wild animal"
+     },
+     {
+      "he": "וָעוֹף",
+      "en": "and bird"
+     },
+     {
+      "he": "כַּיּוֹצֵא",
+      "en": "like"
+     },
+     {
+      "he": "בָהֶן.",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן,",
+    "en": "If so,",
+    "st": "<b>If so,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן,",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "לָמָּה נֶאֱמַר שׁוֹר אוֹ חֲמוֹר.",
+    "en": "why does it say \"ox or donkey\"?",
+    "st": "why <b>are</b> all of the above halakhot <b>stated</b> in the Torah only in reference to <b>an ox or a donkey?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָמָּה",
+      "en": "why"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "is it said"
+     },
+     {
+      "he": "שׁוֹר",
+      "en": "ox"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "חֲמוֹר.",
+      "en": "donkey"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שֶׁדִּבֵּר הַכָּתוּב בַּהֹוֶה:",
+    "en": "Only because the Torah speaks about what is common.",
+    "st": "<b>Rather,</b> the reason is <b>that the verse speaks of a common</b> scenario, from which the other cases may be derived.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "שֶׁדִּבֵּר",
+      "en": "that spoke"
+     },
+     {
+      "he": "הַכָּתוּב",
+      "en": "the verse"
+     },
+     {
+      "he": "בַּהֹוֶה:",
+      "en": "of the common case"
+     }
+    ]
+   }
+  ]
+ }
+]

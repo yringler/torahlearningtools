@@ -1,0 +1,1757 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "Two nazirs were told that one of them became tamei, but nobody knows which one. The mishnah teaches how they bring korbanos together so each one brings what he needs, what to do if one of them dies, and Ben Zoma's simpler way.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁנֵי נְזִירִים שֶׁאָמַר לָהֶן אֶחָד,",
+    "en": "Two nazirs, and someone said to them,",
+    "st": "With regard to <b>two nazirites, where one</b> other person <b>said to them: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "נְזִירִים",
+      "en": "nazirs"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "that said"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "רָאִיתִי אֶחָד מִכֶּם שֶׁנִּטְמָא",
+    "en": "\"I saw one of you become tamei,",
+    "st": "<b>I saw one of you become impure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאִיתִי",
+      "en": "I saw"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִכֶּם",
+      "en": "of you"
+     },
+     {
+      "he": "שֶׁנִּטְמָא",
+      "en": "that became tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינִי יוֹדֵעַ אֵיזֶה מִכֶּם,",
+    "en": "but I don't know which of you\":",
+    "st": "<b>but I do not know which</b> one <b>of you</b> it was,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינִי",
+      "en": "and I do not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "אֵיזֶה",
+      "en": "which"
+     },
+     {
+      "he": "מִכֶּם,",
+      "en": "of you"
+     }
+    ]
+   },
+   {
+    "he": "מְגַלְּחִין וּמְבִיאִין קָרְבַּן טֻמְאָה וְקָרְבַּן טָהֳרָה,",
+    "en": "they shave and bring a korban of tumah and a korban of taharah.",
+    "explain": "They bring them together, because no one knows who is tamei.",
+    "st": "they must each complete their naziriteship terms, <b>shave</b> their hair, <b>and</b> both together <b>bring an offering of ritual impurity and an offering of purity,</b> due to the uncertainty.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגַלְּחִין",
+      "en": "they shave"
+     },
+     {
+      "he": "וּמְבִיאִין",
+      "en": "and they bring"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טָהֳרָה,",
+      "en": "taharah"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר, אִם אֲנִי הוּא הַטָּמֵא,",
+    "en": "And one says, \"If I am the tamei one,",
+    "st": "<b>And</b> one of them <b>says</b> to the other: <b>If I am</b> the <b>impure</b> one,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and he says"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "הוּא",
+      "en": "am"
+     },
+     {
+      "he": "הַטָּמֵא,",
+      "en": "the tamei one"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבַּן טֻמְאָה שֶׁלִּי וְקָרְבַּן טָהֳרָה שֶׁלְּךָ.",
+    "en": "the korban of tumah is mine and the korban of taharah is yours.",
+    "st": "<b>the offering of impurity is mine and the offering of purity is yours; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     },
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁלְּךָ.",
+      "en": "is yours"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אֲנִי הוּא הַטָּהוֹר,",
+    "en": "And if I am the tahor one,",
+    "st": "<b>and if I am</b> the <b>pure</b> one,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "הוּא",
+      "en": "am"
+     },
+     {
+      "he": "הַטָּהוֹר,",
+      "en": "the tahor one"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבַּן טָהֳרָה שֶׁלִּי וְקָרְבַּן טֻמְאָה שֶׁלְּךָ.",
+    "en": "the korban of taharah is mine and the korban of tumah is yours.\"",
+    "st": "<b>the offering of purity is mine and the offering of impurity is yours. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     },
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "שֶׁלְּךָ.",
+      "en": "is yours"
+     }
+    ]
+   },
+   {
+    "he": "וְסוֹפְרִין שְׁלשִׁים יוֹם,",
+    "en": "Then they count thirty days",
+    "st": "<b>And</b> because of the uncertainty <b>they</b> each <b>count</b> a further <b>thirty days</b> of naziriteship",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְסוֹפְרִין",
+      "en": "and they count"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וּמְבִיאִין קָרְבַּן טָהֳרָה,",
+    "en": "and bring a korban of taharah,",
+    "st": "<b>and</b> both together <b>bring an offering of purity. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְבִיאִין",
+      "en": "and they bring"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָה,",
+      "en": "taharah"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר, אִם אֲנִי הוּא הַטָּמֵא,",
+    "en": "and one says, \"If I am the tamei one,",
+    "st": "<b>And</b> one of them <b>says: If I am the</b> previously <b>impure one,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and he says"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "הוּא",
+      "en": "am"
+     },
+     {
+      "he": "הַטָּמֵא,",
+      "en": "the tamei one"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבַּן טֻמְאָה שֶׁלִּי",
+    "en": "the korban of tumah was mine,",
+    "st": "that <b>offering of impurity</b> sacrificed earlier was <b>mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְקָרְבַּן טָהֳרָה שֶׁלְּךָ",
+    "en": "and the korban of taharah was yours,",
+    "st": "<b>and the offering of purity</b> was <b>yours; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁלְּךָ",
+      "en": "is yours"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה קָרְבַּן טָהֳרָתִי.",
+    "en": "and this is my korban of taharah.",
+    "st": "<b>and this</b> offering sacrificed now <b>is my offering of purity. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this is"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָתִי.",
+      "en": "my taharah"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אֲנִי הוּא הַטָּהוֹר,",
+    "en": "And if I am the tahor one,",
+    "st": "<b>And if I am the</b> previously <b>pure one, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "הוּא",
+      "en": "am"
+     },
+     {
+      "he": "הַטָּהוֹר,",
+      "en": "the tahor one"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבַּן טָהֳרָה שֶׁלִּי",
+    "en": "the korban of taharah was mine,",
+    "st": "<b>the offering of purity</b> brought earlier was <b>mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְקָרְבַּן טֻמְאָה שֶׁלְּךָ",
+    "en": "and the korban of tumah was yours,",
+    "st": "<b>and the offering of impurity</b> was <b>yours; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "שֶׁלְּךָ",
+      "en": "is yours"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה קָרְבַּן טָהֳרָתְךָ.",
+    "en": "and this is your korban of taharah.\"",
+    "st": "<b>and this</b> current offering <b>is your offering of purity.</b>",
+    "stMore": "The previous mishna described how two nazirites sacrifice offerings of impurity and purity, in a situation in which one of them has become impure but they do not know which one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this is"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָתְךָ.",
+      "en": "your taharah"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אֶחָד מֵהֶן,",
+    "en": "If one of them died,",
+    "st": "This mishna discusses what must be done if <b>one of them dies</b> before bringing his offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said,",
+    "st": "<b>Rabbi Yehoshua said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "יְבַקֵּשׁ אֶחָד מִן הַשּׁוּק",
+    "en": "he should ask someone from the marketplace",
+    "st": "The surviving nazirite <b>asks someone in the marketplace,</b> a non-nazirite,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְבַקֵּשׁ",
+      "en": "he should ask"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשּׁוּק",
+      "en": "the marketplace"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיִּדֹּר כְּנֶגְדּוֹ בְנָזִיר,",
+    "en": "to promise to be a nazir together with him,",
+    "st": "<b>to vow to be a nazirite corresponding to him,</b>",
+    "stMore": "i.e., under the same conditions as his own naziriteship, so that he can bring offerings together with him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיִּדֹּר",
+      "en": "that he will vow"
+     },
+     {
+      "he": "כְּנֶגְדּוֹ",
+      "en": "together with him"
+     },
+     {
+      "he": "בְנָזִיר,",
+      "en": "as a nazir"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר, אִם טָמֵא הָיִיתִי,",
+    "en": "and he says, \"If I was tamei,",
+    "st": "<b>And he says</b> to him as follows: <b>If I was impure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and he says"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "הָיִיתִי,",
+      "en": "I was"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אַתָּה נָזִיר מִיָּד.",
+    "en": "you are a nazir right away.",
+    "st": "<b>you are hereby a nazirite immediately; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you are"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "מִיָּד.",
+      "en": "right away"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם טָהוֹר הָיִיתִי,",
+    "en": "And if I was tahor,",
+    "st": "<b>and if I was pure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "הָיִיתִי,",
+      "en": "I was"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אַתָּה נָזִיר אַחַר שְׁלשִׁים יוֹם.",
+    "en": "you are a nazir after thirty days.\"",
+    "st": "<b>you are hereby a nazirite after thirty days. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you are"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם.",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וְסוֹפְרִין שְׁלשִׁים יוֹם,",
+    "en": "They count thirty days",
+    "st": "<b>And they</b> both proceed to <b>count thirty days </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְסוֹפְרִין",
+      "en": "and they count"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וּמְבִיאִין קָרְבַּן טֻמְאָה וְקָרְבַּן טָהֳרָה,",
+    "en": "and bring a korban of tumah and a korban of taharah,",
+    "st": "<b>and bring an offering of impurity and an offering of purity. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְבִיאִין",
+      "en": "and they bring"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טָהֳרָה,",
+      "en": "taharah"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר, אִם אֲנִי הוּא הַטָּמֵא,",
+    "en": "and he says, \"If I am the tamei one,",
+    "st": "<b>And</b> the nazirite who was defined as having uncertain impurity <b>says: If I am the impure</b> one,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and he says"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "הוּא",
+      "en": "am"
+     },
+     {
+      "he": "הַטָּמֵא,",
+      "en": "the tamei one"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבַּן טֻמְאָה שֶׁלִּי וְקָרְבַּן טָהֳרָה שֶׁלְּךְ.",
+    "en": "the korban of tumah is mine and the korban of taharah is yours.",
+    "st": "<b>the offering of impurity is mine and the offering of purity is yours; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     },
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁלְּךְ.",
+      "en": "is yours"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אֲנִי הוּא הַטָּהוֹר,",
+    "en": "And if I am the tahor one,",
+    "st": "<b>and if I am the pure one, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "הוּא",
+      "en": "am"
+     },
+     {
+      "he": "הַטָּהוֹר,",
+      "en": "the tahor one"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבַּן טָהֳרָה שֶׁלִּי וְקָרְבַּן טֻמְאָה בְּסָפֵק.",
+    "en": "the korban of taharah is mine, and the korban of tumah is a \"maybe.\"",
+    "explain": "Maybe he was tahor, and the friend who died was the tamei one.",
+    "st": "<b>the offering of purity is mine and the offering of impurity</b> we brought shall be <b>of uncertain</b> status.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     },
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "בְּסָפֵק.",
+      "en": "in doubt"
+     }
+    ]
+   },
+   {
+    "he": "וְסוֹפְרִין שְׁלשִׁים יוֹם וּמְבִיאִין קָרְבַּן טָהֳרָה,",
+    "en": "Then they count thirty days and bring a korban of taharah,",
+    "st": "<b>And they</b> subsequently <b>count</b> another <b>thirty days and bring an offering of purity, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְסוֹפְרִין",
+      "en": "and they count"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם",
+      "en": "days"
+     },
+     {
+      "he": "וּמְבִיאִין",
+      "en": "and they bring"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָה,",
+      "en": "taharah"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר, אִם אֲנִי הוּא הַטָּמֵא,",
+    "en": "and he says, \"If I am the tamei one,",
+    "st": "<b>and</b> the first nazirite <b>says: If I</b> was <b>the impure</b> one,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and he says"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "הוּא",
+      "en": "am"
+     },
+     {
+      "he": "הַטָּמֵא,",
+      "en": "the tamei one"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבַּן טֻמְאָה שֶׁלִּי",
+    "en": "the korban of tumah was mine,",
+    "st": "<b>the offering of impurity</b> that we sacrificed at the end of the first thirty days was <b>mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְקָרְבַּן טָהֳרָה שֶׁלְּךָ",
+    "en": "and the korban of taharah was yours,",
+    "st": "<b>and the offering of purity</b> we brought then was <b>yours; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁלְּךָ",
+      "en": "is yours"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה קָרְבַּן טָהֳרָתִי.",
+    "en": "and this is my korban of taharah.",
+    "st": "<b>and this</b> offering I am bringing now is <b>my offering of purity. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this is"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָתִי.",
+      "en": "my taharah"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אֲנִי הוּא הַטָּהוֹר,",
+    "en": "And if I am the tahor one,",
+    "st": "<b>And if I</b> was <b>the pure</b> one, and the deceased nazirite was impure,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "הוּא",
+      "en": "am"
+     },
+     {
+      "he": "הַטָּהוֹר,",
+      "en": "the tahor one"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבַּן טָהֳרָה שֶׁלִּי",
+    "en": "the korban of taharah was mine,",
+    "st": "<b>the offering of purity</b> we brought thirty days ago was <b>mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְקָרְבַּן טֻמְאָה בְּסָפֵק",
+    "en": "and the korban of tumah was a \"maybe,\"",
+    "st": "<b>and the offering of impurity</b> we brought earlier was <b>of uncertain</b> status,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקָרְבַּן",
+      "en": "and the korban of"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "בְּסָפֵק",
+      "en": "in doubt"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶהוּ קָרְבַּן טָהֳרָתְךָ.",
+    "en": "and this is your korban of taharah.\"",
+    "st": "<b>and this is your offering of purity. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶהוּ",
+      "en": "and this is"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָתְךָ.",
+      "en": "your taharah"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ בֶן זוֹמָא,",
+    "en": "Ben Zoma said to him,",
+    "st": "<b>Ben Zoma said to</b> Rabbi Yehoshua:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בֶן",
+      "en": "Ben"
+     },
+     {
+      "he": "זוֹמָא,",
+      "en": "Zoma"
+     }
+    ]
+   },
+   {
+    "he": "וּמִי שׁוֹמֵעַ לוֹ שֶׁיִּדֹּר כְּנֶגְדּוֹ בְנָזִיר.",
+    "en": "\"And who will listen to him and promise to be a nazir together with him?",
+    "st": "<b>And who will listen to him to vow to be a nazirite corresponding to him?</b>",
+    "stMore": "How can one design a halakha on the assumption that a non-nazirite will agree to be a nazirite for a lengthy term?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִי",
+      "en": "and who"
+     },
+     {
+      "he": "שׁוֹמֵעַ",
+      "en": "listens"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "שֶׁיִּדֹּר",
+      "en": "that he will vow"
+     },
+     {
+      "he": "כְּנֶגְדּוֹ",
+      "en": "together with him"
+     },
+     {
+      "he": "בְנָזִיר.",
+      "en": "as a nazir"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מֵבִיא חַטַּאת הָעוֹף וְעוֹלַת בְּהֵמָה,",
+    "en": "Rather, he brings a bird chatas and an animal olah,",
+    "st": "<b>Rather,</b> a different procedure is available: After thirty days of naziriteship <b>he brings a bird sin-offering and an animal burnt-offering, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "he brings"
+     },
+     {
+      "he": "חַטַּאת",
+      "en": "a chatas of"
+     },
+     {
+      "he": "הָעוֹף",
+      "en": "the bird"
+     },
+     {
+      "he": "וְעוֹלַת",
+      "en": "and an olah of"
+     },
+     {
+      "he": "בְּהֵמָה,",
+      "en": "an animal"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר, אִם טָמֵא הָיִיתִי,",
+    "en": "and says, 'If I was tamei,",
+    "st": "<b>and says: If I was impure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and he says"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "הָיִיתִי,",
+      "en": "I was"
+     }
+    ]
+   },
+   {
+    "he": "הַחַטָּאת מֵחוֹבָתִי וְהָעוֹלָה נְדָבָה.",
+    "en": "the chatas is what I owe, and the olah is a gift.",
+    "st": "<b>the sin-offering is for my obligation</b> as an impure nazirite, <b>and the burnt-offering</b> is a regular <b>gift</b> offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחַטָּאת",
+      "en": "the chatas"
+     },
+     {
+      "he": "מֵחוֹבָתִי",
+      "en": "is from my duty"
+     },
+     {
+      "he": "וְהָעוֹלָה",
+      "en": "and the olah"
+     },
+     {
+      "he": "נְדָבָה.",
+      "en": "is a gift"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם טָהוֹר הָיִיתִי,",
+    "en": "And if I was tahor,",
+    "st": "<b>And if I was pure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "הָיִיתִי,",
+      "en": "I was"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹלָה מֵחוֹבָתִי וְהַחַטָּאת בְּסָפֵק.",
+    "en": "the olah is what I owe, and the chatas is a maybe.'",
+    "st": "<b>the burnt-offering is for my obligation</b> as a pure nazirite, <b>and the sin-offering</b> is <b>of uncertain</b> status.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹלָה",
+      "en": "the olah"
+     },
+     {
+      "he": "מֵחוֹבָתִי",
+      "en": "is from my duty"
+     },
+     {
+      "he": "וְהַחַטָּאת",
+      "en": "and the chatas"
+     },
+     {
+      "he": "בְּסָפֵק.",
+      "en": "in doubt"
+     }
+    ]
+   },
+   {
+    "he": "וְסוֹפֵר שְׁלשִׁים יוֹם וּמֵבִיא קָרְבַּן טָהֳרָה,",
+    "en": "Then he counts thirty days and brings a korban of taharah,",
+    "st": "<b>And he counts</b> another <b>thirty days, and brings an offering of purity, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְסוֹפֵר",
+      "en": "and he counts"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם",
+      "en": "days"
+     },
+     {
+      "he": "וּמֵבִיא",
+      "en": "and brings"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טָהֳרָה,",
+      "en": "taharah"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר, אִם טָמֵא הָיִיתִי,",
+    "en": "and says, 'If I was tamei,",
+    "st": "<b>and says: If I was impure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר,",
+      "en": "and he says"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "הָיִיתִי,",
+      "en": "I was"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹלָה הָרִאשׁוֹנָה נְדָבָה וְזוֹ חוֹבָה.",
+    "en": "the first olah was a gift, and this one is what I owe.",
+    "st": "<b>the first burnt-offering</b> I brought should be considered <b>a gift</b> offering, <b>and this</b> one I am bringing now is for my <b>obligation. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹלָה",
+      "en": "the olah"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "נְדָבָה",
+      "en": "a gift"
+     },
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "duty"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם טָהוֹר הָיִיתִי,",
+    "en": "And if I was tahor,",
+    "st": "<b>And if I was pure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "הָיִיתִי,",
+      "en": "I was"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹלָה הָרִאשׁוֹנָה חוֹבָה וְזוֹ נְדָבָה,",
+    "en": "the first olah was what I owe, and this one is a gift,",
+    "st": "<b>the first burnt-offering</b> I brought is for my <b>obligation</b> as a pure nazirite, <b>and this</b> one I am bringing now is <b>a gift</b> offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹלָה",
+      "en": "the olah"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "חוֹבָה",
+      "en": "duty"
+     },
+     {
+      "he": "וְזוֹ",
+      "en": "and this one"
+     },
+     {
+      "he": "נְדָבָה,",
+      "en": "a gift"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה שְׁאָר קָרְבָּנִי.",
+    "en": "and these are the rest of my korbanos.'\"",
+    "st": "<b>And these,</b> i.e., the sin-offering and peace-offering I am sacrificing now, comprises <b>the rest of my offerings</b> that I was obligated to bring earlier.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this is"
+     },
+     {
+      "he": "שְׁאָר",
+      "en": "the rest of"
+     },
+     {
+      "he": "קָרְבָּנִי.",
+      "en": "my korbanos"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said,",
+    "st": "<b>Rabbi Yehoshua said:</b> According to your opinion,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא זֶה מֵבִיא קָרְבְּנוֹתָיו לַחֲצָאִים.",
+    "en": "\"It turns out that he brings his korbanos in halves.\"",
+    "st": "<b>it turns out</b> that <b>this</b> nazirite <b>brings his offerings in halves,</b>",
+    "stMore": "i.e., in stages. If he was pure, he brings his burnt-offering thirty days before the rest of his offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "it turns out"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "brings"
+     },
+     {
+      "he": "קָרְבְּנוֹתָיו",
+      "en": "his korbanos"
+     },
+     {
+      "he": "לַחֲצָאִים.",
+      "en": "in halves"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל הוֹדוּ לוֹ חֲכָמִים לְבֶן זוֹמָא:",
+    "en": "But the Sages agreed with Ben Zoma.",
+    "st": "<b>However, the Rabbis agreed with ben Zoma,</b>",
+    "stMore": "and disregarded the concern about splitting up the offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "הוֹדוּ",
+      "en": "agreed"
+     },
+     {
+      "he": "לוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the Sages"
+     },
+     {
+      "he": "לְבֶן",
+      "en": "with Ben"
+     },
+     {
+      "he": "זוֹמָא:",
+      "en": "Zoma"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "A nazir who might be tamei and might also be a metzora must wait a long time before he may eat holy food and before his nezirus ends, because we are not sure about either one.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "נָזִיר שֶׁהָיָה טָמֵא בְסָפֵק וּמֻחְלָט בְּסָפֵק,",
+    "en": "A nazir who might be tamei, and might be a full metzora,",
+    "st": "In the case of <b>a nazirite who,</b> on the first day of his naziriteship, <b>was impure</b> from a corpse as a matter of <b>uncertainty and</b> was also <b>a confirmed leper</b> as a matter of <b>uncertainty,</b>",
+    "stMore": "i.e., it was uncertain whether or not he had leprosy, how can he fulfill the shaving obligations of a pure nazirite and an impure leper? The problem facing this nazirite is that a leper must shave both when he begins his purification process and at the close of it, one week later. However, a nazirite is prohibited from shaving. Additionally, a leper may not partake of sacrificial food, but a nazirite may.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "שֶׁהָיָה",
+      "en": "who was"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "בְסָפֵק",
+      "en": "in doubt"
+     },
+     {
+      "he": "וּמֻחְלָט",
+      "en": "and a full metzora"
+     },
+     {
+      "he": "בְּסָפֵק,",
+      "en": "in doubt"
+     }
+    ]
+   },
+   {
+    "he": "אוֹכֵל בַּקָּדָשִׁים אַחַר שִׁשִּׁים יוֹם,",
+    "en": "may eat kodashim after sixty days,",
+    "explain": "He shaves for his tzaraas after thirty days, and again after thirty more.",
+    "st": "Therefore, <b>he may partake of sacrificial food sixty days after</b>",
+    "stMore": "he may have become impure, when the uncertainty with regard to leprosy will have been clarified. He shaves for the first time for his leprosy after thirty days, and for the second time thirty days later, the shaving of the end of the purification process; at which point he brings the offerings of a purified leper and may partake of sacrificial food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹכֵל",
+      "en": "eats"
+     },
+     {
+      "he": "בַּקָּדָשִׁים",
+      "en": "kodashim",
+      "note": "Holy food from korbanos."
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וְשׁוֹתֶה יַיִן וּמִטַּמֵּא לְמֵתִים",
+    "en": "and may drink wine and become tamei from dead people",
+    "st": "<b>But</b> he <b>may drink wine and become impure from the dead,</b> effectively ending his naziriteship, only",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשׁוֹתֶה",
+      "en": "and drinks"
+     },
+     {
+      "he": "יַיִן",
+      "en": "wine"
+     },
+     {
+      "he": "וּמִטַּמֵּא",
+      "en": "and becomes tamei"
+     },
+     {
+      "he": "לְמֵתִים",
+      "en": "from the dead"
+     }
+    ]
+   },
+   {
+    "he": "אַחַר מֵאָה וְעֶשְׂרִים יוֹם,",
+    "en": "only after a hundred and twenty days,",
+    "st": "<b>after 120 days.</b>",
+    "stMore": "This is because he might have been a full-fledged leper, which means that his shavings count toward his leprosy, not his naziriteship. Consequently, after the first sixty days he must observe another thirty days of naziriteship and shave again. Even then he has yet to fulfill all his obligations, as he might have been impure from a corpse, which means his shaving after ninety days was for his impurity. He must therefore remain a nazirite for another thirty days, before shaving one final time at the end of 120 days to fulfill his naziriteship obligation. The mishna notes: The reason that he cannot shave for his leprosy after seven days and perform the second shaving of a leper seven days later is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מֵאָה",
+      "en": "a hundred"
+     },
+     {
+      "he": "וְעֶשְׂרִים",
+      "en": "and twenty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁתִּגְלַחַת הַנֶּגַע דּוֹחָה",
+    "en": "because the shaving for tzaraas pushes aside",
+    "st": "<b>because the shaving of leprosy overrides</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁתִּגְלַחַת",
+      "en": "because the shaving of"
+     },
+     {
+      "he": "הַנֶּגַע",
+      "en": "the tzaraas"
+     },
+     {
+      "he": "דּוֹחָה",
+      "en": "pushes aside"
+     }
+    ]
+   },
+   {
+    "he": "תִגְלַחַת הַנָּזִיר",
+    "en": "the nazir's shaving",
+    "st": "the prohibition of <b>the shaving of a nazirite</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִגְלַחַת",
+      "en": "the shaving of"
+     },
+     {
+      "he": "הַנָּזִיר",
+      "en": "the nazir"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁהוּא וַדַּאי,",
+    "en": "only when he surely has tzaraas.",
+    "st": "only <b>when his</b> status as <b>a leper</b> is <b>definite. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "when"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he is"
+     },
+     {
+      "he": "וַדַּאי,",
+      "en": "certain"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל בִּזְמַן שֶׁהוּא סָפֵק אֵינָהּ דּוֹחָה:",
+    "en": "But when it is not sure, it does not push it aside.",
+    "st": "<b>However, when his</b> status as <b>a leper</b> is <b>uncertain,</b> the shaving <b>does not override</b> his naziriteship,",
+    "stMore": "and therefore he must wait thirty days before each of his shavings for leprosy.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "when"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he is"
+     },
+     {
+      "he": "סָפֵק",
+      "en": "in doubt"
+     },
+     {
+      "he": "אֵינָהּ",
+      "en": "it does not"
+     },
+     {
+      "he": "דּוֹחָה:",
+      "en": "push aside"
+     }
+    ]
+   }
+  ]
+ }
+]

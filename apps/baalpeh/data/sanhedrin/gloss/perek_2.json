@@ -1,0 +1,2483 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "This mishnah teaches the special halachos of the Kohen Gadol: he can judge and be judged, and how he acts when a relative passes away and when people come to comfort him.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֹּהֵן גָּדוֹל דָּן וְדָנִין אוֹתוֹ,",
+    "en": "The Kohen Gadol judges others, and others judge him.",
+    "st": "The <b>High Priest judges</b> others if he is sufficiently wise, <b>and</b> others <b>judge him</b> when he transgresses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּהֵן",
+      "en": "a Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "דָּן",
+      "en": "judges"
+     },
+     {
+      "he": "וְדָנִין",
+      "en": "and they judge"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "מֵעִיד וּמְעִידִין אוֹתוֹ,",
+    "en": "He gives testimony, and others give testimony about him.",
+    "st": "He <b>testifies</b> before the court <b>and</b> others <b>testify concerning him. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵעִיד",
+      "en": "he testifies"
+     },
+     {
+      "he": "וּמְעִידִין",
+      "en": "and they testify"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "about him"
+     }
+    ]
+   },
+   {
+    "he": "חוֹלֵץ וְחוֹלְצִין לְאִשְׁתּוֹ,",
+    "en": "He can do chalitzah, and his brother can do chalitzah to his wife,",
+    "st": "<b>He performs ḥalitza</b> with his brother’s widow <b>and</b> his brother <b>performs ḥalitza with his wife; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוֹלֵץ",
+      "en": "he does chalitzah"
+     },
+     {
+      "he": "וְחוֹלְצִין",
+      "en": "and they do chalitzah"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ,",
+      "en": "to his wife"
+     }
+    ]
+   },
+   {
+    "he": "וּמְיַבְּמִין אֶת אִשְׁתּוֹ,",
+    "en": "and his brother can marry his wife in yibum,",
+    "st": "<b>and</b> his brother <b>consummates levirate marriage with his wife. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְיַבְּמִין",
+      "en": "and they do yibum with"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ,",
+      "en": "his wife"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל הוּא אֵינוֹ מְיַבֵּם,",
+    "en": "but he himself does not do yibum,",
+    "st": "<b>But he does not consummate levirate marriage</b> with his brother’s widow,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "מְיַבֵּם,",
+      "en": "do yibum",
+      "note": "Marrying the widow of a brother who had no children."
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא אָסוּר בָּאַלְמָנָה.",
+    "en": "because he may not marry a widow.",
+    "st": "<b>because it is prohibited for him to</b> marry <b>a widow</b>",
+    "stMore": "(see Leviticus 21:14), and can therefore never fulfill the mitzva of levirate marriage, as a yevama is by definition a widow.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "אָסוּר",
+      "en": "is forbidden"
+     },
+     {
+      "he": "בָּאַלְמָנָה.",
+      "en": "to a widow"
+     }
+    ]
+   },
+   {
+    "he": "מֵת לוֹ מֵת,",
+    "en": "If someone in his family passes away,",
+    "st": "If a relative <b>of</b> the High Priest <b>dies, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מֵת,",
+      "en": "a dead one"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יוֹצֵא אַחַר הַמִּטָּה,",
+    "en": "he does not walk after the bier.",
+    "explain": "The Kohen Gadol may not become tamei, even for family.",
+    "st": "<b>he does not follow the bier</b>",
+    "stMore": "carrying the corpse, since it is prohibited for the High Priest to become ritually impure even for immediate relatives (see Leviticus 21:11).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יוֹצֵא",
+      "en": "he goes out"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "הַמִּטָּה,",
+      "en": "the bier",
+      "note": "The bed that carries the person who passed away."
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הֵן נִכְסִין וְהוּא נִגְלֶה,",
+    "en": "Instead, when they are hidden from sight, he comes into view,",
+    "st": "<b>Rather,</b> once the members of the funeral procession <b>are concealed</b> from sight by turning onto another street, <b>he is revealed</b> on the street they departed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "נִכְסִין",
+      "en": "are hidden"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "נִגְלֶה,",
+      "en": "is seen"
+     }
+    ]
+   },
+   {
+    "he": "הֵן נִגְלִין וְהוּא נִכְסֶה,",
+    "en": "when they come into view, he is hidden,",
+    "explain": "He stays one street behind them.",
+    "st": "and when <b>they are revealed,</b> then <b>he is concealed, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "נִגְלִין",
+      "en": "are seen"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "נִכְסֶה,",
+      "en": "is hidden"
+     }
+    ]
+   },
+   {
+    "he": "וְיוֹצֵא עִמָּהֶן עַד פֶּתַח הָעִיר,",
+    "en": "and he goes with them until the gate of the city.",
+    "st": "<b>and</b> in this way, <b>he goes out with them until the entrance of the gate of the city,</b>",
+    "stMore": "from where they would take out the corpse, since the dead were not buried in Jerusalem.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיוֹצֵא",
+      "en": "and he goes out"
+     },
+     {
+      "he": "עִמָּהֶן",
+      "en": "with them"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "פֶּתַח",
+      "en": "the opening of"
+     },
+     {
+      "he": "הָעִיר,",
+      "en": "the city"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "This is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יוֹצֵא מִן הַמִּקְדָּשׁ,",
+    "en": "he does not leave the Beis HaMikdash,",
+    "st": "<b>He does not emerge from the Temple</b> at all for the burial of his relatives,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יוֹצֵא",
+      "en": "he goes out"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמִּקְדָּשׁ,",
+      "en": "the Mikdash"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא כא)",
+    "en": "as it says,",
+    "st": "<b>as it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כא)",
+      "en": "21)"
+     }
+    ]
+   },
+   {
+    "he": "וּמִן הַמִּקְדָּשׁ לֹא יֵצֵא.",
+    "en": "\"And from the Mikdash he shall not go out.\"",
+    "st": "<b>“And from the Temple he shall not emerge</b>",
+    "stMore": "and will not desecrate the Temple of his God; for the separateness of the oil of the anointment of his God is on him” (Leviticus 21:12). The mishna continues:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַמִּקְדָּשׁ",
+      "en": "the Mikdash"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֵצֵא.",
+      "en": "he shall go out"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁהוּא מְנַחֵם אֲחֵרִים,",
+    "en": "And when he comforts other people,",
+    "st": "<b>And when he consoles others</b>",
+    "stMore": "in their mourning when they return from burial,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁהוּא",
+      "en": "and when he"
+     },
+     {
+      "he": "מְנַחֵם",
+      "en": "comforts"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "דֶּרֶךְ כָּל הָעָם עוֹבְרִין בָּזֶה אַחַר זֶה",
+    "en": "the way is that all the people pass by one after another,",
+    "st": "the <b>way of all the people</b> is that <b>they pass by one after another</b>",
+    "stMore": "and the mourners stand in a line and are consoled,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דֶּרֶךְ",
+      "en": "the way of"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָעָם",
+      "en": "the people"
+     },
+     {
+      "he": "עוֹבְרִין",
+      "en": "they pass"
+     },
+     {
+      "he": "בָּזֶה",
+      "en": "by this one"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "זֶה",
+      "en": "that one"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְמֻנֶּה מְמַצְּעוֹ בֵּינוֹ לְבֵין הָעָם.",
+    "en": "and the deputy Kohen stands between him and the people.",
+    "st": "<b>and the appointed</b> person <b>stands in the middle, between</b> the High Priest <b>and the people. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְמֻנֶּה",
+      "en": "and the deputy",
+      "note": "The Kohen who is second to the Kohen Gadol."
+     },
+     {
+      "he": "מְמַצְּעוֹ",
+      "en": "puts him in the middle"
+     },
+     {
+      "he": "בֵּינוֹ",
+      "en": "between him"
+     },
+     {
+      "he": "לְבֵין",
+      "en": "and between"
+     },
+     {
+      "he": "הָעָם.",
+      "en": "the people"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁהוּא מִתְנַחֵם מֵאֲחֵרִים,",
+    "en": "And when others comfort him,",
+    "st": "<b>And when he is consoled by others</b> in his mourning,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁהוּא",
+      "en": "and when he"
+     },
+     {
+      "he": "מִתְנַחֵם",
+      "en": "is comforted"
+     },
+     {
+      "he": "מֵאֲחֵרִים,",
+      "en": "by others"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הָעָם אוֹמְרִים לוֹ אָנוּ כַפָּרָתְךָ,",
+    "en": "all the people say to him, \"We are your kaparah.\"",
+    "st": "<b>all the people say to him: We are your atonement. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָעָם",
+      "en": "the people"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "say"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we are"
+     },
+     {
+      "he": "כַפָּרָתְךָ,",
+      "en": "your kaparah",
+      "note": "We wish to take your troubles on ourselves."
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לָהֶן תִּתְבָּרְכוּ מִן הַשָּׁמָיִם.",
+    "en": "And he says to them, \"Be blessed from Heaven.\"",
+    "st": "<b>And he says to them: May you be blessed from Heaven. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "תִּתְבָּרְכוּ",
+      "en": "may you be blessed"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשָּׁמָיִם.",
+      "en": "Heaven"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁמַּבְרִין אוֹתוֹ,",
+    "en": "And when they feed him the first meal after the burial,",
+    "st": "<b>And when they comfort him with the</b> first <b>meal</b> after the burial of one of his relatives,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁמַּבְרִין",
+      "en": "and when they give the meal"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הָעָם מְסֻבִּין עַל הָאָרֶץ",
+    "en": "all the people sit on the ground",
+    "st": "<b>all the people recline on the ground</b>",
+    "stMore": "as if they are taking his mourning on themselves,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָעָם",
+      "en": "the people"
+     },
+     {
+      "he": "מְסֻבִּין",
+      "en": "sit"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָאָרֶץ",
+      "en": "the ground"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא מֵסֵב עַל הַסַּפְסָל:",
+    "en": "and he sits on the bench.",
+    "st": "<b>and he reclines on the bench</b> out of respect for his status as High Priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "מֵסֵב",
+      "en": "sits"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַסַּפְסָל:",
+      "en": "the bench"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "The king is treated differently: he does not judge, testify, or do chalitzah or yibum, because of the honor of the kingdom. Rabbi Yehudah and the Sages argue about some of these halachos.",
+  "stIntro": "The mishna continues, enumerating the halakhot pertaining to the king in similar matters:",
+  "chunks": [
+   {
+    "he": "הַמֶּלֶךְ לֹא דָן וְלֹא דָנִין אוֹתוֹ,",
+    "en": "The king does not judge, and others do not judge him.",
+    "st": "<b>The king does not judge</b> others as a member of a court <b>and</b> others <b>do not judge him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמֶּלֶךְ",
+      "en": "the king"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "דָן",
+      "en": "judges"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "דָנִין",
+      "en": "they judge"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא מֵעִיד וְלֹא מְעִידִין אוֹתוֹ,",
+    "en": "He does not give testimony, and others do not testify about him.",
+    "st": "<b>he does not testify and</b> others <b>do not testify concerning him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מֵעִיד",
+      "en": "he testifies"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מְעִידִין",
+      "en": "they testify"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "about him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא חוֹלֵץ וְלֹא חוֹלְצִין לְאִשְׁתּוֹ.",
+    "en": "He does not do chalitzah, and his brother does not do chalitzah to his wife.",
+    "st": "<b>he does not perform ḥalitza</b> with his brother’s widow <b>and</b> his brother <b>does not perform ḥalitza with his wife,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "חוֹלֵץ",
+      "en": "he does chalitzah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "חוֹלְצִין",
+      "en": "they do chalitzah"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ.",
+      "en": "to his wife"
+     }
+    ]
+   },
+   {
+    "he": "לֹא מְיַבֵּם וְלֹא מְיַבְּמִין לְאִשְׁתּוֹ.",
+    "en": "He does not do yibum, and his brother does not do yibum with his wife.",
+    "st": "and <b>he does not consummate levirate marriage</b> with his brother’s widow <b>and</b> his brother <b>does not consummate levirate marriage with his wife,</b>",
+    "stMore": "as all these actions are not fitting to the honor of his office.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מְיַבֵּם",
+      "en": "he does yibum"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מְיַבְּמִין",
+      "en": "they do yibum"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ.",
+      "en": "with his wife"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "stMore": "These are not restrictions, but his prerogative:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם רָצָה לַחֲלֹץ אוֹ לְיַבֵּם,",
+    "en": "if he wants to do chalitzah or yibum,",
+    "st": "<b>If he desired to perform ḥalitza or to consummate levirate marriage,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רָצָה",
+      "en": "he wanted"
+     },
+     {
+      "he": "לַחֲלֹץ",
+      "en": "to do chalitzah"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "לְיַבֵּם,",
+      "en": "to do yibum"
+     }
+    ]
+   },
+   {
+    "he": "זָכוּר לָטוֹב.",
+    "en": "he is remembered for good.",
+    "st": "he is <b>remembered for good,</b>",
+    "stMore": "as this is to the benefit of his brother’s widow.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זָכוּר",
+      "en": "remembered"
+     },
+     {
+      "he": "לָטוֹב.",
+      "en": "for good"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ, אֵין שׁוֹמְעִין לוֹ.",
+    "en": "They said to him, we do not listen to him.",
+    "st": "The Sages <b>said to him: They do not listen to him</b>",
+    "stMore": "if he desires to do so, as this affects not only his own honor but that of the kingdom.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "we listen"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין נוֹשְׂאִין אַלְמָנָתוֹ.",
+    "en": "And no one may marry his widow.",
+    "st": "<b>And no one may marry</b> a king’s <b>widow,</b> due to his honor.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "נוֹשְׂאִין",
+      "en": "we marry"
+     },
+     {
+      "he": "אַלְמָנָתוֹ.",
+      "en": "his widow"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "נוֹשֵׂא הַמֶּלֶךְ אַלְמָנָתוֹ שֶׁל מֶלֶךְ,",
+    "en": "a king may marry the widow of a king,",
+    "st": "Another <b>king may marry the widow of a king, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹשֵׂא",
+      "en": "marries"
+     },
+     {
+      "he": "הַמֶּלֶךְ",
+      "en": "the king"
+     },
+     {
+      "he": "אַלְמָנָתוֹ",
+      "en": "his widow"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מֶלֶךְ,",
+      "en": "a king"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן מָצִינוּ בְדָוִד",
+    "en": "because that is what we find with Dovid,",
+    "st": "<b>as we found that</b> King <b>David </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "because so"
+     },
+     {
+      "he": "מָצִינוּ",
+      "en": "we found"
+     },
+     {
+      "he": "בְדָוִד",
+      "en": "with Dovid"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנָּשָׂא אַלְמָנָתוֹ שֶׁל שָׁאוּל,",
+    "en": "who married the widow of Shaul,",
+    "st": "<b>married the widow of</b> King <b>Saul, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנָּשָׂא",
+      "en": "that he married"
+     },
+     {
+      "he": "אַלְמָנָתוֹ",
+      "en": "his widow"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שָׁאוּל,",
+      "en": "Shaul"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמואל ב יב)",
+    "en": "as it says,",
+    "st": "<b>as it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(שמואל",
+      "en": "(Shmuel"
+     },
+     {
+      "he": "ב",
+      "en": "II"
+     },
+     {
+      "he": "יב)",
+      "en": "12)"
+     }
+    ]
+   },
+   {
+    "he": "וָאֶתְּנָה לְךָ אֶת בֵּית אֲדֹנֶיךָ",
+    "en": "\"And I gave you the house of your master,",
+    "st": "<b>“And I have given you the house of your master </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וָאֶתְּנָה",
+      "en": "and I gave"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "אֲדֹנֶיךָ",
+      "en": "your master"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת נְשֵׁי אֲדֹנֶיךָ בְּחֵיקֶךָ:",
+    "en": "and the wives of your master into your care.\"",
+    "explain": "Hashem said this to Dovid about the family of Shaul.",
+    "st": "<b>and the wives of your master in your bosom”</b> (II Samuel 12:8).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "נְשֵׁי",
+      "en": "the wives of"
+     },
+     {
+      "he": "אֲדֹנֶיךָ",
+      "en": "your master"
+     },
+     {
+      "he": "בְּחֵיקֶךָ:",
+      "en": "into your arms"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "When someone in the king's family passes away, the king does not leave his palace. Rabbi Yehudah says he may follow the bier, like Dovid did for Avner, but the Sages explain that Dovid did it for a special reason.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מֵת לוֹ מֵת,",
+    "en": "If someone in his family passes away,",
+    "st": "If a relative <b>of</b> the king <b>dies, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מֵת,",
+      "en": "a dead one"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יוֹצֵא מִפֶּתַח פַּלְטְרִין שֶׁלּוֹ.",
+    "en": "he does not go out of the door of his palace.",
+    "st": "<b>he does not emerge from the entrance of his palace [palterin],</b>",
+    "stMore": "as it does not befit one of his stature to accompany the deceased.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "יוֹצֵא",
+      "en": "he goes out"
+     },
+     {
+      "he": "מִפֶּתַח",
+      "en": "from the door of"
+     },
+     {
+      "he": "פַּלְטְרִין",
+      "en": "palace",
+      "note": "The king's house."
+     },
+     {
+      "he": "שֶׁלּוֹ.",
+      "en": "his"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם רוֹצֶה לָצֵאת אַחַר הַמִּטָּה, יוֹצֵא,",
+    "en": "if he wants to walk after the bier, he may go out,",
+    "st": "<b>If he wishes to follow the bier, he follows</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רוֹצֶה",
+      "en": "he wants"
+     },
+     {
+      "he": "לָצֵאת",
+      "en": "to go out"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "הַמִּטָּה,",
+      "en": "the bier"
+     },
+     {
+      "he": "יוֹצֵא,",
+      "en": "he goes out"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן מָצִינוּ בְדָוִד שֶׁיָּצָא",
+    "en": "because that is what we find with Dovid, who went out",
+    "st": "<b>as that is what we found</b> with regard <b>to</b> King <b>David, who followed </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "because so"
+     },
+     {
+      "he": "מָצִינוּ",
+      "en": "we found"
+     },
+     {
+      "he": "בְדָוִד",
+      "en": "with Dovid"
+     },
+     {
+      "he": "שֶׁיָּצָא",
+      "en": "that he went out"
+     }
+    ]
+   },
+   {
+    "he": "אַחַר מִטָּתוֹ שֶׁל אַבְנֵר,",
+    "en": "after the bier of Avner,",
+    "st": "<b>the bier of Abner. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "מִטָּתוֹ",
+      "en": "his bier"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אַבְנֵר,",
+      "en": "Avner",
+      "note": "The general of Shaul's army."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם ג)",
+    "en": "as it says,",
+    "st": "<b>As it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(שם",
+      "en": "(there"
+     },
+     {
+      "he": "ג)",
+      "en": "3)"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמֶּלֶךְ דָּוִד הֹלֵךְ אַחֲרֵי הַמִּטָּה.",
+    "en": "\"And King Dovid walked after the bier.\"",
+    "st": "<b>“And King David followed the bier”</b> (II Samuel 3:31).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמֶּלֶךְ",
+      "en": "and the king"
+     },
+     {
+      "he": "דָּוִד",
+      "en": "Dovid"
+     },
+     {
+      "he": "הֹלֵךְ",
+      "en": "walks"
+     },
+     {
+      "he": "אַחֲרֵי",
+      "en": "after"
+     },
+     {
+      "he": "הַמִּטָּה.",
+      "en": "the bier"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Sages <b>said to</b> Rabbi Yehuda:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיָה הַדָּבָר אֶלָּא",
+    "en": "that was only done",
+    "st": "<b>The matter was only </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "הַדָּבָר",
+      "en": "the thing"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     }
+    ]
+   },
+   {
+    "he": "לְפַיֵּס אֶת הָעָם.",
+    "en": "to calm the people.",
+    "explain": "So they would know Dovid had not wanted Avner killed.",
+    "st": "<b>to appease the people,</b>",
+    "stMore": "so that they should not suspect David of ordering Abner’s death.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפַיֵּס",
+      "en": "to calm"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעָם.",
+      "en": "the people"
+     }
+    ]
+   },
+   {
+    "he": "וּכְשֶׁמַּבְרִין אוֹתוֹ,",
+    "en": "And when they feed him the first meal of comfort,",
+    "st": "<b>And when</b> the people <b>comfort</b> the king with the meal of comfort,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּכְשֶׁמַּבְרִין",
+      "en": "and when they give the meal"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הָעָם מְסֻבִּין עַל הָאָרֶץ",
+    "en": "all the people sit on the ground",
+    "st": "<b>all the people recline on the ground, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הָעָם",
+      "en": "the people"
+     },
+     {
+      "he": "מְסֻבִּין",
+      "en": "sit"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָאָרֶץ",
+      "en": "the ground"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא מֵסֵב עַל הַדַּרְגָּשׁ:",
+    "en": "and he sits on the couch.",
+    "st": "<b>and he reclines on the dargash.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "מֵסֵב",
+      "en": "sits"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַדַּרְגָּשׁ:",
+      "en": "the couch"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "This mishnah teaches the special powers of the king, and the limits the Torah puts on him: not too many wives, horses, or gold and silver. The king must also write a Sefer Torah and keep it with him.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וּמוֹצִיא לְמִלְחֶמֶת הָרְשׁוּת עַל פִּי",
+    "en": "The king takes people out to an extra war by the word",
+    "st": "<b>And</b> the king <b>brings out</b> people <b>for</b> conscription in <b>an optional war,</b>",
+    "stMore": "i.e., a war that is not mandated by the Torah and is not a war of defense,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹצִיא",
+      "en": "and he takes out"
+     },
+     {
+      "he": "לְמִלְחֶמֶת",
+      "en": "to a war of"
+     },
+     {
+      "he": "הָרְשׁוּת",
+      "en": "choice",
+      "note": "A war the Torah did not command."
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     }
+    ]
+   },
+   {
+    "he": "בֵית דִּין שֶׁל שִׁבְעִים וְאֶחָד.",
+    "en": "of a court of seventy-one.",
+    "st": "<b>on the basis of a court of seventy-one, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וּפוֹרֵץ לַעֲשׂוֹת לוֹ דֶרֶךְ,",
+    "en": "He may break through fences to make a road for himself,",
+    "st": "<b>and breaches</b> fences of anyone in his way <b>to create a pathway for himself</b> for his various needs,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפוֹרֵץ",
+      "en": "and he breaks through"
+     },
+     {
+      "he": "לַעֲשׂוֹת",
+      "en": "to make"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "דֶרֶךְ,",
+      "en": "a road"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מְמַחִין בְּיָדוֹ.",
+    "en": "and no one can stop him.",
+    "st": "<b>and no one can protest his power. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "מְמַחִין",
+      "en": "they stop"
+     },
+     {
+      "he": "בְּיָדוֹ.",
+      "en": "his hand"
+     }
+    ]
+   },
+   {
+    "he": "דֶּרֶךְ הַמֶּלֶךְ אֵין לוֹ שִׁעוּר.",
+    "en": "The king's road has no size limit.",
+    "st": "<b>The pathway of the king has no measure,</b>",
+    "stMore": "neither lengthwise nor widthwise, and one cannot protest that this pathway is wider than necessary.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דֶּרֶךְ",
+      "en": "the road of"
+     },
+     {
+      "he": "הַמֶּלֶךְ",
+      "en": "the king"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "שִׁעוּר.",
+      "en": "a measure"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הָעָם בּוֹזְזִין וְנוֹתְנִין לְפָנָיו,",
+    "en": "All the people take the spoils of war and give them to him,",
+    "st": "<b>And all the people take spoils</b> in war <b>and give</b> them <b>to him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הָעָם",
+      "en": "the people"
+     },
+     {
+      "he": "בּוֹזְזִין",
+      "en": "take spoils"
+     },
+     {
+      "he": "וְנוֹתְנִין",
+      "en": "and give"
+     },
+     {
+      "he": "לְפָנָיו,",
+      "en": "before him"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא נוֹטֵל חֵלֶק בָּרֹאשׁ.",
+    "en": "and he takes the first share.",
+    "st": "<b>and he takes the first portion</b> of the spoils.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "נוֹטֵל",
+      "en": "takes"
+     },
+     {
+      "he": "חֵלֶק",
+      "en": "a share"
+     },
+     {
+      "he": "בָּרֹאשׁ.",
+      "en": "at the head"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יַרְבֶּה לּוֹ נָשִׁים (דברים יז),",
+    "en": "\"He shall not have too many wives,\"",
+    "st": "mishna The king <b>“shall not add many wives for himself”</b> (Deuteronomy 17:17),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַרְבֶּה",
+      "en": "he shall increase"
+     },
+     {
+      "he": "לּוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "נָשִׁים",
+      "en": "wives"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יז),",
+      "en": "17)"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא שְׁמֹנֶה עֶשְׂרֵה.",
+    "en": "only eighteen.",
+    "st": "<b>but</b> only <b>eighteen. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "שְׁמֹנֶה",
+      "en": "eight"
+     },
+     {
+      "he": "עֶשְׂרֵה.",
+      "en": "ten"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מַרְבֶּה הוּא לוֹ,",
+    "en": "he may have many,",
+    "st": "<b>He</b> may <b>add many</b> wives <b>for himself, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַרְבֶּה",
+      "en": "may increase"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "for himself"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁלֹּא יְהוּ מְסִירוֹת אֶת לִבּוֹ.",
+    "en": "as long as they do not turn his heart away.",
+    "explain": "Away from serving Hashem.",
+    "st": "<b>provided that they are not</b> like those who <b>turn his heart</b> away from reverence for God.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "and only"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יְהוּ",
+      "en": "they will be"
+     },
+     {
+      "he": "מְסִירוֹת",
+      "en": "turning away"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "לִבּוֹ.",
+      "en": "his heart"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says,",
+    "st": "<b>Rabbi Shimon says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ אַחַת וּמְסִירָה אֶת לִבּוֹ,",
+    "en": "even one wife who turns his heart away,",
+    "st": "<b>Even</b> if he wants to marry only <b>one</b> wife, if <b>she turns his heart away, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "וּמְסִירָה",
+      "en": "and she turns away"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "לִבּוֹ,",
+      "en": "his heart"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה לֹא יִשָּׂאֶנָּה.",
+    "en": "he may not marry her.",
+    "st": "<b>he should not marry her. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִשָּׂאֶנָּה.",
+      "en": "he shall marry her"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן לָמָּה נֶאֱמַר (דברים יז)",
+    "en": "If so, why does it say",
+    "st": "<b>If so, why is it stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "לָמָּה",
+      "en": "why"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it is said"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "יז)",
+      "en": "17)"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יַרְבֶּה לּוֹ נָשִׁים,",
+    "en": "\"He shall not have too many wives\"?",
+    "st": "<b>“He shall not add many wives for himself”?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יַרְבֶּה",
+      "en": "he shall increase"
+     },
+     {
+      "he": "לּוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "נָשִׁים,",
+      "en": "wives"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ כַאֲבִיגָיִל.",
+    "en": "Even if they are like Avigayil.",
+    "st": "This teaches <b>that even</b> if his wives are <b>like Abigail,</b>",
+    "stMore": "who was righteous and prevented David from sin (see I Samuel, chapter 25), it is prohibited for him to have many wives. The king",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "כַאֲבִיגָיִל.",
+      "en": "like Avigayil",
+      "note": "A very righteous woman who married Dovid."
+     }
+    ]
+   },
+   {
+    "he": "לֹא יַרְבֶּה לּוֹ סוּסִים (שם),",
+    "en": "\"He shall not have too many horses,\"",
+    "st": "<b>“shall not accumulate many horses for himself”</b> (Deuteronomy 17:16),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַרְבֶּה",
+      "en": "he shall increase"
+     },
+     {
+      "he": "לּוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "סוּסִים",
+      "en": "horses"
+     },
+     {
+      "he": "(שם),",
+      "en": "(there)"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כְדֵי מֶרְכַּבְתּוֹ.",
+    "en": "only enough for his chariot.",
+    "st": "but <b>only</b> enough <b>for his chariot</b> in war and in peace.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "כְדֵי",
+      "en": "enough for"
+     },
+     {
+      "he": "מֶרְכַּבְתּוֹ.",
+      "en": "his chariot"
+     }
+    ]
+   },
+   {
+    "he": "וְכֶסֶף וְזָהָב לֹא יַרְבֶּה לּוֹ מְאֹד (שם),",
+    "en": "\"And silver and gold he shall not have too much,\"",
+    "st": "<b>“Neither shall he greatly accumulate silver and gold for himself”</b> (Deuteronomy 17:17),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֶסֶף",
+      "en": "and silver"
+     },
+     {
+      "he": "וְזָהָב",
+      "en": "and gold"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַרְבֶּה",
+      "en": "he shall increase"
+     },
+     {
+      "he": "לּוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "מְאֹד",
+      "en": "very much"
+     },
+     {
+      "he": "(שם),",
+      "en": "(there)"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כְדֵי לִתֵּן אַפְסַנְיָא.",
+    "en": "only enough to pay his soldiers.",
+    "st": "but <b>only enough to provide</b> his <b>soldiers’ sustenance [aspanya]. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "כְדֵי",
+      "en": "enough"
+     },
+     {
+      "he": "לִתֵּן",
+      "en": "to give"
+     },
+     {
+      "he": "אַפְסַנְיָא.",
+      "en": "soldiers' pay"
+     }
+    ]
+   },
+   {
+    "he": "וְכוֹתֵב לוֹ סֵפֶר תּוֹרָה לִשְׁמוֹ.",
+    "en": "And he writes a Sefer Torah for himself.",
+    "st": "<b>And</b> the king <b>writes himself a Torah scroll for his sake,</b> as stipulated in Deuteronomy 17:18.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכוֹתֵב",
+      "en": "and he writes"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "סֵפֶר",
+      "en": "a Sefer"
+     },
+     {
+      "he": "תּוֹרָה",
+      "en": "Torah"
+     },
+     {
+      "he": "לִשְׁמוֹ.",
+      "en": "for his own sake"
+     }
+    ]
+   },
+   {
+    "he": "יוֹצֵא לַמִּלְחָמָה, מוֹצִיאָהּ עִמּוֹ.",
+    "en": "When he goes out to war, he takes it out with him.",
+    "st": "When <b>he goes out to war, he brings it out with him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצֵא",
+      "en": "he goes out"
+     },
+     {
+      "he": "לַמִּלְחָמָה,",
+      "en": "to war"
+     },
+     {
+      "he": "מוֹצִיאָהּ",
+      "en": "he takes it out"
+     },
+     {
+      "he": "עִמּוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנָס, מַכְנִיסָהּ עִמּוֹ.",
+    "en": "When he comes in, he brings it in with him.",
+    "st": "When <b>he comes in</b> from war, <b>he brings it in with him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנָס,",
+      "en": "he comes in"
+     },
+     {
+      "he": "מַכְנִיסָהּ",
+      "en": "he brings it in"
+     },
+     {
+      "he": "עִמּוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "יוֹשֵׁב בַּדִּין, הִיא עִמּוֹ.",
+    "en": "When he sits to judge, it is with him.",
+    "st": "When <b>he sits in judgment, it is with him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹשֵׁב",
+      "en": "he sits"
+     },
+     {
+      "he": "בַּדִּין,",
+      "en": "in judgment"
+     },
+     {
+      "he": "הִיא",
+      "en": "it"
+     },
+     {
+      "he": "עִמּוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "מֵסֵב, הִיא כְנֶגְדּוֹ,",
+    "en": "When he sits to eat, it is in front of him,",
+    "st": "When <b>he reclines</b> to eat, <b>it is opposite him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵסֵב,",
+      "en": "he sits to eat"
+     },
+     {
+      "he": "הִיא",
+      "en": "it"
+     },
+     {
+      "he": "כְנֶגְדּוֹ,",
+      "en": "in front of him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם)",
+    "en": "as it says,",
+    "st": "<b>as it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(שם)",
+      "en": "(there)"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיְתָה עִמּוֹ וְקָרָא בוֹ כָּל יְמֵי חַיָּיו:",
+    "en": "\"And it shall be with him, and he shall read from it all the days of his life.\"",
+    "st": "<b>“And it shall be with him and he shall read it all the days of his life”</b> (Deuteronomy 17:19).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיְתָה",
+      "en": "and it shall be"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with him"
+     },
+     {
+      "he": "וְקָרָא",
+      "en": "and he shall read"
+     },
+     {
+      "he": "בוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "יְמֵי",
+      "en": "the days of"
+     },
+     {
+      "he": "חַיָּיו:",
+      "en": "his life"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "People must show great respect to a king, so no one may use his things, like his horse, his throne, or his scepter, or see him when he is not looking his royal best.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין רוֹכְבִין עַל סוּסוֹ,",
+    "en": "No one may ride on his horse,",
+    "st": "<b>One may not ride on</b> the king’s <b>horse, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "רוֹכְבִין",
+      "en": "we ride"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "סוּסוֹ,",
+      "en": "his horse"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין יוֹשְׁבִין עַל כִּסְאוֹ,",
+    "en": "and no one may sit on his throne,",
+    "st": "<b>and one may not sit on his throne, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "יוֹשְׁבִין",
+      "en": "we sit"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "כִּסְאוֹ,",
+      "en": "his throne"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מִשְׁתַּמְּשִׁין בְּשַׁרְבִיטוֹ,",
+    "en": "and no one may use his scepter.",
+    "st": "<b>and one may not use his scepter, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "מִשְׁתַּמְּשִׁין",
+      "en": "we use"
+     },
+     {
+      "he": "בְּשַׁרְבִיטוֹ,",
+      "en": "his scepter",
+      "note": "The king's special stick."
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין רוֹאִין אוֹתוֹ כְּשֶׁהוּא מִסְתַּפֵּר",
+    "en": "And no one may see him when he is getting a haircut,",
+    "st": "<b>and one may not see him when he is having his hair cut, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "רוֹאִין",
+      "en": "we see"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "כְּשֶׁהוּא",
+      "en": "when he"
+     },
+     {
+      "he": "מִסְתַּפֵּר",
+      "en": "is getting a haircut"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא כְשֶׁהוּא עָרֹם וְלֹא בְבֵית הַמֶּרְחָץ,",
+    "en": "nor when he is not dressed, nor in the bathhouse,",
+    "st": "<b>nor when he is naked, nor when he is in the bathhouse, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "כְשֶׁהוּא",
+      "en": "when he"
+     },
+     {
+      "he": "עָרֹם",
+      "en": "is not dressed"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "הַמֶּרְחָץ,",
+      "en": "the bath"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם) שׂוֹם תָּשִׂים עָלֶיךָ מֶלֶךְ,",
+    "en": "as it says, \"You shall surely set a king over you,\"",
+    "st": "<b>as it is stated: “You shall set a king over you”</b> (Deuteronomy 17:15),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(שם)",
+      "en": "(there)"
+     },
+     {
+      "he": "שׂוֹם",
+      "en": "surely"
+     },
+     {
+      "he": "תָּשִׂים",
+      "en": "you shall set"
+     },
+     {
+      "he": "עָלֶיךָ",
+      "en": "over you"
+     },
+     {
+      "he": "מֶלֶךְ,",
+      "en": "a king"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁתְּהֵא אֵימָתוֹ עָלֶיךָ:",
+    "en": "so that the fear of him is on you.",
+    "st": "meaning, ensure <b>that his fear should be upon you.</b>",
+    "stMore": "All of these actions would lessen one’s fear of and reverence for the king.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁתְּהֵא",
+      "en": "that shall be"
+     },
+     {
+      "he": "אֵימָתוֹ",
+      "en": "his fear"
+     },
+     {
+      "he": "עָלֶיךָ:",
+      "en": "upon you"
+     }
+    ]
+   }
+  ]
+ }
+]

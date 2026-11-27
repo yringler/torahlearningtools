@@ -1,0 +1,13 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "1:1": "Steinsaltz describes the tumtum's hidden sexual organs.",
+    "1:4": "Steinsaltz describes executing a pregnant woman at once and a woman in labor.",
+    "2:1": "Steinsaltz names a discharge of blood, menstruation and the zava.",
+    "3:1": "Steinsaltz names a rapist and a seducer.",
+    "3:4": "Steinsaltz speaks of rape and seduction throughout.",
+    "3:5": "Steinsaltz names rape and seduction and a bride who was not a virgin."
+  },
+  "override": []
+}

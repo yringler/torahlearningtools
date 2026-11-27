@@ -222,6 +222,13 @@ The IP comes from `CF-Connecting-IP` (fallback `"unknown"`). Raw IPs and emails 
 | `link-ip` | IP | 20 | 900 s |
 | `code-ip` | IP | 20 | 900 s |
 | `code-email` | email | 10 | 3600 s |
+| `ptest-user-h` | user id | 12 | 3600 s |
+| `ptest-user-d` | user id | 40 | 86400 s |
+| `ptest-ip` | IP (lookup + confirm) | 30 | 900 s |
+
+The perek-test rows (docs/PARENT_VERIFICATION.md) use `limit()` (exported from `worker/lib/rateLimit.ts`, which throws
+429). The per-child "one test email per 10 minutes" rule is not a `hit()` window: it is an exact SQL check on
+`perek_tests` (PARENT_VERIFICATION §5.1 step 5).
 
 ### 3.6 CSRF and request hygiene (`worker/lib/origin.ts`, `worker/lib/http.ts`)
 
@@ -262,6 +269,8 @@ Dev and test keys (documented by Cloudflare):
 | Token already spent | — | `3x0000000000000000000000000000000AA` |
 
 ### 3.8 Sessions (`worker/lib/session.ts`)
+
+> **Two session scopes since [PARENT_MODE.md](PARENT_MODE.md) §6.1:** this section describes the learner session (`__Host-bp_session`, 30 days sliding). Parent mode has its own `__Host-bp_parent` session (14 days absolute, PIN-unlocked for 5 minutes idle / 60 at most); `sessions.scope` is set on INSERT and never changed.
 
 - `createSession(c, userId)`: token = 32 random bytes base64url. Insert
   `sessions(token_hash = sha256Hex(token), user_id, created_at = now, last_seen_at = now, expires_at = now + 30 d,
@@ -825,6 +834,11 @@ All routes are under `/api`. Non-2xx responses have an `ApiError` body. "Auth" m
 | `POST /api/sync` | ✓ | ✓ | `SyncRequest` | `SyncResponse` | 400 bad_request, 401, 403 forbidden, 413 payload_too_large |
 | `GET /api/children/:id/events` | ✓ | – | query `before?`, `limit?` | `EventsResponse` | 400, 401, 404 (missing, deleted or not yours) |
 | `GET /api/children/:id/stats` | ✓ | – | query `days?` | `ChildStatsResponse` | 400, 401, 404 |
+| `POST /api/perek-tests` | ✓ | ✓ | `PerekTestRequestBody` | `PerekTestRequestResponse` | 400 bad_request (message `not_frontier` for the order check), 401, 403, 404 not_found, 429 rate_limited, 502 email_failed |
+| `POST /api/perek-tests/lookup` | – | ✓ | `PerekTestTokenBody` | `PerekTestInfo` (read-only) | 400 bad_request, 400 invalid_link, 403, 429 |
+| `POST /api/perek-tests/confirm` | – | ✓ | `PerekTestTokenBody` | `PerekTestInfo` (`status: "verified"`) | 400 bad_request, 400 invalid_link (expired or invalid), 403, 429 |
+
+The three perek-test routes are specified in docs/PARENT_VERIFICATION.md §5. There is no GET under `/api/perek-tests`.
 | any other `/api/*` | – | – | – | – | 404 not_found |
 
 ### 7.1 Details
@@ -984,7 +998,7 @@ CREATE TABLE progress (
   child_id   TEXT NOT NULL REFERENCES children (id) ON DELETE CASCADE,
   user_id    TEXT NOT NULL,                     -- denormalized owner for pull queries
   kind       TEXT NOT NULL CHECK (kind IN ('m', 'p', 'd')),
-  key        TEXT NOT NULL,                     -- "p:m" | "p" | "yyyy-mm-dd"
+  key        TEXT NOT NULL,                     -- "p:m" | "p" | "yyyy-mm-dd" (other masechtos: "peah/p:m", §8.1)
   data       TEXT NOT NULL,                     -- JSON (MishnahProgressData | PerekProgressData | {})
   updated_at INTEGER NOT NULL,
   rev        INTEGER NOT NULL,
@@ -1027,6 +1041,52 @@ CREATE TABLE rate_limits (
   count        INTEGER NOT NULL
 );
 CREATE INDEX rate_limits_window ON rate_limits (window_start);
+```
+
+### 8.1 Progress keys for more than one masechta
+
+The app learns Berakhot, Peah and Demai. Progress was keyed before there was a second masechta, and **no progress
+data is migrated**: the keys below are what every client and the Worker write from now on, and existing rows stay
+valid as they are. The rules live in `shared/progressKey.ts` (pure, no imports), used by both sides.
+
+| | Berakhot | Any other masechta (e.g. `peah`) |
+|---|---|---|
+| Mishnah (`kind = 'm'`, `Profile.mishnayos`) | `"1:2"` (unchanged, forever) | `"peah/1:2"` |
+| Perek (`kind = 'p'`, `Profile.perakim`) | `"1"` (unchanged, forever) | `"peah/1"` |
+| Event `masechta` (JSON and `events.masechta`) | absent / `NULL` | `"peah"` |
+
+- A masechta id matches `^[a-z][a-z0-9_]{1,31}$`. The Worker checks the **format only**, never a list of known ids, so
+  adding a masechta to the catalog needs no Worker change. Perek and mishnah numbers are 1–3 digits.
+- `"berakhot/1:2"` and `"berakhot/1"` are **non-canonical**: never written; `parseProgressKey` returns null for them,
+  the client's sync mapping skips them (with any other malformed key) before a push, and the Worker answers 400. The
+  client filter matters: one bad key fails the whole sync batch (`engine.ts`). Importing a backup or v1 data rewrites
+  a `berakhot/` key to the unqualified one (the unqualified value wins when both exist).
+- `shared/progressKey.ts` exports `LEGACY_MASECHTA_ID` (`"berakhot"`), `MASECHTA_ID_RE`, `isMasechtaId`,
+  `progressKey(masechta, perek, mishnah)`, `perekKey(masechta, perek)`, `parseProgressKey(kind, key)` →
+  `{ masechta, perek, mishnah | null } | null`, `keyBelongsTo(kind, key, masechta)` and `eventMasechta(event)`.
+- **Last opened masechta**: `ChildSettings.lastMasechta?` (validated with `isMasechtaId`). A learner sync merges it like
+  `fontScale` and `meaningView`; an absent value keeps the stored one. It is the child's own choice: the parent upsert
+  always keeps a stored value (parent mode never chooses a masechta, and a parent client pushes whatever copy it last
+  pulled, which may be older than the child's choice). A parent's value is used only when none is stored yet. It is never named in
+  the parent change log (it is navigation state, not an edit).
+- **Last library place**: `ChildSettings.libraryPlace?`, `"<masechta>/<perek>/<mishnah>"` (validated with
+  `isLibraryPlace`). It is where the child last read in the library (docs/LIBRARY.md). It is handled exactly like
+  `lastMasechta`: merged by a learner sync, kept by the parent upsert, never logged. It is navigation, not progress.
+- **Events**: `ReciteEvent`, `CheckEvent`, `ResetEvent` and `SessionEvent` take an optional `masechta`. Migration
+  `0008_events_masechta.sql` adds `events.masechta TEXT` (`NULL` = Berakhot, no backfill). Parent stats group by
+  `coalesce(masechta, 'berakhot')`, and `StruggleRow.masechta` says which masechta a row is.
+- The backup file stays `AppState` version 1; its maps simply hold the new keys.
+- **Older cached clients** (the PWA before this change) keep working: they pull `"peah/…"` rows and store them in
+  `Profile.mishnayos` / `perakim` like any other row (`applyServerResponse` in `src/sync/store.ts` does not look at
+  the key's shape), never push them back (their own key regexes skip them, and an unchanged value is never diffed),
+  and their Berakhot screens read only the keys they build themselves. Two visible effects until they update: a count
+  over all of a child's mishnayos (the old parent screen's "known" count, the import prompt's summary) includes the other masechtos, and their
+  events carry no `masechta`, so they count as Berakhot, which is what they are.
+
+**`migrations/0008_events_masechta.sql`**
+
+```sql
+ALTER TABLE events ADD COLUMN masechta TEXT;
 ```
 
 ---
@@ -1762,6 +1822,11 @@ Then check:
       History view shows Due now, Needs attention, Last 14 days and Recent activity.
 - [ ] Vite `base` is `/`. `build:single` is gone. `pages.yml` is replaced by `deploy.yml`.
 
+**Perek verification** (docs/PARENT_VERIFICATION.md)
+- [ ] No verified/official flag in `PerekProgress`, `PerekProgressData` or any `SyncRequest` field
+      (`grep -n "verified\|official"` in those types finds nothing). `perek_verifications` is written only through
+      `worker/lib/verification.ts`, whose only route caller is `POST /api/perek-tests/confirm`.
+
 **Tests**
 - [ ] Every test listed in §11 exists (or is merged into an equivalent) and passes. No test depends on per-test
       storage isolation or on real network access.
@@ -1770,8 +1835,8 @@ Then check:
 
 ## 14. Later work (not in the MVP)
 
-- Pull pagination for very large accounts. Per-masechta keys (`berakhot/1:2`) when a second masechta is added; the
-  current keys mean Berakhot.
+- Pull pagination for very large accounts. (Per-masechta keys are done, §8.1: Berakhot keeps the unqualified keys and
+  `berakhot/1:2` is never written, the reverse of what was first planned here.)
 - A parent PIN for the parent area. "Sign out of all devices" and a list of active sessions.
 - A weekly progress email to the parent. Due-review reminders.
 - A Content-Security-Policy header (allow-list Turnstile; fonts are self-hosted, so no Google Fonts entry is needed).

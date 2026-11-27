@@ -1,0 +1,2379 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "Almost anyone may shecht an animal, and the shechitah is kosher. A non-Jew's shechitah makes the animal a neveilah, but shechting at night, by a blind person, or even on Shabbos, is still kosher.",
+  "chunks": [
+   {
+    "he": "הַכֹּל שׁוֹחֲטִין וּשְׁחִיטָתָן כְּשֵׁרָה,",
+    "en": "Everyone may shecht, and their shechitah is kosher,",
+    "st": "<b>Everyone slaughters</b> an animal, i.e., can perform halakhically valid slaughter, <b>and their slaughter is valid,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everyone",
+      "note": "Literally \"all\"."
+     },
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "may shecht",
+      "note": "Shechitah is the kosher way of slaughtering an animal."
+     },
+     {
+      "he": "וּשְׁחִיטָתָן",
+      "en": "and their shechitah"
+     },
+     {
+      "he": "כְּשֵׁרָה,",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מֵחֵרֵשׁ,",
+    "en": "except for a deaf-mute,",
+    "st": "<b>except for a deaf-mute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except for"
+     },
+     {
+      "he": "מֵחֵרֵשׁ,",
+      "en": "a deaf-mute",
+      "note": "Someone who cannot hear or speak; the halachah treats him as not responsible."
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹטֶה, וְקָטָן,",
+    "en": "someone who is not mentally fit, and a child,",
+    "st": "<b>an imbecile, and a minor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹטֶה,",
+      "en": "someone not mentally fit"
+     },
+     {
+      "he": "וְקָטָן,",
+      "en": "and a child"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא יְקַלְקְלוּ בִשְׁחִיטָתָן.",
+    "en": "because they might ruin their shechitah.",
+    "st": "<b>lest they ruin their slaughter</b> because they lack competence.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "in case"
+     },
+     {
+      "he": "יְקַלְקְלוּ",
+      "en": "they ruin"
+     },
+     {
+      "he": "בִשְׁחִיטָתָן.",
+      "en": "their shechitah"
+     }
+    ]
+   },
+   {
+    "he": "וְכֻלָּן שֶׁשָּׁחֲטוּ וַאֲחֵרִים רוֹאִין אוֹתָן,",
+    "en": "But if any of them shechted and others watched them,",
+    "st": "<b>And</b> for <b>all of them, when they slaughtered</b> an animal <b>and others see</b> and supervise",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֻלָּן",
+      "en": "and all of them"
+     },
+     {
+      "he": "שֶׁשָּׁחֲטוּ",
+      "en": "that shechted"
+     },
+     {
+      "he": "וַאֲחֵרִים",
+      "en": "and others"
+     },
+     {
+      "he": "רוֹאִין",
+      "en": "see"
+     },
+     {
+      "he": "אוֹתָן,",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָתָן כְּשֵׁרָה.",
+    "en": "their shechitah is kosher.",
+    "st": "<b>them, their slaughter is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָתָן",
+      "en": "their shechitah"
+     },
+     {
+      "he": "כְּשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטַת נָכְרִי,",
+    "en": "The shechitah of a non-Jew",
+    "st": "<b>Slaughter</b> performed by <b>a gentile</b> renders the animal",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטַת",
+      "en": "the shechitah of"
+     },
+     {
+      "he": "נָכְרִי,",
+      "en": "a non-Jew"
+     }
+    ]
+   },
+   {
+    "he": "נְבֵלָה, וּמְטַמְּאָה בְמַשָּׂא.",
+    "en": "makes it a neveilah, and it makes a person tamei by carrying it.",
+    "st": "<b>an unslaughtered carcass, and</b> the carcass <b>imparts ritual impurity through carrying.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְבֵלָה,",
+      "en": "a neveilah",
+      "note": "An animal that died without a kosher shechitah."
+     },
+     {
+      "he": "וּמְטַמְּאָה",
+      "en": "and it makes tamei"
+     },
+     {
+      "he": "בְמַשָּׂא.",
+      "en": "by carrying"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט בַּלַּיְלָה,",
+    "en": "Someone who shechts at night,",
+    "st": "In the case of <b>one who slaughters</b> an animal <b>at night,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "בַּלַּיְלָה,",
+      "en": "at night"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן הַסּוּמָא שֶׁשָּׁחַט,",
+    "en": "and also a blind person who shechted,",
+    "st": "<b>and likewise</b> in the case of <b>the blind</b> person <b>who slaughters</b> an animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and also"
+     },
+     {
+      "he": "הַסּוּמָא",
+      "en": "the blind person"
+     },
+     {
+      "he": "שֶׁשָּׁחַט,",
+      "en": "who shechted"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָתוֹ כְשֵׁרָה.",
+    "en": "his shechitah is kosher.",
+    "st": "<b>his slaughter is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָתוֹ",
+      "en": "his shechitah"
+     },
+     {
+      "he": "כְשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט בְּשַׁבָּת,",
+    "en": "Someone who shechts on Shabbos",
+    "st": "In the case of <b>one who slaughters</b> an animal <b>on Shabbat</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "בְּשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "וּבְיוֹם הַכִּפּוּרִים,",
+    "en": "or on Yom Kippur,",
+    "st": "<b>or on Yom Kippur,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְיוֹם",
+      "en": "and on the day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים,",
+      "en": "Kippur"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁמִּתְחַיֵּב בְּנַפְשׁוֹ,",
+    "en": "even though he deserves the death penalty for it,",
+    "st": "<b>although he is liable to</b> receive the <b>death</b> penalty,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁמִּתְחַיֵּב",
+      "en": "that he is liable"
+     },
+     {
+      "he": "בְּנַפְשׁוֹ,",
+      "en": "with his life"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָתוֹ כְשֵׁרָה:",
+    "en": "his shechitah is kosher.",
+    "st": "<b>his slaughter is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָתוֹ",
+      "en": "his shechitah"
+     },
+     {
+      "he": "כְשֵׁרָה:",
+      "en": "is kosher"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "You may shecht with a smooth sickle, a sharp stone or a reed. You may not shecht with a saw, teeth or a fingernail, because they choke the animal instead of cutting.",
+  "chunks": [
+   {
+    "he": "הַשּׁוֹחֵט בְּמַגַּל יָד,",
+    "en": "Someone who shechts with a hand sickle,",
+    "explain": "Using its smooth side.",
+    "st": "In the case of <b>one who slaughters</b> an animal <b>with</b> the smooth side of <b>a hand sickle,</b> which has both a smooth and a serrated side,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "בְּמַגַּל",
+      "en": "with a sickle of"
+     },
+     {
+      "he": "יָד,",
+      "en": "hand"
+     }
+    ]
+   },
+   {
+    "he": "בְּצוֹר, וּבְקָנֶה,",
+    "en": "with a sharp stone, or with a reed,",
+    "st": "or <b>with</b> a sharpened <b>flint, or with a reed</b> that was cut lengthwise and sharpened,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּצוֹר,",
+      "en": "with a sharp stone"
+     },
+     {
+      "he": "וּבְקָנֶה,",
+      "en": "and with a reed"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָתוֹ כְשֵׁרָה.",
+    "en": "his shechitah is kosher.",
+    "st": "<b>his slaughter is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָתוֹ",
+      "en": "his shechitah"
+     },
+     {
+      "he": "כְשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל שׁוֹחֲטִין וּלְעוֹלָם שׁוֹחֲטִין,",
+    "en": "Anyone may shecht, and at any time one may shecht,",
+    "st": "<b>All slaughter [hakkol shoḥatin], and one may always slaughter,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "שׁוֹחֲטִין",
+      "en": "may shecht"
+     },
+     {
+      "he": "וּלְעוֹלָם",
+      "en": "and always"
+     },
+     {
+      "he": "שׁוֹחֲטִין,",
+      "en": "may shecht"
+     }
+    ]
+   },
+   {
+    "he": "וּבַכֹּל שׁוֹחֲטִין,",
+    "en": "and one may shecht with anything,",
+    "st": "<b>and one may slaughter with any</b> item that cuts,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַכֹּל",
+      "en": "and with anything"
+     },
+     {
+      "he": "שׁוֹחֲטִין,",
+      "en": "may shecht"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִמַּגַּל קָצִיר,",
+    "en": "except for a harvest sickle,",
+    "explain": "It has teeth, like a saw.",
+    "st": "<b>except for</b> the serrated side of <b>the harvest sickle,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except for"
+     },
+     {
+      "he": "מִמַּגַּל",
+      "en": "a sickle of"
+     },
+     {
+      "he": "קָצִיר,",
+      "en": "harvest"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְּגֵרָה, וְהַשִּׁנַּיִם,",
+    "en": "a saw, and teeth,",
+    "st": "<b>a saw, the teeth</b> of an animal when attached to its jawbone,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְּגֵרָה,",
+      "en": "and the saw"
+     },
+     {
+      "he": "וְהַשִּׁנַּיִם,",
+      "en": "and the teeth"
+     }
+    ]
+   },
+   {
+    "he": "וְהַצִּפֹּרֶן, מִפְּנֵי שֶׁהֵן חוֹנְקִין.",
+    "en": "and a fingernail, because they choke the animal.",
+    "st": "<b>and a fingernail, because</b> they are serrated and <b>they</b> consequently <b>strangle</b> the animal and do not cut its windpipe and gullet as required.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַצִּפֹּרֶן,",
+      "en": "and the fingernail"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "חוֹנְקִין.",
+      "en": "choke"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט בְּמַגַּל קָצִיר בְּדֶרֶךְ הֲלִיכָתָהּ,",
+    "en": "Someone who shechts with a harvest sickle, moving it forward,",
+    "st": "In the case of <b>one who slaughters</b> an animal <b>with a harvest sickle,</b> which is serrated with its teeth inclined considerably in one direction, <b>in a forward direction,</b> where the serrations do not tear the flesh,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "בְּמַגַּל",
+      "en": "with a sickle of"
+     },
+     {
+      "he": "קָצִיר",
+      "en": "harvest"
+     },
+     {
+      "he": "בְּדֶרֶךְ",
+      "en": "in the way of"
+     },
+     {
+      "he": "הֲלִיכָתָהּ,",
+      "en": "its going forward"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי פּוֹסְלִין,",
+    "en": "Beis Shammai say it is pasul,",
+    "st": "<b>Beit Shammai deem</b> the slaughter <b>not valid</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "פּוֹסְלִין,",
+      "en": "say it is pasul"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל מַכְשִׁירִין.",
+    "en": "and Beis Hillel say it is kosher.",
+    "st": "<b>and Beit Hillel deem</b> it <b>valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "מַכְשִׁירִין.",
+      "en": "say it is kosher"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הֶחֱלִיקוּ שִׁנֶּיהָ,",
+    "en": "And if its teeth were smoothed down,",
+    "st": "<b>And</b> they both agree that <b>if they smoothed its serrations</b> so that they do not tear the flesh, its halakhic status",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הֶחֱלִיקוּ",
+      "en": "they smoothed"
+     },
+     {
+      "he": "שִׁנֶּיהָ,",
+      "en": "its teeth"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הִיא כְסַכִּין:",
+    "en": "it is just like a knife.",
+    "st": "<b>is like</b> that of <b>a knife</b> and one may slaughter with it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "it is"
+     },
+     {
+      "he": "הִיא",
+      "en": "it"
+     },
+     {
+      "he": "כְסַכִּין:",
+      "en": "like a knife"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "The shechitah cut belongs below the ring at the top of the windpipe. If he cut inside the ring but left a thin line of it whole, it is still kosher.",
+  "chunks": [
+   {
+    "he": "הַשּׁוֹחֵט מִתּוֹךְ הַטַּבַּעַת וְשִׁיֵּר בָּהּ",
+    "en": "Someone who shechts inside the ring and left of it",
+    "explain": "The ring is the hard ring at the top of the windpipe.",
+    "st": "With regard to <b>one who slaughters</b> an animal <b>from within the</b> cricoid cartilage that forms a complete <b>ring</b> at the top of the windpipe",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "מִתּוֹךְ",
+      "en": "from inside"
+     },
+     {
+      "he": "הַטַּבַּעַת",
+      "en": "the ring"
+     },
+     {
+      "he": "וְשִׁיֵּר",
+      "en": "and left"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "of it"
+     }
+    ]
+   },
+   {
+    "he": "מְלֹא הַחוּט עַל פְּנֵי כֻלָּהּ,",
+    "en": "a thread's width all around it,",
+    "st": "<b>and left a thread breadth over the surface of</b> the ring in <b>its entirety</b> intact, as the knife did not go beyond the ring toward the head of the animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְלֹא",
+      "en": "the fill of"
+     },
+     {
+      "he": "הַחוּט",
+      "en": "the thread"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "פְּנֵי",
+      "en": "the face of"
+     },
+     {
+      "he": "כֻלָּהּ,",
+      "en": "all of it"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָתוֹ כְשֵׁרָה.",
+    "en": "his shechitah is kosher.",
+    "st": "<b>his slaughter is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָתוֹ",
+      "en": "his shechitah"
+     },
+     {
+      "he": "כְשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי בַּר יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yosei the son of Yehudah says:",
+    "st": "<b>Rabbi Yosei, son of Rabbi Yehuda, says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "בַּר",
+      "en": "son of"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְלֹא הַחוּט עַל פְּנֵי רֻבָּהּ:",
+    "en": "even a thread's width over most of it is enough.",
+    "st": "It is valid even if he left <b>a thread breadth over the majority of the surface of</b> the ring.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְלֹא",
+      "en": "the fill of"
+     },
+     {
+      "he": "הַחוּט",
+      "en": "the thread"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "פְּנֵי",
+      "en": "the face of"
+     },
+     {
+      "he": "רֻבָּהּ:",
+      "en": "most of it"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Shechitah is done from the front of the neck, but melikah (the way a Kohen kills a bird korban with his fingernail) is done from the back of the neck. What is right for one is wrong for the other.",
+  "chunks": [
+   {
+    "he": "הַשּׁוֹחֵט מִן הַצְּדָדִין שְׁחִיטָתוֹ כְשֵׁרָה.",
+    "en": "Someone who shechts from the sides, his shechitah is kosher.",
+    "st": "<b>One who slaughters from the sides</b> of the throat, <b>his slaughter is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַצְּדָדִין",
+      "en": "the sides"
+     },
+     {
+      "he": "שְׁחִיטָתוֹ",
+      "en": "his shechitah"
+     },
+     {
+      "he": "כְשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "הַמּוֹלֵק מִן הַצְּדָדִין,",
+    "en": "Someone who does melikah from the sides,",
+    "explain": "Melikah: the Kohen cuts a bird korban's neck with his fingernail.",
+    "st": "<b>One who pinches</b> the neck of a bird offering <b>from the sides,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹלֵק",
+      "en": "one who does melikah"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַצְּדָדִין,",
+      "en": "the sides"
+     }
+    ]
+   },
+   {
+    "he": "מְלִיקָתוֹ פְסוּלָה.",
+    "en": "his melikah is pasul.",
+    "st": "<b>his pinching is not valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְלִיקָתוֹ",
+      "en": "his melikah"
+     },
+     {
+      "he": "פְסוּלָה.",
+      "en": "is pasul"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט מִן הָעֹרֶף,",
+    "en": "Someone who shechts from the back of the neck,",
+    "st": "<b>One who slaughters from the nape [oref]</b> of the neck,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעֹרֶף,",
+      "en": "the back of the neck"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָתוֹ פְסוּלָה.",
+    "en": "his shechitah is pasul.",
+    "st": "<b>his slaughter is not valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָתוֹ",
+      "en": "his shechitah"
+     },
+     {
+      "he": "פְסוּלָה.",
+      "en": "is pasul"
+     }
+    ]
+   },
+   {
+    "he": "הַמּוֹלֵק מִן הָעֹרֶף,",
+    "en": "Someone who does melikah from the back of the neck,",
+    "st": "<b>One who pinches</b> a bird offering <b>from the nape</b> of the neck,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹלֵק",
+      "en": "one who does melikah"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעֹרֶף,",
+      "en": "the back of the neck"
+     }
+    ]
+   },
+   {
+    "he": "מְלִיקָתוֹ כְשֵׁרָה.",
+    "en": "his melikah is kosher.",
+    "st": "<b>his pinching is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְלִיקָתוֹ",
+      "en": "his melikah"
+     },
+     {
+      "he": "כְשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "הַשּׁוֹחֵט מִן הַצַּוָּאר,",
+    "en": "Someone who shechts from the front of the neck,",
+    "st": "<b>One who slaughters from the throat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "one who shechts"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַצַּוָּאר,",
+      "en": "the throat"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָתוֹ כְשֵׁרָה.",
+    "en": "his shechitah is kosher.",
+    "st": "<b>his slaughter is valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָתוֹ",
+      "en": "his shechitah"
+     },
+     {
+      "he": "כְשֵׁרָה.",
+      "en": "is kosher"
+     }
+    ]
+   },
+   {
+    "he": "הַמּוֹלֵק מִן הַצַּוָּאר,",
+    "en": "Someone who does melikah from the front of the neck,",
+    "st": "<b>One who pinches</b> a bird offering <b>from the throat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמּוֹלֵק",
+      "en": "one who does melikah"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַצַּוָּאר,",
+      "en": "the throat"
+     }
+    ]
+   },
+   {
+    "he": "מְלִיקָתוֹ פְסוּלָה,",
+    "en": "his melikah is pasul,",
+    "st": "<b>his pinching is not valid,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְלִיקָתוֹ",
+      "en": "his melikah"
+     },
+     {
+      "he": "פְסוּלָה,",
+      "en": "is pasul"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכָּל הָעֹרֶף כָּשֵׁר לִמְלִיקָה,",
+    "en": "because the whole back of the neck is right for melikah,",
+    "st": "<b>as the entire nape is valid for pinching</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכָּל",
+      "en": "because all"
+     },
+     {
+      "he": "הָעֹרֶף",
+      "en": "the back of the neck"
+     },
+     {
+      "he": "כָּשֵׁר",
+      "en": "is kosher"
+     },
+     {
+      "he": "לִמְלִיקָה,",
+      "en": "for melikah"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַצַּוָּאר כָּשֵׁר לִשְׁחִיטָה.",
+    "en": "and the whole front of the neck is right for shechitah.",
+    "st": "<b>and the entire throat is valid for slaughter.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַצַּוָּאר",
+      "en": "the throat"
+     },
+     {
+      "he": "כָּשֵׁר",
+      "en": "is kosher"
+     },
+     {
+      "he": "לִשְׁחִיטָה.",
+      "en": "for shechitah"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא, כָּשֵׁר בִּשְׁחִיטָה,",
+    "en": "So we find: what is kosher for shechitah",
+    "st": "<b>It is found that</b> that which is <b>valid for slaughter</b> is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא,",
+      "en": "it turns out"
+     },
+     {
+      "he": "כָּשֵׁר",
+      "en": "kosher"
+     },
+     {
+      "he": "בִּשְׁחִיטָה,",
+      "en": "for shechitah"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל בִּמְלִיקָה.",
+    "en": "is pasul for melikah,",
+    "st": "<b>not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "pasul"
+     },
+     {
+      "he": "בִּמְלִיקָה.",
+      "en": "for melikah"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר בִּמְלִיקָה,",
+    "en": "and what is kosher for melikah",
+    "st": "<b>valid for pinching</b> and that which is <b>valid for pinching</b> is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר",
+      "en": "kosher"
+     },
+     {
+      "he": "בִּמְלִיקָה,",
+      "en": "for melikah"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל בִּשְׁחִיטָה:",
+    "en": "is pasul for shechitah.",
+    "st": "<b>not valid for slaughter.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "pasul"
+     },
+     {
+      "he": "בִּשְׁחִיטָה:",
+      "en": "for shechitah"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "Bird korbanos can be turtledoves (grown birds) or young pigeons. The age that is right for one kind is wrong for the other, and when the feathers start turning yellow, the bird is not right for either.",
+  "chunks": [
+   {
+    "he": "כָּשֵׁר בַּתּוֹרִין,",
+    "en": "What is kosher in turtledoves",
+    "explain": "Turtledoves must be grown up.",
+    "st": "The age that is <b>fit</b> for sacrifice <b>in doves,</b> mature birds, is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר",
+      "en": "kosher"
+     },
+     {
+      "he": "בַּתּוֹרִין,",
+      "en": "in turtledoves"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל בִּבְנֵי יוֹנָה.",
+    "en": "is pasul in young pigeons.",
+    "explain": "Young pigeons must still be young.",
+    "st": "<b>unfit</b> for sacrifice <b>in pigeons,</b> immature birds;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "pasul"
+     },
+     {
+      "he": "בִּבְנֵי",
+      "en": "in young"
+     },
+     {
+      "he": "יוֹנָה.",
+      "en": "pigeons"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר בִּבְנֵי יוֹנָה,",
+    "en": "What is kosher in young pigeons",
+    "st": "the age that is <b>fit</b> for sacrifice <b>in pigeons</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר",
+      "en": "kosher"
+     },
+     {
+      "he": "בִּבְנֵי",
+      "en": "in young"
+     },
+     {
+      "he": "יוֹנָה,",
+      "en": "pigeons"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל בַּתּוֹרִין.",
+    "en": "is pasul in turtledoves.",
+    "st": "is <b>unfit</b> for sacrifice <b>in doves.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "pasul"
+     },
+     {
+      "he": "בַּתּוֹרִין.",
+      "en": "in turtledoves"
+     }
+    ]
+   },
+   {
+    "he": "תְּחִלַּת הַצִּהוּב,",
+    "en": "When the feathers start to turn yellow,",
+    "st": "At the intermediate stage of <b>the beginning of the yellowing</b> of its plumage (see 22b),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּחִלַּת",
+      "en": "the beginning of"
+     },
+     {
+      "he": "הַצִּהוּב,",
+      "en": "the yellowing"
+     }
+    ]
+   },
+   {
+    "he": "בָּזֶה וּבָזֶה פָּסוּל:",
+    "en": "the bird is pasul for both kinds.",
+    "st": "a bird <b>is unfit</b> both <b>as this,</b> a pigeon, <b>and as that,</b> a dove, since it is no longer a fledgling but is not yet a mature bird.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּזֶה",
+      "en": "in this"
+     },
+     {
+      "he": "וּבָזֶה",
+      "en": "and in this"
+     },
+     {
+      "he": "פָּסוּל:",
+      "en": "it is pasul"
+     }
+    ]
+   }
+  ],
+  "stIntro": "It is written with regard to bird offerings: “He shall bring his offering of doves, or of young pigeons” (Leviticus 1:14)."
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "The mishnah lists more pairs where something that is right in one case is wrong in another: two kinds of special cows, Kohanim and Levi'im, different kinds of vessels, and bitter and sweet almonds.",
+  "chunks": [
+   {
+    "he": "כָּשֵׁר בַּפָּרָה,",
+    "en": "What is kosher in the parah adumah",
+    "explain": "The red cow whose ashes make people tahor.",
+    "st": "That which is <b>fit in</b> a red <b>heifer</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר",
+      "en": "kosher"
+     },
+     {
+      "he": "בַּפָּרָה,",
+      "en": "in the parah",
+      "note": "The parah adumah, the red cow."
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל בָּעֶגְלָה.",
+    "en": "is pasul in the eglah arufah.",
+    "explain": "The calf brought when a dead person is found and no one knows who killed him.",
+    "st": "is <b>unfit in a heifer</b> whose neck is broken;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "pasul"
+     },
+     {
+      "he": "בָּעֶגְלָה.",
+      "en": "in the eglah",
+      "note": "The eglah arufah, a young cow."
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר בָּעֶגְלָה,",
+    "en": "What is kosher in the eglah arufah",
+    "st": "that which is <b>fit in a heifer</b> whose neck is broken",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר",
+      "en": "kosher"
+     },
+     {
+      "he": "בָּעֶגְלָה,",
+      "en": "in the eglah"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל בַּפָּרָה.",
+    "en": "is pasul in the parah adumah.",
+    "st": "is <b>unfit in</b> a red <b>heifer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "pasul"
+     },
+     {
+      "he": "בַּפָּרָה.",
+      "en": "in the parah"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר בַּכֹּהֲנִים,",
+    "en": "Something that is fine for Kohanim",
+    "st": "There is an element with which <b>priests</b> remain <b>fit</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר",
+      "en": "kosher"
+     },
+     {
+      "he": "בַּכֹּהֲנִים,",
+      "en": "in the Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל בַּלְוִיִּם.",
+    "en": "makes Levi'im pasul.",
+    "st": "<b>Levites are unfit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "pasul"
+     },
+     {
+      "he": "בַּלְוִיִּם.",
+      "en": "in the Levi'im"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר בַּלְוִיִּם,",
+    "en": "Something that is fine for Levi'im",
+    "st": "and there is also an element with which <b>Levites</b> remain <b>fit</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר",
+      "en": "kosher"
+     },
+     {
+      "he": "בַּלְוִיִּם,",
+      "en": "in the Levi'im"
+     }
+    ]
+   },
+   {
+    "he": "פָּסוּל בַּכֹּהֲנִים.",
+    "en": "makes Kohanim pasul.",
+    "st": "<b>priests are unfit.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּסוּל",
+      "en": "pasul"
+     },
+     {
+      "he": "בַּכֹּהֲנִים.",
+      "en": "in the Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר בִּכְלֵי חֶרֶשׂ,",
+    "en": "What is tahor in a clay vessel",
+    "st": "That which is <b>ritually pure in an earthenware vessel</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "בִּכְלֵי",
+      "en": "in vessels of"
+     },
+     {
+      "he": "חֶרֶשׂ,",
+      "en": "clay"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא בְכָל הַכֵּלִים.",
+    "en": "is tamei in all other vessels.",
+    "st": "is <b>ritually impure in all the</b> other types of <b>vessels;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "בְכָל",
+      "en": "in all"
+     },
+     {
+      "he": "הַכֵּלִים.",
+      "en": "the vessels"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר בְּכָל הַכֵּלִים,",
+    "en": "What is tahor in all other vessels",
+    "st": "that which is <b>ritually pure in all the</b> other types of <b>vessels</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "בְּכָל",
+      "en": "in all"
+     },
+     {
+      "he": "הַכֵּלִים,",
+      "en": "the vessels"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא בִכְלֵי חָרֶשׂ.",
+    "en": "is tamei in a clay vessel.",
+    "st": "is <b>ritually impure in an earthenware vessel.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "בִכְלֵי",
+      "en": "in vessels of"
+     },
+     {
+      "he": "חָרֶשׂ.",
+      "en": "clay"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר בִּכְלֵי עֵץ,",
+    "en": "What is tahor in wooden vessels",
+    "st": "That which is <b>ritually pure in wooden vessels</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "בִּכְלֵי",
+      "en": "in vessels of"
+     },
+     {
+      "he": "עֵץ,",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא בִכְלֵי מַתָּכוֹת.",
+    "en": "is tamei in metal vessels.",
+    "st": "is <b>ritually impure in metal vessels;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "בִכְלֵי",
+      "en": "in vessels of"
+     },
+     {
+      "he": "מַתָּכוֹת.",
+      "en": "metal"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר בִּכְלֵי מַתָּכוֹת,",
+    "en": "What is tahor in metal vessels",
+    "st": "that which is <b>ritually pure in metal vessels</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר",
+      "en": "tahor"
+     },
+     {
+      "he": "בִּכְלֵי",
+      "en": "in vessels of"
+     },
+     {
+      "he": "מַתָּכוֹת,",
+      "en": "metal"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא בִכְלֵי עֵץ.",
+    "en": "is tamei in wooden vessels.",
+    "st": "is <b>ritually impure in wooden vessels.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא",
+      "en": "tamei"
+     },
+     {
+      "he": "בִכְלֵי",
+      "en": "in vessels of"
+     },
+     {
+      "he": "עֵץ.",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "he": "הַחַיָּב בַּשְּׁקֵדִים הַמָּרִים,",
+    "en": "The stage of growth when bitter almonds must have ma'aser taken",
+    "explain": "Ma'aser is the tenth of the crops that must be given away.",
+    "st": "With regard to the obligation of separating teruma and tithes, the stage of development <b>that</b> is <b>obligated in bitter almonds</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחַיָּב",
+      "en": "the one that must"
+     },
+     {
+      "he": "בַּשְּׁקֵדִים",
+      "en": "in the almonds"
+     },
+     {
+      "he": "הַמָּרִים,",
+      "en": "the bitter"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר בַּמְּתוּקִים.",
+    "en": "is when sweet almonds do not need it.",
+    "st": "is <b>exempt in sweet</b> almonds;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "is free"
+     },
+     {
+      "he": "בַּמְּתוּקִים.",
+      "en": "in the sweet ones"
+     }
+    ]
+   },
+   {
+    "he": "הַחַיָּב בַּמְּתוּקִים,",
+    "en": "And when sweet almonds must have ma'aser taken,",
+    "st": "and the stage in development <b>that</b> is <b>obligated in sweet</b> almonds",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחַיָּב",
+      "en": "the one that must"
+     },
+     {
+      "he": "בַּמְּתוּקִים,",
+      "en": "in the sweet ones"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר בַּמָּרִים:",
+    "en": "bitter almonds do not need it.",
+    "st": "is <b>exempt in bitter</b> almonds.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "is free"
+     },
+     {
+      "he": "בַּמָּרִים:",
+      "en": "in the bitter ones"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "More pairs: temed (a weak drink made from grape leftovers), brothers who are partners, a girl's father, yibum, and Yom Tov next to Shabbos. Where one rule applies, the other does not.",
+  "chunks": [
+   {
+    "he": "הַתֶּמֶד, עַד שֶׁלֹּא הֶחֱמִיץ,",
+    "en": "Temed, before it turned sour,",
+    "explain": "Temed is water soaked in leftover grape skins.",
+    "st": "<b>Temed,</b> a beverage produced from grape residue soaked in water, <b>until it fermented,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַתֶּמֶד,",
+      "en": "the temed"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הֶחֱמִיץ,",
+      "en": "it fermented"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ נִקָּח בְּכֶסֶף מַעֲשֵׂר,",
+    "en": "may not be bought with ma'aser money,",
+    "explain": "Ma'aser sheni money is spent on food in Yerushalayim.",
+    "st": "<b>may not be purchased with</b> second-<b>tithe money</b> to be drunk in Jerusalem, because it is not wine.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "נִקָּח",
+      "en": "bought"
+     },
+     {
+      "he": "בְּכֶסֶף",
+      "en": "with money of"
+     },
+     {
+      "he": "מַעֲשֵׂר,",
+      "en": "ma'aser"
+     }
+    ]
+   },
+   {
+    "he": "וּפוֹסֵל אֶת הַמִּקְוֶה.",
+    "en": "and it makes a mikveh pasul.",
+    "st": "<b>And</b> if three log of it fall into a ritual bath, its halakhic status is that of drawn water and <b>it invalidates the ritual bath.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפוֹסֵל",
+      "en": "and it makes pasul"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמִּקְוֶה.",
+      "en": "the mikveh"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁהֶחֱמִיץ, נִקָּח בְּכֶסֶף מַעֲשֵׂר וְאֵינוֹ",
+    "en": "Once it fermented, it may be bought with ma'aser money, and it does not",
+    "st": "<b>Once it fermented, it</b> is wine, and therefore it <b>may be purchased with</b> second-<b>tithe money and it does not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁהֶחֱמִיץ,",
+      "en": "once it fermented"
+     },
+     {
+      "he": "נִקָּח",
+      "en": "it is bought"
+     },
+     {
+      "he": "בְּכֶסֶף",
+      "en": "with money of"
+     },
+     {
+      "he": "מַעֲשֵׂר",
+      "en": "ma'aser"
+     },
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and it does not"
+     }
+    ]
+   },
+   {
+    "he": "פוֹסֵל אֶת הַמִּקְוֶה.",
+    "en": "make a mikveh pasul.",
+    "st": "<b>invalidate the ritual bath.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פוֹסֵל",
+      "en": "make pasul"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמִּקְוֶה.",
+      "en": "the mikveh"
+     }
+    ]
+   },
+   {
+    "he": "הָאַחִין הַשֻּׁתָּפִין,",
+    "en": "Brothers who are partners,",
+    "st": "With regard to <b>brothers who are partners</b> in the inheritance of their father,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאַחִין",
+      "en": "the brothers"
+     },
+     {
+      "he": "הַשֻּׁתָּפִין,",
+      "en": "the partners"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֶׁחַיָּבִין בַּקָּלְבּוֹן,",
+    "en": "when they must add the kalbon,",
+    "explain": "A small extra coin added to the half-shekel.",
+    "st": "<b>when they are obligated to</b> add <b>the premium [kalbon]</b> to their annual half-shekel payment to the Temple,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֶׁחַיָּבִין",
+      "en": "when they must"
+     },
+     {
+      "he": "בַּקָּלְבּוֹן,",
+      "en": "in the kalbon"
+     }
+    ]
+   },
+   {
+    "he": "פְּטוּרִין מִמַּעְשַׂר בְּהֵמָה.",
+    "en": "do not need to give ma'aser from their animals.",
+    "st": "<b>they are exempt from animal tithe;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּטוּרִין",
+      "en": "are free"
+     },
+     {
+      "he": "מִמַּעְשַׂר",
+      "en": "from ma'aser of"
+     },
+     {
+      "he": "בְּהֵמָה.",
+      "en": "animals"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֶׁחַיָּבִין בְּמַעְשַׂר בְּהֵמָה,",
+    "en": "When they must give ma'aser from their animals,",
+    "st": "<b>when they are obligated to</b> separate <b>animal tithe,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֶׁחַיָּבִין",
+      "en": "when they must"
+     },
+     {
+      "he": "בְּמַעְשַׂר",
+      "en": "in ma'aser of"
+     },
+     {
+      "he": "בְּהֵמָה,",
+      "en": "animals"
+     }
+    ]
+   },
+   {
+    "he": "פְּטוּרִין מִן הַקָּלְבּוֹן.",
+    "en": "they do not need to add the kalbon.",
+    "st": "<b>they are exempt from</b> adding <b>the premium.</b>",
+    "stMore": "Partners who pay the half-shekel are required to add the premium and are exempt from animal tithe. If they are not true partners, but their inheritance remains the property of the father, the sons are exempt from paying the premium, and they are obligated to separate animal tithe.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּטוּרִין",
+      "en": "are free"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקָּלְבּוֹן.",
+      "en": "the kalbon"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מָקוֹם שֶׁיֵּשׁ מֶכֶר,",
+    "en": "Whenever a father may sell his daughter as a maidservant,",
+    "st": "<b>Any situation where there is sale</b> of one’s daughter as a Hebrew maidservant, i.e., when she is a minor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "מֶכֶר,",
+      "en": "selling"
+     }
+    ]
+   },
+   {
+    "he": "אֵין קְנַס.",
+    "en": "there is no fine.",
+    "explain": "A fine the Torah sets that is paid to her father.",
+    "st": "<b>there is no fine</b>",
+    "stMore": "of fifty sela paid to her father if she is raped or seduced, as that fine is paid to her father only when she is a young woman.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "קְנַס.",
+      "en": "fine"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מָקוֹם שֶׁיֵּשׁ קְנַס,",
+    "en": "And whenever there is a fine,",
+    "st": "<b>And any situation where there is a fine</b> paid to the father",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "קְנַס,",
+      "en": "fine"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מָכֶר.",
+    "en": "there is no selling.",
+    "st": "<b>there is no sale.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "מָכֶר.",
+      "en": "selling"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מָקוֹם שֶׁיֵּשׁ מֵאוּן,",
+    "en": "Whenever a young girl may use mi'un,",
+    "explain": "Mi'un: a young girl married off by her mother or brothers may say no to the marriage.",
+    "st": "<b>Any situation where there is</b> the right of <b>refusal</b> for a minor girl married by her mother or brothers, enabling her to opt out of the marriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "מֵאוּן,",
+      "en": "mi'un"
+     }
+    ]
+   },
+   {
+    "he": "אֵין חֲלִיצָה.",
+    "en": "there is no chalitzah.",
+    "explain": "Chalitzah frees a widow from marrying her husband's brother.",
+    "st": "<b>there is no ḥalitza,</b> as a minor girl whose husband died without children cannot perform ḥalitza.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "חֲלִיצָה.",
+      "en": "chalitzah"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מָקוֹם שֶׁיֵּשׁ חֲלִיצָה,",
+    "en": "And whenever there is chalitzah,",
+    "st": "<b>And any situation where there is ḥalitza,</b> once she has reached majority,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "חֲלִיצָה,",
+      "en": "chalitzah"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מֵאוּן.",
+    "en": "there is no mi'un.",
+    "st": "<b>there is no</b> right of <b>refusal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "מֵאוּן.",
+      "en": "mi'un"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מָקוֹם שֶׁיֵּשׁ תְּקִיעָה,",
+    "en": "Whenever the shofar is blown before Shabbos or Yom Tov,",
+    "st": "<b>Any situation where there is a shofar blast</b> sounded on the eve of Shabbat or a Festival to stop the people from performing labor and to demarcate between the sacred and the profane,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "תְּקִיעָה,",
+      "en": "blowing the shofar"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַבְדָּלָה.",
+    "en": "there is no Havdalah.",
+    "st": "<b>there is no havdala</b> recited at the conclusion of the Shabbat or Festival in prayer and over a cup of wine.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "הַבְדָּלָה.",
+      "en": "Havdalah"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מָקוֹם שֶׁיֵּשׁ הַבְדָּלָה,",
+    "en": "And whenever there is Havdalah,",
+    "st": "<b>And any situation where there is havdala</b> recited,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and every"
+     },
+     {
+      "he": "מָקוֹם",
+      "en": "place"
+     },
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "הַבְדָּלָה,",
+      "en": "Havdalah"
+     }
+    ]
+   },
+   {
+    "he": "אֵין תְּקִיעָה.",
+    "en": "the shofar is not blown.",
+    "st": "<b>there is no shofar blast</b> sounded.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "תְּקִיעָה.",
+      "en": "blowing the shofar"
+     }
+    ]
+   },
+   {
+    "he": "יוֹם טוֹב שֶׁחָל לִהְיוֹת בְּעֶרֶב שַׁבָּת,",
+    "en": "When Yom Tov falls on Erev Shabbos,",
+    "st": "How so? On <b>a Festival that occurs on Shabbat eve,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹם",
+      "en": "Yom"
+     },
+     {
+      "he": "טוֹב",
+      "en": "Tov"
+     },
+     {
+      "he": "שֶׁחָל",
+      "en": "that falls"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "בְּעֶרֶב",
+      "en": "on Erev"
+     },
+     {
+      "he": "שַׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "תּוֹקְעִין וְלֹא מַבְדִּילִין.",
+    "en": "we blow the shofar, and we do not make Havdalah.",
+    "st": "<b>one sounds</b> the shofar to stop the people from performing labor that is permitted on the Festival and prohibited on Shabbat and to demarcate between one sacred day and another; <b>and one does not recite havdala,</b>",
+    "stMore": "as that is recited only when the transition is from a sacred day to a profane day or from a day of greater sanctity to a day of lesser sanctity. The sanctity of Shabbat is greater than the sanctity of the Festival, and therefore havdala is not recited in this case.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תּוֹקְעִין",
+      "en": "we blow"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מַבְדִּילִין.",
+      "en": "make Havdalah"
+     }
+    ]
+   },
+   {
+    "he": "בְּמוֹצָאֵי שַׁבָּת,",
+    "en": "When Yom Tov falls on Motza'ei Shabbos,",
+    "st": "On a Festival that occurs <b>at the conclusion of Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמוֹצָאֵי",
+      "en": "on Motza'ei"
+     },
+     {
+      "he": "שַׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "מַבְדִּילִין וְלֹא תוֹקְעִין.",
+    "en": "we make Havdalah, but we do not blow the shofar.",
+    "st": "<b>one recites havdala, but one does not sound</b> the shofar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַבְדִּילִין",
+      "en": "we make Havdalah"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תוֹקְעִין.",
+      "en": "blow"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד מַבְדִּילִין,",
+    "en": "How do we make Havdalah then?",
+    "st": "<b>How does one recite havdala</b> in that case; i.e., what is the formula of the blessing? It concludes:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "מַבְדִּילִין,",
+      "en": "do we make Havdalah"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּבְדִּיל בֵּין קֹדֶשׁ לְקֹדֶשׁ.",
+    "en": "\"He who separates between holy and holy.\"",
+    "st": "<b>Who distinguishes between sacred and sacred,</b>",
+    "stMore": "as opposed to the standard blessing at the conclusion of Shabbat: Who distinguishes between sacred and profane.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּבְדִּיל",
+      "en": "the One who separates"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "קֹדֶשׁ",
+      "en": "holy"
+     },
+     {
+      "he": "לְקֹדֶשׁ.",
+      "en": "and holy"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי דוֹסָא אוֹמֵר,",
+    "en": "Rabbi Dosa says:",
+    "st": "<b>Rabbi Dosa says</b> that the formula is: Who distinguishes",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין קֹדֶשׁ חָמוּר לְקֹדֶשׁ הַקַּל:",
+    "en": "\"Between very holy and less holy.\"",
+    "st": "<b>between greater sanctity and lesser sanctity.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "קֹדֶשׁ",
+      "en": "holy"
+     },
+     {
+      "he": "חָמוּר",
+      "en": "heavy"
+     },
+     {
+      "he": "לְקֹדֶשׁ",
+      "en": "and holy"
+     },
+     {
+      "he": "הַקַּל:",
+      "en": "the light"
+     }
+    ]
+   }
+  ],
+  "stIntro": ""
+ }
+]

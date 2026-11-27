@@ -1,0 +1,2756 @@
+[
+ {
+  "perek": 6,
+  "mishnah": 1,
+  "summary": "When Erev Pesach falls on Shabbos, some parts of the korban Pesach are done anyway, and some must wait. This mishnah lists which are which.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵלּוּ דְבָרִים בַּפֶּסַח דּוֹחִין אֶת הַשַּׁבָּת,",
+    "en": "These things of the korban Pesach push aside Shabbos:",
+    "explain": "They are done even on Shabbos.",
+    "st": "<b>These</b> are the <b>matters</b> related to the <b>Paschal lamb</b> that <b>override Shabbat,</b>",
+    "stMore": "when the eve of Passover occurs on Shabbat:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "בַּפֶּסַח",
+      "en": "in the Pesach"
+     },
+     {
+      "he": "דּוֹחִין",
+      "en": "push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָתוֹ וּזְרִיקַת דָּמוֹ וּמִחוּי",
+    "en": "shechting it, throwing its blood, cleaning",
+    "st": "<b>Its slaughter, the sprinkling of its blood, the cleaning of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָתוֹ",
+      "en": "its shechting"
+     },
+     {
+      "he": "וּזְרִיקַת",
+      "en": "and the throwing of"
+     },
+     {
+      "he": "דָּמוֹ",
+      "en": "its blood"
+     },
+     {
+      "he": "וּמִחוּי",
+      "en": "and the cleaning of"
+     }
+    ]
+   },
+   {
+    "he": "קְרָבָיו וְהֶקְטֵר חֲלָבָיו.",
+    "en": "its insides, and burning its fats.",
+    "explain": "These must be done while it is still day.",
+    "st": "<b>its intestines and the burning of its fats</b> on the altar, all of which are services that must be performed on Passover eve while it is still day.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְרָבָיו",
+      "en": "its insides"
+     },
+     {
+      "he": "וְהֶקְטֵר",
+      "en": "and the burning of"
+     },
+     {
+      "he": "חֲלָבָיו.",
+      "en": "its fats"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל צְלִיָּתוֹ וַהֲדָחַת קְרָבָיו",
+    "en": "But roasting it and rinsing its insides",
+    "st": "<b>However, its roasting and the washing of its intestines,</b> which need not be done by day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "צְלִיָּתוֹ",
+      "en": "its roasting"
+     },
+     {
+      "he": "וַהֲדָחַת",
+      "en": "and the rinsing of"
+     },
+     {
+      "he": "קְרָבָיו",
+      "en": "its insides"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָן דּוֹחִין אֶת הַשַּׁבָּת.",
+    "en": "do not push aside Shabbos.",
+    "explain": "They can wait until after Shabbos.",
+    "st": "<b>do not override Shabbat;</b> rather, one waits until after Shabbat to perform these tasks.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָן",
+      "en": "do not"
+     },
+     {
+      "he": "דּוֹחִין",
+      "en": "push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת.",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "הַרְכָּבָתוֹ וַהֲבָאָתוֹ מִחוּץ לַתְּחוּם,",
+    "en": "Carrying it, and bringing it from outside the techum,",
+    "st": "<b>Carrying</b> the Paschal lamb through a public domain does not override Shabbat.",
+    "stMore": "The Paschal offering consisted of either a lamb or a goat, sometimes quite young and unable to walk the entire way, so that it had to be carried on a person’s shoulders.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַרְכָּבָתוֹ",
+      "en": "carrying it"
+     },
+     {
+      "he": "וַהֲבָאָתוֹ",
+      "en": "and bringing it"
+     },
+     {
+      "he": "מִחוּץ",
+      "en": "from outside"
+     },
+     {
+      "he": "לַתְּחוּם,",
+      "en": "the techum",
+      "note": "How far one may walk out of town on Shabbos."
+     }
+    ]
+   },
+   {
+    "he": "וַחֲתִיכַת יַבַּלְתּוֹ,",
+    "en": "and cutting off its wart,",
+    "st": "Similarly, <b>bringing it from outside the Shabbat limit and cutting off its wart</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲתִיכַת",
+      "en": "and the cutting of"
+     },
+     {
+      "he": "יַבַּלְתּוֹ,",
+      "en": "its wart",
+      "note": "A bump on its skin that makes it unfit."
+     }
+    ]
+   },
+   {
+    "he": "אֵין דּוֹחִין אֶת הַשַּׁבָּת.",
+    "en": "do not push aside Shabbos.",
+    "explain": "They could have been done before Shabbos.",
+    "st": "<b>do not override Shabbat,</b> as all these tasks could have been performed before Shabbat.",
+    "stMore": "A wart is considered a blemish that disqualifies the animal from being brought as an offering, but once the wart is removed, the animal is fit to be sacrificed on the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "do not"
+     },
+     {
+      "he": "דּוֹחִין",
+      "en": "push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת.",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר, דּוֹחִין:",
+    "en": "Rabbi Eliezer says, they do push it aside.",
+    "st": "<b>Rabbi Eliezer says:</b> All of these procedures <b>override</b> Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "דּוֹחִין:",
+      "en": "they push aside"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 2,
+  "summary": "Rabbi Eliezer, Rabbi Yehoshua and Rabbi Akiva argue whether Rabbinic Shabbos rules are pushed aside for the korban Pesach. In the end, Rabbi Akiva gives a rule: what could be done before Shabbos does not push Shabbos aside.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said,",
+    "st": "<b>Rabbi Eliezer said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא דִין הוּא,",
+    "en": "isn't it logical?",
+    "st": "Could this <b>not</b> be derived through <b>an a fortiori inference?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "and isn't it"
+     },
+     {
+      "he": "דִין",
+      "en": "logic"
+     },
+     {
+      "he": "הוּא,",
+      "en": "it is"
+     }
+    ]
+   },
+   {
+    "he": "מָה אִם שְׁחִיטָה שֶׁהִיא מִשּׁוּם",
+    "en": "If shechting, which is forbidden as",
+    "st": "<b>If slaughter, which is</b> ordinarily forbidden on Shabbat",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "שְׁחִיטָה",
+      "en": "shechting"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     }
+    ]
+   },
+   {
+    "he": "מְלָאכָה דּוֹחָה אֶת הַשַּׁבָּת,",
+    "en": "real work, pushes aside Shabbos,",
+    "explain": "Work the Torah forbids on Shabbos.",
+    "st": "<b>as a</b> biblically prohibited <b>labor,</b> nonetheless <b>overrides Shabbat</b> when performed for the sake of the Paschal lamb, then",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְלָאכָה",
+      "en": "work"
+     },
+     {
+      "he": "דּוֹחָה",
+      "en": "pushes aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ שֶׁהֵן מִשּׁוּם שְׁבוּת",
+    "en": "these, which are only Rabbinic rules,",
+    "st": "<b>these</b> activities, namely carrying the animal, bringing it from outside the Shabbat limit, and the like, which are prohibited <b>due to rabbinic decree,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they are"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "שְׁבוּת",
+      "en": "shevus",
+      "note": "A Shabbos rule made by the Rabbis."
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִדְחוּ אֶת הַשַּׁבָּת.",
+    "en": "shouldn't they push aside Shabbos?",
+    "st": "<b>should they not override Shabbat?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִדְחוּ",
+      "en": "will they push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת.",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said to him,",
+    "st": "<b>Rabbi Yehoshua said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "יוֹם טוֹב יוֹכִיחַ,",
+    "en": "Yom Tov will prove it is not so:",
+    "st": "The law governing <b>a Festival proves</b> otherwise,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹם",
+      "en": "Yom"
+     },
+     {
+      "he": "טוֹב",
+      "en": "Tov"
+     },
+     {
+      "he": "יוֹכִיחַ,",
+      "en": "will prove"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהִתִּירוּ בוֹ מִשּׁוּם מְלָאכָה,",
+    "en": "they allowed real work on it,",
+    "explain": "Like cooking and baking.",
+    "st": "for the Torah <b>permitted on it</b> acts that are normally prohibited <b>as labor,</b> such as slaughtering, cooking, and baking,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהִתִּירוּ",
+      "en": "that they allowed"
+     },
+     {
+      "he": "בוֹ",
+      "en": "on it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "מְלָאכָה,",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "וְאָסוּר בּוֹ מִשּׁוּם שְׁבוּת.",
+    "en": "but Rabbinic rules are forbidden on it.",
+    "st": "<b>and</b> yet <b>it is forbidden</b> to do <b>on it</b> acts that are prohibited <b>due to rabbinic decree.</b>",
+    "stMore": "Thus, we cannot derive policy with regard to rabbinic prohibitions from the rules that govern Torah laws.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָסוּר",
+      "en": "and it is forbidden"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "on it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "שְׁבוּת.",
+      "en": "shevus"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said to him,",
+    "st": "<b>Rabbi Eliezer said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "מַה זֶּה,",
+    "en": "What is this,",
+    "st": "<b>What is this,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "זֶּה,",
+      "en": "is this"
+     }
+    ]
+   },
+   {
+    "he": "יְהוֹשֻׁעַ, מָה רְאָיָה רְשׁוּת לְמִצְוָה.",
+    "en": "Yehoshua? How can something you may choose prove about a mitzvah?",
+    "st": "<b>Yehoshua?</b> How can you suggest such a weak proof? <b>What proof</b> can be deduced from <b>optional</b> activities that would apply <b>to a mitzva?</b>",
+    "stMore": "How does the fact that rabbinic decrees remain in effect on a Festival with respect to optional activities prove that one is also forbidden to transgress a rabbinic decree in order to fulfill the mitzva of offering the Paschal lamb?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "רְשׁוּת",
+      "en": "something optional",
+      "note": "Something you don't have to do."
+     },
+     {
+      "he": "לְמִצְוָה.",
+      "en": "to a mitzvah"
+     }
+    ]
+   },
+   {
+    "he": "הֵשִׁיב רַבִּי עֲקִיבָא וְאָמַר,",
+    "en": "Rabbi Akiva answered and said,",
+    "st": "<b>Rabbi Akiva responded and said</b> in defense of Rabbi Yehoshua’s opinion:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵשִׁיב",
+      "en": "answered"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "וְאָמַר,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "הַזָּאָה תוֹכִיחַ,",
+    "en": "sprinkling will prove it:",
+    "st": "<b>Sprinkling</b> the purifying water of a red heifer upon someone who had contracted ritual impurity through contact with a corpse <b>proves</b> the matter,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזָּאָה",
+      "en": "sprinkling",
+      "note": "Of the water of the parah adumah, to become tahor."
+     },
+     {
+      "he": "תוֹכִיחַ,",
+      "en": "will prove"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהִיא מִצְוָה וְהִיא מִשּׁוּם שְׁבוּת",
+    "en": "it is for a mitzvah, and it is only a Rabbinic rule,",
+    "st": "<b>for it is</b> done <b>for</b> the sake of <b>a mitzva,</b> in order to allow the person to offer the Paschal lamb, <b>and it is</b> prohibited only <b>due to rabbinic decree, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִצְוָה",
+      "en": "a mitzvah"
+     },
+     {
+      "he": "וְהִיא",
+      "en": "and it is"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "שְׁבוּת",
+      "en": "shevus"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָהּ דּוֹחָה אֶת הַשַּׁבָּת,",
+    "en": "and still it does not push aside Shabbos.",
+    "st": "nonetheless <b>it does not override Shabbat,</b>",
+    "stMore": "for the purification rite is not performed on the eve of Passover that falls on Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָהּ",
+      "en": "and it does not"
+     },
+     {
+      "he": "דּוֹחָה",
+      "en": "push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אַף אַתָּה אַל תִּתְמַהּ עַל אֵלּוּ,",
+    "en": "So you too, don't be surprised about these,",
+    "st": "<b>So, too, you should not be surprised about these</b> activities, namely carrying the animal, bringing it from outside the Shabbat limit, and cutting off its wart,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "אַל",
+      "en": "do not"
+     },
+     {
+      "he": "תִּתְמַהּ",
+      "en": "be surprised"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "אֵלּוּ,",
+      "en": "these"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאַף עַל פִּי שֶׁהֵן",
+    "en": "that even though they are",
+    "st": "<b>that although they are</b> performed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאַף",
+      "en": "that even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "they are"
+     }
+    ]
+   },
+   {
+    "he": "מִצְוָה וְהֵן מִשּׁוּם שְׁבוּת,",
+    "en": "for a mitzvah and they are only Rabbinic rules,",
+    "st": "<b>for</b> the sake of <b>a mitzva and they are</b> prohibited only <b>due to rabbinic decree,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִצְוָה",
+      "en": "a mitzvah"
+     },
+     {
+      "he": "וְהֵן",
+      "en": "and they are"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "שְׁבוּת,",
+      "en": "shevus"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִדְחוּ אֶת הַשַּׁבָּת.",
+    "en": "they do not push aside Shabbos.",
+    "st": "<b>they do not override Shabbat.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִדְחוּ",
+      "en": "will they push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת.",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said to him,",
+    "st": "<b>Rabbi Eliezer said to him:</b> I do not accept this proof.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "וְעָלֶיהָ אֲנִי דָן,",
+    "en": "about that I also say:",
+    "explain": "Sprinkling should push aside Shabbos too.",
+    "st": "<b>With regard to this</b> sprinkling itself, <b>I infer</b> that it, too, is permitted for the same reason:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָלֶיהָ",
+      "en": "and about it"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "דָן,",
+      "en": "judge"
+     }
+    ]
+   },
+   {
+    "he": "וּמָה אִם שְׁחִיטָה שֶׁהִיא מִשּׁוּם מְלָאכָה,",
+    "en": "if shechting, which is real work,",
+    "st": "<b>If slaughter, which is</b> a biblically prohibited <b>labor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמָה",
+      "en": "and what"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "שְׁחִיטָה",
+      "en": "shechting"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "מְלָאכָה,",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "דּוֹחָה אֶת הַשַּׁבָּת,",
+    "en": "pushes aside Shabbos,",
+    "st": "<b>overrides Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דּוֹחָה",
+      "en": "pushes aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "הַזָּאָה שֶׁהִיא מִשּׁוּם שְׁבוּת,",
+    "en": "sprinkling, which is only a Rabbinic rule,",
+    "st": "<b>is it not right that sprinkling</b> the purifying water of a red heifer, <b>which is</b> prohibited only <b>due to rabbinic decree,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזָּאָה",
+      "en": "sprinkling"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "שְׁבוּת,",
+      "en": "shevus"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ דִּין שֶׁדּוֹחָה אֶת הַשַּׁבָּת.",
+    "en": "isn't it logical that it pushes aside Shabbos?",
+    "st": "<b>should override Shabbat?</b>",
+    "stMore": "You cannot challenge me based on a premise with which I disagree.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "isn't it"
+     },
+     {
+      "he": "דִּין",
+      "en": "logic"
+     },
+     {
+      "he": "שֶׁדּוֹחָה",
+      "en": "that it pushes aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת.",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said to him,",
+    "st": "<b>Rabbi Akiva said to</b> Rabbi Eliezer:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ חִלּוּף,",
+    "en": "or the other way around:",
+    "st": "<b>Or</b> perhaps we can <b>reverse</b> the order of your argument and say the opposite:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "חִלּוּף,",
+      "en": "the opposite"
+     }
+    ]
+   },
+   {
+    "he": "מָה אִם הַזָּאָה שֶׁהִיא מִשּׁוּם שְׁבוּת,",
+    "en": "if sprinkling, which is only a Rabbinic rule,",
+    "st": "<b>If,</b> as we know by accepted tradition, <b>sprinkling</b> the purifying water on Shabbat, <b>which is</b> prohibited only <b>due to rabbinic decree,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הַזָּאָה",
+      "en": "sprinkling"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "שְׁבוּת,",
+      "en": "shevus"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ דּוֹחָה אֶת הַשַּׁבָּת,",
+    "en": "does not push aside Shabbos,",
+    "st": "<b>does not override Shabbat,</b> then",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "does not"
+     },
+     {
+      "he": "דּוֹחָה",
+      "en": "push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת,",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָה שֶׁהִיא מִשּׁוּם מְלָאכָה,",
+    "en": "shechting, which is real work,",
+    "st": "with regard to <b>slaughter, which is</b> prohibited <b>as a</b> biblically prohibited <b>labor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָה",
+      "en": "shechting"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "מְלָאכָה,",
+      "en": "work"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ דִין שֶׁלֹּא תִדְחֶה אֶת הַשַּׁבָּת.",
+    "en": "isn't it logical that it should not push aside Shabbos?",
+    "st": "<b>is it not right that it should not override Shabbat?</b>",
+    "stMore": "Therefore, it should be prohibited to slaughter the Paschal lamb when the eve of Passover occurs on Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "isn't it"
+     },
+     {
+      "he": "דִין",
+      "en": "logic"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "תִדְחֶה",
+      "en": "it should push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת.",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said to him,",
+    "st": "<b>Rabbi Eliezer said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "עֲקִיבָא, עָקַרְתָּ מַה שֶּׁכָּתוּב בַּתּוֹרָה,",
+    "en": "Akiva, you have uprooted what is written in the Torah:",
+    "st": "<b>Akiva,</b> how can you say this? <b>You have</b> thus <b>uprooted what is written in the Torah:</b> “",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     },
+     {
+      "he": "עָקַרְתָּ",
+      "en": "you uprooted"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁכָּתוּב",
+      "en": "that is written"
+     },
+     {
+      "he": "בַּתּוֹרָה,",
+      "en": "in the Torah"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין הָעַרְבַּיִם בְּמֹעֲדוֹ (במדבר ט),",
+    "en": "\"in the afternoon, at its set time\" (Bamidbar 9),",
+    "st": "Let the children of Israel offer the Paschal lamb <b>in its appointed time”</b> (Numbers 9:2);",
+    "stMore": "the phrase “at its appointed time” indicates that the offering must be brought on that day,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "הָעַרְבַּיִם",
+      "en": "the evenings"
+     },
+     {
+      "he": "בְּמֹעֲדוֹ",
+      "en": "at its set time"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "ט),",
+      "en": "9)"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין בְּחֹל בֵּין בְּשַׁבָּת.",
+    "en": "whether on a weekday or on Shabbos.",
+    "st": "<b>whether it is a weekday or Shabbat.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בְּחֹל",
+      "en": "on a weekday"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בְּשַׁבָּת.",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him,",
+    "st": "Rabbi Akiva <b>said to</b> Rabbi Eliezer:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי, הָבֵא לִי מוֹעֵד לָאֵלּוּ כַּמּוֹעֵד לַשְּׁחִיטָה.",
+    "en": "\"Rebbi, bring me a set time for these like the set time for shechting.\"",
+    "explain": "The animal could be brought before Shabbos.",
+    "st": "<b>My teacher, bring me an appointed time</b> stated in the Torah <b>for these</b> tasks, namely, carrying the animal or bringing it from outside the Shabbat limits, <b>like the appointed time</b> stated <b>with respect to slaughter.</b>",
+    "stMore": "The Paschal lamb must be slaughtered on the fourteenth of Nisan, but there is no fixed time when the animal must be brought to the Temple, and it is therefore possible to transport it before Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי,",
+      "en": "my teacher"
+     },
+     {
+      "he": "הָבֵא",
+      "en": "bring"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "מוֹעֵד",
+      "en": "a set time"
+     },
+     {
+      "he": "לָאֵלּוּ",
+      "en": "for these"
+     },
+     {
+      "he": "כַּמּוֹעֵד",
+      "en": "like the set time"
+     },
+     {
+      "he": "לַשְּׁחִיטָה.",
+      "en": "for the shechting"
+     }
+    ]
+   },
+   {
+    "he": "כְּלָל אָמַר רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said a rule:",
+    "st": "<b>Rabbi Akiva stated a principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּלָל",
+      "en": "a rule"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מְלָאכָה שֶׁאֶפְשָׁר לַעֲשׂוֹתָהּ מֵעֶרֶב שַׁבָּת,",
+    "en": "any work that can be done before Shabbos",
+    "st": "<b>Any prohibited labor</b> required for the offering of the sacrifice <b>that can be performed on the eve of Shabbat</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "any"
+     },
+     {
+      "he": "מְלָאכָה",
+      "en": "work"
+     },
+     {
+      "he": "שֶׁאֶפְשָׁר",
+      "en": "that it is possible"
+     },
+     {
+      "he": "לַעֲשׂוֹתָהּ",
+      "en": "to do it"
+     },
+     {
+      "he": "מֵעֶרֶב",
+      "en": "from the eve of"
+     },
+     {
+      "he": "שַׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ דּוֹחָה אֶת הַשַּׁבָּת.",
+    "en": "does not push aside Shabbos.",
+    "st": "<b>does not override Shabbat;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "does not"
+     },
+     {
+      "he": "דּוֹחָה",
+      "en": "push aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת.",
+      "en": "the Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "שְׁחִיטָה שֶׁאִי אֶפְשָׁר לַעֲשׂוֹתָהּ מֵעֶרֶב שַׁבָּת,",
+    "en": "Shechting, which cannot be done before Shabbos,",
+    "st": "<b>slaughter, which cannot be performed on the eve of Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחִיטָה",
+      "en": "shechting"
+     },
+     {
+      "he": "שֶׁאִי",
+      "en": "that it is not"
+     },
+     {
+      "he": "אֶפְשָׁר",
+      "en": "possible"
+     },
+     {
+      "he": "לַעֲשׂוֹתָהּ",
+      "en": "to do it"
+     },
+     {
+      "he": "מֵעֶרֶב",
+      "en": "from the eve of"
+     },
+     {
+      "he": "שַׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "דּוֹחָה אֶת הַשַּׁבָּת:",
+    "en": "pushes aside Shabbos.",
+    "st": "<b>overrides Shabbat.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דּוֹחָה",
+      "en": "pushes aside"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשַּׁבָּת:",
+      "en": "the Shabbos"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 3,
+  "summary": "Sometimes an extra korban called the chagigah was brought together with the korban Pesach. This mishnah teaches when it was brought.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵימָתַי מֵבִיא חֲגִיגָה עִמּוֹ,",
+    "en": "When does one bring a chagigah with it?",
+    "st": "<b>When does one bring a Festival peace-offering with</b> the Paschal lamb?",
+    "stMore": "A special offering is brought on the fourteenth of Nisan together with the Paschal lamb",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי",
+      "en": "when"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "does he bring"
+     },
+     {
+      "he": "חֲגִיגָה",
+      "en": "a chagigah",
+      "note": "A Yom Tov korban shelamim."
+     },
+     {
+      "he": "עִמּוֹ,",
+      "en": "with it"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁהוּא בָא בְּחֹל,",
+    "en": "When it comes on a weekday,",
+    "st": "<b>when</b> the Paschal lamb <b>comes on a weekday</b> rather than on Shabbat,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "בָא",
+      "en": "comes"
+     },
+     {
+      "he": "בְּחֹל,",
+      "en": "on a weekday"
+     }
+    ]
+   },
+   {
+    "he": "בְּטָהֳרָה וּבְמֻעָט.",
+    "en": "when it is tahor, and when there is only a little.",
+    "explain": "Many people share the korban Pesach, so each one gets just a little.",
+    "st": "and when it comes <b>in</b> a state of <b>ritual purity</b> as opposed to when it is brought in a state of impurity because most of the community is impure, <b>and</b> when many people are registered for the Paschal lamb so that each person will receive only <b>a small</b> portion from it.",
+    "stMore": "When these three conditions are met, the Festival peace-offering is eaten first and the Paschal lamb is eaten afterward.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּטָהֳרָה",
+      "en": "in taharah"
+     },
+     {
+      "he": "וּבְמֻעָט.",
+      "en": "and in a little"
+     }
+    ]
+   },
+   {
+    "he": "וּבִזְמַן שֶׁהוּא בָא בְּשַׁבָּת,",
+    "en": "But when it comes on Shabbos,",
+    "st": "<b>When,</b> however, the Paschal lamb <b>comes on Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִזְמַן",
+      "en": "and at the time"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "בָא",
+      "en": "comes"
+     },
+     {
+      "he": "בְּשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "בִּמְרֻבֶּה וּבְטֻמְאָה,",
+    "en": "or when there is a lot, or when it is tamei,",
+    "st": "or <b>when</b> few people are registered for it so that each person will receive <b>a large</b> portion, or when it is brought <b>in</b> a state of <b>ritual impurity,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּמְרֻבֶּה",
+      "en": "in a lot"
+     },
+     {
+      "he": "וּבְטֻמְאָה,",
+      "en": "and in tumah"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְבִיאִין עִמּוֹ חֲגִיגָה:",
+    "en": "we do not bring a chagigah with it.",
+    "st": "<b>one does not bring a Festival peace-offering with it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "מְבִיאִין",
+      "en": "bring"
+     },
+     {
+      "he": "עִמּוֹ",
+      "en": "with it"
+     },
+     {
+      "he": "חֲגִיגָה:",
+      "en": "chagigah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 4,
+  "summary": "This mishnah teaches which animals may be brought for the chagigah, and how long it may be eaten.",
+  "stIntro": "With regard to the extra offering itself, the",
+  "chunks": [
+   {
+    "he": "חֲגִיגָה הָיְתָה בָאָה מִן הַצֹּאן,",
+    "en": "The chagigah could come from the flock,",
+    "st": "<b>Festival peace-offering would come from the flock,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲגִיגָה",
+      "en": "chagigah"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "בָאָה",
+      "en": "coming"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַצֹּאן,",
+      "en": "the flock"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַבָּקָר,",
+    "en": "from the cattle,",
+    "st": "<b>from the herd,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַבָּקָר,",
+      "en": "the cattle"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַכְּבָשִׂים וּמִן הָעִזִּים,",
+    "en": "from sheep and from goats,",
+    "st": "<b>from sheep or from goats,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּבָשִׂים",
+      "en": "the sheep"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הָעִזִּים,",
+      "en": "the goats"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַזְּכָרִים וּמִן הַנְּקֵבוֹת.",
+    "en": "from males and from females.",
+    "st": "<b>from males or from females,</b>",
+    "stMore": "as the Festival peace-offering is not bound by the limitations governing the Paschal offering, which must be specifically a young male sheep or goat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַזְּכָרִים",
+      "en": "the males"
+     },
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַנְּקֵבוֹת.",
+      "en": "the females"
+     }
+    ]
+   },
+   {
+    "he": "וְנֶאֱכֶלֶת לִשְׁנֵי יָמִים וְלַיְלָה אֶחָד:",
+    "en": "And it is eaten for two days and one night.",
+    "st": "<b>And</b> the Festival peace-offering <b>is eaten for two days and one night</b> like other peace-offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶאֱכֶלֶת",
+      "en": "and it is eaten"
+     },
+     {
+      "he": "לִשְׁנֵי",
+      "en": "for two"
+     },
+     {
+      "he": "יָמִים",
+      "en": "days"
+     },
+     {
+      "he": "וְלַיְלָה",
+      "en": "and night"
+     },
+     {
+      "he": "אֶחָד:",
+      "en": "one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 5,
+  "summary": "Rabbi Eliezer and Rabbi Yehoshua argue about someone who shechted a korban on Shabbos by mistake for the wrong purpose: does he have to bring a chatas?",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַפֶּסַח שֶׁשְּׁחָטוֹ שֶׁלֹּא לִשְׁמוֹ בְשַׁבָּת,",
+    "en": "A korban Pesach that he shechted not for its own sake on Shabbos,",
+    "st": "<b>A Paschal lamb that one slaughtered for a different purpose on Shabbat,</b>",
+    "stMore": "not knowing that it is prohibited for him to do so, is disqualified, and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפֶּסַח",
+      "en": "the Pesach"
+     },
+     {
+      "he": "שֶׁשְּׁחָטוֹ",
+      "en": "that he shechted it"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לִשְׁמוֹ",
+      "en": "for its name"
+     },
+     {
+      "he": "בְשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עָלָיו חַטָּאת.",
+    "en": "he must bring a chatas for it.",
+    "explain": "He did forbidden work on Shabbos by mistake.",
+    "st": "<b>he is liable</b> to bring <b>a sin-offering for it</b>",
+    "stMore": "because he unwittingly performed a prohibited labor on Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "he must bring"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for it"
+     },
+     {
+      "he": "חַטָּאת.",
+      "en": "a chatas",
+      "note": "A korban for doing a sin by mistake."
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁאָר כָּל הַזְּבָחִים שֶׁשְּׁחָטָן לְשׁוּם פֶּסַח,",
+    "en": "And all other korbanos that he shechted as a korban Pesach,",
+    "st": "As for <b>all other offerings,</b> such as a peace-offering, <b>that one</b> unwittingly <b>slaughtered</b> on Shabbat <b>for the purpose of a Paschal offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁאָר",
+      "en": "and the rest of"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַזְּבָחִים",
+      "en": "the korbanos"
+     },
+     {
+      "he": "שֶׁשְּׁחָטָן",
+      "en": "that he shechted them"
+     },
+     {
+      "he": "לְשׁוּם",
+      "en": "for the name of"
+     },
+     {
+      "he": "פֶּסַח,",
+      "en": "Pesach"
+     }
+    ]
+   },
+   {
+    "he": "אִם אֵינָן רְאוּיִין,",
+    "en": "if they can't be a korban Pesach,",
+    "st": "<b>if they were not fit</b> for the Paschal offering, e.g., if they were female or cattle or more than a year old and clearly ineligible for the Paschal offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֵינָן",
+      "en": "they are not"
+     },
+     {
+      "he": "רְאוּיִין,",
+      "en": "fit"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. וְאִם רְאוּיִין הֵן,",
+    "en": "he must bring one. And if they can be,",
+    "st": "<b>he is liable</b> to bring a sin-offering. Because he did not fulfill the mitzva to bring a Paschal offering, his act of slaughter was therefore unnecessary. <b>And if they were fit,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he must"
+     },
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "רְאוּיִין",
+      "en": "fit"
+     },
+     {
+      "he": "הֵן,",
+      "en": "they are"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר מְחַיֵּב חַטָּאת,",
+    "en": "Rabbi Eliezer says he must bring a chatas,",
+    "st": "<b>Rabbi Eliezer</b> nevertheless <b>deems</b> him <b>liable</b> to bring <b>a sin-offering</b> for his unwitting transgression.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "מְחַיֵּב",
+      "en": "makes him bring"
+     },
+     {
+      "he": "חַטָּאת,",
+      "en": "a chatas"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי יְהוֹשֻׁעַ פּוֹטֵר.",
+    "en": "and Rabbi Yehoshua says he does not.",
+    "explain": "He meant to do a mitzvah, and he did do a mitzvah.",
+    "st": "<b>But Rabbi Yehoshua exempts</b> him,",
+    "stMore": "because he maintains that if someone intended to perform a mitzva, and despite his error he in fact performed a mitzva, he is not liable to bring a sin-offering. And in this case he performed a mitzva, because offerings that are sacrificed for a different purpose are still fit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "פּוֹטֵר.",
+      "en": "frees him"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said,",
+    "st": "<b>Rabbi Eliezer said to</b> Rabbi Yehoshua:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "מָה אִם הַפֶּסַח שֶׁהוּא מֻתָּר לִשְׁמוֹ,",
+    "en": "if the korban Pesach, which may be shechted for its own sake,",
+    "st": "<b>If,</b> with regard to <b>the Paschal lamb, which is permitted</b> to be slaughtered on Shabbat <b>for its own purpose,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הַפֶּסַח",
+      "en": "the Pesach"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "מֻתָּר",
+      "en": "is allowed"
+     },
+     {
+      "he": "לִשְׁמוֹ,",
+      "en": "for its name"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֶׁשִּׁנָּה אֶת שְׁמוֹ,",
+    "en": "when he changed its name,",
+    "st": "<b>when one changed its purpose he is</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֶׁשִּׁנָּה",
+      "en": "when he changed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שְׁמוֹ,",
+      "en": "its name"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, זְבָחִים שֶׁהֵן אֲסוּרִין לִשְׁמָן,",
+    "en": "he must bring one, other korbanos, which are forbidden even for their own sake,",
+    "explain": "Other korbanos may not be shechted on Shabbos.",
+    "st": "nevertheless <b>liable,</b> then, with regard to other <b>offerings that are forbidden</b> to be slaughtered on Shabbat even <b>for their own purpose,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "he must"
+     },
+     {
+      "he": "זְבָחִים",
+      "en": "korbanos"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "אֲסוּרִין",
+      "en": "are forbidden"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their name"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֶׁשִּׁנָּה אֶת שְׁמָן,",
+    "en": "when he changed their name,",
+    "st": "<b>when one changed their purpose,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֶׁשִּׁנָּה",
+      "en": "when he changed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שְׁמָן,",
+      "en": "their name"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ דִין שֶׁיְּהֵא חַיָּב.",
+    "en": "isn't it logical that he must bring one?",
+    "st": "<b>is it not right that he should be liable?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "isn't it"
+     },
+     {
+      "he": "דִין",
+      "en": "logic"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "that he will be"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "must"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said to him,",
+    "st": "<b>Rabbi Yehoshua said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אָמַרְתָּ בַּפֶּסַח,",
+    "en": "No. If you say so about the korban Pesach,",
+    "st": "<b>No,</b> this reasoning is faulty. <b>If you say</b> that one is liable to bring a sin-offering if he slaughtered <b>a Paschal lamb</b> for a different purpose, it is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַרְתָּ",
+      "en": "you said"
+     },
+     {
+      "he": "בַּפֶּסַח,",
+      "en": "about the Pesach"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁשִּׁנָּהוּ לְדָבָר אָסוּר,",
+    "en": "that he changed it to something forbidden,",
+    "st": "<b>because he changed</b> its purpose <b>for something forbidden,</b>",
+    "stMore": "as the offering he intended it to be may not be slaughtered on Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁשִּׁנָּהוּ",
+      "en": "that he changed it"
+     },
+     {
+      "he": "לְדָבָר",
+      "en": "to a thing"
+     },
+     {
+      "he": "אָסוּר,",
+      "en": "forbidden"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמַר בַּזְּבָחִים,",
+    "en": "can you say so about other korbanos,",
+    "st": "But <b>can you</b> necessarily <b>say</b> the same thing <b>about</b> other <b>offerings that he</b> slaughtered for the purpose of a Paschal offering",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמַר",
+      "en": "will you say"
+     },
+     {
+      "he": "בַּזְּבָחִים,",
+      "en": "about the korbanos"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁשִּׁנָּן לְדָבָר הַמֻּתָּר.",
+    "en": "that he changed them to something allowed?",
+    "st": "and thus <b>changed</b> their purpose <b>for something</b> that is <b>permitted</b> to be sacrificed on Shabbat?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁשִּׁנָּן",
+      "en": "that he changed them"
+     },
+     {
+      "he": "לְדָבָר",
+      "en": "to a thing"
+     },
+     {
+      "he": "הַמֻּתָּר.",
+      "en": "that is allowed"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said to him,",
+    "st": "<b>Rabbi Eliezer said to</b> Rabbi Yehoshua:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "אֵמוּרֵי צִבּוּר יוֹכִיחוּ,",
+    "en": "the korbanos of the community will prove it,",
+    "st": "<b>Let the communal offerings,</b> such as the daily offering and the additional-offerings of Shabbat and the Festivals, <b>prove</b> the matter,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵמוּרֵי",
+      "en": "the korbanos of"
+     },
+     {
+      "he": "צִבּוּר",
+      "en": "the community",
+      "note": "Like the tamid and the mussaf."
+     },
+     {
+      "he": "יוֹכִיחוּ,",
+      "en": "will prove"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵן מֻתָּרִין לִשְׁמָן,",
+    "en": "which may be shechted for their own sake,",
+    "st": "<b>for they are permitted</b> to be slaughtered on Shabbat <b>for their own purpose,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵן",
+      "en": "that they"
+     },
+     {
+      "he": "מֻתָּרִין",
+      "en": "are allowed"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their name"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׁוֹחֵט לִשְׁמָן,",
+    "en": "and one who shechts another korban for their sake",
+    "st": "<b>and</b> nevertheless, <b>one who</b> unnecessarily <b>slaughters</b> a different offering <b>for their purpose</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׁוֹחֵט",
+      "en": "and the one who shechts"
+     },
+     {
+      "he": "לִשְׁמָן,",
+      "en": "for their name"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. אָמַר לוֹ רַבִּי יְהוֹשֻׁעַ,",
+    "en": "must bring a chatas. Rabbi Yehoshua said to him,",
+    "st": "<b>is liable.</b>This indicates that even when a particular offering may be slaughtered, one is nevertheless liable if he slaughtered a different offering for the purpose of the permitted offering. <b>Rabbi Yehoshua said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he must"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אָמַרְתָּ בְאֵמוּרֵי צִבּוּר",
+    "en": "No. If you say so about the korbanos of the community,",
+    "st": "<b>No, if you say</b> this halakha with regard to <b>communal offerings,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַרְתָּ",
+      "en": "you said"
+     },
+     {
+      "he": "בְאֵמוּרֵי",
+      "en": "about the korbanos of"
+     },
+     {
+      "he": "צִבּוּר",
+      "en": "the community"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּשׁ לָהֶן קִצְבָּה,",
+    "en": "which have a set number,",
+    "st": "it is <b>because they have a limit,</b>",
+    "stMore": "as there is a specific number of communal offerings that must be offered on any particular day and there is no reason one would mistakenly sacrifice extra offerings for this purpose.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "קִצְבָּה,",
+      "en": "a set number"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמַר בַּפֶּסַח שֶׁאֵין לוֹ קִצְבָּה.",
+    "en": "can you say so about the korban Pesach, which has no set number?",
+    "st": "But <b>can you</b> necessarily <b>say</b> the same thing <b>about the Paschal lamb, which does not have a limit,</b> making it more likely for someone to make a mistake?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמַר",
+      "en": "will you say"
+     },
+     {
+      "he": "בַּפֶּסַח",
+      "en": "about the Pesach"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to it"
+     },
+     {
+      "he": "קִצְבָּה.",
+      "en": "a set number"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הַשּׁוֹחֵט לְשֵׁם אֵמוּרֵי צִבּוּר, פָּטוּר:",
+    "en": "even one who shechts for the korbanos of the community is free.",
+    "st": "According to Rabbi Yehoshua, <b>even one who</b> unwittingly <b>slaughters</b> other offerings <b>for the purpose of communal offerings</b> beyond their daily limit <b>is exempt</b> for the same reason, i.e., that he intended to fulfill a mitzva that is permitted on Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הַשּׁוֹחֵט",
+      "en": "the one who shechts"
+     },
+     {
+      "he": "לְשֵׁם",
+      "en": "for the name of"
+     },
+     {
+      "he": "אֵמוּרֵי",
+      "en": "the korbanos of"
+     },
+     {
+      "he": "צִבּוּר,",
+      "en": "the community"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "is free"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 6,
+  "mishnah": 6,
+  "summary": "This mishnah teaches when someone who shechted a korban Pesach on Shabbos, and it turned out not to be kosher, must bring a chatas.",
+  "stIntro": "The mishna continues with another halakha with regard to the Paschal lamb:",
+  "chunks": [
+   {
+    "he": "שְׁחָטוֹ שֶׁלֹּא לְאוֹכְלָיו וְשֶׁלֹּא לִמְנוּיָיו,",
+    "en": "If he shechted it not for those who will eat it and not for those signed up for it,",
+    "st": "<b>If one slaughtered</b> a Paschal lamb on Shabbat and mistakenly intended it <b>for those who cannot eat it,</b> such as sick or elderly people who are unable to eat the meat, <b>or for those who did not register for it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁחָטוֹ",
+      "en": "he shechted it"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "לְאוֹכְלָיו",
+      "en": "for its eaters"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and not"
+     },
+     {
+      "he": "לִמְנוּיָיו,",
+      "en": "for those counted on it"
+     }
+    ]
+   },
+   {
+    "he": "לַעֲרֵלִין וְלִטְמֵאִין,",
+    "en": "for people without a bris or for people who are tamei,",
+    "st": "or <b>for</b> the sake of <b>the uncircumcised or for those ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַעֲרֵלִין",
+      "en": "for those without a bris"
+     },
+     {
+      "he": "וְלִטְמֵאִין,",
+      "en": "and for the tamei"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. לְאוֹכְלָיו וְשֶׁלֹּא לְאוֹכְלָיו,",
+    "en": "he must bring a chatas. For those who will eat it and for those who won't,",
+    "st": "the offering is disqualified and <b>he is liable</b> to bring a sin-offering for his unnecessary act of slaughter. If, however, he slaughtered it <b>for those who can eat it and for those who cannot eat it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he must"
+     },
+     {
+      "he": "לְאוֹכְלָיו",
+      "en": "for its eaters"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and not"
+     },
+     {
+      "he": "לְאוֹכְלָיו,",
+      "en": "for its eaters"
+     }
+    ]
+   },
+   {
+    "he": "לִמְנוּיָיו וְשֶׁלֹּא לִמְנוּיָיו,",
+    "en": "for those signed up and for those not signed up,",
+    "st": "or <b>for those who registered for it and for those who did not register for it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִמְנוּיָיו",
+      "en": "for those counted on it"
+     },
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and not"
+     },
+     {
+      "he": "לִמְנוּיָיו,",
+      "en": "for those counted on it"
+     }
+    ]
+   },
+   {
+    "he": "לְמוּלִין וְלַעֲרֵלִין,",
+    "en": "for those with a bris and for those without,",
+    "st": "or <b>for the circumcised and for those who are uncircumcised,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמוּלִין",
+      "en": "for those with a bris"
+     },
+     {
+      "he": "וְלַעֲרֵלִין,",
+      "en": "and for those without a bris"
+     }
+    ]
+   },
+   {
+    "he": "לִטְהוֹרִים וְלִטְמֵאִים,",
+    "en": "for those who are tahor and for those who are tamei,",
+    "st": "or <b>for those who are ritually impure and those who are ritually pure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִטְהוֹרִים",
+      "en": "for the tahor"
+     },
+     {
+      "he": "וְלִטְמֵאִים,",
+      "en": "and for the tamei"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. שְׁחָטוֹ וְנִמְצָא בַעַל מוּם,",
+    "en": "he is free. If he shechted it and it turned out to have a mum,",
+    "explain": "The korban is still kosher, so his shechting was allowed.",
+    "st": "<b>he is exempt.</b> Since a Paschal lamb slaughtered with dual intentions of these types is valid, the act of slaughter was justified. If <b>he slaughtered it and it was found to have a blemish,</b> the offering is disqualified, and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is free"
+     },
+     {
+      "he": "שְׁחָטוֹ",
+      "en": "he shechted it"
+     },
+     {
+      "he": "וְנִמְצָא",
+      "en": "and it was found"
+     },
+     {
+      "he": "בַעַל",
+      "en": "having"
+     },
+     {
+      "he": "מוּם,",
+      "en": "a mum",
+      "note": "A flaw that makes an animal unfit for a korban."
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. שְׁחָטוֹ וְנִמְצָא טְרֵפָה בַסֵּתֶר,",
+    "en": "he must bring one. If he shechted it and it turned out to be a hidden tereifah,",
+    "explain": "He should have checked the animal for a mum first.",
+    "st": "<b>he is liable</b> to bring a sin-offering for having unwittingly performed a prohibited labor on Shabbat, as he should have examined the animal before it was slaughtered. If <b>he slaughtered it and it was found to have a hidden condition that would cause it to die within twelve months [tereifa]</b> and that could not have been discovered before the slaughter even if it were examined properly, the offering is disqualified, but",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he must"
+     },
+     {
+      "he": "שְׁחָטוֹ",
+      "en": "he shechted it"
+     },
+     {
+      "he": "וְנִמְצָא",
+      "en": "and it was found"
+     },
+     {
+      "he": "טְרֵפָה",
+      "en": "tereifah",
+      "note": "An animal with a sickness that makes it not kosher."
+     },
+     {
+      "he": "בַסֵּתֶר,",
+      "en": "in hiding"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. שְׁחָטוֹ וְנוֹדַע שֶׁמָּשְׁכוּ הַבְּעָלִים אֶת יָדָם,",
+    "en": "he is free. If he shechted it and then found out that the owners had pulled out,",
+    "explain": "Nobody could have known about the hidden sickness.",
+    "st": "<b>he is exempt</b> from bringing a sin-offering. This is not a case of shogeg, unwitting violation of Shabbat, but rather of ones, an unavoidable accident. If <b>he slaughtered it and</b> afterward <b>it became known that the owners had withdrawn</b> from it and registered for a different Paschal lamb, in which case this one was slaughtered unnecessarily, as no one was registered for it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is free"
+     },
+     {
+      "he": "שְׁחָטוֹ",
+      "en": "he shechted it"
+     },
+     {
+      "he": "וְנוֹדַע",
+      "en": "and it became known"
+     },
+     {
+      "he": "שֶׁמָּשְׁכוּ",
+      "en": "that pulled out"
+     },
+     {
+      "he": "הַבְּעָלִים",
+      "en": "the owners"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "יָדָם,",
+      "en": "their hand"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁמֵּתוּ אוֹ שֶׁנִּטְמְאוּ,",
+    "en": "or that they died or became tamei,",
+    "st": "<b>or</b> it became known that <b>they had died or became ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁמֵּתוּ",
+      "en": "that they died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁנִּטְמְאוּ,",
+      "en": "that they became tamei"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר, מִפְּנֵי שֶׁשָּׁחַט בִּרְשׁוּת:",
+    "en": "he is free, because he shechted with permission.",
+    "st": "in all these cases <b>he is exempt</b> from bringing a sin-offering, <b>because he slaughtered with permission.</b>",
+    "stMore": "At the time of the slaughter, he did not know and had no reason to suspect that the offering would be disqualified.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר,",
+      "en": "he is free"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁשָּׁחַט",
+      "en": "that he shechted"
+     },
+     {
+      "he": "בִּרְשׁוּת:",
+      "en": "with permission"
+     }
+    ]
+   }
+  ]
+ }
+]

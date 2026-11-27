@@ -1,0 +1,2742 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "This mishnah teaches how many judges are needed for different kinds of court cases about money and fines. Rabbi Meir and the Sages argue about one case that might end in a death penalty.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "דִּינֵי מָמוֹנוֹת, בִּשְׁלֹשָׁה.",
+    "en": "Cases about money are judged by three judges.",
+    "st": "Cases concerning <b>monetary law</b> are adjudicated <b>by three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of",
+      "note": "Court cases."
+     },
+     {
+      "he": "מָמוֹנוֹת,",
+      "en": "money"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "by three",
+      "note": "Three judges."
+     }
+    ]
+   },
+   {
+    "he": "גְּזֵלוֹת וַחֲבָלוֹת, בִּשְׁלֹשָׁה.",
+    "en": "Cases of stealing and of hurting someone are judged by three.",
+    "st": "Cases concerning <b>robbery and</b> personal <b>injury</b> are adjudicated <b>by three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּזֵלוֹת",
+      "en": "robberies"
+     },
+     {
+      "he": "וַחֲבָלוֹת,",
+      "en": "and injuries"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "by three"
+     }
+    ]
+   },
+   {
+    "he": "נֶזֶק וַחֲצִי נֶזֶק,",
+    "en": "Cases of full damage and half damage,",
+    "st": "Cases concerning <b>damage</b> that one is responsible for because he or his property caused the damage are adjudicated by three judges as well. Likewise, cases concerning payment for <b>half the damage,</b>",
+    "stMore": "which is paid in the event that an ox whose owner has not been warned that it gored more than two times gores another animal (see Exodus 21:35);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶזֶק",
+      "en": "damage",
+      "note": "Paying for harm that a person or his animal did."
+     },
+     {
+      "he": "וַחֲצִי",
+      "en": "and half"
+     },
+     {
+      "he": "נֶזֶק,",
+      "en": "damage",
+      "note": "An ox that was not known to gore pays only half."
+     }
+    ]
+   },
+   {
+    "he": "תַּשְׁלוּמֵי כֶפֶל וְתַשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה, בִּשְׁלֹשָׁה.",
+    "en": "paying double, and paying four or five times, are judged by three.",
+    "st": "cases concerning <b>payment of double</b> the principal by a thief who was caught stealing (see Exodus 22:3); <b>and</b> cases concerning <b>payment of four or five</b> times the principal by a thief who slaughtered or sold a stolen ox or a lamb (see Exodus 21:37) are all adjudicated <b>by three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "כֶפֶל",
+      "en": "double",
+      "note": "A thief who is caught pays back double."
+     },
+     {
+      "he": "וְתַשְׁלוּמֵי",
+      "en": "and payment of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה,",
+      "en": "and five",
+      "note": "A thief who sold or slaughtered a stolen ox or sheep."
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "by three"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹנֵס וְהַמְפַתֶּה וְהַמּוֹצִיא שֵׁם רַע, בִּשְׁלֹשָׁה,",
+    "en": "Cases of fines for wronging a girl, and of a man who says a false bad thing about his wife, are judged by three,",
+    "st": "Cases concerning <b>one who rapes or one who seduces</b> a virgin girl, and must therefore pay the girl’s father fifty silver shekels (see Deuteronomy 22:29, Exodus 22:15); <b>and</b> cases concerning <b>a defamer</b> who falsely asserts that his wife was not a virgin when she married him, and brings false witnesses who testify that she committed adultery while betrothed to him and who must therefore pay the girl’s father one hundred silver shekels as well as receive lashes (see Deuteronomy 22:13–19): All of these are adjudicated <b>by three</b> judges;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹנֵס",
+      "en": "the one who forces",
+      "note": "He did a terrible wrong to a girl and must pay a fine."
+     },
+     {
+      "he": "וְהַמְפַתֶּה",
+      "en": "and the one who tricks",
+      "note": "He also did a wrong to a girl and must pay a fine."
+     },
+     {
+      "he": "וְהַמּוֹצִיא",
+      "en": "and the one who spreads"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "a name"
+     },
+     {
+      "he": "רַע,",
+      "en": "bad",
+      "note": "A husband who falsely says his new wife did a sin."
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה,",
+      "en": "by three"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir",
+      "note": "A great Rabbi of the Mishnah."
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מוֹצִיא שֵׁם רַע, בְּעֶשְׂרִים וּשְׁלֹשָׁה,",
+    "en": "the case of the one who says a false bad thing about his wife is judged by twenty-three,",
+    "st": "Cases concerning <b>a defamer</b> are adjudicated <b>by</b> a court of <b>twenty-three</b>",
+    "stMore": "judges, which is the type of court authorized to judge cases of capital law,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹצִיא",
+      "en": "one who spreads"
+     },
+     {
+      "he": "שֵׁם",
+      "en": "a name"
+     },
+     {
+      "he": "רַע,",
+      "en": "bad"
+     },
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "by twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה,",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁיֶּשׁ בּוֹ דִינֵי נְפָשׁוֹת:",
+    "en": "because it may turn into a case of life and death.",
+    "explain": "If his wife were found guilty, she could get a death penalty.",
+    "st": "<b>because</b> this case <b>includes</b> the possibility of becoming a case of <b>capital law.</b>",
+    "stMore": "The husband brings witnesses that his wife committed adultery. If she is found guilty, she is liable to receive the death penalty. This punishment applies to the witnesses if they are exposed as conspiring witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁיֶּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "דִינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת:",
+      "en": "lives"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "How many judges are needed to give lashes, and to add an extra day to a month or an extra month to a year? Rabbi Meir says three, and Rabban Shimon ben Gamliel explains how the judges for a leap year are added.",
+  "stIntro": "Cases concerning the violation of prohibitions that render one liable to receive",
+  "chunks": [
+   {
+    "he": "מַכּוֹת, בִּשְׁלֹשָׁה.",
+    "en": "Lashes are given by three judges.",
+    "st": "<b>lashes</b> are adjudicated <b>by three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַכּוֹת,",
+      "en": "lashes",
+      "note": "A punishment of being hit with a strap."
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "by three"
+     }
+    ]
+   },
+   {
+    "he": "מִשּׁוּם רַבִּי יִשְׁמָעֵאל אָמְרוּ,",
+    "en": "In the name of Rabbi Yishmael they said,",
+    "st": "The Sages <b>stated in the name of Rabbi Yishmael:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשּׁוּם",
+      "en": "in the name of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יִשְׁמָעֵאל",
+      "en": "Yishmael"
+     },
+     {
+      "he": "אָמְרוּ,",
+      "en": "they said"
+     }
+    ]
+   },
+   {
+    "he": "בְּעֶשְׂרִים וּשְׁלֹשָׁה.",
+    "en": "by twenty-three.",
+    "st": "Cases concerning lashes are adjudicated <b>by twenty-three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "by twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה.",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "עִבּוּר הַחֹדֶשׁ, בִּשְׁלֹשָׁה.",
+    "en": "Making a month longer is done by three.",
+    "st": "The <b>intercalation of the month</b> is performed <b>by</b> a panel of <b>three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עִבּוּר",
+      "en": "making longer",
+      "note": "Adding a thirtieth day to the month."
+     },
+     {
+      "he": "הַחֹדֶשׁ,",
+      "en": "the month"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "by three"
+     }
+    ]
+   },
+   {
+    "he": "עִבּוּר הַשָּׁנָה, בִּשְׁלֹשָׁה,",
+    "en": "Making a year longer is done by three,",
+    "st": "The <b>intercalation of the year,</b> meaning the decision to add an extra month to the year when necessary, is also decided <b>by</b> a panel of <b>three</b> judges;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עִבּוּר",
+      "en": "making longer",
+      "note": "Adding an extra month, to make a leap year."
+     },
+     {
+      "he": "הַשָּׁנָה,",
+      "en": "the year"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה,",
+      "en": "by three"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁלֹשָׁה מַתְחִילִין,",
+    "en": "they start with three,",
+    "st": "The deliberations <b>begin with three</b> judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁלֹשָׁה",
+      "en": "with three"
+     },
+     {
+      "he": "מַתְחִילִין,",
+      "en": "they start"
+     }
+    ]
+   },
+   {
+    "he": "וּבַחֲמִשָּׁה נוֹשְׂאִין וְנוֹתְנִין,",
+    "en": "and they discuss it with five,",
+    "st": "<b>and they debate</b> the matter <b>with five</b> judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַחֲמִשָּׁה",
+      "en": "and with five"
+     },
+     {
+      "he": "נוֹשְׂאִין",
+      "en": "they discuss",
+      "note": "They give and take reasons."
+     },
+     {
+      "he": "וְנוֹתְנִין,",
+      "en": "and they talk"
+     }
+    ]
+   },
+   {
+    "he": "וְגוֹמְרִין בְּשִׁבְעָה.",
+    "en": "and they finish with seven.",
+    "st": "<b>and they conclude</b> the matter <b>with seven</b>",
+    "stMore": "judges, due to the significance of the decision.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְגוֹמְרִין",
+      "en": "and they finish"
+     },
+     {
+      "he": "בְּשִׁבְעָה.",
+      "en": "with seven"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם גָּמְרוּ בִשְׁלֹשָׁה, מְעֻבֶּרֶת:",
+    "en": "And if they finished with three, it is a leap year.",
+    "st": "<b>And</b> Rabban Shimon ben Gamliel concedes that <b>if they concluded</b> the matter <b>with</b> only <b>three</b> judges, the intercalation is valid and it is <b>a leap</b> year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "גָּמְרוּ",
+      "en": "they finished"
+     },
+     {
+      "he": "בִשְׁלֹשָׁה,",
+      "en": "with three"
+     },
+     {
+      "he": "מְעֻבֶּרֶת:",
+      "en": "it is a leap year"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "This mishnah lists more things a court of three or more judges must do, like giving semichah, the egla arufah, chalitzah, and setting the value of things given to the Beis HaMikdash.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "סְמִיכַת זְקֵנִים וַעֲרִיפַת עֶגְלָה,",
+    "en": "Giving semichah to elders, and breaking the calf's neck,",
+    "st": "Both the <b>laying of hands by the Sages and the breaking of the heifer’s neck</b>",
+    "stMore": "in a case where a person was found murdered and it is not known who killed him (see Deuteronomy 21:1–9)",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סְמִיכַת",
+      "en": "laying hands on",
+      "note": "Giving semichah, making someone a judge."
+     },
+     {
+      "he": "זְקֵנִים",
+      "en": "elders"
+     },
+     {
+      "he": "וַעֲרִיפַת",
+      "en": "and breaking the neck of"
+     },
+     {
+      "he": "עֶגְלָה,",
+      "en": "a calf",
+      "note": "The egla arufah, done when a murdered person is found and no one knows who killed him."
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁלֹשָׁה, דִּבְרֵי רַבִּי שִׁמְעוֹן.",
+    "en": "are done with three. That is what Rabbi Shimon says.",
+    "st": "are performed in front of a panel <b>of three</b> judges; this is <b>the statement of Rabbi Shimon. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁלֹשָׁה,",
+      "en": "with three"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן.",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "וְרַבִּי יְהוּדָה אוֹמֵר, בַּחֲמִשָּׁה.",
+    "en": "And Rabbi Yehudah says, with five.",
+    "st": "<b>Rabbi Yehuda says:</b> These rituals are performed in front <b>of five</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "בַּחֲמִשָּׁה.",
+      "en": "with five"
+     }
+    ]
+   },
+   {
+    "he": "הַחֲלִיצָה וְהַמֵּאוּנִין, בִּשְׁלֹשָׁה.",
+    "en": "Chalitzah and mi'un are done with three.",
+    "st": "Both <b>ḥalitza,</b> the ritual through which the yavam, a surviving brother of a married man who died without sons, frees the yevama, the widow, of her levirate bond in a case where the yavam does not wish to marry the yevama (see Deuteronomy 25:5–10), <b>and the refusal</b> of a girl before reaching majority to remain married to the man to whom her mother or brother married her off, are performed before a court <b>of three</b>",
+    "stMore": "judges. The halakha concerning fruit of a fourth-year sapling and second-tithe produce is that they are to be brought to Jerusalem and eaten there. If this is impractical, the produce can be redeemed and the redemption money brought to Jerusalem, where it is used to purchase food and drink.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחֲלִיצָה",
+      "en": "the chalitzah",
+      "note": "Freeing a widow from marrying her husband's brother."
+     },
+     {
+      "he": "וְהַמֵּאוּנִין,",
+      "en": "and the mi'un",
+      "note": "A young girl saying she does not want to stay married."
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "with three"
+     }
+    ]
+   },
+   {
+    "he": "נֶטַע רְבָעִי וּמַעֲשֵׂר שֵׁנִי",
+    "en": "Fruit of a fourth-year tree and maaser sheni",
+    "st": "Valuation of fruit of <b>a fourth-year sapling or second-tithe</b> produce in cases",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶטַע",
+      "en": "fruit of"
+     },
+     {
+      "he": "רְבָעִי",
+      "en": "the fourth year",
+      "note": "Fruit of a tree in its fourth year, which is eaten in Yerushalayim."
+     },
+     {
+      "he": "וּמַעֲשֵׂר",
+      "en": "and maaser"
+     },
+     {
+      "he": "שֵׁנִי",
+      "en": "sheni",
+      "note": "Second tithe, also eaten in Yerushalayim."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין דָּמָיו יְדוּעִין, בִּשְׁלֹשָׁה.",
+    "en": "whose price is not known are valued by three.",
+    "st": "<b>where their value is not known</b> is performed <b>by three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "דָּמָיו",
+      "en": "its price"
+     },
+     {
+      "he": "יְדוּעִין,",
+      "en": "are known"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "with three"
+     }
+    ]
+   },
+   {
+    "he": "הַהֶקְדֵּשׁוֹת, בִּשְׁלֹשָׁה.",
+    "en": "Things given to hekdesh are valued by three.",
+    "st": "The valuation of <b>consecrated</b> property for purposes of redemption is performed <b>by three</b> judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַהֶקְדֵּשׁוֹת,",
+      "en": "the things given to hekdesh",
+      "note": "Things given to the Beis HaMikdash."
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "with three"
+     }
+    ]
+   },
+   {
+    "he": "הָעֲרָכִין הַמִּטַּלְטְלִין, בִּשְׁלֹשָׁה.",
+    "en": "Erech payments of movable things are valued by three.",
+    "st": "and <b>the valuations that are movable property</b> (see Leviticus 27:1–8) are performed <b>by three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֲרָכִין",
+      "en": "the erech payments",
+      "note": "Money a person promised to the Beis HaMikdash."
+     },
+     {
+      "he": "הַמִּטַּלְטְלִין,",
+      "en": "the movable things"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "with three"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד מֵהֶן כֹּהֵן.",
+    "en": "one of them must be a Kohen.",
+    "st": "<b>One of</b> the three judges must be <b>a priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "כֹּהֵן.",
+      "en": "a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "וְהַקַּרְקָעוֹת, תִּשְׁעָה וְכֹהֵן.",
+    "en": "And land is valued by nine and a Kohen.",
+    "st": "<b>And the</b> valuation of consecrated <b>land</b> is performed by <b>nine</b> judges <b>and,</b> in addition, one <b>priest. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַקַּרְקָעוֹת,",
+      "en": "and the lands"
+     },
+     {
+      "he": "תִּשְׁעָה",
+      "en": "nine"
+     },
+     {
+      "he": "וְכֹהֵן.",
+      "en": "and a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "וְאָדָם, כַּיּוֹצֵא בָהֶן:",
+    "en": "And a person is valued the same way as land.",
+    "st": "<b>And</b> the valuation of <b>a person</b> for the purpose of a vow is performed in <b>a similar manner to</b> that of land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָדָם,",
+      "en": "and a person"
+     },
+     {
+      "he": "כַּיּוֹצֵא",
+      "en": "like what goes out"
+     },
+     {
+      "he": "בָהֶן:",
+      "en": "with them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Cases where a person may get a death penalty need twenty-three judges. This is also true for an animal that killed a person or was part of a terrible sin. Rabbi Eliezer and Rabbi Akiva argue about wild animals that killed people.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "דִּינֵי נְפָשׁוֹת,",
+    "en": "Cases of life and death",
+    "st": "Cases of <b>capital law</b> are judged",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת,",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "בְּעֶשְׂרִים וּשְׁלֹשָׁה.",
+    "en": "are judged by twenty-three.",
+    "st": "<b>by twenty-three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "by twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה.",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "הָרוֹבֵעַ וְהַנִּרְבָּע,",
+    "en": "An animal that was part of a terrible sin",
+    "st": "<b>An animal that copulated with a person and an animal that was the object of bestiality</b> are judged",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרוֹבֵעַ",
+      "en": "the animal"
+     },
+     {
+      "he": "וְהַנִּרְבָּע,",
+      "en": "and the animal",
+      "note": "An animal that a person did a terrible sin with."
+     }
+    ]
+   },
+   {
+    "he": "בְּעֶשְׂרִים וּשְׁלֹשָׁה,",
+    "en": "is judged by twenty-three,",
+    "st": "<b>by twenty-three</b> judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "by twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה,",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶאֱמַר (ויקרא כ) וְהָרַגְתָּ",
+    "en": "as it says, \"And you shall kill",
+    "st": "<b>as it is stated:</b>",
+    "stMore": "“And if a woman approaches any animal to lie with it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כ)",
+      "en": "20)"
+     },
+     {
+      "he": "וְהָרַגְתָּ",
+      "en": "and you shall kill"
+     }
+    ]
+   },
+   {
+    "he": "אֶת הָאִשָּׁה וְאֶת הַבְּהֵמָה,",
+    "en": "the woman and the animal.\"",
+    "st": "<b>you shall kill the woman and the animal”</b> (Leviticus 20:16),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַבְּהֵמָה,",
+      "en": "the animal"
+     }
+    ]
+   },
+   {
+    "he": "וְאוֹמֵר (שם) וְאֶת הַבְּהֵמָה תַּהֲרֹגוּ.",
+    "en": "And it says, \"And you shall kill the animal.\"",
+    "st": "<b>and it states:</b> “And if a man lies with an animal, he shall be put to death <b>and you shall kill the animal”</b>",
+    "stMore": "(Leviticus 20:15). In cases of bestiality, the verse juxtaposes the execution of the animal to the execution of the person, and therefore the case of the animal is adjudicated in the same way as cases of capital law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאוֹמֵר",
+      "en": "and it says"
+     },
+     {
+      "he": "(שם)",
+      "en": "(there)"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַבְּהֵמָה",
+      "en": "the animal"
+     },
+     {
+      "he": "תַּהֲרֹגוּ.",
+      "en": "you shall kill"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹר הַנִּסְקָל,",
+    "en": "An ox that is to be stoned",
+    "st": "Similarly, <b>an ox that is</b> to be <b>stoned</b> because it killed a person is judged",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹר",
+      "en": "an ox"
+     },
+     {
+      "he": "הַנִּסְקָל,",
+      "en": "that is stoned",
+      "note": "Because it killed a person."
+     }
+    ]
+   },
+   {
+    "he": "בְּעֶשְׂרִים וּשְׁלֹשָׁה,",
+    "en": "is judged by twenty-three,",
+    "st": "<b>by twenty-three</b> judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "by twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה,",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמות כא) הַשּׁוֹר",
+    "en": "as it says, \"The ox",
+    "st": "<b>as it is stated:</b>",
+    "stMore": "“But if the ox was wont to gore in time past, and warning has been given to its owner, but he did not guard it and it kills a man or a woman",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כא)",
+      "en": "21)"
+     },
+     {
+      "he": "הַשּׁוֹר",
+      "en": "the ox"
+     }
+    ]
+   },
+   {
+    "he": "יִסָּקֵל וְגַם בְּעָלָיו יוּמָת,",
+    "en": "shall be stoned, and also its owner shall die.\"",
+    "st": "<b>the ox shall be stoned and also its owner shall be put to death”</b> (Exodus 21:29).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִסָּקֵל",
+      "en": "shall be stoned"
+     },
+     {
+      "he": "וְגַם",
+      "en": "and also"
+     },
+     {
+      "he": "בְּעָלָיו",
+      "en": "its owner"
+     },
+     {
+      "he": "יוּמָת,",
+      "en": "shall die"
+     }
+    ]
+   },
+   {
+    "he": "כְּמִיתַת בְּעָלִים כָּךְ מִיתַת הַשּׁוֹר.",
+    "en": "The ox dies the same way its owner would die.",
+    "explain": "So the ox is judged by twenty-three, like a person.",
+    "st": "From this verse it is derived that <b>just as</b> the manner of <b>the death of the owner, so is</b> the manner of <b>the death of the ox.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּמִיתַת",
+      "en": "like the death of"
+     },
+     {
+      "he": "בְּעָלִים",
+      "en": "owners"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "מִיתַת",
+      "en": "the death of"
+     },
+     {
+      "he": "הַשּׁוֹר.",
+      "en": "the ox"
+     }
+    ]
+   },
+   {
+    "he": "הַזְּאֵב וְהָאֲרִי,",
+    "en": "The wolf and the lion,",
+    "st": "The same halakha applies in the case of <b>a wolf or a lion, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַזְּאֵב",
+      "en": "the wolf"
+     },
+     {
+      "he": "וְהָאֲרִי,",
+      "en": "and the lion"
+     }
+    ]
+   },
+   {
+    "he": "הַדֹּב וְהַנָּמֵר וְהַבַּרְדְּלָס וְהַנָּחָשׁ,",
+    "en": "the bear, the leopard, the cheetah, and the snake,",
+    "st": "<b>a bear or a leopard, or a cheetah, or a snake</b> that killed a person:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַדֹּב",
+      "en": "the bear"
+     },
+     {
+      "he": "וְהַנָּמֵר",
+      "en": "and the leopard"
+     },
+     {
+      "he": "וְהַבַּרְדְּלָס",
+      "en": "and the cheetah",
+      "note": "A fast wild cat."
+     },
+     {
+      "he": "וְהַנָּחָשׁ,",
+      "en": "and the snake"
+     }
+    ]
+   },
+   {
+    "he": "מִיתָתָן בְּעֶשְׂרִים וּשְׁלֹשָׁה.",
+    "en": "if they killed a person, their death is decided by twenty-three.",
+    "st": "<b>Their death</b> is decreed <b>by twenty-three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִיתָתָן",
+      "en": "their death"
+     },
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "by twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה.",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says</b>",
+    "stMore": "these dangerous animals do not need to be brought to court; rather,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַקּוֹדֵם לְהָרְגָן, זָכָה.",
+    "en": "whoever kills them first gets a mitzvah.",
+    "st": "<b>anyone who kills them first merits</b> the performance of a mitzva.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַקּוֹדֵם",
+      "en": "who is first"
+     },
+     {
+      "he": "לְהָרְגָן,",
+      "en": "to kill them"
+     },
+     {
+      "he": "זָכָה.",
+      "en": "merits",
+      "note": "Gets the reward of a mitzvah."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מִיתָתָן בְּעֶשְׂרִים וּשְׁלֹשָׁה:",
+    "en": "their death is decided by twenty-three.",
+    "st": "<b>Their death</b> is decreed <b>by twenty-three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִיתָתָן",
+      "en": "their death"
+     },
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "by twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה:",
+      "en": "and three"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "Some very big things can only be done by the great Sanhedrin of seventy-one judges, like judging a whole tribe, going out to a war the Torah did not command, or making Yerushalayim bigger.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין דָּנִין לֹא אֶת הַשֵּׁבֶט",
+    "en": "We do not judge a whole tribe,",
+    "st": "The court <b>judges</b> cases involving an entire <b>tribe</b> that sinned,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "דָּנִין",
+      "en": "we judge"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשֵּׁבֶט",
+      "en": "the tribe"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת נְבִיא הַשֶּׁקֶר",
+    "en": "and not a false prophet,",
+    "st": "<b>or a false prophet</b> (see Deuteronomy 18:20–22),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "נְבִיא",
+      "en": "a prophet of"
+     },
+     {
+      "he": "הַשֶּׁקֶר",
+      "en": "the lie"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֶת כֹּהֵן גָּדוֹל,",
+    "en": "and not a Kohen Gadol,",
+    "st": "<b>or a High Priest</b>",
+    "stMore": "who transgressed a prohibition that carries a possible death sentence,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "a Kohen"
+     },
+     {
+      "he": "גָּדוֹל,",
+      "en": "Gadol",
+      "note": "The High Priest."
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַל פִּי",
+    "en": "except by the word",
+    "st": "<b>only on the basis of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     }
+    ]
+   },
+   {
+    "he": "בֵית דִּין שֶׁל שִׁבְעִים וְאֶחָד.",
+    "en": "of a court of seventy-one.",
+    "explain": "This is the great Sanhedrin.",
+    "st": "<b>a court of seventy-one</b> judges, i.e., the Great Sanhedrin.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מוֹצִיאִין לְמִלְחֶמֶת הָרְשׁוּת,",
+    "en": "And we do not go out to a war of choice",
+    "st": "<b>And</b> the king may <b>bring</b> the nation <b>out to an optional war,</b>",
+    "stMore": "i.e., a war that was not mandated by the Torah and is not a war of defense,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "מוֹצִיאִין",
+      "en": "we go out"
+     },
+     {
+      "he": "לְמִלְחֶמֶת",
+      "en": "to a war of"
+     },
+     {
+      "he": "הָרְשׁוּת,",
+      "en": "choice",
+      "note": "A war the Torah did not command."
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַל פִּי",
+    "en": "except by the word",
+    "st": "<b>only on the basis of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     }
+    ]
+   },
+   {
+    "he": "בֵית דִּין שֶׁל שִׁבְעִים וְאֶחָד.",
+    "en": "of a court of seventy-one.",
+    "st": "<b>a court of seventy-one</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מוֹסִיפִין עַל הָעִיר וְעַל הָעֲזָרוֹת,",
+    "en": "We do not add on to the city or to the courtyards",
+    "st": "<b>They may extend the city</b> of Jerusalem <b>or the courtyards</b> of the Temple",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מוֹסִיפִין",
+      "en": "we add"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָעִיר",
+      "en": "the city",
+      "note": "Yerushalayim."
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הָעֲזָרוֹת,",
+      "en": "the courtyards",
+      "note": "The courtyards of the Beis HaMikdash."
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַל פִּי",
+    "en": "except by the word",
+    "st": "<b>only on the basis of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     }
+    ]
+   },
+   {
+    "he": "בֵית דִּין שֶׁל שִׁבְעִים וְאֶחָד.",
+    "en": "of a court of seventy-one.",
+    "st": "<b>a court of seventy-one</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אֵין עוֹשִׂין סַנְהֶדְרִיּוֹת לַשְּׁבָטִים,",
+    "en": "We do not set up courts for the tribes",
+    "st": "<b>And</b> they may <b>appoint</b> a lesser <b>Sanhedrin</b> of twenty-three judges <b>for the tribes </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "we make"
+     },
+     {
+      "he": "סַנְהֶדְרִיּוֹת",
+      "en": "Sanhedrins",
+      "note": "Smaller courts of twenty-three judges."
+     },
+     {
+      "he": "לַשְּׁבָטִים,",
+      "en": "for the tribes"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַל פִּי",
+    "en": "except by the word",
+    "st": "<b>only on the basis of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     }
+    ]
+   },
+   {
+    "he": "בֵית דִּין שֶׁל שִׁבְעִים וְאֶחָד.",
+    "en": "of a court of seventy-one.",
+    "st": "<b>a court of seventy-one</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "אֵין עוֹשִׂין עִיר הַנִּדַּחַת,",
+    "en": "We do not judge a city as an ir hanidachas",
+    "st": "A city <b>may be designated</b> as <b>an idolatrous city,</b>",
+    "stMore": "i.e., a city whose residents all practice idolatry, and therefore according to Torah law all the residents must be killed and the city must be destroyed (see Deuteronomy 13:13–19),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "we make"
+     },
+     {
+      "he": "עִיר",
+      "en": "a city of"
+     },
+     {
+      "he": "הַנִּדַּחַת,",
+      "en": "the ir hanidachas",
+      "note": "A city where everyone served idols."
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַל פִּי",
+    "en": "except by the word",
+    "st": "<b>only in accordance with</b> the ruling of",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     }
+    ]
+   },
+   {
+    "he": "בֵית דִּין שֶׁל שִׁבְעִים וְאֶחָד.",
+    "en": "of a court of seventy-one.",
+    "st": "<b>a court of seventy-one</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין עוֹשִׂין עִיר הַנִּדַּחַת בַּסְּפָר,",
+    "en": "And we do not make a city near the border into an ir hanidachas,",
+    "st": "Additionally, the court <b>may not designate</b> a city as <b>an idolatrous city</b> if it is <b>on the frontier,</b> close to the borders of Eretz Yisrael,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "we make"
+     },
+     {
+      "he": "עִיר",
+      "en": "a city of"
+     },
+     {
+      "he": "הַנִּדַּחַת",
+      "en": "the ir hanidachas"
+     },
+     {
+      "he": "בַּסְּפָר,",
+      "en": "near the border"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא שְׁלֹשָׁה,",
+    "en": "and not three cities,",
+    "st": "<b>and three</b> adjoining cities may <b>not</b> be designated as idolatrous cities.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "שְׁלֹשָׁה,",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל עוֹשִׂין אַחַת אוֹ שְׁתָּיִם:",
+    "en": "but we may make one or two.",
+    "st": "<b>But</b> the court <b>may designate one</b> city, <b>or two</b> adjoining cities, as idolatrous cities.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "we make"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שְׁתָּיִם:",
+      "en": "two"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "The great Sanhedrin had seventy-one judges and a small Sanhedrin had twenty-three. The mishnah shows from pesukim where each number comes from, and how big a city must be to have a Sanhedrin.",
+  "stIntro": "With regard to the number of judges in the different courts the mishna presents a halakhic midrash:",
+  "chunks": [
+   {
+    "he": "סַנְהֶדְרִי גְדוֹלָה הָיְתָה שֶׁל שִׁבְעִים וְאֶחָד,",
+    "en": "The great Sanhedrin had seventy-one judges,",
+    "st": "The <b>Great Sanhedrin was</b> composed <b>of seventy-one</b> judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סַנְהֶדְרִי",
+      "en": "Sanhedrin"
+     },
+     {
+      "he": "גְדוֹלָה",
+      "en": "great"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וּקְטַנָּה שֶׁל עֶשְׂרִים וּשְׁלֹשָׁה.",
+    "en": "and the small one had twenty-three.",
+    "st": "<b>and a lesser</b> Sanhedrin was composed <b>of twenty-three. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּקְטַנָּה",
+      "en": "and the small one"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה.",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנַּיִן לַגְּדוֹלָה שֶׁהִיא שֶׁל שִׁבְעִים וְאֶחָד,",
+    "en": "And how do we know that the great one has seventy-one?",
+    "st": "<b>From where</b> is it derived <b>that the Great</b> Sanhedrin <b>was</b> composed <b>of seventy-one</b> judges?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנַּיִן",
+      "en": "and from where"
+     },
+     {
+      "he": "לַגְּדוֹלָה",
+      "en": "for the great one"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר יא) אֶסְפָה לִּי",
+    "en": "As it says, \"Gather for Me",
+    "st": "<b>As it is stated: “Gather Me </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "יא)",
+      "en": "11)"
+     },
+     {
+      "he": "אֶסְפָה",
+      "en": "gather"
+     },
+     {
+      "he": "לִּי",
+      "en": "for Me"
+     }
+    ]
+   },
+   {
+    "he": "שִׁבְעִים אִישׁ מִזִּקְנֵי יִשְׂרָאֵל,",
+    "en": "seventy men from the elders of Yisrael,\"",
+    "st": "<b>seventy men of the Elders of Israel,</b>",
+    "stMore": "whom you know to be the Elders of the people and officers over them, and bring them into the Tent of Meeting, and they shall stand there with you” (Numbers 11:16),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "men"
+     },
+     {
+      "he": "מִזִּקְנֵי",
+      "en": "from the elders of"
+     },
+     {
+      "he": "יִשְׂרָאֵל,",
+      "en": "Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "וּמֹשֶׁה עַל גַּבֵּיהֶן,",
+    "en": "and Moshe is over them.",
+    "st": "<b>and</b> together with <b>Moses at the head of</b> this body,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֹשֶׁה",
+      "en": "and Moshe"
+     },
+     {
+      "he": "עַל",
+      "en": "over"
+     },
+     {
+      "he": "גַּבֵּיהֶן,",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי שִׁבְעִים וְאֶחָד.",
+    "en": "That makes seventy-one.",
+    "st": "there are a total of seventy-one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "this makes"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר, שִׁבְעִים.",
+    "en": "Rabbi Yehudah says, seventy.",
+    "st": "<b>Rabbi Yehuda says:</b> Moses was indeed at the head of the body, but he is not counted as part of the group. Consequently, a future Great Sanhedrin modeled after these Elders is to be composed of <b>seventy</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "שִׁבְעִים.",
+      "en": "seventy"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנַּיִן לַקְּטַנָּה שֶׁהִיא שֶׁל עֶשְׂרִים וּשְׁלֹשָׁה,",
+    "en": "And how do we know that the small one has twenty-three?",
+    "st": "<b>And from where</b> is it derived <b>that a lesser</b> Sanhedrin <b>is</b> composed <b>of twenty-three</b> judges?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנַּיִן",
+      "en": "and from where"
+     },
+     {
+      "he": "לַקְּטַנָּה",
+      "en": "for the small one"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה,",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם לה)",
+    "en": "As it says,",
+    "st": "<b>As it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(שם",
+      "en": "(there"
+     },
+     {
+      "he": "לה)",
+      "en": "35)"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁפְטוּ הָעֵדָה וְגוֹ'",
+    "en": "\"And the congregation shall judge...\"",
+    "st": "<b>“And the congregation shall judge</b> between the assailant and the avenger…",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁפְטוּ",
+      "en": "and shall judge"
+     },
+     {
+      "he": "הָעֵדָה",
+      "en": "the congregation"
+     },
+     {
+      "he": "וְגוֹ'",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "וְהִצִּילוּ הָעֵדָה,",
+    "en": "\"and the congregation shall save.\"",
+    "st": "<b>and the congregation shall save</b>",
+    "stMore": "the manslayer from the hands of the avenger” (Numbers 35:24–25).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִצִּילוּ",
+      "en": "and shall save"
+     },
+     {
+      "he": "הָעֵדָה,",
+      "en": "the congregation"
+     }
+    ]
+   },
+   {
+    "he": "עֵדָה שׁוֹפֶטֶת וְעֵדָה מַצֶּלֶת,",
+    "en": "A group that judges, and a group that saves.",
+    "explain": "One group tries to find him guilty, and one tries to save him.",
+    "st": "Therefore, there must be <b>a congregation,</b> which consists of at least ten judges, that <b>judges</b> the accused and attempts to convict him, <b>and</b> there must be <b>a congregation,</b> also consisting of at least ten judges, which attempts to <b>save</b> the accused by finding him innocent.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדָה",
+      "en": "a group"
+     },
+     {
+      "he": "שׁוֹפֶטֶת",
+      "en": "that judges"
+     },
+     {
+      "he": "וְעֵדָה",
+      "en": "and a group"
+     },
+     {
+      "he": "מַצֶּלֶת,",
+      "en": "that saves"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי כָאן עֶשְׂרִים.",
+    "en": "That makes twenty.",
+    "st": "Together, <b>there are twenty</b> judges <b>here.</b>",
+    "stMore": "Before proceeding to derive the requirement for the final three judges, the mishna clarifies:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "this makes"
+     },
+     {
+      "he": "כָאן",
+      "en": "here"
+     },
+     {
+      "he": "עֶשְׂרִים.",
+      "en": "twenty"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנַּיִן לָעֵדָה שֶׁהִיא עֲשָׂרָה,",
+    "en": "And how do we know that a \"congregation\" is ten?",
+    "st": "<b>And from where</b> is it derived <b>that a congregation</b> consists <b>of</b> at least <b>ten</b> men?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנַּיִן",
+      "en": "and from where"
+     },
+     {
+      "he": "לָעֵדָה",
+      "en": "for the congregation"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that it is"
+     },
+     {
+      "he": "עֲשָׂרָה,",
+      "en": "ten"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם יד)",
+    "en": "As it says",
+    "st": "<b>As it is stated</b> concerning the spies:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(שם",
+      "en": "(there"
+     },
+     {
+      "he": "יד)",
+      "en": "14)"
+     }
+    ]
+   },
+   {
+    "he": "עַד מָתַי לָעֵדָה הָרָעָה הַזֹּאת,",
+    "en": "\"How long for this bad congregation,\"",
+    "explain": "Hashem said this about the spies.",
+    "st": "<b>“How long shall I bear with this evil congregation</b>",
+    "stMore": "that keep complaining about me?” (Numbers 14:27) There were twelve spies;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "מָתַי",
+      "en": "when"
+     },
+     {
+      "he": "לָעֵדָה",
+      "en": "for the congregation"
+     },
+     {
+      "he": "הָרָעָה",
+      "en": "the bad"
+     },
+     {
+      "he": "הַזֹּאת,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "יָצְאוּ יְהוֹשֻׁעַ וְכָלֵב.",
+    "en": "without Yehoshua and Kalev.",
+    "explain": "There were twelve spies; without these two, there were ten.",
+    "st": "<b>excluding Joshua and Caleb,</b>",
+    "stMore": "who did not complain, there would be ten men who are called: A congregation. Accordingly, the verses describing a congregation that attempts to convict the accused and a congregation that attempts to acquit him together add up to twenty judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצְאוּ",
+      "en": "went out"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "וְכָלֵב.",
+      "en": "and Kalev"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנַּיִן לְהָבִיא עוֹד שְׁלֹשָׁה,",
+    "en": "And how do we know to add three more?",
+    "st": "<b>And from where</b> is it derived <b>to bring three more</b> judges to the court?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנַּיִן",
+      "en": "and from where"
+     },
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     },
+     {
+      "he": "עוֹד",
+      "en": "more"
+     },
+     {
+      "he": "שְׁלֹשָׁה,",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "מִמַּשְׁמַע שֶׁנֶּאֱמַר (שמות כג)",
+    "en": "From what it says,",
+    "st": "<b>From the implication of that</b> which <b>is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִמַּשְׁמַע",
+      "en": "from the meaning"
+     },
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כג)",
+      "en": "23)"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תִהְיֶה אַחֲרֵי רַבִּים לְרָעֹת,",
+    "en": "\"Do not follow the many to do bad,\"",
+    "st": "<b>“You shall not follow a multitude to convict”</b> (Exodus 23:2),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תִהְיֶה",
+      "en": "you shall be"
+     },
+     {
+      "he": "אַחֲרֵי",
+      "en": "after"
+     },
+     {
+      "he": "רַבִּים",
+      "en": "many"
+     },
+     {
+      "he": "לְרָעֹת,",
+      "en": "to do bad"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמֵעַ אֲנִי שֶׁאֶהְיֶה עִמָּהֶם לְטוֹבָה,",
+    "en": "I hear that I may go with them to do good.",
+    "explain": "To find him not guilty.",
+    "st": "<b>I</b> would <b>derive that</b> I may not convict a person on the basis of a majority but <b>I should follow</b> the majority <b>to exonerate. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמֵעַ",
+      "en": "hear"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "שֶׁאֶהְיֶה",
+      "en": "that I may be"
+     },
+     {
+      "he": "עִמָּהֶם",
+      "en": "with them"
+     },
+     {
+      "he": "לְטוֹבָה,",
+      "en": "for good"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן לָמָּה נֶאֱמַר",
+    "en": "If so, why does it say,",
+    "st": "<b>If so, why is it stated</b> in the same verse:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "לָמָּה",
+      "en": "why"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it is said"
+     }
+    ]
+   },
+   {
+    "he": "(שם) אַחֲרֵי רַבִּים לְהַטֹּת,",
+    "en": "\"Lean after the many\"?",
+    "st": "<b>“To incline after a multitude,”</b>",
+    "stMore": "from which it can be understood that the majority is followed in all cases? In order to resolve the apparent contradiction it must be explained:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "(שם)",
+      "en": "(there)"
+     },
+     {
+      "he": "אַחֲרֵי",
+      "en": "after"
+     },
+     {
+      "he": "רַבִּים",
+      "en": "many"
+     },
+     {
+      "he": "לְהַטֹּת,",
+      "en": "to lean"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כְהַטָּיָתְךָ לְטוֹבָה הַטָּיָתְךָ לְרָעָה.",
+    "en": "Leaning to good is not like leaning to bad.",
+    "st": "<b>Your inclination</b> after the majority <b>to exonerate is not like your inclination</b> after the majority <b>to convict. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "כְהַטָּיָתְךָ",
+      "en": "like your leaning"
+     },
+     {
+      "he": "לְטוֹבָה",
+      "en": "to good"
+     },
+     {
+      "he": "הַטָּיָתְךָ",
+      "en": "your leaning"
+     },
+     {
+      "he": "לְרָעָה.",
+      "en": "to bad"
+     }
+    ]
+   },
+   {
+    "he": "הַטָּיָתְךָ לְטוֹבָה עַל פִּי אֶחָד,",
+    "en": "To lean to good, one more judge is enough.",
+    "st": "<b>Your inclination</b> after the majority <b>to exonerate</b> can result in a verdict <b>by</b> a majority of <b>one</b> judge.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטָּיָתְךָ",
+      "en": "your leaning"
+     },
+     {
+      "he": "לְטוֹבָה",
+      "en": "to good"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "הַטָּיָתְךָ לְרָעָה עַל פִּי שְׁנַיִם,",
+    "en": "To lean to bad, you need two more.",
+    "explain": "So we need twenty-two judges.",
+    "st": "But <b>your inclination</b> after the majority <b>to convict</b> a transgressor must be <b>by</b> a more decisive majority of at least <b>two.</b>",
+    "stMore": "Therefore, the court must have at least twenty-two judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטָּיָתְךָ",
+      "en": "your leaning"
+     },
+     {
+      "he": "לְרָעָה",
+      "en": "to bad"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בֵּית דִּין שָׁקוּל,",
+    "en": "And a court may not be an even number,",
+    "st": "<b>And</b> since there is a principle that <b>a court may not</b> be composed of <b>an even</b>",
+    "stMore": "number of judges, as such a court may be unable to reach a decision, therefore",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "שָׁקוּל,",
+      "en": "even",
+      "note": "A number that can be split into two equal halves."
+     }
+    ]
+   },
+   {
+    "he": "מוֹסִיפִין עֲלֵיהֶם עוֹד אֶחָד,",
+    "en": "so we add one more judge.",
+    "st": "<b>they add another one to them,</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹסִיפִין",
+      "en": "we add"
+     },
+     {
+      "he": "עֲלֵיהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "עוֹד",
+      "en": "more"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי כָאן עֶשְׂרִים וּשְׁלֹשָׁה.",
+    "en": "That makes twenty-three.",
+    "st": "<b>there are twenty-three</b> judges <b>here. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "this makes"
+     },
+     {
+      "he": "כָאן",
+      "en": "here"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה.",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "וְכַמָּה יְהֵא בְעִיר וּתְהֵא רְאוּיָה לְסַנְהֶדְרִין,",
+    "en": "How many people must be in a city for it to have a Sanhedrin?",
+    "st": "<b>And how many</b> men must <b>be in the city for</b> it <b>to be eligible for</b> a lesser <b>Sanhedrin? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכַמָּה",
+      "en": "and how many"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "shall be"
+     },
+     {
+      "he": "בְעִיר",
+      "en": "in the city"
+     },
+     {
+      "he": "וּתְהֵא",
+      "en": "and it shall be"
+     },
+     {
+      "he": "רְאוּיָה",
+      "en": "fit"
+     },
+     {
+      "he": "לְסַנְהֶדְרִין,",
+      "en": "for a Sanhedrin"
+     }
+    ]
+   },
+   {
+    "he": "מֵאָה וְעֶשְׂרִים.",
+    "en": "A hundred and twenty.",
+    "st": "<b>One hundred and twenty. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאָה",
+      "en": "hundred"
+     },
+     {
+      "he": "וְעֶשְׂרִים.",
+      "en": "and twenty"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי נְחֶמְיָה אוֹמֵר,",
+    "en": "Rabbi Nechemyah says,",
+    "st": "<b>Rabbi Neḥemya says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "נְחֶמְיָה",
+      "en": "Nechemyah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מָאתַיִם וּשְׁלשִׁים,",
+    "en": "two hundred and thirty,",
+    "st": "<b>Two hundred and thirty, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָאתַיִם",
+      "en": "two hundred"
+     },
+     {
+      "he": "וּשְׁלשִׁים,",
+      "en": "and thirty"
+     }
+    ]
+   },
+   {
+    "he": "כְּנֶגֶד שָׂרֵי עֲשָׂרוֹת:",
+    "en": "to match the leaders of tens.",
+    "explain": "Each judge should have at least ten people to lead.",
+    "st": "<b>corresponding to the ministers of tens,</b>",
+    "stMore": "as outlined by Moses and Yitro in the wilderness (Exodus, chapter 18). That is to say, each member of the Sanhedrin can be viewed as a judge with responsibility for ten residents. If there are not enough men in the city to enable this calculation, it would not be honorable to appoint a Sanhedrin, as their members will each preside over less than the minimum of ten residents.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּנֶגֶד",
+      "en": "to match"
+     },
+     {
+      "he": "שָׂרֵי",
+      "en": "the leaders of"
+     },
+     {
+      "he": "עֲשָׂרוֹת:",
+      "en": "tens"
+     }
+    ]
+   }
+  ]
+ }
+]

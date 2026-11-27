@@ -19,6 +19,17 @@
   --books-soft: #f0e6f6;
   --yichud: #9b2d45;
   --yichud-soft: #f8e4e8;
+  --stories: #b53a26;
+  --stories-soft: #fbe6e1;
+  --bedtime: #2f3a85;
+  --bedtime-soft: #e6e8f6;
+  --bedtime-night: #151b3d;
+  --bedtime-gold: #f4c56a;
+  --library: #85581a;
+  --library-soft: #f6ecd9;
+
+  --kids-panel: #f8ecd6;
+  --kids-panel-line: #eedab6;
 
   --radius: 22px;
   --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -48,6 +59,16 @@
     --books-soft: #2e2238;
     --yichud: #f2a0b0;
     --yichud-soft: #3a1f26;
+    --stories: #f59a88;
+    --stories-soft: #3a221d;
+    --bedtime: #aab4f0;
+    --bedtime-soft: #1f2340;
+    --library: #e0b46a;
+    --library-soft: #33281a;
+    /* --bedtime-night and --bedtime-gold stay the same in dark mode. */
+
+    --kids-panel: #221d17;
+    --kids-panel-line: #3a3026;
   }
 }
 
@@ -128,6 +149,8 @@ main { flex: 1; padding-bottom: 2.5rem; }
   display: grid;
   gap: 1.25rem;
 }
+/* Lets grid items shrink below their content width, so phones (320px) don't scroll sideways. */
+.cards > li { min-width: 0; }
 
 @media (min-width: 44rem) {
   .cards { grid-template-columns: 1fr 1fr; gap: 1.75rem; }
@@ -160,6 +183,11 @@ main { flex: 1; padding-bottom: 2.5rem; }
 .card--cheder { --accent: var(--cheder); --accent-soft: var(--cheder-soft); }
 .card--books { --accent: var(--books); --accent-soft: var(--books-soft); }
 .card--yichud { --accent: var(--yichud); --accent-soft: var(--yichud-soft); }
+.card--stories { --accent: var(--stories); --accent-soft: var(--stories-soft); }
+.card--bedtime { --accent: var(--bedtime); --accent-soft: var(--bedtime-soft); }
+.card--library { --accent: var(--library); --accent-soft: var(--library-soft); }
+.card--bedtime .card-hebrew,
+.card--bedtime .card-cta { color: var(--bedtime-gold); background: var(--bedtime-night); }
 
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
 .card:active { transform: translateY(0); }
@@ -206,26 +234,105 @@ main { flex: 1; padding-bottom: 2.5rem; }
   border-radius: 999px;
   background: var(--accent-soft);
 }
-/* A card can have a note under it. In one column the item is a flex column (the card's
-   height: 100% would push the note out of the item). In two columns each item spans two rows of a
-   subgrid, so the cards in a row stay the same height and the note sits in its own row below its card. */
-.cards > li { display: flex; flex-direction: column; }
-.cards > li > .card { flex: 1; height: auto; }
-@media (min-width: 44rem) {
-  .cards > li { display: grid; grid-row: span 2; grid-template-rows: subgrid; row-gap: 0; }
-}
-.card-note {
-  margin: 0.6rem 0.5rem 0;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-/* Outside its card: the card is a link, and links can't be nested. */
-.card-note a { color: var(--accent); font-weight: 700; }
-.card-note--byheart { --accent: var(--byheart); }
-.card-note--cheder { --accent: var(--cheder); }
-
 .card-cta .arrow { transition: transform 160ms ease; }
 .card:hover .card-cta .arrow { transform: translateX(4px); }
+
+/* A card whose main link is stretched over the whole card, so the card can
+   also hold other links (e.g. app stores) without nesting <a> elements. */
+.card-link { color: inherit; text-decoration: none; }
+.card-link::after { content: ""; position: absolute; inset: 0; }
+.card:has(.card-link:focus-visible) { outline: 3px solid var(--accent); outline-offset: 4px; }
+@supports selector(:has(*)) { .card-link:focus { outline: none; } }
+
+.card-apps {
+  position: relative; z-index: 1; /* above the stretched link */
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  margin-top: 1rem; padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.card-apps-label {
+  flex-basis: 100%;
+  display: inline-flex; align-items: center; gap: 0.4em;
+  font-size: 0.9rem; font-weight: 600; color: var(--muted);
+}
+.card-apps-label svg {
+  width: 1.1em; height: 1.1em;
+  fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round;
+}
+.card-app {
+  flex: 1 1 9rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 2.75rem; padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--accent); font-weight: 700; font-size: 0.95rem;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+.card-app:hover { background: var(--accent-soft); border-color: var(--accent); }
+.card-app:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 2px;
+  background: var(--accent-soft);
+}
+.card:has(.card-app:hover) .card-cta .arrow { transform: none; }
+.card-apps-note { flex-basis: 100%; font-size: 0.85rem; color: var(--muted); }
+
+/* Sections */
+.section-head { text-align: center; margin: 0 0 1.5rem; }
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.6rem, 5vw, 2.1rem);
+  line-height: 1.15;
+  margin: 0;
+}
+.section-sub { margin: 0.35rem auto 0; max-width: 32rem; color: var(--muted); }
+
+/* Kids: warm panel */
+.section--kids {
+  background: var(--kids-panel);
+  border: 1px solid var(--kids-panel-line);
+  border-radius: calc(var(--radius) + 10px);
+  padding: 1.75rem 0.75rem 1rem;
+}
+.section--kids .section-title { color: var(--brand); }
+@media (min-width: 44rem) {
+  .section--kids { padding: 2.25rem 1.75rem 1.75rem; }
+}
+
+/* Divider: the hero's open book between two rules */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 36rem;
+  margin: 2.5rem auto;
+}
+.divider::before,
+.divider::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+.hero-mark.divider-mark { width: 1.75rem; height: 1.75rem; margin: 0; flex: none; }
+
+/* General: calm, scholarly */
+.section--general .card { border-radius: 16px; }
+.section--general .card::before { height: 3px; }
+.section--general .card-hebrew {
+  background: none;
+  border-radius: 0;
+  padding: 0 0 0.15em;
+  font-size: clamp(2rem, 7vw, 2.4rem);
+  border-bottom: 2px solid var(--border);
+  border-bottom-color: color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.section--general .card-cta { background: none; padding: 0.35rem 0; }
+
+.archive-note {
+  max-width: 36rem;
+  margin: 1.75rem auto 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.archive-note a { color: var(--brand); }
 
 /* Footer */
 .footer {
@@ -239,7 +346,7 @@ main { flex: 1; padding-bottom: 2.5rem; }
 .footer a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
-  .card, .card-cta .arrow { transition: none; }
+  .card, .card-cta .arrow, .card-app { transition: none; }
   .card:hover { transform: none; }
 }
 

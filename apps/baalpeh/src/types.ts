@@ -61,10 +61,17 @@ export interface MishnahProgress {
 }
 
 export interface PerekProgress {
-  /** Highest mishnah k for which the chain [1..k] has been parent-checked. */
+  /** Longest passed chain [1..k]. Still maintained, for older clients and as legacy input (see chainSatisfied). */
   chainedThrough: number;
+  /**
+   * Progress only: the build-up was finished and marked done on this device (guest mode, or once a parent's email
+   * verification arrived; older data: the old in-app check). Unlocks nothing: verification is server-owned and never
+   * stored here (docs/PARENT_VERIFICATION.md §7.2). Read only through perekStage()/perekDone().
+   */
   complete: boolean;
   review?: ReviewItem;
+  /** Passed build-up chain ranges, "from-to" (1-based), sorted, none contained in another. Absent on older data. */
+  chains?: string[];
 }
 
 export interface Settings {
@@ -73,6 +80,10 @@ export interface Settings {
   breakMinutes?: number;
   /** Which meaning view to show while learning (optional for older saved profiles). */
   meaningView?: MeaningView;
+  /** Catalog id of the masechta this child last opened. Absent: the default masechta. */
+  lastMasechta?: string;
+  /** Where this child last read in the library, "<masechta>/<perek>/<mishnah>". Navigation only, not progress. */
+  libraryPlace?: string;
 }
 
 export type MeaningView = "simple" | "steinsaltz";
@@ -83,8 +94,10 @@ export interface Profile {
   color: string;
   emoji: string;
   settings: Settings;
-  mishnayos: Record<string, MishnahProgress>; // key "p:m"
-  perakim: Record<string, PerekProgress>; // key "p"
+  /** Keys from shared/progressKey.ts: "p:m" for Berakhot, "<masechta>/p:m" for other masechtos. */
+  mishnayos: Record<string, MishnahProgress>;
+  /** Keys "p" for Berakhot, "<masechta>/p" for other masechtos. */
+  perakim: Record<string, PerekProgress>;
   days: string[]; // ISO dates with any learning (last ~60)
 }
 

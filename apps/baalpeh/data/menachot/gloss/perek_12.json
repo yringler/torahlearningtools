@@ -1,0 +1,2311 @@
+[
+ {
+  "perek": 12,
+  "mishnah": 1,
+  "summary": "Menachos and nesachim that became tamei can be redeemed only before they became holy in a holy vessel. Birds, wood, frankincense and holy vessels can never be redeemed, because redeeming is said only about animals.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְּנָחוֹת וְהַנְּסָכִים שֶׁנִּטְמְאוּ עַד",
+    "en": "Menachos and nesachim that became tamei, before",
+    "st": "With regard to <b>the</b> fine flour for <b>meal offerings or the</b> wine for <b>libations that became ritually impure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְּנָחוֹת",
+      "en": "the menachos"
+     },
+     {
+      "he": "וְהַנְּסָכִים",
+      "en": "and the nesachim"
+     },
+     {
+      "he": "שֶׁנִּטְמְאוּ",
+      "en": "that became tamei"
+     },
+     {
+      "he": "עַד",
+      "en": "before",
+      "note": "Literally \"until\"."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא קִדְּשָׁן בַּכְּלִי,",
+    "en": "he made them holy in the vessel,",
+    "st": "as long as they <b>have not yet been consecrated in</b> a service <b>vessel</b> and assumed inherent sanctity,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "קִדְּשָׁן",
+      "en": "he made them holy"
+     },
+     {
+      "he": "בַּכְּלִי,",
+      "en": "in the vessel"
+     }
+    ]
+   },
+   {
+    "he": "יֶשׁ לָהֶן פִּדְיוֹן.",
+    "en": "can be redeemed.",
+    "explain": "Their holiness can be moved onto money.",
+    "st": "<b>their redemption</b> is possible.",
+    "stMore": "If they are redeemed, their sanctity will be transferred to the redemption money.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "פִּדְיוֹן.",
+      "en": "redemption"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁקָּדְשׁוּ בַכְּלִי,",
+    "en": "Once they became holy in the vessel,",
+    "st": "<b>Once they have been consecrated in</b> a service <b>vessel</b> and have assumed inherent sanctity,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁקָּדְשׁוּ",
+      "en": "once they became holy"
+     },
+     {
+      "he": "בַכְּלִי,",
+      "en": "in the vessel"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לָהֶם פִּדְיוֹן.",
+    "en": "they cannot be redeemed.",
+    "st": "<b>their redemption</b> is <b>no</b> longer possible, and they are burned like any other offerings that became ritually impure.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "פִּדְיוֹן.",
+      "en": "redemption"
+     }
+    ]
+   },
+   {
+    "he": "הָעוֹפוֹת וְהָעֵצִים וְהַלְּבוֹנָה וּכְלֵי שָׁרֵת,",
+    "en": "Birds, wood, frankincense and holy vessels",
+    "st": "With regard to consecrated <b>birds, wood</b> for the altar, <b>frankincense, and service vessels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹפוֹת",
+      "en": "the birds"
+     },
+     {
+      "he": "וְהָעֵצִים",
+      "en": "and the wood"
+     },
+     {
+      "he": "וְהַלְּבוֹנָה",
+      "en": "and the frankincense"
+     },
+     {
+      "he": "וּכְלֵי",
+      "en": "and vessels of"
+     },
+     {
+      "he": "שָׁרֵת,",
+      "en": "service"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לָהֶם פִּדְיוֹן,",
+    "en": "cannot be redeemed,",
+    "st": "<b>once</b> they <b>became ritually impure they have no</b> possibility of <b>redemption,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "for them"
+     },
+     {
+      "he": "פִּדְיוֹן,",
+      "en": "redemption"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא נֶאֱמַר אֶלָּא בְּהֵמָה:",
+    "en": "because it was said only about an animal.",
+    "st": "<b>as redemption</b> of items consecrated for the altar <b>was stated only with regard to</b> a consecrated <b>animal</b> that developed a blemish, not with regard to other consecrated items.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "because not"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it was said"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְּהֵמָה:",
+      "en": "an animal"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 2,
+  "summary": "If someone promised a mincha in one kind of pan or in one vessel, and brought it in another way, it counts as a gift but he still owes his promise. If he said \"this flour\" and changed it, it is pasul. The mishnah also teaches what happens if people reminded him of his promise.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר, הֲרֵי עָלַי בְּמַחֲבַת,",
+    "en": "If someone says, \"I take upon myself a mincha in a flat pan,\"",
+    "st": "In the case of <b>one who says:</b> It is incumbent <b>upon me</b> to bring a meal offering prepared <b>in</b> a shallow <b>pan,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר,",
+      "en": "the one who says"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "בְּמַחֲבַת,",
+      "en": "in a flat pan"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵבִיא בְמַרְחֶשֶׁת,",
+    "en": "and he brought it in a deep pan,",
+    "st": "<b>and he brought</b> a meal offering prepared <b>in a deep pan</b> instead;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בְמַרְחֶשֶׁת,",
+      "en": "in a deep pan"
+     }
+    ]
+   },
+   {
+    "he": "בְּמַרְחֶשֶׁת וְהֵבִיא בְמַחֲבַת,",
+    "en": "or \"in a deep pan,\" and he brought it in a flat pan,",
+    "st": "or if he said: It is incumbent upon me to bring a meal offering prepared <b>in a deep pan, and he brought</b> a meal offering prepared <b>in</b> a shallow <b>pan</b> instead,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמַרְחֶשֶׁת",
+      "en": "in a deep pan"
+     },
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בְמַחֲבַת,",
+      "en": "in a flat pan"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁהֵבִיא הֵבִיא,",
+    "en": "what he brought, he brought,",
+    "explain": "It counts as a gift mincha.",
+    "st": "the meal offering <b>that he brought, he brought</b> as a voluntary meal offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁהֵבִיא",
+      "en": "that he brought"
+     },
+     {
+      "he": "הֵבִיא,",
+      "en": "he brought"
+     }
+    ]
+   },
+   {
+    "he": "וִידֵי חוֹבָתוֹ לֹא יָצָא.",
+    "en": "but he did not keep his promise.",
+    "st": "<b>but he has not fulfilled his obligation</b> that he undertook with his vow and he must therefore bring another meal offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וִידֵי",
+      "en": "and from"
+     },
+     {
+      "he": "חוֹבָתוֹ",
+      "en": "his obligation"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָצָא.",
+      "en": "he went out",
+      "note": "He did not fulfill it."
+     }
+    ]
+   },
+   {
+    "he": "זוֹ לְהָבִיא בְמַחֲבַת,",
+    "en": "If he said, \"This is to be brought in a flat pan,\"",
+    "st": "If he said: <b>This</b> tenth of an ephah of flour is a meal offering <b>to bring in</b> a shallow <b>pan,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     },
+     {
+      "he": "בְמַחֲבַת,",
+      "en": "in a flat pan"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵבִיא בְמַרְחֶשֶׁת,",
+    "en": "and he brought it in a deep pan,",
+    "st": "<b>and he brought</b> it prepared <b>in a deep pan</b> instead;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בְמַרְחֶשֶׁת,",
+      "en": "in a deep pan"
+     }
+    ]
+   },
+   {
+    "he": "בְּמַרְחֶשֶׁת, וְהֵבִיא בְמַחֲבַת,",
+    "en": "or \"in a deep pan,\" and he brought it in a flat pan,",
+    "st": "or if he said: This tenth of an ephah of flour is a meal offering to bring <b>in a deep pan, and he brought</b> a meal offering prepared <b>in</b> a shallow <b>pan,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּמַרְחֶשֶׁת,",
+      "en": "in a deep pan"
+     },
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בְמַחֲבַת,",
+      "en": "in a flat pan"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ פְסוּלָה.",
+    "en": "this one is pasul.",
+    "st": "<b>this</b> offering <b>is not valid,</b> because he did not fulfill what he had stated concerning that tenth of an ephah of flour.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "this"
+     },
+     {
+      "he": "זוֹ",
+      "en": "it"
+     },
+     {
+      "he": "פְסוּלָה.",
+      "en": "pasul"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי עָלַי שְׁנֵי עֶשְׂרוֹנִים",
+    "en": "\"I take upon myself two issaron",
+    "st": "In the case of <b>one who says:</b> It is incumbent <b>upon me to bring</b> one meal offering of <b>two tenths</b> of an ephah",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "עֶשְׂרוֹנִים",
+      "en": "issaron"
+     }
+    ]
+   },
+   {
+    "he": "לְהָבִיא בִכְלִי אֶחָד,",
+    "en": "to bring in one vessel,\"",
+    "st": "<b>in one vessel, and he</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     },
+     {
+      "he": "בִכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵבִיא בִשְׁנֵי כֵלִים,",
+    "en": "and he brought it in two vessels;",
+    "st": "divided it and <b>brought</b> it <b>in two vessels,</b> removing a handful from each;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בִשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁנֵי כֵלִים,",
+    "en": "or \"in two vessels,\"",
+    "st": "or if he says: It is incumbent upon me to bring two tenths of an ephah for two meal offerings <b>in two vessels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵבִיא בִכְלִי אֶחָד,",
+    "en": "and he brought it in one vessel,",
+    "st": "<b>and he brought</b> one meal offering of two tenths of an ephah <b>in one vessel</b> and removed one handful from it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בִכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "מַה שֶּׁהֵבִיא הֵבִיא,",
+    "en": "what he brought, he brought,",
+    "st": "then the meal offering <b>that he brought, he brought</b> as a voluntary meal offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "שֶּׁהֵבִיא",
+      "en": "that he brought"
+     },
+     {
+      "he": "הֵבִיא,",
+      "en": "he brought"
+     }
+    ]
+   },
+   {
+    "he": "וִידֵי חוֹבָתוֹ לֹא יָצָא.",
+    "en": "but he did not keep his promise.",
+    "st": "<b>but he has not fulfilled his obligation.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וִידֵי",
+      "en": "and from"
+     },
+     {
+      "he": "חוֹבָתוֹ",
+      "en": "his obligation"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָצָא.",
+      "en": "he went out",
+      "note": "He did not fulfill it."
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ לְהָבִיא בִכְלִי אֶחָד,",
+    "en": "\"These are to be brought in one vessel,\"",
+    "st": "If he says: <b>These</b> two tenths of an ephah before me are a meal offering <b>in one vessel, and he</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     },
+     {
+      "he": "בִכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵבִיא בִשְׁנֵי כֵלִים,",
+    "en": "and he brought them in two vessels;",
+    "st": "divided them and <b>brought</b> them <b>in two vessels,</b> removing a handful from each;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בִשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁנֵי כֵלִים וְהֵבִיא בִכְלִי אֶחָד,",
+    "en": "or \"in two vessels,\" and he brought them in one vessel,",
+    "st": "or if he says: These tenths of an ephah are two meal offerings <b>in two vessels, and he brought</b> them <b>in one vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כֵלִים",
+      "en": "vessels"
+     },
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בִכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי אֵלּוּ פְסוּלִין.",
+    "en": "these are pasul.",
+    "st": "both of <b>these</b> offerings <b>are not valid,</b> because in both cases he deviated from the number of handfuls that he vowed to remove.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "these"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "they"
+     },
+     {
+      "he": "פְסוּלִין.",
+      "en": "pasul"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי עָלַי שְׁנֵי עֶשְׂרוֹנִים לְהָבִיא",
+    "en": "\"I take upon myself two issaron to bring",
+    "st": "In the case of one who says: <b>It</b> is incumbent <b>upon me</b> to bring a meal offering of <b>two tenths</b> of an ephah",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "עֶשְׂרוֹנִים",
+      "en": "issaron"
+     },
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     }
+    ]
+   },
+   {
+    "he": "בִכְלִי אֶחָד וְהֵבִיא בִשְׁנֵי כֵלִים,",
+    "en": "in one vessel,\" and he brought them in two vessels,",
+    "st": "<b>in one vessel, and he</b> divided them and <b>brought</b> them <b>in two vessels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בִשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ בִּכְלִי אֶחָד נָדָרְתָּ,",
+    "en": "and people said to him, \"You promised one vessel\":",
+    "st": "and others <b>said to him: You vowed</b> to bring a meal offering <b>in one vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בִּכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "נָדָרְתָּ,",
+      "en": "you promised"
+     }
+    ]
+   },
+   {
+    "he": "הִקְרִיבָן בִּכְלִי אֶחָד, כְּשֵׁרִים, וּבִשְׁנֵי כֵלִים, פְּסוּלִין.",
+    "en": "if he brought them in one vessel, they are kosher, and in two vessels, they are pasul.",
+    "st": "then if <b>he sacrificed</b> the two tenths of an ephah <b>in two vessels</b> they are <b>not valid</b> even as voluntary meal offerings, and he must bring another meal offering to fulfill his obligation. His failure to respond and explain that it was not his intention to fulfill his vow with this offering indicates that he does intend to fulfill his vow with it. Since he deviated from his vow, the offering is not valid. If he sacrificed the two tenths of an ephah <b>in one vessel</b> after he was reminded, it is <b>valid,</b> as he fulfilled his vow.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִקְרִיבָן",
+      "en": "he brought them"
+     },
+     {
+      "he": "בִּכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     },
+     {
+      "he": "כְּשֵׁרִים,",
+      "en": "kosher"
+     },
+     {
+      "he": "וּבִשְׁנֵי",
+      "en": "and in two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     },
+     {
+      "he": "פְּסוּלִין.",
+      "en": "pasul"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי עָלַי שְׁנֵי עֶשְׂרוֹנִים",
+    "en": "\"I take upon myself two issaron",
+    "st": "Likewise, in a case where one says: <b>It</b> is incumbent <b>upon me</b> to bring two meal offerings totaling <b>two tenths</b> of an ephah",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "עֶשְׂרוֹנִים",
+      "en": "issaron"
+     }
+    ]
+   },
+   {
+    "he": "לְהָבִיא בִשְׁנֵי כֵלִים,",
+    "en": "to bring in two vessels,\"",
+    "st": "<b>in two vessels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהָבִיא",
+      "en": "to bring"
+     },
+     {
+      "he": "בִשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵבִיא בִכְלִי אֶחָד,",
+    "en": "and he brought them in one vessel,",
+    "st": "<b>and he brought</b> it all <b>in one vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵבִיא",
+      "en": "and he brought"
+     },
+     {
+      "he": "בִכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "and people said to him,",
+    "st": "and others <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁנֵי כֵלִים נָדָרְתָּ,",
+    "en": "\"You promised two vessels\":",
+    "st": "<b>You vowed</b> to bring meal offerings <b>in two vessels,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כֵלִים",
+      "en": "vessels"
+     },
+     {
+      "he": "נָדָרְתָּ,",
+      "en": "you promised"
+     }
+    ]
+   },
+   {
+    "he": "הִקְרִיבָן בִּשְׁנֵי כֵלִים,",
+    "en": "if he brought them in two vessels,",
+    "st": "then if <b>he sacrificed</b> the two tenths of an ephah <b>in two vessels</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִקְרִיבָן",
+      "en": "he brought them"
+     },
+     {
+      "he": "בִּשְׁנֵי",
+      "en": "in two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁרִים. נְתָנוֹ בִכְלִי אֶחָד,",
+    "en": "they are kosher. If he put it in one vessel,",
+    "st": "as he had originally vowed, they are <b>valid.</b> If <b>he placed it</b> all <b>in one vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁרִים.",
+      "en": "kosher"
+     },
+     {
+      "he": "נְתָנוֹ",
+      "en": "he put it"
+     },
+     {
+      "he": "בִכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "כִּשְׁתֵּי מְנָחוֹת שֶׁנִּתְעָרָבוּ:",
+    "en": "it is like two menachos that got mixed.",
+    "st": "its halakhic status is <b>like</b> that of <b>two meal offerings that were intermingled</b> prior to removal of the handfuls.",
+    "stMore": "Therefore, if one can remove a handful from each meal offering in and of itself, they are valid. If not, they are not valid, as the Gemara explained on 23a.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּשְׁתֵּי",
+      "en": "like two"
+     },
+     {
+      "he": "מְנָחוֹת",
+      "en": "menachos"
+     },
+     {
+      "he": "שֶׁנִּתְעָרָבוּ:",
+      "en": "that got mixed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 3,
+  "summary": "If someone promised a mincha in a way that menachos are not brought (from barley, plain flour, without oil, or half an issaron), he must bring a proper one. Rabbi Shimon says he does not need to bring anything, because that is not how people promise.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֲרֵי עָלַי מִנְחָה מִן הַשְּׂעֹרִין,",
+    "en": "\"I take upon myself a mincha from barley\":",
+    "st": "<b>One who says:</b> It is incumbent <b>upon me</b> to bring <b>a meal offering from barley,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "מִנְחָה",
+      "en": "a mincha"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשְּׂעֹרִין,",
+      "en": "the barley"
+     }
+    ]
+   },
+   {
+    "he": "יָבִיא מִן הַחִטִּים.",
+    "en": "he must bring it from wheat.",
+    "st": "<b>should bring</b> the meal offering <b>from wheat,</b> as voluntary meal offerings are brought exclusively from wheat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבִיא",
+      "en": "he should bring"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַחִטִּים.",
+      "en": "the wheat"
+     }
+    ]
+   },
+   {
+    "he": "קֶמַח, יָבִיא סֹלֶת.",
+    "en": "\"Plain flour\": he must bring fine flour.",
+    "st": "One who says: It is incumbent upon me to bring a meal offering from <b>flour, should bring</b> the meal offering from <b>fine flour,</b> as it is written: “His offering shall be of fine flour” (Leviticus 2:1).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קֶמַח,",
+      "en": "flour"
+     },
+     {
+      "he": "יָבִיא",
+      "en": "he should bring"
+     },
+     {
+      "he": "סֹלֶת.",
+      "en": "fine flour"
+     }
+    ]
+   },
+   {
+    "he": "בְּלֹא שֶׁמֶן וּלְבוֹנָה,",
+    "en": "\"Without oil and frankincense\":",
+    "st": "If one vows to bring a meal offering <b>without oil and without frankincense,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּלֹא",
+      "en": "without"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וּלְבוֹנָה,",
+      "en": "and frankincense"
+     }
+    ]
+   },
+   {
+    "he": "יָבִיא עִמָּהּ שֶׁמֶן וּלְבוֹנָה.",
+    "en": "he must bring oil and frankincense with it.",
+    "st": "<b>he should bring</b> it with <b>oil and frankincense,</b> as voluntary meal offerings require oil and frankincense.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבִיא",
+      "en": "he should bring"
+     },
+     {
+      "he": "עִמָּהּ",
+      "en": "with it"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "וּלְבוֹנָה.",
+      "en": "and frankincense"
+     }
+    ]
+   },
+   {
+    "he": "חֲצִי עִשָּׂרוֹן,",
+    "en": "\"Half an issaron\":",
+    "st": "If one vows to bring as a meal offering <b>half a tenth</b> of an ephah,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲצִי",
+      "en": "half"
+     },
+     {
+      "he": "עִשָּׂרוֹן,",
+      "en": "issaron"
+     }
+    ]
+   },
+   {
+    "he": "יָבִיא עִשָּׂרוֹן שָׁלֵם.",
+    "en": "he must bring a whole issaron.",
+    "st": "<b>he should bring a complete tenth</b> of an ephah, the minimum measure of a voluntary meal offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבִיא",
+      "en": "he should bring"
+     },
+     {
+      "he": "עִשָּׂרוֹן",
+      "en": "issaron"
+     },
+     {
+      "he": "שָׁלֵם.",
+      "en": "whole"
+     }
+    ]
+   },
+   {
+    "he": "עִשָּׂרוֹן וּמֶחֱצָה,",
+    "en": "\"An issaron and a half\":",
+    "st": "If one vows to bring a meal offering of <b>a tenth and a half</b> an ephah,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עִשָּׂרוֹן",
+      "en": "issaron"
+     },
+     {
+      "he": "וּמֶחֱצָה,",
+      "en": "and a half"
+     }
+    ]
+   },
+   {
+    "he": "יָבִיא שְׁנָיִם.",
+    "en": "he must bring two.",
+    "st": "<b>he should bring two</b> tenths, as there are no partial tenths of an ephah brought in meal offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבִיא",
+      "en": "he should bring"
+     },
+     {
+      "he": "שְׁנָיִם.",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן פּוֹטֵר,",
+    "en": "Rabbi Shimon says he does not have to bring anything,",
+    "st": "<b>Rabbi Shimon deems</b> one <b>exempt</b> from bringing a meal offering in all these cases.",
+    "stMore": "This is because the vow does not take effect,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "פּוֹטֵר,",
+      "en": "exempts"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא הִתְנַדֵּב כְּדֶרֶךְ הַמִּתְנַדְּבִים:",
+    "en": "because he did not promise the way people promise.",
+    "st": "<b>as he did not pledge in the manner of those who pledge.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "because not"
+     },
+     {
+      "he": "הִתְנַדֵּב",
+      "en": "he pledged"
+     },
+     {
+      "he": "כְּדֶרֶךְ",
+      "en": "in the way of"
+     },
+     {
+      "he": "הַמִּתְנַדְּבִים:",
+      "en": "the ones who pledge"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 4,
+  "summary": "A person may give a mincha of up to sixty issaron in one vessel; if he promised sixty-one, he brings sixty in one vessel and one in another, because the community brings at most sixty-one in one day. Rabbi Shimon says the reason is that only sixty can be mixed with oil, like the forty se'ah of a mikveh. The mishnah also lists which amounts of wine may be given.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִתְנַדֵּב אָדָם מִנְחָה שֶׁל שִׁשִּׁים עִשָּׂרוֹן,",
+    "en": "A person may give a mincha of sixty issaron",
+    "st": "<b>A person</b> may <b>pledge a meal offering of sixty tenths</b> of an ephah of fine flour,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִתְנַדֵּב",
+      "en": "may give"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "מִנְחָה",
+      "en": "a mincha"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "עִשָּׂרוֹן,",
+      "en": "issaron"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵבִיא בִכְלִי אֶחָד.",
+    "en": "and bring it in one vessel.",
+    "st": "<b>and bring</b> all sixty tenths <b>in one vessel. If he says: It</b> is incumbent <b>upon me</b> to bring <b>sixty tenths</b> of an ephah, <b>he brings it in one vessel.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵבִיא",
+      "en": "and bring"
+     },
+     {
+      "he": "בִכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אִם אָמַר הֲרֵי עָלַי שִׁשִּׁים וְאֶחָד,",
+    "en": "If he said, \"I take upon myself sixty-one,\"",
+    "st": "<b>If he says: It</b> is incumbent <b>upon me</b> to bring <b>sixty-one</b> tenths of an ephah,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "I take upon"
+     },
+     {
+      "he": "עָלַי",
+      "en": "myself"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "מֵבִיא שִׁשִּׁים בִּכְלִי אֶחָד",
+    "en": "he brings sixty in one vessel",
+    "st": "<b>he brings sixty</b> tenths <b>in one vessel</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵבִיא",
+      "en": "he brings"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "בִּכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד בִּכְלִי אֶחָד,",
+    "en": "and one in another vessel,",
+    "st": "<b>and one</b> tenth <b>in another vessel,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "בִּכְלִי",
+      "en": "in a vessel"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן צִבּוּר מֵבִיא",
+    "en": "because the community brings",
+    "st": "<b>as</b> the greatest number of tenths of an ephah that <b>the community brings</b> as meal offerings in one day is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "because so"
+     },
+     {
+      "he": "צִבּוּר",
+      "en": "the community"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "brings"
+     }
+    ]
+   },
+   {
+    "he": "בְיוֹם טוֹב הָרִאשׁוֹן שֶׁל חַג",
+    "en": "on the first day of Sukkos",
+    "st": "<b>on the first festival day of Sukkot when</b> it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְיוֹם",
+      "en": "on day"
+     },
+     {
+      "he": "טוֹב",
+      "en": "good"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חַג",
+      "en": "Sukkos",
+      "note": "Chag means Sukkos."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁחָל לִהְיוֹת בְּשַׁבָּת שִׁשִּׁים וְאֶחָד.",
+    "en": "that falls on Shabbos, sixty-one.",
+    "st": "<b>occurs on Shabbat,</b> when <b>sixty-one</b> tenths of an ephah of fine flour are brought.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁחָל",
+      "en": "that falls"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "בְּשַׁבָּת",
+      "en": "on Shabbos"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "דַּיּוֹ לַיָּחִיד שֶׁיְּהֵא פָחוֹת מִן הַצִּבּוּר אֶחָד.",
+    "en": "It is enough for one person to be one less than the community.",
+    "st": "It <b>is sufficient for an individual that</b> the maximum amount he can bring at once is <b>one</b> tenth of an ephah <b>less than</b> that of <b>the community.</b>",
+    "stMore": "When the first day of Sukkot occurs on Shabbat, thirteen bulls, two goats, and fourteen lambs are sacrificed as the additional offerings of Sukkot, two lambs are sacrificed as the daily offerings, and two lambs are sacrificed as the additional offering of Shabbat. Three tenths of an ephah are brought for each bull, two tenths for each goat, and a tenth for each lamb. Altogether, that is sixty-one tenths of an ephah.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דַּיּוֹ",
+      "en": "it is enough"
+     },
+     {
+      "he": "לַיָּחִיד",
+      "en": "for a single person"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "that he will be"
+     },
+     {
+      "he": "פָחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מִן",
+      "en": "than"
+     },
+     {
+      "he": "הַצִּבּוּר",
+      "en": "the community"
+     },
+     {
+      "he": "אֶחָד.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי שִׁמְעוֹן,",
+    "en": "Rabbi Shimon said:",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "stMore": "What is the relevance of the tenths of an ephah sacrificed on Sukkot that occurs on Shabbat?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן,",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא אֵלּוּ לַפָּרִים,",
+    "en": "But aren't these for the bulls,",
+    "st": "<b>Aren’t these</b> meal offerings <b>for bulls</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "but aren't"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "לַפָּרִים,",
+      "en": "for the bulls"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ לַכְּבָשִׂים,",
+    "en": "and those for the lambs,",
+    "st": "<b>and those for lambs,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "לַכְּבָשִׂים,",
+      "en": "for the lambs"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינָם נִבְלָלִים זֶה עִם זֶה.",
+    "en": "and they are not mixed with each other?",
+    "st": "<b>and they are not mixed with each other</b> (see 89a)?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינָם",
+      "en": "and they are not"
+     },
+     {
+      "he": "נִבְלָלִים",
+      "en": "mixed"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "זֶה.",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא, עַד שִׁשִּׁים יְכוֹלִים לְהִבָּלֵל.",
+    "en": "Rather, up to sixty issaron can be mixed together.",
+    "explain": "Mixed with one log of oil.",
+    "st": "<b>Rather,</b> the reason that one may not bring more than sixty tenths of an ephah in one vessel is because <b>up to sixty</b> tenths of fine flour can <b>be mixed</b> with one log of oil.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא,",
+      "en": "rather"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "יְכוֹלִים",
+      "en": "can"
+     },
+     {
+      "he": "לְהִבָּלֵל.",
+      "en": "be mixed"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him:",
+    "st": "The Rabbis <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "שִׁשִּׁים נִבְלָלִים,",
+    "en": "Sixty can be mixed,",
+    "st": "Is it so that <b>sixty</b> tenths of flour <b>can be mixed</b> with a log of oil,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "נִבְלָלִים,",
+      "en": "are mixed"
+     }
+    ]
+   },
+   {
+    "he": "שִׁשִּׁים וְאֶחָד אֵין נִבְלָלִים.",
+    "en": "but sixty-one cannot be mixed?",
+    "st": "<b>but sixty-one</b> tenths <b>cannot be mixed?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "אֵין",
+      "en": "are not"
+     },
+     {
+      "he": "נִבְלָלִים.",
+      "en": "mixed"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לָהֶן,",
+    "en": "He said to them:",
+    "st": "Rabbi Shimon <b>said to them:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶן,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "כָּל מִדּוֹת חֲכָמִים כֵּן.",
+    "en": "All the measures of the Sages are like this.",
+    "st": "<b>All the measures of the Sages</b> are <b>so:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "מִדּוֹת",
+      "en": "measures of"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the Sages"
+     },
+     {
+      "he": "כֵּן.",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "בְּאַרְבָּעִים סְאָה הוּא טוֹבֵל,",
+    "en": "In forty se'ah of water he can toviel,",
+    "st": "For example, <b>in</b> a ritual bath containing <b>forty se’a</b> of water, <b>one immerses</b> for purification,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאַרְבָּעִים",
+      "en": "in forty"
+     },
+     {
+      "he": "סְאָה",
+      "en": "se'ah"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "טוֹבֵל,",
+      "en": "tovels",
+      "note": "Dips in a mikveh to become tahor."
+     }
+    ]
+   },
+   {
+    "he": "בְּאַרְבָּעִים סְאָה חָסֵר קֻרְטוֹב",
+    "en": "but in forty se'ah missing a tiny bit",
+    "st": "<b>and in</b> a ritual bath with <b>forty se’a less</b> the small measure of <b>a kortov,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּאַרְבָּעִים",
+      "en": "in forty"
+     },
+     {
+      "he": "סְאָה",
+      "en": "se'ah"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "missing"
+     },
+     {
+      "he": "קֻרְטוֹב",
+      "en": "a kortov",
+      "note": "A tiny measure."
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לִטְבֹּל בָּהֶן.",
+    "en": "he cannot toviel in it.",
+    "st": "<b>one cannot immerse in it</b> for purification.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לִטְבֹּל",
+      "en": "to tovel"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "in them"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מִתְנַדְּבִים לֹג,",
+    "en": "They do not give one log of wine,",
+    "st": "<b>One does not pledge</b> a libation of one <b>log,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "give"
+     },
+     {
+      "he": "לֹג,",
+      "en": "a log"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַיִם, וַחֲמִשָּׁה,",
+    "en": "or two, or five,",
+    "st": "<b>two</b> log, <b>or five</b> log of wine, because there are no existing libations with those measures of wine.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     },
+     {
+      "he": "וַחֲמִשָּׁה,",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מִתְנַדְּבִים שְׁלשָׁה וְאַרְבָּעָה וְשִׁשָּׁה,",
+    "en": "but they may give three, four, or six,",
+    "st": "<b>But one pledges</b> a libation of <b>three</b> log, which is the measure of wine brought with a lamb, <b>or four</b> log, which is the measure of wine brought with a ram, <b>or six</b> log, which is the measure of wine brought with a bull.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "they give"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "וְאַרְבָּעָה",
+      "en": "and four"
+     },
+     {
+      "he": "וְשִׁשָּׁה,",
+      "en": "and six"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשִּׁשָּׁה וּלְמָעְלָה:",
+    "en": "or from six and up.",
+    "st": "<b>And</b> one may pledge a libation of <b>six</b> log <b>and beyond,</b> as any greater amount can be composed of combinations of these three.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשִּׁשָּׁה",
+      "en": "and from six"
+     },
+     {
+      "he": "וּלְמָעְלָה:",
+      "en": "and up"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 12,
+  "mishnah": 5,
+  "summary": "Rabbi Akiva says a person may give wine by itself but not oil; Rabbi Tarfon says oil too, and they argue. Two people may not share one issaron mincha, but they may share an olah or shelamim, and a person may give even one bird.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִתְנַדְּבִים יַיִן,",
+    "en": "They may give wine,",
+    "st": "<b>One may pledge</b> to bring independent libations of <b>wine,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "they may give"
+     },
+     {
+      "he": "יַיִן,",
+      "en": "wine"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מִתְנַדְּבִים שֶׁמֶן,",
+    "en": "but they may not give oil,",
+    "st": "<b>but one may not pledge oil</b> alone;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and they may not"
+     },
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "give"
+     },
+     {
+      "he": "שֶׁמֶן,",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי עֲקִיבָא.",
+    "en": "says Rabbi Akiva.",
+    "st": "this is <b>the statement of Rabbi Akiva.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא.",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי טַרְפוֹן אוֹמֵר,",
+    "en": "Rabbi Tarfon says:",
+    "st": "<b>Rabbi Tarfon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן",
+      "en": "Tarfon",
+      "note": "A great Rabbi of the Mishnah."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מִתְנַדְּבִים שָׁמֶן.",
+    "en": "They may give oil.",
+    "st": "<b>One may pledge oil</b> as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "they may give"
+     },
+     {
+      "he": "שָׁמֶן.",
+      "en": "oil"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי טַרְפוֹן,",
+    "en": "Rabbi Tarfon said:",
+    "st": "<b>Rabbi Tarfon said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "טַרְפוֹן,",
+      "en": "Tarfon"
+     }
+    ]
+   },
+   {
+    "he": "מַה מָּצִינוּ בַיַּיִן שֶׁבָּא חוֹבָה וּבָא נְדָבָה,",
+    "en": "Just as we find that wine comes as an obligation and comes as a gift,",
+    "st": "<b>Just as we found that wine comes</b> as <b>an obligation and comes</b> as <b>a gift offering</b> independent of any offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "מָּצִינוּ",
+      "en": "we find"
+     },
+     {
+      "he": "בַיַּיִן",
+      "en": "with the wine"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that it comes"
+     },
+     {
+      "he": "חוֹבָה",
+      "en": "as an obligation"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and comes"
+     },
+     {
+      "he": "נְדָבָה,",
+      "en": "as a gift"
+     }
+    ]
+   },
+   {
+    "he": "אַף הַשֶּׁמֶן בָּא חוֹבָה וּבָא נְדָבָה.",
+    "en": "so too oil comes as an obligation and comes as a gift.",
+    "st": "<b>so too,</b> we find <b>that oil comes</b> as <b>an obligation and comes</b> as <b>a gift</b> offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "הַשֶּׁמֶן",
+      "en": "the oil"
+     },
+     {
+      "he": "בָּא",
+      "en": "comes"
+     },
+     {
+      "he": "חוֹבָה",
+      "en": "as an obligation"
+     },
+     {
+      "he": "וּבָא",
+      "en": "and comes"
+     },
+     {
+      "he": "נְדָבָה.",
+      "en": "as a gift"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said to him:",
+    "st": "<b>Rabbi Akiva said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אָמַרְתָּ בַיַּיִן שֶׁכֵּן הוּא",
+    "en": "No! You can say this about wine, which",
+    "st": "<b>No, if you said</b> that this is true <b>with regard to wine, as</b> it is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַרְתָּ",
+      "en": "you said"
+     },
+     {
+      "he": "בַיַּיִן",
+      "en": "about the wine"
+     },
+     {
+      "he": "שֶׁכֵּן",
+      "en": "that so"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "קָרֵב חוֹבָתוֹ בִפְנֵי עַצְמוֹ,",
+    "en": "is brought by itself when it is an obligation;",
+    "st": "<b>sacrificed with its obligatory</b> offering",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרֵב",
+      "en": "is brought"
+     },
+     {
+      "he": "חוֹבָתוֹ",
+      "en": "its obligation"
+     },
+     {
+      "he": "בִפְנֵי",
+      "en": "by"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "itself"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמַר בַּשֶּׁמֶן שֶׁאֵינוֹ קָרֵב חוֹבָתוֹ בִפְנֵי עַצְמוֹ.",
+    "en": "can you say it about oil, which is not brought by itself when it is an obligation?",
+    "st": "<b>by itself, shall you</b> also <b>say</b> that this is also the case <b>with regard to oil, which is never sacrificed with its obligatory</b> offering <b>by itself but only</b> mixed with the flour?",
+    "stMore": "The mishna concludes with a ruling concerning a voluntary meal offering:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמַר",
+      "en": "will you say"
+     },
+     {
+      "he": "בַּשֶּׁמֶן",
+      "en": "about the oil"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that it is not"
+     },
+     {
+      "he": "קָרֵב",
+      "en": "brought"
+     },
+     {
+      "he": "חוֹבָתוֹ",
+      "en": "its obligation"
+     },
+     {
+      "he": "בִפְנֵי",
+      "en": "by"
+     },
+     {
+      "he": "עַצְמוֹ.",
+      "en": "itself"
+     }
+    ]
+   },
+   {
+    "he": "אֵין שְׁנַיִם מִתְנַדְּבִים עִשָּׂרוֹן אֶחָד,",
+    "en": "Two people may not give one issaron together,",
+    "st": "<b>Two</b> people <b>do not pledge</b> a meal offering of <b>a tenth</b> of an ephah as partners,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there are not"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "giving"
+     },
+     {
+      "he": "עִשָּׂרוֹן",
+      "en": "issaron"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מִתְנַדְּבִים עוֹלָה וּשְׁלָמִים.",
+    "en": "but they may give an olah or shelamim together.",
+    "st": "<b>but they may pledge a burnt offering and a peace offering. And</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מִתְנַדְּבִים",
+      "en": "they may give"
+     },
+     {
+      "he": "עוֹלָה",
+      "en": "an olah"
+     },
+     {
+      "he": "וּשְׁלָמִים.",
+      "en": "and shelamim"
+     }
+    ]
+   },
+   {
+    "he": "וּבָעוֹף, אֲפִלּוּ פְרִידָה אֶחָת:",
+    "en": "And with birds, even a single bird.",
+    "st": "they may pledge to bring even <b>an individual bird,</b> not only a pair.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָעוֹף,",
+      "en": "and with a bird"
+     },
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "פְרִידָה",
+      "en": "a single bird",
+      "note": "Usually birds are brought in pairs."
+     },
+     {
+      "he": "אֶחָת:",
+      "en": "one"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,1454 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "This mishnah explains the four kinds of \"knowing about tumah\": a person forgot he was tamei, or forgot that the food was holy or that the place was the Beis HaMikdash. If he found out afterward, he brings a korban oleh v'yored.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יְדִיעוֹת הַטֻּמְאָה שְׁתַּיִם שֶׁהֵן אַרְבַּע.",
+    "en": "Knowing about tumah: two kinds that are really four.",
+    "st": "With regard to cases of <b>awareness of the defiling</b> of the Temple by entering it while one is ritually impure, or defiling its sacrificial foods by partaking of them while one is ritually impure, there are <b>two</b> types <b>that are</b> actually <b>four.</b> How so?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְדִיעוֹת",
+      "en": "the knowings of"
+     },
+     {
+      "he": "הַטֻּמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "שְׁתַּיִם",
+      "en": "two"
+     },
+     {
+      "he": "שֶׁהֵן",
+      "en": "that are"
+     },
+     {
+      "he": "אַרְבַּע.",
+      "en": "four"
+     }
+    ]
+   },
+   {
+    "he": "נִטְמָא וְיָדַע וְנֶעֶלְמָה מִמֶּנּוּ",
+    "en": "If he became tamei and knew it, and then forgot",
+    "st": "If <b>one became ritually impure and he was aware</b> that he was impure, <b>but</b> afterward his <b>impurity was hidden from him, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִטְמָא",
+      "en": "he became tamei"
+     },
+     {
+      "he": "וְיָדַע",
+      "en": "and he knew"
+     },
+     {
+      "he": "וְנֶעֶלְמָה",
+      "en": "and it was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "הַטֻּמְאָה וְזָכוּר אֶת הַקֹּדֶשׁ,",
+    "en": "that he was tamei, but remembered that the food was holy,",
+    "st": "<b>though he remembered</b> that he was partaking of <b>sacrificial</b> food",
+    "stMore": ", which is forbidden to one who is in a state of ritual impurity; this is one of the four types of awareness of impurity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטֻּמְאָה",
+      "en": "the tumah"
+     },
+     {
+      "he": "וְזָכוּר",
+      "en": "and he remembers"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקֹּדֶשׁ,",
+      "en": "the holy food"
+     }
+    ]
+   },
+   {
+    "he": "נֶעְלַם מִמֶּנּוּ הַקֹּדֶשׁ וְזָכוּר אֶת הַטֻּמְאָה,",
+    "en": "or he forgot that the food was holy, but remembered that he was tamei,",
+    "st": "If the fact that he was partaking of <b>sacrificial</b> food <b>was hidden from him, though he remembered the ritual impurity</b> that he had contracted;",
+    "stMore": "this is the second of the four types of awareness of impurity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶעְלַם",
+      "en": "was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "הַקֹּדֶשׁ",
+      "en": "the holy food"
+     },
+     {
+      "he": "וְזָכוּר",
+      "en": "and he remembers"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַטֻּמְאָה,",
+      "en": "the tumah"
+     }
+    ]
+   },
+   {
+    "he": "נֶעֶלְמוּ מִמֶּנּוּ זֶה וָזֶה",
+    "en": "or he forgot both this and that,",
+    "st": "And the same halakha applies if both <b>this and that were hidden from him,</b>",
+    "stMore": "both the fact that he was impure and the fact that he was partaking of sacrificial food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶעֶלְמוּ",
+      "en": "were hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and that"
+     }
+    ]
+   },
+   {
+    "he": "וְאָכַל אֶת הַקֹּדֶשׁ וְלֹא יָדַע,",
+    "en": "and he ate the holy food without knowing,",
+    "st": "In all these cases, if <b>he partook of the sacrificial</b> food <b>and was unaware</b>",
+    "stMore": "either that he was impure, or that the food was sacrificial food, or both,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָכַל",
+      "en": "and he ate"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקֹּדֶשׁ",
+      "en": "the holy food"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "יָדַע,",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשֶּׁאָכַל יָדַע,",
+    "en": "and after he ate, he found out,",
+    "st": "<b>and after he partook of</b> it <b>he became aware</b> of that which he had forgotten,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשֶּׁאָכַל",
+      "en": "and after he ate"
+     },
+     {
+      "he": "יָדַע,",
+      "en": "he knew"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה בְעוֹלֶה וְיוֹרֵד.",
+    "en": "this person brings a korban oleh v'yored.",
+    "st": "<b>he is</b> required to bring <b>a sliding-scale</b> offering.",
+    "stMore": "In this type of offering, the sinner sacrifices an animal, bird, or meal-offering, depending on his financial status. And similarly with regard to entering the Temple:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this person"
+     },
+     {
+      "he": "בְעוֹלֶה",
+      "en": "brings a korban that goes up"
+     },
+     {
+      "he": "וְיוֹרֵד.",
+      "en": "and down"
+     }
+    ]
+   },
+   {
+    "he": "נִטְמָא וְיָדַע וְנֶעֶלְמָה מִמֶּנּוּ",
+    "en": "If he became tamei and knew it, and then forgot",
+    "st": "If <b>one became ritually impure and he was aware</b> that he was impure, <b>but</b> afterward his <b>impurity was hidden from him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִטְמָא",
+      "en": "he became tamei"
+     },
+     {
+      "he": "וְיָדַע",
+      "en": "and he knew"
+     },
+     {
+      "he": "וְנֶעֶלְמָה",
+      "en": "and it was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "טֻמְאָה וְזָכוּר אֶת הַמִּקְדָּשׁ,",
+    "en": "that he was tamei, but remembered it was the Beis HaMikdash,",
+    "st": "though <b>he remembered</b> that he was entering <b>the Temple,</b> which is prohibited for one who is in a state of ritual impurity;",
+    "stMore": "this is the third of the four types of awareness of impurity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טֻמְאָה",
+      "en": "the tumah"
+     },
+     {
+      "he": "וְזָכוּר",
+      "en": "and he remembers"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמִּקְדָּשׁ,",
+      "en": "the Beis HaMikdash"
+     }
+    ]
+   },
+   {
+    "he": "נֶעְלַם מִמֶּנּוּ מִקְדָּשׁ וְזָכוּר אֶת הַטֻּמְאָה,",
+    "en": "or he forgot it was the Beis HaMikdash, but remembered that he was tamei,",
+    "st": "If the fact that he was entering <b>the Temple was hidden from him,</b> though <b>he remembered the ritual impurity</b> that he had contracted;",
+    "stMore": "this is the fourth type of awareness of impurity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶעְלַם",
+      "en": "was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "מִקְדָּשׁ",
+      "en": "the Beis HaMikdash"
+     },
+     {
+      "he": "וְזָכוּר",
+      "en": "and he remembers"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַטֻּמְאָה,",
+      "en": "the tumah"
+     }
+    ]
+   },
+   {
+    "he": "נֶעֶלְמוּ מִמֶּנּוּ זֶה וָזֶה",
+    "en": "or he forgot both this and that,",
+    "st": "And the same halakha applies if both <b>this and that were hidden from him,</b>",
+    "stMore": "both the fact that he was impure and the fact that he was entering the Temple.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶעֶלְמוּ",
+      "en": "were hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה",
+      "en": "and that"
+     }
+    ]
+   },
+   {
+    "he": "וְנִכְנַס לַמִּקְדָּשׁ וְלֹא יָדַע,",
+    "en": "and he went into the Beis HaMikdash without knowing,",
+    "st": "In all these cases, if <b>he entered the Temple and was unaware</b>",
+    "stMore": "either that he was impure, or that he was entering the Temple, or both,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִכְנַס",
+      "en": "and he went in"
+     },
+     {
+      "he": "לַמִּקְדָּשׁ",
+      "en": "to the Beis HaMikdash"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "יָדַע,",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשֶּׁיָּצָא יָדַע,",
+    "en": "and after he came out, he found out,",
+    "st": "<b>and after he left he became aware</b> of what was hidden from him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשֶּׁיָּצָא",
+      "en": "and after he came out"
+     },
+     {
+      "he": "יָדַע,",
+      "en": "he knew"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה בְעוֹלֶה וְיוֹרֵד:",
+    "en": "this person brings a korban oleh v'yored.",
+    "st": "<b>he is</b> required to bring <b>a sliding-scale</b> offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this person"
+     },
+     {
+      "he": "בְעוֹלֶה",
+      "en": "brings a korban that goes up"
+     },
+     {
+      "he": "וְיוֹרֵד:",
+      "en": "and down"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "A part that was added to the Azarah is just as holy as the old part, if it was added the proper way: with a king, a navi, the Urim V'Tumim, the Sanhedrin, two todah korbanos and song.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֶחָד הַנִּכְנָס לָעֲזָרָה וְאֶחָד",
+    "en": "It is the same whether he goes into the Azarah",
+    "st": "As for the boundaries of the Temple with regard to the halakhot of impurity, <b>the same</b> halakha applies to <b>one who enters the</b> area that was part of the original Temple <b>courtyard and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "the same for"
+     },
+     {
+      "he": "הַנִּכְנָס",
+      "en": "one who enters"
+     },
+     {
+      "he": "לָעֲזָרָה",
+      "en": "the Azarah",
+      "note": "The courtyard of the Beis HaMikdash."
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and the same for"
+     }
+    ]
+   },
+   {
+    "he": "הַנִּכְנָס לְתוֹסֶפֶת הָעֲזָרָה,",
+    "en": "or into an added part of the Azarah.",
+    "st": "to <b>one who enters the</b> later <b>addition to the</b> Temple <b>courtyard,</b>",
+    "stMore": "because the additional section is sanctified with the full sanctity of the Temple courtyard. The mishna notes:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנִּכְנָס",
+      "en": "one who enters"
+     },
+     {
+      "he": "לְתוֹסֶפֶת",
+      "en": "the addition to"
+     },
+     {
+      "he": "הָעֲזָרָה,",
+      "en": "the Azarah"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין מוֹסִיפִין עַל הָעִיר וְעַל הָעֲזָרוֹת",
+    "en": "For we may add to the city of Yerushalayim or to the Azarah",
+    "st": "<b>As, additions can be made to the city</b> of Jerusalem <b>or to the</b> Temple <b>courtyards </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "for we do not"
+     },
+     {
+      "he": "מוֹסִיפִין",
+      "en": "add"
+     },
+     {
+      "he": "עַל",
+      "en": "to"
+     },
+     {
+      "he": "הָעִיר",
+      "en": "the city"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and to"
+     },
+     {
+      "he": "הָעֲזָרוֹת",
+      "en": "the Azaros"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא בְמֶלֶךְ וְנָבִיא וְאוּרִים וְתֻמִּים וּבְסַנְהֶדְרִין",
+    "en": "only with a king, a navi, the Urim V'Tumim, and a Sanhedrin",
+    "st": "<b>only by</b> a special body comprising the <b>king, a prophet, the Urim VeTummim, and the Sanhedrin </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "בְמֶלֶךְ",
+      "en": "with a king"
+     },
+     {
+      "he": "וְנָבִיא",
+      "en": "and a navi"
+     },
+     {
+      "he": "וְאוּרִים",
+      "en": "and Urim"
+     },
+     {
+      "he": "וְתֻמִּים",
+      "en": "and Tumim",
+      "note": "The Urim V'Tumim were in the Kohen Gadol's choshen; through them Hashem gave answers."
+     },
+     {
+      "he": "וּבְסַנְהֶדְרִין",
+      "en": "and with a Sanhedrin"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל שִׁבְעִים וְאֶחָד וּבִשְׁתֵּי תוֹדוֹת וּבְשִׁיר.",
+    "en": "of seventy-one judges, and with two korbanos todah, and with song.",
+    "st": "<b>of seventy-one</b> judges, <b>and with two thanks-offerings and with</b> a special <b>song.</b>",
+    "stMore": "Once the addition to the courtyard is made by this body and this process, it is given the full sanctity of the original courtyard area. The mishna provides certain details of the consecration ceremony.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "שִׁבְעִים",
+      "en": "seventy"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "וּבִשְׁתֵּי",
+      "en": "and with two"
+     },
+     {
+      "he": "תוֹדוֹת",
+      "en": "todah korbanos",
+      "note": "A todah is a thank-you korban that comes with loaves of bread."
+     },
+     {
+      "he": "וּבְשִׁיר.",
+      "en": "and with song"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית דִּין מְהַלְּכִין וּשְׁתֵּי תוֹדוֹת אַחֲרֵיהֶם,",
+    "en": "The beis din walk forward, with the two todahs behind them,",
+    "st": "<b>And the court</b> would <b>move</b> forward, <b>and two thanks-offerings</b> would be brought <b>after them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and the house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     },
+     {
+      "he": "מְהַלְּכִין",
+      "en": "walk"
+     },
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "תוֹדוֹת",
+      "en": "todah korbanos"
+     },
+     {
+      "he": "אַחֲרֵיהֶם,",
+      "en": "after them"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל יִשְׂרָאֵל אַחֲרֵיהֶם.",
+    "en": "and all of Yisrael behind them.",
+    "st": "<b>and all of the Jewish people</b> would follow <b>behind them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "אַחֲרֵיהֶם.",
+      "en": "after them"
+     }
+    ]
+   },
+   {
+    "he": "הַפְּנִימִית נֶאֱכֶלֶת וְהַחִיצוֹנָה נִשְׂרָפֶת.",
+    "en": "The inner todah is eaten, and the outer one is burned.",
+    "st": "When they would reach the end of the place that they desired to consecrate, <b>the inner</b> thanks-offering would <b>be eaten and the outer one</b> would <b>be burned.</b> The details of this ceremony will be described in the Gemara.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפְּנִימִית",
+      "en": "the inner one"
+     },
+     {
+      "he": "נֶאֱכֶלֶת",
+      "en": "is eaten"
+     },
+     {
+      "he": "וְהַחִיצוֹנָה",
+      "en": "and the outer one"
+     },
+     {
+      "he": "נִשְׂרָפֶת.",
+      "en": "is burned"
+     }
+    ]
+   },
+   {
+    "he": "וְכֹל שֶׁלֹּא נַעֲשָׂה בְכָל אֵלּוּ,",
+    "en": "And any part that was not added with all of these,",
+    "st": "<b>And</b> with regard to <b>any</b> addition to the Temple <b>that was not made with all these</b> ceremonial procedures,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֹל",
+      "en": "and any"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "נַעֲשָׂה",
+      "en": "was made"
+     },
+     {
+      "he": "בְכָל",
+      "en": "with all"
+     },
+     {
+      "he": "אֵלּוּ,",
+      "en": "these"
+     }
+    ]
+   },
+   {
+    "he": "הַנִּכְנָס לְשָׁם אֵין חַיָּבִין עָלֶיהָ:",
+    "en": "one who goes in there while tamei is not chayav for it.",
+    "st": "<b>one who enters there</b> while ritually impure <b>is not liable</b>",
+    "stMore": "to bring an offering if his entry was unwitting, nor to be punished with karet, excision from the World-to-Come, if his entry was intentional.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנִּכְנָס",
+      "en": "one who enters"
+     },
+     {
+      "he": "לְשָׁם",
+      "en": "there"
+     },
+     {
+      "he": "אֵין",
+      "en": "they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable",
+      "note": "Chayav: he must bring a korban or get a punishment."
+     },
+     {
+      "he": "עָלֶיהָ:",
+      "en": "for it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "If a person became tamei inside the Azarah and forgot, and then bowed down, or stayed there, or went out the long way, he is chayav. If he went out the short way, he is patur.",
+  "stIntro": "The first part of the mishna discussed one who became ritually impure before entering the Temple. ",
+  "chunks": [
+   {
+    "he": "נִטְמָא בָעֲזָרָה וְנֶעֶלְמָה מִמֶּנּוּ",
+    "en": "If he became tamei in the Azarah and forgot",
+    "st": "The mishna proceeds to consider a case involving one who was ritually pure when he entered the Temple but <b>who became impure</b> while <b>in the</b> Temple <b>courtyard, and</b> afterward, his <b>impurity was hidden from him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִטְמָא",
+      "en": "he became tamei"
+     },
+     {
+      "he": "בָעֲזָרָה",
+      "en": "in the Azarah"
+     },
+     {
+      "he": "וְנֶעֶלְמָה",
+      "en": "and it was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "טֻמְאָה וְזָכוּר אֶת הַמִּקְדָּשׁ,",
+    "en": "that he was tamei, but remembered it was the Beis HaMikdash,",
+    "st": "but <b>he remembered</b> that he was standing in <b>the Temple,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טֻמְאָה",
+      "en": "the tumah"
+     },
+     {
+      "he": "וְזָכוּר",
+      "en": "and he remembers"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמִּקְדָּשׁ,",
+      "en": "the Beis HaMikdash"
+     }
+    ]
+   },
+   {
+    "he": "נֶעְלַם מִמֶּנּוּ מִקְדָּשׁ וְזָכוּר לַטֻּמְאָה,",
+    "en": "or he forgot it was the Beis HaMikdash, but remembered he was tamei,",
+    "st": "or the fact that he was standing in <b>the Temple was hidden from him</b> but <b>he remembered</b> his <b>impurity,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶעְלַם",
+      "en": "was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "מִקְדָּשׁ",
+      "en": "the Beis HaMikdash"
+     },
+     {
+      "he": "וְזָכוּר",
+      "en": "and he remembers"
+     },
+     {
+      "he": "לַטֻּמְאָה,",
+      "en": "the tumah"
+     }
+    ]
+   },
+   {
+    "he": "נֶעְלַם מִמֶּנּוּ זֶה וָזֶה,",
+    "en": "or he forgot both this and that,",
+    "st": "or both <b>this</b> fact <b>and that</b> fact <b>were hidden from him.</b> In all these cases,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶעְלַם",
+      "en": "was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "וָזֶה,",
+      "en": "and that"
+     }
+    ]
+   },
+   {
+    "he": "וְהִשְׁתַּחֲוָה אוֹ שֶׁשָּׁהָה בִכְדֵי הִשְׁתַּחֲוָאָה,",
+    "en": "and he bowed down, or stayed there as long as it takes to bow down,",
+    "st": "if <b>he bowed</b> down, <b>or he tarried</b> in the Temple courtyard <b>long enough to bow down</b> even though he did not actually bow,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִשְׁתַּחֲוָה",
+      "en": "and he bowed down"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁשָּׁהָה",
+      "en": "that he stayed"
+     },
+     {
+      "he": "בִכְדֵי",
+      "en": "as long as"
+     },
+     {
+      "he": "הִשְׁתַּחֲוָאָה,",
+      "en": "bowing down"
+     }
+    ]
+   },
+   {
+    "he": "בָּא לוֹ בָאֲרֻכָּה,",
+    "en": "or he went out the long way,",
+    "st": "<b>or he went out</b> by way of <b>a longer</b> route when he could have taken a shorter route,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "he went"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "בָאֲרֻכָּה,",
+      "en": "by the long way"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. בַּקְּצָרָה,",
+    "en": "he is chayav. If he went out the short way,",
+    "st": "he is <b>liable</b> to bring a sliding-scale offering. But if he left the Temple via <b>the shortest</b> way,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     },
+     {
+      "he": "בַּקְּצָרָה,",
+      "en": "by the short way"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. זוֹ הִיא מִצְוַת עֲשֵׂה שֶׁבַּמִּקְדָּשׁ,",
+    "en": "he is patur. This is the \"mitzvah to do\" about the Beis HaMikdash",
+    "st": "he is <b>exempt. This</b> mitzva that the ritually impure must be sent out of the Temple <b>is the positive mitzva concerning the Temple for which,</b> as is taught elsewhere in the Mishna (Horayot 8b),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur",
+      "note": "He does not have to bring a korban."
+     },
+     {
+      "he": "זוֹ",
+      "en": "this"
+     },
+     {
+      "he": "הִיא",
+      "en": "is"
+     },
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "עֲשֵׂה",
+      "en": "doing"
+     },
+     {
+      "he": "שֶׁבַּמִּקְדָּשׁ,",
+      "en": "that is in the Beis HaMikdash"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין חַיָּבִין עָלֶיהָ:",
+    "en": "that beis din is not chayav a korban for.",
+    "explain": "If beis din ruled wrongly about it, they do not bring a korban.",
+    "st": "the Sanhedrin <b>is not liable</b> to bring an offering for an erroneous ruling.",
+    "stMore": "A communal bull sin-offering is brought because of the unwitting transgression of a prohibition involving an action by the Jewish people resulting from an erroneous halakhic decision handed down by the Sanhedrin. But if the Sanhedrin mistakenly ruled that one who became impure while in the Temple may leave by way of a longer route, they do not bring this offering, as it is brought only for an erroneous ruling on a matter that requires the bringing of a fixed sin-offering, and not a sliding-scale offering, for its unwitting violation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that they are not"
+     },
+     {
+      "he": "חַיָּבִין",
+      "en": "liable"
+     },
+     {
+      "he": "עָלֶיהָ:",
+      "en": "for it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "This mishnah gives an example of a \"mitzvah to do\" about a niddah: a husband must move away from his wife in the right way when she becomes tamei.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְאֵיזוֹ הִיא מִצְוַת עֲשֵׂה",
+    "en": "And which \"mitzvah to do\"",
+    "st": "<b>And which is the positive mitzva </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵיזוֹ",
+      "en": "and which"
+     },
+     {
+      "he": "הִיא",
+      "en": "is it"
+     },
+     {
+      "he": "מִצְוַת",
+      "en": "the mitzvah of"
+     },
+     {
+      "he": "עֲשֵׂה",
+      "en": "doing"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבַּנִּדָּה שֶׁחַיָּבִין עָלֶיהָ,",
+    "en": "about a niddah makes beis din chayav a korban?",
+    "st": "<b>with regard to a menstruating woman for which,</b> as is taught in Horayot there, the Sanhedrin is <b>liable</b> to bring a bull offering for an erroneous ruling?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבַּנִּדָּה",
+      "en": "about a niddah",
+      "note": "A woman during the time she is tamei, when she and her husband must stay apart."
+     },
+     {
+      "he": "שֶׁחַיָּבִין",
+      "en": "that they are liable"
+     },
+     {
+      "he": "עָלֶיהָ,",
+      "en": "for it"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה מְשַׁמֵּשׁ עִם הַטְּהוֹרָה",
+    "en": "If a man was with his wife when she was tahor,",
+    "st": "If a man <b>was engaging in intercourse with a ritually pure woman, and</b> during the course of their act of intercourse",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "מְשַׁמֵּשׁ",
+      "en": "together"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הַטְּהוֹרָה",
+      "en": "the tahor one"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמְרָה לוֹ נִטְמֵאתִי,",
+    "en": "and she told him, \"I have become tamei,\"",
+    "st": "<b>she</b> experienced menstrual bleeding and <b>said to him: I have become impure, and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמְרָה",
+      "en": "and she said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "נִטְמֵאתִי,",
+      "en": "I became tamei"
+     }
+    ]
+   },
+   {
+    "he": "וּפֵרַשׁ מִיָּד,",
+    "en": "and he moved away from her right away,",
+    "st": "unwittingly <b>he immediately withdrew</b> from her and did not wait until his penis became flaccid,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפֵרַשׁ",
+      "en": "and he moved away"
+     },
+     {
+      "he": "מִיָּד,",
+      "en": "right away"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, מִפְּנֵי שֶׁיְּצִיאָתוֹ הֲנָאָה לוֹ כְּבִיאָתוֹ:",
+    "en": "he is chayav, because the way he left counts just like staying.",
+    "st": "he is <b>liable</b> to bring a sin-offering for engaging in intercourse with a menstruating woman, <b>because his withdrawal</b> from her <b>is as pleasant to him as his entry.</b>",
+    "stMore": "If the Sanhedrin mistakenly ruled that one may withdraw immediately, they bring a bull offering for their erroneous ruling.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "he is chayav"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁיְּצִיאָתוֹ",
+      "en": "that his leaving"
+     },
+     {
+      "he": "הֲנָאָה",
+      "en": "counts"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "כְּבִיאָתוֹ:",
+      "en": "like his being there"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "Which forgetting makes a person bring the korban? Rabbi Eliezer and Rabbi Akiva say only forgetting that he was tamei, not forgetting that it was the Beis HaMikdash. Rabbi Yishmael says both.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b> With regard to the sliding-scale offering the verse states:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַשֶּׁרֶץ וְגוֹ' וְנֶעְלַם מִמֶּנּוּ (ויקרא ה),",
+    "en": "The pasuk says, \"a sheretz... and it was hidden from him\":",
+    "st": "“Or if a person touches any impure thing, whether it is the carcass of a non-kosher undomesticated animal, or the carcass of a non-kosher domesticated animal, or the carcass of a non-kosher <b>creeping animal, and it is hidden from him”</b> (Leviticus 5:2).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשֶּׁרֶץ",
+      "en": "the sheretz",
+      "note": "A sheretz is one of eight small creatures whose dead body makes a person tamei."
+     },
+     {
+      "he": "וְגוֹ'",
+      "en": "et cetera"
+     },
+     {
+      "he": "וְנֶעְלַם",
+      "en": "and it was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "ה),",
+      "en": "5)"
+     }
+    ]
+   },
+   {
+    "he": "עַל הֶעְלֵם שֶׁרֶץ חַיָּב,",
+    "en": "he is chayav for forgetting the sheretz,",
+    "explain": "That is, forgetting that he became tamei.",
+    "st": "A precise reading of this verse indicates that in a case where one has <b>a lapse of awareness</b> that he had contracted ritual impurity by touching <b>a creeping animal,</b> he is <b>liable</b>",
+    "stMore": "to bring a sliding-scale offering for having defiled the Temple or the sacrificial food,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הֶעְלֵם",
+      "en": "forgetting"
+     },
+     {
+      "he": "שֶׁרֶץ",
+      "en": "a sheretz"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ חַיָּב עַל הֶעְלֵם מִקְדָּשׁ.",
+    "en": "but he is not chayav for forgetting the Beis HaMikdash.",
+    "st": "<b>but he is not liable</b> to bring such an offering in a case where he has <b>a lapse of awareness</b> that he is entering the <b>Temple</b> or partaking of sacrificial food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הֶעְלֵם",
+      "en": "forgetting"
+     },
+     {
+      "he": "מִקְדָּשׁ.",
+      "en": "the Beis HaMikdash"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "Similarly, <b>Rabbi Akiva says:</b> The verse states:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "וְנֶעְלַם מִמֶּנּוּ וְהוּא טָמֵא (שם),",
+    "en": "The pasuk says, \"and it was hidden from him, and he is tamei\":",
+    "st": "<b>“And it is hidden from him, so that he is impure”</b> (Leviticus 5:2),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶעְלַם",
+      "en": "and it was hidden"
+     },
+     {
+      "he": "מִמֶּנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "is tamei"
+     },
+     {
+      "he": "(שם),",
+      "en": "(there)"
+     }
+    ]
+   },
+   {
+    "he": "עַל הֶעְלֵם טֻמְאָה חַיָּב,",
+    "en": "he is chayav for forgetting tumah,",
+    "st": "thereby teaching that in a case when one has <b>a lapse of awareness</b> that he had contracted <b>ritual impurity,</b> he is <b>liable</b> to bring a sliding-scale offering,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הֶעְלֵם",
+      "en": "forgetting"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ חַיָּב עַל הֶעְלֵם מִקְדָּשׁ.",
+    "en": "but he is not chayav for forgetting the Beis HaMikdash.",
+    "st": "<b>but</b> one <b>is not liable</b> to bring such an offering in a case when he has <b>a lapse of awareness</b> that he is entering the <b>Temple</b> or partaking of sacrificial food.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "chayav"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הֶעְלֵם",
+      "en": "forgetting"
+     },
+     {
+      "he": "מִקְדָּשׁ.",
+      "en": "the Beis HaMikdash"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יִשְׁמָעֵאל אוֹמֵר,",
+    "en": "Rabbi Yishmael says,",
+    "st": "<b>Rabbi Yishmael says:</b> The verse states:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יִשְׁמָעֵאל",
+      "en": "Yishmael"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "וְנֶעְלַם וְנֶעְלַם שְׁתֵּי פְעָמִים,",
+    "en": "\"And it was hidden\" is written two times,",
+    "st": "<b>“And it is hidden</b> from him” (Leviticus 5:2), and it states: <b>“And it is hidden</b> from him” (Leviticus 5:3), <b>twice,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶעְלַם",
+      "en": "and it was hidden"
+     },
+     {
+      "he": "וְנֶעְלַם",
+      "en": "and it was hidden"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "פְעָמִים,",
+      "en": "times"
+     }
+    ]
+   },
+   {
+    "he": "לְחַיֵּב עַל הֶעְלֵם טֻמְאָה",
+    "en": "to make him chayav for forgetting tumah",
+    "st": "in order <b>to render one liable</b> to bring a sliding-scale offering both in a case where one has <b>a lapse of awareness</b> that he had contracted <b>ritual impurity </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְחַיֵּב",
+      "en": "to make liable"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הֶעְלֵם",
+      "en": "forgetting"
+     },
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל הֶעְלֵם מִקְדָּשׁ:",
+    "en": "and for forgetting the Beis HaMikdash.",
+    "st": "<b>and</b> in a case where one has <b>a lapse of awareness</b> that he is entering the <b>Temple.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and for"
+     },
+     {
+      "he": "הֶעְלֵם",
+      "en": "forgetting"
+     },
+     {
+      "he": "מִקְדָּשׁ:",
+      "en": "the Beis HaMikdash"
+     }
+    ]
+   }
+  ]
+ }
+]

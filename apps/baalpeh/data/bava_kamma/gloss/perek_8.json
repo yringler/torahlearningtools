@@ -1,0 +1,3415 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "Someone who hurts another person must pay for five things: the damage, the pain, the doctor, the work he missed, and the embarrassment. The mishnah explains how each one is measured.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַחוֹבֵל בַּחֲבֵרוֹ חַיָּב עָלָיו",
+    "en": "Someone who hurts his friend must pay him",
+    "st": "<b>One who injures another is liable</b> to pay compensation <b>for that</b> injury",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹבֵל",
+      "en": "the one who injures"
+     },
+     {
+      "he": "בַּחֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is obligated"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "for him"
+     }
+    ]
+   },
+   {
+    "he": "מִשּׁוּם חֲמִשָּׁה דְבָרִים,",
+    "en": "for five things:",
+    "st": "<b>due to five types</b> of indemnity:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "חֲמִשָּׁה",
+      "en": "five"
+     },
+     {
+      "he": "דְבָרִים,",
+      "en": "things"
+     }
+    ]
+   },
+   {
+    "he": "בְּנֶזֶק, בְּצַעַר,",
+    "en": "for damage, for pain,",
+    "st": "He must pay <b>for damage, for pain,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּנֶזֶק,",
+      "en": "for damage"
+     },
+     {
+      "he": "בְּצַעַר,",
+      "en": "for pain"
+     }
+    ]
+   },
+   {
+    "he": "בְּרִפּוּי, בְּשֶׁבֶת,",
+    "en": "for healing, for sitting idle,",
+    "explain": "Sitting idle means he could not work.",
+    "st": "<b>for medical costs, for loss of livelihood,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּרִפּוּי,",
+      "en": "for healing"
+     },
+     {
+      "he": "בְּשֶׁבֶת,",
+      "en": "for sitting idle"
+     }
+    ]
+   },
+   {
+    "he": "וּבְבֹשֶׁת. בְּנֶזֶק כֵּיצַד.",
+    "en": "and for embarrassment. How is damage paid?",
+    "st": "<b>and</b> for <b>humiliation. How</b> is payment <b>for damage</b> assessed?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְבֹשֶׁת.",
+      "en": "and for embarrassment"
+     },
+     {
+      "he": "בְּנֶזֶק",
+      "en": "for damage"
+     },
+     {
+      "he": "כֵּיצַד.",
+      "en": "how"
+     }
+    ]
+   },
+   {
+    "he": "סִמָּא אֶת עֵינוֹ,",
+    "en": "If he blinded his eye,",
+    "st": "If <b>one blinded</b> another’s <b>eye,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סִמָּא",
+      "en": "he blinded"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עֵינוֹ,",
+      "en": "his eye"
+     }
+    ]
+   },
+   {
+    "he": "קָטַע אֶת יָדוֹ,",
+    "en": "cut off his hand,",
+    "st": "<b>severed his hand,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָטַע",
+      "en": "he cut off"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "יָדוֹ,",
+      "en": "his hand"
+     }
+    ]
+   },
+   {
+    "he": "שִׁבֵּר אֶת רַגְלוֹ,",
+    "en": "or broke his leg,",
+    "st": "<b>broke his leg,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁבֵּר",
+      "en": "he broke"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רַגְלוֹ,",
+      "en": "his leg"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאִין אוֹתוֹ כְּאִלּוּ הוּא עֶבֶד",
+    "en": "we look at him as if he were a servant",
+    "st": "or caused any other injury, the court <b>views</b> the injured party <b>as though he were a slave</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאִין",
+      "en": "we see"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "עֶבֶד",
+      "en": "a servant"
+     }
+    ]
+   },
+   {
+    "he": "נִמְכָּר בַּשּׁוּק וְשָׁמִין כַּמָּה הָיָה",
+    "en": "sold in the market, and figure out how much he was",
+    "st": "being <b>sold in the</b> slave <b>market, and</b> the court <b>appraises how much he was</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְכָּר",
+      "en": "sold"
+     },
+     {
+      "he": "בַּשּׁוּק",
+      "en": "in the market"
+     },
+     {
+      "he": "וְשָׁמִין",
+      "en": "and estimate"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     }
+    ]
+   },
+   {
+    "he": "יָפֶה וְכַמָּה הוּא יָפֶה.",
+    "en": "worth before, and how much he is worth now.",
+    "st": "<b>worth</b> before the injury <b>and how much he is worth</b> after the injury.",
+    "stMore": "The difference between these two sums is the amount that one must pay for causing damage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָפֶה",
+      "en": "worth"
+     },
+     {
+      "he": "וְכַמָּה",
+      "en": "and how much"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "יָפֶה.",
+      "en": "worth"
+     }
+    ]
+   },
+   {
+    "he": "צַעַר, כְּוָאוֹ בְשַׁפּוּד אוֹ בְמַסְמֵר,",
+    "en": "Pain: if he burned him with a skewer or a nail,",
+    "st": "How is payment for <b>pain</b> assessed? If <b>one burned</b> another <b>with a skewer [beshapud] or with</b> a hot <b>nail,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צַעַר,",
+      "en": "pain"
+     },
+     {
+      "he": "כְּוָאוֹ",
+      "en": "he burned him"
+     },
+     {
+      "he": "בְשַׁפּוּד",
+      "en": "with a skewer"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בְמַסְמֵר,",
+      "en": "with a nail"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲפִלּוּ עַל צִפָּרְנוֹ,",
+    "en": "even on his fingernail,",
+    "st": "<b>or even</b> if one burned another <b>on his fingernail,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲפִלּוּ",
+      "en": "and even"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "צִפָּרְנוֹ,",
+      "en": "his fingernail"
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁאֵינוֹ עוֹשֶׂה חַבּוּרָה,",
+    "en": "a place where it does not leave a wound,",
+    "st": "which is <b>a place where he does not cause a bruise</b> that would affect the victim’s value on the slave market,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that it does not"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "make"
+     },
+     {
+      "he": "חַבּוּרָה,",
+      "en": "a wound"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמְדִין כַּמָּה אָדָם כַּיּוֹצֵא בָזֶה",
+    "en": "we figure out how much a person like him",
+    "st": "the court <b>evaluates how much</b> money <b>a person</b> with <b>a similar</b> threshold for pain <b>as</b> the victim",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמְדִין",
+      "en": "we estimate"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "כַּיּוֹצֵא",
+      "en": "like"
+     },
+     {
+      "he": "בָזֶה",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "רוֹצֶה לִטֹּל לִהְיוֹת מִצְטַעֵר כָּךְ.",
+    "en": "would want to get paid to feel this pain.",
+    "st": "<b>is willing to take</b> in order to be made <b>to suffer in this way.</b>",
+    "stMore": "The one who burned the victim must then pay this amount.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹצֶה",
+      "en": "wants"
+     },
+     {
+      "he": "לִטֹּל",
+      "en": "to take"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "מִצְטַעֵר",
+      "en": "in pain"
+     },
+     {
+      "he": "כָּךְ.",
+      "en": "like this"
+     }
+    ]
+   },
+   {
+    "he": "רִפּוּי, הִכָּהוּ חַיָּב לְרַפְּאֹתוֹ.",
+    "en": "Healing: if he hit him, he must pay to heal him.",
+    "st": "How is payment for <b>medical costs</b> assessed? If one <b>struck</b> another, then he is <b>liable to heal him</b> by paying for his medical costs.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רִפּוּי,",
+      "en": "healing"
+     },
+     {
+      "he": "הִכָּהוּ",
+      "en": "he hit him"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "is obligated"
+     },
+     {
+      "he": "לְרַפְּאֹתוֹ.",
+      "en": "to heal him"
+     }
+    ]
+   },
+   {
+    "he": "עָלוּ בוֹ צְמָחִים,",
+    "en": "If sores came up on him,",
+    "st": "In a case where <b>growths,</b> e.g., blisters or rashes, <b>appeared on</b> the injured party,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָלוּ",
+      "en": "came up"
+     },
+     {
+      "he": "בוֹ",
+      "en": "on him"
+     },
+     {
+      "he": "צְמָחִים,",
+      "en": "sores"
+     }
+    ]
+   },
+   {
+    "he": "אִם מֵחֲמַת הַמַּכָּה,",
+    "en": "if because of the blow,",
+    "st": "<b>if</b> the growths are <b>due to the blow,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מֵחֲמַת",
+      "en": "because of"
+     },
+     {
+      "he": "הַמַּכָּה,",
+      "en": "the blow"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. שֶׁלֹּא מֵחֲמַת הַמַּכָּה,",
+    "en": "he must pay. If not because of the blow,",
+    "st": "the one who struck him is <b>liable;</b> if the growths are <b>not due to the blow,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "מֵחֲמַת",
+      "en": "because of"
+     },
+     {
+      "he": "הַמַּכָּה,",
+      "en": "the blow"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. חָיְתָה וְנִסְתְּרָה,",
+    "en": "he does not pay. If it healed and opened again,",
+    "st": "the one who struck him is <b>exempt.</b> In a case where the wound <b>healed, and</b> then <b>reopened,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "חָיְתָה",
+      "en": "it healed"
+     },
+     {
+      "he": "וְנִסְתְּרָה,",
+      "en": "and opened again"
+     }
+    ]
+   },
+   {
+    "he": "חָיְתָה וְנִסְתְּרָה,",
+    "en": "healed and opened again,",
+    "st": "and again <b>healed, and</b> then <b>reopened,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָיְתָה",
+      "en": "it healed"
+     },
+     {
+      "he": "וְנִסְתְּרָה,",
+      "en": "and opened again"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב לְרַפְּאֹתוֹ.",
+    "en": "he must pay to heal him.",
+    "st": "the one who struck him remains <b>liable to heal</b> the injured party by paying for his medical costs,",
+    "stMore": "as it is apparent that the current wound resulted from the original injury.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "is obligated"
+     },
+     {
+      "he": "לְרַפְּאֹתוֹ.",
+      "en": "to heal him"
+     }
+    ]
+   },
+   {
+    "he": "חָיְתָה כָל צָרְכָּהּ,",
+    "en": "If it healed all the way,",
+    "st": "If the injury <b>healed fully,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חָיְתָה",
+      "en": "it healed"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "צָרְכָּהּ,",
+      "en": "it needed"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב לְרַפְּאֹתוֹ.",
+    "en": "he does not need to pay to heal him.",
+    "st": "the one who struck him <b>is not liable to heal him</b> by paying for any subsequent medical costs.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "לְרַפְּאֹתוֹ.",
+      "en": "to heal him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבֶת, רוֹאִין אוֹתוֹ כְּאִלוּ הוּא שׁוֹמֵר קִשּׁוּאִין,",
+    "en": "Sitting idle: we look at him as if he guards a cucumber field,",
+    "explain": "He is paid like an easy job, for the days he could not work.",
+    "st": "How is payment for <b>loss of livelihood</b> assessed? The court <b>views</b> the injured party <b>as though he were a watchman of cucumbers,</b> and the one who caused him injury must compensate him based on that pay scale for the income that he lost during his convalescence.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבֶת,",
+      "en": "sitting idle"
+     },
+     {
+      "he": "רוֹאִין",
+      "en": "we see"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "כְּאִלוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "שׁוֹמֵר",
+      "en": "a watchman of"
+     },
+     {
+      "he": "קִשּׁוּאִין,",
+      "en": "cucumbers"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכְּבָר נָתַן לוֹ דְמֵי",
+    "en": "since he was already paid for",
+    "st": "This indemnity does not take into account the value of the standard wages of the injured party <b>because</b> the one who caused him injury <b>already gave him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכְּבָר",
+      "en": "that already"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "דְמֵי",
+      "en": "the money of"
+     }
+    ]
+   },
+   {
+    "he": "יָדוֹ וּדְמֵי רַגְלוֹ.",
+    "en": "his hand and for his leg.",
+    "st": "<b>compensation for his hand or compensation for his leg,</b> and that compensation took into account his professional skills.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     },
+     {
+      "he": "וּדְמֵי",
+      "en": "and the money of"
+     },
+     {
+      "he": "רַגְלוֹ.",
+      "en": "his leg"
+     }
+    ]
+   },
+   {
+    "he": "בֹּשֶׁת, הַכֹּל לְפִי הַמְבַיֵּשׁ וְהַמִּתְבַּיֵּשׁ.",
+    "en": "Embarrassment: it all depends on who embarrassed and who was embarrassed.",
+    "st": "How is payment for <b>humiliation</b> assessed? <b>It all depends on</b> the stature of <b>the one who humiliates</b> the other <b>and the one who is humiliated.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֹּשֶׁת,",
+      "en": "embarrassment"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "לְפִי",
+      "en": "according to"
+     },
+     {
+      "he": "הַמְבַיֵּשׁ",
+      "en": "the one who embarrasses"
+     },
+     {
+      "he": "וְהַמִּתְבַּיֵּשׁ.",
+      "en": "and the one who is embarrassed"
+     }
+    ]
+   },
+   {
+    "he": "הַמְבַיֵּשׁ אֶת הֶעָרֹם,",
+    "en": "Someone who embarrasses a person who is not dressed,",
+    "st": "<b>One who humiliates a naked person,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְבַיֵּשׁ",
+      "en": "the one who embarrasses"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הֶעָרֹם,",
+      "en": "the one not dressed"
+     }
+    ]
+   },
+   {
+    "he": "הַמְבַיֵּשׁ אֶת הַסּוּמָא,",
+    "en": "who embarrasses a blind person,",
+    "st": "or <b>one who humiliates a blind person,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְבַיֵּשׁ",
+      "en": "the one who embarrasses"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַסּוּמָא,",
+      "en": "the blind person"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְבַיֵּשׁ אֶת הַיָּשֵׁן,",
+    "en": "or who embarrasses a sleeping person,",
+    "st": "<b>or one who humiliates a sleeping person</b> is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְבַיֵּשׁ",
+      "en": "and the one who embarrasses"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַיָּשֵׁן,",
+      "en": "the sleeping person"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. וְיָשֵׁן שֶׁבִּיֵּשׁ,",
+    "en": "must pay. But a sleeping person who embarrassed,",
+    "st": "<b>liable, but a sleeping person who humiliates</b> another is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "וְיָשֵׁן",
+      "en": "and a sleeping person"
+     },
+     {
+      "he": "שֶׁבִּיֵּשׁ,",
+      "en": "that embarrassed"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. נָפַל מִן הַגָּג,",
+    "en": "does not pay. If he fell from the roof,",
+    "st": "<b>exempt.</b> If one <b>fell from the roof</b> onto another person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "נָפַל",
+      "en": "he fell"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַגָּג,",
+      "en": "the roof"
+     }
+    ]
+   },
+   {
+    "he": "וְהִזִּיק וּבִיֵּשׁ,",
+    "en": "and hurt and embarrassed someone,",
+    "st": "<b>and</b> thereby <b>caused</b> him <b>damage and humiliated</b> him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִזִּיק",
+      "en": "and damaged"
+     },
+     {
+      "he": "וּבִיֵּשׁ,",
+      "en": "and embarrassed"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב עַל הַנֶּזֶק וּפָטוּר עַל הַבֹּשֶׁת,",
+    "en": "he pays for the damage, but not for the embarrassment,",
+    "st": "then the one who fell is <b>liable for the</b> indemnity of <b>damage,</b> since a person is always considered forewarned, <b>and exempt from the</b> indemnity of <b>humiliation,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַנֶּזֶק",
+      "en": "the damage"
+     },
+     {
+      "he": "וּפָטוּר",
+      "en": "and exempt"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַבֹּשֶׁת,",
+      "en": "the embarrassment"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (דברים כה) וְשָׁלְחָה",
+    "en": "as the Torah says, \"And she puts out",
+    "st": "<b>as it is stated: “and putting out</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it is said"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "כה)",
+      "en": "25)"
+     },
+     {
+      "he": "וְשָׁלְחָה",
+      "en": "and she puts out"
+     }
+    ]
+   },
+   {
+    "he": "יָדָהּ וְהֶחֱזִיקָה בִּמְבֻשָׁיו,",
+    "en": "her hand and grabs him in an embarrassing way.\"",
+    "st": "<b>her hand, she takes hold of his private parts”</b> (Deuteronomy 25:11);",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָדָהּ",
+      "en": "her hand"
+     },
+     {
+      "he": "וְהֶחֱזִיקָה",
+      "en": "and grabs"
+     },
+     {
+      "he": "בִּמְבֻשָׁיו,",
+      "en": "him in an embarrassing place"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב עַל הַבֹּשֶׁת",
+    "en": "He does not pay for embarrassment",
+    "st": "a person is not liable for humiliation",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַבֹּשֶׁת",
+      "en": "the embarrassment"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְהֵא מִתְכַּוֵּן:",
+    "en": "unless he meant to.",
+    "st": "<b>unless he intends</b> to humiliate the other person.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְהֵא",
+      "en": "that he will be"
+     },
+     {
+      "he": "מִתְכַּוֵּן:",
+      "en": "intending"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "A person who hurts someone pays for all five things, but an owner whose ox hurts someone pays only for the damage.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "זֶה חֹמֶר בָּאָדָם מִבַּשּׁוֹר,",
+    "en": "This is how a person is stricter than an ox:",
+    "st": "<b>This</b> halakha <b>is a stringency with regard to a person</b> who caused injury, <b>compared to</b> the halakha <b>with regard to an ox</b> that caused injury:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "חֹמֶר",
+      "en": "strictness"
+     },
+     {
+      "he": "בָּאָדָם",
+      "en": "with a person"
+     },
+     {
+      "he": "מִבַּשּׁוֹר,",
+      "en": "more than with an ox"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָאָדָם מְשַׁלֵּם נֶזֶק,",
+    "en": "a person pays for damage,",
+    "st": "The halakha is <b>that the person pays</b> compensation for",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָאָדָם",
+      "en": "that the person"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "נֶזֶק,",
+      "en": "damage"
+     }
+    ]
+   },
+   {
+    "he": "צַעַר, רִפּוּי,",
+    "en": "pain, healing,",
+    "st": "<b>damage, pain, medical costs,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צַעַר,",
+      "en": "pain"
+     },
+     {
+      "he": "רִפּוּי,",
+      "en": "healing"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבֶת, וּבֹשֶׁת,",
+    "en": "sitting idle, and embarrassment,",
+    "st": "<b>loss of livelihood, and humiliation;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבֶת,",
+      "en": "sitting idle"
+     },
+     {
+      "he": "וּבֹשֶׁת,",
+      "en": "and embarrassment"
+     }
+    ]
+   },
+   {
+    "he": "וּמְשַׁלֵּם דְּמֵי וְלָדוֹת,",
+    "en": "and pays for the babies,",
+    "explain": "If he made a woman lose the baby she was expecting.",
+    "st": "<b>and</b> if he caused a woman to miscarry he also <b>pays compensation for</b> miscarried <b>offspring,</b> as the verse states (see Exodus 21:22).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְשַׁלֵּם",
+      "en": "and he pays"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the money of"
+     },
+     {
+      "he": "וְלָדוֹת,",
+      "en": "babies"
+     }
+    ]
+   },
+   {
+    "he": "וְשׁוֹר אֵינוֹ מְשַׁלֵּם אֶלָּא נֶזֶק,",
+    "en": "but an ox pays only for damage,",
+    "st": "<b>But</b> in the case of <b>an ox</b> that caused injury, the owner <b>pays only</b> compensation for <b>damage,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשׁוֹר",
+      "en": "and an ox"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "נֶזֶק,",
+      "en": "damage"
+     }
+    ]
+   },
+   {
+    "he": "וּפָטוּר מִדְּמֵי וְלָדוֹת:",
+    "en": "and does not pay for the babies.",
+    "st": "<b>and</b> he is <b>exempt from</b> paying <b>compensation for</b> miscarried <b>offspring.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפָטוּר",
+      "en": "and is exempt"
+     },
+     {
+      "he": "מִדְּמֵי",
+      "en": "from the money of"
+     },
+     {
+      "he": "וְלָדוֹת:",
+      "en": "babies"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "Cases when someone who hurts another pays for all five things, and rules about hurting a servant.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּכֶּה אֶת אָבִיו וְאֶת אִמּוֹ",
+    "en": "Someone who hits his father or his mother",
+    "st": "The mishna continues: <b>One who strikes his father or his mother</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּכֶּה",
+      "en": "the one who hits"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "אִמּוֹ",
+      "en": "his mother"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא עָשָׂה בָהֶם חַבּוּרָה,",
+    "en": "and did not make a wound on them,",
+    "st": "<b>but did not cause them</b> to have <b>a bruise,</b>",
+    "stMore": "and therefore is not liable to receive court-imposed capital punishment,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "עָשָׂה",
+      "en": "make"
+     },
+     {
+      "he": "בָהֶם",
+      "en": "on them"
+     },
+     {
+      "he": "חַבּוּרָה,",
+      "en": "a wound"
+     }
+    ]
+   },
+   {
+    "he": "וְחוֹבֵל בַּחֲבֵרוֹ בְּיוֹם הַכִּפּוּרִים,",
+    "en": "or hurts his friend on Yom Kippur,",
+    "st": "<b>and one who injures another on Yom Kippur,</b> the punishment for which is not court-imposed capital punishment,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחוֹבֵל",
+      "en": "and the one who injures"
+     },
+     {
+      "he": "בַּחֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים,",
+      "en": "Kippur"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב בְּכֻלָּן.",
+    "en": "must pay for all of them.",
+    "st": "is <b>liable</b> to pay <b>for all of</b> the five types of indemnity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "בְּכֻלָּן.",
+      "en": "for all of them"
+     }
+    ]
+   },
+   {
+    "he": "הַחוֹבֵל בְּעֶבֶד עִבְרִי,",
+    "en": "Someone who hurts an eved Ivri,",
+    "explain": "A Jewish servant who works for a few years.",
+    "st": "<b>One who injures a Hebrew slave</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹבֵל",
+      "en": "the one who injures"
+     },
+     {
+      "he": "בְּעֶבֶד",
+      "en": "a servant",
+      "note": "An eved Ivri is a Jewish servant who works for six years."
+     },
+     {
+      "he": "עִבְרִי,",
+      "en": "Hebrew"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב בְּכֻלָּן חוּץ מִן הַשֶּׁבֶת,",
+    "en": "must pay for all of them except sitting idle,",
+    "st": "is <b>liable</b> to pay <b>for all of</b> the five types of indemnity. This is <b>except for</b> compensation for <b>loss of livelihood</b> suffered",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "בְּכֻלָּן",
+      "en": "for all of them"
+     },
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשֶּׁבֶת,",
+      "en": "the sitting idle"
+     }
+    ]
+   },
+   {
+    "he": "בִּזְמַן שֶׁהוּא שֶׁלּוֹ.",
+    "en": "while the servant works for him.",
+    "st": "<b>during the time that</b> the injured slave <b>belongs to</b> the one that injured him.",
+    "stMore": "Since the right to the slave’s labor belongs to his master, his inability to work is his master’s loss.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "שֶׁלּוֹ.",
+      "en": "is his"
+     }
+    ]
+   },
+   {
+    "he": "הַחוֹבֵל בְּעֶבֶד כְּנַעֲנִי שֶׁל אֲחֵרִים,",
+    "en": "Someone who hurts another person's eved Kenaani",
+    "st": "<b>One who injures a Canaanite slave belonging to others</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹבֵל",
+      "en": "the one who injures"
+     },
+     {
+      "he": "בְּעֶבֶד",
+      "en": "a servant"
+     },
+     {
+      "he": "כְּנַעֲנִי",
+      "en": "Canaanite",
+      "note": "A non-Jewish servant."
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב בְּכֻלָּן.",
+    "en": "must pay for all of them.",
+    "st": "<b>is liable</b> to pay <b>for all of</b> the five types of indemnity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "בְּכֻלָּן.",
+      "en": "for all of them"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b> Canaanite",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לָעֲבָדִים בֹּשֶׁת:",
+    "en": "servants do not get paid for embarrassment.",
+    "st": "<b>slaves do not have humiliation,</b>",
+    "stMore": "so the one who injures the slave pays only the other four types of indemnity.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "לָעֲבָדִים",
+      "en": "for servants"
+     },
+     {
+      "he": "בֹּשֶׁת:",
+      "en": "embarrassment"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "It is bad to get into trouble with a deaf person, someone not of sound mind, or a child: if you hurt them you pay, but if they hurt you they don't. A servant and a married woman pay later, once they have their own money.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "חֵרֵשׁ, שׁוֹטֶה וְקָטָן,",
+    "en": "A deaf person, someone not of sound mind, or a child:",
+    "st": "The mishna continues: With regard to <b>a deaf-mute, an imbecile, or a minor,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֵרֵשׁ,",
+      "en": "a deaf person"
+     },
+     {
+      "he": "שׁוֹטֶה",
+      "en": "not of sound mind"
+     },
+     {
+      "he": "וְקָטָן,",
+      "en": "and a child"
+     }
+    ]
+   },
+   {
+    "he": "פְּגִיעָתָן רָעָה.",
+    "en": "meeting them is bad.",
+    "st": "<b>an encounter with them is disadvantageous.</b>",
+    "stMore": "In other words, no favorable outcome is possible for someone involved in an incident with one of these people,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּגִיעָתָן",
+      "en": "meeting them"
+     },
+     {
+      "he": "רָעָה.",
+      "en": "is bad"
+     }
+    ]
+   },
+   {
+    "he": "הַחוֹבֵל בָּהֶן חַיָּב,",
+    "en": "If you hurt them, you pay,",
+    "st": "since <b>one who injures them</b> is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹבֵל",
+      "en": "the one who injures"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "them"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵם שֶׁחָבְלוּ בַּאֲחֵרִים פְּטוּרִין.",
+    "en": "and if they hurt others, they don't pay.",
+    "st": "<b>But</b> if <b>they were</b> the ones <b>who injured others, they</b> are <b>exempt.</b>",
+    "stMore": "This is because they lack awareness and are not responsible for their actions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵם",
+      "en": "and they"
+     },
+     {
+      "he": "שֶׁחָבְלוּ",
+      "en": "that injured"
+     },
+     {
+      "he": "בַּאֲחֵרִים",
+      "en": "others"
+     },
+     {
+      "he": "פְּטוּרִין.",
+      "en": "are exempt"
+     }
+    ]
+   },
+   {
+    "he": "הָעֶבֶד וְהָאִשָּׁה,",
+    "en": "A servant and a woman:",
+    "st": "Similarly, with regard to <b>a slave and</b> a married <b>woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֶבֶד",
+      "en": "the servant"
+     },
+     {
+      "he": "וְהָאִשָּׁה,",
+      "en": "and the woman"
+     }
+    ]
+   },
+   {
+    "he": "פְּגִיעָתָן רָעָה.",
+    "en": "meeting them is bad.",
+    "st": "<b>an encounter with them is disadvantageous,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּגִיעָתָן",
+      "en": "meeting them"
+     },
+     {
+      "he": "רָעָה.",
+      "en": "is bad"
+     }
+    ]
+   },
+   {
+    "he": "הַחוֹבֵל בָּהֶן חַיָּב,",
+    "en": "If you hurt them, you pay,",
+    "st": "since <b>one who injures them</b> is <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹבֵל",
+      "en": "the one who injures"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "them"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "וְהֵם שֶׁחָבְלוּ בָּאֲחֵרִים,",
+    "en": "and if they hurt others,",
+    "st": "<b>But</b> if <b>they</b> were the ones <b>who injured others,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֵם",
+      "en": "and they"
+     },
+     {
+      "he": "שֶׁחָבְלוּ",
+      "en": "that injured"
+     },
+     {
+      "he": "בָּאֲחֵרִים,",
+      "en": "others"
+     }
+    ]
+   },
+   {
+    "he": "פְּטוּרִין, אֲבָל מְשַׁלְּמִין לְאַחַר זְמָן.",
+    "en": "they don't pay now, but they pay later.",
+    "explain": "Right now they have no money of their own.",
+    "st": "<b>they</b> are <b>exempt,</b> because they do not have money with which to pay compensation. <b>But they pay</b> compensation <b>at a later time.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּטוּרִין,",
+      "en": "are exempt"
+     },
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מְשַׁלְּמִין",
+      "en": "they pay"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "זְמָן.",
+      "en": "time"
+     }
+    ]
+   },
+   {
+    "he": "נִתְגָּרְשָׁה הָאִשָּׁה,",
+    "en": "If the woman is divorced,",
+    "st": "The exemption is only temporary, as, if <b>the woman becomes divorced</b> or",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְגָּרְשָׁה",
+      "en": "was divorced"
+     },
+     {
+      "he": "הָאִשָּׁה,",
+      "en": "the woman"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁתַּחְרֵר הָעֶבֶד,",
+    "en": "or the servant is set free,",
+    "st": "<b>the slave becomes emancipated,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁתַּחְרֵר",
+      "en": "was set free"
+     },
+     {
+      "he": "הָעֶבֶד,",
+      "en": "the servant"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין לְשַׁלֵּם:",
+    "en": "they must pay.",
+    "st": "and they then have their own money, they are <b>liable to pay</b> compensation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין",
+      "en": "are obligated"
+     },
+     {
+      "he": "לְשַׁלֵּם:",
+      "en": "to pay"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "Someone who does something so bad that beis din could give him the death penalty does not also pay. And a master who hurts his own eved Kenaani does not pay.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּכֶּה אָבִיו וְאִמּוֹ וְעָשָׂה בָהֶן חַבּוּרָה,",
+    "en": "Someone who hits his father or mother and makes a wound,",
+    "st": "The mishna continues: <b>One who strikes his father or his mother and causes them</b> to have <b>a bruise,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּכֶּה",
+      "en": "the one who hits"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "his father"
+     },
+     {
+      "he": "וְאִמּוֹ",
+      "en": "and his mother"
+     },
+     {
+      "he": "וְעָשָׂה",
+      "en": "and made"
+     },
+     {
+      "he": "בָהֶן",
+      "en": "on them"
+     },
+     {
+      "he": "חַבּוּרָה,",
+      "en": "a wound"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחוֹבֵל בַּחֲבֵרוֹ בְּשַׁבָּת,",
+    "en": "or hurts his friend on Shabbos,",
+    "st": "<b>or one who injures another on Shabbat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחוֹבֵל",
+      "en": "and the one who injures"
+     },
+     {
+      "he": "בַּחֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "בְּשַׁבָּת,",
+      "en": "on Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר מִכֻּלָּן,",
+    "en": "does not pay for any of them,",
+    "st": "is <b>exempt from</b> paying <b>all of</b> the five types of indemnity,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "exempt"
+     },
+     {
+      "he": "מִכֻּלָּן,",
+      "en": "from all of them"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא נִדּוֹן בְּנַפְשׁוֹ.",
+    "en": "because he is judged with his life.",
+    "st": "<b>because he is judged with</b> losing <b>his life.</b>",
+    "stMore": "The court imposes capital punishment for these acts, so there is no additional monetary punishment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "he"
+     },
+     {
+      "he": "נִדּוֹן",
+      "en": "is judged"
+     },
+     {
+      "he": "בְּנַפְשׁוֹ.",
+      "en": "with his life"
+     }
+    ]
+   },
+   {
+    "he": "וְהַחוֹבֵל בְּעֶבֶד כְּנַעֲנִי שֶׁלּוֹ,",
+    "en": "And someone who hurts his own eved Kenaani",
+    "st": "<b>And one who injures his own Canaanite slave</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחוֹבֵל",
+      "en": "and the one who injures"
+     },
+     {
+      "he": "בְּעֶבֶד",
+      "en": "a servant"
+     },
+     {
+      "he": "כְּנַעֲנִי",
+      "en": "Canaanite"
+     },
+     {
+      "he": "שֶׁלּוֹ,",
+      "en": "his own"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר מִכֻּלָּן:",
+    "en": "does not pay for any of them.",
+    "st": "is <b>exempt from</b> paying <b>all of</b> the five types of indemnity, because his slave is his property.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר",
+      "en": "exempt"
+     },
+     {
+      "he": "מִכֻּלָּן:",
+      "en": "from all of them"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "How much someone pays for embarrassing a person by hitting or insulting him. Rabbi Akiva teaches that every Jew is important, and tells a story about a man who tried to get out of paying.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַתּוֹקֵעַ לַחֲבֵרוֹ,",
+    "en": "Someone who punches his friend",
+    "st": "<b>One who strikes another</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַתּוֹקֵעַ",
+      "en": "the one who hits"
+     },
+     {
+      "he": "לַחֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לוֹ סֶלַע.",
+    "en": "gives him a sela.",
+    "st": "must <b>give him a sela.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "סֶלַע.",
+      "en": "a sela",
+      "note": "A silver coin."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר מִשּׁוּם",
+    "en": "Rabbi Yehuda says in the name of",
+    "st": "<b>Rabbi Yehuda says in the name of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "in the name of"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי הַגְּלִילִי,",
+    "en": "Rabbi Yosei HaGelili,",
+    "st": "<b>Rabbi Yosei HaGelili</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "הַגְּלִילִי,",
+      "en": "HaGelili"
+     }
+    ]
+   },
+   {
+    "he": "מָנֶה. סְטָרוֹ,",
+    "en": "a maneh. If he slapped him,",
+    "st": "that he must give him <b>one hundred dinars.</b> If he <b>slapped</b> another on the cheek,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָנֶה.",
+      "en": "a maneh"
+     },
+     {
+      "he": "סְטָרוֹ,",
+      "en": "he slapped him"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לוֹ מָאתַיִם זוּז.",
+    "en": "he gives him two hundred zuz.",
+    "st": "he must <b>give him two hundred dinars.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מָאתַיִם",
+      "en": "two hundred"
+     },
+     {
+      "he": "זוּז.",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "לְאַחַר יָדוֹ,",
+    "en": "With the back of his hand,",
+    "st": "If he slapped him on the cheek with <b>the back of his hand,</b>",
+    "stMore": "which is more degrading than a slap with the palm,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאַחַר",
+      "en": "with the back of"
+     },
+     {
+      "he": "יָדוֹ,",
+      "en": "his hand"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לוֹ אַרְבַּע מֵאוֹת זוּז.",
+    "en": "he gives him four hundred zuz.",
+    "st": "he must <b>give him four hundred dinars.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "מֵאוֹת",
+      "en": "hundred"
+     },
+     {
+      "he": "זוּז.",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "צָרַם בְּאָזְנוֹ,",
+    "en": "If he pulled his ear,",
+    "st": "If <b>he pulled his ear,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צָרַם",
+      "en": "he pulled"
+     },
+     {
+      "he": "בְּאָזְנוֹ,",
+      "en": "his ear"
+     }
+    ]
+   },
+   {
+    "he": "תָּלַשׁ בִּשְׂעָרוֹ,",
+    "en": "pulled his hair,",
+    "st": "or <b>pulled out his hair,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תָּלַשׁ",
+      "en": "he pulled"
+     },
+     {
+      "he": "בִּשְׂעָרוֹ,",
+      "en": "his hair"
+     }
+    ]
+   },
+   {
+    "he": "רָקַק וְהִגִּיעַ בּוֹ רֻקּוֹ,",
+    "en": "spat and it reached him,",
+    "st": "or <b>spat</b> at him <b>and his spittle reached him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָקַק",
+      "en": "he spat"
+     },
+     {
+      "he": "וְהִגִּיעַ",
+      "en": "and reached"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "him"
+     },
+     {
+      "he": "רֻקּוֹ,",
+      "en": "his spit"
+     }
+    ]
+   },
+   {
+    "he": "הֶעֱבִיר טַלִּיתוֹ מִמֶּנּוּ,",
+    "en": "took his cloak off him,",
+    "st": "or if <b>he removed</b> the other’s <b>cloak from him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶעֱבִיר",
+      "en": "he removed"
+     },
+     {
+      "he": "טַלִּיתוֹ",
+      "en": "his cloak"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "פָּרַע רֹאשׁ הָאִשָּׁה בַּשּׁוּק,",
+    "en": "or uncovered a woman's head in the market,",
+    "st": "or if <b>he uncovered the head of a woman in the marketplace,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּרַע",
+      "en": "he uncovered"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "בַּשּׁוּק,",
+      "en": "in the market"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן אַרְבַּע מֵאוֹת זוּז.",
+    "en": "he gives four hundred zuz.",
+    "st": "in all of these cases, he must <b>give</b> the injured party <b>four hundred dinars.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "מֵאוֹת",
+      "en": "hundred"
+     },
+     {
+      "he": "זוּז.",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל הַכֹּל לְפִי כְבוֹדוֹ.",
+    "en": "This is the rule: it all depends on his honor.",
+    "st": "<b>This is the principle</b> of assessing payment for humiliation caused to another: It is <b>all</b> evaluated <b>in accordance with the honor of</b> the one who was humiliated, as the Gemara will explain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל",
+      "en": "the rule"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "לְפִי",
+      "en": "according to"
+     },
+     {
+      "he": "כְבוֹדוֹ.",
+      "en": "his honor"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said,",
+    "st": "<b>Rabbi Akiva said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִילוּ עֲנִיִּים שֶׁבְּיִשְׂרָאֵל,",
+    "en": "even the poor people of Klal Yisrael,",
+    "st": "<b>Even</b> with regard to the <b>poor among the Jewish people,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִילוּ",
+      "en": "even"
+     },
+     {
+      "he": "עֲנִיִּים",
+      "en": "poor people"
+     },
+     {
+      "he": "שֶׁבְּיִשְׂרָאֵל,",
+      "en": "that are in Israel"
+     }
+    ]
+   },
+   {
+    "he": "רוֹאִין אוֹתָם כְּאִלּוּ הֵם",
+    "en": "we look at them as if they are",
+    "st": "<b>they are viewed as though they were</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רוֹאִין",
+      "en": "we see"
+     },
+     {
+      "he": "אוֹתָם",
+      "en": "them"
+     },
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "הֵם",
+      "en": "they"
+     }
+    ]
+   },
+   {
+    "he": "בְּנֵי חוֹרִין שֶׁיָּרְדוּ מִנִּכְסֵיהֶם,",
+    "en": "important people who lost their money,",
+    "st": "<b>freemen who lost their property</b> and were impoverished.",
+    "stMore": "And their humiliation is calculated according to this status,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּנֵי",
+      "en": "sons of"
+     },
+     {
+      "he": "חוֹרִין",
+      "en": "free men"
+     },
+     {
+      "he": "שֶׁיָּרְדוּ",
+      "en": "who went down"
+     },
+     {
+      "he": "מִנִּכְסֵיהֶם,",
+      "en": "from their property"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵם בְּנֵי אַבְרָהָם,",
+    "en": "because they are children of Avraham,",
+    "st": "<b>as they are the children of Abraham,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵם",
+      "en": "because they"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "are children of"
+     },
+     {
+      "he": "אַבְרָהָם,",
+      "en": "Avraham"
+     }
+    ]
+   },
+   {
+    "he": "יִצְחָק וְיַעֲקֹב.",
+    "en": "Yitzchak, and Yaakov.",
+    "st": "<b>Isaac, and Jacob,</b> and are all of prominent lineage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִצְחָק",
+      "en": "Yitzchak"
+     },
+     {
+      "he": "וְיַעֲקֹב.",
+      "en": "and Yaakov"
+     }
+    ]
+   },
+   {
+    "he": "וּמַעֲשֶׂה בְּאֶחָד שֶׁפָּרַע רֹאשׁ הָאִשָּׁה בַּשּׁוּק,",
+    "en": "Once, a man uncovered a woman's head in the market.",
+    "st": "The mishna relates: <b>And an incident</b> occurred <b>involving one who uncovered the head of a woman in the marketplace,</b> and the woman",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַעֲשֶׂה",
+      "en": "and a story"
+     },
+     {
+      "he": "בְּאֶחָד",
+      "en": "with one"
+     },
+     {
+      "he": "שֶׁפָּרַע",
+      "en": "that uncovered"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "the head of"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "בַּשּׁוּק,",
+      "en": "in the market"
+     }
+    ]
+   },
+   {
+    "he": "בָּאת לִפְנֵי רַבִּי עֲקִיבָא,",
+    "en": "She came before Rabbi Akiva,",
+    "st": "<b>came before Rabbi Akiva</b> to request that he render the assailant liable to pay for the humiliation that she suffered,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּאת",
+      "en": "she came"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "וְחִיְּבוֹ לִתֵּן לָהּ אַרְבַּע מֵאוֹת זוּז.",
+    "en": "and he made him give her four hundred zuz.",
+    "st": "<b>and</b> Rabbi Akiva <b>rendered</b> the assailant <b>liable to give her four hundred dinars.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחִיְּבוֹ",
+      "en": "and he obligated him"
+     },
+     {
+      "he": "לִתֵּן",
+      "en": "to give"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "מֵאוֹת",
+      "en": "hundred"
+     },
+     {
+      "he": "זוּז.",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי,",
+    "en": "He said to him, \"Rebbe,",
+    "st": "The man <b>said to</b> Rabbi Akiva: <b>My teacher,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי,",
+      "en": "Rebbe"
+     }
+    ]
+   },
+   {
+    "he": "תֶּן לִי זְמַן.",
+    "en": "give me time.\"",
+    "st": "<b>give me time</b> to pay the penalty,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֶּן",
+      "en": "give"
+     },
+     {
+      "he": "לִי",
+      "en": "me"
+     },
+     {
+      "he": "זְמַן.",
+      "en": "time"
+     }
+    ]
+   },
+   {
+    "he": "וְנָתַן לוֹ זְמַן.",
+    "en": "And he gave him time.",
+    "st": "<b>and</b> Rabbi Akiva <b>gave him time.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָתַן",
+      "en": "and he gave"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "זְמַן.",
+      "en": "time"
+     }
+    ]
+   },
+   {
+    "he": "שְׁמָרָהּ עוֹמֶדֶת עַל פֶּתַח חֲצֵרָהּ",
+    "en": "He watched for her standing at the door of her yard,",
+    "st": "The man then <b>waited for her</b> until <b>she was standing by the opening of her courtyard,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁמָרָהּ",
+      "en": "he watched her"
+     },
+     {
+      "he": "עוֹמֶדֶת",
+      "en": "standing"
+     },
+     {
+      "he": "עַל",
+      "en": "at"
+     },
+     {
+      "he": "פֶּתַח",
+      "en": "the door of"
+     },
+     {
+      "he": "חֲצֵרָהּ",
+      "en": "her yard"
+     }
+    ]
+   },
+   {
+    "he": "וְשָׁבַר אֶת הַכַּד בְּפָנֶיהָ,",
+    "en": "and broke the jug in front of her,",
+    "st": "<b>and he broke a jug in front of her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁבַר",
+      "en": "and he broke"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכַּד",
+      "en": "the jug"
+     },
+     {
+      "he": "בְּפָנֶיהָ,",
+      "en": "in front of her"
+     }
+    ]
+   },
+   {
+    "he": "וּבוֹ כְּאִסָּר שֶׁמֶן.",
+    "en": "and in it was about an issar's worth of oil.",
+    "explain": "An issar is a very small coin.",
+    "st": "<b>and</b> there was the value of <b>about an issar of oil inside</b> the jug.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבוֹ",
+      "en": "and in it"
+     },
+     {
+      "he": "כְּאִסָּר",
+      "en": "about an issar"
+     },
+     {
+      "he": "שֶׁמֶן.",
+      "en": "of oil"
+     }
+    ]
+   },
+   {
+    "he": "גִּלְּתָה אֶת רֹאשָׁהּ,",
+    "en": "She uncovered her head,",
+    "st": "The woman then <b>exposed her</b> own <b>head</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גִּלְּתָה",
+      "en": "she uncovered"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רֹאשָׁהּ,",
+      "en": "her head"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיְתָה מְטַפַּחַת וּמַנַּחַת יָדָהּ עַל רֹאשָׁהּ.",
+    "en": "and was dipping her hand and putting it on her head.",
+    "st": "<b>and she was wetting [metapaḥat]</b> her hand in the oil, <b>and placing her hand on her head</b> to make use of the oil.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיְתָה",
+      "en": "and she was"
+     },
+     {
+      "he": "מְטַפַּחַת",
+      "en": "dipping"
+     },
+     {
+      "he": "וּמַנַּחַת",
+      "en": "and putting"
+     },
+     {
+      "he": "יָדָהּ",
+      "en": "her hand"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "רֹאשָׁהּ.",
+      "en": "her head"
+     }
+    ]
+   },
+   {
+    "he": "הֶעֱמִיד עָלֶיהָ עֵדִים,",
+    "en": "He set up witnesses about her,",
+    "st": "The man <b>set up witnesses</b> to observe <b>her</b> actions,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶעֱמִיד",
+      "en": "he set up"
+     },
+     {
+      "he": "עָלֶיהָ",
+      "en": "about her"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "וּבָא לִפְנֵי רַבִּי עֲקִיבָא.",
+    "en": "and came before Rabbi Akiva.",
+    "st": "<b>and he came before Rabbi Akiva,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָא",
+      "en": "and he came"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא.",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him,",
+    "st": "and <b>he said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי, לָזוֹ אֲנִי נוֹתֵן אַרְבַּע מֵאוֹת זוּז.",
+    "en": "\"Rebbe, to this woman I should give four hundred zuz?\"",
+    "st": "<b>Will I give four hundred dinars to this</b> woman for having uncovered her head?",
+    "stMore": "By uncovering her head for a minimal benefit, she has demonstrated that this does not cause her humiliation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי,",
+      "en": "Rebbe"
+     },
+     {
+      "he": "לָזוֹ",
+      "en": "to this one"
+     },
+     {
+      "he": "אֲנִי",
+      "en": "I"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "give"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "מֵאוֹת",
+      "en": "hundred"
+     },
+     {
+      "he": "זוּז.",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him,",
+    "st": "Rabbi Akiva <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַרְתָּ כְּלוּם.",
+    "en": "\"You did not say anything.\"",
+    "st": "<b>You did not say anything,</b> i.e., this claim will not exempt you.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַרְתָּ",
+      "en": "you said"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "הַחוֹבֵל בְּעַצְמוֹ,",
+    "en": "Someone who hurts himself,",
+    "st": "<b>One who injures himself,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹבֵל",
+      "en": "the one who injures"
+     },
+     {
+      "he": "בְּעַצְמוֹ,",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵינוֹ רַשַּׁאי,",
+    "en": "even though he is not allowed,",
+    "st": "<b>although it is not permitted for him</b> to do so,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it is)"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "רַשַּׁאי,",
+      "en": "allowed"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. אֲחֵרִים שֶׁחָבְלוּ בּוֹ,",
+    "en": "does not pay. But others who hurt him",
+    "st": "is nevertheless <b>exempt</b> from any sort of penalty, but <b>others who injured him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "אֲחֵרִים",
+      "en": "others"
+     },
+     {
+      "he": "שֶׁחָבְלוּ",
+      "en": "that injured"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבִין. וְהַקּוֹצֵץ נְטִיעוֹתָיו,",
+    "en": "must pay. And someone who cuts down his young trees,",
+    "st": "are <b>liable</b> to pay him.",
+    "stMore": "In this case as well, the man was liable to compensate the woman for shaming her, despite the fact that she did the same to herself. Similarly, <b>one who cuts</b> down <b>his</b> own <b>saplings,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבִין.",
+      "en": "are obligated"
+     },
+     {
+      "he": "וְהַקּוֹצֵץ",
+      "en": "and the one who cuts down"
+     },
+     {
+      "he": "נְטִיעוֹתָיו,",
+      "en": "his saplings"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵינוֹ רַשַּׁאי,",
+    "en": "even though he is not allowed,",
+    "st": "<b>although it is not permitted for him</b> to do so, as this violates the prohibition of: “You shall not destroy” (see Deuteronomy 20:19),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it is)"
+     },
+     {
+      "he": "שֶׁאֵינוֹ",
+      "en": "that he is not"
+     },
+     {
+      "he": "רַשַּׁאי,",
+      "en": "allowed"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. אֲחֵרִים שֶׁקָּצְצוּ אֶת נְטִיעוֹתָיו, חַיָּבִים:",
+    "en": "does not pay. But others who cut down his young trees must pay.",
+    "st": "is <b>exempt</b> from any penalty, but <b>others</b> who cut down his saplings are <b>liable</b> to pay him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "אֲחֵרִים",
+      "en": "others"
+     },
+     {
+      "he": "שֶׁקָּצְצוּ",
+      "en": "that cut down"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "נְטִיעוֹתָיו,",
+      "en": "his saplings"
+     },
+     {
+      "he": "חַיָּבִים:",
+      "en": "are obligated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 7,
+  "summary": "Even after paying, the one who hurt someone must ask him for forgiveness, and the one who was hurt should forgive. If someone says \"hurt me\" or \"break my things,\" the mishnah explains when the other person still has to pay.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אַף עַל פִּי שֶׁהוּא נוֹתֵן לוֹ,",
+    "en": "Even though he pays him,",
+    "st": "<b>Despite</b> the fact <b>that</b> the assailant who caused damage <b>gives to</b> the victim all of the required payments for the injury,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(it is)"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֵין נִמְחָל לוֹ עַד שֶׁיְּבַקֵּשׁ מִמֶּנּוּ,",
+    "en": "he is not forgiven until he asks him,",
+    "st": "his transgression is <b>not forgiven for him</b> in the heavenly court <b>until he requests</b> forgiveness <b>from</b> the victim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "it is not"
+     },
+     {
+      "he": "נִמְחָל",
+      "en": "forgiven"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּבַקֵּשׁ",
+      "en": "that he asks"
+     },
+     {
+      "he": "מִמֶּנּוּ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (בראשית כ) וְעַתָּה",
+    "en": "as it says, \"And now",
+    "st": "<b>as it is stated</b> that God told Abimelech after he had taken Sarah from Abraham: <b>“</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it is said"
+     },
+     {
+      "he": "(בראשית",
+      "en": "(Bereishis"
+     },
+     {
+      "he": "כ)",
+      "en": "20)"
+     },
+     {
+      "he": "וְעַתָּה",
+      "en": "and now"
+     }
+    ]
+   },
+   {
+    "he": "הָשֵׁב אֵשֶׁת וְגוֹ'.",
+    "en": "give back the wife...\"",
+    "explain": "Hashem told Avimelech to give Sarah back to Avraham.",
+    "st": "<b>Now therefore restore the wife</b> of the man; for he is a prophet, and he shall pray for you, and you shall live” (Genesis 20:7).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָשֵׁב",
+      "en": "give back"
+     },
+     {
+      "he": "אֵשֶׁת",
+      "en": "the wife of"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "וּמִנַּיִן שֶׁלֹּא יְהֵא הַמּוֹחֵל אַכְזָרִי,",
+    "en": "And how do we know that the one who forgives should not be cruel?",
+    "st": "<b>And from where</b> is it derived <b>that if</b> the victim <b>does not forgive him that he is cruel?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִנַּיִן",
+      "en": "and from where"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "הַמּוֹחֵל",
+      "en": "the one who forgives"
+     },
+     {
+      "he": "אַכְזָרִי,",
+      "en": "cruel"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם) וַיִּתְפַּלֵּל אַבְרָהָם אֶל הָאֱלֹהִים",
+    "en": "As it says, \"And Avraham davened to Hashem,",
+    "st": "<b>As it is stated: “And Abraham prayed to God;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it is said"
+     },
+     {
+      "he": "(שם)",
+      "en": "(there)"
+     },
+     {
+      "he": "וַיִּתְפַּלֵּל",
+      "en": "and davened"
+     },
+     {
+      "he": "אַבְרָהָם",
+      "en": "Avraham"
+     },
+     {
+      "he": "אֶל",
+      "en": "to"
+     },
+     {
+      "he": "הָאֱלֹהִים",
+      "en": "Hashem"
+     }
+    ]
+   },
+   {
+    "he": "וַיִּרְפָּא אֱלֹהִים אֶת אֲבִימֶלֶךְ וְגוֹ'.",
+    "en": "and Hashem healed Avimelech...\"",
+    "st": "<b>and God healed Abimelech,</b> and his wife, and his maidservants; and they bore children” (Genesis 20:17).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַיִּרְפָּא",
+      "en": "and healed"
+     },
+     {
+      "he": "אֱלֹהִים",
+      "en": "Hashem"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֲבִימֶלֶךְ",
+      "en": "Avimelech"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר סַמֵּא אֶת עֵינִי,",
+    "en": "Someone who says, \"Blind my eye,",
+    "st": "The mishna continues: With regard to <b>one who says</b> to another: <b>Blind my eye,</b> or:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "סַמֵּא",
+      "en": "blind"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "עֵינִי,",
+      "en": "my eye"
+     }
+    ]
+   },
+   {
+    "he": "קְטַע אֶת יָדִי,",
+    "en": "cut off my hand,",
+    "st": "<b>cut off my hand,</b> or:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קְטַע",
+      "en": "cut off"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "יָדִי,",
+      "en": "my hand"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבֹר אֶת רַגְלִי,",
+    "en": "break my leg\":",
+    "st": "<b>break my leg,</b> and he does so,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבֹר",
+      "en": "break"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "רַגְלִי,",
+      "en": "my leg"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. עַל מְנָת לִפְטֹר,",
+    "en": "he must pay. Even \"so that you won't have to pay,\"",
+    "st": "the one who performed these actions is <b>liable</b> to pay for the damage, despite having been instructed to do so. Even if he explicitly instructed him: Do so <b>on the condition that</b> you will <b>be exempt</b> from payment,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "לִפְטֹר,",
+      "en": "to be exempt"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. קְרַע אֶת כְּסוּתִי,",
+    "en": "he must pay. \"Tear my clothing,",
+    "st": "he is nevertheless <b>liable.</b> With regard to one who says to another: <b>Tear my garment,</b> or:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "קְרַע",
+      "en": "tear"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כְּסוּתִי,",
+      "en": "my clothing"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבֹר אֶת כַּדִּי,",
+    "en": "break my jug\":",
+    "st": "<b>break my jug,</b> and he does so,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁבֹר",
+      "en": "break"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כַּדִּי,",
+      "en": "my jug"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. עַל מְנָת לִפְטֹר,",
+    "en": "he must pay. \"So that you won't have to pay\":",
+    "st": "he is <b>liable</b> to pay for the damage. But if he instructed him explicitly: Do so <b>on the condition that</b> you will <b>be exempt</b> from payment,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "לִפְטֹר,",
+      "en": "to be exempt"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. עֲשֵׂה כֵן לְאִישׁ פְּלוֹנִי,",
+    "en": "he does not pay. \"Do this to so-and-so,",
+    "st": "he is <b>exempt</b> from payment. If one says to another: <b>Do so,</b> i.e., cause damage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     },
+     {
+      "he": "עֲשֵׂה",
+      "en": "do"
+     },
+     {
+      "he": "כֵן",
+      "en": "so"
+     },
+     {
+      "he": "לְאִישׁ",
+      "en": "to man"
+     },
+     {
+      "he": "פְּלוֹנִי,",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "עַל מְנָת לִפְטֹר,",
+    "en": "so that you won't have to pay\":",
+    "st": "<b>to so-and-so on the condition that</b> you will <b>be exempt</b> from payment, and he did so,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "לִפְטֹר,",
+      "en": "to be exempt"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, בֵּין בְּגוּפוֹ בֵּין בְּמָמוֹנוֹ:",
+    "en": "he must pay, whether to his body or to his money.",
+    "st": "he is <b>liable, whether</b> the instructions were <b>with regard to</b> the victim <b>himself,</b> or <b>whether</b> the instructions were <b>with regard to his property.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "obligated"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בְּגוּפוֹ",
+      "en": "to his body"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "בְּמָמוֹנוֹ:",
+      "en": "to his money"
+     }
+    ]
+   }
+  ]
+ }
+]

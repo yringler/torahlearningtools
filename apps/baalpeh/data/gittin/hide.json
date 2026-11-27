@@ -1,0 +1,16 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "4:7": "Steinsaltz explains the bad reputation as adultery.",
+    "4:8": "Steinsaltz describes the ailonit as sexually underdeveloped.",
+    "6:6": "Steinsaltz explains that the man fell on purpose, taking his own life.",
+    "7:4": "Steinsaltz spells out the concern of sexual intercourse.",
+    "8:5": "Steinsaltz names adultery, a zona and consummating levirate marriage.",
+    "8:6": "Steinsaltz names forbidden sexual relations and sexually underdeveloped women.",
+    "8:7": "Steinsaltz describes the yevama as sexually underdeveloped.",
+    "8:9": "Steinsaltz spells out the concern of sexual intercourse at the inn.",
+    "9:4": "Steinsaltz mentions sexual intercourse with another man.",
+    "9:10": "Steinsaltz explains devar erva as forbidden sexual intercourse and adultery."
+  }
+}

@@ -1,0 +1,2484 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "Anyone, man or woman, who swaps a plain animal for a korban animal makes both animals holy, even though swapping is not allowed. Kohanim may swap only their own korbanos, and Rabbi Akiva and Rabbi Yochanan ben Nuri argue about a bechor a Kohen was given.",
+  "chunks": [
+   {
+    "he": "הַכֹּל מְמִירִים,",
+    "en": "Everyone can make a swap,",
+    "explain": "A swap puts a plain animal in place of a korban animal.",
+    "st": "<b>Everyone substitutes</b> a non-sacred animal for a consecrated animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "מְמִירִים,",
+      "en": "swap",
+      "note": "To swap (temurah) is to say a plain animal is in place of a korban animal; then both are holy."
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד אֲנָשִׁים וְאֶחָד נָשִׁים.",
+    "en": "both men and women.",
+    "st": "<b>both men and women.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "both"
+     },
+     {
+      "he": "אֲנָשִׁים",
+      "en": "men"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and also"
+     },
+     {
+      "he": "נָשִׁים.",
+      "en": "women"
+     }
+    ]
+   },
+   {
+    "he": "לֹא שֶׁאָדָם רַשַּׁאי לְהָמִיר,",
+    "en": "This does not mean a person is allowed to swap,",
+    "st": "That is <b>not</b> to say <b>that it is permitted for a person to effect substitution;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שֶׁאָדָם",
+      "en": "that a person"
+     },
+     {
+      "he": "רַשַּׁאי",
+      "en": "is allowed"
+     },
+     {
+      "he": "לְהָמִיר,",
+      "en": "to swap"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא, שֶׁאִם הֵמִיר,",
+    "en": "but that if he did swap,",
+    "st": "<b>rather,</b> it means <b>that if one substituted</b> a non-sacred animal for a consecrated animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא,",
+      "en": "but"
+     },
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "הֵמִיר,",
+      "en": "he swapped"
+     }
+    ]
+   },
+   {
+    "he": "מוּמָר, וְסוֹפֵג אֶת הָאַרְבָּעִים.",
+    "en": "the swap works, and he gets the punishment of forty lashes.",
+    "st": "<b>the substitution takes effect,</b> and the non-sacred animal becomes consecrated, and the consecrated animal remains sacred. <b>And</b> the one who substituted the non-sacred animal <b>incurs the forty [sofeg et ha’arba’im]</b> lashes.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוּמָר,",
+      "en": "it is swapped"
+     },
+     {
+      "he": "וְסוֹפֵג",
+      "en": "and he receives"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאַרְבָּעִים.",
+      "en": "the forty",
+      "note": "The punishment of lashes (malkus) given by a beis din."
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּהֲנִים מְמִירִים אֶת שֶׁלָּהֶם,",
+    "en": "The Kohanim can swap their own korbanos,",
+    "st": "<b>The priests substitute for their</b> own offerings",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּהֲנִים",
+      "en": "the Kohanim"
+     },
+     {
+      "he": "מְמִירִים",
+      "en": "swap"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שֶׁלָּהֶם,",
+      "en": "their own"
+     }
+    ]
+   },
+   {
+    "he": "וְיִשְׂרָאֵל מְמִירִים אֶת שֶׁלָּהֶם.",
+    "en": "and Yisraelim can swap their own.",
+    "st": "<b>and Israelites substitute for their</b> own offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיִשְׂרָאֵל",
+      "en": "and Yisraelim",
+      "note": "Jews who are not Kohanim."
+     },
+     {
+      "he": "מְמִירִים",
+      "en": "swap"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שֶׁלָּהֶם.",
+      "en": "their own"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַכֹּהֲנִים מְמִירִים לֹא בְחַטָּאת",
+    "en": "The Kohanim cannot swap a chatas,",
+    "st": "<b>The priests substitute neither for a sin offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הַכֹּהֲנִים",
+      "en": "the Kohanim"
+     },
+     {
+      "he": "מְמִירִים",
+      "en": "swap"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בְחַטָּאת",
+      "en": "for a chatas",
+      "note": "A korban brought for a sin done by mistake."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְאָשָׁם וְלֹא בִבְכוֹר.",
+    "en": "or an asham, or a bechor that they were given.",
+    "st": "<b>nor for a guilt offering, nor for a firstborn</b> offering",
+    "stMore": "that they received from an Israelite, as those animals are not their property, and one does not substitute an animal that is not his.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְאָשָׁם",
+      "en": "for an asham",
+      "note": "A korban brought for certain sins."
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בִבְכוֹר.",
+      "en": "for a bechor",
+      "note": "The firstborn male calf, lamb or kid, given to a Kohen."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹחָנָן בֶּן נוּרִי,",
+    "en": "Rabbi Yochanan ben Nuri said:",
+    "st": "<b>Rabbi Yoḥanan ben Nuri said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "נוּרִי,",
+      "en": "Nuri"
+     }
+    ]
+   },
+   {
+    "he": "וְכִי מִפְּנֵי מָה אֵין מְמִירִים בִּבְכוֹר.",
+    "en": "Why can't they swap a bechor?",
+    "st": "<b>For what</b> reason can priests <b>not substitute for a firstborn</b> offering that they received from an Israelite? Does it not belong to them?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִי",
+      "en": "and why"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because of"
+     },
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְמִירִים",
+      "en": "they swap"
+     },
+     {
+      "he": "בִּבְכוֹר.",
+      "en": "for a bechor"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said to him:",
+    "st": "<b>Rabbi Akiva said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "חַטָּאת וְאָשָׁם מַתָּנָה לַכֹּהֵן,",
+    "en": "A chatas and an asham are a gift to the Kohen,",
+    "st": "<b>A sin offering and a guilt offering</b> are <b>a gift to the priest,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "וְאָשָׁם",
+      "en": "and an asham"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a gift"
+     },
+     {
+      "he": "לַכֹּהֵן,",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבְּכוֹר מַתָּנָה לַכֹּהֵן.",
+    "en": "and a bechor is also a gift to the Kohen.",
+    "st": "<b>and the firstborn</b> offering is likewise <b>a gift to the priest.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבְּכוֹר",
+      "en": "and the bechor"
+     },
+     {
+      "he": "מַתָּנָה",
+      "en": "a gift"
+     },
+     {
+      "he": "לַכֹּהֵן.",
+      "en": "to the Kohen"
+     }
+    ]
+   },
+   {
+    "he": "מַה חַטָּאת וְאָשָׁם אֵין מְמִירִים בּוֹ,",
+    "en": "Just as a Kohen cannot swap a chatas or an asham,",
+    "st": "<b>Just as</b> in the cases of <b>a sin offering and a guilt offering,</b> priests that receive one of them from an Israelite <b>cannot substitute for it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "a chatas"
+     },
+     {
+      "he": "וְאָשָׁם",
+      "en": "and an asham"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְמִירִים",
+      "en": "they swap"
+     },
+     {
+      "he": "בּוֹ,",
+      "en": "for it"
+     }
+    ]
+   },
+   {
+    "he": "אַף הַבְּכוֹר לֹא יְמִירֶנּוּ בוֹ.",
+    "en": "so too he cannot swap a bechor.",
+    "st": "<b>so too</b> with regard to <b>a firstborn</b> offering, priests that receive it from an Israelite <b>cannot substitute for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "הַבְּכוֹר",
+      "en": "the bechor"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יְמִירֶנּוּ",
+      "en": "he may swap it"
+     },
+     {
+      "he": "בוֹ.",
+      "en": "for it"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי יוֹחָנָן בֶּן נוּרִי,",
+    "en": "Rabbi Yochanan ben Nuri said to him:",
+    "st": "<b>Rabbi Yoḥanan ben Nuri said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "נוּרִי,",
+      "en": "Nuri"
+     }
+    ]
+   },
+   {
+    "he": "מַה לִּי אֵינוֹ מֵמִיר בְּחַטָּאת וּבְאָשָׁם,",
+    "en": "What does it prove that he cannot swap a chatas and an asham,",
+    "st": "<b>What</b> is this comparison <b>for him? If</b> a priest <b>does not substitute for a sin offering and a guilt offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "לִּי",
+      "en": "to me"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מֵמִיר",
+      "en": "swap"
+     },
+     {
+      "he": "בְּחַטָּאת",
+      "en": "for a chatas"
+     },
+     {
+      "he": "וּבְאָשָׁם,",
+      "en": "and for an asham"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין זָכִין בָּהֶן בְּחַיֵּיהֶם.",
+    "en": "which the Kohanim do not own while the animals are alive?",
+    "st": "<b>which</b> priests <b>do not acquire during</b> the animals’ <b>lifetimes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that not"
+     },
+     {
+      "he": "זָכִין",
+      "en": "they own"
+     },
+     {
+      "he": "בָּהֶן",
+      "en": "them"
+     },
+     {
+      "he": "בְּחַיֵּיהֶם.",
+      "en": "in their lifetime"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמַר בִּבְכוֹר,",
+    "en": "Will you say the same about a bechor,",
+    "st": "<b>will you say</b> the same <b>with regard to a firstborn,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמַר",
+      "en": "will you say"
+     },
+     {
+      "he": "בִּבְכוֹר,",
+      "en": "about a bechor"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁזָּכִין בּוֹ בְחַיָּיו.",
+    "en": "which the Kohen does own while it is alive?",
+    "st": "<b>which</b> priests <b>do acquire during</b> the animal’s <b>lifetime?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁזָּכִין",
+      "en": "that they own"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "it"
+     },
+     {
+      "he": "בְחַיָּיו.",
+      "en": "in its lifetime"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said to him:",
+    "st": "<b>Rabbi Akiva said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא כְבָר נֶאֱמַר,",
+    "en": "Doesn't the Torah already say:",
+    "st": "<b>But isn’t it already stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "but isn't it"
+     },
+     {
+      "he": "כְבָר",
+      "en": "already"
+     },
+     {
+      "he": "נֶאֱמַר,",
+      "en": "it says"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה הוּא וּתְמוּרָתוֹ יִהְיֶה",
+    "en": "\"Then it and its swap will be",
+    "st": "<b>“Then both it and its substitute</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and will be"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "וּתְמוּרָתוֹ",
+      "en": "and its swap"
+     },
+     {
+      "he": "יִהְיֶה",
+      "en": "will be"
+     }
+    ]
+   },
+   {
+    "he": "קֹּדֶשׁ (ויקרא כז),",
+    "en": "holy.\"",
+    "st": "<b>shall be sacred”</b> (Leviticus 27:10),",
+    "stMore": "which juxtaposes the consecration of the consecrated animal with that of its non-sacred substitute?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קֹּדֶשׁ",
+      "en": "holy"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "Vayikra"
+     },
+     {
+      "he": "כז),",
+      "en": "chapter 27"
+     }
+    ]
+   },
+   {
+    "he": "הֵיכָן קְדֻשָּׁה חָלָה עָלָיו,",
+    "en": "Where does the animal become holy?",
+    "st": "<b>Where is</b> the consecrated animal <b>imbued with sanctity?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "קְדֻשָּׁה",
+      "en": "holiness"
+     },
+     {
+      "he": "חָלָה",
+      "en": "comes"
+     },
+     {
+      "he": "עָלָיו,",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "בְּבֵית הַבְּעָלִים,",
+    "en": "In the owner's house.",
+    "st": "It is <b>in the house of the owner.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "הַבְּעָלִים,",
+      "en": "the owner"
+     }
+    ]
+   },
+   {
+    "he": "אַף תְּמוּרָה בְּבֵית הַבְּעָלִים:",
+    "en": "So too, the swap works only in the owner's house.",
+    "st": "<b>So too,</b> the <b>substitute</b> animal is consecrated <b>in the house of the owner.</b>",
+    "stMore": "Therefore, the priest cannot substitute for the firstborn that he received because he is not the owner that initially consecrated it. It is written: “He shall neither exchange it, nor substitute it, good for bad, or bad for good; and if he substitutes an animal for an animal, then both it and its substitute shall be sacred” (Leviticus 27:10). The mishna enumerates the consecrated and non-sacred animals this verse applies to.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "תְּמוּרָה",
+      "en": "a swap"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the house of"
+     },
+     {
+      "he": "הַבְּעָלִים:",
+      "en": "the owner"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "You can swap any kind of animal for a korban: cattle for sheep, sheep for goats, males for females, and blemished for unblemished. The Rabbis say you may even swap one animal for many, but Rabbi Shimon says only one for one.",
+  "chunks": [
+   {
+    "he": "מְמִירִין מִן הַבָּקָר עַל הַצֹּאן",
+    "en": "We can swap cattle for sheep",
+    "st": "<b>One substitutes</b> for consecrated animals <b>from the flock</b> of sheep or goats, and the sanctity takes effect <b>upon</b> animals from <b>the herd</b> of cattle,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְמִירִין",
+      "en": "they swap"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַבָּקָר",
+      "en": "the cattle"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַצֹּאן",
+      "en": "the sheep"
+     }
+    ]
+   },
+   {
+    "he": "וּמִן הַצֹּאן עַל הַבָּקָר,",
+    "en": "and sheep for cattle,",
+    "st": "<b>and</b> one substitutes <b>from the herd</b> and the sanctity takes effect <b>upon</b> animals from <b>the flock.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַצֹּאן",
+      "en": "the sheep"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַבָּקָר,",
+      "en": "the cattle"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַכְּבָשִׂים עַל הָעִזִּים",
+    "en": "lambs for goats",
+    "st": "<b>And</b> one substitutes <b>from the sheep</b> and the sanctity takes effect <b>upon the goats,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַכְּבָשִׂים",
+      "en": "the lambs"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הָעִזִּים",
+      "en": "the goats"
+     }
+    ]
+   },
+   {
+    "he": "וּמִן הָעִזִּים עַל הַכְּבָשִׂים,",
+    "en": "and goats for lambs,",
+    "st": "<b>and from the goats upon the sheep;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הָעִזִּים",
+      "en": "the goats"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַכְּבָשִׂים,",
+      "en": "the lambs"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַזְּכָרִים עַל הַנְּקֵבוֹת",
+    "en": "males for females",
+    "st": "and <b>from the males upon the females,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַזְּכָרִים",
+      "en": "the males"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַנְּקֵבוֹת",
+      "en": "the females"
+     }
+    ]
+   },
+   {
+    "he": "וּמִן הַנְּקֵבוֹת עַל הַזְּכָרִים,",
+    "en": "and females for males,",
+    "st": "<b>and from the females upon the males;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַנְּקֵבוֹת",
+      "en": "the females"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַזְּכָרִים,",
+      "en": "the males"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַתְּמִימִים עַל בַּעֲלֵי מוּמִין",
+    "en": "unblemished animals for blemished ones",
+    "st": "and <b>from the unblemished</b> animals <b>upon the blemished</b> animals,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתְּמִימִים",
+      "en": "the unblemished",
+      "note": "Animals with no mum (flaw)."
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "בַּעֲלֵי",
+      "en": "those with"
+     },
+     {
+      "he": "מוּמִין",
+      "en": "blemishes",
+      "note": "A mum is a flaw that makes an animal unfit for the mizbe'ach."
+     }
+    ]
+   },
+   {
+    "he": "וּמִבַּעֲלֵי מוּמִין עַל הַתְּמִימִים,",
+    "en": "and blemished ones for unblemished,",
+    "st": "and <b>from the blemished</b> animals <b>upon the unblemished</b> animals.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִבַּעֲלֵי",
+      "en": "and from those with"
+     },
+     {
+      "he": "מוּמִין",
+      "en": "blemishes"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַתְּמִימִים,",
+      "en": "the unblemished"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם),",
+    "en": "as it says:",
+    "st": "The source for this is <b>as it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שם),",
+      "en": "same verse"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יַחֲלִיפֶנּוּ וְלֹא יָמִיר אֹתוֹ",
+    "en": "\"He shall not exchange it or swap it,",
+    "st": "<b>“He shall neither exchange it, nor substitute it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַחֲלִיפֶנּוּ",
+      "en": "he shall exchange it"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יָמִיר",
+      "en": "he shall swap"
+     },
+     {
+      "he": "אֹתוֹ",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "טוֹב בְּרָע אוֹ רַע בְּטוֹב.",
+    "en": "good for bad or bad for good.\"",
+    "st": "<b>good for bad, or bad for good”</b> (Leviticus 27:10).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טוֹב",
+      "en": "good"
+     },
+     {
+      "he": "בְּרָע",
+      "en": "for bad"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "רַע",
+      "en": "bad"
+     },
+     {
+      "he": "בְּטוֹב.",
+      "en": "for good"
+     }
+    ]
+   },
+   {
+    "he": "אֵיזֶהוּ טוֹב בְּרָע,",
+    "en": "What is \"good for bad\"?",
+    "st": "<b>And which is</b> the case of <b>good for bad</b> where the substitution takes effect? It is a case where one substitutes for",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵיזֶהוּ",
+      "en": "which is"
+     },
+     {
+      "he": "טוֹב",
+      "en": "good"
+     },
+     {
+      "he": "בְּרָע,",
+      "en": "for bad"
+     }
+    ]
+   },
+   {
+    "he": "בַּעֲלֵי מוּמִין שֶׁקָּדַם הֶקְדֵּשָׁן אֶת מוּמָם.",
+    "en": "Blemished korban animals that were made holy before they got their blemish.",
+    "st": "<b>blemished</b> animals <b>whose consecration preceded their blemish.</b>",
+    "stMore": "But if an animal was consecrated after it was blemished, substitution for it does not take effect.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעֲלֵי",
+      "en": "those with"
+     },
+     {
+      "he": "מוּמִין",
+      "en": "blemishes"
+     },
+     {
+      "he": "שֶׁקָּדַם",
+      "en": "that came first"
+     },
+     {
+      "he": "הֶקְדֵּשָׁן",
+      "en": "their being made holy"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "מוּמָם.",
+      "en": "their blemish"
+     }
+    ]
+   },
+   {
+    "he": "מְמִירִים אֶחָד בִּשְׁנַיִם וּשְׁנַיִם בְּאֶחָד,",
+    "en": "We can swap one animal for two, and two for one,",
+    "st": "<b>One substitutes one</b> non-sacred animal <b>for two</b> consecrated animals <b>and two</b> non-sacred animals <b>for one</b> consecrated animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְמִירִים",
+      "en": "they swap"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בִּשְׁנַיִם",
+      "en": "for two"
+     },
+     {
+      "he": "וּשְׁנַיִם",
+      "en": "and two"
+     },
+     {
+      "he": "בְּאֶחָד,",
+      "en": "for one"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד בְּמֵאָה וּמֵאָה בְּאֶחָד.",
+    "en": "one for a hundred, and a hundred for one.",
+    "st": "and one substitutes <b>one</b> non-sacred animal <b>for one hundred</b> consecrated animals <b>and one hundred</b> non-sacred animals <b>for one</b> consecrated animal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בְּמֵאָה",
+      "en": "for a hundred"
+     },
+     {
+      "he": "וּמֵאָה",
+      "en": "and a hundred"
+     },
+     {
+      "he": "בְּאֶחָד.",
+      "en": "for one"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי שִׁמְעוֹן אוֹמֵר,",
+    "en": "Rabbi Shimon says:",
+    "st": "<b>Rabbi Shimon says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְמִירִים אֶלָּא אֶחָד בְּאֶחָד,",
+    "en": "We can swap only one for one,",
+    "st": "<b>One substitutes only one</b> non-sacred animal <b>for one</b> consecrated animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְמִירִים",
+      "en": "they swap"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בְּאֶחָד,",
+      "en": "for one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא כז),",
+    "en": "as it says:",
+    "st": "<b>as it is stated:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "Vayikra"
+     },
+     {
+      "he": "כז),",
+      "en": "chapter 27"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה הוּא וּתְמוּרָתוֹ,",
+    "en": "\"Then it and its swap...\"",
+    "st": "<b>“Then both it and its substitute shall be sacred”</b> (Leviticus 27:10).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and will be"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "וּתְמוּרָתוֹ,",
+      "en": "and its swap"
+     }
+    ]
+   },
+   {
+    "he": "מַה הוּא מְיֻחָד,",
+    "en": "Just as \"it\" is one animal,",
+    "st": "<b>Just as “it”</b> indicates one <b>specific</b> animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "מְיֻחָד,",
+      "en": "is single"
+     }
+    ]
+   },
+   {
+    "he": "אַף תְּמוּרָתוֹ מְיֻחָדֶת:",
+    "en": "so too its swap is one animal.",
+    "st": "<b>so too,</b> its substitute can be only one <b>specific</b> animal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "תְּמוּרָתוֹ",
+      "en": "its swap"
+     },
+     {
+      "he": "מְיֻחָדֶת:",
+      "en": "is single"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "You cannot swap a body part of an animal for an unborn calf, or swap parts for a whole animal. Rabbi Yosei says that if you swap a leg of an animal for a korban, the whole animal becomes the swap.",
+  "chunks": [
+   {
+    "he": "אֵין מְמִירִין אֵבָרִים בְּעֻבָּרִים",
+    "en": "We cannot swap body parts for unborn babies,",
+    "st": "<b>One does not substitute</b> non-sacred <b>limbs for</b> consecrated <b>fetuses,</b> i.e., if one says that a certain limb of a non-sacred animal is substituted for a fetus in the womb of a consecrated animal, it is not consecrated.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְמִירִין",
+      "en": "they swap"
+     },
+     {
+      "he": "אֵבָרִים",
+      "en": "limbs"
+     },
+     {
+      "he": "בְּעֻבָּרִים",
+      "en": "for unborn babies",
+      "note": "A baby animal still inside its mother."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא עֻבָּרִים בְּאֵבָרִים,",
+    "en": "or unborn babies for body parts,",
+    "st": "<b>And</b> likewise, one does <b>not</b> substitute non-sacred <b>fetuses for</b> consecrated <b>limbs.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "עֻבָּרִים",
+      "en": "unborn babies"
+     },
+     {
+      "he": "בְּאֵבָרִים,",
+      "en": "for limbs"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אֵבָרִים וְעֻבָּרִים בִּשְׁלֵמִים",
+    "en": "or body parts or unborn babies for whole animals,",
+    "st": "<b>And</b> one substitutes <b>neither</b> non-sacred <b>limbs nor fetuses for whole</b> consecrated animals",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אֵבָרִים",
+      "en": "limbs"
+     },
+     {
+      "he": "וְעֻבָּרִים",
+      "en": "and unborn babies"
+     },
+     {
+      "he": "בִּשְׁלֵמִים",
+      "en": "for whole animals"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא שְׁלֵמִים בָּהֶן.",
+    "en": "or whole animals for them.",
+    "st": "<b>nor</b> non-sacred <b>whole</b> animals <b>for</b> consecrated limbs or fetuses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "שְׁלֵמִים",
+      "en": "whole animals"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "for them"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says:",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְמִירִים אֵבָרִין בִּשְׁלֵמִים וְלֹא שְׁלֵמִים בְּאֵבָרִין.",
+    "en": "We can swap body parts for whole animals, but not whole animals for body parts.",
+    "st": "<b>One substitutes</b> non-sacred <b>limbs for whole</b> consecrated animals, <b>but not whole</b> animals <b>for</b> consecrated limbs.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְמִירִים",
+      "en": "they swap"
+     },
+     {
+      "he": "אֵבָרִין",
+      "en": "limbs"
+     },
+     {
+      "he": "בִּשְׁלֵמִים",
+      "en": "for whole animals"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "שְׁלֵמִים",
+      "en": "whole animals"
+     },
+     {
+      "he": "בְּאֵבָרִין.",
+      "en": "for limbs"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said:",
+    "st": "<b>Rabbi Yosei said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא בְמֻקְדָּשִׁין,",
+    "en": "Isn't it true about korbanos",
+    "st": "<b>But isn’t</b> it so <b>with regard to sacrificial</b> animals, that if",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "and isn't it"
+     },
+     {
+      "he": "בְמֻקְדָּשִׁין,",
+      "en": "with korbanos"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר רַגְלָהּ שֶׁל זוֹ עוֹלָה,",
+    "en": "that if someone says, \"The leg of this animal is an olah,\"",
+    "st": "<b>one says: The</b> hind <b>leg of this</b> animal is <b>a burnt offering,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "רַגְלָהּ",
+      "en": "its leg"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "עוֹלָה,",
+      "en": "is an olah",
+      "note": "A korban burned completely on the mizbe'ach."
+     }
+    ]
+   },
+   {
+    "he": "כֻּלָּהּ עוֹלָה,",
+    "en": "the whole animal is an olah?",
+    "st": "<b>the entire</b> animal is <b>a burnt offering?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֻּלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "עוֹלָה,",
+      "en": "is an olah"
+     }
+    ]
+   },
+   {
+    "he": "אַף כְּשֶׁיֹּאמַר רַגְלָהּ שֶׁל",
+    "en": "So too, if he says, \"The leg of",
+    "st": "<b>So too, when he says: The</b> non-sacred hind <b>leg of this</b> animal is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "so too"
+     },
+     {
+      "he": "כְּשֶׁיֹּאמַר",
+      "en": "when he says"
+     },
+     {
+      "he": "רַגְלָהּ",
+      "en": "its leg"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     }
+    ]
+   },
+   {
+    "he": "זוֹ תַּחַת זוֹ,",
+    "en": "this animal is in place of that one,\"",
+    "st": "<b>in exchange for that</b> animal,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "תַּחַת",
+      "en": "in place of"
+     },
+     {
+      "he": "זוֹ,",
+      "en": "that one"
+     }
+    ]
+   },
+   {
+    "he": "תְּהֵא כֻלָּהּ תְּמוּרָה תַּחְתֶּיהָ:",
+    "en": "the whole animal is a swap in its place.",
+    "st": "<b>the entire</b> animal is <b>a substitute in exchange for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "כֻלָּהּ",
+      "en": "all of it"
+     },
+     {
+      "he": "תְּמוּרָה",
+      "en": "a swap"
+     },
+     {
+      "he": "תַּחְתֶּיהָ:",
+      "en": "in its place"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "Some things spread their status only as much as they really are inside a mixture: terumah mixed into other food, sour dough made with terumah, and drawn water poured into a mikveh.",
+  "stIntro": "If teruma, the portion of the produce designated for the priest, was intermingled with non-sacred produce, and it is impossible to distinguish between them, if the ratio of non-sacred produce to teruma was less than one hundred to one, the teruma is not nullified and all the produce is forbidden to those for whom teruma is forbidden.",
+  "chunks": [
+   {
+    "he": "אֵין הַמְדֻמָּע מְדַּמֵּעַ אֶלָּא לְפִי חֶשְׁבּוֹן.",
+    "en": "A mixture with terumah in it makes more food into a terumah mixture only by counting how much terumah is really there.",
+    "explain": "Terumah is food for Kohanim only.",
+    "st": "If the mixture was then intermingled with other non-sacred produce, that <b>mixture renders</b> it <b>a mixture</b> of teruma <b>only according to</b> the <b>calculation</b> of the percentage of the original teruma produce in the entire mixture.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הַמְדֻמָּע",
+      "en": "the mixture",
+      "note": "Food with terumah mixed in."
+     },
+     {
+      "he": "מְדַּמֵּעַ",
+      "en": "makes it a mixture"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "לְפִי",
+      "en": "according to"
+     },
+     {
+      "he": "חֶשְׁבּוֹן.",
+      "en": "the count"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַמְחֻמָּץ מְחַמֵּץ אֶלָּא לְפִי חֶשְׁבּוֹן.",
+    "en": "Dough made sour with terumah makes other dough sour only by counting.",
+    "st": "<b>And</b> dough <b>that was leavened</b> with a teruma leavening agent is forbidden to those for whom teruma is forbidden even if the ratio between the non-sacred and the teruma is greater than one hundred to one. If a portion of that dough was intermingled with non-sacred dough, it <b>leavens only according to</b> the <b>calculation</b> of the percentage of the original leavening agent in the entire dough, and the second dough is forbidden only if the quantity of the original teruma leavening agent inside it is sufficient to leaven it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הַמְחֻמָּץ",
+      "en": "the soured dough"
+     },
+     {
+      "he": "מְחַמֵּץ",
+      "en": "makes sour"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "לְפִי",
+      "en": "according to"
+     },
+     {
+      "he": "חֶשְׁבּוֹן.",
+      "en": "the count"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַמַּיִם הַשְּׁאוּבִים פּוֹסְלִין אֶת",
+    "en": "Drawn water does not make a mikveh unfit",
+    "st": "<b>And</b> if three log of drawn water were poured into a ritual bath with less than forty se’a to complete the requisite forty se’a, the ritual bath is invalidated. But <b>drawn water invalidates</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "הַמַּיִם",
+      "en": "the water"
+     },
+     {
+      "he": "הַשְּׁאוּבִים",
+      "en": "the drawn",
+      "note": "Water carried in a container, not flowing by itself."
+     },
+     {
+      "he": "פּוֹסְלִין",
+      "en": "make unfit"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     }
+    ]
+   },
+   {
+    "he": "הַמִּקְוֶה אֶלָּא לְפִי חֶשְׁבּוֹן:",
+    "en": "except by counting.",
+    "st": "<b>the ritual bath only according to calculation,</b> as explained in the Gemara.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמִּקְוֶה",
+      "en": "the mikveh"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "לְפִי",
+      "en": "according to"
+     },
+     {
+      "he": "חֶשְׁבּוֹן:",
+      "en": "the count:"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "Water for the red heifer becomes special only when the ashes are put into the water. Also, a swapped animal cannot make another swap, and the Rabbis say a baby of a korban cannot make a swap either.",
+  "chunks": [
+   {
+    "he": "אֵין מֵי חַטָּאת נַעֲשִׂין מֵי",
+    "en": "Water does not become water for purifying",
+    "st": "<b>And the water of purification</b> of the red heifer",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מֵי",
+      "en": "water of"
+     },
+     {
+      "he": "חַטָּאת",
+      "en": "purifying",
+      "note": "Water with ashes of the parah adumah (red heifer), used to make people tahor."
+     },
+     {
+      "he": "נַעֲשִׂין",
+      "en": "become"
+     },
+     {
+      "he": "מֵי",
+      "en": "water of"
+     }
+    ]
+   },
+   {
+    "he": "חַטָּאת אֶלָּא עִם מַתַּן אֵפֶר.",
+    "en": "unless the ashes are put into it.",
+    "st": "<b>becomes water of purification only with</b> the <b>placement of</b> the <b>ashes</b> into the water, but not by placement of water onto the ashes.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַטָּאת",
+      "en": "purifying"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "מַתַּן",
+      "en": "putting in"
+     },
+     {
+      "he": "אֵפֶר.",
+      "en": "the ashes"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בֵּית הַפְּרָס עוֹשֶׂה בֵית הַפְּרָס,",
+    "en": "A beis haperas does not make another beis haperas,",
+    "st": "<b>And</b> one <b>beit haperas does not create</b> another <b>beit haperas.</b>",
+    "stMore": "The Sages decreed ritual impurity on a field in which a grave was plowed, scattering the bones throughout the field. This field is called a beit haperas. That impurity extends to the area of one hundred cubits surrounding the grave. Nevertheless, they did not decree impurity on the second field if one plowed from that field into another field.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "בֵּית",
+      "en": "a beis"
+     },
+     {
+      "he": "הַפְּרָס",
+      "en": "haperas",
+      "note": "A field where a grave was plowed up, so bones may be spread around."
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "makes"
+     },
+     {
+      "he": "בֵית",
+      "en": "a beis"
+     },
+     {
+      "he": "הַפְּרָס,",
+      "en": "haperas"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא תְרוּמָה אַחַר תְּרוּמָה,",
+    "en": "and there is no terumah after terumah,",
+    "st": "<b>And there is no teruma after teruma.</b>",
+    "stMore": "Once one designates produce from his crop as teruma, if he then designates additional produce from that crop as teruma, it is not teruma.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תְרוּמָה",
+      "en": "terumah"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "תְּרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא תְמוּרָה עוֹשָׂה תְמוּרָה,",
+    "en": "and a swap does not make another swap,",
+    "st": "<b>And a substitute</b> animal that was consecrated when it was substituted for a consecrated animal <b>does not render</b> a non-sacred animal exchanged for it <b>a substitute;</b> rather, it remains non-sacred.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תְמוּרָה",
+      "en": "a swap"
+     },
+     {
+      "he": "עוֹשָׂה",
+      "en": "makes"
+     },
+     {
+      "he": "תְמוּרָה,",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הַוָּלָד עוֹשֶׂה תְמוּרָה.",
+    "en": "and the baby of a korban does not make a swap.",
+    "st": "<b>And the offspring</b> born of a consecrated animal that was not consecrated itself <b>does not render</b> a non-sacred animal exchanged for it <b>a substitute.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַוָּלָד",
+      "en": "the baby"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "makes"
+     },
+     {
+      "he": "תְמוּרָה.",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says:",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַוָּלָד עוֹשֶׂה תְמוּרָה.",
+    "en": "The baby does make a swap.",
+    "st": "<b>The offspring renders</b> a non-sacred animal exchanged for it <b>a substitute.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַוָּלָד",
+      "en": "the baby"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "makes"
+     },
+     {
+      "he": "תְמוּרָה.",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him:",
+    "st": "The Sages <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הֶקְדֵּשׁ עוֹשֶׂה תְמוּרָה,",
+    "en": "A korban itself makes a swap,",
+    "st": "<b>A consecrated</b> animal <b>renders</b> a non-sacred animal exchanged for it <b>a substitute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶקְדֵּשׁ",
+      "en": "a holy animal"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "makes"
+     },
+     {
+      "he": "תְמוּרָה,",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הַוָּלָד וְלֹא תְמוּרָה עוֹשִׂין תְּמוּרָה:",
+    "en": "but not its baby and not a swap.",
+    "st": "<b>but the offspring does not render</b> a non-sacred animal exchanged for it <b>a substitute.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הַוָּלָד",
+      "en": "the baby"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תְמוּרָה",
+      "en": "a swap"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "make"
+     },
+     {
+      "he": "תְּמוּרָה:",
+      "en": "a swap:"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "Birds and flour offerings cannot make a swap, and neither can korbanos of the whole community, of partners, or things given for fixing the Beis HaMikdash. Rabbi Shimon learns this from the animal maaser.",
+  "chunks": [
+   {
+    "he": "הָעוֹפוֹת וְהַמְּנָחוֹת אֵינָן עוֹשִׂין תְּמוּרָה,",
+    "en": "Bird and flour korbanos cannot make a swap,",
+    "st": "<b>The birds</b> sacrificed as offerings, i.e., doves and pigeons, <b>and the meal offerings do not render</b> non-sacred items exchanged for them <b>substitutes,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעוֹפוֹת",
+      "en": "the birds"
+     },
+     {
+      "he": "וְהַמְּנָחוֹת",
+      "en": "and the flour offerings",
+      "note": "A mincha is a korban made of flour."
+     },
+     {
+      "he": "אֵינָן",
+      "en": "not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "make"
+     },
+     {
+      "he": "תְּמוּרָה,",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא נֶאֱמַר אֶלָּא (ויקרא כז) בִּבְהֵמָה.",
+    "en": "because the Torah speaks only about an animal.",
+    "st": "<b>as only</b> the term <b>“an animal” is stated</b> with regard to substitution, in the verse: “And if he substitutes an animal for an animal” (Leviticus 27:10).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "because not"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it says"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "only"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "Vayikra"
+     },
+     {
+      "he": "כז)",
+      "en": "chapter 27"
+     },
+     {
+      "he": "בִּבְהֵמָה.",
+      "en": "about an animal"
+     }
+    ]
+   },
+   {
+    "he": "הַצִּבּוּר וְהַשֻּׁתָּפִים אֵינָן עוֹשִׂים תְּמוּרָה,",
+    "en": "The community and partners cannot make a swap,",
+    "st": "A consecrated animal belonging to <b>the community or</b> to <b>partners does not render</b> a non-sacred animal exchanged for it <b>a substitute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַצִּבּוּר",
+      "en": "the community"
+     },
+     {
+      "he": "וְהַשֻּׁתָּפִים",
+      "en": "and the partners",
+      "note": "People who own something together."
+     },
+     {
+      "he": "אֵינָן",
+      "en": "not"
+     },
+     {
+      "he": "עוֹשִׂים",
+      "en": "make"
+     },
+     {
+      "he": "תְּמוּרָה,",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם),",
+    "en": "as it says:",
+    "st": "<b>as it is stated</b> in the same verse:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שם),",
+      "en": "same verse"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יָמִיר אֹתוֹ,",
+    "en": "\"He shall not swap it\":",
+    "st": "<b>“He shall neither exchange it nor substitute</b> it.”",
+    "stMore": "One derives from the singular pronoun in the verse that",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָמִיר",
+      "en": "he shall swap"
+     },
+     {
+      "he": "אֹתוֹ,",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "יָחִיד עוֹשֶׂה תְמוּרָה,",
+    "en": "one person makes a swap,",
+    "st": "<b>an individual renders</b> a non-sacred animal <b>a substitute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָחִיד",
+      "en": "one person"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "makes"
+     },
+     {
+      "he": "תְמוּרָה,",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הַצִּבּוּר וְלֹא הַשֻּׁתָּפִים עוֹשִׂים תְּמוּרָה.",
+    "en": "but not the community and not partners.",
+    "st": "<b>but the community and partners do not render</b> a non-sacred animal <b>a substitute.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הַצִּבּוּר",
+      "en": "the community"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הַשֻּׁתָּפִים",
+      "en": "the partners"
+     },
+     {
+      "he": "עוֹשִׂים",
+      "en": "make"
+     },
+     {
+      "he": "תְּמוּרָה.",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "קָרְבְּנוֹת בֶּדֶק הַבַּיִת אֵינָן עוֹשִׂין תְּמוּרָה.",
+    "en": "Things given for fixing the Beis HaMikdash cannot make a swap.",
+    "st": "Items <b>consecrated for Temple maintenance do not render</b> non-sacred items exchanged for them <b>substitutes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָרְבְּנוֹת",
+      "en": "offerings for"
+     },
+     {
+      "he": "בֶּדֶק",
+      "en": "repair of"
+     },
+     {
+      "he": "הַבַּיִת",
+      "en": "the House",
+      "note": "The Beis HaMikdash."
+     },
+     {
+      "he": "אֵינָן",
+      "en": "not"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "make"
+     },
+     {
+      "he": "תְּמוּרָה.",
+      "en": "a swap"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי שִׁמְעוֹן,",
+    "en": "Rabbi Shimon said:",
+    "st": "<b>Rabbi Shimon said:</b>",
+    "stMore": "The fact that animals belonging to the community or partners do not render animals exchanged for them substitutes is derived as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "שִׁמְעוֹן,",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא הַמַּעֲשֵׂר בַּכְּלָל הָיָה,",
+    "en": "Wasn't maaser already included with all korbanos?",
+    "st": "The <b>animal tithe was</b> included <b>in</b> the <b>category</b> of all offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "and isn't it"
+     },
+     {
+      "he": "הַמַּעֲשֵׂר",
+      "en": "the maaser",
+      "note": "Every tenth animal born, given as a korban."
+     },
+     {
+      "he": "בַּכְּלָל",
+      "en": "in the group"
+     },
+     {
+      "he": "הָיָה,",
+      "en": "was"
+     }
+    ]
+   },
+   {
+    "he": "וְלָמָּה יָצָא,",
+    "en": "Then why was it named by itself?",
+    "st": "<b>and why was it</b> singled <b>out</b>",
+    "stMore": "in the verse: “And all the tithe of the herd or the flock, whatever passes under the rod, the tenth shall be sacred unto the Lord. He shall not inquire whether it is good or bad, neither shall he substitute for it; and if he substitutes it, then both it and that for which it is substituted shall be sacred” (Leviticus 27:32–33)? Rabbi Shimon explains: It was singled out to juxtapose substitution to the animal tithe,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלָמָּה",
+      "en": "and why"
+     },
+     {
+      "he": "יָצָא,",
+      "en": "did it come out"
+     }
+    ]
+   },
+   {
+    "he": "לְהָקִישׁ אֵלָיו,",
+    "en": "To teach from it:",
+    "st": "<b>to tell you:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְהָקִישׁ",
+      "en": "to compare"
+     },
+     {
+      "he": "אֵלָיו,",
+      "en": "to it"
+     }
+    ]
+   },
+   {
+    "he": "מַה מַּעֲשֵׂר קָרְבַּן יָחִיד,",
+    "en": "Just as maaser is a korban of one person,",
+    "st": "<b>Just as</b> the animal <b>tithe</b> is brought exclusively as <b>an individual offering,</b> so too, all offerings that render their substitutes sacred are individual offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "מַּעֲשֵׂר",
+      "en": "maaser"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "a korban of"
+     },
+     {
+      "he": "יָחִיד,",
+      "en": "one person"
+     }
+    ]
+   },
+   {
+    "he": "יָצְאוּ קָרְבְּנוֹת צִבּוּר.",
+    "en": "korbanos of the community are left out.",
+    "st": "<b>excluding communal offerings</b> and the offerings of partners from the halakha of substitution.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצְאוּ",
+      "en": "are left out"
+     },
+     {
+      "he": "קָרְבְּנוֹת",
+      "en": "korbanos of"
+     },
+     {
+      "he": "צִבּוּר.",
+      "en": "the community"
+     }
+    ]
+   },
+   {
+    "he": "מַה מַּעֲשֵׂר קָרְבַּן מִזְבֵּחַ,",
+    "en": "Just as maaser is a korban for the mizbe'ach,",
+    "st": "<b>And just as</b> the animal <b>tithe</b> is <b>an offering</b> sacrificed on the <b>altar,</b> so too, all offerings that render their substitutes sacred are offerings sacrificed on the altar,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "just as"
+     },
+     {
+      "he": "מַּעֲשֵׂר",
+      "en": "maaser"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "a korban of"
+     },
+     {
+      "he": "מִזְבֵּחַ,",
+      "en": "the mizbe'ach"
+     }
+    ]
+   },
+   {
+    "he": "יָצְאוּ קָרְבְּנוֹת בֶּדֶק הַבָּיִת:",
+    "en": "things for fixing the Beis HaMikdash are left out.",
+    "st": "<b>excluding</b> items <b>consecrated for Temple maintenance</b> from the halakha of substitution.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצְאוּ",
+      "en": "are left out"
+     },
+     {
+      "he": "קָרְבְּנוֹת",
+      "en": "offerings for"
+     },
+     {
+      "he": "בֶּדֶק",
+      "en": "repair of"
+     },
+     {
+      "he": "הַבָּיִת:",
+      "en": "the House:"
+     }
+    ]
+   }
+  ]
+ }
+]

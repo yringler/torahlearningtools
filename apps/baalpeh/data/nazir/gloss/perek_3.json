@@ -1,0 +1,2060 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "A plain nazir shaves on day thirty-one, but if he shaved on day thirty it still counts. If he said \"thirty days,\" shaving on day thirty does not count.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁאָמַר הֲרֵינִי נָזִיר,",
+    "en": "Someone who said, \"I am a nazir,\"",
+    "st": "<b>One who said: I am hereby a nazirite,</b>",
+    "stMore": "without specifying how long his term of naziriteship would last,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "said"
+     },
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I am"
+     },
+     {
+      "he": "נָזִיר,",
+      "en": "a nazir"
+     }
+    ]
+   },
+   {
+    "he": "מְגַלֵּחַ יוֹם שְׁלשִׁים וְאֶחָד.",
+    "en": "shaves on day thirty-one.",
+    "st": "<b>shaves</b> his hair on the <b>thirty-first day</b>",
+    "stMore": "after the start of his naziriteship, as an unspecified term of naziriteship lasts thirty days.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגַלֵּחַ",
+      "en": "shaves"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם גִּלַּח לְיוֹם שְׁלשִׁים, יָצָא.",
+    "en": "And if he shaved on day thirty, it counts.",
+    "st": "<b>And if he shaved on the thirtieth day, he has fulfilled</b> his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "גִּלַּח",
+      "en": "he shaved"
+     },
+     {
+      "he": "לְיוֹם",
+      "en": "on day"
+     },
+     {
+      "he": "שְׁלשִׁים,",
+      "en": "thirty"
+     },
+     {
+      "he": "יָצָא.",
+      "en": "it counts"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵינִי נָזִיר שְׁלשִׁים יוֹם,",
+    "en": "If he said, \"I am a nazir for thirty days,\"",
+    "st": "If he explicitly said: <b>I am hereby a nazirite</b> for <b>thirty days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I am"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "אִם גִּלַּח לְיוֹם שְׁלשִׁים לֹא יָצָא:",
+    "en": "if he shaved on day thirty, it does not count.",
+    "explain": "He said \"thirty days,\" so he must keep thirty full days.",
+    "st": "then, <b>if he shaved on the thirtieth day, he has not fulfilled</b> his obligation.",
+    "stMore": "Since the naziriteship would have been for thirty days even without him stating: For thirty days, this addition is understood to indicate that he will observe naziriteship for a full thirty days.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "גִּלַּח",
+      "en": "he shaved"
+     },
+     {
+      "he": "לְיוֹם",
+      "en": "on day"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָצָא:",
+      "en": "it counts"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "Someone who promised two times of nezirus shaves on day 31 and on day 61. The mishnah teaches what happens if he shaved a day early, as Rabbi Papias taught.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁנָּזַר שְׁתֵּי נְזִירִיּוֹת,",
+    "en": "Someone who promised two times of nezirus",
+    "st": "<b>One who accepted two</b> terms of <b>naziriteship </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁנָּזַר",
+      "en": "vowed"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "נְזִירִיּוֹת,",
+      "en": "nezirus times"
+     }
+    ]
+   },
+   {
+    "he": "מְגַלֵּחַ אֶת הָרִאשׁוֹנָה יוֹם שְׁלשִׁים וְאֶחָד,",
+    "en": "shaves for the first on day thirty-one,",
+    "st": "<b>shaves</b> at the close of <b>the first</b> naziriteship on the <b>thirty-first day, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגַלֵּחַ",
+      "en": "shaves"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת הַשְּׁנִיָּה יוֹם שִׁשִּׁים וְאֶחָד.",
+    "en": "and for the second on day sixty-one.",
+    "st": "<b>and</b> at the close of <b>the second</b> term on the <b>sixty-first day.</b>",
+    "stMore": "Since his second term of naziriteship begins after shaving on the thirty-first day, the sixty-first day of the first term is the thirty-first day of his second term.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַשְּׁנִיָּה",
+      "en": "the second"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "וְאֶחָד.",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם גִּלַּח אֶת הָרִאשׁוֹנָה יוֹם שְׁלשִׁים,",
+    "en": "And if he shaved for the first on day thirty,",
+    "st": "<b>And if he shaved</b> for <b>the first</b> term on the <b>thirtieth day, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "גִּלַּח",
+      "en": "he shaved"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁלשִׁים,",
+      "en": "thirty"
+     }
+    ]
+   },
+   {
+    "he": "מְגַלֵּחַ אֶת הַשְּׁנִיָּה יוֹם שִׁשִּׁים.",
+    "en": "he shaves for the second on day sixty.",
+    "st": "<b>he shaves</b> for <b>the second</b> term on the <b>sixtieth day,</b>",
+    "stMore": "which is the thirty-first day after the start of his second term of naziriteship.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגַלֵּחַ",
+      "en": "he shaves"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשְּׁנִיָּה",
+      "en": "the second"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שִׁשִּׁים.",
+      "en": "sixty"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם גִּלַּח יוֹם שִׁשִּׁים חָסֵר אֶחָד, יָצָא.",
+    "en": "And if he shaved on day sixty less one, it counts.",
+    "st": "<b>And if he shaved</b> for the second term on <b>day sixty less one, he has fulfilled</b> his obligation,",
+    "stMore": "as this is the thirtieth day of his second term.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "גִּלַּח",
+      "en": "he shaved"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "less"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     },
+     {
+      "he": "יָצָא.",
+      "en": "it counts"
+     }
+    ]
+   },
+   {
+    "he": "וְזוֹ עֵדוּת הֵעִיד רַבִּי פַּפְּיַס",
+    "en": "Rabbi Papias gave this testimony",
+    "st": "<b>And this testimony was attested to</b> by <b>Rabbi Pappeyas,</b> who heard from his teachers",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזוֹ",
+      "en": "and this"
+     },
+     {
+      "he": "עֵדוּת",
+      "en": "testimony"
+     },
+     {
+      "he": "הֵעִיד",
+      "en": "testified"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "פַּפְּיַס",
+      "en": "Papias",
+      "note": "A Rabbi of the Mishnah."
+     }
+    ]
+   },
+   {
+    "he": "עַל מִי שֶׁנָּזַר שְׁתֵּי נְזִירִיּוֹת,",
+    "en": "about someone who promised two times of nezirus:",
+    "st": "<b>with regard to one who vowed</b> to observe <b>two</b> terms of <b>naziriteship, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁנָּזַר",
+      "en": "vowed"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "נְזִירִיּוֹת,",
+      "en": "nezirus times"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם גִּלַּח אֶת הָרִאשׁוֹנָה שְׁלשִׁים יוֹם,",
+    "en": "if he shaved for the first on day thirty,",
+    "st": "<b>that if he shaved</b> for <b>the first</b> term on the <b>thirtieth day, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "גִּלַּח",
+      "en": "he shaved"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה",
+      "en": "the first"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "מְגַלֵּחַ אֶת הַשְּׁנִיָּה יוֹם שִׁשִּׁים.",
+    "en": "he shaves for the second on day sixty.",
+    "st": "<b>he shaves</b> for <b>the second</b> term <b>on the sixtieth day. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְגַלֵּחַ",
+      "en": "he shaves"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשְּׁנִיָּה",
+      "en": "the second"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שִׁשִּׁים.",
+      "en": "sixty"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם גִּלַּח לְיוֹם שִׁשִּׁים חָסֵר אֶחָד, יָצָא,",
+    "en": "And if he shaved on day sixty less one, it counts,",
+    "st": "<b>And if he shaved</b> for the second term <b>on</b> the <b>day sixty less one, he has fulfilled</b> his obligation,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "גִּלַּח",
+      "en": "he shaved"
+     },
+     {
+      "he": "לְיוֹם",
+      "en": "on day"
+     },
+     {
+      "he": "שִׁשִּׁים",
+      "en": "sixty"
+     },
+     {
+      "he": "חָסֵר",
+      "en": "less"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     },
+     {
+      "he": "יָצָא,",
+      "en": "it counts"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיּוֹם שְׁלשִׁים עוֹלֶה לוֹ מִן הַמִּנְיָן:",
+    "en": "because day thirty counts for him in the number.",
+    "explain": "Day thirty counts for the first and also for the second.",
+    "st": "<b>because the thirtieth day</b> of the first term of naziriteship <b>counts</b> as part <b>of his tally</b> of the second term.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיּוֹם",
+      "en": "because day"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "עוֹלֶה",
+      "en": "counts"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מִן",
+      "en": "in"
+     },
+     {
+      "he": "הַמִּנְיָן:",
+      "en": "the count"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "If a nazir becomes tamei from a dead person on day thirty, his days are undone and he starts again. Rabbi Eliezer says he loses only seven days.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁאָמַר הֲרֵינִי נָזִיר,",
+    "en": "Someone who said, \"I am a nazir,\"",
+    "st": "<b>One who said: I am hereby a nazirite,</b> without further specification,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁאָמַר",
+      "en": "said"
+     },
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I am"
+     },
+     {
+      "he": "נָזִיר,",
+      "en": "a nazir"
+     }
+    ]
+   },
+   {
+    "he": "נִטְמָא יוֹם שְׁלשִׁים,",
+    "en": "and he became tamei on day thirty,",
+    "st": "if <b>he became ritually impure</b> through contact with a corpse on the <b>thirtieth day</b> of his term of naziriteship,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִטְמָא",
+      "en": "became tamei"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁלשִׁים,",
+      "en": "thirty"
+     }
+    ]
+   },
+   {
+    "he": "סוֹתֵר אֶת הַכֹּל.",
+    "en": "it undoes everything.",
+    "explain": "He must start his nezirus over again.",
+    "st": "<b>it negates the entire</b> tally,",
+    "stMore": "and he must start his naziriteship afresh.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוֹתֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּל.",
+      "en": "everything"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ סוֹתֵר אֶלָּא שִׁבְעָה.",
+    "en": "it undoes only seven days.",
+    "st": "<b>It negates only seven</b> days,",
+    "stMore": "which he must observe until his purification, after which he brings his offerings.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "סוֹתֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "שִׁבְעָה.",
+      "en": "seven"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵינִי נָזִיר שְׁלשִׁים יוֹם,",
+    "en": "If he said, \"I am a nazir for thirty days,\"",
+    "st": "If he said: <b>I am hereby a nazirite</b> for <b>thirty days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I am"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "נִטְמָא יוֹם שְׁלשִׁים,",
+    "en": "and he became tamei on day thirty,",
+    "st": "and <b>he became impure</b> on the <b>thirtieth day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִטְמָא",
+      "en": "became tamei"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "שְׁלשִׁים,",
+      "en": "thirty"
+     }
+    ]
+   },
+   {
+    "he": "סוֹתֵר אֶת הַכֹּל:",
+    "en": "it undoes everything.",
+    "st": "everyone agrees that <b>it negates the entire</b> tally.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוֹתֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּל:",
+      "en": "everything"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "A nazir for a hundred days became tamei at the very end. The first Tanna says he loses all his days, or thirty days. Rabbi Eliezer says he loses only thirty, or only seven.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֲרֵינִי נָזִיר מֵאָה יוֹם,",
+    "en": "If he said, \"I am a nazir for a hundred days,\"",
+    "st": "If he said: <b>I am hereby a nazirite</b> for <b>one hundred days,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I am"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "מֵאָה",
+      "en": "a hundred"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "נִטְמָא יוֹם מֵאָה,",
+    "en": "and he became tamei on day one hundred,",
+    "st": "if <b>he became impure</b> on the <b>one hundredth day, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִטְמָא",
+      "en": "became tamei"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "מֵאָה,",
+      "en": "a hundred"
+     }
+    ]
+   },
+   {
+    "he": "סוֹתֵר אֶת הַכֹּל.",
+    "en": "it undoes everything.",
+    "st": "<b>it negates the entire</b> tally.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוֹתֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּל.",
+      "en": "everything"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ סוֹתֵר אֶלָּא שְׁלשִׁים.",
+    "en": "it undoes only thirty days.",
+    "st": "<b>It negates only thirty</b> days,",
+    "stMore": "and he observes the final thirty days again.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "סוֹתֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "שְׁלשִׁים.",
+      "en": "thirty"
+     }
+    ]
+   },
+   {
+    "he": "נִטְמָא יוֹם מֵאָה וְאֶחָד,",
+    "en": "If he became tamei on day one hundred and one,",
+    "st": "If <b>he became impure</b> on the <b>one hundred and first day</b> before bringing his offerings,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִטְמָא",
+      "en": "became tamei"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "מֵאָה",
+      "en": "a hundred"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "סוֹתֵר שְׁלשִׁים יוֹם.",
+    "en": "it undoes thirty days.",
+    "st": "<b>it negates</b> only <b>thirty days,</b> but does not negate all of the observed days.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוֹתֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם.",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ סוֹתֵר אֶלָּא שִׁבְעָה:",
+    "en": "it undoes only seven days.",
+    "st": "<b>It negates only seven</b> days.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "סוֹתֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "שִׁבְעָה:",
+      "en": "seven"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "If someone becomes a nazir while in a cemetery, his nezirus does not start yet. If he goes out and comes back in, his days count, and he brings korbanos for becoming tamei.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁנָּזַר וְהוּא בְּבֵית הַקְּבָרוֹת,",
+    "en": "Someone who became a nazir while he was in a cemetery,",
+    "st": "<b>One who took a vow of naziriteship while in a cemetery, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁנָּזַר",
+      "en": "vowed to be a nazir"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "while he was"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in the place of"
+     },
+     {
+      "he": "הַקְּבָרוֹת,",
+      "en": "the graves"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ הָיָה שָׁם שְׁלשִׁים יוֹם,",
+    "en": "even if he was there thirty days,",
+    "st": "<b>even if he was there</b> for a full <b>thirty days</b> without leaving,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "הָיָה",
+      "en": "he was"
+     },
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "אֵין עוֹלִין לוֹ מִן הַמִּנְיָן",
+    "en": "those days do not count for him,",
+    "explain": "His nezirus has not started yet.",
+    "st": "those days he spent in the cemetery <b>do not count</b> as part <b>of his tally,</b>",
+    "stMore": "since his naziriteship has not yet gone into effect.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "עוֹלִין",
+      "en": "count"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מִן",
+      "en": "in"
+     },
+     {
+      "he": "הַמִּנְיָן",
+      "en": "the count"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינוֹ מֵבִיא קָרְבַּן טֻמְאָה.",
+    "en": "and he does not bring the korban of tumah.",
+    "st": "<b>And he</b> therefore <b>does not bring</b> the three <b>offerings of impurity,</b>",
+    "stMore": "brought by a nazirite when rendered ritually impure by contact with a corpse, despite having been in a cemetery.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינוֹ",
+      "en": "and he does not"
+     },
+     {
+      "he": "מֵבִיא",
+      "en": "bring"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טֻמְאָה.",
+      "en": "tumah"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא וְנִכְנַס,",
+    "en": "If he went out and came back in,",
+    "st": "If <b>he left</b> the cemetery <b>and entered</b> it again,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "he went out"
+     },
+     {
+      "he": "וְנִכְנַס,",
+      "en": "and came in"
+     }
+    ]
+   },
+   {
+    "he": "עוֹלִין לוֹ מִן הַמִּנְיָן",
+    "en": "the days count for him,",
+    "st": "those days <b>do count</b> as part <b>of his tally,</b> meaning the naziriteship takes effect,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹלִין",
+      "en": "count"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מִן",
+      "en": "in"
+     },
+     {
+      "he": "הַמִּנְיָן",
+      "en": "the count"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵבִיא קָרְבַּן טֻמְאָה.",
+    "en": "and he brings the korban of tumah.",
+    "st": "<b>and he does bring the offerings of impurity</b> for reentering the cemetery.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵבִיא",
+      "en": "and brings"
+     },
+     {
+      "he": "קָרְבַּן",
+      "en": "the korban of"
+     },
+     {
+      "he": "טֻמְאָה.",
+      "en": "tumah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא בוֹ בַיּוֹם,",
+    "en": "not if he came back on that same day,",
+    "st": "This halakha does <b>not</b> apply to one who entered the cemetery <b>on the very day</b> that he left it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בוֹ",
+      "en": "on that same"
+     },
+     {
+      "he": "בַיּוֹם,",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (במדבר ו) וְהַיָּמִים הָרִאשֹׁנִים יִפְּלוּ,",
+    "en": "as the Torah says, \"And the first days will fall away,\"",
+    "st": "<b>as it is stated</b> with regard to the halakhot of a ritually impure nazirite: <b>“But the first days shall be void”</b>",
+    "stMore": "(Numbers 6:12), which indicates that he does not bring the offerings",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "ו)",
+      "en": "6)"
+     },
+     {
+      "he": "וְהַיָּמִים",
+      "en": "and the days"
+     },
+     {
+      "he": "הָרִאשֹׁנִים",
+      "en": "the first"
+     },
+     {
+      "he": "יִפְּלוּ,",
+      "en": "will fall away"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיִּהְיוּ לוֹ יָמִים רִאשׁוֹנִים:",
+    "en": "until he has some \"first days.\"",
+    "explain": "He needs some days of being a tahor nazir first.",
+    "st": "<b>until he will have “first days”</b> of purity,",
+    "stMore": "during which he observed his naziriteship.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּהְיוּ",
+      "en": "there will be"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "יָמִים",
+      "en": "days"
+     },
+     {
+      "he": "רִאשׁוֹנִים:",
+      "en": "first"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "If someone kept his nezirus outside Eretz Yisrael and then came to Eretz Yisrael, Beis Hillel say he must keep it all again. The mishnah tells the story of Queen Helene, who was a nazir for many years.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁנָּזַר נְזִירוּת הַרְבֵּה",
+    "en": "Someone who promised many days of nezirus",
+    "explain": "He was outside Eretz Yisrael.",
+    "st": "<b>One who vowed many</b> days of <b>naziriteship</b> while outside Eretz Yisrael,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁנָּזַר",
+      "en": "vowed"
+     },
+     {
+      "he": "נְזִירוּת",
+      "en": "nezirus"
+     },
+     {
+      "he": "הַרְבֵּה",
+      "en": "many"
+     }
+    ]
+   },
+   {
+    "he": "וְהִשְׁלִים אֶת נְזִירוּתוֹ,",
+    "en": "and finished his nezirus,",
+    "st": "<b>and completed his naziriteship, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִשְׁלִים",
+      "en": "and finished"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "נְזִירוּתוֹ,",
+      "en": "his nezirus"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ בָּא לָאָרֶץ,",
+    "en": "and after that came to Eretz Yisrael:",
+    "st": "<b>and afterward came to Eretz</b> Yisrael,",
+    "stMore": "in order to bring the offerings at the end of his naziriteship,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "that"
+     },
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "לָאָרֶץ,",
+      "en": "to the Land"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נָזִיר שְׁלשִׁים יוֹם,",
+    "en": "he is a nazir for thirty days,",
+    "st": "He must be <b>a nazirite</b> for <b>thirty days,</b>",
+    "stMore": "so that he has observed a term of naziriteship in ritual purity in Eretz Yisrael,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "and Beis Hillel say,",
+    "st": "<b>and Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נָזִיר בַּתְּחִלָּה.",
+    "en": "he is a nazir from the beginning.",
+    "explain": "He must keep all his nezirus again.",
+    "st": "He is <b>a nazirite from the beginning,</b>",
+    "stMore": "that is, he must observe his entire naziriteship again.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "בַּתְּחִלָּה.",
+      "en": "from the beginning"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה בְהִילְנִי הַמַּלְכָּה,",
+    "en": "There was a story with Queen Helene,",
+    "st": "The mishna cites a related story: <b>An incident</b> occurred <b>with regard to Queen Helene, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בְהִילְנִי",
+      "en": "with Helene"
+     },
+     {
+      "he": "הַמַּלְכָּה,",
+      "en": "the queen"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָלַךְ בְּנָהּ לַמִּלְחָמָה,",
+    "en": "whose son went to war.",
+    "st": "<b>whose son had gone to war, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָלַךְ",
+      "en": "that went"
+     },
+     {
+      "he": "בְּנָהּ",
+      "en": "her son"
+     },
+     {
+      "he": "לַמִּלְחָמָה,",
+      "en": "to the war"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמְרָה, אִם יָבֹא בְנִי מִן הַמִּלְחָמָה",
+    "en": "She said, \"If my son comes back from the war",
+    "st": "<b>and she said: If my son will return from war </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמְרָה,",
+      "en": "and she said"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יָבֹא",
+      "en": "will come"
+     },
+     {
+      "he": "בְנִי",
+      "en": "my son"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמִּלְחָמָה",
+      "en": "the war"
+     }
+    ]
+   },
+   {
+    "he": "בְשָׁלוֹם אֱהֵא נְזִירָה שֶׁבַע שָׁנִים,",
+    "en": "safely, I will be a nazir for seven years.\"",
+    "st": "<b>safely, I will be a nazirite</b> for <b>seven years. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְשָׁלוֹם",
+      "en": "in peace"
+     },
+     {
+      "he": "אֱהֵא",
+      "en": "I will be"
+     },
+     {
+      "he": "נְזִירָה",
+      "en": "a nazir"
+     },
+     {
+      "he": "שֶׁבַע",
+      "en": "seven"
+     },
+     {
+      "he": "שָׁנִים,",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "וּבָא בְנָהּ מִן הַמִּלְחָמָה,",
+    "en": "Her son came back from the war,",
+    "st": "<b>And her son returned</b> safely <b>from the war, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָא",
+      "en": "and came"
+     },
+     {
+      "he": "בְנָהּ",
+      "en": "her son"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמִּלְחָמָה,",
+      "en": "the war"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיְתָה נְזִירָה שֶׁבַע שָׁנִים.",
+    "en": "and she was a nazir for seven years.",
+    "st": "<b>and she was a nazirite</b> for <b>seven years. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיְתָה",
+      "en": "and she was"
+     },
+     {
+      "he": "נְזִירָה",
+      "en": "a nazir"
+     },
+     {
+      "he": "שֶׁבַע",
+      "en": "seven"
+     },
+     {
+      "he": "שָׁנִים.",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "וּבְסוֹף שֶׁבַע שָׁנִים עָלְתָה לָאָרֶץ,",
+    "en": "At the end of seven years she went up to Eretz Yisrael,",
+    "st": "<b>And at the end of seven years, she ascended to Eretz</b> Yisrael,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְסוֹף",
+      "en": "and at the end of"
+     },
+     {
+      "he": "שֶׁבַע",
+      "en": "seven"
+     },
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     },
+     {
+      "he": "עָלְתָה",
+      "en": "she went up"
+     },
+     {
+      "he": "לָאָרֶץ,",
+      "en": "to the Land"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹרוּהָ בֵית הִלֵּל שֶׁתְּהֵא נְזִירָה",
+    "en": "and Beis Hillel taught her that she must be a nazir",
+    "st": "<b>and Beit Hillel instructed her,</b> in accordance with their opinion, <b>that she should be a nazirite </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹרוּהָ",
+      "en": "and taught her"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "שֶׁתְּהֵא",
+      "en": "that she should be"
+     },
+     {
+      "he": "נְזִירָה",
+      "en": "a nazir"
+     }
+    ]
+   },
+   {
+    "he": "עוֹד שֶׁבַע שָׁנִים אֲחֵרוֹת.",
+    "en": "for seven more years.",
+    "st": "<b>for an additional seven years. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹד",
+      "en": "more"
+     },
+     {
+      "he": "שֶׁבַע",
+      "en": "seven"
+     },
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     },
+     {
+      "he": "אֲחֵרוֹת.",
+      "en": "other"
+     }
+    ]
+   },
+   {
+    "he": "וּבְסוֹף שֶׁבַע שָׁנִים נִטְמֵאת,",
+    "en": "At the end of those seven years she became tamei,",
+    "explain": "So she had to keep seven more years.",
+    "st": "<b>And at the end of</b> those <b>seven years she became ritually impure,</b>",
+    "stMore": "and was therefore required to observe yet another seven years of naziriteship, as ritual impurity negates the tally of a nazirite.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְסוֹף",
+      "en": "and at the end of"
+     },
+     {
+      "he": "שֶׁבַע",
+      "en": "seven"
+     },
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     },
+     {
+      "he": "נִטְמֵאת,",
+      "en": "she became tamei"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְצֵאת נְזִירָה עֶשְׂרִים וְאַחַת שָׁנָה.",
+    "en": "So she was a nazir for twenty-one years.",
+    "st": "<b>And she was found to be a nazirite</b> for <b>twenty-one years. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְצֵאת",
+      "en": "and she was found"
+     },
+     {
+      "he": "נְזִירָה",
+      "en": "a nazir"
+     },
+     {
+      "he": "עֶשְׂרִים",
+      "en": "twenty"
+     },
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "שָׁנָה.",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוּדָה,",
+    "en": "Rabbi Yehudah said,",
+    "st": "<b>Rabbi Yehuda said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehudah"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיְתָה נְזִירָה אֶלָּא",
+    "en": "She was a nazir only",
+    "st": "<b>She was a nazirite</b> for",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "she was"
+     },
+     {
+      "he": "נְזִירָה",
+      "en": "a nazir"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     }
+    ]
+   },
+   {
+    "he": "אַרְבַּע עֶשְׂרֵה שָׁנָה:",
+    "en": "fourteen years.",
+    "st": "<b>only fourteen years</b> and not twenty-one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "עֶשְׂרֵה",
+      "en": "teen"
+     },
+     {
+      "he": "שָׁנָה:",
+      "en": "years"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "Two groups of witnesses disagree: one says he promised two times of nezirus, and one says five. Beis Shammai say there is no nezirus at all. Beis Hillel say he keeps two.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁהָיוּ שְׁתֵּי כִתֵּי",
+    "en": "Someone about whom two groups of",
+    "st": "In a case of <b>one who had two sets of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "שְׁתֵּי",
+      "en": "two"
+     },
+     {
+      "he": "כִתֵּי",
+      "en": "groups of"
+     }
+    ]
+   },
+   {
+    "he": "עֵדִים מְעִידוֹת אוֹתוֹ,",
+    "en": "witnesses spoke:",
+    "st": "<b>witnesses testifying about him</b>",
+    "stMore": "that he had taken a vow of naziriteship for a certain period,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "מְעִידוֹת",
+      "en": "testifying"
+     },
+     {
+      "he": "אוֹתוֹ,",
+      "en": "about him"
+     }
+    ]
+   },
+   {
+    "he": "אֵלּוּ מְעִידִים שֶׁנָּזַר שְׁתַּיִם,",
+    "en": "these say he promised two,",
+    "st": "and <b>these</b> witnesses <b>testify that he took a vow of naziriteship</b> for <b>two</b> terms,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "מְעִידִים",
+      "en": "testify"
+     },
+     {
+      "he": "שֶׁנָּזַר",
+      "en": "that he vowed"
+     },
+     {
+      "he": "שְׁתַּיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵלּוּ מְעִידִים שֶׁנָּזַר חָמֵשׁ,",
+    "en": "and these say he promised five.",
+    "st": "<b>and these</b> witnesses <b>testify that he took a vow of naziriteship</b> for <b>five</b> terms.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵלּוּ",
+      "en": "and these"
+     },
+     {
+      "he": "מְעִידִים",
+      "en": "testify"
+     },
+     {
+      "he": "שֶׁנָּזַר",
+      "en": "that he vowed"
+     },
+     {
+      "he": "חָמֵשׁ,",
+      "en": "five"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נֶחְלְקָה הָעֵדוּת וְאֵין כָּאן נְזִירוּת.",
+    "en": "the testimony is split, and there is no nezirus here.",
+    "st": "<b>The testimony is divided,</b> i.e., the testimonies contradict each other, and since the testimonies are in conflict they are both rejected entirely <b>and there is no naziriteship here</b> at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶחְלְקָה",
+      "en": "is split"
+     },
+     {
+      "he": "הָעֵדוּת",
+      "en": "the testimony"
+     },
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "כָּאן",
+      "en": "here"
+     },
+     {
+      "he": "נְזִירוּת.",
+      "en": "nezirus"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>And Beit Hillel say:</b>",
+    "stMore": "The testimonies are not completely in conflict with each other,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ בִּכְלָל חָמֵשׁ שְׁתַּיִם,",
+    "en": "two are included in five,",
+    "st": "as <b>two</b> terms <b>are included in five</b> terms, and the unanimous testimony,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בִּכְלָל",
+      "en": "in the group of"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "שְׁתַּיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיְּהֵא נָזִיר שְׁתָּיִם:",
+    "en": "so he is a nazir two times.",
+    "st": "<b>that he is a nazirite</b> for <b>two</b> terms, is accepted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "that he will be"
+     },
+     {
+      "he": "נָזִיר",
+      "en": "a nazir"
+     },
+     {
+      "he": "שְׁתָּיִם:",
+      "en": "two times"
+     }
+    ]
+   }
+  ]
+ }
+]

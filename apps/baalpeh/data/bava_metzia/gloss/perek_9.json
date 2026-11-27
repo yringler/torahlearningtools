@@ -1,0 +1,3481 @@
+[
+ {
+  "perek": 9,
+  "mishnah": 1,
+  "summary": "A farmer who takes a field to work for its owner must follow the local custom about cutting, pulling up and plowing. He and the owner share the straw and the vine branches just as they share the crop, and both give the poles.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ,",
+    "en": "If someone takes a field from his friend to farm,",
+    "explain": "He works it and pays the owner with some of the crop.",
+    "st": "With regard to <b>one who receives a field from another</b>",
+    "stMore": "to cultivate, either as a tenant farmer, who, in exchange for the right to farm the land, gives a set amount of the produce to the owner, or as a sharecropper, who cultivates the land and receives a set proportion of the produce, the halakha is as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ,",
+      "en": "from his friend"
+     }
+    ]
+   },
+   {
+    "he": "מְקוֹם שֶׁנָּהֲגוּ לִקְצֹר, יִקְצֹר,",
+    "en": "where people usually cut the crop, he cuts it;",
+    "st": "In <b>a location where</b> those cultivating the land <b>were accustomed to cut</b> the produce, this one <b>must cut</b> it as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקוֹם",
+      "en": "a place"
+     },
+     {
+      "he": "שֶׁנָּהֲגוּ",
+      "en": "that they are used"
+     },
+     {
+      "he": "לִקְצֹר,",
+      "en": "to cut"
+     },
+     {
+      "he": "יִקְצֹר,",
+      "en": "he cuts"
+     }
+    ]
+   },
+   {
+    "he": "לַעֲקֹר, יַעֲקֹר,",
+    "en": "to pull it up, he pulls it up;",
+    "st": "In a location where they were accustomed <b>to uproot</b> the produce, not to cut it with a sickle or a scythe, this one <b>must uproot</b> it as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַעֲקֹר,",
+      "en": "to pull up"
+     },
+     {
+      "he": "יַעֲקֹר,",
+      "en": "he pulls up"
+     }
+    ]
+   },
+   {
+    "he": "לַחֲרשׁ אַחֲרָיו, יַחֲרשׁ.",
+    "en": "to plow after it, he plows.",
+    "st": "If they were accustomed <b>to plow</b> the land <b>after</b> harvesting the produce, this one <b>must plow</b> as well.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַחֲרשׁ",
+      "en": "to plow"
+     },
+     {
+      "he": "אַחֲרָיו,",
+      "en": "after it"
+     },
+     {
+      "he": "יַחֲרשׁ.",
+      "en": "he plows"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל כְּמִנְהַג הַמְּדִינָה.",
+    "en": "Everything follows the custom of the place.",
+    "st": "<b>All</b> farming of the land shall be conducted <b>in accordance with regional custom. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "כְּמִנְהַג",
+      "en": "like the custom of"
+     },
+     {
+      "he": "הַמְּדִינָה.",
+      "en": "the place"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁם שֶׁחוֹלְקִין בַּתְּבוּאָה,",
+    "en": "Just as they split the grain,",
+    "st": "<b>Just as</b> the halakha is that the owner of the field and the one cultivating it <b>divide the produce, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁחוֹלְקִין",
+      "en": "that they split"
+     },
+     {
+      "he": "בַּתְּבוּאָה,",
+      "en": "the grain"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ חוֹלְקִין בַּתֶּבֶן וּבַקַּשׁ.",
+    "en": "so they split the straw and stubble.",
+    "st": "<b>so</b> too the halakha is that <b>they divide the stubble and the straw. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "חוֹלְקִין",
+      "en": "they split"
+     },
+     {
+      "he": "בַּתֶּבֶן",
+      "en": "the straw"
+     },
+     {
+      "he": "וּבַקַּשׁ.",
+      "en": "and the stubble"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁם שֶׁחוֹלְקִין בַּיַּיִן,",
+    "en": "Just as they split the wine,",
+    "st": "<b>Just as</b> the halakha is that the owner of the field and the one cultivating it <b>divide the wine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "just as"
+     },
+     {
+      "he": "שֶׁחוֹלְקִין",
+      "en": "that they split"
+     },
+     {
+      "he": "בַּיַּיִן,",
+      "en": "the wine"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ חוֹלְקִין בַּזְּמוֹרוֹת וּבַקָּנִים.",
+    "en": "so they split the vine branches and the poles.",
+    "st": "<b>so</b> too the halakha is that <b>they divide the branches</b> pruned from the vines <b>and the poles. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "חוֹלְקִין",
+      "en": "they split"
+     },
+     {
+      "he": "בַּזְּמוֹרוֹת",
+      "en": "the vine branches"
+     },
+     {
+      "he": "וּבַקָּנִים.",
+      "en": "and the poles"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנֵיהֶם מְסַפְּקִין אֶת הַקָּנִים:",
+    "en": "And both of them give the poles.",
+    "explain": "The poles hold up the grapevines.",
+    "st": "<b>And the two of them,</b> i.e., the landowner and the one cultivating the field, both <b>supply the poles.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנֵיהֶם",
+      "en": "and both of them"
+     },
+     {
+      "he": "מְסַפְּקִין",
+      "en": "provide"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקָּנִים:",
+      "en": "the poles"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 2,
+  "summary": "If a farmer took a watered field or a field of trees, and the spring dried up or the trees were cut down, he pays the full rent. But if he named the spring or trees in the deal, he may pay less.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ,",
+    "en": "If someone takes a field from his friend to farm,",
+    "st": "In the case of <b>one who receives a field from another</b> to cultivate",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ,",
+      "en": "from his friend"
+     }
+    ]
+   },
+   {
+    "he": "וְהִיא בֵית הַשְּׁלָחִין אוֹ בֵית הָאִילָן,",
+    "en": "and it is a watered field or a field of trees,",
+    "st": "<b>and it is an irrigated</b> field <b>or a field with trees,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִיא",
+      "en": "and it"
+     },
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "הַשְּׁלָחִין",
+      "en": "the watering"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "הָאִילָן,",
+      "en": "the tree"
+     }
+    ]
+   },
+   {
+    "he": "יָבַשׁ הַמַּעְיָן וְנִקְצַץ הָאִילָן,",
+    "en": "and the spring dried up or the trees were cut down,",
+    "st": "if <b>the spring</b> that irrigated the field <b>dried up or the trees were cut down,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבַשׁ",
+      "en": "dried up"
+     },
+     {
+      "he": "הַמַּעְיָן",
+      "en": "the spring"
+     },
+     {
+      "he": "וְנִקְצַץ",
+      "en": "and was cut down"
+     },
+     {
+      "he": "הָאִילָן,",
+      "en": "the tree"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מְנַכֶּה לוֹ מִן חֲכוֹרוֹ.",
+    "en": "he does not take anything off his rent.",
+    "st": "he does <b>not subtract from</b> the produce <b>he</b> owes the owner as part of <b>his tenancy,</b>",
+    "stMore": "despite the fact that he presumably considered these factors when agreeing to cultivate the field.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מְנַכֶּה",
+      "en": "take off"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "חֲכוֹרוֹ.",
+      "en": "his rent"
+     }
+    ]
+   },
+   {
+    "he": "אִם אָמַר לוֹ",
+    "en": "But if he said to him,",
+    "st": "But <b>if</b> the cultivator <b>said to</b> the landowner explicitly:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "חֲכֹר לִי שְׂדֵה בֵית הַשְּׁלָחִין זֶה",
+    "en": "\"Rent me this watered field,\"",
+    "st": "<b>Lease me this irrigated field, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֲכֹר",
+      "en": "rent"
+     },
+     {
+      "he": "לִי",
+      "en": "to me"
+     },
+     {
+      "he": "שְׂדֵה",
+      "en": "field of"
+     },
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "הַשְּׁלָחִין",
+      "en": "the watering"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שְׂדֵה בֵית הָאִילָן זֶה,",
+    "en": "or \"this field of trees,\"",
+    "st": "<b>or</b> he said: Lease me <b>this field with trees,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שְׂדֵה",
+      "en": "field of"
+     },
+     {
+      "he": "בֵית",
+      "en": "a house of"
+     },
+     {
+      "he": "הָאִילָן",
+      "en": "the tree"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "יָבַשׁ הַמַּעְיָן וְנִקְצַץ הָאִילָן,",
+    "en": "and the spring dried up or the trees were cut down,",
+    "st": "and <b>the spring dried up or the trees were cut down, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָבַשׁ",
+      "en": "dried up"
+     },
+     {
+      "he": "הַמַּעְיָן",
+      "en": "the spring"
+     },
+     {
+      "he": "וְנִקְצַץ",
+      "en": "and was cut down"
+     },
+     {
+      "he": "הָאִילָן,",
+      "en": "the tree"
+     }
+    ]
+   },
+   {
+    "he": "מְנַכֶּה לוֹ מִן חֲכוֹרוֹ:",
+    "en": "he takes it off his rent.",
+    "st": "<b>he</b> may <b>subtract from</b> the produce <b>he</b> owes as part of <b>his tenancy.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְנַכֶּה",
+      "en": "he takes off"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "חֲכוֹרוֹ:",
+      "en": "his rent"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 3,
+  "summary": "A farmer who left the field he took unplanted must pay the owner what it could have grown, because the contract says so.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ וְהוֹבִירָהּ,",
+    "en": "If someone takes a field from his friend and leaves it unplanted,",
+    "st": "With regard to <b>one who receives a field from another</b> as a contractor <b>and</b> then <b>lets it lie fallow</b> and does not work the land at all,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "וְהוֹבִירָהּ,",
+      "en": "and left it unplanted"
+     }
+    ]
+   },
+   {
+    "he": "שָׁמִין אוֹתָהּ",
+    "en": "they estimate it,",
+    "st": "the court <b>appraises it</b> by evaluating",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁמִין",
+      "en": "they estimate"
+     },
+     {
+      "he": "אוֹתָהּ",
+      "en": "it"
+     }
+    ]
+   },
+   {
+    "he": "כַּמָּה רְאוּיָה לַעֲשׂוֹת",
+    "en": "how much it could have grown,",
+    "st": "<b>how much it was able to produce</b> if cultivated,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כַּמָּה",
+      "en": "how much"
+     },
+     {
+      "he": "רְאוּיָה",
+      "en": "it is fit"
+     },
+     {
+      "he": "לַעֲשׂוֹת",
+      "en": "to make"
+     }
+    ]
+   },
+   {
+    "he": "וְנוֹתֵן לוֹ,",
+    "en": "and he gives it to him,",
+    "st": "<b>and he gives</b> his share of this amount <b>to</b> the owner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and he gives"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכָּךְ כּוֹתֵב לוֹ,",
+    "en": "because this is what he writes to him:",
+    "st": "The reason is <b>that this</b> is what a cultivator <b>writes to</b> the owner in a standard contract:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכָּךְ",
+      "en": "because so"
+     },
+     {
+      "he": "כּוֹתֵב",
+      "en": "he writes"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אִם אוֹבִיר וְלֹא אַעֲבֵיד,",
+    "en": "\"If I leave it unplanted and do not work it,",
+    "st": "<b>If I let</b> the field <b>lie fallow and do not cultivate</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אוֹבִיר",
+      "en": "I leave it unplanted"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אַעֲבֵיד,",
+      "en": "I work it"
+     }
+    ]
+   },
+   {
+    "he": "אֲשַׁלֵּם בְּמֵיטְבָא:",
+    "en": "I will pay with the best.\"",
+    "st": "<b>I will pay with best</b>-quality produce.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲשַׁלֵּם",
+      "en": "I will pay"
+     },
+     {
+      "he": "בְּמֵיטְבָא:",
+      "en": "with the best"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 4,
+  "summary": "A farmer who does not want to weed the field cannot say it is not the owner's business. The owner can say that after he leaves, the weeds will stay.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ וְלֹא רָצָה לְנַכֵּשׁ,",
+    "en": "If someone took a field from his friend and did not want to weed it,",
+    "st": "With regard to <b>one who received a field from another</b> to cultivate <b>and did not want to weed</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "רָצָה",
+      "en": "he wanted"
+     },
+     {
+      "he": "לְנַכֵּשׁ,",
+      "en": "to weed"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר לוֹ מָה אִכְפַּת לְךָ,",
+    "en": "and he said to him, \"What do you care,",
+    "st": "<b>and</b> he then <b>said to</b> the owner: <b>What do you care</b> if I neglect the land? You will not suffer a loss",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אִכְפַּת",
+      "en": "does it matter"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וַאֲנִי נוֹתֵן לְךָ חֲכוֹרָהּ,",
+    "en": "since I give you your rent?\"",
+    "st": "<b>since I</b> will <b>give you</b> the amount of produce I owe you for <b>your</b> granting me <b>tenancy,</b> regardless of the state of the field.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וַאֲנִי",
+      "en": "and I"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "give"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "חֲכוֹרָהּ,",
+      "en": "its rent"
+     }
+    ]
+   },
+   {
+    "he": "אֵין שׁוֹמְעִין לוֹ,",
+    "en": "We do not listen to him,",
+    "st": "Nevertheless, <b>they do not listen to him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "listen"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁיָּכוֹל לוֹמַר לוֹ,",
+    "en": "because the owner can say to him,",
+    "st": "The reason is <b>because</b> the owner of the land <b>can say to him: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁיָּכוֹל",
+      "en": "that he can"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "say"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "לְמָחָר אַתָּה יוֹצֵא מִמֶּנָּה,",
+    "en": "\"Tomorrow you leave it,",
+    "st": "<b>Tomorrow you</b> will <b>depart from</b> the field,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמָחָר",
+      "en": "tomorrow"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "יוֹצֵא",
+      "en": "leave"
+     },
+     {
+      "he": "מִמֶּנָּה,",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "וּמַעֲלָה לְפָנַי עֲשָׂבִים:",
+    "en": "and it will grow weeds for me.\"",
+    "st": "<b>and it</b> will <b>grow weeds for me,</b>",
+    "stMore": "which will remain there and disrupt the yield of the field for years to come.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַעֲלָה",
+      "en": "and it brings up"
+     },
+     {
+      "he": "לְפָנַי",
+      "en": "before me"
+     },
+     {
+      "he": "עֲשָׂבִים:",
+      "en": "weeds"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 5,
+  "summary": "A farmer must keep working a field that grows only a little, as long as there is enough for a pile. Rabbi Yehuda says it is enough if it grows as much as the seeds that were planted.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ וְלֹא עָשְׂתָה,",
+    "en": "If someone took a field from his friend and it did not grow much,",
+    "st": "With regard to <b>one who receives a field from another</b> to cultivate <b>and it did not produce</b> a sufficient crop to cover the expenses of its upkeep,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "עָשְׂתָה,",
+      "en": "it made"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֶשׁ בָּהּ כְּדֵי לְהַעֲמִיד כְּרִי,",
+    "en": "if it has enough to make a pile,",
+    "st": "<b>if it has</b> enough produce <b>to form a pile</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "enough"
+     },
+     {
+      "he": "לְהַעֲמִיד",
+      "en": "to set up"
+     },
+     {
+      "he": "כְּרִי,",
+      "en": "a pile"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב לְטַפֵּל בָּהּ.",
+    "en": "he must keep working it.",
+    "st": "he is <b>obligated to take care of it</b> and give the owner his share.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "לְטַפֵּל",
+      "en": "to take care"
+     },
+     {
+      "he": "בָּהּ.",
+      "en": "of it"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוּדָה,",
+    "en": "Rabbi Yehuda said,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehuda"
+     }
+    ]
+   },
+   {
+    "he": "מַה קִּצְבָּה בַכְּרִי.",
+    "en": "\"What size is a pile?",
+    "explain": "Fields are different sizes.",
+    "st": "<b>What fixed</b> measure is <b>a pile?</b>",
+    "stMore": "There is no inherent measure of produce that is considered significant, as it all depends on the size of the plot of land in question.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "קִּצְבָּה",
+      "en": "size"
+     },
+     {
+      "he": "בַכְּרִי.",
+      "en": "for a pile"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אִם יֶשׁ בָּהּ כְּדֵי נְפִילָה:",
+    "en": "Rather, if it has as much as the seeds that were planted.\"",
+    "st": "<b>Rather,</b> the relevant issue is <b>whether it has</b> a crop <b>equivalent to</b> the measure of seeds for <b>dropping</b> in a field in order to sow it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "כְּדֵי",
+      "en": "enough"
+     },
+     {
+      "he": "נְפִילָה:",
+      "en": "seed falling"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 6,
+  "summary": "If locusts or a bad wind ruined a farmer's crop, he pays less rent only if the whole area was hit. Rabbi Yehuda says if he pays rent in money, he never pays less.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ",
+    "en": "If someone took a field from his friend",
+    "st": "In the case of <b>one who receives a field from another</b> to cultivate",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     }
+    ]
+   },
+   {
+    "he": "וַאֲכָלָהּ חָגָב אוֹ נִשְׁדְּפָה,",
+    "en": "and locusts ate it or it was burnt by wind,",
+    "st": "<b>and grasshoppers consumed it or</b> it <b>was wind blasted, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַאֲכָלָהּ",
+      "en": "and ate it"
+     },
+     {
+      "he": "חָגָב",
+      "en": "locusts"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁדְּפָה,",
+      "en": "it was wind-burnt"
+     }
+    ]
+   },
+   {
+    "he": "אִם מַכַּת מְדִינָה הִיא,",
+    "en": "if it is a plague of the whole area,",
+    "st": "<b>if it is a regional disaster</b> which affected all the fields in the area,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מַכַּת",
+      "en": "a plague of"
+     },
+     {
+      "he": "מְדִינָה",
+      "en": "the area"
+     },
+     {
+      "he": "הִיא,",
+      "en": "it is"
+     }
+    ]
+   },
+   {
+    "he": "מְנַכֶּה לוֹ מִן חֲכוֹרוֹ,",
+    "en": "he takes it off his rent.",
+    "st": "the cultivator <b>subtracts from</b> the produce <b>he</b> owes as part of <b>his tenancy. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְנַכֶּה",
+      "en": "he takes off"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "חֲכוֹרוֹ,",
+      "en": "his rent"
+     }
+    ]
+   },
+   {
+    "he": "אִם אֵינוֹ מַכַּת מְדִינָה,",
+    "en": "If it is not a plague of the whole area,",
+    "st": "<b>If it</b> is <b>not a regional disaster,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "מַכַּת",
+      "en": "a plague of"
+     },
+     {
+      "he": "מְדִינָה,",
+      "en": "the area"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מְנַכֶּה לוֹ מִן חֲכוֹרוֹ.",
+    "en": "he does not take it off his rent.",
+    "st": "the cultivator does <b>not subtract from</b> the produce <b>he</b> owes as part of <b>his tenancy. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מְנַכֶּה",
+      "en": "take off"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "חֲכוֹרוֹ.",
+      "en": "his rent"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם קִבְּלָהּ הֵימֶנּוּ בְמָעוֹת,",
+    "en": "if he took it for money,",
+    "st": "<b>If</b> the cultivator <b>received it from</b> the owner <b>for</b> a fixed sum of <b>money, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "קִבְּלָהּ",
+      "en": "he received it"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "בְמָעוֹת,",
+      "en": "for money"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין כָּךְ וּבֵין כָּךְ",
+    "en": "either way",
+    "st": "<b>whether this</b> way, i.e., there is a regional disaster, or <b>whether that</b> way, i.e., there was no regional disaster,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this way"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and whether"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this way"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מְנַכֶּה לוֹ מֵחֲכוֹרוֹ:",
+    "en": "he does not take it off his rent.",
+    "st": "<b>he does not subtract</b> the produce he owes as part of <b>his tenancy.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מְנַכֶּה",
+      "en": "take off"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "מֵחֲכוֹרוֹ:",
+      "en": "from his rent"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 7,
+  "summary": "A farmer who pays rent in wheat gives wheat from the field itself, whether the crop is poor or very good.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ",
+    "en": "If someone took a field from his friend",
+    "st": "In the case of <b>one who receives a field from another</b> to cultivate",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     }
+    ]
+   },
+   {
+    "he": "בַּעֲשָׂרָה כּוֹר חִטִּים לְשָׁנָה,",
+    "en": "for ten kor of wheat a year,",
+    "st": "in return <b>for</b> the payment of <b>ten kor of wheat per year, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּעֲשָׂרָה",
+      "en": "for ten"
+     },
+     {
+      "he": "כּוֹר",
+      "en": "kor"
+     },
+     {
+      "he": "חִטִּים",
+      "en": "wheat"
+     },
+     {
+      "he": "לְשָׁנָה,",
+      "en": "a year"
+     }
+    ]
+   },
+   {
+    "he": "לָקְתָה, נוֹתֵן לוֹ מִתּוֹכָהּ.",
+    "en": "and it got sick, he gives him from it.",
+    "st": "<b>and</b> its produce <b>was blighted</b> by a crop disease or the like, the cultivator <b>gives</b> the owner the ten kor of wheat <b>from it</b> but does not have to provide him with high quality wheat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָקְתָה,",
+      "en": "it got sick"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מִתּוֹכָהּ.",
+      "en": "from it"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ חִטֶּיהָ יָפוֹת,",
+    "en": "If its wheat was very good,",
+    "st": "If the wheat stalks produced by the field <b>were</b> particularly <b>good</b> stalks of <b>wheat,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "חִטֶּיהָ",
+      "en": "its wheat"
+     },
+     {
+      "he": "יָפוֹת,",
+      "en": "good"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יֹאמַר לוֹ",
+    "en": "he may not say to him,",
+    "st": "the cultivator <b>may not say to</b> the owner:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "he should say"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵינִי לוֹקֵחַ מִן הַשּׁוּק,",
+    "en": "\"I will buy from the market,\"",
+    "st": "<b>I will buy</b> regular wheat <b>from the market; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵינִי",
+      "en": "behold I"
+     },
+     {
+      "he": "לוֹקֵחַ",
+      "en": "buy"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשּׁוּק,",
+      "en": "the market"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא נוֹתֵן לוֹ מִתּוֹכָהּ:",
+    "en": "rather he gives him from it.",
+    "st": "<b>rather,</b> he <b>gives him from inside</b> the field itself.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מִתּוֹכָהּ:",
+      "en": "from it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 8,
+  "summary": "A farmer who agreed to plant barley may not plant wheat, which is harder on the land. He may switch to an easier crop, but Rabban Shimon ben Gamliel forbids that too.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ לְזָרְעָהּ שְׂעֹרִים,",
+    "en": "If someone takes a field from his friend to plant barley,",
+    "st": "With regard to <b>one who receives a field from another</b> in order <b>to plant it</b> with <b>barley,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "לְזָרְעָהּ",
+      "en": "to plant it"
+     },
+     {
+      "he": "שְׂעֹרִים,",
+      "en": "barley"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִזְרָעֶנָּה חִטִּים,",
+    "en": "he may not plant wheat.",
+    "explain": "Wheat makes the land weaker.",
+    "st": "he may <b>not plant it</b> with <b>wheat,</b> as wheat weakens the field more than barley does.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִזְרָעֶנָּה",
+      "en": "he should plant it"
+     },
+     {
+      "he": "חִטִּים,",
+      "en": "wheat"
+     }
+    ]
+   },
+   {
+    "he": "חִטִּים, יִזְרָעֶנָּה שְׂעֹרִים.",
+    "en": "If wheat, he may plant barley;",
+    "st": "But if he receives it in order to plant <b>wheat,</b> he may <b>plant it</b> with <b>barley</b> if he wishes,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חִטִּים,",
+      "en": "wheat"
+     },
+     {
+      "he": "יִזְרָעֶנָּה",
+      "en": "he may plant it"
+     },
+     {
+      "he": "שְׂעֹרִים.",
+      "en": "barley"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹסֵר.",
+    "en": "Rabban Shimon ben Gamliel forbids it.",
+    "st": "but <b>Rabban Shimon ben Gamliel forbids</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹסֵר.",
+      "en": "forbids"
+     }
+    ]
+   },
+   {
+    "he": "תְּבוּאָה, לֹא יִזְרָעֶנָּה קִטְנִית,",
+    "en": "Grain, he may not plant beans;",
+    "st": "Similarly, if he receives it to plant <b>it with grain</b> he may <b>not plant it</b> with <b>legumes,</b> as they weaken the field more than grains do,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תְּבוּאָה,",
+      "en": "grain"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִזְרָעֶנָּה",
+      "en": "he should plant it"
+     },
+     {
+      "he": "קִטְנִית,",
+      "en": "beans"
+     }
+    ]
+   },
+   {
+    "he": "קִטְנִית, יִזְרָעֶנָּה תְבוּאָה.",
+    "en": "beans, he may plant grain;",
+    "st": "but if he receives it in order to plant <b>legumes</b> he may <b>plant it</b> with <b>grain, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִטְנִית,",
+      "en": "beans"
+     },
+     {
+      "he": "יִזְרָעֶנָּה",
+      "en": "he may plant it"
+     },
+     {
+      "he": "תְבוּאָה.",
+      "en": "grain"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹסֵר:",
+    "en": "Rabban Shimon ben Gamliel forbids it.",
+    "st": "<b>but Rabban Shimon ben Gamliel forbids</b> it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹסֵר:",
+      "en": "forbids"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 9,
+  "summary": "A farmer who takes a field for only a few years may not plant flax, which weakens the soil, or cut the sycamore branches. If he takes it for seven years, he may.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ לְשָׁנִים מֻעָטוֹת,",
+    "en": "If someone takes a field from his friend for a few years,",
+    "st": "One <b>who receives a field from another</b> to cultivate <b>for a few years,</b> i.e., fewer than seven,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "לְשָׁנִים",
+      "en": "for years"
+     },
+     {
+      "he": "מֻעָטוֹת,",
+      "en": "few"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִזְרָעֶנָּה פִשְׁתָּן,",
+    "en": "he may not plant flax,",
+    "st": "<b>may not plant flax in it,</b> as flax greatly weakens the soil,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִזְרָעֶנָּה",
+      "en": "he should plant it"
+     },
+     {
+      "he": "פִשְׁתָּן,",
+      "en": "flax"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין לוֹ בְקוֹרַת שִׁקְמָה.",
+    "en": "and he has no right to the sycamore branches.",
+    "explain": "They take many years to grow back.",
+    "st": "<b>and</b> if a sycamore tree was growing in the field, <b>he does not have</b> rights <b>to</b> the <b>beams</b> fashioned from the branches of the <b>sycamore</b>",
+    "stMore": "tree. Therefore, he may not cut down its branches for his own use, as it takes many years for new ones to grow.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בְקוֹרַת",
+      "en": "in the beams of"
+     },
+     {
+      "he": "שִׁקְמָה.",
+      "en": "sycamore"
+     }
+    ]
+   },
+   {
+    "he": "קִבְּלָהּ הֵימֶנּוּ לְשֶׁבַע שָׁנִים,",
+    "en": "If he took it for seven years,",
+    "st": "If <b>he received</b> the field <b>from him for seven years,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבְּלָהּ",
+      "en": "he received it"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "לְשֶׁבַע",
+      "en": "for seven"
+     },
+     {
+      "he": "שָׁנִים,",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "שָׁנָה רִאשׁוֹנָה יִזְרָעֶנָּה פִשְׁתָּן,",
+    "en": "in the first year he may plant flax,",
+    "st": "in <b>the first year he</b> may <b>plant flax in it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁנָה",
+      "en": "year"
+     },
+     {
+      "he": "רִאשׁוֹנָה",
+      "en": "first"
+     },
+     {
+      "he": "יִזְרָעֶנָּה",
+      "en": "he may plant it"
+     },
+     {
+      "he": "פִשְׁתָּן,",
+      "en": "flax"
+     }
+    ]
+   },
+   {
+    "he": "וְיֶשׁ לוֹ בְקוֹרַת שִׁקְמָה:",
+    "en": "and he has a right to the sycamore branches.",
+    "st": "<b>and he does have</b> rights <b>to</b> the <b>beams</b> fashioned from the branches of the <b>sycamore</b> tree.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֶשׁ",
+      "en": "and there is"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בְקוֹרַת",
+      "en": "in the beams of"
+     },
+     {
+      "he": "שִׁקְמָה:",
+      "en": "sycamore"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 10,
+  "summary": "If a farmer rents a field for one shemittah cycle, the shemittah year counts. If he rents it for seven years, the shemittah year does not count, and he gets another year.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמְקַבֵּל שָׂדֶה מֵחֲבֵרוֹ",
+    "en": "If someone took a field from his friend",
+    "st": "In the case of one <b>who receives a field from another</b> to cultivate",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְקַבֵּל",
+      "en": "the one who receives"
+     },
+     {
+      "he": "שָׂדֶה",
+      "en": "a field"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     }
+    ]
+   },
+   {
+    "he": "לְשָׁבוּעַ אַחַת",
+    "en": "for one shemittah cycle",
+    "explain": "Seven years ending with shemittah, when we do not farm.",
+    "st": "<b>for one</b> Sabbatical <b>cycle</b> of seven years culminating with the Sabbatical Year",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְשָׁבוּעַ",
+      "en": "for a cycle"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁבַע מֵאוֹת זוּז,",
+    "en": "for 700 zuz,",
+    "st": "<b>for seven hundred dinars, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁבַע",
+      "en": "for seven"
+     },
+     {
+      "he": "מֵאוֹת",
+      "en": "hundred"
+     },
+     {
+      "he": "זוּז,",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "הַשְּׁבִיעִית מִן הַמִּנְיָן.",
+    "en": "the shemittah year is counted.",
+    "st": "<b>the Sabbatical</b> Year is included <b>in the tally,</b> despite the fact that he is unable to work the land during that year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשְּׁבִיעִית",
+      "en": "the seventh year"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמִּנְיָן.",
+      "en": "the count"
+     }
+    ]
+   },
+   {
+    "he": "קִבְּלָהּ הֵימֶנּוּ שֶׁבַע שָׁנִים",
+    "en": "If he took it for seven years",
+    "st": "If he <b>received it from him</b> to cultivate for <b>seven years </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קִבְּלָהּ",
+      "en": "he received it"
+     },
+     {
+      "he": "הֵימֶנּוּ",
+      "en": "from him"
+     },
+     {
+      "he": "שֶׁבַע",
+      "en": "seven"
+     },
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁבַע מֵאוֹת זוּז,",
+    "en": "for 700 zuz,",
+    "st": "<b>for seven hundred dinars, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁבַע",
+      "en": "for seven"
+     },
+     {
+      "he": "מֵאוֹת",
+      "en": "hundred"
+     },
+     {
+      "he": "זוּז,",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַשְּׁבִיעִית מִן הַמִּנְיָן:",
+    "en": "the shemittah year is not counted.",
+    "st": "<b>the Sabbatical</b> Year is <b>not</b> included <b>in the number,</b>",
+    "stMore": "and he may keep the field for an additional year to take the place of the Sabbatical Year, during which he could not work the land.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "is not"
+     },
+     {
+      "he": "הַשְּׁבִיעִית",
+      "en": "the seventh year"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמִּנְיָן:",
+      "en": "the count"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 11,
+  "summary": "A worker must be paid on time: a day worker by the end of that night, a night worker by the end of the next day, and other workers by when they finish.",
+  "stIntro": "The tanna addresses a different issue, the halakha of the payment of workers.",
+  "chunks": [
+   {
+    "he": "שְׂכִיר יוֹם גּוֹבֶה כָל הַלַּיְלָה,",
+    "en": "A day worker can collect all that night.",
+    "explain": "The employer has until morning to pay.",
+    "st": "<b>A day laborer collects</b> his wages from his employer <b>all night</b> following his work shift.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׂכִיר",
+      "en": "a worker of"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַלַּיְלָה,",
+      "en": "the night"
+     }
+    ]
+   },
+   {
+    "he": "שְׂכִיר לַיְלָה גּוֹבֶה כָל הַיּוֹם,",
+    "en": "A night worker can collect all the next day.",
+    "st": "<b>A night laborer collects</b> his wages <b>all the</b> following <b>day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׂכִיר",
+      "en": "a worker of"
+     },
+     {
+      "he": "לַיְלָה",
+      "en": "night"
+     },
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַיּוֹם,",
+      "en": "the day"
+     }
+    ]
+   },
+   {
+    "he": "שְׂכִיר שָׁעוֹת",
+    "en": "A worker by the hour",
+    "st": "while <b>an hourly laborer </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׂכִיר",
+      "en": "a worker of"
+     },
+     {
+      "he": "שָׁעוֹת",
+      "en": "hours"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבֶה כָל הַלַּיְלָה וְכָל הַיּוֹם.",
+    "en": "collects all the night and all the day.",
+    "st": "<b>collects</b> his wages <b>all night and all day.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַלַּיְלָה",
+      "en": "the night"
+     },
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַיּוֹם.",
+      "en": "the day"
+     }
+    ]
+   },
+   {
+    "he": "שְׂכִיר שַׁבָּת, שְׂכִיר חֹדֶשׁ,",
+    "en": "A worker for a week, for a month,",
+    "st": "With regard to <b>a weekly laborer, a monthly laborer, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׂכִיר",
+      "en": "a worker of"
+     },
+     {
+      "he": "שַׁבָּת,",
+      "en": "a week"
+     },
+     {
+      "he": "שְׂכִיר",
+      "en": "a worker of"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "a month"
+     }
+    ]
+   },
+   {
+    "he": "שְׂכִיר שָׁנָה, שְׂכִיר שָׁבוּעַ,",
+    "en": "for a year, or for seven years:",
+    "st": "<b>a yearly laborer,</b> or <b>a laborer</b> for a Sabbatical <b>cycle</b> of seven years,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׂכִיר",
+      "en": "a worker of"
+     },
+     {
+      "he": "שָׁנָה,",
+      "en": "a year"
+     },
+     {
+      "he": "שְׂכִיר",
+      "en": "a worker of"
+     },
+     {
+      "he": "שָׁבוּעַ,",
+      "en": "seven years"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא בַיּוֹם, גּוֹבֶה כָל הַיּוֹם,",
+    "en": "if he finished by day, he collects all that day;",
+    "st": "if he <b>left</b> upon the completion of his work <b>in the day, he collects</b> his wages <b>all day;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "he left"
+     },
+     {
+      "he": "בַיּוֹם,",
+      "en": "by day"
+     },
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַיּוֹם,",
+      "en": "the day"
+     }
+    ]
+   },
+   {
+    "he": "יָצָא בַלַּיְלָה, גּוֹבֶה כָל הַלַּיְלָה וְכָל הַיּוֹם:",
+    "en": "if he finished at night, he collects all that night and the next day.",
+    "st": "if he <b>left at night, he collects</b> his wages <b>all night and all day.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָצָא",
+      "en": "he left"
+     },
+     {
+      "he": "בַלַּיְלָה,",
+      "en": "at night"
+     },
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַלַּיְלָה",
+      "en": "the night"
+     },
+     {
+      "he": "וְכָל",
+      "en": "and all"
+     },
+     {
+      "he": "הַיּוֹם:",
+      "en": "the day"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 12,
+  "summary": "One must pay workers, and rent for animals and vessels, on time when they ask for it. The mishnah teaches when a worker can swear and take his pay, and what is different for a ger toshav.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֶחָד שְׂכַר אָדָם",
+    "en": "Whether a person's pay,",
+    "st": "<b>Whether</b> referring to <b>a person’s wages</b> that he receives",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "שְׂכַר",
+      "en": "pay of"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד שְׂכַר בְּהֵמָה",
+    "en": "or rent for an animal,",
+    "st": "<b>or the renting of an animal </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "שְׂכַר",
+      "en": "pay of"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד שְׂכַר כֵּלִים,",
+    "en": "or rent for vessels,",
+    "st": "<b>or the renting of utensils,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "שְׂכַר",
+      "en": "pay of"
+     },
+     {
+      "he": "כֵּלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "יֶשׁ בּוֹ מִשּׁוּם (דברים כד)",
+    "en": "all come under",
+    "st": "are all <b>subject to</b> the prohibition <b>of: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "כד)",
+      "en": "24)"
+     }
+    ]
+   },
+   {
+    "he": "בְּיוֹמוֹ תִתֵּן שְׂכָרוֹ,",
+    "en": "\"On his day you shall give him his pay,\"",
+    "st": "<b>“On the same day you shall give him his wages”</b> (Deuteronomy 24:15),",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּיוֹמוֹ",
+      "en": "on his day"
+     },
+     {
+      "he": "תִתֵּן",
+      "en": "you shall give"
+     },
+     {
+      "he": "שְׂכָרוֹ,",
+      "en": "his pay"
+     }
+    ]
+   },
+   {
+    "he": "וְיֶשׁ בּוֹ מִשּׁוּם (ויקרא יט)",
+    "en": "and under",
+    "st": "<b>and</b> are <b>subject to</b> the prohibition <b>of: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֶשׁ",
+      "en": "and there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "יט)",
+      "en": "19)"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תָלִין פְּעֻלַּת שָׂכִיר",
+    "en": "\"Do not keep a worker's pay",
+    "st": "<b>“The wages of a hired laborer shall not remain </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תָלִין",
+      "en": "you shall keep overnight"
+     },
+     {
+      "he": "פְּעֻלַּת",
+      "en": "the pay of"
+     },
+     {
+      "he": "שָׂכִיר",
+      "en": "a worker"
+     }
+    ]
+   },
+   {
+    "he": "אִתְּךָ עַד בֹּקֶר.",
+    "en": "with you until morning.\"",
+    "st": "<b>with you all night until the morning”</b> (Leviticus 19:13).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִתְּךָ",
+      "en": "with you"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "בֹּקֶר.",
+      "en": "morning"
+     }
+    ]
+   },
+   {
+    "he": "אֵימָתַי, בִּזְמַן שֶׁתְּבָעוֹ,",
+    "en": "When? When he asked for it.",
+    "st": "<b>When</b> does he transgress these prohibitions? He transgresses them <b>when</b> the one owed the money <b>claimed</b> the payment from <b>him.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵימָתַי,",
+      "en": "when?"
+     },
+     {
+      "he": "בִּזְמַן",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁתְּבָעוֹ,",
+      "en": "that he asked him"
+     }
+    ]
+   },
+   {
+    "he": "לֹא תְבָעוֹ, אֵינוֹ עוֹבֵר עָלָיו.",
+    "en": "If he did not ask for it, he does not break the mitzvah.",
+    "st": "If he <b>did not claim</b> his payment from <b>him</b> the other <b>does not transgress</b> the prohibitions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תְבָעוֹ,",
+      "en": "he asked him"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "pass"
+     },
+     {
+      "he": "עָלָיו.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "הִמְחָהוּ אֵצֶל חֶנְוָנִי אוֹ אֵצֶל שֻׁלְחָנִי,",
+    "en": "If he sent him to be paid by a storekeeper or a money changer,",
+    "st": "<b>If</b> the one who owes the money <b>transferred his</b> payment by leaving instructions <b>with a storekeeper or with a money changer</b> to pay him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִמְחָהוּ",
+      "en": "he sent him"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "to"
+     },
+     {
+      "he": "חֶנְוָנִי",
+      "en": "a storekeeper"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "to"
+     },
+     {
+      "he": "שֻׁלְחָנִי,",
+      "en": "a money changer"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ עוֹבֵר עָלָיו.",
+    "en": "he does not break the mitzvah.",
+    "st": "<b>he does not transgress</b> the prohibitions. The mishna discusses other related halakhot:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "עוֹבֵר",
+      "en": "pass"
+     },
+     {
+      "he": "עָלָיו.",
+      "en": "on it"
+     }
+    ]
+   },
+   {
+    "he": "שָׂכִיר, בִּזְמַנּוֹ נִשְׁבָּע וְנוֹטֵל,",
+    "en": "A worker, in his time, swears and takes his pay.",
+    "explain": "If the employer says he already paid him.",
+    "st": "If <b>a hired laborer</b> requests payment <b>at</b> the proper <b>time</b> and the employer claims he already paid him, the laborer <b>takes an oath</b> that he did not receive his wages <b>and</b> then <b>takes</b> the wages from the employer.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׂכִיר,",
+      "en": "a worker"
+     },
+     {
+      "he": "בִּזְמַנּוֹ",
+      "en": "in his time"
+     },
+     {
+      "he": "נִשְׁבָּע",
+      "en": "swears"
+     },
+     {
+      "he": "וְנוֹטֵל,",
+      "en": "and takes"
+     }
+    ]
+   },
+   {
+    "he": "עָבַר זְמַנּוֹ אֵינוֹ נִשְׁבָּע וְנוֹטֵל.",
+    "en": "If his time passed, he does not swear and take.",
+    "st": "If <b>the time had passed,</b> he does <b>not take an oath and take</b> the wages.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָבַר",
+      "en": "passed"
+     },
+     {
+      "he": "זְמַנּוֹ",
+      "en": "his time"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "נִשְׁבָּע",
+      "en": "swear"
+     },
+     {
+      "he": "וְנוֹטֵל.",
+      "en": "and take"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ עֵדִים שֶׁתְּבָעוֹ,",
+    "en": "If there are witnesses that he asked for it,",
+    "st": "<b>If there are witnesses</b> who testify <b>that he claimed</b> the money from <b>him at</b> the proper <b>time, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "שֶׁתְּבָעוֹ,",
+      "en": "that he asked him"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה נִשְׁבָּע וְנוֹטֵל.",
+    "en": "he swears and takes.",
+    "st": "<b>he takes an oath and takes</b> the money.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "נִשְׁבָּע",
+      "en": "swears"
+     },
+     {
+      "he": "וְנוֹטֵל.",
+      "en": "and takes"
+     }
+    ]
+   },
+   {
+    "he": "גֵּר תּוֹשָׁב יֶשׁ בּוֹ",
+    "en": "A ger toshav comes under",
+    "explain": "A non-Jew who keeps the seven mitzvos of Bnei Noach.",
+    "st": "One who hires <b>a gentile who resides in Eretz Yisrael and observes the seven Noahide mitzvot [ger toshav] </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּר",
+      "en": "a ger"
+     },
+     {
+      "he": "תּוֹשָׁב",
+      "en": "toshav"
+     },
+     {
+      "he": "יֶשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in him"
+     }
+    ]
+   },
+   {
+    "he": "מִשּׁוּם בְּיוֹמוֹ תִתֵּן שְׂכָרוֹ,",
+    "en": "\"On his day you shall give him his pay,\"",
+    "st": "<b>is subject to</b> the prohibition <b>of: “On the same day you shall give him his wages,” </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "בְּיוֹמוֹ",
+      "en": "on his day"
+     },
+     {
+      "he": "תִתֵּן",
+      "en": "you shall give"
+     },
+     {
+      "he": "שְׂכָרוֹ,",
+      "en": "his pay"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין בּוֹ מִשּׁוּם לֹא תָלִין",
+    "en": "but not under \"Do not keep",
+    "st": "<b>but is not subject to</b> the negative mitzva <b>of: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is not"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in him"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "תָלִין",
+      "en": "you shall keep overnight"
+     }
+    ]
+   },
+   {
+    "he": "פְּעֻלַּת שָׂכִיר אִתְּךָ עַד בֹּקֶר:",
+    "en": "a worker's pay with you until morning.\"",
+    "st": "<b>“The wages of a hired laborer shall not remain with you all night until the morning.”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פְּעֻלַּת",
+      "en": "the pay of"
+     },
+     {
+      "he": "שָׂכִיר",
+      "en": "a worker"
+     },
+     {
+      "he": "אִתְּךָ",
+      "en": "with you"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "בֹּקֶר:",
+      "en": "morning"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 9,
+  "mishnah": 13,
+  "summary": "A lender may take a security only through beis din, and may not go into the borrower's house. He must give back what the poor man needs each day, and may not take from a widow or take things used to make food.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּלְוֶה אֶת חֲבֵרוֹ,",
+    "en": "If someone lends money to his friend,",
+    "st": "With regard to one <b>who lends</b> money to <b>another</b> and the debtor fails to repay it at the end of the term of the loan,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּלְוֶה",
+      "en": "the one who lends"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יְמַשְׁכְּנֶנּוּ אֶלָּא בְּבֵית דִּין,",
+    "en": "he may take a security only through beis din,",
+    "explain": "A security is something kept until the loan is paid.",
+    "st": "the creditor <b>may take collateral from him</b> to ensure payment <b>only by means of</b> an agent of <b>the court,</b> not of his own accord.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יְמַשְׁכְּנֶנּוּ",
+      "en": "he should take a security from him"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "through beis"
+     },
+     {
+      "he": "דִּין,",
+      "en": "din"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יִכָּנֵס לְבֵיתוֹ לִטֹּל מַשְׁכּוֹנוֹ,",
+    "en": "and he may not go into his house to take his security,",
+    "st": "<b>And he may not enter</b> the debtor’s <b>house to take his collateral, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יִכָּנֵס",
+      "en": "he should go in"
+     },
+     {
+      "he": "לְבֵיתוֹ",
+      "en": "to his house"
+     },
+     {
+      "he": "לִטֹּל",
+      "en": "to take"
+     },
+     {
+      "he": "מַשְׁכּוֹנוֹ,",
+      "en": "his security"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (דברים כד) בַּחוּץ תַּעֲמֹד.",
+    "en": "as it says, \"Stand outside.\"",
+    "st": "<b>as it is stated:</b> “When you lend your neighbor any manner of loan, you shall not go into his house to take his collateral. <b>You shall stand outside,</b>",
+    "stMore": "and the man to whom you lend shall bring forth the collateral to you outside” (Deuteronomy 24:10–11).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "כד)",
+      "en": "24)"
+     },
+     {
+      "he": "בַּחוּץ",
+      "en": "outside"
+     },
+     {
+      "he": "תַּעֲמֹד.",
+      "en": "you shall stand"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ לוֹ שְׁנֵי כֵלִים,",
+    "en": "If he had two vessels,",
+    "st": "If the debtor <b>had two utensils</b> of the same kind,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "נוֹטֵל אֶחָד וּמַנִּיחַ אֶחָד,",
+    "en": "he takes one and leaves one.",
+    "st": "the creditor <b>takes one and leaves</b> the other <b>one</b> in the debtor’s possession.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹטֵל",
+      "en": "he takes"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וּמַנִּיחַ",
+      "en": "and leaves"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וּמַחֲזִיר אֶת הַכַּר בַּלַּיְלָה",
+    "en": "And he gives back the pillow at night",
+    "st": "<b>And</b> in addition, the creditor <b>must return a pillow at night,</b> as the debtor requires it for sleeping,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַחֲזִיר",
+      "en": "and he returns"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכַּר",
+      "en": "the pillow"
+     },
+     {
+      "he": "בַּלַּיְלָה",
+      "en": "at night"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶת הַמַּחֲרֵשָׁה בַיּוֹם.",
+    "en": "and the plow by day.",
+    "st": "<b>and a plow,</b> which is needed for his daytime work, <b>by day. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַמַּחֲרֵשָׁה",
+      "en": "the plow"
+     },
+     {
+      "he": "בַיּוֹם.",
+      "en": "by day"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם מֵת,",
+    "en": "And if he died,",
+    "st": "<b>If</b> the debtor <b>died,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "מֵת,",
+      "en": "he died"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מַחֲזִיר לְיוֹרְשָׁיו.",
+    "en": "he does not give it back to his heirs.",
+    "st": "he is <b>not</b> required to <b>return</b> it <b>to</b> the debtor’s <b>heirs. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מַחֲזִיר",
+      "en": "return"
+     },
+     {
+      "he": "לְיוֹרְשָׁיו.",
+      "en": "to his heirs"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף לְעַצְמוֹ אֵינוֹ מַחֲזִיר",
+    "en": "even to the borrower himself he gives it back",
+    "st": "<b>Even to</b> the debtor <b>himself</b> he needs to <b>return</b> the collateral each day",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "לְעַצְמוֹ",
+      "en": "to himself"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מַחֲזִיר",
+      "en": "return"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַד שְׁלשִׁים יוֹם,",
+    "en": "only for thirty days,",
+    "st": "<b>only until thirty days</b> have passed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשְּׁלשִׁים יוֹם וּלְהַלָּן מוֹכְרָן בְּבֵית דִּין.",
+    "en": "and after thirty days he sells them through beis din.",
+    "st": "<b>and from thirty days onward,</b> the creditor can <b>sell them in court,</b> with the proceeds going toward payment of the debt.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשְּׁלשִׁים",
+      "en": "and from thirty"
+     },
+     {
+      "he": "יוֹם",
+      "en": "days"
+     },
+     {
+      "he": "וּלְהַלָּן",
+      "en": "and onward"
+     },
+     {
+      "he": "מוֹכְרָן",
+      "en": "he sells them"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "through beis"
+     },
+     {
+      "he": "דִּין.",
+      "en": "din"
+     }
+    ]
+   },
+   {
+    "he": "אַלְמָנָה, בֵּין שֶׁהִיא עֲנִיָּה בֵּין שֶׁהִיא עֲשִׁירָה,",
+    "en": "A widow, whether she is poor or rich,",
+    "st": "With regard to <b>a widow, whether she is poor</b> or <b>whether she is wealthy,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַלְמָנָה,",
+      "en": "a widow"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "עֲנִיָּה",
+      "en": "poor"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "שֶׁהִיא",
+      "en": "that she"
+     },
+     {
+      "he": "עֲשִׁירָה,",
+      "en": "rich"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְמַשְׁכְּנִין אוֹתָהּ,",
+    "en": "we may not take a security from her,",
+    "st": "one <b>may not take collateral from her, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "מְמַשְׁכְּנִין",
+      "en": "take a security from"
+     },
+     {
+      "he": "אוֹתָהּ,",
+      "en": "her"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (דברים כד)",
+    "en": "as it says,",
+    "st": "<b>as it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "כד)",
+      "en": "24)"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא תַחֲבֹל בֶּגֶד אַלְמָנָה.",
+    "en": "\"Do not take a widow's garment as a security.\"",
+    "st": "<b>“And you may not take the garment of a widow as collateral”</b> (Deuteronomy 24:17).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "תַחֲבֹל",
+      "en": "you shall take as security"
+     },
+     {
+      "he": "בֶּגֶד",
+      "en": "the garment of"
+     },
+     {
+      "he": "אַלְמָנָה.",
+      "en": "a widow"
+     }
+    ]
+   },
+   {
+    "he": "הַחוֹבֵל אֶת הָרֵחַיִם,",
+    "en": "One who takes millstones as a security",
+    "explain": "Stones for grinding flour.",
+    "st": "One <b>who takes a millstone as collateral </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹבֵל",
+      "en": "the one who takes as security"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָרֵחַיִם,",
+      "en": "the millstones"
+     }
+    ]
+   },
+   {
+    "he": "עוֹבֵר בְּלֹא תַעֲשֶׂה,",
+    "en": "breaks a \"do not\" mitzvah,",
+    "st": "<b>violates a prohibition, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עוֹבֵר",
+      "en": "passes"
+     },
+     {
+      "he": "בְּלֹא",
+      "en": "on a"
+     },
+     {
+      "he": "תַעֲשֶׂה,",
+      "en": "don't"
+     }
+    ]
+   },
+   {
+    "he": "וְחַיָּב מִשּׁוּם שְׁנֵי כֵלִים,",
+    "en": "and is punished for two vessels,",
+    "st": "<b>and</b> he is <b>liable for</b> taking <b>two vessels,</b> i.e., both millstones in the pair,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְחַיָּב",
+      "en": "and is liable"
+     },
+     {
+      "he": "מִשּׁוּם",
+      "en": "because of"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שם) לֹא יַחֲבֹל רֵחַיִם וָרָכֶב.",
+    "en": "as it says, \"Do not take the lower or upper millstone as a security.\"",
+    "st": "<b>as it is stated: “He shall not take the lower or upper millstone as collateral”</b> (Deuteronomy 24:6). The tanna adds:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שם)",
+      "en": "(there)"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַחֲבֹל",
+      "en": "he shall take as security"
+     },
+     {
+      "he": "רֵחַיִם",
+      "en": "lower millstone"
+     },
+     {
+      "he": "וָרָכֶב.",
+      "en": "and upper millstone"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא רֵחַיִם וָרֶכֶב בִּלְבַד אָמְרוּ,",
+    "en": "And they did not say only the millstones,",
+    "st": "<b>Not only</b> did the Sages <b>say</b> that it is prohibited to take <b>the lower or upper millstone</b> as collateral,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "רֵחַיִם",
+      "en": "lower millstone"
+     },
+     {
+      "he": "וָרֶכֶב",
+      "en": "and upper millstone"
+     },
+     {
+      "he": "בִּלְבַד",
+      "en": "only"
+     },
+     {
+      "he": "אָמְרוּ,",
+      "en": "they said"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כָל דָּבָר שֶׁעוֹשִׂין בּוֹ אֹכֶל נֶפֶשׁ,",
+    "en": "but anything used to make food,",
+    "st": "<b>but</b> they also said that one may not take <b>anything that</b> people <b>use in the preparation of food [okhel nefesh], </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "כָל",
+      "en": "any"
+     },
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "שֶׁעוֹשִׂין",
+      "en": "that they make"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "with it"
+     },
+     {
+      "he": "אֹכֶל",
+      "en": "food of"
+     },
+     {
+      "he": "נֶפֶשׁ,",
+      "en": "a soul"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (דברים כד)",
+    "en": "as it says,",
+    "st": "<b>as it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(דברים",
+      "en": "(Devarim"
+     },
+     {
+      "he": "כד)",
+      "en": "24)"
+     }
+    ]
+   },
+   {
+    "he": "כִּי נֶפֶשׁ הוּא חֹבֵל:",
+    "en": "\"For he is taking a life as a security.\"",
+    "explain": "A person needs food to live.",
+    "st": "<b>“For he takes a man’s life [nefesh] as collateral”</b> (Deuteronomy 24:6).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּי",
+      "en": "for"
+     },
+     {
+      "he": "נֶפֶשׁ",
+      "en": "a life"
+     },
+     {
+      "he": "הוּא",
+      "en": "he is"
+     },
+     {
+      "he": "חֹבֵל:",
+      "en": "taking as security"
+     }
+    ]
+   }
+  ]
+ }
+]

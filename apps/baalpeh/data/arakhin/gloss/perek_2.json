@@ -1,0 +1,1993 @@
+[
+ {
+  "perek": 2,
+  "mishnah": 1,
+  "summary": "An erech is never less than one sela and never more than fifty. The mishnah then lists other things in the Torah that have a smallest and a biggest number.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין בָּעֲרָכִין פָּחוּת מִסֶּלַע,",
+    "en": "For an erech, no one pays less than one sela,",
+    "explain": "A poor person pays what he can, but at least one sela.",
+    "st": "<b>One cannot be charged for a valuation less than a sela,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "בָּעֲרָכִין",
+      "en": "in erech payments"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִסֶּלַע,",
+      "en": "than a sela",
+      "note": "A silver coin."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יָתֵר עַל חֲמִשִּׁים סָלַע.",
+    "en": "and no one pays more than fifty sela'im.",
+    "st": "<b>nor</b> can one be charged <b>more than fifty sela.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "more"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "סָלַע.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד, נָתַן סֶלַע וְהֶעֱשִׁיר,",
+    "en": "How so? If a poor person gave one sela and later became rich,",
+    "st": "<b>How so?</b> If <b>one gave one sela and became wealthy,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד,",
+      "en": "how so?"
+     },
+     {
+      "he": "נָתַן",
+      "en": "he gave"
+     },
+     {
+      "he": "סֶלַע",
+      "en": "a sela"
+     },
+     {
+      "he": "וְהֶעֱשִׁיר,",
+      "en": "and became rich"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ נוֹתֵן כְּלוּם.",
+    "en": "he does not have to give anything more.",
+    "st": "he is <b>not</b> required to <b>give anything</b> more, as he has fulfilled his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "give"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything"
+     }
+    ]
+   },
+   {
+    "he": "פָּחוֹת מִסֶּלַע וְהֶעֱשִׁיר,",
+    "en": "If he gave less than a sela and then became rich,",
+    "st": "If he gave <b>less than a sela and became wealthy,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּחוֹת",
+      "en": "less"
+     },
+     {
+      "he": "מִסֶּלַע",
+      "en": "than a sela"
+     },
+     {
+      "he": "וְהֶעֱשִׁיר,",
+      "en": "and became rich"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן חֲמִשִּׁים סָלַע.",
+    "en": "he must give fifty sela'im.",
+    "st": "he is required to <b>give fifty sela,</b> as he has not fulfilled his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "סָלַע.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה בְיָדָיו חָמֵשׁ סְלָעִים,",
+    "en": "If the poor person had five sela'im,",
+    "st": "If <b>there were five sela in</b> the <b>possession</b> of the destitute person,",
+    "stMore": "and the valuation he undertook is more than five sela, how much should he pay?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "there were"
+     },
+     {
+      "he": "בְיָדָיו",
+      "en": "in his hands"
+     },
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "סְלָעִים,",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי מֵאִיר אוֹמֵר,",
+    "en": "Rabbi Meir says,",
+    "st": "<b>Rabbi Meir says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר",
+      "en": "Meir"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ נוֹתֵן אֶלָּא אֶחָת.",
+    "en": "he gives only one.",
+    "st": "<b>He gives only one</b> sela and thereby fulfills his obligation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "give"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "אֶחָת.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Chachamim say,",
+    "st": "<b>And the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Chachamim"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן אֶת כֻּלָּם.",
+    "en": "he gives all of them.",
+    "st": "<b>He gives all</b> five.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "כֻּלָּם.",
+      "en": "all of them"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בָּעֲרָכִין פָּחוּת מִסֶּלַע,",
+    "en": "For an erech, no one pays less than one sela,",
+    "st": "<b>One cannot be charged for a valuation less than a sela;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "בָּעֲרָכִין",
+      "en": "in erech payments"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִסֶּלַע,",
+      "en": "than a sela"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יָתֵר עַל חֲמִשִּׁים סֶלַע.",
+    "en": "and no one pays more than fifty sela'im.",
+    "st": "<b>nor</b> can one be charged <b>more than fifty sela.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "more"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "חֲמִשִּׁים",
+      "en": "fifty"
+     },
+     {
+      "he": "סֶלַע.",
+      "en": "sela'im"
+     }
+    ]
+   },
+   {
+    "he": "אֵין פֶּתַח בַּטּוֹעָה פָּחוּת מִשִּׁבְעָה,",
+    "en": "A woman who is unsure about a kind of tumah cannot become tahor in fewer than seven clean days,",
+    "st": "If a woman experienced a discharge of blood and is <b>unsure</b> whether it was during her days of menstruation or during the eleven days that would render her a zava, the <b>alleviation</b> of her state of uncertainty does <b>not</b> occur in <b>fewer than seven</b> clean days,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is no"
+     },
+     {
+      "he": "פֶּתַח",
+      "en": "way out"
+     },
+     {
+      "he": "בַּטּוֹעָה",
+      "en": "for one who is unsure"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִשִּׁבְעָה,",
+      "en": "than seven"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יָתֵר עַל שִׁבְעָה עָשָׂר.",
+    "en": "and it never takes more than seventeen.",
+    "st": "<b>nor</b> in <b>more than seventeen</b> clean days,",
+    "stMore": "depending on the number of days that she experiences the discharge.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "more"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "שִׁבְעָה",
+      "en": "seven"
+     },
+     {
+      "he": "עָשָׂר.",
+      "en": "and ten (seventeen)"
+     }
+    ]
+   },
+   {
+    "he": "אֵין בַּנְּגָעִים פָּחוּת מִשָּׁבוּעַ אֶחָד,",
+    "en": "For tzaraas marks, the Kohen never closes a person away for less than one week,",
+    "st": "There are symptoms of leprosy that a priest will immediately confirm to be ritually pure or ritually impure, and there are others for which the priest quarantines the leper in order to determine his status. <b>With regard to leprous marks, there is no</b> quarantine that is <b>less than one week</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "there is not"
+     },
+     {
+      "he": "בַּנְּגָעִים",
+      "en": "for tzaraas marks",
+      "note": "Tzaraas is a skin sickness from the Torah; a Kohen looks at the marks."
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִשָּׁבוּעַ",
+      "en": "than a week"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יָתֵר עַל שְׁלשָׁה שָׁבוּעוֹת:",
+    "en": "and never more than three weeks.",
+    "st": "<b>and none greater than three weeks.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "more"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "שְׁלשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "שָׁבוּעוֹת:",
+      "en": "weeks"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 2,
+  "summary": "More things that have a smallest and a biggest number: full months in a year, when the Two Loaves and the lechem hapanim are eaten, and the day of a bris milah.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין פּוֹחֲתִין מֵאַרְבָּעָה חֲדָשִׁים הַמְעֻבָּרִים בְּשָׁנָה,",
+    "en": "There are no fewer than four full months in a year,",
+    "explain": "A full month has thirty days.",
+    "st": "<b>No fewer than four full</b> thirty-day <b>months</b> may be established <b>during</b> the course of <b>a year,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "have fewer"
+     },
+     {
+      "he": "מֵאַרְבָּעָה",
+      "en": "than four"
+     },
+     {
+      "he": "חֲדָשִׁים",
+      "en": "months"
+     },
+     {
+      "he": "הַמְעֻבָּרִים",
+      "en": "full"
+     },
+     {
+      "he": "בְּשָׁנָה,",
+      "en": "in a year"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא נִרְאֶה יָתֵר עַל שְׁמֹנָה.",
+    "en": "and it did not seem right to have more than eight.",
+    "st": "<b>and it did not seem</b> appropriate to establish <b>more than eight.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נִרְאֶה",
+      "en": "it seemed right"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "more"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "שְׁמֹנָה.",
+      "en": "eight"
+     }
+    ]
+   },
+   {
+    "he": "שְׁתֵּי הַלֶּחֶם נֶאֱכָלוֹת אֵין פָּחוּת",
+    "en": "The Two Loaves of Shavuos are eaten no sooner",
+    "st": "<b>The two loaves</b> that are brought to the Temple on Shavuot <b>are eaten</b> by the priests <b>not before</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁתֵּי",
+      "en": "the Two"
+     },
+     {
+      "he": "הַלֶּחֶם",
+      "en": "Loaves",
+      "note": "Two special breads brought in the Beis Hamikdash on Shavuos."
+     },
+     {
+      "he": "נֶאֱכָלוֹת",
+      "en": "are eaten"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "sooner"
+     }
+    ]
+   },
+   {
+    "he": "מִשְּׁנַיִם וְלֹא יָתֵר עַל שְׁלשָׁה.",
+    "en": "than the second day after baking, and no later than the third.",
+    "st": "<b>the second and not after the third</b> day from when they were baked.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשְּׁנַיִם",
+      "en": "than the second"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "later"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "שְׁלשָׁה.",
+      "en": "the third"
+     }
+    ]
+   },
+   {
+    "he": "לֶחֶם הַפָּנִים נֶאֱכָל אֵין פָּחוּת מִתִּשְׁעָה",
+    "en": "The lechem hapanim is eaten no sooner than the ninth day after baking,",
+    "st": "<b>The shewbread is eaten not before the ninth</b> day from when it was baked,",
+    "stMore": "which is the situation in a regular week when the bread is baked on Friday and eaten on the following Shabbat;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֶחֶם",
+      "en": "the bread"
+     },
+     {
+      "he": "הַפָּנִים",
+      "en": "of the Shulchan",
+      "note": "The lechem hapanim, breads that stayed on the golden table all week."
+     },
+     {
+      "he": "נֶאֱכָל",
+      "en": "is eaten"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "sooner"
+     },
+     {
+      "he": "מִתִּשְׁעָה",
+      "en": "than the ninth"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יָתֵר עַל אַחַד עָשָׂר.",
+    "en": "and no later than the eleventh.",
+    "st": "<b>and not after the eleventh</b> day,",
+    "stMore": "when the two Festival days of Rosh HaShana occur on Thursday and Friday, as the shewbread is baked on Wednesday and not eaten until the following Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "later"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "אַחַד",
+      "en": "one"
+     },
+     {
+      "he": "עָשָׂר.",
+      "en": "and ten (eleventh)"
+     }
+    ]
+   },
+   {
+    "he": "קָטָן נִמּוֹל אֵין פָּחוּת מִשְּׁמֹנָה",
+    "en": "A baby boy has his bris milah no sooner than the eighth day,",
+    "st": "<b>A minor boy is not circumcised before the eighth</b> day after his birth",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קָטָן",
+      "en": "a baby"
+     },
+     {
+      "he": "נִמּוֹל",
+      "en": "gets his bris"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "sooner"
+     },
+     {
+      "he": "מִשְּׁמֹנָה",
+      "en": "than the eighth"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יָתֵר עַל שְׁנֵים עָשָׂר:",
+    "en": "and no later than the twelfth day.",
+    "st": "<b>and not after the twelfth</b> day.",
+    "stMore": "Normally a newborn is circumcised on his eighth day. If he was born during twilight, which an uncertain period of day or night, he is circumcised on what would be the eighth day of his birth if he is was born at night, which is the ninth day if he was born during the day. If he was born during twilight on Shabbat eve, the circumcision cannot be performed on Friday, as he might have been born on Shabbat and therefore Friday is only the seventh day. And the circumcision cannot be on Shabbat, as perhaps he was born on Friday and only circumcision performed on the eighth day overrides Shabbat. Therefore, it is postponed until after Shabbat. If two days of Rosh HaShana occur on Sunday and Monday, the circumcision is postponed until Tuesday, the twelfth day after birth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יָתֵר",
+      "en": "later"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר:",
+      "en": "and ten (twelfth)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 3,
+  "summary": "How many trumpet blasts, harps and flutes were used in the Beis Hamikdash, and on which twelve days the flute was played before the mizbe'ach.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין פּוֹחֲתִין מֵעֶשְׂרִים וְאַחַת תְּקִיעוֹת בַּמִּקְדָּשׁ",
+    "en": "They blow no fewer than twenty-one trumpet blasts each day in the Beis Hamikdash,",
+    "st": "<b>No fewer than twenty-one</b> trumpet <b>blasts are</b> sounded daily <b>in the Temple,</b>",
+    "stMore": "as each day three blasts were sounded for the opening of the gates in the morning, nine for the daily morning offering, and nine for the daily afternoon offering, totaling twenty-one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "have fewer"
+     },
+     {
+      "he": "מֵעֶשְׂרִים",
+      "en": "than twenty"
+     },
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "תְּקִיעוֹת",
+      "en": "trumpet blasts"
+     },
+     {
+      "he": "בַּמִּקְדָּשׁ",
+      "en": "in the Beis Hamikdash"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מוֹסִיפִין עַל אַרְבָּעִים וּשְׁמֹנֶה.",
+    "en": "and never more than forty-eight.",
+    "st": "<b>And no more than forty-eight are</b> ever sounded on a single day.",
+    "stMore": "This would occur on the Friday of Sukkot, when they would sound an additional twelve blasts during the ritual of drawing the water for the water libation; nine for the additional offerings; three to signal the population to cease their work before Shabbat; and three more to mark the beginning of Shabbat.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and we do not"
+     },
+     {
+      "he": "מוֹסִיפִין",
+      "en": "add"
+     },
+     {
+      "he": "עַל",
+      "en": "more than"
+     },
+     {
+      "he": "אַרְבָּעִים",
+      "en": "forty"
+     },
+     {
+      "he": "וּשְׁמֹנֶה.",
+      "en": "and eight"
+     }
+    ]
+   },
+   {
+    "he": "אֵין פּוֹחֲתִין מִשְּׁנֵי נְבָלִין",
+    "en": "The Levi'im play no fewer than two lyres,",
+    "st": "When accompanying their song with instruments, the Levites <b>do not use fewer than two lyres</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "have fewer"
+     },
+     {
+      "he": "מִשְּׁנֵי",
+      "en": "than two"
+     },
+     {
+      "he": "נְבָלִין",
+      "en": "lyres"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מוֹסִיפִין עַל שִׁשָּׁה.",
+    "en": "and no more than six.",
+    "st": "<b>and do not use more than six.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and we do not"
+     },
+     {
+      "he": "מוֹסִיפִין",
+      "en": "add"
+     },
+     {
+      "he": "עַל",
+      "en": "more than"
+     },
+     {
+      "he": "שִׁשָּׁה.",
+      "en": "six"
+     }
+    ]
+   },
+   {
+    "he": "אֵין פּוֹחֲתִין מִשְּׁנֵי חֲלִילִין וְלֹא",
+    "en": "They play no fewer than two flutes, and no",
+    "st": "When flutes are played, <b>they do not use fewer than two flutes and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "have fewer"
+     },
+     {
+      "he": "מִשְּׁנֵי",
+      "en": "than two"
+     },
+     {
+      "he": "חֲלִילִין",
+      "en": "flutes"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     }
+    ]
+   },
+   {
+    "he": "מוֹסִיפִין עַל שְׁנֵים עָשָׂר.",
+    "en": "more than twelve.",
+    "st": "<b>do not use more than twelve.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹסִיפִין",
+      "en": "we add"
+     },
+     {
+      "he": "עַל",
+      "en": "more than"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר.",
+      "en": "and ten (twelve)"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׁנֵים עָשָׂר יוֹם בַּשָּׁנָה",
+    "en": "And on twelve days of the year",
+    "st": "<b>And</b> there are <b>twelve days during the year</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׁנֵים",
+      "en": "and on two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "and ten (twelve)"
+     },
+     {
+      "he": "יוֹם",
+      "en": "days"
+     },
+     {
+      "he": "בַּשָּׁנָה",
+      "en": "in the year"
+     }
+    ]
+   },
+   {
+    "he": "הֶחָלִיל מַכֶּה לִפְנֵי הַמִּזְבֵּחַ.",
+    "en": "the flute is played before the mizbe'ach:",
+    "st": "<b>when the flute plays before the altar:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶחָלִיל",
+      "en": "the flute"
+     },
+     {
+      "he": "מַכֶּה",
+      "en": "plays"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "הַמִּזְבֵּחַ.",
+      "en": "the mizbe'ach"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁחִיטַת פֶּסַח רִאשׁוֹן,",
+    "en": "when the first Korban Pesach is shechted,",
+    "st": "<b>At</b> the time of <b>the slaughter of the first Paschal offering,</b>",
+    "stMore": "on the fourteenth of Nisan;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁחִיטַת",
+      "en": "at the shechting of"
+     },
+     {
+      "he": "פֶּסַח",
+      "en": "the Pesach"
+     },
+     {
+      "he": "רִאשׁוֹן,",
+      "en": "first"
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׁחִיטַת פֶּסַח שֵׁנִי,",
+    "en": "when the second Korban Pesach, Pesach Sheni, is shechted,",
+    "st": "<b>and at</b> the time of <b>the slaughter of the second Paschal offering,</b>",
+    "stMore": "on the fourteenth of Iyyar;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׁחִיטַת",
+      "en": "and at the shechting of"
+     },
+     {
+      "he": "פֶּסַח",
+      "en": "the Pesach"
+     },
+     {
+      "he": "שֵׁנִי,",
+      "en": "second"
+     }
+    ]
+   },
+   {
+    "he": "וּבְיוֹם טוֹב רִאשׁוֹן שֶׁל פֶּסַח,",
+    "en": "on the first Yom Tov of Pesach,",
+    "st": "<b>and on the first festival</b> day <b>of Passover;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְיוֹם",
+      "en": "and on the day"
+     },
+     {
+      "he": "טוֹב",
+      "en": "of Yom Tov"
+     },
+     {
+      "he": "רִאשׁוֹן",
+      "en": "first"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "פֶּסַח,",
+      "en": "Pesach"
+     }
+    ]
+   },
+   {
+    "he": "וּבְיוֹם טוֹב שֶׁל עֲצֶרֶת,",
+    "en": "on the Yom Tov of Shavuos,",
+    "st": "<b>and on the festival of Shavuot;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְיוֹם",
+      "en": "and on the day"
+     },
+     {
+      "he": "טוֹב",
+      "en": "of Yom Tov"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֲצֶרֶת,",
+      "en": "Shavuos",
+      "note": "The Mishnah calls Shavuos Atzeres."
+     }
+    ]
+   },
+   {
+    "he": "וּבִשְׁמוֹנַת יְמֵי הֶחָג,",
+    "en": "and on the eight days of Sukkos.",
+    "st": "<b>and on</b> all <b>eight days of the festival of Sukkot.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִשְׁמוֹנַת",
+      "en": "and on the eight"
+     },
+     {
+      "he": "יְמֵי",
+      "en": "days of"
+     },
+     {
+      "he": "הֶחָג,",
+      "en": "the Chag",
+      "note": "Sukkos."
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הָיָה מַכֶּה בְּאַבּוּב שֶׁל",
+    "en": "And they would not play on a flute made of",
+    "st": "<b>And one would not play with a</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מַכֶּה",
+      "en": "playing"
+     },
+     {
+      "he": "בְּאַבּוּב",
+      "en": "on a flute"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     }
+    ]
+   },
+   {
+    "he": "נְחשֶׁת אֶלָּא בְּאַבּוּב שֶׁל קָנֶה,",
+    "en": "copper, but only on a flute made of reed,",
+    "st": "<b>copper flute; rather, one would play with a flute of reed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נְחשֶׁת",
+      "en": "copper"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but only"
+     },
+     {
+      "he": "בְּאַבּוּב",
+      "en": "on a flute"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "קָנֶה,",
+      "en": "reed"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁקּוֹלוֹ עָרֵב.",
+    "en": "because its sound is sweeter.",
+    "st": "<b>because its sound is</b> more <b>pleasant.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁקּוֹלוֹ",
+      "en": "its sound"
+     },
+     {
+      "he": "עָרֵב.",
+      "en": "is sweet"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הָיָה מַחֲלִיק אֶלָּא בְאַבּוּב יְחִידִי,",
+    "en": "And they would end the music with only one flute,",
+    "st": "<b>And one would conclude</b> the music <b>only with a single flute,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "מַחֲלִיק",
+      "en": "ending the music"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but only"
+     },
+     {
+      "he": "בְאַבּוּב",
+      "en": "with a flute"
+     },
+     {
+      "he": "יְחִידִי,",
+      "en": "single"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא מַחֲלִיק יָפֶה:",
+    "en": "because that makes a nice ending.",
+    "st": "<b>because it concludes</b> the music <b>nicely.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "it"
+     },
+     {
+      "he": "מַחֲלִיק",
+      "en": "ends the music"
+     },
+     {
+      "he": "יָפֶה:",
+      "en": "nicely"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 4,
+  "summary": "Who were the people who played music in the Beis Hamikdash? The Tannaim argue.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְעַבְדֵי הַכֹּהֲנִים הָיוּ,",
+    "en": "They were slaves of the Kohanim,",
+    "st": "The Temple musicians <b>were slaves of priests;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַבְדֵי",
+      "en": "and slaves of"
+     },
+     {
+      "he": "הַכֹּהֲנִים",
+      "en": "the Kohanim"
+     },
+     {
+      "he": "הָיוּ,",
+      "en": "they were"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "says Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר,",
+    "en": "Rabbi Yosei says,",
+    "st": "<b>Rabbi Yosei says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מִשְׁפְּחוֹת בֵּית הַפְּגָרִים וּבֵית צְפָרְיָא",
+    "en": "they were from the families of Beis Hapegarim and Beis Tzipparya",
+    "st": "The musicians were not slaves, but Israelites from <b>the family of the house of Pegarim and the family of the house of Tzippara</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשְׁפְּחוֹת",
+      "en": "families of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "הַפְּגָרִים",
+      "en": "Hapegarim"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "צְפָרְיָא",
+      "en": "Tzipparya"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵאֶמָּאוֹם הָיוּ מַשִּׂיאִין לַכְּהֻנָּה.",
+    "en": "from Emaum, and they would marry their daughters to Kohanim.",
+    "st": "<b>from</b> the city of <b>Emaum,</b> and their lineage was sufficiently pure that <b>they would marry</b> their daughters <b>to</b> members of <b>the priesthood.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵאֶמָּאוֹם",
+      "en": "and from Emaum",
+      "note": "A town in Eretz Yisrael."
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מַשִּׂיאִין",
+      "en": "marrying"
+     },
+     {
+      "he": "לַכְּהֻנָּה.",
+      "en": "to the Kehunah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי חֲנַנְיָא בֶּן אַנְטִיגְנוֹס אוֹמֵר,",
+    "en": "Rabbi Chanina ben Antigonus says,",
+    "st": "<b>Rabbi Ḥanina ben Antigonus says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "חֲנַנְיָא",
+      "en": "Chanina"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "אַנְטִיגְנוֹס",
+      "en": "Antigonus"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לְוִיִּם הָיוּ:",
+    "en": "they were Levi'im.",
+    "st": "<b>They were Levites.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְוִיִּם",
+      "en": "Levi'im"
+     },
+     {
+      "he": "הָיוּ:",
+      "en": "they were"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 5,
+  "summary": "How many checked lambs were kept ready in the Beis Hamikdash, and how many trumpets, harps and cymbals were played.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין פּוֹחֲתִין מִשִּׁשָּׁה טְלָאִים",
+    "en": "They keep no fewer than six lambs",
+    "st": "One maintains <b>no fewer than six lambs that</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "have fewer"
+     },
+     {
+      "he": "מִשִּׁשָּׁה",
+      "en": "than six"
+     },
+     {
+      "he": "טְלָאִים",
+      "en": "lambs"
+     }
+    ]
+   },
+   {
+    "he": "הַמְבֻקָּרִין בְּלִשְׁכַּת הַטְּלָאִים,",
+    "en": "that were checked for blemishes in the Lamb Room,",
+    "st": "have been <b>inspected</b> for blemishes <b>in the Chamber of the Lambs,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמְבֻקָּרִין",
+      "en": "that were checked"
+     },
+     {
+      "he": "בְּלִשְׁכַּת",
+      "en": "in the room of"
+     },
+     {
+      "he": "הַטְּלָאִים,",
+      "en": "the lambs"
+     }
+    ]
+   },
+   {
+    "he": "כְּדַי לַשַּׁבָּת וְלִשְׁנֵי יָמִים",
+    "en": "enough for Shabbos and the two days",
+    "st": "which are <b>sufficient for</b> the offerings of <b>Shabbat and for the</b> two",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדַי",
+      "en": "enough"
+     },
+     {
+      "he": "לַשַּׁבָּת",
+      "en": "for Shabbos"
+     },
+     {
+      "he": "וְלִשְׁנֵי",
+      "en": "and for the two"
+     },
+     {
+      "he": "יָמִים",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "טוֹבִים שֶׁל רֹאשׁ הַשָּׁנָה,",
+    "en": "of Yom Tov of Rosh Hashanah,",
+    "st": "<b>Festival days of Rosh HaShana</b> that may occur adjacent to it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טוֹבִים",
+      "en": "Yom Tov"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "רֹאשׁ",
+      "en": "Rosh"
+     },
+     {
+      "he": "הַשָּׁנָה,",
+      "en": "Hashanah"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹסִיפִין עַד לְעוֹלָם.",
+    "en": "and they may add as many as they want.",
+    "st": "<b>And one may add</b> inspected lambs <b>up to an infinite</b> number.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹסִיפִין",
+      "en": "and we add"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "לְעוֹלָם.",
+      "en": "forever"
+     }
+    ]
+   },
+   {
+    "he": "אֵין פּוֹחֲתִין מִשְּׁתֵּי חֲצוֹצְרוֹת, וּמוֹסִיפִין עַד לְעוֹלָם.",
+    "en": "They play no fewer than two trumpets, and they may add as many as they want.",
+    "st": "One plays <b>no fewer than two trumpets</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "have fewer"
+     },
+     {
+      "he": "מִשְּׁתֵּי",
+      "en": "than two"
+     },
+     {
+      "he": "חֲצוֹצְרוֹת,",
+      "en": "trumpets"
+     },
+     {
+      "he": "וּמוֹסִיפִין",
+      "en": "and we add"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "לְעוֹלָם.",
+      "en": "forever"
+     }
+    ]
+   },
+   {
+    "he": "אֵין פּוֹחֲתִין מִתִּשְׁעָה כִנּוֹרוֹת, וּמוֹסִיפִין עַד לְעוֹלָם.",
+    "en": "They play no fewer than nine harps, and they may add as many as they want.",
+    "st": "and no fewer <b>than nine harps</b> in the Temple, <b>and one may add up to an infinite</b> number.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "have fewer"
+     },
+     {
+      "he": "מִתִּשְׁעָה",
+      "en": "than nine"
+     },
+     {
+      "he": "כִנּוֹרוֹת,",
+      "en": "harps"
+     },
+     {
+      "he": "וּמוֹסִיפִין",
+      "en": "and we add"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "לְעוֹלָם.",
+      "en": "forever"
+     }
+    ]
+   },
+   {
+    "he": "וְהַצִּלְצָל לְבָד:",
+    "en": "But the cymbal is played alone.",
+    "st": "<b>And the cymbal</b> was played <b>alone,</b> and none may be added to it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַצִּלְצָל",
+      "en": "and the cymbal"
+     },
+     {
+      "he": "לְבָד:",
+      "en": "alone"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 2,
+  "mishnah": 6,
+  "summary": "How many Levi'im stood on the platform to sing, and how young Levi'im joined the singing.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין פּוֹחֲתִין מִשְּׁנֵים עָשָׂר",
+    "en": "There are no fewer than twelve",
+    "st": "In the Temple, there are <b>no fewer than twelve</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "we do not"
+     },
+     {
+      "he": "פּוֹחֲתִין",
+      "en": "have fewer"
+     },
+     {
+      "he": "מִשְּׁנֵים",
+      "en": "than two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "and ten (twelve)"
+     }
+    ]
+   },
+   {
+    "he": "לְוִיִּם עוֹמְדִים עַל הַדּוּכָן,",
+    "en": "Levi'im standing on the platform and singing,",
+    "st": "<b>Levites standing on the platform</b> adjacent to the altar and singing,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְוִיִּם",
+      "en": "Levi'im"
+     },
+     {
+      "he": "עוֹמְדִים",
+      "en": "standing"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַדּוּכָן,",
+      "en": "the platform"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹסִיפִין עַד לְעוֹלָם.",
+    "en": "and they may add as many as they want.",
+    "st": "<b>and one may add</b> Levites on the platform <b>up to an infinite</b> number.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹסִיפִין",
+      "en": "and we add"
+     },
+     {
+      "he": "עַד",
+      "en": "up to"
+     },
+     {
+      "he": "לְעוֹלָם.",
+      "en": "forever"
+     }
+    ]
+   },
+   {
+    "he": "אֵין קָטָן נִכְנָס לָעֲזָרָה לַעֲבוֹדָה",
+    "en": "A young boy does not come into the Azarah to serve,",
+    "st": "<b>A minor</b> Levite may <b>enter the Temple courtyard for service</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "קָטָן",
+      "en": "a young boy"
+     },
+     {
+      "he": "נִכְנָס",
+      "en": "enters"
+     },
+     {
+      "he": "לָעֲזָרָה",
+      "en": "the Azarah",
+      "note": "The courtyard of the Beis Hamikdash."
+     },
+     {
+      "he": "לַעֲבוֹדָה",
+      "en": "for the service"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא בְשָׁעָה שֶׁהַלְוִיִּם עוֹמְדִים בַּשִּׁיר.",
+    "en": "except when the Levi'im are standing and singing.",
+    "st": "<b>only at a time when the Levites are engaging in song,</b> so that he may accompany them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "בְשָׁעָה",
+      "en": "at the time"
+     },
+     {
+      "he": "שֶׁהַלְוִיִּם",
+      "en": "that the Levi'im"
+     },
+     {
+      "he": "עוֹמְדִים",
+      "en": "are standing"
+     },
+     {
+      "he": "בַּשִּׁיר.",
+      "en": "in song"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הָיוּ אוֹמְרִים בְּנֵבֶל",
+    "en": "And the boys would not play on a lyre",
+    "st": "<b>And</b> minors <b>would not engage in</b> playing <b>a lyre</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "אוֹמְרִים",
+      "en": "saying"
+     },
+     {
+      "he": "בְּנֵבֶל",
+      "en": "with a lyre"
+     }
+    ]
+   },
+   {
+    "he": "וְכִנּוֹר אֶלָּא בַפֶּה,",
+    "en": "or a harp, only sing with their mouth,",
+    "st": "<b>and in</b> playing <b>a harp; rather,</b> they would engage <b>in</b> singing with <b>the mouth,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִנּוֹר",
+      "en": "and a harp"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but only"
+     },
+     {
+      "he": "בַפֶּה,",
+      "en": "with the mouth"
+     }
+    ]
+   },
+   {
+    "he": "כְּדֵי לִתֵּן תְּבַל בַּנְּעִימָה.",
+    "en": "to give a sweet taste to the music.",
+    "st": "<b>in order to provide flavor to the music</b> with their pure, high voices.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדֵי",
+      "en": "in order"
+     },
+     {
+      "he": "לִתֵּן",
+      "en": "to give"
+     },
+     {
+      "he": "תְּבַל",
+      "en": "flavor"
+     },
+     {
+      "he": "בַּנְּעִימָה.",
+      "en": "to the music"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר בֶּן יַעֲקֹב אוֹמֵר,",
+    "en": "Rabbi Eliezer ben Yaakov says,",
+    "st": "<b>Rabbi Eliezer ben Ya’akov says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "יַעֲקֹב",
+      "en": "Yaakov"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין עוֹלִין לַמִּנְיָן,",
+    "en": "the boys are not counted in the number,",
+    "st": "Minors <b>are not tallied in the</b> minimum <b>total</b> of twelve Levites,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "they do not"
+     },
+     {
+      "he": "עוֹלִין",
+      "en": "go up"
+     },
+     {
+      "he": "לַמִּנְיָן,",
+      "en": "to the count"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין עוֹמְדִים עַל הַדּוּכָן,",
+    "en": "and they do not stand on the platform,",
+    "st": "<b>and they do not ascend to the platform;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and they do not"
+     },
+     {
+      "he": "עוֹמְדִים",
+      "en": "stand"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הַדּוּכָן,",
+      "en": "the platform"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא בָאָרֶץ הָיוּ עוֹמְדִין,",
+    "en": "but they would stand on the ground,",
+    "st": "<b>rather, they would stand on the ground</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "בָאָרֶץ",
+      "en": "on the ground"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "עוֹמְדִין,",
+      "en": "standing"
+     }
+    ]
+   },
+   {
+    "he": "וְרָאשֵׁיהֶן מִבֵּין רַגְלֵי הַלְוִיִּם,",
+    "en": "and their heads reached between the legs of the Levi'im,",
+    "st": "<b>and their heads</b> would reach to <b>between the legs of the Levites,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְרָאשֵׁיהֶן",
+      "en": "and their heads"
+     },
+     {
+      "he": "מִבֵּין",
+      "en": "from between"
+     },
+     {
+      "he": "רַגְלֵי",
+      "en": "the legs of"
+     },
+     {
+      "he": "הַלְוִיִּם,",
+      "en": "the Levi'im"
+     }
+    ]
+   },
+   {
+    "he": "וְצוֹעֲרֵי הַלְוִיִּם הָיוּ נִקְרָאִין:",
+    "en": "and they were called the young helpers of the Levi'im.",
+    "st": "<b>and they were called cadets [tzoarei] of the Levites.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְצוֹעֲרֵי",
+      "en": "and the young helpers of"
+     },
+     {
+      "he": "הַלְוִיִּם",
+      "en": "the Levi'im"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "נִקְרָאִין:",
+      "en": "called"
+     }
+    ]
+   }
+  ]
+ }
+]

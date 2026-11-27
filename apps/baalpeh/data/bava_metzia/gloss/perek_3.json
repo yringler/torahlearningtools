@@ -1,0 +1,3705 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "A shomer who was not paid lost the animal or things he was watching. If he paid the owner instead of swearing, he gets the thief's extra payments; if he swore instead, the owner gets them.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּפְקִיד אֵצֶל חֲבֵרוֹ בְּהֵמָה אוֹ כֵלִים,",
+    "en": "If someone left an animal or vessels with his friend to watch,",
+    "st": "In the case of <b>one who deposits an animal or vessels with another,</b> who is acting as an unpaid bailee,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפְקִיד",
+      "en": "the one who leaves"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "with"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "בְּהֵמָה",
+      "en": "an animal"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "וְנִגְנְבוּ אוֹ שֶׁאָבְדוּ,",
+    "en": "and they were stolen or lost,",
+    "st": "<b>and they were stolen or they were lost,</b> and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִגְנְבוּ",
+      "en": "and they were stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁאָבְדוּ,",
+      "en": "that they got lost"
+     }
+    ]
+   },
+   {
+    "he": "שִׁלֵּם וְלֹא רָצָה לִשָּׁבַע,",
+    "en": "and the watchman paid and did not want to swear,",
+    "st": "the bailee <b>paid</b> the owner the value of the deposit, <b>and did not wish to take an oath</b>",
+    "stMore": "that he did not misappropriate the item and that he was not negligent in safeguarding it, that will effect who keeps the deposit if it is found or returned.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שִׁלֵּם",
+      "en": "he paid"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "רָצָה",
+      "en": "he wanted"
+     },
+     {
+      "he": "לִשָּׁבַע,",
+      "en": "to swear"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֲרֵי אָמְרוּ שׁוֹמֵר חִנָּם נִשְׁבָּע וְיוֹצֵא,",
+    "en": "even though the Sages said a free watchman swears and goes free,",
+    "explain": "He swears he did not take it and was not careless.",
+    "st": "The bailee may also choose to take the oath, <b>as</b> the Sages <b>said: An unpaid bailee takes an oath, and he is</b> thereby <b>released</b> from the liability to pay the owner.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֲרֵי",
+      "en": "because"
+     },
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "שׁוֹמֵר",
+      "en": "a watchman"
+     },
+     {
+      "he": "חִנָּם",
+      "en": "for free"
+     },
+     {
+      "he": "נִשְׁבָּע",
+      "en": "swears"
+     },
+     {
+      "he": "וְיוֹצֵא,",
+      "en": "and goes free"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא הַגַּנָּב,",
+    "en": "if the thief is found,",
+    "st": "If <b>the thief is</b> later <b>found,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "was found"
+     },
+     {
+      "he": "הַגַּנָּב,",
+      "en": "the thief"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל.",
+    "en": "he pays double.",
+    "explain": "A thief must pay back twice what he stole.",
+    "st": "the thief <b>pays</b> the <b>double payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "a payment of"
+     },
+     {
+      "he": "כֶפֶל.",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "טָבַח וּמָכַר,",
+    "en": "If he slaughtered or sold it,",
+    "st": "If the deposited item was a sheep or an ox and the thief <b>slaughtered or sold</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָבַח",
+      "en": "he slaughtered"
+     },
+     {
+      "he": "וּמָכַר,",
+      "en": "and sold"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "he pays four or five times.",
+    "explain": "Four times for a sheep, five times for an ox.",
+    "st": "<b>he pays</b> the <b>fourfold or fivefold payment. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "a payment of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "לְמִי מְשַׁלֵּם,",
+    "en": "To whom does he pay?",
+    "st": "<b>To whom does</b> the thief <b>pay?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמִי",
+      "en": "to whom"
+     },
+     {
+      "he": "מְשַׁלֵּם,",
+      "en": "he pays"
+     }
+    ]
+   },
+   {
+    "he": "לְמִי שֶׁהַפִּקָּדוֹן אֶצְלוֹ.",
+    "en": "To the one who had the deposit with him.",
+    "explain": "The watchman paid, so he now owns it.",
+    "st": "He gives the payment <b>to the one who</b> had <b>the deposit in his</b>",
+    "stMore": "possession when it was stolen, i.e., the bailee. When the bailee paid the owner for the stolen item, the owner granted the rights to the item to the bailee. Therefore, the bailee is entitled to any payment the thief presents for the item, be it compensation for the item’s value or a fine.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמִי",
+      "en": "to the one"
+     },
+     {
+      "he": "שֶׁהַפִּקָּדוֹן",
+      "en": "that the deposit"
+     },
+     {
+      "he": "אֶצְלוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבַּע וְלֹא רָצָה לְשַׁלֵּם,",
+    "en": "If the watchman swore and did not want to pay,",
+    "st": "In the case of a bailee who <b>took an oath and did not wish to pay,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבַּע",
+      "en": "he swore"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "רָצָה",
+      "en": "he wanted"
+     },
+     {
+      "he": "לְשַׁלֵּם,",
+      "en": "to pay"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא הַגַּנָּב,",
+    "en": "if the thief is found,",
+    "st": "if <b>the thief is</b> then <b>found</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "was found"
+     },
+     {
+      "he": "הַגַּנָּב,",
+      "en": "the thief"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל,",
+    "en": "he pays double.",
+    "st": "and required to <b>pay</b> the <b>double payment,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "a payment of"
+     },
+     {
+      "he": "כֶפֶל,",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "טָבַח וּמָכַר,",
+    "en": "If he slaughtered or sold it,",
+    "st": "or if he <b>slaughtered or sold</b> the animal",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָבַח",
+      "en": "he slaughtered"
+     },
+     {
+      "he": "וּמָכַר,",
+      "en": "and sold"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "he pays four or five times.",
+    "st": "and is required to <b>pay the fourfold or fivefold payment, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "a payment of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "לְמִי מְשַׁלֵּם,",
+    "en": "To whom does he pay?",
+    "st": "<b>to whom does</b> the thief <b>pay?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְמִי",
+      "en": "to whom"
+     },
+     {
+      "he": "מְשַׁלֵּם,",
+      "en": "he pays"
+     }
+    ]
+   },
+   {
+    "he": "לְבַעַל הַפִּקָּדוֹן:",
+    "en": "To the owner of the deposit.",
+    "st": "He gives the payment <b>to the owner of the deposit,</b> not the bailee.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְבַעַל",
+      "en": "to the owner of"
+     },
+     {
+      "he": "הַפִּקָּדוֹן:",
+      "en": "the deposit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "Someone rented a cow and lent it to another person, and it died a normal death. The Tanna Kamma says the renter swears and the borrower pays him; Rabbi Yosei says the money goes back to the cow's owner.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַשּׂוֹכֵר פָּרָה מֵחֲבֵרוֹ וְהִשְׁאִילָהּ לְאַחֵר,",
+    "en": "If someone rents a cow from his friend and lends it to another person,",
+    "st": "In the case of <b>one who rents a cow from another, and</b> this renter then <b>lends it to another</b> person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׂוֹכֵר",
+      "en": "the one who rents"
+     },
+     {
+      "he": "פָּרָה",
+      "en": "a cow"
+     },
+     {
+      "he": "מֵחֲבֵרוֹ",
+      "en": "from his friend"
+     },
+     {
+      "he": "וְהִשְׁאִילָהּ",
+      "en": "and lent it"
+     },
+     {
+      "he": "לְאַחֵר,",
+      "en": "to another"
+     }
+    ]
+   },
+   {
+    "he": "וּמֵתָה כְדַרְכָּה,",
+    "en": "and it died the normal way,",
+    "st": "<b>and</b> the cow <b>dies in its</b> typical <b>manner,</b> i.e., of natural causes, in the possession of the borrower,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֵתָה",
+      "en": "and it died"
+     },
+     {
+      "he": "כְדַרְכָּה,",
+      "en": "in its normal way"
+     }
+    ]
+   },
+   {
+    "he": "יִשָּׁבַע הַשּׂוֹכֵר שֶׁמֵּתָה כְדַרְכָּה,",
+    "en": "the renter swears that it died the normal way,",
+    "explain": "A renter does not pay when an animal dies by itself.",
+    "st": "<b>the renter takes an oath</b> to the owner of the cow <b>that</b> the cow <b>died in its</b> typical <b>manner, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִשָּׁבַע",
+      "en": "will swear"
+     },
+     {
+      "he": "הַשּׂוֹכֵר",
+      "en": "the renter"
+     },
+     {
+      "he": "שֶׁמֵּתָה",
+      "en": "that it died"
+     },
+     {
+      "he": "כְדַרְכָּה,",
+      "en": "in its normal way"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׁוֹאֵל יְשַׁלֵּם לַשּׂוֹכֵר.",
+    "en": "and the borrower pays the renter.",
+    "explain": "A borrower pays even when it dies by itself.",
+    "st": "<b>and the borrower pays the renter</b>",
+    "stMore": "for the cow that he borrowed. A renter is exempt in a case of damage due to circumstances beyond his control, including death, but a borrower is liable to compensate the owner even for damage due to circumstances beyond his control.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׁוֹאֵל",
+      "en": "and the borrower"
+     },
+     {
+      "he": "יְשַׁלֵּם",
+      "en": "will pay"
+     },
+     {
+      "he": "לַשּׂוֹכֵר.",
+      "en": "to the renter"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד הַלָּה עוֹשֶׂה סְחוֹרָה",
+    "en": "How can that one do business",
+    "st": "<b>How does the other</b> party, i.e., the renter, <b>do business with</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "הַלָּה",
+      "en": "that one"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "does"
+     },
+     {
+      "he": "סְחוֹרָה",
+      "en": "business"
+     }
+    ]
+   },
+   {
+    "he": "בְּפָרָתוֹ שֶׁל חֲבֵרוֹ,",
+    "en": "with his friend's cow?",
+    "st": "and profit from <b>another’s cow? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּפָרָתוֹ",
+      "en": "with the cow"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "חֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא תַחֲזֹר פָּרָה לַבְּעָלִים:",
+    "en": "Rather, the cow's value goes back to its owner.",
+    "st": "<b>Rather,</b> the value of the <b>cow should be returned to</b> the <b>owner.</b>",
+    "stMore": "The renter need not take an oath, but the borrower must compensate the owner of the cow.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "תַחֲזֹר",
+      "en": "will go back"
+     },
+     {
+      "he": "פָּרָה",
+      "en": "a cow"
+     },
+     {
+      "he": "לַבְּעָלִים:",
+      "en": "to the owners"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "A man says he took money from one of two people, or was given money by one of their fathers, but does not know which one. He must pay each of them the full amount.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר לִשְׁנַיִם,",
+    "en": "If he said to two people,",
+    "st": "If <b>one said to two</b> people:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לִשְׁנַיִם,",
+      "en": "to two"
+     }
+    ]
+   },
+   {
+    "he": "גָּזַלְתִּי לְאֶחָד מִכֶּם מָנֶה,",
+    "en": "\"I stole 100 zuz from one of you,",
+    "st": "<b>I robbed one of you of one hundred dinars, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גָּזַלְתִּי",
+      "en": "I robbed"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "from one"
+     },
+     {
+      "he": "מִכֶּם",
+      "en": "of you"
+     },
+     {
+      "he": "מָנֶה,",
+      "en": "a maneh"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינִי יוֹדֵעַ אֵיזֶה מִכֶּם,",
+    "en": "and I do not know which of you,\"",
+    "st": "<b>but I do not know</b> from <b>which of you</b> I took the money,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינִי",
+      "en": "and I do not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "אֵיזֶה",
+      "en": "which"
+     },
+     {
+      "he": "מִכֶּם,",
+      "en": "of you"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ, אָבִיו שֶׁל אֶחָד מִכֶּם",
+    "en": "or, \"The father of one of you",
+    "st": "<b>or</b> if one said to two people: <b>The father of one of you </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ,",
+      "en": "or"
+     },
+     {
+      "he": "אָבִיו",
+      "en": "the father"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִכֶּם",
+      "en": "of you"
+     }
+    ]
+   },
+   {
+    "he": "הִפְקִיד לִי מָנֶה,",
+    "en": "left 100 zuz with me,",
+    "st": "<b>deposited one hundred dinars with me, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִפְקִיד",
+      "en": "deposited"
+     },
+     {
+      "he": "לִי",
+      "en": "with me"
+     },
+     {
+      "he": "מָנֶה,",
+      "en": "a maneh"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינִי יוֹדֵעַ אֵיזֶה הוּא,",
+    "en": "and I do not know which one he is,\"",
+    "st": "<b>but I do not know</b> the father of <b>which</b> of you <b>he is,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינִי",
+      "en": "and I do not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "אֵיזֶה",
+      "en": "which"
+     },
+     {
+      "he": "הוּא,",
+      "en": "he is"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לָזֶה מָנֶה וְלָזֶה מָנֶה,",
+    "en": "he gives 100 zuz to this one and 100 zuz to that one,",
+    "st": "then he <b>gives one hundred dinars to this</b> person <b>and one hundred dinars to that</b> person.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לָזֶה",
+      "en": "to this one"
+     },
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "וְלָזֶה",
+      "en": "and to this one"
+     },
+     {
+      "he": "מָנֶה,",
+      "en": "a maneh"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוֹדָה מִפִּי עַצְמוֹ:",
+    "en": "because he admitted it by himself.",
+    "st": "This is <b>because</b> there is no way to determine which of them is entitled to the money, and <b>he admitted</b> his obligation <b>at his own</b> initiative.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוֹדָה",
+      "en": "because he admitted"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "עַצְמוֹ:",
+      "en": "himself"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "Two people left money with one person; each says the bigger amount was his. The Tanna Kamma gives each the smaller amount and puts the rest away until Eliyahu comes; Rabbi Yosei says to put it all away so the cheater loses.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁנַיִם שֶׁהִפְקִידוּ אֵצֶל אֶחָד,",
+    "en": "Two people left money with one person,",
+    "st": "In the case of <b>two</b> people <b>who deposited</b> money <b>with one</b> person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "שֶׁהִפְקִידוּ",
+      "en": "that left"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "with"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "זֶה מָנֶה וְזֶה מָאתַיִם,",
+    "en": "this one 100 zuz and that one 200,",
+    "st": "and <b>this</b> one deposited <b>one hundred dinars and that</b> one deposited <b>two hundred</b> dinars, and when they come to collect their deposit,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "וְזֶה",
+      "en": "and this one"
+     },
+     {
+      "he": "מָאתַיִם,",
+      "en": "two hundred"
+     }
+    ]
+   },
+   {
+    "he": "זֶה אוֹמֵר שֶׁלִּי מָאתָיִם",
+    "en": "this one says, \"Mine was 200,\"",
+    "st": "<b>this</b> one <b>says: My</b> deposit was <b>two hundred</b> dinars,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "mine"
+     },
+     {
+      "he": "מָאתָיִם",
+      "en": "two hundred"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה אוֹמֵר שֶׁלִּי מָאתָיִם,",
+    "en": "and that one says, \"Mine was 200.\"",
+    "st": "<b>and that</b> one <b>says: My</b> deposit was <b>two hundred</b> dinars,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "mine"
+     },
+     {
+      "he": "מָאתָיִם,",
+      "en": "two hundred"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן לָזֶה מָנֶה וְלָזֶה מָנֶה,",
+    "en": "He gives 100 zuz to this one and 100 zuz to that one,",
+    "st": "the bailee <b>gives one hundred dinars to this</b> one <b>and one hundred dinars to that</b> one.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "לָזֶה",
+      "en": "to this one"
+     },
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "וְלָזֶה",
+      "en": "and to this one"
+     },
+     {
+      "he": "מָנֶה,",
+      "en": "a maneh"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁאָר יְהֵא מֻנָּח עַד שֶׁיָּבֹא אֵלִיָּהוּ.",
+    "en": "and the rest stays put until Eliyahu comes.",
+    "st": "<b>And the rest</b> of the money, i.e., the contested one hundred dinars, <b>will be placed</b> in a safe place <b>until Elijah comes</b> and prophetically determines the truth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁאָר",
+      "en": "and the rest"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "מֻנָּח",
+      "en": "resting"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּבֹא",
+      "en": "that will come"
+     },
+     {
+      "he": "אֵלִיָּהוּ.",
+      "en": "Eliyahu"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן מַה הִפְסִיד הָרַמַּאי.",
+    "en": "If so, what did the cheater lose?",
+    "st": "<b>If so, what did the swindler lose?</b>",
+    "stMore": "He lost nothing by claiming the one hundred dinars that belongs to another, and he has no incentive to admit the truth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הִפְסִיד",
+      "en": "lost"
+     },
+     {
+      "he": "הָרַמַּאי.",
+      "en": "the cheater"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הַכֹּל יְהֵא מֻנָּח",
+    "en": "Rather, all of it stays put",
+    "st": "<b>Rather, the entire</b> deposit <b>will be placed</b> in a safe place",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "all of it"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "מֻנָּח",
+      "en": "resting"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיָּבֹא אֵלִיָּהוּ:",
+    "en": "until Eliyahu comes.",
+    "explain": "Then the cheater may admit the truth.",
+    "st": "<b>until Elijah comes. As</b>",
+    "stMore": "his fraud will cause him to lose even the one hundred dinars that he deposited, perhaps he will be discouraged from making a fraudulent claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּבֹא",
+      "en": "that will come"
+     },
+     {
+      "he": "אֵלִיָּהוּ:",
+      "en": "Eliyahu"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "Two people left two vessels, a cheap one and an expensive one, and each says the expensive one is his. Each gets the cheap one's value and the rest waits for Eliyahu; Rabbi Yosei says to put it all away.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְכֵן שְׁנֵי כֵלִים,",
+    "en": "And the same with two vessels,",
+    "st": "<b>And likewise,</b> if two people deposited <b>two vessels, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and the same"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "כֵלִים,",
+      "en": "vessels"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד יָפֶה מָנֶה",
+    "en": "one worth 100 zuz",
+    "st": "<b>one worth one hundred dinars </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "יָפֶה",
+      "en": "worth"
+     },
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד יָפֶה אֶלֶף זוּז,",
+    "en": "and one worth 1,000 zuz.",
+    "st": "<b>and one worth one thousand dinars,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "יָפֶה",
+      "en": "worth"
+     },
+     {
+      "he": "אֶלֶף",
+      "en": "a thousand"
+     },
+     {
+      "he": "זוּז,",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "זֶה אוֹמֵר יָפֶה שֶׁלִּי",
+    "en": "This one says, \"The nice one is mine,\"",
+    "st": "and <b>this</b> one <b>says: The expensive</b> vessel <b>is mine, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "יָפֶה",
+      "en": "the nice one"
+     },
+     {
+      "he": "שֶׁלִּי",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "וְזֶה אוֹמֵר יָפֶה שֶׁלִּי,",
+    "en": "and that one says, \"The nice one is mine.\"",
+    "st": "<b>and that</b> one <b>says: The expensive</b> vessel <b>is mine,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְזֶה",
+      "en": "and this one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "יָפֶה",
+      "en": "the nice one"
+     },
+     {
+      "he": "שֶׁלִּי,",
+      "en": "is mine"
+     }
+    ]
+   },
+   {
+    "he": "נוֹתֵן אֶת הַקָּטָן לְאֶחָד מֵהֶן,",
+    "en": "He gives the small one to one of them,",
+    "st": "the bailee <b>gives the small</b> vessel <b>to one of them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקָּטָן",
+      "en": "the small one"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "to one"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "of them"
+     }
+    ]
+   },
+   {
+    "he": "וּמִתּוֹךְ הַגָּדוֹל נוֹתֵן דְּמֵי קָטָן לַשֵּׁנִי,",
+    "en": "and from the big one he gives the small one's value to the other,",
+    "explain": "He sells the big one to get the money.",
+    "st": "<b>and from the</b> proceeds of the sale of <b>the large</b> vessel <b>he gives the value of the small</b> vessel <b>to the other, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִתּוֹךְ",
+      "en": "and from"
+     },
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the big one"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "he gives"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the value of"
+     },
+     {
+      "he": "קָטָן",
+      "en": "the small one"
+     },
+     {
+      "he": "לַשֵּׁנִי,",
+      "en": "to the second"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁאָר יְהֵא מֻנָּח עַד שֶׁיָּבֹא אֵלִיָּהוּ.",
+    "en": "and the rest stays put until Eliyahu comes.",
+    "st": "<b>and the rest</b> of the money <b>is placed</b> in a safe place <b>until Elijah comes. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁאָר",
+      "en": "and the rest"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "מֻנָּח",
+      "en": "resting"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּבֹא",
+      "en": "that will come"
+     },
+     {
+      "he": "אֵלִיָּהוּ.",
+      "en": "Eliyahu"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן מַה הִפְסִיד הָרַמַּאי.",
+    "en": "If so, what did the cheater lose?",
+    "st": "<b>If so, what did the swindler lose? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן",
+      "en": "so"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "הִפְסִיד",
+      "en": "lost"
+     },
+     {
+      "he": "הָרַמַּאי.",
+      "en": "the cheater"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הַכֹּל יְהֵא מֻנָּח",
+    "en": "Rather, all of it stays put",
+    "st": "<b>Rather, the entire</b> deposit, i.e., both vessels,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "all of it"
+     },
+     {
+      "he": "יְהֵא",
+      "en": "will be"
+     },
+     {
+      "he": "מֻנָּח",
+      "en": "resting"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיָּבֹא אֵלִיָּהוּ:",
+    "en": "until Eliyahu comes.",
+    "st": "<b>are placed</b> in a safe place <b>until Elijah comes</b> or one of them admits his deceit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיָּבֹא",
+      "en": "that will come"
+     },
+     {
+      "he": "אֵלִיָּהוּ:",
+      "en": "Eliyahu"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "If someone left fruit with a watchman, the watchman may not touch it even if it is spoiling. Rabban Shimon ben Gamliel says he sells it in front of beis din, like returning a lost thing.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּפְקִיד פֵּרוֹת אֵצֶל חֲבֵרוֹ,",
+    "en": "If someone leaves fruit with his friend,",
+    "st": "In the case of <b>one who deposits produce with another, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפְקִיד",
+      "en": "the one who leaves"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruit"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "with"
+     },
+     {
+      "he": "חֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ הֵן אֲבוּדִין לֹא יִגַּע בָּהֶן.",
+    "en": "even if it is going to waste, he should not touch it.",
+    "explain": "It is not his.",
+    "st": "<b>even if it is lost</b> due to spoilage or vermin, the bailee <b>may not touch it,</b> as it is not his.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "אֲבוּדִין",
+      "en": "going to waste"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִגַּע",
+      "en": "he should touch"
+     },
+     {
+      "he": "בָּהֶן.",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says,",
+    "st": "<b>Rabban Shimon ben Gamliel says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מוֹכְרָן בִּפְנֵי בֵית דִּין,",
+    "en": "he sells it in front of beis din,",
+    "st": "<b>He sells it before</b> the <b>court, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹכְרָן",
+      "en": "he sells them"
+     },
+     {
+      "he": "בִּפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "בֵית",
+      "en": "beis"
+     },
+     {
+      "he": "דִּין,",
+      "en": "din"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא כְמֵשִׁיב אֲבֵדָה לַבְּעָלִים:",
+    "en": "because it is like returning a lost thing to its owner.",
+    "st": "<b>as</b> by doing so <b>he is like</b> one <b>returning a lost item to the owner,</b>",
+    "stMore": "since through its sale he prevents the owner from losing the value of his produce.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he is"
+     },
+     {
+      "he": "כְמֵשִׁיב",
+      "en": "like one returning"
+     },
+     {
+      "he": "אֲבֵדָה",
+      "en": "a lost thing"
+     },
+     {
+      "he": "לַבְּעָלִים:",
+      "en": "to the owners"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "When a watchman gives back fruit, he may take off a set amount that fruit normally shrinks. The Sages argue about how much and for how big a pile.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּפְקִיד פֵּרוֹת אֵצֶל חֲבֵרוֹ,",
+    "en": "If someone leaves fruit with his friend,",
+    "st": "In the case of <b>one who deposits produce with another,</b> and the bailee provides him with different produce in return,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפְקִיד",
+      "en": "the one who leaves"
+     },
+     {
+      "he": "פֵּרוֹת",
+      "en": "fruit"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "with"
+     },
+     {
+      "he": "חֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה יוֹצִיא לוֹ חֶסְרוֹנוֹת.",
+    "en": "the watchman may take off the amount it shrinks.",
+    "explain": "Stored fruit dries up and mice eat some.",
+    "st": "<b>that</b> bailee <b>deducts</b> from the produce that he returns an amount equal to the standard <b>decrease</b> of the produce. The decrease is calculated according to this formula:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "יוֹצִיא",
+      "en": "he takes out"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "חֶסְרוֹנוֹת.",
+      "en": "losses"
+     }
+    ]
+   },
+   {
+    "he": "לְחִטִּין וּלְאֹרֶז,",
+    "en": "For wheat and rice,",
+    "st": "<b>For wheat and for rice,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְחִטִּין",
+      "en": "for wheat"
+     },
+     {
+      "he": "וּלְאֹרֶז,",
+      "en": "and for rice"
+     }
+    ]
+   },
+   {
+    "he": "תִּשְׁעָה חֲצָאֵי קַבִּין לְכוֹר,",
+    "en": "nine half-kav for each kor.",
+    "explain": "A kav and a kor are measures; a kor is 180 kav.",
+    "st": "he deducts <b>nine half-kav per kor,</b> which is 180 kav;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּשְׁעָה",
+      "en": "nine"
+     },
+     {
+      "he": "חֲצָאֵי",
+      "en": "halves of"
+     },
+     {
+      "he": "קַבִּין",
+      "en": "kav"
+     },
+     {
+      "he": "לְכוֹר,",
+      "en": "per kor"
+     }
+    ]
+   },
+   {
+    "he": "לִשְׂעֹרִין וּלְדֹחַן,",
+    "en": "For barley and millet,",
+    "st": "<b>for barley and millet,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לִשְׂעֹרִין",
+      "en": "for barley"
+     },
+     {
+      "he": "וּלְדֹחַן,",
+      "en": "and for millet"
+     }
+    ]
+   },
+   {
+    "he": "תִּשְׁעָה קַבִּין לְכוֹר,",
+    "en": "nine kav for each kor.",
+    "st": "he deducts <b>nine kav per kor; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תִּשְׁעָה",
+      "en": "nine"
+     },
+     {
+      "he": "קַבִּין",
+      "en": "kav"
+     },
+     {
+      "he": "לְכוֹר,",
+      "en": "per kor"
+     }
+    ]
+   },
+   {
+    "he": "לְכֻסְמִין וּלְזֶרַע פִּשְׁתָּן,",
+    "en": "For spelt and flax seed,",
+    "st": "<b>for spelt and flaxseed,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְכֻסְמִין",
+      "en": "for spelt"
+     },
+     {
+      "he": "וּלְזֶרַע",
+      "en": "and for seed of"
+     },
+     {
+      "he": "פִּשְׁתָּן,",
+      "en": "flax"
+     }
+    ]
+   },
+   {
+    "he": "שָׁלשׁ סְאִין לְכוֹר.",
+    "en": "three se'ah for each kor.",
+    "st": "he deducts <b>three se’a,</b> which total eighteen kav, <b>per kor. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שָׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "סְאִין",
+      "en": "se'ah"
+     },
+     {
+      "he": "לְכוֹר.",
+      "en": "per kor"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל לְפִי הַמִּדָּה,",
+    "en": "It all goes by the amount,",
+    "st": "<b>The entire</b> calculation is <b>according to the measure, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "לְפִי",
+      "en": "by"
+     },
+     {
+      "he": "הַמִּדָּה,",
+      "en": "the amount"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל לְפִי הַזְּמָן.",
+    "en": "it all goes by the time.",
+    "explain": "This is the amount for one year.",
+    "st": "<b>and the entire</b> calculation is <b>according to the time</b>",
+    "stMore": "elapsed. This is the amount of produce that the bailee deducts per one kor of produce over the course of one year.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "all"
+     },
+     {
+      "he": "לְפִי",
+      "en": "by"
+     },
+     {
+      "he": "הַזְּמָן.",
+      "en": "the time"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יוֹחָנָן בֶּן נוּרִי,",
+    "en": "Rabbi Yochanan ben Nuri said,",
+    "st": "<b>Rabbi Yoḥanan ben Nuri said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "נוּרִי,",
+      "en": "Nuri"
+     }
+    ]
+   },
+   {
+    "he": "וְכִי מָה אִכְפַּת לָהֶן לָעַכְבָּרִין,",
+    "en": "\"Why should the mice care?",
+    "st": "<b>And what do the mice care</b> how much produce the bailee is safeguarding?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכִי",
+      "en": "and why"
+     },
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אִכְפַּת",
+      "en": "does it matter"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "לָעַכְבָּרִין,",
+      "en": "to the mice"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא אוֹכְלוֹת בֵּין מֵהַרְבֵּה וּבֵין מִקִּמְעָא.",
+    "en": "Don't they eat the same from a lot or from a little?",
+    "st": "<b>Don’t they eat the same</b> amount <b>whether</b> it is <b>from much</b> produce <b>and whether</b> it is <b>from little</b> produce?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "and don't"
+     },
+     {
+      "he": "אוֹכְלוֹת",
+      "en": "they eat"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מֵהַרְבֵּה",
+      "en": "from a lot"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and whether"
+     },
+     {
+      "he": "מִקִּמְעָא.",
+      "en": "from a little"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אֵינוֹ מוֹצִיא לוֹ חֶסְרוֹנוֹת",
+    "en": "Rather, he takes off the shrinking",
+    "st": "<b>Rather, he deducts</b> an amount equal to the standard <b>decrease </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מוֹצִיא",
+      "en": "take out"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "חֶסְרוֹנוֹת",
+      "en": "losses"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא לְכוֹר אֶחָד בִּלְבָד.",
+    "en": "only for one kor.\"",
+    "st": "<b>of just one kor</b> of produce.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "לְכוֹר",
+      "en": "for a kor"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בִּלְבָד.",
+      "en": "only"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיְתָה מִדָּה מְרֻבָּה,",
+    "en": "If it was a big amount,",
+    "st": "<b>If</b> the deposit <b>was a large measure,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "it was"
+     },
+     {
+      "he": "מִדָּה",
+      "en": "an amount"
+     },
+     {
+      "he": "מְרֻבָּה,",
+      "en": "large"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מוֹצִיא לוֹ חֶסְרוֹנוֹת,",
+    "en": "he does not take off anything,",
+    "st": "the bailee <b>does not deduct</b> the <b>decrease</b> from <b>it, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מוֹצִיא",
+      "en": "take out"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "חֶסְרוֹנוֹת,",
+      "en": "losses"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁמּוֹתִירוֹת:",
+    "en": "because it grows.",
+    "explain": "Fruit can swell, so it evens out.",
+    "st": "<b>due to</b> the fact <b>that</b> for different reasons <b>it increases.</b>",
+    "stMore": "Therefore, he returns the measure of produce that was deposited with him, because the increase offsets the decrease.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁמּוֹתִירוֹת:",
+      "en": "that they grow"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "When giving back wine or oil, a watchman may take off a set amount for what soaks into the barrel and what sinks to the bottom. Rabbi Yehuda says a buyer of clear oil also accepts a set amount of sediment.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "יוֹצִיא לוֹ שְׁתוּת לְיַיִן.",
+    "en": "He may take off one sixth for wine.",
+    "explain": "Wine soaks into the barrel and dries up.",
+    "st": "When the bailee returns liquids that were deposited with him, <b>he deducts one-sixth</b> of the amount <b>for wine,</b>",
+    "stMore": "to offset the decrease in volume due to absorption into the cask and evaporation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצִיא",
+      "en": "he takes out"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "שְׁתוּת",
+      "en": "a sixth"
+     },
+     {
+      "he": "לְיַיִן.",
+      "en": "for wine"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר, חֹמֶשׁ.",
+    "en": "Rabbi Yehuda says, one fifth.",
+    "st": "<b>Rabbi Yehuda says:</b> He deducts <b>one-fifth. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "חֹמֶשׁ.",
+      "en": "a fifth"
+     }
+    ]
+   },
+   {
+    "he": "יוֹצִיא לוֹ שְׁלשֶׁת לֻגִּין שֶׁמֶן לְמֵאָה,",
+    "en": "He takes off three lug of oil for each hundred:",
+    "explain": "A lug is a small measure.",
+    "st": "<b>He deducts three log of oil for one hundred</b> log:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹצִיא",
+      "en": "he takes out"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "שְׁלשֶׁת",
+      "en": "three"
+     },
+     {
+      "he": "לֻגִּין",
+      "en": "lug"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "לְמֵאָה,",
+      "en": "per hundred"
+     }
+    ]
+   },
+   {
+    "he": "לֹג וּמֶחֱצָה שְׁמָרִים,",
+    "en": "a lug and a half for the dregs at the bottom,",
+    "st": "<b>A log and a half for sediment</b> that sinks to the bottom of the cask,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹג",
+      "en": "a lug"
+     },
+     {
+      "he": "וּמֶחֱצָה",
+      "en": "and a half"
+     },
+     {
+      "he": "שְׁמָרִים,",
+      "en": "dregs"
+     }
+    ]
+   },
+   {
+    "he": "לֹג וּמֶחֱצָה בָּלַע.",
+    "en": "and a lug and a half soaked into the barrel.",
+    "st": "<b>and a log and a half</b> for <b>absorption</b> into the cask.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹג",
+      "en": "a lug"
+     },
+     {
+      "he": "וּמֶחֱצָה",
+      "en": "and a half"
+     },
+     {
+      "he": "בָּלַע.",
+      "en": "soaked in"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיָה שֶׁמֶן מְזֻקָּק,",
+    "en": "If it was clear, filtered oil,",
+    "st": "<b>If it was refined oil, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it was"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "מְזֻקָּק,",
+      "en": "filtered"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מוֹצִיא לוֹ שְׁמָרִים.",
+    "en": "he does not take off for dregs.",
+    "st": "<b>he does not deduct</b> any of the oil <b>for sediment</b> because it was filtered.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מוֹצִיא",
+      "en": "take out"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "שְׁמָרִים.",
+      "en": "dregs"
+     }
+    ]
+   },
+   {
+    "he": "אִם הָיוּ קַנְקַנִּים יְשָׁנִים,",
+    "en": "If the barrels were old,",
+    "st": "<b>If</b> the oil <b>was</b> stored in <b>old casks</b> that are already saturated,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "קַנְקַנִּים",
+      "en": "barrels"
+     },
+     {
+      "he": "יְשָׁנִים,",
+      "en": "old"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מוֹצִיא לוֹ בָּלַע.",
+    "en": "he does not take off for soaking in.",
+    "explain": "Old barrels are already full of oil and soak up no more.",
+    "st": "<b>he does not deduct</b> any of the oil for <b>absorption. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מוֹצִיא",
+      "en": "take out"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "בָּלַע.",
+      "en": "soaked in"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אַף הַמּוֹכֵר שֶׁמֶן מְזֻקָּק",
+    "en": "even someone who sells filtered oil",
+    "st": "<b>Even</b> in a case of <b>one who sells refined oil </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "הַמּוֹכֵר",
+      "en": "the one who sells"
+     },
+     {
+      "he": "שֶׁמֶן",
+      "en": "oil"
+     },
+     {
+      "he": "מְזֻקָּק",
+      "en": "filtered"
+     }
+    ]
+   },
+   {
+    "he": "לַחֲבֵרוֹ כָּל יְמוֹת הַשָּׁנָה,",
+    "en": "to his friend all year round,",
+    "st": "<b>to another all the days of the year, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "to his friend"
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "יְמוֹת",
+      "en": "the days of"
+     },
+     {
+      "he": "הַשָּׁנָה,",
+      "en": "the year"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זֶה מְקַבֵּל עָלָיו",
+    "en": "the buyer accepts on himself",
+    "st": "<b>this</b> buyer <b>accepts upon himself</b> that the seller will deduct",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "מְקַבֵּל",
+      "en": "accepts"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on himself"
+     }
+    ]
+   },
+   {
+    "he": "לֹג וּמֶחֱצָה שְׁמָרִים לְמֵאָה:",
+    "en": "a lug and a half of dregs for each hundred.",
+    "st": "<b>a log and a half of sediment for one hundred</b> log, as that is the standard measure of sediment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹג",
+      "en": "a lug"
+     },
+     {
+      "he": "וּמֶחֱצָה",
+      "en": "and a half"
+     },
+     {
+      "he": "שְׁמָרִים",
+      "en": "dregs"
+     },
+     {
+      "he": "לְמֵאָה:",
+      "en": "per hundred"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 9,
+  "summary": "A watchman moved a barrel he was watching and it broke. Whether he pays depends on whether he moved it for himself or for the barrel, whether it broke in his hand, and whether the owner gave it a set place.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּפְקִיד חָבִית אֵצֶל חֲבֵרוֹ,",
+    "en": "If someone left a barrel with his friend,",
+    "st": "In the case of <b>one who deposits a barrel with another, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפְקִיד",
+      "en": "the one who leaves"
+     },
+     {
+      "he": "חָבִית",
+      "en": "a barrel"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "with"
+     },
+     {
+      "he": "חֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יִחֲדוּ לָהּ הַבְּעָלִים מָקוֹם,",
+    "en": "and the owner did not set a place for it,",
+    "st": "<b>and the owners did not designate</b> a specific <b>place for</b> the barrel to be stored in the bailee’s house,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יִחֲדוּ",
+      "en": "set"
+     },
+     {
+      "he": "לָהּ",
+      "en": "for it"
+     },
+     {
+      "he": "הַבְּעָלִים",
+      "en": "the owners"
+     },
+     {
+      "he": "מָקוֹם,",
+      "en": "a place"
+     }
+    ]
+   },
+   {
+    "he": "וְטִלְטְלָהּ וְנִשְׁבְּרָה,",
+    "en": "and he moved it and it broke:",
+    "st": "and the bailee <b>moved it and it broke, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטִלְטְלָהּ",
+      "en": "and he moved it"
+     },
+     {
+      "he": "וְנִשְׁבְּרָה,",
+      "en": "and it broke"
+     }
+    ]
+   },
+   {
+    "he": "אִם מִתּוֹךְ יָדוֹ נִשְׁבְּרָה,",
+    "en": "if it broke in his hand,",
+    "st": "<b>if it broke while</b> still <b>in his hand,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מִתּוֹךְ",
+      "en": "from within"
+     },
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     },
+     {
+      "he": "נִשְׁבְּרָה,",
+      "en": "it broke"
+     }
+    ]
+   },
+   {
+    "he": "לְצָרְכּוֹ, חַיָּב,",
+    "en": "if he moved it for himself, he must pay;",
+    "st": "there is a distinction: If he moved the barrel <b>for his purposes,</b> he is <b>liable</b> to pay for the damage.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְצָרְכּוֹ,",
+      "en": "for his need"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "לְצָרְכָּהּ, פָּטוּר.",
+    "en": "if for the barrel's good, he is free.",
+    "st": "If he moved the barrel <b>for its</b> own <b>purposes,</b> to prevent it from being damaged, he is <b>exempt. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְצָרְכָּהּ,",
+      "en": "for its need"
+     },
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     }
+    ]
+   },
+   {
+    "he": "אִם מִשֶּׁהִנִּיחָהּ נִשְׁבְּרָה,",
+    "en": "If it broke after he put it down,",
+    "st": "<b>If, after he replaced</b> the barrel <b>it broke, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "מִשֶּׁהִנִּיחָהּ",
+      "en": "after he put it down"
+     },
+     {
+      "he": "נִשְׁבְּרָה,",
+      "en": "it broke"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לְצָרְכּוֹ בֵּין לְצָרְכָּהּ, פָּטוּר.",
+    "en": "whether for himself or for the barrel, he is free.",
+    "st": "<b>whether</b> he initially moved it <b>for his purposes</b> or <b>whether</b> he moved it <b>for its</b> own <b>purposes,</b> he is <b>exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְצָרְכּוֹ",
+      "en": "for his need"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְצָרְכָּהּ,",
+      "en": "for its need"
+     },
+     {
+      "he": "פָּטוּר.",
+      "en": "exempt"
+     }
+    ]
+   },
+   {
+    "he": "יִחֲדוּ לָהּ הַבְּעָלִים מָקוֹם,",
+    "en": "If the owner set a place for it,",
+    "st": "But if <b>the owners designated</b> a specific <b>place for</b> the barrel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִחֲדוּ",
+      "en": "set"
+     },
+     {
+      "he": "לָהּ",
+      "en": "for it"
+     },
+     {
+      "he": "הַבְּעָלִים",
+      "en": "the owners"
+     },
+     {
+      "he": "מָקוֹם,",
+      "en": "a place"
+     }
+    ]
+   },
+   {
+    "he": "וְטִלְטְלָהּ וְנִשְׁבְּרָה,",
+    "en": "and he moved it and it broke,",
+    "st": "<b>and</b> the bailee <b>moved it and it broke, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְטִלְטְלָהּ",
+      "en": "and he moved it"
+     },
+     {
+      "he": "וְנִשְׁבְּרָה,",
+      "en": "and it broke"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין מִתּוֹךְ יָדוֹ וּבֵין מִשֶּׁהִנִּיחָהּ,",
+    "en": "whether in his hand or after he put it down:",
+    "st": "<b>whether</b> it broke <b>while</b> still <b>in his hand or whether</b> it broke <b>after he replaced</b> the barrel,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "מִתּוֹךְ",
+      "en": "from within"
+     },
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and whether"
+     },
+     {
+      "he": "מִשֶּׁהִנִּיחָהּ,",
+      "en": "after he put it down"
+     }
+    ]
+   },
+   {
+    "he": "לְצָרְכּוֹ, חַיָּב,",
+    "en": "if for himself, he must pay;",
+    "st": "if he moved it <b>for his purposes</b> he is <b>liable</b> to pay,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְצָרְכּוֹ,",
+      "en": "for his need"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "לְצָרְכָּהּ, פָּטוּר:",
+    "en": "if for the barrel's good, he is free.",
+    "st": "and if he moved it <b>for its</b> own <b>purposes,</b> he is <b>exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְצָרְכָּהּ,",
+      "en": "for its need"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "exempt"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 10,
+  "summary": "A watchman who did not guard coins the way watchmen normally do must pay if they are lost. If he guarded them properly, he does not pay.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּפְקִיד מָעוֹת אֵצֶל חֲבֵרוֹ,",
+    "en": "If someone left coins with his friend,",
+    "st": "In the case of <b>one who deposited coins with another,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפְקִיד",
+      "en": "the one who leaves"
+     },
+     {
+      "he": "מָעוֹת",
+      "en": "coins"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "with"
+     },
+     {
+      "he": "חֲבֵרוֹ,",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "צְרָרָן וְהִפְשִׁילָן לַאֲחוֹרָיו,",
+    "en": "and he tied them up and hung them behind his back,",
+    "st": "and that bailee <b>bound it</b> in a cloth <b>and slung it behind him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צְרָרָן",
+      "en": "he tied them"
+     },
+     {
+      "he": "וְהִפְשִׁילָן",
+      "en": "and hung them"
+     },
+     {
+      "he": "לַאֲחוֹרָיו,",
+      "en": "behind him"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁמְּסָרָן לִבְנוֹ וּלְבִתּוֹ הַקְּטַנִּים,",
+    "en": "or gave them to his young son or daughter,",
+    "st": "or <b>conveyed them to his minor son or daughter</b> for safeguarding,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁמְּסָרָן",
+      "en": "that he gave them"
+     },
+     {
+      "he": "לִבְנוֹ",
+      "en": "to his son"
+     },
+     {
+      "he": "וּלְבִתּוֹ",
+      "en": "and to his daughter"
+     },
+     {
+      "he": "הַקְּטַנִּים,",
+      "en": "the young ones"
+     }
+    ]
+   },
+   {
+    "he": "וְנָעַל בִּפְנֵיהֶם שֶׁלֹּא כָרָאוּי,",
+    "en": "or locked the door in front of them in a bad way,",
+    "st": "<b>or locked</b> the door <b>before them in an inappropriate,</b> i.e., insufficient, manner to secure them,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנָעַל",
+      "en": "and he locked"
+     },
+     {
+      "he": "בִּפְנֵיהֶם",
+      "en": "in front of them"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "כָרָאוּי,",
+      "en": "properly"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, שֶׁלֹּא שָׁמַר כְּדֶרֶךְ הַשּׁוֹמְרִים.",
+    "en": "he must pay, because he did not guard the way watchmen guard.",
+    "st": "the bailee is <b>liable</b> to pay for the coins, <b>as he did not safeguard</b> the coins <b>in the manner</b> typical <b>of bailees. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "obligated"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "because not"
+     },
+     {
+      "he": "שָׁמַר",
+      "en": "he guarded"
+     },
+     {
+      "he": "כְּדֶרֶךְ",
+      "en": "like the way of"
+     },
+     {
+      "he": "הַשּׁוֹמְרִים.",
+      "en": "the watchmen"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם שָׁמַר כְּדֶרֶךְ הַשּׁוֹמְרִים, פָּטוּר:",
+    "en": "But if he guarded the way watchmen guard, he is free.",
+    "st": "<b>But if he safeguarded</b> the money <b>in the manner</b> that <b>bailees</b> safeguard items and it was nevertheless stolen, he is <b>exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "שָׁמַר",
+      "en": "he guarded"
+     },
+     {
+      "he": "כְּדֶרֶךְ",
+      "en": "like the way of"
+     },
+     {
+      "he": "הַשּׁוֹמְרִים,",
+      "en": "the watchmen"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "exempt"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 11,
+  "summary": "If money left with a money changer is tied up, he may not use it; if it is loose, he may, and then he must pay if it is lost. A regular person may never use it; the Tannaim argue about a storekeeper.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּפְקִיד מָעוֹת אֵצֶל שֻׁלְחָנִי,",
+    "en": "If someone leaves coins with a money changer,",
+    "st": "In the case of <b>one who deposits money with a money changer, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּפְקִיד",
+      "en": "the one who leaves"
+     },
+     {
+      "he": "מָעוֹת",
+      "en": "coins"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "with"
+     },
+     {
+      "he": "שֻׁלְחָנִי,",
+      "en": "a money changer"
+     }
+    ]
+   },
+   {
+    "he": "אִם צְרוּרִין,",
+    "en": "if they are tied up,",
+    "st": "<b>if</b> the money <b>is bound,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "צְרוּרִין,",
+      "en": "tied up"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִשְׁתַּמֵּשׁ בָּהֶם,",
+    "en": "he may not use them,",
+    "st": "the money changer <b>may not use it. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִשְׁתַּמֵּשׁ",
+      "en": "he may use"
+     },
+     {
+      "he": "בָּהֶם,",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם אָבְדוּ אֵינוֹ חַיָּב בְּאַחֲרָיוּתָן,",
+    "en": "so if they get lost, he does not have to pay.",
+    "st": "<b>Therefore, if it is lost he does not bear responsibility for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָבְדוּ",
+      "en": "they got lost"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "responsible"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָן,",
+      "en": "for them"
+     }
+    ]
+   },
+   {
+    "he": "מֻתָּרִין, יִשְׁתַּמֵּשׁ בָּהֶן,",
+    "en": "If they are loose, he may use them,",
+    "explain": "The owner knows a money changer uses coins.",
+    "st": "If the money <b>was unbound,</b> the money changer <b>may use it. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻתָּרִין,",
+      "en": "loose"
+     },
+     {
+      "he": "יִשְׁתַּמֵּשׁ",
+      "en": "he may use"
+     },
+     {
+      "he": "בָּהֶן,",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם אָבְדוּ חַיָּב בְּאַחֲרָיוּתָן.",
+    "en": "so if they get lost, he must pay.",
+    "st": "<b>Therefore, if it is lost he bears responsibility for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָבְדוּ",
+      "en": "they got lost"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "he is responsible"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָן.",
+      "en": "for them"
+     }
+    ]
+   },
+   {
+    "he": "אֵצֶל בַּעַל הַבַּיִת,",
+    "en": "If they were left with a regular person,",
+    "st": "If he deposited money <b>with a homeowner, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵצֶל",
+      "en": "with"
+     },
+     {
+      "he": "בַּעַל",
+      "en": "the owner of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין צְרוּרִין וּבֵין מֻתָּרִים",
+    "en": "whether tied up or loose,",
+    "st": "<b>whether</b> it <b>is bound or whether</b> it <b>is unbound,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "צְרוּרִין",
+      "en": "tied up"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and whether"
+     },
+     {
+      "he": "מֻתָּרִים",
+      "en": "loose"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִשְׁתַּמֵּשׁ בָּהֶן,",
+    "en": "he may not use them,",
+    "st": "the homeowner <b>may not use it,</b>",
+    "stMore": "as it never entered the mind of the depositor that the homeowner might use the money.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִשְׁתַּמֵּשׁ",
+      "en": "he may use"
+     },
+     {
+      "he": "בָּהֶן,",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אִם אָבְדוּ אֵינוֹ חַיָּב בְּאַחֲרָיוּתָן.",
+    "en": "so if they get lost, he does not have to pay.",
+    "st": "<b>Therefore, if</b> the homeowner <b>lost</b> the money, <b>he does not bear responsibility for it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָבְדוּ",
+      "en": "they got lost"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "responsible"
+     },
+     {
+      "he": "בְּאַחֲרָיוּתָן.",
+      "en": "for them"
+     }
+    ]
+   },
+   {
+    "he": "חֶנְוָנִי כְּבַעַל הַבַּיִת,",
+    "en": "A storekeeper is like a regular person.",
+    "st": "If the bailee is <b>a storekeeper,</b> his status <b>is like</b> that of <b>a homeowner;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֶנְוָנִי",
+      "en": "a storekeeper"
+     },
+     {
+      "he": "כְּבַעַל",
+      "en": "like the owner of"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "These are the words of Rabbi Meir.",
+    "st": "this is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehuda says,",
+    "st": "<b>Rabbi Yehuda says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "חֶנְוָנִי כַּשֻּׁלְחָנִי:",
+    "en": "a storekeeper is like a money changer.",
+    "st": "If the bailee is <b>a storekeeper,</b> his status <b>is like</b> that of <b>a money changer.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חֶנְוָנִי",
+      "en": "a storekeeper"
+     },
+     {
+      "he": "כַּשֻּׁלְחָנִי:",
+      "en": "like the money changer"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 12,
+  "summary": "A watchman who used a deposit for himself must pay for it, and the Tannaim argue about which value he pays. Only really using it makes him responsible, and lifting a barrel counts as taking all of it.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַשּׁוֹלֵחַ יָד בְּפִקָּדוֹן,",
+    "en": "If a watchman uses a deposit for himself,",
+    "explain": "He takes what he is watching for his own use.",
+    "st": "With regard to <b>one who misappropriates a deposit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשּׁוֹלֵחַ",
+      "en": "the one who sends"
+     },
+     {
+      "he": "יָד",
+      "en": "a hand"
+     },
+     {
+      "he": "בְּפִקָּדוֹן,",
+      "en": "into a deposit"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים,",
+    "en": "Beis Shammai say,",
+    "st": "<b>Beit Shammai say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "יִלְקֶה בְחָסֵר וּבְיָתֵר.",
+    "en": "he loses out whether its value went down or up.",
+    "explain": "He pays whichever value is higher.",
+    "st": "<b>He is penalized for</b> its <b>decrease and</b> its <b>increase.</b>",
+    "stMore": "If the value of the deposit decreases, the bailee is liable to pay in accordance with its value at the time of the misappropriation. If it increases in value, he is liable to pay in accordance with its value at the time of repayment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִלְקֶה",
+      "en": "he is punished"
+     },
+     {
+      "he": "בְחָסֵר",
+      "en": "in less"
+     },
+     {
+      "he": "וּבְיָתֵר.",
+      "en": "and in more"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>And Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כִּשְׁעַת הוֹצָאָה.",
+    "en": "he pays what it was worth when he took it.",
+    "st": "He pays <b>in accordance with</b> its value at <b>the time of removal. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּשְׁעַת",
+      "en": "like the time of"
+     },
+     {
+      "he": "הוֹצָאָה.",
+      "en": "taking out"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b>Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "כִּשְׁעַת הַתְּבִיעָה.",
+    "en": "what it was worth when the owner asks for it.",
+    "st": "He pays <b>in accordance with</b> its value at <b>the time of the claim.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כִּשְׁעַת",
+      "en": "like the time of"
+     },
+     {
+      "he": "הַתְּבִיעָה.",
+      "en": "the claim"
+     }
+    ]
+   },
+   {
+    "he": "הַחוֹשֵׁב לִשְׁלֹחַ יָד בְּפִקָּדוֹן,",
+    "en": "If someone plans to use a deposit for himself,",
+    "st": "With regard to <b>one who intends to misappropriate a deposit</b> and voices that intent in the presence of witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַחוֹשֵׁב",
+      "en": "the one who plans"
+     },
+     {
+      "he": "לִשְׁלֹחַ",
+      "en": "to send"
+     },
+     {
+      "he": "יָד",
+      "en": "a hand"
+     },
+     {
+      "he": "בְּפִקָּדוֹן,",
+      "en": "into a deposit"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית שַׁמַּאי אוֹמְרִים, חַיָּב.",
+    "en": "Beis Shammai say he must pay.",
+    "st": "<b>Beit Shammai say:</b> He is <b>liable</b> to pay for any damage to the deposit from that point forward,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמַּאי",
+      "en": "Shammai"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     },
+     {
+      "he": "חַיָּב.",
+      "en": "obligated"
+     }
+    ]
+   },
+   {
+    "he": "וּבֵית הִלֵּל אוֹמְרִים,",
+    "en": "And Beis Hillel say,",
+    "st": "<b>and Beit Hillel say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֵית",
+      "en": "and Beis"
+     },
+     {
+      "he": "הִלֵּל",
+      "en": "Hillel"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ חַיָּב עַד שֶׁיִּשְׁלַח בּוֹ יָד,",
+    "en": "he does not pay until he really uses it,",
+    "st": "He is <b>liable</b> to pay <b>only</b> if <b>he</b> actually <b>misappropriates</b> the deposit,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "obligated"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיִּשְׁלַח",
+      "en": "that he sends"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "יָד,",
+      "en": "a hand"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (שמות כב)",
+    "en": "as it says,",
+    "st": "<b>as it is stated</b> concerning a bailee:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "as it says"
+     },
+     {
+      "he": "(שמות",
+      "en": "(Shemos"
+     },
+     {
+      "he": "כב)",
+      "en": "22)"
+     }
+    ]
+   },
+   {
+    "he": "אִם לֹא שָׁלַח יָדוֹ בִּמְלֶאכֶת רֵעֵהוּ.",
+    "en": "\"if he did not put his hand on his friend's things.\"",
+    "st": "<b>“Whether he has misappropriated his neighbor’s goods”</b> (Exodus 22:7).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "שָׁלַח",
+      "en": "he sent"
+     },
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     },
+     {
+      "he": "בִּמְלֶאכֶת",
+      "en": "into the goods of"
+     },
+     {
+      "he": "רֵעֵהוּ.",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. הִטָּה אֶת הֶחָבִית וְנָטַל הֵימֶנָּה רְבִיעִית,",
+    "en": "How so? If he tipped the barrel and took a revi'is from it,",
+    "explain": "A revi'is is a small cup of wine.",
+    "st": "If <b>he tilted the</b> deposited <b>barrel and took from it a quarter</b>-log of wine for his own use,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how so?"
+     },
+     {
+      "he": "הִטָּה",
+      "en": "he tipped"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הֶחָבִית",
+      "en": "the barrel"
+     },
+     {
+      "he": "וְנָטַל",
+      "en": "and he took"
+     },
+     {
+      "he": "הֵימֶנָּה",
+      "en": "from it"
+     },
+     {
+      "he": "רְבִיעִית,",
+      "en": "a revi'is"
+     }
+    ]
+   },
+   {
+    "he": "וְנִשְׁבְּרָה, אֵינוֹ מְשַׁלֵּם אֶלָּא רְבִיעִית.",
+    "en": "and it broke, he pays only for the revi'is.",
+    "st": "<b>and</b> the barrel <b>broke,</b> then <b>he pays only</b> for that <b>quarter</b>-log<b>.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִשְׁבְּרָה,",
+      "en": "and it broke"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "רְבִיעִית.",
+      "en": "a revi'is"
+     }
+    ]
+   },
+   {
+    "he": "הִגְבִּיהָהּ וְנָטַל הֵימֶנָּה רְבִיעִית,",
+    "en": "If he lifted it and took a revi'is from it,",
+    "st": "If <b>he lifted</b> the barrel <b>and took from it a quarter</b>-log of wine,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִגְבִּיהָהּ",
+      "en": "he lifted it"
+     },
+     {
+      "he": "וְנָטַל",
+      "en": "and he took"
+     },
+     {
+      "he": "הֵימֶנָּה",
+      "en": "from it"
+     },
+     {
+      "he": "רְבִיעִית,",
+      "en": "a revi'is"
+     }
+    ]
+   },
+   {
+    "he": "וְנִשְׁבְּרָה, מְשַׁלֵּם דְּמֵי כֻלָּהּ:",
+    "en": "and it broke, he pays for all of it.",
+    "explain": "Lifting it made it his.",
+    "st": "<b>and</b> the barrel <b>broke,</b> since he acquired the barrel by lifting it, <b>he pays the value of</b> the <b>entire</b> barrel.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִשְׁבְּרָה,",
+      "en": "and it broke"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the value of"
+     },
+     {
+      "he": "כֻלָּהּ:",
+      "en": "all of it"
+     }
+    ]
+   }
+  ]
+ }
+]

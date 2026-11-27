@@ -1,0 +1,3181 @@
+[
+ {
+  "perek": 4,
+  "mishnah": 1,
+  "summary": "Money cases and life-and-death cases both need careful questioning of the witnesses. But in many ways the court is much more careful in life-and-death cases, always looking for a way to save the person.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֶחָד דִּינֵי מָמוֹנוֹת וְאֶחָד דִּינֵי נְפָשׁוֹת,",
+    "en": "Both money cases and life-and-death cases",
+    "st": "<b>Both</b> cases of <b>monetary law and</b> cases of <b>capital law are equal with regard to</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת,",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "בִּדְרִישָׁה וּבַחֲקִירָה,",
+    "en": "need careful questioning of the witnesses,",
+    "st": "the requirement for <b>inquiry and interrogation</b> of the witnesses,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּדְרִישָׁה",
+      "en": "with searching questions"
+     },
+     {
+      "he": "וּבַחֲקִירָה,",
+      "en": "and with checking questions"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (ויקרא כד)",
+    "en": "as it says,",
+    "st": "<b>as it is stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "כד)",
+      "en": "24)"
+     }
+    ]
+   },
+   {
+    "he": "מִשְׁפַּט אֶחָד יִהְיֶה לָכֶם.",
+    "en": "\"You shall have one law.\"",
+    "st": "<b>“You shall have one manner of law”</b>",
+    "stMore": "(Leviticus 24:22), meaning that all legal procedures must be uniform. Having stated the essential similarity between the two, the mishna enumerates the differences between them.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשְׁפַּט",
+      "en": "law"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "יִהְיֶה",
+      "en": "shall be"
+     },
+     {
+      "he": "לָכֶם.",
+      "en": "for you"
+     }
+    ]
+   },
+   {
+    "he": "מַה בֵּין דִּינֵי מָמוֹנוֹת לְדִינֵי נְפָשׁוֹת.",
+    "en": "What is the difference between money cases and life-and-death cases?",
+    "st": "<b>What</b> are the differences <b>between</b> cases of <b>monetary law and</b> cases of <b>capital law?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "לְדִינֵי",
+      "en": "to cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת.",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת בִּשְׁלֹשָׁה,",
+    "en": "Money cases are judged by three,",
+    "st": "Cases of <b>monetary law</b> are judged <b>by</b> a court of <b>three</b> judges,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה,",
+      "en": "by three"
+     }
+    ]
+   },
+   {
+    "he": "וְדִינֵי נְפָשׁוֹת בְּעֶשְׂרִים וּשְׁלֹשָׁה.",
+    "en": "and life-and-death cases by twenty-three.",
+    "st": "<b>and</b> cases of <b>capital law</b> are judged <b>by</b> a court of <b>twenty-three</b> judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְדִינֵי",
+      "en": "and cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "בְּעֶשְׂרִים",
+      "en": "by twenty"
+     },
+     {
+      "he": "וּשְׁלֹשָׁה.",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת פּוֹתְחִין",
+    "en": "In money cases, the judges may start",
+    "st": "In cases of <b>monetary law,</b> the court <b>opens</b> the deliberations",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "פּוֹתְחִין",
+      "en": "they open"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לִזְכוּת בֵּין לְחוֹבָה,",
+    "en": "with a reason for \"not guilty\" or for \"guilty.\"",
+    "st": "<b>either</b> with a claim <b>to exempt</b> the accused, <b>or</b> with a claim <b>to find</b> him <b>liable. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לִזְכוּת",
+      "en": "for merit"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְחוֹבָה,",
+      "en": "for guilt"
+     }
+    ]
+   },
+   {
+    "he": "וְדִינֵי נְפָשׁוֹת פּוֹתְחִין לִזְכוּת",
+    "en": "In life-and-death cases, they start with a reason for \"not guilty,\"",
+    "st": "<b>And</b> in cases of <b>capital law,</b> the court <b>opens</b> the deliberations with a claim <b>to acquit</b> the accused,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְדִינֵי",
+      "en": "and cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "פּוֹתְחִין",
+      "en": "they open"
+     },
+     {
+      "he": "לִזְכוּת",
+      "en": "for merit"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין פּוֹתְחִין לְחוֹבָה.",
+    "en": "and they do not start with \"guilty.\"",
+    "st": "<b>but</b> it <b>does not open</b> the deliberations with a claim <b>to find</b> him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "פּוֹתְחִין",
+      "en": "they open"
+     },
+     {
+      "he": "לְחוֹבָה.",
+      "en": "for guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת מַטִּין עַל פִּי אֶחָד",
+    "en": "In money cases, one extra judge is enough to decide",
+    "st": "In cases of <b>monetary law,</b> the court <b>directs,</b> i.e., issues, the ruling <b>based on</b> a majority of <b>one</b> judge,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "מַטִּין",
+      "en": "they lean"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לִזְכוּת בֵּין לְחוֹבָה,",
+    "en": "either \"not guilty\" or \"guilty.\"",
+    "st": "<b>either to exempt, or to find liable. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לִזְכוּת",
+      "en": "for merit"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְחוֹבָה,",
+      "en": "for guilt"
+     }
+    ]
+   },
+   {
+    "he": "וְדִינֵי נְפָשׁוֹת מַטִּין עַל פִּי אֶחָד לִזְכוּת",
+    "en": "In life-and-death cases, one extra judge is enough for \"not guilty,\"",
+    "st": "<b>But</b> in cases of <b>capital law,</b> the court <b>directs</b> the judgment <b>based on</b> a majority of <b>one</b> judge <b>to acquit </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְדִינֵי",
+      "en": "and cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "מַטִּין",
+      "en": "they lean"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "לִזְכוּת",
+      "en": "for merit"
+     }
+    ]
+   },
+   {
+    "he": "וְעַל פִּי שְׁנַיִם לְחוֹבָה.",
+    "en": "but for \"guilty\" you need two extra.",
+    "st": "<b>and based on</b> a majority of <b>two</b> judges <b>to find liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעַל",
+      "en": "and by"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth of"
+     },
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "לְחוֹבָה.",
+      "en": "for guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת מַחֲזִירִין",
+    "en": "In money cases, they may open the case again",
+    "st": "In cases of <b>monetary law,</b> the court <b>brings</b> the accused <b>back</b> to be judged again if new evidence arises,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "מַחֲזִירִין",
+      "en": "they bring back"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לִזְכוּת בֵּין לְחוֹבָה,",
+    "en": "for \"not guilty\" or for \"guilty.\"",
+    "st": "<b>either</b> with a claim <b>to exempt</b> the accused, <b>or</b> with a claim <b>to find</b> him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לִזְכוּת",
+      "en": "for merit"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְחוֹבָה,",
+      "en": "for guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי נְפָשׁוֹת מַחֲזִירִין לִזְכוּת",
+    "en": "In life-and-death cases, they open it again for \"not guilty,\"",
+    "st": "In cases of <b>capital law,</b> the court <b>brings</b> the accused <b>back</b> to be judged again with a claim <b>to acquit</b> him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "מַחֲזִירִין",
+      "en": "they bring back"
+     },
+     {
+      "he": "לִזְכוּת",
+      "en": "for merit"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין מַחֲזִירִין לְחוֹבָה.",
+    "en": "but not for \"guilty.\"",
+    "st": "<b>but</b> the court <b>does not bring</b> him back to be judged with a claim <b>to find</b> him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "מַחֲזִירִין",
+      "en": "they bring back"
+     },
+     {
+      "he": "לְחוֹבָה.",
+      "en": "for guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת הַכֹּל מְלַמְּדִין זְכוּת וְחוֹבָה,",
+    "en": "In money cases, everyone may give a reason for \"not guilty\" or \"guilty.\"",
+    "st": "In cases of <b>monetary law, all</b> those present at the trial <b>may teach</b> a reason to <b>exempt</b> a litigant <b>or</b> to find him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "מְלַמְּדִין",
+      "en": "may teach"
+     },
+     {
+      "he": "זְכוּת",
+      "en": "merit"
+     },
+     {
+      "he": "וְחוֹבָה,",
+      "en": "and guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי נְפָשׁוֹת הַכֹּל מְלַמְּדִין זְכוּת",
+    "en": "In life-and-death cases, everyone may give a reason for \"not guilty,\"",
+    "st": "In cases of <b>capital law, all</b> those present at the trial <b>may teach</b> a reason to <b>acquit</b> the accused,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "מְלַמְּדִין",
+      "en": "may teach"
+     },
+     {
+      "he": "זְכוּת",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין הַכֹּל מְלַמְּדִין חוֹבָה.",
+    "en": "but not everyone may give a reason for \"guilty.\"",
+    "explain": "Only the judges may.",
+    "st": "<b>but not all</b> present <b>may teach</b> a reason to find him <b>liable.</b>",
+    "stMore": "Only the judges can teach a reason to find him liable.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "מְלַמְּדִין",
+      "en": "may teach"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת הַמְלַמֵּד חוֹבָה מְלַמֵּד זְכוּת",
+    "en": "In money cases, a judge who gave a reason for \"guilty\" may give one for \"not guilty,\"",
+    "st": "In cases of <b>monetary law, one who</b> initially <b>teaches</b> a reason to find the accused <b>liable may</b> then <b>teach</b> a reason to <b>exempt</b> him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "הַמְלַמֵּד",
+      "en": "the one who teaches"
+     },
+     {
+      "he": "חוֹבָה",
+      "en": "guilt"
+     },
+     {
+      "he": "מְלַמֵּד",
+      "en": "may teach"
+     },
+     {
+      "he": "זְכוּת",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְלַמֵּד זְכוּת מְלַמֵּד חוֹבָה,",
+    "en": "and one who gave a reason for \"not guilty\" may give one for \"guilty.\"",
+    "st": "<b>and one who</b> initially <b>teaches</b> a reason to <b>exempt</b> him <b>may</b> then <b>teach</b> a reason to find him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְלַמֵּד",
+      "en": "and the one who teaches"
+     },
+     {
+      "he": "זְכוּת",
+      "en": "merit"
+     },
+     {
+      "he": "מְלַמֵּד",
+      "en": "may teach"
+     },
+     {
+      "he": "חוֹבָה,",
+      "en": "guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי נְפָשׁוֹת הַמְלַמֵּד חוֹבָה מְלַמֵּד זְכוּת,",
+    "en": "In life-and-death cases, one who said \"guilty\" may switch to \"not guilty,\"",
+    "st": "In cases of <b>capital law, one who</b> initially <b>teaches</b> a reason to find him <b>liable may</b> then <b>teach</b> a reason to <b>acquit, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "הַמְלַמֵּד",
+      "en": "the one who teaches"
+     },
+     {
+      "he": "חוֹבָה",
+      "en": "guilt"
+     },
+     {
+      "he": "מְלַמֵּד",
+      "en": "may teach"
+     },
+     {
+      "he": "זְכוּת,",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל הַמְלַמֵּד זְכוּת",
+    "en": "but one who said \"not guilty\"",
+    "st": "<b>but one who</b> initially <b>teaches</b> a reason to <b>acquit </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "הַמְלַמֵּד",
+      "en": "the one who teaches"
+     },
+     {
+      "he": "זְכוּת",
+      "en": "merit"
+     }
+    ]
+   },
+   {
+    "he": "אֵין יָכוֹל לַחֲזֹר וּלְלַמֵּד חוֹבָה.",
+    "en": "may not switch back to \"guilty.\"",
+    "st": "<b>may not return and teach</b> a reason to find him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "can"
+     },
+     {
+      "he": "לַחֲזֹר",
+      "en": "go back"
+     },
+     {
+      "he": "וּלְלַמֵּד",
+      "en": "and teach"
+     },
+     {
+      "he": "חוֹבָה.",
+      "en": "guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת דָּנִין בַּיּוֹם וְגוֹמְרִין בַּלַּיְלָה,",
+    "en": "Money cases are judged in the day, and may be finished at night.",
+    "st": "In cases of <b>monetary law,</b> the court <b>judges during the daytime, and may conclude</b> the deliberations and issue the ruling even <b>at night.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "דָּנִין",
+      "en": "they judge"
+     },
+     {
+      "he": "בַּיּוֹם",
+      "en": "in the day"
+     },
+     {
+      "he": "וְגוֹמְרִין",
+      "en": "and they finish"
+     },
+     {
+      "he": "בַּלַּיְלָה,",
+      "en": "at night"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי נְפָשׁוֹת דָּנִין בַּיּוֹם וְגוֹמְרִין בַּיּוֹם.",
+    "en": "Life-and-death cases are judged in the day, and finished in the day.",
+    "st": "In cases of <b>capital law,</b> the court <b>judges during the daytime, and concludes</b> the deliberations and issues the ruling only <b>in the daytime.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "דָּנִין",
+      "en": "they judge"
+     },
+     {
+      "he": "בַּיּוֹם",
+      "en": "in the day"
+     },
+     {
+      "he": "וְגוֹמְרִין",
+      "en": "and they finish"
+     },
+     {
+      "he": "בַּיּוֹם.",
+      "en": "in the day"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת גּוֹמְרִין בּוֹ בַיּוֹם",
+    "en": "Money cases may be finished on the same day,",
+    "st": "In cases of <b>monetary law,</b> the court may <b>conclude</b> the deliberations and issue the ruling even <b>on that same day, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "גּוֹמְרִין",
+      "en": "they finish"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "on that"
+     },
+     {
+      "he": "בַיּוֹם",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לִזְכוּת בֵּין לְחוֹבָה,",
+    "en": "whether for \"not guilty\" or for \"guilty.\"",
+    "st": "<b>whether to exempt</b> the accused <b>or to find</b> him <b>liable.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לִזְכוּת",
+      "en": "for merit"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְחוֹבָה,",
+      "en": "for guilt"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי נְפָשׁוֹת גּוֹמְרִין בּוֹ בַיּוֹם לִזְכוּת",
+    "en": "Life-and-death cases may be finished on the same day for \"not guilty,\"",
+    "st": "In cases of <b>capital law,</b> the court may <b>conclude</b> the deliberations and issue the ruling even <b>on that same day to acquit</b> the accused,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "גּוֹמְרִין",
+      "en": "they finish"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "on that"
+     },
+     {
+      "he": "בַיּוֹם",
+      "en": "day"
+     },
+     {
+      "he": "לִזְכוּת",
+      "en": "for merit"
+     }
+    ]
+   },
+   {
+    "he": "וּבְיוֹם שֶׁלְּאַחֲרָיו לְחוֹבָה,",
+    "en": "but only on the next day for \"guilty.\"",
+    "st": "but must wait until <b>the following day to</b> find him <b>liable. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבְיוֹם",
+      "en": "and on the day"
+     },
+     {
+      "he": "שֶׁלְּאַחֲרָיו",
+      "en": "that is after it"
+     },
+     {
+      "he": "לְחוֹבָה,",
+      "en": "for guilt"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ אֵין דָּנִין",
+    "en": "So we do not judge them",
+    "st": "<b>Therefore,</b> since capital cases might continue for two days, the court <b>does not judge</b> cases of capital law on certain days,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "דָּנִין",
+      "en": "we judge"
+     }
+    ]
+   },
+   {
+    "he": "לֹא בְעֶרֶב שַׁבָּת",
+    "en": "not on Erev Shabbos,",
+    "st": "<b>neither on the eve of Shabbat </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בְעֶרֶב",
+      "en": "on the eve of"
+     },
+     {
+      "he": "שַׁבָּת",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא בְעֶרֶב יוֹם טוֹב:",
+    "en": "and not on Erev Yom Tov.",
+    "explain": "The case might need a second day, which would be Shabbos or Yom Tov.",
+    "st": "<b>nor the eve of a Festival.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "בְעֶרֶב",
+      "en": "on the eve of"
+     },
+     {
+      "he": "יוֹם",
+      "en": "Yom"
+     },
+     {
+      "he": "טוֹב:",
+      "en": "Tov"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 2,
+  "summary": "This mishnah teaches which judge speaks first in different cases, and who may be a judge in life-and-death cases.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "דִּינֵי הַטֻּמְאוֹת וְהַטָּהֳרוֹת מַתְחִילִין מִן הַגָּדוֹל,",
+    "en": "In cases of tumah and taharah, the judges start with the greatest judge.",
+    "st": "In cases of <b>monetary law,</b> and likewise in <b>the</b> cases of <b>ritual impurity and purity,</b> the judges <b>commence</b> expressing their opinions <b>from the greatest</b> of the judges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "הַטֻּמְאוֹת",
+      "en": "the tumos"
+     },
+     {
+      "he": "וְהַטָּהֳרוֹת",
+      "en": "and the taharos",
+      "note": "Halachos of what is tamei and tahor."
+     },
+     {
+      "he": "מַתְחִילִין",
+      "en": "they start"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַגָּדוֹל,",
+      "en": "the greatest"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי נְפָשׁוֹת מַתְחִילִין מִן הַצָּד.",
+    "en": "In life-and-death cases, they start from the side.",
+    "explain": "The smaller judges speak first, so they are not afraid to disagree with the great ones.",
+    "st": "In cases of <b>capital law,</b> the judges <b>commence</b> issuing their opinions <b>from the side,</b> where the least significant judges sit.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת",
+      "en": "lives"
+     },
+     {
+      "he": "מַתְחִילִין",
+      "en": "they start"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַצָּד.",
+      "en": "the side"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל כְּשֵׁרִין לָדוּן דִּינֵי מָמוֹנוֹת",
+    "en": "Everyone may judge money cases,",
+    "st": "<b>All are fit to judge</b> cases of <b>monetary law. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "כְּשֵׁרִין",
+      "en": "is fit"
+     },
+     {
+      "he": "לָדוּן",
+      "en": "to judge"
+     },
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין הַכֹּל כְּשֵׁרִין לָדוּן דִּינֵי נְפָשׁוֹת,",
+    "en": "but not everyone may judge life-and-death cases,",
+    "st": "<b>But not all are fit to judge</b> cases of <b>capital law; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "הַכֹּל",
+      "en": "everyone"
+     },
+     {
+      "he": "כְּשֵׁרִין",
+      "en": "is fit"
+     },
+     {
+      "he": "לָדוּן",
+      "en": "to judge"
+     },
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת,",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא כֹהֲנִים, לְוִיִּם,",
+    "en": "only Kohanim, Levi'im,",
+    "st": "<b>only priests, Levites, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "כֹהֲנִים,",
+      "en": "Kohanim"
+     },
+     {
+      "he": "לְוִיִּם,",
+      "en": "Levi'im"
+     }
+    ]
+   },
+   {
+    "he": "וְיִשְׂרְאֵלִים הַמַּשִּׂיאִין לַכְּהֻנָּה:",
+    "en": "and Yisraelim whose daughters may marry Kohanim.",
+    "explain": "Families with a clean, proper yichus.",
+    "st": "<b>and Israelites who</b> are of sufficiently fit lineage to <b>marry</b> their daughters <b>to</b> members of <b>the priesthood</b> are fit to judge cases of capital law.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיִשְׂרְאֵלִים",
+      "en": "and Yisraelim"
+     },
+     {
+      "he": "הַמַּשִּׂיאִין",
+      "en": "who marry off"
+     },
+     {
+      "he": "לַכְּהֻנָּה:",
+      "en": "to the Kehunah"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 3,
+  "summary": "The Sanhedrin sat in a half circle so all the judges could see each other. Scribes wrote down what each judge said.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "סַנְהֶדְרִין הָיְתָה כַּחֲצִי גֹרֶן עֲגֻלָּה,",
+    "en": "The Sanhedrin sat like half of a round threshing floor,",
+    "st": "<b>A Sanhedrin</b> of twenty-three <b>was</b> arranged in the same layout <b>as half of a circular threshing floor, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סַנְהֶדְרִין",
+      "en": "Sanhedrin"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half of"
+     },
+     {
+      "he": "גֹרֶן",
+      "en": "a threshing floor",
+      "note": "A flat place where grain is threshed."
+     },
+     {
+      "he": "עֲגֻלָּה,",
+      "en": "round"
+     }
+    ]
+   },
+   {
+    "he": "כְּדֵי שֶׁיְּהוּ רוֹאִין זֶה אֶת זֶה.",
+    "en": "so that they could see one another.",
+    "st": "<b>in order that</b> all the judges <b>will see one another</b> and the witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּדֵי",
+      "en": "so that"
+     },
+     {
+      "he": "שֶׁיְּהוּ",
+      "en": "they will be"
+     },
+     {
+      "he": "רוֹאִין",
+      "en": "seeing"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "זֶה.",
+      "en": "that one"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנֵי סוֹפְרֵי הַדַּיָּנִין עוֹמְדִין לִפְנֵיהֶם,",
+    "en": "And two scribes of the judges stand in front of them,",
+    "st": "<b>And two judges’ scribes stand before</b> the court,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנֵי",
+      "en": "and two"
+     },
+     {
+      "he": "סוֹפְרֵי",
+      "en": "scribes of"
+     },
+     {
+      "he": "הַדַּיָּנִין",
+      "en": "the judges"
+     },
+     {
+      "he": "עוֹמְדִין",
+      "en": "stand"
+     },
+     {
+      "he": "לִפְנֵיהֶם,",
+      "en": "before them"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד מִיָּמִין וְאֶחָד מִשְּׂמֹאל,",
+    "en": "one on the right and one on the left,",
+    "st": "<b>one on the right and one on the left, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִיָּמִין",
+      "en": "on the right"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "מִשְּׂמֹאל,",
+      "en": "on the left"
+     }
+    ]
+   },
+   {
+    "he": "וְכוֹתְבִין דִּבְרֵי הַמְזַכִּין וְדִבְרֵי הַמְחַיְּבִין.",
+    "en": "and they write the words of those who say \"not guilty\" and those who say \"guilty.\"",
+    "st": "<b>and they write the statements of those who find</b> the accused <b>liable and the statements of those who acquit</b> the accused.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכוֹתְבִין",
+      "en": "and they write"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "הַמְזַכִּין",
+      "en": "those who say not guilty"
+     },
+     {
+      "he": "וְדִבְרֵי",
+      "en": "and the words of"
+     },
+     {
+      "he": "הַמְחַיְּבִין.",
+      "en": "those who say guilty"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר, שְׁלֹשָׁה,",
+    "en": "Rabbi Yehudah says, three.",
+    "st": "<b>Rabbi Yehuda says:</b> There were <b>three</b> scribes.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "שְׁלֹשָׁה,",
+      "en": "three"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד כּוֹתֵב דִּבְרֵי הַמְזַכִּין,",
+    "en": "One writes the words of those who say \"not guilty,\"",
+    "st": "<b>One writes</b> only <b>the statements of those who acquit</b> the accused,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "כּוֹתֵב",
+      "en": "writes"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "הַמְזַכִּין,",
+      "en": "those who say not guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד כּוֹתֵב דִּבְרֵי הַמְחַיְּבִין,",
+    "en": "and one writes the words of those who say \"guilty,\"",
+    "st": "<b>one writes</b> only <b>the statements of those who find</b> him <b>liable, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "כּוֹתֵב",
+      "en": "writes"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "הַמְחַיְּבִין,",
+      "en": "those who say guilty"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשְּׁלִישִׁי כוֹתֵב דִּבְרֵי הַמְזַכִּין וְדִבְרֵי הַמְחַיְּבִין:",
+    "en": "and the third writes both.",
+    "st": "<b>and the third writes</b> both <b>the statements of those who acquit</b> the accused <b>and the statements of those who find</b> him <b>liable,</b>",
+    "stMore": "so that if there is uncertainty concerning the precise wording that one of the scribes writes, it can be compared to the words of the third scribe.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשְּׁלִישִׁי",
+      "en": "and the third"
+     },
+     {
+      "he": "כוֹתֵב",
+      "en": "writes"
+     },
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "הַמְזַכִּין",
+      "en": "those who say not guilty"
+     },
+     {
+      "he": "וְדִבְרֵי",
+      "en": "and the words of"
+     },
+     {
+      "he": "הַמְחַיְּבִין:",
+      "en": "those who say guilty"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 4,
+  "summary": "Three rows of talmidei chachamim sat in front of the Sanhedrin. When a new judge was needed, they took him from the first row, and everyone moved up.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "וְשָׁלֹשׁ שׁוּרוֹת שֶׁל תַּלְמִידֵי חֲכָמִים",
+    "en": "And three rows of talmidei chachamim",
+    "st": "<b>And three rows of Torah scholars </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשָׁלֹשׁ",
+      "en": "and three"
+     },
+     {
+      "he": "שׁוּרוֹת",
+      "en": "rows"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "תַּלְמִידֵי",
+      "en": "students of"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the wise"
+     }
+    ]
+   },
+   {
+    "he": "יוֹשְׁבִין לִפְנֵיהֶם,",
+    "en": "sit in front of them,",
+    "st": "<b>sit before</b> the judges, and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יוֹשְׁבִין",
+      "en": "sit"
+     },
+     {
+      "he": "לִפְנֵיהֶם,",
+      "en": "before them"
+     }
+    ]
+   },
+   {
+    "he": "כָּל אֶחָד וְאֶחָד מַכִּיר אֶת מְקוֹמוֹ.",
+    "en": "each one knows his place.",
+    "st": "<b>each and every one</b> among those sitting <b>recognizes his place,</b>",
+    "stMore": "i.e., they are seated in accordance with their stature.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "מַכִּיר",
+      "en": "knows"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "מְקוֹמוֹ.",
+      "en": "his place"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ צְרִיכִין לִסְמֹךְ,",
+    "en": "If they needed to give semichah to a new judge,",
+    "st": "When the court <b>must ordain</b>",
+    "stMore": "an additional judge, e.g., if a judge dies during the proceedings or in the case of a court without a decisive majority (see 40a), the court",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "צְרִיכִין",
+      "en": "needing"
+     },
+     {
+      "he": "לִסְמֹךְ,",
+      "en": "to give semichah"
+     }
+    ]
+   },
+   {
+    "he": "סוֹמְכִין מִן הָרִאשׁוֹנָה.",
+    "en": "they took him from the first row.",
+    "st": "<b>ordains</b> the greatest Torah scholar <b>from the first</b> row.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "סוֹמְכִין",
+      "en": "they give semichah"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָרִאשׁוֹנָה.",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד מִן הַשְּׁנִיָּה בָּא לוֹ לָרִאשׁוֹנָה",
+    "en": "One from the second row moves to the first,",
+    "st": "As a seat in the first row is now vacant, <b>one</b> Torah scholar <b>from the second</b> row <b>comes to the first</b> row,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשְּׁנִיָּה",
+      "en": "the second"
+     },
+     {
+      "he": "בָּא",
+      "en": "comes"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "לָרִאשׁוֹנָה",
+      "en": "to the first"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד מִן הַשְּׁלִישִׁית בָּא לוֹ לַשְּׁנִיָּה,",
+    "en": "and one from the third row moves to the second,",
+    "st": "and <b>one</b> Torah scholar <b>from the third</b> row <b>comes to the second</b> row,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשְּׁלִישִׁית",
+      "en": "the third"
+     },
+     {
+      "he": "בָּא",
+      "en": "comes"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "לַשְּׁנִיָּה,",
+      "en": "to the second"
+     }
+    ]
+   },
+   {
+    "he": "וּבוֹרְרִין לָהֶן עוֹד אֶחָד מִן הַקָּהָל",
+    "en": "and they choose one more from the crowd",
+    "st": "and the court <b>selects another</b> Torah scholar <b>from among the assembled </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבוֹרְרִין",
+      "en": "and they choose"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "for them"
+     },
+     {
+      "he": "עוֹד",
+      "en": "more"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַקָּהָל",
+      "en": "the crowd"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹשִׁיבִין אוֹתוֹ בַשְּׁלִישִׁית.",
+    "en": "and seat him in the third row.",
+    "st": "<b>and they seat him in the third</b> row.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹשִׁיבִין",
+      "en": "and they seat"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "him"
+     },
+     {
+      "he": "בַשְּׁלִישִׁית.",
+      "en": "in the third"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא הָיָה יוֹשֵׁב בִּמְקוֹמוֹ שֶׁל רִאשׁוֹן,",
+    "en": "He would not sit in the seat of the first one,",
+    "st": "<b>And</b> this Torah scholar who moves from the second row to the first row <b>would not sit in the place of the first</b> Torah scholar, who joined the court,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "יוֹשֵׁב",
+      "en": "sitting"
+     },
+     {
+      "he": "בִּמְקוֹמוֹ",
+      "en": "in the place"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "רִאשׁוֹן,",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא יוֹשֵׁב בְּמָקוֹם הָרָאוּי לוֹ:",
+    "en": "but he sits in the place that fits him.",
+    "st": "<b>rather, he</b> would <b>sit in the place appropriate for him,</b>",
+    "stMore": "i.e., at the end of that row, in accordance with his stature.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "יוֹשֵׁב",
+      "en": "sits"
+     },
+     {
+      "he": "בְּמָקוֹם",
+      "en": "in the place"
+     },
+     {
+      "he": "הָרָאוּי",
+      "en": "fitting"
+     },
+     {
+      "he": "לוֹ:",
+      "en": "for him"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 4,
+  "mishnah": 5,
+  "summary": "Before witnesses testify in a life-and-death case, the judges warn them how serious it is. Every person is like a whole world, because Hashem created Adam alone, and each person must say, \"The world was created for me.\"",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כֵּיצַד מְאַיְּמִין אֶת הָעֵדִים",
+    "en": "How do they warn the witnesses",
+    "st": "<b>How does</b> the court <b>intimidate the witnesses in</b> giving",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "מְאַיְּמִין",
+      "en": "they warn"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֵדִים",
+      "en": "the witnesses"
+     }
+    ]
+   },
+   {
+    "he": "עַל עֵדֵי נְפָשׁוֹת,",
+    "en": "in life-and-death cases?",
+    "st": "<b>testimony for</b> cases of <b>capital law? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "עֵדֵי",
+      "en": "witnesses of"
+     },
+     {
+      "he": "נְפָשׁוֹת,",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "הָיוּ מַכְנִיסִין אוֹתָן וּמְאַיְּמִין עֲלֵיהֶן.",
+    "en": "They would bring them in and warn them:",
+    "st": "<b>They would bring</b> the witnesses <b>in and intimidate them</b> by saying to them:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיוּ",
+      "en": "they would"
+     },
+     {
+      "he": "מַכְנִיסִין",
+      "en": "bring in"
+     },
+     {
+      "he": "אוֹתָן",
+      "en": "them"
+     },
+     {
+      "he": "וּמְאַיְּמִין",
+      "en": "and warn"
+     },
+     {
+      "he": "עֲלֵיהֶן.",
+      "en": "them"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא תֹאמְרוּ מֵאֹמֶד,",
+    "en": "\"Maybe you are saying it from a guess,",
+    "st": "<b>Perhaps</b> what <b>you say</b> in your testimony is <b>based on conjecture, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "maybe"
+     },
+     {
+      "he": "תֹאמְרוּ",
+      "en": "you will say"
+     },
+     {
+      "he": "מֵאֹמֶד,",
+      "en": "from a guess"
+     }
+    ]
+   },
+   {
+    "he": "וּמִשְּׁמוּעָה, עֵד מִפִּי עֵד",
+    "en": "or from a rumor, or from one witness who heard from another,",
+    "st": "<b>or</b> perhaps it is <b>based on a rumor,</b> perhaps it is <b>testimony</b> based on <b>hearsay,</b>",
+    "stMore": "e.g., you heard a witness testify to this in a different court,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִשְּׁמוּעָה,",
+      "en": "and from a rumor"
+     },
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "מִפִּי",
+      "en": "from the mouth of"
+     },
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     }
+    ]
+   },
+   {
+    "he": "וּמִפִּי אָדָם נֶאֱמָן שָׁמַעְנוּ,",
+    "en": "or 'We heard it from a trusted person.'",
+    "st": "<b>or</b> perhaps it is <b>based on the statement of a trusted person. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִפִּי",
+      "en": "and from the mouth of"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "נֶאֱמָן",
+      "en": "trusted"
+     },
+     {
+      "he": "שָׁמַעְנוּ,",
+      "en": "we heard"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ שֶׁמָּא אִי אַתֶּם יוֹדְעִין",
+    "en": "Or maybe you do not know",
+    "st": "<b>Perhaps you do not know </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "שֶׁמָּא",
+      "en": "maybe"
+     },
+     {
+      "he": "אִי",
+      "en": "not"
+     },
+     {
+      "he": "אַתֶּם",
+      "en": "you"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁסּוֹפֵנוּ לִבְדֹּק אֶתְכֶם בִּדְרִישָׁה וּבַחֲקִירָה.",
+    "en": "that in the end we will check you with careful questions.",
+    "st": "<b>that ultimately we examine you with inquiry and interrogation,</b>",
+    "stMore": "and if you are lying, your lie will be discovered.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁסּוֹפֵנוּ",
+      "en": "that our end is"
+     },
+     {
+      "he": "לִבְדֹּק",
+      "en": "to check"
+     },
+     {
+      "he": "אֶתְכֶם",
+      "en": "you"
+     },
+     {
+      "he": "בִּדְרִישָׁה",
+      "en": "with searching questions"
+     },
+     {
+      "he": "וּבַחֲקִירָה.",
+      "en": "and with checking questions"
+     }
+    ]
+   },
+   {
+    "he": "הֱווּ יוֹדְעִין",
+    "en": "You should know",
+    "st": "The court tells them: <b>You should know that</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֱווּ",
+      "en": "be"
+     },
+     {
+      "he": "יוֹדְעִין",
+      "en": "knowing"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא כְדִינֵי מָמוֹנוֹת דִּינֵי נְפָשׁוֹת.",
+    "en": "that life-and-death cases are not like money cases.",
+    "st": "cases of <b>capital law</b> are <b>not like</b> cases of <b>monetary law.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "כְדִינֵי",
+      "en": "like cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת",
+      "en": "money"
+     },
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת.",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי מָמוֹנוֹת,",
+    "en": "In money cases,",
+    "st": "In cases of <b>monetary law, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "מָמוֹנוֹת,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "אָדָם נוֹתֵן מָמוֹן וּמִתְכַּפֵּר לוֹ.",
+    "en": "a person pays money and he is forgiven.",
+    "explain": "If he lied, he can pay back and be forgiven.",
+    "st": "<b>a person</b> who testifies falsely, causing money to be given to the wrong party, can <b>give</b> the <b>money</b> to the proper owner <b>and his</b> sin <b>is atoned</b> for.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "מָמוֹן",
+      "en": "money"
+     },
+     {
+      "he": "וּמִתְכַּפֵּר",
+      "en": "and is forgiven"
+     },
+     {
+      "he": "לוֹ.",
+      "en": "for him"
+     }
+    ]
+   },
+   {
+    "he": "דִּינֵי נְפָשׁוֹת,",
+    "en": "In life-and-death cases,",
+    "st": "In cases of <b>capital law,</b> if one testifies falsely,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּינֵי",
+      "en": "cases of"
+     },
+     {
+      "he": "נְפָשׁוֹת,",
+      "en": "lives"
+     }
+    ]
+   },
+   {
+    "he": "דָּמוֹ וְדַם זַרְעִיּוֹתָיו תְּלוּיִין בּוֹ",
+    "en": "the blood of the person and of all his children who would have been born are on him",
+    "st": "<b>the blood of</b> the accused <b>and the blood of his offspring</b> that he did not merit to produce <b>are ascribed to</b> the witness’s testimony",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמוֹ",
+      "en": "his blood"
+     },
+     {
+      "he": "וְדַם",
+      "en": "and the blood of"
+     },
+     {
+      "he": "זַרְעִיּוֹתָיו",
+      "en": "his children"
+     },
+     {
+      "he": "תְּלוּיִין",
+      "en": "hang"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "on him"
+     }
+    ]
+   },
+   {
+    "he": "עַד סוֹף הָעוֹלָם,",
+    "en": "until the end of the world.",
+    "st": "<b>until eternity.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "סוֹף",
+      "en": "the end of"
+     },
+     {
+      "he": "הָעוֹלָם,",
+      "en": "the world"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁכֵּן מָצִינוּ בְקַיִן שֶׁהָרַג אֶת אָחִיו,",
+    "en": "That is what we find with Kayin, who killed his brother,",
+    "st": "The proof for this is <b>as we found with Cain, who killed his brother, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁכֵּן",
+      "en": "because so"
+     },
+     {
+      "he": "מָצִינוּ",
+      "en": "we found"
+     },
+     {
+      "he": "בְקַיִן",
+      "en": "with Kayin"
+     },
+     {
+      "he": "שֶׁהָרַג",
+      "en": "that he killed"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אָחִיו,",
+      "en": "his brother"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁנֶּאֱמַר (בראשית ד) דְּמֵי אָחִיךָ צֹעֲקִים,",
+    "en": "as it says, 'The bloods of your brother cry out.'",
+    "st": "<b>as it is stated</b> concerning him: “The voice of <b>your brother’s blood [demei] cries</b> out to Me from the ground” (Genesis 4:10).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁנֶּאֱמַר",
+      "en": "that it is said"
+     },
+     {
+      "he": "(בראשית",
+      "en": "(Bereishis"
+     },
+     {
+      "he": "ד)",
+      "en": "4)"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the bloods of"
+     },
+     {
+      "he": "אָחִיךָ",
+      "en": "your brother"
+     },
+     {
+      "he": "צֹעֲקִים,",
+      "en": "cry out"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ אוֹמֵר דַּם אָחִיךָ",
+    "en": "It does not say 'the blood of your brother,'",
+    "st": "The verse <b>does not state: Your brother’s blood [dam],</b> in the singular,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "it says"
+     },
+     {
+      "he": "דַּם",
+      "en": "the blood of"
+     },
+     {
+      "he": "אָחִיךָ",
+      "en": "your brother"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא דְּמֵי אָחִיךָ,",
+    "en": "but 'the bloods of your brother':",
+    "st": "<b>but</b> rather: <b>“Your brother’s blood [demei],”</b> in the plural.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "דְּמֵי",
+      "en": "the bloods of"
+     },
+     {
+      "he": "אָחִיךָ,",
+      "en": "your brother"
+     }
+    ]
+   },
+   {
+    "he": "דָּמוֹ וְדַם זַרְעִיּוֹתָיו.",
+    "en": "his blood and the blood of his children.",
+    "st": "This serves to teach that the loss of both <b>his</b> brother’s <b>blood and the blood of his</b> brother’s <b>offspring</b> are ascribed to Cain.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּמוֹ",
+      "en": "his blood"
+     },
+     {
+      "he": "וְדַם",
+      "en": "and the blood of"
+     },
+     {
+      "he": "זַרְעִיּוֹתָיו.",
+      "en": "his children"
+     }
+    ]
+   },
+   {
+    "he": "דָּבָר אַחֵר,",
+    "en": "Another explanation:",
+    "st": "The mishna notes: <b>Alternatively,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דָּבָר",
+      "en": "thing"
+     },
+     {
+      "he": "אַחֵר,",
+      "en": "another"
+     }
+    ]
+   },
+   {
+    "he": "דְּמֵי אָחִיךָ,",
+    "en": "'the bloods of your brother'",
+    "st": "the phrase <b>“your brother’s blood [demei],”</b> written in the plural,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְּמֵי",
+      "en": "the bloods of"
+     },
+     {
+      "he": "אָחִיךָ,",
+      "en": "your brother"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהָיָה דָמוֹ מֻשְׁלָךְ",
+    "en": "means that his blood was spilled",
+    "st": "teaches that <b>that his blood</b> was not gathered in one place but was",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהָיָה",
+      "en": "that was"
+     },
+     {
+      "he": "דָמוֹ",
+      "en": "his blood"
+     },
+     {
+      "he": "מֻשְׁלָךְ",
+      "en": "thrown"
+     }
+    ]
+   },
+   {
+    "he": "עַל הָעֵצִים וְעַל הָאֲבָנִים.",
+    "en": "on the trees and on the stones.",
+    "st": "<b>splattered on the trees and on the stones.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "הָעֵצִים",
+      "en": "the trees"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "הָאֲבָנִים.",
+      "en": "the stones"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ נִבְרָא אָדָם יְחִידִי,",
+    "en": "That is why Adam was created alone,",
+    "st": "The court tells the witnesses: <b>Therefore, Adam</b> the first man <b>was created alone, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "נִבְרָא",
+      "en": "was created"
+     },
+     {
+      "he": "אָדָם",
+      "en": "Adam"
+     },
+     {
+      "he": "יְחִידִי,",
+      "en": "alone"
+     }
+    ]
+   },
+   {
+    "he": "לְלַמֶּדְךָ, שֶׁכָּל הַמְאַבֵּד נֶפֶשׁ אַחַת מִיִּשְׂרָאֵל,",
+    "en": "to teach you that anyone who destroys one Jewish life,",
+    "st": "<b>to teach you that</b> with regard to <b>anyone who destroys one soul from the Jewish people,</b> i.e., kills one Jew,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְלַמֶּדְךָ,",
+      "en": "to teach you"
+     },
+     {
+      "he": "שֶׁכָּל",
+      "en": "that anyone"
+     },
+     {
+      "he": "הַמְאַבֵּד",
+      "en": "who destroys"
+     },
+     {
+      "he": "נֶפֶשׁ",
+      "en": "a soul"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מִיִּשְׂרָאֵל,",
+      "en": "from Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲלֶה עָלָיו הַכָּתוּב",
+    "en": "the Torah counts it for him",
+    "st": "<b>the verse ascribes him</b> blame",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲלֶה",
+      "en": "brings up"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "הַכָּתוּב",
+      "en": "the Torah"
+     }
+    ]
+   },
+   {
+    "he": "כְּאִלּוּ אִבֵּד עוֹלָם מָלֵא.",
+    "en": "as if he destroyed a whole world.",
+    "st": "<b>as if he destroyed an entire world,</b>",
+    "stMore": "as Adam was one person, from whom the population of an entire world came forth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "אִבֵּד",
+      "en": "he destroyed"
+     },
+     {
+      "he": "עוֹלָם",
+      "en": "a world"
+     },
+     {
+      "he": "מָלֵא.",
+      "en": "full"
+     }
+    ]
+   },
+   {
+    "he": "וְכָל הַמְקַיֵּם נֶפֶשׁ אַחַת מִיִּשְׂרָאֵל,",
+    "en": "And anyone who saves one Jewish life,",
+    "st": "<b>And</b> conversely, <b>anyone who sustains one soul from the Jewish people, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and anyone"
+     },
+     {
+      "he": "הַמְקַיֵּם",
+      "en": "who keeps alive"
+     },
+     {
+      "he": "נֶפֶשׁ",
+      "en": "a soul"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מִיִּשְׂרָאֵל,",
+      "en": "from Yisrael"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲלֶה עָלָיו הַכָּתוּב",
+    "en": "the Torah counts it for him",
+    "st": "<b>the verse ascribes him</b> credit",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲלֶה",
+      "en": "brings up"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "on him"
+     },
+     {
+      "he": "הַכָּתוּב",
+      "en": "the Torah"
+     }
+    ]
+   },
+   {
+    "he": "כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא.",
+    "en": "as if he saved a whole world.",
+    "st": "<b>as if he sustained an entire world.</b>",
+    "stMore": "The mishna cites another reason Adam the first man was created alone:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּאִלּוּ",
+      "en": "as if"
+     },
+     {
+      "he": "קִיֵּם",
+      "en": "he kept alive"
+     },
+     {
+      "he": "עוֹלָם",
+      "en": "a world"
+     },
+     {
+      "he": "מָלֵא.",
+      "en": "full"
+     }
+    ]
+   },
+   {
+    "he": "וּמִפְּנֵי שְׁלוֹם הַבְּרִיּוֹת,",
+    "en": "And it was also for peace among people,",
+    "st": "<b>And</b> this was done <b>due to</b> the importance of maintaining <b>peace among people, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִפְּנֵי",
+      "en": "and because of"
+     },
+     {
+      "he": "שְׁלוֹם",
+      "en": "peace of"
+     },
+     {
+      "he": "הַבְּרִיּוֹת,",
+      "en": "the people"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא יֹאמַר אָדָם לַחֲבֵרוֹ",
+    "en": "so that no person can say to his friend,",
+    "st": "<b>so</b> that one <b>person will not say to another: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "יֹאמַר",
+      "en": "shall say"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "לַחֲבֵרוֹ",
+      "en": "to his friend"
+     }
+    ]
+   },
+   {
+    "he": "אַבָּא גָדוֹל מֵאָבִיךָ.",
+    "en": "'My father is greater than your father.'",
+    "explain": "Everyone comes from the same first father, Adam.",
+    "st": "<b>My father,</b> i.e., progenitor, <b>is greater than your father. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַבָּא",
+      "en": "my father"
+     },
+     {
+      "he": "גָדוֹל",
+      "en": "greater"
+     },
+     {
+      "he": "מֵאָבִיךָ.",
+      "en": "than your father"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁלֹּא יְהוּ מִינִין אוֹמְרִים,",
+    "en": "And so that the heretics will not say,",
+    "st": "<b>And</b> it was also <b>so that the heretics</b> who believe in multiple gods",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁלֹּא",
+      "en": "and so that not"
+     },
+     {
+      "he": "יְהוּ",
+      "en": "shall be"
+     },
+     {
+      "he": "מִינִין",
+      "en": "heretics"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "saying"
+     }
+    ]
+   },
+   {
+    "he": "הַרְבֵּה רָשֻׁיּוֹת בַּשָּׁמָיִם.",
+    "en": "'There are many powers in Heaven.'",
+    "st": "<b>will not say: There are many authorities in Heaven,</b> and each created a different person.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַרְבֵּה",
+      "en": "many"
+     },
+     {
+      "he": "רָשֻׁיּוֹת",
+      "en": "powers"
+     },
+     {
+      "he": "בַּשָּׁמָיִם.",
+      "en": "in Heaven"
+     }
+    ]
+   },
+   {
+    "he": "וּלְהַגִּיד גְּדֻלָּתוֹ שֶׁל הַקָּדוֹשׁ בָּרוּךְ הוּא,",
+    "en": "And to tell the greatness of Hashem:",
+    "st": "<b>And</b> this serves <b>to tell of the greatness of the Holy One, Blessed be He, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּלְהַגִּיד",
+      "en": "and to tell"
+     },
+     {
+      "he": "גְּדֻלָּתוֹ",
+      "en": "his greatness"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "הַקָּדוֹשׁ",
+      "en": "the Holy One"
+     },
+     {
+      "he": "בָּרוּךְ",
+      "en": "blessed be"
+     },
+     {
+      "he": "הוּא,",
+      "en": "He"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאָדָם טוֹבֵעַ כַּמָּה מַטְבְּעוֹת בְּחוֹתָם אֶחָד",
+    "en": "a person stamps many coins with one stamp,",
+    "st": "<b>as</b> when <b>a person stamps several coins with one seal, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאָדָם",
+      "en": "that a person"
+     },
+     {
+      "he": "טוֹבֵעַ",
+      "en": "stamps"
+     },
+     {
+      "he": "כַּמָּה",
+      "en": "many"
+     },
+     {
+      "he": "מַטְבְּעוֹת",
+      "en": "coins"
+     },
+     {
+      "he": "בְּחוֹתָם",
+      "en": "with a stamp"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וְכֻלָּן דּוֹמִין זֶה לָזֶה,",
+    "en": "and they all look the same.",
+    "st": "<b>they are all similar to each other. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֻלָּן",
+      "en": "and all of them"
+     },
+     {
+      "he": "דּוֹמִין",
+      "en": "look alike"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "לָזֶה,",
+      "en": "to that one"
+     }
+    ]
+   },
+   {
+    "he": "וּמֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא",
+    "en": "But the King of kings, Hashem,",
+    "st": "<b>But the supreme King of kings, the Holy One, Blessed be He, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֶלֶךְ",
+      "en": "and the King of"
+     },
+     {
+      "he": "מַלְכֵי",
+      "en": "the kings of"
+     },
+     {
+      "he": "הַמְּלָכִים",
+      "en": "the kings"
+     },
+     {
+      "he": "הַקָּדוֹשׁ",
+      "en": "the Holy One"
+     },
+     {
+      "he": "בָּרוּךְ",
+      "en": "blessed be"
+     },
+     {
+      "he": "הוּא",
+      "en": "He"
+     }
+    ]
+   },
+   {
+    "he": "טָבַע כָּל אָדָם בְּחוֹתָמוֹ שֶׁל אָדָם הָרִאשׁוֹן",
+    "en": "stamped every person with the stamp of Adam HaRishon,",
+    "st": "<b>stamped all people with the seal of Adam the first</b> man, as all of them are his offspring,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָבַע",
+      "en": "stamped"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אָדָם",
+      "en": "person"
+     },
+     {
+      "he": "בְּחוֹתָמוֹ",
+      "en": "with the stamp"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אָדָם",
+      "en": "Adam"
+     },
+     {
+      "he": "הָרִאשׁוֹן",
+      "en": "the first"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין אֶחָד מֵהֶן דּוֹמֶה לַחֲבֵרוֹ.",
+    "en": "and not one of them looks like another.",
+    "st": "<b>and not one of them is similar to another. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן",
+      "en": "of them"
+     },
+     {
+      "he": "דּוֹמֶה",
+      "en": "looks like"
+     },
+     {
+      "he": "לַחֲבֵרוֹ.",
+      "en": "his friend"
+     }
+    ]
+   },
+   {
+    "he": "לְפִיכָךְ כָּל אֶחָד וְאֶחָד חַיָּב לוֹמַר,",
+    "en": "So each and every person must say,",
+    "st": "<b>Therefore,</b> since all humanity descends from one person, <b>each and every person is obligated to say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְפִיכָךְ",
+      "en": "therefore"
+     },
+     {
+      "he": "כָּל",
+      "en": "every"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "must"
+     },
+     {
+      "he": "לוֹמַר,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "בִּשְׁבִילִי נִבְרָא הָעוֹלָם.",
+    "en": "'The world was created for me.'",
+    "explain": "So I must act in a way that is worthy of it.",
+    "st": "<b>The world was created for me,</b>",
+    "stMore": "as one person can be the source of all humanity, and recognize the significance of his actions.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בִּשְׁבִילִי",
+      "en": "for my sake"
+     },
+     {
+      "he": "נִבְרָא",
+      "en": "was created"
+     },
+     {
+      "he": "הָעוֹלָם.",
+      "en": "the world"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁמָּא תֹאמְרוּ מַה לָּנוּ וְלַצָּרָה הַזֹּאת,",
+    "en": "And maybe you will say, 'Why do we need this trouble?'",
+    "st": "The court says to the witnesses: <b>And perhaps you will say: Why would we</b> want <b>this trouble?</b>",
+    "stMore": "Perhaps it would be better not to testify at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁמָּא",
+      "en": "and maybe"
+     },
+     {
+      "he": "תֹאמְרוּ",
+      "en": "you will say"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "לָּנוּ",
+      "en": "to us"
+     },
+     {
+      "he": "וְלַצָּרָה",
+      "en": "and to the trouble"
+     },
+     {
+      "he": "הַזֹּאת,",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא כְבָר נֶאֱמַר (ויקרא ה)",
+    "en": "But it already says,",
+    "st": "<b>But</b> be aware, as <b>is it not already stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "and does not"
+     },
+     {
+      "he": "כְבָר",
+      "en": "already"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it is said"
+     },
+     {
+      "he": "(ויקרא",
+      "en": "(Vayikra"
+     },
+     {
+      "he": "ה)",
+      "en": "5)"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא עֵד אוֹ רָאָה אוֹ יָדָע",
+    "en": "'And he is a witness, or he saw, or he knew,",
+    "st": "<b>“And he being a witness, whether he has seen or known, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "עֵד",
+      "en": "a witness"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "רָאָה",
+      "en": "saw"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "יָדָע",
+      "en": "knew"
+     }
+    ]
+   },
+   {
+    "he": "אִם לוֹא יַגִּיד וְגוֹ'.",
+    "en": "if he does not tell...'",
+    "explain": "It is a sin not to testify.",
+    "st": "<b>if he does not utter it,</b>",
+    "stMore": "then he shall bear his iniquity” (Leviticus 5:1)? It is a transgression not to testify when one can do so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לוֹא",
+      "en": "not"
+     },
+     {
+      "he": "יַגִּיד",
+      "en": "he tells"
+     },
+     {
+      "he": "וְגוֹ'.",
+      "en": "and so on"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁמָּא תֹאמְרוּ מַה לָּנוּ",
+    "en": "And maybe you will say, 'Why should we",
+    "st": "<b>And perhaps you will say: Why would we</b> want",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁמָּא",
+      "en": "and maybe"
+     },
+     {
+      "he": "תֹאמְרוּ",
+      "en": "you will say"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "לָּנוּ",
+      "en": "to us"
+     }
+    ]
+   },
+   {
+    "he": "לָחוּב בְּדָמוֹ שֶׁל זֶה,",
+    "en": "be blamed for this man's blood?'",
+    "st": "<b>to be responsible for the blood of this</b> person?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָחוּב",
+      "en": "to be guilty"
+     },
+     {
+      "he": "בְּדָמוֹ",
+      "en": "for his blood"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה,",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲלֹא כְבָר נֶאֱמַר (משלי יא)",
+    "en": "But it already says,",
+    "st": "<b>But</b> be aware, as <b>is it not already stated: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲלֹא",
+      "en": "and does not"
+     },
+     {
+      "he": "כְבָר",
+      "en": "already"
+     },
+     {
+      "he": "נֶאֱמַר",
+      "en": "it is said"
+     },
+     {
+      "he": "(משלי",
+      "en": "(Mishlei"
+     },
+     {
+      "he": "יא)",
+      "en": "11)"
+     }
+    ]
+   },
+   {
+    "he": "וּבַאֲבֹד רְשָׁעִים רִנָּה:",
+    "en": "'When the wicked are lost, there is joyful song.'\"",
+    "st": "<b>“When the wicked perish, there is song”</b> (Proverbs 11:10)?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבַאֲבֹד",
+      "en": "and when are lost"
+     },
+     {
+      "he": "רְשָׁעִים",
+      "en": "wicked people"
+     },
+     {
+      "he": "רִנָּה:",
+      "en": "there is song"
+     }
+    ]
+   }
+  ]
+ }
+]

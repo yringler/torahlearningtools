@@ -1,0 +1,2422 @@
+[
+ {
+  "perek": 10,
+  "mishnah": 1,
+  "summary": "A father and a husband can undo a girl's nedarim. When she is engaged (an arusah), both of them together must undo them.",
+  "chunks": [
+   {
+    "he": "נַעֲרָה הַמְאֹרָסָה,",
+    "en": "A young girl who is an arusah,",
+    "st": "With regard to <b>a betrothed young woman,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נַעֲרָה",
+      "en": "a young girl",
+      "note": "A naarah: a girl just past bas mitzvah."
+     },
+     {
+      "he": "הַמְאֹרָסָה,",
+      "en": "who is an arusah",
+      "note": "Engaged with kiddushin, before the wedding."
+     }
+    ]
+   },
+   {
+    "he": "אָבִיהָ וּבַעְלָהּ מְפֵרִין נְדָרֶיהָ.",
+    "en": "her father and her husband undo her nedarim.",
+    "st": "<b> her father and her husband</b> together <b>nullify her vows.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבִיהָ",
+      "en": "her father"
+     },
+     {
+      "he": "וּבַעְלָהּ",
+      "en": "and her husband"
+     },
+     {
+      "he": "מְפֵרִין",
+      "en": "undo"
+     },
+     {
+      "he": "נְדָרֶיהָ.",
+      "en": "her vows."
+     }
+    ]
+   },
+   {
+    "he": "הֵפֵר הָאָב וְלֹא הֵפֵר הַבַּעַל,",
+    "en": "If the father undid it and the husband did not,",
+    "st": "If <b>the father nullified</b> her vow <b>and the husband did not nullify</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵפֵר",
+      "en": "undid"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הֵפֵר",
+      "en": "undid"
+     },
+     {
+      "he": "הַבַּעַל,",
+      "en": "the husband"
+     }
+    ]
+   },
+   {
+    "he": "הֵפֵר הַבַּעַל וְלֹא הֵפֵר הָאָב,",
+    "en": "or the husband undid it and the father did not,",
+    "st": "or if <b>the husband nullified</b> it <b>and the father did not nullify</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵפֵר",
+      "en": "undid"
+     },
+     {
+      "he": "הַבַּעַל",
+      "en": "the husband"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הֵפֵר",
+      "en": "undid"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מוּפָר,",
+    "en": "it is not undone.",
+    "st": "then the vow <b>is not nullified.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "מוּפָר,",
+      "en": "undone"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין צָרִיךְ לוֹמַר שֶׁקִּיֵּם אֶחָד מֵהֶן:",
+    "en": "And of course it is not, if one of them made it stay.",
+    "st": "<b> And needless to say,</b> it is not nullified <b>if one of them ratified</b> the vow.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "צָרִיךְ",
+      "en": "need"
+     },
+     {
+      "he": "לוֹמַר",
+      "en": "to say"
+     },
+     {
+      "he": "שֶׁקִּיֵּם",
+      "en": "that kept it"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "מֵהֶן:",
+      "en": "of them."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 2,
+  "summary": "When the father of an arusah dies, the husband cannot undo her nedarim alone. But when the husband dies, the father can.",
+  "chunks": [
+   {
+    "he": "מֵת הָאָב,",
+    "en": "If the father died,",
+    "st": "If <b>the father</b> of a betrothed young woman <b>dies,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "לֹא נִתְרוֹקְנָה רְשׁוּת לַבָּעַל.",
+    "en": "his power does not pass to the husband.",
+    "st": "his <b>authority does not revert to the husband,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "does not"
+     },
+     {
+      "he": "נִתְרוֹקְנָה",
+      "en": "pass over"
+     },
+     {
+      "he": "רְשׁוּת",
+      "en": "the power"
+     },
+     {
+      "he": "לַבָּעַל.",
+      "en": "to the husband."
+     }
+    ]
+   },
+   {
+    "he": "מֵת הַבַּעַל,",
+    "en": "If the husband died,",
+    "st": "and the husband cannot nullify the young woman’s vows by himself. However, if <b>the husband dies,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "הַבַּעַל,",
+      "en": "the husband"
+     }
+    ]
+   },
+   {
+    "he": "נִתְרוֹקְנָה רְשׁוּת לָאָב.",
+    "en": "his power passes to the father.",
+    "st": "his <b>authority reverts to the father,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְרוֹקְנָה",
+      "en": "passes over"
+     },
+     {
+      "he": "רְשׁוּת",
+      "en": "the power"
+     },
+     {
+      "he": "לָאָב.",
+      "en": "to the father."
+     }
+    ]
+   },
+   {
+    "he": "בָּזֶה יָפֶה כֹחַ הָאָב מִכֹּחַ הַבָּעַל.",
+    "en": "In this, the father's power is stronger than the husband's power.",
+    "st": "who can now nullify her vows on his own. <b>In this</b> matter, <b>the power of the father is enhanced relative to the power of the husband.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּזֶה",
+      "en": "in this"
+     },
+     {
+      "he": "יָפֶה",
+      "en": "is stronger"
+     },
+     {
+      "he": "כֹחַ",
+      "en": "the power of"
+     },
+     {
+      "he": "הָאָב",
+      "en": "the father"
+     },
+     {
+      "he": "מִכֹּחַ",
+      "en": "than the power of"
+     },
+     {
+      "he": "הַבָּעַל.",
+      "en": "the husband."
+     }
+    ]
+   },
+   {
+    "he": "בְּדָבָר אַחֵר יָפֶה כֹחַ",
+    "en": "In another thing, the power",
+    "st": "<b> In another matter, the power</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּדָבָר",
+      "en": "in a thing"
+     },
+     {
+      "he": "אַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "יָפֶה",
+      "en": "is stronger"
+     },
+     {
+      "he": "כֹחַ",
+      "en": "the power of"
+     }
+    ]
+   },
+   {
+    "he": "הַבַּעַל מִכֹּחַ הָאָב,",
+    "en": "of the husband is stronger than the father's power,",
+    "st": "<b> of the husband is enhanced relative to the power of the father,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַבַּעַל",
+      "en": "the husband"
+     },
+     {
+      "he": "מִכֹּחַ",
+      "en": "than the power of"
+     },
+     {
+      "he": "הָאָב,",
+      "en": "the father"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהַבַּעַל מֵפֵר בְּבֶגֶר,",
+    "en": "because the husband can undo when she is grown up,",
+    "st": "<b> as the husband nullifies</b> vows <b>during</b> the woman’s <b>adulthood,</b>",
+    "stMore": "once they are fully married,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהַבַּעַל",
+      "en": "because the husband"
+     },
+     {
+      "he": "מֵפֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "בְּבֶגֶר,",
+      "en": "when she is grown"
+     }
+    ]
+   },
+   {
+    "he": "וְהָאָב אֵינוֹ מֵפֵר בְּבָגֶר:",
+    "en": "but the father cannot undo when she is grown up.",
+    "st": "<b>whereas the father does not nullify</b> her vows <b>during</b> her <b>adulthood.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָאָב",
+      "en": "and the father"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "מֵפֵר",
+      "en": "undo"
+     },
+     {
+      "he": "בְּבָגֶר:",
+      "en": "when she is grown."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 3,
+  "summary": "As long as a girl was never on her own, even for a moment, her father and her last husband undo her nedarim together.",
+  "chunks": [
+   {
+    "he": "נָדְרָה וְהִיא אֲרוּסָה,",
+    "en": "If she made a neder when she was an arusah,",
+    "st": "If <b>she took a vow as a betrothed woman</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָדְרָה",
+      "en": "she vowed"
+     },
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "אֲרוּסָה,",
+      "en": "an arusah"
+     }
+    ]
+   },
+   {
+    "he": "נִתְגָּרְשָׁה בוֹ בַיּוֹם,",
+    "en": "and her kiddushin was ended that day,",
+    "st": "and then <b>was divorced on the same day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְגָּרְשָׁה",
+      "en": "she was divorced"
+     },
+     {
+      "he": "בוֹ",
+      "en": "on that"
+     },
+     {
+      "he": "בַיּוֹם,",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "נִתְאָרְסָה בוֹ בַיּוֹם,",
+    "en": "and she became an arusah again that day,",
+    "st": "and <b>she was</b> again <b>betrothed on the same day</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִתְאָרְסָה",
+      "en": "she became an arusah"
+     },
+     {
+      "he": "בוֹ",
+      "en": "on that"
+     },
+     {
+      "he": "בַיּוֹם,",
+      "en": "day"
+     }
+    ]
+   },
+   {
+    "he": "אֲפִלּוּ לְמֵאָה,",
+    "en": "even to a hundred,",
+    "st": "to another man, or <b>even to one hundred</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֲפִלּוּ",
+      "en": "even"
+     },
+     {
+      "he": "לְמֵאָה,",
+      "en": "to a hundred"
+     }
+    ]
+   },
+   {
+    "he": "אָבִיהָ וּבַעְלָהּ הָאַחֲרוֹן מְפֵרִין נְדָרֶיהָ.",
+    "en": "her father and her last husband undo her nedarim.",
+    "st": "men, one after the other, on a single day, <b>her father and her last husband nullify her vows.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבִיהָ",
+      "en": "her father"
+     },
+     {
+      "he": "וּבַעְלָהּ",
+      "en": "and her husband"
+     },
+     {
+      "he": "הָאַחֲרוֹן",
+      "en": "the last"
+     },
+     {
+      "he": "מְפֵרִין",
+      "en": "undo"
+     },
+     {
+      "he": "נְדָרֶיהָ.",
+      "en": "her vows."
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b> This is the principle:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁלֹּא יָצָאת לִרְשׁוּת",
+    "en": "any girl who did not go out on her own",
+    "st": "With regard to <b>any</b> young woman <b>who has not left</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "any"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "who did not"
+     },
+     {
+      "he": "יָצָאת",
+      "en": "go out"
+     },
+     {
+      "he": "לִרְשׁוּת",
+      "en": "to the power of"
+     }
+    ]
+   },
+   {
+    "he": "עַצְמָהּ שָׁעָה אֶחָת,",
+    "en": "even for one moment,",
+    "st": "her father’s jurisdiction and entered <b>into her own jurisdiction for</b> at least <b>one moment,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַצְמָהּ",
+      "en": "herself"
+     },
+     {
+      "he": "שָׁעָה",
+      "en": "moment"
+     },
+     {
+      "he": "אֶחָת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אָבִיהָ וּבַעְלָהּ הָאַחֲרוֹן מְפֵרִין נְדָרֶיהָ:",
+    "en": "her father and her last husband undo her nedarim.",
+    "st": "through full marriage or reaching majority, <b>her father and her final husband nullify her vows.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבִיהָ",
+      "en": "her father"
+     },
+     {
+      "he": "וּבַעְלָהּ",
+      "en": "and her husband"
+     },
+     {
+      "he": "הָאַחֲרוֹן",
+      "en": "the last"
+     },
+     {
+      "he": "מְפֵרִין",
+      "en": "undo"
+     },
+     {
+      "he": "נְדָרֶיהָ:",
+      "en": "her vows."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 4,
+  "summary": "Talmidei chachamim used to undo their daughter's nedarim before her wedding. A chasan did the same before the wedding, because after it he could no longer undo older nedarim.",
+  "chunks": [
+   {
+    "he": "דֶּרֶךְ תַּלְמִידֵי חֲכָמִים,",
+    "en": "The way of talmidei chachamim:",
+    "st": "<b>The practice of Torah scholars</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דֶּרֶךְ",
+      "en": "the way of"
+     },
+     {
+      "he": "תַּלְמִידֵי",
+      "en": "students of"
+     },
+     {
+      "he": "חֲכָמִים,",
+      "en": "the Sages"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁלֹּא הָיְתָה בִתּוֹ יוֹצְאָה מֵאֶצְלוֹ,",
+    "en": "before his daughter would leave his house,",
+    "st": "is to ensure that a woman about to be married should not be encumbered by any vows. A father, <b>before his daughter would leave him</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     },
+     {
+      "he": "בִתּוֹ",
+      "en": "his daughter"
+     },
+     {
+      "he": "יוֹצְאָה",
+      "en": "leaving"
+     },
+     {
+      "he": "מֵאֶצְלוֹ,",
+      "en": "from him"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֵר לָהּ,",
+    "en": "he says to her,",
+    "st": "through marriage, <b>would say to her:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֵר",
+      "en": "he says"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "כָּל נְדָרִים שֶׁנָּדַרְתְּ בְּתוֹךְ בֵּיתִי,",
+    "en": "\"All the nedarim you made in my house",
+    "st": "<b> All vows that you vowed in my house</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "נְדָרִים",
+      "en": "vows"
+     },
+     {
+      "he": "שֶׁנָּדַרְתְּ",
+      "en": "that you vowed"
+     },
+     {
+      "he": "בְּתוֹךְ",
+      "en": "in"
+     },
+     {
+      "he": "בֵּיתִי,",
+      "en": "my house"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הֵן מוּפָרִין.",
+    "en": "are undone.\"",
+    "st": "<b> are hereby nullified.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "מוּפָרִין.",
+      "en": "are undone."
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן הַבַּעַל עַד שֶׁלֹּא תִכָּנֵס לִרְשׁוּתוֹ,",
+    "en": "And so the husband, before she comes into his home,",
+    "st": "<b> And similarly, the husband, before she would enter his jurisdiction,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "הַבַּעַל",
+      "en": "the husband"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     },
+     {
+      "he": "תִכָּנֵס",
+      "en": "she will come in"
+     },
+     {
+      "he": "לִרְשׁוּתוֹ,",
+      "en": "to his home"
+     }
+    ]
+   },
+   {
+    "he": "אוֹמֵר לָהּ,",
+    "en": "says to her,",
+    "st": "i.e., while they were still betrothed, <b>would say to her:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לָהּ,",
+      "en": "to her"
+     }
+    ]
+   },
+   {
+    "he": "כָּל נְדָרִים שֶׁנָּדַרְתְּ עַד",
+    "en": "\"All the nedarim you made until",
+    "st": "<b> All vows that you vowed before</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "נְדָרִים",
+      "en": "vows"
+     },
+     {
+      "he": "שֶׁנָּדַרְתְּ",
+      "en": "that you vowed"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁלֹּא תִכָּנְסִי לִרְשׁוּתִי,",
+    "en": "before you came into my home",
+    "st": "<b> you entered my jurisdiction</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁלֹּא",
+      "en": "before"
+     },
+     {
+      "he": "תִכָּנְסִי",
+      "en": "you will come in"
+     },
+     {
+      "he": "לִרְשׁוּתִי,",
+      "en": "to my home"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הֵן מוּפָרִין,",
+    "en": "are undone.\"",
+    "st": "<b> are hereby nullified.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "מוּפָרִין,",
+      "en": "are undone."
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמִּשֶּׁתִּכָּנֵס לִרְשׁוּתוֹ אֵינוֹ יָכוֹל לְהָפֵר:",
+    "en": "Because once she comes into his home, he cannot undo them.",
+    "st": "This was necessary <b>because once she enters his jurisdiction he cannot nullify</b> the vows she made before that.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמִּשֶּׁתִּכָּנֵס",
+      "en": "because once she comes in"
+     },
+     {
+      "he": "לִרְשׁוּתוֹ",
+      "en": "to his home"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לְהָפֵר:",
+      "en": "to undo."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 5,
+  "summary": "When it is time for the wedding but it has not happened yet, can the chasan undo her nedarim alone? Rabbi Eliezer says yes, and the Sages say no.",
+  "chunks": [
+   {
+    "he": "בּוֹגֶרֶת שֶׁשָּׁהֲתָה שְׁנֵים עָשָׂר חֹדֶשׁ,",
+    "en": "A grown girl who waited twelve months,",
+    "st": "With regard to <b>a grown woman who waited twelve months</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בּוֹגֶרֶת",
+      "en": "a grown girl"
+     },
+     {
+      "he": "שֶׁשָּׁהֲתָה",
+      "en": "that waited"
+     },
+     {
+      "he": "שְׁנֵים",
+      "en": "two"
+     },
+     {
+      "he": "עָשָׂר",
+      "en": "ten"
+     },
+     {
+      "he": "חֹדֶשׁ,",
+      "en": "months"
+     }
+    ]
+   },
+   {
+    "he": "וְאַלְמָנָה שְׁלשִׁים יוֹם,",
+    "en": "or a widow who waited thirty days,",
+    "st": "after her betrothal and the time arrived for her betrothed to marry her, <b>or a widow</b> who waited <b>thirty days</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַלְמָנָה",
+      "en": "and a widow"
+     },
+     {
+      "he": "שְׁלשִׁים",
+      "en": "thirty"
+     },
+     {
+      "he": "יוֹם,",
+      "en": "days"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "and the time arrived for her betrothed to marry her, <b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הוֹאִיל וּבַעְלָהּ חַיָּב בִּמְזוֹנוֹתֶיהָ,",
+    "en": "since her husband must already provide her food,",
+    "st": "<b> Since her husband is</b> already <b>obligated</b> to provide <b>for her sustenance,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹאִיל",
+      "en": "since"
+     },
+     {
+      "he": "וּבַעְלָהּ",
+      "en": "and her husband"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "must"
+     },
+     {
+      "he": "בִּמְזוֹנוֹתֶיהָ,",
+      "en": "provide her food"
+     }
+    ]
+   },
+   {
+    "he": "יָפֵר. וַחֲכָמִים אוֹמְרִים,",
+    "en": "he can undo. But the Sages say,",
+    "st": "as he is obligated to have married her by then, <b>he can nullify</b> her vows by himself, as if he were fully married to her. <b>But the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָפֵר.",
+      "en": "he may undo"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַבַּעַל מֵפֵר,",
+    "en": "the husband does not undo",
+    "st": "<b> The husband does not nullify</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "does not"
+     },
+     {
+      "he": "הַבַּעַל",
+      "en": "the husband"
+     },
+     {
+      "he": "מֵפֵר,",
+      "en": "undo"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁתִּכָּנֵס לִרְשׁוּתוֹ:",
+    "en": "until she comes into his home.",
+    "st": "her vows on his own <b>until she enters his jurisdiction.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתִּכָּנֵס",
+      "en": "she comes in"
+     },
+     {
+      "he": "לִרְשׁוּתוֹ:",
+      "en": "to his home."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 6,
+  "summary": "A widow who is waiting for her yavam: can he undo her nedarim? Rabbi Eliezer, Rabbi Yehoshua, and Rabbi Akiva argue.",
+  "chunks": [
+   {
+    "he": "שׁוֹמֶרֶת יָבָם,",
+    "en": "A woman waiting for her yavam,",
+    "st": "With regard to <b>a widow waiting for her yavam</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמֶרֶת",
+      "en": "waiting for"
+     },
+     {
+      "he": "יָבָם,",
+      "en": "a yavam",
+      "note": "The brother of her husband who passed away, who may marry her."
+     }
+    ]
+   },
+   {
+    "he": "בֵּין לְיָבָם אֶחָד בֵּין לִשְׁנֵי יְבָמִין,",
+    "en": "whether for one yavam or for two yavams,",
+    "st": "to perform levirate marriage, <b>whether</b> she is waiting <b>for one yavam,</b> if her late husband had only one brother, or <b>whether</b> she is waiting <b>for two</b> or more <b>yevamin,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לְיָבָם",
+      "en": "for a yavam"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בֵּין",
+      "en": "whether"
+     },
+     {
+      "he": "לִשְׁנֵי",
+      "en": "for two"
+     },
+     {
+      "he": "יְבָמִין,",
+      "en": "yavams"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "if he had several brothers, <b>Rabbi Eliezer says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "יָפֵר. רַבִּי יְהוֹשֻׁעַ אוֹמֵר,",
+    "en": "he can undo. Rabbi Yehoshua says,",
+    "st": "A yavam <b>can nullify</b> her vows. <b>Rabbi Yehoshua says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָפֵר.",
+      "en": "he may undo"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לְאֶחָד אֲבָל לֹא לִשְׁנָיִם.",
+    "en": "for one, but not for two.",
+    "st": "If she is waiting <b>for one</b> yavam, he can nullify her vows, <b>but not</b> if she is waiting <b>for two.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְאֶחָד",
+      "en": "for one"
+     },
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לִשְׁנָיִם.",
+      "en": "for two."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי עֲקִיבָא אוֹמֵר,",
+    "en": "Rabbi Akiva says,",
+    "st": "<b> Rabbi Akiva says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא",
+      "en": "Akiva"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא לְאֶחָד וְלֹא לִשְׁנָיִם.",
+    "en": "not for one and not for two.",
+    "st": "A yavam <b>cannot</b> nullify her vows, regardless of whether she is waiting <b>for one</b> yavam <b>or for two</b> or more.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "for one"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "לִשְׁנָיִם.",
+      "en": "for two."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said,",
+    "st": "The mishna then elaborates: <b>Rabbi Eliezer said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "מָה אִם אִשָּׁה,",
+    "en": "\"If a woman",
+    "st": "<b> Just as</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אִשָּׁה,",
+      "en": "a woman"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁקָּנָה הוּא לְעַצְמוֹ,",
+    "en": "that he got for himself,",
+    "st": "with regard to <b>a woman he acquired for himself</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁקָּנָה",
+      "en": "that got"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "לְעַצְמוֹ,",
+      "en": "for himself"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הוּא מֵפֵר נְדָרֶיהָ,",
+    "en": "he can undo her nedarim,",
+    "st": "through betrothal, <b>he nullifies her vows,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "מֵפֵר",
+      "en": "undoes"
+     },
+     {
+      "he": "נְדָרֶיהָ,",
+      "en": "her vows"
+     }
+    ]
+   },
+   {
+    "he": "אִשָּׁה שֶׁהִקְנוּ לוֹ מִן הַשָּׁמַיִם,",
+    "en": "a woman given to him from Heaven,",
+    "st": "so too with regard to <b>a woman acquired for him from Heaven,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִשָּׁה",
+      "en": "a woman"
+     },
+     {
+      "he": "שֶׁהִקְנוּ",
+      "en": "that was given"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשָּׁמַיִם,",
+      "en": "Heaven"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ דִין שֶׁיָּפֵר נְדָרֶיהָ.",
+    "en": "isn't it right that he can undo her nedarim?\"",
+    "st": "i.e., the yevama, <b>isn’t it logical that he should</b> be able to <b>nullify her vows?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "is it not"
+     },
+     {
+      "he": "דִין",
+      "en": "right"
+     },
+     {
+      "he": "שֶׁיָּפֵר",
+      "en": "that he undo"
+     },
+     {
+      "he": "נְדָרֶיהָ.",
+      "en": "her vows."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי עֲקִיבָא,",
+    "en": "Rabbi Akiva said to him,",
+    "st": "<b> Rabbi Akiva said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     }
+    ]
+   },
+   {
+    "he": "לֹא, אִם אָמַרְתָּ בְאִשָּׁה שֶׁקָּנָה הוּא לְעַצְמוֹ,",
+    "en": "\"No. If you say so about a woman he got for himself,",
+    "st": "<b> No, if you say</b> that a husband can nullify the vows of <b>a woman he acquired for himself,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא,",
+      "en": "no"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "אָמַרְתָּ",
+      "en": "you said"
+     },
+     {
+      "he": "בְאִשָּׁה",
+      "en": "about a woman"
+     },
+     {
+      "he": "שֶׁקָּנָה",
+      "en": "that got"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "לְעַצְמוֹ,",
+      "en": "for himself"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין לַאֲחֵרִים בָּהּ רְשׁוּת,",
+    "en": "where nobody else has a say in her,",
+    "st": "<b> over whom others have no authority,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "that there is no"
+     },
+     {
+      "he": "לַאֲחֵרִים",
+      "en": "to others"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in her"
+     },
+     {
+      "he": "רְשׁוּת,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "תֹּאמַר בְּאִשָּׁה שֶׁהִקְנוּ לוֹ מִן הַשָּׁמַיִם,",
+    "en": "will you say it about a woman given to him from Heaven,",
+    "st": "<b> shall you</b> also <b>say</b> that this is the case with regard to <b>a woman acquired for him from Heaven,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֹּאמַר",
+      "en": "will you say"
+     },
+     {
+      "he": "בְּאִשָּׁה",
+      "en": "about a woman"
+     },
+     {
+      "he": "שֶׁהִקְנוּ",
+      "en": "that was given"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַשָּׁמַיִם,",
+      "en": "Heaven"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁיֵּשׁ לַאֲחֵרִים בָּהּ רְשׁוּת.",
+    "en": "where others do have a say in her?\"",
+    "st": "<b> over whom others have authority?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁיֵּשׁ",
+      "en": "that there is"
+     },
+     {
+      "he": "לַאֲחֵרִים",
+      "en": "to others"
+     },
+     {
+      "he": "בָּהּ",
+      "en": "in her"
+     },
+     {
+      "he": "רְשׁוּת.",
+      "en": "say."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי יְהוֹשֻׁעַ,",
+    "en": "Rabbi Yehoshua said to him,",
+    "st": "If there are two yevamin, each yavam has equal authority with regard to her vows. <b>Rabbi Yehoshua said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ,",
+      "en": "Yehoshua"
+     }
+    ]
+   },
+   {
+    "he": "עֲקִיבָא, דְּבָרֶיךָ בִשְׁנֵי יְבָמִין.",
+    "en": "\"Akiva, your words work for two yavams.",
+    "st": "<b> Akiva, your statement applies</b> in a situation <b>with two yevamin,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲקִיבָא,",
+      "en": "Akiva"
+     },
+     {
+      "he": "דְּבָרֶיךָ",
+      "en": "your words"
+     },
+     {
+      "he": "בִשְׁנֵי",
+      "en": "with two"
+     },
+     {
+      "he": "יְבָמִין.",
+      "en": "yavams"
+     }
+    ]
+   },
+   {
+    "he": "מָה אַתָּה מֵשִׁיב עַל יָבָם אֶחָד.",
+    "en": "What do you answer about one yavam?\"",
+    "st": "but <b>how do you reply</b> to Rabbi Eliezer <b>in</b> the case of <b>one yavam?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "מֵשִׁיב",
+      "en": "answer"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     },
+     {
+      "he": "יָבָם",
+      "en": "yavam"
+     },
+     {
+      "he": "אֶחָד.",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him,",
+    "st": "Rabbi Akiva <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אֵין הַיְבָמָה גְמוּרָה לַיָּבָם",
+    "en": "\"A yevamah is not fully the yavam's",
+    "st": "<b> A yevama is not the full-fledged</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "is not"
+     },
+     {
+      "he": "הַיְבָמָה",
+      "en": "the yevamah"
+     },
+     {
+      "he": "גְמוּרָה",
+      "en": "complete"
+     },
+     {
+      "he": "לַיָּבָם",
+      "en": "to the yavam"
+     }
+    ]
+   },
+   {
+    "he": "כְּשֵׁם שֶׁהָאֲרוּסָה גְמוּרָה לְאִישָׁהּ:",
+    "en": "the way an arusah is fully her husband's.\"",
+    "st": "wife <b>of the yavam in the in the way that a betrothed woman</b> is <b>her husband’s full-fledged</b> wife, and the yavam is not empowered to nullify vows at all.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּשֵׁם",
+      "en": "the same as"
+     },
+     {
+      "he": "שֶׁהָאֲרוּסָה",
+      "en": "that the arusah"
+     },
+     {
+      "he": "גְמוּרָה",
+      "en": "is complete"
+     },
+     {
+      "he": "לְאִישָׁהּ:",
+      "en": "to her husband."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 7,
+  "summary": "A husband cannot keep or undo nedarim that his wife has not made yet. Rabbi Eliezer thinks he can undo them, but the Sages learn from a pasuk that he cannot.",
+  "chunks": [
+   {
+    "he": "הָאוֹמֵר לְאִשְׁתּוֹ,",
+    "en": "If someone says to his wife,",
+    "st": "<b>One who says to his wife:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "one who says"
+     },
+     {
+      "he": "לְאִשְׁתּוֹ,",
+      "en": "to his wife"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַנְּדָרִים שֶׁתִּדְּרִי מִכָּאן",
+    "en": "\"All the nedarim that you will make from now",
+    "st": "<b> All vows that you will vow from now</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַנְּדָרִים",
+      "en": "the vows"
+     },
+     {
+      "he": "שֶׁתִּדְּרִי",
+      "en": "that you will vow"
+     },
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁאָבֹא מִמָּקוֹם פְּלוֹנִי,",
+    "en": "until I come back from such-and-such place",
+    "st": "<b> until I arrive from such and such a place</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁאָבֹא",
+      "en": "that I come"
+     },
+     {
+      "he": "מִמָּקוֹם",
+      "en": "from a place"
+     },
+     {
+      "he": "פְּלוֹנִי,",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הֵן קַיָּמִין,",
+    "en": "are kept,\"",
+    "st": "<b> are hereby ratified,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "קַיָּמִין,",
+      "en": "are kept"
+     }
+    ]
+   },
+   {
+    "he": "לֹא אָמַר כְּלוּם.",
+    "en": "he has not said anything.",
+    "st": "<b> has not said anything,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "כְּלוּם.",
+      "en": "anything."
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הֵן מוּפָרִין,",
+    "en": "If he said, \"are undone,\"",
+    "st": "i.e., the vows are not ratified. However, if he states that all vows that she will take until then <b>are hereby nullified,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הֵן",
+      "en": "they"
+     },
+     {
+      "he": "מוּפָרִין,",
+      "en": "are undone"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי אֱלִיעֶזֶר אוֹמֵר,",
+    "en": "Rabbi Eliezer says,",
+    "st": "<b> Rabbi Eliezer said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מוּפָר. וַחֲכָמִים אוֹמְרִים,",
+    "en": "they are undone. But the Sages say,",
+    "st": "They are <b>nullified, while the Rabbis say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוּפָר.",
+      "en": "undone"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מוּפָר.",
+    "en": "they are not undone.",
+    "st": "They are <b>not nullified.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "it is not"
+     },
+     {
+      "he": "מוּפָר.",
+      "en": "undone."
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי אֱלִיעֶזֶר,",
+    "en": "Rabbi Eliezer said,",
+    "st": "<b> Rabbi Eliezer said</b> in explanation:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר,",
+      "en": "Eliezer"
+     }
+    ]
+   },
+   {
+    "he": "אִם הֵפֵר נְּדָרִים שֶׁבָּאוּ לִכְלָל אִסּוּר,",
+    "en": "\"If he can undo nedarim that already became forbidden,",
+    "st": "<b>If one can nullify vows that have reached the status of a prohibition,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הֵפֵר",
+      "en": "he undoes"
+     },
+     {
+      "he": "נְּדָרִים",
+      "en": "vows"
+     },
+     {
+      "he": "שֶׁבָּאוּ",
+      "en": "that came"
+     },
+     {
+      "he": "לִכְלָל",
+      "en": "to the state of"
+     },
+     {
+      "he": "אִסּוּר,",
+      "en": "forbidden"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יָפֵר נְדָרִים שֶׁלֹּא",
+    "en": "shouldn't he undo nedarim that did not",
+    "st": "i.e., that have already taken effect, <b>shall he not</b> be able to <b>nullify vows that have not</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "he should not"
+     },
+     {
+      "he": "יָפֵר",
+      "en": "undo"
+     },
+     {
+      "he": "נְדָרִים",
+      "en": "vows"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "that not"
+     }
+    ]
+   },
+   {
+    "he": "בָאוּ לִכְלָל אִסּוּר.",
+    "en": "yet become forbidden?\"",
+    "st": "<b> reached the status of a prohibition?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָאוּ",
+      "en": "came"
+     },
+     {
+      "he": "לִכְלָל",
+      "en": "to the state of"
+     },
+     {
+      "he": "אִסּוּר.",
+      "en": "forbidden"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him,",
+    "st": "The Rabbis <b>said to him</b> in response:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הוּא אוֹמֵר,",
+    "en": "\"It says,",
+    "st": "The verse <b>states:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִישָׁהּ יְקִימֶנּוּ וְאִישָׁהּ יְפֵרֶנּוּ (במדבר ל),",
+    "en": "'Her husband may keep it, and her husband may undo it.'",
+    "st": "“Every vow, and every binding oath to afflict the soul, <b>her husband may ratify it, or her husband may nullify it”</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישָׁהּ",
+      "en": "her husband"
+     },
+     {
+      "he": "יְקִימֶנּוּ",
+      "en": "may keep it"
+     },
+     {
+      "he": "וְאִישָׁהּ",
+      "en": "and her husband"
+     },
+     {
+      "he": "יְפֵרֶנּוּ",
+      "en": "may undo it"
+     },
+     {
+      "he": "(במדבר",
+      "en": "(Bamidbar"
+     },
+     {
+      "he": "ל),",
+      "en": "30)"
+     }
+    ]
+   },
+   {
+    "he": "אֶת שֶׁבָּא לִכְלָל הָקֵם,",
+    "en": "What can come to be kept",
+    "st": "(Numbers 30:14). This teaches: <b>That which has reached the status of</b> eligibility for <b>ratification,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "that"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "that came"
+     },
+     {
+      "he": "לִכְלָל",
+      "en": "to the state of"
+     },
+     {
+      "he": "הָקֵם,",
+      "en": "keeping"
+     }
+    ]
+   },
+   {
+    "he": "בָּא לִכְלָל הָפֵר.",
+    "en": "can come to be undone.",
+    "st": "i.e., a vow that she has already taken, <b>has reached the status of</b> eligibility for <b>nullification.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "לִכְלָל",
+      "en": "to the state of"
+     },
+     {
+      "he": "הָפֵר.",
+      "en": "undoing."
+     }
+    ]
+   },
+   {
+    "he": "לֹא בָא לִכְלָל הָקֵם,",
+    "en": "What cannot come to be kept,",
+    "st": "However, a vow that <b>has not reached the status of</b> eligibility for <b>ratification</b> has",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בָא",
+      "en": "came"
+     },
+     {
+      "he": "לִכְלָל",
+      "en": "to the state of"
+     },
+     {
+      "he": "הָקֵם,",
+      "en": "keeping"
+     }
+    ]
+   },
+   {
+    "he": "לֹא בָא לִכְלָל הָפֵר:",
+    "en": "cannot come to be undone.\"",
+    "st": "<b>not reached the status of</b> eligibility for <b>nullification</b> either, and it cannot be nullified.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "בָא",
+      "en": "came"
+     },
+     {
+      "he": "לִכְלָל",
+      "en": "to the state of"
+     },
+     {
+      "he": "הָפֵר:",
+      "en": "undoing."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 8,
+  "summary": "A father or husband may undo a neder only on the day he heard it. That can give him a long time, or a very short time.",
+  "chunks": [
+   {
+    "he": "הֲפָרַת נְדָרִים,",
+    "en": "Undoing nedarim",
+    "st": "The <b>nullification of vows</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲפָרַת",
+      "en": "undoing of"
+     },
+     {
+      "he": "נְדָרִים,",
+      "en": "vows"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַיּוֹם.",
+    "en": "can be done the whole day.",
+    "st": "can be performed <b>all day</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַיּוֹם.",
+      "en": "the day."
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ בַּדָּבָר לְהָקֵל וּלְהַחֲמִיר.",
+    "en": "This can make it easier or harder.",
+    "st": "on the day on which the vow was heard. <b>There is in this matter</b> both <b>a leniency,</b> extending the nullification period, <b>and a stricture,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "בַּדָּבָר",
+      "en": "in the thing"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to be lenient"
+     },
+     {
+      "he": "וּלְהַחֲמִיר.",
+      "en": "and to be strict."
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. נָדְרָה בְּלֵילֵי שַׁבָּת,",
+    "en": "How? If she made a neder on Friday night,",
+    "st": "curtailing that period. <b>How so?</b> If a woman <b>took a vow on Shabbat evening,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how?"
+     },
+     {
+      "he": "נָדְרָה",
+      "en": "she vowed"
+     },
+     {
+      "he": "בְּלֵילֵי",
+      "en": "on the night of"
+     },
+     {
+      "he": "שַׁבָּת,",
+      "en": "Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "יָפֵר בְּלֵילֵי שַׁבָּת וּבְיוֹם",
+    "en": "he may undo it on Friday night and on Shabbos day",
+    "st": "her father or husband <b>can nullify</b> the vow <b>on Shabbat evening, and on Shabbat day</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יָפֵר",
+      "en": "he may undo"
+     },
+     {
+      "he": "בְּלֵילֵי",
+      "en": "on the night of"
+     },
+     {
+      "he": "שַׁבָּת",
+      "en": "Shabbos"
+     },
+     {
+      "he": "וּבְיוֹם",
+      "en": "and on the day of"
+     }
+    ]
+   },
+   {
+    "he": "הַשַּׁבָּת עַד שֶׁתֶּחְשָׁךְ.",
+    "en": "until it gets dark.",
+    "st": "<b> until dark.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשַּׁבָּת",
+      "en": "Shabbos"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתֶּחְשָׁךְ.",
+      "en": "it gets dark."
+     }
+    ]
+   },
+   {
+    "he": "נָדְרָה עִם חֲשֵׁכָה,",
+    "en": "If she made a neder just before dark,",
+    "st": "This is an example of extending the nullification period. However, if <b>she took a vow with nightfall</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָדְרָה",
+      "en": "she vowed"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "חֲשֵׁכָה,",
+      "en": "dark"
+     }
+    ]
+   },
+   {
+    "he": "מֵפֵר עַד שֶׁלֹּא תֶחְשַׁךְ.",
+    "en": "he may undo it only until it gets dark,",
+    "st": "approaching, her father or husband <b>can nullify</b> the vow only <b>until nightfall,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵפֵר",
+      "en": "he undoes"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "it does not"
+     },
+     {
+      "he": "תֶחְשַׁךְ.",
+      "en": "get dark"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם חָשְׁכָה וְלֹא הֵפֵר,",
+    "en": "because if it got dark and he did not undo it,",
+    "st": "<b> since, if it became dark and he had not</b> yet <b>nullified</b> her vow,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "because if"
+     },
+     {
+      "he": "חָשְׁכָה",
+      "en": "it got dark"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "הֵפֵר,",
+      "en": "he undid"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לְהָפֵר:",
+    "en": "he cannot undo it anymore.",
+    "st": "<b>he cannot nullify</b> it anymore. This is an example of a curtailed nullification period.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לְהָפֵר:",
+      "en": "to undo."
+     }
+    ]
+   }
+  ]
+ }
+]

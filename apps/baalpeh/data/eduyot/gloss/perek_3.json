@@ -1,0 +1,3279 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "Things that make tamei, when split into two halves, can they still join together to make a person tamei? Rabbi Dosa says no, and the Sages say yes, unless the two halves make him tamei in two different ways.",
+  "chunks": [
+   {
+    "he": "כָּל הַמְטַמְּאִין בְּאֹהֶל שֶׁנֶּחְלְקוּ,",
+    "en": "All things that make tamei in a tent which were split,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַמְטַמְּאִין",
+      "en": "the things that make tamei"
+     },
+     {
+      "he": "בְּאֹהֶל",
+      "en": "in a tent"
+     },
+     {
+      "he": "שֶׁנֶּחְלְקוּ,",
+      "en": "that were split"
+     }
+    ]
+   },
+   {
+    "he": "וְהִכְנִיסָן לְתוֹךְ הַבַּיִת,",
+    "en": "and he brought them into the house,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהִכְנִיסָן",
+      "en": "and he brought them"
+     },
+     {
+      "he": "לְתוֹךְ",
+      "en": "into"
+     },
+     {
+      "he": "הַבַּיִת,",
+      "en": "the house"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי דוֹסָא בֶּן הַרְכִּינַס מְטַהֵר,",
+    "en": "Rabbi Dosa ben Harkinas says it is tahor,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "הַרְכִּינַס",
+      "en": "Harkinas"
+     },
+     {
+      "he": "מְטַהֵר,",
+      "en": "makes tahor"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מְטַמְּאִין.",
+    "en": "and the Sages say it is tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַמְּאִין.",
+      "en": "make tamei"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. הַנּוֹגֵעַ בְּכִשְׁנֵי חֲצָאֵי זֵיתִים",
+    "en": "How is this? One who touches two halves of an olive's size",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how"
+     },
+     {
+      "he": "הַנּוֹגֵעַ",
+      "en": "one who touches"
+     },
+     {
+      "he": "בְּכִשְׁנֵי",
+      "en": "like two"
+     },
+     {
+      "he": "חֲצָאֵי",
+      "en": "halves of"
+     },
+     {
+      "he": "זֵיתִים",
+      "en": "olives",
+      "note": "The size of half an olive."
+     }
+    ]
+   },
+   {
+    "he": "מִן הַנְּבֵלָה אוֹ נוֹשְׂאָן,",
+    "en": "of a neveilah, or carries them,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַנְּבֵלָה",
+      "en": "the neveilah",
+      "note": "An animal that died without shechitah."
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נוֹשְׂאָן,",
+      "en": "carries them"
+     }
+    ]
+   },
+   {
+    "he": "וּבַמֵּת, הַנּוֹגֵעַ בְּכַחֲצִי זַיִת וּמַאֲהִיל עַל",
+    "en": "and with a dead person: one who touches half an olive's size and is over",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּבַמֵּת,",
+      "en": "and with a dead person"
+     },
+     {
+      "he": "הַנּוֹגֵעַ",
+      "en": "one who touches"
+     },
+     {
+      "he": "בְּכַחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "וּמַאֲהִיל",
+      "en": "and is over (like a roof)"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "כַּחֲצִי זַיִת אוֹ נוֹגֵעַ בְּכַחֲצִי",
+    "en": "half an olive's size, or touches half",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נוֹגֵעַ",
+      "en": "touches"
+     },
+     {
+      "he": "בְּכַחֲצִי",
+      "en": "like half"
+     }
+    ]
+   },
+   {
+    "he": "זַיִת וְכַחֲצִי זַיִת מַאֲהִיל עָלָיו,",
+    "en": "an olive's size and half an olive's size is over him,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "וְכַחֲצִי",
+      "en": "and like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "מַאֲהִיל",
+      "en": "is over"
+     },
+     {
+      "he": "עָלָיו,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "וּמַאֲהִיל עַל כִּשְׁנֵי חֲצָאֵי זֵיתִים,",
+    "en": "or is over two halves of an olive's size,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמַאֲהִיל",
+      "en": "or is over"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "כִּשְׁנֵי",
+      "en": "like two"
+     },
+     {
+      "he": "חֲצָאֵי",
+      "en": "halves of"
+     },
+     {
+      "he": "זֵיתִים,",
+      "en": "olives"
+     }
+    ]
+   },
+   {
+    "he": "מַאֲהִיל עַל כַּחֲצִי זַיִת",
+    "en": "is over half an olive's size",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַאֲהִיל",
+      "en": "is over"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     }
+    ]
+   },
+   {
+    "he": "וְכַחֲצִי זַיִת מַאֲהִיל עָלָיו,",
+    "en": "and half an olive's size is over him,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְכַחֲצִי",
+      "en": "and like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "מַאֲהִיל",
+      "en": "is over"
+     },
+     {
+      "he": "עָלָיו,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי דוֹסָא בֶּן הַרְכִּינַס",
+    "en": "Rabbi Dosa ben Harkinas",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "הַרְכִּינַס",
+      "en": "Harkinas"
+     }
+    ]
+   },
+   {
+    "he": "מְטַהֵר וַחֲכָמִים מְטַמְּאִין.",
+    "en": "says tahor and the Sages say tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְטַהֵר",
+      "en": "makes tahor"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַמְּאִין.",
+      "en": "make tamei"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל הַנּוֹגֵעַ בְּכַחֲצִי זַיִת וְדָבָר אַחֵר",
+    "en": "But one who touches half an olive's size, and something else",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "הַנּוֹגֵעַ",
+      "en": "one who touches"
+     },
+     {
+      "he": "בְּכַחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "וְדָבָר",
+      "en": "and a thing"
+     },
+     {
+      "he": "אַחֵר",
+      "en": "other"
+     }
+    ]
+   },
+   {
+    "he": "מַאֲהִיל עָלָיו וְעַל כַּחֲצִי זַיִת,",
+    "en": "is over him and over half an olive's size,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַאֲהִיל",
+      "en": "is over"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "him"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת,",
+      "en": "an olive"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ מַאֲהִיל עַל כַּחֲצִי זַיִת וְדָבָר",
+    "en": "or is over half an olive's size, and something",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "מַאֲהִיל",
+      "en": "is over"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת",
+      "en": "an olive"
+     },
+     {
+      "he": "וְדָבָר",
+      "en": "and a thing"
+     }
+    ]
+   },
+   {
+    "he": "אַחֵר מַאֲהִיל עָלָיו וְעַל כַּחֲצִי זַיִת,",
+    "en": "else is over him and over half an olive's size,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַחֵר",
+      "en": "other"
+     },
+     {
+      "he": "מַאֲהִיל",
+      "en": "is over"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "him"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and on"
+     },
+     {
+      "he": "כַּחֲצִי",
+      "en": "like half"
+     },
+     {
+      "he": "זַיִת,",
+      "en": "an olive"
+     }
+    ]
+   },
+   {
+    "he": "טָהוֹר. אָמַר רַבִּי מֵאִיר,",
+    "en": "is tahor. Rabbi Meir said:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טָהוֹר.",
+      "en": "is tahor"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר,",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "אַף בָּזֶה רַבִּי דוֹסָא",
+    "en": "even here Rabbi Dosa",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "בָּזֶה",
+      "en": "in this"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     }
+    ]
+   },
+   {
+    "he": "מְטַהֵר וַחֲכָמִים מְטַמְּאִין.",
+    "en": "says tahor and the Sages say tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְטַהֵר",
+      "en": "makes tahor"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַמְּאִין.",
+      "en": "make tamei"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל טָמֵא,",
+    "en": "Everything is tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "טָמֵא,",
+      "en": "is tamei"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִן הַמַּגָּע עִם הַמַּשָּׂא,",
+    "en": "except touching together with carrying,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַמַּגָּע",
+      "en": "the touching"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הַמַּשָּׂא,",
+      "en": "the carrying"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמַּשָּׂא עִם הָאֹהֶל.",
+    "en": "and carrying together with a tent.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהַמַּשָּׂא",
+      "en": "and the carrying"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "הָאֹהֶל.",
+      "en": "the tent"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "is the rule"
+     }
+    ]
+   },
+   {
+    "he": "כֹּל שֶׁהוּא מִשֵּׁם אֶחָד,",
+    "en": "whatever is from one name",
+    "explain": "The same kind of tumah, like two touchings.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כֹּל",
+      "en": "whatever"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it is"
+     },
+     {
+      "he": "מִשֵּׁם",
+      "en": "from name"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "טָמֵא. מִשְּׁנֵי שֵׁמוֹת, טָהוֹר:",
+    "en": "is tamei. From two names, it is tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טָמֵא.",
+      "en": "is tamei"
+     },
+     {
+      "he": "מִשְּׁנֵי",
+      "en": "from two"
+     },
+     {
+      "he": "שֵׁמוֹת,",
+      "en": "names"
+     },
+     {
+      "he": "טָהוֹר:",
+      "en": "is tahor"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "Rabbi Dosa and the Sages argue about three things: whether pieces of food add up, whether maaser sheni can be switched onto a blank coin, and dipping hands for the parah adumah.",
+  "chunks": [
+   {
+    "he": "אֹכֶל פָּרוּד,",
+    "en": "Food in separate pieces",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֹכֶל",
+      "en": "food"
+     },
+     {
+      "he": "פָּרוּד,",
+      "en": "separated"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מִצְטָרֵף,",
+    "en": "does not add up,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "does not"
+     },
+     {
+      "he": "מִצְטָרֵף,",
+      "en": "add up"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי דוֹסָא בֶּן הַרְכִּינַס.",
+    "en": "the words of Rabbi Dosa ben Harkinas.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "הַרְכִּינַס.",
+      "en": "Harkinas"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מִצְטָרֵף. מְחַלְּלִין מַעֲשֵׂר שֵׁנִי עַל אֲסִימוֹן,",
+    "en": "it adds up. We may redeem maaser sheni onto a blank coin,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִצְטָרֵף.",
+      "en": "it adds up"
+     },
+     {
+      "he": "מְחַלְּלִין",
+      "en": "we redeem"
+     },
+     {
+      "he": "מַעֲשֵׂר",
+      "en": "maaser"
+     },
+     {
+      "he": "שֵׁנִי",
+      "en": "sheni"
+     },
+     {
+      "he": "עַל",
+      "en": "onto"
+     },
+     {
+      "he": "אֲסִימוֹן,",
+      "en": "a blank coin",
+      "note": "A metal coin with no picture stamped on it yet."
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי דוֹסָא.",
+    "en": "the words of Rabbi Dosa.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא.",
+      "en": "Dosa"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְחַלְּלִין.",
+    "en": "we may not redeem.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְחַלְּלִין.",
+      "en": "we redeem"
+     }
+    ]
+   },
+   {
+    "he": "מַטְבִּילִין יָדַיִם לַחַטָּאת,",
+    "en": "We may dip just the hands for the chatas water,",
+    "explain": "The water mixed with ashes of the parah adumah.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַטְבִּילִין",
+      "en": "we dip"
+     },
+     {
+      "he": "יָדַיִם",
+      "en": "hands"
+     },
+     {
+      "he": "לַחַטָּאת,",
+      "en": "for the chatas"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי דוֹסָא.",
+    "en": "the words of Rabbi Dosa.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא.",
+      "en": "Dosa"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אִם נִטְמְאוּ יָדָיו,",
+    "en": "if his hands became tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "נִטְמְאוּ",
+      "en": "became tamei"
+     },
+     {
+      "he": "יָדָיו,",
+      "en": "his hands"
+     }
+    ]
+   },
+   {
+    "he": "נִטְמָא גוּפוֹ:",
+    "en": "his whole body became tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "נִטְמָא",
+      "en": "became tamei"
+     },
+     {
+      "he": "גוּפוֹ:",
+      "en": "his body"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "May a non-Kohen eat the inside of a terumah melon or the thrown-away leaves of terumah vegetables? And how much wool from five sheep must be given to the Kohen?",
+  "chunks": [
+   {
+    "he": "מְעֵי אֲבַטִּיחַ וּקְנִיבַת יָרָק שֶׁל תְּרוּמָה,",
+    "en": "The inside of a melon and the trimmed leaves of a vegetable of terumah,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְעֵי",
+      "en": "the insides of"
+     },
+     {
+      "he": "אֲבַטִּיחַ",
+      "en": "a melon"
+     },
+     {
+      "he": "וּקְנִיבַת",
+      "en": "and the trimmings of"
+     },
+     {
+      "he": "יָרָק",
+      "en": "a vegetable"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "תְּרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי דוֹסָא מַתִּיר לְזָרִים,",
+    "en": "Rabbi Dosa allows them to non-Kohanim,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     },
+     {
+      "he": "מַתִּיר",
+      "en": "allows"
+     },
+     {
+      "he": "לְזָרִים,",
+      "en": "to non-Kohanim"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹסְרִין.",
+    "en": "and the Sages forbid.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹסְרִין.",
+      "en": "forbid"
+     }
+    ]
+   },
+   {
+    "he": "חָמֵשׁ רְחֵלוֹת גְּזוּזוֹת מָנֶה מָנֶה וּפְרַס,",
+    "en": "Five sheep whose wool came to a maneh and a half each,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "רְחֵלוֹת",
+      "en": "sheep"
+     },
+     {
+      "he": "גְּזוּזוֹת",
+      "en": "shorn"
+     },
+     {
+      "he": "מָנֶה",
+      "en": "a maneh",
+      "note": "A weight."
+     },
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "וּפְרַס,",
+      "en": "and a half"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּבוֹת בְּרֵאשִׁית הַגֵּז,",
+    "en": "must give the first of the shearing,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חַיָּבוֹת",
+      "en": "must give"
+     },
+     {
+      "he": "בְּרֵאשִׁית",
+      "en": "the first of"
+     },
+     {
+      "he": "הַגֵּז,",
+      "en": "the shearing",
+      "note": "Some wool that is given to the Kohen."
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי דוֹסָא.",
+    "en": "the words of Rabbi Dosa.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא.",
+      "en": "Dosa"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "חָמֵשׁ רְחֵלוֹת כָּל שֶׁהֵן:",
+    "en": "five sheep, any amount at all.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חָמֵשׁ",
+      "en": "five"
+     },
+     {
+      "he": "רְחֵלוֹת",
+      "en": "sheep"
+     },
+     {
+      "he": "כָּל",
+      "en": "any amount"
+     },
+     {
+      "he": "שֶׁהֵן:",
+      "en": "that they are"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "Which mats and woven things can become tamei? Rabbi Dosa and the Sages argue.",
+  "chunks": [
+   {
+    "he": "כָּל הַחוֹצָלוֹת טְמֵאוֹת טְמֵא מֵת,",
+    "en": "All mats can become tamei from a dead body,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַחוֹצָלוֹת",
+      "en": "the mats"
+     },
+     {
+      "he": "טְמֵאוֹת",
+      "en": "are tamei"
+     },
+     {
+      "he": "טְמֵא",
+      "en": "tamei of"
+     },
+     {
+      "he": "מֵת,",
+      "en": "a dead body"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי דוֹסָא.",
+    "en": "the words of Rabbi Dosa.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא.",
+      "en": "Dosa"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מִדְרָס. כָּל הַקְּלִיעוֹת טְהוֹרוֹת,",
+    "en": "from treading. All woven bands are tahor,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִדְרָס.",
+      "en": "treading",
+      "note": "Tumah from a zav standing or sitting on it."
+     },
+     {
+      "he": "כָּל",
+      "en": "all"
+     },
+     {
+      "he": "הַקְּלִיעוֹת",
+      "en": "the braids"
+     },
+     {
+      "he": "טְהוֹרוֹת,",
+      "en": "are tahor"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִשֶּׁל גַּלְגִּילוֹן,",
+    "en": "except those of a galgilon,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from those of"
+     },
+     {
+      "he": "גַּלְגִּילוֹן,",
+      "en": "a galgilon",
+      "note": "A kind of belt or band."
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי דוֹסָא.",
+    "en": "the words of Rabbi Dosa.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא.",
+      "en": "Dosa"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "כֻּלָּם טְמֵאוֹת,",
+    "en": "all of them can become tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כֻּלָּם",
+      "en": "all of them"
+     },
+     {
+      "he": "טְמֵאוֹת,",
+      "en": "are tamei"
+     }
+    ]
+   },
+   {
+    "he": "חוּץ מִשֶּׁל צַמָּרִים:",
+    "en": "except those of wool workers.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "חוּץ",
+      "en": "except"
+     },
+     {
+      "he": "מִשֶּׁל",
+      "en": "from those of"
+     },
+     {
+      "he": "צַמָּרִים:",
+      "en": "wool workers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "A sling for throwing stones: when can it become tamei, and when is it tahor?",
+  "chunks": [
+   {
+    "he": "הַקֶּלַע שֶׁבֵּית קִבּוּל שֶׁלָּהּ אָרוּג,",
+    "en": "A sling whose holder is woven,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַקֶּלַע",
+      "en": "the sling"
+     },
+     {
+      "he": "שֶׁבֵּית",
+      "en": "that the place of"
+     },
+     {
+      "he": "קִבּוּל",
+      "en": "holding"
+     },
+     {
+      "he": "שֶׁלָּהּ",
+      "en": "its"
+     },
+     {
+      "he": "אָרוּג,",
+      "en": "is woven"
+     }
+    ]
+   },
+   {
+    "he": "טְמֵאָה. וְשֶׁל עוֹר,",
+    "en": "can become tamei. And one of leather,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טְמֵאָה.",
+      "en": "is tamei"
+     },
+     {
+      "he": "וְשֶׁל",
+      "en": "and one of"
+     },
+     {
+      "he": "עוֹר,",
+      "en": "leather"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי דוֹסָא בֶּן הַרְכִּינָס",
+    "en": "Rabbi Dosa ben Harkinas",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא",
+      "en": "Dosa"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "הַרְכִּינָס",
+      "en": "Harkinas"
+     }
+    ]
+   },
+   {
+    "he": "מְטַהֵר וַחֲכָמִים מְטַמְּאִין.",
+    "en": "says tahor and the Sages say tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְטַהֵר",
+      "en": "makes tahor"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַמְּאִין.",
+      "en": "make tamei"
+     }
+    ]
+   },
+   {
+    "he": "נִפְסַק בֵּית אֶצְבַּע שֶׁלָּהּ,",
+    "en": "If its finger loop was torn off,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "נִפְסַק",
+      "en": "was torn off"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the place of"
+     },
+     {
+      "he": "אֶצְבַּע",
+      "en": "the finger"
+     },
+     {
+      "he": "שֶׁלָּהּ,",
+      "en": "its"
+     }
+    ]
+   },
+   {
+    "he": "טְהוֹרָה. בֵּית הַפָּקִיעַ שֶׁלָּהּ, טְמֵאָה:",
+    "en": "it is tahor. If its holding-strap was torn off, it is tamei.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טְהוֹרָה.",
+      "en": "it is tahor"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the place of"
+     },
+     {
+      "he": "הַפָּקִיעַ",
+      "en": "the strap"
+     },
+     {
+      "he": "שֶׁלָּהּ,",
+      "en": "its"
+     },
+     {
+      "he": "טְמֵאָה:",
+      "en": "it is tamei"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "A woman who was taken captive: may she still eat terumah? It depends on whether we only know about it from her own words.",
+  "chunks": [
+   {
+    "he": "הַשְּׁבוּיָה אוֹכֶלֶת בַּתְּרוּמָה,",
+    "en": "A woman who was taken captive may eat terumah,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַשְּׁבוּיָה",
+      "en": "the captive woman"
+     },
+     {
+      "he": "אוֹכֶלֶת",
+      "en": "eats"
+     },
+     {
+      "he": "בַּתְּרוּמָה,",
+      "en": "terumah"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי דוֹסָא.",
+    "en": "the words of Rabbi Dosa.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "דוֹסָא.",
+      "en": "Dosa"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "יֵשׁ שְׁבוּיָה אוֹכֶלֶת וְיֵשׁ",
+    "en": "there is a captive woman who eats and there is",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "שְׁבוּיָה",
+      "en": "a captive woman"
+     },
+     {
+      "he": "אוֹכֶלֶת",
+      "en": "who eats"
+     },
+     {
+      "he": "וְיֵשׁ",
+      "en": "and there is"
+     }
+    ]
+   },
+   {
+    "he": "שְׁבוּיָה שֶׁאֵינָהּ אוֹכֶלֶת.",
+    "en": "a captive woman who does not eat.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁבוּיָה",
+      "en": "a captive woman"
+     },
+     {
+      "he": "שֶׁאֵינָהּ",
+      "en": "that does not"
+     },
+     {
+      "he": "אוֹכֶלֶת.",
+      "en": "eat"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. הָאִשָּׁה שֶׁאָמְרָה נִשְׁבֵּיתִי וּטְהוֹרָה אָנִי,",
+    "en": "How? A woman who said, \"I was captured, and I am tahor,\"",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "שֶׁאָמְרָה",
+      "en": "that said"
+     },
+     {
+      "he": "נִשְׁבֵּיתִי",
+      "en": "I was captured"
+     },
+     {
+      "he": "וּטְהוֹרָה",
+      "en": "and tahor"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I am"
+     }
+    ]
+   },
+   {
+    "he": "אוֹכֶלֶת, שֶׁהַפֶּה שֶׁאָסַר הוּא הַפֶּה שֶׁהִתִּיר.",
+    "en": "eats, because the mouth that forbade is the mouth that allowed.",
+    "explain": "We only know she was captured from her own words.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹכֶלֶת,",
+      "en": "eats"
+     },
+     {
+      "he": "שֶׁהַפֶּה",
+      "en": "for the mouth"
+     },
+     {
+      "he": "שֶׁאָסַר",
+      "en": "that forbade"
+     },
+     {
+      "he": "הוּא",
+      "en": "it is"
+     },
+     {
+      "he": "הַפֶּה",
+      "en": "the mouth"
+     },
+     {
+      "he": "שֶׁהִתִּיר.",
+      "en": "that allowed"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם יֵשׁ עֵדִים שֶׁנִּשְׁבֵּית,",
+    "en": "And if there are witnesses that she was captured,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there are"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "שֶׁנִּשְׁבֵּית,",
+      "en": "that she was captured"
+     }
+    ]
+   },
+   {
+    "he": "וְהִיא אוֹמֶרֶת טְהוֹרָה אָנִי,",
+    "en": "and she says, \"I am tahor,\"",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְהִיא",
+      "en": "and she"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "טְהוֹרָה",
+      "en": "tahor"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I am"
+     }
+    ]
+   },
+   {
+    "he": "אֵינָהּ אוֹכֶלֶת:",
+    "en": "she does not eat.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵינָהּ",
+      "en": "she does not"
+     },
+     {
+      "he": "אוֹכֶלֶת:",
+      "en": "eat"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "In four cases of doubt about whether something touched tumah, Rabbi Yehoshua says it is tamei and the Sages say it is tahor.",
+  "chunks": [
+   {
+    "he": "אַרְבָּעָה סְפֵקוֹת רַבִּי יְהוֹשֻׁעַ מְטַמֵּא,",
+    "en": "Four doubts that Rabbi Yehoshua says are tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "סְפֵקוֹת",
+      "en": "doubts"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "מְטַמֵּא,",
+      "en": "makes tamei"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מְטַהֲרִין.",
+    "en": "and the Sages say are tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַהֲרִין.",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד. הַטָּמֵא עוֹמֵד וְהַטָּהוֹר עוֹבֵר,",
+    "en": "How? The tamei one stands and the tahor one passes by,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד.",
+      "en": "how"
+     },
+     {
+      "he": "הַטָּמֵא",
+      "en": "the tamei one"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "stands"
+     },
+     {
+      "he": "וְהַטָּהוֹר",
+      "en": "and the tahor one"
+     },
+     {
+      "he": "עוֹבֵר,",
+      "en": "passes by"
+     }
+    ]
+   },
+   {
+    "he": "הַטָּהוֹר עוֹמֵד וְהַטָּמֵא עוֹבֵר,",
+    "en": "the tahor one stands and the tamei one passes by,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַטָּהוֹר",
+      "en": "the tahor one"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "stands"
+     },
+     {
+      "he": "וְהַטָּמֵא",
+      "en": "and the tamei one"
+     },
+     {
+      "he": "עוֹבֵר,",
+      "en": "passes by"
+     }
+    ]
+   },
+   {
+    "he": "טֻמְאָה בִּרְשׁוּת הַיָּחִיד וְטָהֳרָה בִּרְשׁוּת הָרַבִּים,",
+    "en": "tumah in a private place and taharah in a public place,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טֻמְאָה",
+      "en": "tumah"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in a place of"
+     },
+     {
+      "he": "הַיָּחִיד",
+      "en": "the individual"
+     },
+     {
+      "he": "וְטָהֳרָה",
+      "en": "and taharah"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in a place of"
+     },
+     {
+      "he": "הָרַבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "טָהֳרָה בִּרְשׁוּת הַיָּחִיד וְטֻמְאָה בִּרְשׁוּת הָרַבִּים,",
+    "en": "taharah in a private place and tumah in a public place,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "טָהֳרָה",
+      "en": "taharah"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in a place of"
+     },
+     {
+      "he": "הַיָּחִיד",
+      "en": "the individual"
+     },
+     {
+      "he": "וְטֻמְאָה",
+      "en": "and tumah"
+     },
+     {
+      "he": "בִּרְשׁוּת",
+      "en": "in a place of"
+     },
+     {
+      "he": "הָרַבִּים,",
+      "en": "the many"
+     }
+    ]
+   },
+   {
+    "he": "סָפֵק נָגַע סָפֵק לֹא נָגַע,",
+    "en": "maybe he touched, maybe he did not touch,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "סָפֵק",
+      "en": "a doubt"
+     },
+     {
+      "he": "נָגַע",
+      "en": "he touched"
+     },
+     {
+      "he": "סָפֵק",
+      "en": "a doubt"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָגַע,",
+      "en": "he touched"
+     }
+    ]
+   },
+   {
+    "he": "סָפֵק הֶאֱהִיל סָפֵק לֹא הֶאֱהִיל,",
+    "en": "maybe he was over it, maybe he was not over it,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "סָפֵק",
+      "en": "a doubt"
+     },
+     {
+      "he": "הֶאֱהִיל",
+      "en": "he was over it"
+     },
+     {
+      "he": "סָפֵק",
+      "en": "a doubt"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הֶאֱהִיל,",
+      "en": "he was over it"
+     }
+    ]
+   },
+   {
+    "he": "סָפֵק הֵסִיט סָפֵק לֹא הֵסִיט,",
+    "en": "maybe he moved it, maybe he did not move it,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "סָפֵק",
+      "en": "a doubt"
+     },
+     {
+      "he": "הֵסִיט",
+      "en": "he moved it"
+     },
+     {
+      "he": "סָפֵק",
+      "en": "a doubt"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הֵסִיט,",
+      "en": "he moved it"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוֹשֻׁעַ מְטַמֵּא,",
+    "en": "Rabbi Yehoshua says tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "מְטַמֵּא,",
+      "en": "makes tamei"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מְטַהֲרִין:",
+    "en": "and the Sages say tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַהֲרִין:",
+      "en": "make tahor"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "Rabbi Tzadok says three metal or wooden things can become tamei, and the Sages say they cannot.",
+  "chunks": [
+   {
+    "he": "שְׁלֹשָׁה דְבָרִים רַבִּי צָדוֹק מְטַמֵּא,",
+    "en": "Rabbi Tzadok says three things are tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "צָדוֹק",
+      "en": "Tzadok"
+     },
+     {
+      "he": "מְטַמֵּא,",
+      "en": "makes tamei"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מְטַהֲרִין.",
+    "en": "and the Sages say tahor:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַהֲרִין.",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "מַסְמֵר הַשֻּׁלְחָנִי,",
+    "en": "the nail of a money changer,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַסְמֵר",
+      "en": "the nail of"
+     },
+     {
+      "he": "הַשֻּׁלְחָנִי,",
+      "en": "the money changer"
+     }
+    ]
+   },
+   {
+    "he": "וְאָרוֹן שֶׁל גָּרוֹסוֹת,",
+    "en": "and a chest of grist-makers,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאָרוֹן",
+      "en": "and a chest"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "גָּרוֹסוֹת,",
+      "en": "grist-makers",
+      "note": "People who grind beans and grain."
+     }
+    ]
+   },
+   {
+    "he": "וּמַסְמֵר שֶׁל אֶבֶן שָׁעוֹת,",
+    "en": "and the nail of a sundial stone,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמַסְמֵר",
+      "en": "and the nail"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶבֶן",
+      "en": "a stone of"
+     },
+     {
+      "he": "שָׁעוֹת,",
+      "en": "hours",
+      "note": "A sundial that tells the time."
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי צָדוֹק מְטַמֵּא וַחֲכָמִים מְטַהֲרִין:",
+    "en": "Rabbi Tzadok says tamei and the Sages say tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "צָדוֹק",
+      "en": "Tzadok"
+     },
+     {
+      "he": "מְטַמֵּא",
+      "en": "makes tamei"
+     },
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַהֲרִין:",
+      "en": "make tahor"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 9,
+  "summary": "Rabban Gamliel says four metal things can become tamei and the Sages say they cannot. The Sages agree about a tablet split into a big piece and a small piece.",
+  "chunks": [
+   {
+    "he": "אַרְבָּעָה דְבָרִים רַבָּן גַּמְלִיאֵל מְטַמֵּא,",
+    "en": "Rabban Gamliel says four things are tamei,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "מְטַמֵּא,",
+      "en": "makes tamei"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים מְטַהֲרִין.",
+    "en": "and the Sages say tahor:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "מְטַהֲרִין.",
+      "en": "make tahor"
+     }
+    ]
+   },
+   {
+    "he": "כִּסּוּי טֶנִי שֶׁל מַתָּכוֹת",
+    "en": "a metal cover of a basket",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "כִּסּוּי",
+      "en": "a cover of"
+     },
+     {
+      "he": "טֶנִי",
+      "en": "a basket"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מַתָּכוֹת",
+      "en": "metals"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל בַּעֲלֵי בָתִּים,",
+    "en": "of homeowners,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּעֲלֵי",
+      "en": "owners of"
+     },
+     {
+      "he": "בָתִּים,",
+      "en": "houses"
+     }
+    ]
+   },
+   {
+    "he": "וּתְלוֹי הַמַּגְרֵדוֹת,",
+    "en": "and the hook for scrapers,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּתְלוֹי",
+      "en": "and the hanger of"
+     },
+     {
+      "he": "הַמַּגְרֵדוֹת,",
+      "en": "the scrapers",
+      "note": "Metal tools used to scrape the skin in the bathhouse."
+     }
+    ]
+   },
+   {
+    "he": "וְגָלְמֵי כְלֵי מַתָּכוֹת,",
+    "en": "and unfinished metal vessels,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְגָלְמֵי",
+      "en": "and unfinished pieces of"
+     },
+     {
+      "he": "כְלֵי",
+      "en": "vessels of"
+     },
+     {
+      "he": "מַתָּכוֹת,",
+      "en": "metals"
+     }
+    ]
+   },
+   {
+    "he": "וְטַבְלָא שֶׁנֶּחְלְקָה לִשְׁנָיִם.",
+    "en": "and a tablet that was split in two.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְטַבְלָא",
+      "en": "and a tablet"
+     },
+     {
+      "he": "שֶׁנֶּחְלְקָה",
+      "en": "that was split"
+     },
+     {
+      "he": "לִשְׁנָיִם.",
+      "en": "into two"
+     }
+    ]
+   },
+   {
+    "he": "וּמוֹדִים חֲכָמִים לְרַבָּן גַּמְלִיאֵל",
+    "en": "And the Sages agree with Rabban Gamliel",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמוֹדִים",
+      "en": "and agree"
+     },
+     {
+      "he": "חֲכָמִים",
+      "en": "the Sages"
+     },
+     {
+      "he": "לְרַבָּן",
+      "en": "with Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "בְּטַבְלָא שֶׁנֶּחְלְקָה לִשְׁנַיִם,",
+    "en": "about a tablet that was split in two,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בְּטַבְלָא",
+      "en": "about a tablet"
+     },
+     {
+      "he": "שֶׁנֶּחְלְקָה",
+      "en": "that was split"
+     },
+     {
+      "he": "לִשְׁנַיִם,",
+      "en": "into two"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד גָּדוֹל וְאֶחָד קָטָן,",
+    "en": "one big and one small,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "big"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "קָטָן,",
+      "en": "small"
+     }
+    ]
+   },
+   {
+    "he": "הַגָּדוֹל טָמֵא וְהַקָּטָן טָהוֹר:",
+    "en": "the big one is tamei and the small one is tahor.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the big one"
+     },
+     {
+      "he": "טָמֵא",
+      "en": "is tamei"
+     },
+     {
+      "he": "וְהַקָּטָן",
+      "en": "and the small one"
+     },
+     {
+      "he": "טָהוֹר:",
+      "en": "is tahor"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 10,
+  "summary": "In three things about Yom Tov, Rabban Gamliel was strict like Beis Shammai. The Sages said his family could be strict on themselves but allowed it for all Yisrael.",
+  "chunks": [
+   {
+    "he": "שְׁלֹשָׁה דְבָרִים רַבָּן גַּמְלִיאֵל",
+    "en": "In three things Rabban Gamliel",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "מַחְמִיר כְּדִבְרֵי בֵית שַׁמָּאי.",
+    "en": "is strict like the words of Beis Shammai.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַחְמִיר",
+      "en": "is strict"
+     },
+     {
+      "he": "כְּדִבְרֵי",
+      "en": "like the words of"
+     },
+     {
+      "he": "בֵית",
+      "en": "Beis"
+     },
+     {
+      "he": "שַׁמָּאי.",
+      "en": "Shammai"
+     }
+    ]
+   },
+   {
+    "he": "אֵין טוֹמְנִין אֶת הַחַמִּין",
+    "en": "We do not wrap up hot food",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "טוֹמְנִין",
+      "en": "we wrap up"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַחַמִּין",
+      "en": "the hot food"
+     }
+    ]
+   },
+   {
+    "he": "מִיּוֹם טוֹב לְשַׁבָּת,",
+    "en": "from Yom Tov for Shabbos,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִיּוֹם",
+      "en": "from Yom"
+     },
+     {
+      "he": "טוֹב",
+      "en": "Tov"
+     },
+     {
+      "he": "לְשַׁבָּת,",
+      "en": "for Shabbos"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין זוֹקְפִין אֶת הַמְּנוֹרָה בְּיוֹם טוֹב,",
+    "en": "and we do not put together the menorah on Yom Tov,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "זוֹקְפִין",
+      "en": "we stand up"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמְּנוֹרָה",
+      "en": "the menorah"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on Yom"
+     },
+     {
+      "he": "טוֹב,",
+      "en": "Tov"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין אוֹפִין פִּתִּין גְּרִיצִין אֶלָּא רְקִיקִין.",
+    "en": "and we do not bake thick loaves, only thin ones.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "אוֹפִין",
+      "en": "we bake"
+     },
+     {
+      "he": "פִּתִּין",
+      "en": "loaves"
+     },
+     {
+      "he": "גְּרִיצִין",
+      "en": "thick"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "רְקִיקִין.",
+      "en": "thin ones"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבָּן גַּמְלִיאֵל,",
+    "en": "Rabban Gamliel said:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל,",
+      "en": "Gamliel"
+     }
+    ]
+   },
+   {
+    "he": "מִימֵיהֶן שֶׁל בֵּית אַבָּא לֹא הָיוּ",
+    "en": "In all the days of my father's house they did not",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִימֵיהֶן",
+      "en": "in their days"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "אַבָּא",
+      "en": "my father"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     }
+    ]
+   },
+   {
+    "he": "אוֹפִין פִּתִּין גְּרִיצִין אֶלָּא רְקִיקִין.",
+    "en": "bake thick loaves, only thin ones.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹפִין",
+      "en": "baking"
+     },
+     {
+      "he": "פִּתִּין",
+      "en": "loaves"
+     },
+     {
+      "he": "גְּרִיצִין",
+      "en": "thick"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "רְקִיקִין.",
+      "en": "thin ones"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לוֹ,",
+    "en": "They said to him:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "מַה נַּעֲשֶׂה לְבֵית אָבִיךָ שֶׁהָיוּ מַחְמִירִין",
+    "en": "What can we do about your father's house, who were strict",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "נַּעֲשֶׂה",
+      "en": "shall we do"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "אָבִיךָ",
+      "en": "your father"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that were"
+     },
+     {
+      "he": "מַחְמִירִין",
+      "en": "strict"
+     }
+    ]
+   },
+   {
+    "he": "עַל עַצְמָן וּמְקִלִּין עַל יִשְׂרָאֵל לִהְיוֹת",
+    "en": "on themselves and easy on Yisrael, letting them",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "עַצְמָן",
+      "en": "themselves"
+     },
+     {
+      "he": "וּמְקִלִּין",
+      "en": "and easy"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     }
+    ]
+   },
+   {
+    "he": "אוֹפִין פִּתִּין גְּרִיצִין וָחֹרִי:",
+    "en": "bake thick loaves and white bread.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אוֹפִין",
+      "en": "baking"
+     },
+     {
+      "he": "פִּתִּין",
+      "en": "loaves"
+     },
+     {
+      "he": "גְּרִיצִין",
+      "en": "thick"
+     },
+     {
+      "he": "וָחֹרִי:",
+      "en": "and white bread"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 11,
+  "summary": "Rabban Gamliel also allowed three things on Yom Tov: sweeping between the beds, putting spices on coals, and making a roasted goat on Pesach night. The Sages forbid them.",
+  "chunks": [
+   {
+    "he": "אַף הוּא אָמַר שְׁלֹשָׁה דְבָרִים לְהָקֵל.",
+    "en": "He also said three things to be easy.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "also"
+     },
+     {
+      "he": "הוּא",
+      "en": "he"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "לְהָקֵל.",
+      "en": "to be easy"
+     }
+    ]
+   },
+   {
+    "he": "מְכַבְּדִין בֵּין הַמִּטּוֹת,",
+    "en": "We may sweep between the beds,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מְכַבְּדִין",
+      "en": "we sweep"
+     },
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "הַמִּטּוֹת,",
+      "en": "the beds"
+     }
+    ]
+   },
+   {
+    "he": "וּמְנִיחִין אֶת הַמֻּגְמָר בְּיוֹם טוֹב,",
+    "en": "and put the spices on the coals on Yom Tov,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמְנִיחִין",
+      "en": "and we put"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמֻּגְמָר",
+      "en": "the spices on coals",
+      "note": "Sweet-smelling spices put on hot coals."
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on Yom"
+     },
+     {
+      "he": "טוֹב,",
+      "en": "Tov"
+     }
+    ]
+   },
+   {
+    "he": "וְעוֹשִׂים גְּדִי מְקֻלָּס בְּלֵילֵי פְסָחִים.",
+    "en": "and make a whole roasted goat on Pesach night.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹשִׂים",
+      "en": "and we make"
+     },
+     {
+      "he": "גְּדִי",
+      "en": "a goat"
+     },
+     {
+      "he": "מְקֻלָּס",
+      "en": "roasted whole"
+     },
+     {
+      "he": "בְּלֵילֵי",
+      "en": "on the nights of"
+     },
+     {
+      "he": "פְסָחִים.",
+      "en": "Pesach"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹסְרִים:",
+    "en": "And the Sages forbid.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹסְרִים:",
+      "en": "forbid"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 12,
+  "summary": "Rabbi Elazar ben Azaryah allowed three things that the Sages forbid: his cow going out on Shabbos with a strap, combing an animal on Yom Tov, and grinding pepper in a pepper mill.",
+  "chunks": [
+   {
+    "he": "שְׁלֹשָׁה דְבָרִים רַבִּי אֶלְעָזָר",
+    "en": "Three things that Rabbi Elazar",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "שְׁלֹשָׁה",
+      "en": "three"
+     },
+     {
+      "he": "דְבָרִים",
+      "en": "things"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֶלְעָזָר",
+      "en": "Elazar"
+     }
+    ]
+   },
+   {
+    "he": "בֶּן עֲזַרְיָה מַתִּיר,",
+    "en": "ben Azaryah allows,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "עֲזַרְיָה",
+      "en": "Azaryah"
+     },
+     {
+      "he": "מַתִּיר,",
+      "en": "allows"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹסְרִין.",
+    "en": "and the Sages forbid.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹסְרִין.",
+      "en": "forbid"
+     }
+    ]
+   },
+   {
+    "he": "פָּרָתוֹ יוֹצְאָה בִרְצוּעָה שֶׁבֵּין קַרְנֶיהָ,",
+    "en": "His cow went out with a strap between her horns,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "פָּרָתוֹ",
+      "en": "his cow"
+     },
+     {
+      "he": "יוֹצְאָה",
+      "en": "goes out"
+     },
+     {
+      "he": "בִרְצוּעָה",
+      "en": "with a strap"
+     },
+     {
+      "he": "שֶׁבֵּין",
+      "en": "that is between"
+     },
+     {
+      "he": "קַרְנֶיהָ,",
+      "en": "her horns"
+     }
+    ]
+   },
+   {
+    "he": "וּמְקָרְדִין אֶת הַבְּהֵמָה בְּיוֹם טוֹב,",
+    "en": "and we may comb an animal on Yom Tov,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וּמְקָרְדִין",
+      "en": "and we comb"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּהֵמָה",
+      "en": "the animal"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on Yom"
+     },
+     {
+      "he": "טוֹב,",
+      "en": "Tov"
+     }
+    ]
+   },
+   {
+    "he": "וְשׁוֹחֲקִין אֶת הַפִּלְפְּלִין בָּרֵחַיִם שֶׁלָּהֶן.",
+    "en": "and we may grind the peppers in their own mill.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וְשׁוֹחֲקִין",
+      "en": "and we grind"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפִּלְפְּלִין",
+      "en": "the peppers"
+     },
+     {
+      "he": "בָּרֵחַיִם",
+      "en": "in the mill"
+     },
+     {
+      "he": "שֶׁלָּהֶן.",
+      "en": "of theirs"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר,",
+    "en": "Rabbi Yehudah says:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehudah"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְקָרְדִין אֶת הַבְּהֵמָה בְּיוֹם טוֹב,",
+    "en": "we may not comb an animal on Yom Tov,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְקָרְדִין",
+      "en": "we comb"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַבְּהֵמָה",
+      "en": "the animal"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on Yom"
+     },
+     {
+      "he": "טוֹב,",
+      "en": "Tov"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁהוּא עוֹשֶׂה חַבּוּרָה,",
+    "en": "because it makes a wound,",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "עוֹשֶׂה",
+      "en": "makes"
+     },
+     {
+      "he": "חַבּוּרָה,",
+      "en": "a wound"
+     }
+    ]
+   },
+   {
+    "he": "אֲבָל מְקַרְצְפִין.",
+    "en": "but we may scrape it.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "מְקַרְצְפִין.",
+      "en": "we scrape"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "And the Sages say:",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "אֵין מְקָרְדִין אַף לֹא מְקַרְצְפִין:",
+    "en": "we may not comb, and we may not even scrape.",
+    "basis": [
+     "bartenura"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "מְקָרְדִין",
+      "en": "we comb"
+     },
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מְקַרְצְפִין:",
+      "en": "we scrape"
+     }
+    ]
+   }
+  ]
+ }
+]

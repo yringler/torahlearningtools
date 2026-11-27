@@ -1,0 +1,3052 @@
+[
+ {
+  "perek": 3,
+  "mishnah": 1,
+  "summary": "The memuneh held a second lottery to choose who would do each job for the korban tamid: shechting, sprinkling the blood, cleaning the inner mizbe'ach and the Menorah, and carrying up each part of the korban.",
+  "stIntro": "Four lotteries were conducted in the Temple each day in order to determine which priests would perform which of the Temple rites. After describing the first of the lotteries, for removal of the ashes, the tanna describes the second lottery.",
+  "chunks": [
+   {
+    "he": "אָמַר לָהֶם הַמְמֻנֶּה,",
+    "en": "The memuneh said to them,",
+    "st": "<b>The</b> priest <b>appointed</b> to oversee the lotteries <b>said to</b> the priests:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "הַמְמֻנֶּה,",
+      "en": "the memuneh"
+     }
+    ]
+   },
+   {
+    "he": "בֹּאוּ וְהָפִיסוּ,",
+    "en": "\"Come and join the lottery, (to see):",
+    "st": "<b>Come and participate in the lottery</b> to determine",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֹּאוּ",
+      "en": "come"
+     },
+     {
+      "he": "וְהָפִיסוּ,",
+      "en": "and join the lottery"
+     }
+    ]
+   },
+   {
+    "he": "מִי שׁוֹחֵט,",
+    "en": "who shechts (the korban tamid),",
+    "st": "<b>who is the</b> priest <b>who</b> will <b>slaughter</b> the daily offering;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "שׁוֹחֵט,",
+      "en": "shechts",
+      "note": "Slaughters the animal the kosher way."
+     }
+    ]
+   },
+   {
+    "he": "מִי זוֹרֵק,",
+    "en": "who sprinkles (its blood),",
+    "st": "<b>and who</b> is the priest <b>who</b> will <b>sprinkle</b> its blood;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "זוֹרֵק,",
+      "en": "sprinkles",
+      "note": "Throws the blood on the mizbe'ach."
+     }
+    ]
+   },
+   {
+    "he": "מִי מְדַשֵּׁן מִזְבֵּחַ הַפְּנִימִי,",
+    "en": "who cleans the ashes off the inner mizbe'ach,",
+    "st": "and <b>who</b> will <b>remove the ashes from the inner,</b> golden <b>altar;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "מְדַשֵּׁן",
+      "en": "cleans the ashes off"
+     },
+     {
+      "he": "מִזְבֵּחַ",
+      "en": "the mizbe'ach"
+     },
+     {
+      "he": "הַפְּנִימִי,",
+      "en": "the inner"
+     }
+    ]
+   },
+   {
+    "he": "מִי מְדַשֵּׁן אֶת הַמְּנוֹרָה,",
+    "en": "who cleans the ashes out of the Menorah,",
+    "st": "and <b>who</b> will <b>remove the ashes from the Candelabrum;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "מְדַשֵּׁן",
+      "en": "cleans the ashes off"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמְּנוֹרָה,",
+      "en": "the Menorah"
+     }
+    ]
+   },
+   {
+    "he": "מִי מַעֲלֶה אֵבָרִים לַכֶּבֶשׁ,",
+    "en": "who brings the parts (of the korban) up to the ramp:",
+    "st": "and <b>who</b> will <b>take</b> the <b>limbs</b> of the daily offering <b>up to the ramp</b>",
+    "stMore": "to be burned afterward. The limbs of the daily offering taken up to the ramp were divided among the priests in the following manner: One priest took",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "who"
+     },
+     {
+      "he": "מַעֲלֶה",
+      "en": "brings up"
+     },
+     {
+      "he": "אֵבָרִים",
+      "en": "the parts"
+     },
+     {
+      "he": "לַכֶּבֶשׁ,",
+      "en": "to the ramp"
+     }
+    ]
+   },
+   {
+    "he": "הָרֹאשׁ וְהָרֶגֶל,",
+    "en": "the head and the (right back) leg,",
+    "st": "<b>the head and the right</b> hind <b>leg</b> up to the altar;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרֹאשׁ",
+      "en": "the head"
+     },
+     {
+      "he": "וְהָרֶגֶל,",
+      "en": "and the leg"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁתֵּי הַיָּדַיִם,",
+    "en": "and the two front legs,",
+    "st": "<b>and</b> a second took <b>the two forelegs;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "הַיָּדַיִם,",
+      "en": "the front legs"
+     }
+    ]
+   },
+   {
+    "he": "הָעֹקֶץ וְהָרֶגֶל,",
+    "en": "the tail end and the (left back) leg,",
+    "st": "a third <b>the haunch,</b> including the lower spine and the tail, <b>and the left</b> hind <b>leg;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָעֹקֶץ",
+      "en": "the tail end"
+     },
+     {
+      "he": "וְהָרֶגֶל,",
+      "en": "and the leg"
+     }
+    ]
+   },
+   {
+    "he": "הֶחָזֶה וְהַגֵּרָה,",
+    "en": "the chest and the neck,",
+    "st": "a fourth <b>the breast and the cud,</b>",
+    "stMore": "i.e., the neck and appended internal organs, including the windpipe, liver, and heart;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶחָזֶה",
+      "en": "the chest"
+     },
+     {
+      "he": "וְהַגֵּרָה,",
+      "en": "and the neck",
+      "note": "The neck with the windpipe and some inside parts."
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁתֵּי דְפָנוֹת,",
+    "en": "and the two sides,",
+    "st": "<b>and</b> a fifth <b>the two flanks;</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁתֵּי",
+      "en": "and two"
+     },
+     {
+      "he": "דְפָנוֹת,",
+      "en": "sides"
+     }
+    ]
+   },
+   {
+    "he": "הַקְּרָבַיִם, וְהַסֹּלֶת,",
+    "en": "the insides, and the flour,",
+    "st": "a sixth <b>the innards; and</b> a seventh <b>the fine flour</b> from the accompanying meal offering;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַקְּרָבַיִם,",
+      "en": "the insides"
+     },
+     {
+      "he": "וְהַסֹּלֶת,",
+      "en": "and the flour",
+      "note": "Fine flour of the mincha that comes with the korban."
+     }
+    ]
+   },
+   {
+    "he": "וְהַחֲבִתִּים, וְהַיָּיִן.",
+    "en": "and the chavitin, and the wine.\"",
+    "st": "<b>and</b> an eighth <b>the griddle-cake</b> offering; <b>and</b> a ninth <b>the wine</b> for the libation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַחֲבִתִּים,",
+      "en": "and the chavitin",
+      "note": "The flat flour offering of the Kohen Gadol."
+     },
+     {
+      "he": "וְהַיָּיִן.",
+      "en": "and the wine",
+      "note": "Wine poured on the mizbe'ach with the korban."
+     }
+    ]
+   },
+   {
+    "he": "הֵפִיסוּ, זָכָה מִי שֶׁזָּכָה:",
+    "en": "They held the lottery, and whoever won, won.",
+    "st": "They <b>conducted the lottery</b> to determine the thirteen tasks, i.e., slaughtering, carrying the nine items or pairs of items, sprinkling the blood, removing the ashes from the inner altar, and removing the ashes from the Candelabrum. <b>And whoever won</b> that lottery <b>won</b>",
+    "stMore": "the right to perform the slaughter, and the twelve priests standing to his right won the other privileges.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵפִיסוּ,",
+      "en": "they held the lottery"
+     },
+     {
+      "he": "זָכָה",
+      "en": "won"
+     },
+     {
+      "he": "מִי",
+      "en": "whoever"
+     },
+     {
+      "he": "שֶׁזָּכָה:",
+      "en": "that won"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 2,
+  "summary": "Before shechting the korban tamid, the memuneh sent someone to check if it was daytime yet. The one who looked would call out when the sky in the east was light.",
+  "stIntro": "The appointed one",
+  "chunks": [
+   {
+    "he": "אָמַר לָהֶם הַמְמֻנֶּה,",
+    "en": "The memuneh said to them,",
+    "st": "<b>said to</b> the priests:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לָהֶם",
+      "en": "to them"
+     },
+     {
+      "he": "הַמְמֻנֶּה,",
+      "en": "the memuneh"
+     }
+    ]
+   },
+   {
+    "he": "צְאוּ וּרְאוּ אִם הִגִּיעַ זְמַן הַשְּׁחִיטָה.",
+    "en": "\"Go out and see if the time for shechting has come.\"",
+    "st": "<b>Go out and observe if</b> it is day and <b>the time for slaughter</b> has <b>arrived. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צְאוּ",
+      "en": "go out"
+     },
+     {
+      "he": "וּרְאוּ",
+      "en": "and see"
+     },
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הִגִּיעַ",
+      "en": "has come"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time of"
+     },
+     {
+      "he": "הַשְּׁחִיטָה.",
+      "en": "the shechting"
+     }
+    ]
+   },
+   {
+    "he": "אִם הִגִּיעַ,",
+    "en": "If it had come,",
+    "st": "<b>If</b> the time has <b>arrived, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "הִגִּיעַ,",
+      "en": "it has come"
+     }
+    ]
+   },
+   {
+    "he": "הָרוֹאֶה אוֹמֵר,",
+    "en": "the one who looks says,",
+    "st": "<b>the observer says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרוֹאֶה",
+      "en": "the one who sees"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "בַּרְקַאי. מַתְיָא בֶן שְׁמוּאֵל אוֹמֵר,",
+    "en": "\"Barkai!\" (It is light!) Matya ben Shmuel says (he asked):",
+    "st": "<b>There is light. Matya ben Shmuel says</b>",
+    "stMore": "that the appointed priest phrased his question differently, saying:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּרְקַאי.",
+      "en": "barkai",
+      "note": "It is light!"
+     },
+     {
+      "he": "מַתְיָא",
+      "en": "Matya"
+     },
+     {
+      "he": "בֶן",
+      "en": "ben"
+     },
+     {
+      "he": "שְׁמוּאֵל",
+      "en": "Shmuel",
+      "note": "A Kohen who was the memuneh."
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הֵאִיר פְּנֵי כָל הַמִּזְרָח.",
+    "en": "\"Is the whole east lit up",
+    "st": "<b>Is the entire eastern sky illuminated </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵאִיר",
+      "en": "it lit up"
+     },
+     {
+      "he": "פְּנֵי",
+      "en": "the face of"
+     },
+     {
+      "he": "כָל",
+      "en": "all"
+     },
+     {
+      "he": "הַמִּזְרָח.",
+      "en": "the east"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁהוּא בְחֶבְרוֹן,",
+    "en": "all the way to Chevron?\"",
+    "st": "<b>as far as Hebron? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "בְחֶבְרוֹן,",
+      "en": "in Chevron",
+      "note": "A city south of Yerushalayim."
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר, הֵין:",
+    "en": "And he says, \"Yes!\"",
+    "st": "<b>And</b> the observer <b>says: Yes.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "הֵין:",
+      "en": "yes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 3,
+  "summary": "The memuneh sent the Kohanim to bring a lamb from the Room of the Lambs. The mishnah tells where it was, and the four rooms that were in that building.",
+  "stIntro": "The appointed priest",
+  "chunks": [
+   {
+    "he": "אָמַר לָהֶם,",
+    "en": "He said to them,",
+    "st": "<b>said to</b> the priests:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לָהֶם,",
+      "en": "to them"
+     }
+    ]
+   },
+   {
+    "he": "צְאוּ וְהָבִיאוּ טָלֶה מִלִּשְׁכַּת הַטְּלָאִים.",
+    "en": "\"Go out and bring a lamb from the Room of the Lambs.\"",
+    "st": "<b>Go out and bring</b> me <b>a lamb from the Chamber of the Lambs,</b>",
+    "stMore": "where lambs that had been examined and found to be unblemished were kept.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "צְאוּ",
+      "en": "go out"
+     },
+     {
+      "he": "וְהָבִיאוּ",
+      "en": "and bring"
+     },
+     {
+      "he": "טָלֶה",
+      "en": "a lamb"
+     },
+     {
+      "he": "מִלִּשְׁכַּת",
+      "en": "from the room of"
+     },
+     {
+      "he": "הַטְּלָאִים.",
+      "en": "the lambs"
+     }
+    ]
+   },
+   {
+    "he": "וַהֲרֵי לִשְׁכַּת הַטְּלָאִים הָיְתָה",
+    "en": "The Room of the Lambs was",
+    "st": "<b>And the Chamber of the Lambs is located in the </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַהֲרֵי",
+      "en": "and here"
+     },
+     {
+      "he": "לִשְׁכַּת",
+      "en": "the room of"
+     },
+     {
+      "he": "הַטְּלָאִים",
+      "en": "the lambs"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "was"
+     }
+    ]
+   },
+   {
+    "he": "בְמִקְצוֹעַ צְפוֹנִית מַעֲרָבִית.",
+    "en": "in the northwest corner.",
+    "st": "<b>northwestern corner</b> of the building of the Chamber of the Hearth.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְמִקְצוֹעַ",
+      "en": "in the corner"
+     },
+     {
+      "he": "צְפוֹנִית",
+      "en": "north"
+     },
+     {
+      "he": "מַעֲרָבִית.",
+      "en": "west"
+     }
+    ]
+   },
+   {
+    "he": "וְאַרְבַּע לְשָׁכוֹת הָיוּ שָׁם,",
+    "en": "There were four rooms there:",
+    "st": "<b>There were four chambers there,</b> in that building:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַרְבַּע",
+      "en": "and four"
+     },
+     {
+      "he": "לְשָׁכוֹת",
+      "en": "rooms"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "שָׁם,",
+      "en": "there"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת לִשְׁכַּת הַטְּלָאִים,",
+    "en": "one, the Room of the Lambs,",
+    "st": "<b>One</b> was <b>the Chamber of the Lambs; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "לִשְׁכַּת",
+      "en": "the room of"
+     },
+     {
+      "he": "הַטְּלָאִים,",
+      "en": "the lambs"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת לִשְׁכַּת הַחוֹתָמוֹת,",
+    "en": "one, the Room of the Chosamos,",
+    "st": "<b>and one</b> was <b>the Chamber of the Seals,</b>",
+    "stMore": "located in the northeastern corner, where the priest stored receipts given to those seeking to purchase animal offerings;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "לִשְׁכַּת",
+      "en": "the room of"
+     },
+     {
+      "he": "הַחוֹתָמוֹת,",
+      "en": "the chosamos",
+      "note": "Seals: receipts given to people buying things for their korbanos."
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת לִשְׁכַּת בֵּית הַמּוֹקֵד,",
+    "en": "one, the Room of the Beis HaMoked,",
+    "st": "<b>and one</b> was <b>the Chamber of the Hearth,</b>",
+    "stMore": "where there was a fire burning to warm the priests;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "לִשְׁכַּת",
+      "en": "the room of"
+     },
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "הַמּוֹקֵד,",
+      "en": "the Hearth"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַת לִשְׁכָּה שֶׁהָיוּ עוֹשִׂין",
+    "en": "and one, the room where they made",
+    "st": "<b>and</b> the last <b>one</b> was <b>the chamber in which</b> the priests <b>prepared </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "לִשְׁכָּה",
+      "en": "a room"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that they were"
+     },
+     {
+      "he": "עוֹשִׂין",
+      "en": "making"
+     }
+    ]
+   },
+   {
+    "he": "בָּהּ לֶחֶם הַפָּנִים:",
+    "en": "the lechem hapanim.",
+    "st": "<b>the shewbread.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּהּ",
+      "en": "in it"
+     },
+     {
+      "he": "לֶחֶם",
+      "en": "bread of"
+     },
+     {
+      "he": "הַפָּנִים:",
+      "en": "the faces",
+      "note": "The lechem hapanim, special breads on the Shulchan."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 4,
+  "summary": "The Kohanim took out the holy vessels for the day. They gave the lamb water from a gold cup and checked it again by torchlight to be sure it had no blemish.",
+  "stIntro": "The priests",
+  "chunks": [
+   {
+    "he": "נִכְנְסוּ לְלִשְׁכַּת הַכֵּלִים,",
+    "en": "They went into the Room of the Vessels,",
+    "st": "<b>entered the Chamber of the Vessels,</b>",
+    "stMore": "where the service vessels required for the daily Temple service were stored. They",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנְסוּ",
+      "en": "they went in"
+     },
+     {
+      "he": "לְלִשְׁכַּת",
+      "en": "to the room of"
+     },
+     {
+      "he": "הַכֵּלִים,",
+      "en": "the vessels"
+     }
+    ]
+   },
+   {
+    "he": "וְהוֹצִיאוּ מִשָּׁם תִּשְׁעִים וּשְׁלשָׁה",
+    "en": "and took out from there ninety-three",
+    "st": "<b>took out from there ninety-three </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוֹצִיאוּ",
+      "en": "and they took out"
+     },
+     {
+      "he": "מִשָּׁם",
+      "en": "from there"
+     },
+     {
+      "he": "תִּשְׁעִים",
+      "en": "ninety"
+     },
+     {
+      "he": "וּשְׁלשָׁה",
+      "en": "and three"
+     }
+    ]
+   },
+   {
+    "he": "כְלֵי כֶסֶף וּכְלֵי זָהָב.",
+    "en": "silver vessels and gold vessels.",
+    "st": "<b>silver vessels and gold vessels. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְלֵי",
+      "en": "vessels of"
+     },
+     {
+      "he": "כֶסֶף",
+      "en": "silver"
+     },
+     {
+      "he": "וּכְלֵי",
+      "en": "and vessels of"
+     },
+     {
+      "he": "זָהָב.",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "הִשְׁקוּ אֶת הַתָּמִיד בְּכוֹס שֶׁל זָהָב.",
+    "en": "They gave the tamid a drink from a gold cup.",
+    "st": "<b>They</b> then <b>gave</b> the lamb selected for <b>the daily offering</b> water <b>to drink in a cup of gold. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִשְׁקוּ",
+      "en": "they gave a drink"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַתָּמִיד",
+      "en": "the tamid",
+      "note": "The lamb for the korban tamid."
+     },
+     {
+      "he": "בְּכוֹס",
+      "en": "in a cup"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זָהָב.",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁהוּא מְבֻקָּר מִבָּעֶרֶב,",
+    "en": "Even though it was checked the evening before,",
+    "st": "<b>Although</b> the lamb <b>was examined</b> and deemed unblemished earlier <b>in the evening,</b> the priests",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even",
+      "note": "Af al pi means even though."
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "פִּי",
+      "en": "the mouth"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that it"
+     },
+     {
+      "he": "מְבֻקָּר",
+      "en": "was checked"
+     },
+     {
+      "he": "מִבָּעֶרֶב,",
+      "en": "from the evening"
+     }
+    ]
+   },
+   {
+    "he": "מְבַקְּרִין אוֹתוֹ לְאוֹר הָאֲבוּקוֹת:",
+    "en": "they check it again by the light of the torches.",
+    "st": "<b>examine it</b> now <b>by the light of the torches.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְבַקְּרִין",
+      "en": "they check"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "it"
+     },
+     {
+      "he": "לְאוֹר",
+      "en": "by the light of"
+     },
+     {
+      "he": "הָאֲבוּקוֹת:",
+      "en": "the torches"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 5,
+  "summary": "The Kohen who won pulled the lamb to the place of shechting, north of the mizbe'ach. There were short pillars with hooks to hang the korban, and marble tables between them.",
+  "stIntro": "The priest",
+  "chunks": [
+   {
+    "he": "מִי שֶׁזָּכָה בַתָּמִיד,",
+    "en": "Whoever won the tamid",
+    "st": "<b>who won</b> the lottery <b>to</b> slaughter <b>the daily offering </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "whoever"
+     },
+     {
+      "he": "שֶׁזָּכָה",
+      "en": "that won"
+     },
+     {
+      "he": "בַתָּמִיד,",
+      "en": "the tamid"
+     }
+    ]
+   },
+   {
+    "he": "מוֹשְׁכוֹ וְהוֹלֵךְ לְבֵית הַמִּטְבָּחַיִם,",
+    "en": "pulls it and goes to the Beis HaMitbechayim (shechting place),",
+    "st": "<b>pulled</b> the lamb, <b>and</b> he would <b>go to the slaughterhouse</b> to slaughter it as the daily offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מוֹשְׁכוֹ",
+      "en": "pulls it"
+     },
+     {
+      "he": "וְהוֹלֵךְ",
+      "en": "and goes"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "הַמִּטְבָּחַיִם,",
+      "en": "the shechting place"
+     }
+    ]
+   },
+   {
+    "he": "וּמִי שֶׁזָּכוּ בָאֵבָרִים הוֹלְכִין אַחֲרָיו.",
+    "en": "and whoever won the parts walks after him.",
+    "st": "<b>And</b> the priests <b>who won</b> the right <b>to</b> take <b>the limbs</b> up to the ramp would <b>go with him. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִי",
+      "en": "and whoever"
+     },
+     {
+      "he": "שֶׁזָּכוּ",
+      "en": "that won"
+     },
+     {
+      "he": "בָאֵבָרִים",
+      "en": "the parts"
+     },
+     {
+      "he": "הוֹלְכִין",
+      "en": "walk"
+     },
+     {
+      "he": "אַחֲרָיו.",
+      "en": "after him"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית הַמִּטְבָּחַיִם הָיָה לִצְפוֹנוֹ שֶׁל מִזְבֵּחַ,",
+    "en": "The shechting place was north of the mizbe'ach.",
+    "st": "<b>The slaughterhouse was to the north of the altar. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "the house of"
+     },
+     {
+      "he": "הַמִּטְבָּחַיִם",
+      "en": "the shechting place"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "לִצְפוֹנוֹ",
+      "en": "to the north"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "מִזְבֵּחַ,",
+      "en": "the mizbe'ach"
+     }
+    ]
+   },
+   {
+    "he": "וְעָלָיו שְׁמֹנָה עַמּוּדִים נַנָּסִין,",
+    "en": "On it were eight short pillars,",
+    "st": "<b>Adjacent to it</b> there were <b>eight low</b> stone <b>pillars. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָלָיו",
+      "en": "and on it"
+     },
+     {
+      "he": "שְׁמֹנָה",
+      "en": "eight"
+     },
+     {
+      "he": "עַמּוּדִים",
+      "en": "pillars"
+     },
+     {
+      "he": "נַנָּסִין,",
+      "en": "short"
+     }
+    ]
+   },
+   {
+    "he": "וּרְבִיעִית שֶׁל אֶרֶז עַל גַּבֵּיהֶן,",
+    "en": "with squares of cedar wood on top of them,",
+    "st": "<b>And cedarwood squares</b> were affixed <b>upon them, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּרְבִיעִית",
+      "en": "and squares"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "אֶרֶז",
+      "en": "cedar"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "גַּבֵּיהֶן,",
+      "en": "top of them"
+     }
+    ]
+   },
+   {
+    "he": "וְאֻנְקְלָיוֹת שֶׁל בַּרְזֶל הָיוּ קְבוּעִין בָּהֶן,",
+    "en": "and iron hooks were set into them.",
+    "st": "<b>and iron hooks were fixed in</b> the wooden squares.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֻנְקְלָיוֹת",
+      "en": "and hooks"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "בַּרְזֶל",
+      "en": "iron"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "קְבוּעִין",
+      "en": "set"
+     },
+     {
+      "he": "בָּהֶן,",
+      "en": "in them"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁלשָׁה סְדָרִים הָיָה לְכָל אֶחָד וְאֶחָד,",
+    "en": "There were three rows (of hooks) for each one,",
+    "st": "<b>And</b> there were <b>three rows</b> of hooks <b>on each and every one</b> of those wooden squares,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁלשָׁה",
+      "en": "and three"
+     },
+     {
+      "he": "סְדָרִים",
+      "en": "rows"
+     },
+     {
+      "he": "הָיָה",
+      "en": "it had"
+     },
+     {
+      "he": "לְכָל",
+      "en": "for every"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "וְאֶחָד,",
+      "en": "and one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבָּהֶן תּוֹלִין.",
+    "en": "that they hang (the korban) on.",
+    "st": "<b>upon which</b> the priests would <b>suspend</b> the animal after it was slaughtered.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבָּהֶן",
+      "en": "that on them"
+     },
+     {
+      "he": "תּוֹלִין.",
+      "en": "they hang"
+     }
+    ]
+   },
+   {
+    "he": "וּמַפְשִׁיטִין עַל שֻׁלְחָנוֹת שֶׁל",
+    "en": "And they take off the skin on tables of",
+    "st": "<b>And they</b> would <b>flay</b> the animal’s hide <b>onto </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמַפְשִׁיטִין",
+      "en": "and they take off the skin"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "שֻׁלְחָנוֹת",
+      "en": "tables"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     }
+    ]
+   },
+   {
+    "he": "שַׁיִשׁ שֶׁבֵּין הָעַמּוּדִים:",
+    "en": "marble that were between the pillars.",
+    "st": "<b>marble tables that</b> were positioned <b>between the pillars.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שַׁיִשׁ",
+      "en": "marble"
+     },
+     {
+      "he": "שֶׁבֵּין",
+      "en": "that between"
+     },
+     {
+      "he": "הָעַמּוּדִים:",
+      "en": "the pillars"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 6,
+  "summary": "The Kohanim who won the jobs of cleaning the inner mizbe'ach and the Menorah went first. They carried a basket, a jug, and two keys to open the door of the Heichal.",
+  "stIntro": "The priests",
+  "chunks": [
+   {
+    "he": "מִי שֶׁזָּכָה בְדִשּׁוּן מִזְבֵּחַ",
+    "en": "Whoever won (the job of) cleaning the ashes off the mizbe'ach",
+    "st": "<b>who won</b> the privilege <b>of the removal of ash from the </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "whoever"
+     },
+     {
+      "he": "שֶׁזָּכָה",
+      "en": "that won"
+     },
+     {
+      "he": "בְדִשּׁוּן",
+      "en": "the cleaning of ashes"
+     },
+     {
+      "he": "מִזְבֵּחַ",
+      "en": "the mizbe'ach"
+     }
+    ]
+   },
+   {
+    "he": "הַפְּנִימִי וְהַמְּנוֹרָה הָיוּ מַקְדִּימִין,",
+    "en": "that is inside, and the Menorah, went ahead first,",
+    "st": "<b>inner altar and of the removal of ash from the Candelabrum would precede</b> the other priests",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַפְּנִימִי",
+      "en": "the inner"
+     },
+     {
+      "he": "וְהַמְּנוֹרָה",
+      "en": "and the Menorah"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "מַקְדִּימִין,",
+      "en": "going first"
+     }
+    ]
+   },
+   {
+    "he": "וְאַרְבָּעָה כֵלִים בְּיָדָם,",
+    "en": "with four vessels in their hands:",
+    "st": "<b>and</b> would hold <b>four vessels in their hands: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַרְבָּעָה",
+      "en": "and four"
+     },
+     {
+      "he": "כֵלִים",
+      "en": "vessels"
+     },
+     {
+      "he": "בְּיָדָם,",
+      "en": "in their hands"
+     }
+    ]
+   },
+   {
+    "he": "הַטֶּנִי וְהַכּוּז וּשְׁנֵי מַפְתְּחוֹת.",
+    "en": "the teni, the kuz, and two keys.",
+    "st": "<b>The basket, and the jug, and</b> the <b>two keys. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטֶּנִי",
+      "en": "the teni",
+      "note": "A basket for the ashes."
+     },
+     {
+      "he": "וְהַכּוּז",
+      "en": "and the kuz",
+      "note": "A jug."
+     },
+     {
+      "he": "וּשְׁנֵי",
+      "en": "and two"
+     },
+     {
+      "he": "מַפְתְּחוֹת.",
+      "en": "keys"
+     }
+    ]
+   },
+   {
+    "he": "הַטֶּנִי דוֹמֶה לְתַרְקָב גָּדוֹל שֶׁל זָהָב,",
+    "en": "The teni looked like a big gold tarkav,",
+    "st": "<b>The basket is similar to</b> a large <b>gold</b> vessel with a capacity of <b>three kav [letarkav],</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַטֶּנִי",
+      "en": "the teni"
+     },
+     {
+      "he": "דוֹמֶה",
+      "en": "looks"
+     },
+     {
+      "he": "לְתַרְקָב",
+      "en": "like a tarkav",
+      "note": "A vessel that holds three kav."
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "big"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זָהָב,",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "מַחֲזִיק קַבַּיִן וָחֵצִי.",
+    "en": "but it holds two and a half kav.",
+    "st": "but it <b>holds</b> only <b>two and a half kav. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַחֲזִיק",
+      "en": "holds"
+     },
+     {
+      "he": "קַבַּיִן",
+      "en": "two kav",
+      "note": "A kav is a measure, a bit more than a liter."
+     },
+     {
+      "he": "וָחֵצִי.",
+      "en": "and a half"
+     }
+    ]
+   },
+   {
+    "he": "וְהַכּוּז דּוֹמֶה לְקִיתוֹן גָּדוֹל שֶׁל זָהָב.",
+    "en": "The kuz looked like a big gold pitcher.",
+    "st": "<b>And the jug is similar to a large flask [lekitton] of gold. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַכּוּז",
+      "en": "and the kuz"
+     },
+     {
+      "he": "דּוֹמֶה",
+      "en": "looks"
+     },
+     {
+      "he": "לְקִיתוֹן",
+      "en": "like a pitcher"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "big"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זָהָב.",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנֵי מַפְתְּחוֹת,",
+    "en": "And the two keys:",
+    "st": "<b>And</b> as for the <b>two keys,</b> with",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנֵי",
+      "en": "and two"
+     },
+     {
+      "he": "מַפְתְּחוֹת,",
+      "en": "keys"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד יוֹרֵד לְאַמַּת הַשֶּׁחִי",
+    "en": "with one, (the Kohen) reaches in up to his armpit,",
+    "explain": "He reached his arm through a small hole to open the lock inside.",
+    "st": "<b>one</b> of them the priest <b>would lower his arm to his armpit</b>",
+    "stMore": "through a small opening in the door and open the lock that was at the bottom of the door on the inside, and he would pass through that door into a compartment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "יוֹרֵד",
+      "en": "goes down"
+     },
+     {
+      "he": "לְאַמַּת",
+      "en": "to the length of"
+     },
+     {
+      "he": "הַשֶּׁחִי",
+      "en": "the armpit"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶחָד פּוֹתֵחַ כֵּיוָן:",
+    "en": "and one opens (the lock) right away.",
+    "st": "<b>And</b> the other <b>one</b> is the key with <b>which</b> the priest <b>opened</b> the lock on the inner door of the compartment, through which he entered the Sanctuary, and that lock he opened <b>directly.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "פּוֹתֵחַ",
+      "en": "opens"
+     },
+     {
+      "he": "כֵּיוָן:",
+      "en": "straight away"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 7,
+  "summary": "The Kohen opened the small door on the north side of the big gate of the Heichal. The south door was never used, as the navi Yechezkel says. The shochet waited to hear the big gate open.",
+  "stIntro": "The priest",
+  "chunks": [
+   {
+    "he": "בָּא לוֹ לַפִּשְׁפָּשׁ הַצְּפוֹנִי.",
+    "en": "He came to the north small door.",
+    "st": "<b>came to the northern wicket. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בָּא",
+      "en": "he came"
+     },
+     {
+      "he": "לוֹ",
+      "en": "himself"
+     },
+     {
+      "he": "לַפִּשְׁפָּשׁ",
+      "en": "to the small door"
+     },
+     {
+      "he": "הַצְּפוֹנִי.",
+      "en": "the north"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנֵי פִשְׁפָּשִׁין הָיוּ לוֹ לַשַּׁעַר הַגָּדוֹל,",
+    "en": "The big gate had two small doors,",
+    "st": "<b>There were two wickets for the large gate, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנֵי",
+      "en": "and two"
+     },
+     {
+      "he": "פִשְׁפָּשִׁין",
+      "en": "small doors"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "it had"
+     },
+     {
+      "he": "לוֹ",
+      "en": "it"
+     },
+     {
+      "he": "לַשַּׁעַר",
+      "en": "for the gate"
+     },
+     {
+      "he": "הַגָּדוֹל,",
+      "en": "the big"
+     }
+    ]
+   },
+   {
+    "he": "אֶחָד בַּצָּפוֹן וְאֶחָד בַּדָּרוֹם.",
+    "en": "one on the north and one on the south.",
+    "st": "<b>one in the northern</b> part of the gate <b>and one in the southern</b> part.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בַּצָּפוֹן",
+      "en": "in the north"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "בַּדָּרוֹם.",
+      "en": "in the south"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁבַּדָּרוֹם לֹא נִכְנַס בּוֹ אָדָם מֵעוֹלָם,",
+    "en": "No person ever went in through the one in the south.",
+    "st": "Through the wicket <b>that was in the southern</b> part, <b>no person entered. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁבַּדָּרוֹם",
+      "en": "that in the south"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נִכְנַס",
+      "en": "went in"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "through it"
+     },
+     {
+      "he": "אָדָם",
+      "en": "a person"
+     },
+     {
+      "he": "מֵעוֹלָם,",
+      "en": "ever"
+     }
+    ]
+   },
+   {
+    "he": "וְעָלָיו הוּא מְפֹרָשׁ עַל",
+    "en": "About it, it is explained by",
+    "st": "<b>In its regard,</b> the wicket’s status <b>is clarified by</b> the prophet",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעָלָיו",
+      "en": "and about it"
+     },
+     {
+      "he": "הוּא",
+      "en": "it"
+     },
+     {
+      "he": "מְפֹרָשׁ",
+      "en": "is explained"
+     },
+     {
+      "he": "עַל",
+      "en": "by"
+     }
+    ]
+   },
+   {
+    "he": "יְדֵי יְחֶזְקֵאל (יחזקאל מד),",
+    "en": "Yechezkel (the navi):",
+    "st": "<b>Ezekiel, as it is stated:</b>",
+    "stMore": "“Then he brought me back the way of the outer gate of the Sanctuary, which looks toward the east; and it was shut.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְדֵי",
+      "en": "the hands of"
+     },
+     {
+      "he": "יְחֶזְקֵאל",
+      "en": "Yechezkel",
+      "note": "A navi (prophet)."
+     },
+     {
+      "he": "(יחזקאל",
+      "en": "(Yechezkel"
+     },
+     {
+      "he": "מד),",
+      "en": "44)"
+     }
+    ]
+   },
+   {
+    "he": "וַיֹּאמֶר אֵלַי ה',",
+    "en": "\"Hashem said to me:",
+    "st": "<b>And the Lord said unto me: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַיֹּאמֶר",
+      "en": "and He said"
+     },
+     {
+      "he": "אֵלַי",
+      "en": "to me"
+     },
+     {
+      "he": "ה',",
+      "en": "Hashem"
+     }
+    ]
+   },
+   {
+    "he": "הַשַּׁעַר הַזֶּה סָגוּר יִהְיֶה לֹא יִפָּתֵחַ",
+    "en": "This gate shall stay closed; it shall not be opened,",
+    "st": "<b>This gate shall be shut, it shall not be opened, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשַּׁעַר",
+      "en": "the gate"
+     },
+     {
+      "he": "הַזֶּה",
+      "en": "this"
+     },
+     {
+      "he": "סָגוּר",
+      "en": "closed"
+     },
+     {
+      "he": "יִהְיֶה",
+      "en": "shall be"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִפָּתֵחַ",
+      "en": "shall be opened"
+     }
+    ]
+   },
+   {
+    "he": "וְאִישׁ לֹא יָבֹא בוֹ כִּי ה'",
+    "en": "and no man shall come in through it, because Hashem,",
+    "st": "<b>neither shall any man enter in by it, for the Lord, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִישׁ",
+      "en": "and a man"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יָבֹא",
+      "en": "shall come"
+     },
+     {
+      "he": "בוֹ",
+      "en": "through it"
+     },
+     {
+      "he": "כִּי",
+      "en": "because"
+     },
+     {
+      "he": "ה'",
+      "en": "Hashem"
+     }
+    ]
+   },
+   {
+    "he": "אֱלֹהֵי יִשְׂרָאֵל בָּא בוֹ וְהָיָה סָגוּר.",
+    "en": "the God of Yisrael, came in through it, so it shall stay closed.\"",
+    "st": "<b>the God of Israel, has entered in by it; and it shall be shut”</b> (Ezekiel 44:1–2).",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֱלֹהֵי",
+      "en": "the God of"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "בָּא",
+      "en": "came"
+     },
+     {
+      "he": "בוֹ",
+      "en": "through it"
+     },
+     {
+      "he": "וְהָיָה",
+      "en": "and it shall be"
+     },
+     {
+      "he": "סָגוּר.",
+      "en": "closed"
+     }
+    ]
+   },
+   {
+    "he": "נָטַל אֶת הַמַּפְתֵּחַ וּפָתַח אֶת הַפִּשְׁפָּשׁ,",
+    "en": "The Kohen took the key and opened the small door,",
+    "st": "The priest <b>took the key, opened the wicket</b> north of the gate,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נָטַל",
+      "en": "he took"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַמַּפְתֵּחַ",
+      "en": "the key"
+     },
+     {
+      "he": "וּפָתַח",
+      "en": "and opened"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַפִּשְׁפָּשׁ,",
+      "en": "the small door"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס לַתָּא,",
+    "en": "went into the little room,",
+    "st": "<b>and entered the compartment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "he went in"
+     },
+     {
+      "he": "לַתָּא,",
+      "en": "to the little room"
+     }
+    ]
+   },
+   {
+    "he": "וּמִן הַתָּא אֶל הַהֵיכָל,",
+    "en": "and from the little room into the Heichal,",
+    "st": "He went <b>from the compartment to the Sanctuary</b> and continued",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִן",
+      "en": "and from"
+     },
+     {
+      "he": "הַתָּא",
+      "en": "the little room"
+     },
+     {
+      "he": "אֶל",
+      "en": "into"
+     },
+     {
+      "he": "הַהֵיכָל,",
+      "en": "the Heichal",
+      "note": "The holy building inside the azarah."
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁהוּא מַגִּיעַ לַשַּׁעַר הַגָּדוֹל.",
+    "en": "until he reaches the big gate.",
+    "st": "<b>until</b> he would <b>reach the large gate.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מַגִּיעַ",
+      "en": "reaches"
+     },
+     {
+      "he": "לַשַּׁעַר",
+      "en": "to the gate"
+     },
+     {
+      "he": "הַגָּדוֹל.",
+      "en": "the big"
+     }
+    ]
+   },
+   {
+    "he": "הִגִּיעַ לַשַּׁעַר הַגָּדוֹל,",
+    "en": "When he reached the big gate,",
+    "st": "Once <b>he reached the large gate,</b> which was locked from the inside,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִגִּיעַ",
+      "en": "he reached"
+     },
+     {
+      "he": "לַשַּׁעַר",
+      "en": "to the gate"
+     },
+     {
+      "he": "הַגָּדוֹל,",
+      "en": "the big"
+     }
+    ]
+   },
+   {
+    "he": "הֶעֱבִיר אֶת הַנֶּגֶר וְאֶת הַפּוֹתְחוֹת וּפְתָחוֹ.",
+    "en": "he moved away the bar and the locks and opened it.",
+    "st": "<b>he moved the bolt and the locks</b> fixing the bolt in place <b>and opened</b> the gate.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶעֱבִיר",
+      "en": "he moved"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנֶּגֶר",
+      "en": "the bar"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַפּוֹתְחוֹת",
+      "en": "the locks"
+     },
+     {
+      "he": "וּפְתָחוֹ.",
+      "en": "and opened it"
+     }
+    ]
+   },
+   {
+    "he": "לֹא הָיָה שׁוֹחֵט הַשּׁוֹחֵט,",
+    "en": "The shochet would not shecht",
+    "st": "The priest <b>who slaughters</b> the daily offering <b>would not slaughter</b> the animal",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "שׁוֹחֵט",
+      "en": "shechting"
+     },
+     {
+      "he": "הַשּׁוֹחֵט,",
+      "en": "the shochet"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁשּׁוֹמֵעַ קוֹל שַׁעַר הַגָּדוֹל שֶׁנִּפְתָּח:",
+    "en": "until he hears the sound of the big gate opening.",
+    "st": "<b>until he</b> would <b>hear that the large gate</b> had been <b>opened.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁשּׁוֹמֵעַ",
+      "en": "that he hears"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "שַׁעַר",
+      "en": "the gate"
+     },
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the big"
+     },
+     {
+      "he": "שֶׁנִּפְתָּח:",
+      "en": "that opened"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 8,
+  "summary": "The sounds of the Beis HaMikdash were so loud that people heard them far away in Yericho. They could even smell the ketores there.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִירִיחוֹ הָיוּ שׁוֹמְעִין קוֹל",
+    "en": "From Yericho they could hear the sound of",
+    "st": "<b>From Jericho</b> the people <b>would hear</b> the <b>sound</b> indicating",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho",
+      "note": "A city far from Yerushalayim."
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "hearing"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     }
+    ]
+   },
+   {
+    "he": "שַׁעַר הַגָּדוֹל שֶׁנִּפְתָּח.",
+    "en": "the big gate opening.",
+    "st": "<b>that the large gate</b> had been <b>opened. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שַׁעַר",
+      "en": "the gate"
+     },
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the big"
+     },
+     {
+      "he": "שֶׁנִּפְתָּח.",
+      "en": "that opened"
+     }
+    ]
+   },
+   {
+    "he": "מִירִיחוֹ הָיוּ שׁוֹמְעִין קוֹל הַמַּגְרֵפָה.",
+    "en": "From Yericho they could hear the sound of the magrefah.",
+    "st": "<b>From Jericho</b> the people <b>would hear</b> the <b>sound</b> produced in the Temple by the instrument that had the form of <b>a shovel. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "hearing"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "הַמַּגְרֵפָה.",
+      "en": "the magrefah",
+      "note": "A tool shaped like a shovel that made a loud sound."
+     }
+    ]
+   },
+   {
+    "he": "מִירִיחוֹ הָיוּ שׁוֹמְעִין קוֹל הָעֵץ",
+    "en": "From Yericho they could hear the sound of the wooden wheel",
+    "st": "<b>From Jericho the people would hear the sound of the wood </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "hearing"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "הָעֵץ",
+      "en": "the wood"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁעָשָׂה בֶן קָטִין מוּכְנִי לַכִּיּוֹר.",
+    "en": "that Ben Katin made for the kiyor.",
+    "st": "<b>that ben Katin crafted into a mechanism of pulleys for the Basin. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁעָשָׂה",
+      "en": "that made"
+     },
+     {
+      "he": "בֶן",
+      "en": "Ben"
+     },
+     {
+      "he": "קָטִין",
+      "en": "Katin"
+     },
+     {
+      "he": "מוּכְנִי",
+      "en": "machine"
+     },
+     {
+      "he": "לַכִּיּוֹר.",
+      "en": "for the kiyor"
+     }
+    ]
+   },
+   {
+    "he": "מִירִיחוֹ הָיוּ שׁוֹמְעִין קוֹל גְּבִינִי כָּרוֹז.",
+    "en": "From Yericho they could hear the voice of Gevini the announcer.",
+    "st": "<b>From Jericho the people would hear the voice of Gevini the Temple crier, who would proclaim in the Temple each day: Arise, priests, to your service, and Levites to your platform, and Israelites to your non-priestly watch. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "hearing"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the voice of"
+     },
+     {
+      "he": "גְּבִינִי",
+      "en": "Gevini"
+     },
+     {
+      "he": "כָּרוֹז.",
+      "en": "the announcer",
+      "note": "He called the Kohanim, Levi'im and Yisraelim to their work each day."
+     }
+    ]
+   },
+   {
+    "he": "מִירִיחוֹ הָיוּ שׁוֹמְעִין קוֹל הֶחָלִיל.",
+    "en": "From Yericho they could hear the sound of the flute.",
+    "st": "<b>From Jericho the people would hear the sound of the flute that was played in the Temple twelve days each year. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "hearing"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "הֶחָלִיל.",
+      "en": "the flute"
+     }
+    ]
+   },
+   {
+    "he": "מִירִיחוֹ הָיוּ שׁוֹמְעִין קוֹל הַצֶּלְצָל.",
+    "en": "From Yericho they could hear the sound of the cymbal.",
+    "st": "<b>From Jericho the people would hear the sound of ben Arza clashing the cymbals in the Temple. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "hearing"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "הַצֶּלְצָל.",
+      "en": "the cymbal"
+     }
+    ]
+   },
+   {
+    "he": "מִירִיחוֹ הָיוּ שׁוֹמְעִין קוֹל הַשִּׁיר.",
+    "en": "From Yericho they could hear the sound of the singing (of the Levi'im).",
+    "st": "<b>From Jericho the people would hear the sound of the song of the Levites in the Temple. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹמְעִין",
+      "en": "hearing"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "הַשִּׁיר.",
+      "en": "the song"
+     }
+    ]
+   },
+   {
+    "he": "מִירִיחוֹ הָיוּ שׁוֹמְעִים קוֹל הַשּׁוֹפָר.",
+    "en": "From Yericho they could hear the sound of the shofar.",
+    "st": "<b>From Jericho the people would hear the sound of the shofar that was sounded several times each day in the Temple. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "שׁוֹמְעִים",
+      "en": "hearing"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the sound of"
+     },
+     {
+      "he": "הַשּׁוֹפָר.",
+      "en": "the shofar"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵשׁ אוֹמְרִים,",
+    "en": "And some say,",
+    "st": "<b>And some say that in Jericho the people would hear </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵשׁ",
+      "en": "and there are"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "who say"
+     }
+    ]
+   },
+   {
+    "he": "אַף קוֹל שֶׁל כֹּהֵן גָּדוֹל בְּשָׁעָה",
+    "en": "even the voice of the Kohen Gadol at the time",
+    "st": "<b>even the voice of the High Priest at the moment </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "קוֹל",
+      "en": "the voice"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "כֹּהֵן",
+      "en": "Kohen"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "Gadol"
+     },
+     {
+      "he": "בְּשָׁעָה",
+      "en": "at the time"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא מַזְכִּיר אֶת הַשֵּׁם בְּיוֹם הַכִּפּוּרִים.",
+    "en": "when he says Hashem's Name on Yom Kippur.",
+    "st": "<b>that he mentioned the ineffable name of God on Yom Kippur. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "מַזְכִּיר",
+      "en": "says"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשֵּׁם",
+      "en": "the Name",
+      "note": "Hashem's special holy Name."
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on the day of"
+     },
+     {
+      "he": "הַכִּפּוּרִים.",
+      "en": "Kippur"
+     }
+    ]
+   },
+   {
+    "he": "מִירִיחוֹ הָיוּ מְרִיחִים רֵיחַ פִּטּוּם הַקְּטֹרֶת.",
+    "en": "From Yericho they could smell the ketores being mixed.",
+    "st": "<b>From Jericho the people would smell the fragrance emanating from the preparation of the incense in the Temple. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִירִיחוֹ",
+      "en": "from Yericho"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "they were"
+     },
+     {
+      "he": "מְרִיחִים",
+      "en": "smelling"
+     },
+     {
+      "he": "רֵיחַ",
+      "en": "the smell of"
+     },
+     {
+      "he": "פִּטּוּם",
+      "en": "the mixing of"
+     },
+     {
+      "he": "הַקְּטֹרֶת.",
+      "en": "the ketores"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי אֱלִיעֶזֶר בֶּן דִּגְלַאי,",
+    "en": "Rabbi Eliezer ben Diglai said:",
+    "st": "<b>Rabbi Elazar ben Diglai said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben"
+     },
+     {
+      "he": "דִּגְלַאי,",
+      "en": "Diglai"
+     }
+    ]
+   },
+   {
+    "he": "עִזִּים הָיוּ לְבֵית אַבָּא בְּהַר מִכְוָר,",
+    "en": "\"My father's family had goats on the mountains of Michvar,",
+    "st": "<b>There were goats belonging to my father that grazed in the cities of Mikhvar, located at a distance from Jerusalem, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עִזִּים",
+      "en": "goats"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "there were"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the house of"
+     },
+     {
+      "he": "אַבָּא",
+      "en": "my father"
+     },
+     {
+      "he": "בְּהַר",
+      "en": "on the mountain of"
+     },
+     {
+      "he": "מִכְוָר,",
+      "en": "Michvar"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיוּ מִתְעַטְּשׁוֹת מֵרֵיחַ פִּטּוּם הַקְּטֹרֶת:",
+    "en": "and they would sneeze from the smell of the ketores being mixed.\"",
+    "st": "<b>and they would sneeze from the fragrance of the preparation of the incense that they smelled. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיוּ",
+      "en": "and they were"
+     },
+     {
+      "he": "מִתְעַטְּשׁוֹת",
+      "en": "sneezing"
+     },
+     {
+      "he": "מֵרֵיחַ",
+      "en": "from the smell of"
+     },
+     {
+      "he": "פִּטּוּם",
+      "en": "the mixing of"
+     },
+     {
+      "he": "הַקְּטֹרֶת:",
+      "en": "the ketores"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 3,
+  "mishnah": 9,
+  "summary": "One Kohen scooped the ashes off the golden mizbe'ach into the basket. Another cleaned the lamps of the Menorah, leaving the eastern lamps burning, and put the jug on a step in front of the Menorah.",
+  "stIntro": "The priest",
+  "chunks": [
+   {
+    "he": "מִי שֶׁזָּכָה בְדִשּׁוּן מִזְבֵּחַ הַפְּנִימִי,",
+    "en": "Whoever won the cleaning of the inner mizbe'ach",
+    "st": "<b>who won</b> the right <b>of the removal of ash from the inner altar </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "whoever"
+     },
+     {
+      "he": "שֶׁזָּכָה",
+      "en": "that won"
+     },
+     {
+      "he": "בְדִשּׁוּן",
+      "en": "the cleaning of ashes"
+     },
+     {
+      "he": "מִזְבֵּחַ",
+      "en": "the mizbe'ach"
+     },
+     {
+      "he": "הַפְּנִימִי,",
+      "en": "the inner"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס וְנָטַל הַטֶּנִי וְהִנִּיחוֹ לְפָנָיו,",
+    "en": "goes in, takes the teni, and puts it in front of him.",
+    "st": "<b>entered</b> through the Sanctuary gate, <b>and</b> he <b>took the basket</b> with him <b>and placed it before him</b> on the floor between him and the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "he went in"
+     },
+     {
+      "he": "וְנָטַל",
+      "en": "and took"
+     },
+     {
+      "he": "הַטֶּנִי",
+      "en": "the teni"
+     },
+     {
+      "he": "וְהִנִּיחוֹ",
+      "en": "and put it"
+     },
+     {
+      "he": "לְפָנָיו,",
+      "en": "in front of him"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה חוֹפֵן וְנוֹתֵן לְתוֹכוֹ,",
+    "en": "He would scoop up (ashes) with his hands and put them in it.",
+    "st": "<b>And</b> he <b>would take handfuls</b> of ashes from upon the altar <b>and place</b> them <b>in</b> the basket.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and he was"
+     },
+     {
+      "he": "חוֹפֵן",
+      "en": "scooping"
+     },
+     {
+      "he": "וְנוֹתֵן",
+      "en": "and putting"
+     },
+     {
+      "he": "לְתוֹכוֹ,",
+      "en": "into it"
+     }
+    ]
+   },
+   {
+    "he": "וּבָאַחֲרוֹנָה כִּבֵּד אֶת הַשְּׁאָר",
+    "en": "At the end, he swept the rest",
+    "st": "<b>Ultimately,</b> when only a small amount of ashes remained on the altar, <b>the priest swept the rest </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָאַחֲרוֹנָה",
+      "en": "and at the end"
+     },
+     {
+      "he": "כִּבֵּד",
+      "en": "he swept"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשְּׁאָר",
+      "en": "the rest"
+     }
+    ]
+   },
+   {
+    "he": "לְתוֹכוֹ וְהִנִּיחוֹ וְיָצָא.",
+    "en": "into it, put it down, and went out.",
+    "st": "<b>into</b> the basket, <b>and placed</b> the basket back on the Sanctuary floor, <b>and emerged</b> from the Sanctuary.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לְתוֹכוֹ",
+      "en": "into it"
+     },
+     {
+      "he": "וְהִנִּיחוֹ",
+      "en": "and put it down"
+     },
+     {
+      "he": "וְיָצָא.",
+      "en": "and went out"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁזָּכָה בְדִשּׁוּן הַמְּנוֹרָה,",
+    "en": "Whoever won the cleaning of the Menorah",
+    "st": "The priest <b>who won</b> the right <b>of the removal of ash from the Candelabrum entered</b> the Sanctuary.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "whoever"
+     },
+     {
+      "he": "שֶׁזָּכָה",
+      "en": "that won"
+     },
+     {
+      "he": "בְדִשּׁוּן",
+      "en": "the cleaning of ashes of"
+     },
+     {
+      "he": "הַמְּנוֹרָה,",
+      "en": "the Menorah"
+     }
+    ]
+   },
+   {
+    "he": "נִכְנַס וּמָצָא שְׁנֵי נֵרוֹת מִזְרָחִיִּים דּוֹלְקִים,",
+    "en": "goes in. If he found the two eastern lamps burning,",
+    "st": "<b>And</b> if <b>he found</b> in the Candelabrum the <b>two easternmost lamps</b>, the second of which is called the <b>western</b> lamp, still <b>burning,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִכְנַס",
+      "en": "he went in"
+     },
+     {
+      "he": "וּמָצָא",
+      "en": "and found"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "נֵרוֹת",
+      "en": "lamps"
+     },
+     {
+      "he": "מִזְרָחִיִּים",
+      "en": "eastern"
+     },
+     {
+      "he": "דּוֹלְקִים,",
+      "en": "burning"
+     }
+    ]
+   },
+   {
+    "he": "מְדַשֵּׁן אֶת הַשְּׁאָר וּמַנִּיחַ",
+    "en": "he cleans out the rest, and leaves",
+    "st": "he would first <b>remove the ashes</b> and the burned wicks <b>from the rest</b>",
+    "stMore": "of the lamps and place them in the jug, and place new wicks and oil in those lamps.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְדַשֵּׁן",
+      "en": "he cleans out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשְּׁאָר",
+      "en": "the rest"
+     },
+     {
+      "he": "וּמַנִּיחַ",
+      "en": "and leaves"
+     }
+    ]
+   },
+   {
+    "he": "אֶת אֵלּוּ דּוֹלְקִין בִּמְקוֹמָן.",
+    "en": "these burning in their place.",
+    "st": "<b>And</b> he would <b>leave these</b> two lamps <b>burning in their</b> own <b>place.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֵלּוּ",
+      "en": "these"
+     },
+     {
+      "he": "דּוֹלְקִין",
+      "en": "burning"
+     },
+     {
+      "he": "בִּמְקוֹמָן.",
+      "en": "in their place"
+     }
+    ]
+   },
+   {
+    "he": "מְצָאָן שֶׁכָּבוּ,",
+    "en": "If he found that they went out,",
+    "st": "If <b>he found that</b> the two easternmost lamps <b>were extinguished,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְצָאָן",
+      "en": "he found them"
+     },
+     {
+      "he": "שֶׁכָּבוּ,",
+      "en": "that they went out"
+     }
+    ]
+   },
+   {
+    "he": "מְדַשְּׁנָן וּמַדְלִיקָן מִן הַדּוֹלְקִים,",
+    "en": "he cleans them out and lights them from the ones that are burning,",
+    "st": "he would <b>remove the ashes</b> and the burned wicks from <b>them and kindle them from the</b> lamps that were still <b>burning.</b>",
+    "stMore": "If none were still burning, he would kindle them from the fire on the outer altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְדַשְּׁנָן",
+      "en": "he cleans them out"
+     },
+     {
+      "he": "וּמַדְלִיקָן",
+      "en": "and lights them"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַדּוֹלְקִים,",
+      "en": "the burning ones"
+     }
+    ]
+   },
+   {
+    "he": "וְאַחַר כָּךְ מְדַשֵּׁן אֶת הַשְּׁאָר.",
+    "en": "and after that he cleans out the rest.",
+    "st": "<b>And afterward,</b> the priest would <b>remove the ashes</b> and the wicks <b>from the rest</b> of the lamps.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַחַר",
+      "en": "and after"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "מְדַשֵּׁן",
+      "en": "he cleans out"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַשְּׁאָר.",
+      "en": "the rest"
+     }
+    ]
+   },
+   {
+    "he": "וְאֶבֶן הָיְתָה לִפְנֵי הַמְּנוֹרָה",
+    "en": "There was a stone in front of the Menorah",
+    "st": "<b>And there was a stone in front of the Candelabrum </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֶבֶן",
+      "en": "and a stone"
+     },
+     {
+      "he": "הָיְתָה",
+      "en": "there was"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "in front of"
+     },
+     {
+      "he": "הַמְּנוֹרָה",
+      "en": "the Menorah"
+     }
+    ]
+   },
+   {
+    "he": "וּבָהּ שָׁלשׁ מַעֲלוֹת,",
+    "en": "with three steps on it,",
+    "st": "<b>and in it there</b> were <b>three stairs </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָהּ",
+      "en": "and on it"
+     },
+     {
+      "he": "שָׁלשׁ",
+      "en": "three"
+     },
+     {
+      "he": "מַעֲלוֹת,",
+      "en": "steps"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁעָלֶיהָ הַכֹּהֵן עוֹמֵד וּמֵטִיב אֶת הַנֵּרוֹת.",
+    "en": "that the Kohen stands on to fix up the lamps.",
+    "st": "<b>upon which</b> the <b>priest</b> would <b>stand and prepare the lamps</b>",
+    "stMore": "for kindling. Since the Candelabrum was eighteen handbreadths high, it was necessary for the priest to stand on an elevated surface to reach the lamps.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁעָלֶיהָ",
+      "en": "that on it"
+     },
+     {
+      "he": "הַכֹּהֵן",
+      "en": "the Kohen"
+     },
+     {
+      "he": "עוֹמֵד",
+      "en": "stands"
+     },
+     {
+      "he": "וּמֵטִיב",
+      "en": "and fixes up"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַנֵּרוֹת.",
+      "en": "the lamps"
+     }
+    ]
+   },
+   {
+    "he": "וְהִנִּיחַ אֶת הַכּוּז עַל",
+    "en": "He put the kuz on",
+    "st": "<b>And</b> after he placed the ashes and the wicks from the five westernmost lamps in the jug, he would <b>place the jug on</b> the",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִנִּיחַ",
+      "en": "and he put"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכּוּז",
+      "en": "the kuz"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲלָה שְׁנִיָּה וְיָצָא:",
+    "en": "the second step, and went out.",
+    "st": "<b>second stair</b> of that stone, <b>and</b> then he <b>emerged</b>",
+    "stMore": "from the Sanctuary. When the priest later returned to prepare the two easternmost lamps for kindling, he would remove the jug with the ashes from the Candelabrum, and together with the priest removing the basket with the ashes from the inner altar would pour the ashes from the jug and the basket at the side of the altar.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲלָה",
+      "en": "step"
+     },
+     {
+      "he": "שְׁנִיָּה",
+      "en": "second"
+     },
+     {
+      "he": "וְיָצָא:",
+      "en": "and went out"
+     }
+    ]
+   }
+  ]
+ }
+]

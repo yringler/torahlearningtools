@@ -1,0 +1,9 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "5:3": "Steinsaltz says the bees are rendered impotent.",
+    "10:8": "Steinsaltz describes one person strangling another in the marketplace."
+  },
+  "override": []
+}

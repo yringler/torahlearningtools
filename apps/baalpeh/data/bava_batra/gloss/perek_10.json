@@ -1,0 +1,4151 @@
+[
+ {
+  "perek": 10,
+  "mishnah": 1,
+  "summary": "A plain document has the witnesses sign on the inside, and a folded, tied document has them sign on the back. If they signed in the wrong place it is not valid, though Rabban Shimon ben Gamliel says it all follows the local custom.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גֵּט פָּשׁוּט,",
+    "en": "A plain document:",
+    "st": "In <b>an ordinary document,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּט",
+      "en": "a document"
+     },
+     {
+      "he": "פָּשׁוּט,",
+      "en": "plain"
+     }
+    ]
+   },
+   {
+    "he": "עֵדָיו מִתּוֹכוֹ.",
+    "en": "its witnesses sign on the inside.",
+    "st": "<b>its witnesses</b> are to sign <b>inside it,</b> i.e., on the written side of the paper.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֵדָיו",
+      "en": "its witnesses"
+     },
+     {
+      "he": "מִתּוֹכוֹ.",
+      "en": "from inside it"
+     }
+    ]
+   },
+   {
+    "he": "וּמְקֻשָּׁר, עֵדָיו מֵאֲחוֹרָיו.",
+    "en": "And a tied document: its witnesses sign on the back.",
+    "st": "In a folded and <b>tied</b> document, <b>its witnesses</b> are to sign <b>on the back of it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְקֻשָּׁר,",
+      "en": "and tied",
+      "note": "Folded and sewn closed, with witnesses signing on each fold."
+     },
+     {
+      "he": "עֵדָיו",
+      "en": "its witnesses"
+     },
+     {
+      "he": "מֵאֲחוֹרָיו.",
+      "en": "from its back"
+     }
+    ]
+   },
+   {
+    "he": "פָּשׁוּט שֶׁכָּתְבוּ עֵדָיו מֵאֲחוֹרָיו",
+    "en": "A plain one whose witnesses signed on the back,",
+    "st": "With regard to <b>an ordinary</b> document <b>whose witnesses wrote</b> their signatures <b>on the back of it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּשׁוּט",
+      "en": "plain"
+     },
+     {
+      "he": "שֶׁכָּתְבוּ",
+      "en": "that wrote"
+     },
+     {
+      "he": "עֵדָיו",
+      "en": "its witnesses"
+     },
+     {
+      "he": "מֵאֲחוֹרָיו",
+      "en": "from its back"
+     }
+    ]
+   },
+   {
+    "he": "וּמְקֻשָּׁר שֶׁכָּתְבוּ עֵדָיו מִתּוֹכוֹ,",
+    "en": "and a tied one whose witnesses signed on the inside:",
+    "st": "and <b>a tied</b> document <b>whose witnesses wrote</b> their signatures <b>inside of it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְקֻשָּׁר",
+      "en": "and tied"
+     },
+     {
+      "he": "שֶׁכָּתְבוּ",
+      "en": "that wrote"
+     },
+     {
+      "he": "עֵדָיו",
+      "en": "its witnesses"
+     },
+     {
+      "he": "מִתּוֹכוֹ,",
+      "en": "from inside it"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶם פְּסוּלִים.",
+    "en": "both are not valid.",
+    "st": "<b>both of these</b> are <b>not valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "פְּסוּלִים.",
+      "en": "not valid"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי חֲנִינָא בֶן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabbi Chanina ben Gamliel says:",
+    "st": "<b>Rabbi Ḥanina ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "חֲנִינָא",
+      "en": "Chanina"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מְקֻשָּׁר שֶׁכָּתְבוּ עֵדָיו מִתּוֹכוֹ,",
+    "en": "A tied one whose witnesses signed on the inside",
+    "st": "<b>A tied</b> document <b>whose witnesses wrote</b> their signatures <b>inside of it</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְקֻשָּׁר",
+      "en": "tied"
+     },
+     {
+      "he": "שֶׁכָּתְבוּ",
+      "en": "that wrote"
+     },
+     {
+      "he": "עֵדָיו",
+      "en": "its witnesses"
+     },
+     {
+      "he": "מִתּוֹכוֹ,",
+      "en": "from inside it"
+     }
+    ]
+   },
+   {
+    "he": "כָּשֵׁר, מִפְּנֵי שֶׁיָּכוֹל לַעֲשׂוֹתוֹ פָשׁוּט.",
+    "en": "is valid, because he can make it into a plain one.",
+    "st": "is <b>valid, because one can transform it into an ordinary</b> document by untying it.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּשֵׁר,",
+      "en": "valid"
+     },
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁיָּכוֹל",
+      "en": "that he can"
+     },
+     {
+      "he": "לַעֲשׂוֹתוֹ",
+      "en": "to make it"
+     },
+     {
+      "he": "פָשׁוּט.",
+      "en": "plain"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says:",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל כְּמִנְהַג הַמְּדִינָה:",
+    "en": "It all follows the custom of the place.",
+    "st": "<b>Everything</b> is <b>in accordance with regional custom.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "כְּמִנְהַג",
+      "en": "like the custom of"
+     },
+     {
+      "he": "הַמְּדִינָה:",
+      "en": "the land"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 2,
+  "summary": "A plain document needs two witnesses and a tied one needs three. If the amount written in a document is unclear or rubbed out, the lender gets only the smaller amount, and if the top and bottom amounts are different, we follow the bottom one.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "גֵּט פָּשׁוּט, עֵדָיו בִּשְׁנָיִם.",
+    "en": "A plain document has two witnesses,",
+    "st": "<b>An ordinary document</b> is rendered valid <b>by</b> its having at least <b>two witnesses,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גֵּט",
+      "en": "a document"
+     },
+     {
+      "he": "פָּשׁוּט,",
+      "en": "plain"
+     },
+     {
+      "he": "עֵדָיו",
+      "en": "its witnesses"
+     },
+     {
+      "he": "בִּשְׁנָיִם.",
+      "en": "with two"
+     }
+    ]
+   },
+   {
+    "he": "וּמְקֻשָּׁר, בִּשְׁלֹשָׁה.",
+    "en": "and a tied one, three.",
+    "st": "<b>and a tied</b> document is rendered valid <b>by</b> its having at least <b>three</b> witnesses.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְקֻשָּׁר,",
+      "en": "and tied"
+     },
+     {
+      "he": "בִּשְׁלֹשָׁה.",
+      "en": "with three"
+     }
+    ]
+   },
+   {
+    "he": "פָּשׁוּט שֶׁכָּתוּב בּוֹ עֵד אֶחָד,",
+    "en": "A plain one with one witness signed on it,",
+    "st": "With regard to <b>an ordinary</b> document <b>in which a single witness wrote</b> his signature,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּשׁוּט",
+      "en": "plain"
+     },
+     {
+      "he": "שֶׁכָּתוּב",
+      "en": "that is written"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "עֵד",
+      "en": "witness"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "וּמְקֻשָּׁר שֶׁכָּתוּב בּוֹ שְׁנֵי עֵדִים,",
+    "en": "and a tied one with two witnesses signed on it:",
+    "st": "<b>and a tied</b> document <b>in which</b> only <b>two witnesses wrote</b> their signatures,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְקֻשָּׁר",
+      "en": "and tied"
+     },
+     {
+      "he": "שֶׁכָּתוּב",
+      "en": "that is written"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶם פְּסוּלִין.",
+    "en": "both are not valid.",
+    "st": "<b>they are both not valid.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "פְּסוּלִין.",
+      "en": "not valid"
+     }
+    ]
+   },
+   {
+    "he": "כָּתַב בּוֹ זוּזִין מְאָה",
+    "en": "If he wrote in it: A hundred zuz",
+    "st": "If <b>it is written in</b> a document that someone owes: <b>One hundred dinars,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתַב",
+      "en": "he wrote"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "זוּזִין",
+      "en": "zuz"
+     },
+     {
+      "he": "מְאָה",
+      "en": "a hundred"
+     }
+    ]
+   },
+   {
+    "he": "דְאִנּוּן סִלְעִין עֶשְׂרִין,",
+    "en": "which are twenty sela,",
+    "st": "<b>which are twenty sela,</b>",
+    "stMore": "which is internally inconsistent since there are twenty-five sela in a hundred dinars,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דְאִנּוּן",
+      "en": "which are"
+     },
+     {
+      "he": "סִלְעִין",
+      "en": "sela",
+      "note": "A sela is a coin worth four zuz."
+     },
+     {
+      "he": "עֶשְׂרִין,",
+      "en": "twenty"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לוֹ אֶלָּא עֶשְׂרִין.",
+    "en": "he gets only twenty.",
+    "st": "the holder of the document <b>has</b> the right to claim <b>only twenty</b> sela, the lower of the two amounts.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "עֶשְׂרִין.",
+      "en": "twenty"
+     }
+    ]
+   },
+   {
+    "he": "זוּזִין מְאָה דְאִנּוּן תְּלָתִין סִלְעִין,",
+    "en": "A hundred zuz which are thirty sela:",
+    "st": "If it is written that he owes: <b>One hundred dinars, which are thirty sela,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זוּזִין",
+      "en": "zuz"
+     },
+     {
+      "he": "מְאָה",
+      "en": "a hundred"
+     },
+     {
+      "he": "דְאִנּוּן",
+      "en": "which are"
+     },
+     {
+      "he": "תְּלָתִין",
+      "en": "thirty"
+     },
+     {
+      "he": "סִלְעִין,",
+      "en": "sela"
+     }
+    ]
+   },
+   {
+    "he": "אֵין לוֹ אֶלָּא מָנֶה.",
+    "en": "he gets only a maneh.",
+    "explain": "He gets the smaller amount.",
+    "st": "the holder of the document <b>has</b> the right to claim <b>only one hundred dinars,</b> again the lower of the two amounts.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "מָנֶה.",
+      "en": "a maneh"
+     }
+    ]
+   },
+   {
+    "he": "כְסַף זוּזִין דְּאִנּוּן,",
+    "en": "Silver zuz that are...",
+    "st": "If it is written that someone owes: <b>Silver dinars that are,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְסַף",
+      "en": "silver"
+     },
+     {
+      "he": "זוּזִין",
+      "en": "zuz"
+     },
+     {
+      "he": "דְּאִנּוּן,",
+      "en": "which are"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְחַק, אֵין פָּחוּת מִשְּׁתָּיִם.",
+    "en": "and the rest was rubbed out: not less than two.",
+    "st": "<b>and</b> the remainder of the text, where the number of dinars should be specified, <b>was erased,</b> the amount must be <b>no less than two</b>",
+    "stMore": "dinars, the lowest amount to which the plural word dinars can be referring. That is what the creditor can claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְחַק,",
+      "en": "and it was erased"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִשְּׁתָּיִם.",
+      "en": "than two"
+     }
+    ]
+   },
+   {
+    "he": "כְּסַף סִלְעִין דְּאִנּוּן,",
+    "en": "Silver sela that are...",
+    "st": "Similarly, if it is written: <b>Silver sela that are,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּסַף",
+      "en": "silver"
+     },
+     {
+      "he": "סִלְעִין",
+      "en": "sela"
+     },
+     {
+      "he": "דְּאִנּוּן,",
+      "en": "which are"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְחַק, אֵין פָּחוּת מִשְּׁנָיִם.",
+    "en": "and the rest was rubbed out: not less than two.",
+    "st": "<b>and</b> the remainder of the text <b>was erased,</b> the amount must be <b>no less than two</b> sela.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְחַק,",
+      "en": "and it was erased"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִשְּׁנָיִם.",
+      "en": "than two"
+     }
+    ]
+   },
+   {
+    "he": "דַּרְכּוֹנוֹת דְּאִנּוּן,",
+    "en": "Darics that are...",
+    "st": "And if it is written: <b>Darics that are,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דַּרְכּוֹנוֹת",
+      "en": "darics",
+      "note": "A kind of gold coin."
+     },
+     {
+      "he": "דְּאִנּוּן,",
+      "en": "which are"
+     }
+    ]
+   },
+   {
+    "he": "וְנִמְחַק, אֵין פָּחוּת מִשְּׁתָּיִם.",
+    "en": "and the rest was rubbed out: not less than two.",
+    "st": "<b>and</b> the remainder of the text <b>was erased,</b> the amount must be <b>no less than two</b> darics.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִמְחַק,",
+      "en": "and it was erased"
+     },
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "פָּחוּת",
+      "en": "less"
+     },
+     {
+      "he": "מִשְּׁתָּיִם.",
+      "en": "than two"
+     }
+    ]
+   },
+   {
+    "he": "כָּתוּב בּוֹ מִלְמַעְלָה מָנֶה וּמִלְּמַטָּה מָאתַיִם,",
+    "en": "If it says a maneh at the top and two hundred at the bottom,",
+    "st": "If it is <b>written in</b> the document <b>above,</b> in an earlier place in the document, that someone owes <b>one hundred dinars, and below,</b> toward the end of the document, it is written that the amount owed is <b>two hundred</b> dinars,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּתוּב",
+      "en": "written"
+     },
+     {
+      "he": "בּוֹ",
+      "en": "in it"
+     },
+     {
+      "he": "מִלְמַעְלָה",
+      "en": "from above"
+     },
+     {
+      "he": "מָנֶה",
+      "en": "a maneh"
+     },
+     {
+      "he": "וּמִלְּמַטָּה",
+      "en": "and from below"
+     },
+     {
+      "he": "מָאתַיִם,",
+      "en": "two hundred"
+     }
+    ]
+   },
+   {
+    "he": "מִלְמַעְלָה מָאתַיִם וּמִלְּמַטָּה מָנֶה,",
+    "en": "or two hundred at the top and a maneh at the bottom,",
+    "st": "or if <b>above</b> it is written <b>two hundred</b> dinars <b>and below one hundred dinars,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִלְמַעְלָה",
+      "en": "from above"
+     },
+     {
+      "he": "מָאתַיִם",
+      "en": "two hundred"
+     },
+     {
+      "he": "וּמִלְּמַטָּה",
+      "en": "and from below"
+     },
+     {
+      "he": "מָנֶה,",
+      "en": "a maneh"
+     }
+    ]
+   },
+   {
+    "he": "הַכֹּל הוֹלֵךְ אַחַר הַתַּחְתּוֹן.",
+    "en": "everything follows the bottom one.",
+    "st": "<b>everything follows the bottom</b> amount.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַכֹּל",
+      "en": "everything"
+     },
+     {
+      "he": "הוֹלֵךְ",
+      "en": "goes"
+     },
+     {
+      "he": "אַחַר",
+      "en": "after"
+     },
+     {
+      "he": "הַתַּחְתּוֹן.",
+      "en": "the bottom one"
+     }
+    ]
+   },
+   {
+    "he": "אִם כֵּן, לָמָּה כוֹתְבִין אֶת הָעֶלְיוֹן,",
+    "en": "If so, why do we write the top one?",
+    "st": "<b>If so, why</b> does one <b>write</b> the information in <b>the upper</b> part of the document at all?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "כֵּן,",
+      "en": "so"
+     },
+     {
+      "he": "לָמָּה",
+      "en": "why"
+     },
+     {
+      "he": "כוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָעֶלְיוֹן,",
+      "en": "the top one"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם תִּמָּחֵק אוֹת אַחַת מִן הַתַּחְתּוֹן,",
+    "en": "So that if one letter is rubbed out from the bottom one,",
+    "st": "It is a safety measure, <b>so</b> that <b>if one letter is erased from the lower</b>",
+    "stMore": "part of the document, thereby rendering it illegible,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "תִּמָּחֵק",
+      "en": "will be erased"
+     },
+     {
+      "he": "אוֹת",
+      "en": "letter"
+     },
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַתַּחְתּוֹן,",
+      "en": "the bottom one"
+     }
+    ]
+   },
+   {
+    "he": "יִלְמַד מִן הָעֶלְיוֹן:",
+    "en": "we can learn it from the top one.",
+    "st": "the information <b>can be learned from the upper</b> part of the document.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִלְמַד",
+      "en": "he will learn"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעֶלְיוֹן:",
+      "en": "the top one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 3,
+  "summary": "A scribe may write some documents for one person without the other being there, like a get for a husband or a loan paper for a borrower. For a lender or a buyer, the other side must be there too, and the person whom the paper helps pays the scribe.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "כּוֹתְבִין גֵּט לָאִישׁ",
+    "en": "We may write a get for a man",
+    "st": "A scribe may <b>write a bill of divorce for a man</b> who requests one,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "גֵּט",
+      "en": "a get",
+      "note": "A paper a husband gives his wife to end the marriage."
+     },
+     {
+      "he": "לָאִישׁ",
+      "en": "for the man"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵין אִשְׁתּוֹ עִמּוֹ,",
+    "en": "even if his wife is not with him,",
+    "st": "<b>even if his wife is not with him</b>",
+    "stMore": "to give her consent when he presents his request, as there is no possibility that he will misuse the document.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "not"
+     },
+     {
+      "he": "אִשְׁתּוֹ",
+      "en": "his wife"
+     },
+     {
+      "he": "עִמּוֹ,",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׁוֹבֵר לָאִשָּׁה",
+    "en": "and a receipt for a woman",
+    "st": "<b>And</b> a scribe may write <b>a receipt for a woman</b>",
+    "stMore": "upon her request, attesting to the payment of her marriage contract,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׁוֹבֵר",
+      "en": "and the receipt"
+     },
+     {
+      "he": "לָאִשָּׁה",
+      "en": "for the woman"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵין בַּעְלָהּ עִמָּהּ,",
+    "en": "even if her husband is not with her,",
+    "st": "<b>even if her husband is not with her</b> to give his consent.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "not"
+     },
+     {
+      "he": "בַּעְלָהּ",
+      "en": "her husband"
+     },
+     {
+      "he": "עִמָּהּ,",
+      "en": "with her"
+     }
+    ]
+   },
+   {
+    "he": "וּבִלְבַד שֶׁיְּהֵא מַכִּירָן,",
+    "en": "as long as the scribe knows them,",
+    "st": "This is true <b>provided that</b> the scribe <b>recognizes</b>",
+    "stMore": "the parties requesting the document, to prevent misrepresentation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבִלְבַד",
+      "en": "and only"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "that he will"
+     },
+     {
+      "he": "מַכִּירָן,",
+      "en": "recognize them"
+     }
+    ]
+   },
+   {
+    "he": "וְהַבַּעַל נוֹתֵן שָׂכָר.",
+    "en": "and the husband pays the scribe.",
+    "st": "<b>And</b> for both documents, <b>the husband gives</b> the scribe his <b>wages.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַבַּעַל",
+      "en": "and the husband"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "שָׂכָר.",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹתְבִין שְׁטָר לְלֹוֶה",
+    "en": "We may write a loan paper for a borrower",
+    "st": "A scribe may <b>write</b> a promissory <b>note for a debtor</b> who requests one,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "שְׁטָר",
+      "en": "a document"
+     },
+     {
+      "he": "לְלֹוֶה",
+      "en": "for the borrower"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵין מַלְוֶה עִמּוֹ,",
+    "en": "even if the lender is not with him,",
+    "st": "<b>even if</b> the <b>creditor is not with him</b> when he requests the document,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "not"
+     },
+     {
+      "he": "מַלְוֶה",
+      "en": "lender"
+     },
+     {
+      "he": "עִמּוֹ,",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין כּוֹתְבִין לְמַלְוֶה,",
+    "en": "but we may not write one for a lender",
+    "st": "<b>but</b> a scribe may <b>not write</b> a promissory note <b>for a creditor</b> who requests it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "כּוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "לְמַלְוֶה,",
+      "en": "for the lender"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא לֹוֶה עִמּוֹ,",
+    "en": "unless the borrower is with him,",
+    "st": "<b>unless</b> the <b>debtor is with him</b> and consents.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "there will be"
+     },
+     {
+      "he": "לֹוֶה",
+      "en": "borrower"
+     },
+     {
+      "he": "עִמּוֹ,",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלֹּוֶה נוֹתֵן שָׂכָר.",
+    "en": "and the borrower pays the scribe.",
+    "st": "<b>And</b> it is <b>the debtor</b> who <b>gives</b> the scribe his <b>wages.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלֹּוֶה",
+      "en": "and the borrower"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "שָׂכָר.",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "כּוֹתְבִין שְׁטָר לְמוֹכֵר",
+    "en": "We may write a sale paper for a seller",
+    "st": "A scribe may <b>write a bill</b> of sale <b>for a seller</b> of a field who requests one",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כּוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "שְׁטָר",
+      "en": "a document"
+     },
+     {
+      "he": "לְמוֹכֵר",
+      "en": "for the seller"
+     }
+    ]
+   },
+   {
+    "he": "אַף עַל פִּי שֶׁאֵין לוֹקֵחַ עִמּוֹ.",
+    "en": "even if the buyer is not with him,",
+    "st": "<b>even if the purchaser is not with him</b> when he presents his request,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַף",
+      "en": "even"
+     },
+     {
+      "he": "עַל",
+      "en": "though"
+     },
+     {
+      "he": "פִּי",
+      "en": "(that)"
+     },
+     {
+      "he": "שֶׁאֵין",
+      "en": "not"
+     },
+     {
+      "he": "לוֹקֵחַ",
+      "en": "buyer"
+     },
+     {
+      "he": "עִמּוֹ.",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין כּוֹתְבִין לְלוֹקֵחַ,",
+    "en": "but we may not write one for a buyer",
+    "st": "<b>but</b> a scribe may <b>not write</b> a bill of sale <b>for a purchaser</b> who requests it",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and not"
+     },
+     {
+      "he": "כּוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "לְלוֹקֵחַ,",
+      "en": "for the buyer"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁיְּהֵא מוֹכֵר עִמּוֹ,",
+    "en": "unless the seller is with him,",
+    "st": "<b>unless the seller is with him</b> and consents.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁיְּהֵא",
+      "en": "there will be"
+     },
+     {
+      "he": "מוֹכֵר",
+      "en": "seller"
+     },
+     {
+      "he": "עִמּוֹ,",
+      "en": "with him"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלּוֹקֵחַ נוֹתֵן שָׂכָר:",
+    "en": "and the buyer pays the scribe.",
+    "st": "<b>And</b> it is <b>the purchaser</b> who <b>gives</b> the scribe his <b>wages.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלּוֹקֵחַ",
+      "en": "and the buyer"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "שָׂכָר:",
+      "en": "pay"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 4,
+  "summary": "Some papers, like a wedding contract, a farming deal, or a court agreement, may be written only when both sides agree. The mishnah says who pays the scribe, and Rabban Shimon ben Gamliel says each side gets its own copy.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אֵין כּוֹתְבִין שְׁטָרֵי אֵרוּסִין וְנִשּׂוּאִין",
+    "en": "We do not write papers for kiddushin and marriage",
+    "st": "A scribe may <b>not write documents of betrothal and</b> documents of <b>marriage</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "כּוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "שְׁטָרֵי",
+      "en": "papers of"
+     },
+     {
+      "he": "אֵרוּסִין",
+      "en": "kiddushin",
+      "note": "When a man and woman become engaged to be married."
+     },
+     {
+      "he": "וְנִשּׂוּאִין",
+      "en": "and marriage"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מִדַּעַת שְׁנֵיהֶם,",
+    "en": "unless both of them agree,",
+    "st": "<b>except with the consent of both</b> parties, the groom and the bride.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "מִדַּעַת",
+      "en": "with the agreement of"
+     },
+     {
+      "he": "שְׁנֵיהֶם,",
+      "en": "both of them"
+     }
+    ]
+   },
+   {
+    "he": "וְהֶחָתָן נוֹתֵן שָׂכָר.",
+    "en": "and the groom pays the scribe.",
+    "st": "<b>And</b> it is <b>the groom</b> who <b>gives</b> the scribe his <b>wages.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהֶחָתָן",
+      "en": "and the groom"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "שָׂכָר.",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כּוֹתְבִין שְׁטָרֵי אֲרִיסוּת וְקַבְּלָנוּת",
+    "en": "We do not write papers for sharecropping and building jobs",
+    "st": "A scribe may <b>not write contracts for sharecroppers and contractors</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "כּוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "שְׁטָרֵי",
+      "en": "papers of"
+     },
+     {
+      "he": "אֲרִיסוּת",
+      "en": "sharecropping"
+     },
+     {
+      "he": "וְקַבְּלָנוּת",
+      "en": "and contracting"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מִדַּעַת שְׁנֵיהֶם,",
+    "en": "unless both of them agree,",
+    "st": "<b>except with the consent of both</b>",
+    "stMore": "parties, i.e., the sharecropper or contractor and the one who hires him.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "מִדַּעַת",
+      "en": "with the agreement of"
+     },
+     {
+      "he": "שְׁנֵיהֶם,",
+      "en": "both of them"
+     }
+    ]
+   },
+   {
+    "he": "וְהַמְקַבֵּל נוֹתֵן שָׂכָר.",
+    "en": "and the one who takes the job pays the scribe.",
+    "st": "<b>And</b> it is <b>the</b> sharecropper or <b>contractor</b> who <b>gives</b> the scribe his <b>wages.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַמְקַבֵּל",
+      "en": "and the one who takes the job"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "gives"
+     },
+     {
+      "he": "שָׂכָר.",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "אֵין כּוֹתְבִין שְׁטָרֵי בֵרוּרִין",
+    "en": "We do not write papers of choosing judges",
+    "st": "A scribe may <b>not write documents</b> testifying to <b>arbitration</b> agreements",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "כּוֹתְבִין",
+      "en": "we write"
+     },
+     {
+      "he": "שְׁטָרֵי",
+      "en": "papers of"
+     },
+     {
+      "he": "בֵרוּרִין",
+      "en": "choosing",
+      "note": "Each side chooses a judge."
+     }
+    ]
+   },
+   {
+    "he": "וְכָל מַעֲשֵׂה בֵית דִּין",
+    "en": "or any other court paper",
+    "st": "<b>or any</b> other <b>court enactment</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכָל",
+      "en": "and every"
+     },
+     {
+      "he": "מַעֲשֵׂה",
+      "en": "act of"
+     },
+     {
+      "he": "בֵית",
+      "en": "house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא מִדַּעַת שְׁנֵיהֶם,",
+    "en": "unless both of them agree,",
+    "st": "<b>except with the consent of both</b> parties to the litigation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "מִדַּעַת",
+      "en": "with the agreement of"
+     },
+     {
+      "he": "שְׁנֵיהֶם,",
+      "en": "both of them"
+     }
+    ]
+   },
+   {
+    "he": "וּשְׁנֵיהֶם נוֹתְנִין שָׂכָר.",
+    "en": "and both of them pay the scribe.",
+    "st": "<b>And both</b> parties <b>give</b> the scribe his <b>wages.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּשְׁנֵיהֶם",
+      "en": "and both of them"
+     },
+     {
+      "he": "נוֹתְנִין",
+      "en": "give"
+     },
+     {
+      "he": "שָׂכָר.",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says:",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנֵיהֶם כּוֹתְבִין שְׁנַיִם,",
+    "en": "For the two of them he writes two copies,",
+    "st": "The scribe <b>writes two</b> documents <b>for the two</b> parties,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵיהֶם",
+      "en": "both of them"
+     },
+     {
+      "he": "כּוֹתְבִין",
+      "en": "write"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "לָזֶה לְעַצְמוֹ וְלָזֶה לְעַצְמוֹ:",
+    "en": "one for this one himself, and one for that one himself.",
+    "st": "one <b>for this</b> one <b>by himself, and</b> one <b>for that</b> one <b>by himself.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לָזֶה",
+      "en": "for this one"
+     },
+     {
+      "he": "לְעַצְמוֹ",
+      "en": "for himself"
+     },
+     {
+      "he": "וְלָזֶה",
+      "en": "and for this one"
+     },
+     {
+      "he": "לְעַצְמוֹ:",
+      "en": "for himself"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 5,
+  "summary": "A borrower paid back part of his loan, and the loan paper was given to a third person. The borrower said that if he does not pay the rest by a certain day, the paper should be given to the lender, and Rabbi Yosei and Rabbi Yehuda argue whether it is.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁפָּרַע מִקְצָת חוֹבוֹ",
+    "en": "Someone who paid part of his debt",
+    "st": "In the case of a debtor <b>who repaid part of his debt and</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁפָּרַע",
+      "en": "paid"
+     },
+     {
+      "he": "מִקְצָת",
+      "en": "part of"
+     },
+     {
+      "he": "חוֹבוֹ",
+      "en": "his debt"
+     }
+    ]
+   },
+   {
+    "he": "וְהִשְׁלִישׁ אֶת שְׁטָרוֹ",
+    "en": "and gave his loan paper to a third person,",
+    "st": "with the agreement of the creditor <b>deposited</b> the promissory <b>note with a third party</b>",
+    "stMore": "serving as a trustee to ensure that the creditor would not collect the full amount,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִשְׁלִישׁ",
+      "en": "and gave to a third person"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שְׁטָרוֹ",
+      "en": "his document"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר לוֹ,",
+    "en": "and said to him,",
+    "st": "<b>and</b> the debtor <b>said to</b> the trustee:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "אִם לֹא נָתַתִּי לְךָ",
+    "en": "If I do not give you",
+    "st": "<b>If I have not given you</b> the balance",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "נָתַתִּי",
+      "en": "I gave"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "מִכָּאן וְעַד יוֹם פְּלוֹנִי",
+    "en": "from now until such-and-such a day,",
+    "st": "<b>from now until such and such a day,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִכָּאן",
+      "en": "from here"
+     },
+     {
+      "he": "וְעַד",
+      "en": "and until"
+     },
+     {
+      "he": "יוֹם",
+      "en": "day"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "תֶּן לוֹ שְׁטָרוֹ,",
+    "en": "give him his paper.",
+    "explain": "Then the lender can collect the whole loan.",
+    "st": "<b>give</b> the creditor <b>his</b> promissory <b>note,</b>",
+    "stMore": "thereby enabling him to collect the full amount stated on the note,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "תֶּן",
+      "en": "give"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "שְׁטָרוֹ,",
+      "en": "his document"
+     }
+    ]
+   },
+   {
+    "he": "הִגִּיעַ זְמַן וְלֹא נָתַן,",
+    "en": "The time came and he did not give it:",
+    "st": "if the stipulated <b>time arrived and</b> the debtor <b>did not give</b> the balance to the trustee,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִגִּיעַ",
+      "en": "arrived"
+     },
+     {
+      "he": "זְמַן",
+      "en": "the time"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "נָתַן,",
+      "en": "he gave"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר, יִתֵּן.",
+    "en": "Rabbi Yosei says: He should give it.",
+    "st": "<b>Rabbi Yosei says:</b> The trustee <b>should give</b>",
+    "stMore": "the promissory note to the creditor, in accordance with the debtor’s stipulation.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "יִתֵּן.",
+      "en": "he will give"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר, לֹא יִתֵּן:",
+    "en": "Rabbi Yehuda says: He should not give it.",
+    "st": "<b>Rabbi Yehuda says:</b> The trustee <b>should not give</b> it, as the stipulation is void.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִתֵּן:",
+      "en": "he will give"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 6,
+  "summary": "If a loan paper was rubbed out, witnesses who remember it come to beis din, which writes a new paper in its place. If a borrower paid back part of a loan, Rabbi Yehuda says to write a new loan paper, and Rabbi Yosei says to write a receipt.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "מִי שֶׁנִּמְחַק שְׁטַר חוֹבוֹ,",
+    "en": "Someone whose loan paper was rubbed out",
+    "st": "In the case of a creditor <b>whose promissory note has become erased,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁנִּמְחַק",
+      "en": "was erased"
+     },
+     {
+      "he": "שְׁטַר",
+      "en": "the document of"
+     },
+     {
+      "he": "חוֹבוֹ,",
+      "en": "his debt"
+     }
+    ]
+   },
+   {
+    "he": "מְעִידִין עָלָיו עֵדִים,",
+    "en": "brings witnesses about it,",
+    "st": "he should <b>produce witnesses</b> who remember the details of the document to testify <b>about it.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "about it"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "וּבָא לִפְנֵי בֵית דִּין",
+    "en": "and comes before beis din,",
+    "st": "<b>And</b> they <b>come before the court,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבָא",
+      "en": "and comes"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "בֵית",
+      "en": "house of"
+     },
+     {
+      "he": "דִּין",
+      "en": "judgment"
+     }
+    ]
+   },
+   {
+    "he": "וְעוֹשִׂין לוֹ קִיּוּם,",
+    "en": "and they make a new proof for him:",
+    "st": "<b>and they ratify</b> his promissory note <b>for him,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְעוֹשִׂין",
+      "en": "and they make"
+     },
+     {
+      "he": "לוֹ",
+      "en": "for him"
+     },
+     {
+      "he": "קִיּוּם,",
+      "en": "a confirmation"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ פְּלוֹנִי בֶן פְּלוֹנִי",
+    "en": "So-and-so son of so-and-so",
+    "st": "stating: The promissory <b>note of so-and-so</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "בֶן",
+      "en": "son of"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "נִמְחַק שְׁטָרוֹ בְּיוֹם פְּלוֹנִי,",
+    "en": "had his paper rubbed out on such-and-such a day,",
+    "st": "<b>was erased,</b> and it stated that a loan for such and such an amount took place <b>on such and such a date,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְחַק",
+      "en": "was erased"
+     },
+     {
+      "he": "שְׁטָרוֹ",
+      "en": "his document"
+     },
+     {
+      "he": "בְּיוֹם",
+      "en": "on day"
+     },
+     {
+      "he": "פְּלוֹנִי,",
+      "en": "so-and-so"
+     }
+    ]
+   },
+   {
+    "he": "וּפְלוֹנִי וּפְלוֹנִי עֵדָיו.",
+    "en": "and these two people were its witnesses.",
+    "st": "<b>and so-and-so and so-and-so were its witnesses.</b>",
+    "stMore": "The ratification document is signed, and it may be used as a replacement for the erased document.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּפְלוֹנִי",
+      "en": "and so-and-so"
+     },
+     {
+      "he": "וּפְלוֹנִי",
+      "en": "and so-and-so"
+     },
+     {
+      "he": "עֵדָיו.",
+      "en": "its witnesses"
+     }
+    ]
+   },
+   {
+    "he": "מִי שֶׁפָּרַע מִקְצָת חוֹבוֹ,",
+    "en": "Someone who paid back part of his debt:",
+    "st": "In the case of a debtor <b>who repaid part of his debt,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִי",
+      "en": "one who"
+     },
+     {
+      "he": "שֶׁפָּרַע",
+      "en": "paid"
+     },
+     {
+      "he": "מִקְצָת",
+      "en": "part of"
+     },
+     {
+      "he": "חוֹבוֹ,",
+      "en": "his debt"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יְהוּדָה אוֹמֵר, יַחֲלִיף.",
+    "en": "Rabbi Yehuda says: He changes the paper for a new one.",
+    "st": "<b>Rabbi Yehuda says:</b> The creditor <b>should exchange</b>",
+    "stMore": "the promissory note for a new one stating the current balance and tear up the first promissory note.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה",
+      "en": "Yehuda"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "יַחֲלִיף.",
+      "en": "he will exchange"
+     }
+    ]
+   },
+   {
+    "he": "רַבִּי יוֹסֵי אוֹמֵר, יִכְתּוֹב שׁוֹבֵר.",
+    "en": "Rabbi Yosei says: He writes a receipt.",
+    "st": "<b>Rabbi Yosei says:</b> The creditor may keep the original promissory note, and he <b>should write a receipt</b>",
+    "stMore": "for the payment he has received and give it to the debtor as proof of his partial payment of the sum recorded in the old note.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי",
+      "en": "Yosei"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     },
+     {
+      "he": "יִכְתּוֹב",
+      "en": "he will write"
+     },
+     {
+      "he": "שׁוֹבֵר.",
+      "en": "a receipt"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יְהוּדָה,",
+    "en": "Rabbi Yehuda said:",
+    "st": "<b>Rabbi Yehuda said</b> with regard to this arrangement:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוּדָה,",
+      "en": "Yehuda"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא זֶה צָרִיךְ לִהְיוֹת שׁוֹמֵר שׁוֹבְרוֹ",
+    "en": "Then the borrower must guard his receipt",
+    "st": "It is <b>found</b> that <b>this</b> debtor <b>must</b> now <b>guard his receipt</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "it is found"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "צָרִיךְ",
+      "en": "needs"
+     },
+     {
+      "he": "לִהְיוֹת",
+      "en": "to be"
+     },
+     {
+      "he": "שׁוֹמֵר",
+      "en": "guarding"
+     },
+     {
+      "he": "שׁוֹבְרוֹ",
+      "en": "his receipt"
+     }
+    ]
+   },
+   {
+    "he": "מִן הָעַכְבָּרִים.",
+    "en": "from the mice!",
+    "st": "<b>against</b> being destroyed by <b>mice,</b>",
+    "stMore": "as if he no longer has the receipt, he will have to pay the entire sum recorded in the promissory note.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעַכְבָּרִים.",
+      "en": "the mice"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said to him:",
+    "st": "<b>Rabbi Yosei said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "כָּךְ יָפֶה לוֹ,",
+    "en": "That is good for him,",
+    "st": "<b>This</b> situation is <b>fitting for him;</b> it is better that this procedure be followed,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּךְ",
+      "en": "so"
+     },
+     {
+      "he": "יָפֶה",
+      "en": "good"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "for him"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא יוּרַע כֹּחוֹ שֶׁל זֶה:",
+    "en": "so that the lender's power is not made weaker.",
+    "st": "<b>and the strength of</b> the claim of <b>this</b> creditor <b>not be weakened.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "יוּרַע",
+      "en": "will be weakened"
+     },
+     {
+      "he": "כֹּחוֹ",
+      "en": "his power"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה:",
+      "en": "this one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 7,
+  "summary": "This mishnah teaches many money rules: brothers who share a bathhouse, two men with the same name, unclear loan papers, and when a lender may collect from a guarantor. Rabban Shimon ben Gamliel also teaches how to stop a trick with a kesubah guarantor.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "שְׁנֵי אַחִין, אֶחָד עָנִי וְאֶחָד עָשִׁיר,",
+    "en": "Two brothers, one poor and one rich,",
+    "st": "In a case where there are <b>two brothers, one poor and one rich,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנֵי",
+      "en": "two"
+     },
+     {
+      "he": "אַחִין,",
+      "en": "brothers"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "עָנִי",
+      "en": "poor"
+     },
+     {
+      "he": "וְאֶחָד",
+      "en": "and one"
+     },
+     {
+      "he": "עָשִׁיר,",
+      "en": "rich"
+     }
+    ]
+   },
+   {
+    "he": "וְהִנִּיחַ לָהֶן אֲבִיהֶן מֶרְחָץ וּבֵית הַבַּד,",
+    "en": "and their father left them a bathhouse and an olive press:",
+    "st": "<b>and their father left them a bathhouse or an olive press</b> as an inheritance,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִנִּיחַ",
+      "en": "and left"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "אֲבִיהֶן",
+      "en": "their father"
+     },
+     {
+      "he": "מֶרְחָץ",
+      "en": "a bathhouse"
+     },
+     {
+      "he": "וּבֵית",
+      "en": "and house of"
+     },
+     {
+      "he": "הַבַּד,",
+      "en": "the press"
+     }
+    ]
+   },
+   {
+    "he": "עֲשָׂאָן לְשָׂכָר, הַשָּׂכָר לָאֶמְצַע.",
+    "en": "if he made them to earn money, the money is shared.",
+    "st": "if the father had <b>built</b> these facilities <b>for profit,</b> i.e., to charge others for using them, <b>the profit</b> that accrues after the father’s death is <b>shared equally</b> by the two brothers.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲשָׂאָן",
+      "en": "he made them"
+     },
+     {
+      "he": "לְשָׂכָר,",
+      "en": "for pay"
+     },
+     {
+      "he": "הַשָּׂכָר",
+      "en": "the pay"
+     },
+     {
+      "he": "לָאֶמְצַע.",
+      "en": "to the middle"
+     }
+    ]
+   },
+   {
+    "he": "עֲשָׂאָן לְעַצְמָן,",
+    "en": "If he made them for himself,",
+    "st": "If the father had <b>built them for himself</b>",
+    "stMore": "and for the members of his household to use, the poor brother, who has little use for these amenities, cannot force the rich brother to convert the facilities to commercial use; rather,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עֲשָׂאָן",
+      "en": "he made them"
+     },
+     {
+      "he": "לְעַצְמָן,",
+      "en": "for themselves"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הֶעָשִׁיר אוֹמֵר לֶעָנִי,",
+    "en": "the rich brother can say to the poor one,",
+    "st": "<b>the rich</b> brother can <b>say to the poor</b> brother: Go",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "הֶעָשִׁיר",
+      "en": "the rich one"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֶעָנִי,",
+      "en": "to the poor one"
+     }
+    ]
+   },
+   {
+    "he": "קַח לְךָ עֲבָדִים וְיִרְחֲצוּ בַמֶּרְחָץ,",
+    "en": "Take yourself servants and let them wash in the bathhouse.",
+    "st": "<b>take servants for yourself, and they will bathe in the bathhouse.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קַח",
+      "en": "take"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "עֲבָדִים",
+      "en": "servants"
+     },
+     {
+      "he": "וְיִרְחֲצוּ",
+      "en": "and they will wash"
+     },
+     {
+      "he": "בַמֶּרְחָץ,",
+      "en": "in the bathhouse"
+     }
+    ]
+   },
+   {
+    "he": "קַח לְךָ זֵיתִים",
+    "en": "Take yourself olives",
+    "st": "Or he can say: Go <b>take olives for yourself,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "קַח",
+      "en": "take"
+     },
+     {
+      "he": "לְךָ",
+      "en": "for you"
+     },
+     {
+      "he": "זֵיתִים",
+      "en": "olives"
+     }
+    ]
+   },
+   {
+    "he": "וּבֹא וַעֲשֵׂם בְּבֵית הַבָּד.",
+    "en": "and come and make them into oil in the olive press.",
+    "st": "<b>and come and make</b> them into oil <b>in the olive press.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּבֹא",
+      "en": "and come"
+     },
+     {
+      "he": "וַעֲשֵׂם",
+      "en": "and make them"
+     },
+     {
+      "he": "בְּבֵית",
+      "en": "in house of"
+     },
+     {
+      "he": "הַבָּד.",
+      "en": "the press"
+     }
+    ]
+   },
+   {
+    "he": "שְׁנַיִם שֶׁהָיוּ בְעִיר אַחַת,",
+    "en": "Two people who lived in one city,",
+    "st": "If there are <b>two</b> people <b>who were</b> living <b>in one city,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁנַיִם",
+      "en": "two"
+     },
+     {
+      "he": "שֶׁהָיוּ",
+      "en": "that were"
+     },
+     {
+      "he": "בְעִיר",
+      "en": "in a city"
+     },
+     {
+      "he": "אַחַת,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "שֵׁם אֶחָד יוֹסֵף בֶּן שִׁמְעוֹן",
+    "en": "one named Yosef ben Shimon",
+    "st": "<b>one named Yosef ben Shimon</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֵׁם",
+      "en": "name"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "יוֹסֵף",
+      "en": "Yosef"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "וְשֵׁם אַחֵר יוֹסֵף בֶּן שִׁמְעוֹן,",
+    "en": "and the other named Yosef ben Shimon:",
+    "st": "<b>and the other</b> also <b>named Yosef ben Shimon,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֵׁם",
+      "en": "and the name of"
+     },
+     {
+      "he": "אַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "יוֹסֵף",
+      "en": "Yosef"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "שִׁמְעוֹן,",
+      "en": "Shimon"
+     }
+    ]
+   },
+   {
+    "he": "אֵין יְכוֹלִין לְהוֹצִיא שְׁטָר חוֹב",
+    "en": "they cannot bring a loan paper",
+    "st": "<b>one cannot present a promissory note</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵין",
+      "en": "not"
+     },
+     {
+      "he": "יְכוֹלִין",
+      "en": "they can"
+     },
+     {
+      "he": "לְהוֹצִיא",
+      "en": "to bring out"
+     },
+     {
+      "he": "שְׁטָר",
+      "en": "a document of"
+     },
+     {
+      "he": "חוֹב",
+      "en": "debt"
+     }
+    ]
+   },
+   {
+    "he": "זֶה עַל זֶה",
+    "en": "against each other,",
+    "st": "<b>against the other,</b>",
+    "stMore": "as the purported debtor can claim: On the contrary, it is you who owed me money; you repaid me and I returned this note to you upon payment.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this one"
+     },
+     {
+      "he": "עַל",
+      "en": "against"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא אַחֵר יָכוֹל לְהוֹצִיא עֲלֵיהֶן שְׁטָר חוֹב.",
+    "en": "and no one else can bring a loan paper against them.",
+    "st": "<b>Nor can another,</b> third person, <b>present a promissory note against</b> either of <b>them,</b>",
+    "stMore": "as each one can claim: It is not I but the other Yosef ben Shimon who owes you money.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "אַחֵר",
+      "en": "another"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "can"
+     },
+     {
+      "he": "לְהוֹצִיא",
+      "en": "to bring out"
+     },
+     {
+      "he": "עֲלֵיהֶן",
+      "en": "against them"
+     },
+     {
+      "he": "שְׁטָר",
+      "en": "a document of"
+     },
+     {
+      "he": "חוֹב.",
+      "en": "debt"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא לְאֶחָד בֵּין שְׁטָרוֹתָיו",
+    "en": "If someone found among his papers",
+    "st": "If a document <b>is found among one’s documents</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "was found"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "to one"
+     },
+     {
+      "he": "בֵּין",
+      "en": "among"
+     },
+     {
+      "he": "שְׁטָרוֹתָיו",
+      "en": "his documents"
+     }
+    ]
+   },
+   {
+    "he": "שְׁטָרוֹ שֶׁל יוֹסֵף בֶּן שִׁמְעוֹן פָּרוּעַ,",
+    "en": "The paper of Yosef ben Shimon is paid,",
+    "st": "stating: <b>The promissory note against Yosef ben Shimon is repaid,</b>",
+    "stMore": "and both men named Yosef ben Shimon owed this man money,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁטָרוֹ",
+      "en": "his document"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "יוֹסֵף",
+      "en": "Yosef"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "פָּרוּעַ,",
+      "en": "paid"
+     }
+    ]
+   },
+   {
+    "he": "שְׁטָרוֹת שְׁנֵיהֶן פְּרוּעִין.",
+    "en": "then both of their papers are paid.",
+    "st": "<b>the promissory notes of both of them</b> are considered <b>repaid,</b>",
+    "stMore": "as it cannot be determined which debt was repaid and which is outstanding.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁטָרוֹת",
+      "en": "the documents of"
+     },
+     {
+      "he": "שְׁנֵיהֶן",
+      "en": "both of them"
+     },
+     {
+      "he": "פְּרוּעִין.",
+      "en": "paid"
+     }
+    ]
+   },
+   {
+    "he": "כֵּיצַד יַעֲשׂוּ, יְשָׁלֵשׁוּ.",
+    "en": "What should they do? They should write three names.",
+    "explain": "Yosef son of Shimon son of his grandfather.",
+    "st": "<b>What should</b> two people with the same name in a single city <b>do</b> in order to conduct their business? <b>They should triple</b>",
+    "stMore": "their names by writing three generations: Yosef ben Shimon ben so-and-so.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כֵּיצַד",
+      "en": "how"
+     },
+     {
+      "he": "יַעֲשׂוּ,",
+      "en": "they should do"
+     },
+     {
+      "he": "יְשָׁלֵשׁוּ.",
+      "en": "they should write three"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הָיוּ מְשֻׁלָּשִׁים, יִכְתְּבוּ סִימָן.",
+    "en": "And if those were the same too, they write a sign.",
+    "st": "<b>And if they have</b> identical <b>triple</b> names, i.e., not only their fathers but their grandfathers had identical names, <b>they should write an indication</b>",
+    "stMore": "as to which one is referred to, such as: The short Yosef ben Shimon or the dark Yosef ben Shimon.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "מְשֻׁלָּשִׁים,",
+      "en": "with three the same"
+     },
+     {
+      "he": "יִכְתְּבוּ",
+      "en": "they will write"
+     },
+     {
+      "he": "סִימָן.",
+      "en": "a sign"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם הָיוּ מְסֻמָּנִין, יִכְתְּבוּ כֹּהֵן.",
+    "en": "And if the signs were the same, they write Kohen.",
+    "st": "<b>And if they have</b> identical <b>indications, they should write:</b> Yosef ben Shimon <b>the priest,</b> if one of them is a priest.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "were"
+     },
+     {
+      "he": "מְסֻמָּנִין,",
+      "en": "with the same signs"
+     },
+     {
+      "he": "יִכְתְּבוּ",
+      "en": "they will write"
+     },
+     {
+      "he": "כֹּהֵן.",
+      "en": "Kohen"
+     }
+    ]
+   },
+   {
+    "he": "הָאוֹמֵר לִבְנוֹ,",
+    "en": "Someone who says to his son,",
+    "st": "In the case of <b>one who says to his son</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹמֵר",
+      "en": "the one who says"
+     },
+     {
+      "he": "לִבְנוֹ,",
+      "en": "to his son"
+     }
+    ]
+   },
+   {
+    "he": "שְׁטָר בֵּין שְׁטָרוֹתַי פָּרוּעַ",
+    "en": "One paper among my papers is paid,",
+    "st": "before dying: One promissory <b>note among</b> the promissory <b>notes</b> in <b>my</b> possession <b>is repaid,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁטָר",
+      "en": "a document"
+     },
+     {
+      "he": "בֵּין",
+      "en": "among"
+     },
+     {
+      "he": "שְׁטָרוֹתַי",
+      "en": "my documents"
+     },
+     {
+      "he": "פָּרוּעַ",
+      "en": "paid"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵינִי יוֹדֵעַ אֵיזֶהוּ,",
+    "en": "and I do not know which one:",
+    "st": "<b>but I do not know which one,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵינִי",
+      "en": "and I do not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     },
+     {
+      "he": "אֵיזֶהוּ,",
+      "en": "which one"
+     }
+    ]
+   },
+   {
+    "he": "שְׁטָרוֹת כֻּלָּן פְּרוּעִין.",
+    "en": "then all the papers are paid.",
+    "st": "<b>the</b> promissory <b>notes of all of</b> those who owe him money <b>are</b> considered <b>repaid,</b>",
+    "stMore": "i.e., they are not valid for collection, as it cannot be determined which debt was repaid and which are outstanding.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שְׁטָרוֹת",
+      "en": "the documents"
+     },
+     {
+      "he": "כֻּלָּן",
+      "en": "all of them"
+     },
+     {
+      "he": "פְּרוּעִין.",
+      "en": "paid"
+     }
+    ]
+   },
+   {
+    "he": "נִמְצָא לְאֶחָד שָׁם שְׁנַיִם,",
+    "en": "If two were found from one person,",
+    "st": "If there were <b>found</b> among his papers <b>two</b> promissory notes owed <b>by one</b> person,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִמְצָא",
+      "en": "was found"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "to one"
+     },
+     {
+      "he": "שָׁם",
+      "en": "there"
+     },
+     {
+      "he": "שְׁנַיִם,",
+      "en": "two"
+     }
+    ]
+   },
+   {
+    "he": "הַגָּדוֹל פָּרוּעַ וְהַקָּטָן אֵינוֹ פָרוּעַ.",
+    "en": "the bigger one is paid and the smaller one is not paid.",
+    "st": "the one for <b>the greater</b> amount <b>is</b> considered <b>repaid, and</b> the one for <b>the smaller</b> amount <b>is not</b> considered <b>repaid</b>",
+    "stMore": "and can be collected; the debtor is favored in the case of an uncertainty.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the bigger"
+     },
+     {
+      "he": "פָּרוּעַ",
+      "en": "paid"
+     },
+     {
+      "he": "וְהַקָּטָן",
+      "en": "and the smaller"
+     },
+     {
+      "he": "אֵינוֹ",
+      "en": "is not"
+     },
+     {
+      "he": "פָרוּעַ.",
+      "en": "paid"
+     }
+    ]
+   },
+   {
+    "he": "הַמַּלְוֶה אֶת חֲבֵרוֹ עַל יְדֵי עָרֵב,",
+    "en": "Someone who lends his friend with a guarantor",
+    "st": "<b>One who lends</b> money <b>to another with</b> the assurance of <b>a guarantor</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּלְוֶה",
+      "en": "the one who lends"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hands of"
+     },
+     {
+      "he": "עָרֵב,",
+      "en": "a guarantor",
+      "note": "A person who promises to pay if the borrower does not."
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִפָּרַע מִן הֶעָרֵב.",
+    "en": "may not collect from the guarantor.",
+    "st": "<b>cannot collect</b> the debt <b>from the guarantor.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִפָּרַע",
+      "en": "he may collect"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הֶעָרֵב.",
+      "en": "the guarantor"
+     }
+    ]
+   },
+   {
+    "he": "וְאִם אָמַר",
+    "en": "But if he said,",
+    "st": "<b>But if</b> the creditor <b>said to</b> the debtor:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאִם",
+      "en": "and if"
+     },
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     }
+    ]
+   },
+   {
+    "he": "עַל מְנָת שֶׁאֶפָּרַע מִמִּי שֶׁאֶרְצֶה,",
+    "en": "On the condition that I collect from whoever I want,",
+    "st": "I am lending the money <b>on the condition that I will collect</b> the debt <b>from whomever I wish,</b> i.e., either the debtor or the guarantor,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "מְנָת",
+      "en": "condition"
+     },
+     {
+      "he": "שֶׁאֶפָּרַע",
+      "en": "that I collect"
+     },
+     {
+      "he": "מִמִּי",
+      "en": "from whoever"
+     },
+     {
+      "he": "שֶׁאֶרְצֶה,",
+      "en": "that I want"
+     }
+    ]
+   },
+   {
+    "he": "יִפָּרַע מִן הֶעָרֵב.",
+    "en": "he may collect from the guarantor.",
+    "st": "he <b>can collect</b> the debt <b>from the guarantor.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יִפָּרַע",
+      "en": "he may collect"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הֶעָרֵב.",
+      "en": "the guarantor"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "Rabban Shimon ben Gamliel says:",
+    "st": "<b>Rabban Shimon ben Gamliel says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "אִם יֵשׁ נְכָסִים לַלֹּוֶה,",
+    "en": "If the borrower has property,",
+    "st": "<b>If the debtor has property</b> of his own,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "יֵשׁ",
+      "en": "there is"
+     },
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "לַלֹּוֶה,",
+      "en": "to the borrower"
+     }
+    ]
+   },
+   {
+    "he": "בֵּין כָּךְ וּבֵין כָּךְ",
+    "en": "either way",
+    "st": "then <b>whether</b> in <b>this</b> case, where the creditor stipulated this condition, <b>or that</b> case, where he did not,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּין",
+      "en": "between"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this way"
+     },
+     {
+      "he": "וּבֵין",
+      "en": "and between"
+     },
+     {
+      "he": "כָּךְ",
+      "en": "this way"
+     }
+    ]
+   },
+   {
+    "he": "לֹא יִפָּרַע מִן הֶעָרֵב.",
+    "en": "he may not collect from the guarantor.",
+    "st": "he <b>cannot collect</b> the debt <b>from the guarantor.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "יִפָּרַע",
+      "en": "he may collect"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הֶעָרֵב.",
+      "en": "the guarantor"
+     }
+    ]
+   },
+   {
+    "he": "וְכֵן הָיָה רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר,",
+    "en": "And Rabban Shimon ben Gamliel also used to say:",
+    "st": "<b>And so Rabban Shimon ben Gamliel would say:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְכֵן",
+      "en": "and so"
+     },
+     {
+      "he": "הָיָה",
+      "en": "was"
+     },
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "הֶעָרֵב לָאִשָּׁה בִּכְתֻבָּתָהּ וְהָיָה בַעְלָהּ מְגָרְשָׁהּ,",
+    "en": "Someone who is the guarantor for a woman's kesubah, and her husband was divorcing her:",
+    "st": "If there is <b>a guarantor for a woman for her marriage contract,</b> from whom the woman can collect payment of her marriage contract instead of collecting it from the husband, <b>and her husband was divorcing her,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֶעָרֵב",
+      "en": "the guarantor"
+     },
+     {
+      "he": "לָאִשָּׁה",
+      "en": "for the woman"
+     },
+     {
+      "he": "בִּכְתֻבָּתָהּ",
+      "en": "for her kesubah"
+     },
+     {
+      "he": "וְהָיָה",
+      "en": "and was"
+     },
+     {
+      "he": "בַעְלָהּ",
+      "en": "her husband"
+     },
+     {
+      "he": "מְגָרְשָׁהּ,",
+      "en": "divorcing her"
+     }
+    ]
+   },
+   {
+    "he": "יַדִּירֶנָּה הֲנָאָה,",
+    "en": "he must make a neder never to benefit from her,",
+    "st": "the husband <b>must take a vow</b> prohibiting himself from deriving any <b>benefit from her,</b> so that he can never remarry her.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַדִּירֶנָּה",
+      "en": "he must make her forbidden by a neder"
+     },
+     {
+      "he": "הֲנָאָה,",
+      "en": "benefit"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁמָּא יַעֲשׂוּ קְנוּנְיָא",
+    "en": "in case they make a trick",
+    "st": "This precaution is taken <b>lest</b> the couple <b>collude [kenunya]</b>",
+    "stMore": "to divorce in order to collect payment of the marriage contract",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁמָּא",
+      "en": "maybe"
+     },
+     {
+      "he": "יַעֲשׂוּ",
+      "en": "they will make"
+     },
+     {
+      "he": "קְנוּנְיָא",
+      "en": "a trick"
+     }
+    ]
+   },
+   {
+    "he": "עַל נְכָסִים שֶׁל זֶה",
+    "en": "to get the guarantor's property,",
+    "st": "<b>from this</b> guarantor’s <b>property,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "נְכָסִים",
+      "en": "property"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "וְיַחֲזִיר אֶת אִשְׁתּוֹ:",
+    "en": "and then he takes his wife back.",
+    "st": "<b>and</b> then the husband <b>will remarry</b> his wife.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיַחֲזִיר",
+      "en": "and he will take back"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אִשְׁתּוֹ:",
+      "en": "his wife"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 10,
+  "mishnah": 8,
+  "summary": "A lender with a signed loan paper can even collect from land the borrower later sold, but with only witnesses or a handwritten note he collects only from what the borrower still has. Ben Nanas teaches when a guarantor must pay, and Rabbi Yishmael praises learning money laws.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הַמַּלְוֶה אֶת חֲבֵרוֹ בִּשְׁטָר,",
+    "en": "Someone who lends his friend with a document",
+    "st": "<b>One who lends</b> money <b>to another by means of</b> a promissory <b>note</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַמַּלְוֶה",
+      "en": "the one who lends"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "בִּשְׁטָר,",
+      "en": "with a document"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבֶה מִנְּכָסִים מְשֻׁעְבָּדִים.",
+    "en": "collects even from property that was sold.",
+    "st": "<b>can collect</b> the debt <b>from liened property</b>",
+    "stMore": "that had been sold to others by the debtor after the loan was granted.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "מְשֻׁעְבָּדִים.",
+      "en": "that is pledged",
+      "note": "Property that was sold after the loan, which the loan still holds onto."
+     }
+    ]
+   },
+   {
+    "he": "עַל יְדֵי עֵדִים,",
+    "en": "With only witnesses,",
+    "st": "One who lends money <b>by means of witnesses,</b>",
+    "stMore": "without recording the loan in a promissory note,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "יְדֵי",
+      "en": "the hands of"
+     },
+     {
+      "he": "עֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "גוֹבֶה מִנְּכָסִים בְּנֵי חוֹרִין.",
+    "en": "he collects only from property the borrower still has.",
+    "st": "<b>can collect</b> the debt only <b>from unsold property.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "children of"
+     },
+     {
+      "he": "חוֹרִין.",
+      "en": "freedom",
+      "note": "Property that was not sold."
+     }
+    ]
+   },
+   {
+    "he": "הוֹצִיא עָלָיו כְּתַב יָדוֹ",
+    "en": "If he brought out the borrower's handwriting",
+    "st": "If one <b>presents to</b> a debtor a document in the <b>handwriting of</b> the debtor stating",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹצִיא",
+      "en": "he brought out"
+     },
+     {
+      "he": "עָלָיו",
+      "en": "against him"
+     },
+     {
+      "he": "כְּתַב",
+      "en": "the writing of"
+     },
+     {
+      "he": "יָדוֹ",
+      "en": "his hand"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהוּא חַיָּב לוֹ,",
+    "en": "that says he owes him,",
+    "st": "<b>that he owes</b> money <b>to him,</b> but without witnesses signed on the document,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב",
+      "en": "owes"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבֶה מִנְּכָסִים בְּנֵי חוֹרִין.",
+    "en": "he collects only from property the borrower still has.",
+    "st": "the creditor <b>can collect</b> only <b>from unsold property.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "children of"
+     },
+     {
+      "he": "חוֹרִין.",
+      "en": "freedom"
+     }
+    ]
+   },
+   {
+    "he": "עָרֵב הַיּוֹצֵא לְאַחַר חִתּוּם שְׁטָרוֹת,",
+    "en": "A guarantor who signed after the witnesses signed the loan paper:",
+    "st": "In the case of <b>a guarantor whose</b> commitment <b>emerged after the signing of</b> the promissory <b>note,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עָרֵב",
+      "en": "a guarantor"
+     },
+     {
+      "he": "הַיּוֹצֵא",
+      "en": "who comes out"
+     },
+     {
+      "he": "לְאַחַר",
+      "en": "after"
+     },
+     {
+      "he": "חִתּוּם",
+      "en": "the signing of"
+     },
+     {
+      "he": "שְׁטָרוֹת,",
+      "en": "documents"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבֶה מִנְּכָסִים בְּנֵי חוֹרִין.",
+    "en": "he collects only from property he still has.",
+    "st": "the creditor <b>can collect</b> the sum only <b>from unsold property</b> of the guarantor.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "children of"
+     },
+     {
+      "he": "חוֹרִין.",
+      "en": "freedom"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה בָא לִפְנֵי רַבִּי יִשְׁמָעֵאל וְאָמַר,",
+    "en": "A case came before Rabbi Yishmael, and he said,",
+    "st": "The mishna relates: <b>An incident</b> occurred where such a case <b>came before Rabbi Yishmael, and he said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בָא",
+      "en": "came"
+     },
+     {
+      "he": "לִפְנֵי",
+      "en": "before"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יִשְׁמָעֵאל",
+      "en": "Yishmael"
+     },
+     {
+      "he": "וְאָמַר,",
+      "en": "and said"
+     }
+    ]
+   },
+   {
+    "he": "גּוֹבֶה מִנְּכָסִים בְּנֵי חוֹרִין.",
+    "en": "he collects from property he still has.",
+    "st": "The creditor can <b>collect</b> the sum <b>from unsold property</b>",
+    "stMore": "of the guarantor, but not from liened property that he has sold to others.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גּוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "children of"
+     },
+     {
+      "he": "חוֹרִין.",
+      "en": "freedom"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ בֶּן נַנָּס,",
+    "en": "Ben Nanas said to him,",
+    "st": "<b>Ben Nannas said to</b> Rabbi Yishmael:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "בֶּן",
+      "en": "Ben"
+     },
+     {
+      "he": "נַנָּס,",
+      "en": "Nanas"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ גוֹבֶה לֹא מִנְּכָסִים מְשֻׁעְבָּדִים",
+    "en": "he does not collect, not from sold property",
+    "st": "The creditor <b>cannot collect</b> the sum from the guarantor at all, <b>not from liened property</b> that has been sold,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "not"
+     },
+     {
+      "he": "גוֹבֶה",
+      "en": "collects"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "מְשֻׁעְבָּדִים",
+      "en": "that is pledged"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מִנְּכָסִים בְּנֵי חוֹרִין.",
+    "en": "and not from property he still has.",
+    "st": "<b>nor from unsold property.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מִנְּכָסִים",
+      "en": "from property"
+     },
+     {
+      "he": "בְּנֵי",
+      "en": "children of"
+     },
+     {
+      "he": "חוֹרִין.",
+      "en": "freedom"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ, לָמָּה.",
+    "en": "He said to him, Why?",
+    "st": "Rabbi Yishmael <b>said to him: Why</b> not?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     },
+     {
+      "he": "לָמָּה.",
+      "en": "why"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ,",
+    "en": "He said to him:",
+    "st": "Ben Nannas <b>said to him:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "to him"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי הַחוֹנֵק אֶת אֶחָד בַּשּׁוּק",
+    "en": "If someone was grabbing a person in the market to make him pay,",
+    "st": "If <b>one was strangling someone in the marketplace,</b> demanding repayment of a loan,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "behold"
+     },
+     {
+      "he": "הַחוֹנֵק",
+      "en": "the one who grabs"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "someone"
+     },
+     {
+      "he": "בַּשּׁוּק",
+      "en": "in the market"
+     }
+    ]
+   },
+   {
+    "he": "וּמְצָאוֹ חֲבֵרוֹ וְאָמַר לוֹ הַנַּח לוֹ,",
+    "en": "and his friend found him and said, Leave him alone,",
+    "st": "<b>and another</b> person <b>found him</b> doing so and <b>said to</b> the attacker: <b>Leave him</b> alone <b>and I will give you</b> the money he owes,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְצָאוֹ",
+      "en": "and found him"
+     },
+     {
+      "he": "חֲבֵרוֹ",
+      "en": "his friend"
+     },
+     {
+      "he": "וְאָמַר",
+      "en": "and said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "הַנַּח",
+      "en": "leave"
+     },
+     {
+      "he": "לוֹ,",
+      "en": "him"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר, שֶׁלֹּא עַל אֱמוּנָתוֹ הִלְוָהוּ.",
+    "en": "he does not have to pay, because the loan was not made trusting him.",
+    "st": "the person who intervened is <b>exempt</b> from paying, <b>as</b> the creditor <b>did not loan</b> the money in the first place <b>based on his trust</b> of the one who intervened.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר,",
+      "en": "exempt"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "because not"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "אֱמוּנָתוֹ",
+      "en": "his trust"
+     },
+     {
+      "he": "הִלְוָהוּ.",
+      "en": "he lent him"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא אֵיזֶהוּ עָרֵב שֶׁהוּא חַיָּב,",
+    "en": "So which guarantor does have to pay?",
+    "st": "<b>Rather, who is a guarantor who is obligated</b> to repay the loan he has guaranteed?",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "but"
+     },
+     {
+      "he": "אֵיזֶהוּ",
+      "en": "which is"
+     },
+     {
+      "he": "עָרֵב",
+      "en": "a guarantor"
+     },
+     {
+      "he": "שֶׁהוּא",
+      "en": "that he"
+     },
+     {
+      "he": "חַיָּב,",
+      "en": "owes"
+     }
+    ]
+   },
+   {
+    "he": "הַלְוֵהוּ וַאֲנִי נוֹתֵן לְךָ,",
+    "en": "One who says, Lend him and I will pay you,",
+    "st": "One who tells the creditor before the loan takes place: <b>Lend</b> money to <b>him, and I will give you</b> the repayment,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַלְוֵהוּ",
+      "en": "lend him"
+     },
+     {
+      "he": "וַאֲנִי",
+      "en": "and I"
+     },
+     {
+      "he": "נוֹתֵן",
+      "en": "give"
+     },
+     {
+      "he": "לְךָ,",
+      "en": "to you"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב, שֶׁכֵּן עַל אֱמוּנָתוֹ הִלְוָהוּ.",
+    "en": "he must pay, because the loan was made trusting him.",
+    "st": "<b>as</b> in that case the creditor <b>did loan</b> the money <b>based on his trust</b> of the guarantor.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב,",
+      "en": "owes"
+     },
+     {
+      "he": "שֶׁכֵּן",
+      "en": "because"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "אֱמוּנָתוֹ",
+      "en": "his trust"
+     },
+     {
+      "he": "הִלְוָהוּ.",
+      "en": "he lent him"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר רַבִּי יִשְׁמָעֵאל,",
+    "en": "Rabbi Yishmael said:",
+    "st": "<b>And Rabbi Yishmael</b> thereupon <b>said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יִשְׁמָעֵאל,",
+      "en": "Yishmael"
+     }
+    ]
+   },
+   {
+    "he": "הָרוֹצֶה שֶׁיַּחְכִּים,",
+    "en": "Whoever wants to become wise",
+    "st": "<b>One who wants to become wise</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָרוֹצֶה",
+      "en": "the one who wants"
+     },
+     {
+      "he": "שֶׁיַּחְכִּים,",
+      "en": "that he will become wise"
+     }
+    ]
+   },
+   {
+    "he": "יַעֲסוֹק בְּדִינֵי מָמוֹנוֹת,",
+    "en": "should learn the laws of money,",
+    "st": "<b>should engage in</b> the study of <b>monetary law,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יַעֲסוֹק",
+      "en": "should busy himself"
+     },
+     {
+      "he": "בְּדִינֵי",
+      "en": "in laws of"
+     },
+     {
+      "he": "מָמוֹנוֹת,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאֵין לְךָ מִקְצוֹעַ בַּתּוֹרָה גָּדוֹל מֵהֶן,",
+    "en": "because there is no part of the Torah greater than them,",
+    "st": "<b>as there is no greater discipline in the Torah,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאֵין",
+      "en": "because there is not"
+     },
+     {
+      "he": "לְךָ",
+      "en": "to you"
+     },
+     {
+      "he": "מִקְצוֹעַ",
+      "en": "a part"
+     },
+     {
+      "he": "בַּתּוֹרָה",
+      "en": "in the Torah"
+     },
+     {
+      "he": "גָּדוֹל",
+      "en": "greater"
+     },
+     {
+      "he": "מֵהֶן,",
+      "en": "than them"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁהֵן כְּמַעְיָן הַנּוֹבֵעַ.",
+    "en": "for they are like a flowing spring.",
+    "st": "<b>and it is like a flowing spring.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁהֵן",
+      "en": "because they are"
+     },
+     {
+      "he": "כְּמַעְיָן",
+      "en": "like a spring"
+     },
+     {
+      "he": "הַנּוֹבֵעַ.",
+      "en": "that flows"
+     }
+    ]
+   },
+   {
+    "he": "וְהָרוֹצֶה שֶׁיַּעֲסוֹק בְּדִינֵי מָמוֹנוֹת,",
+    "en": "And whoever wants to learn the laws of money",
+    "st": "<b>And,</b> he added, <b>one who wants to engage in</b> the study of <b>monetary law</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָרוֹצֶה",
+      "en": "and the one who wants"
+     },
+     {
+      "he": "שֶׁיַּעֲסוֹק",
+      "en": "that he will busy himself"
+     },
+     {
+      "he": "בְּדִינֵי",
+      "en": "in laws of"
+     },
+     {
+      "he": "מָמוֹנוֹת,",
+      "en": "money"
+     }
+    ]
+   },
+   {
+    "he": "יְשַׁמֵּשׁ אֶת שִׁמְעוֹן בֶּן נַנָּס:",
+    "en": "should serve and learn from Shimon ben Nanas.",
+    "st": "<b>should attend to,</b> i.e., become a disciple of, <b>Shimon ben Nannas.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְשַׁמֵּשׁ",
+      "en": "should serve"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "שִׁמְעוֹן",
+      "en": "Shimon"
+     },
+     {
+      "he": "בֶּן",
+      "en": "son of"
+     },
+     {
+      "he": "נַנָּס:",
+      "en": "Nanas"
+     }
+    ]
+   }
+  ]
+ }
+]

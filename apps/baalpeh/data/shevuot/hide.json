@@ -1,0 +1,11 @@
+{
+  "_about": "Content kept in data/gloss but left out of (or reworded in) the built app data by scripts/build_data.py, so the shipped text suits young children. Every rule must still match the gloss, or the build fails. See README > Hidden content.",
+  "hideSteinsaltz": {
+    "_about": "Mishnayos whose Steinsaltz text (stIntro, st, stMore) is dropped. Their pieces then show only the simple meaning, with no Steinsaltz toggle.",
+    "2:4": "Steinsaltz spells out intercourse with a menstruating woman in physical detail.",
+    "4:6": "Steinsaltz names rape and seduction of a daughter.",
+    "4:7": "Steinsaltz names rape and seduction of a daughter.",
+    "5:4": "Steinsaltz names rape and seduction, and payments for the girl's humiliation and degradation."
+  },
+  "override": []
+}

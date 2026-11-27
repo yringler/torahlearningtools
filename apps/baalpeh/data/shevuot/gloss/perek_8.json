@@ -1,0 +1,2604 @@
+[
+ {
+  "perek": 8,
+  "mishnah": 1,
+  "summary": "There are four kinds of shomrim: an unpaid watchman, a borrower, a paid watchman, and a renter. Each one has different rules about paying when something happens to the item.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אַרְבָּעָה שׁוֹמְרִין הֵן,",
+    "en": "There are four kinds of watchmen:",
+    "st": "<b>There are four</b> types of <b>bailees,</b> to whom different halakhot apply.",
+    "stMore": "They are as follows:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "שׁוֹמְרִין",
+      "en": "watchmen",
+      "note": "A shomer watches something that belongs to someone else."
+     },
+     {
+      "he": "הֵן,",
+      "en": "there are"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמֵר חִנָּם,",
+    "en": "an unpaid watchman,",
+    "st": "<b>An unpaid bailee,</b> who receives no compensation for safeguarding the item in his care;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמֵר",
+      "en": "a watchman"
+     },
+     {
+      "he": "חִנָּם,",
+      "en": "for free"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׁוֹאֵל, נוֹשֵׂא שָׂכָר,",
+    "en": "a borrower, a paid watchman,",
+    "st": "<b>and a borrower,</b> who receives an item on loan for his own use without paying a rental fee; <b>a paid bailee,</b> who is paid a salary for safeguarding the deposited item;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׁוֹאֵל,",
+      "en": "and the borrower"
+     },
+     {
+      "he": "נוֹשֵׂא",
+      "en": "one who takes"
+     },
+     {
+      "he": "שָׂכָר,",
+      "en": "pay"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׂוֹכֵר.",
+    "en": "and a renter.",
+    "st": "<b>and a renter,</b> i.e., one who pays a fee for the use of an item or animal.",
+    "stMore": "In the event that one of these bailees is unable to return the deposited item to its owner, the halakha with regard to liability is dependent upon what happened to the item, and upon the type of bailee:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׂוֹכֵר.",
+      "en": "and the renter"
+     }
+    ]
+   },
+   {
+    "he": "שׁוֹמֵר חִנָּם נִשְׁבָּע עַל הַכֹּל.",
+    "en": "An unpaid watchman swears, and then he is patur for everything.",
+    "st": "<b>An unpaid bailee takes an oath</b> attesting to the fact that he was not negligent with the care of the item and is then exempt from liability <b>for everything,</b>",
+    "stMore": "meaning for all types of damage, whether the item was lost, stolen, damaged, or if the animal died.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שׁוֹמֵר",
+      "en": "a watchman"
+     },
+     {
+      "he": "חִנָּם",
+      "en": "for free"
+     },
+     {
+      "he": "נִשְׁבָּע",
+      "en": "swears"
+     },
+     {
+      "he": "עַל",
+      "en": "for"
+     },
+     {
+      "he": "הַכֹּל.",
+      "en": "everything"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשּׁוֹאֵל מְשַׁלֵּם אֶת הַכֹּל.",
+    "en": "A borrower pays for everything.",
+    "st": "Conversely, <b>a borrower</b> does not have the option of taking an oath, and <b>pays for everything,</b>",
+    "stMore": "whether the item was stolen, lost, damaged, or the animal died, even if it was by unavoidable accident.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשּׁוֹאֵל",
+      "en": "and the borrower"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַכֹּל.",
+      "en": "everything"
+     }
+    ]
+   },
+   {
+    "he": "נוֹשֵׂא שָׂכָר וְהַשּׂוֹכֵר נִשְׁבָּעִין עַל",
+    "en": "A paid watchman and a renter swear about",
+    "st": "The halakhot of <b>a paid bailee and a renter</b> are the same: They <b>take an oath concerning </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נוֹשֵׂא",
+      "en": "one who takes"
+     },
+     {
+      "he": "שָׂכָר",
+      "en": "pay"
+     },
+     {
+      "he": "וְהַשּׂוֹכֵר",
+      "en": "and the renter"
+     },
+     {
+      "he": "נִשְׁבָּעִין",
+      "en": "swear"
+     },
+     {
+      "he": "עַל",
+      "en": "about"
+     }
+    ]
+   },
+   {
+    "he": "הַשְּׁבוּרָה וְעַל הַשְּׁבוּיָה וְעַל הַמֵּתָה,",
+    "en": "an animal that was hurt, or captured, or died,",
+    "st": "<b>an injured</b> animal, <b>and concerning a captured</b> one, <b>and concerning a dead</b>",
+    "stMore": "animal, attesting to the fact that these mishaps were not caused by negligence, but rather by unavoidable accident, and then are exempt from liability.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַשְּׁבוּרָה",
+      "en": "the hurt one"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and about"
+     },
+     {
+      "he": "הַשְּׁבוּיָה",
+      "en": "the captured one"
+     },
+     {
+      "he": "וְעַל",
+      "en": "and about"
+     },
+     {
+      "he": "הַמֵּתָה,",
+      "en": "the dead one"
+     }
+    ]
+   },
+   {
+    "he": "וּמְשַׁלְּמִים אֶת הָאֲבֵדָה וְאֶת הַגְּנֵבָה:",
+    "en": "and they pay if it was lost or stolen.",
+    "st": "<b>But they must pay</b> if the deposit cannot be returned due to <b>loss or theft,</b> even if these were not caused by negligence.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמְשַׁלְּמִים",
+      "en": "and they pay"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאֲבֵדָה",
+      "en": "the lost one"
+     },
+     {
+      "he": "וְאֶת",
+      "en": "and (the)"
+     },
+     {
+      "he": "הַגְּנֵבָה:",
+      "en": "the stolen one"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 2,
+  "summary": "An unpaid watchman told a lie about how the ox was lost and swore. He is patur from a korban, because he would not have to pay anyway.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר לְשׁוֹמֵר חִנָּם,",
+    "en": "If he said to an unpaid watchman,",
+    "st": "The mishna clarifies: If the owner of an ox <b>said to an unpaid bailee: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לְשׁוֹמֵר",
+      "en": "to a watchman"
+     },
+     {
+      "he": "חִנָּם,",
+      "en": "for free"
+     }
+    ]
+   },
+   {
+    "he": "הֵיכָן שׁוֹרִי,",
+    "en": "\"Where is my ox?\"",
+    "st": "<b>Where is my ox?</b> And the unpaid bailee",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "is my ox"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ מֵת,",
+    "en": "and he said, \"It died,\"",
+    "st": "<b>said to him: It died, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מֵת,",
+      "en": "it died"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא שֶׁנִּשְׁבַּר אוֹ נִשְׁבָּה",
+    "en": "but really it was hurt, or captured,",
+    "st": "<b>but</b> the truth was <b>that it was injured or captured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁנִּשְׁבַּר",
+      "en": "that was hurt"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִגְנַב אוֹ אָבַד.",
+    "en": "or stolen, or lost;",
+    "st": "<b>or stolen or lost;</b> or if the bailee responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב",
+      "en": "was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּר, וְהוּא שֶׁמֵּת אוֹ נִשְׁבָּה",
+    "en": "or \"It was hurt,\" but really it died, or was captured,",
+    "st": "<b>It was injured, but</b> the truth was <b>that it died or was captured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּר,",
+      "en": "it was hurt"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִגְנַב אוֹ אָבַד.",
+    "en": "or stolen, or lost;",
+    "st": "<b>or stolen or lost;</b> or if he responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב",
+      "en": "was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּה, וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר",
+    "en": "or \"It was captured,\" but really it died, or was hurt,",
+    "st": "<b>It was captured, but</b> the truth was <b>that it died or was injured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּה,",
+      "en": "was captured"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִגְנַב אוֹ אָבַד.",
+    "en": "or stolen, or lost;",
+    "st": "<b>or stolen or lost;</b> or if he responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב",
+      "en": "was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "נִגְנָב, וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר",
+    "en": "or \"It was stolen,\" but really it died, or was hurt,",
+    "st": "<b>It was stolen, but</b> the truth was <b>that it died or was injured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִגְנָב,",
+      "en": "was stolen"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִשְׁבָּה אוֹ אָבַד.",
+    "en": "or captured, or lost;",
+    "st": "<b>or captured or lost;</b> or if he responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "אָבַד, וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר",
+    "en": "or \"It got lost,\" but really it died, or was hurt,",
+    "st": "<b>It was lost, but</b> the truth was <b>that it died or was injured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבַד,",
+      "en": "was lost"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִשְׁבָּה אוֹ נִגְנַב.",
+    "en": "or captured, or stolen,",
+    "st": "<b>or captured or stolen,</b> in any of the above cases, if the owner of the ox then said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב.",
+      "en": "was stolen"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the owner said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן, פָּטוּר:",
+    "en": "and he said \"Amen,\" he is patur.",
+    "explain": "His lie did not save him money, because an unpaid watchman would not pay for these anyway.",
+    "st": "<b>and</b> the unpaid bailee <b>said: Amen,</b> he is <b>exempt</b>",
+    "stMore": "from bringing a guilt-offering, despite the fact that he took a false oath. The reason is that his false oath did not render him exempt from liability to pay.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "he is patur"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 3,
+  "summary": "If a watchman lied with an oath to get out of paying, and witnesses prove it, he pays. If he admits it by himself, he pays an extra fifth and brings a korban asham.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֵיכָן שׁוֹרִי,",
+    "en": "\"Where is my ox?\"",
+    "st": "If the owner says to an unpaid bailee: <b>Where is my ox?</b> And the unpaid bailee",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "is my ox"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ אֵינִי יוֹדֵעַ",
+    "en": "He said to him, \"I don't know",
+    "st": "<b>said to him: I do not know </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "מָה אַתָּה סָח,",
+    "en": "what you are talking about,\"",
+    "st": "<b>what you are talking about, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "סָח,",
+      "en": "are saying"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר אוֹ",
+    "en": "but really it died, or was hurt, or",
+    "st": "<b>but</b> the truth was <b>that it died or was injured or </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּה אוֹ נִגְנַב אוֹ אָבַד.",
+    "en": "captured, or stolen, or lost,",
+    "st": "<b>captured or stolen or lost,</b> and the owner said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב",
+      "en": "was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the owner said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and</b> the unpaid bailee <b>said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "he is <b>exempt</b>",
+    "stMore": "from bringing a guilt-offering, since he would not have been liable to pay in any of these cases. But if the owner said to the unpaid bailee:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "הֵיכָן שׁוֹרִי,",
+    "en": "\"Where is my ox?\"",
+    "st": "<b>Where is my ox?</b> And the unpaid bailee",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "is my ox"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ אָבַד.",
+    "en": "He said to him, \"It got lost.\"",
+    "st": "<b>said to him: It is lost,</b> and the owner said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "it was lost"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "\"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and</b> the unpaid bailee <b>said: Amen, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "וְהָעֵדִים מְעִידִין אוֹתוֹ שֶׁאֲכָלוֹ,",
+    "en": "and witnesses say that he ate it himself,",
+    "st": "<b>and</b> then <b>witnesses testify that</b> the bailee <b>consumed it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָעֵדִים",
+      "en": "and the witnesses"
+     },
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "about him"
+     },
+     {
+      "he": "שֶׁאֲכָלוֹ,",
+      "en": "that he ate it"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם אֶת הַקֶּרֶן.",
+    "en": "he pays back its value.",
+    "st": "he <b>pays</b> the owner <b>the principal,</b> since he took the ox for himself.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הַקֶּרֶן.",
+      "en": "the value"
+     }
+    ]
+   },
+   {
+    "he": "הוֹדָה מֵעַצְמוֹ,",
+    "en": "If he admitted it by himself,",
+    "st": "But if there were no witnesses, but after he took the oath <b>he admitted of his own</b> accord that he stole the ox and took a false oath,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹדָה",
+      "en": "he admitted"
+     },
+     {
+      "he": "מֵעַצְמוֹ,",
+      "en": "by himself"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם קֶרֶן וְחֹמֶשׁ וְאָשָׁם.",
+    "en": "he pays the value, plus a fifth, and brings a korban asham.",
+    "st": "then he <b>pays</b> the owner the <b>principal and</b> the additional <b>one-fifth</b> payment, <b>and</b> he brings <b>a guilt-offering</b>",
+    "stMore": "to achieve atonement, as in any other case where one takes a false oath with regard to a deposit. Similarly, if the owner said to the unpaid bailee:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "קֶרֶן",
+      "en": "the value"
+     },
+     {
+      "he": "וְחֹמֶשׁ",
+      "en": "and a fifth"
+     },
+     {
+      "he": "וְאָשָׁם.",
+      "en": "and an asham"
+     }
+    ]
+   },
+   {
+    "he": "הֵיכָן שׁוֹרִי,",
+    "en": "\"Where is my ox?\"",
+    "st": "<b>Where is my ox? </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "is my ox"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ נִגְנָב.",
+    "en": "He said to him, \"It was stolen.\"",
+    "st": "<b>And</b> the unpaid bailee <b>said to him: It was stolen,</b> and the owner said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "נִגְנָב.",
+      "en": "it was stolen"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "\"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and</b> the unpaid bailee <b>said: Amen, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "וְהָעֵדִים מְעִידִין אוֹתוֹ שֶׁגְּנָבוֹ,",
+    "en": "and witnesses say that he stole it himself,",
+    "st": "<b>and</b> then <b>witnesses testify that</b> the bailee <b>stole it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָעֵדִים",
+      "en": "and the witnesses"
+     },
+     {
+      "he": "מְעִידִין",
+      "en": "testify"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "about him"
+     },
+     {
+      "he": "שֶׁגְּנָבוֹ,",
+      "en": "that he stole it"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל.",
+    "en": "he pays double.",
+    "st": "he <b>pays double</b> the principal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "כֶפֶל.",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "הוֹדָה מֵעַצְמוֹ,",
+    "en": "If he admitted it by himself,",
+    "st": "<b>If he admitted of his own</b>",
+    "stMore": "accord that he stole it, then he is exempt from double payment for theft,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הוֹדָה",
+      "en": "he admitted"
+     },
+     {
+      "he": "מֵעַצְמוֹ,",
+      "en": "by himself"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם קֶרֶן וְחֹמֶשׁ וְאָשָׁם:",
+    "en": "he pays the value, plus a fifth, and brings a korban asham.",
+    "st": "but <b>pays</b> the <b>principal and</b> the additional <b>one-fifth</b> payment, <b>and</b> brings <b>a guilt-offering</b> to achieve atonement.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pays"
+     },
+     {
+      "he": "קֶרֶן",
+      "en": "the value"
+     },
+     {
+      "he": "וְחֹמֶשׁ",
+      "en": "and a fifth"
+     },
+     {
+      "he": "וְאָשָׁם:",
+      "en": "and an asham"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 4,
+  "summary": "A thief who denies stealing and is proven guilty by witnesses pays double, or four or five times if he slaughtered or sold the animal. If he admits before the witnesses testify, he pays only the value.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר לְאֶחָד בַּשּׁוּק הֵיכָן שׁוֹרִי שֶׁגָּנַבְתָּ,",
+    "en": "If he said to someone in the market, \"Where is my ox that you stole?\"",
+    "st": "If the owner of an ox <b>said to someone in the marketplace,</b> i.e., a stranger who was not a bailee: <b>Where is my ox that you stole?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לְאֶחָד",
+      "en": "to one"
+     },
+     {
+      "he": "בַּשּׁוּק",
+      "en": "in the market"
+     },
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "שׁוֹרִי",
+      "en": "is my ox"
+     },
+     {
+      "he": "שֶׁגָּנַבְתָּ,",
+      "en": "that you stole"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר לֹא גָנַבְתִּי,",
+    "en": "and he says, \"I did not steal it,\"",
+    "st": "And the accused <b>says: I did not steal</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר",
+      "en": "says"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "גָנַבְתִּי,",
+      "en": "I stole"
+     }
+    ]
+   },
+   {
+    "he": "וְהָעֵדִים מְעִידִים אוֹתוֹ שֶׁגְּנָבוֹ,",
+    "en": "and witnesses say that he stole it,",
+    "st": "<b>and</b> then <b>witnesses testify that</b> the accused <b>did steal it,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָעֵדִים",
+      "en": "and the witnesses"
+     },
+     {
+      "he": "מְעִידִים",
+      "en": "testify"
+     },
+     {
+      "he": "אוֹתוֹ",
+      "en": "about him"
+     },
+     {
+      "he": "שֶׁגְּנָבוֹ,",
+      "en": "that he stole it"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי כֶפֶל.",
+    "en": "he pays double.",
+    "st": "he <b>pays the double payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "כֶפֶל.",
+      "en": "double"
+     }
+    ]
+   },
+   {
+    "he": "טָבַח וּמָכַר,",
+    "en": "If he slaughtered it or sold it,",
+    "st": "If <b>he slaughtered or sold</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָבַח",
+      "en": "he slaughtered"
+     },
+     {
+      "he": "וּמָכַר,",
+      "en": "and sold"
+     }
+    ]
+   },
+   {
+    "he": "מְשַׁלֵּם תַּשְׁלוּמֵי אַרְבָּעָה וַחֲמִשָּׁה.",
+    "en": "he pays four or five times.",
+    "st": "he <b>pays the fourfold or fivefold payment.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "he pays"
+     },
+     {
+      "he": "תַּשְׁלוּמֵי",
+      "en": "payment of"
+     },
+     {
+      "he": "אַרְבָּעָה",
+      "en": "four"
+     },
+     {
+      "he": "וַחֲמִשָּׁה.",
+      "en": "and five"
+     }
+    ]
+   },
+   {
+    "he": "רָאָה עֵדִים שֶׁמְּמַשְׁמְשִׁין וּבָאִין,",
+    "en": "If he saw witnesses coming closer,",
+    "st": "If the accused <b>saw witnesses that were approaching</b> to testify against him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאָה",
+      "en": "he saw"
+     },
+     {
+      "he": "עֵדִים",
+      "en": "witnesses"
+     },
+     {
+      "he": "שֶׁמְּמַשְׁמְשִׁין",
+      "en": "that are coming close"
+     },
+     {
+      "he": "וּבָאִין,",
+      "en": "and coming"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר גָּנַבְתִּי אֲבָל לֹא",
+    "en": "and he said, \"I stole it, but I did not",
+    "st": "and at that point <b>he said:</b> I admit that <b>I stole</b> the animal <b>but I did not </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "גָּנַבְתִּי",
+      "en": "I stole"
+     },
+     {
+      "he": "אֲבָל",
+      "en": "but"
+     },
+     {
+      "he": "לֹא",
+      "en": "not"
+     }
+    ]
+   },
+   {
+    "he": "טָבַחְתִּי וְלֹא מָכָרְתִּי,",
+    "en": "slaughter it or sell it,\"",
+    "st": "<b>slaughter or sell</b> it,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "טָבַחְתִּי",
+      "en": "I slaughtered"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מָכָרְתִּי,",
+      "en": "I sold"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ מְשַׁלֵּם אֶלָּא קֶרֶן:",
+    "en": "he pays only the value.",
+    "st": "<b>he pays only</b> the <b>principal.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "he does not"
+     },
+     {
+      "he": "מְשַׁלֵּם",
+      "en": "pay"
+     },
+     {
+      "he": "אֶלָּא",
+      "en": "except"
+     },
+     {
+      "he": "קֶרֶן:",
+      "en": "the value"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 5,
+  "summary": "A borrower told a lie about how the ox was lost and swore. He is patur from a korban, because a borrower must pay in every case anyway.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר לַשּׁוֹאֵל הֵיכָן שׁוֹרִי,",
+    "en": "If he said to a borrower, \"Where is my ox?\"",
+    "st": "If the owner <b>said to a borrower: Where is my ox?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לַשּׁוֹאֵל",
+      "en": "to the borrower"
+     },
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "is my ox"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ מֵת,",
+    "en": "and he said, \"It died,\"",
+    "st": "And the borrower <b>said to him: It died, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מֵת,",
+      "en": "it died"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא שֶׁנִּשְׁבַּר אוֹ נִשְׁבָּה",
+    "en": "but really it was hurt, or captured,",
+    "st": "<b>but</b> the truth was that <b>it was injured or captured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁנִּשְׁבַּר",
+      "en": "that was hurt"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִגְנַב אוֹ אָבַד.",
+    "en": "or stolen, or lost;",
+    "st": "<b>or stolen or lost;</b> or if he responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב",
+      "en": "was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּר, וְהוּא שֶׁמֵּת אוֹ נִשְׁבָּה",
+    "en": "or \"It was hurt,\" but really it died, or was captured,",
+    "st": "<b>It was injured, but</b> the truth was <b>that it died or was captured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּר,",
+      "en": "it was hurt"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִגְנַב אוֹ אָבַד.",
+    "en": "or stolen, or lost;",
+    "st": "<b>or stolen or lost;</b> or if he responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב",
+      "en": "was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּה, וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר",
+    "en": "or \"It was captured,\" but really it died, or was hurt,",
+    "st": "<b>It was captured, but</b> the truth was <b>that it died or was injured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּה,",
+      "en": "was captured"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִגְנַב אוֹ אָבַד.",
+    "en": "or stolen, or lost;",
+    "st": "<b>or stolen or lost;</b> or if he responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב",
+      "en": "was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "נִגְנָב, וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר",
+    "en": "or \"It was stolen,\" but really it died, or was hurt,",
+    "st": "<b>It was stolen, but</b> the truth was <b>that it died or was injured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִגְנָב,",
+      "en": "was stolen"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִשְׁבָּה אוֹ אָבַד.",
+    "en": "or captured, or lost;",
+    "st": "<b>or captured or lost;</b> or if he responded:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "אָבַד, וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר",
+    "en": "or \"It got lost,\" but really it died, or was hurt,",
+    "st": "<b>It was lost, but</b> the truth was <b>that it died or was injured </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבַד,",
+      "en": "was lost"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִשְׁבָּה אוֹ נִגְנַב.",
+    "en": "or captured, or stolen,",
+    "st": "<b>or captured or stolen,</b> in any of the above cases, if the owner of the ox said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב.",
+      "en": "was stolen"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the owner said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן, פָּטוּר:",
+    "en": "and he said \"Amen,\" he is patur.",
+    "explain": "A borrower must pay for all of these anyway, so his lie did not help him.",
+    "st": "<b>and</b> the borrower <b>said: Amen,</b> he is <b>exempt</b>",
+    "stMore": "from bringing an offering for his false oath, since the oath did not render him exempt from liability to pay. He would have been liable to pay in any case.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "he is patur"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 8,
+  "mishnah": 6,
+  "summary": "A borrower who swears falsely to get out of paying brings a korban. For a paid watchman, it depends on whether his lie helped him avoid paying. The rule: if his oath made it easier for himself, he is chayav; if not, he is patur.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "הֵיכָן שׁוֹרִי,",
+    "en": "\"Where is my ox?\"",
+    "st": "But if the owner said to the borrower: <b>Where is my ox?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "is my ox"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ אֵינִי יוֹדֵעַ",
+    "en": "He said to him, \"I don't know",
+    "st": "And the borrower <b>said to him: I do not know </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "אֵינִי",
+      "en": "I do not"
+     },
+     {
+      "he": "יוֹדֵעַ",
+      "en": "know"
+     }
+    ]
+   },
+   {
+    "he": "מָה אַתָּה סָח,",
+    "en": "what you are talking about,\"",
+    "st": "<b>what you are talking about, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מָה",
+      "en": "what"
+     },
+     {
+      "he": "אַתָּה",
+      "en": "you"
+     },
+     {
+      "he": "סָח,",
+      "en": "are saying"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר אוֹ",
+    "en": "but really it died, or was hurt, or",
+    "st": "<b>but</b> the truth was <b>that it died or was injured or </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּה אוֹ נִגְנַב אוֹ אָבַד.",
+    "en": "captured, or stolen, or lost,",
+    "st": "<b>captured or stolen or lost,</b> and the owner said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּה",
+      "en": "was captured"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנַב",
+      "en": "was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the owner said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and</b> the borrower <b>said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav a korban.",
+    "explain": "His oath tried to free him from paying.",
+    "st": "the borrower is <b>liable</b>",
+    "stMore": "to bring a guilt-offering, as he took an oath that would render him exempt from liability to pay.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לַנּוֹשֵׂא שָׂכָר וְהַשּׂוֹכֵר הֵיכָן שׁוֹרִי,",
+    "en": "If he said to a paid watchman or a renter, \"Where is my ox?\"",
+    "st": "If an owner <b>said to a paid bailee or a renter: Where is my ox?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לַנּוֹשֵׂא",
+      "en": "to the one who takes"
+     },
+     {
+      "he": "שָׂכָר",
+      "en": "pay"
+     },
+     {
+      "he": "וְהַשּׂוֹכֵר",
+      "en": "and the renter"
+     },
+     {
+      "he": "הֵיכָן",
+      "en": "where"
+     },
+     {
+      "he": "שׁוֹרִי,",
+      "en": "is my ox"
+     }
+    ]
+   },
+   {
+    "he": "אָמַר לוֹ מֵת,",
+    "en": "and he said, \"It died,\"",
+    "st": "And the latter <b>said to him: It died, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "he said"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "מֵת,",
+      "en": "it died"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא שֶׁנִּשְׁבַּר אוֹ נִשְׁבָּה.",
+    "en": "but really it was hurt or captured;",
+    "st": "<b>but</b> the truth was <b>that it was injured or captured;</b> or if he said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁנִּשְׁבַּר",
+      "en": "that was hurt"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה.",
+      "en": "was captured"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּר, וְהוּא שֶׁמֵּת אוֹ נִשְׁבָּה.",
+    "en": "or \"It was hurt,\" but really it died or was captured;",
+    "st": "<b>It was injured, but</b> the truth was <b>that it died or was captured; or if he said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּר,",
+      "en": "it was hurt"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה.",
+      "en": "was captured"
+     }
+    ]
+   },
+   {
+    "he": "נִשְׁבָּה, וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר.",
+    "en": "or \"It was captured,\" but really it died or was hurt;",
+    "st": "<b>It was captured, but</b> the truth was <b>that it died or was injured;</b> or if he said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִשְׁבָּה,",
+      "en": "was captured"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר.",
+      "en": "was hurt"
+     }
+    ]
+   },
+   {
+    "he": "נִגְנָב, וְהוּא שֶׁאָבַד.",
+    "en": "or \"It was stolen,\" but really it got lost;",
+    "st": "<b>It was stolen, but</b> the truth was <b>that it was lost;</b> or if he said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נִגְנָב,",
+      "en": "was stolen"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁאָבַד.",
+      "en": "that was lost"
+     }
+    ]
+   },
+   {
+    "he": "אָבַד, וְהוּא שֶׁנִּגְנַב.",
+    "en": "or \"It got lost,\" but really it was stolen,",
+    "st": "<b>It was lost, but</b> the truth was <b>that it was stolen,</b> and the owner said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבַד,",
+      "en": "was lost"
+     },
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁנִּגְנַב.",
+      "en": "that was stolen"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the owner said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and he said: Amen,</b> the paid bailee or renter is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "<b>exempt</b> from bringing a guilt-offering.",
+    "stMore": "If the paid bailee or renter said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "מֵת אוֹ נִשְׁבַּר אוֹ נִשְׁבָּה,",
+    "en": "If he said, \"It died, or was hurt, or captured,\"",
+    "st": "<b>It died or was injured or captured, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵת",
+      "en": "died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה,",
+      "en": "was captured"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא שֶׁנִּגְנַב אוֹ אָבַד.",
+    "en": "but really it was stolen or lost,",
+    "st": "<b>but</b> the truth was <b>that it was stolen or lost,</b> and the owner said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁנִּגְנַב",
+      "en": "that was stolen"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "אָבַד.",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the owner said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and he said: Amen,</b> the paid bailee or renter is",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב.",
+    "en": "he is chayav a korban.",
+    "explain": "A paid watchman must pay for stolen or lost things, so his lie tried to free him.",
+    "st": "<b>liable</b> to bring a guilt-offering.",
+    "stMore": "If the paid bailee or renter said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "he is chayav"
+     }
+    ]
+   },
+   {
+    "he": "אָבַד,",
+    "en": "If he said, \"It got lost,\"",
+    "st": "<b>It was lost </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָבַד,",
+      "en": "was lost"
+     }
+    ]
+   },
+   {
+    "he": "אוֹ נִגְנָב,",
+    "en": "or \"It was stolen,\"",
+    "st": "<b>or stolen, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִגְנָב,",
+      "en": "was stolen"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא שֶׁמֵּת אוֹ נִשְׁבַּר אוֹ נִשְׁבָּה.",
+    "en": "but really it died, or was hurt, or captured,",
+    "st": "<b>but</b> the truth was <b>that it died or was injured or captured,</b> and the owner said:",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and it"
+     },
+     {
+      "he": "שֶׁמֵּת",
+      "en": "that died"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבַּר",
+      "en": "was hurt"
+     },
+     {
+      "he": "אוֹ",
+      "en": "or"
+     },
+     {
+      "he": "נִשְׁבָּה.",
+      "en": "was captured"
+     }
+    ]
+   },
+   {
+    "he": "מַשְׁבִּיעֲךָ אָנִי,",
+    "en": "and the owner said, \"I make you swear,\"",
+    "st": "<b>I administer an oath to you</b> concerning your claim,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַשְׁבִּיעֲךָ",
+      "en": "make you swear"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמַר אָמֵן,",
+    "en": "and he said \"Amen,\"",
+    "st": "<b>and he said: Amen,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמַר",
+      "en": "and he said"
+     },
+     {
+      "he": "אָמֵן,",
+      "en": "amen"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר.",
+    "en": "he is patur.",
+    "st": "he is <b>exempt</b> from bringing a guilt-offering.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "he is patur"
+     }
+    ]
+   },
+   {
+    "he": "זֶה הַכְּלָל,",
+    "en": "This is the rule:",
+    "st": "<b>This is the principle: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַמְשַׁנֶּה מֵחוֹבָה לְחוֹבָה",
+    "en": "Anyone who changes his story from paying to paying,",
+    "st": "<b>Anyone who changes from</b> one claim of <b>liability to</b> another claim of <b>liability </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "הַמְשַׁנֶּה",
+      "en": "who changes"
+     },
+     {
+      "he": "מֵחוֹבָה",
+      "en": "from paying"
+     },
+     {
+      "he": "לְחוֹבָה",
+      "en": "to paying"
+     }
+    ]
+   },
+   {
+    "he": "וּמִפְּטוֹר לִפְטוֹר וּמִפְּטוֹר לְחוֹבָה,",
+    "en": "or from not paying to not paying, or from not paying to paying,",
+    "st": "<b>or from</b> one claim of <b>exemption to</b> another claim of <b>exemption or from</b> a claim of <b>exemption to</b> a claim of <b>liability</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמִפְּטוֹר",
+      "en": "and from not paying"
+     },
+     {
+      "he": "לִפְטוֹר",
+      "en": "to not paying"
+     },
+     {
+      "he": "וּמִפְּטוֹר",
+      "en": "and from not paying"
+     },
+     {
+      "he": "לְחוֹבָה,",
+      "en": "to paying"
+     }
+    ]
+   },
+   {
+    "he": "פָּטוּר. מֵחוֹבָה לִפְטוֹר,",
+    "en": "is patur. If he changes from paying to not paying,",
+    "st": "is <b>exempt</b> from bringing a guilt-offering. If he changes <b>from</b> a claim of <b>liability to</b> a claim of <b>exemption,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "פָּטוּר.",
+      "en": "is patur"
+     },
+     {
+      "he": "מֵחוֹבָה",
+      "en": "from paying"
+     },
+     {
+      "he": "לִפְטוֹר,",
+      "en": "to not paying"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. זֶה הַכְּלָל,",
+    "en": "he is chayav. This is the rule:",
+    "st": "he is <b>liable. This is the principle: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "is chayav"
+     },
+     {
+      "he": "זֶה",
+      "en": "this is"
+     },
+     {
+      "he": "הַכְּלָל,",
+      "en": "the rule"
+     }
+    ]
+   },
+   {
+    "he": "כָּל הַנִּשְׁבָּע לְהָקֵל עַל עַצְמוֹ,",
+    "en": "Whoever swears to make it easier for himself",
+    "st": "<b>Anyone who takes an oath to be lenient with himself</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כָּל",
+      "en": "anyone"
+     },
+     {
+      "he": "הַנִּשְׁבָּע",
+      "en": "who swears"
+     },
+     {
+      "he": "לְהָקֵל",
+      "en": "to make easy"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     }
+    ]
+   },
+   {
+    "he": "חַיָּב. לְהַחְמִיר עַל עַצְמוֹ, פָּטוּר:",
+    "en": "is chayav; to make it harder for himself, he is patur.",
+    "st": "is <b>liable;</b> if he takes an oath <b>to be stringent with himself,</b> he is <b>exempt.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "חַיָּב.",
+      "en": "is chayav"
+     },
+     {
+      "he": "לְהַחְמִיר",
+      "en": "to make hard"
+     },
+     {
+      "he": "עַל",
+      "en": "on"
+     },
+     {
+      "he": "עַצְמוֹ,",
+      "en": "himself"
+     },
+     {
+      "he": "פָּטוּר:",
+      "en": "is patur"
+     }
+    ]
+   }
+  ]
+ }
+]

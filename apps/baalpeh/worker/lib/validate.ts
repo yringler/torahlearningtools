@@ -15,12 +15,22 @@ import {
   type MishnahProgressData,
   type MishnahState,
   type PerekProgressData,
+  type PerekTestRequestBody,
+  type PerekTestTokenBody,
+  type ReciteTask,
   type RecordRow,
   type ReviewItemData,
+  type PinBody,
+  type PinResetBody,
+  type SetPinBody,
+  type SetVerificationsBody,
+  type SignInAs,
   type SyncRequest,
   type VerifyCodeBody,
   type VerifyLinkBody,
 } from "../../shared/api";
+import { isLibraryPlace, isMasechtaId, parseProgressKey } from "../../shared/progressKey";
+import { masechtaText, perakimCount } from "./text";
 
 export type Result<T> = { ok: true; value: T } | { ok: false; message: string; tooLarge?: true };
 
@@ -94,8 +104,6 @@ function arr(v: unknown, path: string): unknown[] {
 const ID_RE = /^[A-Za-z0-9_-]{8,64}$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const M_KEY_RE = /^\d{1,3}:\d{1,3}$/;
-const P_KEY_RE = /^\d{1,3}$/;
 
 /** Epoch-ms timestamps: integers in (0, 1e13). */
 function ms(v: unknown, path: string): number {
@@ -126,6 +134,7 @@ function itemSize(v: unknown, path: string): void {
   if (byteSize(v) > SYNC_LIMITS.MAX_ITEM_BYTES) throw new Invalid(`${path} is larger than ${SYNC_LIMITS.MAX_ITEM_BYTES} bytes`);
 }
 
+const RECITE_TASKS: readonly ReciteTask[] = ["learn", "chain", "detour", "practice", "review-m", "perek-chain", "review-p", "pre-test"];
 const GRADES: readonly Grade[] = ["pass", "help", "notyet"];
 const STATES: readonly MishnahState[] = ["new", "learning", "known", "solid"];
 
@@ -145,29 +154,113 @@ function email(v: unknown, path: string): string {
   return e;
 }
 
-export function validateAuthRequest(body: unknown): Result<AuthRequestBody> {
+/** `as`: absent means learner (old SPAs). */
+function signInAs(v: unknown): SignInAs {
+  return v === undefined ? "learner" : oneOf(v, "as", ["learner", "parent"]);
+}
+
+export function validateAuthRequest(body: unknown): Result<Required<AuthRequestBody>> {
   return run(() => {
     const o = obj(body, "body");
     const turnstileToken = str(o.turnstileToken, "turnstileToken");
     if (turnstileToken.length === 0 || turnstileToken.length > 2048) throw new Invalid("turnstileToken is invalid");
-    return { email: email(o.email, "email"), turnstileToken };
+    return { email: email(o.email, "email"), turnstileToken, as: signInAs(o.as) };
+  });
+}
+
+const TOKEN_RE = /^[A-Za-z0-9_-]{20,128}$/;
+
+function token(v: unknown): string {
+  const t = str(v, "token");
+  if (!TOKEN_RE.test(t)) throw new Invalid("token is invalid");
+  return t;
+}
+
+/** `{ token }` from an emailed link (sign-in, perek test or PIN reset). Other fields are dropped. */
+export function validateToken(body: unknown): Result<{ token: string }> {
+  return run(() => ({ token: token(obj(body, "body").token) }));
+}
+
+/** `{ token, pin? }` for the perek-test routes; `pin` is used by confirm only. */
+export function validatePerekTestToken(body: unknown): Result<PerekTestTokenBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const out: PerekTestTokenBody = { token: token(o.token) };
+    if (o.pin !== undefined) out.pin = pin(o.pin);
+    return out;
+  });
+}
+
+// ───────────── parent PIN ─────────────
+
+const PIN_RE = /^[0-9]{4}$/;
+const TZ_RE = /^[A-Za-z0-9_+\-/]{1,64}$/;
+
+function pin(v: unknown): string {
+  if (typeof v !== "string" || !PIN_RE.test(v)) throw new Invalid("The PIN must be 4 digits.");
+  return v;
+}
+
+/** An IANA zone name for display only: a malformed or unknown one is dropped (the email then says UTC). */
+function tz(v: unknown): string | undefined {
+  if (typeof v !== "string" || !TZ_RE.test(v)) return undefined;
+  try {
+    new Intl.DateTimeFormat("en-US", { timeZone: v });
+    return v;
+  } catch {
+    return undefined;
+  }
+}
+
+export function validatePin(body: unknown): Result<PinBody> {
+  return run(() => ({ pin: pin(obj(body, "body").pin) }));
+}
+
+export function validateSetPin(body: unknown): Result<SetPinBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const out: SetPinBody = { pin: pin(o.pin) };
+    const z = tz(o.tz);
+    if (z !== undefined) out.tz = z;
+    return out;
+  });
+}
+
+export function validatePinReset(body: unknown): Result<PinResetBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const out: PinResetBody = { token: token(o.token), pin: pin(o.pin) };
+    const z = tz(o.tz);
+    if (z !== undefined) out.tz = z;
+    return out;
+  });
+}
+
+/** 1..30 distinct perakim, each in 1..perakimCount(masechta), of a known masechta. Perakim come back sorted. */
+export function validateSetVerifications(body: unknown): Result<SetVerificationsBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const masechta = str(o.masechta, "masechta");
+    if (!masechtaText(masechta)) throw new Invalid("masechta is unknown");
+    const n = perakimCount(masechta);
+    const list = arr(o.perakim, "perakim");
+    if (list.length < 1 || list.length > 30) throw new Invalid("perakim must have 1..30 entries");
+    const perakim = list.map((p, i) => int(p, `perakim[${i}]`, 1, n));
+    if (new Set(perakim).size !== perakim.length) throw new Invalid("perakim must be distinct");
+    return { masechta, perakim: perakim.sort((a, b) => a - b), verified: bool(o.verified, "verified") };
   });
 }
 
 export function validateVerifyLink(body: unknown): Result<VerifyLinkBody> {
-  return run(() => {
-    const token = str(obj(body, "body").token, "token");
-    if (!/^[A-Za-z0-9_-]{20,128}$/.test(token)) throw new Invalid("token is invalid");
-    return { token };
-  });
+  return validateToken(body);
 }
 
-export function validateVerifyCode(body: unknown): Result<VerifyCodeBody> {
+export function validateVerifyCode(body: unknown): Result<Required<VerifyCodeBody>> {
   return run(() => {
     const o = obj(body, "body");
     const code = str(o.code, "code").replace(/\s+/g, "");
     if (!/^\d{6}$/.test(code)) throw new Invalid("code must be 6 digits");
-    return { email: email(o.email, "email"), code };
+    return { email: email(o.email, "email"), code, as: signInAs(o.as) };
   });
 }
 
@@ -175,7 +268,26 @@ export function validateDeleteAccount(body: unknown): Result<DeleteAccountBody> 
   return run(() => ({ email: email(obj(body, "body").email, "email") }));
 }
 
+// ───────────── perek tests ─────────────
+
+export function validatePerekTestRequest(body: unknown): Result<PerekTestRequestBody> {
+  return run(() => {
+    const o = obj(body, "body");
+    const childId = id(o.childId, "childId");
+    const masechta = str(o.masechta, "masechta");
+    const n = perakimCount(masechta);
+    if (n === 0) throw new Invalid("masechta is unknown");
+    return { childId, masechta, perek: int(o.perek, "perek", 1, n) };
+  });
+}
+
 // ───────────── sync ─────────────
+
+/** A catalog id by format only (shared/progressKey.ts); the Worker never checks it against a list of masechtos. */
+function masechtaId(v: unknown, path: string): string {
+  if (!isMasechtaId(v)) throw new Invalid(`${path} must be a masechta id`);
+  return v;
+}
 
 function settings(v: unknown, path: string): ChildSettings {
   const o = obj(v, path);
@@ -183,6 +295,11 @@ function settings(v: unknown, path: string): ChildSettings {
   const out: ChildSettings = { fontScale: num(o.fontScale, `${path}.fontScale`, 0.5, 3) };
   if (o.breakMinutes !== undefined) out.breakMinutes = int(o.breakMinutes, `${path}.breakMinutes`, 1, 180);
   if (o.meaningView !== undefined) out.meaningView = oneOf(o.meaningView, `${path}.meaningView`, ["simple", "steinsaltz"]);
+  if (o.lastMasechta !== undefined) out.lastMasechta = masechtaId(o.lastMasechta, `${path}.lastMasechta`);
+  if (o.libraryPlace !== undefined) {
+    if (!isLibraryPlace(o.libraryPlace)) throw new Invalid(`${path}.libraryPlace must be "<masechta>/<perek>/<mishnah>"`);
+    out.libraryPlace = o.libraryPlace;
+  }
   return out;
 }
 
@@ -243,7 +360,24 @@ function perekData(v: unknown, path: string): PerekProgressData {
     complete: bool(o.complete, `${path}.complete`),
   };
   if (o.review !== undefined) out.review = review(o.review, `${path}.review`);
+  if (o.chains !== undefined) out.chains = chains(o.chains, `${path}.chains`);
   return out;
+}
+
+const CHAIN_RE = /^(\d{1,3})-(\d{1,3})$/;
+const MAX_CHAINS = 64;
+
+/** Passed perek build-up ranges: "from-to" strings with 1 <= from <= to (docs/PEREK_BUILDUP.md §9). */
+function chains(v: unknown, path: string): string[] {
+  const list = arr(v, path);
+  if (list.length > MAX_CHAINS) throw new Invalid(`${path} has too many entries`);
+  return list.map((k, i) => {
+    const m = typeof k === "string" ? CHAIN_RE.exec(k) : null;
+    const from = m ? Number(m[1]) : 0;
+    const to = m ? Number(m[2]) : 0;
+    if (!m || from < 1 || from > to) throw new Invalid(`${path}[${i}] must be "from-to" with 1 <= from <= to`);
+    return k as string;
+  });
 }
 
 function recordRow(v: unknown, path: string): RecordRow {
@@ -254,10 +388,10 @@ function recordRow(v: unknown, path: string): RecordRow {
   const key = str(o.key, `${path}.key`);
   switch (o.kind) {
     case "m":
-      if (!M_KEY_RE.test(key)) throw new Invalid(`${path}.key must be "perek:mishnah"`);
+      if (!parseProgressKey("m", key)) throw new Invalid(`${path}.key must be "perek:mishnah" or "masechta/perek:mishnah"`);
       return { kind: "m", childId, updatedAt, key, data: mishnahData(o.data, `${path}.data`) };
     case "p":
-      if (!P_KEY_RE.test(key)) throw new Invalid(`${path}.key must be "perek"`);
+      if (!parseProgressKey("p", key)) throw new Invalid(`${path}.key must be "perek" or "masechta/perek"`);
       return { kind: "p", childId, updatedAt, key, data: perekData(o.data, `${path}.data`) };
     case "d":
       if (!DATE_RE.test(key)) throw new Invalid(`${path}.key must be yyyy-mm-dd`);
@@ -268,12 +402,19 @@ function recordRow(v: unknown, path: string): RecordRow {
   }
 }
 
+/** The event body, rebuilt, with the optional `masechta` (absent = Berakhot) carried through. */
 function eventBody(o: Obj, path: string): LearningEventBody {
+  const body = eventFields(o, path);
+  if (o.masechta !== undefined) body.masechta = masechtaId(o.masechta, `${path}.masechta`);
+  return body;
+}
+
+function eventFields(o: Obj, path: string): LearningEventBody {
   switch (o.type) {
-    case "recite":
-      return {
+    case "recite": {
+      const out: LearningEventBody = {
         type: "recite",
-        task: oneOf(o.task, `${path}.task`, ["learn", "chain", "detour", "practice", "review-m", "perek-chain", "review-p"]),
+        task: oneOf(o.task, `${path}.task`, RECITE_TASKS),
         perek: int(o.perek, `${path}.perek`, 0, 999),
         mishnah: intOrNull(o.mishnah, `${path}.mishnah`, 0, 999),
         step: intOrNull(o.step, `${path}.step`, 0, 999),
@@ -281,6 +422,12 @@ function eventBody(o: Obj, path: string): LearningEventBody {
         peeks: int(o.peeks, `${path}.peeks`, 0, 10_000),
         ms: int(o.ms, `${path}.ms`, 0, 10_800_000),
       };
+      // Perek-level recites name the mishnah range said (optional; older events have none).
+      if (o.from !== undefined) out.from = int(o.from, `${path}.from`, 1, 999);
+      if (o.to !== undefined) out.to = int(o.to, `${path}.to`, 1, 999);
+      if (out.from !== undefined && out.to !== undefined && out.from > out.to) throw new Invalid(`${path}.from must be <= ${path}.to`);
+      return out;
+    }
     case "check": {
       const slipped = arr(o.slipped, `${path}.slipped`);
       if (slipped.length > 200) throw new Invalid(`${path}.slipped has too many entries`);

@@ -1,0 +1,2379 @@
+[
+ {
+  "perek": 1,
+  "mishnah": 1,
+  "summary": "A maiden gets married on Wednesday and a widow on Thursday. This is because the batei din sat on Mondays and Thursdays, so a chasan with a complaint could go to beis din right away.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "בְּתוּלָה נִשֵּׂאת לַיּוֹם הָרְבִיעִי,",
+    "en": "A maiden gets married on Wednesday,",
+    "st": "<b>A virgin is married on Wednesday </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּתוּלָה",
+      "en": "a maiden",
+      "note": "A girl who was never married before."
+     },
+     {
+      "he": "נִשֵּׂאת",
+      "en": "gets married"
+     },
+     {
+      "he": "לַיּוֹם",
+      "en": "on the day"
+     },
+     {
+      "he": "הָרְבִיעִי,",
+      "en": "the fourth (Wednesday)"
+     }
+    ]
+   },
+   {
+    "he": "וְאַלְמָנָה לַיּוֹם הַחֲמִישִׁי.",
+    "en": "and a widow on Thursday.",
+    "st": "<b>and a widow on Thursday.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַלְמָנָה",
+      "en": "and a widow"
+     },
+     {
+      "he": "לַיּוֹם",
+      "en": "on the day"
+     },
+     {
+      "he": "הַחֲמִישִׁי.",
+      "en": "the fifth (Thursday)"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁפַּעֲמַיִם בַּשַּׁבָּת בָּתֵּי דִינִין יוֹשְׁבִין בָּעֲיָרוֹת,",
+    "en": "Because twice a week the batei din sit in the towns,",
+    "st": "The reason for the former is <b>that twice a week courts convene in the towns, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁפַּעֲמַיִם",
+      "en": "because twice"
+     },
+     {
+      "he": "בַּשַּׁבָּת",
+      "en": "in the week"
+     },
+     {
+      "he": "בָּתֵּי",
+      "en": "the batei"
+     },
+     {
+      "he": "דִינִין",
+      "en": "din",
+      "note": "Batei din are Jewish courts."
+     },
+     {
+      "he": "יוֹשְׁבִין",
+      "en": "sit"
+     },
+     {
+      "he": "בָּעֲיָרוֹת,",
+      "en": "in the towns"
+     }
+    ]
+   },
+   {
+    "he": "בַּיּוֹם הַשֵּׁנִי וּבַיּוֹם הַחֲמִישִׁי,",
+    "en": "on Monday and on Thursday.",
+    "st": "<b>on Monday and Thursday,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בַּיּוֹם",
+      "en": "on the day"
+     },
+     {
+      "he": "הַשֵּׁנִי",
+      "en": "the second (Monday)"
+     },
+     {
+      "he": "וּבַיּוֹם",
+      "en": "and on the day"
+     },
+     {
+      "he": "הַחֲמִישִׁי,",
+      "en": "the fifth (Thursday)"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁאִם הָיָה לוֹ טַעֲנַת בְּתוּלִים,",
+    "en": "So if the chasan has a complaint that she was not really a maiden,",
+    "st": "so <b>that if</b> the husband <b>had a claim concerning</b> the bride’s <b>virginity</b>",
+    "stMore": "when consummating the marriage on Wednesday night,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁאִם",
+      "en": "that if"
+     },
+     {
+      "he": "הָיָה",
+      "en": "there was"
+     },
+     {
+      "he": "לוֹ",
+      "en": "to him"
+     },
+     {
+      "he": "טַעֲנַת",
+      "en": "a complaint about"
+     },
+     {
+      "he": "בְּתוּלִים,",
+      "en": "being a maiden"
+     }
+    ]
+   },
+   {
+    "he": "הָיָה מַשְׁכִּים לְבֵית דִּין:",
+    "en": "he can go early the next morning to the beis din.",
+    "st": "<b>he would go early</b> the next day <b>to court</b> and make his claim.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיָה",
+      "en": "he would"
+     },
+     {
+      "he": "מַשְׁכִּים",
+      "en": "go early"
+     },
+     {
+      "he": "לְבֵית",
+      "en": "to the beis"
+     },
+     {
+      "he": "דִּין:",
+      "en": "din"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 2,
+  "summary": "A maiden's kesubah is two hundred zuz, and a widow's is one hundred. A woman whose first marriage ended before the chuppah, or who became Jewish or was freed while very little, still counts as a maiden.",
+  "stIntro": "With regard to",
+  "chunks": [
+   {
+    "he": "בְּתוּלָה, כְּתֻבָּתָהּ מָאתַיִם.",
+    "en": "A maiden's kesubah is two hundred zuz,",
+    "st": "<b>a virgin, her marriage contract is two hundred dinars, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּתוּלָה,",
+      "en": "a maiden"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ",
+      "en": "her kesubah",
+      "note": "The marriage contract: money promised to the wife if the marriage ends."
+     },
+     {
+      "he": "מָאתַיִם.",
+      "en": "two hundred (zuz)"
+     }
+    ]
+   },
+   {
+    "he": "וְאַלְמָנָה, מָנֶה.",
+    "en": "and a widow's is one hundred.",
+    "st": "<b>and</b> with regard to <b>a widow,</b> her marriage contract <b>is one hundred</b> dinars.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאַלְמָנָה,",
+      "en": "and a widow"
+     },
+     {
+      "he": "מָנֶה.",
+      "en": "a maneh (one hundred zuz)"
+     }
+    ]
+   },
+   {
+    "he": "בְּתוּלָה אַלְמָנָה,",
+    "en": "A maiden who became a widow,",
+    "st": "With regard to <b>a virgin</b> who is <b>a widow, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּתוּלָה",
+      "en": "a maiden"
+     },
+     {
+      "he": "אַלְמָנָה,",
+      "en": "a widow"
+     }
+    ]
+   },
+   {
+    "he": "גְּרוּשָׁה, וַחֲלוּצָה,",
+    "en": "or was divorced, or had chalitzah,",
+    "st": "<b>a divorcée, or a ḥalutza</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּרוּשָׁה,",
+      "en": "divorced"
+     },
+     {
+      "he": "וַחֲלוּצָה,",
+      "en": "or a chalutzah",
+      "note": "A widow freed by chalitzah from marrying her husband's brother."
+     }
+    ]
+   },
+   {
+    "he": "מִן הָאֵרוּסִין,",
+    "en": "after only the erusin,",
+    "st": "who achieved that status <b>from</b> a state of <b>betrothal,</b>",
+    "stMore": "before marriage and before consummation of the marriage,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָאֵרוּסִין,",
+      "en": "the erusin",
+      "note": "The first step of marriage, before the chuppah."
+     }
+    ]
+   },
+   {
+    "he": "כְּתֻבָּתָן מָאתַיִם,",
+    "en": "their kesubah is two hundred zuz,",
+    "st": "for all of these <b>their marriage contract is two hundred</b> dinars,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּתֻבָּתָן",
+      "en": "their kesubah"
+     },
+     {
+      "he": "מָאתַיִם,",
+      "en": "two hundred (zuz)"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵשׁ לָהֶן טַעֲנַת בְּתוּלִים.",
+    "en": "and the husband can complain if she was not a maiden.",
+    "st": "<b>and they are subject</b> to <b>a claim concerning</b> their <b>virginity,</b>",
+    "stMore": "as their presumptive status of virginity is intact.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵשׁ",
+      "en": "and there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "טַעֲנַת",
+      "en": "a complaint about"
+     },
+     {
+      "he": "בְּתוּלִים.",
+      "en": "being a maiden"
+     }
+    ]
+   },
+   {
+    "he": "הַגִּיּוֹרֶת, וְהַשְּׁבוּיָה,",
+    "en": "A woman who became a giyores, or a captive woman,",
+    "st": "With regard to <b>a female convert, or a captive woman, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגִּיּוֹרֶת,",
+      "en": "the giyores (convert)"
+     },
+     {
+      "he": "וְהַשְּׁבוּיָה,",
+      "en": "and the captive woman"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשִּׁפְחָה שֶׁנִּפְדּוּ וְשֶׁנִּתְגַּיְּרוּ,",
+    "en": "or a maidservant, who were ransomed or became Jewish",
+    "st": "<b>or a maidservant, who were ransomed</b> with regard to the captive, or <b>who converted</b> with regard to the convert,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשִּׁפְחָה",
+      "en": "and the maidservant"
+     },
+     {
+      "he": "שֶׁנִּפְדּוּ",
+      "en": "who were ransomed"
+     },
+     {
+      "he": "וְשֶׁנִּתְגַּיְּרוּ,",
+      "en": "and who became Jewish"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁנִּשְׁתַּחְרְרוּ, פְּחוּתוֹת מִבְּנוֹת שָׁלֹשׁ שָׁנִים וְיוֹם אֶחָד,",
+    "en": "or were set free when they were younger than three years and one day,",
+    "st": "<b>or who were freed</b> with regard to the maidservant, when they were <b>less than three years and one day old, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁנִּשְׁתַּחְרְרוּ,",
+      "en": "and who were set free"
+     },
+     {
+      "he": "פְּחוּתוֹת",
+      "en": "younger"
+     },
+     {
+      "he": "מִבְּנוֹת",
+      "en": "than the age of"
+     },
+     {
+      "he": "שָׁלֹשׁ",
+      "en": "three"
+     },
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     },
+     {
+      "he": "וְיוֹם",
+      "en": "and day"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "כְּתֻבָּתָן מָאתַיִם,",
+    "en": "their kesubah is two hundred zuz,",
+    "st": "<b>their marriage contract is two hundred</b>",
+    "stMore": "dinars, as their presumptive status is that of a virgin. Even if they were subject to intercourse when they were younger than that age, the hymen remains intact.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּתֻבָּתָן",
+      "en": "their kesubah"
+     },
+     {
+      "he": "מָאתַיִם,",
+      "en": "two hundred (zuz)"
+     }
+    ]
+   },
+   {
+    "he": "וְיֵשׁ לָהֶן טַעֲנַת בְּתוּלִים:",
+    "en": "and the husband can complain if she was not a maiden.",
+    "st": "<b>And they are</b> subject to <b>a claim</b> concerning their <b>virginity.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְיֵשׁ",
+      "en": "and there is"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "טַעֲנַת",
+      "en": "a complaint about"
+     },
+     {
+      "he": "בְּתוּלִים:",
+      "en": "being a maiden"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 3,
+  "summary": "Rabbi Meir says that a girl who was hurt in certain ways still counts as a maiden, with a kesubah of two hundred. The Sages say a girl hurt by a piece of wood gets only one hundred.",
+  "stIntro": "With regard to",
+  "chunks": [
+   {
+    "he": "הַגָּדוֹל שֶׁבָּא עַל הַקְּטַנָּה,",
+    "en": "A little girl who was harmed by a grown man,",
+    "st": "<b>an adult man who engaged in intercourse with a minor girl</b> less than three years old;",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגָּדוֹל",
+      "en": "the grown man"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "who was"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הַקְּטַנָּה,",
+      "en": "the little girl"
+     }
+    ]
+   },
+   {
+    "he": "וְקָטָן שֶׁבָּא עַל הַגְּדוֹלָה,",
+    "en": "or a grown woman who was with a young boy,",
+    "st": "<b>or a minor boy</b> less than nine years old <b>who engaged in intercourse with an adult woman; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְקָטָן",
+      "en": "and a young boy"
+     },
+     {
+      "he": "שֶׁבָּא",
+      "en": "who was"
+     },
+     {
+      "he": "עַל",
+      "en": "with"
+     },
+     {
+      "he": "הַגְּדוֹלָה,",
+      "en": "the grown woman"
+     }
+    ]
+   },
+   {
+    "he": "וּמֻכַּת עֵץ,",
+    "en": "or a girl who was hurt by a piece of wood,",
+    "explain": "An accident made her no longer seem like a maiden.",
+    "st": "<b>or a</b> woman who had her hymen <b>ruptured by wood</b> or any other foreign object,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וּמֻכַּת",
+      "en": "and hurt by"
+     },
+     {
+      "he": "עֵץ,",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "he": "כְּתֻבָּתָן מָאתַיִם,",
+    "en": "their kesubah is two hundred zuz.",
+    "st": "for all these women <b>their marriage contract is two hundred</b>",
+    "stMore": "dinars, as their legal status is that of a virgin.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּתֻבָּתָן",
+      "en": "their kesubah"
+     },
+     {
+      "he": "מָאתַיִם,",
+      "en": "two hundred (zuz)"
+     }
+    ]
+   },
+   {
+    "he": "דִּבְרֵי רַבִּי מֵאִיר.",
+    "en": "That is what Rabbi Meir says.",
+    "st": "This is <b>the statement of Rabbi Meir. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "דִּבְרֵי",
+      "en": "the words of"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "מֵאִיר.",
+      "en": "Meir"
+     }
+    ]
+   },
+   {
+    "he": "וַחֲכָמִים אוֹמְרִים,",
+    "en": "But the Sages say,",
+    "st": "<b>And the Rabbis say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וַחֲכָמִים",
+      "en": "and the Sages"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "מֻכַּת עֵץ, כְּתֻבָּתָהּ מָנֶה:",
+    "en": "a girl hurt by a piece of wood gets a kesubah of one hundred.",
+    "st": "<b>The marriage contract</b> of a woman whose hymen was <b>ruptured by wood is one hundred dinars,</b>",
+    "stMore": "as physically, since her hymen is not intact, she is no longer a virgin.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֻכַּת",
+      "en": "hurt by"
+     },
+     {
+      "he": "עֵץ,",
+      "en": "wood"
+     },
+     {
+      "he": "כְּתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "מָנֶה:",
+      "en": "a maneh (one hundred zuz)"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 4,
+  "summary": "A woman who was a widow or divorced after a full marriage gets a kesubah of one hundred, even if she is really still a maiden. The same is true for a giyores, captive or freed maidservant who was older than three.",
+  "stIntro": "With regard to",
+  "chunks": [
+   {
+    "he": "בְּתוּלָה אַלְמָנָה,",
+    "en": "A maiden who became a widow,",
+    "st": "<b>a virgin</b> who is either a <b>widow,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּתוּלָה",
+      "en": "a maiden"
+     },
+     {
+      "he": "אַלְמָנָה,",
+      "en": "a widow"
+     }
+    ]
+   },
+   {
+    "he": "גְּרוּשָׁה, וַחֲלוּצָה,",
+    "en": "or was divorced, or had chalitzah,",
+    "st": "a <b>divorcée, or a ḥalutza</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גְּרוּשָׁה,",
+      "en": "divorced"
+     },
+     {
+      "he": "וַחֲלוּצָה,",
+      "en": "or a chalutzah"
+     }
+    ]
+   },
+   {
+    "he": "מִן הַנִּשּׂוּאִין,",
+    "en": "after a full marriage (the chuppah),",
+    "st": "who achieved that status <b>from</b> a state of <b>marriage,</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הַנִּשּׂוּאִין,",
+      "en": "the marriage"
+     }
+    ]
+   },
+   {
+    "he": "כְּתֻבָּתָהּ מָנֶה,",
+    "en": "her kesubah is one hundred,",
+    "st": "for all these women <b>their marriage contract is one hundred dinars, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּתֻבָּתָהּ",
+      "en": "her kesubah"
+     },
+     {
+      "he": "מָנֶה,",
+      "en": "a maneh (one hundred zuz)"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין לָהֶן טַעֲנַת בְּתוּלִים.",
+    "en": "and the husband cannot complain that she was not a maiden.",
+    "st": "<b>and they are not</b> subject to <b>a claim</b> concerning their <b>virginity.</b>",
+    "stMore": "Since they were married, even if they did not engage in intercourse with their husband, their presumptive status is that of non-virgins, and the second husband cannot claim that he was misled with regard to their status as virgins.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "טַעֲנַת",
+      "en": "complaint about"
+     },
+     {
+      "he": "בְּתוּלִים.",
+      "en": "being a maiden"
+     }
+    ]
+   },
+   {
+    "he": "הַגִּיּוֹרֶת, וְהַשְּׁבוּיָה,",
+    "en": "A giyores, or a captive woman,",
+    "st": "And similarly, with regard to <b>a female convert, or a captive woman, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַגִּיּוֹרֶת,",
+      "en": "the giyores (convert)"
+     },
+     {
+      "he": "וְהַשְּׁבוּיָה,",
+      "en": "and the captive woman"
+     }
+    ]
+   },
+   {
+    "he": "וְהַשִּׁפְחָה, שֶׁנִּפְדּוּ,",
+    "en": "or a maidservant, who were ransomed,",
+    "st": "<b>or a maidservant, who were ransomed</b> with regard to the captive,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַשִּׁפְחָה,",
+      "en": "and the maidservant"
+     },
+     {
+      "he": "שֶׁנִּפְדּוּ,",
+      "en": "who were ransomed"
+     }
+    ]
+   },
+   {
+    "he": "וְשֶׁנִּתְגַּיְּרוּ, וְשֶׁנִּשְׁתַּחְרְרוּ,",
+    "en": "or became Jewish, or were set free,",
+    "st": "or <b>who converted</b> with regard to the convert, <b>or who were freed</b> with regard to the maidservant,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְשֶׁנִּתְגַּיְּרוּ,",
+      "en": "and who became Jewish"
+     },
+     {
+      "he": "וְשֶׁנִּשְׁתַּחְרְרוּ,",
+      "en": "and who were set free"
+     }
+    ]
+   },
+   {
+    "he": "יְתֵרוֹת עַל בְּנוֹת שָׁלֹשׁ שָׁנִים וְיוֹם אֶחָד,",
+    "en": "when they were older than three years and one day,",
+    "st": "when they were <b>more than three years and one day old, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "יְתֵרוֹת",
+      "en": "older"
+     },
+     {
+      "he": "עַל",
+      "en": "than"
+     },
+     {
+      "he": "בְּנוֹת",
+      "en": "the age of"
+     },
+     {
+      "he": "שָׁלֹשׁ",
+      "en": "three"
+     },
+     {
+      "he": "שָׁנִים",
+      "en": "years"
+     },
+     {
+      "he": "וְיוֹם",
+      "en": "and day"
+     },
+     {
+      "he": "אֶחָד,",
+      "en": "one"
+     }
+    ]
+   },
+   {
+    "he": "כְּתֻבָּתָן מָנֶה,",
+    "en": "their kesubah is one hundred,",
+    "st": "<b>their marriage contract is one hundred dinars </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּתֻבָּתָן",
+      "en": "their kesubah"
+     },
+     {
+      "he": "מָנֶה,",
+      "en": "a maneh (one hundred zuz)"
+     }
+    ]
+   },
+   {
+    "he": "וְאֵין לָהֶן טַעֲנַת בְּתוּלִין:",
+    "en": "and the husband cannot complain that she was not a maiden.",
+    "st": "<b>and they are not</b> subject to <b>a claim</b> concerning their <b>virginity.</b>",
+    "stMore": "When they married, their presumptive status was that of a non-virgin.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאֵין",
+      "en": "and there is no"
+     },
+     {
+      "he": "לָהֶן",
+      "en": "to them"
+     },
+     {
+      "he": "טַעֲנַת",
+      "en": "complaint about"
+     },
+     {
+      "he": "בְּתוּלִין:",
+      "en": "being a maiden"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 5,
+  "summary": "In Yehudah a chasan could be alone with his kallah before the wedding, so he cannot complain later. The mishnah also teaches about a Kohen's daughter's kesubah.",
+  "stIntro": "A man",
+  "chunks": [
+   {
+    "he": "הָאוֹכֵל אֵצֶל חָמִיו בִּיהוּדָה שֶׁלֹּא בְעֵדִים,",
+    "en": "A man who eats at his father-in-law's house in Yehudah, with no witnesses watching,",
+    "st": "<b>who eats at</b> the house of <b>his father-in-law in Judea</b> after betrothal and <b>with-out witnesses</b>",
+    "stMore": "to attest to the fact that he was not alone with his betrothed",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָאוֹכֵל",
+      "en": "the one who eats"
+     },
+     {
+      "he": "אֵצֶל",
+      "en": "at"
+     },
+     {
+      "he": "חָמִיו",
+      "en": "his father-in-law"
+     },
+     {
+      "he": "בִּיהוּדָה",
+      "en": "in Yehudah"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "without"
+     },
+     {
+      "he": "בְעֵדִים,",
+      "en": "witnesses"
+     }
+    ]
+   },
+   {
+    "he": "אֵינוֹ יָכוֹל לִטְעֹן טַעֲנַת בְּתוּלִים,",
+    "en": "cannot complain that she was not a maiden,",
+    "st": "<b>is unable to make a claim concerning virginity</b> after marriage",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֵינוֹ",
+      "en": "is not"
+     },
+     {
+      "he": "יָכוֹל",
+      "en": "able"
+     },
+     {
+      "he": "לִטְעֹן",
+      "en": "to make"
+     },
+     {
+      "he": "טַעֲנַת",
+      "en": "a complaint about"
+     },
+     {
+      "he": "בְּתוּלִים,",
+      "en": "being a maiden"
+     }
+    ]
+   },
+   {
+    "he": "מִפְּנֵי שֶׁמִּתְיַחֵד עִמָּהּ.",
+    "en": "because he was alone with her.",
+    "st": "<b>because</b> in accordance with the custom in Judea, the assumption is <b>that he secluded himself with her,</b>",
+    "stMore": "and the concern is that it was he who engaged in intercourse with her.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִפְּנֵי",
+      "en": "because"
+     },
+     {
+      "he": "שֶׁמִּתְיַחֵד",
+      "en": "he is alone"
+     },
+     {
+      "he": "עִמָּהּ.",
+      "en": "with her"
+     }
+    ]
+   },
+   {
+    "he": "אַחַת אַלְמְנַת יִשְׂרָאֵל וְאַחַת אַלְמְנַת כֹּהֵן,",
+    "en": "Both a regular widow and a Kohen's widow",
+    "st": "For <b>both a widow</b> who is <b>an Israelite woman and a widow</b> who is the daughter <b>of priests, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אַחַת",
+      "en": "one"
+     },
+     {
+      "he": "אַלְמְנַת",
+      "en": "a widow of"
+     },
+     {
+      "he": "יִשְׂרָאֵל",
+      "en": "Yisrael"
+     },
+     {
+      "he": "וְאַחַת",
+      "en": "and one"
+     },
+     {
+      "he": "אַלְמְנַת",
+      "en": "a widow of"
+     },
+     {
+      "he": "כֹּהֵן,",
+      "en": "a Kohen"
+     }
+    ]
+   },
+   {
+    "he": "כְּתֻבָּתָן מָנֶה.",
+    "en": "have a kesubah of one hundred.",
+    "st": "<b>her marriage contract is one hundred dinars. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "כְּתֻבָּתָן",
+      "en": "their kesubah"
+     },
+     {
+      "he": "מָנֶה.",
+      "en": "a maneh (one hundred zuz)"
+     }
+    ]
+   },
+   {
+    "he": "בֵּית דִּין שֶׁל כֹּהֲנִים הָיוּ",
+    "en": "A beis din of Kohanim would",
+    "st": "<b>A court of priests </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בֵּית",
+      "en": "a beis"
+     },
+     {
+      "he": "דִּין",
+      "en": "din"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "כֹּהֲנִים",
+      "en": "Kohanim"
+     },
+     {
+      "he": "הָיוּ",
+      "en": "would"
+     }
+    ]
+   },
+   {
+    "he": "גוֹבִין לַבְּתוּלָה אַרְבַּע מֵאוֹת זוּז,",
+    "en": "collect four hundred zuz for a maiden (a Kohen's daughter),",
+    "st": "<b>would collect</b> a marriage contract of <b>four hundred dinars for a virgin</b>",
+    "stMore": "daughter of a priest, twice the sum of the standard marriage contract for a virgin,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "גוֹבִין",
+      "en": "collect"
+     },
+     {
+      "he": "לַבְּתוּלָה",
+      "en": "for the maiden"
+     },
+     {
+      "he": "אַרְבַּע",
+      "en": "four"
+     },
+     {
+      "he": "מֵאוֹת",
+      "en": "hundred"
+     },
+     {
+      "he": "זוּז,",
+      "en": "zuz"
+     }
+    ]
+   },
+   {
+    "he": "וְלֹא מִחוּ בְיָדָם חֲכָמִים:",
+    "en": "and the Sages did not stop them.",
+    "st": "<b>and the Sages did not reprimand them.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְלֹא",
+      "en": "and did not"
+     },
+     {
+      "he": "מִחוּ",
+      "en": "stop"
+     },
+     {
+      "he": "בְיָדָם",
+      "en": "them"
+     },
+     {
+      "he": "חֲכָמִים:",
+      "en": "the Sages"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 6,
+  "summary": "A chasan says his kallah was not a maiden before the erusin, and she says something happened only after the erusin. Rabban Gamliel and Rabbi Eliezer believe her; Rabbi Yehoshua says she needs proof.",
+  "stIntro": "There is a case of one",
+  "chunks": [
+   {
+    "he": "הַנּוֹשֵׂא אֶת הָאִשָּׁה וְלֹא מָצָא לָהּ בְּתוּלִים,",
+    "en": "If a man marries a woman and finds that she is not a maiden,",
+    "st": "<b>who marries a woman and did not find her hymen</b> intact, and",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הַנּוֹשֵׂא",
+      "en": "the one who marries"
+     },
+     {
+      "he": "אֶת",
+      "en": "(the)"
+     },
+     {
+      "he": "הָאִשָּׁה",
+      "en": "the woman"
+     },
+     {
+      "he": "וְלֹא",
+      "en": "and not"
+     },
+     {
+      "he": "מָצָא",
+      "en": "found"
+     },
+     {
+      "he": "לָהּ",
+      "en": "for her"
+     },
+     {
+      "he": "בְּתוּלִים,",
+      "en": "being a maiden"
+     }
+    ]
+   },
+   {
+    "he": "הִיא אוֹמֶרֶת,",
+    "en": "she says,",
+    "st": "<b>she says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "אוֹמֶרֶת,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "מִשֶּׁאֵרַסְתַּנִי נֶאֱנַסְתִּי,",
+    "en": "Something bad happened to me after you made me your kallah,",
+    "st": "<b>After you betrothed me I was raped, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מִשֶּׁאֵרַסְתַּנִי",
+      "en": "after you engaged me"
+     },
+     {
+      "he": "נֶאֱנַסְתִּי,",
+      "en": "I was harmed"
+     }
+    ]
+   },
+   {
+    "he": "וְנִסְתַּחֲפָה שָׂדֶךָ.",
+    "en": "so it is your bad luck.",
+    "explain": "A saying: the bad luck fell on you.",
+    "st": "<b>and his,</b> i.e., her husband’s, <b>field was inundated,</b>",
+    "stMore": "meaning that it is his misfortune that she is not a virgin, as she was raped after betrothal.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנִסְתַּחֲפָה",
+      "en": "and was flooded"
+     },
+     {
+      "he": "שָׂדֶךָ.",
+      "en": "your field"
+     }
+    ]
+   },
+   {
+    "he": "וְהַלָּה אוֹמֵר,",
+    "en": "And he says,",
+    "st": "<b>And he says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהַלָּה",
+      "en": "and that one"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כִי,",
+    "en": "No,",
+    "st": "<b>No; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "no"
+     },
+     {
+      "he": "כִי,",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא עַד שֶׁלֹּא אֵרַסְתִּיךְ,",
+    "en": "it happened before I engaged you,",
+    "st": "<b>rather,</b> you were raped <b>before I betrothed you, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "אֵרַסְתִּיךְ,",
+      "en": "I engaged you"
+     }
+    ]
+   },
+   {
+    "he": "וְהָיָה מִקָּחִי מֶקַּח טָעוּת.",
+    "en": "so my deal was a mistake.",
+    "st": "<b>and my transaction was a mistaken transaction. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהָיָה",
+      "en": "and was"
+     },
+     {
+      "he": "מִקָּחִי",
+      "en": "my deal"
+     },
+     {
+      "he": "מֶקַּח",
+      "en": "a deal of"
+     },
+     {
+      "he": "טָעוּת.",
+      "en": "mistake"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן גַּמְלִיאֵל וְרַבִּי אֱלִיעֶזֶר אוֹמְרִים,",
+    "en": "Rabban Gamliel and Rabbi Eliezer say,",
+    "st": "<b>Rabban Gamliel and Rabbi Eliezer say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמֶנֶת. רַבִּי יְהוֹשֻׁעַ אוֹמֵר,",
+    "en": "She is believed. Rabbi Yehoshua says,",
+    "st": "<b>She is deemed credible. Rabbi Yehoshua says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "she is believed"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא מִפִּיהָ אָנוּ חַיִּין,",
+    "en": "We do not live by what she says.",
+    "st": "It is <b>not</b> based on the statement emerging <b>from her mouth</b> that <b>we conduct our lives; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִפִּיהָ",
+      "en": "from her mouth"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "חַיִּין,",
+      "en": "live"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הֲרֵי זוֹ בְחֶזְקַת",
+    "en": "Rather, we treat her as",
+    "st": "<b>rather, this</b> woman assumes <b>the presumptive status of </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "בְחֶזְקַת",
+      "en": "in the status of"
+     }
+    ]
+   },
+   {
+    "he": "בְּעוּלָה עַד שֶׁלֹּא תִתְאָרֵס,",
+    "en": "someone who was not a maiden before the erusin",
+    "st": "<b>one who engaged in intercourse when she was not yet betrothed </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּעוּלָה",
+      "en": "not a maiden"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁלֹּא",
+      "en": "not"
+     },
+     {
+      "he": "תִתְאָרֵס,",
+      "en": "she was engaged"
+     }
+    ]
+   },
+   {
+    "he": "וְהִטְעַתּוּ, עַד שֶׁתָּבִיא רְאָיָה לִדְבָרֶיהָ:",
+    "en": "who fooled him, until she brings proof for her words.",
+    "st": "<b>and she misled him, until she brings proof</b> supporting <b>her statement.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהִטְעַתּוּ,",
+      "en": "and she fooled him"
+     },
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתָּבִיא",
+      "en": "she brings"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "לִדְבָרֶיהָ:",
+      "en": "for her words"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 7,
+  "summary": "A kallah says she was hurt by a piece of wood, and the chasan says a man harmed her. Rabban Gamliel and Rabbi Eliezer believe her; Rabbi Yehoshua says she needs proof.",
+  "stIntro": "In a case where",
+  "chunks": [
+   {
+    "he": "הִיא אוֹמֶרֶת מֻכַּת עֵץ אָנִי,",
+    "en": "She says, I was hurt by a piece of wood,",
+    "st": "<b>she says: I</b> am one whose hymen was <b>ruptured by wood,</b>",
+    "stMore": "i.e., she admits that her hymen is not intact but claims that it was not ruptured through intercourse,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הִיא",
+      "en": "she"
+     },
+     {
+      "he": "אוֹמֶרֶת",
+      "en": "says"
+     },
+     {
+      "he": "מֻכַּת",
+      "en": "hurt by"
+     },
+     {
+      "he": "עֵץ",
+      "en": "wood"
+     },
+     {
+      "he": "אָנִי,",
+      "en": "I am"
+     }
+    ]
+   },
+   {
+    "he": "וְהוּא אוֹמֵר,",
+    "en": "and he says,",
+    "st": "<b>and</b> the groom <b>says: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְהוּא",
+      "en": "and he"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא כִי,",
+    "en": "No,",
+    "st": "<b>No; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "no"
+     },
+     {
+      "he": "כִי,",
+      "en": "so"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא דְרוּסַת אִישׁ אָתְּ,",
+    "en": "rather, a man harmed you.",
+    "st": "<b>rather, you are</b> one who was <b>trampled by a man,</b>",
+    "stMore": "and your hymen was ruptured through intercourse,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "דְרוּסַת",
+      "en": "harmed by"
+     },
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "אָתְּ,",
+      "en": "you are"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן גַּמְלִיאֵל וְרַבִּי אֱלִיעֶזֶר אוֹמְרִים,",
+    "en": "Rabban Gamliel and Rabbi Eliezer say,",
+    "st": "<b>Rabban Gamliel and Rabbi Eliezer say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמֶנֶת. וְרַבִּי יְהוֹשֻׁעַ אוֹמֵר,",
+    "en": "She is believed. And Rabbi Yehoshua says,",
+    "st": "<b>She is deemed credible</b> and her claim is accepted because she certainly knows what actually happened. <b>Rabbi Yehoshua says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "she is believed"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא מִפִּיהָ אָנוּ חַיִּין,",
+    "en": "We do not live by what she says.",
+    "st": "It is <b>not</b> based on the statement emerging <b>from her mouth</b> that <b>we conduct our lives; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִפִּיהָ",
+      "en": "from her mouth"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "חַיִּין,",
+      "en": "live"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הֲרֵי זוֹ בְחֶזְקַת דְּרוּסַת אִישׁ,",
+    "en": "Rather, we treat her as someone harmed by a man,",
+    "st": "<b>rather, she</b> retains <b>the presumptive status of</b> one who <b>was trampled by a man, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "בְחֶזְקַת",
+      "en": "in the status of"
+     },
+     {
+      "he": "דְּרוּסַת",
+      "en": "harmed by"
+     },
+     {
+      "he": "אִישׁ,",
+      "en": "a man"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁתָּבִיא רְאָיָה לִדְבָרֶיהָ:",
+    "en": "until she brings proof for her words.",
+    "st": "<b>until she brings proof</b> supporting <b>her statement</b> that her hymen was ruptured by wood.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתָּבִיא",
+      "en": "she brings"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "לִדְבָרֶיהָ:",
+      "en": "for her words"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 8,
+  "summary": "A woman was seen with a man people did not know, and she says he is a kosher Kohen. Rabban Gamliel and Rabbi Eliezer believe her, so she may still marry a Kohen; Rabbi Yehoshua says she needs proof.",
+  "stIntro": "If people",
+  "chunks": [
+   {
+    "he": "רָאוּהָ מְדַבֶּרֶת עִם אֶחָד בַּשּׁוּק,",
+    "en": "People saw her talking with a man in the market.",
+    "st": "<b>saw</b> a woman <b>speaking to one</b> man, but they did not recognize him,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רָאוּהָ",
+      "en": "they saw her"
+     },
+     {
+      "he": "מְדַבֶּרֶת",
+      "en": "talking"
+     },
+     {
+      "he": "עִם",
+      "en": "with"
+     },
+     {
+      "he": "אֶחָד",
+      "en": "one"
+     },
+     {
+      "he": "בַּשּׁוּק,",
+      "en": "in the market"
+     }
+    ]
+   },
+   {
+    "he": "אָמְרוּ לָהּ מַה טִּיבוֹ שֶׁל זֶה.",
+    "en": "They asked her, Who is this man?",
+    "st": "<b>and they said to her: What is the nature [tivo] of this man?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמְרוּ",
+      "en": "they said"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "טִּיבוֹ",
+      "en": "the kind"
+     },
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "זֶה.",
+      "en": "this one"
+     }
+    ]
+   },
+   {
+    "he": "אִישׁ פְּלוֹנִי וְכֹהֵן הוּא.",
+    "en": "She said, He is a certain man, and he is a Kohen.",
+    "st": "And she said to them: <b>He is a man</b> called <b>so-and-so and he is a priest; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִישׁ",
+      "en": "a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "וְכֹהֵן",
+      "en": "and a Kohen"
+     },
+     {
+      "he": "הוּא.",
+      "en": "he is"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן גַּמְלִיאֵל וְרַבִּי אֱלִיעֶזֶר אוֹמְרִים,",
+    "en": "Rabban Gamliel and Rabbi Eliezer say,",
+    "st": "<b>Rabban Gamliel and Rabbi Eliezer say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמֶנֶת. וְרַבִּי יְהוֹשֻׁעַ אוֹמֵר,",
+    "en": "She is believed. And Rabbi Yehoshua says,",
+    "st": "<b>She is deemed credible, and Rabbi Yehoshua says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "she is believed"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא מִפִּיהָ אָנוּ חַיִּין,",
+    "en": "We do not live by what she says.",
+    "st": "It is <b>not</b> based on the statement emerging <b>from her mouth</b> that <b>we conduct our lives. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִפִּיהָ",
+      "en": "from her mouth"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "חַיִּין,",
+      "en": "live"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הֲרֵי זוֹ בְחֶזְקַת",
+    "en": "Rather, we treat her as",
+    "st": "<b>Rather, she</b> assumes <b>the presumptive status of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "בְחֶזְקַת",
+      "en": "in the status of"
+     }
+    ]
+   },
+   {
+    "he": "בְּעוּלָה לְנָתִין וּלְמַמְזֵר,",
+    "en": "someone who was with a nasin or a mamzer,",
+    "explain": "Then she may not marry a Kohen.",
+    "st": "one who <b>engaged in intercourse with a Gibeonite or with a mamzer,</b>",
+    "stMore": "men of flawed lineage who disqualify her from marrying a priest,",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "בְּעוּלָה",
+      "en": "one who was with"
+     },
+     {
+      "he": "לְנָתִין",
+      "en": "a nasin",
+      "note": "From the Givonim, who may not marry into the Jewish people."
+     },
+     {
+      "he": "וּלְמַמְזֵר,",
+      "en": "or a mamzer",
+      "note": "A child of a forbidden relationship, who may not marry most Jews."
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁתָּבִיא רְאָיָה לִדְבָרֶיהָ:",
+    "en": "until she brings proof for her words.",
+    "st": "<b>until she brings proof</b> supporting <b>her statement.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתָּבִיא",
+      "en": "she brings"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "לִדְבָרֶיהָ:",
+      "en": "for her words"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 9,
+  "summary": "An unmarried woman is expecting a baby and says the father is a kosher Kohen. Rabban Gamliel and Rabbi Eliezer believe her; Rabbi Yehoshua says she needs proof.",
+  "stIntro": "Similarly,",
+  "chunks": [
+   {
+    "he": "הָיְתָה מְעֻבֶּרֶת,",
+    "en": "An unmarried woman was expecting a baby,",
+    "st": "<b>if</b> a single woman <b>was pregnant, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הָיְתָה",
+      "en": "she was"
+     },
+     {
+      "he": "מְעֻבֶּרֶת,",
+      "en": "expecting a baby"
+     }
+    ]
+   },
+   {
+    "he": "וְאָמְרוּ לָהּ מַה טִּיבוֹ",
+    "en": "and people asked her, What kind",
+    "st": "<b>and</b> people <b>said to her: What is the nature </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְאָמְרוּ",
+      "en": "and they said"
+     },
+     {
+      "he": "לָהּ",
+      "en": "to her"
+     },
+     {
+      "he": "מַה",
+      "en": "what"
+     },
+     {
+      "he": "טִּיבוֹ",
+      "en": "the kind"
+     }
+    ]
+   },
+   {
+    "he": "שֶׁל עֻבָּר זֶה.",
+    "en": "of father does this baby have?",
+    "st": "<b>of this fetus?</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "שֶׁל",
+      "en": "of"
+     },
+     {
+      "he": "עֻבָּר",
+      "en": "baby"
+     },
+     {
+      "he": "זֶה.",
+      "en": "this"
+     }
+    ]
+   },
+   {
+    "he": "מֵאִישׁ פְּלוֹנִי וְכֹהֵן הוּא.",
+    "en": "She said, From a certain man, and he is a Kohen.",
+    "st": "And she says to them: <b>It is from a man</b> called <b>so-and-so and he is a priest; </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מֵאִישׁ",
+      "en": "from a man"
+     },
+     {
+      "he": "פְּלוֹנִי",
+      "en": "so-and-so"
+     },
+     {
+      "he": "וְכֹהֵן",
+      "en": "and a Kohen"
+     },
+     {
+      "he": "הוּא.",
+      "en": "he is"
+     }
+    ]
+   },
+   {
+    "he": "רַבָּן גַּמְלִיאֵל וְרַבִּי אֱלִיעֶזֶר אוֹמְרִים,",
+    "en": "Rabban Gamliel and Rabbi Eliezer say,",
+    "st": "<b>Rabban Gamliel and Rabbi Eliezer say: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "רַבָּן",
+      "en": "Rabban"
+     },
+     {
+      "he": "גַּמְלִיאֵל",
+      "en": "Gamliel"
+     },
+     {
+      "he": "וְרַבִּי",
+      "en": "and Rabbi"
+     },
+     {
+      "he": "אֱלִיעֶזֶר",
+      "en": "Eliezer"
+     },
+     {
+      "he": "אוֹמְרִים,",
+      "en": "say"
+     }
+    ]
+   },
+   {
+    "he": "נֶאֱמֶנֶת. רַבִּי יְהוֹשֻׁעַ אוֹמֵר,",
+    "en": "She is believed. Rabbi Yehoshua says,",
+    "st": "<b>She is deemed credible, and Rabbi Yehoshua says:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "נֶאֱמֶנֶת.",
+      "en": "she is believed"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יְהוֹשֻׁעַ",
+      "en": "Yehoshua"
+     },
+     {
+      "he": "אוֹמֵר,",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "he": "לֹא מִפִּיהָ אָנוּ חַיִּין,",
+    "en": "We do not live by what she says.",
+    "st": "It is <b>not</b> based on the statement emerging <b>from her mouth</b> that <b>we conduct our lives. </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "לֹא",
+      "en": "not"
+     },
+     {
+      "he": "מִפִּיהָ",
+      "en": "from her mouth"
+     },
+     {
+      "he": "אָנוּ",
+      "en": "we"
+     },
+     {
+      "he": "חַיִּין,",
+      "en": "live"
+     }
+    ]
+   },
+   {
+    "he": "אֶלָּא הֲרֵי זוֹ בְחֶזְקַת",
+    "en": "Rather, we treat her as",
+    "st": "<b>Rather, she</b> assumes <b>the presumptive status of</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אֶלָּא",
+      "en": "rather"
+     },
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "בְחֶזְקַת",
+      "en": "in the status of"
+     }
+    ]
+   },
+   {
+    "he": "מְעֻבֶּרֶת לְנָתִין וּלְמַמְזֵר,",
+    "en": "having a baby from a nasin or a mamzer,",
+    "st": "one who <b>conceived from a Gibeonite or a mamzer, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מְעֻבֶּרֶת",
+      "en": "expecting"
+     },
+     {
+      "he": "לְנָתִין",
+      "en": "from a nasin"
+     },
+     {
+      "he": "וּלְמַמְזֵר,",
+      "en": "or a mamzer"
+     }
+    ]
+   },
+   {
+    "he": "עַד שֶׁתָּבִיא רְאָיָה לִדְבָרֶיהָ:",
+    "en": "until she brings proof for her words.",
+    "st": "<b>until she brings proof</b> supporting <b>her statement.</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "עַד",
+      "en": "until"
+     },
+     {
+      "he": "שֶׁתָּבִיא",
+      "en": "she brings"
+     },
+     {
+      "he": "רְאָיָה",
+      "en": "proof"
+     },
+     {
+      "he": "לִדְבָרֶיהָ:",
+      "en": "for her words"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "perek": 1,
+  "mishnah": 10,
+  "summary": "A girl was harmed by a stranger at the spring. Rabbi Yochanan ben Nuri says that if most of the town's people may marry Kohanim, she may marry a Kohen too.",
+  "stIntro": "",
+  "chunks": [
+   {
+    "he": "אָמַר רַבִּי יוֹסֵי,",
+    "en": "Rabbi Yosei said,",
+    "st": "<b>Rabbi Yosei said:</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹסֵי,",
+      "en": "Yosei"
+     }
+    ]
+   },
+   {
+    "he": "מַעֲשֶׂה בְתִינוֹקֶת שֶׁיָּרְדָה לְמַלֹּאת",
+    "en": "Once a young girl went down to fill",
+    "st": "There was <b>an incident involving a young girl who descended to fill</b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַעֲשֶׂה",
+      "en": "a story"
+     },
+     {
+      "he": "בְתִינוֹקֶת",
+      "en": "with a young girl"
+     },
+     {
+      "he": "שֶׁיָּרְדָה",
+      "en": "who went down"
+     },
+     {
+      "he": "לְמַלֹּאת",
+      "en": "to fill"
+     }
+    ]
+   },
+   {
+    "he": "מַיִם מִן הָעַיִן,",
+    "en": "water from the spring,",
+    "st": "her jug with <b>water from the spring, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "מַיִם",
+      "en": "water"
+     },
+     {
+      "he": "מִן",
+      "en": "from"
+     },
+     {
+      "he": "הָעַיִן,",
+      "en": "the spring"
+     }
+    ]
+   },
+   {
+    "he": "וְנֶאֱנְסָה. אָמַר רַבִּי יוֹחָנָן בֶּן נוּרִי,",
+    "en": "and someone harmed her. Rabbi Yochanan ben Nuri said,",
+    "st": "<b>and she was raped,</b> and the identity of the rapist was unknown. <b>Rabbi Yoḥanan ben Nuri said: </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "וְנֶאֱנְסָה.",
+      "en": "and she was harmed"
+     },
+     {
+      "he": "אָמַר",
+      "en": "said"
+     },
+     {
+      "he": "רַבִּי",
+      "en": "Rabbi"
+     },
+     {
+      "he": "יוֹחָנָן",
+      "en": "Yochanan"
+     },
+     {
+      "he": "בֶּן",
+      "en": "ben (son of)"
+     },
+     {
+      "he": "נוּרִי,",
+      "en": "Nuri"
+     }
+    ]
+   },
+   {
+    "he": "אִם רֹב אַנְשֵׁי הָעִיר מַשִּׂיאִין לַכְּהֻנָּה,",
+    "en": "If most people of the town marry their daughters to Kohanim,",
+    "st": "<b>If the majority of the people of the city marry</b> their daughters <b>to</b> members of the <b>priesthood, </b>",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "אִם",
+      "en": "if"
+     },
+     {
+      "he": "רֹב",
+      "en": "most"
+     },
+     {
+      "he": "אַנְשֵׁי",
+      "en": "the people of"
+     },
+     {
+      "he": "הָעִיר",
+      "en": "the town"
+     },
+     {
+      "he": "מַשִּׂיאִין",
+      "en": "marry"
+     },
+     {
+      "he": "לַכְּהֻנָּה,",
+      "en": "to the Kehunah (Kohanim)"
+     }
+    ]
+   },
+   {
+    "he": "הֲרֵי זוֹ תִנָּשֵׂא לַכְּהֻנָּה:",
+    "en": "this girl may marry a Kohen.",
+    "st": "<b>this young girl may be married to</b> a member of the priesthood.",
+    "basis": [
+     "steinsaltz"
+    ],
+    "words": [
+     {
+      "he": "הֲרֵי",
+      "en": "here"
+     },
+     {
+      "he": "זוֹ",
+      "en": "this one"
+     },
+     {
+      "he": "תִנָּשֵׂא",
+      "en": "may marry"
+     },
+     {
+      "he": "לַכְּהֻנָּה:",
+      "en": "to the Kehunah (a Kohen)"
+     }
+    ]
+   }
+  ]
+ }
+]
