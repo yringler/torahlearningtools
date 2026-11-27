@@ -275,6 +275,7 @@ main { flex: 1; padding-bottom: 2.5rem; }
   background: var(--accent-soft);
 }
 .card:has(.card-app:hover) .card-cta .arrow { transform: none; }
+.card-apps-note { flex-basis: 100%; font-size: 0.85rem; color: var(--muted); }
 
 /* Sections */
 .section-head { text-align: center; margin: 0 0 1.5rem; }

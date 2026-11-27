@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { ConfigResponse, SignInAs } from "../../shared/api";
 import { api, ApiFailure, NetworkFailure } from "../api/client";
-import { LicensesLink, PricingNote, PrivacyLink } from "../components/Licenses";
+import { AndroidAppNote, LicensesLink, PricingNote, PrivacyLink } from "../components/Licenses";
 import { useOpenLibrary } from "../library/open";
 import { Turnstile, type TurnstileHandle } from "./Turnstile";
 
@@ -53,6 +53,7 @@ export function Choose({ reason, onPick, onGuest }: { reason?: "expired" | undef
       <PricingNote />
       <GuestOption onGuest={onGuest} />
       <LibraryOption />
+      <AndroidAppNote />
     </AuthFrame>
   );
 }

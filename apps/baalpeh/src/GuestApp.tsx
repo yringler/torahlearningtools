@@ -4,7 +4,7 @@ import { kv } from "./kv";
 import { useOpenLibrary } from "./library/open";
 import { dueReviews, isKnown, mp, nextInPerek, nextLearning, type Task } from "./progress";
 import { BreakSetting } from "./components/BreakSetting";
-import { AboutNote, LicensesLink, PricingNote } from "./components/Licenses";
+import { AboutNote, AndroidAppSection, LicensesLink, PricingNote } from "./components/Licenses";
 import { MasechtaGate } from "./components/MasechtaGate";
 import { prefetchMasechta, shapeOf } from "./data";
 import { chooseMasechta, lastMasechtaOf, masechtaTiles, otherDue, resolveMasechta, sederIdOf, sederTiles } from "./nav";
@@ -291,6 +291,7 @@ function GuestSettings({ profile: p, onChange, onBack, onSignIn }: {
           <p className="hint">Nothing is saved for a guest, and it isn't added to your account. These settings last until you switch back.</p>
         )}
       </section>
+      <AndroidAppSection />
       <section>
         <h3>Sources</h3>
         <p className="hint">Hebrew text: Torat Emet via Sefaria. Meanings are based on Steinsaltz (Koren Noé / William Davidson Edition) and Bartenura (tr. R. Shraga Silverstein).</p>

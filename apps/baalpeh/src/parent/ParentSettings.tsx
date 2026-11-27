@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { ParentMeResponse } from "../../shared/api";
-import { AboutNote, LicensesLink, PricingNote } from "../components/Licenses";
+import { AboutNote, AndroidAppSection, LicensesLink, PricingNote } from "../components/Licenses";
 import { copyAsNew, normalizeProfile } from "../legacy/import";
 import { IMPORT_TEST_NOTE } from "../perekTest";
 import { isAppState } from "../storage";
@@ -122,6 +122,8 @@ export function ParentSettings(props: Props) {
           {error && <p className="error" role="alert">{error}</p>}
         </details>
       </section>
+
+      <AndroidAppSection className="card-section" />
 
       <section className="card-section">
         <h3>How it works</h3>
